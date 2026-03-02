@@ -31,9 +31,9 @@ def getCompanies():
             'filter_size': requested_size
         }
         curr.execute("""
-        SELECT * FROM companies
-        WHERE (%(filter_sector)s IS NULL OR sector=%(filter_sector)s)
-        WHERE (%(filter_size)s IS NULL OR size_category=%(filter_size)s);
+                     SELECT * FROM companies 
+                     WHERE (%(filter_sector)s IS NULL OR sector=%(filter_sector)s) 
+                     AND (%(filter_size)s IS NULL OR size_category=%(filter_size)s);
         """, query_variables)
         data = curr.fetchall()
 
@@ -44,15 +44,15 @@ def getCompanies():
         return jsonify({"error": str(e)}), 500
 
 @app.route("/companies/<company_id>", methods=['GET'])
-def getSingleCompany(id):
+def getSingleCompany(company_id):
     try:
         conn = get_db_connection()
         curr = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
         curr.execute("""
-        SELECT * FROM companies
-        WHERE (unique_id=%(id)s);
-        """)
+                     SELECT * FROM companies
+                     WHERE (unique_id=%(company_id)s);
+        """, {'company_id': company_id })
         data = curr.fetchall()
 
         curr.close()
@@ -62,7 +62,7 @@ def getSingleCompany(id):
         return jsonify({"error": str(e)}), 500
 
 @app.route("/companies/<company_id>/neighbors", methods=['GET'])
-def getNeighbors(id):
+def getNeighbors(company_id):
     try:
         conn = get_db_connection()
         curr = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
@@ -71,28 +71,28 @@ def getNeighbors(id):
         requested_size = request.args.get('size')
 
         curr.execute("""
-        SELECT r.company_2_ticker,
-        FROM companies c JOIN relationships r
-        ON c.ticker = r.company_1_ticker
-        WHERE c.id = %(id)s
-        WHERE LEN(r.company_2_ticker) >= $(requested_size)s;
-        """)
-        nodes_data = curr.fetchall()
+                     SELECT r.company_1_ticker, r.company_2_ticker, r.type 
+                     FROM companies c1
+                     JOIN relationships r ON TRIM(UPPER(c1.ticker)) = TRIM(UPPER(r.company_1_ticker))
+                     JOIN companies c2 ON TRIM(UPPER(c2.ticker)) = TRIM(UPPER(r.company_2_ticker))
+                     WHERE (c1.unique_id = %(company_id)s)
+                     AND (%(type)s IS NULL OR r.type = %(type)s)
+                     AND (%(size)s IS NULL OR c2.size_category = %(size)s);
+        """, { 'company_id': company_id, 'size': requested_size, 'type': requested_type })
+        data = curr.fetchall()
 
-        curr.execute("""
-        SELECT r.type,
-        FROM companies c JOIN relationships r
-        ON c.ticker = r.company_1_ticker
-        WHERE c.id = %(id)s
-        WHERE r.type = $(requested_type)s;
-        """)
-        edges_data = curr.fetchall()
+        nodes = [row['company_2_ticker'] for row in data]
+        edges = [ {"from": row['company_1_ticker'], "to": row['company_2_ticker'], "type": row['type']} for row in data]
 
         curr.close()
         conn.close()
+
+        print(f"DEBUG: Looking for ID: {company_id}")
+        print(f"DEBUG: Rows found: {len(data)}")
+        print(f"DEBUG: Raw Data: {data}")
         return jsonify({
-            "nodes": nodes_data,
-            "edges": edges_data
+            "nodes": nodes,
+            "edges": edges
         })
     except Exception as e:
         return jsonify({"error": str(e)}), 500

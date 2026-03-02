@@ -142,6 +142,13 @@ INSERT INTO relationships (company_1_ticker, company_2_ticker, type, is_directio
     False
 );
 
+INSERT INTO relationships (company_1_ticker, company_2_ticker, type, is_directional) VALUES (
+	'LLY',
+    'JNJ',
+    'Competitor',
+    False
+);
+
 
 
 
