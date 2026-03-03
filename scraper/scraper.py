@@ -540,3 +540,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#python scraper.py --file tickers.txt --output data.json
