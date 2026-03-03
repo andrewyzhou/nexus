@@ -1,0 +1,1 @@
+# Backend Python dependencies (FastAPI, SQLAlchemy, psycopg2, etc.)
