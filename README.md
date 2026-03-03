@@ -35,7 +35,7 @@ python init_db.py
 flask run
 ```
 
-runs at `http://127.0.0.1:5000`
+runs at `http://127.0.0.1:5001`
 
 ## stopping the database
 ```bash
