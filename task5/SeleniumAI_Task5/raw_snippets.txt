@@ -1,0 +1,125 @@
+
+[NVDA|SEC-10K-EDGAR]
+EDGAR Filing Documents for 0001045810-26-000021 This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser. SEC.gov EDGAR Latest Filings Filings search tools Filing Detail SEC Home » Company Search » Current Page Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]: SEC Accession No. 0001045810-26-000021 Filing Date 2026-02-25 Accepted 2026-02-25 16:42:19 Documents 112 Period of Report 2026-01-25 Interactive Data Document Format Files Seq Description Document Type Size 1 10-K nvda-20260125.htm iXBRL 10-K 1967816 2 EX-19.1 nvda-2026xex191.htm EX-19.1 20490 3 EX-21.1 subsidiariesofregistrantfy.htm EX-21.1 3583 4 EX-23.1 a2026auditorconsentletter.htm EX-23.1 2030 5 EX-31.1 nvda-2026xex311.htm EX-31.1 8584 6 EX-31.2 nvda-2026xex312.htm EX-31.2 8431 7 EX-32.1 nvda-2026xex321.htm EX-32.1 5760 8 EX-32.2 nvda-2026xex322.htm EX-32.2 5531 14 NVDA LOGO image_0.jpg GRAPHIC 63541 15 NVDA LOGO 2 nvda-20260125_g1.jpg GRAPHIC 7474 16 5YR STOCK PERFORMANCE GRAPH nvda-20260125_g2.jpg GRAPHIC 125979 Complete submission text file 0001045810-26-000021.txt 11461765 Data Files Seq Description Document Type Size 9 XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT nvda-20260125.xsd EX-101.SCH 65719 10 XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT nvda-20260125_cal.xml EX-101.CAL 139207 11 XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT nvda-20260125_def.xml EX-101.DEF 332152 12 XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT nvda-20260125_lab.xml EX-101.LAB 903401 13 XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT nvda-20260125_pre.xml EX-101.PRE 644869 115 EXTRACTED XBRL INSTANCE DOCUMENT nvda-20260125_htm.xml XML 1685733 Mailing Address 2788 SAN TOMAS EXPRESSWAY SANTA CLARA CA 95051 Business Address 2788 SAN TOMAS EXPRESSWAY SANTA CLARA CA 95051 408-486-2000 NVIDIA CORP (Filer) CIK : 0001045810 (see all company filings) EIN. : 943177549 | Stat
+------------------------------------------------------------
+
+[NVDA|YFinance-News]
+No articles found
+------------------------------------------------------------
+
+[NVDA|YFinance-Profile]
+Sector: Technology Industry
+Industry: Semiconductors Full Time Employees
+Description: NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualizatio
+------------------------------------------------------------
+
+[MSFT|SEC-10K-EDGAR]
+EDGAR Filing Documents for 0000950170-25-100235 This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser. SEC.gov EDGAR Latest Filings Filings search tools Filing Detail SEC Home » Company Search » Current Page Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]: SEC Accession No. 0000950170-25-100235 Filing Date 2025-07-30 Accepted 2025-07-30 16:11:40 Documents 127 Period of Report 2025-06-30 Interactive Data Document Format Files Seq Description Document Type Size 1 10-K msft-20250630.htm iXBRL 10-K 8158067 2 EX-10.7 msft-ex10_7.htm EX-10.7 202307 3 EX-10.8 msft-ex10_8.htm EX-10.8 291957 4 EX-21 msft-ex21.htm EX-21 15901 5 EX-23.1 msft-ex23_1.htm EX-23.1 5383 6 EX-31.1 msft-ex31_1.htm EX-31.1 12363 7 EX-31.2 msft-ex31_2.htm EX-31.2 12604 8 EX-32.1 msft-ex32_1.htm EX-32.1 8729 9 EX-32.2 msft-ex32_2.htm EX-32.2 8430 Complete submission text file 0000950170-25-100235.txt 34889671 Data Files Seq Description Document Type Size 10 XBRL TAXONOMY EXTENSION SCHEMA WITH EMBEDDED LINKBASES DOCUMENT msft-20250630.xsd EX-101.SCH 2066295 130 EXTRACTED XBRL INSTANCE DOCUMENT msft-20250630_htm.xml XML 10533273 Mailing Address ONE MICROSOFT WAY REDMOND WA 98052-6399 Business Address ONE MICROSOFT WAY REDMOND WA 98052-6399 425-882-8080 MICROSOFT CORP (Filer) CIK : 0000789019 (see all company filings) EIN. : 911144442 | State of Incorp.: WA | Fiscal Year End: 0630 Type: 10-K | Act: 34 | File No.: 001-37845 | Film No.: 251167157 SIC : 7372 Services-Prepackaged Software (CF Office: 06 Technology)
+------------------------------------------------------------
+
+[MSFT|YFinance-News]
+No articles found
+------------------------------------------------------------
+
+[MSFT|YFinance-Profile]
+Sector: Technology Industry
+Industry: Software
+Description: Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics p
+------------------------------------------------------------
+
+[GOOGL|SEC-10K-EDGAR]
+EDGAR Filing Documents for 0001652044-26-000018 This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser. SEC.gov EDGAR Latest Filings Filings search tools Filing Detail SEC Home » Company Search » Current Page Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]: SEC Accession No. 0001652044-26-000018 Filing Date 2026-02-05 Accepted 2026-02-04 21:56:03 Documents 113 Period of Report 2025-12-31 Interactive Data Document Format Files Seq Description Document Type Size 1 10-K goog-20251231.htm iXBRL 10-K 2616499 2 EX-21.01 googexhibit2101q42025.htm EX-21.01 3453 3 EX-23.01 googexhibit2301q42025.htm EX-23.01 8512 4 EX-31.01 googexhibit3101q42025.htm EX-31.01 10919 5 EX-31.02 googexhibit3102q42025.htm EX-31.02 10676 6 EX-32.01 googexhibit3201q42025.htm EX-32.01 9138 12 goog-20251231_g1.jpg GRAPHIC 150606 13 goog-20251231_g2.jpg GRAPHIC 150534 Complete submission text file 0001652044-26-000018.txt 15653193 Data Files Seq Description Document Type Size 7 XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT goog-20251231.xsd EX-101.SCH 78861 8 XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT goog-20251231_cal.xml EX-101.CAL 176813 9 XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT goog-20251231_def.xml EX-101.DEF 444460 10 XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT goog-20251231_lab.xml EX-101.LAB 1100588 11 XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT goog-20251231_pre.xml EX-101.PRE 762080 116 EXTRACTED XBRL INSTANCE DOCUMENT goog-20251231_htm.xml XML 2880903 Mailing Address 1600 AMPHITHEATRE PARKWAY MOUNTAIN VIEW CA 94043 Business Address 1600 AMPHITHEATRE PARKWAY MOUNTAIN VIEW CA 94043 650-253-0000 Alphabet Inc. (Filer) CIK : 0001652044 (see all company filings) EIN. : 611767919 | State of Incorp.: DE | Fiscal Year End: 1231 Type: 10-K | Act: 34 | File No.: 001-37580 | Film No.: 26600221 SIC : 7370 Services-Computer Prog
+------------------------------------------------------------
+
+[GOOGL|YFinance-News]
+No articles found
+------------------------------------------------------------
+
+[GOOGL|YFinance-Profile]
+Sector: Communication Services Industry
+Industry: Internet Content & Information Full Time Employees
+Description: Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services
+------------------------------------------------------------
+
+[AMZN|SEC-10K-EDGAR]
+EDGAR Filing Documents for 0001018724-26-000004 This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser. SEC.gov EDGAR Latest Filings Filings search tools Filing Detail SEC Home » Company Search » Current Page Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]: SEC Accession No. 0001018724-26-000004 Filing Date 2026-02-06 Accepted 2026-02-05 18:44:31 Documents 112 Period of Report 2025-12-31 Interactive Data Document Format Files Seq Description Document Type Size 1 10-K amzn-20251231.htm iXBRL 10-K 1968342 2 EX-21.1 amzn-20251231xex211.htm EX-21.1 12742 3 EX-23.1 amzn-20251231xex231.htm EX-23.1 6574 4 EX-31.1 amzn-20251231xex311.htm EX-31.1 8166 5 EX-31.2 amzn-20251231xex312.htm EX-31.2 8187 6 EX-32.1 amzn-20251231xex321.htm EX-32.1 4307 7 EX-32.2 amzn-20251231xex322.htm EX-32.2 4476 Complete submission text file 0001018724-26-000004.txt 12700850 Data Files Seq Description Document Type Size 8 XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT amzn-20251231.xsd EX-101.SCH 85578 9 XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT amzn-20251231_cal.xml EX-101.CAL 203987 10 XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT amzn-20251231_def.xml EX-101.DEF 397939 11 XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT amzn-20251231_lab.xml EX-101.LAB 1065099 12 XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT amzn-20251231_pre.xml EX-101.PRE 748056 115 EXTRACTED XBRL INSTANCE DOCUMENT amzn-20251231_htm.xml XML 2072548 Mailing Address 410 TERRY AVENUE NORTH SEATTLE WA 98109 Business Address 410 TERRY AVENUE NORTH SEATTLE WA 98109 2062661000 AMAZON COM INC (Filer) CIK : 0001018724 (see all company filings) EIN. : 911646860 | State of Incorp.: DE | Fiscal Year End: 1231 Type: 10-K | Act: 34 | File No.: 000-22513 | Film No.: 26604493 SIC : 5961 Retail-Catalog & Mail-Order Houses (CF Office: 07 Trade & Services)
+------------------------------------------------------------
+
+[AMZN|YFinance-News]
+No articles found
+------------------------------------------------------------
+
+[AMZN|YFinance-Profile]
+Sector: Consumer Cyclical Industry
+Industry: Internet Retail Full Time Employees
+Description: Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publisher
+------------------------------------------------------------
+
+[META|SEC-10K-EDGAR]
+EDGAR Filing Documents for 0001628280-26-003942 This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser. SEC.gov EDGAR Latest Filings Filings search tools Filing Detail SEC Home » Company Search » Current Page Form 10-K - Annual report [Section 13 and 15(d), not S-K Item 405]: SEC Accession No. 0001628280-26-003942 Filing Date 2026-01-29 Accepted 2026-01-28 19:13:46 Documents 132 Period of Report 2025-12-31 Interactive Data Document Format Files Seq Description Document Type Size 1 10-K meta-20251231.htm iXBRL 10-K 2371750 2 EX-10.4 meta-12312025x10kexhibit104.htm EX-10.4 28540 3 EX-21.1 meta-12312025x10kexhibit211.htm EX-21.1 2735 4 EX-23.1 meta-12312025x10kexhibit231.htm EX-23.1 7485 5 EX-31.1 meta-12312025x10kexhibit311.htm EX-31.1 9507 6 EX-31.2 meta-12312025x10kexhibit312.htm EX-31.2 9377 7 EX-32.1 meta-12312025x10kexhibit321.htm EX-32.1 5998 8 EX-32.2 meta-12312025x10kexhibit322.htm EX-32.2 5846 14 meta-20251231_g1.jpg GRAPHIC 16019 15 meta-20251231_g10.jpg GRAPHIC 65903 16 meta-20251231_g11.jpg GRAPHIC 69713 17 meta-20251231_g12.jpg GRAPHIC 49373 18 meta-20251231_g13.jpg GRAPHIC 48020 19 meta-20251231_g14.jpg GRAPHIC 46137 20 meta-20251231_g15.jpg GRAPHIC 51315 21 meta-20251231_g16.jpg GRAPHIC 47553 22 meta-20251231_g17.jpg GRAPHIC 46974 23 meta-20251231_g18.jpg GRAPHIC 46362 24 meta-20251231_g19.jpg GRAPHIC 48238 25 meta-20251231_g2.jpg GRAPHIC 120049 26 meta-20251231_g20.jpg GRAPHIC 45289 27 meta-20251231_g21.jpg GRAPHIC 50806 28 meta-20251231_g3.jpg GRAPHIC 59198 29 meta-20251231_g4.jpg GRAPHIC 61704 30 meta-20251231_g5.jpg GRAPHIC 57572 31 meta-20251231_g6.jpg GRAPHIC 60497 32 meta-20251231_g7.jpg GRAPHIC 57580 33 meta-20251231_g8.jpg GRAPHIC 8011 34 meta-20251231_g9.jpg GRAPHIC 7906 Complete submission text file 0001628280-26-003942.txt 14509410 Data Files Seq Description Document Type Size 9 XBRL TAXONOMY EXTENSION SCHEMA DOCUME
+------------------------------------------------------------
+
+[META|YFinance-News]
+No articles found
+------------------------------------------------------------
+
+[META|YFinance-Profile]
+Sector: Communication Services Industry
+Industry: Internet Content & Information Full Time Employees
+Description: Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Mes
+------------------------------------------------------------
+
+[TSM|SEC-10K-EDGAR]
+EDGAR Search Results SEC.gov EDGAR Latest Filings Filings search tools EDGAR Company Search Results SEC Home » Company Search » Current Page Mailing Address ONE OLD COUNTRY RD STE 420 CARLE PLACE NY 11514 Business Address ONE OLD COUNTRY RD STE 420 CARLE PLACE NY 11514 5167418097 COSS HOLDING CORP CIK #: 0001046385 (see all company filings) State location: NY | State of Inc.: NY | Fiscal Year End: 1231 Filter Results Search Within Files Filing Type: Prior to: (YYYYMMDD) Ownership? include exclude only Limit Results Per Page 10 Entries 20 Entries 40 Entries 80 Entries 100 Entries Enter keywords Search Filings Format Description Filing Date File/Film Number https://www.sec.gov/cgi-bin/browse-edgar Home | Search the Next-Generation EDGAR System | Previous Page Modified 07/18/2014 We'd welcome your feedback! Would you take a brief survey so we can improve your experience on SEC.gov? Yes, I'll give feedback No thanks Powered by Verint Experience Cloud
+------------------------------------------------------------
+
+[TSM|YFinance-News]
+No articles found
+------------------------------------------------------------
+
+[TSM|YFinance-Profile]
+Sector: Technology Industry
+Industry: Semiconductors Full Time Employees
+Description: Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides various wafer fabrication processes, such as processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also involved in providing customer and engineering support services; manufacturing of ma
+------------------------------------------------------------
+
+[BRK|SEC-13F-Berkshire]
+Berkshire Hathaway 13F Filing (2026-02-17)
+------------------------------------------------------------
+
+[NVDA|Bloomberg-PARTIAL]
+Bloomberg [NVDA] STATUS: PARTIAL | Page title: "Search Results Page".
+Cloudflare JS challenge detected. Selenium automation fingerprinted.
+RECOMMENDATION: Use Bloomberg Terminal API or ScraperAPI proxy for production.
+Screenshot saved: screenshots/bloomberg_NVDA.png
+------------------------------------------------------------
+
+[NVDA|SEC-API-10-K]
+NVIDIA CORP — 10-K filed 2026-02-25
+SIC: 3674 (Semiconductors & Related Devices)
+Accession: 0001045810-26-000021
+------------------------------------------------------------
+
+[MSFT|SEC-API-10-K]
+MICROSOFT CORP — 10-K filed 2025-07-30
+SIC: 7372 (Services-Prepackaged Software)
+Accession: 0000950170-25-100235
+------------------------------------------------------------
+
+[GOOGL|SEC-API-10-K]
+Alphabet Inc. — 10-K filed 2026-02-05
+SIC: 7370 (Services-Computer Programming, Data Processing, Etc.)
+Accession: 0001652044-26-000018
+------------------------------------------------------------
+
+[AMZN|SEC-API-10-K]
+AMAZON COM INC — 10-K filed 2026-02-06
+SIC: 5961 (Retail-Catalog & Mail-Order Houses)
+Accession: 0001018724-26-000004
+------------------------------------------------------------
+
+[META|SEC-API-10-K]
+Meta Platforms, Inc. — 10-K filed 2026-01-29
+SIC: 7370 (Services-Computer Programming, Data Processing, Etc.)
+Accession: 0001628280-26-003942
+------------------------------------------------------------
