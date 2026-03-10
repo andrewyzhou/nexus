@@ -40,6 +40,24 @@ CREATE TABLE IF NOT EXISTS relationships (
 );
 """
 
+CREATE_TRACKS_TABLE = """
+CREATE TABLE IF NOT EXISTS tracks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT UNIQUE NOT NULL,
+    description TEXT
+);
+"""
+
+CREATE_COMPANY_TRACKS_TABLE = """
+CREATE TABLE IF NOT EXISTS company_tracks (
+    track_id INTEGER NOT NULL,
+    company_id INTEGER NOT NULL,
+    FOREIGN KEY (track_id) REFERENCES tracks(id),
+    FOREIGN KEY (company_id) REFERENCES companies(id),
+    UNIQUE (track_id, company_id)
+);
+"""
+
 CREATE_INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_companies_ticker ON companies(ticker);",
     "CREATE INDEX IF NOT EXISTS idx_companies_sector ON companies(sector);",
@@ -49,6 +67,8 @@ CREATE_INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_rel_type ON relationships(relationship_type);",
     "CREATE INDEX IF NOT EXISTS idx_rel_source_type ON relationships(source_ticker, relationship_type);",
     "CREATE INDEX IF NOT EXISTS idx_rel_target_type ON relationships(target_ticker, relationship_type);",
+    "CREATE INDEX IF NOT EXISTS idx_company_tracks_track ON company_tracks(track_id);",
+    "CREATE INDEX IF NOT EXISTS idx_company_tracks_company ON company_tracks(company_id);",
 ]
 
 def init_db():
@@ -59,6 +79,8 @@ def init_db():
 
     cursor.execute(CREATE_TABLE)
     cursor.execute(CREATE_RELATIONSHIPS_TABLE)
+    cursor.execute(CREATE_TRACKS_TABLE)
+    cursor.execute(CREATE_COMPANY_TRACKS_TABLE)
 
     for index_sql in CREATE_INDEXES:
         cursor.execute(index_sql)
