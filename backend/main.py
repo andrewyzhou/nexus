@@ -1,6 +1,6 @@
 # FastAPI application entry point
 # Initializes the app, registers routes, and starts the server
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import sqlite3
 from pathlib import Path
 
@@ -78,6 +78,95 @@ def get_company(ticker):
     }
 
     return jsonify(company)
+
+@app.route("/companies/<ticker>/neighbors")
+def get_neighbors(ticker):
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    # Check company exists
+    cursor.execute("SELECT ticker FROM companies WHERE ticker = ?", (ticker,))
+    if cursor.fetchone() is None:
+        conn.close()
+        return jsonify({"error": "Company not found"}), 404
+
+    # Optional query params
+    rel_type = request.args.get("type")           # filter by relationship_type
+    min_weight = request.args.get("min_weight", type=float)
+    max_weight = request.args.get("max_weight", type=float)
+    limit = request.args.get("limit", default=50, type=int)
+
+    # Build edges query (undirected: ticker appears as source or target)
+    conditions = ["(r.source_ticker = ? OR r.target_ticker = ?)"]
+    params = [ticker, ticker]
+
+    if rel_type:
+        conditions.append("r.relationship_type = ?")
+        params.append(rel_type)
+    if min_weight is not None:
+        conditions.append("r.weight >= ?")
+        params.append(min_weight)
+    if max_weight is not None:
+        conditions.append("r.weight <= ?")
+        params.append(max_weight)
+
+    params.append(limit)
+
+    cursor.execute(f"""
+        SELECT r.id, r.source_ticker, r.target_ticker, r.relationship_type, r.weight, r.metadata
+        FROM relationships r
+        WHERE {' AND '.join(conditions)}
+        ORDER BY r.weight DESC
+        LIMIT ?
+    """, params)
+
+    edge_rows = cursor.fetchall()
+
+    # Collect all unique neighbor tickers
+    neighbor_tickers = set()
+    for row in edge_rows:
+        neighbor_tickers.add(row[1])
+        neighbor_tickers.add(row[2])
+    neighbor_tickers.discard(ticker)
+
+    # Fetch company data for all nodes (origin + neighbors)
+    all_tickers = list(neighbor_tickers | {ticker})
+    placeholders = ",".join("?" * len(all_tickers))
+    cursor.execute(f"""
+        SELECT ticker, name, sector, industry, price, market_cap
+        FROM companies
+        WHERE ticker IN ({placeholders})
+    """, all_tickers)
+
+    company_rows = cursor.fetchall()
+    conn.close()
+
+    nodes = [
+        {
+            "ticker": r[0],
+            "name": r[1],
+            "sector": r[2],
+            "industry": r[3],
+            "price": r[4],
+            "market_cap": r[5],
+        }
+        for r in company_rows
+    ]
+
+    edges = [
+        {
+            "id": r[0],
+            "source": r[1],
+            "target": r[2],
+            "type": r[3],
+            "weight": r[4],
+            "metadata": r[5],
+        }
+        for r in edge_rows
+    ]
+
+    return jsonify({"nodes": nodes, "edges": edges})
+
 
 if __name__ == "__main__":
     app.run(debug=True)
