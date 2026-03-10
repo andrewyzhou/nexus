@@ -1,3 +1,4 @@
 # Scraper & preprocessing dependencies
 flask
 psycopg2-binary
+curl_cffi

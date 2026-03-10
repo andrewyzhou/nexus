@@ -542,4 +542,4 @@ if __name__ == "__main__":
     main()
 
 
-#python scraper.py --file tickers.txt --output data.json
+#python scraper/scraper.py --file scraper/all_tickers.txt --output scraper/data/processed/stock_data.json
