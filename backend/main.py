@@ -173,7 +173,7 @@ def get_neighbors(ticker):
 
     return jsonify({"nodes": nodes, "edges": edges})
 
-@app.route("/investment_tracks")
+@app.route("/investment_tracks", strict_slashes=False)
 def get_investment_tracks():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()

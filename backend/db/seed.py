@@ -4,6 +4,7 @@ from pathlib import Path
 
 DB_PATH = Path(__file__).resolve().parent / "corporate_data.db"
 DATA_PATH = Path(__file__).resolve().parents[2] / "scraper" / "data.json"
+TRACKS_PATH = Path(__file__).resolve().parents[2] / "investment_tracks.json"
 
 def seed():
     conn = sqlite3.connect(DB_PATH)
@@ -41,11 +42,63 @@ def seed():
             c.get("website"),
             c.get("description")
         ))
+    
+    print("Companies inserted")
+
+    load_investment_tracks(cursor)
 
     conn.commit()
     conn.close()
 
     print("Database seeded successfully.")
+
+
+def load_investment_tracks(cursor):
+    with open(TRACKS_PATH) as f:
+        ticker_tracks = json.load(f)
+
+    print(f"Loaded {len(ticker_tracks)} ticker-track mappings")
+
+    unique_tracks = set(ticker_tracks.values())
+
+    track_ids = {}
+
+    for track_name in unique_tracks:
+        cursor.execute(
+            "INSERT OR IGNORE INTO investment_tracks (name) VALUES (?)",
+            (track_name,)
+        )
+
+        cursor.execute(
+            "SELECT id FROM investment_tracks WHERE name = ?",
+            (track_name,)
+        )
+
+        track_id = cursor.fetchone()[0]
+        track_ids[track_name] = track_id
+
+    print(f"Inserted {len(unique_tracks)} unique tracks")
+
+    for ticker, track_name in ticker_tracks.items():
+
+        cursor.execute(
+            "SELECT id FROM companies WHERE ticker = ?",
+            (ticker,)
+        )
+
+        row = cursor.fetchone()
+
+        if row is None:
+            print(f"Skipping missing ticker: {ticker}")
+            continue
+
+        company_id = row[0]
+        track_id = track_ids[track_name]
+
+        cursor.execute("""
+            INSERT OR IGNORE INTO company_tracks (track_id, company_id)
+            VALUES (?, ?)
+        """, (track_id, company_id))
 
 if __name__ == "__main__":
     seed()
