@@ -31,7 +31,7 @@ def safe_int(value):
 def create_tracks_tables(cursor):
     """Create tracks tables if they don't exist yet (idempotent)."""
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS tracks (
+        CREATE TABLE IF NOT EXISTS investment_tracks (
             id          INTEGER PRIMARY KEY AUTOINCREMENT,
             name        TEXT UNIQUE NOT NULL,
             description TEXT
@@ -39,7 +39,7 @@ def create_tracks_tables(cursor):
     """)
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS company_tracks (
-            track_id    INTEGER NOT NULL REFERENCES tracks(id) ON DELETE CASCADE,
+            track_id    INTEGER NOT NULL REFERENCES investment_tracks(id) ON DELETE CASCADE,
             company_id  INTEGER NOT NULL REFERENCES companies(id) ON DELETE CASCADE,
             UNIQUE(track_id, company_id)
         )
@@ -84,31 +84,42 @@ def seed():
 
             cursor.execute("""
                 INSERT INTO companies (
-                    ticker, name, industry, sector, country, currency,
-                    stock_price, market_cap, employees, founded_year
+                    ticker, name, exchange, industry, sector, country, currency,
+                    price, market_cap, enterprise_value, pe_ratio, eps,
+                    employees, website, description
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(ticker) DO UPDATE SET
-                    name         = excluded.name,
-                    industry     = excluded.industry,
-                    sector       = excluded.sector,
-                    country      = excluded.country,
-                    currency     = excluded.currency,
-                    stock_price  = excluded.stock_price,
-                    market_cap   = excluded.market_cap,
-                    employees    = excluded.employees,
-                    founded_year = excluded.founded_year
+                    name             = excluded.name,
+                    exchange         = excluded.exchange,
+                    industry         = excluded.industry,
+                    sector           = excluded.sector,
+                    country          = excluded.country,
+                    currency         = excluded.currency,
+                    price            = excluded.price,
+                    market_cap       = excluded.market_cap,
+                    enterprise_value = excluded.enterprise_value,
+                    pe_ratio         = excluded.pe_ratio,
+                    eps              = excluded.eps,
+                    employees        = excluded.employees,
+                    website          = excluded.website,
+                    description      = excluded.description
             """, (
                 ticker,
                 name,
+                info.get("exchange"),
                 industry,
                 info.get("sector"),
                 country,
                 currency,
                 safe_float(info.get("currentPrice")),
                 safe_int(info.get("marketCap")),
+                safe_int(info.get("enterpriseValue")),
+                safe_float(info.get("trailingPE")),
+                safe_float(info.get("trailingEps")),
                 safe_int(info.get("fullTimeEmployees")),
-                None,  # founded_year — not available from Yahoo Finance
+                info.get("website"),
+                info.get("longBusinessSummary"),
             ))
 
             success_count += 1
@@ -154,11 +165,11 @@ def load_investment_tracks(cursor):
 
     for track_name in unique_tracks:
         cursor.execute(
-            "INSERT OR IGNORE INTO tracks (name) VALUES (?)",
+            "INSERT OR IGNORE INTO investment_tracks (name) VALUES (?)",
             (track_name,)
         )
         cursor.execute(
-            "SELECT id FROM tracks WHERE name = ?",
+            "SELECT id FROM investment_tracks WHERE name = ?",
             (track_name,)
         )
         track_ids[track_name] = cursor.fetchone()[0]

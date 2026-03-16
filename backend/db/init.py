@@ -52,7 +52,7 @@ CREATE_COMPANY_TRACKS_TABLE = """
 CREATE TABLE IF NOT EXISTS company_tracks (
     track_id INTEGER NOT NULL,
     company_id INTEGER NOT NULL,
-    FOREIGN KEY (track_id) REFERENCES tracks(id),
+    FOREIGN KEY (track_id) REFERENCES investment_tracks(id),
     FOREIGN KEY (company_id) REFERENCES companies(id),
     UNIQUE (track_id, company_id)
 );
