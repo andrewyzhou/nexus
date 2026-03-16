@@ -1,12 +1,15 @@
 import json
-import sqlite3
+import psycopg2
 from pathlib import Path
 import yfinance as yf
 import pandas as pd
 import requests
 from io import StringIO
+import sys
 
-DB_PATH = Path(__file__).resolve().parent / "corporate_data.db"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from config import DATABASE_URL
+
 TRACKS_PATH = Path(__file__).resolve().parents[2] / "investment_tracks.json"
 
 
@@ -32,7 +35,7 @@ def create_tracks_tables(cursor):
     """Create tracks tables if they don't exist yet (idempotent)."""
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS investment_tracks (
-            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            id          SERIAL PRIMARY KEY,
             name        TEXT UNIQUE NOT NULL,
             description TEXT
         )
@@ -48,7 +51,7 @@ def create_tracks_tables(cursor):
 
 
 def seed():
-    conn = sqlite3.connect(DB_PATH)
+    conn = psycopg2.connect(DATABASE_URL)
     cursor = conn.cursor()
 
     # Ensure tracks tables exist before we need them
@@ -88,22 +91,22 @@ def seed():
                     price, market_cap, enterprise_value, pe_ratio, eps,
                     employees, website, description
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ON CONFLICT(ticker) DO UPDATE SET
-                    name             = excluded.name,
-                    exchange         = excluded.exchange,
-                    industry         = excluded.industry,
-                    sector           = excluded.sector,
-                    country          = excluded.country,
-                    currency         = excluded.currency,
-                    price            = excluded.price,
-                    market_cap       = excluded.market_cap,
-                    enterprise_value = excluded.enterprise_value,
-                    pe_ratio         = excluded.pe_ratio,
-                    eps              = excluded.eps,
-                    employees        = excluded.employees,
-                    website          = excluded.website,
-                    description      = excluded.description
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (ticker) DO UPDATE SET
+                    name             = EXCLUDED.name,
+                    exchange         = EXCLUDED.exchange,
+                    industry         = EXCLUDED.industry,
+                    sector           = EXCLUDED.sector,
+                    country          = EXCLUDED.country,
+                    currency         = EXCLUDED.currency,
+                    price            = EXCLUDED.price,
+                    market_cap       = EXCLUDED.market_cap,
+                    enterprise_value = EXCLUDED.enterprise_value,
+                    pe_ratio         = EXCLUDED.pe_ratio,
+                    eps              = EXCLUDED.eps,
+                    employees        = EXCLUDED.employees,
+                    website          = EXCLUDED.website,
+                    description      = EXCLUDED.description
             """, (
                 ticker,
                 name,
@@ -165,11 +168,11 @@ def load_investment_tracks(cursor):
 
     for track_name in unique_tracks:
         cursor.execute(
-            "INSERT OR IGNORE INTO investment_tracks (name) VALUES (?)",
+            "INSERT INTO investment_tracks (name) VALUES (%s) ON CONFLICT (name) DO NOTHING",
             (track_name,)
         )
         cursor.execute(
-            "SELECT id FROM investment_tracks WHERE name = ?",
+            "SELECT id FROM investment_tracks WHERE name = %s",
             (track_name,)
         )
         track_ids[track_name] = cursor.fetchone()[0]
@@ -180,7 +183,7 @@ def load_investment_tracks(cursor):
     skipped_missing = 0
 
     for ticker, track_name in ticker_tracks.items():
-        cursor.execute("SELECT id FROM companies WHERE ticker = ?", (ticker,))
+        cursor.execute("SELECT id FROM companies WHERE ticker = %s", (ticker,))
         row = cursor.fetchone()
 
         if row is None:
@@ -189,8 +192,9 @@ def load_investment_tracks(cursor):
             continue
 
         cursor.execute("""
-            INSERT OR IGNORE INTO company_tracks (track_id, company_id)
-            VALUES (?, ?)
+            INSERT INTO company_tracks (track_id, company_id)
+            VALUES (%s, %s)
+            ON CONFLICT DO NOTHING
         """, (track_ids[track_name], row[0]))
         linked += 1
 
