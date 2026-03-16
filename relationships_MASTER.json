@@ -1,0 +1,395 @@
+{
+  "last_updated": "2026-03-15T19:13:47.232477",
+  "track_name": [
+    {
+      "track_name": "CLOUD_ENTERPRISE_SOFTWARE",
+      "last_updated": "2026-03-15T19:13:47.227546",
+      "nodes": [
+        {
+          "id": "CRM",
+          "name": "CRM",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "id": "ORCL",
+          "name": "ORCL",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "id": "NOW",
+          "name": "NOW",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "id": "ADBE",
+          "name": "ADBE",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "id": "WDAY",
+          "name": "WDAY",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        }
+      ],
+      "links": [
+        {
+          "pair": "CRM - ORCL",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both CRM and ORCL.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "CRM - NOW",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both CRM and NOW.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "CRM - ADBE",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both CRM and ADBE.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "CRM - WDAY",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both CRM and WDAY.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "ORCL - NOW",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both ORCL and NOW.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "ORCL - ADBE",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both ORCL and ADBE.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "ORCL - WDAY",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both ORCL and WDAY.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "NOW - ADBE",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both NOW and ADBE.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "NOW - WDAY",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both NOW and WDAY.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "ADBE - WDAY",
+          "relationship": "Shared Institutional Holder",
+          "summary": "Vanguard Group Inc holds stakes in both ADBE and WDAY.",
+          "sources": [
+            "yFinance institutional holders"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "ORCL - ORCL",
+          "relationship": "Partnership",
+          "summary": "ORCL references Oracle products and services deployed within local IT environments and public cloud IT environments, including our Oracle Cloud environments as a partnership in their 10-K filing.",
+          "sources": [
+            "SEC EDGAR 10-K (2025-06-18)"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "ADBE - ADBE",
+          "relationship": "Investment",
+          "summary": "ADBE references Adobe solutions as a investment in their 10-K filing.",
+          "sources": [
+            "SEC EDGAR 10-K (2026-01-15)"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "WDAY - WDAY",
+          "relationship": "Partnership",
+          "summary": "WDAY references Workday, helping organizations to securely connect and analyze HCM and finance data in context with customer, market, and operational data as a partnership in their 10-K filing.",
+          "sources": [
+            "SEC EDGAR 10-K (2026-03-06)"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "INVESTOR - CRM",
+          "relationship": "13G Passive Stake",
+          "summary": "Investor filed SC 13G for CRM on 2024-10-16.",
+          "sources": [
+            "SEC EDGAR SC 13G (2024-10-16)"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "INVESTOR - ORCL",
+          "relationship": "13D Activist Stake",
+          "summary": "Investor filed SC 13D for ORCL on 2016-08-12.",
+          "sources": [
+            "SEC EDGAR SC 13D (2016-08-12)"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        },
+        {
+          "pair": "INVESTOR - WDAY",
+          "relationship": "13G Passive Stake",
+          "summary": "Investor filed SC 13G for WDAY on 2021-02-04.",
+          "sources": [
+            "SEC EDGAR SC 13G (2021-02-04)"
+          ],
+          "track": "CLOUD_ENTERPRISE_SOFTWARE"
+        }
+      ],
+      "metadata": {
+        "total_nodes": 5,
+        "total_links": 16,
+        "sources": [
+          "yFinance (CRM)",
+          "yFinance (ADBE)",
+          "SEC 10-K ADBE (2026-01-15)",
+          "SEC 10-K WDAY (2026-03-06)",
+          "SEC 10-K CRM (2026-03-02)",
+          "yFinance (WDAY)",
+          "yFinance (NOW)",
+          "SEC 10-K NOW (2026-01-29)",
+          "SEC 10-K ORCL (2025-06-18)",
+          "yFinance (ORCL)"
+        ]
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "CRM",
+      "name": "CRM",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "id": "ORCL",
+      "name": "ORCL",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "id": "NOW",
+      "name": "NOW",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "id": "ADBE",
+      "name": "ADBE",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "id": "WDAY",
+      "name": "WDAY",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    }
+  ],
+  "links": [
+    {
+      "pair": "CRM - ORCL",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both CRM and ORCL.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "CRM - NOW",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both CRM and NOW.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "CRM - ADBE",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both CRM and ADBE.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "CRM - WDAY",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both CRM and WDAY.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "ORCL - NOW",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both ORCL and NOW.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "ORCL - ADBE",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both ORCL and ADBE.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "ORCL - WDAY",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both ORCL and WDAY.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "NOW - ADBE",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both NOW and ADBE.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "NOW - WDAY",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both NOW and WDAY.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "ADBE - WDAY",
+      "relationship": "Shared Institutional Holder",
+      "summary": "Vanguard Group Inc holds stakes in both ADBE and WDAY.",
+      "sources": [
+        "yFinance institutional holders"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "ORCL - ORCL",
+      "relationship": "Partnership",
+      "summary": "ORCL references Oracle products and services deployed within local IT environments and public cloud IT environments, including our Oracle Cloud environments as a partnership in their 10-K filing.",
+      "sources": [
+        "SEC EDGAR 10-K (2025-06-18)"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "ADBE - ADBE",
+      "relationship": "Investment",
+      "summary": "ADBE references Adobe solutions as a investment in their 10-K filing.",
+      "sources": [
+        "SEC EDGAR 10-K (2026-01-15)"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "WDAY - WDAY",
+      "relationship": "Partnership",
+      "summary": "WDAY references Workday, helping organizations to securely connect and analyze HCM and finance data in context with customer, market, and operational data as a partnership in their 10-K filing.",
+      "sources": [
+        "SEC EDGAR 10-K (2026-03-06)"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "INVESTOR - CRM",
+      "relationship": "13G Passive Stake",
+      "summary": "Investor filed SC 13G for CRM on 2024-10-16.",
+      "sources": [
+        "SEC EDGAR SC 13G (2024-10-16)"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "INVESTOR - ORCL",
+      "relationship": "13D Activist Stake",
+      "summary": "Investor filed SC 13D for ORCL on 2016-08-12.",
+      "sources": [
+        "SEC EDGAR SC 13D (2016-08-12)"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    },
+    {
+      "pair": "INVESTOR - WDAY",
+      "relationship": "13G Passive Stake",
+      "summary": "Investor filed SC 13G for WDAY on 2021-02-04.",
+      "sources": [
+        "SEC EDGAR SC 13G (2021-02-04)"
+      ],
+      "track": "CLOUD_ENTERPRISE_SOFTWARE"
+    }
+  ],
+  "metadata": {
+    "total_nodes": 5,
+    "total_links": 16
+  }
+}
