@@ -1,1 +1,14 @@
-# Docker Compose config for the backend stack (PostgreSQL, API server)
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: nexus
+      POSTGRES_PASSWORD: nexus
+      POSTGRES_DB: corporate_data
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
