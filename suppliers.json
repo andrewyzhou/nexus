@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "ticker": "CRM",
+      "suppliers": [
+        "NONE"
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "suppliers": [
+        "NONE"
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "suppliers": [
+        "NONE"
+      ]
+    },
+    {
+      "ticker": "ADBE",
+      "suppliers": [
+        "NONE"
+      ]
+    },
+    {
+      "ticker": "WDAY",
+      "suppliers": [
+        "NONE"
+      ]
+    }
+  ]
+}
