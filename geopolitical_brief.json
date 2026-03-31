@@ -1,0 +1,96 @@
+{
+  "track_name": "Agriculture & fertilizer",
+  "last_updated": "2026-03-31",
+  "nodes": [
+    {
+      "id": "ADM",
+      "name": "Archer-Daniels-Midland"
+    },
+    {
+      "id": "DE",
+      "name": "Deere & Company"
+    },
+    {
+      "id": "MOS",
+      "name": "Mosaic Company"
+    },
+    {
+      "id": "BG",
+      "name": "Bunge Global"
+    },
+    {
+      "id": "CTVA",
+      "name": "Corteva Inc."
+    }
+  ],
+  "links": [
+    {
+      "pair": "ADM - MOS",
+      "relationship": "one",
+      "summary": "Why Is Mosaic (MOS) Down 2.9% Since Last Earnings Report? Wall Street Cuts Mosaic Company Again: UBS Slashes Target to $27 MOS Trades at 14x Earnings While Its Brazil Business Just Grew EBITDA 190% In Q3 2025 Is The Mosaic Company Stock Underperforming the Nasdaq? The Mosaic Company (MOS) Traded Down Due to Softer Fertilizer Demand Is Mosaic (MOS) Still A Bargain After Its Recent 20% Share Price Jump?",
+      "sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/why-mosaic-mos-down-2-153008560.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/26/wall-street-cuts-mosaic-company-again-ubs-slashes-target-to-27/?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/24/mos-trades-at-14x-earnings-while-its-brazil-business-just-grew-ebitda-190-in-q3-2025/?.tsrc=rss",
+        "https://www.barchart.com/story/news/920517/is-the-mosaic-company-stock-underperforming-the-nasdaq?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-company-mos-traded-down-110623097.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-still-bargain-recent-140524667.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-drops-9-96-084136341.html?.tsrc=rss",
+        "https://www.proactiveinvestors.com/companies/news/1089260/mosaic-downgraded-by-bank-of-america-amid-margin-pressures-1089260.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/18/mosaics-rare-earths-bet-could-revalue-the-stock-what-that-means-for-investors/?.tsrc=rss",
+        "https://finance.yahoo.com/news/mosaic-mos-quietly-recasting-fertilizer-211134323.html?.tsrc=rss"
+      ]
+    },
+    {
+      "pair": "DE - MOS",
+      "relationship": "one",
+      "summary": "Why Is Mosaic (MOS) Down 2.9% Since Last Earnings Report? Wall Street Cuts Mosaic Company Again: UBS Slashes Target to $27 MOS Trades at 14x Earnings While Its Brazil Business Just Grew EBITDA 190% In Q3 2025 Is The Mosaic Company Stock Underperforming the Nasdaq? The Mosaic Company (MOS) Traded Down Due to Softer Fertilizer Demand Is Mosaic (MOS) Still A Bargain After Its Recent 20% Share Price Jump?",
+      "sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/why-mosaic-mos-down-2-153008560.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/26/wall-street-cuts-mosaic-company-again-ubs-slashes-target-to-27/?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/24/mos-trades-at-14x-earnings-while-its-brazil-business-just-grew-ebitda-190-in-q3-2025/?.tsrc=rss",
+        "https://www.barchart.com/story/news/920517/is-the-mosaic-company-stock-underperforming-the-nasdaq?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-company-mos-traded-down-110623097.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-still-bargain-recent-140524667.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-drops-9-96-084136341.html?.tsrc=rss",
+        "https://www.proactiveinvestors.com/companies/news/1089260/mosaic-downgraded-by-bank-of-america-amid-margin-pressures-1089260.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/18/mosaics-rare-earths-bet-could-revalue-the-stock-what-that-means-for-investors/?.tsrc=rss",
+        "https://finance.yahoo.com/news/mosaic-mos-quietly-recasting-fertilizer-211134323.html?.tsrc=rss"
+      ]
+    },
+    {
+      "pair": "MOS - BG",
+      "relationship": "one",
+      "summary": "Why Is Mosaic (MOS) Down 2.9% Since Last Earnings Report? Wall Street Cuts Mosaic Company Again: UBS Slashes Target to $27 MOS Trades at 14x Earnings While Its Brazil Business Just Grew EBITDA 190% In Q3 2025 Is The Mosaic Company Stock Underperforming the Nasdaq? The Mosaic Company (MOS) Traded Down Due to Softer Fertilizer Demand Is Mosaic (MOS) Still A Bargain After Its Recent 20% Share Price Jump?",
+      "sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/why-mosaic-mos-down-2-153008560.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/26/wall-street-cuts-mosaic-company-again-ubs-slashes-target-to-27/?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/24/mos-trades-at-14x-earnings-while-its-brazil-business-just-grew-ebitda-190-in-q3-2025/?.tsrc=rss",
+        "https://www.barchart.com/story/news/920517/is-the-mosaic-company-stock-underperforming-the-nasdaq?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-company-mos-traded-down-110623097.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-still-bargain-recent-140524667.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-drops-9-96-084136341.html?.tsrc=rss",
+        "https://www.proactiveinvestors.com/companies/news/1089260/mosaic-downgraded-by-bank-of-america-amid-margin-pressures-1089260.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/18/mosaics-rare-earths-bet-could-revalue-the-stock-what-that-means-for-investors/?.tsrc=rss",
+        "https://finance.yahoo.com/news/mosaic-mos-quietly-recasting-fertilizer-211134323.html?.tsrc=rss"
+      ]
+    },
+    {
+      "pair": "MOS - CTVA",
+      "relationship": "one",
+      "summary": "Why Is Mosaic (MOS) Down 2.9% Since Last Earnings Report? Wall Street Cuts Mosaic Company Again: UBS Slashes Target to $27 MOS Trades at 14x Earnings While Its Brazil Business Just Grew EBITDA 190% In Q3 2025 Is The Mosaic Company Stock Underperforming the Nasdaq? The Mosaic Company (MOS) Traded Down Due to Softer Fertilizer Demand Is Mosaic (MOS) Still A Bargain After Its Recent 20% Share Price Jump?",
+      "sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/why-mosaic-mos-down-2-153008560.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/26/wall-street-cuts-mosaic-company-again-ubs-slashes-target-to-27/?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/24/mos-trades-at-14x-earnings-while-its-brazil-business-just-grew-ebitda-190-in-q3-2025/?.tsrc=rss",
+        "https://www.barchart.com/story/news/920517/is-the-mosaic-company-stock-underperforming-the-nasdaq?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-company-mos-traded-down-110623097.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-still-bargain-recent-140524667.html?.tsrc=rss",
+        "https://finance.yahoo.com/markets/stocks/articles/mosaic-mos-drops-9-96-084136341.html?.tsrc=rss",
+        "https://www.proactiveinvestors.com/companies/news/1089260/mosaic-downgraded-by-bank-of-america-amid-margin-pressures-1089260.html?.tsrc=rss",
+        "https://247wallst.com/investing/2026/03/18/mosaics-rare-earths-bet-could-revalue-the-stock-what-that-means-for-investors/?.tsrc=rss",
+        "https://finance.yahoo.com/news/mosaic-mos-quietly-recasting-fertilizer-211134323.html?.tsrc=rss"
+      ]
+    }
+  ]
+}
