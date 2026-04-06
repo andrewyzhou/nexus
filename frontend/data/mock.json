@@ -1,0 +1,73 @@
+{
+  "_schema": {
+    "nodes": "Array of company nodes. Fields: id (string), name (string), ticker (string), sector (string), marketCap (number, billions USD), price (number, USD), track (string - matches a track id), description (string)",
+    "edges": "Array of relationships. Fields: source (node id), target (node id), type (string: 'partnership'|'competitor'|'supplier'|'investor')",
+    "tracks": "Investment track definitions. Fields: id (string), label (string), color (CSS color string)"
+  },
+  "tracks": [
+    { "id": "ai-infra",    "label": "AI Infrastructure",  "color": "#00d4ff" },
+    { "id": "fintech",     "label": "FinTech",             "color": "#f59e0b" },
+    { "id": "biotech",     "label": "BioTech",             "color": "#10b981" },
+    { "id": "defense",     "label": "Defense & Cyber",     "color": "#ef4444" },
+    { "id": "cleantech",   "label": "CleanTech",           "color": "#a78bfa" }
+  ],
+  "nodes": [
+    { "id": "nvda",   "name": "NVIDIA Corporation",      "ticker": "NVDA",  "sector": "Semiconductors",       "marketCap": 2200, "price": 887.42,  "track": "ai-infra",  "description": "Dominant GPU maker powering AI training and inference workloads worldwide." },
+    { "id": "tsmc",   "name": "Taiwan Semiconductor",    "ticker": "TSM",   "sector": "Semiconductors",       "marketCap": 720,  "price": 138.90,  "track": "ai-infra",  "description": "World's largest contract chip manufacturer, foundry for NVIDIA, Apple, and AMD." },
+    { "id": "amd",    "name": "Advanced Micro Devices",  "ticker": "AMD",   "sector": "Semiconductors",       "marketCap": 290,  "price": 178.55,  "track": "ai-infra",  "description": "GPU and CPU competitor challenging NVIDIA in the AI accelerator market." },
+    { "id": "msft",   "name": "Microsoft Corporation",   "ticker": "MSFT",  "sector": "Cloud & Software",     "marketCap": 3100, "price": 417.12,  "track": "ai-infra",  "description": "Azure cloud platform and majority investor in OpenAI, integrating AI across product suite." },
+    { "id": "googl",  "name": "Alphabet Inc.",           "ticker": "GOOGL", "sector": "Cloud & Software",     "marketCap": 2100, "price": 170.38,  "track": "ai-infra",  "description": "Google Cloud and Gemini AI compete directly with Microsoft and OpenAI." },
+    { "id": "arm",    "name": "Arm Holdings",            "ticker": "ARM",   "sector": "Semiconductors",       "marketCap": 160,  "price": 154.80,  "track": "ai-infra",  "description": "Chip architecture licensor; designs power nearly all mobile and edge AI devices." },
+
+    { "id": "sq",     "name": "Block Inc.",              "ticker": "SQ",    "sector": "Payments",             "marketCap": 42,   "price": 69.22,   "track": "fintech",   "description": "Payments and financial services for SMBs and consumers via Square and Cash App." },
+    { "id": "pypl",   "name": "PayPal Holdings",         "ticker": "PYPL",  "sector": "Payments",             "marketCap": 68,   "price": 62.45,   "track": "fintech",   "description": "Global digital payments leader undergoing strategic transformation under new leadership." },
+    { "id": "coin",   "name": "Coinbase Global",         "ticker": "COIN",  "sector": "Crypto Exchange",      "marketCap": 55,   "price": 215.10,  "track": "fintech",   "description": "Leading U.S. crypto exchange and custody platform, regulated by SEC." },
+    { "id": "afrm",   "name": "Affirm Holdings",         "ticker": "AFRM",  "sector": "BNPL",                 "marketCap": 17,   "price": 52.30,   "track": "fintech",   "description": "Buy-now-pay-later platform with major partnerships including Amazon and Shopify." },
+
+    { "id": "mrna",   "name": "Moderna Inc.",            "ticker": "MRNA",  "sector": "mRNA Therapeutics",   "marketCap": 46,   "price": 120.15,  "track": "biotech",   "description": "Pioneer in mRNA therapeutics, expanding beyond COVID vaccines into oncology." },
+    { "id": "crsp",   "name": "CRISPR Therapeutics",     "ticker": "CRSP",  "sector": "Gene Editing",         "marketCap": 5,    "price": 63.75,   "track": "biotech",   "description": "Gene editing biotech with first approved CRISPR therapy for sickle cell disease." },
+    { "id": "roiv",   "name": "Roivant Sciences",        "ticker": "ROIV",  "sector": "Biopharma",            "marketCap": 8,    "price": 12.40,   "track": "biotech",   "description": "Biopharma holding company building and spinning out subsidiary Vants." },
+    { "id": "rxrx",   "name": "Recursion Pharmaceuticals","ticker":"RXRX",  "sector": "AI Drug Discovery",    "marketCap": 4,    "price": 8.22,    "track": "biotech",   "description": "Uses AI and high-throughput biology to decode disease and discover drugs." },
+
+    { "id": "pltr",   "name": "Palantir Technologies",   "ticker": "PLTR",  "sector": "Defense Analytics",   "marketCap": 110,  "price": 24.80,   "track": "defense",   "description": "AI-powered data analytics platform for government, defense, and enterprise." },
+    { "id": "s",      "name": "SentinelOne",             "ticker": "S",     "sector": "Cybersecurity",        "marketCap": 17,   "price": 24.10,   "track": "defense",   "description": "AI-native cybersecurity platform for endpoint and cloud protection." },
+    { "id": "crwd",   "name": "CrowdStrike Holdings",    "ticker": "CRWD",  "sector": "Cybersecurity",        "marketCap": 85,   "price": 352.40,  "track": "defense",   "description": "Cloud-delivered endpoint security and threat intelligence leader." },
+    { "id": "ktos",   "name": "Kratos Defense",          "ticker": "KTOS",  "sector": "Defense Hardware",     "marketCap": 5,    "price": 27.30,   "track": "defense",   "description": "Builds unmanned systems, satellites, and hypersonic test vehicles for the DoD." },
+
+    { "id": "enph",   "name": "Enphase Energy",          "ticker": "ENPH",  "sector": "Solar",                "marketCap": 12,   "price": 94.50,   "track": "cleantech", "description": "Microinverter and home energy management systems for residential solar." },
+    { "id": "be",     "name": "Bloom Energy",            "ticker": "BE",    "sector": "Fuel Cells",           "marketCap": 4,    "price": 15.70,   "track": "cleantech", "description": "Solid oxide fuel cell systems for clean, on-site power generation." },
+    { "id": "chpt",   "name": "ChargePoint Holdings",    "ticker": "CHPT",  "sector": "EV Charging",          "marketCap": 1,    "price": 1.45,    "track": "cleantech", "description": "Largest EV charging network operator in North America and Europe." }
+  ],
+  "edges": [
+    { "source": "nvda",  "target": "tsmc",  "type": "supplier" },
+    { "source": "amd",   "target": "tsmc",  "type": "supplier" },
+    { "source": "arm",   "target": "nvda",  "type": "partnership" },
+    { "source": "arm",   "target": "amd",   "type": "partnership" },
+    { "source": "msft",  "target": "nvda",  "type": "partnership" },
+    { "source": "msft",  "target": "googl", "type": "competitor" },
+    { "source": "googl", "target": "nvda",  "type": "partnership" },
+    { "source": "googl", "target": "amd",   "type": "partnership" },
+    { "source": "rxrx",  "target": "nvda",  "type": "partnership" },
+    { "source": "pltr",  "target": "msft",  "type": "partnership" },
+    { "source": "pltr",  "target": "googl", "type": "partnership" },
+    { "source": "pltr",  "target": "ktos",  "type": "partnership" },
+    { "source": "crwd",  "target": "msft",  "type": "partnership" },
+    { "source": "s",     "target": "crwd",  "type": "competitor" },
+    { "source": "sq",    "target": "pypl",  "type": "competitor" },
+    { "source": "sq",    "target": "coin",  "type": "partnership" },
+    { "source": "pypl",  "target": "afrm",  "type": "competitor" },
+    { "source": "coin",  "target": "afrm",  "type": "partnership" },
+    { "source": "mrna",  "target": "crsp",  "type": "competitor" },
+    { "source": "mrna",  "target": "roiv",  "type": "partnership" },
+    { "source": "crsp",  "target": "rxrx",  "type": "partnership" },
+    { "source": "roiv",  "target": "rxrx",  "type": "investor" },
+    { "source": "enph",  "target": "be",    "type": "competitor" },
+    { "source": "enph",  "target": "chpt",  "type": "partnership" },
+    { "source": "be",    "target": "msft",  "type": "partnership" },
+    { "source": "chpt",  "target": "googl", "type": "partnership" },
+    { "source": "ktos",  "target": "pltr",  "type": "partnership" },
+    { "source": "s",     "target": "googl", "type": "partnership" },
+    { "source": "rxrx",  "target": "googl", "type": "partnership" },
+    { "source": "afrm",  "target": "msft",  "type": "partnership" }
+  ]
+}
