@@ -5,7 +5,7 @@
    when real API data comes in.
    ========================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&family=Geist:wght@300;400;500;600&display=swap');
 
 /* ── Track colors (replace with API values later) ───────── */
 :root {
@@ -43,8 +43,8 @@
   --sp-xl: 32px;
 
   /* ── Typography ─────────────────────────────────────────── */
-  --font-mono:   'Space Mono', monospace;
-  --font-body:   'DM Sans', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+--font-body: 'Geist', sans-serif;
   --radius-sm:   6px;
   --radius-md:   10px;
 
