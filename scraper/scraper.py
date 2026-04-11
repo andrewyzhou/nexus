@@ -18,6 +18,7 @@ As a module:
     data = scraper.get("NVDA")
     bulk = scraper.get_bulk(["NVDA", "AAPL", "MSFT", ...])
 """
+from __future__ import annotations
 
 import asyncio
 import json

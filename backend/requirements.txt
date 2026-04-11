@@ -5,3 +5,5 @@ yfinance
 pandas
 requests
 curl_cffi
+python-dotenv
+beautifulsoup4

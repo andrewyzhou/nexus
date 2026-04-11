@@ -15,6 +15,8 @@ Run:
 
 Total runtime: ~60s for the full ~4300 tickers, ~5s for a 200-ticker cap.
 """
+from __future__ import annotations
+
 import json
 import os
 import sys
