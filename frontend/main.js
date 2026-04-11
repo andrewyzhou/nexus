@@ -1,13 +1,11 @@
 /**
  * main.js — Nexus Frontend
  *
- * Loads data/mock.json and wires up:
- *   • D3 force-directed graph (pan/zoom, hover tooltip, click detail)
- *   • Left sidebar: company search + track filters
- *   • Right detail panel: company info + connections
- *
- * TODO (next task): Replace fetch('./data/mock.json') with real API calls.
+ * Tries the live backend first (GET /graph). If unreachable or empty,
+ * falls back to ./data/mock.json so the demo still renders.
  */
+const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
+  || 'http://localhost:5001';
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
 const EDGE_COLORS = {
@@ -25,11 +23,31 @@ let selectedNode  = null;
 let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
+async function loadGraphData() {
+  try {
+    const res = await fetch(`${API_BASE}/graph`);
+    if (!res.ok) throw new Error(`API ${res.status}`);
+    const data = await res.json();
+    if (data && Array.isArray(data.nodes) && data.nodes.length > 0) {
+      console.info(`[nexus] loaded ${data.nodes.length} nodes / ${data.edges.length} edges from API`);
+      return { ...data, _source: 'api' };
+    }
+    console.warn('[nexus] API returned empty graph, falling back to mock');
+  } catch (err) {
+    console.warn('[nexus] API unreachable, falling back to mock:', err.message);
+  }
+  const mock = await fetch('./data/mock.json').then(r => r.json());
+  return { ...mock, _source: 'mock' };
+}
+
 async function init() {
-  const data = await fetch('./data/mock.json').then(r => r.json());
+  const data = await loadGraphData();
   tracks   = data.tracks;
   allNodes = data.nodes.map(n => ({ ...n }));   // shallow copy so D3 can mutate
   allEdges = data.edges.map(e => ({ ...e }));
+
+  const badge = document.getElementById('source-badge');
+  if (badge) badge.textContent = data._source === 'api' ? 'live' : 'demo';
 
   buildTrackCSS(tracks);
   buildSidebar(tracks, allNodes);
