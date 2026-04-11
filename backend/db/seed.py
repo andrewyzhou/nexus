@@ -10,7 +10,12 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from config import DATABASE_URL
 
-TRACKS_PATH = Path(__file__).resolve().parents[2] / "investment_tracks.json"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+TRACKS_CANDIDATES = [
+    REPO_ROOT / "investment_tracks.json",
+    REPO_ROOT / "frontend" / "investment_tracks.json",
+]
+TRACKS_PATH = next((p for p in TRACKS_CANDIDATES if p.exists()), TRACKS_CANDIDATES[0])
 
 
 def safe_float(value):
