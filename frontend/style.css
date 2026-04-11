@@ -162,39 +162,44 @@ html, body {
 /* The tracks section flexes to fill remaining height and lets its inner
    list scroll independently of the legend below it. */
 .sidebar-section.tracks-section {
-  flex: 1;
+  flex: 1 1 0;
   min-height: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .sidebar-section.tracks-section #track-list {
-  flex: 1;
+  flex: 1 1 0;
   overflow-y: auto;
   min-height: 0;
+  padding-right: 2px;
 }
 
+/* Inline 'select all / clear' controls — sit next to the section label */
+.tracks-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--sp-sm);
+}
 .track-controls {
   display: flex;
-  gap: 6px;
-  margin-bottom: 8px;
+  gap: 10px;
 }
 .track-control-btn {
+  background: none;
+  border: none;
+  padding: 0;
   font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.06em;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  background: transparent;
-  border: 1px solid var(--border-bright);
-  color: var(--text-secondary);
-  padding: 4px 8px;
-  border-radius: var(--radius-sm);
+  color: var(--text-muted);
   cursor: pointer;
-  transition: background var(--t-fast), color var(--t-fast);
+  transition: color var(--t-fast);
 }
-.track-control-btn:hover {
-  background: var(--bg-hover);
-  color: var(--text-primary);
-}
+.track-control-btn:hover { color: var(--accent); }
 
 .sidebar-label {
   font-family: var(--font-mono);

@@ -4,6 +4,13 @@
   --track-accent: #00d4ff;
 }
 
+/* Override the graph-page lockdown so the document scrolls */
+html:has(.track-body),
+html:has(.track-body) body {
+  height: auto !important;
+  overflow: auto !important;
+}
+
 .track-body {
   display: block;
   height: auto;

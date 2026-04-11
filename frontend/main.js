@@ -151,40 +151,44 @@ function applyVisibility() {
   if (!nodeGroup) return;
 
   nodeGroup.selectAll('circle').each(function(d) {
-    const hidden  = hiddenTracks.has(d.track);
+    const visible = nodeIsVisible(d);
     const matched = searchQuery.length > 0
       ? d.name.toLowerCase().includes(searchQuery) || d.ticker.toLowerCase().includes(searchQuery)
       : true;
 
     const el = d3.select(this);
     el.transition().duration(200)
-      .attr('opacity', hidden ? 0 : (searchQuery && !matched ? 0.1 : 1))
-      .attr('r', searchQuery && matched && !hidden ? d._baseR * 1.4 : d._baseR);
+      .attr('opacity', !visible ? 0 : (searchQuery && !matched ? 0.1 : 1))
+      .attr('r', searchQuery && matched && visible ? d._baseR * 1.4 : d._baseR)
+      .attr('fill', trackColor(d) + '33')
+      .attr('stroke', trackColor(d));
   });
 
   nodeGroup.selectAll('text').each(function(d) {
-    const hidden  = hiddenTracks.has(d.track);
+    const visible = nodeIsVisible(d);
     const matched = searchQuery.length > 0
       ? d.name.toLowerCase().includes(searchQuery) || d.ticker.toLowerCase().includes(searchQuery)
       : true;
     d3.select(this)
       .transition().duration(200)
-      .attr('opacity', hidden ? 0 : (searchQuery && !matched ? 0 : 1));
+      .attr('opacity', !visible ? 0 : (searchQuery && !matched ? 0 : 1))
+      .attr('fill', trackColor(d));
   });
 
   linkGroup.selectAll('line').each(function(d) {
-    const srcHidden = hiddenTracks.has(d.source.track || d.source);
-    const tgtHidden = hiddenTracks.has(d.target.track || d.target);
+    const srcNode = typeof d.source === 'object' ? d.source : allNodes.find(n => n.id === d.source);
+    const tgtNode = typeof d.target === 'object' ? d.target : allNodes.find(n => n.id === d.target);
+    const visible = srcNode && tgtNode && nodeIsVisible(srcNode) && nodeIsVisible(tgtNode);
     d3.select(this)
       .transition().duration(200)
-      .attr('opacity', (srcHidden || tgtHidden) ? 0 : 0.6);
+      .attr('opacity', visible ? 0.6 : 0);
   });
 
   updateNodeCount();
 }
 
 function updateNodeCount() {
-  const visible = allNodes.filter(n => !hiddenTracks.has(n.track)).length;
+  const visible = allNodes.filter(nodeIsVisible).length;
   const countEl = document.getElementById('node-count');
   if (countEl) countEl.innerHTML = `<span>${visible}</span> / ${allNodes.length} companies`;
 }
@@ -198,8 +202,18 @@ function nodeRadius(d) {
 }
 
 function trackColor(d) {
-  const t = tracks.find(t => t.id === d.track);
+  // For multi-track companies, prefer whichever of the node's tracks is
+  // currently visible — that's the track the user is looking at right now.
+  const ids = (d.tracks && d.tracks.length) ? d.tracks : [d.track];
+  const visibleId = ids.find(id => !hiddenTracks.has(id));
+  const pickId = visibleId || ids[0];
+  const t = tracks.find(t => t.id === pickId);
   return t ? t.color : '#666';
+}
+
+function nodeIsVisible(d) {
+  const ids = (d.tracks && d.tracks.length) ? d.tracks : [d.track];
+  return ids.some(id => !hiddenTracks.has(id));
 }
 
 function buildGraph() {
