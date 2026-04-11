@@ -1,8 +1,7 @@
 # Python
 __pycache__/
 *.pyc
-
-# virtual environment
+.venv/
 venv/
 
 # database
@@ -10,6 +9,10 @@ venv/
 
 # macOS
 .DS_Store
+
+# editors
+.vscode
+.idea
 
 # environment variables
 .env

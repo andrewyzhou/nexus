@@ -1,0 +1,44 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "sector": "Information Technology",
+  "industry": "Semiconductors & AI Infrastructure",
+  "last_updated": "2026-03-08",
+  "related_stocks": [
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "relationship": "Competitor",
+      "evidence": "[Fallback \u2014 run ollama pull llama3.2 for real LLM summaries] These two companies operate in overlapping AI infrastructure markets based on SEC 10-K and news sources.",
+      "source": "SEC-10K (NVDA) / SEC-10K (MSFT)"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. (Google)",
+      "relationship": "Competitor",
+      "evidence": "[Fallback \u2014 run ollama pull llama3.2 for real LLM summaries] These two companies operate in overlapping AI infrastructure markets based on SEC 10-K and news sources.",
+      "source": "SEC-10K (NVDA) / SEC-10K (GOOGL)"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc.",
+      "relationship": "Competitor",
+      "evidence": "[Fallback \u2014 run ollama pull llama3.2 for real LLM summaries] These two companies operate in overlapping AI infrastructure markets based on SEC 10-K and news sources.",
+      "source": "SEC-10K (NVDA) / SEC-10K (AMZN)"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc.",
+      "relationship": "Competitor",
+      "evidence": "[Fallback \u2014 run ollama pull llama3.2 for real LLM summaries] These two companies operate in overlapping AI infrastructure markets based on SEC 10-K and news sources.",
+      "source": "SEC-10K (NVDA) / SEC-10K (META)"
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Co.",
+      "relationship": "Competitor",
+      "evidence": "[Fallback \u2014 run ollama pull llama3.2 for real LLM summaries] These two companies operate in overlapping AI infrastructure markets based on SEC 10-K and news sources.",
+      "source": "SEC-10K (NVDA) / SEC-10K (TSM)"
+    }
+  ]
+}

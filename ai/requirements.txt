@@ -1,0 +1,10 @@
+numpy
+scikit-learn
+openai          # if using GPT-4
+anthropic       # if using Claude
+python-dotenv   # for API key management
+selenium
+webdriver-manager
+google-genai
+beautifulsoup4
+nltk

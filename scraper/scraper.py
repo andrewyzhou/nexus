@@ -29,6 +29,8 @@ from threading import Lock
 from curl_cffi import requests as cfreq
 from curl_cffi.requests import AsyncSession
 
+from ten_k_fetch import fetch_sec_sections
+
 
 # ── Yahoo Finance API ────────────────────────────────────────────────────────
 
@@ -41,7 +43,6 @@ API_HEADERS = {
     "Origin": "https://finance.yahoo.com",
     "Referer": "https://finance.yahoo.com/",
 }
-
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -141,6 +142,7 @@ def _parse(data: dict, ticker: str) -> dict | None:
         "fullTimeEmployees": profile.get("fullTimeEmployees"),
         "website": profile.get("website", ""),
         "description": profile.get("longBusinessSummary", ""),
+        "sections": {},
         "city": profile.get("city", ""),
         "state": profile.get("state", ""),
         "country": profile.get("country", ""),
@@ -427,17 +429,17 @@ def main():
         idx = args.index("--file")
         filepath = args[idx + 1]
         tickers = [l.strip().upper() for l in Path(filepath).read_text().splitlines() if l.strip()]
-        args = args[:idx] + args[idx + 2 :]
+        args = args[:idx] + args[idx+2:]
 
     if "--output" in args:
         idx = args.index("--output")
         output_file = args[idx + 1]
-        args = args[:idx] + args[idx + 2 :]
+        args = args[:idx] + args[idx+2:]
 
     if "--workers" in args:
         idx = args.index("--workers")
         concurrency = int(args[idx + 1])
-        args = args[:idx] + args[idx + 2 :]
+        args = args[:idx] + args[idx+2:]
 
     tickers += [t.upper() for t in args if not t.startswith("-")]
 
@@ -494,7 +496,7 @@ def main():
                     json.dump(data, f, indent=2, default=str)
                 print(f"  Saved to {output_file}")
             else:
-                print(f"\n--- Full JSON ---")
+                print("\n--- Full JSON ---")
                 print(json.dumps(data, indent=2, default=str))
         else:
             # Bulk mode (async with batching)
@@ -528,6 +530,22 @@ def main():
                 on_progress=progress,
             )
             elapsed = time.time() - start
+
+            # SEC Filings
+            output_sec_dir = Path("data/raw")
+
+            for ticker in tickers:
+                sections = fetch_sec_sections(ticker)
+                
+                path = output_sec_dir / f"{ticker}_sections.txt"
+                with open(path, "w", encoding="utf-8") as file:
+                    file.write(f"{ticker}")
+                    file.write("=" * 60 + "\n\n")
+
+                    for section_name, section_text in sections.items():
+                        file.write(f"--- {section_name.upper()} ---\n")
+                        file.write(section_text if section_text else "[NOT FOUND]")
+                        file.write("\n\n")
 
             # Final save
             with open(out, "w") as f:

@@ -1,0 +1,92 @@
+[
+  {
+    "label": "NVDA",
+    "track": "Big Tech AI Infrastructure",
+    "accessed_at": "2026-04-06T19:07:04.351996Z",
+    "summary": "Nvidia H100 GPU prices have recently surged by 40%. This increase is attributed to a significant shortage of these specialized chips."
+  },
+  {
+    "label": "MSFT",
+    "track": "Big Tech AI Infrastructure",
+    "accessed_at": "2026-04-06T19:07:18.456676Z",
+    "summary": "Recent news surrounding Microsoft (MSFT) presents a dichotomy, with some analysts identifying a rare buying opportunity stemming from double-digit growth and a current selloff. Conversely, other reports highlight concerns over Copilot warnings and a \"visibility problem,\" prompting caution or a recommendation to wait despite the perceived discount."
+  },
+  {
+    "label": "GOOGL",
+    "track": "Big Tech AI Infrastructure",
+    "accessed_at": "2026-04-06T19:07:26.246477Z",
+    "summary": "Google, as part of Big Tech, is shifting its focus to ROI and AI while facing growing legal pressure regarding content and AI. Intel is also reportedly courting Google for potential packaging deals."
+  },
+  {
+    "label": "AMZN",
+    "track": "Big Tech AI Infrastructure",
+    "accessed_at": "2026-04-06T19:07:33.459276Z",
+    "summary": "Amazon is reportedly in talks to acquire satellite communications company Globalstar, a potential deal that could boost its stock and puts Apple in a complex position. Additionally, Amazon is adding fuel surcharges due to high gas prices and is being courted by Intel for packaging deals, as Big Tech broadly shifts focus to ROI and AI."
+  },
+  {
+    "label": "META",
+    "track": "Big Tech AI Infrastructure",
+    "accessed_at": "2026-04-06T19:07:43.070657Z",
+    "summary": "Meta Platforms (META) stock rose 7.1%, driven by its aggressive AI expansion efforts, despite ongoing child-safety verdicts. Analysts view recent pullbacks as potential buying opportunities, with the company also engaged in strategic deals and navigating broader legal pressures concerning content and AI."
+  },
+  {
+    "label": "ASML",
+    "track": "Semiconductor Manufacturing & Equipment",
+    "accessed_at": "2026-04-06T19:07:52.870421Z",
+    "summary": "ASML faces pressure from proposed U.S. export restrictions to China, leading to stock declines and testing investor confidence amid job cuts. Despite these headwinds, the company is projected for exploding revenue growth, has shown strong year-to-date returns, and is attracting significant investor interest."
+  },
+  {
+    "label": "AMAT",
+    "track": "Semiconductor Manufacturing & Equipment",
+    "accessed_at": "2026-04-06T19:08:00.165680Z",
+    "summary": "Applied Materials (AMAT) is currently attracting significant investor attention from investors. The stock recently received an upgrade to a \"Strong Buy\" rating."
+  },
+  {
+    "label": "LRCX",
+    "track": "Semiconductor Manufacturing & Equipment",
+    "accessed_at": "2026-04-06T19:08:11.803885Z",
+    "summary": "Error generating summary. Please check API key."
+  },
+  {
+    "label": "KLAC",
+    "track": "Semiconductor Manufacturing & Equipment",
+    "accessed_at": "2026-04-06T19:08:19.346572Z",
+    "summary": "KLA Corporation (KLAC) stock is rising, driven by institutional inflows and expectations of strong earnings performance. The company recently announced an additional $7 billion share buyback and increased its dividend, even as China export risks persist."
+  },
+  {
+    "label": "TSMC",
+    "track": "Semiconductor Manufacturing & Equipment",
+    "accessed_at": "2026-04-06T19:08:28.013484Z",
+    "summary": "TSMC is frequently highlighted as a leading growth stock within the AI supercycle, drawing investor interest and comparisons to key competitors. The company is expanding its global manufacturing footprint, with plans to launch 3nm wafer production at a second Japan factory by 2028."
+  },
+  {
+    "label": "V",
+    "track": "Digital Payments & Fintech",
+    "accessed_at": "2026-04-06T19:08:37.724162Z",
+    "summary": "Visa is strategically positioning itself for AI-led commerce and expanding its global digital payment reach through initiatives like a major K-pop partnership. Analysts view Visa as a high-quality compounder with potential to beat earnings, despite a shifting narrative around its value score and reassessed upside."
+  },
+  {
+    "label": "MA",
+    "track": "Digital Payments & Fintech",
+    "accessed_at": "2026-04-06T19:08:49.039436Z",
+    "summary": "Mastercard (MA) is pivoting toward digital assets and blockchain infrastructure, reportedly considering a real payment unit divestment and attracting billionaire investor interest despite recent share price weakness. The company faces increased competition and FTC scrutiny over debanking practices, while simultaneously pursuing new opportunities, including an Amazon partnership to capture SMB spend."
+  },
+  {
+    "label": "PYPL",
+    "track": "Digital Payments & Fintech",
+    "accessed_at": "2026-04-06T19:08:57.819747Z",
+    "summary": "PayPal faces significant challenges, including consumer disengagement, ongoing lawsuits, an FTC debanking probe, and a recent CEO shakeup. To address these issues and its valuation gap, the company is investing $400 million in checkout growth, making board changes, and bringing in new executive talent."
+  },
+  {
+    "label": "FI",
+    "track": "Digital Payments & Fintech",
+    "accessed_at": "2026-04-06T19:09:08.692639Z",
+    "summary": "The valuation of Fidelity National Information Services (FIS) is currently under review. This assessment follows recent regulatory scrutiny and the company's launch of a new clearing product."
+  },
+  {
+    "label": "GPN",
+    "track": "Digital Payments & Fintech",
+    "accessed_at": "2026-04-06T19:09:18.196434Z",
+    "summary": "Global Payments (GPN) is experiencing a prolonged share price slide, marked by recent analyst downgrades from Raymond James and a lowered price target from Mizuho due to revised valuation models. This performance sparks debate among value investors regarding its \"Strong Buy\" potential, even as GPN's research highlights Gen Z's shift to digital wallets amid broader fintech multiple compression."
+  }
+]
