@@ -1,18 +1,22 @@
 """
-Live demo seed — populates the database from real prescraped data, no mocks,
-no slow yfinance round-trips.
+Live demo seed — pulls fresh data from Yahoo Finance every run.
 
 Sources:
-  - scraper/data.json              : 4788 tickers prescraped via scraper/scraper.py
-  - ticker_track.json              : ticker -> investment-track mapping (from S3)
-  - task5/SeleniumAI_Task5/...     : per-ticker relationship JSONs from the AI team
+  - ticker_track.json              : ticker -> investment-track mapping (the
+                                     universe of tickers we care about)
+  - scraper/scraper.py             : StockScraper.get_bulk(...) — live Yahoo
+                                     Finance fetch at ~80 stocks/sec
+  - task5/SeleniumAI_Task5/...     : per-ticker relationship JSONs from the
+                                     AI team
 
 Run:
     python backend/db/seed_demo.py
+    NEXUS_SEED_LIMIT=200 python backend/db/seed_demo.py   # cap for fast demo
 
-Total runtime: ~5–15 seconds for the full 4788-ticker load.
+Total runtime: ~60s for the full ~4300 tickers, ~5s for a 200-ticker cap.
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -32,17 +36,42 @@ from db.seed import (
 from db.seed_relationships import seed_relationships
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-SCRAPER_DATA = REPO_ROOT / "scraper" / "data.json"
+sys.path.insert(0, str(REPO_ROOT / "scraper"))
+from scraper import StockScraper  # noqa: E402
+
+AI_JSON_DIR = REPO_ROOT / "task5" / "SeleniumAI_Task5" / "final_json"
 
 
-def row_from_scraper(entry: dict) -> tuple | None:
+def collect_universe() -> list[str]:
+    """Tickers we want priced: ticker_track.json keys + AI anchors, deduped."""
+    tickers: set[str] = set()
+    if TRACKS_PATH.exists():
+        try:
+            with TRACKS_PATH.open() as f:
+                tickers.update(json.load(f).keys())
+        except Exception as e:
+            print(f"  ! could not parse {TRACKS_PATH}: {e}")
+    if AI_JSON_DIR.exists():
+        for path in AI_JSON_DIR.glob("*.json"):
+            try:
+                doc = json.loads(path.read_text())
+            except Exception:
+                continue
+            if doc.get("ticker"):
+                tickers.add(doc["ticker"])
+            for rel in doc.get("related_stocks", []):
+                if rel.get("ticker"):
+                    tickers.add(rel["ticker"])
+    return sorted(tickers)
+
+
+def row_from_yahoo(entry: dict) -> tuple | None:
     ticker = entry.get("ticker")
     if not ticker:
         return None
-    name = entry.get("companyName") or ticker
     return (
         ticker,
-        name,
+        entry.get("companyName") or ticker,
         entry.get("exchange"),
         entry.get("industry") or "Unknown",
         entry.get("sector") or None,
@@ -84,35 +113,33 @@ ON CONFLICT (ticker) DO UPDATE SET
 """
 
 
-def seed_companies_from_scraper(cursor) -> int:
-    if not SCRAPER_DATA.exists():
-        raise SystemExit(
-            f"scraper/data.json missing at {SCRAPER_DATA}\n"
-            "Run scraper/scraper.py first or pull the file from the data branch."
-        )
-
-    print(f"Loading {SCRAPER_DATA.relative_to(REPO_ROOT)}...")
-    with SCRAPER_DATA.open() as f:
-        entries = json.load(f)
-    print(f"  parsed {len(entries)} ticker records")
-
-    rows = [r for r in (row_from_scraper(e) for e in entries) if r]
-    print(f"  inserting {len(rows)} rows...")
-    psycopg2.extras.execute_values(cursor, INSERT_SQL, rows, page_size=500)
-    return len(rows)
-
-
 def main() -> None:
-    print("== Nexus live seed (scraper data) ==")
+    print("== Nexus live seed (Yahoo Finance, fresh fetch) ==")
     init_db()
 
     conn = psycopg2.connect(DATABASE_URL)
     cursor = conn.cursor()
     create_tracks_tables(cursor)
 
-    inserted = seed_companies_from_scraper(cursor)
+    tickers = collect_universe()
+    cap = int(os.getenv("NEXUS_SEED_LIMIT", "0")) or None
+    if cap and len(tickers) > cap:
+        print(f"NEXUS_SEED_LIMIT={cap} — capping {len(tickers)} → {cap}")
+        tickers = tickers[:cap]
+
+    print(f"Fetching {len(tickers)} tickers from Yahoo Finance (live)...")
+    scraper = StockScraper()
+
+    def progress(done, total, batch_num, total_batches, ok, fail):
+        print(f"  batch {batch_num}/{total_batches}: {ok} ok, {fail} failed  ({done}/{total} total)")
+
+    results = scraper.get_bulk(tickers, on_progress=progress)
+    print(f"  fetched {len(results)} / {len(tickers)} tickers")
+
+    rows = [r for r in (row_from_yahoo(e) for e in results) if r]
+    print(f"  inserting {len(rows)} company rows...")
+    psycopg2.extras.execute_values(cursor, INSERT_SQL, rows, page_size=500)
     conn.commit()
-    print(f"Companies seeded: {inserted}")
 
     print(f"Linking tracks from {TRACKS_PATH.name}...")
     unique, linked, missing = load_investment_tracks(cursor)
