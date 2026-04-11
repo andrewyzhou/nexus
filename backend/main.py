@@ -1,13 +1,30 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
+import hashlib
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
 
 app = Flask(__name__)
+CORS(app)
 
 
 def get_conn():
     return psycopg2.connect(DATABASE_URL)
+
+
+def track_color(track_name: str) -> str:
+    """Stable pastel color for a track name (so the frontend gets consistent colors)."""
+    h = int(hashlib.md5(track_name.encode()).hexdigest()[:6], 16)
+    palette = [
+        "#00d4ff", "#f59e0b", "#10b981", "#ef4444", "#a78bfa",
+        "#ec4899", "#22d3ee", "#84cc16", "#f97316", "#6366f1",
+    ]
+    return palette[h % len(palette)]
+
+
+def slugify(name: str) -> str:
+    return "".join(c.lower() if c.isalnum() else "-" for c in name).strip("-")
 
 
 @app.route("/companies")
@@ -15,7 +32,8 @@ def get_companies():
     conn = get_conn()
     cursor = conn.cursor()
 
-    cursor.execute("SELECT ticker, name, price FROM companies LIMIT 20")
+    limit = request.args.get("limit", default=500, type=int)
+    cursor.execute("SELECT ticker, name, price FROM companies LIMIT %s", (limit,))
     rows = cursor.fetchall()
     conn.close()
 
@@ -192,5 +210,57 @@ def get_track_companies(track_id):
     return jsonify(companies)
 
 
+@app.route("/graph")
+def get_graph():
+    """
+    Aggregated graph payload consumed by the frontend.
+    Shape matches frontend/data/mock.json so the D3 graph renders unchanged.
+    """
+    conn = get_conn()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT id, name FROM investment_tracks ORDER BY name")
+    track_rows = cursor.fetchall()
+    tracks = [
+        {"id": slugify(name), "label": name, "color": track_color(name)}
+        for _, name in track_rows
+    ]
+    track_id_by_db_id = {db_id: slugify(name) for db_id, name in track_rows}
+
+    cursor.execute("""
+        SELECT c.ticker, c.name, c.sector, c.market_cap, c.price, c.description, ct.track_id
+        FROM companies c
+        LEFT JOIN company_tracks ct ON ct.company_id = c.id
+    """)
+    nodes = []
+    seen = set()
+    for ticker, name, sector, market_cap, price, description, db_track_id in cursor.fetchall():
+        if ticker in seen:
+            continue
+        seen.add(ticker)
+        nodes.append({
+            "id": ticker.lower(),
+            "ticker": ticker,
+            "name": name,
+            "sector": sector,
+            "marketCap": (market_cap or 0) / 1e9,
+            "price": price,
+            "track": track_id_by_db_id.get(db_track_id, "uncategorized"),
+            "description": description or "",
+        })
+
+    cursor.execute("""
+        SELECT source_ticker, target_ticker, relationship_type
+        FROM relationships
+    """)
+    edges = [
+        {"source": s.lower(), "target": t.lower(), "type": rt}
+        for s, t, rt in cursor.fetchall()
+    ]
+
+    conn.close()
+    return jsonify({"tracks": tracks, "nodes": nodes, "edges": edges})
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
