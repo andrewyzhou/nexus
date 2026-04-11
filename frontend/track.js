@@ -47,11 +47,49 @@ async function init() {
   }
   track = await res.json();
   render();
+  loadNews();
 
   document.getElementById('sort-select').addEventListener('change', (e) => {
     sortKey = e.target.value;
     renderTable();
   });
+}
+
+async function loadNews() {
+  const wrap = document.getElementById('news-list');
+  try {
+    const r = await fetch(`${API_BASE}/tracks/${encodeURIComponent(slug)}/news`);
+    if (!r.ok) throw new Error(r.status);
+    const items = await r.json();
+    if (!items.length) {
+      wrap.innerHTML = '<div class="news-empty">No news returned for this track.</div>';
+      return;
+    }
+    wrap.innerHTML = items.map(n => `
+      <a class="news-item" href="${n.link || '#'}" target="_blank" rel="noopener">
+        <div class="news-title">${escapeHtml(n.title || '')}</div>
+        <div class="news-meta">
+          ${escapeHtml(n.publisher || '')} ${n.published ? '· ' + escapeHtml(fmtDate(n.published)) : ''}
+          ${n.ticker ? '· <span class="news-ticker">' + escapeHtml(n.ticker) + '</span>' : ''}
+        </div>
+        ${n.summary ? `<div class="news-summary">${escapeHtml(n.summary)}</div>` : ''}
+      </a>
+    `).join('');
+  } catch (err) {
+    wrap.innerHTML = `<div class="news-empty">News unavailable (${err.message || err}).</div>`;
+  }
+}
+
+function fmtDate(t) {
+  if (!t) return '';
+  const d = typeof t === 'number' ? new Date(t * 1000) : new Date(t);
+  if (isNaN(d.getTime())) return '';
+  return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
 }
 
 function renderError(msg) {

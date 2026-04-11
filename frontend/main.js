@@ -352,9 +352,11 @@ function openPanel(d) {
       type: e.type,
     }));
 
-  const capStr = d.marketCap >= 1000
-    ? '$' + (d.marketCap / 1000).toFixed(2) + 'T'
-    : '$' + d.marketCap + 'B';
+  const mcap = d.marketCap || 0;
+  const capStr = mcap >= 1000
+    ? '$' + (mcap / 1000).toFixed(2) + 'T'
+    : '$' + mcap.toFixed(0) + 'B';
+  const priceStr = d.price != null ? '$' + Number(d.price).toFixed(2) : '—';
 
   document.getElementById('panel-inner').innerHTML = `
     <div class="panel-header">
@@ -377,7 +379,7 @@ function openPanel(d) {
         </div>
         <div class="stat-card">
           <div class="stat-label">Price</div>
-          <div class="stat-value price">$${d.price.toFixed(2)}</div>
+          <div class="stat-value price">${priceStr}</div>
         </div>
       </div>
 
@@ -386,6 +388,10 @@ function openPanel(d) {
         <span class="dot"></span>
         ${t ? t.label : d.track}
       </div>
+
+      <a class="panel-open-stock" href="stock.html?ticker=${encodeURIComponent(d.ticker)}">
+        Open full stock page →
+      </a>
 
       <div class="panel-section-title">About</div>
       <p class="panel-desc">${d.description}</p>

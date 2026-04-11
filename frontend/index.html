@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexus — Investment Graph</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="theme.css" />
 
   <!-- D3.js v7 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -19,6 +20,9 @@
       <span class="subtitle">/ investment graph</span>
       <div class="header-right">
         <span id="node-count"></span>
+        <span id="source-badge" class="source-badge"></span>
+        <a href="https://ipick.ai" target="_blank" rel="noopener" class="back-link">iPick.ai ↗</a>
+        <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
       </div>
     </header>
 
@@ -73,6 +77,7 @@
     <div id="panel-inner"></div>
   </aside>
 
+  <script src="theme.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
