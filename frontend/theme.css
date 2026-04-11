@@ -1,96 +1,92 @@
 /*
  * theme.css — light theme overrides.
- * Activated by [data-theme="light"] on <html>. Defaults to light per spec.
+ *
+ * style.css drives every surface from a small set of CSS variables, so the
+ * cleanest way to flip themes is to redefine those variables. Anything that
+ * still uses hardcoded colors gets a targeted override below.
+ *
+ * Activated by [data-theme="light"] on <html>; defaults to light per spec.
  */
 
-html[data-theme="light"] body,
 html[data-theme="light"] {
-  background: #f6f7fb !important;
-  color: #1a1d2b !important;
+  /* Core palette */
+  --bg-base:        #f6f7fb;
+  --bg-surface:     #ffffff;
+  --bg-raised:      #ffffff;
+  --bg-hover:       #eef0f6;
+  --border:         rgba(20, 24, 40, 0.08);
+  --border-bright:  rgba(20, 24, 40, 0.18);
+
+  --text-primary:   #1a1d2b;
+  --text-secondary: #5b6172;
+  --text-muted:     #8a90a3;
+
+  --accent:         #2563eb;
+  --accent-dim:     rgba(37, 99, 235, 0.12);
 }
 
-html[data-theme="light"] #header {
-  background: #ffffff !important;
-  border-bottom: 1px solid #e6e8ef !important;
-  color: #1a1d2b !important;
-}
-html[data-theme="light"] #header .logo,
-html[data-theme="light"] #header .subtitle,
-html[data-theme="light"] #header .header-right { color: #1a1d2b !important; }
+/* Hard-coded surfaces in style.css that don't use variables */
+html[data-theme="light"] body { background: #f6f7fb; color: #1a1d2b; }
 
-html[data-theme="light"] #sidebar {
-  background: #ffffff !important;
-  border-right: 1px solid #e6e8ef !important;
-  color: #1a1d2b !important;
-}
-html[data-theme="light"] .sidebar-label,
-html[data-theme="light"] .track-name,
-html[data-theme="light"] .track-count,
-html[data-theme="light"] .edge-legend-item { color: #1a1d2b !important; }
-
-html[data-theme="light"] .search-wrap,
-html[data-theme="light"] #search-input {
-  background: #f1f2f6 !important;
-  color: #1a1d2b !important;
-  border-color: #d8dbe5 !important;
-}
-html[data-theme="light"] #search-input::placeholder { color: #7a7f93 !important; }
-
-html[data-theme="light"] #main,
-html[data-theme="light"] #graph-canvas { background: #f6f7fb !important; }
-
-html[data-theme="light"] #detail-panel {
-  background: #ffffff !important;
-  border-left: 1px solid #e6e8ef !important;
-  color: #1a1d2b !important;
+html[data-theme="light"] #main::before {
+  background-image:
+    linear-gradient(rgba(20, 24, 40, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20, 24, 40, 0.04) 1px, transparent 1px) !important;
 }
 
-html[data-theme="light"] .track-body { background: #f6f7fb !important; color: #1a1d2b !important; }
+html[data-theme="light"] #tooltip {
+  box-shadow: 0 8px 32px rgba(20, 24, 40, 0.18) !important;
+}
+
+/* D3 graph nodes/edges still draw with rgba whites — soften them */
+html[data-theme="light"] svg text { fill: #1a1d2b; }
+html[data-theme="light"] svg .link,
+html[data-theme="light"] svg line { stroke-opacity: 0.5; }
+
+/* Track-page hero gradient is fine, just darken text */
+html[data-theme="light"] .track-body { background: #f6f7fb; color: #1a1d2b; }
 html[data-theme="light"] #track-hero {
-  background: #ffffff !important;
-  border-color: #e6e8ef !important;
+  background:
+    radial-gradient(800px 300px at 0% 0%, var(--track-accent) -50%, transparent 60%),
+    #ffffff !important;
+  border-color: rgba(20, 24, 40, 0.1) !important;
 }
 html[data-theme="light"] #track-description,
-html[data-theme="light"] .meta-pill,
-html[data-theme="light"] .company-table th,
-html[data-theme="light"] .company-table td.dim,
+html[data-theme="light"] .news-meta,
 html[data-theme="light"] .stat-label,
-html[data-theme="light"] .news-meta { color: #4b5066 !important; }
-
-html[data-theme="light"] .meta-pill {
-  background: #f1f2f6 !important;
-  border-color: #e0e3ec !important;
-}
-
-html[data-theme="light"] .company-table { color: #1a1d2b !important; }
 html[data-theme="light"] .company-table th,
-html[data-theme="light"] .company-table td { border-color: #ececf4 !important; }
-html[data-theme="light"] .company-table tr:hover td { background: #f1f2f6 !important; }
+html[data-theme="light"] .company-table td.dim { color: #5b6172 !important; }
 
-html[data-theme="light"] .news-item,
-html[data-theme="light"] .stat-cell {
+html[data-theme="light"] .meta-pill,
+html[data-theme="light"] .stat-cell,
+html[data-theme="light"] .news-item {
   background: #ffffff !important;
-  border-color: #e6e8ef !important;
+  border-color: rgba(20, 24, 40, 0.1) !important;
   color: #1a1d2b !important;
 }
+
+html[data-theme="light"] .company-table th,
+html[data-theme="light"] .company-table td { border-color: rgba(20, 24, 40, 0.08) !important; }
+html[data-theme="light"] .company-table tr:hover td { background: #eef0f6 !important; }
 
 html[data-theme="light"] .news-empty,
 html[data-theme="light"] .empty {
-  border-color: #d8dbe5 !important;
-  color: #7a7f93 !important;
+  border-color: rgba(20, 24, 40, 0.12) !important;
+  color: #8a90a3 !important;
 }
-
-html[data-theme="light"] .back-link,
-html[data-theme="light"] .theme-toggle { color: #4b5066 !important; }
-html[data-theme="light"] .back-link:hover { color: #1a1d2b !important; }
 
 html[data-theme="light"] .sort-row select {
   background: #ffffff !important;
   color: #1a1d2b !important;
-  border-color: #d8dbe5 !important;
+  border-color: rgba(20, 24, 40, 0.15) !important;
 }
 
-/* Stats grid + news layout (works in both themes) */
+html[data-theme="light"] .back-link,
+html[data-theme="light"] .theme-toggle { color: #5b6172 !important; }
+html[data-theme="light"] .back-link:hover { color: #1a1d2b !important; }
+html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !important; }
+
+/* ── Stats grid + news layout (shared by track and stock pages) ── */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -111,6 +107,8 @@ html[data-theme="light"] .sort-row select {
 }
 .stat-val { font-size: 16px; font-variant-numeric: tabular-nums; }
 
+.news-list { display: flex; flex-direction: column; gap: 12px; }
+
 .news-item {
   display: block;
   text-decoration: none;
@@ -122,7 +120,7 @@ html[data-theme="light"] .sort-row select {
   transition: border-color 0.15s, background 0.15s;
 }
 .news-item:hover {
-  border-color: var(--track-accent, #00d4ff);
+  border-color: var(--track-accent, #2563eb);
   background: rgba(255, 255, 255, 0.04);
 }
 .news-title { font-size: 14px; font-weight: 500; margin-bottom: 6px; }
@@ -147,3 +145,19 @@ html[data-theme="light"] .sort-row select {
 
 .dim { color: rgba(255, 255, 255, 0.45); }
 .small { font-size: 11px; }
+
+.source-badge {
+  font-family: var(--font-mono, monospace);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 8px;
+}
+html[data-theme="light"] .source-badge {
+  background: rgba(20, 24, 40, 0.08) !important;
+  color: #5b6172 !important;
+}
