@@ -46,6 +46,9 @@ async function init() {
   allNodes = data.nodes.map(n => ({ ...n }));   // shallow copy so D3 can mutate
   allEdges = data.edges.map(e => ({ ...e }));
 
+  // Default state: nothing selected — user picks tracks from the sidebar.
+  hiddenTracks = new Set(tracks.map(t => t.id));
+
   const badge = document.getElementById('source-badge');
   if (badge) badge.textContent = data._source === 'api' ? 'live' : 'demo';
 
@@ -54,8 +57,29 @@ async function init() {
   buildGraph();
   buildEdgeLegend();
   updateNodeCount();
+  applyVisibility();
 
   document.getElementById('search-input').addEventListener('input', onSearch);
+  document.getElementById('track-select-all')?.addEventListener('click', selectAllTracks);
+  document.getElementById('track-clear-all')?.addEventListener('click', clearAllTracks);
+}
+
+function selectAllTracks() {
+  hiddenTracks.clear();
+  document.querySelectorAll('.track-item').forEach(el => {
+    el.classList.add('active');
+    el.classList.remove('muted');
+  });
+  applyVisibility();
+}
+
+function clearAllTracks() {
+  hiddenTracks = new Set(tracks.map(t => t.id));
+  document.querySelectorAll('.track-item').forEach(el => {
+    el.classList.remove('active');
+    el.classList.add('muted');
+  });
+  applyVisibility();
 }
 
 // ── Inject track colours as CSS vars (in case they differ from defaults) ──────
@@ -74,7 +98,8 @@ function buildSidebar(tracks, nodes) {
   tracks.forEach(track => {
     const count = nodes.filter(n => n.track === track.id).length;
     const item  = document.createElement('div');
-    item.className = 'track-item active';
+    const isHidden = hiddenTracks.has(track.id);
+    item.className = 'track-item ' + (isHidden ? 'muted' : 'active');
     item.dataset.track = track.id;
     item.innerHTML = `
       <span class="track-dot" style="background:${track.color}; box-shadow:0 0 6px ${track.color}66"></span>

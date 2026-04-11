@@ -157,7 +157,44 @@ html, body {
   border-bottom: 1px solid var(--border);
 }
 
-.sidebar-section:last-child { border-bottom: none; flex: 1; overflow-y: auto; }
+.sidebar-section:last-child { border-bottom: none; }
+
+/* The tracks section flexes to fill remaining height and lets its inner
+   list scroll independently of the legend below it. */
+.sidebar-section.tracks-section {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-section.tracks-section #track-list {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.track-controls {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.track-control-btn {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid var(--border-bright);
+  color: var(--text-secondary);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background var(--t-fast), color var(--t-fast);
+}
+.track-control-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
 
 .sidebar-label {
   font-family: var(--font-mono);
