@@ -12,10 +12,14 @@ from config import DATABASE_URL
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TRACKS_CANDIDATES = [
+    REPO_ROOT / "ticker_track.json",
     REPO_ROOT / "investment_tracks.json",
     REPO_ROOT / "frontend" / "investment_tracks.json",
 ]
 TRACKS_PATH = next((p for p in TRACKS_CANDIDATES if p.exists()), TRACKS_CANDIDATES[0])
+
+import os
+SEED_LIMIT = int(os.getenv("NEXUS_SEED_LIMIT", "0")) or None  # 0 / unset = no cap
 
 
 def safe_float(value):
@@ -74,6 +78,10 @@ def seed():
     except Exception as e:
         print(f"Failed to fetch from Wikipedia: {e} — falling back to hardcoded list")
         tickers = [...]
+
+    if SEED_LIMIT and len(tickers) > SEED_LIMIT:
+        tickers = tickers[:SEED_LIMIT]
+        print(f"NEXUS_SEED_LIMIT={SEED_LIMIT} — capping to first {len(tickers)} tickers")
 
     print(f"Fetching data for {len(tickers)} companies from Yahoo Finance...\n")
 
