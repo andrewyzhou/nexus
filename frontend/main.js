@@ -148,50 +148,9 @@ function onSearch(e) {
 }
 
 function applyVisibility() {
-  if (!nodeGroup) return;
-
-  // Disable hover/click on hidden node groups so invisible Amazons don't
-  // capture the cursor.
-  nodeGroup.selectAll('.node-g').each(function(d) {
-    d3.select(this).style('pointer-events', nodeIsVisible(d) ? 'auto' : 'none');
-  });
-
-  nodeGroup.selectAll('circle').each(function(d) {
-    const visible = nodeIsVisible(d);
-    const matched = searchQuery.length > 0
-      ? d.name.toLowerCase().includes(searchQuery) || d.ticker.toLowerCase().includes(searchQuery)
-      : true;
-
-    const el = d3.select(this);
-    el.transition().duration(200)
-      .attr('opacity', !visible ? 0 : (searchQuery && !matched ? 0.1 : 1))
-      .attr('r', searchQuery && matched && visible ? d._baseR * 1.4 : d._baseR)
-      .attr('fill', trackColor(d) + '33')
-      .attr('stroke', trackColor(d))
-      .style('pointer-events', visible ? 'auto' : 'none');
-  });
-
-  nodeGroup.selectAll('text').each(function(d) {
-    const visible = nodeIsVisible(d);
-    const matched = searchQuery.length > 0
-      ? d.name.toLowerCase().includes(searchQuery) || d.ticker.toLowerCase().includes(searchQuery)
-      : true;
-    d3.select(this)
-      .transition().duration(200)
-      .attr('opacity', !visible ? 0 : (searchQuery && !matched ? 0 : 1))
-      .attr('fill', trackColor(d));
-  });
-
-  linkGroup.selectAll('line').each(function(d) {
-    const srcNode = typeof d.source === 'object' ? d.source : allNodes.find(n => n.id === d.source);
-    const tgtNode = typeof d.target === 'object' ? d.target : allNodes.find(n => n.id === d.target);
-    const visible = srcNode && tgtNode && nodeIsVisible(srcNode) && nodeIsVisible(tgtNode);
-    d3.select(this)
-      .transition().duration(200)
-      .attr('opacity', visible ? 0.6 : 0);
-  });
-
-  updateNodeCount();
+  // Force-rebuild instead of toggling opacity — the universe has
+  // 4000+ nodes, so we only ever simulate the visible subset.
+  renderGraph();
 }
 
 function updateNodeCount() {
@@ -229,10 +188,10 @@ function nodeIsVisible(d) {
   return !hiddenTracks.has(d.track);
 }
 
+let zoomLayer;
+
 function buildGraph() {
   const container = document.getElementById('graph-canvas');
-  const W = container.clientWidth;
-  const H = container.clientHeight;
 
   svg = d3.select('#graph-canvas')
     .append('svg')
@@ -256,7 +215,7 @@ function buildGraph() {
   });
 
   // ── Zoom layer ──
-  const zoomLayer = svg.append('g').attr('class', 'zoom-layer');
+  zoomLayer = svg.append('g').attr('class', 'zoom-layer');
 
   zoomBehavior = d3.zoom()
     .scaleExtent([0.2, 4])
@@ -264,33 +223,66 @@ function buildGraph() {
 
   svg.call(zoomBehavior);
 
-  // Double-click to reset zoom
   svg.on('dblclick.zoom', () => {
     svg.transition().duration(500)
       .call(zoomBehavior.transform, d3.zoomIdentity);
   });
 
-  // ── Simulation ──
-  simulation = d3.forceSimulation(allNodes)
-    .force('link', d3.forceLink(allEdges).id(d => d.id).distance(90).strength(0.4))
+  linkGroup = zoomLayer.append('g').attr('class', 'links');
+  nodeGroup = zoomLayer.append('g').attr('class', 'nodes');
+
+  renderGraph();
+}
+
+/**
+ * Rebuild the SVG nodes/links from the currently visible subset of allNodes.
+ * Called from init() and from applyVisibility() whenever filters change.
+ * Rendering only the visible subset keeps the force simulation tractable
+ * even though the full universe has 4000+ tickers.
+ */
+function renderGraph() {
+  if (!nodeGroup) return;
+  const container = document.getElementById('graph-canvas');
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+
+  const visibleNodes = allNodes.filter(nodeIsVisible);
+  const idSet = new Set(visibleNodes.map(n => n.id));
+  const visibleEdges = allEdges.filter(e => {
+    const s = typeof e.source === 'object' ? e.source.id : e.source;
+    const t = typeof e.target === 'object' ? e.target.id : e.target;
+    return idSet.has(s) && idSet.has(t);
+  });
+
+  // Wipe previous render
+  if (simulation) simulation.stop();
+  linkGroup.selectAll('*').remove();
+  nodeGroup.selectAll('*').remove();
+
+  if (visibleNodes.length === 0) {
+    updateNodeCount();
+    return;
+  }
+
+  // Reset positions so the new subset can lay out cleanly
+  visibleNodes.forEach(n => { n.x = W / 2 + (Math.random() - 0.5) * 100; n.y = H / 2 + (Math.random() - 0.5) * 100; n.vx = 0; n.vy = 0; });
+
+  simulation = d3.forceSimulation(visibleNodes)
+    .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(90).strength(0.4))
     .force('charge', d3.forceManyBody().strength(-260))
     .force('center', d3.forceCenter(W / 2, H / 2))
     .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 12))
     .alphaDecay(0.028);
 
-  // ── Links ──
-  linkGroup = zoomLayer.append('g').attr('class', 'links');
   linkGroup.selectAll('line')
-    .data(allEdges)
+    .data(visibleEdges)
     .enter().append('line')
     .attr('stroke', d => EDGE_COLORS[d.type] || 'rgba(255,255,255,0.12)')
     .attr('stroke-width', 1.5)
     .attr('opacity', 0.6);
 
-  // ── Nodes ──
-  nodeGroup = zoomLayer.append('g').attr('class', 'nodes');
   const nodeEl = nodeGroup.selectAll('g')
-    .data(allNodes)
+    .data(visibleNodes)
     .enter().append('g')
     .attr('class', 'node-g')
     .style('cursor', 'pointer')
@@ -305,7 +297,6 @@ function buildGraph() {
     .on('mouseout',  onNodeOut)
     .on('click',     onNodeClick);
 
-  // Glow ring
   nodeEl.append('circle')
     .attr('r', d => nodeRadius(d) + 5)
     .attr('fill', 'none')
@@ -313,18 +304,12 @@ function buildGraph() {
     .attr('stroke-width', 1)
     .attr('opacity', 0.25);
 
-  // Main circle
   nodeEl.append('circle')
     .attr('r', d => nodeRadius(d))
-    .attr('fill', d => {
-      const c = trackColor(d);
-      return `radial-gradient(circle, ${c}44, ${c}11)`;
-    })
     .attr('fill', d => trackColor(d) + '33')
     .attr('stroke', d => trackColor(d))
     .attr('stroke-width', 1.5);
 
-  // Ticker label
   nodeEl.append('text')
     .text(d => d.ticker)
     .attr('text-anchor', 'middle')
@@ -338,10 +323,11 @@ function buildGraph() {
     linkGroup.selectAll('line')
       .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
       .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
-
     nodeGroup.selectAll('.node-g')
       .attr('transform', d => `translate(${d.x},${d.y})`);
   });
+
+  updateNodeCount();
 }
 
 // ── Drag ──────────────────────────────────────────────────────────────────────
