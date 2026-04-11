@@ -1,12 +1,24 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import hashlib
+import sys
+from pathlib import Path
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
 
 app = Flask(__name__)
 CORS(app)
+
+# Make the live Yahoo scraper importable from the repo root.
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT / "scraper"))
+try:
+    from scraper import StockScraper  # type: ignore
+    _scraper = StockScraper()
+except Exception as e:
+    print(f"[warn] live scraper unavailable: {e}")
+    _scraper = None
 
 
 def get_conn():
@@ -208,6 +220,97 @@ def get_track_companies(track_id):
     companies = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
     conn.close()
     return jsonify(companies)
+
+
+@app.route("/companies/<ticker>/live")
+def get_company_live(ticker):
+    """Bypass the DB and pull a fresh quote straight from Yahoo Finance."""
+    if _scraper is None:
+        return jsonify({"error": "live scraper unavailable"}), 503
+    try:
+        data = _scraper.get(ticker.upper())
+    except Exception as e:
+        return jsonify({"error": f"yahoo fetch failed: {e}"}), 502
+    if data is None:
+        return jsonify({"error": "Company not found"}), 404
+    return jsonify(data)
+
+
+@app.route("/tracks")
+def list_tracks():
+    """All investment tracks with company counts (for the track index page)."""
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT t.id, t.name, COUNT(ct.company_id) AS company_count
+        FROM investment_tracks t
+        LEFT JOIN company_tracks ct ON ct.track_id = t.id
+        GROUP BY t.id, t.name
+        ORDER BY company_count DESC, t.name
+    """)
+    out = [
+        {
+            "id": tid,
+            "slug": slugify(name),
+            "name": name,
+            "color": track_color(name),
+            "company_count": count,
+        }
+        for tid, name, count in cursor.fetchall()
+    ]
+    conn.close()
+    return jsonify(out)
+
+
+@app.route("/tracks/<slug>")
+def get_track(slug):
+    """
+    Detail page payload for a single investment track.
+    Returns: { name, slug, color, description, market_leader, companies[] }
+    Companies are sorted by market_cap desc; the top one is the market_leader.
+    """
+    conn = get_conn()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT id, name, description FROM investment_tracks")
+    target = None
+    for tid, name, description in cursor.fetchall():
+        if slugify(name) == slug:
+            target = (tid, name, description)
+            break
+    if target is None:
+        conn.close()
+        return jsonify({"error": "Track not found"}), 404
+
+    track_id, name, description = target
+
+    cursor.execute("""
+        SELECT c.ticker, c.name, c.sector, c.industry, c.price, c.market_cap,
+               c.pe_ratio, c.eps, c.website
+        FROM companies c
+        JOIN company_tracks ct ON ct.company_id = c.id
+        WHERE ct.track_id = %s
+        ORDER BY COALESCE(c.market_cap, 0) DESC, c.ticker
+    """, (track_id,))
+    companies = [
+        {
+            "ticker": r[0], "name": r[1], "sector": r[2], "industry": r[3],
+            "price": r[4], "market_cap": r[5], "pe_ratio": r[6], "eps": r[7],
+            "website": r[8],
+        }
+        for r in cursor.fetchall()
+    ]
+
+    conn.close()
+    return jsonify({
+        "slug": slug,
+        "name": name,
+        "color": track_color(name),
+        "description": description,
+        "market_leader": companies[0] if companies else None,
+        "companies": companies,
+        "company_count": len(companies),
+    })
 
 
 @app.route("/graph")
