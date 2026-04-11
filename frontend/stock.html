@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Stock</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="track.css" />
+  <link rel="stylesheet" href="theme.css" />
+</head>
+<body class="track-body">
+  <header id="header">
+    <a href="index.html" class="logo logo-link">NEXUS</a>
+    <span class="subtitle">/ stock</span>
+    <div class="header-right">
+      <a href="https://ipick.ai" target="_blank" rel="noopener" class="back-link">iPick.ai ↗</a>
+      <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
+      <a href="index.html" class="back-link">← graph</a>
+    </div>
+  </header>
+
+  <main id="track-main">
+    <section id="track-hero">
+      <div class="track-hero-inner">
+        <div class="track-eyebrow" id="stock-track">Stock</div>
+        <h1 id="stock-title">Loading…</h1>
+        <p id="stock-description"></p>
+        <div class="track-meta">
+          <span id="stock-price" class="meta-pill"></span>
+          <span id="stock-mcap" class="meta-pill"></span>
+          <span id="stock-pe" class="meta-pill"></span>
+          <span id="stock-sector" class="meta-pill"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="track-section">
+      <div class="section-head"><h2>Key stats</h2></div>
+      <div id="stats-grid" class="stats-grid"></div>
+    </section>
+
+    <section id="track-section">
+      <div class="section-head">
+        <h2>News</h2>
+        <span class="dim small">live · yahoo finance</span>
+      </div>
+      <div id="news-list" class="news-list">
+        <div class="news-empty">Loading news…</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="theme.js"></script>
+  <script src="stock.js"></script>
+</body>
+</html>
