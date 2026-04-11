@@ -1,0 +1,149 @@
+/*
+ * theme.css — light theme overrides.
+ * Activated by [data-theme="light"] on <html>. Defaults to light per spec.
+ */
+
+html[data-theme="light"] body,
+html[data-theme="light"] {
+  background: #f6f7fb !important;
+  color: #1a1d2b !important;
+}
+
+html[data-theme="light"] #header {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e6e8ef !important;
+  color: #1a1d2b !important;
+}
+html[data-theme="light"] #header .logo,
+html[data-theme="light"] #header .subtitle,
+html[data-theme="light"] #header .header-right { color: #1a1d2b !important; }
+
+html[data-theme="light"] #sidebar {
+  background: #ffffff !important;
+  border-right: 1px solid #e6e8ef !important;
+  color: #1a1d2b !important;
+}
+html[data-theme="light"] .sidebar-label,
+html[data-theme="light"] .track-name,
+html[data-theme="light"] .track-count,
+html[data-theme="light"] .edge-legend-item { color: #1a1d2b !important; }
+
+html[data-theme="light"] .search-wrap,
+html[data-theme="light"] #search-input {
+  background: #f1f2f6 !important;
+  color: #1a1d2b !important;
+  border-color: #d8dbe5 !important;
+}
+html[data-theme="light"] #search-input::placeholder { color: #7a7f93 !important; }
+
+html[data-theme="light"] #main,
+html[data-theme="light"] #graph-canvas { background: #f6f7fb !important; }
+
+html[data-theme="light"] #detail-panel {
+  background: #ffffff !important;
+  border-left: 1px solid #e6e8ef !important;
+  color: #1a1d2b !important;
+}
+
+html[data-theme="light"] .track-body { background: #f6f7fb !important; color: #1a1d2b !important; }
+html[data-theme="light"] #track-hero {
+  background: #ffffff !important;
+  border-color: #e6e8ef !important;
+}
+html[data-theme="light"] #track-description,
+html[data-theme="light"] .meta-pill,
+html[data-theme="light"] .company-table th,
+html[data-theme="light"] .company-table td.dim,
+html[data-theme="light"] .stat-label,
+html[data-theme="light"] .news-meta { color: #4b5066 !important; }
+
+html[data-theme="light"] .meta-pill {
+  background: #f1f2f6 !important;
+  border-color: #e0e3ec !important;
+}
+
+html[data-theme="light"] .company-table { color: #1a1d2b !important; }
+html[data-theme="light"] .company-table th,
+html[data-theme="light"] .company-table td { border-color: #ececf4 !important; }
+html[data-theme="light"] .company-table tr:hover td { background: #f1f2f6 !important; }
+
+html[data-theme="light"] .news-item,
+html[data-theme="light"] .stat-cell {
+  background: #ffffff !important;
+  border-color: #e6e8ef !important;
+  color: #1a1d2b !important;
+}
+
+html[data-theme="light"] .news-empty,
+html[data-theme="light"] .empty {
+  border-color: #d8dbe5 !important;
+  color: #7a7f93 !important;
+}
+
+html[data-theme="light"] .back-link,
+html[data-theme="light"] .theme-toggle { color: #4b5066 !important; }
+html[data-theme="light"] .back-link:hover { color: #1a1d2b !important; }
+
+html[data-theme="light"] .sort-row select {
+  background: #ffffff !important;
+  color: #1a1d2b !important;
+  border-color: #d8dbe5 !important;
+}
+
+/* Stats grid + news layout (works in both themes) */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+.stat-cell {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.stat-label {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 4px;
+}
+.stat-val { font-size: 16px; font-variant-numeric: tabular-nums; }
+
+.news-item {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.15s, background 0.15s;
+}
+.news-item:hover {
+  border-color: var(--track-accent, #00d4ff);
+  background: rgba(255, 255, 255, 0.04);
+}
+.news-title { font-size: 14px; font-weight: 500; margin-bottom: 6px; }
+.news-meta { font-size: 11px; color: rgba(255, 255, 255, 0.5); }
+.news-summary { font-size: 13px; color: rgba(255, 255, 255, 0.7); margin-top: 6px; line-height: 1.4; }
+.news-ticker {
+  display: inline-block; padding: 1px 6px; border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08); font-weight: 500;
+}
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.theme-toggle:hover { color: #fff; }
+
+.dim { color: rgba(255, 255, 255, 0.45); }
+.small { font-size: 11px; }
