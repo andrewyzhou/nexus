@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Investment Track</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="track.css" />
+</head>
+<body class="track-body">
+  <header id="header">
+    <a href="index.html" class="logo logo-link">NEXUS</a>
+    <span class="subtitle">/ investment track</span>
+    <div class="header-right">
+      <a href="index.html" class="back-link">← back to graph</a>
+    </div>
+  </header>
+
+  <main id="track-main">
+    <section id="track-hero">
+      <div class="track-hero-inner">
+        <div class="track-eyebrow">Investment Track</div>
+        <h1 id="track-title">Loading…</h1>
+        <p id="track-description"></p>
+        <div class="track-meta">
+          <span id="track-count" class="meta-pill"></span>
+          <span id="track-leader" class="meta-pill"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="track-section">
+      <div class="section-head">
+        <h2>Companies</h2>
+        <div class="sort-row">
+          <label>Sort by
+            <select id="sort-select">
+              <option value="market_cap">Market cap</option>
+              <option value="ticker">Ticker</option>
+              <option value="name">Name</option>
+              <option value="price">Price</option>
+              <option value="pe_ratio">P/E ratio</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div id="company-table-wrap"></div>
+    </section>
+
+    <section id="track-section">
+      <div class="section-head">
+        <h2>News</h2>
+      </div>
+      <div id="news-list" class="news-list">
+        <div class="news-empty">News feed wiring pending — see Task 8 ‘Better news + citations’ in the tracker.</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="track.js"></script>
+</body>
+</html>

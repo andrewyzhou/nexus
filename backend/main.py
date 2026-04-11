@@ -222,6 +222,91 @@ def get_track_companies(track_id):
     return jsonify(companies)
 
 
+def fetch_news_for(ticker: str, limit: int = 8) -> list:
+    """Pull news headlines for a ticker via yfinance (Yahoo Finance, free)."""
+    try:
+        import yfinance as yf
+    except Exception:
+        return []
+    try:
+        items = yf.Ticker(ticker).news or []
+    except Exception as e:
+        print(f"[news] yfinance failed for {ticker}: {e}")
+        return []
+
+    out = []
+    for it in items[:limit]:
+        # yfinance returns either flat dicts or wrapped {content: {...}} shapes
+        # depending on version — flatten both.
+        c = it.get("content") or it
+        title = c.get("title") or it.get("title")
+        if not title:
+            continue
+        link = (
+            (c.get("clickThroughUrl") or {}).get("url")
+            or (c.get("canonicalUrl") or {}).get("url")
+            or it.get("link")
+        )
+        publisher = (
+            (c.get("provider") or {}).get("displayName")
+            or c.get("publisher")
+            or it.get("publisher")
+        )
+        published = c.get("pubDate") or it.get("providerPublishTime")
+        summary = c.get("summary") or c.get("description") or ""
+        out.append({
+            "title": title,
+            "link": link,
+            "publisher": publisher,
+            "published": published,
+            "summary": summary,
+            "ticker": ticker,
+        })
+    return out
+
+
+@app.route("/companies/<ticker>/news")
+def get_company_news(ticker):
+    limit = request.args.get("limit", default=8, type=int)
+    return jsonify(fetch_news_for(ticker.upper(), limit=limit))
+
+
+@app.route("/tracks/<slug>/news")
+def get_track_news(slug):
+    """Aggregate news for the top-N companies (by market cap) in this track."""
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id, name FROM investment_tracks")
+    target = None
+    for tid, name in cursor.fetchall():
+        if slugify(name) == slug:
+            target = (tid, name)
+            break
+    if target is None:
+        conn.close()
+        return jsonify({"error": "Track not found"}), 404
+
+    track_id, _ = target
+    top_n = request.args.get("companies", default=5, type=int)
+    per_company = request.args.get("per", default=3, type=int)
+
+    cursor.execute("""
+        SELECT c.ticker
+        FROM companies c
+        JOIN company_tracks ct ON ct.company_id = c.id
+        WHERE ct.track_id = %s
+        ORDER BY COALESCE(c.market_cap, 0) DESC
+        LIMIT %s
+    """, (track_id, top_n))
+    tickers = [r[0] for r in cursor.fetchall()]
+    conn.close()
+
+    aggregated = []
+    for t in tickers:
+        aggregated.extend(fetch_news_for(t, limit=per_company))
+    return jsonify(aggregated)
+
+
 @app.route("/companies/<ticker>/live")
 def get_company_live(ticker):
     """Bypass the DB and pull a fresh quote straight from Yahoo Finance."""

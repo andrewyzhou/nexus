@@ -80,8 +80,12 @@ function buildSidebar(tracks, nodes) {
       <span class="track-dot" style="background:${track.color}; box-shadow:0 0 6px ${track.color}66"></span>
       <span class="track-name">${track.label}</span>
       <span class="track-count">${count}</span>
+      <a class="track-open" href="track.html?slug=${encodeURIComponent(track.id)}" title="Open track page">→</a>
     `;
-    item.addEventListener('click', () => toggleTrack(track.id, item));
+    item.addEventListener('click', (e) => {
+      if (e.target.classList.contains('track-open')) return;
+      toggleTrack(track.id, item);
+    });
     list.appendChild(item);
   });
 }
