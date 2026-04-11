@@ -150,6 +150,12 @@ function onSearch(e) {
 function applyVisibility() {
   if (!nodeGroup) return;
 
+  // Disable hover/click on hidden node groups so invisible Amazons don't
+  // capture the cursor.
+  nodeGroup.selectAll('.node-g').each(function(d) {
+    d3.select(this).style('pointer-events', nodeIsVisible(d) ? 'auto' : 'none');
+  });
+
   nodeGroup.selectAll('circle').each(function(d) {
     const visible = nodeIsVisible(d);
     const matched = searchQuery.length > 0
@@ -161,7 +167,8 @@ function applyVisibility() {
       .attr('opacity', !visible ? 0 : (searchQuery && !matched ? 0.1 : 1))
       .attr('r', searchQuery && matched && visible ? d._baseR * 1.4 : d._baseR)
       .attr('fill', trackColor(d) + '33')
-      .attr('stroke', trackColor(d));
+      .attr('stroke', trackColor(d))
+      .style('pointer-events', visible ? 'auto' : 'none');
   });
 
   nodeGroup.selectAll('text').each(function(d) {
@@ -212,8 +219,14 @@ function trackColor(d) {
 }
 
 function nodeIsVisible(d) {
-  const ids = (d.tracks && d.tracks.length) ? d.tracks : [d.track];
-  return ids.some(id => !hiddenTracks.has(id));
+  // Strict multi-track shape from the new /graph endpoint
+  if (Array.isArray(d.tracks)) {
+    return d.tracks.length > 0 && d.tracks.some(id => !hiddenTracks.has(id));
+  }
+  // Legacy single-track fallback (backend not yet restarted): never show
+  // companies that have no real track assignment.
+  if (!d.track || d.track === 'uncategorized') return false;
+  return !hiddenTracks.has(d.track);
 }
 
 function buildGraph() {
