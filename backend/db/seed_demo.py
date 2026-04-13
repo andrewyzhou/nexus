@@ -44,8 +44,40 @@ from scraper import StockScraper  # noqa: E402
 AI_JSON_DIR = REPO_ROOT / "task5" / "SeleniumAI_Task5" / "final_json"
 
 
+TRACKS_S3_URI = "s3://ipickai-storage/metadata/ticker_track.json"
+
+
+def ensure_tracks_file() -> None:
+    """
+    ticker_track.json is client-private and gitignored. If it's missing,
+    pull it from S3 so the seeder can keep running unattended.
+    Falls through silently if neither the file nor the AWS CLI is available.
+    """
+    if TRACKS_PATH.exists():
+        return
+    print(f"  {TRACKS_PATH.name} missing — attempting download from {TRACKS_S3_URI}")
+    import shutil
+    import subprocess
+    if shutil.which("aws"):
+        try:
+            subprocess.run(["aws", "s3", "cp", TRACKS_S3_URI, str(TRACKS_PATH)], check=True)
+            print(f"  downloaded via aws cli")
+            return
+        except subprocess.CalledProcessError as e:
+            print(f"  aws cli failed: {e} — falling back to boto3")
+    try:
+        import boto3  # type: ignore
+        bucket, key = TRACKS_S3_URI.replace("s3://", "").split("/", 1)
+        boto3.client("s3").download_file(bucket, key, str(TRACKS_PATH))
+        print(f"  downloaded via boto3")
+    except Exception as e:
+        print(f"  ! could not fetch {TRACKS_S3_URI}: {e}")
+        print(f"    Install awscli or boto3 + configure credentials, or download manually.")
+
+
 def collect_universe() -> list[str]:
     """Tickers we want priced: ticker_track.json keys + AI anchors, deduped."""
+    ensure_tracks_file()
     tickers: set[str] = set()
     if TRACKS_PATH.exists():
         try:

@@ -16,3 +16,14 @@ venv/
 
 # environment variables
 .env
+
+# Client-private data — never commit.
+# Master ticker → investment-track map. Pull from
+# s3://ipickai-storage/metadata/ticker_track.json at seed time.
+ticker_track.json
+investment_tracks.json
+frontend/investment_tracks.json
+
+# Project tracker export (may contain member info)
+project_tracker.txt
+Nexus*.docx
