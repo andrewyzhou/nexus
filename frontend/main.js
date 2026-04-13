@@ -9,10 +9,10 @@ const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
 const EDGE_COLORS = {
-  partnership: 'rgba(99,102,241,0.5)',
-  competitor:  'rgba(239,68,68,0.35)',
-  supplier:    'rgba(245,158,11,0.35)',
-  investor:    'rgba(16,185,129,0.35)',
+  partnership: '#6366f1',
+  competitor:  '#ef4444',
+  supplier:    '#f59e0b',
+  investor:    '#10b981',
 };
 
 // ── State ─────────────────────────────────────────────────────────────────────
@@ -122,8 +122,8 @@ function buildEdgeLegend() {
     const item = document.createElement('div');
     item.className = 'edge-legend-item';
     item.innerHTML = `
-      <span class="edge-swatch" style="background:${color.replace('rgba', 'rgb').replace(/,\s*[\d.]+\)/, ')')}"></span>
-      <span>${type.charAt(0).toUpperCase() + type.slice(1)}</span>
+      <span class="edge-swatch" style="background:${color}"></span>
+      <span class="edge-legend-label">${type.charAt(0).toUpperCase() + type.slice(1)}</span>
     `;
     container.appendChild(item);
   });
@@ -161,8 +161,8 @@ function updateNodeCount() {
 
 // ── D3 Graph ──────────────────────────────────────────────────────────────────
 function nodeRadius(d) {
-  // scale by log(marketCap), clamped between 8–28px
-  const r = Math.max(8, Math.min(28, 7 + Math.log(d.marketCap) * 2.2));
+  // scale by log1p(marketCap); min 16px so 5-char tickers always fit
+  const r = Math.max(16, Math.min(32, 8 + Math.log1p(d.marketCap) * 2.4));
   d._baseR = r;
   return r;
 }
@@ -277,9 +277,9 @@ function renderGraph() {
   linkGroup.selectAll('line')
     .data(visibleEdges)
     .enter().append('line')
-    .attr('stroke', d => EDGE_COLORS[d.type] || 'rgba(255,255,255,0.12)')
+    .attr('stroke', d => EDGE_COLORS[d.type] || '#888')
     .attr('stroke-width', 1.5)
-    .attr('opacity', 0.6);
+    .attr('stroke-opacity', 1);
 
   const nodeEl = nodeGroup.selectAll('g')
     .data(visibleNodes)
@@ -298,31 +298,44 @@ function renderGraph() {
     .on('click',     onNodeClick);
 
   nodeEl.append('circle')
-    .attr('r', d => nodeRadius(d) + 5)
+    .attr('class', 'node-glow')
+    .attr('r', d => nodeRadius(d) + 4)
     .attr('fill', 'none')
     .attr('stroke', d => trackColor(d))
     .attr('stroke-width', 1)
     .attr('opacity', 0.25);
 
   nodeEl.append('circle')
+    .attr('class', 'node-body')
     .attr('r', d => nodeRadius(d))
-    .attr('fill', d => trackColor(d) + '33')
+    .attr('fill', d => trackColor(d) + '44')
     .attr('stroke', d => trackColor(d))
     .attr('stroke-width', 1.5);
 
   nodeEl.append('text')
+    .attr('class', 'node-label')
     .text(d => d.ticker)
     .attr('text-anchor', 'middle')
     .attr('dominant-baseline', 'middle')
     .attr('font-family', "'Space Mono', monospace")
-    .attr('font-size', d => Math.max(7, Math.min(10, nodeRadius(d) * 0.75)))
+    .attr('font-size', d => Math.max(8.5, Math.min(10, nodeRadius(d) * 0.6)))
     .attr('fill', d => trackColor(d))
     .attr('pointer-events', 'none');
 
   simulation.on('tick', () => {
-    linkGroup.selectAll('line')
-      .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    linkGroup.selectAll('line').each(function(d) {
+      const dx = d.target.x - d.source.x;
+      const dy = d.target.y - d.source.y;
+      const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+      const ux = dx / dist, uy = dy / dist;
+      const sr = d.source._baseR || 16;
+      const tr = d.target._baseR || 16;
+      d3.select(this)
+        .attr('x1', d.source.x + ux * sr)
+        .attr('y1', d.source.y + uy * sr)
+        .attr('x2', d.target.x - ux * tr)
+        .attr('y2', d.target.y - uy * tr);
+    });
     nodeGroup.selectAll('.node-g')
       .attr('transform', d => `translate(${d.x},${d.y})`);
   });

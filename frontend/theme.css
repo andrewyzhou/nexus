@@ -38,10 +38,21 @@ html[data-theme="light"] #tooltip {
   box-shadow: 0 8px 32px rgba(20, 24, 40, 0.18) !important;
 }
 
-/* D3 graph nodes/edges still draw with rgba whites — soften them */
-html[data-theme="light"] svg text { fill: #1a1d2b; }
-html[data-theme="light"] svg .link,
-html[data-theme="light"] svg line { stroke-opacity: 0.5; }
+/* Node labels: keep track color but darken it for contrast on light bg */
+html[data-theme="light"] svg .node-label {
+  filter: brightness(0.6) saturate(1.5);
+}
+
+/* Node body fill: bump opacity so nodes are more visible on white */
+html[data-theme="light"] svg .node-body {
+  fill-opacity: 0.28;
+  stroke-opacity: 0.85;
+}
+
+/* Glow ring: more visible in light mode */
+html[data-theme="light"] svg .node-glow {
+  opacity: 0.45;
+}
 
 /* Track-page hero gradient is fine, just darken text */
 html[data-theme="light"] .track-body { background: #f6f7fb; color: #1a1d2b; }
