@@ -35,9 +35,11 @@ def normalize_type(rel: str) -> str:
         return "competitor"
     if "suppl" in r:
         return "supplier"
+    if "subsidiar" in r or "parent" in r or "acqui" in r or "own" in r:
+        return "subsidiary"
     if "invest" in r or "stake" in r:
-        return "investor"
-    return "partnership"
+        return "subsidiary"
+    return "competitor"
 
 
 def existing_tickers(cursor) -> set:

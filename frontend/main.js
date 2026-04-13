@@ -9,15 +9,15 @@ const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
 const EDGE_COLORS = {
-  partnership: '#6366f1',
   competitor:  '#ef4444',
   supplier:    '#f59e0b',
-  investor:    '#10b981',
+  subsidiary:  '#10b981',
 };
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let allNodes = [], allEdges = [], tracks = [];
 let hiddenTracks = new Set();
+let pinnedNodes  = new Set();   // individual node IDs shown regardless of track state
 let searchQuery   = '';
 let selectedNode  = null;
 let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
@@ -59,7 +59,9 @@ async function init() {
   updateNodeCount();
   applyVisibility();
 
-  document.getElementById('search-input').addEventListener('input', onSearch);
+  const searchInput = document.getElementById('search-input');
+  searchInput.addEventListener('input', onSearch);
+  searchInput.addEventListener('blur', () => setTimeout(hideSearchDropdown, 150));
   document.getElementById('track-select-all')?.addEventListener('click', selectAllTracks);
   document.getElementById('track-clear-all')?.addEventListener('click', clearAllTracks);
 }
@@ -74,6 +76,10 @@ function selectAllTracks() {
 }
 
 function clearAllTracks() {
+  // Close panel first (before pinnedNodes is cleared so closePanel's own guard skips the extra applyVisibility)
+  panel.classList.remove('open');
+  selectedNode = null;
+  pinnedNodes.clear();
   hiddenTracks = new Set(tracks.map(t => t.id));
   document.querySelectorAll('.track-item').forEach(el => {
     el.classList.remove('active');
@@ -143,8 +149,110 @@ function toggleTrack(trackId, itemEl) {
 }
 
 function onSearch(e) {
-  searchQuery = e.target.value.trim().toLowerCase();
-  applyVisibility();
+  const q = e.target.value.trim().toLowerCase();
+  searchQuery = q;
+  if (!q) { hideSearchDropdown(); return; }
+
+  const matchedTracks = tracks.filter(t => t.label.toLowerCase().includes(q));
+  const matchedNodes  = allNodes.filter(n =>
+    n.ticker.toLowerCase().includes(q) || n.name.toLowerCase().includes(q)
+  ).slice(0, 8);
+
+  if (!matchedTracks.length && !matchedNodes.length) { hideSearchDropdown(); return; }
+  showSearchDropdown(matchedTracks, matchedNodes);
+}
+
+function showSearchDropdown(matchedTracks, matchedNodes) {
+  let dropdown = document.getElementById('search-dropdown');
+  if (!dropdown) {
+    dropdown = document.createElement('div');
+    dropdown.id = 'search-dropdown';
+    document.querySelector('.search-wrap').appendChild(dropdown);
+  }
+
+  dropdown.innerHTML = '';
+
+  if (matchedTracks.length) {
+    const header = document.createElement('div');
+    header.className = 'search-dropdown-header';
+    header.textContent = 'Tracks';
+    dropdown.appendChild(header);
+
+    matchedTracks.forEach(t => {
+      const item = document.createElement('div');
+      item.className = 'search-dropdown-item';
+      item.innerHTML = `<span class="search-dot" style="background:${t.color}"></span><span>${t.label}</span>`;
+      item.addEventListener('mousedown', () => {
+        selectSearchTrack(t.id);
+      });
+      dropdown.appendChild(item);
+    });
+  }
+
+  if (matchedNodes.length) {
+    const header = document.createElement('div');
+    header.className = 'search-dropdown-header';
+    header.textContent = 'Companies';
+    dropdown.appendChild(header);
+
+    matchedNodes.forEach(n => {
+      const t = tracks.find(t => t.id === n.track);
+      const item = document.createElement('div');
+      item.className = 'search-dropdown-item';
+      item.innerHTML = `
+        <span class="search-ticker" style="color:${t ? t.color : '#888'}">${n.ticker}</span>
+        <span class="search-name">${n.name}</span>
+      `;
+      item.addEventListener('mousedown', () => selectSearchNode(n));
+      dropdown.appendChild(item);
+    });
+  }
+
+  dropdown.style.display = 'block';
+}
+
+function hideSearchDropdown() {
+  const d = document.getElementById('search-dropdown');
+  if (d) d.style.display = 'none';
+}
+
+function selectSearchTrack(trackId) {
+  // Show the track if it's hidden
+  if (hiddenTracks.has(trackId)) {
+    hiddenTracks.delete(trackId);
+    const item = document.querySelector(`.track-item[data-track="${trackId}"]`);
+    if (item) { item.classList.add('active'); item.classList.remove('muted'); }
+    applyVisibility();
+  }
+  document.getElementById('search-input').value = '';
+  searchQuery = '';
+  hideSearchDropdown();
+}
+
+function selectSearchNode(n) {
+  pinnedNodes.add(n.id);
+  applyVisibility({ skipFit: true });
+
+  // Zoom to node once it has a position (give simulation a tick to place it)
+  setTimeout(() => {
+    const live = allNodes.find(node => node.id === n.id);
+    if (live && isFinite(live.x) && isFinite(live.y)) zoomToNode(live);
+    openPanel(live || n);
+  }, 120);
+
+  document.getElementById('search-input').value = '';
+  searchQuery = '';
+  hideSearchDropdown();
+}
+
+function zoomToNode(n) {
+  const container = document.getElementById('graph-canvas');
+  const W = container.clientWidth, H = container.clientHeight;
+  const scale = 1.8;
+  const tx = W / 2 - scale * n.x;
+  const ty = H / 2 - scale * n.y;
+  svg.transition().duration(500)
+    .call(zoomBehavior.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
 }
 
 function applyVisibility(opts = {}) {
@@ -178,12 +286,10 @@ function trackColor(d) {
 }
 
 function nodeIsVisible(d) {
-  // Strict multi-track shape from the new /graph endpoint
+  if (pinnedNodes.has(d.id)) return true;
   if (Array.isArray(d.tracks)) {
     return d.tracks.length > 0 && d.tracks.some(id => !hiddenTracks.has(id));
   }
-  // Legacy single-track fallback (backend not yet restarted): never show
-  // companies that have no real track assignment.
   if (!d.track || d.track === 'uncategorized') return false;
   return !hiddenTracks.has(d.track);
 }
@@ -528,6 +634,10 @@ function openPanel(d) {
 
 function closePanel() {
   panel.classList.remove('open');
+  if (selectedNode && pinnedNodes.has(selectedNode.id)) {
+    pinnedNodes.delete(selectedNode.id);
+    applyVisibility({ skipFit: true });
+  }
   selectedNode = null;
 }
 
