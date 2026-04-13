@@ -182,24 +182,43 @@ html, body {
   justify-content: space-between;
   margin-bottom: var(--sp-sm);
 }
+.tracks-header .sidebar-label {
+  margin-bottom: 0;
+}
+.track-hint {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0 0 var(--sp-sm);
+}
 .track-controls {
   display: flex;
   gap: 10px;
 }
 .track-control-btn {
-  background: none;
-  border: none;
-  padding: 0;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.28);
+  border-radius: 5px;
+  padding: 3px 9px;
   font-family: var(--font-mono);
   font-size: 9px;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   cursor: pointer;
-  transition: color var(--t-fast);
+  transition: background var(--t-fast), border-color var(--t-fast), color var(--t-fast);
 }
-.track-control-btn:hover { color: var(--accent); }
+.track-control-btn:hover {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+html[data-theme="light"] .track-control-btn {
+  background: rgba(20,24,40,0.05);
+  border-color: rgba(20,24,40,0.3);
+}
 
 .sidebar-label {
   font-family: var(--font-mono);
