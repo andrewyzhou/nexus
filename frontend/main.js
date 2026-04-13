@@ -70,7 +70,7 @@ function selectAllTracks() {
     el.classList.add('active');
     el.classList.remove('muted');
   });
-  applyVisibility({ skipFit: true });
+  applyVisibility();
 }
 
 function clearAllTracks() {
@@ -389,7 +389,11 @@ function renderGraph({ skipFit = false } = {}) {
       fitView(visibleNodes);
     }
   });
-  if (!skipFit) simulation.on('end', () => fitView(visibleNodes));
+  simulation.on('end', () => { if (!skipFit) fitView(visibleNodes); });
+
+  // Fallback: always fit after 800 ms in case the simulation converges
+  // too quickly (e.g. nodes already have positions from a prior render).
+  if (!skipFit) setTimeout(() => fitView(visibleNodes), 800);
 
   updateNodeCount();
 }
@@ -438,8 +442,12 @@ const panel = document.getElementById('detail-panel');
 
 function onNodeClick(event, d) {
   event.stopPropagation();
-  selectedNode = d;
-  openPanel(d);
+  if (selectedNode && selectedNode.id === d.id) {
+    closePanel();
+  } else {
+    selectedNode = d;
+    openPanel(d);
+  }
 }
 
 function openPanel(d) {
@@ -466,6 +474,7 @@ function openPanel(d) {
         <div class="panel-ticker-badge" style="background:${color}22; color:${color}; border:1px solid ${color}55">${d.ticker}</div>
         <div class="panel-name">${d.name}</div>
         <div class="panel-sector">${d.sector}</div>
+        <a class="panel-open-stock" href="stock.html?ticker=${encodeURIComponent(d.ticker)}">Open full stock page →</a>
       </div>
       <button id="panel-close" onclick="closePanel()">
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -490,10 +499,6 @@ function openPanel(d) {
         <span class="dot"></span>
         ${t ? t.label : d.track}
       </div>
-
-      <a class="panel-open-stock" href="stock.html?ticker=${encodeURIComponent(d.ticker)}">
-        Open full stock page →
-      </a>
 
       <div class="panel-section-title">About</div>
       <p class="panel-desc">${d.description}</p>

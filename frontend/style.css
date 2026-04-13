@@ -293,6 +293,16 @@ html[data-theme="light"] .track-control-btn {
 .track-item.muted .track-dot { opacity: 0.25; }
 .track-item.muted .track-name { color: var(--text-muted); }
 
+.track-open {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 13px;
+  opacity: 0.7;
+  transition: opacity var(--t-fast);
+  flex-shrink: 0;
+}
+.track-open:hover { opacity: 1; }
+
 .track-dot {
   width: 9px;
   height: 9px;
@@ -557,6 +567,17 @@ html[data-theme="light"] .track-control-btn {
   font-weight: 500;
   margin-top: var(--sp-sm);
 }
+
+.panel-open-stock {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--accent);
+  text-decoration: none;
+  opacity: 0.85;
+  transition: opacity var(--t-fast);
+}
+.panel-open-stock:hover { opacity: 1; }
 
 .track-badge .dot {
   width: 6px;
