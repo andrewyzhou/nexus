@@ -180,7 +180,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: var(--sp-sm);
+  margin-bottom: 4px;
 }
 .tracks-header .sidebar-label {
   margin-bottom: 0;
@@ -190,7 +190,7 @@ html, body {
   font-size: 11px;
   color: var(--text-muted);
   line-height: 1.5;
-  margin: 0 0 var(--sp-sm);
+  margin: 0 0 6px;
 }
 .track-controls {
   display: flex;

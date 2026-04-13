@@ -417,12 +417,12 @@ function renderGraph({ skipFit = false } = {}) {
 
   simulation = d3.forceSimulation(visibleNodes)
     .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(65).strength(0.5))
-    .force('charge', d3.forceManyBody().strength(-150))
+    .force('charge', d3.forceManyBody().strength(-320))
     // forceX/Y apply per-node gravity so isolated clusters don't drift away.
     // forceCenter only corrects the centroid — it can't stop components from flying apart.
     .force('x', d3.forceX(W / 2).strength(0.05))
     .force('y', d3.forceY(H / 2).strength(0.05))
-    .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 12))
+    .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 20))
     .alphaDecay(0.028);
 
   linkGroup.selectAll('line')
