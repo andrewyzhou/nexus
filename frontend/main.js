@@ -70,7 +70,7 @@ function selectAllTracks() {
     el.classList.add('active');
     el.classList.remove('muted');
   });
-  applyVisibility();
+  applyVisibility({ skipFit: true });
 }
 
 function clearAllTracks() {
@@ -147,10 +147,10 @@ function onSearch(e) {
   applyVisibility();
 }
 
-function applyVisibility() {
+function applyVisibility(opts = {}) {
   // Force-rebuild instead of toggling opacity — the universe has
   // 4000+ nodes, so we only ever simulate the visible subset.
-  renderGraph();
+  renderGraph(opts);
 }
 
 function updateNodeCount() {
@@ -191,8 +191,6 @@ function nodeIsVisible(d) {
 let zoomLayer;
 
 function buildGraph() {
-  const container = document.getElementById('graph-canvas');
-
   svg = d3.select('#graph-canvas')
     .append('svg')
     .attr('width', '100%')
@@ -235,12 +233,44 @@ function buildGraph() {
 }
 
 /**
+ * Fit the zoom transform so all nodes are visible with padding.
+ * Called after the simulation settles to auto-center the graph.
+ */
+function fitView(nodes) {
+  if (!nodes || nodes.length === 0) return;
+  const container = document.getElementById('graph-canvas');
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+
+  const xs = nodes.map(n => n.x).filter(v => isFinite(v));
+  const ys = nodes.map(n => n.y).filter(v => isFinite(v));
+  if (!xs.length) return;
+
+  const minX = Math.min(...xs), maxX = Math.max(...xs);
+  const minY = Math.min(...ys), maxY = Math.max(...ys);
+  const pad = 40;
+  const bW = (maxX - minX) || 1;
+  const bH = (maxY - minY) || 1;
+
+  const scale = Math.min(
+    (W - pad * 2) / bW,
+    (H - pad * 2) / bH,
+    1.4   // don't zoom in past 1.4×
+  );
+  const tx = W / 2 - scale * (minX + maxX) / 2;
+  const ty = H / 2 - scale * (minY + maxY) / 2;
+
+  svg.transition().duration(500)
+    .call(zoomBehavior.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+}
+
+/**
  * Rebuild the SVG nodes/links from the currently visible subset of allNodes.
  * Called from init() and from applyVisibility() whenever filters change.
  * Rendering only the visible subset keeps the force simulation tractable
  * even though the full universe has 4000+ tickers.
  */
-function renderGraph() {
+function renderGraph({ skipFit = false } = {}) {
   if (!nodeGroup) return;
   const container = document.getElementById('graph-canvas');
   const W = container.clientWidth;
@@ -264,13 +294,28 @@ function renderGraph() {
     return;
   }
 
-  // Reset positions so the new subset can lay out cleanly
-  visibleNodes.forEach(n => { n.x = W / 2 + (Math.random() - 0.5) * 100; n.y = H / 2 + (Math.random() - 0.5) * 100; n.vx = 0; n.vy = 0; });
+  // Keep already-settled positions; only initialize nodes appearing for the first time.
+  // Spawn new arrivals close to the center so the gravity forces keep clusters together.
+  visibleNodes.forEach(n => {
+    if (!isFinite(n.x) || !isFinite(n.y)) {
+      const angle = Math.random() * 2 * Math.PI;
+      const r = 60 + Math.random() * 60;   // 60–120 px from center
+      n.x = W / 2 + Math.cos(angle) * r;
+      n.y = H / 2 + Math.sin(angle) * r;
+    }
+    n.vx = 0;
+    n.vy = 0;
+  });
+
+  let fitDone = false;
 
   simulation = d3.forceSimulation(visibleNodes)
-    .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(90).strength(0.4))
-    .force('charge', d3.forceManyBody().strength(-260))
-    .force('center', d3.forceCenter(W / 2, H / 2))
+    .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(65).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-150))
+    // forceX/Y apply per-node gravity so isolated clusters don't drift away.
+    // forceCenter only corrects the centroid — it can't stop components from flying apart.
+    .force('x', d3.forceX(W / 2).strength(0.05))
+    .force('y', d3.forceY(H / 2).strength(0.05))
     .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 12))
     .alphaDecay(0.028);
 
@@ -338,7 +383,13 @@ function renderGraph() {
     });
     nodeGroup.selectAll('.node-g')
       .attr('transform', d => `translate(${d.x},${d.y})`);
+    // Fit once the layout has mostly settled (alpha < 0.1)
+    if (!skipFit && !fitDone && simulation.alpha() < 0.1) {
+      fitDone = true;
+      fitView(visibleNodes);
+    }
   });
+  if (!skipFit) simulation.on('end', () => fitView(visibleNodes));
 
   updateNodeCount();
 }

@@ -462,9 +462,17 @@ html, body {
   color: var(--text-primary);
 }
 
+#panel-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
 .panel-body {
   flex: 1;
   overflow-y: auto;
+  min-height: 0;
   padding: var(--sp-md);
 }
 
