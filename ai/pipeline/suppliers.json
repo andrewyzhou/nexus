@@ -1,0 +1,187 @@
+[
+  {
+    "ticker": "AMZN",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "QCOM",
+    "suppliers": [
+      "TSMC",
+      "Samsung Electronics",
+      "Global Foundries",
+      "Advanced Semiconductor Engineering",
+      "Amkor Technology",
+      "Siliconware Precision Industries",
+      "STATSChipPAC"
+    ]
+  },
+  {
+    "ticker": "TSLA",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "JNJ",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "ABBV",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "META",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "FSLR",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "WDAY",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "AVGO",
+    "suppliers": [
+      "TSMC",
+      "Advanced Semiconductor Engineering, Inc.",
+      "Foxconn Technology Group",
+      "Amkor Technology, Inc.",
+      "Siliconware Precision Industries Co., Ltd."
+    ]
+  },
+  {
+    "ticker": "GS",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "NEE",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "UNH",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "INTC",
+    "suppliers": [
+      "TSMC"
+    ]
+  },
+  {
+    "ticker": "NOW",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "ORCL",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "ENPH",
+    "suppliers": [
+      "Flex Ltd.",
+      "Salcomp Manufacturing India PVT",
+      "Sunwoda Electric Co. Ltd.",
+      "Flex"
+    ]
+  },
+  {
+    "ticker": "JPM",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "BLK",
+    "suppliers": [
+      "Microsoft",
+      "Amazon Web Services"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "AAPL",
+    "suppliers": [
+      "NONE"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "suppliers": [
+      "TSMC",
+      "Samsung",
+      "SK Hynix Inc.",
+      "Micron Technology, Inc.",
+      "Hon Hai Precision Industry Co., Ltd.",
+      "Wistron Corporation",
+      "Fabrinet",
+      "Taiwan Semiconductor Manufacturing Company Limited",
+      "Samsung Electronics Co., Ltd."
+    ]
+  },
+  {
+    "ticker": "AMD",
+    "suppliers": [
+      "TSMC",
+      "GLOBALFOUNDRIES Inc.",
+      "UMC",
+      "Samsung Electronics Co., Ltd.",
+      "Siliconware Precision Industries Ltd.",
+      "King Yuan Electronics Company",
+      "Tongfu Microelectronics Co., Ltd",
+      "ATMP JVs"
+    ]
+  }
+]
