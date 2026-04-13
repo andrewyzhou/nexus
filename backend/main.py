@@ -449,6 +449,19 @@ def get_graph():
         for s, t, rt in cursor.fetchall()
     ]
 
+    # Generate competitor edges between all companies sharing an investment track
+    cursor.execute("""
+        SELECT c1.ticker, c2.ticker
+        FROM company_tracks ct1
+        JOIN company_tracks ct2 ON ct1.track_id = ct2.track_id AND ct1.company_id < ct2.company_id
+        JOIN companies c1 ON c1.id = ct1.company_id
+        JOIN companies c2 ON c2.id = ct2.company_id
+    """)
+    edges += [
+        {"source": s.lower(), "target": t.lower(), "type": "competitor"}
+        for s, t in cursor.fetchall()
+    ]
+
     conn.close()
     return jsonify({"tracks": tracks, "nodes": nodes, "edges": edges})
 

@@ -9,7 +9,7 @@ const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
 const EDGE_COLORS = {
-  partnership: 'rgba(255,255,255,0.18)',
+  partnership: 'rgba(99,102,241,0.5)',
   competitor:  'rgba(239,68,68,0.35)',
   supplier:    'rgba(245,158,11,0.35)',
   investor:    'rgba(16,185,129,0.35)',
