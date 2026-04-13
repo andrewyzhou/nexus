@@ -27,3 +27,6 @@ frontend/investment_tracks.json
 # Project tracker export (may contain member info)
 project_tracker.txt
 Nexus*.docx
+
+# Local scrub-audit records (contains removed SHAs, don't publish)
+.scrub-records/

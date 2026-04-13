@@ -72,7 +72,11 @@ def ensure_tracks_file() -> None:
         print(f"  downloaded via boto3")
     except Exception as e:
         print(f"  ! could not fetch {TRACKS_S3_URI}: {e}")
-        print(f"    Install awscli or boto3 + configure credentials, or download manually.")
+        print(
+            "    The bucket is private — you need AWS credentials to auto-download.\n"
+            "    Ask iPick for an IAM key, then run `aws configure`. Alternatively,\n"
+            "    download ticker_track.json manually and drop it at the repo root."
+        )
 
 
 def collect_universe() -> list[str]:
