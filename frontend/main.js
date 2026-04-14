@@ -621,10 +621,9 @@ function openPanel(d) {
       </div>
 
       <div class="panel-section-title">Investment Track</div>
-      <div class="track-badge" style="background:${color}22; border:1px solid ${color}44; color:${color}">
-        <span class="dot"></span>
+      <a class="track-badge track-badge--link" href="track.html?slug=${encodeURIComponent(t ? t.id : d.track)}" style="--badge-color:${color}">
         ${t ? t.label : d.track}
-      </div>
+      </a>
 
       <div class="panel-section-title">About</div>
       <p class="panel-desc">${d.description}</p>

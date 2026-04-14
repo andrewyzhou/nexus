@@ -611,15 +611,18 @@ html[data-theme="light"] .track-control-btn {
 }
 
 .track-badge {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
-  font-size: 12px;
-  padding: 5px 12px;
-  border-radius: 20px;
-  color: #fff;
+  font-size: 13px;
+  padding: 7px 12px;
+  border-radius: var(--radius-sm);
+  color: var(--badge-color, var(--text-primary));
   font-weight: 500;
-  margin-top: var(--sp-sm);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-bright);
+  transition: background var(--t-fast), border-color var(--t-fast);
 }
 
 .panel-open-stock {
@@ -633,11 +636,13 @@ html[data-theme="light"] .track-control-btn {
 }
 .panel-open-stock:hover { opacity: 1; }
 
-.track-badge .dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.6);
+.track-badge--link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.track-badge--link:hover {
+  background: var(--bg-hover);
+  border-color: var(--badge-color, var(--border-bright));
 }
 
 /* connected companies list */
