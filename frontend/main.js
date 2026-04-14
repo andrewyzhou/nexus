@@ -14,6 +14,16 @@ const EDGE_COLORS = {
   subsidiary:  '#10b981',
 };
 
+// ── Helpers ───────────────────────────────────────────────────────────────────
+// marketCap comes from the API in billions (e.g. 0.42 = $420M)
+function fmtCap(b) {
+  if (b == null) return '—';
+  if (b >= 1000) return '$' + (b / 1000).toFixed(2) + 'T';
+  if (b >= 1)    return '$' + b.toFixed(1) + 'B';
+  if (b >= 0.001) return '$' + (b * 1000).toFixed(0) + 'M';
+  return '<$1M';
+}
+
 // ── State ─────────────────────────────────────────────────────────────────────
 let allNodes = [], allEdges = [], tracks = [];
 let hiddenTracks = new Set();
@@ -523,7 +533,7 @@ function onNodeHover(event, d) {
   tooltip.innerHTML = `
     <div class="tt-ticker" style="color:${t ? t.color : '#fff'}">${d.ticker}</div>
     <div class="tt-name">${d.name}</div>
-    <div class="tt-meta">${d.sector} · $${d.marketCap >= 1000 ? (d.marketCap/1000).toFixed(1)+'T' : d.marketCap+'B'}</div>
+    <div class="tt-meta">${d.sector} · ${fmtCap(d.marketCap)}</div>
   `;
   tooltip.classList.add('visible');
   positionTooltip(event);
@@ -569,9 +579,7 @@ function openPanel(d) {
     }));
 
   const mcap = d.marketCap || 0;
-  const capStr = mcap >= 1000
-    ? '$' + (mcap / 1000).toFixed(2) + 'T'
-    : '$' + mcap.toFixed(0) + 'B';
+  const capStr = fmtCap(mcap);
   const priceStr = d.price != null ? '$' + Number(d.price).toFixed(2) : '—';
 
   document.getElementById('panel-inner').innerHTML = `
