@@ -1,0 +1,712 @@
+EX-21
+3
+ex21listofsubsidiaries2025.htm
+EX-21
+Document
+Exhibit 21
+Entity Name
+Domestic State
+Foreign Qualification
+AF Motors, L.L.C.
+DE
+FL
+ANL, L.P.
+DE
+FL
+Asbury ANT, LLC
+DE
+MD
+Asbury Arlington MB, LLC
+DE
+TX
+Asbury ART, LLC
+DE
+VA
+Asbury Atlanta AC L.L.C.
+DE
+GA
+Asbury Atlanta AU L.L.C.
+DE
+GA
+Asbury Atlanta BM L.L.C.
+DE
+GA
+Asbury Atlanta CHEV, LLC
+DE
+GA
+Asbury Atlanta Hon L.L.C.
+DE
+GA
+Asbury Atlanta Hund L.L.C.
+DE
+GA
+Asbury Atlanta Inf L.L.C.
+DE
+GA
+Asbury Atlanta Infiniti L.L.C.
+DE
+GA
+Asbury Atlanta Jaguar L.L.C.
+DE
+GA
+Asbury Atlanta K L.L.C.
+DE
+GA
+Asbury Atlanta Lex L.L.C.
+DE
+GA
+Asbury Atlanta Toy 2 L.L.C.
+DE
+GA
+Asbury Atlanta Toy L.L.C.
+DE
+GA
+Asbury Atlanta VB L.L.C.
+DE
+GA
+Asbury Auburn G, LLC
+DE
+MA
+Asbury Auburn H, LLC
+DE
+MA
+Asbury Auburn T, LLC
+DE
+MA
+Asbury Aurora Toy, LLC
+DE
+CO
+Asbury Automotive Atlanta II L.L.C.
+DE
+GA
+Asbury Automotive Atlanta L.L.C.
+DE
+GA
+Asbury Automotive Brandon, L.P.
+DE
+FL
+Asbury Automotive Deland, L.L.C.
+DE
+FL
+Asbury Automotive Group L.L.C.
+DE
+CT, FL, WI
+Asbury Automotive Group, Inc.
+DE
+AR, AZ, CA, FL, GA, ID, NC, NM, PA, TX, UT, VA
+Asbury Automotive Jacksonville GP L.L.C.
+DE
+FL
+Asbury Automotive Jacksonville, L.P.
+DE
+FL
+Asbury Automotive Management L.L.C.
+DE
+GA
+Asbury Automotive North Carolina Dealership Holdings L.L.C.
+DE
+NC
+Asbury Automotive North Carolina L.L.C.
+DE
+NC, SC, VA
+Asbury Automotive North Carolina Management L.L.C.
+DE
+NC
+Asbury Automotive North Carolina Real Estate Holdings L.L.C.
+DE
+NC, SC, VA
+Asbury Automotive St. Louis II L.L.C.
+DE
+MO
+Asbury Automotive St. Louis, L.L.C.
+DE
+MO
+Asbury Automotive Tampa GP L.L.C.
+DE
+FL
+Asbury Automotive Tampa, L.P.
+DE
+FL
+Asbury Automotive Texas L.L.C.
+DE
+TX
+Asbury Automotive Texas Real Estate Holdings L.L.C.
+DE
+TX
+Asbury Automotive West, LLC
+DE
+CO
+Asbury Baltimore F, LLC
+DE
+MD
+Asbury BMB, LLC
+DE
+MA
+Asbury Boston Exotics, LLC
+DE
+MA
+Asbury Boston HON, LLC
+DE
+MA
+Asbury Boston JLR, LLC
+DE
+MA
+Asbury Boston POR, LLC
+DE
+MA
+Asbury Boston T, LLC
+DE
+MA
+Asbury Boston V, LLC
+DE
+MA
+Asbury Braintree F, LLC
+DE
+MA
+Asbury Brookline AU, LLC
+DE
+MA
+Asbury Burlington AU, LLC
+DE
+MA
+Asbury Burlington HON, LLC
+DE
+MA
+Asbury Burlington K, LLC
+DE
+MA
+Asbury Burlington POR, LLC
+DE
+MA
+Asbury Catonsville M, LLC
+DE
+MD
+Asbury Clarksville CBG, LLC
+DE
+MD
+Asbury CO CDJR, LLC
+DE
+CO
+Asbury CO GEN, LLC
+DE
+CO
+Asbury CO HG, LLC
+DE
+CO
+Asbury CO LEX, LLC
+DE
+CO
+Asbury CO SUB, LLC
+DE
+CO
+Asbury Dallas MB, LLC
+DE
+TX
+Asbury Dallas POR, LLC
+DE
+TX
+Asbury Dallas VOL, LLC
+DE
+TX
+Asbury Danvers CDJRF, LLC
+DE
+MA
+Asbury Danvers Chevrolet, LLC
+DE
+MA
+Asbury Deland Hund, LLC
+DE
+FL
+Asbury Deland Imports 2, L.L.C.
+DE
+FL
+Asbury DFW JLR, LLC
+DE
+TX
+Asbury Easton T, LLC
+DE
+MD
+Asbury FCF, LLC
+DE
+VA
+Asbury Fort Worth MB, LLC
+DE
+TX
+Asbury Ft. Worth Ford, LLC
+DE
+TX
+Asbury Georgia TOY, LLC
+DE
+GA
+Asbury Greeley SUB, LLC
+DE
+CO
+Asbury IN CBG, LLC
+DE
+IN
+Asbury IN CDJ, LLC
+DE
+IN
+Asbury IN CHEV, LLC
+DE
+IN
+Asbury IN FORD, LLC
+DE
+IN
+Asbury IN HON, LLC
+DE
+IN
+Asbury IN TOY, LLC
+DE
+IN
+Asbury Indy Chev, LLC
+DE
+IN
+Asbury Jax AC, LLC
+DE
+FL
+Asbury Jax Ford, LLC
+DE
+FL
+Asbury Jax Holdings, L.P.
+DE
+FL
+Asbury Jax Hon L.L.C.
+DE
+FL
+Asbury Jax Management L.L.C.
+DE
+FL
+Asbury Lakewood Chev, LLC
+DE
+CO
+Asbury Lakewood Toy, LLC
+DE
+CO
+Asbury Littleton JLR, LLC
+DE
+CO
+Asbury Littleton Por, LLC
+DE
+CO
+Asbury Longmont Hund, LLC
+DE
+CO
+Asbury Lynnfield Cadillac, LLC
+DE
+MA
+Asbury Lynnfield M, LLC
+DE
+MA
+Asbury Management Services, LLC
+DE
+AL, AZ, CA, CO, CT, DC, FL, GA, ID, IL, IN, MA, MD, ME, MN, MO, NC, NE, NH, NM, NV, NY, OK, OR, PA, RI, SC, TN, TX, UT, VA, WV, WY
+Asbury MBM, LLC
+DE
+VA
+Asbury Mid-Atlantic, LLC
+DE
+MD, VA
+Asbury Millbury CDJRF, LLC
+DE
+MA
+Asbury Millbury Mar, LLC
+DE
+MA
+Asbury Noblesville CDJR, LLC
+DE
+IN
+Asbury North Atlantic, LLC
+DE
+Asbury Norwood LNC, LLC
+DE
+MA
+Asbury Norwood V, LLC
+DE
+MA
+Asbury OMK, LLC
+DE
+MD
+Asbury Plano LEX, LLC
+DE
+TX
+Asbury Risk Services, LLC
+DE
+Asbury SC JPV L.L.C.
+DE
+SC
+Asbury SC Toy L.L.C.
+DE
+SC
+Asbury Seekonk HON, LLC
+DE
+MA
+Asbury Sharon LEX, LLC
+DE
+MA
+Asbury South Carolina Real Estate Holdings L.L.C.
+DE
+SC
+Asbury St. Louis Lex L.L.C.
+DE
+MO
+Asbury St. Louis LR L.L.C.
+DE
+MO
+Asbury St. Louis M L.L.C.
+DE
+MO
+Asbury Sterling F, LLC
+DE
+VA
+Asbury Sudbury B, LLC
+DE
+MA
+Asbury Sudbury LR, LLC
+DE
+MA
+Asbury Sudbury M, LLC
+DE
+MA
+Asbury Tampa Management L.L.C.
+DE
+FL
+Asbury TX Auction, LLC
+DE
+TX
+Asbury Tysons CBG, LLC
+DE
+VA
+Asbury Tysons CDJR, LLC
+DE
+VA
+Asbury Tysons T, LLC
+DE
+VA
+Asbury Warwick Cadillac, LLC
+DE
+RI
+Asbury Warwick MAR, LLC
+DE
+RI
+Asbury Westborough F, LLC
+DE
+MA
+Asbury Westborough IN, LLC
+DE
+MA
+Asbury Westminster T, LLC
+DE
+MD
+Asbury Wilmington L, LLC
+DE
+Asbury WMC, LLC
+DE
+MD
+Asbury WMV, LLC
+DE
+MD
+Asbury Woodbridge BG, LLC
+DE
+VA
+Asbury Woodbridge F, LLC
+DE
+VA
+Asbury Woodbridge H, LLC
+DE
+VA
+Asbury Woodbridge K, LLC
+DE
+VA
+Asbury-Deland Imports, L.L.C.
+DE
+FL
+Atlanta Real Estate Holdings L.L.C.
+DE
+GA, MA
+Avenues Motors, Ltd.
+FL
+BFP Motors L.L.C.
+DE
+FL
+C & O Properties, Ltd.
+FL
+CFP Motors L.L.C.
+DE
+FL
+CH Motors L.L.C.
+DE
+FL
+CHO Partnership, Ltd.
+FL
+CN Motors L.L.C.
+DE
+FL
+Coggin Automotive Corp.
+FL
+Coggin Cars L.L.C.
+DE
+FL
+Coggin Chevrolet L.L.C.
+DE
+FL
+Coggin Management, L.P.
+DE
+FL
+Crown Acura/Nissan, LLC
+NC
+Crown CHH L.L.C.
+DE
+NC
+Crown FDO L.L.C.
+DE
+NC
+Crown FFO L.L.C.
+DE
+NC
+Crown GAC L.L.C.
+DE
+NC
+Crown GBM L.L.C.
+DE
+NC
+Crown GDO L.L.C.
+DE
+NC
+Crown GHO L.L.C.
+DE
+NC
+Crown GNI L.L.C.
+DE
+NC
+Crown GVO L.L.C.
+DE
+NC
+Crown Honda, LLC
+NC
+Crown RIA L.L.C.
+DE
+VA
+Crown RIB L.L.C.
+DE
+VA
+Crown SNI L.L.C.
+DE
+SC
+CSA Imports L.L.C.
+DE
+FL
+HFP Motors L.L.C.
+DE
+FL
+KP Motors L.L.C.
+DE
+FL
+Landcar Administration Company
+UT
+AZ, NM
+Landcar Agency, Inc.
+UT
+AL, AZ, CA, CO, CT, DC, FL, GA, HI, ID, IN, LA, MA, MD, ME, MO, MT, NC, NH, NJ, NM, NV, OH, OK, OR, PA, RI, SC, TN, TX, VA, WA, WI, WY
+Landcar Casualty Company
+UT
+AL, AZ, CA, CO, CT, DC, FL, GA, HI, IN, MA, MD, ME, MO, MT, NC, NH, NV, OH, OK, OR, PA, RI, SC, TN, TX, VA, WI, WY
+Landcar GC, LLC
+UT
+Landcar Management, Ltd.
+UT
+Larry H. Miller Company - Bountiful, L.L.C.
+UT
+LHM ACD, LLC
+UT
+NM
+LHM ACJ, LLC
+UT
+AZ
+LHM ADR, LLC
+UT
+AZ
+LHM ALH, LLC
+UT
+NM
+LHM AMT, LLC
+UT
+NM
+LHM ANI, LLC
+UT
+CO
+LHM Auto GP Holdings, LLC
+DE
+LHM Auto Intermediate Holdings I, LLC
+DE
+LHM Auto Intermediate Holdings II, LLC
+DE
+LHM AVW, LLC
+UT
+AZ
+LHM BCD, LLC
+ID
+LHM BSU, LLC
+ID
+LHM BUC, LLC
+UT
+ID
+LHM CHV, LLC
+UT
+LHM Collision CSCO, LLC
+UT
+CO
+LHM Collision OCC, LLC
+UT
+LHM CTO, LLC
+UT
+CA
+LHM DCJ, LLC
+UT
+CO
+LHM DDR, LLC
+UT
+CO
+LHM DNI, LLC
+UT
+CO
+LHM FLT, LLC
+UT
+TX
+LHM HOB, LLC
+ID
+LHM HON, LLC
+UT
+LHM HYN, LLC
+UT
+AZ
+LHM LCJ, LLC
+UT
+LHM LEX, LLC
+UT
+LHM LFO, LLC
+UT
+CO
+LHM LMD, LLC
+UT
+AZ
+LHM MBL, LLC
+UT
+LHM MFD, LLC
+UT
+AZ
+LHM MNI, LLC
+UT
+AZ
+LHM MUR, LLC
+UT
+LHM NHR, LLC
+UT
+CO
+LHM PCD, LLC
+UT
+LHM PCH, LLC
+UT
+LHM Peoria GEN, LLC
+DE
+AZ
+LHM PFL, LLC
+UT
+LHM PNX, LLC
+UT
+AZ
+LHM QCH, LLC
+UT
+NM
+LHM QCJ, LLC
+UT
+NM
+LHM RCD, LLC
+UT
+LHM SAX, LLC
+DE
+LHM SCD, LLC
+UT
+AZ
+LHM SFL, LLC
+UT
+LHM SFO, LLC
+UT
+LHM SHO, LLC
+UT
+WA
+LHM SWH, LLC
+UT
+NM
+LHM TCD, LLC
+UT
+CO
+LHM TCJ, LLC
+UT
+AZ
+LHM TDR, LLC
+UT
+AZ
+LHM TSD, LLC
+UT
+CA
+LHM TVW, LLC
+UT
+AZ
+LHM UCN, LLC
+UT
+LHM UCO, LLC
+UT
+LHM UCS, LLC
+UT
+McDavid Austin-Acra L.L.C.
+DE
+TX
+McDavid Frisco-Hon L.L.C.
+DE
+TX
+McDavid Grande L.L.C.
+DE
+TX
+McDavid Houston-Niss, L.L.C.
+DE
+McDavid Irving-Hon, L.L.C.
+DE
+TX
+McDavid Plano-Acra, L.L.C.
+DE
+TX
+Osborn/Miller Automotive, L.L.C.
+UT
+CO
+Plano Lincoln-Mercury, Inc.
+DE
+TX
+Precision Computer Services, Inc.
+FL
+Precision Enterprises Tampa, Inc.
+FL
+Precision Infiniti, Inc.
+FL
+Precision Motorcars, Inc.
+FL
+Precision Nissan, Inc.
+FL
+Q Automotive Cumming GA, LLC
+DE
+GA
+Tampa Hund, L.P.
+DE
+FL
+Tampa Kia, L.P.
+DE
+FL
+Tampa LM, L.P.
+DE
+Tampa Mit, L.P.
+DE
+WMZ Motors, L.P.
+DE
+WTY Motors, L.P.
+DE
+FL

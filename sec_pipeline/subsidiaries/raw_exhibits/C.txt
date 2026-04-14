@@ -1,0 +1,160 @@
+EX-21.01
+8
+citi-exh2101x12312025.htm
+EX-21.01
+Document
+Significant Subsidiaries of Citigroup Inc.
+Exhibit 21.01
+In accordance with SEC rules, the following is a list of Citigroup Inc.'s subsidiaries as of December 31, 2025, other than those subsidiaries, considered in the aggregate as a single subsidiary, that would not constitute a “significant subsidiary” as of December 31, 2025.
+This list of subsidiaries will change from year-to-year as a result of changes in Citigroup Inc.'s and its subsidiaries’ results of operations and financial condition, legal entity consolidations and any sales and other dispositions of Citigroup Inc.'s subsidiaries.  Accordingly, this list is not representative of the total number of subsidiaries that Citigroup may have at any given time.
+Subsidiary Level (a)
+Subsidiary
+Jurisdiction Name
+1
+Citicorp Banking Corporation
+Delaware
+1
+Citicorp LLC
+Delaware
+2
+Citi GSCP Inc.
+Delaware
+3
+TRV Investments LLC
+Delaware
+4
+COHM Overseas Mexico Holding, S. de R.L. de C.V.
+Mexico
+5
+Citicorp (Mexico) Holdings LLC
+Delaware
+6
+Grupo Financiero Banamex, S.A. de C.V.
+Mexico
+7
+Banco Nacional de Mexico, S.A., integrante del Grupo Financiero Banamex
+Mexico
+8
+Tarjetas Banamex, S.A. de C.V., SOFOM, E.R.,Integrante del Grupo Financiero Banamex
+Mexico
+7
+Seguros Banamex, S.A. de C.V., integrante del Grupo Financiero Banamex
+Mexico
+6
+Grupo Financiero Citi Mexico, S.A. de C.V.
+Mexico
+7
+Banco Citi Mexico, Sociedad Anonima, Institucion de Banca Multiple, Grupo Financiero Citi Mexico
+Mexico
+2
+Citibank, N.A.
+United States
+3
+Citibank (China) Co., Ltd.
+China
+3
+Citibank Kazakhstan JSC
+Kazakhstan
+3
+Citibank Overseas Investment Corporation
+United States
+4
+Citi Investments Bahamas Ltd.
+Bahamas
+5
+Citi Overseas Holdings Bahamas Limited
+Bahamas
+6
+Citibank Europe plc
+Ireland
+7
+Bank Handlowy w Warszawie S.A.
+Poland
+6
+Citigroup Asia Pacific Holding LLC
+Delaware
+7
+Banco Citibank S.A.
+Brazil
+5
+Citigroup Holding (Singapore) Private Limited
+Singapore
+6
+Citibank Berhad
+Malaysia
+6
+Citibank (Hong Kong) Limited
+Hong Kong
+6
+Citibank Singapore Limited
+Singapore
+6
+Citicorp International Limited
+Hong Kong
+6
+Citicorp Investment Bank (Singapore) Limited
+Singapore
+4
+Citibank Korea Inc.
+South Korea
+4
+Citibank Nigeria Limited
+Nigeria
+4
+Citibank Taiwan Ltd.
+Taiwan
+4
+Citigroup Chile SpA
+Chile
+4
+Citigroup Netherlands B.V.
+Netherlands
+5
+Citibank Anonim Sirketi
+Turkiye
+3
+CitiMortgage, Inc.
+New York
+2
+Citigroup Japan Holdings G.K.
+Japan
+3
+Citigroup Global Markets Japan Inc.
+Japan
+1
+Citigroup Global Markets Holdings Inc.
+New York
+2
+Citigroup Financial Products Inc.
+Delaware
+3
+Citigroup Energy Inc.
+Delaware
+3
+Citigroup Global Markets Europe Finance Limited
+England
+4
+Citigroup Global Markets (International) Finance GmbH
+Switzerland
+5
+Citigroup Global Markets Overseas Finance Limited
+Cayman Islands
+6
+Citigroup Global Markets Hong Kong Holdings Limited
+Hong Kong
+7
+Citigroup Global Markets Asia Limited
+Hong Kong
+3
+Citigroup Global Markets Holdings Bahamas Limited
+Bahamas
+4
+Citigroup Global Markets Limited
+England
+5
+Citigroup Global Markets Europe AG
+Germany
+3
+Citigroup Global Markets Inc.
+New York
+(a)   Indicates the number of subsidiaries levels the subsidiary resides beneath Citigroup Inc.

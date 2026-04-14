@@ -1,0 +1,891 @@
+TICKER: CETY
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain partners to drive scalability and cost efficiency in our
+    solutions. ○ Leveraging
+    our existing marketing channels to sell HTAP Waste to Energy products to industrial companies and government agencies. ○ We
+    are collaborating with clean energy project development and finance companies to offer solutions that generate RNG, hydrogen, methane,
+    and biochar from biomass, municipal waste, timber waste, and other organic materials. 7 Business
+and Segment Information We
+design, produce and market clean energy products and integrated solutions focused on energy efficiency and renewable energy. Our aim
+is to become a leading provider of renewable and energy efficiency products and solutions by helping commercial companies and municipalities
+reduce energy waste and emissions, lower energy costs and generate incremental revenue by providing electricity, renewable natural gas
+and biochar to the grid. Segment
+Information Our
+four segments for accounting purposes are: Clean
+Energy HRS & CETY Europe – Our Waste Heat Recovery Solutions, converting thermal energy to zero emission electricity. CETY
+Renewables Waste to Energy Solutions – Providing Waste to Energy technologies and solutions. Engineering
+and Manufacturing Business – providing customers with comprehensive design, manufacturing, and project management solutions. CETY
+HK – The parent company of our NG trading operations in China. Prior to the first quarter of 2022 the Company had three reportable
+segments but added the CETY HK segment to reflect its recent new businesses in China. Our
+Clean Energy Solutions Business Waste
+Heat Recovery Solutions We
+provide our customers with power plants that capture wasted heat energy and produce electricity using a unique Organic Rankine Cycle
+(ORC) system containing our Clean Cycle TM generator. Our magnetic bearing Integrated Power Modules is at the heart of our
+Clean Cycle TM generator which can fit into a standard cargo container we call our Containerized System Module, producing 140KW
+per Clean Cycle generator and can be linked together for projects generating up to 1MW of power. Our
+recent agreement with Enertime now permits us to install midsized and large ORC systems (between 1 MW and 10 MW) in the United States,
+allowing us to offer a full range of ORC systems to our customers. We believe this new capacity will enable us to expand our product
+offerings into larger scale waste recovery products in the United States. Enertime is a leader in producing ORC systems in Europe. ORC
+waste heat recycling systems use pressurized working fluids that have a lower boiling point than water which make them ideal to repurpose
+waste heat into electricity. While most manufacturing processes do not produce enough heat to turn water into steam, there is enough
+heat to generate pressurized refrigerant in our ORC systems which is used to turn a turbine at high speeds to generate electricity. We
+can link up to 10 Clean Cycle Generators together which can generate up to 10 GWh of electricity per year from waste heat which we estimate
+would reduce up to 5000 metric tons of CO2 production per year in an industrial heat recovery system or the annual equivalent of the
+CO2 emissions of approximately 2000 cars per year. 8 We
+believe the most important component in any ORC system is the turbine generator because it converts the steam heat into electricity and
+accounts for approximately 60% of the cost of the system. The more efficiently the turbine generator works, the better the ORC power
+plant operates. The remaining components consisting of the low boiling point fluid, condensers, which cool the fluids, the feed pumps,
+which pressurize the fluids to reduce boiling points and the heat exchangers, which extract the heat from the heat sources. These are
+more commoditized products and tend to perform at similar levels of efficiencies at similar price points. We
+believe our Clean Cycle TM generator is the most efficient turbine generator in it’s class and size available in the
+market for ORC systems generating up to 1 MW. We estimate that the Clean Cycle TM generator has higher efficiency of approximately
+15% than our competitors and its magnetic design eliminates the use of oils and lubricants, significantly reducing down time, repairs
+and operating costs. Our Integrated Power Module is compact and fit into a standard cargo container that can be delivered on a turnkey
+basis resulting in lower installation and implementation costs than on-site assembly. We
+believe these features and benefits give us an important competitive advantage when building heat recovery power plants for our customers
+and provide us with the opportunity to compete with and obtain market share from the dominant industrial waste heat to power systems. Over
+121 Clean Cycle TM generators have been deployed to date with 88 units used in biomass and waste to energy projects, 4 with
+diesel electric generators, 3 with turbine electric generators and 26 in industrial electric production applications. We expect to raise
+additional funds to expand our capacity to install 6-8 units per year which should approximately double our sales on a year-to-year basis. The
+patented technology used in Clean Cycle TM generator was purchased from General Electric International, together with over
+100 installation sites, making us one of the leading provider of small-scale industrial waste heat to power systems. We have an exclusive
+license from Calnetix to use their magnetic turbine for heat waste recovery applications. Our
+    Integrated Power Module Our
+    Clean Cycle TM Generator 9 A
+complete ORC System with Integrated Power Module housed in a Containerized System Module (CSM) Waste
+to Energy Solutions We
+are adding a new business line in our clean energy solutions segment consisting of Waste to Energy processing equipment, engineering
+services and Waste to Energy processing power plant joint ventures where we expect to retain an ownership interest in the project. Waste-to-Energy
+technologies that process non-renewable waste can reduce environmental and health damages while generating sustainable energy. Waste-to-Energy
+technologies consist of waste treatment process that creates energy in the form of electricity, heat or fuels from a waste source. These
+technologies can be applied to several types of waste: from the biomass (e.g. woodchips) to semi-solid (e.g. thickened sludge from effluent
+treatment plants) to liquid (e.g. domestic sewage) and gaseous (e.g. refinery gases) waste. Waste
+to Energy Solutions can be used: ● In
+    any town, city or province with established waste management and collection. ● Where
+    there is a consistent supply of solid waste. ● Places
+    where treatment costs increase with shortages of space to store waste. ● In
+    areas with high energy prices to allow for cost of recovery from waste . Waste
+to Energy Solutions have many benefits: ● Electricity
+    from Waste to Energy plants can be generated from small amounts up to 30 MW providing for a wide range of opportunities to sell it
+    back to the grid. ● The
+    synthetic renewable fuel gas produced from waste can be used for various production recyclable energy such as hot water, thermo-oil
+    or steam, renewable natural gas or hydrogen. ● Landfill
+    waste is reduced and so is leachate and methane released from decomposing landfills. ● Waste
+    is a reliable source of energy and production is typically predictable and low cost whereas fossil fuel prices can fluctuate dramatically. 10 But
+Traditional Incineration Methods Have Significant Downsides: ● Air
+    pollution can increase because scrubbing technologies are very expensive to install. ● Many
+    industrial, agricultural, and mixed municipal solid wastes have high moisture content at source and direct incineration of such waste
+    requires burning fossil fuel. ● to
+    maintain thermal conversion process. ● Carbon
+    is released into the air which would otherwise be stored in landfill. ● Ash
+    and flue gas cleaning residues from incineration can also cause poisonous leachate problems if not properly disposed of which is
+    costly and causes downstream environmental issues. ● Generating
+    electricity from incineration releases more CO2, SO2, NOx and mercury than natural gas. (Source: https://www.energyforgrowth.org/memo/waste-to-energy-one-solution-for-two-problems/ ) The
+most common form of waste to energy systems are based on incinerators which simply burn waste using air. The Thermal Treatment on Grate
+is the most widespread technology being used by large waste landfills to generate electricity and heat. These systems produce substantial
+amounts of ash, heavy metals and carbon dioxide which need to be treated and disposed of to minimize its impact on the environment. They
+also require substantial amounts of pre-treatments prior to burning. The
+Thermal on Grate incineration process, while wide-spread, is too expensive and complex for smaller and mid-sized waste to energy projects
+creating, what we believe, a significant market opportunity in small and mid-sized waste processing applications to create not only electricity
+but valuable renewable natural gas, bio diesel oil, hydrogen, methane, and biochar. Our
+solution is a patented High Temperature Ablative Pyrolysis (HTAP) Biomass Reactor as viable commercial solution to the costs and environmental
+problems posed by traditional incarnation methods. We have the exclusive license and right to sell the HTAP10 and HTAP5 and related products
+manufactured by Enex which has a proven installed commercial base of customers using its waste to energy solutions. We believe this is
+an ideal solution to process waste for small to mid-sized waste to energy generation applications needed for processing industrial and
+municipality solid waste, agriculture waste, and forestry waste. Pyrolysis
+systems decompose waste without the use of oxygen under varying pressurized conditions and at temperatures ranging from 300 degrees Celsius
+and 1,300 degrees Celsius. The major advantage of pyrolysis is that it is a cost-effective technology and helps curb environmental pollution.
+Pyrolysis systems are gradually replacing traditional incineration and gaining momentum in the waste to energy processing market addresses
+many of the pre-treatment issues and, when using high temperature and high-pressure, substantially reduce or eliminates pollutant. (Source:
+“Life Cycle Assessment of Waste-to-Bioenergy Processes: a Review” Pooja Ghosh,... Arunaditya Sahay, in Bioreactors, 2020) Pyrolysis
+systems can produce hydrogen, renewable natural gas, bio-diesel oil, charcoal, and biochar which are used to power hydrogen, diesel,
+and natural gas engines or electrical turbines which can be sold and often are eligible for substantial tax and pricing benefits. When
+compared with the conventional incineration plant that runs in the capacity of kilotons per day, the scale of the pyrolysis plant is
+more flexible, and the output of pyrolysis can be integrated with other downstream technologies for product upgrading. (Source: Influential
+Aspects in Waste Management Practices Karthik Rajendran PhD,. Jerry D. Murphy PhD, in Sustainable Resource Recovery and Zero Waste Approaches,
+2019) In addition, BioChar stores and reduces atmospheric CO2 and can be used as a soil conditioner, an organic component of animal feeds,
+construction materials, wastewater treatment and in textiles. (Source: https://www.bioenergyconsult.com/applications-of-biochar/) The
+ablative pyrolysis system is a waste to energy process that largely eliminates pre-treatment and the harmful pollutants and storage waste
+produced when using standard incineration and other pyrolysis technologies. It uses high pressure to generate fast pyrolysis and is designed
+so that the heat transferred from a hot reactor wall softens the feedstock under pressure and permits larger feedstock particles to be
+processed without pre-treatment. These systems create high relative motion between the reactor wall and the feedstock. The process avoids
+the need of inert gas and hence the processing equipment is small and the reaction system is more intense. (Source: http://biofuelsacademy.org/index.html%3Fp=608.html) 11 CETY
+has licensed proprietary patented ablative pyrolysis system for commercial use that has been installed in 7 sites for use in waste to
+energy creating applications processing including peat, coal, flax waste, sawdust and wood scrap, straw, buckwheat husks, and cardboard,
+tapes, films and paper machine sludge. The technology has been implemented over 1,500 onsite power generation projects in Russia working
+with major energy production companies such as Gazprom, Rosneft, Lukoil and Rostelecom as well as completing several projects for customers
+in the European Union, Middle East and United States. Due to the conflict in the Ukraine, ENEX is redomiciling and relocating key personnel
+to Turkey where it will complete an existing project and is expected to wind down its operations. CETY will develop additional ablative
+technology and expects to manufacture units in the United States. Sales and European distribution will be run out of a CETY office that
+has been established in Turkey. CETY
+has global rights (except Russia and CIS countries) to design, build, manufacture, sell and operate renewable energy and waste recovery
+facilities HTAP10 and HTAP5 systems and other products and technologies we expect to develop in the future. The
+patented HTAP technology utilizes a higher temperature that uses a cleaner gas for the heating process and a more efficient biogas turbine.
+The units can be customized to produce hydrogen, natural gas, diesel oil and bio char in varying quantities which can be sold or used
+to produce electricity. We believe that the key benefits of the HTAP Biomass Reactor are: ● Flexibility
+    in waste sourcing and mixing. ● Customized
+    outputs of hydrogen, synthetic fuels, natural gas, methane, biochar, carbon black, or construction materials. ● Better
+    waste sourcing and mixing flexibility, ● Near-zero
+    emissions, ● Modular
+    design, ● Zero
+    liquid discharge, ● Zero
+    solid waste residue waste. ● Modular,
+    containerize design reducing implementation costs ● Proven
+    commercial implementation. We
+are targeting industrial and municipality solid waste, landfill waste, agriculture waste (straw, stems, plant biomass, manure, crop wastage),
+and forestry waste from tree cuttings and shredded products. We
+are in the process of identifying projects domestically and internationally for the HTAP Biomass Reactor. We believe the first project
+where we expect to implement the HTAP10 technology with Vermont Renewable Gas to develop a biomass renewable energy processing facility.
+The project is planned for a location in Lyndon, Vermont to convert forest and agriculture biomass waste products to renewably generated
+electricity and BioChar fertilizer. We expect to annually deliver up to 18,000 MWh of renewable electricity and 1,500 tons of BioChar.
+The Vermont Renewable Gas project is one of the many renewable energy processing facilities we plan to commission. 12 ENEX
+HTAP 10 Waste to Energy Processing Plant. We
+established a wholly owned subsidiary called CETY Capital that we expect will help us finance our customers renewable energy projects
+producing low carbon energy. CETY Capital, when implemented, should add flexibility to the capacity CETY offers its customers and fund
+projects utilizing its products and clean energy solutions. The in-house financing arm is expected to support our sales and build new
+renewable energy facilities. To date we have conducted no material operations in this subsidiary. Our
+Clean Energy Initiatives in China Natural gas is China’s
+fastest-growing primary fuel with demand quadrupling in the past decade. Developing the natural gas sector is a critical aspect China’s
+effort to reduce reliance on coal. According to the International Energy Agency, China is the world’s sixth-largest natural gas
+producer, the third-largest consumer, and the second-largest importer. In 2050, the U.S. Energy Information Administration (EIA) expects
+China to consume nearly three times as much natural gas as it did in 2018, which was 280.30 b/cm. China’s natural gas consumption
+accounted for 8.3% of its total energy mix in 2019. China anticipates boosting the share of natural gas as part of total energy consumption
+to 14% by 2030. Before COVID 19, China was expected to account for a third of global demand growth through 2022, thanks in part to the
+country’s “Blue Skies” policy and the strong drive to improve air quality. China’s relatively strong economic
+recovery from the COVID 19 crisis will probably increase that share. Natural gas is imported either through pipelines or as liquefied
+natural gas (LNG) on ships. https://www.axios.com/2018/06/26/china-largest-natural-gas-importer?utm_source=chatgpt.com Liquid
+Natural Gas in the Chinese energy market produces half as much carbon dioxide, less than a third as much nitrogen oxides, and 1 percent
+as much sulfur oxides at the power plant compared to the average air emissions from coal-fired generation. In addition to reduced air
+emissions, natural gas has other environmental benefits that make it a smart fuel choice. Natural gas-fired power plants use about 60
+percent less water than coal plants and 75 percent less water than nuclear power plants for the same electricity output. (Source: Conoco
+Phillips) In
+2021, we acquired through our subsidiary, CETY Hong Kong, a liquefied natural gas trading operation called Jiangsu Huanya Jieneng (“JHJ”)
+which sources LNG from large LNG producers and distributors and sells it to non-state-owned industries and downstream customers in mainland
+China. CETY
+also plans to sell its waste heat recovery and waste to energy products in China as well as provide consulting services relating to the
+same to projects in China. The
+JHJ team has more than 10 years of experience in the natural gas and clean energy industry and has maintained relationships and partners
+with many natural gas enterprises in China. 13 CETY
+HK NG
+Trading Operations JHJ’s
+principal service is to source and supply NG to industries and municipalities located in the southern part of Sichuan Province and portions
+of Yunnan Province. The NG is principally used for heavy truck refueling stations and urban or industrial users in areas that do not
+have a connection to local NG pipeline systems. We purchase large quantities of NG from large wholesale NG depots at fixed prices
+which are prepaid for in advance at a discount to market. We sell the NG to our customers at prevailing daily spot prices for the duration
+of the contracts. Either
+our sources or customers arrange for delivery of the NG. Our profitability depends on our ability to purchase NG at volume discounts
+at the beginning of a season and sell it at a delivered price that is higher than the price we pay. JHJ
+traders are experienced NG traders, familiar with the spot and future markets and have relationships with the major users of NG in
+the areas that we serve. Our customers may be local or may be as far as 700km from each depot. We
+compete with other NG trading based on availability and price. We target our discount with our sources to partially hedge against falling
+spot prices and give us a gross profit targeted at substantially higher rate than our competitors which are approximately 20-30 percent
+margins compared against what we believe are 1-5 percent margins by our competitors. So long as there are no major fluctuations in the
+spot market, we can offer more competitive prices due to the discounts we receive from the large volumes purchased and the prepayments
+for the NG. JHJ has currently established a supply of approximately 8,000 tons of NG for distribution. We
+are able to purchase NG at a significant discount from our suppliers because our prepayments offer suppliers more certainty with respect
+to the sales of their inventory, address their cash flow issues, and allow them to better plan for production. We believe our downstream
+customers get better prices from us because of our bulk buying power, ease of inventory management and cash flow. Both
+our suppliers and customers can reduce costs by using JHJ as a centralized procurement center and establishing professional logistics
+distribution based on stable supply and downstream demand. Our convertible note investment in Heze Hongyuan Natural Gas co. is subject to dilution by additional equity investment into HHNG by third parties. We do not expect the project to require additional
+investment from us, JHJ or HHNG. The project has constructed a portion of the pipelines in the Heze area that links the local industrial
+users to the national gas pipeline. Certain parts of the pipeline construction has been delayed due to the permitting process. The project
+is expected to generate cash flow by the end of 2025. We do not expect to make further direct minority investments in other pipeline
+operators. 14 Engineering,
+Consulting and Project Management Services Engineering . Our global engineering team supports the design, build, installation, and maintenance of our solutions and supports our technology
+customers and innovative start-ups with a broad range of electrical, mechanical and software engineering services. CETY has assembled
+a team of experts from around the globe to assist customers at any point in the design cycle. These services include design processes
+from electrical, software, mechanical and Industrial design. Utilization of CETY’s design services will provide our customers with
+a complete end to end solution. Supply
+Chain Management . CETY’s supply chain solution provides maximum flexibility and responsiveness through a collaborative
+and strategic approach with our customers. CETY can assume supply chain responsibility from component sourcing through delivery of finished
+product. CETY’s focus on the supply chain allows us to build internal and external systems and better our relationships with our
+customers, which allows us to capitalize on our expertise to align with our partners and customer’s objectives and integrate with
+their respective processes. The
+Market for Our Products. Waste
+to Energy . There
+are more than 2500 waste-to-energy plants in the world, including almost 500 in Europe. (Source: https://wteinternational.com/news/waste-to-energy-technologies-overview/).
+The waste-to-energy (WTE) market is expected to register a CAGR of 7.35% during the forecast period of 2021 – 2026, reaching a
+market size of USD 69.94 billion by 2026, up from USD 43.66 billion in 2019. The COVID-19 pandemic affected the market negatively in
+the form of supply chain disruptions and delays in project implementation. However, the market is expected to recover from 2021, owing
+to the increasing efforts to promote waste-to-energy plants by various countries across the world. 15 Increasing
+government regulations regarding the waste to energy in various countries is one of the major factors driving the growth of global waste
+to energy market. For instance, according to Federal Power Act 2019, this act gives federal authority over electric utilities in U.S.
+Also the acts like Public Utility Regulatory Policy Act (PURPA) and Energy Policy Act are applied by the government to increase the waste
+to energy and decrease the CO 2 emission by fossil fuels. In addition, escalating investments in R&D by different countries
+is also fostering the growth of global waste to energy market. (Source : https://www.epa.gov/laws-regulations/summary-energy-policy-act ) Alternative
+thermal technologies like pyrolysis, gasification and plasma arc gasification are expected to lower carbon emissions and witness the
+growth in demand. Moreover, a shift in trend towards replacing conventional energy generating from fossil fuels with renewable energy
+to ensure energy security and reduce carbon emissions are potential factors to drive industry growth. The global waste to energy market
+size was valued at $35.1 billion in 2019, and is projected to reach $50.1 billion by 2027, growing at a CAGR of 4.6% from 2020 to 2027. https://www.alliedmarketresearch.com/waste-to-energy-market Waste
+Heat Recovery A
+study by Market Research Future in October of 2021 forecasted the waste heat recover market would be worth USD 114 billion by 2028 registering
+a CAGR of 9.2 per year from a baseline of USD 59.44 billion in 2020. The primary economic driver in the waste heat recovery market are
+“rising energy use, economic development, and rising electricity prices. The use of energy in many sectors to manufacture products
+is steadily growing. The need for energy has increased in industrialized regions as industrialization has occurred. Companies are developing
+numerous strategies to transform waste heat into energy as the demand for energy grows. As a result, it is fueling the growth of the
+Waste Heat Recovery market. The government has taken various initiatives and enacted rules to save energy, which has promoted the usage
+of Waste Heat Recovery technologies. Due to environmental concerns, the government is taking steps to save energy; as a result, the Waste
+Heat Recovery sector is booming. Energy-efficient technology has become critical for industries looking to save money.” (Source: https://www.yahoo.com/now/waste-heat-recovery-market-worth-095200052.html) In
+2020 North America constituted the largest share of the market accounting for approximately 33% of the global total but countries in
+Asia and the Asia Pacific constitute the fasting growing geographic sectors due to rapid industrial expansion. Waste
+heat recovery systems in the United States now qualify for beneficial investment tax credits of up to 26% on the investment driving additional
+companies to install ORC industrial waste heat to power units. Owners of waste energy recovery property can claim a 26% ITC if construction
+of such property begins during 2021 or 2022, and a 22% ITC if construction begins during 2023, provided in each case that the property
+is placed in service by the end of 2025. (Source: https://enervex.com/insights/new-26-federal-investment-tax-credit-promotes-waste-heat-recovery-technology?utm_source=chatgpt.com) A
+Renewable Portfolio Standard (RPS) is a state incentive program that requires a certain percentage of electricity sold by utilities in
+the state to come from renewable resources. It diversifies the energy portfolio of the state while encouraging economic development.
+By establishing an RPS a state creates a market for Renewable Energy Credits (RECs). Each utility must obtain and retire a certain number
+of RECs annually. Several states including Colorado, Wisconsin, Illinois and California among others have now list waste heat to power
+as an eligible resource in their RPS program. 16 LNG
+Trading and Joint Venture Since
+2012, the National Development and Reform Commission has stressed that “natural gas vehicles, including urban buses, taxis, logistics
+distribution vehicles, trucks and other natural gas-fueled transportation vehicles” are the most important users of natural gas
+and require a consistent supply chain. As a result, regions and provinces in the PRC have accelerated the construction of a network of
+LNG refueling stations and encouraged the expansion of fleets of delivery vehicles. Due to China’s “carbon peak, carbon neutral”
+goal commitment, China’s environmental protection policies are gradually being tightened resulting in increased utilization rates
+of natural gas as a clean energy alternative is getting higher and higher. (Source China 13 th Renewable Energy Development
+Five Year Plan https://www.iea.org/policies/6277-china-13th-renewable-energy-development-five-year-plan-2016-2020 ) By
+2027, analysts forecast spot trade in NG will be $20 billion, more than double its 2020 value. Last year, China’s imports soared
+by 18% to a record 79 million tons, overtaking Japan as the world’s largest NG buyer. China’s economic recovery from the
+COVID-19 pandemic was one factor, but the other was a pipeline reform that allowed more firms to become importers. (Source: Reuters U.S.
+supplies give China muscle to become major force in global NG trade https://www.reuters.com/business/energy/us-supplies-give-china-muscle-become-major-force-global-lng-trade-2022-02-11/) Aligning
+with many policy goals, natural gas will remain a growth engine for energy supply in the 14th FYP period. The policy direction on air
+pollution reduction, carbon emission control, and gas supply and midstream infrastructure development indicates continued support for
+higher penetration of gas in the growing energy mix. On the other hand, the focus on supply security and cost reduction from market reforms
+indicate an expectation of decelerating gas demand growth in the 14th FYP period compared with that in the previous five years. In the
+current IHS Markit outlook, China’s gas demand will grow 6% compound annual average during 2021-25—compared with the 11%
+growth in the previous five year—to reach 429 Bcm in 2025. (Source S& P Global. China’s Five Yar Plan’s Review
+and Expectation: Natural Gas Tick the Box for Many Policy Goals. https://global.chinadaily.com.cn/a/202203/23/WS623a8e24a310fd2b29e52c21.html) We
+believe that Southwest China is rich in natural gas resources providing us with a stable source of supply and is an important major natural
+gas producing area in the country. We estimate that there are 16 LNG production plants with a capacity of more than 300,000 cubic meters
+per day in Southwest China, with a total design capacity of 11.7 million cubic meters per day. We believe the supply is mainly to satisfy
+LNG refueling stations and LNG vehicles which are among our primary downstream customers. We
+estimate that by the end of 2022, a total of about 240 LNG refueling stations were operating in South Western China, including about
+170 in Sichuan, about 30 in Yunnan, and about 40 in Guizhou; the daily consumption of LNG refueling stations that have been put into
+operation in Yunguichuan is about 7,200 tons per day, which is basically the same as the upstream output, reaching a “balance of
+production and sales”. In
+order to help achieve the goal of “carbon peaking and carbon neutrality”, accelerate the clean and low-carbon transformation
+of transportation energy, the Sichuan Provincial Development and Reform Commission and Sichuan Provincial Energy Administration issued
+the “Sichuan Province Natural Gas Vehicle Refueling Station Layout Plan (2021-2025)”, which proposed that by 2025, Sichuan
+will build 500 new refueling stations (including 141 stations in the expressway service area), including 15 CNG refueling stations,
+401 LNG refueling stations, 8 L-CNG refueling stations, and 76 CNG/LNG joint refueling stations. Based
+on the development plan for LNG refueling stations in the southwest region we believe that the downstream demand for LNG by our customers
+will maintain a steady growth rate over the next five years. 17 Sales
+and Marketing We
+utilize both a direct sales force and global distribution group with expertise in heat recovery solutions and clean energy markets. CETY
+maintains an online presence through our web portal and social media. We also have established cross-sale agreements with synergistic
+technology providers promoting our solutions to our respective customers. We utilize email campaigns to keep the marketplace abreast
+of the recent developments with our solutions. We work with the municipalities to identify incentive programs that could utilize our
+solutions. Our
+application engineers assist in converting the opportunities into projects. We provide technical support to our Clean Cycle TM generator clients and recently introduced waste to energy plants through providing maintenance and product support. Our
+market focus is segmented by the engine heat recovery, waste to energy plants, engineering & procurement, and renewable energy trade,
+Wastewater treatment plants and boiler applications with excess heat. Our
+experienced team of LNG traders identify producers and customers for the LNG trading business as well as originate acquisition opportunities
+for our Shenzhen Gas joint venture. Suppliers Our
+heat recovery solutions systems are manufactured primarily from components available from multiple suppliers and to a lesser extend from
+custom fabricated components available from various sources. We purchase our components from suppliers based on price and availability.
+Our significant suppliers in the Waste Heat Recovery business include Powerhouse, Concise Instrument, and Grainger. Our
+waste to energy components are sourced globally including the US with the exception of the core components originally sourced in Russia
+and being transitioned to Turkey and US. We are in the process of establishing an inhouse center of competence and technology development
+based out of Turkey to source these components in Europe and US with the ability to deploy the product globally. Although future impacts
+cannot be predicted the company does not foresee any negative impact from the Russia and Ukraine conflict. The
+natural gas in China is obtained from various local production plants in Southeast China based on price and quality. Deliveries of the
+NG are made through third party trucking companies. We purchase large quantities of NG from large wholesale NG depots at fixed prices
+which are discounted and prepaid for in advance at a discount to market. Competition ORMAT,
+Exergy, TAS and Turboden are the leaders in ORC system power plants with more than 75% of installed capacity and plants, Exergy and TAS
+are following with around 13% and 6% of the market respectively while Turboden has recently penetrated the geothermal market with about
+2% of the installed capacity. The
+Waste to Energy Market is dominated by Hitachi Zosen Inova AG, Suez, Veolia, Ramboll Group A/S, Covanta Holding Corporation, China Everbright
+International Ltd., Abu Dhabi National Energy Company PJSC, Babcock & Wilcox Enterprises lnc., Whaleboater Technologies lnc., Xcel
+Energy lnc. (Source: https://www.polarismarketresearch.com/industry-analysis/waste-to-energy-market) We
+also compete with numerous companies that are smaller than the major companies who are focused on the smaller to medium sized installations
+in Waste Heat Recovery and Waste to Energy. We believe our waste to energy products are more efficient for use in small and medium sized
+operations than our competitors and provide us with a competitive advantage on that basis. In
+China, our NG trading operations compete with large state-owned LNG producers and importers such as Sinopec and many smaller local energy
+trading companies in the PRC. We compete based on price and consistency of services. 18 Company
+Information We
+were incorporated in California in July 1995 under the name Probe Manufacturing Industries, Inc. We redomiciled to Nevada in April 2005
+under the name Probe Manufacturing, Inc. We manufactured electronics and provided services to original equipment manufacturers (OEMs)
+of industrial, automotive, semiconductor, medical, communication, military, and high technology products. On September 11, 2015, Clean
+Energy HRS, or “CE HRS”, our wholly owned subsidiary, acquired the assets of Heat Recovery Solutions from General Electric
+International. In November 2015, we changed our name to Clean Energy Technologies, Inc. Our
+principal executive offices are located at 1340 Reynolds Avenue Unit 120, Irvine, California, 92614. Our telephone number is (949) 273-4990.
+Our common stock is listed on the Nasdaq Capital Market under the symbol “CETY.” Our
+internet website address is www.cetyinc.com , and our subsidiary’s website is www.heatrecoverysolutions.com . The information
+contained on our websites are not incorporated by reference into this document, and you should not consider any information contained
+on, or that can be accessed through, our website as part of this document. The
+Company has four reportable segments: Clean Energy HRS (HRS), CETY Europe, the legacy electronic manufacturing services (Electronic Assembly)
+division, and CETY Hong Kong. Patents We hold 16 patents in 6 countries and 28 pending applications in 8 countries, which were acquired from General Electric International
+relating to our magnetic turbine technology. Intellectual
+Property As
+part of our asset acquisition from General Electric International, we acquired an exclusive, irrevocable, sublicensable, limited transferable,
+royalty free, fully paid, worldwide perpetual license to develop, improve and commercialize Calnetix’s magnetic turbine in any
+Organic Rankine Cycle based application where heat is sourced from a reciprocating combustion engine of any type, except marine vessels,
+any gas or steam turbine systems for electrical power generation applications or any type of biomass boiler system. We
+have an intellectual property rights purchase and transfer agreement with ENEX for its pyrolysis system. Facilities We
+are headquartered in Irvine, California, and we have a 3,000 sq-ft office in Irvine. Our Heat Recovery Solutions business unit
+operates from a 6,000 sq-ft state-of-the-art facility in Irvine, California. We have in-house electro-mechanical assembly and
+testing capabilities. Our products are compliant with American Society of Mechanical Engineers and are UL and CE approved. We also
+have a 1,000 sq-ft sales and service center located in Treviso, Italy. We also have a 2000 sq-ft R&D center in Antalya, Turkey.
+Our Asian headquarters is located in Hong Kong and our 3000 sq-ft Engineering consultancy and Natural Gas Trading company is located
+in Chengdu, China. Employees We
+presently have approximately 33 total employees, including operational, engineering, accounting and marketing personnel. We utilize
+an extensive number of consultants as well and have never experienced work stoppages, and we are not a party to any collective
+bargaining agreement. We have 20 employees in JHJ & SHJ in China. 19 Government
+Regulation Our
+operations are subject to certain foreign, federal, state and local regulatory requirements relating to environmental, waste management,
+and health and safety matters. We believe we operate in substantial compliance with all applicable requirements. However, material costs
+and liabilities may arise from these requirements or from new, modified or more stringent requirements. Material cost may rise due to
+additional manufacturing cost of raw or made parts with the application of new regulations. Our liabilities may also increase due to
+additional regulations imposed by foreign, federal, state and local regulatory requirements relating to environmental, waste management,
+and health and safety matters. In addition, our past, current and future operations and those of businesses we acquire, may give rise
+to claims of exposure by employees or the public or to other claims or liabilities relating to environmental, waste management or health
+and safety concerns. Our
+markets can be positively or negatively impacted by the effects of governmental and regulatory matters. We are affected not only by energy
+policy, laws, regulations and incentives of governments in the markets into which we sell, but also by rules, regulations and costs imposed
+by utilities. Utility companies or governmental entities could place barriers on the installation of our product or the interconnection
+of the product with the electric grid. Further, utility companies may charge additional fees to customers who install on-site power generation,
+thereby reducing the electricity they take from the utility, or for having the capacity to use power from the grid for back-up or standby
+purposes. These types of restrictions, fees or charges could hamper the ability to install or effectively use our products or increase
+the cost to our potential customers for using our systems in the future. This could make our systems less desirable, thereby adversely
+affecting our revenue and profitability potential. In addition, utility rate reductions can make our products less competitive which
+would have a material adverse effect on our future operations. These costs, incentives and rules are not always the same as those faced
+by technologies with which we compete. However, rules, regulations, laws and incentives could also provide an advantage to our Heat Recovery
+Solutions as compared with competing technologies if we are able to achieve required compliance at a lower cost when our Clean Cycle TM generators are commercialized. Additionally, reduced emissions and higher fuel efficiency could help our future customers
+combat the effects of global warming. Accordingly, we may benefit from increased government regulations that impose tighter emission
+and fuel efficiency standards. Due
+to our operations in China, we are subject to additional regulations that apply to companies doing business in mainland China. See “ Disclosures
+Relating to Our Chinese Operations ” for more information. Research
+and Development We
+had no expenses in Research and Development costs during the years ended December 31, 2024 and 2023. WHERE
+YOU CAN GET ADDITIONAL INFORMATION We
+file annual, quarterly and current reports, proxy statements and other information with the SEC. You may read and copy our reports or
+other filings made with the SEC at the SEC’s Public Reference Room, located at 100 F Street, N.E., Washington, DC 20549. You can
+obtain information on the operation of the Public Reference Room by calling the SEC at 1-800-SEC-0330. You can also access these reports
+and other filings electronically on the SEC’s web site, www.sec.gov . Item
+1A.
+
+--- VENDORS ---
+[NOT FOUND]
+
+--- MANUFACTURING ---
+contract manufacturers, and channel partners, greater brand recognition, and greater financial, research
+and development, marketing, distribution, and other resources than we do and the ability to offer financing for projects. Our competitors
+and potential competitors may also be able to develop products or services that are equal or superior to ours, achieve greater market
+acceptance of their products and services, and increase sales by utilizing different distribution channels than we do. Some of our competitors
+may aggressively discount their products and services in order to gain market share, which could result in pricing pressures, reduced
+profit margins, lost market share, or a failure to grow market share for us. If we are not able to compete effectively against our current
+or potential competitors, our prospects, operating results, and financial condition could be adversely affected. WE
+MAY LOSE OUT TO LARGER AND BETTER-ESTABLISHED COMPETITORS. The
+alternative power industry is intensely competitive. Most of our competitors have significantly greater financial, technical, marketing
+and distribution resources as well as greater experience in the industry than we have. Our products may not be competitive with other
+technologies, both existing at the current time and in the future. If this happens, our sales and revenues will decline, or fail to develop
+at all. In addition, our current and potential competitors may establish cooperative relationships with larger companies to gain access
+to greater development or marketing resources. Competition may result in price reductions, reduced gross margins and loss of market share. 22 OUR
+INTERNATIONAL OPERATIONS SUBJECT US TO RISKS, WHICH COULD ADVERSELY AFFECT OUR OPERATING RESULTS. Our
+international operations are exposed to the following risks, several of which are out of our control: political
+and economic instability, international terrorism and anti-American sentiment, particularly in emerging markets; ● preference
+    for locally branded products, and laws and business practices favoring local competition; ● unusual
+    or burdensome foreign laws or regulations, and unexpected changes to those laws or regulations; ● |import
+    and export license requirements, tariffs, taxes and other barriers; ● costs
+    of customizing products for foreign countries; ● increased
+    difficulty in managing inventory; ● less
+    effective protection of intellectual property; and ● difficulties
+    and costs of staffing and managing foreign operations. Any
+or all of these factors could adversely affect our ability to execute any geographic expansion strategies or have a material adverse
+effect on our business and results of operations. OUR
+PRODUCTS MAY BE DISPLACED BY NEWER TECHNOLOGY. The
+alternative power industry is undergoing rapid and significant technological change. Third parties may succeed in developing or marketing
+technologies and products that are more effective than those developed or marketed by us, or that would make our technology obsolete
+or non-competitive. Accordingly, our success will depend, in part, on our ability to respond quickly to technological changes. We may
+not have the resources to do this. WE
+MUST HIRE QUALIFIED ENGINEERING, DEVELOPMENT AND PROFESSIONAL SERVICES PERSONNEL. We
+cannot be certain that we can attract or retain a sufficient number of highly qualified mechanical engineers, industrial technology and
+manufacturing process developers and professional services personnel. To deploy our products quickly and efficiently, and effectively
+maintain and enhance them, we will require an increasing number of technology developers. We expect customers that license our technology
+will typically engage our professional engineering staff to assist with support, training, consulting and implementation. We believe
+that growth in sales depends on our ability to provide our customers with these services and to attract and educate third-party consultants
+to provide similar services. As a result, we plan to hire professional services personnel to meet these needs. New technical and professional
+services personnel will require training and education and it will take time for them to reach full productivity. To meet our needs for
+engineers and professional services personnel, we also may use costlier third-party contractors and consultants to supplement our own
+staff. Competition for qualified personnel is intense, particularly because our technology is specialized and only a limited number of
+individuals have acquired the needed skills. Additionally, we will rely on third-party implementation providers for these services. Our
+business may be harmed if we are unable to establish and maintain relationships with third-party implementation providers. WE
+MAY BE ADVERSELY AFFECTED BY SHORTAGES OF REQUIRED COMPONENTS. IN ADDITION, WE DEPEND ON A LIMITED NUMBER OF SUPPLIERS TO PROCURE OUR
+PARTS FOR PRODUCTION WHICH IF AVAILABILITY OF PRODUCTS BECOMES COMPROMISED IT COULD ADD TO OUR COST OF GOODS SOLD AND AFFECT OUR REVENUE
+GROWTH. At
+various times, there have been shortages of some of the components that we use, as a result of strong demand for those components or
+problems experienced by suppliers. These unanticipated component shortages have resulted in curtailed production or delays in production,
+which prevented us from making scheduled shipments to customers in the past and may do so in the future. Our inability to make scheduled
+shipments could cause us to experience a reduction in our sales and an increase in our costs and could adversely affect our relationship
+with existing customers as well as prospective customers. Component shortages may also increase our cost of goods sold because we may
+be required to pay higher prices for components in short supply and redesign or reconfigure products to accommodate substitute components. 23 OUR
+PRINCIPAL SHAREHOLDERS, DIRECTORS AND EXECUTIVE OFFICERS, IN THE AGGREGATE, BENEFICIALLY OWN MORE THAN 50% OF OUR OUTSTANDING COMMON
+STOCK AND THESE SHAREHOLDERS, IF ACTING TOGETHER, WILL BE ABLE TO EXERT SUBSTANTIAL INFLUENCE OVER ALL MATTERS REQUIRING APPROVAL OF
+OUR SHAREHOLDERS . Our
+principal shareholders, directors and executive officers in the aggregate, beneficially own more than 50% our outstanding
+common stock on a fully diluted basis as of the date of the filing of this annual report. These shareholders, if acting together, will be able to exert substantial influence over all
+matters requiring approval of our shareholders, including amendments to our Articles of Incorporation, fundamental corporate
+transactions such as mergers, acquisitions, the sale of the company, and other matters involving the direction of our business and
+affairs and specifically the ability to determine the members of our board of directors. (See “Security Ownership of Certain
+Beneficial Owners and Managements”). IF
+WE LOSE KEY SENIOR MANAGEMENT PERSONNEL OUR BUSINESS COULD BE NEGATIVELY AFFECTED. FURTHER, WE WILL NEED TO RECRUIT AND RETAIN ADDITIONAL
+SKILLED MANAGEMENT PERSONNEL AND IF WE ARE NOT ABLE TO DO SO, OUR BUSINESS AND OUR ABILITY TO CONTINUE TO GROW COULD BE HARMED. Our
+success depends to a large extent upon the continued services of our executive officers. We could be seriously harmed by the loss of
+any of our executive officers. In order to manage our growth, we will need to recruit and retain additional skilled management personnel
+and if we are not able to do so, our business and our ability to continue to grow could be harmed. Although a number of companies in
+our industry have implemented workforce reductions, there remains substantial competition for highly skilled employees. WE
+ARE SUBJECT TO ENVIRONMENTAL COMPLIANCE RISKS AND UNEXPECTED COSTS THAT WE MAY INCUR WITH RESPECT TO ENVIRONMENTAL MATTERS MAY RESULT
+IN ADDITIONAL LOSS CONTINGENCIES, THE QUANTIFICATION OF WHICH CANNOT BE DETERMINED AT THIS TIME. We
+are subject to various federal, state, local and foreign environmental laws and regulations, including those governing the use, storage,
+discharge and disposal of hazardous substances in the ordinary course of our manufacturing process. If more stringent compliance or cleanup
+standards under environmental laws or regulations are imposed, or the results of future testing and analyses at our current or former
+operating facilities indicate that we are responsible for the release of hazardous substances, we may be subject to additional remediation
+liability. Further, additional environmental matters may arise in the future at sites where no problem is currently known or at sites
+that we may acquire in the future. Currently unexpected costs that we may incur with respect to environmental matters may result in additional
+loss contingencies, the quantification of which cannot be determined at this time. OUR
+SALES AND CONTRACT FULFILLMENT CYCLES CAN BE LONG, UNPREDICTABLE AND VARY SEASONALLY, WHICH CAN CAUSE SIGNIFICANT VARIATION IN REVENUES
+AND PROFITABILITY IN A PARTICULAR QUARTER. The
+timing of our sales and related customer contract fulfillment is difficult to predict. Many of our customers are large enterprises, whose
+purchasing decisions, budget cycles and constraints and evaluation processes are unpredictable and out of our control. Further, the timing
+of our sales is difficult to predict. The length of our sales cycle, from initial evaluation to payment for our products and services,
+can range from several months to well over a year and can vary substantially from customer to customer. Our sales efforts involve significant
+investment in resources in field sales, marketing and educating our customers about the use, technical capabilities and benefits of our
+products and services. Customers often undertake a prolonged evaluation process. As a result, it is difficult to predict exactly when,
+or even if, we will make a sale to a potential customer or if we can increase sales to our existing customers. Large individual sales
+have, in some cases, occurred in quarters subsequent to those we anticipated, or have not occurred at all. In addition, the fulfillment
+of our customer contracts is partially dependent on other factors related to our customers’ businesses that are not in our control.
+as with the sales cycle, this can also cause revenues and earnings to fluctuate from quarter to quarter. If our sales and/or contract
+fulfillment cycles lengthen or our substantial upfront investments do not result in sufficient revenue to justify our investments, our
+operating results could be adversely affected. We
+have experienced seasonal and end-of-quarter concentration of our transactions and variations in the number and size of transactions
+that close in a particular quarter, which impacts our ability to grow revenue over the long term and plan and manage cash flows and other
+aspects of our business and cost structure. Our transactions vary by quarter, with the fourth quarter typically being our largest. If
+expectations for our business turn out to be inaccurate, our revenue growth may be adversely affected over time and we may not be able
+to adjust our cost structure on a timely basis and our cash flows may suffer. 24 OUR
+OPERATING MARGINS MAY DECLINE AS A RESULT OF INCREASING PRODUCT COSTS. Our
+business is subject to significant pressure on pricing and costs caused by many factors, including competition, the cost of components
+used in our products, labor costs, constrained sourcing capacity, inflationary pressure, pressure from customers to reduce the prices
+we charge for our products and services, and changes in consumer demand. Costs for the
+
+--- RAW_MATERIALS ---
+raw materials, labor, and
+overhead operating costs. Performance is also affected by manufacturing efficiencies, including items such as on time delivery, quality,
+scrap, and productivity. Market factors of supply and demand can impact operating costs. Who
+We Are We
+develop renewable energy products and solutions and establish partnerships in renewable energy that make environmental and economic sense.
+Our mission is to be a segment leader in the Zero Emission Revolution by offering turnkey energy solutions leveraging advanced technologies
+by delivering eco-friendly green energy solutions, clean energy fuels and alternative electric power for small and mid-sized projects
+in North America, Europe, and Asia. We target sustainable energy solutions that are profitable for us, profitable for our customers and
+represent the future of global energy production. Our
+principal businesses Waste
+Heat Recovery Solutions – we recycle wasted heat produced in manufacturing, waste to energy and power generation facilities
+using our patented Clean Cycle TM generator to create electricity which can be recycled or sold to the grid. Waste
+to Energy Solutions - we convert waste products created in manufacturing, agriculture, wastewater treatment plants and other industries
+to electricity, renewable natural gas (“RNG”), hydrogen and bio char which are sold or used by our customers. Engineering,
+Consulting and Project Management Solutions – We provide power generation, waste to energy, and heat recovery Engineering,
+Procurement and Construction (EPC) services to to municipal and industrial customers and to design and incorporate clean energy solutions
+in their projects. CETY
+HK Clean
+Energy Technologies (H.K.) Limited (“CETY HK”) consists of two business ventures in mainland China: (i) our natural gas
+(“NG”) trading operations sourcing and suppling NG to industries and municipalities, operated through our PRC
+Subsidiaries and Shuya. The NG is principally used for heavy truck refueling stations and urban or industrial users. We purchase
+large quantities of NG from large wholesale NG depots at fixed prices which are prepaid for in advance at a discount to market. We
+sell the NG to our customers at prevailing daily spot prices for the duration of the contracts; and (ii) our planned joint venture
+with a large state-owned gas enterprise in China called Shenzhen Gas (Hong Kong) International Co. Ltd. (“Shenzhen
+Gas”), acquiring natural gas pipeline operator facilities, primarily located in the southwestern part of China. Our planned
+joint venture with Shenzhen Gas plans to acquire, with financing from Shenzhen Gas, natural gas pipeline operator facilities with
+the goal of aggregating and selling the facilities to Shenzhen Gas in the future. According to our Framework Agreement with Shenzhen
+Gas, we will be required to contribute $8 million to the joint venture which plans to raise in future rounds of financing. The terms
+of the joint venture are subject to the execution of definitive agreements. CETY HK has not commenced business with Shenzhen Gas due to macro-economic
+factors such as falling NG prices and reduced industrial demand. CETY HK will wait until macro economic factors have improved before commencement
+of the Shenzhen Gas joint venture . 6 Our
+Business Strategy Our
+strategy is focused on further developing our existing Waste Heat Recovery business while expanding into the rapidly growing markets
+for Waste to Energy Solutions and power generation and integrated clean energy engineering, and project management services. Our
+strategy focuses on three main elements: ● Expanding
+    our Waste Heat Recovery product line to include waste heat recovery ORC systems producing over 1 MW of power so we can qualify for
+    midsized and large heat recovery projects in the United States, Europe, and Asia. ● Establishing
+    a Waste to Energy business by selling our ablative thermal processing products based on proprietary HTAP technology and building
+    small and mid-sized waste to energy power plants producing electricity and RNG for the grid and methane, hydrogen and biochar. ● Leveraging
+    our engineering, procurement and manufacturing experience to assist our customers with turnkey energy solutions leveraging advanced
+    technologies. We
+intend to implement this strategy through: ○ We
+    have added a new ORC system manufactured by Exergy for Heat Recovery applications that will enable us to implement projects in the
+    markets producing between 1 MW and 10 MW of electricity. ○ To
+    support the growing energy demands of data centers, we have added power generation capabilities to provide immediate and reliable
+    power. ○ Taking
+    advantage of Inflation Reduction act of 2022 federal investment tax credits and state incentives that now include waste heat recover
+    as a recognized clean energy source making our Clean Cycle Generator and ORC systems more profitable to install. On August 2022,
+    Congress passed the Inflation Reduction act offering 30% Investment Tax Credit and technology neutral tax credits offering clean
+    electricity production credit and investment credit. CETY’s products directly benefit from these tax credits. ○ Benefiting
+    from lack of energy capacity from the grid and higher energy costs which provide higher returns on our Power Generation, Waste Heat
+    Recovery, and Waste to Energy products and projects. ○ Improving
+    our balance sheet and capital position to permit us to invest in more products and projects. ○ We
+    are establishing a reliable network of global and domestic supply chain partners to drive scalability and cost efficiency in our
+    solutions. ○ Leveraging
+    our existing marketing channels to sell HTAP Waste to Energy products to industrial companies and government agencies. ○ We
+    are collaborating with clean energy project development and finance companies to offer solutions that generate RNG, hydrogen, methane,
+    and biochar from biomass, municipal waste, timber waste, and other organic materials. 7 Business
+and Segment Information We
+design, produce and market clean energy products and integrated solutions focused on energy efficiency and renewable energy. Our aim
+is to become a leading provider of renewable and energy efficiency products and solutions by helping commercial companies and municipalities
+reduce energy waste and emissions, lower energy costs and generate incremental revenue by providing electricity, renewable natural gas
+and biochar to the grid. Segment
+Information Our
+four segments for accounting purposes are: Clean
+Energy HRS & CETY Europe – Our Waste Heat Recovery Solutions, converting thermal energy to zero emission electricity. CETY
+Renewables Waste to Energy Solutions – Providing Waste to Energy technologies and solutions. Engineering
+and Manufacturing Business – providing customers with comprehensive design, manufacturing, and project management solutions. CETY
+HK – The parent company of our NG trading operations in China. Prior to the first quarter of 2022 the Company had three reportable
+segments but added the CETY HK segment to reflect its recent new businesses in China. Our
+Clean Energy Solutions Business Waste
+Heat Recovery Solutions We
+provide our customers with power plants that capture wasted heat energy and produce electricity using a unique Organic Rankine Cycle
+(ORC) system containing our Clean Cycle TM generator. Our magnetic bearing Integrated Power Modules is at the heart of our
+Clean Cycle TM generator which can fit into a standard cargo container we call our Containerized System Module, producing 140KW
+per Clean Cycle generator and can be linked together for projects generating up to 1MW of power. Our
+recent agreement with Enertime now permits us to install midsized and large ORC systems (between 1 MW and 10 MW) in the United States,
+allowing us to offer a full range of ORC systems to our customers. We believe this new capacity will enable us to expand our product
+offerings into larger scale waste recovery products in the United States. Enertime is a leader in producing ORC systems in Europe. ORC
+waste heat recycling systems use pressurized working fluids that have a lower boiling point than water which make them ideal to repurpose
+waste heat into electricity. While most manufacturing processes do not produce enough heat to turn water into steam, there is enough
+heat to generate pressurized refrigerant in our ORC systems which is used to turn a turbine at high speeds to generate electricity. We
+can link up to 10 Clean Cycle Generators together which can generate up to 10 GWh of electricity per year from waste heat which we estimate
+would reduce up to 5000 metric tons of CO2 production per year in an industrial heat recovery system or the annual equivalent of the
+CO2 emissions of approximately 2000 cars per year. 8 We
+believe the most important component in any ORC system is the turbine generator because it converts the steam heat into electricity and
+accounts for approximately 60% of the cost of the system. The more efficiently the turbine generator works, the better the ORC power
+plant operates. The remaining components consisting of the low boiling point fluid, condensers, which cool the fluids, the feed pumps,
+which pressurize the fluids to reduce boiling points and the heat exchangers, which extract the heat from the heat sources. These are
+more commoditized products and tend to perform at similar levels of efficiencies at similar price points. We
+believe our Clean Cycle TM generator is the most efficient turbine generator in it’s class and size available in the
+market for ORC systems generating up to 1 MW. We estimate that the Clean Cycle TM generator has higher efficiency of approximately
+15% than our competitors and its magnetic design eliminates the use of oils and lubricants, significantly reducing down time, repairs
+and operating costs. Our Integrated Power Module is compact and fit into a standard cargo container that can be delivered on a turnkey
+basis resulting in lower installation and implementation costs than on-site assembly. We
+believe these features and benefits give us an important competitive advantage when building heat recovery power plants for our customers
+and provide us with the opportunity to compete with and obtain market share from the dominant industrial waste heat to power systems. Over
+121 Clean Cycle TM generators have been deployed to date with 88 units used in biomass and waste to energy projects, 4 with
+diesel electric generators, 3 with turbine electric generators and 26 in industrial electric production applications. We expect to raise
+additional funds to expand our capacity to install 6-8 units per year which should approximately double our sales on a year-to-year basis. The
+patented technology used in Clean Cycle TM generator was purchased from General Electric International, together with over
+100 installation sites, making us one of the leading provider of small-scale industrial waste heat to power systems. We have an exclusive
+license from Calnetix to use their magnetic turbine for heat waste recovery applications. Our
+    Integrated Power Module Our
+    Clean Cycle TM Generator 9 A
+complete ORC System with Integrated Power Module housed in a Containerized System Module (CSM) Waste
+to Energy Solutions We
+are adding a new business line in our clean energy solutions segment consisting of Waste to Energy processing equipment, engineering
+services and Waste to Energy processing power plant joint ventures where we expect to retain an ownership interest in the project. Waste-to-Energy
+technologies that process non-renewable waste can reduce environmental and health damages while generating sustainable energy. Waste-to-Energy
+technologies consist of waste treatment process that creates energy in the form of electricity, heat or fuels from a waste source. These
+technologies can be applied to several types of waste: from the biomass (e.g. woodchips) to semi-solid (e.g. thickened sludge from effluent
+treatment plants) to liquid (e.g. domestic sewage) and gaseous (e.g. refinery gases) waste. Waste
+to Energy Solutions can be used: ● In
+    any town, city or province with established waste management and collection. ● Where
+    there is a consistent supply of solid waste. ● Places
+    where treatment costs increase with shortages of space to store waste. ● In
+    areas with high energy prices to allow for cost of recovery from waste . Waste
+to Energy Solutions have many benefits: ● Electricity
+    from Waste to Energy plants can be generated from small amounts up to 30 MW providing for a wide range of opportunities to sell it
+    back to the grid. ● The
+    synthetic renewable fuel gas produced from waste can be used for various production recyclable energy such as hot water, thermo-oil
+    or steam, renewable natural gas or hydrogen. ● Landfill
+    waste is reduced and so is leachate and methane released from decomposing landfills. ● Waste
+    is a reliable source of energy and production is typically predictable and low cost whereas fossil fuel prices can fluctuate dramatically. 10 But
+Traditional Incineration Methods Have Significant Downsides: ● Air
+    pollution can increase because scrubbing technologies are very expensive to install. ● Many
+    industrial, agricultural, and mixed municipal solid wastes have high moisture content at source and direct incineration of such waste
+    requires burning fossil fuel. ● to
+    maintain thermal conversion process. ● Carbon
+    is released into the air which would otherwise be stored in landfill. ● Ash
+    and flue gas cleaning residues from incineration can also cause poisonous leachate problems if not properly disposed of which is
+    costly and causes downstream environmental issues. ● Generating
+    electricity from incineration releases more CO2, SO2, NOx and mercury than natural gas. (Source: https://www.energyforgrowth.org/memo/waste-to-energy-one-solution-for-two-problems/ ) The
+most common form of waste to energy systems are based on incinerators which simply burn waste using air. The Thermal Treatment on Grate
+is the most widespread technology being used by large waste landfills to generate electricity and heat. These systems produce substantial
+amounts of ash, heavy metals and carbon dioxide which need to be treated and disposed of to minimize its impact on the environment. They
+also require substantial amounts of pre-treatments prior to burning. The
+Thermal on Grate incineration process, while wide-spread, is too expensive and complex for smaller and mid-sized waste to energy projects
+creating, what we believe, a significant market opportunity in small and mid-sized waste processing applications to create not only electricity
+but valuable renewable natural gas, bio diesel oil, hydrogen, methane, and biochar. Our
+solution is a patented High Temperature Ablative Pyrolysis (HTAP) Biomass Reactor as viable commercial solution to the costs and environmental
+problems posed by traditional incarnation methods. We have the exclusive license and right to sell the HTAP10 and HTAP5 and related products
+manufactured by Enex which has a proven installed commercial base of customers using its waste to energy solutions. We believe this is
+an ideal solution to process waste for small to mid-sized waste to energy generation applications needed for processing industrial and
+municipality solid waste, agriculture waste, and forestry waste. Pyrolysis
+systems decompose waste without the use of oxygen under varying pressurized conditions and at temperatures ranging from 300 degrees Celsius
+and 1,300 degrees Celsius. The major advantage of pyrolysis is that it is a cost-effective technology and helps curb environmental pollution.
+Pyrolysis systems are gradually replacing traditional incineration and gaining momentum in the waste to energy processing market addresses
+many of the pre-treatment issues and, when using high temperature and high-pressure, substantially reduce or eliminates pollutant. (Source:
+“Life Cycle Assessment of Waste-to-Bioenergy Processes: a Review” Pooja Ghosh,... Arunaditya Sahay, in Bioreactors, 2020) Pyrolysis
+systems can produce hydrogen, renewable natural gas, bio-diesel oil, charcoal, and biochar which are used to power hydrogen, diesel,
+and natural gas engines or electrical turbines which can be sold and often are eligible for substantial tax and pricing benefits. When
+compared with the conventional incineration plant that runs in the capacity of kilotons per day, the scale of the pyrolysis plant is
+more flexible, and the output of pyrolysis can be integrated with other downstream technologies for product upgrading. (Source: Influential
+Aspects in Waste Management Practices Karthik Rajendran PhD,. Jerry D. Murphy PhD, in Sustainable Resource Recovery and Zero Waste Approaches,
+2019) In addition, BioChar stores and reduces atmospheric CO2 and can be used as a soil conditioner, an organic component of animal feeds,
+construction materials, wastewater treatment and in textiles. (Source: https://www.bioenergyconsult.com/applications-of-biochar/) The
+ablative pyrolysis system is a waste to energy process that largely eliminates pre-treatment and the harmful pollutants and storage waste
+produced when using standard incineration and other pyrolysis technologies. It uses high pressure to generate fast pyrolysis and is designed
+so that the heat transferred from a hot reactor wall softens the feedstock under pressure and permits larger feedstock particles to be
+processed without pre-treatment. These systems create high relative motion between the reactor wall and the feedstock. The process avoids
+the need of inert gas and hence the processing equipment is small and the reaction system is more intense. (Source: http://biofuelsacademy.org/index.html%3Fp=608.html) 11 CETY
+has licensed proprietary patented ablative pyrolysis system for commercial use that has been installed in 7 sites for use in waste to
+energy creating applications processing including peat, coal, flax waste, sawdust and wood scrap, straw, buckwheat husks, and cardboard,
+tapes, films and paper machine sludge. The technology has been implemented over 1,500 onsite power generation projects in Russia working
+with major energy production companies such as Gazprom, Rosneft, Lukoil and Rostelecom as well as completing several projects for customers
+in the European Union, Middle East and United States. Due to the conflict in the Ukraine, ENEX is redomiciling and relocating key personnel
+to Turkey where it will complete an existing project and is expected to wind down its operations. CETY will develop additional ablative
+technology and expects to manufacture units in the United States. Sales and European distribution will be run out of a CETY office that
+has been established in Turkey. CETY
+has global rights (except Russia and CIS countries) to design, build, manufacture, sell and operate renewable energy and waste recovery
+facilities HTAP10 and HTAP5 systems and other products and technologies we expect to develop in the future. The
+patented HTAP technology utilizes a higher temperature that uses a cleaner gas for the heating process and a more efficient biogas turbine.
+The units can be customized to produce hydrogen, natural gas, diesel oil and bio char in varying quantities which can be sold or used
+to produce electricity. We believe that the key benefits of the HTAP Biomass Reactor are: ● Flexibility
+    in waste sourcing and mixing. ● Customized
+    outputs of hydrogen, synthetic fuels, natural gas, methane, biochar, carbon black, or construction materials. ● Better
+    waste sourcing and mixing flexibility, ● Near-zero
+    emissions, ● Modular
+    design, ● Zero
+    liquid discharge, ● Zero
+    solid waste residue waste. ● Modular,
+    containerize design reducing implementation costs ● Proven
+    commercial implementation. We
+are targeting industrial and municipality solid waste, landfill waste, agriculture waste (straw, stems, plant biomass, manure, crop wastage),
+and forestry waste from tree cuttings and shredded products. We
+are in the process of identifying projects domestically and internationally for the HTAP Biomass Reactor. We believe the first project
+where we expect to implement the HTAP10 technology with Vermont Renewable Gas to develop a biomass renewable energy processing facility.
+The project is planned for a location in Lyndon, Vermont to convert forest and agriculture biomass waste products to renewably generated
+electricity and BioChar fertilizer. We expect to annually deliver up to 18,000 MWh of renewable electricity and 1,500 tons of BioChar.
+The Vermont Renewable Gas project is one of the many renewable energy processing facilities we plan to commission. 12 ENEX
+HTAP 10 Waste to Energy Processing Plant. We
+established a wholly owned subsidiary called CETY Capital that we expect will help us finance our customers renewable energy projects
+producing low carbon energy. CETY Capital, when implemented, should add flexibility to the capacity CETY offers its customers and fund
+projects utilizing its products and clean energy solutions. The in-house financing arm is expected to support our sales and build new
+renewable energy facilities. To date we have conducted no material operations in this subsidiary. Our
+Clean Energy Initiatives in China Natural gas is China’s
+fastest-growing primary fuel with demand quadrupling in the past decade. Developing the natural gas sector is a critical aspect China’s
+effort to reduce reliance on coal. According to the International Energy Agency, China is the world’s sixth-largest natural gas
+producer, the third-largest consumer, and the second-largest importer. In 2050, the U.S. Energy Information Administration (EIA) expects
+China to consume nearly three times as much natural gas as it did in 2018, which was 280.30 b/cm. China’s natural gas consumption
+accounted for 8.3% of its total energy mix in 2019. China anticipates boosting the share of natural gas as part of total energy consumption
+to 14% by 2030. Before COVID 19, China was expected to account for a third of global demand growth through 2022, thanks in part to the
+country’s “Blue Skies” policy and the strong drive to improve air quality. China’s relatively strong economic
+recovery from the COVID 19 crisis will probably increase that share. Natural gas is imported either through pipelines or as liquefied
+natural gas (LNG) on ships. https://www.axios.com/2018/06/26/china-largest-natural-gas-importer?utm_source=chatgpt.com Liquid
+Natural Gas in the Chinese energy market produces half as much carbon dioxide, less than a third as much nitrogen oxides, and 1 percent
+as much sulfur oxides at the power plant compared to the average air emissions from coal-fired generation. In addition to reduced air
+emissions, natural gas has other environmental benefits that make it a smart fuel choice. Natural gas-fired power plants use about 60
+percent less water than coal plants and 75 percent less water than nuclear power plants for the same electricity output. (Source: Conoco
+Phillips) In
+2021, we acquired through our subsidiary, CETY Hong Kong, a liquefied natural gas trading operation called Jiangsu Huanya Jieneng (“JHJ”)
+which sources LNG from large LNG producers and distributors and sells it to non-state-owned industries and downstream customers in mainland
+China. CETY
+also plans to sell its waste heat recovery and waste to energy products in China as well as provide consulting services relating to the
+same to projects in China. The
+JHJ team has more than 10 years of experience in the natural gas and clean energy industry and has maintained relationships and partners
+with many natural gas enterprises in China. 13 CETY
+HK NG
+Trading Operations JHJ’s
+principal service is to source and supply NG to industries and municipalities located in the southern part of Sichuan Province and portions
+of Yunnan Province. The NG is principally used for heavy truck refueling stations and urban or industrial users in areas that do not
+have a connection to local NG pipeline systems. We purchase large quantities of NG from large wholesale NG depots at fixed prices
+which are prepaid for in advance at a discount to market. We sell the NG to our customers at prevailing daily spot prices for the duration
+of the contracts. Either
+our sources or customers arrange for delivery of the NG. Our profitability depends on our ability to purchase NG at volume discounts
+at the beginning of a season and sell it at a delivered price that is higher than the price we pay. JHJ
+traders are experienced NG traders, familiar with the spot and future markets and have relationships with the major users of NG in
+the areas that we serve. Our customers may be local or may be as far as 700km from each depot. We
+compete with other NG trading based on availability and price. We target our discount with our sources to partially hedge against falling
+spot prices and give us a gross profit targeted at substantially higher rate than our competitors which are approximately 20-30 percent
+margins compared against what we believe are 1-5 percent margins by our competitors. So long as there are no major fluctuations in the
+spot market, we can offer more competitive prices due to the discounts we receive from the large volumes purchased and the prepayments
+for the NG. JHJ has currently established a supply of approximately 8,000 tons of NG for distribution. We
+are able to purchase NG at a significant discount from our suppliers because our prepayments offer suppliers more certainty with respect
+to the sales of their inventory, address their cash flow issues, and allow them to better plan for production. We believe our downstream
+customers get better prices from us because of our bulk buying power, ease of inventory management and cash flow. Both
+our suppliers and customers can reduce costs by using JHJ as a centralized procurement center and establishing professional logistics
+distribution based on stable supply and downstream demand. Our convertible note investment in Heze Hongyuan Natural Gas co. is subject to dilution by additional equity investment into HHNG by third parties. We do not expect the project to require additional
+investment from us, JHJ or HHNG. The project has constructed a portion of the pipelines in the Heze area that links the local industrial
+users to the national gas pipeline. Certain parts of the pipeline construction has been delayed due to the permitting process. The project
+is expected to generate cash flow by the end of 2025. We do not expect to make further direct minority investments in other pipeline
+operators. 14 Engineering,
+Consulting and Project Management Services Engineering . Our global engineering team supports the design, build, installation, and maintenance of our solutions and supports our technology
+customers and innovative start-ups with a broad range of electrical, mechanical and software engineering services. CETY has assembled
+a team of experts from around the globe to assist customers at any point in the design cycle. These services include design processes
+from electrical, software, mechanical and Industrial design. Utilization of CETY’s design services will provide our customers with
+a complete end to end solution. Supply
+Chain Management . CETY’s supply chain solution provides maximum flexibility and responsiveness through a collaborative
+and strategic approach with our customers. CETY can assume supply chain responsibility from component sourcing through delivery of finished
+product. CETY’s focus on the supply chain allows us to build internal and external systems and better our relationships with our
+customers, which allows us to capitalize on our expertise to align with our partners and customer’s objectives and integrate with
+their respective processes. The
+Market for Our Products. Waste
+to Energy . There
+are more than 2500 waste-to-energy plants in the world, including almost 500 in Europe. (Source: https://wteinternational.com/news/waste-to-energy-technologies-overview/).
+The waste-to-energy (WTE) market is expected to register a CAGR of 7.35% during the forecast period of 2021 – 2026, reaching a
+market size of USD 69.94 billion by 2026, up from USD 43.66 billion in 2019. The COVID-19 pandemic affected the market negatively in
+the form of supply chain disruptions and delays in project implementation. However, the market is expected to recover from 2021, owing
+to the increasing efforts to promote waste-to-energy plants by various countries across the world. 15 Increasing
+government regulations regarding the waste to energy in various countries is one of the major factors driving the growth of global waste
+to energy market. For instance, according to Federal Power Act 2019, this act gives federal authority over electric utilities in U.S.
+Also the acts like Public Utility Regulatory Policy Act (PURPA) and Energy Policy Act are applied by the government to increase the waste
+to energy and decrease the CO 2 emission by fossil fuels. In addition, escalating investments in R&D by different countries
+is also fostering the growth of global waste to energy market. (Source : https://www.epa.gov/laws-regulations/summary-energy-policy-act ) Alternative
+thermal technologies like pyrolysis, gasification and plasma arc gasification are expected to lower carbon emissions and witness the
+growth in demand. Moreover, a shift in trend towards replacing conventional energy generating from fossil fuels with renewable energy
+to ensure energy security and reduce carbon emissions are potential factors to drive industry growth. The global waste to energy market
+size was valued at $35.1 billion in 2019, and is projected to reach $50.1 billion by 2027, growing at a CAGR of 4.6% from 2020 to 2027. https://www.alliedmarketresearch.com/waste-to-energy-market Waste
+Heat Recovery A
+study by Market Research Future in October of 2021 forecasted the waste heat recover market would be worth USD 114 billion by 2028 registering
+a CAGR of 9.2 per year from a baseline of USD 59.44 billion in 2020. The primary economic driver in the waste heat recovery market are
+“rising energy use, economic development, and rising electricity prices. The use of energy in many sectors to manufacture products
+is steadily growing. The need for energy has increased in industrialized regions as industrialization has occurred. Companies are developing
+numerous strategies to transform waste heat into energy as the demand for energy grows. As a result, it is fueling the growth of the
+Waste Heat Recovery market. The government has taken various initiatives and enacted rules to save energy, which has promoted the usage
+of Waste Heat Recovery technologies. Due to environmental concerns, the government is taking steps to save energy; as a result, the Waste
+Heat Recovery sector is booming. Energy-efficient technology has become critical for industries looking to save money.” (Source: https://www.yahoo.com/now/waste-heat-recovery-market-worth-095200052.html) In
+2020 North America constituted the largest share of the market accounting for approximately 33% of the global total but countries in
+Asia and the Asia Pacific constitute the fasting growing geographic sectors due to rapid industrial expansion. Waste
+heat recovery systems in the United States now qualify for beneficial investment tax credits of up to 26% on the investment driving additional
+companies to install ORC industrial waste heat to power units. Owners of waste energy recovery property can claim a 26% ITC if construction
+of such property begins during 2021 or 2022, and a 22% ITC if construction begins during 2023, provided in each case that the property
+is placed in service by the end of 2025. (Source: https://enervex.com/insights/new-26-federal-investment-tax-credit-promotes-waste-heat-recovery-technology?utm_source=chatgpt.com) A
+Renewable Portfolio Standard (RPS) is a state incentive program that requires a certain percentage of electricity sold by utilities in
+the state to come from renewable resources. It diversifies the energy portfolio of the state while encouraging economic development.
+By establishing an RPS a state creates a market for Renewable Energy Credits (RECs). Each utility must obtain and retire a certain number
+of RECs annually. Several states including Colorado, Wisconsin, Illinois and California among others have now list waste heat to power
+as an eligible resource in their RPS program. 16 LNG
+Trading and Joint Venture Since
+2012, the National Development and Reform Commission has stressed that “natural gas vehicles, including urban buses, taxis, logistics
+distribution vehicles, trucks and other natural gas-fueled transportation vehicles” are the most important users of natural gas
+and require a consistent supply chain. As a result, regions and provinces in the PRC have accelerated the construction of a network of
+LNG refueling stations and encouraged the expansion of fleets of delivery vehicles. Due to China’s “carbon peak, carbon neutral”
+goal commitment, China’s environmental protection policies are gradually being tightened resulting in increased utilization rates
+of natural gas as a clean energy alternative is getting higher and higher. (Source China 13 th Renewable Energy Development
+Five Year Plan https://www.iea.org/policies/6277-china-13th-renewable-energy-development-five-year-plan-2016-2020 ) By
+2027, analysts forecast spot trade in NG will be $20 billion, more than double its 2020 value. Last year, China’s imports soared
+by 18% to a record 79 million tons, overtaking Japan as the world’s largest NG buyer. China’s economic recovery from the
+COVID-19 pandemic was one factor, but the other was a pipeline reform that allowed more firms to become importers. (Source: Reuters U.S.
+supplies give China muscle to become major force in global NG trade https://www.reuters.com/business/energy/us-supplies-give-china-muscle-become-major-force-global-lng-trade-2022-02-11/) Aligning
+with many policy goals, natural gas will remain a growth engine for energy supply in the 14th FYP period. The policy direction on air
+pollution reduction, carbon emission control, and gas supply and midstream infrastructure development indicates continued support for
+higher penetration of gas in the growing energy mix. On the other hand, the focus on supply security and cost reduction from market reforms
+indicate an expectation of decelerating gas demand growth in the 14th FYP period compared with that in the previous five years. In the
+current IHS Markit outlook, China’s gas demand will grow 6% compound annual average during 2021-25—compared with the 11%
+growth in the previous five year—to reach 429 Bcm in 2025. (Source S& P Global. China’s Five Yar Plan’s Review
+and Expectation: Natural Gas Tick the Box for Many Policy Goals. https://global.chinadaily.com.cn/a/202203/23/WS623a8e24a310fd2b29e52c21.html) We
+believe that Southwest China is rich in natural gas resources providing us with a stable source of supply and is an important major natural
+gas producing area in the country. We estimate that there are 16 LNG production plants with a capacity of more than 300,000 cubic meters
+per day in Southwest China, with a total design capacity of 11.7 million cubic meters per day. We believe the supply is mainly to satisfy
+LNG refueling stations and LNG vehicles which are among our primary downstream customers. We
+estimate that by the end of 2022, a total of about 240 LNG refueling stations were operating in South Western China, including about
+170 in Sichuan, about 30 in Yunnan, and about 40 in Guizhou; the daily consumption of LNG refueling stations that have been put into
+operation in Yunguichuan is about 7,200 tons per day, which is basically the same as the upstream output, reaching a “balance of
+production and sales”. In
+order to help achieve the goal of “carbon peaking and carbon neutrality”, accelerate the clean and low-carbon transformation
+of transportation energy, the Sichuan Provincial Development and Reform Commission and Sichuan Provincial Energy Administration issued
+the “Sichuan Province Natural Gas Vehicle Refueling Station Layout Plan (2021-2025)”, which proposed that by 2025, Sichuan
+will build 500 new refueling stations (including 141 stations in the expressway service area), including 15 CNG refueling stations,
+401 LNG refueling stations, 8 L-CNG refueling stations, and 76 CNG/LNG joint refueling stations. Based
+on the development plan for LNG refueling stations in the southwest region we believe that the downstream demand for LNG by our customers
+will maintain a steady growth rate over the next five years. 17 Sales
+and Marketing We
+utilize both a direct sales force and global distribution group with expertise in heat recovery solutions and clean energy markets. CETY
+maintains an online presence through our web portal and social media. We also have established cross-sale agreements with synergistic
+technology providers promoting our solutions to our respective customers. We utilize email campaigns to keep the marketplace abreast
+of the recent developments with our solutions. We work with the municipalities to identify incentive programs that could utilize our
+solutions. Our
+application engineers assist in converting the opportunities into projects. We provide technical support to our Clean Cycle TM generator clients and recently introduced waste to energy plants through providing maintenance and product support. Our
+market focus is segmented by the engine heat recovery, waste to energy plants, engineering & procurement, and renewable energy trade,
+Wastewater treatment plants and boiler applications with excess heat. Our
+experienced team of LNG traders identify producers and customers for the LNG trading business as well as originate acquisition opportunities
+for our Shenzhen Gas joint venture. Suppliers Our
+heat recovery solutions systems are manufactured primarily from components available from multiple suppliers and to a lesser extend from
+custom fabricated components available from various sources. We purchase our components from suppliers based on price and availability.
+Our significant suppliers in the Waste Heat Recovery business include Powerhouse, Concise Instrument, and Grainger. Our
+waste to energy components are sourced globally including the US with the exception of the core components originally sourced in Russia
+and being transitioned to Turkey and US. We are in the process of establishing an inhouse center of competence and technology development
+based out of Turkey to source these components in Europe and US with the ability to deploy the product globally. Although future impacts
+cannot be predicted the company does not foresee any negative impact from the Russia and Ukraine conflict. The
+natural gas in China is obtained from various local production plants in Southeast China based on price and quality. Deliveries of the
+NG are made through third party trucking companies. We purchase large quantities of NG from large wholesale NG depots at fixed prices
+which are discounted and prepaid for in advance at a discount to market. Competition ORMAT,
+Exergy, TAS and Turboden are the leaders in ORC system power plants with more than 75% of installed capacity and plants, Exergy and TAS
+are following with around 13% and 6% of the market respectively while Turboden has recently penetrated the geothermal market with about
+2% of the installed capacity. The
+Waste to Energy Market is dominated by Hitachi Zosen Inova AG, Suez, Veolia, Ramboll Group A/S, Covanta Holding Corporation, China Everbright
+International Ltd., Abu Dhabi National Energy Company PJSC, Babcock & Wilcox Enterprises lnc., Whaleboater Technologies lnc., Xcel
+Energy lnc. (Source: https://www.polarismarketresearch.com/industry-analysis/waste-to-energy-market) We
+also compete with numerous companies that are smaller than the major companies who are focused on the smaller to medium sized installations
+in Waste Heat Recovery and Waste to Energy. We believe our waste to energy products are more efficient for use in small and medium sized
+operations than our competitors and provide us with a competitive advantage on that basis. In
+China, our NG trading operations compete with large state-owned LNG producers and importers such as Sinopec and many smaller local energy
+trading companies in the PRC. We compete based on price and consistency of services. 18 Company
+Information We
+were incorporated in California in July 1995 under the name Probe Manufacturing Industries, Inc. We redomiciled to Nevada in April 2005
+under the name Probe Manufacturing, Inc. We manufactured electronics and provided services to original equipment manufacturers (OEMs)
+of industrial, automotive, semiconductor, medical, communication, military, and high technology products. On September 11, 2015, Clean
+Energy HRS, or “CE HRS”, our wholly owned subsidiary, acquired the assets of Heat Recovery Solutions from General Electric
+International. In November 2015, we changed our name to Clean Energy Technologies, Inc. Our
+principal executive offices are located at 1340 Reynolds Avenue Unit 120, Irvine, California, 92614. Our telephone number is (949) 273-4990.
+Our common stock is listed on the Nasdaq Capital Market under the symbol “CETY.” Our
+internet website address is www.cetyinc.com , and our subsidiary’s website is www.heatrecoverysolutions.com . The information
+contained on our websites are not incorporated by reference into this document, and you should not consider any information contained
+on, or that can be accessed through, our website as part of this document. The
+Company has four reportable segments: Clean Energy HRS (HRS), CETY Europe, the legacy electronic manufacturing services (Electronic Assembly)
+division, and CETY Hong Kong. Patents We hold 16 patents in 6 countries and 28 pending applications in 8 countries, which were acquired from General Electric International
+relating to our magnetic turbine technology. Intellectual
+Property As
+part of our asset acquisition from General Electric International, we acquired an exclusive, irrevocable, sublicensable, limited transferable,
+royalty free, fully paid, worldwide perpetual license to develop, improve and commercialize Calnetix’s magnetic turbine in any
+Organic Rankine Cycle based application where heat is sourced from a reciprocating combustion engine of any type, except marine vessels,
+any gas or steam turbine systems for electrical power generation applications or any type of biomass boiler system. We
+have an intellectual property rights purchase and transfer agreement with ENEX for its pyrolysis system. Facilities We
+are headquartered in Irvine, California, and we have a 3,000 sq-ft office in Irvine. Our Heat Recovery Solutions business unit
+operates from a 6,000 sq-ft state-of-the-art facility in Irvine, California. We have in-house electro-mechanical assembly and
+testing capabilities. Our products are compliant with American Society of Mechanical Engineers and are UL and CE approved. We also
+have a 1,000 sq-ft sales and service center located in Treviso, Italy. We also have a 2000 sq-ft R&D center in Antalya, Turkey.
+Our Asian headquarters is located in Hong Kong and our 3000 sq-ft Engineering consultancy and Natural Gas Trading company is located
+in Chengdu, China. Employees We
+presently have approximately 33 total employees, including operational, engineering, accounting and marketing personnel. We utilize
+an extensive number of consultants as well and have never experienced work stoppages, and we are not a party to any collective
+bargaining agreement. We have 20 employees in JHJ & SHJ in China. 19 Government
+Regulation Our
+operations are subject to certain foreign, federal, state and local regulatory requirements relating to environmental, waste management,
+and health and safety matters. We believe we operate in substantial compliance with all applicable requirements. However, material costs
+and liabilities may arise from these requirements or from new, modified or more stringent requirements. Material cost may rise due to
+additional manufacturing cost of raw or made parts with the application of new regulations. Our liabilities may also increase due to
+additional regulations imposed by foreign, federal, state and local regulatory requirements relating to environmental, waste management,
+and health and safety matters. In addition, our past, current and future operations and those of businesses we acquire, may give rise
+to claims of exposure by employees or the public or to other claims or liabilities relating to environmental, waste management or health
+and safety concerns. Our
+markets can be positively or negatively impacted by the effects of governmental and regulatory matters. We are affected not only by energy
+policy, laws, regulations and incentives of governments in the markets into which we sell, but also by rules, regulations and costs imposed
+by utilities. Utility companies or governmental entities could place barriers on the installation of our product or the interconnection
+of the product with the electric grid. Further, utility companies may charge additional fees to customers who install on-site power generation,
+thereby reducing the electricity they take from the utility, or for having the capacity to use power from the grid for back-up or standby
+purposes. These types of restrictions, fees or charges could hamper the ability to install or effectively use our products or increase
+the cost to our potential customers for using our systems in the future. This could make our systems less desirable, thereby adversely
+affecting our revenue and profitability potential. In addition, utility rate reductions can make our products less competitive which
+would have a material adverse effect on our future operations. These costs, incentives and rules are not always the same as those faced
+by technologies with which we compete. However, rules, regulations, laws and incentives could also provide an advantage to our Heat Recovery
+Solutions as compared with competing technologies if we are able to achieve required compliance at a lower cost when our Clean Cycle TM generators are commercialized. Additionally, reduced emissions and higher fuel efficiency could help our future customers
+combat the effects of global warming. Accordingly, we may benefit from increased government regulations that impose tighter emission
+and fuel efficiency standards. Due
+to our operations in China, we are subject to additional regulations that apply to companies doing business in mainland China. See “ Disclosures
+Relating to Our Chinese Operations ” for more information. Research
+and Development We
+had no expenses in Research and Development costs during the years ended December 31, 2024 and 2023. WHERE
+YOU CAN GET ADDITIONAL INFORMATION We
+file annual, quarterly and current reports, proxy statements and other information with the SEC. You may read and copy our reports or
+other filings made with the SEC at the SEC’s Public Reference Room, located at 100 F Street, N.E., Washington, DC 20549. You can
+obtain information on the operation of the Public Reference Room by calling the SEC at 1-800-SEC-0330. You can also access these reports
+and other filings electronically on the SEC’s web site, www.sec.gov . Item
+1A.
+

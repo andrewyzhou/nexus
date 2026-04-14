@@ -1,0 +1,34 @@
+EX-21.1
+4
+pb-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+PROSPERITY BANCSHARES, INC.
+LIST OF SUBSIDIARIES
+Direct Subsidiaries
+Jurisdiction of
+Organization
+Parent Entity
+Prosperity Bank
+Texas
+Prosperity Bancshares, Inc.
+Prosperity Interim Corporation
+Texas
+Prosperity Bancshares, Inc.
+Indirect Subsidiaries
+Jurisdiction of
+Organization
+Parent Entity
+Coppermark Card Services, Inc.
+Oklahoma
+Prosperity Bank
+Citizens Insurance Agency of Texas, Inc.
+Texas
+Prosperity Bank
+HSUMY, Inc.
+Oklahoma
+Prosperity Bank
+LegacyTexas Holdings, Inc.
+Texas
+Prosperity Bank

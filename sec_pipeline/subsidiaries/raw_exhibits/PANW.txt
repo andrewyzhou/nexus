@@ -1,0 +1,177 @@
+EX-21.1
+8
+panwex211fy25.htm
+EX-21.1
+Document
+Exhibit 21.1
+LIST OF SUBSIDIARIES
+OF
+PALO ALTO NETWORKS, INC.
+Name of Subsidiary
+Jurisdiction of Incorporation
+Palo Alto Networks (Australia) Pty Ltd
+Australia
+Sinefa Pty. Ltd.
+Australia
+Palo Alto Networks (Austria) GmbH
+Austria
+Palo Alto Networks Belgium B.V.B.A.
+Belgium
+Palo Alto Networks (Brasil) Ltda.
+Brazil
+Palo Alto Networks (Canada Technology), Inc.
+Canada
+Palo Alto Networks (Canada) Inc.
+Canada
+Palo Alto Networks (Shanghai) Co., Ltd.
+China
+PA Networks Costa Rica LLC SRL
+Costa Rica
+Palo Alto Networks (Czech) S.R.O.
+Czechia
+3375 Scott Blvd LLC
+Delaware
+3408 Garrett Drive LLC
+Delaware
+Aporeto, LLC
+Delaware
+BridgeCrew LLC
+Delaware
+Cider Security Inc.
+Delaware
+CloudGenix, LLC
+Delaware
+Dig Security Inc.
+Delaware
+Evident.io LLC
+Delaware
+Expanse LLC
+Delaware
+Expanse Holding Company LLC
+Delaware
+Gamma Networks, LLC
+Delaware
+LightCyber, Inc.
+Delaware
+Palo Alto Networks Financial Services, LLC
+Delaware
+Palo Alto Networks Financial Services Public Sector, LLC
+Delaware
+Palo Alto Networks International, Inc.
+Delaware
+Palo Alto Networks (Malaysia), LLC
+Delaware
+Palo Alto Networks Management, LLC
+Delaware
+Palo Alto Networks Public Sector, LLC
+Delaware
+Palo Alto Networks Venture Fund, LLC
+Delaware
+PAN LLC
+Delaware
+PAN Demisto LLC
+Delaware
+PAN II LLC
+Delaware
+PAN Mexico Holding LLC
+Delaware
+Protect AI, Inc.
+Delaware
+PureSec, Inc.
+Delaware
+RedLock, LLC
+Delaware
+SecDo, Inc.
+Delaware
+Sinefa LLC
+Delaware
+Talon Cyber Security, Inc.
+Delaware
+Twistlock, Inc.
+Delaware
+Zingbox, LLC
+Delaware
+Zycada Networks LLC
+Delaware
+Palo Alto Networks Denmark ApS
+Denmark
+Palo Alto Networks (Finland) Oy
+Finland
+Protect AI Germany GmbH
+Germany
+Palo Alto Networks (Germany) GmbH
+Germany
+Palo Alto Networks Greece Single Member Private Company
+Greece
+Palo Alto Networks (Hungary) Kft
+Hungary
+Palo Alto Networks (India) Private Limited
+India
+Palo Alto Networks (India) Technologies Private Limited
+India
+MLAISEC India Private Limited
+India
+Palo Alto Security Limited
+Ireland
+Athens Strategies Ltd.
+Israel
+Palo Alto Networks (Israel Services) Ltd.
+Israel
+Palo Alto Networks (Italy) S.R.L
+Italy
+Palo Alto Networks K.K. (Kabushiki Kaisha)
+Japan
+Palo Alto Networks (Mexico) S. de R.L. de C.V.
+Mexico
+Palo Alto Networks (New Zealand) Unlimited
+New Zealand
+Palo Alto Networks (Norway) AS
+Norway
+Palo Alto Networks (Poland) sp. z o.o.
+Poland
+PANW (Portugal) Unipessoal, LDA
+Portugal
+Palo Alto Networks (QFC) LLC
+Qatar
+Palo Alto Networks Korea, Ltd. - Yuhan Hoesa (YH)
+S. Korea
+Palo Alto Networks Regional Headquarters Company
+Saudi Arabia
+Palo Alto Networks Saudi Arabia Limited
+Saudi Arabia
+Palo Alto Networks (Singapore) Holding Company Pte. Ltd.
+Singapore
+Palo Alto Networks (Singapore) PTE. LTD.
+Singapore
+Palo Alto Networks (South Africa) (Pty) Ltd.
+South Africa
+Palo Alto Networks (Iberia), S.L.
+Spain
+Palo Alto Networks (Switzerland) GmbH
+Switzerland
+Palo Alto Networks (EU) B.V.
+The Netherlands
+Palo Alto Networks (GEO) B.V.
+The Netherlands
+Palo Alto Networks (Netherlands) B.V.
+The Netherlands
+Palo Alto Networks Holdings B.V.
+The Netherlands
+Palo Alto Networks Turkey Siber Guvenlik Destek Hizmetleri Limited Şirketi
+Turkiye
+Palo Alto Networks FZ LLC
+United Arab Emirates
+418SEC Ltd.
+United Kingdom
+Palo Alto Networks FS International Limited
+United Kingdom
+Palo Alto Networks (UK Holding 1) Limited
+United Kingdom
+Palo Alto Networks (UK Holding 2) Limited
+United Kingdom
+Palo Alto Networks (UK) Limited
+United Kingdom
+Crypsis Digital Security, LLC
+Virginia
+Crypsis Group Holdings, LLC
+Virginia

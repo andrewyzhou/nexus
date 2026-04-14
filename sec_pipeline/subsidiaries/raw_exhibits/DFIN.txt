@@ -1,0 +1,73 @@
+EX-21.1
+3
+dfin-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+Donnelley Financial Solutions, Inc.
+Entity Name
+Entity Type
+Domestic Jurisdiction
+Bowne International, L.L.C.
+Limited Liability Company
+Delaware
+DFS International Holdings, Inc.
+Corporation
+Delaware
+Donnelley Financial Data Solutions Deutschland GmbH
+Limited Liability Company
+Frankfurt/Main
+Donnelley Financial Solutions Australia Pty Limited
+Limited Liability Company
+Victoria
+Donnelley Financial Solutions Canada Corporation
+Corporation
+Nova Scotia
+Donnelley Financial Solutions do Brasil Ltda.
+Limited Liability Company
+Brazil
+Donnelley Financial Solutions France Sarl
+Limited Liability Company
+France
+Donnelley Financial Solutions Group UK Limited
+Public Limited Company
+England and Wales
+Donnelley Financial Solutions Holdings UK Limited
+Limited Liability Company
+England
+Donnelley Financial Solutions Hong Kong Limited
+Limited Liability Company
+Hong Kong
+Donnelley Financial Solutions Ireland Limited
+Limited Liability Company
+Ireland
+Donnelley Financial Solutions Japan Inc
+Corporation
+Tokyo
+Donnelley Financial Solutions Luxembourg SARL
+Limited Liability Company
+Luxembourg
+Donnelley Financial Solutions Poland sp. z o.o.
+Limited Liability Company
+Poland
+Donnelley Financial Solutions Singapore Pte. Ltd.
+Limited Liability Company
+Singapore
+Donnelley Financial Solutions UK Limited
+Limited Liability Company
+England and Wales
+Donnelley Financial, LLC
+Limited Liability Company
+Delaware
+Donnelley Translation Services (Shanghai) Co., Ltd.
+Limited Liability Company
+China
+LATFIN Holdings, LLC
+Limited Liability Company
+Delaware
+Roman Financial Press (Holdings) Limited
+Limited Liability Company
+British Virgin Islands
+RR Donnelley International de Mexico, S.A. de C.V.
+Corporation
+Mexico

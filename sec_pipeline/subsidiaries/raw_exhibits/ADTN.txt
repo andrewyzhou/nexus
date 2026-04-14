@@ -1,0 +1,106 @@
+EX-21
+9
+adtn-ex21.htm
+EX-21
+EX-21
+Exhibit 21
+SUBSIDIARIES OF ADTRAN HOLDINGS, INC.
+December 31, 2025
+Name of Subsidiary
+Country or State of Incorporation
+ADTRAN Networks Pty. Ltd
+Australia
+ADTRAN Networks Comunicações Ltda.
+Brazil
+ADTRAN Canada, Inc.
+Canada
+ADTRAN d.o.o.
+Croatia
+ADTRAN, Inc.
+State of Delaware
+ADTRAN International, Inc.
+State of Delaware
+ADTRAN Networks Worldwide, Inc.
+State of Delaware
+ADTRAN Networks, LLC
+State of Delaware
+Bluesocket, Inc.
+State of Delaware
+BSI Sub, Inc.
+State of Delaware
+ADTRAN Oy
+Finland
+ADTRAN GmbH
+Germany
+ADTRAN Networks M.E.P.E.
+Greece
+ADTRAN Networks India Private Limited
+India
+ADTRAN Holdings Ltd.
+Israel
+ADTRAN S.R.L.
+Italy
+ADTRAN Networks Sdn Bhd
+Malaysia
+ADTRAN Networks S.A. de C.V.
+Mexico
+ADTRAN Peru S.R.L.
+Peru
+ADTRAN Sp. z.o.o.
+Poland
+ADTRAN s.r.o.
+Slovakia
+ADTRAN Proprietary Ltd.
+South Africa
+ADTRAN Switzerland GmbH
+Switzerland
+ADTRAN SARL
+Tunisia
+ADTRAN Europe Limited
+United Kingdom
+ADTRAN Networks and Services Egypt, LLC
+Egypt
+ADTRAN Networks New Zealand Ltd.
+New Zealand
+Adtran Technology GmbH
+Germany
+Adtran Networks SE
+Germany
+Adtran Networks North America, Inc.
+State of Delaware
+Adtran Networks (UK) Limited
+United Kingdom
+Oscilloquartz SA
+Switzerland
+Adtran Networks Spólka z.o.o.
+Poland
+Adtran Networks Israel Ltd.
+Israel
+Adtran Networks (Shenzhen) Ltd.
+China
+Oscilloquartz Finland Oy
+Finland
+Adtran Networks Service (Shenzhen) Ltd.
+China
+Adtran Networks Singapore Pte. Ltd.
+Singapore
+Adtran Networks Hong Kong Limited
+China
+Adtran Networks IT Solutions India Private Limited
+India
+Adtran Networks Servicos Brasil Ltda.
+Brazil
+Adtran Networks Japan Co., Ltd.
+Japan
+Adtran Networks AB
+Sweden
+Adtran Networks NA Holdings Inc.
+State of Georgia
+Adtran Networks Australia Pty Ltd.
+Australia
+Adtran Networks B.V.
+Netherlands
+Adtran Networks Canada, Inc.
+Canada
+ADVA Network Security GmbH
+Germany

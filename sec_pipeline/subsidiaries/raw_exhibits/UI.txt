@@ -1,0 +1,17 @@
+EX-21.1
+3
+ui-06302025xex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Ubiquiti Inc
+.*
+Subsidiary Name
+State or Other Jurisdiction of
+Incorporation or Organization
+Ubiquiti Holdings LLC
+Delaware
+Ubiquiti (Taiwan) Sales Limited
+Taiwan
+*
+Each of the named subsidiaries is not necessarily a “significant subsidiary” as defined in Rule 1-02(w) of Regulation S-X, and the Company has several additional subsidiaries not named above. The unnamed subsidiaries, considered in the aggregate as a single subsidiary, would not constitute a “significant subsidiary” at the end of the year covered by this report.

@@ -1,0 +1,307 @@
+EX-2.13
+2
+exhibit213finaltermsdated6.htm
+EX-2.13
+Document
+Exhibit 2.13
+Final Terms
+PROHIBITION OF SALES TO EEA RETAIL INVESTORS –
+The Notes are not intended to be offered, sold or otherwise made available to and should not be offered, sold or otherwise made available to any retail investor in the European Economic Area (the "
+EEA
+"). For these purposes, a retail investor means a person who is one (or more) of: (i) a retail client as defined in point (11) of Article 4(1) of Directive 2014/65/EU (as amended, “
+MiFID II
+”); or (ii) a customer within the meaning of Directive (EU) 2016/97, where that customer would not qualify as a professional client as defined in point (10) of Article 4(1) of MiFID II. Consequently, no key information document required by Regulation (EU) No 1286/2014 (the "
+PRIIPs Regulation
+") for offering or selling the Notes or otherwise making them available to retail investors in the EEA has been prepared and therefore offering or selling the Notes or otherwise making them available to any retail investor in the EEA may be unlawful under the PRIIPs Regulation.
+PROHIBITION OF SALES TO UK RETAIL INVESTORS
+– The Notes are not intended to be offered, sold or otherwise made available to and should not be offered, sold or otherwise made available to any retail investor in the United Kingdom (the "
+UK
+"). For these purposes, a retail investor means a person who is one (or more) of: (i) a retail client, as defined in point (8) of Article 2 of Regulation (EU) No 2017/565 as it forms part of domestic law by virtue of the European Union (Withdrawal) Act 2018 (the "
+EUWA
+"); or (ii) a customer within the meaning of the provisions of the Financial Services and Markets Act 2000, as amended (the "
+FSMA
+"), and any rules or regulations made under the FSMA to implement Directive (EU) 2016/97, where that customer would not qualify as a professional client, as defined in point (8) of Article 2(1) of Regulation (EU) No 600/2014 as it forms part of domestic law by virtue of the EUWA. Consequently, no key information document required by Regulation (EU) No 286/2014 as it forms part of domestic law by virtue of the EUWA (the "
+UK PRIIPs Regulation
+") for offering or selling the Notes or otherwise making them available to retail investors in the UK has been prepared and, therefore, offering or selling the Notes or otherwise making them available to any retail investor in the UK may be unlawful under the UK PRIIPs Regulation.
+FINAL TERMS DATED 6 NOVEMBER 2024
+VEON HOLDINGS B.V.
+Legal entity identifier (LEI): 5493000XDKGUH5NQGE22
+Issue of U.S.$4,845,000 3.375% Senior Unsecured Notes due 2027
+(to be consolidated and form a single Series with the existing U.S.$908,775,000 3.375% Senior Unsecured Notes due 2027 issued on 29 May 2024, U.S.$92,474,000 3.375% Senior Unsecured Notes due 2027 issued on 26 June 2024, U.S.$3,631,000 3.375% Senior Unsecured Notes due 2027 issued on 17 July 2024 and U.S.$3,958,000 3.375% Senior Unsecured Notes due 2027 issued on 23 August 2024)
+(the "
+Notes
+")
+under the U.S.$6,500,000,000
+Global Medium Term Note Programme
+Part A –
+CONTRACTUAL TERMS
+Terms used herein shall be deemed to be defined as such for the purposes of the Conditions (the "
+Conditions
+") set forth in the Base Offering Memorandum dated 16 April 2020, the first supplemental offering memorandum dated 8 June 2020, the second supplemental offering memorandum dated 1 September 2020 and the third supplemental offering memorandum dated 16 November 2020 (together, the "
+Base Offering Memorandum
+"). This document must be read in conjunction with the Base Offering Memorandum. This document does not constitute the Final Terms of the Notes described herein for the purposes of Regulation (EU) 2017/1129. The Base Offering Memorandum has been published on the website of the Luxembourg Stock Exchange (
+www.luxse.com
+).
+1.
+Issuer:
+VEON Holdings B.V.
+2.
+(a)    Series Number:
+7
+(b)
+Tranche Number:
+5
+(c)
+Date on which the Notes become fungible:
+Immediately on issue, the Notes will be consolidated and form a single Series with Tranche 1 (U.S.$908,775,000 3.375% Senior Unsecured Notes due 2027 issued on 29 May 2024), Tranche 2 (U.S.$92,474,000 3.375% Senior Unsecured Notes due 2027 issued on 26 June 2024), Tranche 3 (U.S.$3,631,000 3.375% Senior Unsecured Notes due 2027 issued on 17 July 2024) and Tranche 4 (U.S.$3,958,000 3.375% Senior Unsecured Notes due 2027 issued on 23 August 2024)
+3.
+Specified Currency or Currencies:
+United States Dollars
+4.
+Aggregate Nominal Amount of Notes:
+(a)
+Series:
+U.S.$1,013,683,000
+2
+(b)
+Tranche:
+U.S.$4,845,000
+5.
+Issue Price:
+100 per cent. of the Aggregate Nominal Amount
+6.
+(a)    Specified Denominations:
+U.S.$200,000 and integral multiples of U.S.$1,000 in excess thereof
+(b)
+Calculation Amount:
+U.S.$1,000
+7.
+(a)    Issue Date:
+6 November 2024
+(b)
+Interest Commencement Date
+25 May 2024
+8.
+Maturity Date:
+25 November 2027
+9.
+Interest Basis:
+3.375 per cent. Fixed Rate
+10.
+Redemption/Payment Basis:
+Subject to any purchase and cancellation or early redemption, the Notes will be redeemed on the Maturity Date at 100 per cent. of their nominal amount
+11.
+Change of Interest Basis or Redemption/Payment Basis:
+Not Applicable
+12.
+Call Options:
+Issuer Call
+Issuer Maturity Par Call
+Clean-up Call
+13.
+Currency Exchange Option:
+Not Applicable
+Provisions relating to interest (if any) payable
+14.
+Fixed Rate Note Provisions:
+Applicable
+(a)
+Rate(s) of Interest:
+3.375 per cent. per annum payable semi-annually in arrear
+(b)
+Interest Payment Date(s):
+25 May and 25 November in each year, commencing on 25 November 2024, up to and including the Maturity Date
+(c)
+Fixed Coupon Amount(s):
+U.S.$16.875 per Calculation Amount payable semi-annually
+(d)
+Broken Amount(s):
+Not Applicable
+(e)
+Day Count Fraction:
+30/360
+(f)
+Determination Date(s):
+Not Applicable
+3
+15.
+Floating Rate Note Provisions:
+Not Applicable
+16.
+Zero Coupon Note Provisions:
+Not Applicable
+Provisions relating to Redemption
+17.
+Issuer Call
+Applicable
+(a)
+Optional Redemption Date(s):
+Any date from (but excluding) the Issue Date to (but excluding) 25 August 2027
+(b)
+Optional Redemption Amount(s):
+As set out in Condition 7(c)(i)
+(i)
+Make-Whole Redemption Margin:
+Plus 50 basis points
+(ii)
+Make-Whole Redemption Rate:
+Treasury Rate
+(c)
+If redeemable in part:
+(i)
+Minimum Redemption Amount:
+Not Applicable
+(ii)
+Maximum Redemption Amount:
+Not Applicable
+(d)
+Notice periods (if other than as set out in the Conditions):
+Not Applicable
+18.
+Issuer Maturity Par Call:
+Applicable from (and including) 25 August 2027 to (but excluding) the Maturity Date
+Notice periods (if other than as set out in the Conditions):
+Not Applicable
+19.
+Clean-up Call:
+Applicable
+Notice periods (if other than as set out in the Conditions):
+Not Applicable
+20.
+Final Redemption Amount:
+U.S.$1,000 per Calculation Amount
+21.
+Early Redemption Amount payable on redemption for taxation reasons or on event of default:
+As set out in Condition 7(d) (
+Redemption and Purchase
+—
+Early Redemption Amounts
+)
+General provisions applicable to the Notes
+22.
+Form of Notes:
+4
+Regulation S Global Note (U.S.$846,300,000 nominal amount (comprising U.S.$818,000,000 issued on 29 May 2024, U.S.$21,680,000 issued on 26 June 2024, U.S.$3,400,000 issued on 17 July 2024 and U.S.$3,220,000 issued on 6 November 2024)) registered in the name of a nominee for a common depositary for Euroclear and Clearstream which is exchangeable for Definitive Registered Notes only upon an Exchange Event
+Rule 144A Global Note (U.S.$167,383,000 nominal amount (comprising U.S.$90,775,000 issued on 29 May 2024, U.S.$70,794,000 issued on 26 June 2024, U.S.$231,000 issued on 17 July 2024, U.S.$3,958,000 issued on 23 August 2024 and U.S.$1,625,000 issued on 6 November 2024)) registered in the name of a nominee for a common depositary for Euroclear and Clearstream which is exchangeable for Definitive Registered Notes only upon an Exchange Event
+23.
+Additional Financial Centre(s):
+Not Applicable
+24.
+Other terms or special conditions:
+For the purposes of the Notes, the Conditions shall be deemed amended by the inclusion of a new Condition 10(d) (
+No default in respect of Original Notes
+) and the inclusion of a new Condition 10(e) (
+Delivery of audited consolidated financial statements for the years ended 31 December 2023 and 31 December 2024
+), all as set out in the Annex attached hereto.
+Responsibility
+The Issuer accepts responsibility for the information contained in these Final Terms.
+5
+Signed on behalf of VEON HOLDINGS B.V.
+By: /s/ Jochem Postma
+Duly authorised
+[Signature Page – Final Terms – New 2027 Notes]
+7
+Part B –
+OTHER INFORMATION
+1.
+Listing and admission to trading
+(i)
+Listing
+Luxembourg Stock Exchange
+(ii)
+Admission to trading:
+Application has been made by the Issuer for the Notes to be admitted to trading on the Euro MTF Market and to list the Notes on the Official List of the Luxembourg Stock Exchange with effect from on or around 6 November 2024
+(iii)
+Estimate of total expenses related to admission to trading:
+€950
+2.
+Ratings
+Ratings:
+The Notes to be issued have not been rated.
+3.
+Interests of natural and legal persons involved in the issue
+So far as the Issuer is aware, no person involved in the issue of the Notes has an interest material to the offer.
+4.
+Use of proceeds
+Use of proceeds:
+The net proceeds of the issue of the Notes will be used by the Issuer to finance and/or refinance, directly or indirectly, certain investments in subsidiaries and to refinance certain outstanding indebtedness of the Issuer, and for general corporate purposes
+5.
+Yield
+Indication of yield:
+3.375 per cent. per annum
+The yield is calculated at the Issue Date on the basis of the Issue Price. It is not an indication of future yield
+6.
+Operational information
+(i)
+Common Code(s):
+Regulation S Global Note:
+Rule 144A Global Note:
+282476452
+282476614
+(ii)
+CUSIP(s):
+Not Applicable
+(iii)
+ISIN(s):
+Regulation S Global Note:
+Rule 144A Global Note:
+XS2824764521
+XS2824766146
+8
+(iv)
+Any clearing system(s) other than Euroclear Bank SA/NV and Clearstream Banking S.A./The Depository Trust Company and the relevant identification number(s):
+Not Applicable. Euroclear Bank SA/NV and Clearstream Banking S.A. only, no Depository Trust Company
+(v)
+Delivery:
+Delivery free of payment
+(vi)
+Names and addresses of additional Paying Agent(s) (if any):
+Not Applicable
+(vii)
+Name and address of Registrar:
+Citibank, N.A., London Branch
+7.
+Distribution
+(i)
+Method of distribution:
+Not Applicable
+(ii)
+If syndicated, names of Managers:
+Not Applicable
+(iii)
+Date of Subscription Agreement:
+Not Applicable
+(iv)
+Stabilising Manager(s) (if any):
+Not Applicable
+(v)
+If non-syndicated, name of Relevant Dealer:
+Not Applicable
+(vi)
+U.S. Selling Restrictions:
+Any Noteholder who is, as of the Issue Date, both a U.S. person (as defined in Regulation S under the United States Securities Act of 1933, as amended (the "
+Securities Act
+") or a QIB (as defined in Rule 144A under the Securities Act) shall not, beginning on such date, offer, sell or transfer its Notes except in a transaction that would comply with the transfer restrictions pursuant to Rule 144A and sales of any Notes held pursuant to Regulation S under the Securities Act may not be made to U.S. persons, and may only be made (i) outside the United States pursuant to Rule 903 and 904 of Regulation S or (ii) to QIBs in transactions pursuant to Rule 144A or another exemption available under the Securities Act, until the expiry of the period of 40 days after the Issue Date
+9
+(vii)
+Prohibition of Sales to EEA Retail Investors:
+Applicable
+(viii)
+Prohibition of Sales to UK Retail Investors:
+Applicable
+10
+ANNEX
+For the purposes of the Notes, the Conditions shall be deemed amended as follows:
+(a)
+by the inclusion of a new Condition 10(d) as follows:
+“
+(d)    No default in respect of Original Notes
+Notwithstanding anything to the contrary in these Conditions, (i) any non-payment by the Issuer of any amount under the terms and conditions in respect of its (i) U.S.$1,000,000,000 4.00 per cent. Senior Notes due 9 April 2025 (Regulation S Notes ISIN: XS2058691663 / Rule 144A Notes ISIN: US92334VAA35), (ii) RUB20,000,000,000 6.30% Senior Unsecured Notes due 18 June 2025  (Regulation S Notes ISIN: XS2184900186 / Rule 144A Notes ISIN: XS2184900269), (iii) RUB10,000,000,000 6.50% Senior Unsecured Notes due 11 September 2025 (Regulation S ISIN: XS2226716392 / Rule 144A: ISIN: XS2226712995), (iv) RUB20,000,000,000 8.125% Senior Unsecured Notes due 16 September 2026 (Regulation S ISIN: XS2343532508 / Rule 144A: ISIN: XS2343534462) and (v) U.S.$1,250,000,000 3.375% Senior Unsecured Notes due 25 November 2027 (Regulation S ISIN: XS2252958751 / Rule 144A: ISIN: US91823N2A05) (together, the "
+Original Notes
+") and (ii) any cancellation by the Issuer of any Original Notes, in each case, does not and will not, amount to any breach of these Conditions or any Potential Event of Default or Event of Default.”
+(b)
+by the inclusion of a new Condition 10(e) as follows:
+“
+(e)    Delivery of audited consolidated financial statements for the years ended 31 December 2023 and 31 December 2024
+Notwithstanding anything to the contrary in these Conditions, (i) any failure by the Issuer to furnish the Trustee with its audited consolidated financial statements for the year ended 31 December 2023 in accordance with the terms of Condition 4(b)(i) and clause 14.1(d) of the Trust Deed and (ii) to furnish the Trustee with its audited consolidated financial statements for the year ended 31 December 2024 in accordance with the terms of Condition 4(b)(i) and clause 14.1(d) of the Trust Deed, in each case, does not and will not, amount to any breach of Condition 4(b)(i) and clause 14.1(d) of the Trust Deed and shall not give rise to or be treated as an Event of Default under Condition 10(a)(iii), provided (A) in respect of its audited consolidated financial statements for the year ended 31 December 2023, the Issuer shall use its reasonable best efforts to provide to the Trustee such audited consolidated financial statements of the Issuer for the year ended 31 December 2023 by 31 December 2024 and (B) in respect of its audited consolidated financial statements for the year ended 31 December 2024, the Issuer provides to the Trustee such audited consolidated financial statements of the Issuer for the year ended 31 December 2024 by 31 December 2025.”
+11

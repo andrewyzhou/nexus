@@ -1,0 +1,49 @@
+EX-21.1
+8
+zsexhibit211fy2510-k.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF ZSCALER, INC.
+Name of Subsidiary
+Jurisdiction of Incorporation
+Airgap Networks Inc.
+United States
+Avalor Technologies LTD
+Israel
+Securelyshare Software Private Limited
+India
+Smokescreen Technologies Private Limited
+India
+Zscaler Softech India Private Limited
+India
+ZSC Brasil LTDA
+Brazil
+ZSC Holdings Limited
+United States
+Zscaler Australia PTY LTD
+Australia
+Zscaler Canada, Inc.
+Canada
+Zscaler Costa Rica S.A.
+Costa Rica
+Zscaler France SARL
+France
+Zscaler Germany GmbH
+Germany
+Zscaler Israel LTD
+Israel
+Zscaler K.K.
+Japan
+Zscaler Netherlands B.V.
+Netherlands
+Zscaler Spain S.L.
+Spain
+Zscaler Sweden AB
+Sweden
+Zscaler Switzerland GmbH
+Switzerland
+Zscaler UK LTD
+United Kingdom
+Zscaler US Government Solutions, LLC
+United States

@@ -1,0 +1,99 @@
+EX-21.1
+7
+exhibit211-subsidiarieslis.htm
+EX-21.1
+Document
+Exhibit 21.1
+ENTITY
+Ownership
+Place of Incorporation
+Principal Place
+of Business
+Azarga Resources (HongKong) Ltd.
+100% owned by Azarga Resources Ltd.
+Hong Kong
+Hong Kong
+Azarga Resources Canada Ltd.
+100% owned by Azarga Resources (Hong Kong) Ltd.
+British Columbia
+British Columbia
+Azarga Resources Ltd
+100% owned by Azarga Uranium Corp.
+British Virgin Islands
+British Virgin Islands
+Azarga Resources USA Company
+100% owned by Azarga Resources Canada Ltd.
+Colorado
+Colorado
+Azarga Uranium Corp.
+100% owned by enCore Energy Corp.
+British Columbia
+Texas
+enCore Alta Mesa, LLC
+100% owned by JV Alta Mesa LLC
+Texas
+Texas
+enCore Energy Corp.
+Parent Company
+British Columbia
+Texas
+enCore Energy Holdings LLC
+100% owned by enCore Energy US Holdco LLC
+Texas
+Texas
+enCore Energy US Corp.
+100% owned by 100% owned by
+Nevada
+Texas
+enCore Energy US Holdco LLC
+100% owned by enCore Energy US Corp.
+Nevada
+Texas
+HRI-Churchrock, Inc.
+100% owned by enCore Energy US Corp.
+Delaware
+Texas
+JV Alta Mesa LLC
+70% owned by enCore Energy US Corp.
+Delaware
+Texas
+Leoncito Plant, LLC
+100% owned by JV Alta Mesa LLC
+Texas
+Texas
+Leoncito Project LLC
+100% owned by JV Alta Mesa LLC
+Texas
+Texas
+Leoncito Restoration LLC
+100% owned by Leoncito Project LLC
+Texas
+Texas
+Metamin Enterprise US Inc.
+100% owned by enCore Energy US Corp.
+Nevada
+Texas
+enCore Precision Drilling Corp.
+100% owned by enCore Energy US Corp.
+Nevada
+Texas
+Powertech (USA) Inc.
+100% owned by Azarga Uranium Corp.
+South Dakota
+Texas
+Ucolo Exploration Corp.
+100% owned by URZ Energy Corp.
+Utah
+Texas
+Uranco, Inc.
+100% owned by enCore Energy US Holdco LLC
+Delaware
+Colorado
+URI, Inc.
+100% owned by enCore Energy US Corp.
+Delaware
+Texas
+URZ Energy Corp.
+100% owned by Azarga Uranium Corp.
+British Columbia
+Texas

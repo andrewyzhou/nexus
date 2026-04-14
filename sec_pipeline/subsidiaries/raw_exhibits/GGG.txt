@@ -1,0 +1,265 @@
+EX-21
+2
+ggg12262025exhibit21q4.htm
+EX-21
+Document
+Exhibit 21
+Subsidiaries of Graco Inc.
+The following are subsidiaries of the Company as of December 26, 2025.
+Subsidiary
+Jurisdiction
+of Organization
+Ownership
+Type
+1
+Percent
+Owned
+Color Services s.r.l.
+Italy
+Direct
+100%
+Corob Brazil Ltda.
+Brazil
+Indirect
+100%
+Corob GmbH
+Germany
+Indirect
+100%
+Corob Iberia S.LU.
+Spain
+Indirect
+100%
+Corob India Private Ltd.
+India
+Indirect
+100%
+Corob Pte Ltd.
+Singapore
+Indirect
+100%
+Corob SA
+Uruguay
+Indirect
+100%
+Corob Scandinavia AB
+Swenden
+Indirect
+100%
+Corob S.p.A.
+Italy
+Direct
+100%
+Corob OY
+Finland
+Indirect
+100%
+Corob North America, Inc.
+North Carolina, USA
+Indirect
+100%
+Electric Torque Machines, Inc
+Delaware, USA
+Direct
+100%
+Gema Eastern Europe s.r.l.
+Romania
+Indirect
+100%
+Gema Europe s.r.l.
+Italy
+Indirect
+100%
+Gema México Powder Finishing, S. de R.L. de C.V.
+Mexico
+Direct & Indirect
+100%
+Gema (Shanghai) Co., Ltd.
+P.R. China
+Indirect
+100%
+Gema South East Asia Co. Ltd.
+Vietnam
+Direct
+100%
+Gema Switzerland GmbH
+Switzerland
+Indirect
+100%
+Gema USA Inc.
+Minnesota, USA
+Direct
+100%
+Gess Co.
+Delaware, USA
+Direct
+100%
+GFEC Free Zone Uruguay S.A.
+Uruguay
+Indirect
+100%
+GFEC Uruguay S.A.
+Uruguay
+Indirect
+100%
+Graco Australia Pty Ltd
+Australia
+Indirect
+100%
+Graco BV
+Belgium
+Indirect
+100%
+Graco Canada Inc.
+Canada
+Indirect
+100%
+Graco Chile SpA
+Chile
+Direct
+100%
+Graco Colombia S.A.S.
+Colombia
+Direct
+100%
+Graco Distribution BV
+Belgium
+Indirect
+100%
+Graco Equipment Manufacturing (Suzhou) Co., Ltd.
+Hong Kong, P.R. China
+Direct
+100%
+Graco Finance Hong Kong Limited
+Hong Kong, P.R. China
+Direct
+100%
+Graco Fluid Equipment (Shanghai) Co., Ltd.
+P.R. China
+Direct & Indirect
+100%
+Graco Fluid Equipment (Suzhou) Co., Ltd.
+P.R. China
+Indirect
+100%
+Graco Global Holdings
+Luxembourg
+Direct
+100%
+Graco GmbH
+Germany
+Indirect
+100%
+Graco High Pressure Equipment Inc.
+Minnesota, USA
+Direct
+100%
+Graco Hong Kong Limited
+Hong Kong, P.R. China
+Indirect
+100%
+Graco India Private Limited
+India
+Indirect
+100%
+Graco International Holdings
+Luxembourg
+Indirect
+100%
+Graco K.K.
+Japan
+Indirect
+100%
+Graco Korea Inc.
+South Korea
+Indirect
+100%
+Graco Limited
+England and Wales, UK
+Indirect
+100%
+Graco Malaysia Sdn. Bhd.
+Malaysia
+Indirect
+100%
+Graco Minnesota Inc.
+Minnesota, USA
+Direct
+100%
+Graco Ohio Inc.
+Ohio, USA
+Direct
+100%
+Graco Pumps and Spare Parts Trading LLC
+United Arab Emirates
+Indirect
+100%
+Graco S.A.S.
+France
+Indirect
+100%
+Graco Serviços e Importação de Máquinas e Equipamentos em Geral Ltda.
+Brazil
+Indirect
+100%
+Graco Singapore Pte. Ltd.
+Singapore
+Direct
+100%
+Graco Solutions Inc.
+Minnesota, USA
+Direct
+100%
+Graco Trading (Shanghai) Co., Ltd.
+P.R. China
+Indirect
+100%
+Hi-Tech Spray Equipment, S.A.
+Spain
+Indirect
+2
+89.5%
+Landtec North America, Inc.
+California, USA
+Indirect
+100%
+Novaflow Systems Inc.
+Canada
+Indirect
+100%
+Q.E.D. Environmental Systems, Inc.
+Michigan, USA
+Direct
+100%
+Q.E.D. Environmental Systems Limited
+England and Wales, UK
+Indirect
+100%
+Red Devil Equipment Company
+Minnesota, USA
+Direct
+100%
+SAT (Surface Aluminium Technologies) S.r.l.
+Italy
+Indirect
+100%
+Smith Surface Preparation Systems Inc.
+Minnesota, USA
+Direct
+100%
+Soluciones en Automatizacion y Color S.A. de C.V.
+Mexico
+Indirect
+100%
+Staffordshire Hydraulic Services Limited
+England and Wales, UK
+Indirect
+100%
+White Knight Fluid Handling Inc.
+Minnesota, USA
+Direct
+100%
+1
+Ownership type indicates whether each subsidiary is directly owned by Graco Inc., indirectly owned by Graco Inc. through direct ownership by one or more of its subsidiaries, or a combination thereof.
+2
+10.5% of the shares of this subsidiary are held by three employees of the subsidiary.

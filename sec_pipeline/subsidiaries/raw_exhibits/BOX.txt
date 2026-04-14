@@ -1,0 +1,34 @@
+EX-21.1
+7
+box-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+SUBSIDIARIES OF BOX, INC.
+The following is a list of subsidiaries of Box, Inc. as of January 31, 2026.
+Name of Subsidiary
+Jurisdiction of Organization
+Box Intl Holdings Ltd
+United Kingdom
+Box Intl Technology Ltd
+United Kingdom
+Box.com (UK) Ltd
+United Kingdom
+Box Poland Sp. z o.o.
+Poland
+Box Deutschland GmbH
+Germany
+Box France SARL
+France
+KK Box Japan
+Japan
+Box Canada, Inc.
+Canada
+Box.com Australia Pty Ltd.
+Australia
+Box Netherlands B.V.
+Netherlands
+SignRequest B.V.
+Netherlands
+Crooze Corporation
+Delaware

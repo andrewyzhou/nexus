@@ -1,0 +1,290 @@
+EX-21.1
+13
+dhr-20251231xexx211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Danaher Corporation
+Subsidiaries of the Registrant
+Name
+Jurisdiction of Organization
+AB Sciex Finance B.V.
+Netherlands
+AB Sciex LLC
+Delaware
+AB Sciex LP
+Canada
+AB Sciex Pte. Ltd.
+Singapore
+Abcam Inc.
+Massachusetts
+Abcam Limited
+United Kingdom
+Abcam Trading (Shanghai) Co., Ltd
+China
+Aldevron Madison LLC
+North Dakota
+Aldevron LLC
+North Dakota
+BC Distribution B.V.
+Netherlands
+Beckman Coulter Biomedical GmbH
+Germany
+Beckman Coulter Biotechnology (Suzhou) Co., Ltd.
+China
+Beckman Coulter Canada LP
+Canada
+Beckman Coulter Commercial Enterprise (China) Co., Ltd.
+China
+Beckman Coulter France S.A.S.
+France
+Beckman Coulter Genomics Inc.
+Delaware
+Beckman Coulter GmbH
+Germany
+Beckman Coulter Hong Kong Limited
+Hong Kong
+Beckman Coulter, Inc.
+Delaware
+Beckman Coulter India Private Limited
+India
+Beckman Coulter International S.A.
+Switzerland
+Beckman Coulter International Trading (Shanghai) Co., Ltd.
+China
+Beckman Coulter Ireland Inc.
+Ireland
+Beckman Coulter K.K.
+Japan
+Beckman Coulter Korea Ltd.
+Korea, Republic of
+Beckman Coulter Laboratory Systems (Suzhou) Co. Ltd.
+China
+Beckman Coulter Limited Liability Company
+Russian Federation
+Beckman Coulter Mishima K.K.
+Japan
+Beckman Coulter Saudi Arabia Co. Ltd.
+Saudi Arabia
+Beckman Coulter, S.L.U.
+Spain
+Beckman Coulter Srl
+Italy
+Beckman Coulter Taiwan Inc.
+California
+Beckman Coulter United Kingdom Limited
+United Kingdom
+Biacore International AB
+Sweden
+Biosafe SA
+Switzerland
+BioVision, Inc
+California
+Cepheid
+California
+Cepheid AB
+Sweden
+Cepheid Europe SAS
+France
+Cepheid GmbH
+Germany
+Cepheid HBDC SAS
+France
+CEVEC Pharmaceuticals GmbH
+Germany
+Cytiva Belgium BV
+Belgium
+Cytiva BioProcess R&D AB
+Sweden
+Cytiva Biotechnology (Guangzhou) Co., Ltd.
+China
+Cytiva Denmark Manufacturing ApS
+Denmark
+Cytiva do Brasil Comércio e Serviços para Biotecnologia Ltda.
+Brazil
+Cytiva Europe GmbH
+Germany
+Cytiva Ireland Limited
+Ireland
+Cytiva Italy SRL
+Italy
+Cytiva Sweden AB
+Sweden
+Cytiva US LLC
+Delaware
+Danaher Business System IP Holdings LLC
+Delaware
+Danaher Medical ApS
+Denmark
+Devicor Medical Products, Inc.
+Delaware
+DH Europe Finance II Sarl
+Luxembourg
+DH Europe Finance S.à.r.l.
+Luxembourg
+DH Holdings Corp.
+Delaware
+DH Holdings Germany LLC
+Delaware
+DH Japan Finance S.à.r.l.
+Luxembourg
+DH Life Sciences LLC
+Delaware
+DH Technologies Development Pte Ltd.
+Singapore
+DH UK Partners
+United Kingdom
+DHCDAN Holding ApS
+Denmark
+DHRAT GmbH
+Austria
+DTIL Ireland Holdings Ltd.
+Ireland
+Epitomics Inc.
+Delaware
+FJ 900, Inc.
+Delaware
+Genedata AG
+Switzerland
+Gilzoni Holdings Italia S.R.L.
+Italy
+Global Life Sciences Solutions Australia Pty Ltd
+Australia
+Global Life Sciences Solutions Canada ULC
+Canada
+Global Life Sciences Solutions Germany GmbH
+Germany
+Global Life Sciences Solutions Korea Limited
+Korea, Republic of
+Global Life Sciences Solutions Manufacturing UK Ltd
+United Kingdom
+Global Life Sciences Solutions Operations UK Ltd.
+United Kingdom
+Global Life Sciences Solutions Singapore Pte. Ltd.
+Singapore
+Global Life Sciences Solutions USA LLC
+Delaware
+Global Life Sciences Technologies (Shanghai) Co., Ltd.
+China
+Global Life Sciences Technologies Japan K.K.
+Japan
+GLS Sweden Holdings AB
+Sweden
+HemoCue AB
+Sweden
+Hybritech Incorporated
+California
+HyClone Laboratories, LLC
+Delaware
+Hyclone Life Sciences Solutions India Private Limited
+India
+ID Business Solutions Limited
+United Kingdom
+InSilixa, Inc.
+Delaware
+Intabio, LLC
+Delaware
+Integrated DNA Technologies, B.V.
+Belgium
+Integrated DNA Technologies, Inc.
+Delaware
+Iris International, Inc.
+Delaware
+Labcyte Inc.
+Delaware
+Launchchange Operations Limited
+United Kingdom
+Leica Biosystems Imaging, Inc.
+Delaware
+Leica Biosystems Melbourne Pty Ltd
+Australia
+Leica Biosystems Newcastle Limited
+United Kingdom
+Leica Biosystems Richmond, Inc.
+Illinois
+Leica Instruments (Singapore) Pte Limited
+Singapore
+Leica Microsystems (UK) Limited
+United Kingdom
+Leica Microsystems CMS GmbH
+Germany
+Leica Microsystems Inc.
+Delaware
+Leica Microsystems IR GmbH
+Germany
+Leica Microsystems Ltd. Shanghai
+China
+Leica Mikrosysteme GmbH
+Austria
+Leica Mikrosysteme Vertrieb GmbH
+Germany
+Life Sciences IP Holdings Corp
+Delaware
+Molecular Devices, LLC
+Delaware
+Nihon Pall Ltd.
+Japan
+Nihon Pall Manufacturing Limited
+Japan
+Pall (Canada) ULC
+Canada
+Pall (China) Co., Ltd.
+China
+Pall (Schweiz) GmbH
+Switzerland
+Pall Aeropower Corporation
+Delaware
+Pall Arabia for Trading
+Saudi Arabia
+Pall Asia International Ltd.
+Hong Kong
+Pall Austria Filter Ges.m.b.h.
+Austria
+Pall Biotech (Beijing) Co., Ltd.
+China
+Pall Corporation
+New York
+Pall Europe Limited
+United Kingdom
+Pall Filtration Pte Ltd
+Singapore
+Pall France SAS
+France
+Pall GmbH
+Germany
+Pall International SARL
+Switzerland
+Pall Korea Ltd
+Korea, Republic of
+Pall Life Sciences Belgium BV
+Belgium
+Pall Life Sciences Puerto Rico, LLC
+Puerto Rico
+Pall Manufacturing UK Limited
+United Kingdom
+Pall Medistad B.V.
+Netherlands
+Pall Sarl
+Switzerland
+Pall SAS
+France
+Pall Singapore Taiwan Branch Holding Company Pte Ltd
+Taiwan
+Pall Technology UK Limited
+United Kingdom
+Phenomenex, Inc.
+California
+Radiometer Medical ApS
+Denmark
+Radiometer Solutions Sp. z o.o.
+Poland
+Radiometer Turku Oy
+Finland
+Shanghai AB Sciex Analytical Instrument Trading Co., Ltd.
+China
+TGR BioSciences Pty Limited
+Australia
+Vanrx Pharmasystems Inc.
+Canada
+VR Finance Company
+United Kingdom

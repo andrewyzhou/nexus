@@ -1,0 +1,36 @@
+EX-21.1
+4
+ex211subsidiaries1.htm
+EX-21.1
+Document
+Exhibit 21.1
+NuScale Power Corporation Subsidiaries
+[Note: Roman numerals below denote the level of the subsidiary. For example, “I” represents a first-tier subsidiary of NuScale Power Corporation; “II” represents a second tier of subsidiary of NuScale Power, LLC; and ;
+“III” represents a second tier of subsidiary of NuScale Power OVS, LLC]
+Subsidiary Name
+Percent Holding
+Organized Under Laws of
+I
+NuScale Power, LLC
+100.0
+Oregon
+II
+NuScale Power OVS, LLC
+100.0
+Delaware
+III
+NuScale Power Canada Holdings, ULC
+100.0
+BC, Canada
+III
+NuScale Investment Co., Ltd.
+40.0
+Korea
+III
+NuScale Romania S.R.L.
+100.0
+Romania
+II
+ENTRA1 NuScale LLC
+50.0
+Delaware

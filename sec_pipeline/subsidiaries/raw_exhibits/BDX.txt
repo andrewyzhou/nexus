@@ -1,0 +1,700 @@
+EX-21
+4
+a09-30x2025ex21.htm
+EX-21
+Document
+Exhibit 21
+US SUBSIDIARIES OF BECTON, DICKINSON AND COMPANY
+Entity
+Jurisdiction
+Accuri Cytometers, Inc.
+Delaware
+Adaptec Medical Devices LLC
+Delaware
+Alverix, Inc.
+Delaware
+Augusta Life Sciences Corp.
+Delaware
+Augusta Life Sciences US Holdco I LLC
+Delaware
+Augusta Life Sciences US Holdco II LLC
+Delaware
+Augusta Life Sciences US Opco I LLC
+Delaware
+Augusta Life Sciences US Opco II LLC
+Delaware
+Augusta Life Sciences US Spinco LLC
+Delaware
+Bard Access Systems, Inc.
+Utah
+Bard Acquisition Sub, Inc.
+Delaware
+Bard ASDI, Inc.
+New Jersey
+Bard Brachytherapy, Inc.
+Delaware
+Bard Devices, Inc.
+Delaware
+Bard IP Holdings Inc.
+Delaware
+Bard Healthcare, Inc.
+Texas
+Bard International, Inc.
+Delaware
+Bard MRL Acquisition Corp.
+Delaware
+Bard Peripheral Vascular, Inc.
+Arizona
+BD Nebula US Formco I LLC
+Delaware
+BD Nebula US Formco II LLC
+Delaware
+BD Ventures LLC
+New Jersey
+BDX INO LLC
+Delaware
+Becton Dickinson Biosciences, Systems and Reagents Inc.
+California
+Becton Dickinson Global Holdings I Inc.
+Delaware
+Becton Dickinson Global Holdings IV LLC
+Delaware
+Becton Dickinson Global Holdings VI LLC
+Delaware
+Becton Dickinson Global Holdings VII LLC
+Delaware
+Becton Dickinson Global Holdings VIII LLC
+Delaware
+Becton Dickinson Infusion Therapy Systems Inc.
+Delaware
+Becton Dickinson Korea Holding, Inc.
+Delaware
+Becton Dickinson Malaysia, Inc.
+Oregon
+Becton Dickinson Matrex Holdings, Inc.
+Delaware
+Becton Dickinson Overseas Services Ltd.
+Nevada
+Becton Dickinson Venture LLC
+Delaware
+Bridger Biomed, Inc.
+Montana
+C. R. Bard, Inc.
+New Jersey
+Cardal II, LLC
+Delaware
+CareFusion 213, LLC
+Delaware
+CareFusion 2200, Inc.
+Delaware
+CareFusion 2201, Inc.
+Delaware
+CareFusion 302, LLC
+Delaware
+CareFusion 303, Inc.
+Delaware
+CareFusion Corporation
+Delaware
+CareFusion Manufacturing, LLC
+Delaware
+CareFusion Resources, LLC
+Delaware
+CareFusion Solutions, LLC
+Delaware
+CAS Medical Systems, Inc.
+Delaware
+Cell Analysis Systems, Inc
+Illinois
+Cellular Research, Inc.
+Delaware
+Chudy Group, LLC
+Delaware
+CRISI Medical Systems, Inc.
+Delaware
+Davol Inc.
+Delaware
+DVL Acquisition Sub, Inc.
+Delaware
+Dymax Corporation
+Pennsylvania
+Echo-US LLC
+Delaware
+Enturican, Inc.
+Kansas
+FJ International, Inc.
+Oregon
+FlowCardia, Inc.
+Delaware
+FlowCardia, LLC
+Delaware
+FlowJo LLC
+Oregon
+Franklin Lakes Enterprises, L.L.C.
+New Jersey
+Galatea Surgical, Inc.
+Delaware
+Gesco International, Inc.
+Massachusetts
+Gesco International, LLC
+Massachusetts
+GSL Solutions, Inc.
+Washington
+GSL Holdings, Inc.
+Washington
+HandyLab, Inc.
+Delaware
+IBD Holdings LLC
+Delaware
+Iontophoretics Corporation
+Utah
+JoHome LLC
+Oregon
+Liberator Health and Education Services, Inc.
+Florida
+Liberator Health and Wellness, Inc.
+Florida
+Liberator Medical Holdings, Inc.
+Nevada
+Liberator Medical Supply, Inc.
+Florida
+Loma Vista Medical, Inc.
+Delaware
+Loma Vista Medical, LLC
+Delaware
+Lutonix, Inc.
+Delaware
+Medafor, Inc.
+Minnesota
+MedChem Products, Inc.
+Massachusetts
+Medegen, LLC
+California
+Med-Design Corporation
+Delaware
+Med Design Investment Holdings, Inc.
+Delaware
+Medinservice.com, Inc.
+Utah
+Medivance, Inc.
+Delaware
+Med-Safe Systems, Inc.
+California
+NAT Diagnostics Inc.
+Delaware
+Navarre Biomedical, LLC
+Minnesota
+Navarre Biomedical, Ltd.
+Minnesota
+Neomend, Inc.
+Delaware
+Nirvana Sciences, Inc.
+Delaware
+NOW Medical Distribution, Inc.
+Delaware
+NOW Medical Distribution, LLC
+Delaware
+Omega Biosystems Incorporated
+Delaware
+Parata Systems, LLC
+Delaware
+Pembroke Blocker LLC
+Delaware
+Pembroke Foreign Blocker LLC
+Delaware
+Pembroke Parent LLC
+Delaware
+PharMingen
+California
+ProSeed, Inc.
+New Jersey
+PureWick Corporation
+California
+Roberts Laboratories, Inc.
+Arizona
+Rochester Medical Corporation
+Minnesota
+Safety Syringes Corporation
+Utah
+Safety Syringes, Inc.
+California
+Scanwell Health, Inc.
+Delaware
+SenoRx, Inc.
+Delaware
+SenoRx, LLC
+Delaware
+Shield Healthcare Centers, Inc.
+Delaware
+Sirigen, Inc.
+California
+Specialized Cooperative Corporation
+Utah
+Specialized Health Products International, Inc.
+Delaware
+Specialized Health Products International, LLC
+Delaware
+Specialized Health Products, Inc.
+Utah
+Surgical Site Solutions, Inc.
+Wisconsin
+Synergy Medical USA Inc.
+Delaware
+Targa Buyer, LLC
+Delaware
+Targa International Holdco, Inc.
+Delaware
+Targa Parent Holdings, LLC
+Delaware
+Tepha, Inc.
+Delaware
+Tri-County Medical & Ostomy Supplies, Inc.
+Tennessee
+TriPath Imaging, Inc.
+Delaware
+TVA Medical, Inc.
+Delaware
+Vascular Pathways, Inc.
+Delaware
+Velano Vascular, Inc.
+Delaware
+Venclose, Inc.
+Delaware
+Venetec International, Inc.
+Delaware
+Venetec International, LLC
+Delaware
+Y-Med, Inc.
+Delaware
+Y-Med, LLC
+Delaware
+ZebraSci, Inc.
+Delaware
+NON US SUBSIDIARIES OF BECTON, DICKINSON AND COMPANY
+Angiomed GmbH & Co. Medizintechnik KG
+Germany
+Augusta Life Sciences Australia Pty Ltd
+Australia
+Augusta Life Sciences Austria GmbH
+Austria
+Augusta Life Sciences B.V.
+Netherlands
+Augusta Life Sciences CanSpin HoldCo ULC
+Canada
+Augusta Life Sciences Colombia S.A.S.
+Colombia
+Augusta Life Sciences Denmark AS
+Denmark
+Augusta Life Sciences France S.A.S.
+France
+Augusta Life Sciences Hong Kong Limited
+Hong Kong
+Augusta Life Sciences Israel Ltd.
+Israel
+Augusta Life Sciences Italy S.r.l.
+Italy
+Augusta Life Sciences Japan G.K.
+Japan
+Augusta Life Sciences New Zealand ULC
+New Zealand
+Augusta Life Sciences Singapore Pte Ltd.
+Singapore
+Augusta Life Sciences Spinco Canada ULC
+Canada
+Augusta Life Sciences Sweden AB
+Sweden
+Augusta LIfe Sciences UK Ltd.
+United Kingdom
+Bard (Thailand) Limited
+Thailand
+Bard Australia Pty. Limited
+Australia
+Bard Brasil Indústria e Comércio de Produtos Para a Saúde Ltda.
+Brazil
+Bard Canada Inc.
+Canada
+Bard Dublin ITC Limited
+Ireland
+Bard Finance B.V. & Co. KG.
+Germany
+Bard Healthcare Science (Shanghai) Co., Ltd.
+China
+Bard Holdings Limited
+England
+Bard Holdings Netherlands B.V.
+Netherlands
+Bard Hong Kong Limited
+Hong Kong
+Bard India Healthcare Pvt. Ltd.
+India
+Bard International Holdings, B.V.
+Netherlands
+Bard Limited
+England
+Bard Malaysia Healthcare Sdn. Bhd.
+Malaysia
+Bard Medical Devices (Beijing) Co., Ltd.
+China
+Bard Medical SA (Proprietary) Limited
+South Africa
+Bard Medical R&D Shanghai Co. Ltd.
+China
+Bard Mexico Realty, S. de R.L. de C.V.
+Mexico
+Bard Pacific Health Care Company Ltd.
+Taiwan
+Bard Produtos Plasticos e Medicos Ltda.
+Brazil
+Bard Reynosa, S.A. de C.V.
+Mexico
+Bard Sdn. Bhd.
+Malaysia
+Bard Shannon Limited
+Ireland
+Bard Sourcing Office Singapore Pte. Ltd.
+Singapore
+BD Esterilización Ciudad Juárez S.A. de C.V.
+Mexico
+BD Holding S. de R.L. de C.V.
+Mexico
+BD Infection Prevention BV
+Belgium
+BD Hermosillo S.A. de C.V.
+Mexico
+BD Kiestra BV
+Netherlands
+BD Puerto Rico LLC
+Puerto Rico
+BD Rapid Diagnostic (Suzhou) Co., Ltd.
+China
+BD RHQ Company
+Saudi Arabia
+BD San Luis Potosi, S.A. de C.V.
+Mexico
+BD Switzerland Sarl
+Switzerland
+BD West Africa Limited
+Ghana
+Becton Dickinson A.G.
+Switzerland
+Becton Dickinson A/S
+Denmark
+Becton, Dickinson and Company, Ltd.
+Ireland
+Becton Dickinson Argentina S.R.L.
+Argentina
+Becton Dickinson Asia Limited
+Hong Kong
+Becton Dickinson Austria GmbH
+Austria
+Becton Dickinson Austria Holdings GmbH
+Austria
+Becton Dickinson Benelux N.V.
+Belgium
+Becton, Dickinson B.V.
+Netherlands
+Becton Dickinson B.V. Saudi Limited Company
+Saudi Arabia
+Becton Dickinson Canada Inc.
+Canada
+Becton Dickinson Caribe Ltd.
+Cayman Islands
+Becton Dickinson Cayman Holdings I Ltd.
+Cayman Islands
+Becton Dickinson Croatia d.o.o.
+Croatia
+Becton Dickinson Czechia s.r.o.
+Czech Republic
+Becton Dickinson de Colombia Ltda.
+Colombia
+Becton Dickinson de Mexico, S.A. de C.V.
+Mexico
+Becton Dickinson del Uruguay S.A.
+Uruguay
+Becton Dickinson Dispensing Belgium BVBA
+Belgium
+Becton Dickinson Dispensing Denmark A/S
+Denmark
+Becton Dickinson Dispensing France SAS
+France
+Becton Dickinson Dispensing Ireland Limited
+Ireland
+Becton Dickinson Dispensing Norway
+Norway
+Becton Dickinson Dispensing Spain S.L.U.
+Spain
+Becton Dickinson Dispensing UK Ltd.
+United Kingdom
+Becton Dickinson Distribution Center N.V.
+Belgium
+Becton Dickinson East Africa Ltd.
+Kenya
+Becton Dickinson Euro Finance Sarl
+Luxembourg
+Becton Dickinson Europe Holdings S.A.S.
+France
+Becton Dickinson Foreign Holdings Ltd.
+Malta
+Becton Dickinson Foreign Sales Corporation
+Barbados
+Becton Dickinson France S.A.S.
+France
+Becton Dickinson Gibraltar Limited
+Gibraltar
+Becton Dickinson (Gibraltar) Management Limited
+Gibraltar
+Becton Dickinson GmbH
+Germany
+Becton Dickinson GSA Beteilgungs GmbH
+Germany
+Becton Dickinson Guatemala S.A.
+Guatemala
+Becton Dickinson Hellas S.A.
+Greece
+Becton Dickinson Holdings I Ltd.
+Malta
+Becton Dickinson Holdings II Ltd.
+Malta
+Becton Dickinson Holdings Designated Activity Company
+Ireland
+Becton Dickinson Holdings Pte Ltd.
+Singapore
+Becton Dickinson Hungary Kft.
+Hungary
+Becton Dickinson India Private Limited
+India
+Becton, Dickinson Industrias Cirurgicas, Ltda.
+Brazil
+Becton Dickinson Infusion Therapy AB
+Sweden
+Becton Dickinson Infusion Therapy Holdings UK Limited
+United Kingdom
+Becton Dickinson Infusion Therapy Systems Inc., S.A. de C.V.
+Mexico
+Becton Dickinson Infusion Therapy UK
+United Kingdom
+Becton Dickinson Innovations, LLC
+Puerto Rico
+Becton Dickinson Insulin Syringe, Ltd.
+Cayman Islands
+Becton Dickinson International Holdings Pte Ltd.
+Singapore
+Becton Dickinson International Holdings II Pte Ltd.
+Singapore
+Becton Dickinson International Holdings III Pte Ltd.
+Singapore
+Becton Dickinson Ireland Limited
+Ireland
+Becton Dickinson Israel Ltd.
+Israel
+Becton Dickinson Italia S.p.A.
+Italy
+Becton Dickinson Ithalat Ihracat Limited Sirketi
+Turkey
+Becton Dickinson Global Services Centre Sdn. Bhd.
+Malaysia
+Becton Dickinson Greater Asia Holdings Pte. Ltd.
+Singapore
+Becton Dickinson Korea Ltd.
+Korea
+Becton Dickinson Ltd.
+New Zealand
+Becton Dickinson Luxembourg Finance S.a.r.L.
+Luxembourg
+Becton Dickinson Luxembourg Global Holdings Sarl
+Luxembourg
+Becton Dickinson Luxembourg Holdings II S.a.r.L
+Luxembourg
+Becton Dickinson Luxembourg Holdings III S.a.r.L
+Luxembourg
+Becton Dickinson Luxembourg Holdings V S.à r.l.
+Luxembourg
+Becton Dickinson Luxembourg Intermediate Holdings Sarl
+Luxembourg
+Becton Dickinson Malta Holdings III Ltd.
+Malta
+Becton Dickinson Management GmbH & Co. KG
+Germany
+Becton Dickinson Medical (S) Pte Ltd.
+Singapore
+Becton Dickinson Medical Devices (Shanghai) Co., Ltd.
+China
+Becton Dickinson Medical Devices (Suzhou) Co., Ltd.
+China
+Becton Dickinson Medical Products Pte. Ltd.
+Singapore
+Becton Dickinson Medical Technology (Jiangsu) Co. Ltd
+China
+Becton Dickinson Netherlands Holdings B.V.
+Netherlands
+Becton Dickinson Norway AS
+Norway
+Becton Dickinson O.Y.
+Finland
+Becton Dickinson Pakistan (Pvt) Ltd.
+Pakistan
+Becton Dickinson Philippines, Inc.
+Philippines
+Becton Dickinson Polska Sp.z.o.o.
+Poland
+Becton Dickinson Portugal, Unipessoal, Lda.
+Portugal
+Becton Dickinson PR Solutions, LLC
+Puerto Rico
+Becton Dickinson Pty. Ltd.
+Australia
+Becton Dickinson (Pty) Ltd.
+South Africa
+Becton Dickinson Research Centre Ireland Limited
+Ireland
+Becton Dickinson Rowa Germany GmbH
+Germany
+Becton Dickinson Rowa Italy Srl
+Italy
+Becton Dickinson S.A.
+Spain
+Becton Dickinson Sample Collection GmbH
+Switzerland
+Becton Dickinson Scot Financing LP
+Scotland
+Becton Dickinson Scot Financing LLP
+Scotland
+Becton Dickinson Sdn. Bhd.
+Malaysia
+Becton Dickinson Slovakia s.r.o.
+Slovakia
+Becton Dickinson Sweden AB
+Sweden
+Becton Dickinson Sweden Holdings AB
+Sweden
+Becton Dickinson Switzerland Global Holdings SarL
+Switzerland
+Becton Dickinson Switzerland Global Holdings II GmbH
+Switzerland
+Becton Dickinson Technology Campus India
+India
+Becton Dickinson (Thailand) Limited
+Thailand
+Becton Dickinson UK Financing I Limited
+United Kingdom
+Becton Dickinson UK Financing II Limited
+United Kingdom
+Becton Dickinson UK Holdings II Limited
+United Kingdom
+Becton Dickinson U.K. Limited
+United Kingdom
+Becton Dickinson Venezuela, C.A.
+Venezuela
+Becton Dickinson Verwaltungs GmbH
+Germany
+Becton Dickinson Vostok LLC
+Russia
+Becton Dickinson Worldwide Investments Sa.r.L.
+Luxembourg
+Becton Dickinson Zambia Limited
+Zambia
+Benex Ltd.
+Ireland
+C. R. Bard Do Brasil Produtos Medicos Ltda.
+Brazil
+CareFusion Asia (HK) Limited
+Hong Kong
+CareFusion (Barbados) SrL
+Barbados
+CareFusion BH 335 d.o.o. Cazin
+Bosnia
+Care Fusion Development Private Limited
+India
+CareFusion D.R. 203 Ltd.
+Bermuda
+CareFusion (Shanghai) Commercial and Trading Co. Limited
+China
+CareFusion France 309 S.A.S.
+France
+CareFusion Israel 330 Ltd.
+Israel
+CareFusion Italy 312 S.p.A.
+Italy
+CareFusion Netherlands 328 B.V.
+Netherlands
+CareFusion Netherlands 503 B.V.
+Netherlands
+CareFusion Netherlands 504 B.V.
+Netherlands
+CareFusion Netherlands Financing 283 C.V.
+Netherlands
+CareFusion U.K. 305 Limited
+United Kingdom
+Carmel Pharma AB
+Sweden
+Clearstream Technologies Group Limited
+Ireland
+Clearstream Technologies Limited
+Ireland
+CME Ltd.
+Israel
+CME Medical (UK) Limited
+United Kingdom
+CME UK (Holdings) Limited
+United Kingdom
+Corporativo BD de Mexico, S. de R.L. de C.V.
+Mexico
+CCT Critical Care Technologies, S.R. L.
+Dominican Republic
+Cytognos Spain S.L.U.
+Spain
+DLD (Bermuda) Ltd.
+Bermuda
+Davol International Limited
+England
+Davol Surgical Innovations, S.A. de C.V.
+Mexico
+Dutch American Manufacturers (D.A.M.) B.V.
+Netherlands
+Echo Healthcare Canada ULC
+Canada
+Edwards Lifesciences Technology Sarl
+Switzerland
+Embo Medical Limited
+Ireland
+Enturia de México S. de R.L. de C.V.
+Mexico
+Gamer Lasertechnik GmbH
+Germany
+GenCell Biosystems Ltd.
+Ireland
+GeneOhm Sciences Canada ULC
+Canada
+Kabushiki Kaisha Medicon (Medicon, Inc.)
+Japan
+Limited Liability Company Bard Rus
+Russian Federation
+Nippon Becton Dickinson Company, Ltd.
+Japan
+PreAnalytiX GmbH
+Switzerland
+PRC (Isialys) Societe a responsabilitie limitee (Societe a associe unique)
+France
+Procesos para Esterilizacion, S.A. de C.V.
+Mexico
+Productos Bard de Mexico, S.A. de C.V.
+Mexico, Mexico City
+Productos Para el Cuidado de la Salud, S.A. de C.V.
+Mexico, Sonora
+PT Becton Dickinson Indonesia
+Indonesia
+Sendal, S.L.U.
+Spain
+Sirigen II Limited
+United Kingdom
+Sistemas Médicos ALARIS, S.A. de C.V.
+Mexico
+Straub Medical AG
+Switzerland
+Synergy Medical BRG Inc.
+Canada
+Synergy Medical Europe Ltd.
+United Kingdom
+Tissuemed Limited
+England and Wales
+Vas-Cath Incorporated
+Canada

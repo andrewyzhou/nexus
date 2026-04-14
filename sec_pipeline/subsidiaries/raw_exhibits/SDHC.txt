@@ -1,0 +1,48 @@
+EX-21.1
+3
+sdhc-20251231xexx211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Smith Douglas Homes Corp.
+Name*
+State or Other Jurisdiction of Incorporation or Organization
+SDC Realty Central Georgia LLC
+Georgia
+SDC Realty LLC
+Georgia
+SDH Alabama LLC
+Georgia
+SDH Atlanta LLC
+Georgia
+SDHB Realty LLC
+Georgia
+SDH Central Georgia LLC
+Georgia
+SDH Charlotte LLC
+Georgia
+SDH Dallas LLC
+Georgia
+SDH Development Company LLC
+Georgia
+SDH East Tennessee LLC
+Georgia
+SDH Greenville LLC
+Georgia
+SDH Gulf Coast LLC
+Georgia
+SDH Houston LLC
+Georgia
+SDH Management Services LLC
+Georgia
+SDH Nashville LLC
+Georgia
+SDH Raleigh LLC
+Georgia
+Smith Douglas Holdings LLC
+Georgia
+Smith Douglas Building Services LLC
+Georgia
+Trigger Air LLC
+Delaware
+*          This list omits subsidiaries that would not constitute a “significant subsidiary” pursuant to Rule 102(w) of Regulation S-X.

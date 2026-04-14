@@ -1,0 +1,120 @@
+EX-21
+3
+subsidiariesofthecompany12.htm
+EX-21
+Document
+Exhibit 21
+The Chefs’ Warehouse, Inc.
+Entity Name
+State of Organization
+Dairyland USA Corporation
+New York
+Dairyland HP LLC (1)
+Delaware
+Bel Canto Foods, LLC (1)
+New York
+Chefs’ Warehouse Transportation, LLC (2)
+Delaware
+Chefs’ Warehouse Parent, LLC
+Delaware
+The Chefs’ Warehouse Mid-Atlantic, LLC (3)
+Delaware
+The Chefs’ Warehouse West Coast, LLC (3)
+Delaware
+The Chefs’ Warehouse of Florida, LLC (3)
+Delaware
+The Chefs’ Warehouse Midwest, LLC (3)
+Delaware
+Michael’s Finer Meats Holdings, LLC (3)
+Delaware
+Michael’s Finer Meats, LLC (4)
+Delaware
+The Chefs’ Warehouse Pastry Division, Inc. (3)
+Delaware
+The Chefs’ Warehouse Pastry Division Canada ULC (5)
+British Columbia, Canada
+QZ Acquisition (USA), Inc. (3)
+Delaware
+Qzina Specialty Foods North America (USA), Inc. (6)
+Delaware
+Qzina Specialty Foods, Inc. (7)
+Florida
+Qzina Specialty Foods, Inc. (7)
+Washington
+Qzina Specialty Foods (Ambassador), Inc. (7)
+California
+CW LV Real Estate LLC (8)
+Delaware
+Allen Brothers 1893, LLC (9)
+Delaware
+Del Monte Capitol Meat Company Holdings, LLC (3)
+Delaware
+Del Monte Capitol Meat Company, LLC (10)
+Delaware
+The Great Steakhouse Steaks, LLC (11)
+Delaware
+Fells Point Holdings, LLC (3)
+Delaware
+Fells Point, LLC (12)
+Delaware
+Cambridge Protein Holdings, LLC (3)
+Delaware
+Cambridge, LLC (13)
+Delaware
+Dairyland Produce Holdings, LLC (3)
+Delaware
+Dairyland Produce, LLC (14)
+Delaware
+Chefs’ Warehouse Middle East Holdings, LLC (3)
+Delaware
+Chefs’ Warehouse Middle East, LLC (15)
+Delaware
+CME Investments Limited (16)
+Cayman Islands
+Chef Middle East LLC (17)
+United Arab Emirates
+Chef Innovations Food Processing LLC (17)
+United Arab Emirates
+Chef Middle East W.L.L (17)
+Qatar
+Chef Innovations General Trading LLC (17)
+United Arab Emirates
+Chef Middle East LLC (18)
+Oman
+Subsidiaries of the Registrant
+1.
+Dairyland HP LLC and Bel Canto Foods, LLC are wholly-owned by Dairyland USA Corporation, which is wholly-owned by The Chefs’ Warehouse, Inc.
+2.
+Chefs’ Warehouse Transportation, LLC is wholly-owned by The Chefs’ Warehouse, Inc.
+3.
+The Chefs’ Warehouse Mid-Atlantic, LLC, The Chefs’ Warehouse West Coast, LLC, The Chefs’ Warehouse of Florida, LLC, The Chefs’ Warehouse Midwest, LLC, Michael’s Finer Meats Holdings, LLC, The Chefs’ Warehouse Pastry Division, Inc., QZ Acquisition (USA), Inc., Del Monte Capitol Meat Company Holdings, LLC, Fells Point Holdings, LLC, Cambridge Protein Holdings, LLC, Dairyland Produce Holdings, LLC and Chefs’ Warehouse Middle East Holdings, LLC are wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+4.
+Michael’s Finer Meats, LLC is wholly-owned by Michael’s Finer Meats Holdings, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+5.
+The Chefs’ Warehouse Pastry Division Canada ULC is wholly-owned by The Chefs’ Warehouse Pastry Division, Inc., which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+6.
+Qzina Specialty Foods North America (USA), Inc. is wholly-owned by QZ Acquisition (USA), Inc., which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+7.
+Qzina Specialty Foods, Inc., a Florida corporation, Qzina Specialty Foods, Inc., a Washington corporation, and Qzina Specialty Foods (Ambassador), Inc. are wholly-owned by Qzina Specialty Foods North America (USA), Inc., which is wholly-owned by QZ Acquisition (USA), Inc., which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+8.
+CW LV Real Estate LLC is wholly-owned by The Chefs’ Warehouse West Coast, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+9.
+Allen Brothers 1893, LLC is wholly-owned by The Chefs’ Warehouse Midwest, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+10.
+Del Monte Capitol Meat Company, LLC is wholly-owned by Del Monte Meat Company Holdings, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+11.
+The Great Steakhouse Steaks, LLC is wholly-owned by Allen Brothers 1893, LLC, which is wholly-owned by The Chefs’ Warehouse Midwest, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+12.
+Fells Point, LLC is wholly-owned by Fells Point Holdings, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+13.
+Cambridge, LLC is wholly-owned by Cambridge Protein Holdings, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+14.
+Dairyland Produce, LLC is wholly-owned by Dairyland Produce Holdings, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+15.
+Chefs’Warehouse Middle East, LLC is wholly-owned by Chefs’ Warehouse Middle East Holdings, LLC, which is wholly-owned by Chefs’ Warehouse Parent, LLC, which is wholly-owned by The Chefs’ Warehouse, Inc.
+16.
+CME Investments Limited is wholly owned by Chefs’ Warehouse Middle East, LLC, which is wholly owned by Chefs’ Warehouse Middle East Holdings, LLC, which is wholly owned by Chefs’ Warehouse Parent, LLC, which is wholly owned by The Chefs’ Warehouse, Inc.
+17.
+Chef Middle East LLC, Chef Innovations Food Processing LLC, Chef Middle East LLC and Chef Innovations General Trading LLC are wholly owned by CME Investments Limited, which is wholly owned by Chefs’ Warehouse Middle East, LLC, which is wholly owned by Chefs’ Warehouse Middle East Holdings, LLC, which is wholly owned by Chefs’ Warehouse Parent, LLC, which is wholly owned by The Chefs’ Warehouse, Inc.
+18.
+Chef Middle East W.L.L. is minority owned (49%) by CME Investments Limited, which is wholly owned by Chefs’ Warehouse Middle East, LLC, which is wholly owned by Chefs’ Warehouse Middle East Holdings, LLC, which is wholly owned by Chefs’ Warehouse Parent, LLC, which is wholly owned by The Chefs’ Warehouse, Inc. in connection with a nominee arrangement with Links Management Services Limited (51%).

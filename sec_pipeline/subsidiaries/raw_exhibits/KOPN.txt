@@ -1,0 +1,83 @@
+EX-21.1
+3
+ex21-1.htm
+EX-21.1
+Exhibit
+21.1
+KOPIN
+CORPORATION
+SUBSIDIARIES
+OF KOPIN CORPORATION
+The
+Registrant has the following wholly owned (“W”) and majority owned subsidiaries (“M”).
+Subsidiary
+Type
+State
+of Incorporation
+Fiscal
+Year End
+VS
+Corporation
+W
+Delaware
+December
+27, 2025
+Kopin
+Europe Limited
+M
+United
+Kingdom
+December
+27
+, 2025
+Kopin
+Display Corporation
+W
+Delaware
+December
+27
+, 2025
+Kopin
+Securities Corporation
+W
+Delaware
+December
+27
+, 2025
+Kopin
+(HK), Ltd.
+W
+Hong
+Kong
+December
+27
+, 2025
+e-MDT
+America Inc.
+W
+California
+December
+27
+, 2025
+Kopin
+Software Ltd.
+W
+United
+Kingdom
+December
+27
+, 2025
+Kopin
+Targeting Corporation
+W
+Delaware
+December
+27
+, 2025
+Kopin
+Virginia, Inc.
+W
+Virginia
+December
+27
+, 2025

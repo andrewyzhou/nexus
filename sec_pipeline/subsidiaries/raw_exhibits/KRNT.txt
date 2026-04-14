@@ -1,0 +1,40 @@
+EX-8.1
+3
+ea028298001ex8-1.htm
+LIST OF SUBSIDIARIES OF THE REGISTRANT
+Exhibit 8.1
+SUBSIDIARIES OF KORNIT DIGITAL LTD.
+Name of Subsidiary
+Jurisdiction of
+Organization
+Ownership Interest
+Kornit Digital Technologies Ltd.
+Israel
+100 %
+Kornit Digital North America Inc.
+Delaware
+100 %
+Kornit Digital Europe GmbH
+Germany
+100 %
+Kornit Digital Asia Pacific Limited
+Hong Kong
+100 %
+Kornit Digital UK Ltd.
+England and Wales
+100 %
+Kornit Digital Japan KK
+Japan
+100 %
+Tesoma GmbH
+Germany
+100% owned by Kornit Digital Technologies Ltd.
+Custom Gateway (Kornit Digital\Kornit X Limited)
+England and Wales
+100% owned by Kornit Digital UK Ltd.
+Kornit (Shanghai) Digital Co., Ltd.
+China
+100% owned by Kornit Digital Asia Pacific Limited
+bNET CENTRIC (Slovakia) s.r.o
+Slovakia
+100% owned by Custom Gateway (Kornit Digital\Kornit X Limited)

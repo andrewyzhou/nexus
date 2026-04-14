@@ -1,0 +1,81 @@
+EX-21.1
+4
+a12272025-ex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Intel Corporation
+Subsidiaries
+1
+Subsidiaries of the Registrant
+State or Other Jurisdiction of Incorporation
+Intel International, Inc.
+California, U.S.
+Intel Capital Corporation
+Delaware, U.S.
+Intel Overseas Funding Corporation
+Delaware, U.S.
+Mission College Investments Ltd.
+Cayman Islands
+Intel Americas, Inc.
+California, U.S.
+Intel Ireland Holdings (U.S.) LLC
+Delaware, U.S.
+Intel Technology (US), LP
+California, U.S.
+Intel Ignite IV 1 LLC
+Delaware, U.S.
+Componentes Intel de Costa Rica, S.R.L.
+Costa Rica
+Grange Newco LLC
+Cayman Islands
+Intel Benelux B.V.
+Netherlands
+Intel Holdings B.V.
+Netherlands
+Intel Finance B.V.
+Netherlands
+Intel Corporation (UK) Limited
+United Kingdom
+Intel Technologies, Inc.
+Delaware, U.S.
+Intel Ireland Limited
+Cayman Islands
+Intel Electronics Ltd.
+Israel
+Mobileye Global Inc.
+Delaware, U.S.
+Hampton Acquisition Ltd
+Israel
+Intel Israel (74) Limited
+Israel
+Intel Semi Conductors Ltd.
+Israel
+Intel Kabushiki Kaisha
+Japan
+Intel Semiconductor (Dalian) Ltd.
+China
+Intel Technology Sdn. Berhad
+Malaysia
+Intel Semiconductor (US) LLC
+Delaware, U.S.
+Intel Asia Holding Limited
+Hong Kong
+Intel Products Vietnam Co., Ltd.
+Vietnam
+Intel China Ltd.
+China
+Intel Products (Chengdu) Ltd.
+China
+Arizona Fab LLC
+Delaware, U.S.
+Arizona Fab Holdco Inc.
+Delaware, U.S.
+Intel China Finance I (HK) Limited
+China
+1
+As of
+December 27, 2025
+Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other Intel Corporation subsidiaries are omitted because, considered in the aggregate, they would not constitute a significant subsidiary as of
+December 27, 2025
+.

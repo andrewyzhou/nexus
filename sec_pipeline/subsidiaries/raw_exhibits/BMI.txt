@@ -1,0 +1,54 @@
+EX-21
+3
+bmi-ex21.htm
+EX-21
+EX-21
+Exhibit (21)
+BADGER METER, INC.
+SUBSIDIARIES OF THE REGISTRANT
+The Company's subsidiaries are listed below. All of the subsidiaries of the Company listed below are included in the Company's consolidated financial statements.
+Name
+Percentage of Ownership
+State or country in which originated
+Badger Meter de las Americas, SA de CV
+100%
+Mexico
+Badger Meter Canada, Inc.
+100%
+Canada
+Badger Meter Czech Republic, s.r.o.
+100%
+Czech Republic
+(a subsidiary of Badger Meter International, Inc.)
+Badger Meter Europe, GmbH
+100%
+Federal Republic of Germany
+Badger Meter International, Inc.
+(an international holding company of Badger Meter, Inc.)
+100%
+United States of America (Wisconsin)
+Badger Meter de Mexico, SA de CV
+100%
+Mexico
+Badger Meter Swiss, AG
+(a subsidiary of Badger Meter International, Inc.)
+100%
+Switzerland
+Badger Meter UK Limited
+100%
+United Kingdom
+D-Flow Technology, AB
+100%
+Sweden
+Badger Meter Austria
+100%
+Austria
+Badger Meter France
+100%
+France
+Badger Meter Spain
+100%
+Spain
+Syrinix Limited
+100%
+United Kingdom

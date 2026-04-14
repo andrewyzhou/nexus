@@ -1,0 +1,227 @@
+TICKER: ABAT
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain in a closed-loop
+fashion. In addition, we are committed to operating our business in a safe and environmentally responsible manner by working with our
+employees, customers,
+
+--- VENDORS ---
+vendors, and local communities to minimize our environmental impact and comply with local, state and federal environmental
+laws and regulations. The
+Company’s corporate headquarters are in Reno, Nevada, and its mineral exploration office is located in Tonopah, Nevada. The Company’s
+recycling plant for recycling lithium-ion batteries is in McCarran, Nevada. Company
+History The
+Company was incorporated as Oroplata Resources, Inc. under the laws of the State of Nevada on October 6, 2011, for the purpose of acquiring
+rights to mineral properties with the eventual objective of being a producing mineral company. On August 8, 2016, the Company formed
+Lithortech Resources Inc. as a wholly owned subsidiary of the Company to serve as its operating subsidiary for lithium resource exploration
+and mine development. On June 29, 2018, the Company changed the name of Lithortech Resources to LithiumOre Corp. (“LithiumOre”).
+On May 3, 2019, the Company changed its name to American Battery Metals Corporation. On August 12, 2021, the Company further changed
+its name to American Battery Technology Company, which better aligns with the Company’s current business activities and future
+objectives. Industry
+Overview Lithium-ion
+batteries have become the rechargeable battery of choice in cell phones, computers, electric vehicles, and large scale electric
+stationary storage systems. The global market for lithium-ion batteries surpassed $100B in 2024 and is projected to exceed $250B by
+2030, as there continues to be technology, regulatory, and social movement driving demand growth. This, in turn, is driving
+significant increases in demand for battery materials such as lithium, cobalt, nickel, and manganese. Lithium-ion
+batteries are designed in a variety of form-factors and chemistries. Current cell-level form-factors utilized are primarily cylindrical,
+prismatic, and pouch geometries. The most common battery cathode chemistries that have emerged are lithiated nickel cobalt aluminum oxide
+(“NCA”), lithiated nickel manganese cobalt oxide (“NMC”), lithiated cobalt oxide (“LCO”), and lithiated
+iron phosphate (“LFP”). The most common battery anode chemistries consist of graphite, silicon, and lithium metal. These
+chemistries are expected to evolve based on the development of new technologies and the availability, cost, and life-cycle environmental
+footprint of required minerals. The
+current
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+raw materials, or components
+necessary for our operations. Additionally, retaliatory tariffs imposed by other countries could affect demand for our products or increase
+costs of doing business internationally. Changes in trade relationships, particularly between the U.S. and major lithium-producing countries
+like China, could disrupt supply chains, increase operational costs, or limit market access. The Company has limited ability to mitigate
+these risks, and significant changes in trade policy could materially adversely affect our business, financial condition, and results
+of operations. Changes
+in government policies or funding priorities for critical minerals could reduce or eliminate incentives, grants, or programs we rely
+on, adversely affecting our operations and growth. Government
+policies regarding critical minerals are subject to frequent changes based on national security priorities, supply chain assessments,
+and political considerations. Changes to critical minerals lists, or government funding priorities related to commercial facilities for
+the mining or manufacturing of critical minerals, could affect our eligibility for government incentives, grants, or preferential treatment
+in government procurement. The termination of existing grants or the modifications of programs such as the Defense Production Act, the
+Infrastructure Investment and Jobs Act, or the Inflation Reduction Act could impact available funding, tax incentives, or regulatory
+streamlining that we currently benefit from or expect to benefit from in the future. Additionally, changes in government priorities or
+budget constraints could further result in the elimination or reduction of programs that support domestic critical mineral production
+and processing. Export
+controls or trade restrictions on lithium, equipment, or technology could limit our market access, sourcing options, or partnerships,
+and create compliance conflicts across jurisdictions. Governments
+may impose export controls, licensing requirements, or outright bans on the export of lithium and related materials, processing equipment,
+or technology. Such restrictions could limit our access to international markets for our products, prevent us from sourcing equipment
+or materials from certain countries, or restrict our ability to engage in technology transfer or joint ventures with foreign partners.
+The extraterritorial application of export controls by various countries could also create compliance conflicts where adherence to one
+country’s export control regime violates another’s requirements. Mineral
+Resources and Reserves are estimates subject to inherent uncertainties, including geological, engineering, and economic assumptions;
+actual tonnage, grades, recoveries, or costs may differ materially, which could adversely affect the Company’s operations and financial
+results. Mineral
+Resources and Mineral Reserves figures are estimates only. Estimated tonnages and grades may not be achieved if the projects are brought
+into production; differences in grades and tonnage could be material; and, estimated levels of recovery may not be realized. The estimation
+of Mineral Resources and Mineral Reserves carries with it many inherent uncertainties, of which many are outside the control of the Company.
+Estimation is by its very nature a subjective process, which is based on the quality and quantity of available data, engineering assumptions,
+geological interpretation and judgements used in the engineering and estimation processes. Estimates may also need to be revised based
+on changes to underlying assumptions, such as commodity prices, drilling results, metallurgical testing, production, and changes to mine
+plans of operation. Any material decreases in estimates of Mineral Resources or Mineral Reserves, or an inability to extract Mineral
+Reserves could have a material adverse effect on the Company, its business, results of operations and financial position. Any
+estimates of Inferred Mineral Resources are also subject to a high degree of uncertainty and may require a significant amount of exploration
+work to determine if they can be upgraded to a higher confidence category. Risks associated with upgrading the Tonopah project to a higher
+confidence category include the accuracy of fault modeling and offset of lithium-hosting lithologies on western-side of mineral resource,
+the lack of project-specific lithologic density data, the accuracy of processing cost used in the pit optimization to define the resource
+which can potentially affect resource cut-off grades, and the large fluctuations in commodity prices which can potentially affect resource
+cut-off grades. 16 There
+is no assurance that economically recoverable mineral reserves exist on our properties, and even if reserves are identified, exploration
+and development risks could prevent their extraction or the generation of revenue, adversely affecting our business and operations. We
+cannot assure you about the existence of economically extractable mineralization at this time, nor about the quantity or grade of any
+mineralization we may have found. Because the probability of an individual prospect ever having reserves is uncertain, our properties
+may not contain any reserves and any funds spent on evaluation and exploration may be lost. Even if we confirm reserves on our properties,
+any quantity or grade of reserves we indicate must be considered as estimates only until such reserves are mined. We do not know with
+certainty that economically recoverable minerals exist on our properties. In addition, the quantity of any reserves may vary depending
+on commodity prices. Any material change in the quantity or grade of reserves may affect the economic viability of our properties. Further,
+our lack of established reserves means that we are uncertain about our ability to generate revenue from our operations. Even
+if we do eventually discover a mineral reserve on one or more of our properties, there can be no assurance that they can be developed
+into producing mines and that we can extract those minerals. Both mineral exploration and development involve a high degree of risk,
+and few mineral properties that are explored are ultimately developed into producing mines. Evolving
+federal and state regulations on battery recycling and extended producer responsibility may create new compliance obligations, increase
+operating costs, or affect the economics of our recycling operations. The
+regulatory landscape governing battery recycling and extended producer responsibility (EPR) is rapidly evolving at both federal and state
+levels. Many states are considering or have implemented EPR programs that require battery manufacturers to take responsibility for the
+end-of-life management of their products, including collection, recycling, and proper disposal. While such regulations could increase
+the availability of feedstock for our recycling operations, they may also impose new compliance obligations, reporting requirements,
+and operational standards on recycling facilities. Changes to battery transportation regulations, hazardous waste classifications, or
+recycling performance standards could require costly modifications to our operations or result in penalties for non-compliance. Additionally,
+regulations mandating specific recycling rates, recovery efficiencies, or product quality standards could affect the economics of our
+recycling operations. Changes
+in income tax rates or laws, or disputes with tax authorities, could materially affect our results of operations and financial condition. Changes
+to U.S. tax laws could adversely affect the Company or holders of the Common Shares. In recent years, many changes to U.S. federal income
+tax laws have been proposed and made, and additional changes to U.S. federal income tax laws are likely to continue to occur in the future. We
+are subject to review and audit by U.S. federal, state, local tax authorities. Tax authorities may disagree with or challenge tax positions
+we take, which if successful could harm our business. We may be subject to additional tax liabilities due to changes in non-income based
+taxes resulting from changes in federal, state or local tax laws, changes in taxing jurisdictions’ administrative interpretations,
+decisions, policies, and positions, results of tax examinations, settlements, or judicial decisions, changes in accounting principles,
+changes to our business operations, including acquisitions, as well as the evaluation of new information that results in a change to
+a tax position taken in a prior period. In the future, the company may also be subject to foreign jurisdictions where tax law changes
+may pose a similar risk. 17 If
+we fail to adequately protect our intellectual property, or if third parties assert claims of infringement against us, we could face
+significant costs, potential damages, and restrictions on our ability to use certain technologies. The
+Company relies on the ability to protect its intellectual property rights and depends on patent, trademark and trade secret legislation
+to protect its proprietary know-how. There is no assurance that the Company has adequately protected or will be able to adequately protect
+its valuable intellectual property rights or will at all times have access to all intellectual property rights that are required to conduct
+its business or pursue its strategies, or that the Company will be able to adequately protect itself against any intellectual property
+infringement claims. There is also a risk that the Company’s competitors could independently develop similar technology, processes
+or know-how; that the Company’s trade secrets could be revealed to third parties; that any current or future patents, pending or
+granted, will be broad enough to protect the Company’s intellectual property rights; or, that foreign intellectual property laws
+will adequately protect such rights. The inability to protect the Company’s intellectual property could have a material adverse
+effect on the Company’s business, results of operations and financial condition. Additionally, the applied science industry is
+characterized by frequent allegations of intellectual property infringement. Though we do not expect to be subject to any of these allegations,
+any allegation of infringement could be time consuming and expensive to defend or resolve, result in substantial diversion of management
+resources, cause suspension of operations or force us to enter into royalty, license, or other agreement, rather than dispute the merits
+of such allegation. If patent holders or other holders of intellectual property initiate legal proceedings, we may be forced into protracted
+and costly litigation. We may not be successful in defending such litigation and may not be able to procure any required royalty or license
+agreements on acceptable terms or at all. Despite
+mitigation measures, increasing cybersecurity threats and potential attacks could compromise our systems, disrupt operations, expose
+sensitive data, and materially and adversely impact the Company’s business. Threats
+to information technology systems associated with cybersecurity risks and cyber incidents or attacks continue to grow and evolve in terms
+of severity and sophistication, particularly with the increase in remote work that began during the COVID-19 pandemic. A cybersecurity
+attack has the potential to compromise the business, financial and other systems of the Company, and could go unnoticed for some time.
+Risks associated with cybersecurity threats include, among other things, loss of intellectual property, disruption of business operations
+and safety procedures, loss or damage to worksite data delivery systems, privacy and confidentiality breaches, and increased costs and
+time to prevent, respond to or mitigate cybersecurity incidents. The Company has implemented a cybersecurity policy and provided training
+to its personnel as mitigation measures. System and network maintenance, upgrades and similar best practices are also followed. However,
+despite these measures, the occurrence of a significant cybersecurity incident could have a material adverse effect on the Company’s
+business and result in a prolonged disruption to it. Risks
+Relating to Ownership of Our Securities We
+may issue additional equity securities in the future without seeking shareholder approval. Any such issuance could dilute existing ownership
+and potentially place downward pressure on the market price of our common shares. In addition, the interests of our directors and executive
+officers may not always align with those of other shareholders. We
+may issue additional common shares or other equity securities in the future in connection with capital raises, acquisitions, repayment
+of indebtedness, or grants under the Company’s 2021 Retention Plan (“the Retention Plan”), in many cases without shareholder
+approval. We are actively exploring financing options and strategic alternatives, and any fundraising through equity or convertible debt
+could result in significant dilution to existing shareholders. In addition, newly issued securities may have rights, preferences, or
+privileges senior to those of our common shares. Pursuant
+to the terms of the Purchase Agreement and Notes, we may issue common shares upon conversion, redemption, or exercise of related provisions.
+We may also issue common shares upon the exercise of outstanding warrants. The
+issuance of additional equity securities could: ● decrease
+                                            our existing shareholders’ ownership percentage; ● reduce
+                                            the amount of cash available per share, including for potential future dividends; ● diminish
+                                            the relative voting strength of previously outstanding shares; and ● negatively
+                                            affect the market price of our common shares. Our
+common shares have experienced, and may continue to experience significant volatility. We also do not currently anticipate paying dividends
+in the foreseeable future The
+market price of the stock of a publicly traded company is affected by a number of variables, many of which are outside the Company’s
+control. Such factors include: the general condition of markets for resource stocks, and particularly for stocks of lithium exploration
+and development companies and other battery-metals stocks; the general strength of the economy; the availability and attractiveness of
+alternative investments; analysts’ recommendations and their estimates of financial performance; investor perception and reactions
+to disclosures made by the Company, and by the Company’s competitors; future securities sales; reputational risks of the Company;
+and the breadth of the public markets for the stock. Investors could suffer significant losses if the Company’s common stock is
+depressed or illiquid when an investor seeks liquidity. 18 We
+have identified a material weakness in our internal control over financial reporting (ICFR). If we fail to remediate this weakness and establish effective controls, our business, operating results, and the market price of our shares could be materially
+adversely affected. Our
+reporting obligations as a public company place a significant strain on our management, operational and financial resources and systems.
+Because we failed to maintain an effective system of internal control over financial reporting, we could experience delays or inaccuracies
+in our reporting of financial information, or non-compliance with the SEC, reporting and other regulatory requirements. This could subject
+us to regulatory scrutiny and result in a loss of public confidence in our management, which could, among other things, cause our stock
+price to drop. Compliance
+with the regulatory requirements applicable to U.S. domestic issuers is expected to require considerable time, cost, and resources. As
+a public reporting company, we are subject to the information and reporting requirements of the Securities Exchange Act of 1934, as amended,
+and other federal securities laws, rules and regulations. Complying with these laws and regulations requires more time and attention
+of our Board of Directors and management and requires additional employees compared to a privately-held company. In addition, the costs
+of preparing and filing annual and quarterly reports, proxy statements and other information with the SEC, furnishing audited reports
+to stockholders, maintaining more comprehensive compliance functions, policies and procedures, and corporate governance, are greater
+than that of a privately-held company. We
+do not currently intend to pay dividends on our common shares and, consequently, your ability to achieve a return on your investment
+will depend on appreciation in the price of our common shares. The
+Company has not paid dividends on its Common Shares since incorporation. The Company anticipates that it will retain its earnings and
+other cash resources for future operations and the ongoing development of its business. As such, the Company does not intend to declare
+or pay any cash dividends in the foreseeable future. Payment of any future dividends is solely at the discretion of the Board, which
+will take into account many factors including the Company’s operating results, financial condition and anticipated cash needs. Failure
+to comply with covenants in our debt agreements could result in default, acceleration of repayment obligations, or loss of collateral,
+which could materially adversely affect our business and operations. The
+Company has contractual arrangements that contain affirmative and negative covenants that must be adhered to. It is possible that the
+Company could fail to meet the requirements of one or more covenants, resulting in penalties or acceleration of amounts due. No assurance
+can be given that a breach will not occur. This could result in a default under our credit agreements that would permit the applicable
+lenders to declare all amounts outstanding thereunder to be due and payable, together with accrued and unpaid interest. If we are unable
+to repay our debt, creditors would have the right to proceed against the collateral securing the debt. This in turn could have a material
+adverse effect on the Company’s business and operations. We
+may be required to record write-downs, impairments, restructurings, or other charges, any of which could materially and negatively impact
+our financial condition, operating results, and share value. We
+make certain accounting estimates and projections in connection with our impairment analysis for long-lived assets in accordance with
+applicable accounting guidance. An impairment charge may be required if the impairment analysis indicates that the carrying value of
+an asset exceeds the sum of the expected undiscounted cash flows of the asset. The projection of future cash flows used in this analysis
+requires the use of judgment and a number of estimates and projections of future operating results. If actual results differ from Company
+estimates, additional charges for asset impairments may be required in the future. If impairment charges are significant, our financial
+results could be negatively affected. 19 Item
+1B. Unresolved Staff Comments Not
+required. Item
+1C. Cybersecurity Risk
+Management and Strategy We
+have processes in place for assessing, identifying, and managing material risks from cybersecurity threats, including potential unauthorized
+occurrences on or through both, our physical systems and electronic information systems, that could adversely affect the confidentiality,
+integrity, or availability of our information systems or the information residing on those systems. These include a wide variety of mechanisms,
+controls, technologies, methods, systems, and other processes that are designed to prevent, detect, or mitigate data loss, theft, misuse,
+unauthorized access, or other security incidents or vulnerabilities affecting the data. The data include confidential, proprietary, and
+business and personal information that we collect, process and store as part of our business, including on behalf of third parties . Additionally, we use processes to oversee and identify material risks from cybersecurity threats associated with our use of third-party technology
+and systems , including technology and systems we use for encryption and authentication; employee email; content delivery to customers;
+back-office support; and other functions. As
+part of our risk management process, we conduct application security assessments, vulnerability management, and ongoing risk assessments.
+We also maintain a variety of incident response plans that are utilized when incidents are detected. We are implementing a plan to require
+employees with access to information systems, including all corporate employees, to undertake data protection and cybersecurity training
+and compliance programs at least annually. Governance We
+have a unified and centrally-coordinated team, led by our Chief Operating Officer, that is responsible for implementing and maintaining
+centralized cybersecurity and data protection practices at the Company in close coordination with senior leadership and other teams across
+the Company. In addition, we also engage assessors, consultants, auditors, or other third parties to assist with assessing, identifying
+and managing cybersecurity risks. Our
+cybersecurity risks and associated mitigations are evaluated by senior leadership, including as part of our risk assessments that are
+reviewed by the board of directors. The board of directors oversees our policies and procedures for protecting our cybersecurity infrastructure and for compliance with applicable
+data protection and security regulations and related risks. They also oversee the response to any significant cybersecurity incidents. Our Chief Operating Officer who has extensive cybersecurity knowledge and skills, heads the team responsible for implementing
+and maintaining cybersecurity and data protection practices at the Company and reports directly to the Chief Executive Officer. For
+      additional information regarding risks from cybersecurity threats that have materially
+      affected or are reasonably likely to materially affect our Company , including our business strategy, results of operations,
+      or financial condition, please refer to
+

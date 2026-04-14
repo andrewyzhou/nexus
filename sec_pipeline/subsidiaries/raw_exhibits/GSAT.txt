@@ -1,0 +1,275 @@
+EX-21.1
+9
+gsat-20251231xexx211subsid.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Globalstar, Inc.
+As of December 31, 2025, the subsidiaries of Globalstar, Inc., their jurisdiction of organization and the percent of their voting securities owned by their immediate parent entity were as follows:
+Subsidiary
+Organized Under Laws of
+% of Voting Securities Owned by Immediate Parent
+GSSI, LLC
+Delaware
+100%
+ATSS Canada, Inc.
+Delaware
+100%
+Globalstar Brazil Holdings, L.P.
+Delaware
+100%
+Globalstar do Brasil Holdings Ltda.
+Brazil
+100%
+Globalstar do Brasil Ltda.
+Brazil
+100%
+Globalstar Japan K.K.
+Japan
+100%
+Globalstar Satellite Services Pte., Ltd
+Singapore
+100%
+Globalstar Communications Mongolia LLC
+Mongolia
+100%
+Globalstar Satellite Services Pty., Ltd
+South Africa
+70%
+Globalstar C, LLC
+Delaware
+100%
+Globalstar Leasing LLC
+Delaware
+100%
+Globalstar Licensee LLC
+Delaware
+80%
+Globalstar Germany GmbH
+Germany
+100%
+Globalstar France SAS
+France
+100%
+Globalstar France SAS
+Greece
+100%
+Globalstar France SAS
+Spain
+100%
+Globalstar Bihoro LLC
+Japan
+100%
+Globalstar Mobile Satellite Services Canada Inc.
+Canada
+100%
+Globalstar Mobile Satellite Services International, LLC
+Delaware
+100%
+Globalstar Mobile Satellite Services Mexico
+Mexico
+100%
+Globalstar Mobile Satellite Services Australia Pty Ltd
+Australia
+100%
+Globalstar Mobile Satellite Services India Private Limited
+India
+100%
+Globalstar Mobile Satellite Services Brazil Ltda
+Brazil
+100%
+Globalstar Licensee LLC
+New Zealand
+100%
+Globalstar Mobile Satellite Services Singapore Pte. Ltd.
+Singapore
+100%
+Globalstar Mobile Satellite Services Argentina SRL
+Argentina
+100%
+Globalstar Mobile Satellite Services Chile SpA
+Chile
+100%
+Globalstar Security Services, LLC
+Delaware
+100%
+Globalstar USA, LLC
+Delaware
+100%
+GUSA Licensee LLC
+Delaware
+100%
+Globalstar Canada Satellite Co.
+Canada
+100%
+Globalstar de Venezuela, C.A.
+Venezuela
+100%
+Globalstar Colombia, Ltda.
+Colombia
+100%
+Globalstar Caribbean Ltd.
+Cayman Islands
+100%
+Globalstar Republica Dominicana, S.A.
+Dominican Republic
+100%
+GCL Licensee LLC
+Delaware
+100%
+Globalstar Americas Acquisitions, Ltd.
+British Virgin Islands
+100%
+Globalstar Americas Holding Ltd.
+British Virgin Islands
+100%
+Globalstar Gateway Company S.A.
+Nicaragua
+100%
+Globalstar Americas Telecommunications Ltd.
+British Virgin Islands
+100%
+Globalstar Honduras S.A.
+Honduras
+100%
+Globalstar Nicaragua S.A.
+Nicaragua
+100%
+Globalstar de El Salvador, SA de CV
+El Salvador
+100%
+Globalstar Panama Corp.
+Panama
+100%
+Globalstar Guatemala S.A.
+Guatemala
+100%
+Globalstar Belize Ltd.
+Belize
+100%
+Astral Technologies Investment Ltd.
+British Virgin Islands
+100%
+Astral Technologies Nicaragua S.A.
+Nicaragua
+100%
+SPOT LLC
+Colorado
+100%
+Globalstar Media, LLC
+Louisiana
+100%
+Globalstar Broadband Services, Inc.
+Delaware
+100%
+The World’s End (Pty) Ltd.
+Botswana
+100%
+Longhorns Holding Corporation
+Delaware
+100%
+M87, Inc.
+Delaware
+100%
+Longhorns Labs India Private Limited
+India
+100%
+Globalstar International, LLC
+Delaware
+100%
+Globalstar Telecomunicaciones Perú S.A.C.
+Peru
+100%
+Globalstar Majan LLC
+Oman
+100%
+Globalstar Japan, Inc.
+Japan
+100%
+Mobile Satellite Services Australia Pty. Ltd.
+Australia
+100%
+Globalstar (Thailand) Ltd.
+Thailand
+100%
+GSAT NZ Limited
+New Zealand
+100%
+Globalstar Netherlands B.V.
+Netherlands
+100%
+Globalstar GE, SL
+Equatorial Guinea
+100%
+Mobile Satellite Services B.V.
+Netherlands
+100%
+Globalstar Europe, S.A.S.
+France
+100%
+Globalstar Gabon S.A.
+Gabon
+100%
+Globalstar Europe Satellite Services, Ltd.
+Ireland
+100%
+Globalstar Holding US, LLC
+Delaware
+100%
+Globalstar Slovakia, S.R.O.
+Slovakia
+100%
+Globalstar Argentina S.R.L.
+Argentina
+100%
+GSAT Bucharest S.R.L.
+Romania
+100%
+Mobile Satellite Services Mexico S. de R.L. de C.V.
+Mexico
+100%
+Globalstar Ukraine Limited Liability Company
+Ukraine
+100%
+Globalstar Albania sh.p.k.
+Albania
+100%
+Globalstar Communications Spain, S.L.
+Spain
+100%
+Globalstar Chile SpA
+Chile
+100%
+Globalstar London Limited
+United Kingdom
+100%
+Globalstar Cote D'Ivoire
+Cote D'Ivoire
+100%
+Leosat Portugal, Unipessoal, LDA
+Portugal
+100%
+Globalstar Moçamibque LDA
+Mozambique
+75%
+Globalstar Montenegro
+Montenegro
+100%
+Leosat Kenya Limited
+Kenya
+100%
+Mobile Satellite Services Rwanda Ltd
+Rwanda
+100%
+Globalstar Satellite Namibia (PTY) LTD
+Namibia
+70%
+Globalstar Seoul Co., Ltd
+South Korea
+100%
+Globalstar Asia Pacific
+South Korea
+100%
+HIBLEO Nigeria Limited
+Nigeria
+100%

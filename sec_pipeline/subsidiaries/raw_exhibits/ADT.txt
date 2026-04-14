@@ -1,0 +1,27 @@
+EX-21
+4
+a10-k2024exhibit211111.htm
+EX-21
+Document
+Exhibit 21
+ADT Inc. (a Delaware corporation)
+Significant Subsidiaries
+The table below is a list of direct and indirect subsidiaries of ADT Inc. as of December 31, 2025, and the state or other jurisdiction in which the subsidiaries are organized. Pursuant to Item 601(b)(21)(ii) of Regulation S-K, certain subsidiaries have been omitted from this list because, if considered in the aggregate as a single subsidiary, such subsidiaries would not constitute a “significant subsidiary” as defined in Rule 1-02(w) of Regulation S-X.
+Entity
+State or other Jurisdiction
+ADT LLC
+Delaware
+Compass Solar Group, LLC
+Delaware
+Buildpro, L.L.C.
+Louisiana
+Prime Security Services Borrower, LLC
+Delaware
+Prime Security Services Holdings, LLC
+Delaware
+The ADT Security Corporation
+Delaware
+ADT Puerto Rico, LLC
+Puerto Rico
+Security Monitoring Services, Inc
+Florida

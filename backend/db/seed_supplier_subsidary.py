@@ -28,8 +28,8 @@ def seed_relationships():
             return name_to_ticker[target_lower]
         return None
 
-    suppliers_path = REPO_ROOT / "ai" / "pipeline" / "suppliers.json"
-    subsidiaries_path = REPO_ROOT / "task6" / "subsidiaries" / "subsidiaries.json"
+    suppliers_path = REPO_ROOT / "sec_pipeline" / "suppliers" / "suppliers.json"
+    subsidiaries_path = REPO_ROOT / "sec_pipeline" / "subsidiaries" / "subsidiaries.json"
 
     inserted_suppliers = 0
     inserted_subsidiaries = 0

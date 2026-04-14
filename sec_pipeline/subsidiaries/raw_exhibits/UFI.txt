@@ -1,0 +1,73 @@
+EX-21
+2
+ufi-ex21.htm
+EX-21
+EX-21
+Exhibit 21
+UNIFI, INC.
+SUBSIDIARIES
+Name
+State or Other
+Jurisdiction of
+Incorporation
+or Organization
+Unifi Percentage
+of Voting
+Securities Owned
+Unifi Asia Pacific (Hong Kong) Company, Limited (“UAP”)
+Hong Kong
+100% - USG
+Unifi Vietnam Company Limited
+Vietnam
+100% - UAP
+Unifi Switzerland GmbH (“USG”)
+Switzerland
+100% - UHA
+Unifi Holding 1, BV (“UH1”)
+Netherlands
+100% - USG
+Unifi Holding 2, BV (“UH2”)
+Netherlands
+100% - UH1
+Unifi Textiles Holding, SRL (“UTH”)
+Barbados
+100% - UAP
+Unifi do Brasil, Ltda.
+Brazil
+>99.99% - UH1
+<0.01% - UMI
+Unifi Manufacturing, Inc. (“UMI”)
+North Carolina
+100% - Unifi, Inc.
+Unifi Kinston, LLC
+North Carolina
+100% - UMI
+Unifi Sales & Distribution, Inc.
+North Carolina
+100% - Unifi, Inc.
+Unifi Latin America, S.A.S.
+Colombia
+100% - USG
+Unifi Textiles (Suzhou) Co. Ltd.
+P.R. China
+100% - UTH
+Unifi Central America, Ltda. de CV
+El Salvador
+>99.99% - UH1
+<0.01% - UH2
+Unifi Textiles Colombo (Private) Limited
+Sri Lanka
+100% - USG
+Unifi Holding Asia, B.V. (“UHA”)
+Netherlands
+100% - Unifi, Inc.
+Unifi Vietnam Company Limited
+Vietnam
+100% - UAP
+Unifi Turkey Textile Commerce Joint Stock Company
+Turkey
+100% - UAP
+Unifi Textiles India Private Limited
+India
+>99.99% - Unifi, Inc.
+<0.01% - UMI

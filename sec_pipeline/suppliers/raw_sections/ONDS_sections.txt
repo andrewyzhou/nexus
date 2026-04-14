@@ -1,0 +1,348 @@
+TICKER: ONDS
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain risk and
+distribution costs. Ondas Networks designs the printed circuit boards
+and enclosures for our radios. The physical manufacturing of FullMAX circuit boards is outsourced to best-in-class industrial
+contract manufacturers. The contract manufacturer is responsible for sourcing the majority of components, assembling the components onto
+the printed circuit boards and then delivering the final boards to us. Once at our facility, the boards are tested, then placed
+into enclosures and programmed with the appropriate software. The radios are then configured according to the requirement of the
+network and run through system level tests before being packaged and shipped to the customer. Ondas Networks maintains multiple
+contract manufacturers, both domestically and internationally, to ensure competitive pricing and to reduce the risk from a single
+manufacturer. OAS designs the Optimus System™ and the Iron
+Drone™ and specifies all components including the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts and
+the quantities of each needed to manufacture the end product. These assemblies incorporate a combination of custom-developed components
+and COTS components. The building of an Optimus System™ and the Iron Drone™ is outsourced to best-in-class contract manufacturers
+for fabrication and assembly. We utilize different contract manufacturers for the Optimus™ drone, the Iron Drone™,
+and Airbase™. Once complete, the contract manufacturers deliver the finished products to our facility where software is loaded,
+and system-level quality assurance is performed before being packaged and shipped to the customer location for installation. OAS
+works with a select group of contract manufacturers and has access to a large number of other comparable contract manufacturers. Research & Development Our ability to develop state-of-the-art and cost-effective
+solutions relative to our competitors can only be achieved through our continued research and development efforts. OAS research and development activities are headed
+by Meir Kliner, President of OAS and CEO and Founder of Airobotics who is based in Petah Tikva, Israel. Mr. Kliner has led the development
+of the Optimus System™ since 2014 and has expertise that represents a synthesis of years of managerial experience combined with
+command of drone product design. Mr. Kliner’s background includes key roles in developing diverse aerial systems, ranging from recreational
+to military applications and has founded several businesses, including Light and Strong, a premier manufacturer of composites for aerial
+platforms in the drone industry. Mr. Kliner is supported by a development team based in Petah Tikva, Israel. 12 Ondas Networks research and development activities
+are headed by Menashe Shahar, our Chief Technology Officer, based in our Sunnyvale, California headquarters. Mr. Shahar is a co-founder
+of Ondas Networks and has over 30 years of telecommunications system development experience, including the design and implementation of
+broadband wireless data systems for top tier system integrators and service providers including WorldCom, Nortel and ADC. Mr. Shahar has
+been awarded multiple patents in the data communications industry and has been an active participant in major wireless standardization
+activities including IEEE 802.16. In addition to internal research and development efforts, we also engage third party consultants to
+assist us in our research and development activities. Mr. Shahar and his team are currently focused on expanding the applications of our
+FullMAX technology in all spectrum bands used by rail operators in North America. Our research and development team works closely
+with our customer support team and incorporates feedback from our customers into our product development plans to improve our products
+and address emerging market requirements. Our research and development expenses were approximately $20.9 million
+and approximately $12.5 million for the years ended December 31, 2025 and 2024, respectively. Intellectual Property We rely primarily on patent, trademark and trade
+secret laws to protect our proprietary technologies and intellectual property. As of this filing, the OAS segment held a total
+of 13 issued patents in the U.S., 24 international issued patents, and ten international pending patent applications. The OAS segment’s
+patents expire between 2026 and 2042, subject to any patent extensions that may be available for such patents. The OAS segment’s
+intellectual property incorporates internally developed software and hardware design incorporating machine and computer vision and was
+developed with artificial intelligence and machine learning techniques. This intellectual property is critical to the development of end-to-end
+systems which reliably enable the automated operation of drones in real-world environments. As of this filing, the Ondas Networks segment held
+a total of eight issued patents in the U.S., seven international issued patents, eight pending patent applications in the U.S., and four
+international pending patent applications. The Ondas Networks segment’s patents expire between 2026 and 2040, subject to any patent
+extensions that may be available for such patents. Our intellectual property centers around creating and maintaining robust, private,
+highly secure, broadband industrial wireless networks using our FullMAX radio technology for our mission critical customers’ networks.
+We view the Ondas Networks segment’s patents as a key strategic advantage as the markets for industrial wireless connectivity grows
+and as these industries move to standardized solutions and will enable us to earn licensing fees and/or royalties for the use of our patents. We have a policy of requiring our officers, employees,
+contractors and other service providers and parties with which we do business to enter into confidentiality, non-disclosure (“NDAs”)
+and assignment of invention agreements before disclosure of any of our confidential or proprietary information. Dependence on a Small Number of Customers Because we have only recently
+invested in our customer service and support organization, a small number of customers have accounted for a substantial amount of our
+revenue. During the year ended December 31, 2025, two customers accounted for approximately $27.8 million and $5.4 million of our revenue
+or approximately 55% and 11%, respectively. During the year ended December 31, 2024, three customers accounted for approximately $3.8
+million, $1.9 million, and $745 thousand of our revenue or approximately 52%, 26%, and 10%, respectively. The loss of the 2025 customers
+or a decrease in the business conducted with such customers could have a material adverse impact on our business, financial condition
+or results of operations. Competition OAS We compete with other drone OEMs providing a variety
+of solutions for inspection, security, asset tracking and other applications. We compete on many dimensions with system performance being
+differentiated by the level of autonomous operation, ease of use, reliability, safety, and government regulations. Further, leading automated
+data solution providers must provide diverse payload capabilities for data collection, along with robust, advanced analytics programs
+that are specific for each industry served. 13 Ondas Networks We compete with alternatives to wireless technology,
+public cellular data networks and private wireless networking products from other manufacturers. We believe that each of these competing
+solutions has core weaknesses when compared to FullMAX, as described below. Public cellular data networks: ● Public networks are more vulnerable to cyber security attacks
+from anywhere in the world including denial of service attacks; private networks can operate independent of the public internet. ● Public networks are more susceptible to prolonged outages
+during man-made and natural disasters (e.g. 9/11, Hurricane Sandy, etc.), exactly when utilities and mission critical entities require
+the greatest reliability. ● Public networks are typically designed for population coverage
+rather than the geographic areas required by critical infrastructure providers, which often include remote locations. ● Public networks are by definition oversubscribed, shared networks
+without the necessary prioritization service to support mission critical applications. ● Public networks typically use shared infrastructure including
+tower sites and long-haul fiber connections resulting in vulnerabilities at many points. ● Public networks are designed to support high capacity downloading
+and streaming applications with limited upload bandwidth available. Industrial networks typically require the reverse traffic flow, often
+uploading data from a large number of remote locations. Other private wireless products: ● Unlicensed Point to Multipoint Wireless (e.g., Wi-Fi) —
+This equipment is very inexpensive to purchase but is subject to interference, has many security vulnerabilities, uses a contention-based
+protocol and transmits only over short range. Deploying Wi-Fi over wide areas is cost prohibitive. ● Private Licensed Narrowband Wireless Radios — These
+networks can provide good coverage and range but are typically too slow and lack sufficient bandwidth to support new applications and
+the increased number of data connections required. Alternate technologies: ● Satellite Technologies — These technologies provide
+good coverage, but throughput is limited, and latency is too high to support mission-critical applications for our customers. These technologies
+can be very costly as compared to our products and systems. ● Low-Power Wide Area Networks (LP-WANs) — LP-WAN solutions
+such as LoRa and NB-IoT are architected with lower power, the purpose of which is to make these typically sensor-based networks lower-cost
+solutions. The low powered equipment means these systems have lower throughput and higher latency and are not reliable for mission-critical
+applications that require both monitoring and control functions. Governmental Regulations Our operations are subject to various federal,
+state and local laws and regulations including: (i) authorization from the FCC and other global communications regulators for operation
+in various licensed frequency bands; (ii) FAA and other global Civil Aviation Authority regulations and approvals unique to the operation
+of commercial or industrial drones; (iii) customers’ licenses from the FCC; (iv) export controls and authorizations from the Department
+of State, Directorate of Defense Trade Controls (DDTC) under International Traffic in Arms Regulations (ITAR) for defense articles, or
+Department of Commerce, Bureau of Industry and Security (BIS) under the Export Administration Regulations (EAR) for dual use items; (v)
+licensing, permitting and inspection requirements applicable to contractors, electricians and engineers; (vi) regulations relating to
+worker safety and environmental protection; (vii) permitting and inspection requirements applicable to construction projects; (viii) wage
+and hour regulations; (ix) regulations relating to transportation of equipment and materials, including licensing and permitting requirements;
+(x) building and electrical codes; and (xi) special bidding, procurement and other requirements on government projects. 14 We believe we have the licenses materially required
+to conduct our operations, and we are in substantial compliance with applicable regulatory requirements. The operation of our manufactured
+products by our customers (network providers and service providers) in the U.S. or in foreign jurisdictions in a manner not in compliance
+with local law could result in fines, business disruption, or harm to our reputation. The changes to regulatory and technological requirements
+may also alter our product offerings, impacting our market share and business. Failure to comply with applicable regulations could result
+in substantial fines or revocation of our operating licenses or could give rise to termination or cancellation rights under our contracts
+or disqualify us from future bidding opportunities. Certain Ondas subsidiaries located in or doing
+business in foreign jurisdictions are governed by export controls regulated by third countries for the manufacture, sale or export if
+its systems and products. Certain jurisdictions require export licenses or authorizations for defense or dual use articles. Also, subject
+to certain exemptions, a license may be required to initiate marketing activities. Environmental Regulation Our operations are subject to extensive, and frequently
+changing, federal, state and local environmental laws and substantial related regulation by government agencies, including the Environmental
+Protection Agency. Among other matters, these regulatory authorities impose requirements that regulate the operation, handling, transportation
+and disposal of hazardous materials; protect the health and safety of workers; and require us to obtain and maintain licenses and permits
+in connection with our operations. This extensive regulatory framework imposes significant compliance burdens and risks on us. Notwithstanding
+these burdens, we believe that we are in material compliance with all federal, state and local environmental laws and regulations governing
+our operations. There has been no material
+adverse effect to our Consolidated Financial Statements nor competitive positions as a result of these environmental regulations. Employees As of December 31, 2025, we had approximately 459
+full time employees and 36 part time employees, including 41 full-time employees allocated to Ondas Inc. and Ondas Networks, eight full-time
+employees allocated to Ondas Capital, and 410 full-time employees and 36 part-time employees allocated to the OAS segment. In addition,
+we have consulting agreements for manufacturing, supply chain, documentation, engineering, regulatory, IT, and business development support.
+Additionally, from time to time, we may hire temporary employees. We also utilize contractors to manufacture components, for certain research
+and development and for system deployment functions. None of our employees are covered by a collective bargaining agreement and we are
+unaware of any union organizing efforts. We consider our relationship with our employees to be good. Information about our Executive Officers The following table sets forth
+information on our executive officers as of the filing of this report. Name Age Position Eric A. Brock 55 Chairman, Chief Executive Officer and President Neil J. Laird 73 Chief Financial Officer and Treasurer Patrick Huston 57 Chief Operating Officer, General Counsel, and Secretary 15 Eric A. Brock - Chairman of the Board, Chief Executive Officer,
+and President Mr. Brock has been the Chairman and Chief Executive
+Officer since 2018 and our President since June 9, 2023. Also, Mr. Brock has served as an officer and director of our subsidiaries since
+September 2018, including: Chairman of Ondas Networks Inc. since September 2018; Chairman of the Board and President of Ondas Autonomous
+Systems Inc. (“OAS”) since December 2023 and Co-Chief Executive Officer of OAS since August 2024; Chairman of American Robotics,
+Inc. since August 2021 and Secretary of American Robotics, Inc. since November 2023; Chairman of Airobotics Ltd. since January 2023; and
+Chairman and Chief Executive Officer of Ondas Capital Inc. since September 2025. Mr. Brock served as Secretary and Treasurer of OAS from
+December 2023 to December 2025; Chief Executive Officer of American Robotics, Inc. from June 2023 to October 2023; and as Chief Executive
+Officer of Ondas Networks Inc. from September 2018 to January 2025. Mr. Brock is an entrepreneur with over 30 years of global banking
+and investing experience. He served as a founding Partner and Portfolio Manager with Clough Capital Partners, a Boston-based investment
+firm, from 2000 to 2017. Prior to Clough, Mr. Brock was an investment banker at Bear, Stearns & Co. and an accountant at Ernst &
+Young, LLP. Mr. Brock holds an MBA from the University of Chicago and a BS from Boston College. Neil Laird - Chief Financial Officer and Treasurer Mr. Laird has served as our Chief Financial Officer
+and Treasurer since June 22, 2025. Also, Mr. Laird has served as an officer of our subsidiaries since June 2024, including: Treasurer
+of OAS since October 2025; Treasurer of Ondas Capital Inc. since September 2025; Interim Chief Financial Officer, Treasurer and Secretary
+of Ondas Networks Inc. since June 2024; and Treasurer of American Robotics, Inc. since September 2024. Mr. Laird served as Interim Chief
+Financial Officer, Treasurer and Secretary of the Company from June 2024 to June 2025; Secretary of the Company from June 2025 to December
+2025; Secretary of OAS from October 2025 to December 2025; and Secretary of Ondas Capital Inc. from September 2025 to December 2025. Mr.
+Laird previously served as fractional chief financial officer of NovAccess Global Inc. (“NovAccess”), a publicly traded company
+from September 2021 to July 2024; an employee of AM Consulting from May 2021 to June 2025; with several technology and other companies
+as a consultant from 2017 to 2021; and as the chief financial officer of Mobileum Inc., a private company providing roaming and other
+solutions to the telecommunications industry from June 2011 until November 2016. Prior to that, Mr. Laird served as chief financial officer
+of SumTotal Systems, Inc., a provider of enterprise learning management systems, and chief financial officer of ADAC Laboratories, a provider
+of nuclear medicine and PET systems, both of which were publicly traded companies. Mr. Laird is an experienced financial executive who
+works with companies to provide accounting and finance related services. Mr. Laird has an MA from the University of Cambridge and is qualified
+as a UK chartered accountant. Patrick Huston – Chief Operating Officer,
+General Counsel, and Secretary General Huston, has served as the Company’s
+Chief Operating Officer and Secretary since December 16, 2025. General Huston has also served as the Company’s General Counsel since
+October 2025. Also, Mr. Huston has served as an officer of our subsidiaries since December 2025, including: as Secretary of OAS, American
+Robotics, Inc. and Ondas Capital Inc. since December 2025. In September 2021, General Huston retired from the Pentagon after a 35-year
+military career that included service as a Commanding General, Army Ranger, helicopter pilot, and prosecutor, with five combat tours in
+Iraq and Afghanistan. He served as General Counsel of the 101st Airborne Division, JSOC, and U.S. Central Command. He was also on the
+“Responsible AI Board” in the Pentagon. General Huston is a member of the FBI’s AI Task Force, the American Bar Association’s
+AI Task Force, and Ondas Autonomous Systems Inc., a subsidiary of the Company, advisory board. He is a certified director (NACD.DC) with
+the National Association of Corporate Directors and holds FAA commercial pilot ratings. Available Information Our Internet website is www.ondas.com. Our Annual
+Report on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and amendments to reports filed or furnished pursuant
+to Sections 13(a) and 15(d) of the Securities and Exchange Act of 1934, as amended (the “Exchange Act”) are available, free
+of charge, under the Investors tab of our website as soon as reasonably practicable after we electronically file such material with, or
+furnish it to, the SEC. Additionally, the SEC maintains a website located at www.sec.gov that contains the information we file or furnish
+electronically with the SEC. 16
+
+--- VENDORS ---
+vendors can compete on service, price and quality of solution
+driving improved value for customers. If a large end market does not develop and customers do not see the related benefits from the standard,
+we may not be able to grow our business. Our growth depends in part on the success
+of our strategic collaborations with key customers, as well as on our ability to establish and expand a broad ecosystem of relationships
+with leading global industrial vendors. To support our growth,
+we collaborate with leading technology and industrial companies, many of whom are also our customers, to help accelerate the adoption
+of our wireless technology. If we are unable to sustain these customer relationships or if these collaborations do not deliver the expected
+benefits, our ability to compete in the marketplace and grow our revenue could be adversely affected, and our operating results may suffer.
+In addition, adoption of our FullMAX wireless platform, Optimus System™, and Iron Drone Raider™ requires us to establish additional
+ecosystem relationships with leading global industrial vendors and customers. Even if we are successful in executing these partnerships
+and integrating with additional ecosystem vendors, we cannot assure you that these partnerships and relationships will result in increased
+adoption of our technology or increased revenue. If the commercial UAS markets do not
+experience significant growth, if we cannot expand our customer base or if our products and services do not achieve broad acceptance,
+then we may not be able to achieve our anticipated level of growth. We cannot accurately predict
+the future growth rates or sizes of the markets for our products and services. Demand for our products and services may not increase,
+or may decrease, either generally or in specific markets, for particular types of products and services or during particular time periods.
+We believe the market for commercial UAS is nascent and the expansion of the market for our products and services in particular, depends
+on a number of factors, including the following: ● customer satisfaction with these types of systems
+as solutions; 19 ● the cost, performance and reliability of our
+products and products offered by our competitors; ● customer perceptions regarding the effectiveness
+and value of these types of systems; ● obtaining timely regulatory approvals for new
+customer deployments; and ● marketing efforts and publicity regarding these
+types of systems and services. Even if commercial UAS
+gain wide market acceptance, our products and services may not adequately address market requirements and may not continue to gain market
+acceptance. If these types of systems generally, or our products and services specifically, do not gain wide market acceptance, then we
+may not be able to achieve our anticipated level of growth and our revenue and results of operations would decline. Project performance delays or
+difficulties, including those caused by third parties, or certain contractual obligations may result in additional costs to us, reductions
+in revenues or the payment of liquidated damages. Many projects involve
+challenging engineering, construction or installation phases that may occur over extended time periods. We may encounter difficulties
+as a result of delays or changes in designs, engineering information or materials provided by our customer or a third party, delays or
+difficulties in equipment and material delivery, schedule changes, delays from our customer’s failure to timely obtain permits or
+meet other regulatory requirements including the securing of necessary FCC certifications or FAA approvals, weather-related delays and
+other factors, many of which are beyond our control, that impact our ability to complete the project in accordance with the original delivery
+schedule. In addition, we contract with third-party subcontractors to assist us with the completion of contracts. Any delay or failure
+by suppliers or by subcontractors in the completion of their portion of the project may be beyond our control and may result in delays
+in the overall progress of the project or may cause us to incur additional costs, or both. Delays and additional costs may be substantial,
+and, in some cases, we may be required to compensate the customer for such delays. Delays may also disrupt the final completion of our
+contracts as well as the corresponding recognition of revenues and expenses therefrom. In certain circumstances, we guarantee project
+completion by a scheduled acceptance date or achievement of certain acceptance and performance testing levels; failure to meet any of
+our guarantees, schedules or performance requirements could also result in additional costs or penalties to us, including obligations
+to pay liquidated damages, and such amounts could exceed expected project profit. In extreme cases, the above-mentioned factors could
+cause project cancellations, and we may be unable to replace such projects with similar projects or at all. Such delays or cancellations
+may impact our reputation, brand or relationships with customers, adversely affecting our ability to secure new contracts. We do not control certain aspects of
+the
+
+--- MANUFACTURING ---
+manufacturing partners in the building of product to fulfill customer orders. Utilizing contract manufacturers allows us to
+focus on designing, developing and selling our products. Furthermore, outsourced manufacturing allows us to leverage the
+economies of scale and expertise of specialized outsourced manufacturers, reduce manufacturing and supply chain risk and
+distribution costs. Ondas Networks designs the printed circuit boards
+and enclosures for our radios. The physical manufacturing of FullMAX circuit boards is outsourced to best-in-class industrial
+contract manufacturers. The contract manufacturer is responsible for sourcing the majority of components, assembling the components onto
+the printed circuit boards and then delivering the final boards to us. Once at our facility, the boards are tested, then placed
+into enclosures and programmed with the appropriate software. The radios are then configured according to the requirement of the
+network and run through system level tests before being packaged and shipped to the customer. Ondas Networks maintains multiple
+contract manufacturers, both domestically and internationally, to ensure competitive pricing and to reduce the risk from a single
+manufacturer. OAS designs the Optimus System™ and the Iron
+Drone™ and specifies all components including the
+
+--- RAW_MATERIALS ---
+raw materials, sub-assemblies, intermediate assemblies, sub-components, parts and
+the quantities of each needed to manufacture the end product. These assemblies incorporate a combination of custom-developed components
+and COTS components. The building of an Optimus System™ and the Iron Drone™ is outsourced to best-in-class contract manufacturers
+for fabrication and assembly. We utilize different contract manufacturers for the Optimus™ drone, the Iron Drone™,
+and Airbase™. Once complete, the contract manufacturers deliver the finished products to our facility where software is loaded,
+and system-level quality assurance is performed before being packaged and shipped to the customer location for installation. OAS
+works with a select group of contract manufacturers and has access to a large number of other comparable contract manufacturers. Research & Development Our ability to develop state-of-the-art and cost-effective
+solutions relative to our competitors can only be achieved through our continued research and development efforts. OAS research and development activities are headed
+by Meir Kliner, President of OAS and CEO and Founder of Airobotics who is based in Petah Tikva, Israel. Mr. Kliner has led the development
+of the Optimus System™ since 2014 and has expertise that represents a synthesis of years of managerial experience combined with
+command of drone product design. Mr. Kliner’s background includes key roles in developing diverse aerial systems, ranging from recreational
+to military applications and has founded several businesses, including Light and Strong, a premier manufacturer of composites for aerial
+platforms in the drone industry. Mr. Kliner is supported by a development team based in Petah Tikva, Israel. 12 Ondas Networks research and development activities
+are headed by Menashe Shahar, our Chief Technology Officer, based in our Sunnyvale, California headquarters. Mr. Shahar is a co-founder
+of Ondas Networks and has over 30 years of telecommunications system development experience, including the design and implementation of
+broadband wireless data systems for top tier system integrators and service providers including WorldCom, Nortel and ADC. Mr. Shahar has
+been awarded multiple patents in the data communications industry and has been an active participant in major wireless standardization
+activities including IEEE 802.16. In addition to internal research and development efforts, we also engage third party consultants to
+assist us in our research and development activities. Mr. Shahar and his team are currently focused on expanding the applications of our
+FullMAX technology in all spectrum bands used by rail operators in North America. Our research and development team works closely
+with our customer support team and incorporates feedback from our customers into our product development plans to improve our products
+and address emerging market requirements. Our research and development expenses were approximately $20.9 million
+and approximately $12.5 million for the years ended December 31, 2025 and 2024, respectively. Intellectual Property We rely primarily on patent, trademark and trade
+secret laws to protect our proprietary technologies and intellectual property. As of this filing, the OAS segment held a total
+of 13 issued patents in the U.S., 24 international issued patents, and ten international pending patent applications. The OAS segment’s
+patents expire between 2026 and 2042, subject to any patent extensions that may be available for such patents. The OAS segment’s
+intellectual property incorporates internally developed software and hardware design incorporating machine and computer vision and was
+developed with artificial intelligence and machine learning techniques. This intellectual property is critical to the development of end-to-end
+systems which reliably enable the automated operation of drones in real-world environments. As of this filing, the Ondas Networks segment held
+a total of eight issued patents in the U.S., seven international issued patents, eight pending patent applications in the U.S., and four
+international pending patent applications. The Ondas Networks segment’s patents expire between 2026 and 2040, subject to any patent
+extensions that may be available for such patents. Our intellectual property centers around creating and maintaining robust, private,
+highly secure, broadband industrial wireless networks using our FullMAX radio technology for our mission critical customers’ networks.
+We view the Ondas Networks segment’s patents as a key strategic advantage as the markets for industrial wireless connectivity grows
+and as these industries move to standardized solutions and will enable us to earn licensing fees and/or royalties for the use of our patents. We have a policy of requiring our officers, employees,
+contractors and other service providers and parties with which we do business to enter into confidentiality, non-disclosure (“NDAs”)
+and assignment of invention agreements before disclosure of any of our confidential or proprietary information. Dependence on a Small Number of Customers Because we have only recently
+invested in our customer service and support organization, a small number of customers have accounted for a substantial amount of our
+revenue. During the year ended December 31, 2025, two customers accounted for approximately $27.8 million and $5.4 million of our revenue
+or approximately 55% and 11%, respectively. During the year ended December 31, 2024, three customers accounted for approximately $3.8
+million, $1.9 million, and $745 thousand of our revenue or approximately 52%, 26%, and 10%, respectively. The loss of the 2025 customers
+or a decrease in the business conducted with such customers could have a material adverse impact on our business, financial condition
+or results of operations. Competition OAS We compete with other drone OEMs providing a variety
+of solutions for inspection, security, asset tracking and other applications. We compete on many dimensions with system performance being
+differentiated by the level of autonomous operation, ease of use, reliability, safety, and government regulations. Further, leading automated
+data solution providers must provide diverse payload capabilities for data collection, along with robust, advanced analytics programs
+that are specific for each industry served. 13 Ondas Networks We compete with alternatives to wireless technology,
+public cellular data networks and private wireless networking products from other manufacturers. We believe that each of these competing
+solutions has core weaknesses when compared to FullMAX, as described below. Public cellular data networks: ● Public networks are more vulnerable to cyber security attacks
+from anywhere in the world including denial of service attacks; private networks can operate independent of the public internet. ● Public networks are more susceptible to prolonged outages
+during man-made and natural disasters (e.g. 9/11, Hurricane Sandy, etc.), exactly when utilities and mission critical entities require
+the greatest reliability. ● Public networks are typically designed for population coverage
+rather than the geographic areas required by critical infrastructure providers, which often include remote locations. ● Public networks are by definition oversubscribed, shared networks
+without the necessary prioritization service to support mission critical applications. ● Public networks typically use shared infrastructure including
+tower sites and long-haul fiber connections resulting in vulnerabilities at many points. ● Public networks are designed to support high capacity downloading
+and streaming applications with limited upload bandwidth available. Industrial networks typically require the reverse traffic flow, often
+uploading data from a large number of remote locations. Other private wireless products: ● Unlicensed Point to Multipoint Wireless (e.g., Wi-Fi) —
+This equipment is very inexpensive to purchase but is subject to interference, has many security vulnerabilities, uses a contention-based
+protocol and transmits only over short range. Deploying Wi-Fi over wide areas is cost prohibitive. ● Private Licensed Narrowband Wireless Radios — These
+networks can provide good coverage and range but are typically too slow and lack sufficient bandwidth to support new applications and
+the increased number of data connections required. Alternate technologies: ● Satellite Technologies — These technologies provide
+good coverage, but throughput is limited, and latency is too high to support mission-critical applications for our customers. These technologies
+can be very costly as compared to our products and systems. ● Low-Power Wide Area Networks (LP-WANs) — LP-WAN solutions
+such as LoRa and NB-IoT are architected with lower power, the purpose of which is to make these typically sensor-based networks lower-cost
+solutions. The low powered equipment means these systems have lower throughput and higher latency and are not reliable for mission-critical
+applications that require both monitoring and control functions. Governmental Regulations Our operations are subject to various federal,
+state and local laws and regulations including: (i) authorization from the FCC and other global communications regulators for operation
+in various licensed frequency bands; (ii) FAA and other global Civil Aviation Authority regulations and approvals unique to the operation
+of commercial or industrial drones; (iii) customers’ licenses from the FCC; (iv) export controls and authorizations from the Department
+of State, Directorate of Defense Trade Controls (DDTC) under International Traffic in Arms Regulations (ITAR) for defense articles, or
+Department of Commerce, Bureau of Industry and Security (BIS) under the Export Administration Regulations (EAR) for dual use items; (v)
+licensing, permitting and inspection requirements applicable to contractors, electricians and engineers; (vi) regulations relating to
+worker safety and environmental protection; (vii) permitting and inspection requirements applicable to construction projects; (viii) wage
+and hour regulations; (ix) regulations relating to transportation of equipment and materials, including licensing and permitting requirements;
+(x) building and electrical codes; and (xi) special bidding, procurement and other requirements on government projects. 14 We believe we have the licenses materially required
+to conduct our operations, and we are in substantial compliance with applicable regulatory requirements. The operation of our manufactured
+products by our customers (network providers and service providers) in the U.S. or in foreign jurisdictions in a manner not in compliance
+with local law could result in fines, business disruption, or harm to our reputation. The changes to regulatory and technological requirements
+may also alter our product offerings, impacting our market share and business. Failure to comply with applicable regulations could result
+in substantial fines or revocation of our operating licenses or could give rise to termination or cancellation rights under our contracts
+or disqualify us from future bidding opportunities. Certain Ondas subsidiaries located in or doing
+business in foreign jurisdictions are governed by export controls regulated by third countries for the manufacture, sale or export if
+its systems and products. Certain jurisdictions require export licenses or authorizations for defense or dual use articles. Also, subject
+to certain exemptions, a license may be required to initiate marketing activities. Environmental Regulation Our operations are subject to extensive, and frequently
+changing, federal, state and local environmental laws and substantial related regulation by government agencies, including the Environmental
+Protection Agency. Among other matters, these regulatory authorities impose requirements that regulate the operation, handling, transportation
+and disposal of hazardous materials; protect the health and safety of workers; and require us to obtain and maintain licenses and permits
+in connection with our operations. This extensive regulatory framework imposes significant compliance burdens and risks on us. Notwithstanding
+these burdens, we believe that we are in material compliance with all federal, state and local environmental laws and regulations governing
+our operations. There has been no material
+adverse effect to our Consolidated Financial Statements nor competitive positions as a result of these environmental regulations. Employees As of December 31, 2025, we had approximately 459
+full time employees and 36 part time employees, including 41 full-time employees allocated to Ondas Inc. and Ondas Networks, eight full-time
+employees allocated to Ondas Capital, and 410 full-time employees and 36 part-time employees allocated to the OAS segment. In addition,
+we have consulting agreements for manufacturing, supply chain, documentation, engineering, regulatory, IT, and business development support.
+Additionally, from time to time, we may hire temporary employees. We also utilize contractors to manufacture components, for certain research
+and development and for system deployment functions. None of our employees are covered by a collective bargaining agreement and we are
+unaware of any union organizing efforts. We consider our relationship with our employees to be good. Information about our Executive Officers The following table sets forth
+information on our executive officers as of the filing of this report. Name Age Position Eric A. Brock 55 Chairman, Chief Executive Officer and President Neil J. Laird 73 Chief Financial Officer and Treasurer Patrick Huston 57 Chief Operating Officer, General Counsel, and Secretary 15 Eric A. Brock - Chairman of the Board, Chief Executive Officer,
+and President Mr. Brock has been the Chairman and Chief Executive
+Officer since 2018 and our President since June 9, 2023. Also, Mr. Brock has served as an officer and director of our subsidiaries since
+September 2018, including: Chairman of Ondas Networks Inc. since September 2018; Chairman of the Board and President of Ondas Autonomous
+Systems Inc. (“OAS”) since December 2023 and Co-Chief Executive Officer of OAS since August 2024; Chairman of American Robotics,
+Inc. since August 2021 and Secretary of American Robotics, Inc. since November 2023; Chairman of Airobotics Ltd. since January 2023; and
+Chairman and Chief Executive Officer of Ondas Capital Inc. since September 2025. Mr. Brock served as Secretary and Treasurer of OAS from
+December 2023 to December 2025; Chief Executive Officer of American Robotics, Inc. from June 2023 to October 2023; and as Chief Executive
+Officer of Ondas Networks Inc. from September 2018 to January 2025. Mr. Brock is an entrepreneur with over 30 years of global banking
+and investing experience. He served as a founding Partner and Portfolio Manager with Clough Capital Partners, a Boston-based investment
+firm, from 2000 to 2017. Prior to Clough, Mr. Brock was an investment banker at Bear, Stearns & Co. and an accountant at Ernst &
+Young, LLP. Mr. Brock holds an MBA from the University of Chicago and a BS from Boston College. Neil Laird - Chief Financial Officer and Treasurer Mr. Laird has served as our Chief Financial Officer
+and Treasurer since June 22, 2025. Also, Mr. Laird has served as an officer of our subsidiaries since June 2024, including: Treasurer
+of OAS since October 2025; Treasurer of Ondas Capital Inc. since September 2025; Interim Chief Financial Officer, Treasurer and Secretary
+of Ondas Networks Inc. since June 2024; and Treasurer of American Robotics, Inc. since September 2024. Mr. Laird served as Interim Chief
+Financial Officer, Treasurer and Secretary of the Company from June 2024 to June 2025; Secretary of the Company from June 2025 to December
+2025; Secretary of OAS from October 2025 to December 2025; and Secretary of Ondas Capital Inc. from September 2025 to December 2025. Mr.
+Laird previously served as fractional chief financial officer of NovAccess Global Inc. (“NovAccess”), a publicly traded company
+from September 2021 to July 2024; an employee of AM Consulting from May 2021 to June 2025; with several technology and other companies
+as a consultant from 2017 to 2021; and as the chief financial officer of Mobileum Inc., a private company providing roaming and other
+solutions to the telecommunications industry from June 2011 until November 2016. Prior to that, Mr. Laird served as chief financial officer
+of SumTotal Systems, Inc., a provider of enterprise learning management systems, and chief financial officer of ADAC Laboratories, a provider
+of nuclear medicine and PET systems, both of which were publicly traded companies. Mr. Laird is an experienced financial executive who
+works with companies to provide accounting and finance related services. Mr. Laird has an MA from the University of Cambridge and is qualified
+as a UK chartered accountant. Patrick Huston – Chief Operating Officer,
+General Counsel, and Secretary General Huston, has served as the Company’s
+Chief Operating Officer and Secretary since December 16, 2025. General Huston has also served as the Company’s General Counsel since
+October 2025. Also, Mr. Huston has served as an officer of our subsidiaries since December 2025, including: as Secretary of OAS, American
+Robotics, Inc. and Ondas Capital Inc. since December 2025. In September 2021, General Huston retired from the Pentagon after a 35-year
+military career that included service as a Commanding General, Army Ranger, helicopter pilot, and prosecutor, with five combat tours in
+Iraq and Afghanistan. He served as General Counsel of the 101st Airborne Division, JSOC, and U.S. Central Command. He was also on the
+“Responsible AI Board” in the Pentagon. General Huston is a member of the FBI’s AI Task Force, the American Bar Association’s
+AI Task Force, and Ondas Autonomous Systems Inc., a subsidiary of the Company, advisory board. He is a certified director (NACD.DC) with
+the National Association of Corporate Directors and holds FAA commercial pilot ratings. Available Information Our Internet website is www.ondas.com. Our Annual
+Report on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and amendments to reports filed or furnished pursuant
+to Sections 13(a) and 15(d) of the Securities and Exchange Act of 1934, as amended (the “Exchange Act”) are available, free
+of charge, under the Investors tab of our website as soon as reasonably practicable after we electronically file such material with, or
+furnish it to, the SEC. Additionally, the SEC maintains a website located at www.sec.gov that contains the information we file or furnish
+electronically with the SEC. 16
+

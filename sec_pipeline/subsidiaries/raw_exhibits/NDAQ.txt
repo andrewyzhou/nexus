@@ -1,0 +1,247 @@
+EX-21.1
+4
+ndaq12312025ex-211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Nasdaq, Inc.*
+As of February 1, 2026
+U.S. Entities
+1.
+Adenza, Inc. (organized in Delaware)
+2.
+BoardVantage, Inc (organized in Delaware)
+3.
+Boston Stock Exchange Clearing Corporation (organized in Massachusetts)
+4.
+Content Services, LLC (organized in Delaware)
+5.
+Directors Desk, LLC (organized in Delaware)
+6.
+Dorsey, Wright & Associates, LLC (organized in Virginia)
+7.
+eVestment Alliance, LLC (organized in Delaware)
+8.
+eVestment, Inc. (organized in Delaware)
+9.
+FINRA/Nasdaq Trade Reporting Facility LLC (organized in Delaware)
+10.
+FRAMLxchange Inc. (organized in Delaware)
+11.
+FTEN, Inc. (organized in Delaware)
+12.
+International Securities Exchange Holdings, Inc. (organized in Delaware)
+13.
+Longitude LLC (organized in Delaware)
+14.
+Nasdaq BX, Inc. (organized in Delaware)
+15.
+Nasdaq Capital Markets Advisory LLC (organized in Delaware)
+16.
+Nasdaq Corporate Services, LLC (organized in Delaware)
+17.
+Nasdaq Corporate Solutions, LLC (organized in Delaware)
+18.
+Nasdaq Data Acquisition, LLC (organized in Delaware)
+19.
+Nasdaq Digital Asset Holdings, LLC (organized in Delaware)
+20.
+NASDAQ Energy Futures, LLC (organized in Delaware)
+21.
+Nasdaq Execution Services, LLC (organized in Delaware)
+22.
+Nasdaq Fund Secondaries, LLC (organized in Delaware)
+23.
+NASDAQ Futures, Inc. (organized in Delaware)
+24.
+Nasdaq GEMX, LLC (organized in Delaware)
+25.
+NASDAQ Global, Inc. (organized in Delaware)
+26.
+Nasdaq Information, LLC (organized in Delaware)
+27.
+Nasdaq ISE, LLC (organized in Delaware)
+28.
+Nasdaq MRX, LLC (organized in Delaware)
+29.
+Nasdaq PHLX LLC (organized in Delaware)
+30.
+Nasdaq Private Market, LLC (organized in Delaware)
+31.
+Nasdaq SB Holdings, LLC (organized in Delaware)
+32.
+Nasdaq Technology Services, LLC (organized in Delaware)
+33.
+Nasdaq Verafin LLC (organized in Delaware)
+34.
+NFSTX, LLC (organized in Delaware)
+35.
+OneReport, LLC (organized in Delaware)
+36.
+Operations & Compliance Network, LLC (organized in Delaware)
+37.
+QDiligence LLC (organized in Illinois)
+38.
+Stock Clearing Corporation of Philadelphia (organized in Pennsylvania)
+39.
+Sybenetix Inc. (organized in Delaware)
+40.
+The Nasdaq Options Market LLC (organized in Delaware)
+41.
+The Nasdaq Stock Market LLC (organized in Delaware)
+42.
+U.S. Exchange Holdings, Inc. (organized in Delaware)
+43.
+Volos Portfolio Solutions, Inc. (organized in Delaware)
+Exhibit 21.1
+Non-U.S. Subsidiaries
+1.
+AB Nasdaq Vilnius (organized in Lithuania)
+2.
+Adenza Australia Pty Ltd. (organized in Australia)
+3.
+Adenza Brasil Ltda (organized in Brazil)
+4.
+Adenza Chile SpA (organized in Chile)
+5.
+Adenza Colombia S.A.S. (organized in Colombia)
+6.
+Adenza Georgia LLC (organized in Georgia)
+7.
+Adenza India Private Ltd. (organized in India)
+8.
+Adenza Ireland Ltd. (organized in Ireland)
+9.
+Adenza Israel Ltd. (organized in Israel)
+10.
+Adenza Korea LLC (organized in South Korea)
+11.
+Adenza Netherlands B.V. (organized in the Netherlands)
+12.
+ADENZA POLAND SOO SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA (organized in Poland)
+13.
+Adenza Portugal S.A. (organized in Portugal)
+14.
+Adenza Spain S.L. (organized in Spain)
+15.
+Adenza Technology (DIFC) Ltd. (organized in Dubai)
+16.
+Adenza Technology de Mexico, S. de R.L. de C.V. (organized in Mexico)
+17.
+AS Pensionikeskus AS (organized in Estonia)
+18.
+Axioma SD, Ltd. (organized in Russia)
+19.
+AxiomSL Holdings B.V. (organized in the Netherlands)
+20.
+Calypso Software (Beijing) Co Ltd. (organized in China)
+21.
+Calypso Technology Pte. Ltd. (organized in Singapore)
+22.
+Cinnober Financial Technology AB (organized in Sweden)
+23.
+Ensoleillement Inc. (organized in Canada)
+24.
+eVestment Alliance (UK) Limited (organized in the United Kingdom)
+25.
+eVestment Alliance Australia Pty Ltd (organized in Australia)
+26.
+Indxis Ltd (organized in the United Kingdom)
+27.
+Metrio Software Inc. (organized in Quebec)
+28.
+Nasdaq (Asia Pacific) Pte. Ltd. (organized in Singapore)
+29.
+Nasdaq AB (organized in Sweden)
+30.
+Nasdaq Arabia Limited (organized in Saudi Arabia)
+31.
+Nasdaq Australia Holding Pty Ltd (organized in Australia)
+32.
+NASDAQ Canada Inc. (organized in Canada)
+33.
+Nasdaq Clearing AB (organized in Sweden)
+34.
+Nasdaq Copenhagen A/S (organized in Denmark)
+35.
+Nasdaq Corporate Solutions (India) Private Limited (organized in India)
+36.
+Nasdaq Corporate Solutions International Limited (organized in the United Kingdom)
+37.
+Nasdaq CSD SE (organized in Latvia)
+38.
+Nasdaq CXC Limited (organized in Canada)
+39.
+Nasdaq Exchange and Clearing Services AB (organized in Sweden)
+40.
+Nasdaq France SARL (organized in France)
+41.
+Nasdaq Germany GmbH (organized in Germany)
+42.
+Nasdaq Helsinki Ltd (organized in Finland)
+43.
+Nasdaq Holding AB (organized in Sweden)
+44.
+Nasdaq Holding Denmark A/S (organized in Denmark)
+45.
+Nasdaq Iceland hf. (organized in Iceland)
+46.
+Nasdaq International Ltd (organized in the United Kingdom)
+47.
+Nasdaq Limited (organized in the United Kingdom)
+48.
+Nasdaq Ltd. (organized in Hong Kong)
+49.
+NASDAQ Korea Ltd (organized in South Korea)
+50.
+Nasdaq Nordic Ltd (organized in Finland)
+Exhibit 21.1
+51.
+Nasdaq Oslo ASA (organized in Norway)
+52.
+Nasdaq Pty Ltd (organized in Australia)
+53.
+Nasdaq Riga, AS (organized in Latvia) (92.98% owned, directly or indirectly, by Nasdaq, Inc.)
+54.
+Nasdaq Singapore Pte. Ltd. (organized in Singapore)
+55.
+Nasdaq Spot AB (organized in Sweden)
+56.
+Nasdaq Stockholm AB (organized in Sweden)
+57.
+Nasdaq Tallinn AS (organized in Estonia)
+58.
+Nasdaq Technology (Japan) Ltd (organized in Japan)
+59.
+Nasdaq Technology AB (organized in Sweden)
+60.
+Nasdaq Technology Energy Systems AS (organized in Norway)
+61.
+Nasdaq Technology Italy Srl (organized in Italy)
+62.
+Nasdaq Teknoloji Servisi Limited Sirketi (organized in Turkey)
+63.
+Nasdaq Treasury AB (organized in Sweden)
+64.
+Nasdaq Vilnius Services UAB (organized in Lithuania)
+65.
+OMX Treasury Euro AB (organized in Sweden) (99.9% owned, directly or indirectly, by Nasdaq, Inc.)
+66.
+OMX Treasury Euro Holding AB (organized in Sweden)
+67.
+Puro.earth (organized in Finland) (70% owned, directly or indirectly, by Nasdaq, Inc.)
+68.
+Quandl, Inc. (organized in Canada, Federal)
+69.
+SMARTS Broker Compliance Pty Ltd (organized in Australia)
+70.
+SMARTS Market Surveillance Pty Ltd (organized in Australia)
+71.
+Sybenetix Limited (organized in the United Kingdom)
+72.
+Sybenetix Ukraine (organized in the Ukraine)
+73.
+TOV AxiomSL (organized in the Ukraine)
+74.
+Verafin Solutions ULC (organized in Canada)
+* The list of subsidiaries does not include not-for-profit entities or foreign branches of subsidiaries, or entities in which Nasdaq owns less than 50% of the entity.

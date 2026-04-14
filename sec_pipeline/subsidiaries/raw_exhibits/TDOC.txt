@@ -1,0 +1,101 @@
+EX-21.1
+2
+tdoc-20251231xexx211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Teladoc Health, Inc.
+Name
+Domestic Jurisdiction
+Advance Medical, Inc.
+Massachusetts
+Advanced Medical Healthcare Management Consulting (Shanghai) Co., Ltd.
+China
+AM Healthcare Management Consulting Sdn. Bhd.
+Malaysia
+Association pour le Déploiement de Parcours de Santé Territoriaux et Phygitaux
+France
+Best Doctors Holdings, Inc.
+Delaware
+Best Doctors, Inc.
+Delaware
+BetterHelp, Inc.
+Delaware
+BetterSleep Health, LLC
+Delaware
+Catapult Health, LLC
+Texas
+Consultant Connect Limited
+England and Wales
+Diabeto Inc.
+Delaware
+Institute of Patient Safety and Quality in Virtual Care, LLC
+Texas
+InTouch Health Providers, LLC
+Florida
+InTouch Technologies, LLC
+Delaware
+Ipnos Software ULC
+Alberta
+Livongo Health Malaysia Sdn. Bhd.
+Malaysia
+Livongo Health, LLC
+Delaware
+myStrength, Inc.
+Delaware
+Retrofit Inc.
+Delaware
+Rise Health, Inc.
+Delaware
+Smartek S.R.L.
+Argentina
+TAO Connect, Inc.
+Delaware
+TDOC Direct, LLC
+Delaware
+Teladoc Health Australasia Pty Limited
+Australia
+Teladoc Health Brasil - Serviços de Consultoria em Saude Ltda
+Brazil
+Teladoc Health Brasil - Serviços de Tecnologia Ltda
+Brazil
+Teladoc Health Canada, Inc.
+Canada
+Teladoc Health Denmark ApS
+Denmark
+Teladoc Health France SAS
+France
+Teladoc Health Germany GmbH
+Germany
+Teladoc Health India Private Limited
+India
+Teladoc Health International, Sociedad Anónima Unipersonal
+Spain
+Teladoc Health Ireland Limited
+Ireland
+Teladoc Health Netherlands B.V.
+Netherlands
+Teladoc Health Péru S.A.C.
+Peru
+Teladoc Health Poland sp. z o.o.
+Poland
+Teladoc Health Portugal, S.A.
+Portugal
+Teladoc Health Singapore Pte. Ltd.
+Singapore
+Teladoc Health UK Ltd
+England and Wales
+Teladoc Hungary Consulting and Services Limited Liability Company
+Hungary
+Telecare Australia Pty Ltd
+Australia
+Teladoc U.S. Group Health, Inc.
+Delaware
+Name
+Domestic Jurisdiction
+THF Service Medical
+France
+Uplift Health Technologies, Inc.
+Delaware
+VESC Health Pty LTD
+Australia

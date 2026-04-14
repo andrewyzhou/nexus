@@ -1,0 +1,334 @@
+EX-21.1
+5
+apg-20251231exx211entityli.htm
+EX-21.1
+Document
+Exhibit 21.1
+Legal Name
+Jurisdiction
+Chubb Properties Pty Ltd
+Australia
+Chubb Australia Pty Ltd
+Australia
+Chubb Fire & Security Pty Ltd
+Australia
+Chubb Osterreich GmbH
+Austria
+Security Monitoring Centre BV/SRL
+Belgium
+SMC Monitoring Corporation
+Canada
+Chubb Fire & Security Canada Corporation
+Canada
+Beijing Chubb Fire Security Systems Co., Limited
+China
+Shanghai Chubb Intelligent Building System Co., Ltd.
+China
+Shanghai Chubb Zhuhai Branch
+China
+Api Group France Holdco SAS
+France
+Delta Security Solutions SA
+France
+Cemis Systemes De Securite Incendie (FKA A.I.TEC)
+France
+Chubb Delta Telesurveillance (FKA Delta Telesurveillance TSL SAS)
+France
+Chubb EMEA (Fka UTC Fire Safety EMEA)
+France
+Chubb France
+France
+Chubb Deutschland GmbH
+Germany
+Access Control Systems Limited
+Hong Kong
+Chubb China Holdings Limited
+Hong Kong
+Chubb Hong Kong Limited
+Hong Kong
+Chubb Systems Pvt. Ltd. (Fka Carrier Race Technologies Private Limited)
+India
+API International Capability Centre Private Limited
+India
+MSC Fire Products Limited
+Ireland
+Chubb Ireland Limited
+Ireland
+Chubb Macau Limited
+Macau
+SNC Sicli & CIE (Protecsud Monaco)
+Monaco
+Security Monitoring Centre B.V.
+Netherlands
+Chubb Fire & Security B.V.
+Netherlands
+Chubb International (Netherlands) BV
+Netherlands
+Chubb Nederland B.V.
+Netherlands
+Chubb New Zealand (Fka Chubb New Zealand Limited)
+New Zealand
+Chubb Singapore Pte. Ltd.
+Singapore
+Chubb Iberia
+Spain
+Chubb Sicli SA (Fka Sicli Material-Incendie S.A.)
+Switzerland
+Chubb France - SZ Branch
+Switzerland
+Chubb Hong Kong Limited - TW Branch
+Taiwan
+Chubb (Thailand) Ltd
+Thailand
+Api Group Uk Holdco Limited
+UK
+Chubb Security (Pensions) Limited
+UK
+Mentor Business Systems Limited
+UK
+Security Monitoring Centres Limited
+UK
+Chubb Fire & Security Limited
+UK
+1
+Legal Name
+Jurisdiction
+Chubb Fire Limited
+UK
+Chubb Group (International) Limited
+UK
+Chubb Group Ltd.
+UK
+Chubb Group Properties Limited
+UK
+Chubb Group Security Limited
+UK
+Chubb International Holdings Limited
+UK
+Chubb Limited
+UK
+Api Group Dutch Holdco B.V.
+Netherlands
+Sk Firesafety Group B.V.
+Netherlands
+Saval B.V.
+Netherlands
+RHDJ B.V.
+Netherlands
+Blusgroep B.V.
+Netherlands
+Simplus Brandblusapparaten B.V.
+Netherlands
+De Vries Brandbeveiliging B.V.
+Netherlands
+Hugen Brandbeveiliging En Adviesbureau B.V.
+Netherlands
+Foamxpert B.V.
+Netherlands
+Sk Noord B.V.
+Netherlands
+Fire Safety First B.V.
+Netherlands
+Brandbeveiliging Alkmaar B.V.
+Netherlands
+Aed-Partner International B.V.
+Netherlands
+Vivon Nederland B.V.
+Netherlands
+Vita Nova Supra BVBA
+Belgium
+Chubb Somati Systems NV
+Belgium
+Saval NV
+Belgium
+Noha AB (FKA Firesafety AB)
+Sweden
+Noha Sweden Ab (FKA Brand & Industriskdd I Osby AB)
+Sweden
+Knowsley SK Holding Ltd.
+UK
+Knowsley SK Ltd.
+UK
+Noha Norway AS
+Norway
+APi Canada Holdings ULC
+Canada
+Vipond, Inc.
+Canada
+Atlantic Alarms & Sound
+Canada
+Canam Fire Protection Inc.
+Canada
+NSG Safety Canada Corporation
+Canada
+APi Construction Canada – Specialty Services ULC
+Canada
+Vipond Fire Protection Ltd
+UK
+Three S Inc. De Mexico
+Mexico
+SJ Enterprises (Queensland) Security Pty
+Australia
+Chubb Integrated Security Systems LLC
+United Arab Emirates
+APi Group Finco Limited
+Ireland
+APi Group Finco Switzerland GmbH
+Switzerland
+APi Group Treasury Limited
+Ireland
+2
+Legal Name
+Jurisdiction
+Churchill Casualty Ltd
+Cayman Islands
+3S Incorporated
+Indiana
+A. P. I. Inc.
+Minnesota
+A.P.I. Garage Door, Inc.
+Minnesota
+American Fire Protection Group, Inc.
+Minnesota
+Texas Sprinkler Holdings, Inc. (fka APi Acquisition IV, Inc.)
+Minnesota
+MP Nexlevel Holdings, Inc. (fka APi Acquisition V, Inc.)
+Minnesota
+APi Acquisition, Inc.
+Minnesota
+APi Group Corporation
+Delaware
+APi Group DE, Inc.
+Delaware
+APi Group, Inc.
+Minnesota
+APi Indiana, Inc.
+Minnesota
+APi International, LLC
+Minnesota
+APi Group Foundation
+Minnesota
+APi Group Finance, Inc.
+Minnesota
+APi National Service Group, Inc.
+Minnesota
+APi Real Estate, LLC
+Minnesota
+APi Aviation, LLC
+Minnesota
+Classic Industrial Services, Inc.
+Delaware
+Creamer Jingoli LLC
+New Jersey
+Creamer Ruberton A Joint Venture LP
+New Jersey
+Creamer Sanzari Joint Venture
+New Jersey
+Davis-Ulmer Sprinkler Company, Inc.
+New York
+Endeavor Fire Protection Holdings, LLC
+Delaware
+Valley Fire Protection Services, LLC
+Illinois
+Allegiant Fire Protection, LLC
+Illinois
+Oracle Elevator Holdco, Inc.
+Delaware
+APi Elevator, LLC (fka APi Elevator Holdco, LLC)
+Delaware
+Start Elevator, LLC
+New York
+APi HVAC Services, Inc.
+Wisconsin
+Merit Contracting, LLC
+Delaware
+ICS, Inc.
+North Dakota
+International Fire Protection, Inc.
+Alabama
+J. Fletcher Creamer & Son, Inc.
+New Jersey
+JFC-NER LLC
+New Jersey
+Jomax Construction Company, Inc.
+Kansas
+K & M Fire Protection Services, Inc.
+Connecticut
+K&M Fire N.Y.C., LLC
+New York
+LeJeune Steel Company
+Minnesota
+Mid-Ohio Pipeline Company Inc.
+Ohio
+MMC Holdings, LLC
+Minnesota
+MP Nexlevel of California, Inc.
+Minnesota
+3
+Legal Name
+Jurisdiction
+MP Nexlevel, LLC
+Minnesota
+MP Technologies, LLC
+Minnesota
+Nexlevel Inc.
+Minnesota
+Nexus Alarm & Suppression, Inc.
+Wyoming
+APi Duluth Construction Company, Inc.
+Minnesota
+PSL Supply, LLC
+New York
+Sprinkler Acquisition LLC
+Minnesota
+Sprocket Insurance Company
+Vermont
+T. Texas Sprinkler, L.P.
+Texas
+Technologies Inc.
+Minnesota
+Tenet Corp
+Minnesota
+TEXASSPRINKLER, LLC
+Arkansas
+The Jamar Company
+Minnesota
+TL Nexlevel Companies, LLC
+Minnesota
+TLR Consulting, Inc.
+Minnesota
+United Piping, Inc.
+Minnesota
+Minnesota North Pipeline Services JV, LLC
+Minnesota
+United States Alliance Fire Protection, Inc.
+Delaware
+Viking Automatic Sprinkler Company
+Minnesota
+W&M Sprinkler Company, Inc.
+New York
+W&M Sprinkler-NYC, LLC
+New York
+APi Group Life Safety USA LLC
+Minnesota
+Wright Service Center, LLC
+Minnesota
+Architekton Partners LLC
+Georgia
+SRI Fire Sprinkler, LLC
+New York
+Palmetto Automatic Sprinkler Co, LLC
+Delaware
+W&M Sprinkler-NYC, LLC
+New York
+APi Group Life Safety USA LLC
+Minnesota
+Wright Service Center, LLC
+Minnesota
+Architekton Partners LLC
+Delaware
+SRI Fire Sprinkler, LLC
+New York
+Palmetto Automatic Sprinkler Co, LLC
+Delaware
+4

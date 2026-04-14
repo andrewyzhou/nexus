@@ -1,0 +1,15 @@
+TICKER: ENTG
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain partners. Recent examples of this strategy include our new facilities in Kaohsiung Science Park (“KSP”) in Taiwan and in Colorado Springs as well as our new Korea Technology Center in South Korea. In December 2024, we announced a definitive agreement providing for up to $77.0 million in funding under the CHIPS and Science Act in connection with our Colorado Springs facility, with installments of such award based on key milestone achievements. The Colorado Springs facility will increase service levels to new U.S. fabs and provide greater manufacturing resiliency through enhanced business continuity, while our KSP facility will enhance our ability to serve our customers efficiently and effectively in Taiwan and other Asia Pacific locations. See “
+
+--- VENDORS ---
+vendors and other third parties. We also conduct due diligence and reviews of cybersecurity policies of third parties that access our systems or data. Additionally, we are focused on segregating our
+
+--- MANUFACTURING ---
+contract manufacturers for certain products in both the U.S. and Asia. RAW MATERIALS Our products are made from a wide variety of
+
+--- RAW_MATERIALS ---
+RAW MATERIALS Our products are made from a wide variety of raw materials that are generally available from multiple sources of supply, and our strategy is to secure diverse sources to enable the desired performance of our products and monitor those sources as necessary to provide supply assurance. However, certain raw materials and components—such as certain filtration membranes and polymer resins in our APS segment and certain engineered abrasive particles, specialty and commodity chemicals and petroleum coke in our MS segment—are obtained from a single source, a limited group of suppliers or from suppliers in a single country. We have entered into multi-year supply agreements with certain suppliers for the purchase of raw materials in the interests of supply assurance and cost control. GOVERNMENTAL REGULATION Our operations are subject to federal, state and local regulatory requirements relating to export controls, environmental, waste management and health and safety matters. These include measures governing the release, use, storage, treatment, transportation, discharge, disposal and remediation of contaminants, hazardous substances and wastes, as well as practices and procedures applicable to plant construction and operation. Although some risk of costs and liabilities is inherent in our business, we believe we operate in substantial compliance with applicable regulations. However, new or more stringent requirements or enforcement policies could be adopted, which could adversely affect us. We expect capital expenditures will be necessary to maintain compliance with environmental and health and safety laws, but we do not expect these expenditures to be material. See “
+

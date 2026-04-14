@@ -1,0 +1,41 @@
+EX-21.1
+5
+ex211-q42025.htm
+EX-21.1
+Document
+List of Company Subsidiaries
+1
+Subsidiary
+Jurisdiction
+T1 Energy Holding Inc.
+Delaware
+T1 Energy US, LLC
+Delaware
+Alussa Energy Acquisition Corp.
+Cayman Islands
+T1 Energy Norway AS
+Norway
+T1 Energy Giga Arctic AS
+Norway
+T1 Energy Norway Holding AS
+Norway
+FREYR Battery Finland Oy
+Finland
+FREYR Battery Finland Joint Venture Oy
+Finland
+FREYR Battery Luxembourg S.à r.l.
+Luxembourg
+T1 Energy Singapore PTE. Ltd.
+Singapore
+T1 G2 Austin Solar Cell LLC
+Delaware
+T1 G1 Dallas Holding Inc.
+Delaware
+T1 G1 Dallas Midco Inc.
+Delaware
+T1 G1 Dallas Associated Entity LLC
+Texas
+T1 G1 Dallas Solar Module LLC
+Texas
+1
+Based on T1 Energy Inc.’s company structure chart dated as of March 24, 2026.

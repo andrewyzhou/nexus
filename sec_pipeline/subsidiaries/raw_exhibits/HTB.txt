@@ -1,0 +1,19 @@
+EX-21
+4
+htb-2025x12x31x10kxex21.htm
+EX-21
+Document
+Exhibit 21
+SUBSIDIARIES OF THE REGISTRANT
+Parent
+Subsidiary
+Percentage of Ownership
+State of Incorporation or Organization
+HomeTrust Bancshares, Inc.
+HomeTrust Bank
+100%
+North Carolina
+HomeTrust Bank
+Western North Carolina Service Corporation
+100%
+North Carolina

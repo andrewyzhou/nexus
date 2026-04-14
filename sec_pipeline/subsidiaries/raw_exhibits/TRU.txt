@@ -1,0 +1,271 @@
+EX-21
+3
+exhibit21subsidiarieslist2.htm
+EX-21
+Document
+Exhibit 21
+LIST OF SUBSIDIARIES
+Subsidiary
+Jurisdiction of Organization
+Administrative Services, LLC
+DE
+Argus Information and Advisory Services, Inc.
+DE
+Commerce Signals, Inc.
+DE
+CreditRetriever LLC
+DE
+Data Solutions Services, LLC
+DE
+Drivers History Information Sales LLC
+DE
+FactorTrust, Inc.
+DE
+iovation Inc.
+DE
+JovianData, Inc.
+DE
+L2C, Inc.
+DE
+LSSi Data Corp.
+DE
+MarketShare Acquisition Corporation
+DE
+MarketShare Holdings, Inc.
+DE
+MarketShare Partners Asia, LLC
+DE
+MarketShare Partners, LLC
+DE
+Monevo Inc
+DE
+Monevo II, LLC
+DE
+Neustar Data Services, Inc.
+DE
+Neustar Information Services, Inc.
+DE
+Neustar International Services, Inc.
+DE
+Neustar IP Intelligence, Inc.
+DE
+Neustar NGM Services, LLC
+DE
+Neustar, Inc.
+DE
+Signal Digital, Inc.
+DE
+Sontiq, Inc.
+DE
+Trans Union Content Solutions LLC
+DE
+Trans Union International, Inc.
+DE
+Trans Union LLC
+DE
+TransUnion Data Solutions LLC
+DE
+TransUnion Digital LLC
+DE
+TransUnion Enterprises LLC
+DE
+TransUnion Exchange LLC
+DE
+TransUnion Gaming Services Holdings LLC
+DE
+TransUnion Gaming Services LLC
+DE
+TransUnion Global Holdings LLC
+DE
+TransUnion Interactive, Inc.
+DE
+TransUnion Intermediate Holdings, Inc.
+DE
+TransUnion International Holdings LLC
+DE
+TransUnion Rental Screening Solutions, Inc.
+DE
+TransUnion Risk and Alternative Data Solutions, Inc.
+DE
+Tru Optik Data Corp.
+DE
+TruSignal, Inc.
+DE
+TRUSTID, Inc.
+DE
+Verifacts LLC
+DE
+Visionary Systems, Inc.
+GA
+Datalink Services, Inc.
+NV
+Scout Risk Group, Inc.
+VT
+Argus Information and Advisory Services Australia Pty Ltd
+Australia
+CyberScout Pty Ltd.
+Australia
+Monevo Pty Limited
+Australia
+Credit Reference Bureau Africa (Pty) Ltd.
+Botswana
+TransUnion (Proprietary) Ltd.
+Botswana
+Neustar Brasil Tecnologia E Marketing Ltda.
+Brazil
+TransUnion Brasil Sistemas em Informatica Ltda.
+Brazil
+CyberScout Inc.
+Canada
+CyberScout Adjusting Inc.
+Canada
+Trans Union of Canada, Inc.
+Canada
+Trans Union Chile, S.A.
+Chile
+TransUnion Soluciones de Informacion Chile SA
+Chile
+TransUnion Information Technology (Beijing) Co., Ltd.
+China
+CIFIN S.A.S.
+Colombia
+TransUnion Costa Rica TUCR, S.A.
+Costa Rica
+TransUnion Global Capability Center Costa Rica Limitada
+Costa Rica
+TransUnion CS d.o.o.
+Croatia
+TransUnion Holding Cyprus Ltd.
+Cyprus
+Centro de Informacion y Estudios Estrategicos Empresariales S.A.
+Dominican Rep.
+Centro de Operaciones y Servicios de Informacion Estrategica, S.A.
+Dominican Rep.
+Trans Union, S.A.
+Dominican Rep.
+TransUnion El Salvador, S.A. de C.V.
+El Salvador
+TransUnion Eswatini (Pty) Ltd.
+Eswatini
+Neustar GmbH
+Germany
+Soluciones de Informatica de Centroamerica (SICE), S.A.
+Guatemala
+Trans Union Guatemala, S.A.
+Guatemala
+TransUnión Honduras-Buró de Crédito Sociedad Anónima
+Honduras
+Credit Information Services Limited
+Hong Kong
+Neustar Hong Kong Ltd.
+Hong Kong
+TransUnion Asia Ltd.
+Hong Kong
+TransUnion Credit Information Services Limited
+Hong Kong
+TransUnion Limited
+Hong Kong
+TransUnion Global Capability Center Private Limited
+India
+TransUnion India Data Analytics Solutions Private Limited
+India
+TransUnion CIBIL Limited
+India
+TransUnion Global Technology Center LLP
+India
+CyberScout Ventures Ltd.
+Ireland
+Trustev Limited
+Ireland
+Credit Information Systems Company Limited
+Kenya
+Credit Reference Bureau (Holdings) Limited
+Kenya
+Credit Reference Bureau Africa Ltd.
+Kenya
+TransUnion Kenya Limited
+Kenya
+TransUnion Ltd.
+Malawi
+CyberScout Sdn Bhd.
+Malaysia
+TransUnion (Mauritius) Limited
+Mauritius
+STS Vail Beheeren Administracion S. DE. R.L. DE C.V.
+Mexico
+TransUnion Reverse Exchange S de R.L. de C.V.
+Mexico
+TransUnion Soluciones de Informacion, S de R.L de C.V.
+Mexico
+TransUnion Credit Bureau Namibia (Pty) Ltd.
+Namibia
+Neustar IP Intelligence, B.V.
+Netherlands
+Trans Union Nicaragua, S.A.
+Nicaragua
+Trans Union Central America, S.A.
+Panama
+TransUnion Information Solutions Inc.
+Philippines
+Trans Union de Puerto Rico, Inc.
+Puerto Rico
+TransUnion Rwanda Limited
+Rwanda
+TransUnion Africa (Pty) Ltd.
+South Africa
+TransUnion Africa Holdings (Pty) Ltd.
+South Africa
+TransUnion Analytic and Decision Services (Pty) Ltd.
+South Africa
+TransUnion Credit Bureau (Pty) Ltd.
+South Africa
+TransUnion Global Capability Centre Africa (Pty) Ltd.
+South Africa
+Confirma Sistemas de Informacion, S.L.
+Spain
+TransUnion Information Group Spain S.L.U.
+Spain
+Collection Africa Ltd.
+Tanzania
+Credit Reference Bureau Africa Ltd.
+Tanzania
+Credit Reporting Services Limited
+Trinidad & Tobago
+Argus Information and Advisory Services UK Ltd
+United Kingdom
+Callcredit Marketing Limited
+United Kingdom
+Crown Acquisition BidCo, Ltd.
+United Kingdom
+CyberScout Limited
+United Kingdom
+DecisionMetrics Limited
+United Kingdom
+iovation, Ltd.
+United Kingdom
+MarketShare Partners EMEA, Ltd.
+United Kingdom
+Monevo Limited
+United Kingdom
+Monevo Holdco 2 Limited
+United Kingdom
+Monevo IPCo 1 Limited
+United Kingdom
+Monevo Technology Limited
+United Kingdom
+Neustar Technologies Limited
+United Kingdom
+TransUnion Global Funding Limited
+United Kingdom
+TransUnion Global Holdings LP
+United Kingdom
+TransUnion Information Group, Limited
+United Kingdom
+TransUnion International UK Limited
+United Kingdom
+TransUnion UK Holdings Ltd.
+United Kingdom
+Vail Holdings UK Ltd.
+United Kingdom
+Credit Reference Bureau Africa Ltd.
+Zambia

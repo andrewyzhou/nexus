@@ -1,0 +1,89 @@
+EX-21.1
+5
+d66072dex211.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+LIST OF SUBSIDIARIES OF LANDSTAR SYSTEM, INC.
+(as of December 27, 2025)
+Name
+Jurisdiction of
+Incorporation
+% of Voting
+Securities Owned
+Subsidiary of Landstar System, Inc.
+Landstar System Holdings, Inc.
+Delaware
+100
+Subsidiaries of Landstar System Holdings, Inc.
+Landstar Inway, Inc.
+Delaware
+100
+Landstar Global Logistics, Inc.
+Delaware
+100
+Landstar Ligon, Inc.
+Delaware
+100
+Landstar Ranger, Inc.
+Delaware
+100
+Risk Management Claim Services, Inc.
+Delaware
+100
+Landstar Transportation Logistics, Inc.
+Delaware
+100
+Also d/b/a Landstar Carrier Services, Inc.
+Landstar Contractor Financing, Inc.
+Delaware
+100
+Signature Insurance Company
+Cayman Islands,
+BWI
+100
+Landstar Canada Holdings, Inc.
+Delaware
+100
+Landstar MH I LLC
+Delaware
+100
+Landstar Blue LLC
+Delaware
+100
+Landstar Investment Holdco, LLC
+Delaware
+100
+Landstar Transfronteras LLC
+Delaware
+100
+Subsidiary of Landstar Canada Holdings, Inc.
+Landstar Canada, Inc.
+Ontario, Canada
+100
+Also d/b/a Enterprise Landstar Canada in Quebec
+Subsidiary of Landstar Global Logistics, Inc.
+Landstar Express America, Inc.
+Delaware
+100
+Subsidiary of Landstar Ranger, Inc.
+Landstar Gemini, Inc.
+Delaware
+100
+Also d/b/a Landstar Less Than Truck Load
+Also d/b/a Landstar LTL
+Subsidiary of Landstar MH I LLC
+Landstar MH II LLC
+Delaware
+100
+Landstar Holdings, S. de R.L.C.V.
+Mexico
+0.1
+Subsidiary of Landstar MH II LLC
+Landstar Holdings, S. de R.L.C.V.
+Mexico
+99.9
+Subsidiary of Landstar Holdings, S. de R.L.C.V.
+Landstar Metro, S.A.P.I. de C.V.
+Mexico
+100

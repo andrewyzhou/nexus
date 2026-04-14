@@ -1,0 +1,956 @@
+TICKER: ILLR
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain, and contributed to inflationary pressures. Financial markets around the world
+experienced volatility following the recent invasion of Ukraine by Russia. In response to the invasion, the United States, United Kingdom
+and EU, along with others, imposed significant new sanctions and export controls against Russia, Russian banks and certain Russian individuals
+and may implement additional sanctions or take further punitive actions in the future. The full economic and social impact of the sanctions
+imposed on Russia (as well as possible future punitive measures that may be implemented), as well as the counter measures imposed by
+Russia, in addition to the ongoing military conflict between Ukraine and Russia and related sanctions, which could conceivably expand
+into the surrounding region, remains uncertain; however, both the conflict and related sanctions have resulted and could continue to
+result in disruptions to trade, commerce, pricing stability, credit availability, supply chain continuity and reduced access to liquidity
+in both Europe and globally, and has introduced significant uncertainty into global markets. In particular, the ongoing Russia-Ukraine
+conflict and related sanctions has contributed to rapidly rising costs of living (driven largely by higher energy prices) in Europe and
+other advanced economies. Further, a weak or declining economy could strain Triller’s suppliers and manufacturers. As a result,
+Triller’s business and results of operations may be adversely affected by the ongoing conflict between Ukraine and Russia and related
+sanctions, particularly to the extent it escalates to involve additional countries, further economic sanctions or wider military conflict. 37 Generally,
+during times of war and other major conflicts, Triller, the third parties on which Triller relies, and Triller’s partners may be
+vulnerable to a heightened risk of cyberattacks, including retaliatory cyberattacks, that could seriously disrupt Triller’s business.
+Triller has experienced an increase in attempted cyberattacks on its products, systems, and networks, which Triller believes are related
+to the conflict. Triller may also face retaliatory attacks by governments, entities, or individuals who do not agree with its public
+expressions of support for Ukraine and its Ukrainian team members. Any such attack could cause disruption to Triller’s platform,
+systems, and networks, result in security breaches or data loss, damage Triller’s brand, or reduce demand for Triller’s services
+or advertising products. In addition, Triller may face significant costs (including legal and litigation costs) to prevent, correct,
+or remediate any such breaches. Triller may also be forced to expend additional resources monitoring its platform for evidence of disinformation
+or misuse in connection with the ongoing conflict. Unfavorable macroeconomic conditions,
+including those caused by inflation or reductions in customers’ spending, could limit Triller’s ability to grow its business
+and negatively affect its results of operations. Triller’s
+business is also impacted by macroeconomic factors. General business and economic conditions that could affect Triller’s business,
+financial condition or results of operations include fluctuations in economic growth, debt and equity capital markets, liquidity of the
+global financial markets, access to Triller’s liquidity within the U.S. banking system, the availability and cost of credit, investor
+and consumer confidence, and the strength of the economies in which Triller, its manufacturers and its suppliers operate. Triller’s
+products and services may be considered discretionary items for consumers. Factors affecting the level of consumer spending for such
+discretionary items include general economic conditions and other factors, such as consumer confidence in future economic conditions,
+recessionary forces, rising and fluctuating interest rates, the availability and cost of consumer credit, levels of unemployment and
+tax rates. In recent years, the United States and other significant economic markets have experienced cyclical downturns and worldwide
+economic conditions remain uncertain. As global economic conditions continue to be volatile or economic uncertainty remains, trends in
+consumer discretionary spending also remain unpredictable and subject to reductions and, therefore, Triller cannot be sure the extent
+to which Triller may be affected by recessionary conditions. Unfavorable economic conditions may lead consumers to delay or reduce purchases
+of Triller’s products and consumer demand for its products may not grow as Triller expects. Triller’s sensitivity to economic
+cycles and any related fluctuation in consumer demand for its products and services could materially adversely affect Triller’s
+business, financial condition, and results of operations. In addition, political instability or adverse political developments could
+harm Triller’s business, financial condition and results of operations. In
+addition, market volatility, the high inflationary environment and economic uncertainty make it potentially very difficult for Triller’s
+customers, its Brands, Creators and Triller to accurately forecast and plan future business activities. During challenging economic times,
+Creators, Brands and users may have difficulty gaining timely access to sufficient credit or obtaining credit on reasonable terms and
+may face increased costs or other negative financial impacts, each of which could impair their ability to make timely payments to Triller
+and adversely affect Triller’s revenue. If that were to occur, Triller’s financial results could be harmed. Further, challenging
+economic conditions may impair the ability of Triller’s Creators, Brands and users partners to pay for the applications and services
+Triller offers, which may impact demand for its products. In addition, a weak or declining economy could also strain Triller’s
+suppliers and manufacturers, possibly resulting in supply disruption. Any of the foregoing could harm Triller’s business and Triller
+cannot anticipate all of the ways in which the current economic climate and financial market conditions could adversely impact Triller’s
+business. 38 Triller’s
+financial performance in certain quarters and years may fluctuate and may not be indicative of, or comparable to, its financial performance
+in subsequent financial quarters or years due to economic conditions and operational factors. Triller’s
+business is impacted geopolitical events, the overall macro-economy, Brands’ marketing budgets and expenditures and other factors
+such as interest rates. For example, when Brands have higher marketing expenditures or budgets, which often correspond to broader economic
+factors, Triller benefits from these trends. In addition, Triller may generate less revenue during reporting periods that have fewer
+major public or civic engagement on social media, which would have otherwise generated marketing dollars, resulting in lower marketing
+spend by Brands. Triller’s intention is to continue to diversify its client base such that any one of these factors or events would
+have a less significant impact on its overall revenue and operating results. If Triller is unsuccessful in diversifying its client base,
+Triller would continue to be subject to significant fluctuation in its annual and quarterly results, and this may materially adversely
+affect Triller’s business, financial condition, and results of operations. Triller’s
+recent acquisitions have caused Triller to grow rapidly, and Triller will need to continue to make changes to operate at its current
+size and scale. Triller has in the past faced and may in the future face, difficulty in integrating the operations of the businesses
+acquired in its recent transactions, and Triller may never realize the anticipated benefits and cost synergies from all of these transactions.
+If Triller is unable to manage its current operations or any future growth effectively, its business could be adversely affected. Triller’s
+recent acquisitions have caused Triller to grow rapidly, and Triller may need to continue to make changes to operate at its current size
+and scale. If Triller fails to realize the anticipated benefits and cost synergies from its recent acquisitions, or if it experiences
+any unanticipated or unidentified effects in connection with these transactions, including write-offs of goodwill, accelerated amortization
+expenses of other intangible assets or any unanticipated disruptions with important third-party relationships, Triller’s business,
+financial condition and results of operations could be adversely affected. Moreover, Triller’s recent acquisitions involve risks
+and uncertainties including those associated with the integration of operations, financial reporting, technologies and personnel and
+the potential loss of key employees, customers or strategic partners. The integration of Triller’s acquired businesses has and
+will require significant time and resources. For example, Triller currently manually closes the books across its various subsidiaries
+and business units, and manually consolidate and roll up such subsidiary financials into Triller’s consolidated financial statements.
+Triller does not currently utilize a consolidated ERP system to manage the closing of Triller’s books or the roll up of financials
+into Triller’s consolidated financials. This process creates a risk of errors, is time intensive and costly. Triller may not be
+able to manage the integration of acquired businesses successfully or achieve the strategic, financial or operating objectives of the
+acquisition or integration, any of which could adversely affect Triller’s business, results of operations or the value of Triller’s
+acquisitions, and these acquisitions may not be accretive to its earnings and may negatively impact its results of operations. If Triller’s
+operations continue to grow, Triller will be required, among other things, to upgrade its information systems and other processes and
+to obtain more space for its expanding administrative support and other personnel. Triller’s continued growth could strain its
+resources, and Triller could experience operating difficulties, including difficulties in hiring, training and managing an increasing
+number of employees. These difficulties could result in the erosion of Triller’s brand image and reputation and could have an adverse
+effect on its business, financial condition, and operating results. If
+the Company acquires, combines with or invests in other businesses, it will face risks inherent in such transactions. The
+Company has in the past considered and will continue, from time to time, to consider, opportunistic strategic or transformative transactions,
+which could involve acquisitions, combinations or dispositions of businesses or assets, or strategic alliances or joint ventures with
+companies engaged in music entertainment, entertainment or other businesses. Any such combination could be material, be difficult to
+implement, disrupt the Company’s business or change its business profile, focus or strategy significantly. The
+Company entered into multiple strategic alliances in the past and later recognized related impairment losses on investments and goodwill.
+The Company may incur debts in the future upon an acquisition or suffer losses related to impairment of these investments. The Company
+will continue to examine the merits, risks and feasibility of potential transactions, and expect to explore additional acquisition opportunities
+in the future. Such examination and exploration efforts, and any related discussions with third parties, may or may not lead to future
+acquisitions and investments. The Company may not be able to complete acquiring or investing transactions that the Company initiates.
+The Company’s ability to grow through such acquisitions and investments will depend on many factors, including the availability
+of suitable acquisition candidates at an acceptable cost, the Company’s ability to reach agreement with acquisition candidates
+or investee companies on commercially reasonable terms, the availability of financing to complete transactions and the Company’s
+ability to obtain any required governmental approvals. 39 Any
+future transaction could involve numerous risks, including: ● potential disruption of
+    the Company’s ongoing business and distraction of management; ● potential loss of Creators
+    and Brands (e.g. musicians, athletes, and influencers); ● difficulty integrating
+    the acquired businesses or segregating assets to be disposed of; ● exposure to unknown and/or
+    contingent or other liabilities, including litigation arising in connection with the acquisition, disposition and/or against any
+    businesses the Company may acquire; ● reputational or other damages
+    to the Company’s business as a result of a failure to consummate such a transaction for, among other reasons, failure to gain
+    antitrust approval; ● difficulty in realizing
+    synergies between acquired businesses and the Company’s current businesses, including the Company’s ability to achieve
+    the customer synergies that motivated the acquisition; ● acquired businesses having
+    different users or customers than the Company’s current businesses, including resulting increased administrative burdens and
+    need for additional personnel; and ● changing the Company’s
+    business profile in ways that could have unintended consequences. If
+the Company enters into significant transactions in the future, related accounting charges may affect its business, results of operations
+and financial condition, particularly in the case of any acquisitions. In addition, the financing of any significant acquisition may
+result in changes in the Company’s capital structure, including the incurrence of additional indebtedness, which may be substantial.
+Conversely, any material disposition could reduce the Company’s indebtedness or require the amendment or refinancing of the Company’s
+outstanding indebtedness or a portion thereof. the Company may not be successful in addressing these risks or any other problems encountered
+in connection with any strategic or transformative transactions. The Company cannot assure you that if it makes any future acquisitions,
+investments, strategic alliances or joint ventures or enter into any business combination that they will be completed in a timely manner,
+or at all, that they will be structured or financed in a way that will enhance the Company’s creditworthiness or that they will
+meet the Company’s strategic objectives or otherwise be successful. The Company also may not be successful in implementing appropriate
+operational, financial and management systems and controls to achieve the benefits expected to result from these transactions. Failure
+to effectively manage any of these transactions could result in material increases in costs or reductions in expected revenues, or both.
+In addition, if any new business in which the Company invests or which it attempts to develop does not progress as planned, it may not
+recover the funds and resources the Company has expended and this could have a negative impact on the Company’s businesses or the
+Company’s company as a whole. Triller
+is involved in lawsuits and other litigation matters that are expensive and time consuming, and, if resolved adversely, could harm Triller’s
+business, financial condition, or results of operations. Triller
+is involved in numerous lawsuits, many of which claim statutory damages and/or seek significant changes to Triller’s business operations,
+and Triller anticipates that it will continue to be involved in numerous lawsuits in the future. Triller has faced, currently face, and
+will continue to face additional lawsuits based on claims related to, among other things, advertising, privacy, security, content intellectual
+property infringement, employment or performance of services, activities on Triller’s Technology Platform, consumer protection,
+or product performance or other claims related to the use of consumer hardware and software, music used on Triller’s platform or
+related to Triller’s acquisitions. For example, Triller is currently the subject of various litigation proceedings, including a
+class action lawsuit alleging unpaid wages for production workers, a lawsuit to collect all fees due by Universal Music Publishing Group
+amongst other claims, a class action against one of Triller’s subsidiaries over the use of consumer personal identifying information
+and a lawsuit by two social media influencers claiming they are entitled to equity based on services, some of which are entering mediation
+and/or settlement discussions. There
+can be no assurances that a favorable final outcome will be obtained in all Triller’s cases, and defending any lawsuit is costly
+and can impose a significant burden on management and employees. Any litigation to which Triller is a party may result in an onerous
+or unfavorable judgment that may not be reversed upon appeal or in payments of substantial monetary damages or fines, or Triller may
+decide to settle lawsuits on similarly unfavorable terms, which has occurred in the past and which could adversely affect Triller’s
+business, financial conditions, or results of operations. 40 If
+these lawsuits are not resolved in its favor, Triller would not have enough cash on hand to meet these obligations unless it is able
+to raise additional capital in an amount sufficient to satisfy them. This may affect Triller’s ability to remain solvent and pay
+its obligations when they come due, including under existing litigation settlement obligations and new litigation adverse judgments. In
+the past, securities class action litigation has often been brought against a company following a decline in the market price of its
+securities. This risk is especially relevant for Triller because technology companies have experienced significant stock price volatility
+in recent years. If Triller faces such litigation, it could result in substantial costs and a diversion of management’s attention
+and resources, which could harm Triller’s business. Planned
+expansion of Triller’s operations into new products, services and technologies, including content categories, is inherently risky
+and may subject Triller to additional business, legal, financial and competitive risks. Triller
+currently focus its operations on its AI powered Technology Platform, which provides content creation and distribution (Triller app,
+TrillerTV, Metaverz, Thuzio and Amplify.ai), fan engagement (Fangage, Julius and Amplify.ai) and targeted promotions and upsells (CrossHype)
+products and services across the digital platforms used by Triller’s Creators and Brands. Further expansion of Triller’s
+operations and its marketplace into additional products and services involves numerous risks and challenges, including potential new
+competition, increased capital requirements and increased marketing spend to achieve customer awareness of these new products and services.
+Growth into additional content, product and service areas may require changes to Triller’s existing business model and cost structure
+and modifications to its infrastructure and may expose Triller to new regulatory and legal risks, any of which may require expertise
+in areas in which Triller has little or no experience. There is no guarantee that Triller will be able to successfully expand its products
+and services into these areas. Improper
+or illegal use of Triller’s Technology Platform could seriously harm Triller’s business and reputation. Triller
+cannot be certain that the technologies that Triller has developed to repel spamming attacks will be able to eliminate all spam messages
+from its products. Spammers attempt to use Triller’s products to send targeted and untargeted spam messages to users, which may
+embarrass or annoy users and make Triller’s products less user friendly. Triller does not currently have procedures or processes
+in place to accurately estimate the number of bots or spammers on Triller’s Technology Platform, but are actively working to prevent
+bots and spammers from engaging on Triller’s platform. Triller’s actions to combat spam may also divert significant time
+and focus from improving its products. As a result of spamming activities, Triller’s users may use its products less or stop using
+them altogether, and result in continuing operational cost to Triller. Triller may also be subject to liability or claims related to
+such spamming activity. Similarly,
+terrorists, criminals, and other bad actors may use Triller’s Technology Platform to promote their goals and encourage users to
+engage in terror and other illegal activities. Triller expects that as more people use its Technology Platform, these bad actors will
+increasingly seek to misuse Triller’s products. Although Triller invests resources to combat these activities, including by suspending
+or terminating accounts Triller believes are violating its Terms of Service, it expects these bad actors will continue to seek ways to
+act inappropriately and illegally on its Technology Platform. Combating these bad actors requires Triller’s teams to divert significant
+time and focus from improving its products. In addition, Triller may not be able to control or stop its Technology Platform from becoming
+the preferred application of use by these bad actors, which may become public knowledge and seriously harm Triller’s reputation
+or lead to lawsuits or attention from regulators. If these activities increase on Triller’s Technology Platform, Triller’s
+reputation, user growth and user engagement, and operational cost structure could be seriously harmed. 41 Triller
+tracks certain performance metrics with internal tools and do not independently verify such metrics. Certain of Triller’s performance
+metrics are subject to inherent challenges in measurement, and real or perceived inaccuracies in such metrics may harm Triller’s
+reputation and negatively affect its business. Triller
+calculates Consumer Accounts using internal company data that has not been independently verified. These numbers are based on what Triller
+believes to be reasonable calculations for the applicable period of measurement, but there are inherent challenges in measuring Consumer
+Accounts. For example, while Triller endeavors to accurately capture its Consumer Accounts, from time to time certain bot and/or duplicate
+accounts are created and appear on its Technology Platform which may impact the number of Consumer Accounts. As a result, Triller’s
+reported Consumer Accounts may include bot and duplicative accounts, thereby overstating Triller’s actual Consumer Accounts. While
+Triller has recently undergone a robust process to purge as many of the duplicate and bot accounts as practical given Triller’s
+resources and Triller regularly monitors and reviews these figures and have put in place controls designed to prevent bot users and or
+duplicates, there can be no assurance that these controls will be effective in eliminating all bot or duplicate accounts. The inclusion
+of duplicate and/or bot accounts in the Consumer Accounts reported at any given time may lead to an inaccurate assessment of the total
+number of Consumer Accounts on Triller’s Technology Platform. If Creators, Brands and users do not perceive Triller’s metrics
+to be accurate representations, or if Triller discovers material inaccuracies in its metrics, Triller’s reputation may be harmed
+and Creators, Brands and users may be less willing to utilize Triller’s Technology Platform or to allocate their budgets or resources
+to Triller’s products and services, which could negatively affect Triller’s business and operating results. In addition,
+if investors, analysts or customers do not believe Triller’s reported measures, such as Consumer Accounts, are sufficient or accurately
+reflect Triller’s business, Triller may receive negative publicity and its operating results may be adversely impacted. If
+Triller’s efforts to attract Creators, users, consumers and Brands are not successful, Triller’s revenues will be adversely
+affected. Triller
+generates revenue through Brands and consumers, with the majority of its revenue coming from Brands. To succeed, Triller must continue
+to attract and retain Creators, users and consumers who have traditionally engaged with internet and social media platforms such as Instagram,
+Snapchat and TikTok, as well as well as with video games, cable television, pay-per-view and video-on-demand services
+for entertainment. With additional Creators and consumers, Triller will attract more Brands which will improve its revenue. Triller’s
+ability to attract and retain Creators and users and consumers and have them regularly engage with Triller’s Technology Platform
+depends in part on Triller’s ability to consistently provide its Creators, users and consumers a high-quality experience. Triller
+must also continue to attract and retain influential Creators such as celebrities, athletes, journalists, sports leagues and teams, media
+outlets and Brands to leverage its Technology Platform to disseminate content and interact and transact with their followers, and users
+and consumers. Typically, Triller’s agreements with Creators may be terminated by Creators at any time. If Creators and consumers
+in either category do not perceive Triller’s products to be of high quality, if Triller introduces new products or features that
+are not favorably received by them or if Triller fails to introduce products and features that they desire, it may not be able to attract
+or retain Creators and users and consumers. Triller also cannot guarantee that it will be able to continue to identify these Creators
+in the future. Additionally, throughout Triller’s history, Creators from time to time have stopped participating on Triller’s
+Technology Platform and in Triller’s Events for any number of reasons, and Triller cannot guarantee that it will be able to retain
+current Creators. Additionally, many of Triller’s Creators users and consumers originate from word-of-mouth and referrals
+from existing Creators users and consumers. If Triller’s efforts to satisfy its existing Creators, users and consumers are not
+successful, Triller may not be able to attract new Creators, users and consumers, and as a result, it may fail to attract or retain Brands
+and its revenue may be affected adversely. Triller’s
+success depends on its ability to attract Brands to its Technology Platform and provide users and consumers with engaging content, which
+in part depends on Creator contributed content. If Triller or Creators, including influential Creators, such as celebrities, athletes,
+journalists, sports leagues and teams, media outlets and Brands, do not continue to contribute engaging content to Triller’s Technology
+Platform, Triller’s consumer growth, retention and engagement may decline. That, in turn, may impair Triller’s ability to
+maintain good relationships with Brands that utilize Triller’s Technology Platform or attract new Brands, which may seriously harm
+Triller’s business and financial performance. Use
+of social media by Triller’s Creators, Brands and users may materially and adversely affect Triller’s reputation or subject
+Triller to fines or other penalties. Triller
+integrates third-party social media platforms into its Technology Platform. For example, in addition to Triller’s own content on
+its website and Triller app, Triller’s Creators can share content on social-media platforms such as Facebook, Instagram, TikTok
+and Twitter. As laws and regulations rapidly evolve to govern the use of these platforms and devices, the failure by us, Triller’s
+employees, Triller’s network of Creators, Triller’s Brands, Triller’s users or third parties acting at Triller’s
+direction to abide by applicable laws and regulations in the use of these platforms and devices or otherwise could subject Triller to
+regulatory investigations, class action lawsuits, liability, fines or other penalties and have a material adverse effect on Triller’s
+business, financial condition and results of operations. 42 In
+addition, any use of social media for marketing may increase the burden on Triller to monitor compliance of such materials, and increase
+the risk that such materials could contain problematic product or marketing claims in violation of applicable regulations. For example,
+in some cases, the Federal Trade Commission (“ FTC ”) has sought enforcement action where an endorsement has failed
+to clearly and conspicuously disclose a material relationship between an influencer and an advertiser. While Triller asks Creators to
+comply with FTC regulations and Triller’s guidelines, Triller does not regularly monitor what its Creators post, and if Triller
+were held responsible for the content of their posts, it could be forced to alter its practices, which could have material adverse effect
+on Triller’s business, financial condition, and results of operations. Negative
+commentary regarding us, Triller’s products or Creators or Brands, Triller’s users and other third parties who are affiliated
+with Triller may also be posted on social media platforms and may be adverse to Triller’s reputation or business. Creators with
+whom Triller maintains relationships could engage in behavior or use their platform to communicate directly with Triller’s users
+and consumers in a manner that reflects poorly on Triller’s brand and may be attributed to Triller or otherwise adversely affect
+Triller. It is not possible to prevent such behavior, and the precautions Triller takes to detect this activity may not be effective
+in all cases. The harm may be immediate, without affording Triller an opportunity for redress or correction. Triller
+may not be successful in its efforts to further monetize its Technology Platform, which may harm Triller’s business. Triller’s
+Technology Platform generates revenue through Brands and consumers, with most of Triller’s revenue generated from Brands through
+revenue sharing and service fee arrangements. When Triller enables the consumption of content by individuals in the form of Triller branded
+live Events, Triller creates an ecosphere of content across its Technology Platform offerings and it also generates revenue in the form
+of live-event ticket sales, pay-per-view fees, subscriptions and merchandise sales. Triller’s partnerships with high-profile Creators
+and Brands enable Triller to host live Events that receive massive viewership. As such, Triller is seeking to expand its relationships
+with Brands, its Creator and consumer base and increase the number of hours that consumers spend on Triller’s Technology Platform
+and the volume of content that is published across and from Triller’s Technology Platform in an effort to create additional revenue
+opportunities. Triller has made, and are continuing to make, significant investments to enable users, Brands, Creators, and advertisers
+to create compelling content and deliver advertising to Triller’s users. Triller’s
+ability to deliver more relevant content to its users and consumers and to increase its Technology Platform’s value to Brands and
+Creators depends on the collection of engagement data, which may be restricted or prevented by a number of factors. Consumers may decide
+to opt out or restrict some of Triller’s ability to collect personal data or to provide them with more relevant and sponsored content.
+Creators could refuse to allow Triller to collect data regarding engagement or refuse to implement mechanisms Triller requests to ensure
+compliance with Triller’s legal obligations or technical requirements in some instances. If these possible scenarios occur to a
+large enough extent, Triller may not be able to achieve its expected growth in revenue or gross profit. Triller may not be able to compete
+effectively or adapt to any such changes or trends, which would harm Triller’s ability to grow its advertising revenue and harm
+its business. Further,
+Triller may not be successful in further monetizing its Technology Platform. Most of the revenue from Triller’s Technology Platform
+is generated from Brands through revenue sharing and service fee arrangements. Revenue share comes from advertising, premium content,
+Events, pay-per-view fees, subscription fees or merchandise sales that are transacted via Triller’s Technology Platform.
+As a result, Triller’s financial performance and ability to grow revenue could be seriously harmed if: ● Triller does not expand
+    or retain its relationships with Brands and Creators; ● Triller’s reputation
+    is harmed; ● there is a decline in Triller’s
+    available content or a decrease in the perceived quantity, quality, usefulness or relevance of the content provided by Triller and
+    Triller’s Creators; 43 ● competitive developments
+    result in Triller’s competitors possessing various competitive advantages, whether technological or otherwise; ● Triller does not adjust
+    to changes to the industry landscape; ● Triller does not continue
+    to invest in and strengthen Triller’s Technology Platform, including Triller’s suite of Creator offerings and Triller’s
+    Events and Events-related services; ● Triller fails to identify
+    attractive opportunities to enhance existing businesses or grow its portfolio of assets; ● Triller fails to continue
+    to develop creative and entertaining programs and Events; ● macroeconomic conditions,
+    including changes in corporate spending and discretionary consumer spending, divert Brand and consumer expenditures away from the
+    markets Triller serves; and ● Triller fails to produce
+    and/or distribute premier Events throughout the year, including BKFC and TrillerTV programming. If
+Triller is unable to maintain adequate content on its Technology Platform, its business may be harmed. Triller
+may fail to attract Creators that generate sufficient content hours on its Technology Platform and for its Brands. Triller’s business
+model depends on its ability to connect its Brands with content Creators. If Triller is unable to grow and maintain spend from its Brands,
+either through revenue sharing relationships or fee sharing arrangements, its results of operations may be harmed. Triller
+operates in a highly competitive industry, and Triller competes for Brands with other social media outlets and streaming services, as
+well as traditional media, such as radio, broadcast, cable and satellite TV and satellite and internet radio. Triller may not be successful
+in maintaining or improving the number of its Brand partners who utilize Triller’s Technology Platform for advertising, premium
+content, Events, pay-per-view fees, subscription fees or merchandise sales that are transacted via Triller’s Technology
+Platform. Triller’s
+competitors offer content and other platforms that may be more attractive to advertisers than Triller’s Technology Platform. If
+Triller is unable to increase its revenue by, among other things, continuing to improve its Technology Platform’s data to further
+optimize and measure its Brand partners’ campaigns, increase revenue from fee sharing arrangements or the completion of successful
+campaigns for its Brands, Triller’s business and its growth prospects may be harmed. Triller may not be able to compete effectively
+or adapt to any such changes or trends, which would harm its ability to grow its advertising revenue and harm its business. Triller’s
+success and revenue growth are dependent on adding new Creators, users, consumers and Brands, effectively educating and training Triller’s
+existing Creators and Brands on how to make full use of Triller’s Technology Platform and increasing usage of Triller’s Technology
+Platform by Triller’s consumers. Triller’s
+success is dependent on regularly adding new Creators and Brands and increasing Triller’s consumers’ usage of Triller’s
+platform and Triller faces competition from a variety of other domestic and foreign companies. Triller faces competition from alternative
+providers of the entertainment, content, live Events and sports industries. Triller’s contracts and relationships with Creators
+and Brands generally do not include long-term or exclusive obligations requiring them to use Triller’s platform or maintain or
+increase their use of Triller’s platform. Creators can also terminate their agreements with Triller for convenience. 44 Triller’s
+Creators and Brands typically have relationships with numerous providers and can use both Triller’s platform and those of Triller’s
+competitors without incurring significant costs or disruption. Triller’s Brands may also choose to decrease their use of revenue
+sharing and service fee arrangements. Accordingly, Triller must continually work to win new Brands and Creators and retain existing Brands
+and Creators, increase their usage of Triller’s platform and increase Triller’s users. Given the number of products on Triller’s
+Technology Platform, Triller may not be successful at educating and training Creators and Brands on how to use Triller’s platform
+and products in order for Triller’s Creators and Brands to get the most benefit from Triller’s Technology Platform and increase
+their usage. If these efforts are unsuccessful or Creators or Brands decide not to continue to maintain or increase their usage of Triller’s
+Technology Platform for any other reason, or if Triller fails to attract new Creators or Brands, Triller’s revenue could fail to
+grow or decline, which would materially and adversely harm Triller’s business, operating results and financial condition. Any increased
+competition, which may not be foreseeable, or Triller’s failure to adequately address any competitive factors, could result in
+reduced demand for its content, live Events, or brands, which could have an adverse effect on Triller’s business, financial condition,
+and results of operations. Triller cannot assure you that its Creators, Brands and consumers will continue to use and increase their
+spend on Triller’s platform or that it will be able to attract a sufficient number of new Creators, Brands, users and consumers
+to continue to grow Triller’s business and revenue. If Brands representing a significant portion of Triller’s business decide
+to materially reduce their use of Triller’s Technology Platform or cease using Triller’s Technology Platform altogether,
+Triller’s revenue could be significantly reduced, which could have a material adverse effect on Triller’s business, operating
+results and financial condition. Triller
+generates substantially all of its revenue from Brands. If the content and services provided on Triller’s Technology Platform are
+not relevant to Brands, fail to attract new Brands or result in a loss of Brands using Triller’s Technology Platform, Triller’s
+growth may be adversely impacted. Triller
+generates substantially all of its revenue from Brands through revenue sharing and service fee (including SaaS) arrangements. Revenue
+share comes from advertising, premium content, Events, pay-per-view fees, subscription fees or merchandise sales that are transacted
+via Triller’s Technology Platform. Service fees come from Brands that utilize Triller’s platform to reach consumers via a
+combination of campaign fees, sponsorship fees and transaction fees or SaaS fees, including monthly subscription fees. Even though Triller
+also generates revenue from consumers in the form of Creator-driven live-event ticket sales, pay-per-view fees, subscriptions
+and merchandise sales, Triller still expects to continue to generate substantially all its revenue from Brands for the foreseeable future. Most
+Brands do not have long-term commitments with us, and Triller’s efforts to establish long-term commitments may not succeed. Because
+most Brands do not have long-term commitments with us, they may terminate their contracts and relationships with Triller and may instead
+pursue relationships with competitors. Since Triller does not have long-term contractual commitments with its Brand partners, maintaining
+and enhancing relationships with its Brand partners will require Triller to make substantial investments and these investments may not
+be successful. The
+Brands with whom Triller partners vary from small businesses to well-known Fortune 500 companies. Due to Triller’s limited operating
+history, many Brands only recently started working with Triller’s Technology Platform solutions and spend a relatively small portion
+of their overall advertising budget with Triller In addition, some Brands may view some of Triller’s Technology Platform offerings
+as experimental and unproven or prefer certain of Triller’s products over others. Triller
+has made, and are continuing to make, investments to enable Creators and Brands to deliver relevant content to consumers on Triller’s
+Technology Platform. If Triller fails to continue to innovate and improve on its Technology Platform, its business may be harmed. New
+technologies, products and services are driving rapid changes in consumer behavior as consumers seek more control over when, where and
+how they consume content and access communications services. These technological advancements and changes in consumer behavior and/or
+Triller’s failure to effectively anticipate or adapt to such changes, could reduce Triller’s subscriber activations and increase
+Triller’s user churn rate, and could have a material adverse effect on Triller’s business, results of operations, financial
+condition and cash flow. 45 Moreover,
+Triller relies heavily on its ability to collect and disclose data and metrics to its Brands so Triller can attract new Brands and retain
+existing Brands. Any restriction or inability, whether by law, regulation, policy, or other reason, to collect and disclose data and
+metrics which Triller’s Brands find useful would impede Triller’s ability to attract and retain Brands. Regulators around
+the world are increasingly scrutinizing and regulating the collection, use, and sharing of personal data related to advertising, which
+could materially impact Triller’s revenue and seriously harm Triller’s business. For example, the European Union’s
+General Data Protection Regulation (“ EU GDPR ”) and the United Kingdom’s GDPR (“ UK GDPR ”)
+expanded the rights of individuals to control how their personal data is collected and processed, and placed restrictions on the use
+of personal data of younger minors. The processing of personal data for personalized advertising under EU GDPR and UK GDPR continues
+to be under increased scrutiny from European regulators, which includes ongoing regulatory action against large technology companies
+like Triller’s, the outcomes of which may be uncertain and subject to appeal. The European Digital Services Act (“ DSA ”)
+prohibits targeted advertising to minors based on the profiling of personal information in the European Union. Other European legislative
+proposals and present laws and regulations may also apply to Triller’s or Triller’s advertisers’ activities and require
+significant operational changes to Triller’s business. For example, it is anticipated that the ePrivacy Regulation and national
+implementing laws will replace the current national laws implementing the ePrivacy Directive, which could have a material impact on the
+availability of data Triller relies on to improve and personalize its products and features. Outside of Europe, other laws further regulate
+behavioral, interest-based, or targeted advertising, making certain online advertising activities more difficult and subject to additional
+scrutiny. For example, in the United States, the California Consumer Privacy Act (“ CCPA ”) and the California Privacy
+Rights Act of 2020 (“ CPRA ”) place additional requirements on the handling of personal data for us, Triller’s
+partners, and Triller’s advertisers, such as granting California residents the right to opt-out of a company’s
+sharing of personal data for certain advertising purposes in exchange for money or other valuable consideration. Other states are considering
+similar legislation. Moreover, individuals are also becoming increasingly aware of and resistant to the collection, use, and sharing
+of personal data in connection with advertising. Individuals are becoming more aware of options related to consent and other options
+to opt-out of such data processing, including through media attention about privacy and data protection. Further,
+Triller may experience media, legislative, or regulatory scrutiny of its actions or decisions regarding user privacy, encryption, content,
+advertising and other issues, which may materially adversely affect Triller’s reputation and Triller’s relationship with
+its Brands. Triller
+believes that a positive reputation concerning its Technology Platform is important in attracting and retaining Brands. In addition,
+Triller may fail to respond expeditiously or appropriately to objectionable practices by Creators users, or consumers, or to otherwise
+address user concerns or suffer reputational harm, which could erode confidence in Triller’s Brand partners. To the extent the
+content Triller produces, distribute or otherwise make available is perceived as low quality, offensive, harmful or otherwise not compelling
+to consumers and Brands, Triller’s ability to establish and maintain a positive reputation may be adversely impacted and Triller
+may lose Brand relationships or fail to attract new Brands to its business. Similarly, other companies with similar technologies and
+platforms may fail to respond expeditiously or appropriately to objectionable practices on their respective platforms and may not otherwise
+address concerns from users, family members of those users, or the broader public audience. If such other companies suffer public ridicule
+or reputational harm, such negative views could erode confidence in Triller’s Brand partners. Triller’s
+user growth, engagement, and monetization on mobile devices depend upon effective operation with mobile operating systems, networks,
+technologies, products, and standards that Triller does not control. There
+is no guarantee that popular mobile devices will continue to feature Triller’s products, or that mobile device users will continue
+to use Triller’s products rather than competing products. Triller is dependent on the interoperability of its products with popular
+mobile operating systems, networks, technologies, products, and standards that Triller does not control, such as the Android and iOS
+operating systems and mobile browsers. Changes, bugs, or technical issues in such systems, or changes in Triller’s relationships
+with mobile operating system partners, handset manufacturers, browser developers, or mobile carriers, or in the content or application
+of their terms of service or policies (which they have made in the past and continue to seek to implement) that degrade Triller’s
+products’ functionality, reduce or eliminate Triller’s ability to update or distribute its products, give preferential treatment
+to competitive products, limit its ability to deliver, target, or measure the effectiveness of advertisements, or charge fees related
+to the distribution of its products or its delivery of advertisements have in the past adversely affected, and could in the future adversely
+affect, the usage of its products and monetization on mobile devices. Additionally, in order to deliver high quality mobile products,
+it is important that Triller’s products work well with a range of mobile technologies, products, systems, networks, and standards
+that Triller does not control, and that Triller has good relationships with handset manufacturers, mobile carriers, and browser developers.
+Triller may not be successful in maintaining or developing relationships with key participants in the mobile ecosystem or in developing
+products that operate effectively with these technologies, products, systems, networks, or standards. In the event that it is more difficult
+for Triller’s users to access and use Triller’s products on their mobile devices, or if Triller’s users choose not
+to access or use Triller’s products on their mobile devices or use mobile products that do not offer access to Triller’s
+products, Triller’s user growth and user engagement could be harmed. From time to time, Triller may also take actions regarding
+the distribution of its products or the operation of its business based on what Triller believes to be in its long-term best interests.
+Such actions may adversely affect Triller’s users and Triller’s relationships with the operators of mobile operating systems,
+handset manufacturers, mobile carriers, browser developers, other business partners, or advertisers, and there is no assurance that these
+actions will result in the anticipated long-term benefits. In the event that Triller’s users are adversely affected by
+these actions or if Triller’s relationships with such third parties deteriorate, Triller’s user growth, engagement, and monetization
+could be adversely affected and Triller’s business could be harmed. Triller has in the past experienced challenges in operating
+with mobile operating systems, networks, technologies, products, and standards that Triller does not control, and any such occurrences
+in the future may negatively impact Triller’s user growth, engagement, and monetization on mobile devices, which may in turn materially
+and adversely affect Triller’s business and financial results. 46 Unfavorable
+media coverage has in the past and could in the future materially adversely affect Triller’s business, brand image or reputation. Triller
+receives a high degree of media coverage. Unfavorable publicity and/or false media reports regarding us, Triller’s privacy practices,
+data security compromises or breaches, product changes, product quality, litigation or regulatory activity, including any intellectual
+property proceeding, or regarding the actions of Triller’s partners, Triller’s Creators, Triller’s Brands or consumers,
+Triller’s employees or other companies in Triller’s industry, has in the past and could in the future adversely affect Triller’s
+brand image or reputation. For example, there have been news articles discussing allegations against Triller for Triller’s nonpayment
+of fees, including articles discussing Triller’s litigation with Sony Music Entertainment and Universal Music Publishing Group,
+which may adversely affect Triller’s brand image or reputation. For more information, see discussion of the Sony Music Litigation
+under “ Description of Triller’s Business — Legal Proceedings. ” If
+Triller fails to protect its brand image or reputation, Triller may experience material adverse effects to the size, demographics, engagement,
+and loyalty of Triller’s Creator and user base or Brand relationships, resulting in decreased revenue, fewer app installs (or increased
+app uninstalls), or slower user growth rates. In addition, if securities analysts or investors perceive any media coverage of us, or
+other companies with similar technologies and platforms, to be negative, the value of Triller’s Series A common stock (and,
+after the closing of the Merger, of Triller Common Stock) may be materially adversely affected. Any of the foregoing could materially
+adversely affect Triller’s business, financial condition and results of operations. Triller’s
+market is competitive and dynamic. Triller faces and will continue to face significant competition for Creators, Brands and consumers,
+which could result in reduced profit margins and loss of market share. Triller
+faces robust and rapidly evolving competition in all aspects of its business, including from companies that allow users to share and
+discover content and/or that enable Creators and Brands to use content platforms to reach customers, such as Apple, Alphabet (including
+Google and YouTube), Amazon, Snapchat, Facebook (including Instagram), ByteDance (including TikTok), ESPN+, BT Sport, Kayo Sports, Klaviyo
+and Showtime, among others. Triller
+competes to attract, engage and retain users against current and potential competitors, both globally and in particular geographic regions
+where it operates. These competitive risks are heightened because some of Triller’s competitors have more extensive hardware, software,
+and service offerings, longer histories, larger user bases, increased brand recognition, more experience in the markets in which Triller
+competes and greater overall resources than Triller. These advantages enable them to devote more financial resources to technology, infrastructure,
+fulfillment and marketing, which in turn enables them to offer competitive services at little or no profit or even at a loss. For example,
+prominent, well-funded competitors like Apple, Google, and Amazon have a competitive advantage because they can leverage the substantially
+broader product offerings in their ecosystem to gain subscribers through bundled offers and to monetize users. Additionally, Triller’s
+current and future competitors have engaged and will continue to engage in mergers or acquisitions with each other to combine and leverage
+their broad audiences, content and capabilities. Relatedly,
+Triller competes for users based on its presence and visibility as compared with other businesses and platforms that deliver audio and
+video content through the internet and connected devices. Triller faces significant competition for users from companies promoting their
+own digital content online or through application stores, including large, well-funded, and seasoned participants in the digital media
+market. 47 Triller
+also faces increasing competition because of new or emerging technologies and changes in market conditions. Triller’s current and
+future competitors have introduced, and may continue to introduce, new ways of consuming or engaging with content, such as ByteDance,
+that cause Triller’s users, especially the younger demographic, to switch to another product, which would negatively affect Triller’s
+user retention, growth, and engagement. As the market for on-demand video on the internet and mobile and connected devices
+increases, new competitors, business models and solutions are likely to emerge. Triller believes that companies with a combination of
+technical expertise, brand recognition, financial resources and digital media experience pose a significant threat of developing competing on-demand distribution
+technologies. Additionally,
+Triller competes for a share of advertisers’ overall marketing budgets with other content providers on a variety of factors, including
+perceived return on investment, effectiveness and relevance of Triller’s advertising products and content offering, pricing structure,
+and ability to deliver large volumes or precise types of advertisements to targeted user demographic pools. Triller also competes for
+advertisers with a range of internet companies, including major internet portals, search engine companies, social media sites and mobile
+applications, as well as traditional advertising channels such as terrestrial radio and television. Most
+of Triller’s competitors in this market have substantially greater financial and other resources, larger research and development
+staffs, and more experience and capabilities in developing, marketing and distributing products. Ongoing pricing pressure could result
+in significant price erosion, reduced profit margins and loss of market share, any of which could have a material adverse effect on Triller’s
+business, results of operations, financial position and liquidity. Large internet companies with strong brand recognition, such as TikTok,
+Facebook, Google, Amazon and Twitter, have significant numbers of sales personnel, substantial advertising inventory, proprietary advertising
+technology solutions and traffic that provide a significant competitive advantage and have a significant impact on pricing for reaching
+these user bases. Failure to compete successfully against Triller’s current or future competitors could result in the loss of current
+or potential advertisers, a reduced share of Triller’s advertisers’ overall marketing budget, the loss of existing or potential
+users, or diminished brand strength, which could adversely affect Triller’s pricing and margins, lower Triller’s revenue,
+increase Triller’s research and development and marketing expenses and prevent Triller from achieving or maintaining profitability. Moreover,
+Triller competes with other forms of entertainment and leisure activities. While Triller monitors general market conditions, significant
+shifts in consumer demand that could materially alter public preferences for different forms of entertainment and leisure activities
+are difficult to predict. Failure to adequately identify and adapt to these competitive pressures could have a negative impact on Triller’s
+business. Access
+to certain of Triller’s products depends on mobile app stores and other third parties such as data center service providers, hosted
+web service providers, internet transit providers and other communications systems service providers. If third parties such as the Apple
+App Store or Google Play Store adopt and enforce policies that limit, prohibit or eliminate Triller’s ability to distribute or
+update its applications through their stores, or increase the costs to do so, it could materially adversely affect Triller’s business,
+financial condition and results of operations. Triller’s
+products and services mainly depend on mobile application stores and the continued services and performance of other third parties such
+as data center service providers, third party computer systems, internet transit providers, and other communications systems and service
+providers. Triller’s mobile applications are almost exclusively accessed through and depend on the Apple App Store and the Google
+Play Store. While Triller’s mobile applications are generally free to download from these stores, Triller offers its users the
+opportunity to purchase subscriptions and certain à la carte features through these applications. Triller determines the prices
+at which these subscriptions and features are sold, subject to approval by Apple or Google, as relevant. Purchases of these subscriptions
+and features via Triller’s mobile applications are mainly processed through the in-app payment systems provided by Apple and Google.
+Triller pays Apple and Google, as applicable, a meaningful share (up to 30%) of the revenue it receives from transactions processed through
+in-app payment systems If the Apple App Store or the Google Play Store were to experience an outage, or if either decided to exit a market,
+many of Triller’s users may be unable to access Triller’s apps, which could materially adversely affect Triller’s business,
+financial condition and results of operations. Any deterioration in Triller’s relationships with these and other third-party suppliers,
+
+--- VENDORS ---
+vendors, to
+the extent they are covered by such licensing requirements, laws, and regulations, may also have these negative results. To
+resolve issues raised in examinations or other governmental actions, we or certain of our subsidiaries may be required to take various
+corrective actions, including changing certain business practices, making refunds or taking other actions that could be financially or
+competitively detrimental to it. Our management expects to continue to incur costs to comply with governmental regulations. In addition,
+certain legislative actions and judicial decisions can give rise to the initiation of lawsuits against us for activities that it has
+conducted in the past. We have been, and its management expects it to continue to be, subject to regulatory enforcement actions and private
+causes of action from time to time with respect to its compliance with applicable laws and regulations. 32 Although
+we have systems and procedures directed to comply with these legal and regulatory requirements, there can be no assurance that more restrictive
+laws and regulations will not be adopted in the future, or that governmental bodies or courts will not interpret existing laws or regulations
+in a more restrictive manner, which could render its current business practices non-compliant or which could make compliance more difficult
+or expensive. Any of these, or other, changes in laws or regulations could have a detrimental effect on us and its results of operations. We
+are subject to evolving regulatory requirements, and failure to comply with these regulations or to adapt to regulatory changes could
+materially and adversely affect its operations, business, and prospects. Many
+of our aspects, including brokerage and technology services to individual investors, banks, and insurance companies, insurance loss adjustment
+services, online publication services relating to financial product information, facilitating consumer lending products for banks and
+online small loan companies, managing and distributing various asset management products, and electronic certification services are subject
+to supervision and regulation by various governmental authorities in Hong Kong or in other jurisdictions where we operate. As we continue
+to expand its solutions and product offerings, the group may be subject to new and more complex regulatory requirements. We
+are also required to comply with applicable laws and regulations in relevant jurisdictions to protect the privacy and security of its
+customers’ information. Legal and regulatory restrictions may delay, or possibly prevent, some of our solutions or services from
+being offered, which may have a material adverse effect on its business, financial condition, and results of operations. Violation of
+laws and regulations may also result in severe penalties, confiscation of illegal income, revocation of licenses and, under certain circumstances,
+criminal prosecution. For
+example, the regulatory framework governing financial technology services is unclear and evolving. New laws or regulations may be promulgated,
+which could impose new requirements or prohibitions that render our current operations or technologies non-compliant. In addition, due
+to uncertainties and complexities of the regulatory environment, it cannot be assured that regulators will interpret laws and regulations
+the same way as we do, or that we will always be in full compliance with applicable laws and regulations. To remedy any violations, we
+may be required to modify its business models, solutions, and technologies in ways that render its solutions less appealing to potential
+customers. We may also become subject to fines or other penalties, or, if we determine that the requirements to operate in compliance
+are overly burdensome, it may elect to terminate potentially non-compliant operations. In each such case, our business, financial condition
+and results of operations may be materially and adversely affected. We
+may be adversely affected by the complexity, uncertainties, and changes in regulation of internet-related businesses and companies, and
+any lack of requisite approvals, licenses, or permits applicable to our business may have a material adverse effect on its business and
+results of operations. The
+Hong Kong government extensively regulates the internet industry, including foreign ownership of, and the licensing and permit requirements
+pertaining to, companies in the industry. These internet-related laws and regulations are relatively new and evolving, and their
+interpretation and enforcement involve significant uncertainties. As a result, in certain circumstances it may be difficult to determine
+what actions or omissions may be deemed to be in violation of applicable laws and regulations. The
+interpretation and application of existing Hong Kong laws, regulations and policies, and possible new laws, regulations, or policies,
+including those relating to the internet industry, have created substantial uncertainties regarding the legality of existing and future
+foreign investments in, and our businesses and activities. There can be no assurance that we have obtained all the permits or licenses
+required for conducting its business or that it will be able to maintain or update its existing licenses or obtain new ones. If a government
+authority considers that we were operating without the proper approvals, licenses, or permits or promulgates new laws and regulations
+that require additional approvals or licenses or imposes additional restrictions on the operation of any part of its business, it may
+levy fines, confiscate our income, revoke its business licenses, and/or require us to discontinue its relevant business or impose restrictions
+on the affected portion of its business. Any of these actions may have a material adverse effect on our business and results of operations. 33 Uncertainties
+in the interpretation and enforcement of Hong Kong laws and regulations could limit the legal protections available to us and our
+investors. Hong Kong
+laws and regulations concerning the internet-related  and financial services industries are developing and evolving. Although we
+have taken measures to comply with the laws and regulations applicable to its business operations and to avoid conducting any non-compliant activities
+under these laws and regulations, governmental authorities may promulgate new laws and regulations regulating the internet-related and
+financial services industries. There can be no assurance that our operations would not be deemed to violate any such new laws or regulations.
+Moreover, developments in the internet-related industries and financial services industry may lead to changes in existing laws,
+regulations, and policies in Hong Kong, or in the interpretation and application of existing laws, regulations, and policies, which
+in turn may limit or restrict us and could materially and adversely affect its business and operations. Risks
+Factors Relating to the Business and Operations of Triller Corp. Triller
+has a limited operating history and has experienced fluctuations in its results of operations due to the nature of its business and a
+number of factors, which makes it difficult to forecast its revenue and evaluate its business and future prospects. Triller’s
+ability to forecast its future results of operations and plan for and model future growth is limited. Triller has a limited operating
+history which makes it difficult to predict its results of operations. In addition, Triller’s results of operations may fluctuate
+from quarter to quarter as a result of the nature of its business and a number of factors, many of which are outside of Triller’s
+control and may be difficult to predict. For example, Triller hosts Events under its Bareknuckle Fighting Championships (“ BKFC ”)
+offerings which may lead to outsized revenue for one quarter compared to other quarters. Some additional factors that affect our results
+include, but are not limited to: ● the level of demand for
+    Triller’s Technology Platform and Events; ● its ability to retain existing
+    or add new Creators and Brands; ● its ability to successfully
+    integrate companies and assets it has acquired and in the future may acquire into its business; ● the timing and success
+    of new features, integrations, capabilities and enhancements by Triller to its products or by its competitors to their products; ● changes in the competitive
+    landscape of Triller’s market; ● Triller’s ability
+    to achieve widespread acceptance and use of its Technology Platform; ● errors in Triller’s
+    forecasting of the demand for its Triller app, Technology Platform offerings and Events, which could lead to lower revenue, increased
+    costs or both; ● the amount and timing of
+    operating expenses and capital expenditures, as well as entry into operating leases, that Triller may incur to maintain and expand
+    its business and operations and to remain competitive; ● the timing of expenses
+    and recognition of revenue; ● security breaches, technical
+    difficulties or interruptions to its Technology Platform resulting in service level agreement credits; ● adverse litigation judgments,
+    other dispute-related settlement payments or other litigation-related costs; ● regulatory fines; ● changes in, and continuing
+    uncertainty in relation to, the legislative or regulatory environment; ● legal and regulatory compliance
+    costs in new and existing markets; 34 ● the number of new employees
+    added and employee turnover; ● the timing of the grant
+    or vesting or settlement of equity awards to employees, directors or consultants; ● the timing of the conversion
+    of Triller’s outstanding convertible securities or when our outstanding debt may become due or payable; ● the availability of content
+    for licensing for use by Creators on its Technology Platform; ● pricing pressure as a result
+    of competition or otherwise; ● costs and timing of expenses
+    related to the acquisition of businesses, talent, technologies or intellectual property, including potentially significant amortization
+    costs and possible write-downs; and ● general economic conditions
+    in either domestic or international markets, including geopolitical uncertainty and instability. Any
+one or more of the factors above may result in significant fluctuations in Triller’s quarterly results of operations. You should
+not rely on Triller’s past results as an indicator of our future performance. The variability and unpredictability of Triller’s
+quarterly results of operations or other operating metrics could result in its failure to meet its expectations or those of analysts
+that cover it or investors with respect to revenue or other key metrics for a particular period. If Triller fails to meet or exceed such
+expectations for these or any other reasons, Triller could face costly lawsuits, including securities class action suits. In
+addition, there has been historically a high failure rate among early-stage companies. Early-stage companies face a number of risks,
+including, among others, the ability to effectively implement a growth strategy, counter and respond to actions by competitors, maintain
+adequate control of expenses and achieve market acceptance. Triller’s future performance will depend upon a number of factors,
+including its ability to successfully implement, launch, and achieve market acceptance of its Technology Platform and offerings to anticipate
+and manage the risks associated therewith. Triller has encountered and expects to continue to encounter risks and uncertainties frequently
+experienced by growing companies in rapidly evolving industries, such as the risks and uncertainties described herein. We cannot assure
+you that we will successfully address any of these factors, and our failure to do so could have a material adverse effect on our business,
+financial condition, results of operations and future prospects. Triller
+has an unproven and evolving business model and the Company cannot provide any assurance that Triller will generate significant revenues
+or operating profit. Triller’s
+current business model is unproven and evolving and the scale and profit potential, if any, is unknown at this time. Management has spent
+significant time developing and refining its business model in an effort to increase revenue and gain market share. To date Triller’s
+efforts to create a profitable business model have not succeeded and there is no guarantee that it will achieve scale or profitability.
+Triller is subject to all of the risks inherent in the creation of a new business. Its ability to achieve scale and profitability is
+dependent, among other things, its ability to retain or add new users, Creators and Brands to our Technology Platform, its ability to
+gain acceptance of our Technology Platform and on Triller’s ability to successfully integrate companies it has acquired and in
+the future may acquire into its business. Triller
+has various financial obligations which have come due in the past six months and are coming due over the next twelve months and it may
+not be able to meet its cash obligations as those amounts come due. Triller
+has various financial obligations which have come due in the past six months and are coming due over the next twelve months. Triller
+may not have sufficient cash on hand to satisfy these obligations or may be unable to meet its cash obligations as they become due, which
+would materially harm Triller’s financial condition and liquidity as well as its reputation. 35 The
+loss of a large customer could have an adverse effect on Triller’s business. As
+of December 31, 2024, Triller had one customer that comprised approximately 20% of consolidated accounts receivable. As of December
+31, 2023, Triller had one customer that comprised over 27% of consolidated accounts receivable. During the years ended December 31,
+2024 and 2023, Triller had a single customer, All Elite Wrestling, a customer of TrillerTV, which accounted for approximately 24% and
+19% of Triller’s consolidated revenue, respectively. Pursuant to Triller’s distribution agreement with All Elite Wrestling
+(“ AEW ”), TrillerTV holds a non-exclusive, non-transferable right to distribute certain audiovisual programs that are
+owned or controlled by AEW on TrillerTV’s distribution platform within the US and UK. In consideration for such rights and pursuant
+to Triller’s distribution agreement, TrillerTV pays AEW a fixed percentage of all net revenues generated through the distribution
+of such media (which usually occur through pay-per-view sales). In addition, the distribution agreement grants TrillerTV the right to
+distribute and sell certain of AEW’s branded wrestling programs as a monthly subscription service via Triller’s distribution
+platforms outside of the United States, United Kingdom and other territories in return for a fixed percentage of all revenue collected
+by TrillerTV in connection therewith. The distribution agreement automatically renews for successive one year periods and may be terminated
+by either party upon the delivery of 30 days’ notice. Triller
+manages its exposure to credit risk by performing ongoing evaluation of its customers’ credit worthiness and the amount of credit
+extended to them. Customers of this size may divert management’s attention from other operational matters and pull resources from
+other areas of the business, resulting in potential loss of revenue from other customers. The loss of, or significant curtailment of
+purchases by, any one or more of Triller’s larger customers could have a material adverse effect on its operating results. Non-compliance
+with the objective and subjective criteria for the Paycheck Protection Program (“PPP”) loan could have a material adverse
+effect on Triller’s business. On
+April 10, 2020, Triller Inc. received a PPP Loan from First Choice Bank, in the aggregate amount of $1,556,000, pursuant to the
+PPP under Division A, Title I of the CARES Act, which was enacted March 27, 2020. The PPP Loan, which was in the form of a note
+dated April 10, 2020 issued by First Choice Bank, which matured on April 13, 2022, and bore interest at a rate of 1% per annum,
+payable monthly commencing on the fifth calendar day of the seventh month following the date of first disbursement. The PPP Loan permitted
+prepayment by Triller at any time prior to maturity with no prepayment penalties. Funds from the PPP Loan could only be used for payroll
+costs, any payment of interest on a covered mortgage obligation, any payment on a covered rent obligation, or any covered utility incurred
+during the 8-week period beginning on the date of first disbursement of this loan. Triller used the entire PPP Loan amount for what it
+considered to be qualifying expenses, under the current guidance as promulgated by the U.S. Small Business Administration (the “ SBA ”).
+Under the terms of the PPP, certain amounts of the PPP Loan may be forgiven if they are used for qualifying expenses as described in
+the CARES Act. The PPP Loan was forgiven by the First Choice Bank on July 28, 2021. In January 2025, the SBA made a final loan review
+decision. After review of the documentation provided, the SBA has recalculated Triller Inc.’s maximum eligible PPP loan amount
+and limited forgiveness to the eligible amount to $407,251.77. In
+order to apply for the PPP Loan, Triller were required to certify, among other things, that the current economic uncertainty made the
+PPP Loan request necessary to support Triller’s ongoing operations. If the SBA determines that Triller were ineligible to receive
+the PPP Loan or determines that Triller did not comply with requirements after receiving the PPP Loan, Triller may be required to repay
+the PPP Loan in its entirety and/or be subject to additional penalties and adverse publicity, which could have a material adverse effect
+on Triller’s business, results of operations, and financial condition. If
+the Company’s goodwill or intangible assets become impaired, the Company may be required to record an additional significant charge
+to earnings. A
+significant decline in the Company’s expected future cash flows, a significant adverse change in the business climate, slower economic
+growth or a significant and sustained decline in the value of Triller’s common stock, any or all of which could be materially impacted
+by many of the
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+components,
+and failure to comply with the terms of the underlying open source software licenses could restrict our ability to sell our products.” The
+rapid pace of AI-innovation is fueling ever more opportunities for us to help Creators and Brands in each phase of their lifecycle, from
+content creation and distribution (through the Triller app, FITE, Metaverz, Thuzio and Amplify.ai) to fan engagement (through Fangage,
+Julius and Amplify.ai) and to targeted promotions and upsells (through CrossHype), across the digital platforms they use today and, we
+believe, will use tomorrow. By occupying a position as their trusted intermediary connecting them with their fans across multiple platforms
+and the comments, mentions, direct messages, etc. that flow across them daily, we believe we are well suited to build, deploy and refine
+ever more powerful and effective models and tools in the coming years. The
+Triller App Our
+Technology Platform originated with the Triller app, a video-sharing app. The Initial Triller app was launched in 2015 as an AI music
+editing tool. In 2019, upon the formation of Triller Hold Co LLC, when we acquired the technology underlying the current Triller app
+we integrated the Initial Triller app with AI technology pursuant to our agreement with Mashtraxx Ltd. We refer to this integrated app
+as the “ Triller app ”. The Triller app continued to integrate and update and was fully “live” by September
+of 2021. The Triller app underwent a refinement to its scalable systems and other feature and toolset updates and additional refinements
+were rolled out in July of 2023 and are live today. The Triller app leverages proprietary AI and ML technologies and enables users to
+create professional-looking videos and to share those videos within the Triller app and on other social platforms such as Facebook, Instagram,
+TikTok, Snapchat and Twitter in seconds. Key features of the Triller app include extensive editing, filtering and overlaying tools; AI-powered
+technology to automatically synchronize video and audio with little to no manual editing; and our proprietary dual camera feature, which
+allows users to record videos simultaneously from the back-and front-facing cameras of their smartphones. The Triller app’s primary
+audience is the 18-34 year old demographic, with strong engagement from users in the United States and an established user base in high-growth
+markets such as India. 11 The
+images above are examples of how the user interface of the Triller app allows users to perform various actions as depicted above. The
+Triller app contains channels for the posting and consumption of short-form and long-form content, where we host content made by celebrities,
+influencers and other Creators, as well as professionally-produced episodic content about music, sports, gaming, fashion and other forms
+of entertainment. We
+believe the content creation features and availability of short- and long-form content offered on the Triller app are key differentiators
+that set us apart from our competitors and will continue to do so as we focus our efforts on growing our user base and deepening the
+level of engagement among Creators, Brands and users who interact with our ecosystem. Our
+Suite of Creator and Brand Offerings We
+have augmented our Technology Platform through a combination of internal development and strategic acquisitions, including the additions
+of products and services that deliver, automate or otherwise streamline SMS and social messaging, AI-powered customer engagement, cross-platform
+marketing, digital streaming, content and audience management, e-commerce services, social and creator analytics and engagement measurement. Fangage Fangage
+serves as the entry point for Creators looking to leverage our ecosystem and establish a digital presence on the internet, across social
+media, e-mail and SMS. Fangage comprises a set of tools and features that allow Creators to manage and distribute their content and maintain
+and grow their audiences, communicate with those audiences directly, and gather and analyze data that allows them to streamline their
+monetization efforts. The
+Fangage offering is integrated with and incorporates services from the Triller app, Amplify.ai, Cliqz and Julius. Amplify.ai,
+Cliqz and CrossHype We
+acquired Amplify.ai in December 2021 and internally developed our Cliqz and CrossHype offerings. These products provide a broad set of
+features that further enable Creators to connect directly with their audiences, spotlight their content across a broad range of social
+media sites, measure audience engagement with that content, and monetize their content through personalized user experiences. 12 Our
+Amplify.ai product automates SMS and direct message marketing communications between Creators, Brands and their respective audiences
+through the use of proprietary AI and NLP technologies. Our
+Cliqz product enables Creators to aggregate their audiences across their social media accounts and access those audiences directly via
+SMS and direct messaging, avoiding the algorithmic limitations imposed by most social media platforms that limit these Creators’
+content viewership and opportunities for content engagement and monetization. For example, as noted by Hootsuite in August 2023, the
+average engagement rate of an organic Facebook post ranges from 2.58% down to just 1.52%. Our
+CrossHype product helps Brands and Creators reach audiences across multiple social platforms, with a particular emphasis on helping Brands
+create awareness and engagement with consumers, with a common framework for measuring the effectiveness and efficacy of their marketing
+efforts. This solution allows Brands and Creators to reach specific audiences within social media platforms, including highly targeted
+followers of specific social media Creators, and to build retargetable audiences that grow in size and detail, accruing even more value
+over time. Julius Julius,
+which we acquired in November 2022, is a SaaS solution that provides strategic marketers at Brands and advertising agencies with access
+to a database of profiled Creators and their associated audiences, giving them the ability to enlist Creators to develop and share captivating
+stories to market their products and services. Julius provides Brands and agencies a detailed dashboard to measure engagement across
+all Creator-driven marketing campaigns. Furthermore, Julius serves as a marketplace allowing e-commerce Brands to automate the process
+of on-boarding Creators with per-transaction incentives for enabling e-commerce transactions. Julius is directly integrated with our
+Fangage solution, completing the circle between Creators and Brands. Thuzio Thuzio,
+which we acquired in October 2021, is a solution for creating and executing premium Creator Events and experiences. Thuzio helps Brands
+and other enterprise customers create Events with Creators including sports icons and speakers. Thuzio has partnered with Creators across
+many verticals, including athletes such as Tiki Barber, Allen Iverson, Scottie Pippen, and Lisa Leslie, comedians such as Jerry Seinfeld,
+music artists such as Ja Rule and celebrity chefs such as Marcus Samuelsson. Metaverz Our
+Metaverz offering enables us to transform live Events, which are typically only enjoyed by a few thousand people, into digital Events,
+including augmented reality and virtual reality experiences, that can be experienced by millions of consumers globally. Metaverz provides
+an array of ways to create digital experiences featuring Creators and Brands, containing social engagement and gamification features
+as well as virtual merchandise stores that allow users to digitally purchase collectibles and memorabilia. 13 Our
+Strategic Growth Plans Overall
+Market Opportunities in the Greater Bay Area The
+Greater Bay Area comprises the major urban centers of Guangdong, Hong Kong, and Macau and is one of the world’s largest financial
+services markets, with an overall economy size of US$1.98 trillion according to data from the Guangdong Provincial Office of the
+Leading Group for the Development of the Guangdong-Hong Kong-Macao Greater Bay Area. This marks a new and higher level in terms of economic
+aggregate, after the region’s economy surpassed the thresholds of US$1.69 trillion and US$1.83 trillion in 2021 and 2022
+respectively, solidifying its position as the most dynamic growth engine in the world. The GBA is an area of vast scale and wealth, with
+the following defining characteristics according to 2023 Hong Kong Trade Development Council research: ● Largest GDP in China, GDP
+    of US$1.98 trillion in 2023 and per-capita GDP of US$22,867 in 2022; ● US$1.98 trillion economy,
+    compared with US$2.1 trillion for Tokyo and US$2.3 trillion for New York; and ● Population of 86.9 million,
+    compared with 44.4 million in Tokyo and 19.5 million in the New York Metropolitan Area. Hong Kong
+is a major financial services hub. According to 2024 Hong Kong Trade Development Council research, Hong Kong’s stock market
+was the fourth largest in Asia and the seventh largest in the world in terms of market capitalisation at the end of August 2024. Hong
+Kong is the largest offshore RMB clearing centre in the world. Between January and September 2024, about 80% of global offshore RMB settlements
+were processed in Hong Kong. At the end of October, there were 2,623 companies listed on the Hong Kong Exchange (HKEX), with a total
+market capitalisation of about US$4.5 trillion, the market capitalization of companies from mainland China listed on the Hong Kong Exchange
+(HKEX) amounted to over US$3 trillion in 2023. Companies from mainland China accounted for 76 percent of HKEX’s market capitalization. 
+According to the Hong Kong Stock Exchange monthly market highlights, it has over 1,400 mainland China listed enterprises as at 31
+December 2024. 14 Mainland
+investor activity in Hong Kong’s equity market has grown over the years. According to HKEX data, ● Average
+                                            daily turnover (ADT) on Southbound Stock Connect has grown from HK$0.9 billion in 2014 to
+                                            HK$38.3 billion in the first three quarters of 2024; ● Between
+                                            July 2023 and September 2024, Southbound Stock Connect recorded 15 consecutive months of
+                                            net buying activity, indicating growing demand from Mainland China investors; and ● Since
+                                            2018, the market capitalisation of securities portfolios held through Southbound Stock Connect
+                                            has grown from HK$789 billion to HK$3.4 trillion by the end of the third quarter
+                                            of 2024. ● In
+                                            September 2024, Mainland investors could trade a total of over 550 Hong Kong-listed securities
+                                            through Shanghai and Shenzhen Connect, nearly double the number of eligible securities at
+                                            the launch of Southbound Stock Connect in 2014. According
+to the 2023 China Private Wealth Report published by China Merchants Bank, the total size of China’s individual investable assets
+reached RMB278 trillion (US$39 trillion) in 2020, a compound annual growth rate of 7% from 2020 to 2022 and was expected to
+reach RMB300 trillion (US$42.2 trillion) by the end of 2024. Meanwhile, in 2022, the number of Chinese HNWIs with investable
+assets of RMB 10 million or more reached 3.16 million, with a CAGR of 10% from 2020 to 2022. Their investable assets totaled RMB 101
+trillion, or RMB 31.83 million in average per person. The number of Chinese HNWIs and their investable assets are expected to grow at
+a CAGR of about 11% and 12% respectively in the next two years. With
+China a significant strategic growth opportunity for many global and regional financial institutions, may players have opted to access
+China opportunities through Hong Kong via an ‘offshore’ model. Offshore investment channels through Hong Kong continues to
+be an attractive way for servicing Chinese wealth given the various inbound and outbound investment channels as mentioned earlier. In
+addition, Hong Kong is a popular offshore investment and service location given its high connectivity, diversified talent pool, effective
+legal system, competitive tax regime, and supportive regulatory environment. The fast-growing affluent population in China, especially
+in the Greater Bay Area will be the new growth driver for international asset and wealth managers in the coming years. Cross-Border
+Wealth Management Connect On
+June 29, 2020, the People’s Bank of China, the Hong Kong Monetary Authority (HKMA) and the Monetary Authority of Macau
+jointly announced the introduction of the cross-boundary wealth management connect pilot scheme (Wealth Management Connect scheme)
+in the GBA, which will allow residents in the GBA to invest in wealth management products distributed by banks across the region. The
+scheme helps promote investment diversification and facilitate capital flow within the GBA, promote RMB internationalization and strengthen
+Hong Kong’s status as an offshore RMB hub. According
+to the implementation rules of the Wealth Management Connect scheme published by The People’s Bank of China in September 2021,
+there will be an aggregate investment quota of RMB150 billion in each of the “northbound Connect” and “southbound
+Connect” schemes, with an individual investment quota up to RMB1 million. Recognized investment products under the “Northbound
+Scheme” include fixed income (primarily bonds and deposits) and equity wealth management products, along with public securities
+investment funds with low or medium risk rating. Complex investment products with high volatility or leverage are currently excluded.
+The scheme is expected to facilitate a total fund flow of RMB300 billion (US$47 billion) in the sale of investment products.
+As at the end of August 2023, the amount of cross-boundary fund remittances (including Hong Kong and Macao) under Cross-boundary WMC
+was RMB6.31 billion, the quota usage of which was far from the aggregate quota under the Southbound and Northbound Schemes (i.e. RMB300
+billion). According
+to press release from the Hong Kong Government in November 2023, cross-boundary WMC has seen steady development since its launch. Hong
+Kong banks engaging in retail banking or private banking businesses and registered with the Securities and Futures Commission (SFC) for
+relevant regulated activities can participate in Cross-boundary WMC. Twenty-four eligible Hong Kong banks have commenced relevant businesses
+with their respective Mainland partner banks. 15 According
+to the statistics as of end-October 2023 published by the People’s Bank of China, 62,900 individual investors in the GBA participated
+in Cross-boundary WMC, including 44,600 from Hong Kong and Macao and 18,300 from the Mainland, recording a total of more than 35,000
+cross-boundary fund remittances (covering Hong Kong and Macao) amounting to over RMB8.65 billion. The aggregate quota usage under the
+Southbound Scheme and Northbound Scheme (covering Hong Kong and Macao) was over RMB2.33 billion and RMB250 million respectively (calculated
+on a net cross-boundary remittance basis). Since the resumption of normal travel between the Mainland, Hong Kong and Macao, the Southbound
+business has seen significant growth. In the first 10 months of 2023, the number of new individual investors participating in Cross-boundary
+WMC exceeded 6,400, representing an increase of 70 per cent over the same period of 2022. Cross-boundary fund remittances amounted to
+over RMB6.2 billion, having increased more than fivefold over the same period of 2022. Future
+expansion plan to China In
+April 2024, the China Securities Regulatory Commission (CSRC) announced five measures to support Mainland-Hong Kong connectivity. The
+five measures include: ● Expanding
+                                            the scope of eligible ETFs under Stock Connect that more ETFs can be included in Stock Connect,
+                                            attracting more investors to participate in cross-border trading and supporting the development
+                                            of Hong Kong as an international asset management centre; ● Including
+                                            REITs into Stock Connect to enhance liquidity, offering investors more opportunities to diversify
+                                            and invest in the real estate sector; ● Supporting
+                                            the inclusion of RMB-denominated stocks into Southbound Stock Connect launched on 19 June
+                                            2023, which offers Hong Kong investors a choice of trading the shares of Hong Kong-listed
+                                            companies in either HKD or RMB; ● Optimising
+                                            mutual recognition of funds to promote the moderate relaxation of the proportion limit for
+                                            cross-border sales of mutual recognition of funds (MRF) and optimize the MRF arrangement
+                                            to better meet the needs of investors in Mainland China and Hong Kong; and ● Supporting
+                                            the listing of leading Mainland companies in Hong Kong to further strengthen communication
+                                            and coordination with relevant departments to support eligible leading Mainland companies
+                                            in listing and financing in Hong Kong. With
+the business opportunities brought by the Mainland-Hong Kong connectivity and Wealth Management Connect scheme, and the upcoming Insurance
+Connect introduced by the China Insurance Regulatory Commission, China will be one of our focus areas with an increasing addressable
+market and opportunity set. We
+intend to leverage the Group’s two decades of experience operating in China. We are particularly well-positioned to capture
+the emerging opportunities. Currently, we do not have any Chinese operating companies and we do not plan to use “variable interest
+entities,” or VIEs, in the future to conduct our operations. While we have no operations in China, it is and will continue to be
+part of our strategy to market and sell our products and services to Chinese customers located in mainland China from its Hong Kong
+based operating subsidiaries through partnerships or customer referrals. After
+a 6-month project with a consulting firm to study our capability and competitive advantages, we identified four strategic enablers,
+including (1) partnership development; (2) establishing a lead management platform; (3) establishing a service center
+for our customers; and (4) digital marketing. Multiple collaboration models have been designed, with potential partners identified
+for implementation. We intend for these initiatives to drive business growth through customer acquisition and cross-selling combined
+with increased use of data analytics. Strategic
+Enablers to Capture GBA Opportunities China
+B2B Partnership for Customer Acquisition We
+intend to upsell selected customers simple insurance products through our local insurance brokerage channel, by using free insurance
+protection products to attract customers, and then conducting customer behavioral analysis and product matching. Based on the analysis
+of social media interaction and digital marketing, we market our international and partnership offerings to customers who demonstrate
+interest and refer them to our network of financial advisors in Hong Kong for cross-selling of other financial products and
+investment portfolio recommendations. We intend to periodically review our referral mechanisms to ensure their continued effectiveness. We
+are currently in active discussions to establish a strategic partnership with a top asset manager (the “ Potential Partner ”)
+in China to provide offshore insurance solutions to the Potential Partner’s over 20 million nation-wide customers. The
+Potential Partner serves both individual affluent and high-net-worth customers as well as institutions. Our management believes
+a strategic partnership with the Potential Partner has the potential to increase our AUM and competitiveness by expanding the types of
+local and overseas investment vehicles available to it and to further penetrate its existing customer database. 16 Service
+Centre for Customer and Partner Servicing Leveraging
+our existing China local insurance brokerage licenses, sales teams and infrastructure, we intend to build a business platform to acquire
+mainland China customers through referrals and to establish new partnerships. We
+intend to transform our existing shared service center to (i) provide post-sales services to mainland China customers who have
+purchased Hong Kong insurance products; and (ii) institutionalize our capabilities to form B2B partnerships in mainland China.
+We intend to build a lead management tool to recommend new and personalized insurance products to customers, which we intend to be a
+key priority for 2025 and beyond. Leverage
+Our Technology, Tools and Features to Continue to Attract and Engage Creators, Brands and Users and Build a Robust Ecosystem We
+intend to continue leveraging our integrated global platform to maximize the growth potential of our business. The proliferation of digital
+content and engagement with such content, and the convergence of live entertainment and digital technologies, have expanded use cases,
+exposure and monetization opportunities for our Technology Platform and our customers. We believe that our integrated capabilities and
+global reach allow us to deepen relationships with existing Brands, Creators and Users and attract new Brands, Creators, Users and partners. We
+believe that the suite of tools and features that we offer are a key differentiator as we work to grow the scope and depth of engagement
+from Creators, Brands and users and continue to expand our ecosystem. We believe our Technology Platform delivers digital distribution
+tools that enable Creators and Brands to control how their content reaches a broad audience through multiple social media channels. Together
+with our analytical capabilities that track user engagement, we provide the opportunity for Creators and Brands to monetize content across
+multiple digital platforms including Facebook, Instagram, TikTok, Snapchat, YouTube, Twitter and more, which by extension generates revenue
+opportunities for us. We
+believe our investments in AI-powered tools for content development, moderation, distribution and audience management on our Technology
+Platform allow us to deliver a robust solution to attract Creators and Brands. Our suite of tools allows for creative content development
+and distribution, as well as targeted interaction by Brands. Sophisticated algorithms based on natural language datasets created through
+engagement with hundreds of millions of users allow us to providers users with reach and measurement tools that we consider a key differentiator.
+On behalf of Brands, our AI-powered tools and algorithms allow for the creation and execution of immersive brand experiences that leverage
+the growing power of Creators and reach across the customer journey, from awareness to purchase to loyalty programs. We
+plan to continue to invest and learn from our experiences to build features designed to separate us from our competition, with the goal
+of being the go-to platform for Creators seeking to distribute and monetize their content and for Brands to reach consumers through targeted
+engagement. 17 Over
+time, we believe we can play a key role in altering the creator economy so more economic return flows directly to the artists, influencers,
+athletes, celebrities and every-day users creating content and less flows to the big-tech intermediaries that dominate today. Expand
+Our Experiential Offerings in Ways That Create Revenue Opportunities, Build Our Brand and Culture and Fuel Our Ecosystem We
+have observed that younger demographics are increasingly prioritizing concerts, sports, and other entertainment options over material
+goods. According to a study conducted by Expedia and the Center for Generational Kinetics, LLC, 74% of Americans aged 18-65 polled place
+more value on experiences than products or things. Because we deliver live and digital entertainment through our Technology Platform,
+we believe we are well positioned to take advantage of these continuing secular trends and create new offerings and investment opportunities. Other
+live Events we produce are a source of content that afford us with opportunities to promote and leverage our Technology Platform and
+build our brand, in addition to being revenue generative in and of themselves. We believe these Events, featuring well-known names in
+music and athletics, attract individuals and businesses to our ecosystem and drive user engagement, and position us where we believe
+consumer interest is trending. We believe that these Events are exciting to our users, offer sponsorship and engagement opportunities
+for Brands, and provide inspiration to Creators. Combined with our suite of tools to market these Events on the Triller app, TrillerTV,
+and other social media platforms, we intend to continue to seek to monetize the interest in these Events and related content. We
+also seek to position ourselves to take advantage of the growing demand for content. Through our owned and licensed entertainment and
+media products, our distribution platforms and our integration with third-party platforms, we believe we are positioned at the center
+of this demand. As new distribution models and technologies have broadened access and enhanced the consumer experience, premium content
+values have increased. Through our Technology Platform, Events and content and distribution properties, we seek to foster value creation,
+for us and both the artists and influencers that use our Technology Platform. Invest
+in Adjacent High Growth Industry Segments Our
+global Technology Platform has enabled us to enter new, fast-growing industry segments where we are able to leverage long-standing business
+partnerships and relevant commercial insights to accelerate scale. Our Technology Platform allows us to identify areas of growth early
+and benefit from constant technological disruption. Our existing footprint helps to facilitate organic investment in new adjacent industry
+segments. We plan to execute upon these opportunities as they emerge in the future. Emphasize
+Strategic Growth Through Mergers and Acquisitions on Our Technology Platform Our
+mergers and acquisitions strategy has been focused on investing in intellectual property and acquiring capabilities for our Technology
+Platform. We will continue to invest in mergers and acquisitions to complement our internal capabilities and enhance the value of our
+Technology Platform. We believe that owning a highly curated intellectual property asset base and global capabilities set further enhance
+the ecosystem connectivity that makes our Technology Platform the ideal home for numerous future acquisition targets that fit the profile
+of our investment strategy. We also will opportunistically seek to monetize and or dispose of certain assets, if needed. We also believe
+that the insights that we have gained from our position in the content ecosystem, social media landscape and e-commerce business give
+us access to a vast amount of information that informs our investment activities and has the potential to provide access to proprietary
+acquisition and investment opportunities. Our
+management team also has the combined experience of executing more than $50 billion in transactional value in content and technology
+mergers and acquisitions. Collectively, we believe these insights and experience position us well to evaluate targets and identify synergies
+and growth potential. We seek to leverage the experience and relationships of our management team, creative incentive structures to our
+partners and our portfolio of assets to attract Brands and Creators to our Technology Platform. This experience, together with learnings
+from our acquisitions to date and insights gained from our position in the content ecosystem, give us access to a vast amount of information
+that can help us assess acquisition targets. 18 Creating
+an Ecosystem Empowered by Fintech Hong Kong’s
+Fintech Landscape In
+July 2018, the HKMA introduced the “Open API Framework” to facilitate the development and wider adoption of application
+programming interfaces or APIs by the banking sector. The Open API functions include product information, customer acquisition, account
+information and transactions. The HKMA also launched the Faster Payment System in September 2018 to facilitate real-time payments
+and fund transfers between banks and stored value facility operators with the use of a recipient’s mobile number or email address
+as an account proxy. We believes that, with the on-going business integration with the GBA, Hong Kong is likely to see further
+liberalization in the financial services sector in the coming years, especially in relation to the use of financial technologies. In
+July 2018, the HKMA introduced the “Open API Framework” to facilitate the development and wider adoption of application
+programming interfaces or APIs by the banking sector. The Open API functions include product information, customer acquisition, account
+information and transactions. The HKMA also launched the Faster Payment System in September 2018 to facilitate real-time payments
+and fund transfers between banks and stored value facility operators with the use of a recipient’s mobile number or email address
+as an account proxy. We believes that, with the on-going business integration with the GBA, Hong Kong is likely to see further
+liberalization in the financial services sector in the coming years, especially in relation to the use of financial technologies. Group
+Synergy to be Realized Leveraging on Existing Infrastructure and Partners To
+provide a seamless customer journey, increase customers’ stickiness and deepen their share wallet, Our future strategic focus intends
+to create an integrated digital ecosystem by leveraging existing infrastructure, customers and partners. We intends
+to realize synergies across different business units by: ● focusing on product portfolio
+    enhancements, including endowment insurance and investment fund savings plans; ● leveraging the flexibility
+    offered by different financing options, including insurance premium financing, point-of-sale consumer credit, personal credit
+    facility or mortgage financing; and ● using the IFA sales team
+    as a large distribution channel. Our
+digital platform is one of its core customer acquisition engines which we intends to further equip with functionalities including a cash
+management tool for customers, and a transaction platform that encompasses insurance and investment products, retail consumption, medical
+appointments, content marketing and social sharing. By
+targeting customers’ needs at various life stages, we intends to provide a one-stop service to customers while enhancing its
+cross-selling business opportunities. Further collaboration will also be sought in the future with its local partners and overseas
+fintech investments. Fintech will continue to invest in fintech developments to improve its capabilities and attract local and global
+business partners. Our
+Corporate Information We
+were originally incorporated on October 8, 2018 in the British Virgin Islands as a special purpose acquisition company under the former
+name of AGBA Acquisition Limited (“AAL”). In connection with the consummation of the Business Combination (as defined below),
+we changed our name from “AGBA Acquisition Limited” to “TRILLER GROUP INC.”. Our principal executive office is
+located at 7119 West Sunset Boulevard, Suite 782 Los Angeles, CA. 19 Our
+Corporate Information We
+were originally incorporated on October 8, 2018 in the British Virgin Islands as a special purpose acquisition company under the
+former name of AGBA Acquisition Limited (“ AAL ”). In connection with the consummation of the Business Combination (as
+defined below), on October 15, 2024, we changed our name from “AGBA Acquisition Limited” to “Triller Group Inc.”
+Our headquarters in Hong Kong is located at AGBA Tower, 68 Johnston Road, Wan Chai, Hong Kong. Intellectual
+Property We
+own domain names and trademarks. We are currently in the process of re-branding our business and as part of this exercise, AGBA is in
+the process of obtaining domain names and trademark registrations for its new brands, such as “TAG,” “OnePlatform,”,
+“AGBA Focus”, “AGBA Perform” and “AGBA Group,” among others. Our
+intellectual property includes the “Triller,” “Triller Fight Club,” “TrillerFest,” “TrillerTV,”
+“FITE,” “Cliqz”, “Fangage”, “Julius” and “Thuzio” Brands in addition to the
+trademarks and copyrights associated with our content, Events, and the rights to use the intellectual property of our commercial partners.
+Substantially all of our IP and owned assets that we acquire are protected by trademarks and copyright, whether registered or unregistered. To protect its existing and potential, future intellectual property, we have entered into confidentiality and proprietary rights
+agreements with employees, consultants, contractors and business partners; employees and contractors are also subject to invention assignment
+provisions. As part of its contracting process with third parties, we use contract terms such as limited licenses, restrictions on use,
+and confidentiality, as additional measures to protect its intellectual property. Facilities Our
+headquarters in Hong Kong is located at AGBA Tower, 68 Johnston Road, Wan Chai, Hong Kong, which is situated in one of Hong Kong’s
+prime central business districts. The lease agreement for the building, between Viewbest Investments Limited (Viewbest), as landlord,
+and Legacy Group, was executed on June 14, 2019. The
+term of the AGBA Tower lease is six years, with a tentative expiry date of February 28, 2026. While
+we are not the party to the AGBA Tower lease agreement, we are currently occupying space in the building. Employees As
+of December 31, 2024, we had 288 full-time and full-time equivalent employees. None of the employees are represented by a labor union,
+and we consider our employee relations to be good. Website
+Access to Company’s Reports and Disclosure Information Our
+internet website address is https://www.agba.com, to which we regularly post copies of our press releases as well as additional information
+about us. Our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and all amendments to those reports
+filed, will be available to you free of charge through the Investors section of our website as soon as reasonably practicable after such
+materials have been electronically filed with, or furnished to, the Securities and Exchange Commission (the “SEC”). The SEC
+maintains an internet site (http://www.sec.gov) that contains reports, proxy and information statements, and other information regarding
+issuers that file electronically with the SEC. We include our web site address in this Annual Report on Form 10-K only as an inactive
+textual reference. Information contained in our website does not constitute a part of this report or our other filings with the SEC. 20 ITEM
+1A.
+

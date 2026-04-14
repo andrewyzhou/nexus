@@ -1,0 +1,73 @@
+EX-21.1
+7
+exhibit211-listofsubsidiar.htm
+EX-21.1
+Document
+Exhibit 21.1
+Sprinklr, Inc.
+List of Subsidiaries as of March 19, 2026
+Name
+Jurisdiction
+1.
+Sprinklr Australia Pty Ltd
+Australia
+2.
+Sprinklr (Brasil) Ltda.
+Brazil
+3.
+Sprinklr Canada Inc.
+Canada
+4.
+Sprinklr China Limited
+China
+5.
+Sprinklr Denmark ApS
+Denmark
+6.
+Sprinklr Gulf (f/k/a Sprinklr Middle East)
+Dubai
+7.
+Sprinklr France Sarl
+France
+8.
+Sprinklr Germany GmbH
+Germany
+9.
+Sprinklr India Private Limited
+India
+10.
+Unified-CXM Ireland Limited
+Ireland
+11.
+Sprinklr Italia Srl
+Italy
+12.
+Sprinklr Japan KK
+Japan
+13.
+Sprinklr Middle East and North Africa Regional Headquarter
+Kingdom of Saudi Arabia
+14.
+Sprinklr Netherlands BV
+Netherlands
+15.
+Sprinklr Doha QFC Branch
+Qatar
+16.
+Sprinklr Singapore Pte Ltd
+Singapore
+17.
+Sprinklr Korea LLC
+South Korea
+18.
+Sprinklr Software Iberia S.L.U.
+Spain
+19.
+Unified-CXM AB
+Sweden
+20.
+Sprinklr Switzerland GmbH
+Switzerland
+21.
+Sprinklr UK Ltd
+United Kingdom

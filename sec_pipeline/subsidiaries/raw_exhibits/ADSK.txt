@@ -1,0 +1,183 @@
+EX-21.1
+3
+adsk01312026ex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF AUTODESK, INC.
+a Delaware Corporation
+as of January 31, 2026
+Subsidiary Name
+Jurisdiction of Incorporation
+ADSK Ireland Limited
+Ireland
+ADSK Norway AS
+Norway
+ADSK Norway Holdings AS
+Norway
+Autodesk (China) Software Research and Development Co., Ltd.
+China
+Autodesk (EMEA) Sárl
+Switzerland
+Autodesk AB
+Sweden
+Autodesk ApS
+Denmark
+Autodesk Asia Pte. Ltd.
+Singapore
+Autodesk Australia Pty. Ltd.
+Australia
+Autodesk Australia Holding Pty. Ltd.
+Australia
+Autodesk B.V.
+Netherlands
+Autodesk Canada Co.
+Canada
+Autodesk Colombia, S.A.S.
+Colombia
+AUTODESK d.o.o.
+Croatia
+Autodesk de Argentina S.A.
+Argentina
+Autodesk de Costa Rica, S.R.L.
+Costa Rica
+Autodesk de Mexico, S.A. de C.V.
+Mexico
+Autodesk de Venezuela, S.A.
+Venezuela
+Autodesk Development S.á.r.l.
+Switzerland
+Autodesk Direct Limited
+United Kingdom
+Autodesk do Brasil Ltda
+Brazil
+Autodesk doo Novi Sad
+Serbia
+Autodesk Far East Limited
+Hong Kong
+Autodesk Finance Holdings Limited (Ireland)
+Ireland
+Autodesk Finland Oy
+Finland
+Autodesk France S.A.S.
+France
+Autodesk Ges.mbH
+Austria
+Autodesk Global, Inc.
+U.S.
+Autodesk Global Holdings Limited
+Ireland
+Autodesk GmbH
+Germany
+Autodesk Hungary Kft.
+Hungary
+Autodesk India Private Limited
+India
+Autodesk India Store Private Limited
+India
+Autodesk International Holding Co.
+U.S.
+Autodesk Ireland Operations Unlimited Company
+Ireland
+Autodesk Israel Ltd.
+Israel
+Autodesk Korea Limited
+South Korea
+1
+Autodesk Limited
+Saudi Arabia
+Autodesk Limited
+United Kingdom
+Autodesk Ltd. Japan
+Japan
+Autodesk Netherlands Holdings B.V.
+Netherlands
+Autodesk Norway AS
+Norway
+Autodesk Norway Operations AS
+Norway
+Autodesk Portugal, Unipessoal Lda.
+Portugal
+Autodesk S.r.l.
+Italy
+Autodesk S.R.L.
+Romania
+Autodesk SA
+Switzerland
+Autodesk Software (China) Co., Ltd.
+China
+Autodesk Sp. Z o.o.
+Poland
+Autodesk spol. s.r.o.
+Czech Republic
+Autodesk Taiwan Limited
+Taiwan, Republic of China
+Autodesk UK Holdings Limited
+United Kingdom
+Autodesk Yazilim Hizmetleri Ticaret Limited Sirketi
+(Autodesk Limited Sirketi)
+Turkey
+Autodesk, S.A.
+Spain
+Autodesk Inc Jordan PSC
+Jordan
+Datum360 Holdco Limited
+United Kingdom
+Datum360 Limited
+United Kingdom
+Datum360 Pty Ltd
+Australia
+Delcam Australia Pty Limited
+Australia
+Delcam Consulting and Technology Services Limited
+India
+Delcam Limited
+United Kingdom
+Delcam Software (India) Private Limited
+India
+Flexsim Software Products, Inc.
+U.S.
+Graitec GmbH
+Germany
+Hart Business Solutions, LLC
+Virginia (U.S.)
+Innovyze LLC
+Delaware
+Innovyze Ltd.
+United Kingdom
+Innovyze Pty. Ltd.
+Australia
+Moxion
+New Zealand
+Navasto GmbH
+Germany
+Payapps.com (UK) Ltd.
+United Kingdom
+Payapps Limited
+British Virgin Islands
+Payapps (NZ) Limited
+New Zealand
+Payapps Pty Ltd.
+Australia
+PlanGrid Australia Pty Ltd.
+Australia
+PlanGrid, Inc.
+U.S.
+ProEst, Inc.
+U.S.
+Solid Angle S.L.U.
+Spain
+Storm Australia Holdco Pty. Ltd.
+Australia
+Webcontractor Holdings Ltd.
+United Kingdom
+Webcontractor Ltd.
+United Kingdom
+2
+Wild Technology, Inc.
+U.S.
+X2X, LLC
+California
+XP Software Pty. Ltd.
+Australia
+3

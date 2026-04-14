@@ -1,0 +1,39 @@
+EX-21.1
+3
+rklb-2025xex21_1.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+LIST OF SUBSIDIARIES
+Company Name
+Jurisdiction
+Rocket Lab USA, Inc.
+Delaware
+Rocket Lab Global Services, LLC
+Delaware
+Rocket Lab Limited
+New Zealand
+Rocket Lab Space Systems Inc.
+British Columbia, Canada
+ASI Aerospace LLC
+Delaware
+Planetary Systems Corporation
+District of Columbia
+SolAero Holdings, Inc.
+Delaware
+SolAero, LLC
+Delaware
+SolAero Technologies Corp.
+Delaware
+SolAero Solar Power LLC
+Delaware
+SolAero IRB Company, LLC
+New Mexico
+Rocket Lab Australia Pty Ltd.
+Australia
+Rocket Lab National Security LLC
+Delaware
+Rocket Lab Composites LLC
+Delaware
+LightRidge Interco Solutions Holdings, Inc.
+Delaware

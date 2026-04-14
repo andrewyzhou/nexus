@@ -1,0 +1,30 @@
+EX-21.1
+3
+ex211listofsubsidiaries2025.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+List of Significant Subsidiaries
+As of November 2, 2025
+Name of Subsidiary
+Country of Incorporation
+Avago Technologies International Sales Pte. Limited
+Singapore
+Avago Technologies U.S. Inc.
+Delaware (U.S.A.)
+Broadcom Corporation
+California (U.S.A.)
+Broadcom Singapore Pte Ltd
+Singapore
+Broadcom Technologies, Inc.
+Delaware (U.S.A.)
+CA, Inc.
+Delaware (U.S.A.)
+VMware International Unlimited Company
+Ireland
+VMware LLC
+Delaware (U.S.A.)
+VMware Global, Inc.
+Delaware (U.S.A.)
+VMware Management Inc.
+Delaware (U.S.A.)

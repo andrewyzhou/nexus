@@ -1,0 +1,818 @@
+TICKER: ACCS
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chains,
+adversely impacted many industries, and contributed to significant volatility in financial markets. Overall, despite many uncertainties
+in the market regarding the economic and political outlook, we believe the demand for our platforms and services is stable in a majority
+of the markets we serve. We believe there is demand
+for our products around the world as companies seek to find better platforms and tools to disseminate and communicate their messages in
+a more efficient and collaborative way. We also believe the continued
+transition to a platform subscription model has been and will continue to be key for our long-term sustainable growth. We will also continue
+to focus on the following key strategic initiatives during the remainder of 2026: · Expanding our products and adapting to this changing industry, · Expanding customer base, · Expanding our newswire distribution, · Investing in technology advancements and upgrades, · Evaluating acquisitions in areas of strategic focus, · Generating profitable sustainable growth · Generating cash flows from operations. Critical Accounting Policies and Estimates The consolidated financial
+statements include the accounts of the Company and our wholly owned subsidiaries. Significant intercompany accounts and transactions are
+eliminated in consolidation. Revenue Recognition Substantially all the Company’s
+revenue comes from contracts with customers for its press release distribution and related products, investor relations website hosting
+or data feeds, events and webcast offerings and subscriptions to its incident hotline. Customers consist of public corporate issuers and
+professional firms, such as investor and public relations firms. In the case of news distribution and webcasting offerings, customers
+also include private companies. The Company accounts for a contract with a customer when there is an enforceable contract between the
+Company and the customer, the rights of the parties are identified, the contract has economic substance, and collectability of the contract
+consideration is probable. The Company's revenues are measured based on consideration specified in the contract with each customer. 28 The Company's contracts include
+either a subscription to its entire platform, certain modules within the platform or to its Press Release Optimizer Plan (“PRO”),
+or an agreement to perform services, or any combination thereof, and often contain multiple subscriptions and services. For these bundled
+contracts, the Company accounts for individual subscriptions and services as separate performance obligations if they are distinct, which
+is when a product or service is separately identifiable from other items in the bundled package, and a customer can benefit from it on
+its own or with other resources that are readily available to the customer. Performance obligations include providing subscriptions to
+certain modules or our entire platform, distributing press releases on a per release basis or conducting webcasts, virtual annual meetings,
+or other events on a per event basis. PRO subscription contracts contain two performance obligations: (i) the first is a series of distinct
+services that include, but are not limited to, developing specific media plans, and creating content to be distributed and (ii) the second
+performance obligation being access to the PRO platform along with distribution of press releases, ongoing support, and assessment of
+performance as a stand-ready obligation. The Company’s subscription and service contracts are generally for one year, with automatic
+renewal clauses included in the contract until the contract is cancelled. The contracts do not contain any rights of returns, guarantees,
+or warranties. Since contracts are generally for one year, all the revenue is expected to be recognized within one year from the contract
+start date. As such, the Company has elected the optional exemption that allows the Company not to disclose the transaction price allocated
+to performance obligations that are unsatisfied or partially satisfied at the end of each reporting period. The Company recognizes revenue
+for subscriptions evenly over the contract period, upon distribution for pay per release or packages of press releases and upon event
+completion for webcasting and virtual annual meeting events. For service contracts that include stand-ready obligations, revenue is recognized
+evenly over the contract period. For all other services delivered on a per project or event basis, the revenue is recognized at the completion
+of the event. The Company believes recognizing revenue for subscriptions and stand ready obligations using a time-based measure of progress,
+best reflects the Company’s performance in satisfying the obligations. For bundled contracts, revenue
+is allocated to each performance obligation based on its relative standalone selling price. Standalone selling prices are based on observable
+prices at which the Company separately sells the subscription or service. If a standalone selling price is not directly observable, the
+Company uses the residual method to allocate any remaining price to that subscription or service. The Company reviews standalone selling
+prices, at least annually, and updates these estimates if necessary. Accounts Receivable and Allowance for Credit
+Losses The Company calculates its
+allowance for credit losses using an expected losses model rather than using incurred losses. The model is based on the credit losses
+expected to arise over the life of the asset based on the Company’s expectations as of the balances sheet date through analyzing
+historical customer data as well as taking into consideration current economic trends. The Company generally writes-off accounts receivable
+against the allowance when it determines a balance is uncollectible and no longer actively pursues its collection. Income Taxes Deferred income tax assets
+and liabilities are computed for differences between the financial statement and tax bases of assets and liabilities that will result
+in future taxable or deductible amounts based on enacted tax laws and rates applicable to the periods in which the differences are expected
+to affect taxable income. Valuation allowances are established, when necessary, to reduce deferred income tax assets to the amounts expected
+to be realized. For any uncertain tax positions, the Company recognizes the impact of a tax position, only if it is more likely than not
+of being sustained upon examination, based on the technical merits of the position. The Company’s policy regarding the classification
+of interest and penalties is to classify them as income tax expense in the financial statements, if applicable. Capitalized Software Costs incurred to develop the Company’s
+cloud-based platform products are capitalized when the preliminary project phase is complete, management commits to fund the project and
+it is probable the project will be completed and used for its intended purposes. Once the software is substantially complete and ready
+for its intended use, the software is amortized over its estimated useful life, which is typically four years. Costs related to design
+or maintenance of the software are expensed as incurred. 29 Impairment of Long-lived Assets In accordance with the authoritative
+guidance for accounting for long-lived assets, assets such as property and equipment, trademarks, and intangible assets subject to amortization,
+are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset group may not be
+recoverable. Recoverability of asset groups to be held and used is measured by a comparison of the carrying amount of an asset group to
+estimated undiscounted future cash flows expected to be generated by the asset group. If the carrying amount of an asset group exceeds
+its estimated future cash flows, an impairment charge is recognized by the amount by which the carrying amount of an asset group exceeds
+fair value of the asset group. Lease Accounting The Company determines if
+an arrangement is a lease at inception. Operating lease agreements are primarily for office space and are included within lease right-of-use
+(“ROU”) assets and lease liabilities on the consolidated balance sheet. ROU assets represent the right
+to use an underlying asset for the lease term and lease liabilities represent the obligation to make lease payments arising from the lease.
+ROU assets and lease liabilities are recognized at the commencement date based on the present value of lease payments over the lease term.
+Variable lease payments consist of non-lease services related to the lease and payments under operating leases classified as short-term.
+Variable lease payments are excluded from the ROU assets and lease liabilities and are recognized in the period in which the obligation
+for those payments is incurred. As most of the leases do not provide an implicit rate, the Company uses its incremental borrowing rate
+based on the information available at commencement date in determining the present value of lease payments. ROU assets include any lease
+payments due and exclude lease incentives. Rental expense for lease payments related to operating leases is recognized on a straight-line
+basis over the lease term. Business Combinations, Goodwill, and Intangible
+Assets The authoritative guidance
+for business combinations specifies the criteria for recognizing and reporting intangible assets apart from goodwill. The Company records
+the assets acquired and liabilities assumed in business combinations at their respective fair values at the date of acquisition, with
+any excess purchase price recorded as goodwill. Goodwill is an asset representing the future economic benefits arising from other assets
+acquired in a business combination that are not individually identified and separately recognized. Intangible assets consist of client
+relationships, customer lists, distribution partner relationships, software, technology, non-compete agreements and trademarks that are
+initially measured at fair value. At the time of the business combination, trademarks may be considered an indefinite-lived asset and,
+as such, are not amortized as there may be no foreseeable limit to cash flows generated from them. For the Newswire acquisition, the Company
+originally determined the trademarks acquired were considered a definite lived asset which will be amortized over a period of 15 years,
+however upon the re-brand of the Company to ACCESS Newswire and subsequent review of the trademarks associated with Newswire, determined
+the life to be 5 years remaining. The goodwill and intangible assets are assessed annually for impairment, or whenever conditions indicate
+the asset may be impaired, and any such impairment will be recognized in the period identified. The client relationships (5-10 years),
+customer lists (3 years), distribution partner relationships (10 years), non-compete agreements (5 years) and software and technology
+(3-7 years) are amortized over their estimated useful lives. ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES
+ABOUT MARKET RISK. We do not believe that we
+face material market risk with respect to our cash or cash equivalents, which totaled $3,025,000 and $4,103,000 at December 31, 2025 and
+2024, respectively. We did not hold any marketable securities as of December 31, 2025 or 2024. 30 ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY
+DATA. The financial statements required
+by this Item 8 are set forth in Item 15 of this Annual Report. All information which has been omitted is either inapplicable or not required. Our Consolidated Balance Sheets
+as of December 31, 2025, and 2024, and the related Consolidated Statements of Income (Loss), Consolidated Comprehensive Income (Loss),
+Consolidated Stockholders’ Equity and Consolidated Cash Flows for the two years ended December 31, 2025 and 2024, together with
+the independent registered public accountants’ reports thereon appear beginning on Page F-1. ITEM 9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS
+ON ACCOUNTING AND FINANCIAL DISCLOSURE. None. ITEM 9A. CONTROLS AND PROCEDURES. Management’s Annual Report Regarding
+Internal Disclosure Controls and Procedures Our management is responsible
+for establishing and maintaining adequate internal control over financial reporting, as defined in Rules 13a-15(f) and 15d-15(f) of the
+Exchange Act. Internal control over financial reporting is designed to provide reasonable assurance regarding the reliability of financial
+reporting and the preparation and fair presentation of financial statements for external purposes, in accordance with generally accepted
+accounting principles. The effectiveness of any system of internal control over financial reporting is subject to inherent limitations
+and therefore, may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness of future periods are subject
+to the risk that the controls may become inadequate due to change in conditions, or that the degree of compliance with the policies or
+procedures may deteriorate. This Form 10-K does not include
+an attestation report of the Company’s registered public accounting firm regarding internal control over financial reporting. Management’s
+report was not subject to attestation by the Company’s registered public accounting firm pursuant to rules of the Securities and
+Exchange Commission that permit the Company to provide only management’s report in this Form 10-K. Evaluation of Disclosure Controls and Procedures Based on an evaluation under
+the supervision and with the participation of our management, our Principal Executive Officer and Principal Financial Officer have concluded
+that our disclosure controls and procedures as defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934, as
+amended ("Exchange Act") were effective as of December 31, 2025, to ensure that information required to be disclosed in reports
+that are filed or submitted under the Exchange Act is (i) recorded, processed, summarized and reported within the time periods specified
+in the Securities and Exchange Commission rules and forms and (ii) accumulated and communicated to our management, including our principal
+executive officer and principal financial officer, as appropriate to allow timely decisions regarding required disclosure. Inherent Limitations over Internal Controls Our internal control over
+financial reporting is designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of
+financial statements for external purposes in accordance with generally accepted accounting principles. Our internal control over financial
+reporting includes those policies and procedures that: (i) pertain to the maintenance of records that, in reasonable detail, accurately
+and fairly reflect the transactions and disposition of our assets; (ii) provide reasonable assurance that transactions are recorded as
+necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts
+and expenditures are being made only in accordance with authorizations of management and directors; and (iii) provide reasonable assurance
+regarding prevention or timely detection of unauthorized acquisition, use, or disposition of assets that could have a material effect
+on the financial statements. 31 Management, including our
+Chief Executive Officer and Chief Financial Officer, do not expect that our internal controls will prevent or detect all errors and all
+fraud. A control system, no matter how well designed and operated, can provide only reasonable, not absolute, assurance that the objectives
+of the control system are met. Further, the design of a control system must reflect the fact that there are resource constraints, and
+the benefits of controls must be considered relative to their costs. Because of the inherent limitations in all control systems, no evaluation
+of internal controls can provide absolute assurance that all control issues and instances of fraud, if any, have been detected. Also,
+any evaluation of the effectiveness of controls in future periods are subject to the risk that those internal controls may become inadequate
+because of changes in business conditions, or that the degree of compliance with the policies or procedures may deteriorate. Report of Management's Annual Report on
+Internal Control over Financial Reporting Our management is responsible
+for establishing and maintaining adequate internal control over financial reporting (as defined in Rule 13a-15(f) under the Securities
+Exchange Act of 1934, as amended). Management conducted an evaluation of the effectiveness of our internal control over financial reporting
+based on the criteria set forth by the Committee of Sponsoring Organizations (“COSO”) updated Internal Control—Integrated
+Framework (2013). Based on this evaluation, management has concluded that our internal control over financial reporting was effective
+as of December 31, 2025. There were no changes in our
+internal controls that could materially affect the disclosure controls and procedures subsequent to the date of their evaluation, nor
+were there any material deficiencies or material weaknesses in our internal controls. As a result, no corrective actions were required
+or undertaken. ITEM 9B. OTHER INFORMATION. During the three months
+ended December 31, 2025, no director or officer of the Company adopted or terminated a “Rule 10b5-1 trading arrangement” or “non-Rule 10b5-1 trading arrangement,” as each term is defined in
+Item 408(a) of Regulation S-K. ITEM 9C. DISCLOSURE REGARDING FOREIGN JUSRISDICTIONS THAT PREVENT
+INSPECTIONS Not applicable 32 PART III ITEM 10. DIRECTORS, EXECUTIVE OFFICERS AND
+CORPORATE GOVERNANCE. The information required by
+this Item is set forth under the headings “Directors, Executive Officers and Corporate Governance” and “Section 16(a)
+Beneficial Ownership Reporting Compliance” in the Company’s 2026 Proxy Statement to be filed with the SEC within 120 days
+after December 31, 2025, in connection with the solicitation of proxies for the Company’s 2026 annual meeting of stockholders and
+is incorporated herein by reference. Our
+board of directors has adopted a Code of Conduct applicable to all officers, directors and employees, which is available on our website
+(https://investors.accessnewswire.com/governance-documents) under
+“Governance Documents.” We intend to satisfy the disclosure requirement under Item 5.05 of Form 8-K regarding amendment
+to, or waiver from, a provision of our Code of Conduct by posting such information on the website address and location specified above. We
+have adopted an Insider Trading Policy applicable to our directors, officers, employees and other covered persons that we
+believe are reasonably designed to promote compliance with insider trading laws, rules and regulations, and the NYSE American
+listing standards. Our Insider Trading Policy is filed as Exhibit 19.1 to this Form 10-K. ITEM 11. EXECUTIVE COMPENSATION. The information required by
+this Item is set forth under the heading “Executive Compensation” and under the subheadings “Board Oversight of Risk
+Management,” “Compensation of Directors,” “Director Compensation-2025,” “Compensation Committee Interlocks
+and Insider Participation,” and “Practices Related to the Grant of Equity Awards” under the heading “Directors,
+Executive Officers and Corporate Governance” in the Company’s 2026 Proxy Statement to be filed with the SEC within 120 days
+after December 31, 2025 and is incorporated herein by reference. ITEM 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL
+OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS. The information required by
+this Item is set forth under the headings “Security Ownership of Certain Beneficial Owners and Management” and “Equity
+Compensation Plan Information” in the Company’s 2026 Proxy Statement to be filed with the SEC within 120 days after December
+31, 2025 and is incorporated herein by reference. ITEM 13. CERTAIN RELATIONSHIPS AND RELATED
+TRANSACTIONS, AND DIRECTOR INDEPENDENCE. The information required by
+this Item is set forth under the heading “Review, Approval or Ratification of Transactions with Related Persons” and under
+the subheading “Board Committees” under the heading “Directors, Executive Officers and Corporate Governance” in
+the Company’s 2026 Proxy Statement to be filed with the SEC within 120 days after December 31, 2025 and is incorporated herein by
+reference. ITEM 14. PRINCIPAL ACCOUNTING FEES AND SERVICES. The information required by
+this Item is set forth under the subheadings “Fees Paid to Auditors” and “Policy on Audit Committee Pre-Approval of
+Audit and Non-Audit Services Performed by the Independent Registered Public Accounting Firm” under the proposal “Ratification
+of Appointment of Independent Registered Public Accounting Firm” in the Company’s 2026 Proxy Statement to be filed with the
+SEC within 120 days after December 31, 2025 and is incorporated herein by reference. 33 PART IV ITEM 15. EXHIBITS. (a) Financial Statements The financial statements listed
+in the accompanying index (page F-1) to the financial statements are filed as part of this Form 10-K. (b) Exhibits Exhibit Number Exhibit Description 3.1 Certificate of Incorporation, as amended. (incorporated by reference
+    to Exhibit 3.1 to the Annual Report on Form 10-K filed on March 25, 2025). 3.2 Second Amended and Restated Bylaws (incorporated by reference to Exhibit 3.2 to the Current Report on Form 8-K filed on January 27, 2025). 4.1 C redit Agreement dated March 20, 2023 with Pinnacle Bank and the other loan parties thereto (incorporated by referenced to Exhibit 4.1 to the Current Report on Form 8-K filed on March 22, 2023). 4.2 Third Modification to Credit Agreement and Partial Release dated February 28, 2025 with Pinnacle Bank and the other loan parties thereto (incorporated by referenced to Exhibit 10.2 to the Current Report on Form 8-K filed on March 6, 2025). 10.2 Executive Employment Agreement dated April 30, 2015 with Brian R. Balbirnie (incorporated by reference to Exhibit 10.1 to the Current Report on Form 8-K filed on May 5, 2014) . 10.3 First Amendment to Executive Employment Agreement dated May 4, 2017 with Brian R. Balbirnie (incorporated by reference to Exhibit 10.1 to the Current Report on Form 8-K filed on May 5, 2017) . 10.4 Membership Interest Purchase Agreement dated November 1, 2022 with Lead Capital, LLC (incorporated by reference to Exhibit 10.1 to the Current Report on Form 8-K filed on November 3, 2022) . 10.5 2023 Equity Incentive Plan (incorporated by reference to Annex A to the Schedule 14A filed on April 28, 2023). 10.6 Executive Employment Agreement with Steven Knerr dated September 16, 2024 (incorporated by reference to Exhibit 10.1 to the Current Report on Form 8-K filed on September 17, 2024). 10.7 Asset Purchase Agreement dated February 28, 2025 with Equiniti Transfer Company, LLC and Direct Transfer, LLC (incorporated by reference to Exhibit 10.1 to the Current Report on Form 8-K filed on March 6, 2025). 19.1 The Company’s Insider Trading Policy. (incorporated by
+    reference to Exhibit 19.1 to the Annual Report on Form 10-K filed on March 25, 2025). 21.1 Subsidiaries of the Registrant. * 31.1 Rule 13a-14(a) Certification of Principal Executive Officer. * 31.2 Rule 13a-14(a) Certification of Principal Financial Officer. * 32.1 Section 1350 Certification of Principal Executive Officer. * 32.2 Section 1350 Certification of Principal Financial Officer. * 97 ACCESS Newswire Inc. Policy for the Recovery of Erroneously Awarded Compensation (incorporated by reference to Exhibit 97 to the Annual Report on Form 10-K filed on March 7, 2024). 101 The following financial information from ACCESS Newswire Inc.'s Annual Report on Form 10-K for the year ended December 31, 2024 formatted in Inline XBRL (Extensible Business Reporting Language) includes: (i) the Consolidated Balance Sheets, (ii) the Consolidated Statements of Income (Loss), (iii) the Consolidated Statements of Comprehensive Income (Loss), (iv) the Consolidated Statements of Stockholders Equity, (v) the Consolidated Statements of Cash Flows, and (vi) Notes to the Consolidated Financial Statements. 104 Cover Page Interactive Data File - (formatted as Inline XBRL and contained in Exhibit 101) _______________ * Filed herewith (c) Financial Statement Schedules
+omitted None. 34 SIGNATURES Pursuant to the requirements
+of Section 13 or 15(d) of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by
+the undersigned, thereunto duly authorized. ACCESS NEWSWIRE INC. Date: March 19, 2026 By: /s/ Brian R. Balbirnie Brian R. Balbirnie Chief Executive Officer, Director Pursuant to the requirements
+of the Securities Exchange Act of 1934, this report has been signed below by the following persons on behalf of the Registrant and in
+the capacities indicated as of the dates set forth below. Signature Date Title /s/ Brian R. Balbirnie March 19, 2026 Director, Chairman of the Board  and Chief Executive Officer Brian R. Balbirnie (Principal Executive Officer) /s/ Steven Knerr March 19, 2026 Chief Financial Officer Steven Knerr (Principal Financial Officer) /s/ Graeme Rein March 19, 2026 Director, Chairman of the Audit Committee Graeme Rein /s/ Joe Staples March 19, 2026 Director, Chairman of the Compensation Committee Joe Staples /s/ Wesley Pollard March 19, 2026 Director, Member of the Audit and Compensation Committee Wesley Pollard 35 INDEX TO FINANCIAL STATEMENTS Page Report of Independent Registered Public Accounting Firm (PCAOB ID 00 677 ) F-2 Consolidated Balance Sheets as of December 31, 2025 and 2024 F-4 Consolidated Statements of Income (Loss) for the years ended December 31, 2025 and 2024 F-5 Consolidated Statements of Comprehensive Income (Loss) for the years ended December 31, 2025 and 2024 F-6 Consolidated Statements of Stockholders’ Equity for the years ended December 31, 2025 and 2024 F-7 Consolidated Statements of Cash Flows for the years ended December 31, 2025 and 2024 F-8 Notes to Consolidated Financial Statements F-9 F- 1 Report of Independent Registered Public Accounting
+Firm To the Board of Directors Stockholders ACCESS Newswire Inc. Raleigh, North Carolina Opinion on the Consolidated Financial
+Statements We have audited the accompanying
+consolidated balance sheets of ACCESS Newswire Inc. and subsidiaries (the “Company”) as of December 31, 2025 and 2024, and
+the related statements of income (loss), comprehensive income (loss), stockholders’ equity, and cash flows for each of the years
+in the two-period ended December 31, 2025, and the related notes. In our opinion, the consolidated financial statements present fairly,
+in all material respects, the financial position of the Company as of December 31, 2025 and 2024, and the results of its operations and
+its cash flows for each of the years in the two-year period ended December 31, 2025, in conformity with accounting principles generally
+accepted in the United States of America. Basis for Opinion These consolidated financial statements
+are the responsibility of the Company’s management. Our responsibility is to express an opinion on the Company’s consolidated
+financial statements based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board
+(United States) (“PCAOB”) and are required to be independent with respect to the Company in accordance with the U.S. federal
+securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB. We conducted our audits in accordance
+with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether
+the consolidated financial statements are free of material misstatement, whether due to error or fraud. The Company is not required to
+have, nor were we engaged to perform, an audit of its internal control over financial reporting. As part of our audits, we are required
+to obtain an understanding of internal control over financial reporting, but not for the purpose of expressing an opinion on the effectiveness
+of the Company’s internal control over financial reporting. Accordingly, we express no such opinion. Our audits included performing
+procedures to assess the risks of material misstatement of the consolidated financial statements, whether due to error or fraud, and performing
+procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures
+in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates
+made by management, as well as evaluating the overall presentation of the consolidated financial statements. We believe that our audits
+provide a reasonable basis for our opinion. Critical Audit Matters The critical
+audit matters communicated below are matters arising from the current period audit of the consolidated financial statements that were
+communicated or required to be communicated to the audit committee and that: (1) relate to accounts or disclosures that are material
+to the consolidated financial statements and (2) involved our especially challenging, subjective, or complex judgments. The communication
+of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are
+not, by communicating the critical audit matters below, providing separate opinions on the critical audit matters or on the accounts
+or disclosures to which they relate. F- 2 Newswire Trademark Impairment
+Assessment As discussed in Note 5 to the consolidated
+financial statements, the Company’s Newswire trademark balance was approximately $7,502,000 as of December 31, 2025. The Company’s
+evaluation of the Newswire trademark for impairment involves the comparison of the carrying amount to the estimated undiscounted future
+cash flows expected to be generated by the asset. The undiscounted future cash flows of the Company’s Newswire trademark exceeded
+its carrying value as of December 31, 2025, and no impairment was recognized during the year ended December 31, 2025. Management’s
+cash flow forecasts included significant judgments and assumptions relating to revenue growth rates, operating margins, and useful life.
+As a result, a high degree of auditor judgment and effort was required, including involving the use of our valuation specialists, in performing
+audit procedures to evaluate the reasonableness of management’s cash flow forecasts and the significant assumptions identified above.
+Significant uncertainty exists with these assumptions because they are sensitive to future market or economic conditions. Our audit procedures included the following: · Obtained an understanding of the internal controls and processes in place over the
+Company’s impairment review process, including management’s review of the significant assumptions described above. · Evaluated the reasonableness of management’s revenue, operating margins,
+and other forecasted amounts by comparing the forecasts to actual historical results and other evidence. · With the assistance of our valuation specialists, evaluated the valuation methodologies
+and significant assumptions and developed a range of independent estimates and compared those to the significant assumptions used by management. · Tested the mathematical accuracy of the calculations. /s/ Cherry Bekaert LLP We have served as the Company’s
+auditor since 2010. Raleigh, North Carolina March 19, 2026 F- 3 ACCESS NEWSWIRE INC. AND SUBSIDIARIES CONSOLIDATED BALANCE SHEETS (in thousands, except share and per share amounts) As of December 31, 2025 2024 ASSETS Current assets: Cash and cash equivalents $ 3,025 $ 4,103 Accounts receivable (net of allowance for credit losses of $ 1,336 and $ 1,059 , respectively) 3,884 3,351 Other current assets 1,513 1,234 Current assets held for sale – 1,338 Total current assets 8,422 10,026 Capitalized software (net of accumulated amortization of $ 3,923 and $ 3,644 , respectively) 828 934 Fixed assets (net of accumulated depreciation of $ 669 and $ 914 , respectively) 136 365 Right-of-use asset – leases (See Note 10) 324 766 Other long-term assets 73 158 Goodwill 19,043 19,043 Intangible assets (net of accumulated amortization of $ 9,525 and $ 7,024 , respectively) 9,475 11,976 Deferred tax asset 3,691 3,793 Non-current assets held for sale – 3,577 Total assets $ 41,992 $ 50,638 LIABILITIES AND STOCKHOLDERS’ EQUITY Current liabilities: Accounts payable $ 1,501 $ 1,423 Accrued expenses 1,769 1,699 Income taxes payable 133 56 Current portion of long-term debt 870 4,000 Deferred revenue 5,265 4,743 Current liabilities held for sale – 893 Total current liabilities 9,538 12,814 Long-term debt (net of debt discount of $ 52 and $ 70 , respectively) (see Note 6) 1,686 11,930 Deferred income tax liability 86 – Lease liabilities – long-term (See Note 10) 317 668 Other long-term liabilities 20 – Total liabilities 11,647 25,412 Stockholders’ equity: Preferred stock, $ 0.001 par value, 1,000,000 shares authorized, no shares issued and outstanding as of December 31, 2025 and 2024, respectively. – – Common stock $ 0.001 par value, 20,000,000 shares authorized, 3,850,435 and 3,838,743 shares issued and outstanding as of December 31, 2025 and 2024, respectively. 4 4 Additional paid-in capital 25,005 24,259 Other accumulated comprehensive loss ( 96 ) ( 178 ) Retained earnings 5,432 1,141 Total stockholders' equity 30,345 25,226 Total liabilities and stockholders’ equity $ 41,992 $ 50,638 The accompanying notes are an integral part of
+these consolidated financial statements. F- 4 ACCESS NEWSWIRE INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF INCOME (LOSS) (in thousands, except per share amounts) Years Ended December 31, 2025 2024 Revenues $ 22,619 $ 23,057 Cost of revenues 5,305 5,617 Gross margin 17,314 17,440 Operating costs and expenses: General and administrative 7,151 7,000 Sales and marketing 6,405 7,080 Product development 2,692 2,821 Depreciation and amortization 2,687 2,708 Impairment loss  (See Notes 5 and 10) 250 14,150 Total operating costs and expenses 19,185 33,759 Operating loss ( 1,871 ) ( 16,319 ) Other income (expense) Interest expense, net ( 2 ) ( 1,107 ) Other income (expense) (See Notes 6 and 7) ( 80 ) 81 Loss from continuing operations before income taxes ( 1,953 ) ( 17,345 ) Income tax benefit ( 395 ) ( 4,064 ) Net loss from continuing operations $ ( 1,558 ) $ ( 13,281 ) Net income from discontinued operations, net of taxes 5,849 2,488 Net income (loss) 4,291 ( 10,793 ) Loss from continuing operations per share – basic $ ( 0.40 ) $ ( 3.47 ) Loss from continuing operations per share – diluted $ ( 0.40 ) $ ( 3.47 ) Income from discontinued operations per share – basic $ 1.51 $ 0.65 Income from discontinued operations per share – diluted $ 1.51 $ 0.65 Income (loss) per share – basic $ 1.11 $ ( 2.82 ) Income (loss) per share – diluted $ 1.11 $ ( 2.82 ) Weighted average number of common shares outstanding – basic 3,858 3,827 Weighted average number of common shares outstanding – diluted 3,859 3,829 The accompanying notes are an integral part of
+these consolidated financial statements. F- 5 ACCESS NEWSWIRE INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(LOSS) (in thousands) Years Ended December 31, 2025 2024 Net income (loss) $ 4,291 $ ( 10,793 ) Foreign currency translation adjustment 82 ( 129 ) Comprehensive (loss) income $ 4,373 $ ( 10,922 ) The accompanying notes are an integral part of
+these consolidated financial statements. F- 6 ACCESS NEWSWIRE INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF STOCKHOLDERS’
+EQUITY YEARS ENDED DECEMBER 31, 2025 AND 2024 (in thousands, except share and per share amounts) Common Stock Additional Paid-in Accumulated Other Comprehensive Retained Total Stockholders’ Shares Amount Capital Loss Earnings Equity Balance on December 31, 2023 3,815,212 $ 4 $ 23,531 $ ( 49 ) $ 11,934 $ 35,420 Stock-based compensation expense – – 684 – – 684 Exercise of stock awards, net of tax 18,999 – – – – – Stock issued to consultants 4,532 – 44 – – 44 Foreign currency translation – – – ( 129 ) – ( 129 ) Net income – – – – ( 10,793 ) ( 10,793 ) Balance on December 31, 2024 3,838,743 $ 4 $ 24,259 $ ( 178 ) $ 1,141 $ 25,226 Stock-based compensation expense – – 909 – – 909 Exercise of stock awards, net of tax 30,083 – – – – – Stock repurchase and retirement ( 18,391 ) – ( 163 ) – – ( 163 ) Foreign currency translation – – – 82 – 82 Net income – – – – 4,291 4,291 Balance on December 31, 2025 3,850,435 $ 4 $ 25,005 $ ( 96 ) $ 5,432 $ 30,345 The accompanying notes are an integral part of
+these consolidated financial statements. F- 7 ACCESS NEWSWIRE INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF CASH FLOWS (in thousands, except share and per share amounts) Years Ended December 31, 2025 2024 Cash flows from operating activities Net income (loss) $ 4,291 $ ( 10,793 ) Adjustments to reconcile net (loss) income to net cash provided by operating activities: Gain on disposal of business ( 8,974 ) – Loss on impairment 250 14,150 Provision for credit losses 1,335 1,322 Depreciation and amortization 2,993 3,095 Deferred income taxes 188 ( 3,933 ) Stock-based compensation expense – employees and directors 909 684 Stock-based compensation expense - consultants – 44 Change in fair value of interest rate swap 80 ( 81 ) Amortization of debt issuance costs 17 17 Changes in operating assets and liabilities: Decrease (increase) in accounts receivable ( 1,080 ) ( 1,659 ) Decrease (increase) in other assets 512 434 Increase (decrease) in accounts payable 154 224 Increase (decrease) in income tax payable 76 45 Increase (decrease) in deferred revenue 208 – Increase (decrease) in accrued expenses and other liabilities ( 401 ) ( 389 ) Net cash provided by operating activities 558 3,160 Cash flows from investing activities Purchase of fixed assets ( 20 ) ( 19 ) Capitalized software ( 172 ) ( 597 ) Proceeds from Sale of Compliance business 12,000 – Net cash provided by investing activities 11,808 ( 616 ) Cash flows from financing activities Payment of long-term debt (see Note 6) ( 13,391 ) ( 4,000 ) Payment for stock repurchase and retirement ( 163 ) – Net cash used in financing activities ( 13,554 ) ( 4,000 ) Net change in cash and cash equivalents ( 1,188 ) ( 1,456 ) Cash and cash equivalents - beginning 4,103 5,714 Currency translation adjustment 110 ( 155 ) Cash and cash equivalents - ending $ 3,025 $ 4,103 Supplemental disclosures: Cash paid for income taxes $ 2,208 $ 342 Cash paid for interest $ 413 $ 1,387 The accompanying notes are an integral part of
+these consolidated financial statements. F- 8 ACCESS NEWSWIRE INC. AND SUBSIDIARIES NOTES TO CONSOLIDATED FINANCIAL STATEMENTS Note 1: Description, Background and Basis
+of Operations Nature of Operations ACCESS Newswire Inc. (the
+“Company” or “ACCESS”) was incorporated in the State of Delaware in October 1988 under the name Docucon Inc.
+Subsequent to the December 13, 2007 merger with My EDGAR, Inc., the Company changed its name to Issuer Direct Corporation and on January
+27, 2025, changed its name to ACCESS Newswire Inc. Today, ACCESS is a leading communications company providing solutions for both public
+relations and investor relations professionals. The Company operates under several brands in the market, including Direct Transfer, Interwest,
+ACCESSWIRE, Pressrelease.com and Newswire.. Note 2: Summary of Significant Accounting
+Policies The consolidated financial
+statements include the accounts of the Company and its wholly owned subsidiaries. Significant intercompany accounts and transactions are
+eliminated in consolidation. Cash Equivalents For purposes of the Company’s
+financial statements, the Company considers all highly liquid investments purchased with an original maturity date of three months or
+less to be cash equivalents. Accounts Receivable and Allowance for Credit
+Losses The Company calculates its
+allowance for credit losses using an expected losses model rather than using incurred losses. The model is based on the credit losses
+expected to arise over the life of the asset based on the Company’s expectations as of the balances sheet date through analyzing
+historical customer data as well as taking into consideration current economic trends. The Company generally writes-off accounts receivable
+against the allowance when it determines a balance is uncollectible and no longer actively pursues its collection. The following is a summary
+of the allowance for credit losses during the years ended December 31, 2025 and 2024 (in thousands): Schedule of allowance for credit losses Years Ended December 31, 2025 2024 Beginning balance $ 1,059 $ 721 Provision for credit losses 915 1,083 Write-offs ( 638 ) ( 745 ) Ending balance $ 1,336 $ 1,059 Concentrations of Credit Risk & Customers Financial instruments and
+related items which potentially subject the Company to concentrations of credit risk consist primarily of cash, cash equivalents and accounts
+receivables. The Company places its cash and temporary cash investments with credit quality institutions. As of December 31, 2025, the
+Company’s domestic cash balance is spread among different depository institutions such that there is no balance which exceeds the
+FDIC insurance limit of $ 250,000 . The Company also had cash-on-hand of $ 1,943,000 in Canada as of December 31, 2025. As of December 31,
+2024, the Company had cash-on-hand of $ 1,691,000 in Canada and $ 68,000 in Europe. F- 9 The Company believes it did
+not have any financial instruments that could have potentially subjected us to significant concentrations of credit risk for any relevant
+period. The Company did not have
+any customers during the years ended December 31, 2025 or 2024 that accounted for more than 10% of revenue. Revenue Recognition Substantially all the Company’s
+revenue comes from contracts with customers for its press release distribution and related products, investor relations website hosting
+or data feeds, events and webcast offerings and subscriptions to its incident hotline. Customers consist of public corporate issuers and
+professional firms, such as investor and public relations firms. In the case of news distribution and webcasting offerings, customers
+also include private companies. The Company accounts for a contract with a customer when there is an enforceable contract between the
+Company and the customer, the rights of the parties are identified, the contract has economic substance, and collectability of the contract
+consideration is probable. The Company's revenues are measured based on consideration specified in the contract with each customer. The Company's contracts include
+either a subscription to its entire platform, certain modules within the platform or to its Press Release Optimizer Plan (“PRO”),
+or an agreement to perform services, or any combination thereof, and often contain multiple subscriptions and services. For these bundled
+contracts, the Company accounts for individual subscriptions and services as separate performance obligations if they are distinct, which
+is when a product or service is separately identifiable from other items in the bundled package, and a customer can benefit from it on
+its own or with other resources that are readily available to the customer. Performance obligations include providing subscriptions to
+certain modules or our entire platform, distributing press releases on a per release basis or conducting webcasts, virtual annual meetings,
+or other events on a per event basis. PRO subscription contracts contain two performance obligations: (i) the first is a series of distinct
+services that include, but are not limited to, developing specific media plans, and creating content to be distributed and (ii) the second
+performance obligation being access to the PRO platform along with distribution of press releases, ongoing support, and assessment of
+performance as a stand-ready obligation. The Company’s subscription and service contracts are generally for one year, with automatic
+renewal clauses included in the contract until the contract is cancelled. The contracts do not contain any rights of returns, guarantees,
+or warranties. Since contracts are generally for one year, all the revenue is expected to be recognized within one year from the contract
+start date. As such, the Company has elected the optional exemption that allows the Company not to disclose the transaction price allocated
+to performance obligations that are unsatisfied or partially satisfied at the end of each reporting period. The Company recognizes revenue
+for subscriptions evenly over the contract period, upon distribution for pay per release or packages of press releases and upon event
+completion for webcasting and virtual annual meeting events. For service contracts that include stand-ready obligations, revenue is recognized
+evenly over the contract period. For all other services delivered on a per project or event basis, the revenue is recognized at the completion
+of the event. The Company believes recognizing revenue for subscriptions and stand ready obligations using a time-based measure of progress,
+best reflects the Company’s performance in satisfying the obligations. For bundled contracts, revenue
+is allocated to each performance obligation based on its relative standalone selling price. Standalone selling prices are based on observable
+prices at which the Company separately sells the subscription or service. If a standalone selling price is not directly observable, the
+Company uses the residual method to allocate any remaining price to that subscription or service. The Company reviews standalone selling
+prices, at least annually, and updates these estimates if necessary. The Company invoices its customers
+based on the billing schedules designated in its contracts, typically upfront on either a monthly, quarterly or annual basis or per transaction
+at the completion of the performance obligation. Deferred revenue for the periods presented was primarily related to press release packages
+which have been invoiced or paid, however the releases have not yet been disseminated, as well as, subscription and service contracts,
+which are billed upfront, quarterly, or annually, however the revenue has not yet been recognized. The associated deferred revenue is
+generally recognized as releases are disseminated for press release packages and ratably over the billing period for subscriptions. Deferred
+revenue as of December 31, 2025 and 2024, was $ 5,265,000 and $ 4,743,000 , respectively, and is expected to be recognized primarily within
+one year. Approximately $ 845,000 of the deferred revenue balance as of December 31, 2025, relates to contracts for press release packages
+with an expiration date after December 31, 2026, however the customer may use the balance within one year. As of January 1, 2024, deferred
+revenue was $ 4,750,000 . Revenue recognized for the year ended December 31, 2025 and 2024, which was included in the deferred revenue balance
+at the beginning of each reporting period, was approximately $ 4,455,000 and $ 4,750,000 , respectively. Accounts receivable, net of allowance
+for credit losses, related to contracts with customers was $ 3,884,000 and $ 3,351,000 as of December 31, 2025 and 2024, respectively. As
+of January 1, 2024, accounts receivable, net of allowance for credit losses was $ 3,005,000 . Since substantially all the contracts have
+terms of one year or less, the Company has elected to use the practical expedient regarding the existence of significant financing. F- 10 Costs to obtain contracts
+with customers consist primarily of sales commissions. As of December 31, 2025 and 2024, the Company has capitalized $ 45,000 and $ 69,000 ,
+respectively, of costs to obtain contracts that are expected to be amortized over more than one year. For contract costs expected to be
+amortized in less than one year, the Company has elected to use the practical expedient allowing the recognition of incremental costs
+of obtaining a contract as an expense when incurred. The Company has considered historical renewal rates, expectations of future renewals
+and economic factors in making these determinations. Fixed Assets Fixed assets are recorded
+at cost and depreciated over the estimated useful lives of the assets using principally the straight-line method. When items are retired
+or otherwise disposed of, income is charged or credited for the difference between net book value and proceeds realized thereon. Ordinary
+maintenance and repairs are charged to expense as incurred, and replacements and betterments are capitalized. The range of estimated
+useful lives used to calculate depreciation for principal items of property and equipment are as follows: Schedule of estimated useful lives Asset Category Depreciation / Amortization Period Computer equipment 3 years Furniture & equipment 3 to 7 years Leasehold improvements lesser of 8 years or the lease term Earnings per Share Earnings per share accounting
+guidance requires that basic net income per common share be computed by dividing net income for the period by the weighted average number
+of common shares outstanding during the period. Diluted net income per share is computed by dividing the net income for the period by
+the weighted average number of common and dilutive common equivalent shares outstanding during the period. Shares issuable upon the exercise
+of stock options totaling 45,000 and 52,750 were excluded in the computation of diluted earnings per common share during the years ended
+December 31, 2025 and 2024, respectively, because their impact was anti-dilutive. Use of Estimates The preparation of financial
+statements in conformity with United States Generally Accepted Accounting Principles (“GAAP”) requires management to make
+estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Significant estimates
+include the allowance for credit losses and the valuation of goodwill, intangible assets, deferred tax assets, and stock-based compensation.
+Actual results could differ from those estimates. Income Taxes Deferred income tax assets
+and liabilities are computed for differences between the financial statement and tax bases of assets and liabilities that will result
+in future taxable or deductible amounts based on enacted tax laws and rates applicable to the periods in which the differences are expected
+to affect taxable income. Valuation allowances are established, when necessary, to reduce deferred income tax assets to the amounts expected
+to be realized. For any uncertain tax positions, the Company recognizes the impact of a tax position, only if it is more likely than not
+of being sustained upon examination, based on the technical merits of the position. The Company’s policy regarding the classification
+of interest and penalties is to classify them as income tax expense in the financial statements, if applicable. F- 11 Capitalized Software Costs incurred to develop
+the Company’s cloud-based platform products are capitalized when the preliminary project phase is complete, management commits
+to fund the project and it is probable the project will be completed and used for its intended purposes. Once the software is substantially
+complete and ready for its intended use, the software is amortized over its estimated useful life, which is typically four years. Costs
+related to design or maintenance of the software are expensed as incurred. Capitalized costs and amortization for the years ended December
+31, 2025 and 2024, are as follows (in thousands): Schedule of capitalized costs and amortization December 31, 2025 2024 Capitalized software development costs $ 172 $ 597 Amortization included in cost of revenues 278 220 Impairment of Long-lived Assets In accordance with the authoritative
+guidance for accounting for long-lived assets, assets such as property and equipment, trademarks, and intangible assets subject to amortization,
+are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset group may not be
+recoverable. Recoverability of asset groups to be held and used is measured by a comparison of the carrying amount of an asset group to
+estimated undiscounted future cash flows expected to be generated by the asset group. If the carrying amount of an asset group exceeds
+its estimated future cash flows, an impairment charge is recognized by the amount by which the carrying amount of an asset group exceeds
+fair value of the asset group. Lease Accounting The Company determines if
+an arrangement is a lease at inception. Operating lease agreements are primarily for office space and are included within lease right-of-use
+(“ROU”) assets and lease liabilities on the consolidated balance sheet. ROU assets represent the right
+to use an underlying asset for the lease term and lease liabilities represent the obligation to make lease payments arising from the lease.
+ROU assets and lease liabilities are recognized at the commencement date based on the present value of lease payments over the lease term.
+Variable lease payments consist of non-lease services related to the lease and payments under operating leases classified as short-term.
+Variable lease payments are excluded from the ROU assets and lease liabilities and are recognized in the period in which the obligation
+for those payments is incurred. As most of the leases do not provide an implicit rate, the Company uses its incremental borrowing rate
+based on the information available at commencement date in determining the present value of lease payments. ROU assets include any lease
+payments due and exclude lease incentives. Rental expense for lease payments related to operating leases is recognized on a straight-line
+basis over the lease term. Fair Value Measurements Accounting Standards Codification
+(“ASC”) Topic 820 establishes a fair value hierarchy that requires an entity to maximize the use of observable inputs and
+minimize the use of unobservable inputs when measuring fair value. Assets and liabilities recorded at fair value in the financial statements
+are categorized based upon the hierarchy of levels of judgment associated with the inputs used to measure their fair value. Hierarchical
+levels directly related to the amount of subjectivity associated with the inputs to fair valuation of these assets and liabilities, are
+as follows: · Level 1 – Quoted prices are available in active markets for identical assets or liabilities at the reporting date. Generally, this includes debt and equity securities that are traded in an active market. Cash and cash equivalents are quoted at Level 1. · Level 2 – Observable inputs other than Level 1 prices such as quoted prices for similar assets or liabilities; quoted prices in markets that are not active; or other inputs that are observable or can be corroborated by observable market data for substantially the full term of the assets or liabilities. The fair value of the Company’s interest rate swap is quoted at Level 2. · Level 3 – Unobservable inputs that are supported by little or no market activity and that are significant to the fair value of the assets or liabilities. Level 3 assets and liabilities include financial instruments whose value is determined using pricing models, discounted cash flow methodologies, or other valuation techniques, as well as instruments for which the determination of fair value requires significant management judgment or estimation. As of December 31, 2025 and
+2024, the Company believes the fair value of its financial instruments, such as, accounts receivable, long-term debt, the line of credit,
+and accounts payable approximate their carrying amounts. F- 12 Stock-based Compensation The authoritative guidance
+for stock compensation requires that companies estimate the fair value of share-based payment awards on the date of the grant using an
+option-pricing model. The associated cost is recognized over the period during which an employee or director is required to provide service
+in exchange for the award. Translation of Foreign Financial Statements The financial statements of
+the foreign subsidiaries of the Company have been translated into U.S. dollars. All assets and liabilities have been translated at current
+rates of exchange in effect at the end of the period. Income and expense items have been translated at the average exchange rates for
+the year or the applicable interim period. The gains or losses that result from this process are recorded as a separate component of other
+accumulated comprehensive income until the entity is sold or substantially liquidated. Comprehensive Income (Loss) Comprehensive income (loss)
+consists of net income (loss) and other comprehensive income (loss) related to changes in the cumulative foreign currency translation
+adjustment. Business Combinations, Goodwill, and Intangible
+Assets The authoritative guidance
+for business combinations specifies the criteria for recognizing and reporting intangible assets apart from goodwill. The Company records
+the assets acquired and liabilities assumed in business combinations at their respective fair values at the date of acquisition, with
+any excess purchase price recorded as goodwill. Goodwill is an asset representing the future economic benefits arising from other assets
+acquired in a business combination that are not individually identified and separately recognized. Intangible assets consist of client
+relationships, customer lists, distribution partner relationships, software, technology, non-compete agreements and trademarks that are
+initially measured at fair value. At the time of the business combination, trademarks may be considered an indefinite-lived asset and,
+as such, are not amortized as there may be no foreseeable limit to cash flows generated from them. For the Newswire acquisition, the Company
+originally determined the trademarks acquired were considered a definite lived asset which will be amortized over a period of 15 years,
+however upon the re-brand of the Company to ACCESS Newswire and subsequent review of the trademarks associated with Newswire, determined
+the life to be 5 years remaining. The goodwill and intangible assets are assessed annually for impairment, or whenever conditions indicate
+the asset may be impaired, and any such impairment will be recognized in the period identified. The client relationships ( 5 - 10 years),
+customer lists ( 3 years), distribution partner relationships ( 10 years), non-compete agreements ( 5 years) and software and technology
+( 3 - 7 years) are amortized over their estimated useful lives. Advertising The Company expenses advertising
+as incurred. During the years ended December 31, 2025 and 2024, advertising expense was $ 1,255,000 and $ 1,267,000 , respectively. Additionally,
+during the year ended December 31, 2025, the Company incurred $ 154,000 in costs associated with its corporate re-brand. Liquidity and Capital Resources As of December 31, 2025,
+we had $ 3,025,000 in cash and cash equivalents and $ 3,884,000 in net accounts receivable. Current liabilities from continuing operations as of December 31, 2025, totaled $ 9,538,000 including the current portion of our long-term debt, accounts payable, deferred revenue, accrued payroll liabilities, income taxes
+payable, current portion of lease liabilities and other accrued expenses. As of December 31, 2025,
+our current liabilities from continuing operations exceeded our current assets from continuing operations by $ 1,116,000 . While our
+current liabilities from continuing operations exceed current assets from continuing operations, we believe our ability to
+renegotiate our Credit Agreement and ability to continue to generate cash will benefit us in the future. F- 13 Newly Adopted Accounting Pronouncements In December 2023, the FASB
+issued ASU 2023-09, “Income Taxes (Topic 740): Improvements to Income Tax Disclosures”, which requires the Company to disclose
+specified additional information in its income tax rate reconciliation and provide additional information for reconciling items that meet
+a quantitative threshold. ASU 2023-09 also requires the Company to disaggregate its income taxes paid disclosure by federal, state and
+foreign taxes, with further disaggregation required for significant individual jurisdictions. The Company adopted ASU 2023-09 for the
+year ending December 31, 2025, using the prospective transition method. The adoption of this standard did not have a significant impact
+on the Company’s financial position, results of operations or cash flows, however the updated disclosure can be found in Note 13. Accounting Pronouncements Not Yet Effective In November 2024, the FASB issued ASU 2024-03,
+Disaggregation of Income Statement Expenses. This update requires enhanced disclosures of certain costs and expenses in the notes to the
+financial statements. This update is applicable to all public entities and is effective for fiscal years beginning after December 15,
+2026, and interim periods beginning after December 15, 2027. Early adoption is permitted. The amendments in this update should be applied
+prospectively; however, retrospective application is permitted. The Company is currently evaluating the impact the new accounting guidance
+will have on its disclosures. Note 3: Discontinued Operations On February 28, 2025 (the
+“Closing Date”), the Company and Direct Transfer, LLC, its wholly owned subsidiary, entered into and closed an Asset Purchase
+Agreement (the “Purchase Agreement”) with Equiniti Trust Company, LLC (the “Buyer”). Pursuant to, and subject
+to the terms and conditions of, the Purchase Agreement, the Buyer purchased certain assets related to the Company’s compliance business
+(the “Purchased Assets”). The Purchased Assets consisted of certain accounts receivable, prepaid assets, contracts and intellectual
+property, among other things, related to the Company’s services of providing i) disclosure software and services for financial reporting,
+ii) stock transfer services, iii) annual meeting, print and shareholder distribution and fulfillment services and iv) virtual annual meeting
+services (but not the intellectual property relating to the virtual annual meeting services). Revenue related to these services was previously
+included in the Company’s “compliance revenue” stream as reported with the SEC in previous filings, except revenue related
+to virtual annual meeting services, which was previously reported in “communications revenue” stream in previous SEC filings.
+Additionally, revenue related to providing SEDAR services and revenue related to our whistleblower hotline, which was previously reported
+as “compliance revenue” was retained by the Company. The Buyer assumed certain liabilities related to the Purchased Assets,
+which included certain accounts payable, accrued liabilities and deferred revenue. The Company reviewed ASC 205-20-45,
+which provides guidance over the disposal of a component of an entity and determined that the criteria were met to classify the assets
+of the compliance business as held-for-sale as of December 31, 2024. Further guidance states that once a group of assets are determined
+to be held-for-sale, then they should be recorded as discontinued operations in the financial statements of the entity. Performance obligations of
+contracts included in discontinued operations include providing subscriptions to certain modules of our compliance software or other
+stand-ready obligations to deliver services and annual report printing and distribution.  Additionally, services are provided on
+a per project basis. Set up fees for disclosure services are considered a separate performance obligation and are satisfied upfront.
+Set up fees for the transfer agent module and investor relations content management module are immaterial. For service contracts that
+include stand-ready obligations, revenue is recognized evenly over the contract period. For all other services delivered on a per project
+or event basis, the revenue is recognized at the completion of the event. The Company believes recognizing revenue for subscriptions
+and stand-ready obligations using a time-based measure of progress, best reflects the Company’s performance in satisfying the obligations. On
+February 26, 2026, the Buyer submitted an indemnification notice to the Company alleging indemnity claims under the Purchase Agreement
+in the aggregate amount of $ 549,000 . While the Company disputes this amount and is in the process of discussing and negotiating the matter
+with the Buyer, there is no guaranty that we will receive all or a substantial portion of the $500,000 holdback from the Buyer. F- 14 As of the Closing Date, there
+was $ 1,227,000 of gross accounts receivable that did not transfer to the Buyer as a result of the Purchase Agreement. The following table sets forth
+the assets and liabilities included in discontinued operations as of December 31, 2025 and 2024 as presented in the Consolidated Balance
+Sheets (in thousands): Schedule of discontinued operations of assets and liabilities December 31, 2025 2024 Accounts Receivable (net of provision for credit losses of $ 559 as of December 31, 2024 $ – $ 1,321 Other current assets – 17 Total current assets – 1,338 Goodwill – 2,885 Intangible Assets (net of accumulated amortization of $ 5,265 at December 31, 2024 – 637 Other non current assets – 55 Total assets $ – $ 4,915 Accounts Payable $ – $ 107 Accrued Expenses – 168 Deferred Revenue – 618 Total liabilities $ – $ 893 The following table sets
+forth the details of income from discontinued operations for the years ended December 31, 2025 and 2024 as presented in the Consolidated
+Statement of Operations (in thousands): Schedule of income from discontinued operations Years Ended December 31, 2025 2024 Revenues $ 650 $ 5,831 Cost of revenues 315 1,690 Gross margin 335 4,141 Operating costs and expenses: General and administrative 560 666 Sales and marketing 17 104 Product development – – Depreciation and amortization 28 168 Total operating costs and expenses 605 938 Operating income ( 270 ) 3,203 Other income (expense) Interest income, net 8 31 Other income, net 8,974 – Income before income taxes 8,712 3,234 Income tax expense 2,863 746 Net income from discontinued operations $ 5,849 $ 2,488 F- 15 The following table presents
+the significant non-cash items related to discontinued operations for the year ended December 31, 2025 and 2024 that are included in
+the accompanying statement of cash flows (in thousands): Schedule of reconcile net loss to net cash used in operating activities December 31, 2025 2024 Depreciation and amortization $ 28 $ 168 Provision for credit loses 420 240 Stock-based compensation expense 78 89 Gain on disposal of business 8,974 – Note 4: Fixed Assets The components of fixed assets
+are as follows (in thousands): Schedule of fixed assets December 31, 2025 2024 Computer equipment $ 100 $ 243 Furniture & equipment – 331 Leasehold improvements 705 705 Total fixed assets, gross 805 1,279 Less: Accumulated depreciation ( 669 ) ( 914 ) Total fixed assets, net $ 136 $ 365 Included in leasehold
+improvements is $ 488,000 of tenant improvement allowance associated with a lease signed in March 2019 related to the Company’s corporate headquarters.
+Depreciation expense on fixed assets for the years ended December 31, 2025 and 2024 totaled $ 249,000 (including impairment charge of $ 63,000 on the leasehold improvements – See Note 10) and $ 149,000 ,
+respectively. Disposals amounted to $ 494,000 during the year ended December 31, 2025 and mostly related to computer equipment and office furniture and equipment which the
+Company abandoned as part of the sublease entered into in December 2025 (see Note 10). No disposals were made during the
+years ended December 31, 2024. Note 5: Goodwill and Other Intangible
+Assets The components of intangible
+assets are as follows (in thousands): Schedule of  intangible
+assets December 31, 2025 Gross Carrying Amount Accumulated Amortization Net Carrying Amount Customer relationships $ 1,998 $ ( 1,677 ) $ 321 Proprietary software 3,198 ( 1,817 ) 1,381 Distribution partner relationships 153 ( 114 ) 39 Non-compete agreement 69 ( 69 ) – Trademarks – definite-lived 13,350 ( 5,848 ) 7,502 Trademarks – indefinite-lived 232 – 232 Total intangible assets $ 19,000 $ ( 9,525 ) $ 9,475 December 31, 2024 Gross Carrying Amount Accumulated Amortization Net Carrying Amount Customer relationships 1,998 ( 1,426 ) 572 Proprietary software 3,198 ( 1,458 ) 1,740 Distribution partner relationships 153 ( 99 ) 54 Non-compete agreement 69 ( 69 ) – Trademarks – definite-lived 13,350 ( 3,972 ) 9,378 Trademarks – indefinite-lived 232 – 232 Total intangible assets $ 19,000 $ ( 7,024 ) $ 11,976 F- 16 The Company performed its
+annual assessment for impairment of intangible assets and determined there was no impairment for the year ended December 31, 2025, however,
+recorded an impairment charge of $ 14,150,000 associated with the Newswire trademarks for the year ended December 31, 2024. As a result
+of the Company’s rebranding to ACCESS Newswire, management determined the useful life of the Newswire trademarks to be 5 years as
+opposed to the original 15 years upon the initial valuation in 2022. This decrease in the useful life caused a decrease in the expected
+cashflows the assets are expected to generate, which resulted in the impairment charge. The amortization of intangible
+assets is a charge to operating expenses and totaled $ 2,501,000 and $ 2,559,000 for the years ended 2025 and 2024, respectively. The future amortization of
+the identifiable intangible assets is as follows (in thousands): Schedule of future amortization
+ identifiable intangible assets Years Ending December 31: 2026 $ 2,475 2027 2,347 2028 2,243 2029 2,178 Thereafter – Total $ 9,243 During the year ended
+December 31, 2022, we acquired Newswire, which added $ 16,122,000 of goodwill based on our preliminary purchase price allocation. During the year ending December 31, 2023, we concluded our purchase
+price allocation, which resulted in a reduction in goodwill of $ 571,000 .
+Along with Newswire, the goodwill balance of $ 19,043,000 is related to the stock acquisitions of ACCESSWIRE in 2014, Filing Services Canada, Inc. in 2018 and Newswire in 2022, and the
+assets of the Visual Webcasting Platform in 2019. The Company conducted its annual impairment analyses as of December 31, 2025 and
+2024 and determined that no goodwill was impaired. Note 6: Credit Agreement On March 20, 2023 (the “Closing
+Date”), the Company entered into a $ 25 million Credit Agreement, as amended (the “Credit Agreement”) with Pinnacle Bank
+(“Pinnacle”). The Credit Agreement provides for the following: (i) term loan facility in an aggregate principal amount of
+$ 20 million (the “Term Loan”), and (ii) revolving line of credit in an up to aggregate principal amount of $ 5 million (the
+“Revolving LOC”), subject to an 85% limit based on the current eligible accounts receivable (as defined in the Credit Agreement). Pursuant to the terms of the
+Credit Agreement, the per annum interest rate of the Term Loan is variable based on the one-month secured overnight financing rate (“SOFR”)
+plus 2.35%, subject to a minimum SOFR of 2.00%. However, the Term Loan issued on the Closing Date has a per annum interest rate of 6.217 %,
+which was fixed with respect to the entire principal amount as a result of an interest rate swap agreement entered into between the Company
+and Pinnacle on the Closing Date in accordance with the terms of the Credit Agreement. Effective June 25, 2024, the
+aggregate principal amount of the Revolving LOC was reduced to $ 1,500,000 . The Company currently has no plans to utilize the Revolving
+LOC but may do so in the future. If the Company does utilize any funds under the Revolving LOC, the funds will bear interest at a per
+annum rate equal to the then current SOFR plus 2.05%. Effective June 25, 2024, Pinnacle’s commitment to fund under the Revolving
+LOC was amended to terminate on June 30, 2025, unless terminated earlier pursuant to the terms of the Credit Agreement. As of December
+31, 2025, there was no outstanding balance under the Revolving LOC and the interest rate was 5.74%. F- 17 On February 28, 2025 and in
+connection with the Purchased Assets transaction described above, the Company and each of its wholly-owned subsidiaries entered into a
+Third Modification to Credit Agreement and Partial Release (the “Third Modification to Credit Agreement”) with Pinnacle with
+respect to the Credit Agreement. Pursuant to the terms of the
+Third Modification to Credit Agreement and a subsequent amendment, the Company and Pinnacle agreed to the following: (i) to pay down the
+current principal balance of the Term Loan (as defined in the Credit Agreement) by $ 12,000,000 as of the closing of the Purchased Assets
+transaction such that the current principal balance was reduced from $15,333,333 to $ 3,333,333 ; (ii) beginning on March 1, 2025, to reduce
+the monthly principal payments due by the Company to Pinnacle under the Term Loan from $333,333 to $72,464; (iii) to amend the financial
+covenants set forth in the Credit Agreement, as amended; (iv) to release the Liens (as defined in the Credit Agreement) relating to the
+Purchased Assets; and (v) to extend the maturity of the Revolving LOC to June 30, 2026. The Credit Agreement, as
+amended, currently contains the following financial covenants: As Amended Fiscal Quarter Fixed Charge Coverage Ratio Each fiscal quarter ending on or after June 30, 2025 1:2:1.0 Additionally, the Company
+is required to maintain unrestricted liquidity, as follows. Leverage Ratio Unrestricted Liquidity If the Leverage Ratio is less than or equal to 1.5:1.00 $ 1,500,000 If the Leverage Ratio is greater than 1.5:1.00 but less than or equal to 1.75:1.00 $ 1,000,000 If the Leverage Ratio is greater than 1.75:1.00 $ 500,000 The Credit Agreement also
+contains customary affirmative covenants for a transaction of this nature, including among other things, covenants relating to: maintenance
+of adequate financial and accounting books and records, delivery of financial statements and other information, preservation of existence
+of the Company and subsidiaries, payment of taxes and claims, compliance with laws, maintenance of insurance, foreign qualification, use
+of proceeds, cash management system, maintenance of properties, and conduct of business. The Credit Agreement also
+contains customary negative covenants for a transaction of this nature, including, among other things, covenants relating to debt, liens,
+investments, negative pledges, dividends and other debt payments, restriction on fundamental changes, sale of assets, transactions with
+affiliates, restrictive agreements, and changes in fiscal year. The Credit Agreement also
+contains various Events of Default (subject to certain grace periods, to the extent applicable), including among other things, Events
+of Default for the nonpayment of principal, interest or fees; breach of certain covenants; inaccuracy of the representations or warranties
+in any material respect; bankruptcy or insolvency; dissolution or change of control; certain unsatisfied judgments; defaults under material
+agreements; certain unfunded liabilities under employee benefit plans; certain unsatisfied judgments; certain ERISA violations; and the
+invalidity or unenforceability of the Credit Agreement. If an Event of Default occurs, the Company may be required to repay all amounts
+outstanding under the Credit Agreement. The Term Loan and any advances under the Revolving LOC are secured by a first priority lien and
+security interest to the benefit of Pinnacle in the Event of Default on all of the Company’s current or future assets and each of
+the Guarantor’s current or future assets. F- 18 Note 7: Interest Rate Swap The Company entered into an
+interest rate swap agreement to convert its interest rate exposure from variable rate to fixed rate to control cash outflows related to
+interest on its variable rate debt. The Company originally had $ 20,000,000 of notional amount interest rate swap agreement, which amortized
+in-line with its long-term Credit Agreement. Under the swap agreement, the Company pays a fixed rate of interest at 6.217 % and receives
+an average variable rate of SOFR + 2.35% adjusted monthly. As of December 31, 2025, the variable rate was 6.04 %. The carrying amount for the
+Company’s derivative financial instrument is the estimated fair value of the financial instrument. The Company’s derivative
+is not exchange listed and therefore the fair value is estimated under a mark-to-market approach using an analytics model that is a readily
+observable market input. This model reflects the contractual terms of the derivative, such as notional value and expiration date, as well
+as market-based observables including interest rates, yield curves, and the credit quality of the counterparty. The model also incorporates
+the Company’s creditworthiness in order to appropriately reflect non-performance risk. Inputs to the derivative pricing model are
+generally observable and do not contain a high level of subjectivity, and accordingly, the Company’s derivative is classified within
+Level 2 of the fair value hierarchy. While the Company believes its estimate results in a reasonable reflection of the fair value of the
+instrument, the estimated value may not be representative of actual value that could have been realized or that will be realized in the
+near future. In accounting for the interest
+rate swap, the Company has determined it does not qualify for hedge accounting. The fair value of the swap agreement as of December 31,
+2025 was a liability of $ 20,000 and December 31, 2024 was an asset of $ 60,000 and is included in either Other long-term assets or liabilities,
+accordingly, in the Consolidated balance sheets. The fair value of the interest rate swap agreement excludes accrued interest and takes
+into consideration current interest rates and current likelihood of the swap counterparty’s compliance with its contractual obligations.
+As a result of the interest rate swap, the Company recognized a net unrealized loss of $ 80,000 during the year ended December 31, 2025,
+respectively, compared to a net unrealized gain of $ 81,000 during the year ended December 31, 2024, which are included in Other income
+(expense), net in the Consolidated statements of operations. Note 8: Equity Dividends The Company did not pay any
+dividends during the years ended December 31, 2025 and 2024. Preferred stock and common stock During the year ended December
+31, 2024, there was 4,532 shares of common stock issued to a consultant in exchange for services. There were no other issuances of preferred
+stock or common stock during the years ended December 31, 2025 and 2024 other than stock awarded to employees and the Board of Directors. Stock repurchase and retirement On December 4, 2025, the Company’s
+board of directors authorized a stock repurchase program under which the Company was authorized to repurchase up to $ 1,000,000 of its
+common shares. As of December 31, 2025, the Company purchased a total of 18,391 shares for a total amount of $ 163,000 at an average price
+of $ 8.89 per share. F- 19 Note 9: Stock Options and Restricted Stock Units On June 7, 2023, the shareholders
+of the Company approved the 2023 Equity Incentive Plan (the “2023 Plan”). Under the terms of the 2023 Plan, the Company
+is authorized to issue incentive awards for common stock up to 300,000 shares to employees and other personnel. The awards may be in the
+form of incentive stock options, nonqualified stock options, restricted stock, restricted stock units and performance awards. The 2023
+Plan is effective through April 1, 2033. As of December 31, 2025, there are 318,166 shares which remain to be granted under the 2023 Plan,
+including 131,826 shares assumed under the Company’s previous 2014 Equity Incentive Plan, as amended. The following is a summary
+of stock options issued during the year ended December 31, 2025 and 2024: Schedule of stock options Number of Options Outstanding Range of Exercise Price Weighted Average Exercise Price Aggregate Intrinsic Value Balance on December 31, 2023 106,750 $ 6.80 –
+27.71 $ 22.32 $ 176,360 Options granted – – – – Options exercised – – – – Options forfeited/cancelled ( 47,000 ) 9.26 – 26.00 21.97 – Balance on December 31, 2024 59,750 6.80 – 27.71 22.60 10,700 Options granted – – – – Options exercised – – – – Options forfeited/cancelled ( 9,750 ) 10.75 – 27.71 20.51 – Balance on December 31, 2025 50,000 $ 6.80
+– 27.71 $ 23.01 $ 11,800 The aggregate intrinsic value
+in the table above represents the total pretax intrinsic value (i.e. the aggregate difference between the closing price of the Company’s
+common stock on December 31, 2025 and 2024 of $ 9.30 and $ 8.94 , respectively, and the exercise price for in-the-money options) that would
+have been received by the holders if all instruments had been exercised on December 31, 2025 and 2024. As of December 31, 2025, there
+was $ 105,000 of unrecognized compensation cost related to stock options, which will be recognized through 2027. The following is a summary
+of unvested stock options during the year ended December 31, 2025 and 2024: Schedule of unvested stock options Number of Options Outstanding Weighted Average Exercise Price Weighted Average Grant Date Fair Value Balance on December 31, 2023 65,250 26.78 13.12 Options granted – – – Options vested ( 27,750 ) 27.05 13.18 Options forfeited/cancelled ( 15,000 ) 26.00 11.87 Balance on December 31, 2024 22,500 26.98 13.89 Options granted – – – Options vested ( 7,500 ) 26.98 13.89 Options forfeited/cancelled – – – Balance on December 31, 2025 15,000 26.98 13.89 F- 20 The following table summarizes
+information about stock options outstanding and exercisable on December 31, 2025: Schedule of stock options outstanding and exercisable Options Outstanding Options Exercisable Exercise Price Range Number Weighted Average Remaining Contractual Life (in Years) Weighted Average Exercise Price Number $ 0.01 - 8.00 5,000 0.89 6.80 5,000 $ 8.01 - 11.00 — — — — $ 11.01 - 16.00 7,500 3.16 13.21 7,500 $ 16.01 - 27.00 30,000 7.01 26.98 15,000 $ 27.01 – 27.71 7,500 6.05 27.71 7,500 Total 50,000 5.68 23.01 35,000 Of the 50,000 stock options
+outstanding, 20,926 are non-qualified stock options. All options have been registered with the SEC. The following is a summary
+of restricted stock units issued during the years ended December 31, 2025 and 2024: Schedule of restricted stock units Number of RSUs Outstanding Weighted Average Grant Date Fair Value Aggregate Intrinsic Value Balance on December 31, 2023 94,832 $ 25.90 $ 2,456,149 Units granted 43,666 12.41 541,932 Units vested/issued ( 18,999 ) 20.26 ( 384,830 ) Units forfeited ( 24,333 ) 25.85 ( 628,984 ) Balance on December 31, 2024 95,166 20.85 1,984,267 Units granted 56,662 10.93 619,316 Units vested/issued ( 30,083 ) 15.62 ( 469,896 ) Units forfeited – – – Balance on December 31, 2025 121,745 17.53 2,134,190 During the year ended December
+31, 2025, the Company granted 56,662 shares of restricted stock units to employees, contractors and the Board of Directors, which vest
+at various intervals over the next 3 years. The average grant date fair value of these grants was $ 10.93 per share during the year ended
+December 31, 2025. During the year ended December 31, 2025, 30,083 restricted stock units with a grant date average intrinsic value of
+$ 15.62 per share, vested and exercised. As of December 31, 2025, there was $ 669,000 of unrecognized compensation cost related to our unvested
+restricted stock units, which will be recognized through 2028. During the years ended December
+31, 2025 and 2024, the Company recorded compensation expense of $ 884,000 and $ 684,000 , respectively, related to stock options and restricted
+stock units. F- 21 Note 10: Leases Leasing activity generally
+consists of office leases. In March 2019, a lease was signed to move the corporate headquarters to Raleigh, North Carolina. The lease
+had a lease commencement date of October 2, 2019 and expires December 31, 2027. Minimum lease payments are $ 2,997,000 , not including a
+tenant improvement allowance of $ 488,000 , which is included in fixed assets as of December 31, 2025 and 2024. The Company recognized a
+ROU asset and corresponding lease liability of $ 2,596,000 , which represents the present value of minimum lease payments discounted at 3.77 %, the Company’s incremental borrowing rate at lease inception. Lease liabilities totaled
+$ 717,000 as of December 31, 2025. The current
+portion of this liability of $ 400,000 is included in Accrued expenses on the Consolidated balance sheets and the long-term portion of $ 317,000 is included in Lease liabilities on the Consolidated balance sheets. Rent expense consists of both operating lease expense from amortization
+of our ROU assets as well as variable lease expense which consists of non-lease components of office leases (i.e. common area maintenance)
+or rent expense associated with short-term leases. The components of lease expense were as follows (in thousands): Schedule of lease expense Year Ended
+    December 31, 2025 2024 Lease expense Operating lease expense $ 304 $ 304 Variable lease expense 58 64 Rent expense $ 362 $ 368 The weighted-average remaining
+non-cancelable lease term for our operating leases was 2 years as of December 31, 2025. As of December 31, 2025, the weighted-average discount rate used to determine the lease liability was 3.77 %. Total required lease payments were $ 389,000 and $ 379,000 during the
+years ended December 31, 2025 and 2024, respectively. The future minimum
+lease payments to be made under non-cancelable operating leases on December 31, 2025, are as follows (in thousands): Schedule of future lease payments of operating leases Year ended December 31: 2026 400 2027 414 Total lease payments 814 Present value adjustment ( 97 ) Lease liability $ 717 We have performed an evaluation
+of our other contracts with customers and suppliers in accordance with Topic 842 and have determined that, except for the leases described
+above, none of our contracts contain a lease. On December 18, 2025, the
+Company entered into a Commercial Sublease Agreement (the “Sublease”), to lease 100% of the corporate headquarters for the
+remaining term of the lease, commencing on March 1, 2026 through December 31, 2027. Under the terms of the Sublease, future minimum lease
+payments are $ 486,000 . As a result of the Sublease, the Company recorded an impairment charge of $ 250,000 , with $ 187,000 allocated to
+its right-of-use asset for the office lease and $ 63,000 allocated to its leasehold improvements. F- 22 Note 11: Commitments and Contingencies From time to time, the Company
+may be involved in litigation that arises through the normal course of business. The Company is neither a party to any litigation nor
+is aware of any such threatened or pending litigation that might result in a material adverse effect to the Company’s business. Note 12: Segment Reporting Operating segments are components
+of an enterprise about which separate financial information is available and is evaluated periodically by management, namely the Chief
+Operating Decision Maker (“CODM”) of an organization, in order to determine operating and resource allocation decisions.
+By this definition, the Company has identified its Chief Executive Officer as the CODM. The Company considers itself to be in a single reportable segment under the authoritative guidance for segment reporting, specifically a communications company for publicly traded
+and private companies. The CODM uses operating income to evaluate our capital allocation, which could be re-investing income back into
+the Company, executing a share-repurchase, paying dividends or acquiring other entities. Operating income is used to monitor budget versus
+actual results. The CODM also uses operating income in competitive analysis by benchmarking to the Company’s competitors. The competitive
+analysis along with the monitoring of budgeted versus actual results are used in assessing performance of the Company. Below provides
+a breakdown of costs and expenses of our one operating unit (in thousands): Schedule of segment reporting Years Ended December 31, 2025 2024 Revenues $ 22,619 $ 23,057 Cost of revenues Costs to deliver products 3,111 2,623 Employee costs 1,684 2,462 Teleconference costs 232 252 Amortization of capitalized software 278 220 Other segment costs – 60 Total cost of revenue 5,305 5,617 Operating costs and expenses: Employee costs 6,722 8,103 Consultants and professional services 2,532 3,035 Depreciation and amortization 2,687 2,708 Advertising, Trade Shows & Rebranding 1,647 1,267 Provision for credit losses 915 1,083 Software licensing 835 938 Stock compensation 808 703 Hosting 566 461 Merchant and bank fees 443 481 Acquisition/integration and other non-recurring costs 800 408 Rent 362 368 Impairment loss 250 14,150 Other operating expenses (1) 618 54 Total operating costs and expenses 19,185 33,759 Operating loss $ ( 1,871 ) $ ( 16,319 ) ____________________ (1) Other operating expenses include insurance, travel, reseller commissions, tradeshow expense and other miscellaneous selling, general
+and administrative expenses F- 23 Note 13: Income Taxes The components of the Company’s
+loss from continuing operations before income taxes for the years ended December 31, 2025 and 2024 are as follows (in thousands): Schedule of continuing operations before income taxes 2025 2024 Loss from continuing operations United States $ ( 2,060 ) $ ( 18,215 ) International 107 306 Loss from continuing operations before income taxes $ ( 1,953 ) $ ( 17,909 ) The provision for income
+taxes consisted of the following components for the years ended December 31 (in thousands): Schedule of provision for income
+taxes 2025 2024 Current: Federal $ ( 629 ) $ 20 State ( 117 ) 5 Foreign 18 12 Total Current ( 728 ) 37 Deferred: Federal 325 ( 3,611 ) State 2 ( 590 ) Foreign 6 100 Total Deferred 333 ( 4,101 ) Total benefit for income taxes $ ( 395 ) $ ( 4,064 ) Reconciliation between the
+statutory rate and the effective tax rate is as follows on December 31 (in thousands, except percentages): Schedule of effective tax rate 2025 Amount Percentage Federal statutory tax rate $ ( 405 ) 21.0 % State and local income taxes, net of federal benefit ( 100 ) 5.2 % Foreign Tax Effects Other foreign jurisdictions 2 ( 0.1 ) % Effect of changes in tax law – – Effect of cross-border tax laws GILTI 45 ( 2.3 ) % Tax Credits Foreign tax credits ( 5 ) 0.2 % Changes in valuation allowance – – Nontaxable or nondeductible items Goodwill Amortization – – Equity-based compensation 45 ( 2.3 ) % Nondeductible parking 19 ( 1.0 ) % Other nontaxable or nondeductible items 4 ( 0.2 ) % Changes in unrecognized tax benefits – – Other adjustments – – Total $ ( 395 ) 20.5 % F- 24 2024 Amount Percentage Federal statutory tax rate $ ( 3,642 ) 21.0 % State tax rate ( 586 ) 3.3 % Permanent differences – stock-based compensation 56 ( 0.3 )% Permanent differences – other 19 ( 0.1 )% Foreign tax credit generated – – Tax on foreign earnings – tax reform 40 ( 0.2 )% Foreign rate differential 4 ( 0.1 )% FDII Deduction – — % Other 45 ( 0.3 )% Total $ ( 4,064 ) 23.4 % Cash paid for income taxes,
+net of refunds, were as follows for the year ended December 31, 2025 (in thousands): Schedule of cash paid for income taxes Year ended December 31, 2025 Federal $ 1,776 State 366 Foreign 66 Total $ 2,208 California, New York and New
+York City make up 50% of the state and local income tax line. No state or foreign jurisdiction makes up 5% of total taxes paid. Components of net deferred
+income tax assets are as follows on December 31 (in thousands): Schedule of deferred
+income tax assets 2025 2024 Change Assets: Deferred revenue $ 124 $ 129 $ ( 5 ) Allowance for doubtful accounts 277 350 ( 73 ) Stock options 484 385 99 Transaction costs 56 61 ( 5 ) IRC Section 174 capitalized costs 532 936 ( 404 ) ROU lease liability 149 279 ( 130 ) Purchase of intangible assets 2,211 2,144 67 Other 10 12 ( 2 ) Total deferred tax asset 3,843 4,296 ( 453 ) Liabilities Prepaid expenses ( 3 ) ( 3 ) – Basis difference in fixed assets ( 33 ) ( 88 ) 55 Capitalized software ( 45 ) ( 63 ) 18 ROU Assets ( 80 ) ( 251 ) 171 Other ( 77 ) ( 98 ) 21 Total deferred tax liability ( 238 ) ( 503 ) 265 Total net deferred tax asset / (liability) $ 3,605 $ 3,793 $ ( 188 ) F- 25 As of each reporting date,
+the Company’s management considers new evidence, both positive and negative, that could impact management’s view with regard
+to future realization of deferred tax assets. In assessing the recovery of the deferred tax assets, management considers whether it is
+more likely than not that some portion or all the deferred tax assets will not be realized. The ultimate realization of deferred tax assets
+is dependent upon the generation of future taxable income in the periods in which those temporary differences become deductible. Management
+considers the scheduled reversals of future deferred tax assets, projected future taxable income, and tax planning strategies in making
+this assessment. It has been determined that is more likely than not that the Company's deferred tax assets are able to be realized based
+on future positive earnings and reversal of existing temporary differences. The One Big Beautiful Bill
+Act (or “OBBB Act”), enacted on July 4, 2025, permits the deduction of certain U.S. research and development expenditures
+incurred in tax years beginning on or after January 1, 2025. However, expenditures attributable to research and development conducted
+outside the U.S. must continue to be capitalized and amortized over fifteen years. The OBBB Act also provides the option to accelerate
+the amortization of any remaining unamortized U.S. research and development expenditures incurred in tax years beginning on or after January
+1, 2022, and before January 1, 2025, over a one or two year period beginning with the first taxable year beginning after December 31,
+2024. Under US GAAP, the effects of the changes in tax laws are recognized in the period in which the tax laws are enacted. Accordingly,
+the Company has reflected the impact of provisions of the OBBB Act in the Company’s financial statements for the year ended December
+31, 2025, which resulted in a decrease in our deferred tax asset associated with research and development expenditures. The OBBB Act also enacted
+changes to rules governing global intangible low-taxed income (GILTI) and foreign-derived intangible income (FDII). Those changes will
+go into effect for tax years beginning after December 31, 2025; and thus do not impact current financial statements. The Company had no unrecognized
+tax benefits as of December 31, 2025 or December 31, 2024. Interest and, if applicable, penalties are recognized related to unrecognized
+tax benefits in income tax expense. There are no accruals for interest and penalties on December 31, 2025. Undistributed earnings of
+the Company are insignificant as of December 31, 2025. With the enactment of the 2017 Act, the Company does not consider any of its foreign
+earnings as indefinitely reinvested. The Company is subject to
+income taxation by both federal and state taxing authorities. Income tax returns for the years ended December 31, 2024, 2023 and 2022
+are open to audit by federal and state taxing authorities. Note 14: Employee Benefit Plans The Company sponsors a defined
+contribution 401(k) Profit Sharing Plans and allows all employees in the United States to participate. Matching and profit-sharing contributions
+to the plan are at the discretion of management but are limited to the amount deductible for federal income tax purposes. The Company
+made contributions to the plan of $ 92,000 and $ 135,000 during the years ended December 31, 2025 and 2024, respectively. Note 15: Subsequent Events In accordance with ASC 855
+“Subsequent Events”, the Company evaluated subsequent events after December 31, 2025, through the date these Consolidated
+Financial Statements were issued and has no transactions or events requiring disclosure. F- 26
+
+--- VENDORS ---
+vendors. Many of these businesses lack the resources to implement complex systems, making
+our all-in-one customer platform an ideal solution for driving growth and expansion. By offering a streamlined, cost-effective,
+and easy-to-adopt platform, we empower small-mid-market businesses to execute successful strategies with efficiency. Moving forward,
+we will continue to fuel our growth by leveraging our go-to-market strategies, competitive flat-fee pricing model, and strong network
+of Resellers and Partners. Increase Revenue from
+Existing Customers. With over 10,000 customers in more than 135 countries spanning many industries, we believe we have a significant
+opportunity to increase revenue from our existing customers. We plan to increase revenue from our existing customers by expanding their
+use of our platform, and upselling additional offerings and features, including future planned adjacencies coming this year. We believe
+our flat-fee pricing model will allow us to capture more subscription revenues as point solutions continue to struggle in the market. Keep Expanding Internationally. We believe there is a significant opportunity for our platform outside of the North American. As of December 31, 2025, approximately 11%
+of our customers were located outside of the North America and these Customers generated approximately 9% of our total revenue for the
+year ended December 31, 2025. We sell, support and work with our international customers from North American. We intend to grow our presence
+in international markets through additional investments in partners, resellers and our direct sales and marketing channel. Continue to Innovate
+and Expand Our Platform. Small-mid-market businesses are increasingly realizing the value of having an integrated platform for
+both PR and IR. We believe we are well positioned to capitalize on this opportunity by introducing new products and solutions to improve
+the functionality of our platform, that addresses the lifecycle of a customer’s storytelling initiatives. As engagement is becoming
+more and more important to our customers’ it is going to become critical to continually differentiate our offerings and technology
+by introducing new and innovative ways to express interest in a brand, by bringing real-time engagement to our customers. Selectively Pursue
+Acquisitions. We plan to selectively pursue acquisitions of complementary businesses, technologies and teams that would allow
+us to add new features and functionalities to our platform and accelerate the pace of our innovation, while continuing to stay focused
+on the customer experience. Our last acquisition was the Newswire brand, which was acquired on November 1, 2022, as part of the iNewswire,
+LLC transaction. Sales and Marketing . During 2025, we continued
+to strengthen our brands in the market by working aggressively to expand our customer footprint and continue to cross sell to increase
+average revenue per customer in our subscription business. Since our platform, systems and operations are built to handle growth, we have
+been leveraging them to produce reasonable gross margins and cash flows without a proportional increase in our capital or operating expenses. Our sales organization is responsible for generating
+new customer opportunities and expanding our current customers. We ended 2025 with a multi-tier organization of sales personnel, consisting
+of Client Success Managers (CSM’s), Account Executives, and strategic agency and reseller executives. Our CSM’s are split
+between those focused on publicly traded customers and private customers and are also responsible for a certain territory or geographic
+region, with a singular CSM per region that does both account development and new business. We believe this approach is the most efficient
+and effective way for us to reach new customers and grow our current install base. The total compensation packages for these teams are
+heavily weighted with commission compensation to incent sales and retention. All members of the sales team have quotas. As of December
+31, 2025, we employed 25 full-time equivalent sales and marketing personnel compared to 27 as of December 31, 2024. Our marketing organization is dedicated to both
+driving prospects and engaging existing ones through targeted campaigns and industry updates. These efforts aim to highlight the advantages
+of our platform and encourage customers to enhance their subscriptions by adding additional components. To achieve these goals, our team
+employs a customer-centric omni-channel strategy, which integrates multiple channels—such
+as online platforms, mobile apps, social media, email, and customer service—into a seamless and consistent experience. The goal
+is to ensure that customers can interact with a brand effortlessly across different touchpoints while maintaining continuity in their
+journey. Additionally, we leverage strategic partnerships and specialized private company marketing activities to expand our reach and
+strengthen brand awareness. By integrating these approaches, we aim to drive sustainable long-term growth and continuously scale our business
+in an evolving marketplace. 8 Industry Overview Based on information last obtained from the Burton-Taylor
+Media Intelligence report in early 2023, the global communications technology market is approximately $5.5 to $6.0 billion in annual revenue.
+This total includes spending on social media solutions, media monitoring, press release targeting and distribution, and investor relations
+platforms globally. A key driver of growth in our industry is the introduction of new innovative technologies and solutions. We believe
+by expanding our technology and products will help us gain market share within the industry as well as further expand our news distributions
+brands. The industry, along with Artificial Intelligence
+(AI) and Large Language Models (LLMs), have matured considerably over the past two years, whereby communication professionals are seeking
+platforms and systems to assist with content creation, analysis, and optimization. With the advancement of Aimee, our closed network LLM,
+and connectivity into public LLMs, we believe we are well positioned in this new environment to benefit from subscription growth and further
+advancements of our platform because of what AI has afforded the industry. Competition Despite some significant consolidation in recent
+years, the communications industry remains both fragmented and extremely competitive. The success of our products and services are generally
+based on quality of service through the ability to service customer demands, as well as, price in certain markets Management has been
+focused this past year on offsetting the risks relating to competition, as well as, the seasonality of pay-as-you-go services by introducing
+our recurring subscription platform, with higher margins, clear competitive advantages, higher customer stickiness and scalability to
+withstand market and pricing pressures. We also review our operations on a regular basis
+to balance growth with opportunities to maximize efficiencies and support our long-term strategic goals. We believe by blending our workflow
+technologies with our legacy service offerings we can offer a comprehensive set of products and solutions to each of our customers within
+one platform that most competitors cannot offer today. During the first quarter of 2026, we launched ACCESS Verified, a proprietary, AI-driven
+verification and distribution enhancement designed to improve the speed, accuracy and integrity of content from our press release distribution
+across the ACCESS Newswire platform and thousands of our distribution partners and licensees. ACCESS Verified leverages advanced AI and
+LLM-style word and phrase matching to verify content with 99.999% accuracy, delivering what we believe to be a first-to-market, industry-leading
+speed-to-wire enhancement, while supporting consistency with established disclosure practices and editorial standards. The solution
+is fully integrated into the ACCESS Newswire workflow and is available at no additional cost to customers. ACCESS Verified acts
+as an intelligent first line of review, helping ensure our customer’s news is credible, compliant, and newsroom-ready. This evolution
+evidences our focus on maturing our platform to include advancements that allow us to scale operations, increase gross margin and leverage
+AI to assist in the creation, review and approval of customers messaging, but not replace human evaluation and review. We believe we are positioned to be one of
+the communications platforms of choice as a cost-effective alternative to both small regional providers and global customers. As of December
+31, 2025, our workforce is fully remote, which we believe is a benefit to have the flexibility to hire and retain customer service or
+production personnel anywhere and at a reasonable cost. Customers Our customers include a wide variety of public
+and private companies. For the year ended December 31, 2025, we worked with 12,802 customers, compared to 12,349 for the year ended December
+31, 2024. We did not have any customers during the year ended December 31, 2025 that accounted for more than 10% of our revenue or more
+than 10% of our year end accounts receivable balance as of December 31, 2025. 9 Human Capital and Culture As of December 31, 2025, we had 91 employees and
+independent contractors. None of our workforce is represented by a union. Our employees work remotely in designated regions worldwide. We recognize and value our people as our most important
+asset in achieving our strategic goals and growing an industry leading communications company. We are continually working on a human resources
+strategy that helps drive the right culture, leadership, talent management, performance, reward and recognition, personal development,
+and ways of working to ensure we achieve our strategic goals while our people benefit from an exceptional experience. Our efforts in creating
+a working environment that draws out the best in our employees and allows them to fulfil their potential and support our goals focus on
+the following: · Attract, identify, develop and retain high-performing employees across all areas. · Develop and support the growth of management and leadership. · Enable the development of a high-performance culture in which staff performance can be supported, rewarded, enhanced and managed effectively. · Foster a values-based culture focused on diversity, equity, inclusion, well-being, and positive staff engagement. · Develop a total reward approach which is valued by staff and facilitates company objectives. · Provide excellent core human resources, professional development and health and safety services across all departments to enable the
+effective operation of the Company. Facilities Our headquarters are located in Raleigh, North
+Carolina. In October 2019, we began a lease for 9,766 square feet of office space, which expires December 31, 2027. On December 18, 2025, the
+Company entered into a Commercial Sublease Agreement (the “Sublease”), to lease 100% of the corporate headquarters for the
+remaining term of the lease, commencing on March 1, 2026, through December 31, 2027. As a result, as of December 31, 2025, our entire
+workforce is now remote. Insurance We maintain a general business liability, cyber-security
+and an errors and omissions policies specific to our industry and operations. We believe that our insurance policies provide adequate
+coverages for all reasonable risks associated with operating our business. Additionally, we maintain a Directors and Officers insurance
+policy, which is standard for our industry and size. We also maintain key person life insurance on our C level executives. Regulations The securities and financial
+services industries generally are subject to regulation in the United States and elsewhere. Regulatory policies in the United States and
+the rest of the world are tasked with safeguarding the integrity of the securities and financial markets and with protecting the interests
+of both issuers and shareholders. In the United States, corporate
+issuers are subject to regulation under both federal and state laws, which often require public disclosure and regulatory filings. At
+the federal level, the SEC regulates the securities industry, along with the Financial Industry Regulatory Authority, or FINRA, formally
+known as NASD, and NYSE market regulations, various stock exchanges, and other self-regulatory organizations (“SRO”). 10
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+components which are aggregated from most of the major exchanges
+and news distribution outlets around the world. Customers can subscribe to one or more of these data feeds or as a component of a fully
+designed and hosted website for pre-IPO companies, SEC reporting companies and partners seeking to display our content on their corporate
+sites. The clear benefit to our investor relations content network is its integration with our other offerings. As such, companies
+can produce content for public distribution and it is automatically linked to their corporate website, distributed to targeted groups
+and placed into our data feed partners. During 2023, we released significant
+upgrades to our investor relations website that included ADA Compliance (Americans with Disabilities Act) and AODA Compliance (Accessibility
+for Ontarians with Disabilities Act) which ensures that people with disabilities have the same access to all areas of a business's premises,
+specifically, customers’ websites. This add-on requires a recurring annual subscription and is delivered fully integrated into and
+with our investor relations website offering. Incident Hotline . Formally our whistleblower hotline offering, this is an add-on product within our subscription platform. This system delivers
+secure notifications and basic incident workflow management processes that align with a company’s corporate governance policies.
+As a supported and subsidized bundle product of the New York Stock Exchange (“NYSE”) offerings, we are introduced to new IPO
+customers and other larger cap customers listed on the NYSE. Since 2014, we have been a named NYSE subsidy provider of this incident response
+and management solution. Our Competitive Strengths We believe that our market
+leadership position is based on the following key strengths: Designed to Help Companies
+Communicate Better. Our platform was architected from the ground up to enable businesses to bring their brand voice and storytelling
+to life, by using an all-in-one solution that integrates our news distribution, media room, database, pitching, monitoring, and reporting
+functionalities into and with our investor relations websites and webcasting event technology. Ease of Use of a Single,
+Platform that Drives Clear Value. We have designed and built a world-class platform that stands out for its seamless integration,
+powerful capabilities, and ease of use. We believe customers choose the ACCESS Platform because it offers a unified and intuitive experience,
+from press release creation to targeting and monitoring, which we believe sets it apart from many traditional point solutions. Additionally,
+we are continuously enhancing our platform with new products and advanced AI capabilities, empowering customers to work smarter and maximize
+efficiency Rebrand and Market
+Leadership. In November 2024, we launched a rebranding initiative to redefine our identity and ensure continued relevance with
+our evolving customer base in the communications industry. This rebrand was completed on January 16, 2025, through a phased integration
+of our brands under our new name, ACCESS Newswire Inc. Effective January 27, 2025, Issuer Direct Corporation officially became ACCESS
+Newswire Inc. As part of this transition, the ACCESSWIRE and Issuer Direct brands were retired from the marketplace, with all customers
+seamlessly migrated to the ACCESS Newswire platform. Additionally, the Company continues to maintain infrastructure and serve customers
+under other brands, such as Newswire.com and pressrelease.com, which have been fully integrated into the ACCESS Newswire brand. Partner & Reseller
+Programs. We derive referrals and revenues from our partners and resellers. We engage each partner and reseller in one of two
+ways, i) we resell our products at a discount for the reseller to incorporate our offerings into their go-to-market strategy and ii) we
+partner with leading IR and PR firms whereby they refer ACCESS to their customers, who enter into contracts with us directly. In 2026
+and beyond, we believe our brand will continue to benefit from these programs, and we will look to continue to invest and maintain our
+presence across both IR and PR. As of December 31, 2025, approximately 10% of revenues came from our partner and reseller programs. 7 Our overall strategy includes : Grow Our Customer
+Base. We continue to see a significant opportunity in the market for our platform, particularly among small-to-mid-sized businesses
+that are underserved by existing point-solution vendors. Many of these businesses lack the resources to implement complex systems, making
+our all-in-one customer platform an ideal solution for driving growth and expansion. By offering a streamlined, cost-effective,
+and easy-to-adopt platform, we empower small-mid-market businesses to execute successful strategies with efficiency. Moving forward,
+we will continue to fuel our growth by leveraging our go-to-market strategies, competitive flat-fee pricing model, and strong network
+of Resellers and Partners. Increase Revenue from
+Existing Customers. With over 10,000 customers in more than 135 countries spanning many industries, we believe we have a significant
+opportunity to increase revenue from our existing customers. We plan to increase revenue from our existing customers by expanding their
+use of our platform, and upselling additional offerings and features, including future planned adjacencies coming this year. We believe
+our flat-fee pricing model will allow us to capture more subscription revenues as point solutions continue to struggle in the market. Keep Expanding Internationally. We believe there is a significant opportunity for our platform outside of the North American. As of December 31, 2025, approximately 11%
+of our customers were located outside of the North America and these Customers generated approximately 9% of our total revenue for the
+year ended December 31, 2025. We sell, support and work with our international customers from North American. We intend to grow our presence
+in international markets through additional investments in partners, resellers and our direct sales and marketing channel. Continue to Innovate
+and Expand Our Platform. Small-mid-market businesses are increasingly realizing the value of having an integrated platform for
+both PR and IR. We believe we are well positioned to capitalize on this opportunity by introducing new products and solutions to improve
+the functionality of our platform, that addresses the lifecycle of a customer’s storytelling initiatives. As engagement is becoming
+more and more important to our customers’ it is going to become critical to continually differentiate our offerings and technology
+by introducing new and innovative ways to express interest in a brand, by bringing real-time engagement to our customers. Selectively Pursue
+Acquisitions. We plan to selectively pursue acquisitions of complementary businesses, technologies and teams that would allow
+us to add new features and functionalities to our platform and accelerate the pace of our innovation, while continuing to stay focused
+on the customer experience. Our last acquisition was the Newswire brand, which was acquired on November 1, 2022, as part of the iNewswire,
+LLC transaction. Sales and Marketing . During 2025, we continued
+to strengthen our brands in the market by working aggressively to expand our customer footprint and continue to cross sell to increase
+average revenue per customer in our subscription business. Since our platform, systems and operations are built to handle growth, we have
+been leveraging them to produce reasonable gross margins and cash flows without a proportional increase in our capital or operating expenses. Our sales organization is responsible for generating
+new customer opportunities and expanding our current customers. We ended 2025 with a multi-tier organization of sales personnel, consisting
+of Client Success Managers (CSM’s), Account Executives, and strategic agency and reseller executives. Our CSM’s are split
+between those focused on publicly traded customers and private customers and are also responsible for a certain territory or geographic
+region, with a singular CSM per region that does both account development and new business. We believe this approach is the most efficient
+and effective way for us to reach new customers and grow our current install base. The total compensation packages for these teams are
+heavily weighted with commission compensation to incent sales and retention. All members of the sales team have quotas. As of December
+31, 2025, we employed 25 full-time equivalent sales and marketing personnel compared to 27 as of December 31, 2024. Our marketing organization is dedicated to both
+driving prospects and engaging existing ones through targeted campaigns and industry updates. These efforts aim to highlight the advantages
+of our platform and encourage customers to enhance their subscriptions by adding additional components. To achieve these goals, our team
+employs a customer-centric omni-channel strategy, which integrates multiple channels—such
+as online platforms, mobile apps, social media, email, and customer service—into a seamless and consistent experience. The goal
+is to ensure that customers can interact with a brand effortlessly across different touchpoints while maintaining continuity in their
+journey. Additionally, we leverage strategic partnerships and specialized private company marketing activities to expand our reach and
+strengthen brand awareness. By integrating these approaches, we aim to drive sustainable long-term growth and continuously scale our business
+in an evolving marketplace. 8 Industry Overview Based on information last obtained from the Burton-Taylor
+Media Intelligence report in early 2023, the global communications technology market is approximately $5.5 to $6.0 billion in annual revenue.
+This total includes spending on social media solutions, media monitoring, press release targeting and distribution, and investor relations
+platforms globally. A key driver of growth in our industry is the introduction of new innovative technologies and solutions. We believe
+by expanding our technology and products will help us gain market share within the industry as well as further expand our news distributions
+brands. The industry, along with Artificial Intelligence
+(AI) and Large Language Models (LLMs), have matured considerably over the past two years, whereby communication professionals are seeking
+platforms and systems to assist with content creation, analysis, and optimization. With the advancement of Aimee, our closed network LLM,
+and connectivity into public LLMs, we believe we are well positioned in this new environment to benefit from subscription growth and further
+advancements of our platform because of what AI has afforded the industry. Competition Despite some significant consolidation in recent
+years, the communications industry remains both fragmented and extremely competitive. The success of our products and services are generally
+based on quality of service through the ability to service customer demands, as well as, price in certain markets Management has been
+focused this past year on offsetting the risks relating to competition, as well as, the seasonality of pay-as-you-go services by introducing
+our recurring subscription platform, with higher margins, clear competitive advantages, higher customer stickiness and scalability to
+withstand market and pricing pressures. We also review our operations on a regular basis
+to balance growth with opportunities to maximize efficiencies and support our long-term strategic goals. We believe by blending our workflow
+technologies with our legacy service offerings we can offer a comprehensive set of products and solutions to each of our customers within
+one platform that most competitors cannot offer today. During the first quarter of 2026, we launched ACCESS Verified, a proprietary, AI-driven
+verification and distribution enhancement designed to improve the speed, accuracy and integrity of content from our press release distribution
+across the ACCESS Newswire platform and thousands of our distribution partners and licensees. ACCESS Verified leverages advanced AI and
+LLM-style word and phrase matching to verify content with 99.999% accuracy, delivering what we believe to be a first-to-market, industry-leading
+speed-to-wire enhancement, while supporting consistency with established disclosure practices and editorial standards. The solution
+is fully integrated into the ACCESS Newswire workflow and is available at no additional cost to customers. ACCESS Verified acts
+as an intelligent first line of review, helping ensure our customer’s news is credible, compliant, and newsroom-ready. This evolution
+evidences our focus on maturing our platform to include advancements that allow us to scale operations, increase gross margin and leverage
+AI to assist in the creation, review and approval of customers messaging, but not replace human evaluation and review. We believe we are positioned to be one of
+the communications platforms of choice as a cost-effective alternative to both small regional providers and global customers. As of December
+31, 2025, our workforce is fully remote, which we believe is a benefit to have the flexibility to hire and retain customer service or
+production personnel anywhere and at a reasonable cost. Customers Our customers include a wide variety of public
+and private companies. For the year ended December 31, 2025, we worked with 12,802 customers, compared to 12,349 for the year ended December
+31, 2024. We did not have any customers during the year ended December 31, 2025 that accounted for more than 10% of our revenue or more
+than 10% of our year end accounts receivable balance as of December 31, 2025. 9 Human Capital and Culture As of December 31, 2025, we had 91 employees and
+independent contractors. None of our workforce is represented by a union. Our employees work remotely in designated regions worldwide. We recognize and value our people as our most important
+asset in achieving our strategic goals and growing an industry leading communications company. We are continually working on a human resources
+strategy that helps drive the right culture, leadership, talent management, performance, reward and recognition, personal development,
+and ways of working to ensure we achieve our strategic goals while our people benefit from an exceptional experience. Our efforts in creating
+a working environment that draws out the best in our employees and allows them to fulfil their potential and support our goals focus on
+the following: · Attract, identify, develop and retain high-performing employees across all areas. · Develop and support the growth of management and leadership. · Enable the development of a high-performance culture in which staff performance can be supported, rewarded, enhanced and managed effectively. · Foster a values-based culture focused on diversity, equity, inclusion, well-being, and positive staff engagement. · Develop a total reward approach which is valued by staff and facilitates company objectives. · Provide excellent core human resources, professional development and health and safety services across all departments to enable the
+effective operation of the Company. Facilities Our headquarters are located in Raleigh, North
+Carolina. In October 2019, we began a lease for 9,766 square feet of office space, which expires December 31, 2027. On December 18, 2025, the
+Company entered into a Commercial Sublease Agreement (the “Sublease”), to lease 100% of the corporate headquarters for the
+remaining term of the lease, commencing on March 1, 2026, through December 31, 2027. As a result, as of December 31, 2025, our entire
+workforce is now remote. Insurance We maintain a general business liability, cyber-security
+and an errors and omissions policies specific to our industry and operations. We believe that our insurance policies provide adequate
+coverages for all reasonable risks associated with operating our business. Additionally, we maintain a Directors and Officers insurance
+policy, which is standard for our industry and size. We also maintain key person life insurance on our C level executives. Regulations The securities and financial
+services industries generally are subject to regulation in the United States and elsewhere. Regulatory policies in the United States and
+the rest of the world are tasked with safeguarding the integrity of the securities and financial markets and with protecting the interests
+of both issuers and shareholders. In the United States, corporate
+issuers are subject to regulation under both federal and state laws, which often require public disclosure and regulatory filings. At
+the federal level, the SEC regulates the securities industry, along with the Financial Industry Regulatory Authority, or FINRA, formally
+known as NASD, and NYSE market regulations, various stock exchanges, and other self-regulatory organizations (“SRO”). 10
+

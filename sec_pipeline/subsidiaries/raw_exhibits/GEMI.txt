@@ -1,0 +1,24 @@
+EX-21.1
+9
+listofsubsidiariesex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF GEMINI SPACE STATION, INC.*
+Subsidiary name
+Jurisdiction of incorporation
+Gemini Constellation, LLC
+Delaware, United States
+Gemini Frontier Fund, LLC
+Delaware, United States
+Gemini IP, LLC
+Delaware, United States
+Gemini Moonbase, LLC
+Delaware, United States
+Gemini Space Station, LLC
+Nevada, United States
+Gemini Spaceship, LLC
+Delaware, United States
+Gemini Trust Company, LLC
+New York, United States
+*Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Gemini Space Station, Inc. are omitted because, considered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report.

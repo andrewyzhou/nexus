@@ -1,0 +1,34 @@
+EX-21.1
+3
+sail-20260131x10kex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF SAILPOINT, INC.
+1. SailPoint Holdings GP, LLC (Delaware)
+2. SailPoint Intermediate Holdings I, LP (Delaware)
+3. SailPoint Intermediate Holdings II, LP (Delaware)
+4. SailPoint Intermediate Holdings III, LP (Delaware)
+5. SailPoint Technologies Holdings, Inc. (Delaware)
+6. SailPoint Technologies Intermediate Holdings, LLC (Delaware)
+7. SailPoint Technologies, Inc. (Delaware)
+8. SailPoint Holdings, Inc. (Delaware)
+9. SailPoint International, Inc. (Delaware)
+10. SailPoint SZ, LLC (Delaware)
+11. SailPoint Technologies UK Ltd. (United Kingdom)
+12. SailPoint Technologies India Private Ltd. (India)
+13. SailPoint Technologies Netherlands B.V. (Netherlands)
+14. SailPoint Technologies Pte. Ltd. (Singapore)
+15. SailPoint Technologies Israel Ltd. (Israel)
+16. SailPoint Technologies GmbH (Germany)
+17. SailPoint Technologies SARL (Switzerland)
+18. SailPoint Technologies Japan G.K. (Japan)
+19. SailPoint Technologies Canada Inc. (Canada)
+20. SailPoint Technologies Mexico, S.A. de C.V. (Mexico)
+21. SailPoint Technologies Korea Limited (Korea)
+22. SailPoint Technologies FZ-LLC (Dubai, UAE)
+23. SailPoint Chile Limitada (Chile)
+24. Osirium Limited (United Kingdom)
+25. Osirium Technologies Limited (United Kingdom)
+26. SailPoint Tecnologia Spain, S.L. (Spain)
+27. SailPoint Technologies Brazil Ltda (Brazil)

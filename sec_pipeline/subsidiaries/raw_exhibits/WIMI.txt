@@ -1,0 +1,149 @@
+EX-8.1
+2
+ea023733201ex8-1_wimiho.htm
+PRINCIPAL SUBSIDIARIES AND VIE OF THE REGISTRANT
+Exhibit 8.1
+PRINCIPAL SUBSIDIARIES AND VIE OF THE REGISTRANT
+Entity
+Jurisdiction
+Ownership
+WiMi Hologram Cloud Limited(“WiMi HK”)
+Hong Kong
+100%
+owned by WiMi Cayman
+Beijing Hologram WiMi Cloud Network Technology Co., Ltd. (“WiMi WFOE”)
+People’s Republic of China
+100%
+owned by WiMi HK
+Beijing WiMi Cloud Software Co., Ltd.
+(Beijing WiMi)
+People’s Republic of China
+VIE of WiMi WFOE
+Shenzhen Yidian
+Network Technology Co., Ltd. (“Shenzhen Yidian”)
+People’s Republic of China
+100% owned by Beijing WiMi
+Shenzhen Duodian
+Cloud Technology Co., Ltd. (“Shenzhen Duodian”)
+People’s Republic of China
+100% owned by Shenzhen Yidian
+Korgas Duodian
+Network Technology Co., Ltd. (“Korgas Duodian”)
+People’s Republic of China
+100% owned by Shenzhen Yidian
+Kashi Duodian
+Network Technology Co., Ltd. (“Kashi Duodian”)
+People’s Republic of China
+100% owned by Shenzhen Yidian
+Shenzhen Zhiyun Image Technology Co., Ltd. (“Shenzhen Zhiyun”)
+People’s Republic of China
+100% owned by Shenzhen Yidian
+Shenzhen Shiyunyanxi Technology Co., Ltd. (“Shenzhen Shiyun”)
+People’s Republic of China
+100% owned by Shenzhen Yidian
+Shenzhen Yunzhan Image Technology Co., Ltd. (“Shenzhen Yunzhan”)
+People’s Republic of China
+100% owned by Shenzhen Yidian
+Micro Beauty Lightspeed Investment Management HK Limited
+(“Micro Beauty”)
+Hong Kong
+100% owned by Beijing WiMi
+Skystar
+Development Co., Ltd (“Skystar”)
+Republic of Seychelles
+100% owned by Micro Beauty
+Viru Technology Limited (“Viru”)
+Hong Kong
+55% owned by Wimi HK
+Shenzhen Weiruntong Technology Co., Ltd. (“Shenzhen Weiruntong”)
+People’s Republic of China
+100% owned by Viru
+VIDA Semicon Co., Limited (“VIDA”)
+Hong Kong
+53% owned by WiMi HK
+Weeto Investment PTE. Ltd (“Weeto”)
+Singapore
+100% owned by Wimi Cayman
+Lixin Technology Co., Ltd. (“Lixin Technology”)
+People’s Republic of China
+100% owned by WiMi Cayman
+Hainan Lixin Technology Co., Ltd. (“Hainan Lixin”)
+People’s Republic of China
+100% owned by Lixin Technology
+Tianjin Zhongzhengdaohe Investment Co., Ltd. (“TJ Zhongzheng”)
+People’s Republic of China
+100% owned by WiMi Cayman
+jShenzhen Hedaozhongshu Technology Co., Ltd. (“Shenzhen Hedao”)
+People’s Republic of China
+100% owned by TJ Zhongzheng
+MicoAlgo Inc. (“MicroAlgo”)
+Cayman Islands
+51.2% owned by Wimi Cayman
+VIYI Algorithm Inc. (“VIYI”), previously known as VIYI Technology Inc.
+Cayman Islands
+86.5% owned by WiMi Cayman before March 26, 2021; 73% owned by WiMi Cayman after March 26, 2021;100% owned by MicroAlgo after December 9, 2022
+VIYI Technology Ltd. (“VIYI Ltd”)
+Hong Kong
+100% owned by VIYI
+2
+Shenzhen Weiyixin Technology Co., Ltd. (“Shenzhen Weiyixin”)
+People’s Republic of China
+100% owned by VIYI Ltd
+Shanghai Weimu Technology Co., Ltd. (“Shanghai Weimu”)
+People’s Republic of China
+58% owned by
+Shenzhen Weiyixin
+Hainan Weidong Technology Co., Ltd. (“Weidong”)
+People’s Republic of China
+100% owned by Shenzhen Yitian before January 11, 2021; 100% owned by Shenzhen Weiyixin after January 11, 2021
+Shanghai Guoyu Information Technology Co., Ltd. (“Shanghai Guoyu”)
+People’s Republic of China
+99% owned by Weidong, 1% owned by
+SZ Weidong
+Shenzhen Yitian
+Internet Technology Co., Ltd. (“Shenzhen Yitian”)
+People’s Republic of China
+100% owned by Beijing WiMi before December 24, 2020; VIE of Shenzhen Weiyixin starting on December 24, 2020; 100% owned by Shenzhen Weiyixin starting April 1, 2022
+Shenzhen Qianhai
+Wangxin Technology Co., Ltd. (“Shenzhen Qianhai”)
+People’s Republic of China
+100% owned by Shenzhen Yitian
+CDDI Capital Ltd (“CDDI”)
+British Virgin Islands
+100% owned by VIYI
+Ltd
+VIWO AI Technology Inc. (“VIWO Cayman”)
+Cayman Islands
+55% owned by CDDI Capital Ltd
+Viwo Technology Limited.  (“Viwo Tech”)
+Hong Kong
+100% owned by  VIWO Cayman
+Shenzhen Viwotong Technology Co., Ltd. (“Viwotong Tech”)
+People’s Republic of China
+100% owned by Viwo Tech
+3
+Guangzhou Tapuyu Internet Technology Co., Ltd. (“Tapuyu”)
+People’s Republic of China
+100% owned by Viwotong Tech from December 1, 2021 to February 6, 2024; 100% owned by Beijing Viwotong from February 6, 2024 to November 21, 2024; 100% owned by BJ Weiyun after November 21, 2024
+Beijing Younike Information Technology Co., Ltd. (“Younike”)
+People’s Republic of China
+100% owned by Viwotong Tech from January 1, 2023 to February 28, 2024; 100% owned by Beijing Viwotong from February 28, 2024 to November 11, 2024; 100% owned by BJ Weiyun after November 11, 2024
+Shenzhen Weidong Technology Co., Ltd. (“SZ Weidong”)
+People’s Republic of China
+100% owned by Weidong
+VIWO Technology (HK) Limited (VIWO HK)
+Hong Kong
+100% owned by VIWO Cayman
+Beijing Viwotong Technology Co., Ltd.(“Beijing Viwotong”)
+People’s Republic of China
+100% owned by VIWO HK
+Beijing Weiyunshikong Technology Co., Ltd. (“BJ Weiyun”)
+People’s Republic of China
+100% owned by Beijing Viwotong
+Weiyiyuliang (Beijing) Science Technology Center (Limited Partnership) (“Weiyiyuliang”)
+People’s Republic of China
+50% owned by Shenzhen Weiyixin; 50% owned by WiMi WFOE
+Beijing Yujie Scholarship Education Consulting Co., Ltd(“Beijing Yujie”)
+People’s Republic of China
+100% owned by Kashi Duodian
+4

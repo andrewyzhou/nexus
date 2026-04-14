@@ -1,0 +1,53 @@
+EX-21.1
+4
+a211listingofsubsidiaries.htm
+EX-21.1
+Document
+Exhibit 21.1
+LISTING OF SUBSIDIARIES*
+STUBHUB HOLDINGS, INC.
+Name of Subsidiary
+Jurisdiction of Incorporation or Organization
+VGL Entretenimento Brasil Ltda.
+Brazil
+StubHub Events, Inc.
+California
+StubHub Canada Ltd.
+Canada
+Grover Street, LLC
+Delaware
+Grover Street Holdings, LLC
+Delaware
+Last Minute Transactions, Inc.
+Delaware
+StubHub, Inc.
+Delaware
+StubHub Holdco Sub, LLC
+Delaware
+StubHub Insurance Services, Inc.
+Delaware
+viagogo Inc.
+Delaware
+viagogo Entertainment Inc.
+Delaware
+viagogo International Holdings, Inc.
+Delaware
+viagogo Live Events International, Inc.
+Delaware
+Ticket Utils India Private Limited
+India
+VGL Support Services Ireland Limited
+Ireland
+viagogo Luxembourg Holding Company S.à r.l.
+Luxembourg
+YSG Safe Processing Ltd.
+Malta
+Ticket Utils, Inc.
+New Jersey
+viagogo GmbH
+Switzerland
+IFOT Services Limited
+United Kingdom
+VGL Services Limited
+United Kingdom
+*Includes subsidiaries that do not fall under the definition of “significant subsidiary” as defined under Rule 1-02(w) of Regulation S-X.

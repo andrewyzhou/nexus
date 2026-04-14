@@ -1,0 +1,739 @@
+TICKER: RR
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chains and delivery timelines specified by the Chief Financial Officer based on projections made according
+to sales data. The accounting team processes accounts payables and receivables, audits internal accounting records and generate financial
+reports. Our Revenue Model Historically, the Company
+generated revenue primarily through product revenue (i.e. outright hardware sales), resulting in immediate revenue and immediate Cost
+of Revenue recognition. The Company also offers services such as robot event rentals, support and maintenance services, and other services
+related to our robot products. Services and short-term leases constituted the majority of revenues in fiscal year 2024, and continues
+to be a large portion of revenue in fiscal year 2025. In fiscal year 2025, the
+Company has shifted its focus to building RaaS revenues, which emphasizes long-term relationships and recurring revenue through multi-year
+contracts. This transition aims to improve customer retention, increase asset lifetime value and build a predictable revenue base. This strategic change significantly
+impacts the financial statements in the following ways: 1. Revenue: Upfront product revenue is reduced. 2. Assets: The cost of leased robots is capitalized as a long-term
+asset (Assets held for Lease), not immediately expensed. 3. Profitability: This results in a materially lower Cost of
+Revenue and an expanded Gross Margin, as the cost is recognized over the lease term via depreciation instead of immediate Cost of Goods
+Sold. Evolution of Sales Model
+Mix Our model combines direct
+product sales with RaaS. The table below illustrates the shift away from being a purely product-driven company over the past two fiscal
+years: Year ended September 30, 2025 2024 Change Product Sale $ 2,309 $ 1,357 $ 952 Leasing/Service/Rental 1,429 2,624 (1,195 ) RaaS 692 - 692 Other 615 259 356 Total $ 5,045 $ 4,240 $ 805 11 The increase in Product Sale
+percentage in fiscal 2025 was primarily attributable to non-recurring customer orders for earlier-generation delivery robotic systems,
+which temporarily increased one-time product sales. Despite this spike, the long-term trend remains focused on increasing recurring revenue.
+The relative decreases in Leasing/Service/Rental Sale in fiscal year 2025 compared to fiscal year 2024 were primarily attributable to
+the Company’s strategic focus on expanding its RaaS business model. Organic adoption of recurring arrangements continued to accelerate
+during fiscal year 2025. While revenue from the RaaS offerings was only formally recognized beginning in fiscal year 2025, resulting in
+approximately $692 thousand of RaaS revenue for the year, management believes the success of the RaaS model is more appropriately measured
+by contract origination rather than near-term revenue mix. During fiscal year 2025, the Company secured 55 RaaS contracts, representing
+significant growth in long-term contract value and future recurring revenue backlog, which aligns with the Company’s core strategic
+objectives under its RaaS model. Our Customers We have a diversified business-to-business
+(“B2B”) customer base where the clients range from individual mom and pop restaurants to global automotive manufacturers.
+The majority of our robotic deployments are located in the United States, with additional installations in Canada, Mexico, and Australia.
+We are also expanding our global footprint through new partnerships in the Middle East and Europe. Heading into fiscal year
+2026, we are focused on executing expansion into additional market sectors with a specific focus on manufacturing and logistics, as well
+as developing markets where automation has not traditionally been explored. The focus will be on applications where robotic-assisted operations
+present a very strong ROI equation with low deployment complexity. The goal will be to continue to increase the number of robots deployed
+under the RaaS model. Clients come from four main
+sources: (1) our inbound website and phone line, (2) referrals, (3) paid conventions and (4) outbound sales activity such as via emails,
+phone calls and LinkedIn. Customer Services As a company, we place strong
+emphasis on providing a positive customer experience for the client and their customers. We provide nationwide installation, shipping,
+maintenance and warranty services. Shipping and installation are coordinated with the client by our customer service and technician teams.
+Maintenance services are provided for customers to prolong the longevity of the robots including onsite assistance as needed. Maintenance
+visits typically encompass an overall health check on the robot, removal of debris and cleaning, edits to mapping or settings, and training
+of client staff. For warranty claims, our
+customer service department works with the customer to verify the validity of the warranty claim, and if valid, schedules for the exchange
+of the robot as quickly as possible. We endeavor to complete all exchanges within five business days. The customer service team
+also reaches out to our clients on a regular basis to ensure they are enjoying their use of their robot, and to inquire about any service
+requests they may have. All robots support remote
+diagnostic functions so our technicians can provide quick and effective remote troubleshooting. All customers are provided lifetime remote
+customer support. Customer satisfaction also
+depends on whether a client is getting a product that is right for them and suits their space. To this end, we have a full in-house design
+team that provide customers with custom wrap designs, graphical user interfaces (GUIs), creates 3D renderings of buildouts and promotional
+materials for their staff and customers. 12 Suppliers (Materials, Products and Other Supplies) For the fiscal year ended
+September 30, 2025, our top five suppliers collectively accounted for approximately 65% of our total procurement. We rely on sole-source
+suppliers for certain critical components, such as batteries and robot arm. We generally do not have long-term supply agreements with
+these suppliers; instead, components are typically secured on a purchase order basis. This reliance creates risks regarding supply availability
+and pricing. Marketing and Sales, Distribution and Logistics Our sales strategies aim
+to scale revenue as quickly as possible without relying on high expenditure of capital or human resources. These strategies involve forming
+relationships, leveraging partner resources and finding the most effective methods to grow revenue. We look to form relationships with
+companies that have the most connections and resources in each of the target markets. For the restaurant space, this means companies like
+major food distribution and point-of-sale companies that have a large distributed sales force and a massive customer network in the United
+States. Hotel and senior living sectors are much more concentrated, so we primarily focus on companies that set industry standards and
+leverage our success with these companies to promote our brand and products. Second, we build out networks of referral agents, independent
+sales agents, and distributors that provide high penetration into the market at a local and regional level. Companies that wish to become
+our distributors or resellers must provide evidence they have the technical know-how and financial capability to effectively represent
+our brand. Potential distributors are asked to provide evidence of strong sales revenue, adequate technical support capabilities, and
+a list of customers they will be approaching with our product. Distributors are only certified once we find that their customer base is
+a good fit for our products and they have the capabilities to represent our brand. Third, we build and retain a professional internal
+enterprise sales force that is creative, driven, and believes in the mission and values of the company. This sales force is our liaison
+with our partners and customers, who foster these relationships and build a solid foundation for the company. We market our products primarily
+through digital marketing, sales outreach, industry exhibitions, and client referrals. Direct online inquiries are the main source of
+our leads. Over the last two years, we have exhibited at national conferences such as the Consumer Electronics Show (CES), Nvidia GPU
+Technology Conference, and National Restaurant Association Convention. Order processing and logistics
+is managed internally. We currently have five people on our sales team. The sales team earns a sales commission on top of base salary
+and bonuses. Orders go through several levels of checks and approval before shipping to ensure standard operating procedures are followed
+and there is proper inventory tracking. All robots are quality control tested before packaging and leaving our warehouse. We utilize a
+selection of freight carriers to obtain the best shipping rates. Tracking information and freight costs are uploaded into our internal
+digital system by the logistics team to ensure this data is readily available when needed. Research and Development In fiscal years 2025
+and 2024, we spent $2,432 thousand and $2,021 thousand, respectively, on R&D. Our R&D efforts in 2025 primarily focused on
+developing and testing innovative solutions tailored to various market verticals for our humanoid and AMR robotic platforms. We
+remain committed to enhancing our competitive edge by creating groundbreaking solutions, advancing at a pace ahead of our
+competitors, and capturing maximum market share in the emerging service robotics industry. In 2025, we have continued
+to upgrade and iteratively develop ADAM. During the development process, we leveraged generative AI technology to optimize efficiency
+and utilized NVIDIA’s ISAAC simulation training platform to enhance the efficiency of robot installation and deployment in various
+commercial environments. In addition to ADAM, the dual-arm robot, we have developed a single-arm robot, Scorpion, designed for more compact
+and lightweight applications compared to ADAM. A mobile platform has been created for Scorpion, enabling its use in various work scenarios
+such as desktops and vehicles. It also supports real-time low-latency natural language conversations and voice control for seamless interactions
+with customers. For delivery robots, we have
+focused on developing and refining hardware, software features, and workflows to suit specific needs in blue ocean verticals. We continue
+to work closely with our customers to understand problems from their perspective and develop solutions that maximize the value of our
+AMRs in their business case. 13 In 2025, the Company has
+also focused on the development of AI training capabilities, with a strong focus on generating standardized robotic datasets. These datasets
+contain real-world robotics operation data of joint trajectories, gripper contact manipulations and more. All data is anchored in the
+United States to reduce regulatory and security risks. A major R&D focus in fiscal year 2025 for
+Richtech has been the development of the Dex robot. Dex builds upon the foundations set by learnings from the development of ADAM and
+our AMR solutions, marrying intelligent vision AI systems with reliable sensor-based mobility. The potential of Dex is then realized through
+our proprietary Sim2Real robotic training pipeline that enables reliable real-world operation of robotic solutions through a combination
+of simulated and real-word training. Dex will continue to be the development priority into fiscal 2026. Production/Manufacturing Our product manufacturing
+process starts with finding suitable suppliers. The Company’s internal product development and procurement teams will search for
+suppliers according to technical requirements and consultation with existing suppliers. We require all prospective suppliers to sign confidentiality
+agreements before discussing details of the products and parts requirements. The procurement team performs a comprehensive comparison
+of suppliers based on product specifications, reputation, delivery cycle, price and other factors. Through this process, we identify a
+preferred supplier and two alternative suppliers as backup. Once suppliers are confirmed and contracted, we move to the next step. To better meet the needs
+of our U.S. customers, we are steadily increasing the proportion of final assembly performed in the United States and are working closely
+with our Original Equipment Manufacturer (“OEM”) and Original Design Manufacturer (“ODM”) partners to expand U.S.-based
+production capacity over time. Our manufacturing operations utilize a hybrid production model. Certain components and subassemblies of
+our products are manufactured and performed by contracted OEM and ODM partners located outside of the United States (primarily in China).
+In addition, for some of our higher-complexity products, a portion of the production, including final assembly, system integration, and
+quality testing, is performed in the United States at our facilities in Las Vegas, Nevada. We identify and contact factories
+that qualify as potential OEM and ODM partner candidates to discuss the production of prototypes of our products. Factories are qualified
+by our procurement team using a process similar to how we select suppliers, checking the capabilities, reputation, quality, delivery cycle,
+and price of these factories. Our product development and procurement teams work with the factory to finalize the Bill of Materials (“BOM”)
+list and provide technical specifications and other requirements to these factories for the production of several prototypes. These prototypes
+are then rigorously tested by our development teams and we go through an iterative process to refine the prototypes to make sure they
+meet our production standards. Both the software and hardware of the robots go through multiple rounds of stress testing, with a final
+round of testing in a real-world application. Once the prototypes pass internal stress tests, the product is then ready for the mass production
+stage. A production schedule is
+formed around sales projections on a rolling three-month window. These sales projections are assembled by the Chief Operating Officer
+and sent to the Chief Executive Officer for approval. Once the schedule is approved, the procurement team reviews pricing according to
+the BOM list, clarifies delivery timelines, signs the purchase contracts, and sends payments. After the production of the product is completed,
+our procurement team will conduct an on-site quality inspection before the product is packaged and shipped to our warehouse in Las Vegas,
+NV. Once the product arrives at our warehouse, the technical department will conduct a last round of software and hardware quality control
+checks. This is to ensure nothing was damaged in shipping and that all elements of the product meet our requirements before delivery to
+customers. We are also actively evaluating
+opportunities to expand our U.S.-based assembly and manufacturing footprint over time, including identifying additional facilities and
+potential partners, subject to operational needs and economic considerations. 14 Global Operations Our business operations are
+based mainly in the U.S., except for some of our R&D work, which is based in China. We currently employ a team of 20 engineers through
+a third-party human resource company in China for R&D work. Some of the manufacturing and subassembly of some of our products takes
+place outside of the U.S. The majority of our ODM and OEM partners are also located in China. Intellectual Property We rely on a combination
+of federal, state, and common law rights, including patent, copyright, trademark, and trade secret laws, to protect our proprietary robotics
+hardware, software, and brand identity. We currently have five issued U.S. patents and three pending U.S. patent applications. We also
+maintain five U.S. trademark registrations and have one U.S. trademark applications pending, covering our corporate name and key product
+marks. In addition, we rely on trade secrets and proprietary know-how, which we protect through confidentiality agreements with employees,
+contractors, and business partners. Patents PATENT NO. / APPLICATION NO. TITLE COUNTRY FILING DATE STATUS USD1028047S1 Service Robot U.S. November 24, 2021 Issued US11975656B2 Tray Stabilizer System for Food Delivery Robots U.S. December 13, 2021 Issued USD1039580S1 Vending Machine Assembly For An Autonomous Delivery Robot U.S. July 12, 2022 Issued USD1090655S Gripper for a Robotic Arm U.S. June 24, 2024 Issued USD1090656S Gripper for a Robotic Arm U.S. June 24, 2024 Issued 29/908,343 Single Arm Robot U.S. January 11, 2024 Pending 29/924,731 Powder Mixer U.S. January 19, 2024 Pending 29/924,728 Mixer U.S. January 19, 2024 Pending Trademarks MARK TYPE APPLICATION NO. STATUS JURISDICTION RICHTECH ROBOTICS Logo 97553162 Registered U.S. RICHTECH ROBOTICS Standard Character 97553149 Registered U.S. RICHTECH Logo 90869957 / 87884066 Registered U.S. ADAM Standard Character 97734824 Pending U.S. CLOUFFEE & TEA Logo 98418565 Registered U.S. RICHIE Standard Character 97734917 Registered U.S. 15 Employees As of September 30, 2025,
+we had 55 full-time employees in the United States and 20 overseas R&D employees. Our overseas R&D personnel, primarily located
+in China, are engaged through third-party arrangements but are directly managed by the Company. As of September 30, 2025, our U.S. employees
+were located across multiple states, including approximately 47 employees in Nevada, 2 employees in California, 3 employees in New York,
+2 employees in Texas, and one employee in Illinois. We believe that we maintain a good working relationship with our employees and, to
+date, we have not experienced any labor disputes. The following table provides a breakdown of our full-time U.S. employees by function
+as of September 30, 2025: Function Number of Employees % of Total R&D 27 49 % Tech Support & Customer Service 3 5 % Sales & Marketing 12 22 % Business Operation 5 9 % Administration 8 15 % Total 55 Insurance We maintain a portfolio of
+insurance policies from reputable providers that we believe are customary for companies of our size and industry. Our coverage includes
+Commercial General Liability, Automobile Liability, Umbrella Liability, Workers Compensation, and Property insurance. Additionally, we
+maintain Directors & Officers liability insurance at levels we believe to be appropriate for our business and public company status. Material Contracts On October 16, 2024, Richtech
+entered into a binding Letter of Intent (the “LOI”) with Ghost Kitchens America. Under the terms of the LOI, the parties
+agreed to enter into a franchise agreement, pursuant to which the Company will acquire exclusive rights to operate 20 Walmart-located
+“One Kitchen” restaurants in Arizona, Colorado, and Texas. These restaurants will be directly managed by the Company’s
+subsidiary, AlphaMax Management LLC, with the aim of optimizing restaurant operations through robotics and AI cloud technology. As of
+the date of this Report, two locations have been opened, in Rockford, Illinois and Peachtree, Georgia. On April 10, 2025, we entered into an MSA (the
+“Automotive MSA”), with a top 5 automotive dealership by revenue and number of dealerships in the United States, under which
+Richtech would perform work according to Statement(s) of Work (“SOW”). The full launch of the Automotive MSA was subject
+to the successful completion of the pilot program and approval of the client’s management team, which occurred on August 27, 2025.
+The Automotive MSA will continue in force as long as one or more SOWs remain in effect and will renew for an additional 12 month period
+unless either party notices the other party in writing of its intent not to review 30 days prior to the expiration of the term. The Automotive
+MSA also contains other customary provisions, including intellectual property and confidentiality. As of November 14, 2026, there are
+9 active SOWs under the MSA. We expect the number of active SOWs to continue to grow through fiscal year 2026. As of fiscal year 2025,
+the SOWs under the Automotive MSA total $388,800 in contract value, with $44,098.52 in payments received. June 24, 2025, Richtech’s joint venture company, Boyu Artificial
+Intelligence (Beijing) Technology Co., Ltd. (“Boyu”), entered into a Product Sales and Technical Services Agreement (the “Sales
+Agreement”) with Beijing Kaiwu Tongchuang Technology Development Co., Ltd. (“Purchaser”), pursuant to which Purchaser
+agreed to purchase approximately $4.2 million of robotic products (to be supplied by the Company), services, software and licensing, including
+a one-time payment within 15 days of deliver for approximately $1.3 million and annual fees and software licenses in the aggregate amount
+of approximately $2.9 million over the next 10 years. The Sales Agreement contains customary terms, including, without limitation, delivery
+and acceptance, liability and dispute resolutions. On August 21, 2025, we entered into an MSA (the
+“Retailer MSA”) with one of the world’s largest retailers, pursuant to which the Company shall work on project(s) for
+the client under additional SOWs. The Retailer MSA has a term of two years and will automatically renew for additional 12 month periods
+unless either party notices the other party in writing of its intent not to renew 60 days prior to the expiration of the term. The MSA
+also contains other customary provisions, including intellectual property and confidentiality. On November 24, 2025, we began deploying
+16 robotic units according to the first SOW executed under this MSA. 16 In January 2023, we executed an MSA with a major hotel brand with over
+5,000 properties worldwide (the “Hotel MSA”) for purchases of our Matradee L robot.  In September 2022, we entered into
+an MSA with one of the top casino companies in the United States (the “Gaming MSA”), for the purchase of our Matradee L and
+other robots. As the Company has pivoted
+to prioritizing RaaS agreements and long-term recurring revenue streams, we no longer consider the  Restaurant MSA and Gaming MSA
+to be material to the Company’s future performance. ATM Agreements On May 16, 2025, we entered
+into an At The Market Offering Agreement (the “May ATM Agreement”) with Rodman & Renshaw LLC (“Rodman”),
+H.C. Wainwright & Co., LLC (“Wainwright”), and BTIG, LLC, authorizing the sale of up to $100 million shares of our Class
+B common stock. The offer and sale of the shares was made pursuant to a shelf registration statement on Form S-3 and the related base
+prospectus (File No. 333-284779) initially filed by the Company with the SEC, on February 7, 2025, as amended on April 18, 2025 and May
+14, 2025, respectively, and declared effective by the SEC on May 15, 2025 (the “May ATM Prospectus”). The Company agreed
+to pay to Rodman a fixed cash commission rate equal to 3.0% of the gross sales price of any shares sold under the May ATM Agreement.
+As of September 30, 2025, the Company sold an aggregate of 45,636,983 shares of Class B common stock under the May ATM Agreement, for
+aggregate proceeds of approximately $100.0 million. The May ATM Agreement was terminated by the Company effective as of September 12,
+2025. On August 28, 2025, we
+entered into another At The Market Offering Agreement (the “August ATM Agreement”) with Rodman as the lead agent and
+Wainwright (each of Rodman and Wainwright individually, an “Agent” and, collectively, the “Agents”),
+pursuant to which and the May ATM Prospectus, the Company may offer and sell, from time to time through or to
+Rodman or such other Agent selected by Rodman (the “Designated Agent”), as sales agent and/or principal, shares of our
+Class B common stock, having an aggregate offering price of up to $100 million. The offer and sale of the
+shares was made pursuant to the May ATM Prospectus, as supplemented by the related prospectus supplement filed by
+the Company with the SEC on August 28, 2025 (the “August ATM Prospectus”). Pursuant to the August
+ATM Agreement, the Designated Agent may sell the shares by any method permitted by law deemed to be an “at the market
+offering” as defined in Rule 415 of the Securities Act of 1933, as amended (the “Securities Act”), including
+without limitation sales made directly on or through The Nasdaq Stock Market LLC (“Nasdaq”), or any other existing
+trading market in the United States for Class B common stock, sales made to or through a market maker other than on an exchange or
+otherwise, directly to the Designated Agent as principal, in negotiated transactions at market prices prevailing at the time of sale
+or at prices related to such prevailing market prices and/or in any other method permitted by law. The Designated Agent is not
+required to sell any number or dollar amount of the shares but will use commercially reasonable efforts consistent with the
+customary market practices for similar transactions and in compliance with applicable laws and regulations to sell the shares
+pursuant to the August ATM Agreement from time to time, based upon instructions from the Company, including any price or size limits
+or other customary parameters or conditions the Company may impose. The Company is not obligated to make any sales of the shares
+under the August ATM Agreement. The offering of shares pursuant to the August ATM Agreement and the August ATM Prospectus will
+terminate upon the earliest of (a) the sale of all of the shares subject to the August ATM Prospectus and (b) the termination of the
+August ATM Agreement by the Company or each Agent (solely with respect to such terminating Agent), as permitted therein. The Company agreed to
+pay to Rodman a fixed cash commission rate equal to 3.0% of the gross sales price of any shares sold under the August ATM Agreement.
+As of September 30, 2025, the Company sold an aggregate of 21,439,157 shares of Class B common stock under the
+August ATM Agreement, for aggregate proceeds of approximately $98.4 million. The August ATM
+Agreement also provides that Rodman shall act as our exclusive and sole sales agent for each and every at-the-market program (or
+facility), current or subsequent, to be established and/or used by us during the twelve (12) month period commencing on May 16,
+2025. The ATM Agreement also contains customary representations and warranties and conditions to the sale of the shares pursuant
+thereto. On September 23, 2025,
+we entered into an additional At The Market Offering Agreement with the Agents (the “September ATM Agreement”), pursuant
+to which the Company may offer and sell, from time to time through or to Rodman or such other Agent selected by Rodman, as sales
+agent and/or principal, shares of our Class B common stock having an aggregate offering price of up to $1,000,000,000. The offer and
+sale of the shares are being made pursuant to an automatic shelf registration statement on Form S-3ASR and the related base
+prospectus and accompanying prospectus dated September 24, 2025 (File No. 333-290477), which became effective upon filing on
+September 24, 2025 (the “September ATM Prospectus”). The terms of the September ATM Agreement, including the method of
+sale and the 3.0% fixed cash commission rate, are substantially consistent with those of the August ATM Agreement. Pursuant to the
+September ATM Agreement, the Company and Rodman further established a new twelve (12) month exclusivity period for any current or
+subsequent at-the-market program, which commenced on September 23, 2025. As of September 30, 2025, the Company sold an aggregate of
+6,282,472 shares of Class B common stock under the September ATM Agreement, for aggregate proceeds of approximately $26.8
+million. The foregoing
+description of each of the August ATM Agreement and the September ATM Agreement is not complete and is qualified in its entirety by
+reference to the full text of such agreements, copies of which are filed herewith as Exhibit 10.17 and Exhibit 10.18, respectively,
+to this Report and are incorporated herein by reference herein. 17 Inducement Warrants On February 10, 2025, the
+Company entered into a warrant exercise inducement offer letter (the “Inducement Letter”) with a holder (the “Holder”)
+of its existing common stock warrants exercisable for an aggregate of 2,699,797 shares of its Class B common stock (collectively, the
+“Existing Warrants”), to exercise its Existing Warrants at the existing exercise price of $1.35 per share, in exchange for
+the Company’s agreement to issue new common stock warrants to purchase 2,699,797 shares of Class B common stock at an exercise price
+per share of $4.00 (the “Inducement Warrants”). The aggregate gross proceeds from the exercise of the Existing Warrants were
+approximately $3,644,726, before deducting financial advisory fees. In consideration for the immediate exercise of the Existing Warrants
+for cash, the Holder received the Inducement Warrants in a private placement. The Inducement Warrants have an exercise price of $4.00
+per share, are immediately exercisable and will be exercisable for five years from the date of issuance. Property Purchase and Sale Agreement On April 8, 2025 (the “Effective
+Date”), the Company entered into an agreement (the “Purchase and Sale Agreement”) with L & R Investment LLC, a Utah
+limited liability company (the “Seller”), with respect to the purchase of a parcel of land of approximately 20,000 square
+feet located at 2975 Lincoln Road, Las Vegas, Nevada 89115 (the “Property”). This Property will serve as the Company’s
+new headquarters. The purchase price of the Property was $4,100,000.00, inclusive of a $50,000.00 earnest money payment (the “Earnest
+Money”). On May 15, 2025, the Company completed the purchase of the Property as contemplated in the Purchase and Sale Agreement
+and relocated its headquarters to the Property. The foregoing description of the Purchase and Sale Agreement is not
+complete and is qualified in its entirety by reference to the full text of the Purchase and Sale Agreement, a copy of which is filed as
+Exhibit 10.14 to this Report and is incorporated herein by reference. Government Regulation Our operations are subject
+to numerous governmental laws and regulations, including those governing antitrust and competition, the environment, collection, recycling,
+treatment and disposal of covered electronic products and components. In addition, a number of
+data protection laws impact, or may impact, the manner in which we collect, process and transfer personal data. U.S. laws that have been
+applied to protect user privacy (including laws regarding unfair and deceptive practices) may be subject to evolving interpretations or
+applications in light of privacy developments. Compliance with enhanced data protection laws requires additional resources and efforts,
+and noncompliance with personal data protection regulations could result in increased regulatory enforcement and significant monetary
+fines and costs. Available Information Our website is located at
+www.richtechrobotics.com, and our investor relations website is located at ir.richtechrobotics.com. Access to copies of our SEC filings,
+corporate governance information, and other items that may be material or of interest to our investors is available via our investor relations
+website. The contents of our websites are not incorporated by reference into this Report or in any other report or document we file with
+the SEC, and any references to our websites are intended to be inactive textual references only.
+
+--- VENDORS ---
+vendors. ● Deployment Experience and
+Market Knowledge: The accumulation of experience operating in the U.S. robotics sector gives us an upper hand against new market
+entrants. Our understanding of market dynamics and operational practices built up over the last several years creates a significant
+moat between us and our competitors. This knowledge also allows us to be nimble and focus on non-obvious profit centers and verticals.
+We understand what models work and why they work, allowing our team to build long-term strategic plans with minimized risk. Together
+with our technological expertise in building and training embodied AI systems, we can execute aggressive expansion plans in nascent markets
+with relatively low risk. ● Reliable Technology: Our
+advanced AI algorithms provide our robots with what we believe is best-in-class reliability and performance. The combination of advanced
+sensors and redundant obstacle avoidance protocols makes our robots safe and intelligent. With years of deployment and development experience,
+we have deep confidence in our ability to reliably deploy robots in real, uncontrolled customer environments. Our expertise in training
+embodied AI models further strengthens our capacity to create robotic solutions tailored to each customer’s workflow. Together,
+we believe this experience positions Richtech as a market-defining leader in robotic design and deployment. ● Broad Product Offerings
+and Synergies: Unlike our competitors that only provide one robot or one type of robot, we have a breadth of robotic solutions to
+deploy depending on a client’s needs. This is advantageous as we can bring in new customers from a variety of different use cases
+and encourage customers to consider other robotic solutions, providing a holistic approach to our client’s needs. If a hotel client
+is having difficulty finding servers for their restaurants, they are most likely also experiencing shortages in cleaning staff, front
+desk staff, room service staff, cooks, greeters, bartenders etc. Having a variety of products not only provides clients with a one-stop-shop
+for their service robotic needs, it also demonstrates that we are a reliable resource to consult as they approach the general adoption
+and implementation of robotic solutions across different parts of their business. A broad product offering also opens opportunities for
+cross-selling and upselling within the same customer base. Enterprise
+Partnerships: We have executed MSAs with market leaders in hospitality, retail, and automotive. Our established partnerships with
+leading companies in the robotics and AI space are a significant competitive advantage. We expect to continue to cultivate relationships
+with corporate end users and technology leaders to expand the scope of opportunities and resources available to the company. ● Business Model: The
+RaaS model gives Richtech a meaningful competitive advantage by lowering the barriers to adoption and allowing customers to deploy advanced
+robotics without significant upfront investment. We believe this business model helps us accelerate market penetration, expand our customer
+base, and ensure predictable long-term revenues. Additionally, continuous data flow from deployed robots enables us to improve performance,
+anticipate service needs, and deliver higher uptime than competitors relying on traditional sales models. The result is stronger customer
+retention, higher lifetime value, and a scalable service-driven business that is difficult for new entrants to replicate. 7 ● Market Coverage: Richtech
+provides comprehensive deployment and maintenance services across the continental United States, Canada, Mexico, Puerto Rico, and Hawaii.
+We have several hundred active deployments in the U.S. alone, complemented by additional installations in Canada, Mexico, and Australia.
+We are also expanding our global footprint. By increasing our geographic reach and total addressable market, we can accelerate business
+growth and leverage economies of scale—strengthening our competitive position and improving overall operational efficiency. ● Data Services: Our ability
+to generate proprietary training datasets to train robotic systems provides a fundamental advantage over competitors that rely on third-party
+data sources. This capability not only reduces costs for us, but also enables faster, more agile product development and access to highly
+targeted training data for specific applications. As a result, we continue to build a competitive moat through superior product performance
+and intellectual property. For a robotics company, the data is as important as the hardware and AI models themselves. Our Strategies As a leading provider of
+embodied AI robotic solutions, we intend to continue expanding the business by developing,
+
+--- MANUFACTURING ---
+manufacturing partners and suppliers and could lose future trade secret
+protection if any unauthorized disclosure of such information occurs. In addition, our proprietary information may otherwise become known
+or be independently developed by our competitors or other third parties. To the extent that our employees, consultants, contractors, advisors
+and other third parties use intellectual property owned by others in their work for us, disputes may arise as to the rights in related
+or resulting know-how and inventions. Costly and time-consuming litigation could be necessary to enforce and determine the scope of our
+proprietary rights, and failure to obtain or maintain protection for our proprietary information could adversely affect our competitive
+business position. Furthermore, laws regarding trade secret rights in certain markets where we operate may afford little or no protection
+to its trade secrets. We also rely on physical
+and electronic security measures to protect our proprietary information, but we cannot provide assurance that these security measures
+will not be breached or provide adequate protection for our property. There is a risk that third parties may obtain and improperly utilize
+our proprietary information to our competitive disadvantage. We may not be able to detect or prevent the unauthorized use of such information
+or take appropriate and timely steps to enforce our intellectual property rights. Under a certain number of our agreements,
+we are required to provide indemnification in the event our technology causes harm to third parties. In certain of our agreements,
+we indemnify our customers and manufacturing partners. We could incur significant expenses defending these partners if they are sued for
+patent infringement based on allegations related to our technology. In addition, if a partner were to lose a lawsuit and in turn seek
+indemnification from us, we could be subject to significant monetary liabilities. While such contracts typically give us multiple remedies
+for addressing instances of infringements, such remedies (e.g. product modification, purchase of licenses) could be expensive and difficult
+to administer. 25 Risks Related to Compliance We may become subject to new or changing
+governmental regulations relating to the design, manufacturing, marketing, distribution, servicing, or use of its products, and a failure
+to comply with such regulations could lead to withdrawal or recall of our products from the market, delay our projected revenues, increase
+cost, or make our business unviable if it is unable to modify its products to comply. We may become subject to
+new or changing international, federal, state and local regulations, including laws relating to the design, manufacturing, marketing,
+distribution, servicing or use of its products. Such laws and regulations may require us to pause sales and modify its products, which
+could result in a material adverse effect on its revenues and financial condition. Such laws and regulations can also give rise to liability
+such as fines and penalties, property damage, bodily injury and cleanup costs. Capital and operating expenses needed to comply with laws
+and regulations can be significant, and violations may result in substantial fines and penalties, third-party damages, suspension of production
+or a cessation of our operations. Any failure to comply with such laws or regulations could lead to withdrawal or recall of our products
+from the market. We may become involved in legal and regulatory
+proceedings and commercial or contractual disputes, which could have an adverse effect on our profitability and financial position. We may be, from time to time,
+involved in litigation, regulatory proceedings and commercial or contractual disputes that may be significant. These matters may include,
+without limitation, disputes with our suppliers and customers, intellectual property claims, stockholder litigation, government investigations,
+class action lawsuits, personal injury claims, environmental issues, customs and Value Added Tax (VAT) disputes and employment and tax
+issues. In addition, we have in the past and could face in the future a variety of labor and employment claims against us, related to,
+but not limited to, general employment practices and wrongful acts. In such matters, private parties or other entities may seek to recover
+from us indeterminate amounts in penalties or monetary damages. These types of lawsuits could require significant management time and
+attention or could involve substantial legal liability, and/or substantial expenses to defend. Often these cases raise complex factual
+and legal issues and create risks and uncertainties. No assurances can be given that any proceedings and claims will not have a material
+adverse impact on our consolidated financial position or that our established reserves or our available insurance will mitigate this impact. We are subject to, and must remain in compliance
+with, numerous laws and governmental regulations across various jurisdictions concerning the manufacturing, use, distribution and sale
+of our products. We manufacture and sell products
+that contain electronic components, and such components may contain materials that are subject to government regulation in both the locations
+where we manufacture and assembles our products, as well as the locations where we sell our products. For example, certain regulations
+limit the use of lead in electronic components. Since we operate on a global basis, this is a complex process which requires continuous
+monitoring of regulations and an ongoing compliance process to ensure that we, and our suppliers, are in compliance with all existing
+regulations. If there is an unanticipated new regulation that significantly impacts our use of various components or requires more expensive
+components, that regulation could materially adversely affect our business, results of operations and financial condition. We are subject to U.S. and foreign anti-corruption
+and anti-money laundering laws and regulations. We can face criminal liability and other serious consequences for violations, which can
+harm our business. We are subject to the U.S.
+Foreign Corrupt Practices Act, the U.S. domestic bribery statute contained in 18 U.S.C. § 201, the U.S. Travel Act, the Money Laundering
+Control Act 18 U.S.C. §§ 1956 and 1957, and other anti-bribery and anti-money laundering laws in countries in which we conduct
+activities. Anti-corruption laws are interpreted broadly and prohibit companies and their employees, agents, contractors and other collaborators
+from authorizing, promising, offering or providing, directly or indirectly, improper payments or anything else of value to recipients
+in the public or private sector, and require that we keep accurate books and records and maintain internal accounting controls designed
+to prevent any such actions. We can be held liable for the corrupt or other illegal activities of our employees, agents, contractors and
+other collaborators, even if we do not explicitly authorize or have actual knowledge of such activities. 26 As we increase our international
+cross-border business and expand our operations abroad, we may continue to engage with business partners and third-party intermediaries
+to market our services and to obtain necessary permits, licenses and other regulatory approvals. In addition, we or our third-party intermediaries
+may have direct or indirect interactions with officials and employees of government agencies or state-owned or affiliated entities. We
+can be held liable for the corrupt or other illegal activities of these third-party intermediaries, our employees, representatives, contractors,
+partners and agents, even if we do not explicitly authorize such activities. We cannot assure you that all of our employees and agents
+will not take actions in violation of our policies and applicable law, for which we may be ultimately held responsible. As we increase
+our international business, our risks under these laws may increase. Detecting, investigating
+and resolving actual or alleged violations of anti-corruption laws can require a significant diversion of time, resources and attention
+from management. In addition, non-compliance with anti- corruption or anti-bribery laws could subject us to whistleblower complaints,
+investigations, sanctions, settlements, prosecution, enforcement actions, fines, damages, other civil or criminal penalties, injunctions,
+suspension or debarment from contracting with certain persons, reputational harm, adverse media coverage and other collateral consequences.
+If any subpoenas are received or investigations are launched, or governmental or other sanctions are imposed, or if we do not prevail
+in any possible civil or criminal proceeding, our business, operating results and financial condition could be materially harmed. We are subject to governmental export controls
+and sanctions laws and regulations that could impair our ability to compete in international markets and subject us to liability if we
+are not in compliance with applicable laws. Changes to such laws and regulations, as well as changes to trade policy, import laws, and
+tariffs, may also have a material adverse effect on our business, financial condition and results of operations. Exports of our products are
+subject to export controls and sanctions laws and regulations imposed by the U.S. government and administered by the U.S. Departments
+of State, Commerce, and Treasury. U.S. export control laws may require a license or other authorization to export products to certain
+destinations and end users. In addition, U.S. economic sanctions laws include restrictions or prohibitions on engaging in any transactions
+or dealings, including receiving investment or financing from, or engaging in the sale or supply of products and services to, U.S. embargoed
+or sanctioned countries, governments, persons and entities. Obtaining export authorizations can be difficult, costly and time- consuming
+and we may not always be successful in obtaining such authorizations, and our failure to obtain required export approval for our products
+or limitations on our ability to export or sell our products imposed by export control or sanctions laws may harm our revenues and adversely
+affect our business, financial condition, and results of operations. Non-compliance with these laws could have negative consequences,
+including government investigations, penalties and reputational harm. Further, any changes in global
+political, regulatory and economic conditions, such as the military conflict involving Russia and Ukraine and the sanctions imposed by
+the United States, United Kingdom, European Union, and other jurisdictions on Russia in response to such conflict, or in laws and policies
+governing import/export control, economic sanctions, manufacturing, development and investment in the territories or countries where we
+currently purchase our components, sell our products, or conduct our business could result in the decreased use of our products by, or
+in our decreased ability to export or sell our products to, existing or potential end-customers. Any decreased use of our products or
+limitation on our ability to export or sell our products would adversely affect our business, results of operations and growth prospects.
+The United States has recently instituted or proposed changes in trade policies that include the negotiation or termination of trade agreements,
+the imposition of higher tariffs on imports into the United States, economic sanctions on individuals, corporations or countries, and
+other government regulations affecting trade between the United States and other countries where we conduct our business. A number of
+other nations have proposed or instituted similar measures directed at trade with the United States in response. As a result of these
+developments, there may be greater restrictions and economic disincentives on international trade that could adversely affect our business.
+It may be time-consuming and expensive for us to alter our business operations to adapt to or comply with any such changes, and any failure
+to do so could have a material adverse effect on our business, financial condition and results of operations. 27 Failures, or perceived failures, to comply
+with privacy, data protection, and information security requirements in the variety of jurisdictions in which we operate may adversely
+impact our business, and such legal requirements are evolving, uncertain and may require improvements in, or changes to, our policies
+and operations. Our current and potential
+future operations and sales subject us to laws and regulations addressing privacy and the collection, use, storage, disclosure, transfer
+and protection of a variety of types of data. For example, the European Commission has adopted the General Data Protection Regulation
+and California enacted the California Consumer Privacy Act of 2018, both of which provide for potentially material penalties for non-compliance.
+These regimes may, among other things, impose data security requirements, disclosure requirements, and restrictions on data collection,
+uses, and sharing that may impact our operations and the development of our business. While, generally, we do not have access to, collect,
+store, process, or share information collected by our solutions unless our customers choose to proactively provide such information to
+us, our products may evolve both to address potential customer requirements or to add new features and functionality. Therefore, the full
+impact of these privacy regimes on our business is rapidly evolving across jurisdictions and remains uncertain at this time. We may also be affected by
+cyber-attacks and other means of gaining unauthorized access to its products, systems, and data. For instance, cyber criminals or insiders
+may target us or third-parties with which we have business relationships in an effort to obtain data, or in a manner that disrupts our
+operations or compromises our products or the systems into which our products are integrated. We are assessing the continually
+evolving privacy and data security regimes and measures we believe are appropriate in response. Since these data security regimes are
+evolving, uncertain and complex, especially for a global business like ours, we may need to update or enhance our compliance measures
+as our products, markets and customer demands further develop and these updates or enhancements may require implementation costs. The
+compliance measures we do adopt may prove ineffective. Any failure, or perceived failure, by us to comply with current and future regulatory
+or customer-driven privacy, data protection, and information security requirements, or to prevent or mitigate security breaches, cyber-attacks,
+or improper access to, use of, or disclosure of data, or any security issues or cyber-attacks affecting us, could result in significant
+liability, costs (including the costs of mitigation and recovery), and a material loss of revenue resulting from the adverse impact on
+our reputation and brand, loss of proprietary information and data, disruption to our business and relationships, and diminished ability
+to retain or attract customers and business partners. Such events may result in governmental enforcement actions and prosecutions, private
+litigation, fines and penalties or adverse publicity, and could cause customers and business partners to lose trust in us, which could
+have an adverse effect on our reputation and business. If we fail to comply with the laws and regulations
+relating to the collection of sales tax and payment of income taxes in the various states in which we do business, we could be exposed
+to unexpected costs, expenses, penalties and fees as a result of our non-compliance, which could harm our business. By engaging in business activities
+in the United States, we become subject to various state laws and regulations, including requirements to collect sales tax from our sales
+within those states, and the payment of income taxes on revenue generated from activities in those states. A successful assertion by one
+or more states that we were required to collect sales or other taxes or to pay income taxes where we did not could result in substantial
+tax liabilities, fees and expenses, including substantial interest and penalty charges, which could harm our business. General Risks Associated with Our Company Our limited operating history and evolving
+business make it difficult to evaluate our current business and future prospects. Our limited operating history
+and the evolution of our business and our industry make it difficult to accurately assess our future prospects. It may not be possible
+to discern fully the economic and other business trends that we are subject to. Elements of our business strategy are new and subject
+to ongoing development as our operations mature. In addition, it may be difficult to evaluate our business because many of the other companies
+that offer the same or a similar range of solutions, products and services as us also have limited operating histories and evolving businesses. 28 If we were to lose the services of members
+of our senior management team, we may not be able to execute our business strategy. Our success depends in large
+part upon the continued service of key members of our senior management team. In particular, each of our Chief Executive Officer and co-founder,
+Zhenwu Huang, Chief Financial Officer and co-founder, Zhenqiang Huang, and Chief Operations Officer, Phil Zheng is critical to our overall
+management, as well as the continued development of our robotics technology, our culture and our strategic direction. All of our executive
+officers are at will employees, and we do not maintain any key person life insurance policies. The loss of any member of our senior management
+team could harm our business. We may pursue acquisitions, which involve
+a number of risks, and if we are unable to address and resolve these risks successfully, such acquisitions could harm our business. We have acquired and may
+in the future acquire businesses, products or technologies to expand our offerings and capabilities and business. We have evaluated, and
+expect to continue to evaluate, a wide array of potential strategic transactions. Any acquisition could be material to our financial condition
+and results of operations and any anticipated benefits from an acquisition may never materialize. In addition, the process of integrating
+acquired businesses, products or technologies may create unforeseen operating difficulties and expenditures. Acquisitions in international
+markets would involve additional risks, including those related to integration of operations across different cultures and languages,
+currency risks and the particular economic, political and regulatory risks associated with specific countries. We may not be able to address
+these risks successfully, or at all, without incurring significant costs, delays or other operational problems and if we were unable to
+address such risks successfully our business could be harmed. Our ability to effectively manage our anticipated
+growth and expansion of our operations will also require us to enhance our operational, financial and management controls and infrastructure,
+human resources policies and reporting systems. These enhancements and improvements will require significant capital expenditures and
+allocation of valuable management and employee resources. We expect to experience significant
+growth in the scope and nature of our operations. Our ability to manage our operations and future growth will require us to continue to
+improve our operational, financial and management controls, compliance programs and reporting systems. We may not be able to implement
+improvements in an efficient or timely manner and may discover deficiencies in existing controls, programs, systems and procedures, which
+could have an adverse effect on our business, reputation and financial results. Additionally, rapid growth in our business may place a
+strain on our human and capital resources. Furthermore, we expect to continue to conduct our business internationally and anticipate increased
+business operations in the United States, Europe, Asia and elsewhere. These diversified, global operations place increased demands on
+our limited resources and require us to substantially expand the capabilities of our administrative and operational resources and to attract,
+train, manage and retain qualified management, technical, manufacturing, engineering, sales and other personnel. As our operations expand
+domestically and internationally, we will need to continue to manage multiple locations and additional relationships with various customers,
+partners, suppliers and other third parties across several markets. We are an “emerging growth company,”
+and will be able take advantage of reduced disclosure requirements applicable to “emerging growth companies,” which could
+make our Class B common stock less attractive to investors. We are an “emerging
+growth company,” as defined in the JOBS Act and, for as long as we continue to be an “emerging growth company,” we intend
+to take advantage of certain exemptions from various reporting requirements applicable to other public companies but not to “emerging
+growth companies,” including, but not limited to, not being required to comply with the auditor attestation requirements of Section
+404 of the Sarbanes-Oxley Act, reduced disclosure obligations regarding executive compensation in our periodic reports and proxy statements,
+and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and stockholder approval of any golden
+parachute payments not previously approved. We could be an “emerging growth company” for up to five years, or until the earliest
+of (i) the last day of the first fiscal year in which our annual gross revenues exceed $1.235 billion, (ii) the date that we become a
+“large accelerated filer” as defined in Rule 12b-2 under the Securities Exchange Act of 1934, as amended (the “Exchange
+Act”), which would occur if the market value of our Class B common stock that is held by non-affiliates exceeds $700 million as
+of the last business day of our most recently completed second fiscal quarter, or (iii) the date on which we have issued more than $1
+billion in non-convertible debt during the preceding three year period. We intend to take advantage
+of these reporting exemptions described above until we are no longer an “emerging growth company.” Under the JOBS Act, “emerging
+growth companies” can also delay adopting new or revised accounting standards until such time as those standards apply to private
+companies. We have elected to avail ourselves of this exemption from new or revised accounting standards and, therefore, the information
+that we provide to our stockholders may be different than you might receive from other public reporting companies in which you hold equity
+interests. We cannot predict if investors
+will find our Class B common stock less attractive if we choose to rely on these exemptions. If some investors find our Class B common
+stock less attractive as a result of any choices to reduce future disclosure, there may be a less active trading market for our Class
+B common stock and the price of our Class B common stock may be more volatile. 29 We are a “controlled company”
+within the meaning of the Nasdaq Stock Market Rules and, as a result, may rely on exemptions from certain corporate governance requirements
+that provide protection to stockholders of other companies. We are a “controlled
+company” as defined under the Nasdaq Stock Market Rules, as our co-founder and Chief Executive Officer, Zhenwu (Wayne) Huang, beneficially
+owns over 50% of the total voting power of our issued and outstanding shares of common stock as of the date of the Original Report. For
+so long as we remain a “controlled company” under that definition, we are permitted to elect to rely on, and may rely on,
+certain exemptions from corporate governance rules, including an exemption from the rule that a majority of our board of directors must
+be independent directors. As a result, you may not have the same protection afforded to stockholders of companies that are subject to
+these corporate governance requirements. We have identified a material weakness in
+our internal control over financial reporting as of September 30, 2025. If we are unable to develop and maintain an effective system of
+internal control over financial reporting, we may not be able to accurately report our financial results in a timely manner, which may
+adversely affect investor confidence in us and materially and adversely affect our business and operating results. We have identified a material weakness in our
+internal controls over financial reporting as of September 30, 2025 relating to the design and consistent operation of certain entity-level
+and process-level controls supporting complex accounting judgments and transaction processing. These controls support, among other areas,
+inventory accounting, revenue recognition, investments, intangible assets, and certain payroll-related processes. A material weakness
+is a deficiency, or a combination of deficiencies, in internal control over financial reporting such that there is a reasonable possibility
+that a material misstatement of our annual or interim financial statements will not be prevented, or detected and corrected on a timely
+basis. Effective internal controls are necessary for
+us to provide reliable financial reports and prevent fraud. Measures to remediate material weaknesses may be time-consuming and costly
+and there is no assurance that such initiatives will ultimately have the intended effects. If we are unable to develop and maintain an
+effective system of internal control over financial reporting, we may not be able to accurately report our financial results in a timely
+manner, which may adversely affect investor confidence in us and materially and adversely affect our business and operating results. If
+we identify any new material weaknesses in the future, any such newly identified material weakness could limit our ability to prevent
+or detect a misstatement of our accounts or disclosures that could result in a material misstatement of our annual or interim financial
+statements. In such case, we may be unable to maintain compliance with securities law requirements regarding timely filing of periodic
+reports in addition to applicable stock exchange listing requirements, investors may lose confidence in our financial reporting and adversely
+affect our business and operating results. We cannot assure you that the measures we have taken to date, or any measures we may take in
+the future, will be sufficient to avoid potential future material weaknesses. We incur significantly increased costs
+as a result of and devote substantial management time to operating as a public company. As a public company, we
+incur significant legal, accounting and other expenses that we did not incur as a private company. For example, we are subject to the
+reporting requirements of the Exchange Act and are required to comply with the applicable requirements of the Sarbanes-Oxley Act and
+the Dodd-Frank Wall Street Reform and Consumer Protection Act, as well as rules and regulations subsequently implemented by the SEC,
+including the establishment and maintenance of effective disclosure and financial controls, changes in corporate governance practices
+and required filing of annual, quarterly and current reports with respect to our business and operating results. These requirements have
+increased our legal and financial compliance costs and make some activities more time-consuming and costly. In addition, our management
+and other personnel need to divert attention from operational and other business matters to devote substantial time to these public company
+requirements. We may also need to hire additional accounting and financial staff with appropriate public company experience and technical
+accounting knowledge and will need to maintain an internal audit function. Operating as a public company means it is more expensive for
+us to maintain director and officer liability insurance, and we may be required to accept reduced coverage or incur substantially higher
+costs to maintain coverage. This could also make it more difficult for us to attract and retain qualified people to serve on our board
+of directors, our board committees or as executive officers. In addition, after we no longer qualify as an “emerging growth company,”
+as defined under the JOBS ACT we expect to incur additional management time and cost to comply with the more stringent reporting requirements
+applicable to companies that are deemed accelerated filers or large accelerated filers, including complying with the auditor attestation
+requirements of Section 404 of the Sarbanes-Oxley Act. We are in the process of compiling the system and processing documentation needed
+to comply with such requirements. We may not be able to complete our evaluation, testing and any required remediation in a timely fashion. We cannot predict or estimate
+the amount of additional costs we may incur as a result of continuing to be a public company or the timing of such costs. 30 Our business is subject to the risks of
+earthquakes, fire, floods and other natural catastrophic events, global pandemics, and interruptions by man-made problems, such as network
+security breaches, computer viruses or terrorism. Material disruptions of our business or information systems resulting from these events
+could adversely affect our operating results. We and some of the third-party
+service providers on which we depend for various support functions are vulnerable to damage from catastrophic events, such as power loss,
+natural disasters, terrorism, pandemics, and similar unforeseen events beyond our control. If a natural disaster, power
+outage or other event occurred that prevented us from using all or a significant portion of our headquarters, damaged critical infrastructure,
+or otherwise disrupted operations, it may be difficult or, in certain cases, impossible for us to continue our business for a substantial
+period of time. The disaster recovery and business continuity plans we have in place are unlikely to provide adequate protection in the
+event of a serious disaster or similar event. We may incur substantial expenses as a result of the limited nature of our disaster recovery
+and business continuity plans, which could have a material adverse effect on our business. Furthermore, integral parties
+in our supply chain are operating from single sites, increasing their vulnerability to natural disasters or other sudden, unforeseen
+and severe adverse events, such as a global pandemic. If such an event were to affect our supply chain, it could have a material adverse
+effect on our business. Our ability to use our net operating loss
+carryforwards may be limited. As of September 30, 2025,
+we had $18,694 thousand U.S. federal net operating loss carryforwards. Under legislation enacted in 2017, informally titled the Tax Cuts
+and Jobs Act (the “TCJA”) as modified in 2020 by the Coronavirus Aid, Relief, and Economic Security Act (the “CARES
+Act”), unused U.S. federal net operating losses generated in tax years beginning after December 31, 2017, will not expire and may
+be carried forward indefinitely, but the deductibility of such federal net operating loss carryforwards in taxable years beginning after
+December 31, 2020, is limited to 80% of taxable income. It is uncertain if and to what extent various states will conform to the TCJA
+or the CARES Act. In addition, our ability to utilize any federal net operating loss carryforwards may be limited under Section 382 of
+the Internal Revenue Code of 1986, as amended (the “Code”). The limitations apply if we experience an “ownership change,”
+which is generally defined as a greater than 50 percentage point change (by value) in the ownership of our equity by certain stockholders
+or groups of stockholders over a rolling three-year period. Similar provisions of state tax law may also apply to limit the use of any
+state net operating loss carryforwards. We have not yet completed a Section 382 analysis, and therefore, there can be no assurances that
+any previously experienced ownership changes have not materially limited our utilization of affected net operating loss carryforwards.
+Future changes in our stock ownership, which may be outside of our control, may trigger an ownership change that materially impacts our
+ability to utilize any pre-change net operating loss carryforwards. In addition, there may be periods during which the use of net operating
+loss carryforwards is suspended or otherwise limited. Our management has limited experience in
+operating a public company. Some of our executive officers
+have limited experience in the management of a publicly traded company subject to significant regulatory oversight and reporting obligations
+under federal securities laws. Our management team may not successfully or effectively manage our transition to a public company. Their
+limited experience in dealing with the increasingly complex laws pertaining to public companies could be a significant disadvantage in
+that it is likely that an increasing amount of their time may be devoted to these activities which will result in less time being devoted
+to our management and growth. We may not be able to maintain adequate personnel with the appropriate level of knowledge, experience and
+training in the accounting policies, practices or internal controls over financial reporting required of public companies in the United
+States. It is possible that we will be required to expand our employee base and hire additional employees to support our operations as
+a public company, which will increase our operating costs in future periods. Risks Related to Ownership
+of Our Class B Common Stock An active trading market for our Class
+B common stock may not develop or be sustained. If an active trading market
+for our Class B common stock does not develop, you may not be able to sell your shares quickly or at the market price. Our ability to
+raise capital to continue to fund operations by selling shares of our Class B common stock and our ability to acquire other companies
+or technologies by using shares of our Class B common stock as consideration may also be impaired. 31 The market price and trading volume of
+our Class B common stock may continue to be highly volatile, which could lead to a loss of all or part of a stockholder’s investment. The market price and trading
+volume of our Class B common stock has fluctuated widely. During the fiscal year of 2025, the trading price of our Class B common stock
+has fluctuated from an intra-day high of $7.43 on October 7, 2025 to an intra-day low of $0.52 on November 15, 2024. The market price of our
+Class B common stock is affected by a variety of factors, including but not limited to: ● analyst reports or short seller reports that may be
+    published about our company or our industry; ● our ability to execute our anticipated business plans and strategy; ● actual or anticipated fluctuations in our quarterly or annual operating
+    results; ● our ability to obtain additional capital which will be necessary to
+    continue our business and operations; ● changes in financial or operational estimates or projections; ● changes in the economic performance or market valuations of companies
+    similar to ours; ● the impact of pandemics, inflation, war, other hostilities and other
+    disruptive events on our business or that of our customers, partners, and supply chain or on the global economy; and ● our ability to comply with the continued listing requirements of Nasdaq
+    and maintain our listing on Nasdaq. In addition, the trading
+price and trading volume of our Class B common stock has at certain other times in the past exhibited, and may continue to exhibit, extreme
+volatility, including within a single trading day. Such volatility could cause purchasers of our Class B common stock to incur substantial
+losses. For example, on July 22, 2024, the trading price of our Class B common stock ranged from an intra-day high of $2.59 to an intra-day
+low of $1.31, on trading volume of approximately 100 million shares, and on August 7, 2024, the trading price of our Class B common stock
+ranged from an intra-day high of $0.728 to an intra-day low of $0.5413, on trading volume of approximately 188 million shares. With respect
+to certain such instances of trading volatility, we are not aware of any material changes in our financial condition or results of operations
+that would explain such price volatility or trading volume, which we believe reflect market and trading dynamics unrelated to our operating
+business or prospects and outside of our control. We are thus unable to predict when such instances of trading volatility will occur
+or how long such dynamics may last. Under these circumstances, we would caution you against investing in our Class B common stock unless
+you are prepared to incur the risk of incurring substantial losses. A proportion of our Class
+B common stock may be traded by short sellers which may put pressure on the supply and demand for our Class B common stock, creating
+further price volatility. In particular, a possible “short squeeze” due to a sudden increase in demand of our Class B common
+stock that largely exceeds supply may lead to sudden extreme price volatility in our Class B common stock. Investors may purchase our
+Class B common stock to hedge existing exposure in our Class B common stock or to speculate on the price of our Class B common stock.
+Speculation on the price of our Class B common stock may involve long and short exposures. To the extent aggregate short exposure exceeds
+the number of shares of common stock available for purchase in the open market, investors with short exposure may have to pay a premium
+to repurchase our Class B common stock for delivery to lenders of our Class B common stock. Those repurchases may in turn dramatically
+increase the price of our Class B common stock until investors with short exposure are able to purchase additional common stock to cover
+their short position. This is often referred to as a “short squeeze.” Following such a short squeeze, once investors purchase
+the shares necessary to cover their short position, the price of our Class B common stock may rapidly decline. A short squeeze could
+lead to volatile price movements in our shares that are not directly correlated to the performance or prospects of our company and could
+cause purchasers of our common shares to incur substantial losses. 32 The dual-class structure of our common
+stock has the effect of concentrating voting power, which may limit your ability to influence the outcome of important transactions,
+including a change in control. Our Class B common stock
+has one (1) vote per share, and our Class A common stock has ten (10) votes per share. Our issued and outstanding share capital consisted
+of 39,934,846 shares of Class A common stock and 175,161,127 shares of Class B common stock as of January 20, 2026. Our Chief Executive
+Officer and co-founder, Zhenwu Huang, and our Chief Financial Officer and co-founder, Zhenqiang Huang, beneficially own an aggregate of
+approximately 66% of the voting power of our outstanding shares of common stock as of January 20, 2026, and as such, these stockholders,
+individually or together, may be able to significantly influence matters submitted to our stockholders for approval, including the election
+of directors, amendments of our articles of incorporation, as amended, and any merger or other major corporate transactions that require
+stockholder approval. See “ ITEM 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters .”
+Our existing stockholders, including Zhenwu Huang and Zhenqiang Huang, individually or together, may vote in a way with which you disagree
+and which may be adverse to your interests. This concentrated voting power may, by changing the directors of the Company, have the ultimate
+effect of delaying, preventing or deterring a change in control of our Company, could deprive our stockholders of an opportunity to receive
+a premium for their shares of common stock as part of a sale of our company and might ultimately materially and adversely affect the market
+price of our Class B common stock. Future transfers by the
+holders of shares of Class A common stock may result in those shares converting into shares of Class B common stock. Each share of Class
+A common stock is convertible into one share of Class B common stock at any time at the option of the holder, but Class B common stock
+shall not be convertible into Class A common stock under any circumstances. However, as long as at least 17,516,113 shares of Class A
+common stock remain outstanding, and without giving effect to any future issuances, the holders of our Class A common stock will hold
+a majority of the outstanding voting power and will continue to control the outcome of matters submitted to stockholders’ approval.
+Our second amended and restated articles of incorporation will generally not prohibit us from issuing additional shares of Class A common
+stock, and any future issuance of shares of Class A common stock may be dilutive to holders of Class B common stock. The dual-class structure of our common
+stock may adversely affect the trading market for our Class B common stock. We cannot predict whether
+our dual-class structure will result in a lower or more volatile market price of our Class B common stock or in adverse publicity or
+other adverse consequences. For example, certain index providers have announced restrictions on companies with dual-class or multi-class
+share structures in their indices. In July 2017, S&P Dow Jones and FTSE Russell announced changes to their eligibility criteria for
+the inclusion of shares of public companies on certain indices, including the Russell 2000, the S&P 500, the S&P MidCap 400 and
+the S&P SmallCap 600, to exclude companies with multiple classes of shares from being added to these indices. Beginning in 2017,
+MSCI, a leading stock index provider, opened public consultations on their treatment of no-vote and multi-class structures and temporarily
+barred new multi-class listings from certain of its indices; however, in October 2018, MSCI announced its decision to include equity
+securities “with unequal voting structures” in its indices and to launch a new index that specifically includes voting rights
+in its eligibility criteria. As a result, our dual class capital structure would make us ineligible for inclusion in any of these indices,
+and mutual funds, exchange-traded funds and other investment vehicles that attempt to passively track these indices will not be investing
+in our Class B common stock. These policies are still relatively new and it is as of yet unclear what effect, if any, they will have
+on the valuations of publicly traded companies excluded from the indices, but it is possible that they may depress these valuations compared
+to those of other similar companies that are included. Furthermore, we cannot assure you that other stock indices will not take a similar
+approach to S&P Dow Jones or FTSE Russell in the future. Exclusion from indices could make our Class B common stock less attractive
+to investors and, as a result, the market price of our Class B common stock could be adversely affected. 33 If securities or industry analysts do not
+publish research or publish inaccurate or unfavorable research about our business, our stock price and trading volume could decline. The trading market for our
+Class B common stock will depend in part on the research and reports that securities or industry analysts publish about us or our business.
+If no securities or industry analysts cover our company, the trading price for our stock would be negatively impacted. If we obtain securities
+or industry analyst coverage and if one or more of the analysts who covers us downgrades our stock or publishes inaccurate or unfavorable
+research about our business, our stock price would likely decline. If one or more of these analysts ceases coverage of us or fails to
+publish reports on us regularly, demand for our stock could decrease, which could cause our stock price and trading volume to decline. Future sales of our Class B common stock
+or securities convertible into our Class B common stock may depress our stock price. Sales of a substantial number
+of shares of our Class B common stock or securities convertible into our Class B common stock in the public market could occur at any
+time. These sales, or the perception in the market that the holders of a large number of shares intend to sell shares, could reduce the
+market price of our Class B common stock. For example, we have registered an aggregate of 14,311,215 shares of Class B common stock issuable
+under our Amended and Restated 2023 Stock Option Plan on a Registration Statement on Form S-8, filed with the SEC on December 11, 2023,
+as amended by Post-Effective Amendment No. 1 to Form S-8, filed with the SEC on November 7, 2023, and such shares can be freely sold
+in the public market upon issuance (unless issued to an affiliate of the Company). If a large number of shares of our Class B common
+stock or securities convertible into our Class B common stock are sold in the public market after they become eligible for sale, the
+sales could reduce the trading price of our Class B common stock and impede our ability to raise future capital. There can be no assurance that we will
+continue to be able to comply with the continued listing standards of Nasdaq. Our continued eligibility
+to maintain the listing of our Class B common stock on Nasdaq depends on a number of factors, including the price of our Class B common
+stock. On October 25, 2024, the Company received a notice from Nasdaq notifying the Company that, because the closing bid price for the
+Company’s Class B common stock had fallen below $1.00 per share for 30 consecutive business days, the Company no longer complies
+with the minimum bid price requirement for continued listing on the Nasdaq Capital Market under Rule 5550(a)(2) of Nasdaq Listing Rules.
+Nasdaq’s notice had no immediate effect on the listing of the Company’s Class B common stock on the Nasdaq Capital Market.
+Pursuant to Nasdaq Listing Rule 5810(c)(3)(A), the Company was provided an initial compliance period of 180 calendar days, or until April
+23, 2025, to regain compliance with the minimum bid price requirement. To regain compliance, the closing bid price of the Company’s
+Class B common stock must meet or exceed $1.00 per share for a minimum of 10 consecutive business days prior to April 23, 2025. On January
+6, 2024, the Company received a notice from Nasdaq that the Company has regained compliance with the minimum bid price requirement and
+the matter is closed. However, there is no guarantee
+that the Company will be able to remain in compliance with the continued listing standards of Nasdaq. If Nasdaq delists our securities
+from trading on its exchange for failure to meet its listing standards, and we are not able to list such securities on another national
+securities exchange, then our Common Stock could be quoted on an over-the-counter market. If this were to occur, we and our stockholders
+could face significant material adverse consequences, including: ● a
+                                            limited availability of market quotations for our securities; ● reduced liquidity for our securities; ● a determination that our Class B common stock is a “penny stock,”
+    which will require brokers trading our Class B common stock to adhere to more stringent rules, possibly resulting in a reduced level
+    of trading activity in the secondary trading market for shares of our Class B common stock; ● a limited amount of news and analyst coverage; and ● a decreased ability for us to issue additional securities or obtain
+    additional financing in the future. 34 Our directors, executive officers and principal
+stockholders have substantial control over us and could delay or prevent a change of corporate control. Our directors, executive
+officers and holders of more than 5% of our Class B common stock, together with their affiliates, beneficially own, in the aggregate,
+approximately 81.35% of our outstanding common stock as of January 10, 2025. As a result, these stockholders, acting together, have the
+ability to control the outcome of matters submitted to our stockholders for approval, including the election of directors and any merger,
+consolidation or sale of all or substantially all of our assets. In addition, these stockholders, acting together, have the ability to
+control the management and affairs of our company. Accordingly, this concentration of ownership could harm the market price of our Class
+B common stock by: ● delaying,
+                                            deferring or preventing a change of control of us; ● impeding a merger, consolidation, takeover or other business combination
+    involving us; or ● discouraging a potential acquiror from making a tender offer or otherwise
+    attempting to obtain control of us. See “Security Ownership
+of Certain Beneficial Owners and Management and Related Stockholder Matters” below for more information regarding the ownership
+of our outstanding stock by our executive officers, directors and holders of more than 5% of our Class B common stock, together with
+their affiliates. Anti-takeover provisions contained in our
+second amended and restated articles of incorporation and second amended and restated bylaws, as well as provisions of Nevada law, could
+impair a takeover attempt. Our second amended and restated
+articles of incorporation, second amended and restated bylaws and Nevada law contain provisions which could have the effect of rendering
+more difficult, delaying or preventing an acquisition deemed undesirable by our board of directors. Our corporate governance documents
+include provisions: ● classifying our board of directors into three classes; ● authorizing “blank check” preferred stock, which could
+    be issued by our board of directors without stockholder approval and may contain voting, liquidation, dividend, and other rights
+    superior to our Class B common stock; ● limiting the liability of, and providing indemnification to, our directors
+    and officers; ● limiting the ability of our stockholders to call and bring business
+    before special meetings; ● requiring advance notice of stockholder proposals for business to be
+    conducted at meetings of our stockholders and for nominations of candidates for election to our board of directors; ● controlling the procedures for the conduct and scheduling of board
+    of directors and stockholder meetings; and ● providing our board of directors with the express power to postpone
+    previously scheduled annual meetings and to cancel previously scheduled special meetings. These provisions, alone
+or together, could delay or prevent hostile takeovers and changes in control or changes in our management. Nevada law, Nevada Revised
+Statutes (“NRS”) Sections 78.411 through 78.444, regulate business combinations with interested stockholders. Nevada law
+defines an interested stockholder as a beneficial owner (directly or indirectly) of 10% or more of the voting power of the outstanding
+shares of the corporation. Pursuant to Sections NRS 78.411 through 78.444, combinations with an interested stockholder remain prohibited
+for three years after the person became an interested stockholder unless (i) the transaction is approved by the board of directors or
+the holders of a majority of the outstanding shares not beneficially owned by the interested party, or (ii) the interested stockholder
+satisfies certain fair value requirements. NRS 78.434 permits a Nevada corporation to opt-out of the statute with appropriate provisions
+in its articles of incorporation. NRS Sections 78.378 through
+78.3793 regulates the acquisition of a controlling interest in an issuing corporation. An issuing corporation is defined as a Nevada
+corporation with 200 or more stockholders of record, of which at least 100 stockholders have addresses of record in Nevada and does business
+in Nevada directly or through an affiliated corporation. NRS Section 78.379 provides that an acquiring person and those acting in association
+with an acquiring person obtain only such voting rights in the control shares as are conferred by a resolution of the stockholders of
+the corporation, approved at a special or annual meeting of the stockholders. Stockholders who vote against the voting rights have dissenters’
+rights in the event that the stockholders approve voting rights. NRS Section 78.378 provides that a Nevada corporation’s articles
+of incorporation or bylaws may provide that these sections do not apply to the corporation. Our second amended and restated articles
+of incorporation provide that these sections do not apply. 35 We have never paid dividends on our capital
+stock, and we may not pay any dividends in the foreseeable future. We have never declared nor
+paid cash dividends on our capital stock. We may pay dividends in the future if the Company realizes good profits and the board of directors
+determines that dividends are advisable, taking into account the Company’s financial and development needs. However, it is also
+possible that we may retain any future earnings to finance the operation and expansion of our business, and we may not declare or pay
+any dividends in the foreseeable future. Consequently, stockholders may need to rely on sales of their common stock after price appreciation,
+which may never occur, as the only way to realize any future gains on their investment. ITEM 1B. Unresolved Staff Comments Not Applicable ITEM 1C. Cybersecurity Cybersecurity Risk Management and Strategy Our Company has a dedicated
+internal IT specialists with cybersecurity engineers who oversee various aspects of cybersecurity. These engineers specialize in different
+areas, including ensuring security during product development, particularly in the domains of cloud management platforms and network
+interactions, as well as managing cybersecurity for daily office communications. In the event of an unexpected
+cybersecurity incident, the engineers immediately report to the Company’s management. They are equipped with pre-established response
+plans to address such situations effectively and mitigate potential risks. Currently, our cybersecurity
+risk management relies primarily on internal resources. However, as the Company continues to expand, we anticipate engaging third-party
+consultants to assist in enhancing our cybersecurity management processes and addressing evolving threats. While we do not currently
+have third-party collaborations, the Company plans to implement a process for selecting and evaluating third-party service providers
+in the future. This will include comparing services, signing security agreements, and having our internal engineers assess the third
+parties’ achievement of security objectives. In the past three years,
+our Company has not experienced any material cybersecurity risks. To ensure robust protection against potential threats, we have implemented
+the following security measures: ● Regularly updating and changing critical passwords. ● Periodically modifying communication interfaces to enhance security. ● Assigning development tasks in a modular fashion to minimize exposure. ● Utilizing dual-factor authentication for system access. ● Implementing tiered authorization levels for critical network operations. ● Conducting routine security training and awareness programs for employees. Cybersecurity Governance Currently, the Company’s board of directors does not oversee cybersecurity risks directly. However, plans are in place to introduce such oversight in the future. The Audit Committee of the Board will assume responsibility for cybersecurity risk oversight, with a plan to review cybersecurity matters
+on a quarterly basis. This initiative will ensure that the Company maintains robust oversight mechanisms to address evolving cybersecurity
+threats effectively. The responsibility for assessing
+and managing cybersecurity risks within the Company lies with the managers of the R&D department and the IT specialists. Both individuals
+possess relevant expertise in their respective fields, ensuring a high level of competence in identifying and mitigating cybersecurity
+risks. Their duties include monitoring potential threats, implementing security protocols, and responding to incidents to safeguard company
+assets and operations. In the event of cybersecurity
+incidents or abnormal alerts, the relevant department managers immediately intervene and manage the situation. All logs and records related
+to such events are preserved for future analysis. Cybersecurity testing is incorporated into every stage of product development, ensuring
+that vulnerabilities are identified and addressed proactively. Additionally, server security patches are regularly updated to mitigate
+potential threats. 36
+
+--- RAW_MATERIALS ---
+raw materials
+and components to manufacture sufficient quantities of robots to match demand; ● Our ability to secure enterprise
+clients and deals in the face of growing competition; ● Assumptions around the speed
+of robotic adoption in service environments; ● Assumptions relating to the
+size of the market for our products and services; ● Unanticipated regulations of
+robots and automation that add barriers to adoption and have a negative effect on our business; ● Our ability to obtain and maintain intellectual property protection for our products; ● Investigations, claims, disputes, enforcement actions, litigation and/or other regulatory or legal proceedings, including with respect to our intellectual property and our technology; ● Level of product service failures that could lead our customers to use competitors’ services; ● Our estimates of expenses, future revenue, capital requirements and our needs for, or ability to
+                                                                                obtain, additional financing ● Our ability to procure inventory and components from China may be affected by geopolitical tensions,
+                                                                                conflict, tariffs, trade restrictions, public health issues, and other business interruptions; ● The possibility that we may
+be adversely affected by other economic, business, and/or competitive factors; and ● Other risks and uncertainties
+described under the section titled “
+

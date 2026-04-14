@@ -1,0 +1,133 @@
+TICKER: FEIM
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain issues have been encountered, the Company
+has responded by changing the source of supply or redesigning products and replacing unavailable parts and materials with alternates
+wherever possible. FEI-NY is dependent on a limited number of suppliers for space qualified parts. If these suppliers were unable to
+deliver in reasonable time frames, then the prompt qualification of alternate suppliers may not be feasible or cost effective. Consequently,
+the Company could experience delays in delivery of its end products or costs in excess of what was originally quoted. 7 Table of Contents RESEARCH
+AND DEVELOPMENT The
+Company’s technological leadership continues to be an essential factor as it pursues future growth in revenues and earnings. The
+Company has focused its internal R&D efforts on improving the core physics and electronic performance in its time and frequency products,
+conducting research to develop new time and frequency technologies and capabilities, improving product manufacturability by seeking to
+reduce its production costs through product redesign and process improvements and other measures to take advantage of lower cost components. The
+Company continues to focus a significant portion of its own resources and efforts on developing hardware for satellites (commercial and
+U.S. Government) and terrestrial commercial communications systems, including wireless and GPS-related systems. During fiscal years 2025
+and 2024, the Company expended $6.1 million and $3.4 million of its own funds, respectively, on such R&D activity. See Item 7, Management’s
+Discussion and Analysis of Financial Condition and Results of Operations. Additionally, the Company receives customer funding for specific
+R&D projects and anticipates additional funding from customers for future R&D initiatives. Although funding is obtained from
+customers, the Company retains the rights to any products developed. During fiscal years 2025 and 2024, some of the Company’s development
+resources were applied to the design-stage of fixed-price satellite payload sub-system programs. For fiscal year 2026, the resources
+to be allocated to R&D will depend on market conditions and identification of new opportunities, as was the case in fiscal year 2025. PATENTS
+AND LICENSES The
+Company believes that its business is generally not dependent on patent or license protection. Rather, it is primarily dependent upon
+the Company’s technical competence, the quality of its products and its prompt and responsible contract performance. However, employees
+working for the Company assign all rights to inventions to the Company, and the Company presently holds such patents and licenses. In
+certain limited circumstances, the U.S. Government may use or permit the use by the Company’s competitors of certain patents or
+licenses the government has funded. During fiscal year 2003, the Company received a broad and significant patent for proprietary quartz
+oscillator technology which the Company has incorporated into its legacy designs, and which it will incorporate into future designs,
+to exploit in both legacy and new applications. In 2006, the Company obtained a basic patent for its low g-sensitivity technology which
+management believes will permit greatly enhanced performance of devices on moving platforms and under externally imposed shock or vibration.
+The Company’s current patents run through 2026. COMPETITION The
+Company experiences competition in all areas of its business. Many of the Company’s competitors are larger, have greater financial
+resources and have larger R&D and marketing staffs. The Company has a strong history of competing successfully in this environment
+due to the quality, reliability and outstanding record of performance its products have achieved. The Company competes primarily on the
+basis of the accuracy, performance and reliability of its products, the ability of its products to function under severe conditions,
+such as in space or in other extremely hostile environments, and the Company’s track record of prompt and responsive contract performance
+and technical competence. The Company has unique and broad capabilities which include quartz and rubidium-based timing references and
+specialized RF microwave technology. With respect to very high precision products, the Company encounters fewer competitors than it does
+for lower precision products for which there are a significant number of suppliers. The
+Company’s principal competition for space products is the in-house capability of its major customers such as the Boeing Company,
+Northrop Grumman and Lockheed Martin, as well as a number of other firms capable of providing high-reliability microwave frequency generators.
+With respect to non-space products, such as systems for precision time for terrestrial secure communication and command and control,
+and products for multiple applications in the EW market, the Company competes with larger domestic companies such as Microchip Technology
+Incorporated. and Mercury Systems, Inc. The
+Company believes its ability to obtain raw materials, manufacture finished products, integrate them into systems and sub-systems and
+interface these systems with highly sophisticated end-user applications provides a strong competitive edge. EMPLOYEES Due
+to the specialized nature of our business, our performance depends on identifying, attracting, developing, motivating, and retaining
+a highly skilled workforce in multiple areas, including engineering, science, manufacturing, information technology, cybersecurity and
+business development. The Company develops its workforce using a broad-based recruiting process to select talented individuals and by
+offering competitive compensation and benefits. 8 Table of Contents The
+Company currently employs 226 employees (216 full-time and 10 part-time), all based in the U.S. No employees are represented by labor
+unions. We believe our relationships with our employees are favorable as reflected in high retention rates and increasing average length
+of service. Due to low turnover of employees, the average age of the workforce is increasing with time. Depending on growth in total
+employment and the average age of newly hired employees, replacement of key technical staff may be an issue in the future due to increased
+retirement. OTHER
+ASPECTS The
+Company’s business is not seasonal although it expects to experience some fluctuation in revenues during the second fiscal quarter
+as a result of summer holiday periods. INFORMATION
+ABOUT OUR EXECUTIVE OFFICERS The
+executive officers hold office until the annual meeting of the Board of Directors following the annual meeting of stockholders, subject
+to earlier removal by the Board of Directors. The
+names of all executive officers of the Company and all positions and offices with the Company which they presently hold are as follows: Thomas McClelland - President and Chief Executive Officer Oleandro Mancini - Senior Vice President,
+    Business Development Steven L. Bernstein - Chief Financial Officer
+    and Secretary and Treasurer Thomas
+McClelland, age 70, joined the Company as an engineer in 1984 and was elected Vice President, Commercial Products in March 1999. In fiscal
+year 2011, Dr. McClelland’s title was modified to Vice President Advanced Development to describe his expanded role in the Company.
+In January 2020 Dr. McClelland’s title was modified to Senior Vice President and Chief Scientist. In July 2022, Dr. McClelland
+was appointed the Company’s Interim President and Chief Executive Officer, in addition to his existing positions and responsibilities
+with the Company, following the resignation of the Company’s former President and Chief Executive Officer. On January 17, 2023,
+Dr. McClelland was appointed the Company’s President and Chief Executive Officer. Oleandro
+Mancini, age 76, joined the Company in August 2000 as Vice President, Business Development and was promoted to Senior Vice President
+in 2010. Prior to joining the Company, Mr. Mancini served from 1998 to 2000 as Vice President, Sales and Marketing at Satellite Transmission
+Systems, Inc. and from 1995 to 1998 as Vice President, Business Development at Cardion, Inc., a Siemens A.G. company. From 1987 to 1995,
+he held the position of Vice President, Engineering at Cardion, Inc. Steven
+L. Bernstein, age 60, joined the Company in April 2010 as its Controller and was appointed to the position of Chief Financial Officer
+in April 2016. In January 2019, Mr. Bernstein was also appointed as Secretary and Treasurer of the Company, in addition to his role as
+Chief Financial Officer. Prior to joining the Company, Mr. Bernstein worked in the North America accounting group of Arrow Electronics,
+a Fortune 500 electronics distributor. 9 Table of Contents Item
+1A.
+
+--- VENDORS ---
+vendors. When these key suppliers experience quality issues, their products may have to be rejected, causing delays in our ability to
+complete projects on schedule and at projected costs. The time and cost associated with resolution of these issues may impact our financial
+performance. Consolidation of the industry can result in elimination of suppliers or discontinuation of certain product lines upon which
+we are reliant, necessitating lifetime buys of components or the need to redesign electronics to incorporate different components, having
+a negative effect on our financial position, results of operations and/or cash flows. Furthermore, latent supply chain quality issues
+may affect our product performance and reliability, which may damage our reputation and impact future business. The
+success of our business and financial performance is dependent on our ability to identify, attract, train and retain a highly skilled
+workforce. We
+rely on very unique skill sets in our employee population. Our average employee tenure is approximately 14 years and the median age is
+approximately 51. Our products rely on very experienced engineers, physicists and
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+raw materials, manufacture finished products, integrate them into systems and sub-systems and
+interface these systems with highly sophisticated end-user applications provides a strong competitive edge. EMPLOYEES Due
+to the specialized nature of our business, our performance depends on identifying, attracting, developing, motivating, and retaining
+a highly skilled workforce in multiple areas, including engineering, science, manufacturing, information technology, cybersecurity and
+business development. The Company develops its workforce using a broad-based recruiting process to select talented individuals and by
+offering competitive compensation and benefits. 8 Table of Contents The
+Company currently employs 226 employees (216 full-time and 10 part-time), all based in the U.S. No employees are represented by labor
+unions. We believe our relationships with our employees are favorable as reflected in high retention rates and increasing average length
+of service. Due to low turnover of employees, the average age of the workforce is increasing with time. Depending on growth in total
+employment and the average age of newly hired employees, replacement of key technical staff may be an issue in the future due to increased
+retirement. OTHER
+ASPECTS The
+Company’s business is not seasonal although it expects to experience some fluctuation in revenues during the second fiscal quarter
+as a result of summer holiday periods. INFORMATION
+ABOUT OUR EXECUTIVE OFFICERS The
+executive officers hold office until the annual meeting of the Board of Directors following the annual meeting of stockholders, subject
+to earlier removal by the Board of Directors. The
+names of all executive officers of the Company and all positions and offices with the Company which they presently hold are as follows: Thomas McClelland - President and Chief Executive Officer Oleandro Mancini - Senior Vice President,
+    Business Development Steven L. Bernstein - Chief Financial Officer
+    and Secretary and Treasurer Thomas
+McClelland, age 70, joined the Company as an engineer in 1984 and was elected Vice President, Commercial Products in March 1999. In fiscal
+year 2011, Dr. McClelland’s title was modified to Vice President Advanced Development to describe his expanded role in the Company.
+In January 2020 Dr. McClelland’s title was modified to Senior Vice President and Chief Scientist. In July 2022, Dr. McClelland
+was appointed the Company’s Interim President and Chief Executive Officer, in addition to his existing positions and responsibilities
+with the Company, following the resignation of the Company’s former President and Chief Executive Officer. On January 17, 2023,
+Dr. McClelland was appointed the Company’s President and Chief Executive Officer. Oleandro
+Mancini, age 76, joined the Company in August 2000 as Vice President, Business Development and was promoted to Senior Vice President
+in 2010. Prior to joining the Company, Mr. Mancini served from 1998 to 2000 as Vice President, Sales and Marketing at Satellite Transmission
+Systems, Inc. and from 1995 to 1998 as Vice President, Business Development at Cardion, Inc., a Siemens A.G. company. From 1987 to 1995,
+he held the position of Vice President, Engineering at Cardion, Inc. Steven
+L. Bernstein, age 60, joined the Company in April 2010 as its Controller and was appointed to the position of Chief Financial Officer
+in April 2016. In January 2019, Mr. Bernstein was also appointed as Secretary and Treasurer of the Company, in addition to his role as
+Chief Financial Officer. Prior to joining the Company, Mr. Bernstein worked in the North America accounting group of Arrow Electronics,
+a Fortune 500 electronics distributor. 9 Table of Contents Item
+1A.
+

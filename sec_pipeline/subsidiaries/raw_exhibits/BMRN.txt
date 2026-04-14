@@ -1,0 +1,19 @@
+EX-21.1
+3
+bmrn-2025xexx211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of BioMarin Pharmaceutical Inc. as of December 31, 2025
+Name
+Direct Parent
+Ownership
+Jurisdiction of Incorporation
+BioMarin Commercial Ltd
+BioMarin Pharmaceutical Inc.
+100%
+Ireland
+BioMarin International Ltd
+BioMarin Commercial Ltd.
+100%
+Ireland

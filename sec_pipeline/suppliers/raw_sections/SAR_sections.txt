@@ -1,0 +1,244 @@
+TICKER: SAR
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain constraints and labor difficulties on our portfolio companies and the global economy; ● the elevated level of inflation, and its impact on our portfolio companies
+    and on the industries in which we invest; ● the uncertainty associated with the imposition of tariffs and trade barriers and changes in trade policy and its impact on our portfolio companies and the global economy; ● the impact of geopolitical conditions on our portfolio companies and on the industries in which we invest; ● the impact of legislative and regulatory actions and reforms and regulatory, supervisory or enforcement actions of government agencies relating to us or our Manager; ● the impact of changes to tax legislation and, generally, our tax position; ● our ability to access capital and any future financings by us; ● the ability of our Manager to attract and retain highly talented professionals; and ● the ability of our Manager to locate suitable investments for us and to monitor and effectively administer our investments. Although we believe that the assumptions on which
+these forward-looking statements are based are reasonable, any of those assumptions could prove to be inaccurate, and as a result, the
+forward-looking statements based on those assumptions also could be inaccurate. Important assumptions include our ability to originate
+new loans and investments, borrowing costs and levels of profitability and the availability of additional capital. In light of these
+and other uncertainties, the inclusion of a projection or forward-looking statement in this Annual Report should not be regarded as a
+representation by us that our plans and objectives will be achieved. These risks and uncertainties include those described in “Risk
+Factors” in this Annual Report under
+
+--- VENDORS ---
+vendors for purposes of misappropriating assets, stealing confidential information, corrupting
+data or causing operational disruption. Despite careful security and controls design, the information technology system of our portfolio
+companies and our third-party vendors, may be subject to security breaches and cyber-attacks the result of which could include disrupted
+operations, misstated or unreliable financial data, liability for stolen assets or information, increased cybersecurity protection
+and insurance costs, litigation and damage to business relationships. As our portfolio companies’ and our third party vendor’s
+reliance on technology has increased, so have the risks posed to our information systems, both internal and those provided by third-party
+service providers, and the information systems of our portfolio companies and third-party vendors. We have implemented processes,
+procedures and internal controls to help mitigate cybersecurity risks and cyber intrusions, but these measures, as well as our
+increased awareness of the nature and extent of a risk of a cyber-incident, do not guarantee that a cyber-incident will not occur and/or
+that our financial results, operations or confidential information will not be negatively impacted by such an incident. Regulations governing our operation as a BDC will affect our
+ability to raise additional capital. Our business requires a substantial amount of additional capital. We
+may acquire additional capital from the issuance of senior securities or other indebtedness or the issuance of additional shares of our
+common stock. However, we may not be able to raise additional capital in the future on favorable terms or at all. We may issue debt securities
+or preferred securities, which we refer to collectively as “senior securities,” and we may borrow money from banks or other
+financial institutions, up to the maximum amount permitted by the 1940 Act. We are not generally able to issue and sell our common stock at a price
+below NAV per share. We may, however, sell our common stock, or issue warrants, options or rights to acquire our common stock, at a price
+below the current NAV of the common stock if our board of directors determines that such sale is in our best interests and the best interests
+of our stockholders, and the holders of a majority of our outstanding voting securities have approved such issuances within the prior
+year. In any such case, the price at which our securities are to be issued and sold may not be less than a price which, in the determination
+of our board of directors, closely approximates the market value of such securities (less any commission or discount). If our common stock
+trades at a discount to NAV, this restriction could adversely affect our ability to raise capital. We do not currently have stockholder
+approval of issuances below NAV. Effective April 16, 2019, our asset coverage requirement was
+reduced from 200% to 150%, which may increase the risk of investing in the Company. The 1940 Act generally prohibits BDCs from incurring indebtedness unless
+immediately after such borrowing we have an asset coverage for total borrowings of at least 200% (i.e., the amount of debt may not exceed
+50% of the value of our assets). However, on March 23, 2018, the Small Business Credit Availability Act modified the 1940 Act by allowing
+a BDC to increase the maximum amount of leverage it may incur from an asset coverage ratio of 200% to an asset coverage ratio of 150%,
+if certain requirements are met. Under the 1940 Act, we were allowed to increase our leverage capacity once the majority of our independent
+directors approved an increase in our leverage capacity, with such approval becoming effective after one year. On April 16, 2018, our
+board of directors, including a majority of our independent directors, approved of our becoming subject to a minimum asset coverage ratio
+of 150% under the 1940 Act, which became effective on April 16, 2019. We are required to make certain disclosures on our website and in
+SEC filings regarding, among other things, the receipt of approval to increase our leverage, our leverage capacity and usage, and risks
+related to leverage. We are generally permitted to incur indebtedness or issue senior securities
+in amounts such that our asset coverage, as defined in the 1940 Act, equals at least 150% after each issuance of senior securities. Compliance
+with these requirements may unfavorably limit our investment opportunities and reduce our ability in comparison to other companies to
+profit from favorable spreads between the rates at which we can borrow and the rates at which we can lend. As a BDC, therefore, we may
+need to issue equity more frequently than our privately-owned competitors, which may lead to greater stockholder dilution. With respect
+to stock that is a senior security, we must make provisions to prohibit any dividend distribution to our stockholders or the repurchase
+of certain of our securities, unless we meet the applicable asset coverage ratios at the time of the dividend distribution or repurchase.
+If the value of our assets decline, we may be unable to satisfy the asset coverage test. If that happens, we may be required to liquidate
+a portion of our investments and repay a portion of our indebtedness at a time when such sales may be disadvantageous in order to make
+dividend distributions or repurchase certain of our securities. 31 Leverage magnifies the potential for loss on investments in our indebtedness
+and on invested equity capital. As we use leverage to partially finance our investments, our stockholders will experience increased risks
+of investing in our securities. If the value of our assets increases, then leveraging would cause the NAV attributable to our common stock
+to increase more sharply than it would have had we not leveraged. Conversely, if the value of our assets decreases, leveraging would cause
+NAV to decline more sharply than it otherwise would have had we not leveraged our business. Similarly, any increase in our income in excess
+of interest payable on the borrowed funds would cause our net investment income to increase more than it would without the leverage, while
+any decrease in our income would cause net investment income to decline more sharply than it would have had we not borrowed. Such a decline
+could negatively affect our ability to pay common stock dividends, scheduled debt payments or other payments related to our securities.
+Increased leverage may also cause a downgrade of our credit rating. Leverage is generally considered a speculative investment technique.
+See “
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+components—a
+base management fee and an incentive fee. The base management fee is paid quarterly in arrears,
+and equals 1.75% per annum of our gross assets (other than cash or cash equivalents but including assets purchased with borrowed funds)
+and calculated at the end of each fiscal quarter based on the average value of our gross assets (other than cash or cash equivalents but
+including assets purchased with borrowed funds) as of the end of such fiscal quarter and the end of the immediate prior fiscal quarter.
+As a result, Saratoga Investment Advisors will benefit as we incur debt or use leverage to purchase assets. Our board of directors will
+monitor the conflicts presented by this compensation structure by approving the amount of leverage that we may incur. Base management
+fees for any partial month or quarter are appropriately pro-rated. The incentive fee has the following two parts: The first part is calculated and payable quarterly
+in arrears based on our pre-incentive fee net investment income for the immediately preceding fiscal quarter. Pre-incentive fee net investment
+income means interest income, dividend income and any other income (including any other fees such as commitment, origination, structuring,
+diligence, managerial and consulting fees or other fees that we receive from portfolio companies) accrued during the fiscal quarter, minus
+our operating expenses for the quarter (including the base management fee, expenses payable under the Administration Agreement, and any
+interest expense and dividends paid on any issued and outstanding preferred stock or debt security, but excluding the incentive fee).
+Pre-incentive fee net investment income includes, in the case of investments with a deferred interest feature (such as market discount,
+debt instruments with PIK interest, preferred stock with PIK dividends and zero-coupon securities), accrued income that we have not yet
+received in cash. Pre-incentive fee net investment income does not include any realized capital gains, realized capital losses, unrealized
+capital appreciation or depreciation or realized gains or losses resulting from the extinguishment of our own debt. Pre-incentive fee
+net investment income, expressed as a rate of return on the value of our net assets (defined as total assets less liabilities) at the
+end of the immediately preceding fiscal quarter, is compared to a “hurdle rate” of 1.875% per quarter, subject to a “catch
+up” provision. The base management fee is calculated prior to giving effect to the payment of any incentive fees. 10 We pay Saratoga Investment Advisors an incentive
+fee with respect to our pre-incentive fee net investment income in each fiscal quarter as follows: ● no incentive fee in any fiscal quarter in which our pre-incentive fee net investment income does not exceed the quarterly hurdle rate of 1.875%; ● 100.0% of our pre-incentive fee net investment income with respect to that portion of such pre-incentive fee net investment income, if any, that exceeds the hurdle rate but is less than or equal to 2.344% in any fiscal quarter is payable to Saratoga Investment Advisors; ● 20.0% of the amount of our pre-incentive fee net investment income, if any, that exceeds 2.344% in any fiscal quarter. We refer to the amount specified in clause (B) as the “catch-up.” The “catch-up” provision is intended to provide Saratoga Investment Advisors with an incentive fee of 20.0% on all of our pre-incentive fee net investment income as if a hurdle rate did not apply when our pre-incentive fee net investment income exceeds 2.344% in any fiscal quarter. Notwithstanding the foregoing, with respect to any period ending on or prior to December 31, 2010, Saratoga Investment Advisors was only entitled to 20.0% of the amount of our pre-incentive fee net investment income, if any, that exceeded 1.875% in any fiscal quarter without any catch-up provision. These calculations are appropriately pro-rated when such calculations are applicable for any period of less than three months. There is no accumulation of amounts from quarter
+to quarter on either the hurdle rate or the parameters set by the “catch-up” mechanism or any claw back of amounts previously
+paid to Saratoga Investment Advisors if subsequent quarters are below the quarterly hurdle or the “catch-up” parameters. Furthermore,
+there is no delay of payment to Saratoga Investment Advisors if prior quarters are below the quarterly hurdle or “catch-up.” The following is a graphical representation of
+the calculation of the income-related portion of the incentive fee subsequent to any period ending after December 31, 2010: Quarterly Incentive Fee Based on “Pre-Incentive
+Fee Net Investment Income” Pre-Incentive Fee Net Investment Income (expressed as a percentage of the value of net
+assets) Percentage of Pre-Incentive Fee Net Investment Income allocated to income-related portion of
+incentive fee The second part of the incentive fee, the capital
+gains fee, is determined and payable in arrears as of the end of each fiscal year (or, upon termination of the Management Agreement),
+and is calculated at the end of each applicable fiscal year by subtracting (1) the sum of our cumulative aggregate realized capital losses
+and aggregate unrealized capital depreciation from (2) our cumulative aggregate realized capital gains, in each case calculated from May
+31, 2010 on each investment in the Company’s portfolio. If such amount is positive at the end of such year, then the capital gains
+fee for such year is equal to 20.0% of such amount, less the cumulative aggregate amount of capital gains fees paid in all prior years.
+If such amount is negative, then there is no capital gains fee for such year. Under the Management Agreement, the capital gains
+portion of the incentive fee is based on realized gains and realized and unrealized losses from May 31, 2010. Therefore, realized and
+unrealized losses incurred prior to such time will not be taken into account when calculating the capital gains portion of the incentive
+fee, and Saratoga Investment Advisors will be entitled to 20.0% of net capital gains that arise after May 31, 2010. In addition, the cost
+basis for computing our realized gains and losses on investments held by us as of May 31, 2010 equals the fair value of such investments
+as of such date. 11 Examples of Quarterly Incentive Fee Calculation Example 1: Income Related Portion of Incentive Fee(1): Assumptions ● Hurdle rate(2) = 1.875% ● Management fee(3) = 0.4375% ● Other expenses (legal, accounting, custodian, transfer agent, etc.)(4) = 0.33% Alternative 1 Additional Assumptions ● Investment income (including interest, dividends, fees, etc.) = 1.25% ● Pre-incentive fee net investment income (investment income–(management fee + other expenses)) = 0.4825% Pre-incentive fee net investment income does not exceed hurdle rate, therefore there is no incentive fee. Alternative 2 Additional Assumptions ● Investment income (including interest, dividends, fees, etc.) = 3.0% ● Pre-incentive fee net investment income (investment income–(management fee + other expenses)) = 2.2325% Pre-incentive fee net investment income exceeds
+hurdle rate, but does not fully satisfy the “catch-up” provision, therefore the income related portion of the incentive fee
+is 0.3575%. Incentive Fee = (100.0% × (pre-incentive fee net investment income–1.875%) = 100.0%(2.2325%–1.875%) = 100.0%(0.3575%) = 0.3575% (1) The hypothetical amount of pre-incentive fee net investment income shown is based on a percentage of total net assets. (2) Represents 7.5% hurdle rate. (3) Represents 1.75% annualized management fee. For the purposes of this example, we have assumed that we have not incurred any indebtedness and that we maintain no cash or cash equivalents. (4) The “catch-up” provision is intended to provide our Investment Adviser with an incentive fee of 20.0% on all pre-incentive fee net investment income as if a hurdle rate did not apply when our net investment income exceeds 2.344% in any fiscal quarter. 12 Alternative 3 Additional Assumptions ● Investment income (including interest, dividends, fees, etc.) = 3.5% ● Pre-Incentive Fee Net Investment Income (investment income–(management fee + other expenses) = 2.7325% Pre-incentive fee net investment income exceeds
+the hurdle rate, and fully satisfies the “catch-up” provision, therefore the income related portion of the incentive fee is
+0.5467%. Incentive fee = 100.0% × pre-incentive fee net investment income (subject to “catch-up”)(4) Incentive fee = 100.0% × “catch-up” + (20.0% × (Pre-incentive fee net investment income–2.344%)) Catch up = 2.344%–1.875% = 0.469% Incentive fee = (100.0% × 0.469%) +(20.0% ×(2.7325%–2.344%)) = 0.469% +(20.0% × 0.3885%) = 0.469% + 0.0777% = 0.5467% Example 2: Capital Gains Portion of Incentive Fee: Alternative 1 Assumptions(1) ● Year 1: $20.0 million investment made in Company A (“Investment A”), and $30.0 million investment made in Company B (“Investment B”) ● Year 2: Investment A is sold for $50.0 million and fair market value (“FMV”) of Investment B determined to be $32.0 million ● Year 3: FMV of Investment B determined to be $25.0 million ● Year 4: Investment B sold for $31.0 million The capital gains portion of the incentive fee, if any,
+calculated under the cumulative method would be: ● Year 1: None ● Year 2: $6 million (20.0% multiplied by $30.0 million realized capital gains on sale of Investment A) ● Year 3: None; $5 million (20.0% multiplied by ($30.0 million realized cumulative capital gains less $5.0 million cumulative capital depreciation)) less $6.0 million (capital gains incentive fee paid in Year 2) ● Year 4: $200,000; $6.2 million (20.0% multiplied by $31.0 million cumulative realized capital gains) less $6.0 million (capital gains incentive fee paid in Year 2) 13 Alternative 2 Assumptions(1) ● Year 1: $20.0 million investment made in Company A (“Investment A”), $30.0 million investment made in Company B (“Investment B”) and $25.0 million investment made in Company C (“Investment C”) ● Year 2: Investment A sold for $50.0 million, FMV of Investment B determined to be $25.0 million and FMV of Investment C determined to be $25.0 million ● Year 3: FMV of Investment B determined to be $27.0 million and Investment C sold for $30.0 million (1) The examples assume that Investment A and Investment B were acquired by us subsequent to May 31, 2010. If Investment A and B were acquired by us prior to May 31, 2010, then the cost basis for computing our realized gains and losses on such investments would equal the fair value of such investments as of May 31, 2010. ● Year 4: FMV of Investment B determined to be $35.0 million ● Year 5: Investment B sold for $20.0 million The capital gains portion of the incentive fee,
+if any, calculated under the cumulative method would be: ● Year 1: None ● Year 2: $5.0 million (20.0% multiplied by $25.0 million ($30.0 million realized capital gains on Investment A less $5.0 million unrealized capital depreciation on Investment B)) ● Year 3: $1.4 million ($6.4 million (20.0% multiplied by $32.0 million ($35.0 million cumulative realized capital gains less $3.0 million unrealized capital depreciation)) less $5.0 million (capital gains incentive fee paid in Year 2)) ● Year 4: None ● Year 5: None ($5.0 million (20.0% multiplied by $25.0 million (cumulative realized capital gains of $35.0 million less realized capital losses of $10.0 million)) less $6.4 million (cumulative capital gains incentive fee paid in Year 2 and Year 3)) The Management Agreement with Saratoga Investment
+Advisors was initially approved for a two year period by our board of directors at an in-person meeting of the directors, including a
+majority of our independent directors, and was approved by our stockholders at the special meeting of stockholders held on July 30, 2010.
+Following the initial two year period, our board of directors has approved the renewal of the Management Agreement annually for an additional
+one-year term every year, with the most recent renewal approved by the Board at an in-person meeting on July 8, 2024. In approving renewal of the Management Agreement
+for an additional one-year term, the directors considered, among other things, (i) the nature, extent and quality of the advisory and
+other services to be provided to us by Saratoga Investment Advisors; (ii) our investment performance and the investment performance of
+Saratoga Investment Advisors; (iii) the expected costs of the services to be provided by Saratoga Investment Advisors (including management
+fees, advisory fees and expense ratios) as compared to other companies within the industry, and the profits expected to be realized by
+Saratoga Investment Advisors; (iv) the limited potential for economies of scale in investment management associated with managing us;
+and (v) Saratoga Investment Advisors estimated pro forma profitability with respect to managing us. 14 Payment of our expenses The Management Agreement provides that all investment
+professionals of Saratoga Investment Advisors and its staff, when and to the extent engaged in providing investment advisory services
+required to be provided by Saratoga Investment Advisors, and the compensation and routine overhead expenses of such personnel allocable
+to such services, will be provided and paid for by Saratoga Investment Advisors and not by us. We bear all costs and expenses of our operations and transactions,
+including those relating to: ● organization; ● calculating our NAV (including the cost and expenses of any independent valuation firm); ● expenses incurred by our Investment Adviser payable to third parties, including agents, consultants or other advisers, in monitoring financial and legal affairs for us and in monitoring our investments and performing due diligence on our prospective portfolio companies; ● expenses incurred by our Investment Adviser payable for travel and due diligence on our prospective portfolio companies; ● interest payable on debt, if any, incurred to finance our investments; ● offerings of our common stock and other securities; ● investment advisory and management fees; ● fees payable to third parties, including agents, consultants or other advisers, relating to, or associated with, evaluating and making investments; ● transfer agent and custodial fees; ● federal and state registration fees; ● all costs of registration and listing our common stock on any securities exchange; ● U.S. federal, state and local taxes; ● independent directors’ fees and expenses; ● costs of preparing and filing reports or other documents required by governmental bodies (including the Securities and Exchange Commission (the “SEC”) and the SBA); ● costs of any reports, proxy statements or other notices to common stockholders including printing costs; ● our fidelity bond, directors and officers errors and omissions liability insurance, and any other insurance premiums; ● direct costs and expenses of administration, including printing, mailing, long distance telephone, copying, secretarial and other staff, independent auditors and outside legal costs; and ● administration fees and all other expenses incurred by us or, if applicable, the administrator in connection with administering our business (including payments under the Administration Agreement based upon our allocable portion of the administrator’s overhead in performing its obligations under the Administration Agreement, including rent and the allocable portion of the cost of our officers and their respective staffs (including travel expenses)). 15 Duration and Termination The Management Agreement will remain in effect
+continuously, unless terminated under the termination provisions of the Management Agreement. The Management Agreement provides that it
+may be terminated at any time, without the payment of any penalty, upon 60 days written notice, by the vote of stockholders holding a
+majority of our outstanding voting securities, or by the vote of our directors or by Saratoga Investment Advisors. The Management Agreement will, unless terminated
+as described above, continue in effect from year to year so long as it is approved at least annually by (i) the vote of the board of directors,
+or by the vote of stockholders holding a majority of our outstanding voting securities, and (ii) the vote of a majority of our directors
+who are not parties to the Management Agreement or “interested persons” (as such term is defined in Section 2(a)(19) of the
+1940 Act) of any party to such agreement, in accordance with the requirements of the 1940 Act. Indemnification Under the Management Agreement, Saratoga Investment
+Advisors and certain of its affiliates are not liable to us for any action taken or omitted to be taken by Saratoga Investment Advisors
+in connection with the performance of any of its duties or obligations under the agreement or otherwise as an investment adviser to us,
+except to the extent specified in Section 36(b) of the 1940 Act concerning loss resulting from a breach of fiduciary duty (as the same
+is finally determined by judicial proceedings) with respect to the receipt of compensation for services and except to the extent such
+action or omission constitutes gross negligence, willful misfeasance, bad faith or reckless disregard of its duties and obligations under
+the agreement. We also provide indemnification to Saratoga Investment
+Advisors and certain of its affiliates for damages, liabilities, costs and expenses incurred by them in or by reason of any pending, threatened
+or completed action, suit, investigation or other proceeding arising out of or otherwise based upon the performance of any of its duties
+or obligations under the agreement or otherwise as an investment adviser to us. However, we would not provide indemnification against
+any liability to us or our security holders to which Saratoga Investment Advisors or such affiliates would otherwise be subject by reason
+of willful misfeasance, bad faith or gross negligence in the performance of any such person’s duties or by reason of the reckless
+disregard of its duties and obligations under the agreement. Organization of the Investment Adviser Saratoga Investment Advisors is registered as
+an investment adviser under the Investment Advisers Act of 1940, as amended (the “Advisers Act”). The principal executive
+offices of Saratoga Investment Advisors are located at 535 Madison Avenue, New York, New York 10022. Administration Agreement Pursuant to a separate Administration Agreement,
+Saratoga Investment Advisors, who also serves as our administrator, furnishes us with office facilities, equipment and clerical, book-keeping
+and record keeping services. Under the Administration Agreement, our administrator also performs, or oversees the performance of, our
+required administrative services, which include, among other things, being responsible for the financial records which we are required
+to maintain, preparing reports for our stockholders and reports required to be filed with the SEC. In addition, our administrator assists
+us in determining and publishing our NAV, oversees the preparation and filing of our tax returns and the printing and dissemination of
+reports to our stockholders, and generally oversees the payment of our expenses and the performance of administrative and professional
+services rendered to us by others. Payments under the Administration Agreement equal an amount based upon our allocable portion of our
+administrator’s overhead in performing its obligations under the Administration Agreement, including rent and our allocable portion
+of the cost of our officers and their respective staffs relating to the performance of services under this agreement (including travel
+expenses). Our allocable portion is based on the proportion that our total assets bears to the total assets administered or managed by
+our administrator. Under the Administration Agreement, our administrator also provides managerial assistance, on our behalf, to those
+portfolio companies who accept our offer of assistance. The Administration Agreement may be terminated by either party without penalty
+upon 60 days written notice to the other party. Our board of directors, including a majority of independent directors, will annually review
+the compensation we pay to the Adviser to determine that the provisions of the Administrative Agreement are carried out satisfactorily
+and to determine, among other things, whether the fees payable under such agreement are reasonable in light of the services provided.
+Our board of directors reviews the methodology employed in determining how the expenses are allocated to us and any proposed allocation
+of administrative expenses among us and any affiliates of the Adviser. Our board of directors then assesses the reasonableness of such
+reimbursements for expenses allocated to us based on the breadth, depth and quality of the administrative services as compared to the
+estimated cost to us of obtaining similar services from third-party service providers known to be available. In addition, our board of
+directors considers whether any single third-party service provider would be capable of providing all such services at comparable cost
+and quality. Finally, our board of directors compares the total amount paid to the Adviser for such services as a percentage of our net
+assets to the same ratio as reported by other comparable funds. Most recently, on July 8, 2024, our board of directors approved the renewal
+of the Administration Agreement for an additional one-year term and determined to increase the cap on the payment or reimbursement of
+expenses by the Company from $4.3 million to $5.0 million effective August 1, 2024. 16 Indemnification Under the Administration Agreement, Saratoga Investment
+Advisors and certain of its affiliates are not liable to us for any action taken or omitted to be taken by Saratoga Investment Advisors
+in connection with the performance of any of its duties or obligations under the agreement. We also provide indemnification to Saratoga Investment
+Advisors and certain of its affiliates for damages, liabilities, costs and expenses incurred by them in or by reason of any pending, threatened
+or completed action, suit, investigation or other proceeding arising out of or otherwise based upon the performance of any of its duties
+or obligations under the agreement or otherwise as an administrator to us. However, we do not provide indemnification against any liability
+to us or our security holders to which Saratoga Investment Advisors or such affiliates would otherwise be subject by reason of willful
+misfeasance, bad faith or gross negligence in the performance of any such person’s duties or by reason of the reckless disregard
+of its duties and obligations under the agreement. License Agreement We entered into a trademark license agreement
+with Saratoga Investment Advisors, pursuant to which Saratoga Investment Advisors grants us a non-exclusive, royalty-free license to use
+the name “Saratoga.” Under this agreement, we have a right to use the “Saratoga” name, for so long as Saratoga
+Investment Advisors or one of its affiliates remains our Investment Adviser. Other than with respect to this limited license, we have
+no legal right to the “Saratoga” name. Saratoga Investment Advisors has the right to terminate the license agreement if it
+is no longer acting as our investment adviser. In the event the Management Agreement is terminated, we would be required to change our
+name to eliminate the use of the name “Saratoga.” Business Development Company Regulations We have elected to be regulated as a BDC under
+the 1940 Act. As with other companies regulated by the 1940 Act, a BDC must adhere to certain substantive regulatory requirements. The
+1940 Act contains prohibitions and restrictions relating to transactions between BDCs and their affiliates (including any investment advisers
+or sub-advisers), principal underwriters and affiliates of those affiliates or underwriters, and requires that a majority of the directors
+be independent directors. In addition, the 1940 Act provides that we may not change the nature of our business so as to cease to be, or
+to withdraw our election to be regulated as, a BDC, unless approved by “a majority of our outstanding voting securities,”
+as defined in the 1940 Act. A majority of the outstanding voting securities of a company is defined under the 1940 Act as the lesser of:
+(i) 67.0% or more of such company’s stock present at a meeting if more than 50.0% of the outstanding stock of such company is present
+and represented by proxy or (ii) more than 50.0% of the outstanding stock of such company. We do not intend to acquire securities issued
+by any investment company (including Section 3(c)(1) and Section 3(c)(7) funds for this purpose, and mutual funds, registered closed-end
+funds and BDCs) that exceed the limits imposed by the 1940 Act. Under these limits, except for registered money market funds, we generally
+cannot acquire more than 3% of the voting stock of the investment company’s total outstanding voting stock, invest more than 5%
+of the value of our total assets in the securities of one investment company or invest more than 10% of the aggregate value of our total
+assets in the securities of more than one investment company. With regard to that portion of our portfolio invested in securities issued
+by investment companies, it should be noted that such investments might subject our stockholders to additional expenses. We are required to provide and maintain a bond
+issued by a reputable fidelity insurance company to protect us against larceny and embezzlement. Furthermore, as a BDC, we are prohibited
+from protecting any director or officer against any liability to us or our stockholders arising from willful misfeasance, bad faith, gross
+negligence or reckless disregard of the duties involved in the conduct of such person’s office. We and our investment adviser have adopted and
+implemented written policies and procedures reasonably designed to prevent violation of the federal securities laws and review these policies
+and procedures annually for their adequacy and the effectiveness of their implementation. We and the Investment Adviser have designated
+a chief compliance officer to be responsible for administering these policies and procedures. We expect to be periodically examined by
+the SEC for compliance with the federal securities laws, including the 1940 Act. 17 Qualifying assets A BDC must have been organized and have its principal
+place of business in the United States and must be operated for the purpose of making investments in the types of securities described
+in (1), (2) or (3) below. Under the 1940 Act, a BDC may not acquire any asset other than assets of the type listed in Section 55(a) of
+the 1940 Act, which are referred to as qualifying assets, unless, at the time the acquisition is made, qualifying assets represent at
+least 70.0% of the company’s total assets. The principal categories of qualifying assets relevant to our business are the following: (1) Securities purchased in transactions not involving any public offering from the issuer of such securities, which issuer (subject to certain limited exceptions) is an eligible portfolio company, or from any person who is, or has been during the preceding 13 months, an affiliated person of an eligible portfolio company, or from any other person, subject to such rules as may be prescribed by the SEC. An eligible portfolio company is defined in the 1940 Act as any issuer which: (a) is organized under the laws of, and has its principal place of business in, the United States; (b) is not an investment company (other than a small business investment company wholly owned by the BDC) or a company that would be an investment company but for certain exclusions under the 1940 Act; and (c) satisfies either of the following: (i) does not have any class of securities listed on a national securities exchange; (ii) has a class of securities listed on a national securities exchange but has an aggregate market value of outstanding voting and non-voting common equity of less than $250.0 million; (iii) is controlled by a BDC or a group of companies including a BDC and the BDC has an affiliated person who is a director of the eligible portfolio company; (iv) is a small and solvent company having total assets of not more than $4.0 million and capital and surplus of not less than $2.0 million; or (v) meets such other criteria as may established by the SEC. (2) Securities of any eligible portfolio company which we control. (3) Securities purchased in a private transaction from a U.S. issuer that is not an investment company or from an affiliated person of the issuer, or in transactions incident thereto, if the issuer is in bankruptcy and subject to reorganization or if the issuer, immediately prior to the purchase of its securities was unable to meet its obligations as they came due without material assistance other than conventional lending or financing arrangements. (4) Securities of an eligible portfolio company purchased from any person in a private transaction if there is no ready market for such securities and we already own at least 60.0% of the outstanding equity of the eligible portfolio company. (5) Securities received in exchange for or distributed on or with respect to securities described in (1) through (4) above, or pursuant to the exercise of options, warrants or rights relating to such securities. (6) Cash, cash equivalents, U.S. Government securities or high-quality debt securities maturing in one year or less from the time of investment. The regulations defining qualifying assets may
+change over time. We may adjust our investment focus as needed to comply with and/or take advantage of any regulatory, legislative, administrative
+or judicial actions in this area. 18 Significant managerial assistance to portfolio
+companies A BDC generally must offer to make available to
+the issuer of the securities in which it invests significant managerial assistance, except in circumstances where either (i) the BDC controls
+such issuer of securities or (ii) the BDC purchases such securities in conjunction with one or more other persons acting together and
+one of the other persons in the group makes available such managerial assistance. As a BDC, we must offer, and must provide upon request,
+managerial assistance to our portfolio companies. Making available significant managerial assistance means, among other things, any arrangement
+whereby the BDC, through its directors, officers or employees or those of its investment adviser or administrator, offers to provide,
+and, if accepted, does so provide, significant guidance and counsel concerning the management, operations or business objectives and policies
+of a portfolio company. This assistance could involve, among other things, monitoring the operations of our portfolio companies, participating
+in board and management meetings, consulting with and advising officers of portfolio companies and providing other organizational and
+financial guidance. Pursuant to a separate Administration Agreement, Saratoga Investment Advisors provides such managerial assistance
+on our behalf to portfolio companies that request this assistance, recognizing that our involvement with each investment will vary based
+on factors including the size of the company, the nature of our investment, the company’s overall stage of development and our relative
+position in the capital structure. We may receive fees for these services. Temporary investments As a BDC, pending investment in other types of
+“qualifying assets,” as described above, our investments may consist of cash, cash equivalents, U.S. Government securities
+or high-quality debt securities maturing in one year or less from the time of investment, which we refer to, collectively, as temporary
+investments, so that 70.0% of our assets are qualifying assets. Typically, we will invest in U.S. Treasury bills or in repurchase agreements,
+provided that such agreements are fully collateralized by cash or securities issued by the U.S. Government or its agencies. A repurchase
+agreement involves the purchase by an investor, such as us, of a specified security and the simultaneous agreement by the seller to repurchase
+it at an agreed-upon future date and at a price which is greater than the purchase price by an amount that reflects an agreed-upon interest
+rate. There is no percentage restriction on the proportion of our assets that may be invested in such repurchase agreements. However,
+if more than 25.0% of our total assets constitute repurchase agreements from a single counterparty, we would not meet the asset-diversification
+requirements in order to qualify as a RIC for U.S. federal income tax purposes. Thus, we do not intend to enter into repurchase agreements
+with a single counterparty in excess of this limit. Our Investment Adviser will monitor the creditworthiness of the counterparties with
+which we enter into repurchase agreement transactions. Indebtedness and senior securities As a BDC, we are permitted, under specified conditions,
+to issue multiple classes of indebtedness and one class of shares of stock, senior to our common stock, if our asset coverage, as defined
+in the 1940 Act, is at least equal to 200% immediately after each such issuance or 150% if certain requirements are met. On April 16,
+2018, our board of directors, including a majority of our independent directors, approved of us becoming subject to a minimum asset coverage
+ratio of 150% under Sections 18(a)(1) and 18(a)(2) of the 1940 Act. The 150% asset coverage ratio became effective on April 16, 2019.
+See “
+

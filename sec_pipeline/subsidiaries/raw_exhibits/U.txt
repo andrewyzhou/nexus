@@ -1,0 +1,25 @@
+EX-21.1
+6
+ex211-q42025subsidiaries.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of the Registrant
+Name of Subsidiary
+Jurisdiction
+ironSource Ltd.
+Israel
+ironSource Mobile Ltd.
+Israel
+ironSource USA, Inc.
+United States
+Tapjoy Inc.
+United States
+Unity International Holdings LLC
+United States
+Unity Technologies ApS
+Denmark
+Unity Technologies SF
+United States
+Unity Software Limited
+United Kingdom

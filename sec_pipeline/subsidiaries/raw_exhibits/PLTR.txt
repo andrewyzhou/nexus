@@ -1,0 +1,75 @@
+EX-21.1
+2
+a2025fyexhibit211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF PALANTIR TECHNOLOGIES INC.*
+NAME OF SUBSIDIARY
+STATE OR JURISDICTION OF INCORPORATION
+Palantir USG, Inc.
+Delaware, U.S.
+Palantir GSC Inc.
+Delaware, U.S.
+Palantir Technologies Geneva Sàrl
+Switzerland
+Palantir Technologies Holdings LLC
+Delaware, U.S.
+Palantir International Inc.
+Delaware, U.S.
+Palantir Italia S.r.l.
+Italy
+Palantir Technologies Singapore Pte. Ltd.
+Singapore
+Palantir Technologies New Zealand Limited
+New Zealand
+Palantir Technologies Australia Pty Ltd.
+Australia
+Palantir Technologies GmbH
+Germany
+Palantir Technologies Canada Inc.
+Canada
+Palantir Technologies Japan, G.K.
+Japan
+Palantir Engineering Israel Ltd.
+Israel
+Palantir Technologies Sweden AB
+Sweden
+Palantir Technologies Mexico S. de R.L. de C.V.
+Mexico
+Palantir Tecnologia do Brasil Ltda.
+Brazil
+Palantir Technologies Switzerland GmbH
+Switzerland
+Palantir Technologies Spain S.L.U.
+Spain
+Palantir Technologies France SAS
+France
+Palantir Technologies Poland Sp. z o.o.
+Poland
+Palantir Technologies Denmark ApS
+Denmark
+Palantir Technologies Norway AS
+Norway
+Palantir Technologies UK, Ltd.
+United Kingdom
+Palantir Shakti Technologies Private Limited
+India
+Palantir Technologies Taiwan Limited
+Taiwan
+Palantir Technologies QFC LLC
+Qatar
+Palantir Technologies UK
+-
+Eagle, Ltd.
+United Kingdom
+Palantir Technologies Austria GmbH
+Austria
+Palantir Technologies Korea LLC
+South Korea
+Palantir Technologies Lithuania, UAB
+Lithuania
+Palantir Technologies Belgium SRL
+Belgium
+*
+Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Palantir Technologies Inc. are omitted because, considered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report.

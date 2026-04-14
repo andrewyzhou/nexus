@@ -1,0 +1,31 @@
+EX-21.1
+10
+ex21112312025.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+SIGNIFICANT SUBSIDIARIES OF FISERV, INC.
+Name under which Subsidiary does Business
+Jurisdiction of Incorporation
+CardConnect, LLC
+Delaware
+Checkfree Services Corporation
+Delaware
+Concord EFS, Inc.
+Delaware
+First Data Corporation
+Delaware
+First Data Hydra Holdings LLC
+Delaware
+First Data International LLC
+Delaware
+First Data Merchant Services LLC
+Florida
+First Data Resources, LLC
+Delaware
+Fiserv Funding, LLC
+Delaware
+Fiserv Solutions, LLC
+Wisconsin
+Information Technology, LLC
+Nebraska

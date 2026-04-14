@@ -1,0 +1,58 @@
+EX-8.1
+12
+a81listofsubsidiaries2025.htm
+EX-8.1
+Document
+Exhibit 8.1
+Legal Name
+Place of Incorporation
+Doing Business as
+Ownership (%)
+(1)
+Transporte Aéreo S.A
+Chile
+LATAM Airlines Chile
+100.00%
+LATAM Airlines Perú S.A.
+Peru
+LATAM Airlines Peru
+99.81%
+LATAM-Airlines Ecuador S.A.
+Ecuador
+LATAM Airlines Ecuador
+Voting
+60.00%
+No Voting
+100.00%
+Aerovías de Integración Regional, Aires S.A
+Colombia
+LATAM Airlines Colombia
+99.23%
+TAM S.A
+Brazil
+LATAM Airlines Brasil
+(2)
+Voting
+51.04%
+No Voting
+100.00%
+Transporte Aéreos del Mercosur S.A.
+Paraguay
+LATAM Paraguay
+94.98%
+Lan Cargo S.A
+Chile
+LATAM Airlines Cargo
+99.90%
+Linea Aérea Carguera de Colombia S.A.
+Colombia
+LATAM Cargo Colombia
+90.46%
+Aerolinhas Brasileiras S.A.
+Brazil
+LATAM Cargo Brazil
+100.00%
+(1)
+Percentage of equity owned by LATAM Airlines Group S.A. directly or indirectly through subsidiaries or affiliates.
+(2)
+TAM S.A. include its affiliate TAM Linhas Aereas S.A (“TLA”), which does business under the name “LATAM Airlines Brazil”.

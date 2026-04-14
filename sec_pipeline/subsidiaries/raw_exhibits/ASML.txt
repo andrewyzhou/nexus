@@ -1,0 +1,96 @@
+EX-2.1
+2
+exhibit21.htm
+EX-2.1
+Document
+Exhibit 2.1
+Description of Securities Registered under Section 12 of the Exchange Act
+Title of Each Class
+Trading Symbol
+Name of Each Exchange on Which Registered
+Ordinary Shares
+ASML
+The Nasdaq Stock Market LLC
+(Nominal value €0.09 per share)
+Capitalized terms used but not defined herein have the meanings given to them in ASML’s annual report on Form 20-F for the year ended December 31, 2025 (the “2025 Form 20-F”).
+The following description of our ordinary shares includes a summary of certain provisions of our Articles of Association. The summary does not purport to be complete and is qualified in its entirety by reference to our Articles of Association, which have been filed with the SEC, and the applicable provisions of Dutch law.
+General
+Our ordinary shares are listed for trading in the form of registered ASML Nasdaq shares and in the form of registered ASML Euronext Amsterdam shares. The principal trading market of our ordinary shares is Euronext Amsterdam (trading symbol: ASML). Our ordinary shares also traded on Nasdaq (trading symbol: ASML).
+ASML’s authorized share capital amounts to €126.0 million and is divided into:
+Type of shares
+Amount of shares
+Nominal value
+Votes per share
+Cumulative preference shares
+700,000,000
+€0.09 per share
+1
+Ordinary shares
+700,000,000
+€0.09 per share
+1
+The issued and fully paid-up ordinary shares with a nominal value of €0.09 each were as follows:
+As of December 31
+2023
+2024
+2025
+Issued ordinary shares with nominal value of €0.09
+393,421,721
+393,283,720
+385,417,665
+Issued ordinary treasury shares with nominal value of €0.09
+6,162,857
+546,972
+2,730,009
+Total issued ordinary shares with nominal value of €0.09
+399,584,578
+393,830,692
+388,147,674
+As of
+December 31, 2025, 87,904,216 ordinary shares were held by 316 registered holders with a registered address in the US. Sinc
+e certain of our ordinary shares were held by brokers and nominees, the number of record holders in the US may not be representative of the number of beneficial holders, or of where the beneficial holders are resident.
+Each ordinary share consists of
+900
+fractional shares. Fractional shares entitle the holder thereof to a fractional dividend, but do not give entitlement to voting rights. Only those persons who hold shares directly in the share register in the Netherlands, held by us at our address at 5504 DR Veldhoven, De Run 6501, the Netherlands, or in the New York share register, held by JP Morgan Chase Bank, N.A., P.O. Box 64506, St. Paul, MN 55164-0506, United States, can hold fractional shares. Shareholders who hold ordinary shares through the deposit system under the Dutch Securities Bank Giro Transfer Act maintained by the Dutch central securities depository Euroclear Nederland or through the Depository Trust Company cannot hold fractional shares.
+No cumulative preference shares have been issued. Each share carries one vote.
+Our shares listed on Nasdaq are registered with JPMorgan Chase Bank N.A., our New York Transfer Agent, pursuant to the terms of the Transfer Agent Agreement between ASML and JPMorgan Chase Bank N.A. Our shares listed on Euronext Amsterdam are held in dematerialized form through the facilities of Euroclear Nederland, the Dutch centralized securities custody and administration system. Our shares are traded on Nasdaq, are held on the register of JP Morgan Chase Bank N.A. as well as in the clearing system of the Depositary Trust Corporation (DTC). The New York Transfer Agent charges shareholders a fee of up to USD 5.00 per 100 shares for the exchange of our shares listed at Nasdaq for our shares listed at Euronext Amsterdam and vice versa.
+Dividends payable on our shares listed at Nasdaq are declared in euro and converted to US dollars at the rate of exchange at the close of business on the date determined by the Board of Management. The resulting amounts are distributed through the New York Transfer Agent and no charge is payable by holders of our shares listed at Nasdaq in connection with this conversion or distribution.
+Pursuant to the terms of the Transfer Agent Agreement, we have agreed to reimburse the New York Transfer Agent for certain out of pocket expenses, including in connection with any mailing of notices, reports or other communications made generally available by ASML to holders of ordinary shares. The New York Transfer Agent has waived its fees associated with routine services to ASML associated with our shares listed at Nasdaq. In addition, the New York Transfer Agent in consideration of its acting as Transfer Agent has agreed to make a contribution toward covering certain expenses incurred by ASML in connection with the issuance and transfer of our shares listed on Nasdaq. In the year ended December 31, 2025, the Transfer Agent contributed USD 1.1 million toward coverage of expenses incurred by ASML (which mainly comprised audit, advisory, legal and listing fees incurred due to the existence of our share listing on Nasdaq).
+Special voting rights, limitation voting rights and transfers of shares
+There are no special voting rights on the issued shares in our share capital.
+There are currently no limitations, either under Dutch law or in our Articles of Association, on the transfer of ordinary shares in the share capital of ASML. Pursuant to our Articles of Association, the Supervisory Board’s approval shall be required for every transfer of cumulative preference shares.
+Issue and repurchase of (rights to) shares
+Our Board of Management has the power to issue ordinary shares and cumulative preference shares insofar as it has been authorized to do so by the General Meeting. The Board of Management requires approval of the Supervisory Board for such an issue. The authorization by the General Meeting can only be granted for a certain period not exceeding five years and may be extended for no longer than five years on each occasion. If the General Meeting has not authorized the Board of Management to issue shares, the General Meeting will be authorized to issue shares on the Board of Management’s proposal, provided that the Supervisory Board has approved such a proposal.
+Holders of our ordinary shares have a preemptive right, in proportion to the aggregate nominal amount they hold. This preemptive right may be restricted or excluded. Holders of ordinary shares do not have preemptive rights with respect to any ordinary shares issued for consideration other than cash or ordinary shares issued to employees. If authorized for this purpose by the General Meeting, the Board of Management has the power, subject to approval of the Supervisory Board, to restrict or exclude the preemptive rights of holders of ordinary shares.
+2025 authorization to issue and repurchase shares
+At our 2025 AGM, the Board of Management was authorized from April 23, 2025, through October 23, 2026, subject to the approval of the Supervisory Board, to issue shares and/or rights thereto, representing up to a maximum of 5% of our issued share capital at April 23, 2025, plus an additional 5% of our issued share capital at April 23, 2025, that may be issued in connection with mergers, acquisitions and/or (strategic) alliances. Our shareholders also authorized the Board of Management through October 23, 2026, subject to approval of the Supervisory Board, to restrict or exclude preemptive rights with respect to holders of ordinary shares up to a maximum of 5% of our issued share capital in connection with the general authorization to issue shares and/or rights to shares, plus an additional 5% in connection with the authorization to issue shares and/or rights to shares in connection with mergers, acquisitions and/or (strategic) alliances.
+We may repurchase our issued ordinary shares at any time, subject to compliance with the requirements of Dutch law and our Articles of Association. Any such repurchases are subject to the approval of the Supervisory Board and authorization by the General Meeting, which authorization may not be for more than18 months.
+At the 2025 AGM, the Board of Management was authorized, subject to Supervisory Board approval, to repurchase through October 23, 2026, up to a maximum of 10% of our issued share capital at April 23, 2025, at a price between the nominal value of the ordinary shares purchased and 110% of the market price of these securities on Euronext Amsterdam or Nasdaq.
+Read more details on our share buyback program in Consolidated financial statements – Notes to the Consolidated financial statements - Note 22 Shareholders’ equity
+ASML Preference Shares Foundation
+The ASML Preference Shares Foundation (Stichting Preferente Aandelen ASML) has been granted an option right to acquire cumulative preference shares in the share capital of ASML. The Foundation may exercise this Preference Share Option when, in the opinion of the Foundation’s Board of Directors, the interests of ASML, its business or its stakeholders are at stake, including in the event that:
+•
+a public bid for ASML’s shares has been announced or made, or there is a justified expectation that such a bid will be made without any agreement having been reached with ASML in relation thereto; or
+•
+an attempted exercise of voting rights by one or more shareholders, which in the opinion of the Foundation’s Board of Directors is materially in conflict with the interests of ASML, of its business or of its stakeholders.
+Objectives of the Foundation
+The Foundation’s objectives are to look after the interests of ASML and the enterprises maintained by
+and/or affiliated in a group with ASML, in such a way that ASML’s interests and those of enterprises and all parties concerned are safeguarded in the best possible way. The Foundation is responsible for ensuring that influences in conflict with these interests, which might affect the independence or the identity of ASML and those companies, are deterred to the best of the Foundation’s ability. The Foundation aims to realize its objects by acquiring and holding cumulative preference shares in our capital and by exercising the rights attached to these shares, particularly the voting rights.
+The Preference Share Option
+The Preference Share Option entitles the Foundation to acquire cumulative preference shares, whereby the aggregate nominal value of such cumulative preference shares may not exceed the aggregate nominal value of the ordinary shares issued at the time of exercise of the Preference Share Option. The subscription price for the cumulative preference shares shall be equal to nominal value. Only 25 percent of the subscription price will be payable upon issuance, with the remainder only being payable when called-up by ASML. .
+Cancellation of cumulative preference shares
+Cancellation and repayment of issued cumulative preference shares by ASML requires authorization by the General Meeting, on a proposal to this effect made by the Board of Management and approved by the Supervisory Board. If the Preference Share Option is exercised and as a result cumulative preference shares are issued, we will initiate the repurchase or cancellation of all cumulative preference shares held by the Foundation at the Foundation’s request. In that case, we are obliged to effect the repurchase and respective cancellation as soon as possible. A cancellation will result in a repayment of the amount paid and exemption from the obligation to pay up on the cumulative preference shares. A repurchase of the cumulative preference shares can only take place when such shares are fully paid up.
+If the Foundation does not request that we repurchase or cancel all cumulative preference shares held by the Foundation within 20 months of issuance of these shares, we will be required to convene a General Meeting for the purpose of deciding on a repurchase or cancellation of these shares.
+Board of Directors
+The Foundation operates independently of ASML. Its Board of Directors comprises four independent members. Per December 31, 2025, its members were: Mr. Wim Pelsma, Mr. Sjoerd Vollebregt, Mr. Jos Streppel and Mr. Steven Perrick (who was replaced by Mr. Arnold Croiset van Uchelen effective January 1, 2026).
+ASML has not established any other anti-takeover devices.
+US listing requirements
+As our New York Shares are listed on the Nasdaq Stock Market LLC, Nasdaq corporate governance standards in principle apply to us. However, Nasdaq rules provide that foreign private issuers may follow home-country practice in lieu of the Nasdaq corporate governance standards subject to certain exceptions. Our corporate governance practices are primarily based on Dutch requirements. The table on the right side of this page sets forth the practices we follow in lieu of Nasdaq rules, pursuant to the exception described above.
+Quorum
+ASML does not follow Nasdaq’s quorum requirements applicable to meetings of ordinary shareholders. In accordance with Dutch law and generally accepted Dutch business practice, ASML’s Articles of Association provide that there are no quorum requirements generally applicable to general meetings of shareholders.
+Solicitation of proxies
+ASML does not follow Nasdaq’s requirements regarding the solicitation of proxies and the provision of proxy statements for general meetings of shareholders. ASML does furnish proxy statements and solicit proxies for the General Meeting. Dutch corporate law sets a mandatory (participation and voting) record date for Dutch listed companies at the 28th day prior to the date of the General Meeting. Shareholders registered at such a record date are entitled to attend and exercise their rights as shareholders at the General Meeting, regardless of a sale of shares after the record date.
+Distribution of Annual Report
+ASML does not follow Nasdaq’s requirement regarding distribution to shareholders of copies of an annual report containing audited Financial statements prior to our AGM. The distribution of our annual reports to shareholders is not required under Dutch corporate law or Dutch securities laws, or by Euronext Amsterdam. Furthermore, it is generally accepted business practice for Dutch companies not to distribute annual reports. In part, this is because the Dutch system of bearer shares has made it impractical to keep a current list of holders of the bearer shares in order to distribute the annual reports. Instead, we make our Annual Report available at our corporate head office in the Netherlands (and at the offices of our Dutch listing agent, as stated in the convening notice for the meeting) no later than 42 days prior to convocation of the AGM. In addition, we post a copy of our annual reports on our website prior to the AGM.
+Equity compensation arrangements
+ASML does not follow Nasdaq’s requirement to obtain shareholder approval of stock option or purchase plans or other equity compensation arrangements available to officers, directors or employees. It is not required under Dutch law or generally accepted practice for Dutch companies to obtain shareholder approval of equity compensation arrangements available to officers, directors or employees. The General Meeting adopts the Remuneration Policy for the Board of Management, approves equity compensation arrangements for the Board of Management and approves the remuneration for the Supervisory Board. Equity compensation arrangements for employees are adopted by the Board of Management within limits approved by the General Meeting. The Remuneration Committee evaluates the achievements of individual members of the Board of Management with respect to the short- and long-term quantitative performance, and the full Supervisory Board evaluates the quantitative performance criteria.

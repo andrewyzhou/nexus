@@ -1,0 +1,304 @@
+EX-21.1
+6
+exhibit211q42025.htm
+EX-21.1
+Document
+Exhibit 21.1
+USA Subsidiaries
+Name of Subsidiary
+State of Registration
+UL Verification Services Inc.
+(1)
+Delaware
+UL Singapore Holdings LLC
+Delaware
+UL International, L.L.C.
+Delaware
+UL LLC
+Delaware
+STR International, LLC
+Delaware
+STR Turkey LLC
+Delaware
+UL Associates LLC
+South Carolina
+UL Maybach Holdings LLC
+Delaware
+Emergo Global Representation LLC
+Texas
+Emergo Global Consulting LLC
+Texas
+UL Services Group LLC
+New York
+UL Services Group Foreign Holdings LLC
+Delaware
+Data Test Labs Company
+(2)
+Michigan
+Consumer Testing Laboratories (Bangladesh) Limited, Inc.
+Florida
+OUS Subsidiaries
+Name of Subsidiary
+Country of Registration
+UL de Argentina S.R.L.
+Argentina
+Emergo Asia-Pacific Pty. Limited
+(3)
+Australia
+UL International Australia Pty Ltd
+Australia
+UL Transaction Security Pty. Ltd.
+Australia
+UL VS Bangladesh Ltd.
+Bangladesh
+Consumer Testing Laboratories, Ltd
+Bangladesh
+Specialized Technology Resources - Bangladesh Private Limited
+Bangladesh
+ChemAdvisor Europe
+Belgium
+AWS Truepower do Brasil Ltda.
+Brazil
+DEWI Do Brasil, Engenharia e Comércio De Energia Eolica e Solar LTDA.
+Brazil
+UL do Brasil Ltda.
+Brazil
+UL do Brasil Certificações
+Brazil
+Emergo Brazil Import Importaҫão e Distribuiҫão de Produtos Médicos Hospitalares Ltda. Me.
+(4)
+Brazil
+Emergo Brazil Participaҫões e Serviҫos de Consultoria Ltda.
+(5)
+Brazil
+UL Testtech Laboratórios de Avaliação da Conformidade Ltda.
+Brazil
+Underwriters Laboratories of Canada Inc./Laboratoires Des Assureurs Du Canada Inc.
+Canada
+UL Laboratory Canada Inc./ UL Laboratoire Canada Inc.
+Canada
+UL Business Solutions Canada Inc./Solutions D'Affaires UL Canada Inc.
+Canada
+UL-CCIC Company Limited
+(6)
+China
+UL Changzhou Quality Technology Services Co., Ltd.
+China
+UL Solutions Inc.
+EX-21
+Emergo Medical Technology (Beijing) Co., Ltd
+China
+UL VS Shanghai Ltd.
+China
+UL Standard Technical Service (Shanghai) Co., Ltd. Limited
+China
+UL (China) Holding Company Limited
+China
+UL Ningbo Technology Services Co., Ltd.
+China
+Consumer Testing Laboratories (Shenzhen) Co., Ltd.
+China
+Green Safety (Shanghai) Investment Management Limited Company
+China
+KUGLER MAAG CIE Management Consulting (Shanghai) Co., Ltd
+China
+UL Verification Services (Guangzhou) Co., Ltd.
+China
+UL de Colombia S.A.S.
+Colombia
+Emergo Costa Rica S.R.L.
+Costa Rica
+UL International Demko A/S
+Denmark
+Futuremark Oy
+Finland
+UL International (France) SA
+France
+Emergo France
+France
+Emergo Deutschland GmbH
+Germany
+UL Method Park GmbH
+Germany
+UL International Germany GmbH
+Germany
+UL International GmbH
+Germany
+DEWI-OCC Offshore and Certification Centre GmbH
+Germany
+KUGLER MAAG CIE GmbH
+Germany
+BatterieIngenieure GmbH
+Germany
+BatterieIngenieure International GmbH i.L.
+Germany
+HyAc GmbH i.L.
+(7)
+Germany
+TesTneT Engineering GmbH
+Germany
+DQS Holding GmbH
+(8)
+Germany
+UL VS Hong Kong Limited
+Hong Kong
+UL International Limited
+Hong Kong
+Emergo Hong Kong Limited
+Hong Kong
+Consumer Testing Laboratories (Far East) Ltd.
+Hong Kong
+Emergo (India) Consulting Private Limited
+India
+UL Business Services India LLP
+India
+UL India Private Limited
+India
+PT. UL International Indonesia
+Indonesia
+UL Ireland Operations Limited
+Ireland
+I.L Emergo Israel Ltd.
+Israel
+Nuovo Istituto Italiano Sicurezza Giocattoli S.r.l.
+Italy
+Istituto Certificazione Qualita' S.r.l. In Breve ICQ S.r.l.
+Italy
+UL International Italia S.r.l.
+Italy
+UL Japan, Inc.
+Japan
+UL-Shimadzu Laboratory Corporation
+(9)
+Japan
+Emergo Japan Consulting K.K.
+Japan
+UL Korea, Ltd.
+Korea
+Emergo Korea Ltd.
+Korea
+UL Solutions Inc.
+EX-21
+UL Services (Malaysia) Sdn.Bhd.
+Malaysia
+Emergo Malaysia SDN. BHD.
+Malaysia
+Emergo, S. de R.L. de C.V.
+Mexico
+UL Business Services Mexico, S. DE R.L. DE C.V.
+Mexico
+UL de México, S.A. de C.V.
+Mexico
+UL Responsible Sourcing México, S.A. de C.V.
+Mexico
+Emergo Europe B.V.
+Netherlands
+Emergo Europe Consulting B.V.
+Netherlands
+UL International (Netherlands) B.V.
+Netherlands
+Underwriters Laboratories Holdings B.V.
+Netherlands
+Collis Holding B.V.
+Netherlands
+UL TS B.V.
+Netherlands
+UL International Services B.V.
+Netherlands
+UL International New Zealand Limited
+New Zealand
+Emergo Peru S.R.L.
+Peru
+UL Verification Services Philippines PLC
+Philippines
+UL International Polska Spolka Z Ograniczona Odpowiedzialnoscia
+Poland
+Emergo Consulting LLC
+Russian Federation
+Gulf Renewable Energy Laboratory
+(10)
+Saudi Arabia
+Underwriters Laboratories Advanced for Verification
+Saudi Arabia
+Emergo Singapore Consulting Private Limited
+Singapore
+UL Verification Services Private Limited
+Singapore
+UL International-Singapore Private Limited
+Singapore
+UL Singapore Holdings PTE. LTD.
+Singapore
+UL VS South Africa Proprietary Limited
+South Africa
+UL Services Spain S.L.
+Spain
+Underwriters Laboratories Iberica, S.L.
+Spain
+Certification Entity For Renewable Energies, S.L.
+Spain
+UL International (Sweden) AB
+Sweden
+UL GmbH
+Switzerland
+Underwriters Laboratories Taiwan Co., Ltd.
+Taiwan
+Emergo Taiwan Limited
+Taiwan
+UL VS Taiwan Ltd.
+Taiwan
+Underwriters Laboratories (Thailand) Limited
+(11)
+Thailand
+ICQ (MED)
+Tunisia
+UL VS Laboratuar Hizmetleri Anonim Şirketi
+Turkey
+Underwriters Laboratories Middle East FZ-LLC
+United Arab Emirates
+ULME Trading L.L.C.
+United Arab Emirates
+UL TS FZE
+United Arab Emirates
+UL VS Limited
+United Kingdom
+Emergo Consulting (UK) Limited
+United Kingdom
+UL Concord Holdings Limited
+United Kingdom
+HBI Compliance Limited
+United Kingdom
+Healthy Buildings International Limited
+United Kingdom
+UL International (UK) Limited
+United Kingdom
+Cimteq Holdings Limited
+United Kingdom
+UL Solutions Inc.
+EX-21
+Cimteq Limited
+United Kingdom
+UL VS (Vietnam) Co. Ltd.
+Vietnam
+Footnotes
+(1)
+Does business as Advanced Furniture Testing in Indiana and UL Environment in Georgia.
+(2)
+Does business as DATA Test Labs.
+(3)
+Does business as Emergo Australia.
+(4)
+Does business as Emergo Brazil Import.
+(5)
+Does business as Emergo Brazil Consultoria.
+(6)
+70% owned by UL LLC and 30% owned by China Certification & Inspection Group Co., Ltd.
+(7)
+50% owned by TesTneT Engineering GmbH and 50% by LIFTE H2-GmbH.
+(8)
+27.78% owned by UL International-Singapore Private Limited and remainder percentage owned by 3rd parties.
+(9)
+60% owned by UL Japan, Inc. and 40% owned by Inc., Shimadzu Techno-Research.
+(10)
+55 % owned by GCC Electrical Equipment Testing Lab, LLC and 45% owned by UL LLC.
+(11)
+99.999654% owned by UL LLC and 0.000346 % owned by 3rd party minority shareholder.

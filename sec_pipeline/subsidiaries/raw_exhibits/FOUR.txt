@@ -1,0 +1,401 @@
+EX-21.1
+3
+four202510-kex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF SHIFT4 PAYMENTS, INC.
+Name
+Place of Organization
+Shift4 Payments, LLC
+Delaware
+1000986860 Ontario Inc.
+Canada
+1157487 Ontario Inc. dba Kalex Equipment Services
+Canada
+20910 ML USA IP Company, LLC
+Delaware
+AHT (Nova Scotia) Inc.
+Canada
+AHT POS INC.
+Canada
+Appetize Technologies, LLC
+Delaware
+Arrow HoldCo GmbH
+Germany
+Bahamas VAT Refund Ltd
+Bahamas
+C.C. Productions, LLC
+New Jersey
+Camdus Payment Solutions Pty Ltd
+Australia
+Card Industry Professionals Ltd.
+United Kingdom
+CARDLiquido S.A. de C.V.
+Mexico
+Cash Japan Inc.
+Japan
+Cash Paris Tax Refund
+France
+CFC & FP Enterprises, LLC
+California
+CLP Liquido SpA
+Chile
+COPLiquido S.A.S.
+Colombia
+Counter Solutions Holdings Limited
+United Kingdom
+Credorax (USA) LLC
+Delaware
+Data Control Systems, LLC of N.C.
+North Carolina
+DEV Digital Export Validation GmbH
+Austria
+Eigen Development Ltd.
+Canada
+Eigen Holdings (U.S.) Corp.
+Nevada
+Eigen Services (U.S.) Corp.
+Nevada
+Far Point Acquisition Corporation
+Delaware
+FourX Holdings, LLC
+Delaware
+FPOS Group, LLC
+Ohio
+G.Blue Espana SA
+Spain
+GBFTSP - Finance And Technology Services Portugal, Unipessoal LDA
+Portugal
+Givex Australia Pty Limited
+Australia
+Givex Brasil Serviços de Cartões-Presente e Programas de Fidelidade Ltda.
+Brazil
+Givex Canada Corp.
+Canada
+Givex Canada, Inc.
+Canada
+Givex Cathay (Shenzhen, PRC)
+China
+Givex Hong Kong Limited
+Hong Kong
+Givex International Corporation
+Bahamas
+Givex MEA Corporation FZ-LLC
+Dubai
+Givex Mexico S.A. de C.V.
+Mexico
+Givex Singapore Pte. Ltd.
+Singapore
+Givex Switzerland SARL
+Switzerland
+Givex Technology LLC
+Delaware
+Givex UK Corporation Limited
+United Kingdom
+Givex USA Corporation
+Delaware
+Global Blue (South Africa)
+South Africa
+Global Blue (UK) Ltd
+United Kingdom
+Global Blue á Íslandi hf
+Iceland
+Global Blue Acquisition BV
+Netherlands
+Global Blue Acquisition Espana SA
+Spain
+Global Blue Administration Center North OY
+Finland
+Global Blue Americas Sucursal Colombia
+Colombia
+Global Blue Argentina  SA (Sucursal Uruguay)
+Uruguay
+Global Blue Argentina SA
+Argentina
+Global Blue Australia Pty Ltd
+Australia
+Global Blue Austria GmbH
+Austria
+Global Blue Bahamas Ltd
+Bahamas
+Global Blue Belgium NV
+Belgium
+Global Blue Commercial Consulting (Beijing)
+China
+Global Blue Commercial Consulting (Shanghai)
+China
+Global Blue Croatia d.o.o.
+Croatia
+Global Blue Currency Choice Australia Pty Ltd
+Australia
+Global Blue Currency Choice Italia Srl
+Italy
+Global Blue Currency Choice Korea Co., Ltd
+South Korea
+Global Blue Currency Choice Schweiz AG
+Switzerland
+Global Blue Currency Choice Service Europe AB
+Sweden
+Global Blue Currency Choice Singapore Pte. Ltd.
+Singapore
+Global Blue Cyprus Ltd
+Cyprus
+Global Blue Czech Republic s.r.o.
+Czechia
+Global Blue d.o.o. Beograd
+Serbia
+Global Blue Danmark AS
+Denmark
+Global Blue Deutschland GmbH
+Germany
+Global Blue Eesti OÜ
+Estonia
+Global Blue Espana SA
+Spain
+Global Blue Finland OY
+Finland
+Global Blue France
+France
+Global Blue Group AG
+Switzerland
+Global Blue Group Holding GmbH
+Switzerland
+Global Blue Group II GmbH
+Switzerland
+Global Blue Hellas SA
+Greece
+Global Blue Holding
+France
+Global Blue Holding BV
+Netherlands
+Global Blue Holdings AB
+Sweden
+Global Blue Holland BV
+Netherlands
+Global Blue India Holding Company Pte Ltd
+Singapore
+Global Blue Italia SrL
+Italy
+Global Blue Japan Co Ltd
+Japan
+Global Blue Jersey Limited
+Jersey
+Global Blue Kazakhstan LLP
+Kazakhstan
+Global Blue Korea Co., Ltd.
+South Korea
+Global Blue Latvija SIA
+Latvia
+Global Blue Lebanon SAL
+Lebanon
+Global Blue LLC
+Saudi Arabia
+Global Blue Luxembourg SA
+Luxembourg
+Global Blue Malaysia Sdn. Bhd
+Malaysia
+Global Blue Marketing Services Ltd
+United Kingdom
+Global Blue Maroc SA
+Morocco
+Global Blue New Holdings Germany GmbH
+Germany
+Global Blue New Holdings UK Ltd
+United Kingdom
+Global Blue Norge AS
+Norway
+Global Blue Payments (Australia) Pty Limited
+Australia
+Global Blue Payments (New Zealand) Limited
+New Zealand
+Global Blue Pazarlama Destek ve Teknoloji Hiz.A.s
+Turkey
+Global Blue Peru S.A.C
+Peru
+Global Blue Philippines Inc
+Philippines
+Global Blue Polska Sp Zoo
+Poland
+Global Blue Private Limited
+India
+Global Blue SA
+Switzerland
+Global Blue SA – FZ (DMCC) Branch
+Saudi Arabia
+Global Blue Schweiz AG
+Switzerland
+Global Blue Service AB
+Sweden
+Global Blue Service Company Austria GmbH
+Austria
+Global Blue Service Company Italia SrL
+Italy
+Global Blue Service Company Singapore Pte. Ltd.
+Singapore
+Global Blue Service Company Slovakia s.r.o
+Slovakia
+Global Blue Service Company Slovakia s.r.o./Hungary Branch Office
+Hungary
+Global Blue Service Company UK Ltd
+United Kingdom
+Global Blue Singapore Pte. Ltd.
+Singapore
+Global Blue Slovakia sro
+Slovakia
+Global Blue Sverige AB
+Sweden
+Global Blue Sweden Holdings AB
+Sweden
+Global Blue Tax Free Ireland Ltd
+Ireland
+Global Blue TFS Brasil LTDA.
+Brazil
+Global Blue TFS Japan Co Ltd
+Japan
+Global Blue Turistik Hizmetler A.Ş.
+Turkey
+Global Blue Ventures Limited
+United Kingdom
+Global Refund Portugal Lda
+Portugal
+iControl-Enterprise, LLC
+Delaware
+Information Systems & Supplies, LLC
+Washington
+Inspiration4, LLC
+Delaware
+Kinphire Ltd
+United Kingdom
+Liquido Brasil Participações Ltda.
+Brazil
+Liquido BRL Pagamentos Digitais Ltda.
+Brazil
+Liquido Global PTE. LTD
+Singapore
+Liquido Instituição de Pagamento Ltda.
+Brazil
+Liquido Pay, S.A. de C.V.
+Mexico
+Merchant-Link, LLC
+Delaware
+Micros Retail Systems, LLC
+New Jersey
+MXN Liquido
+Mexico
+Odiuqil, LLC
+Delaware
+Online Payments Group AG
+Switzerland
+Owen Business Systems Ltd.
+Canada
+PE Liquido, S.A. de C.V.
+Mexico
+PERLiquido
+Peru
+Pinnacle Hospitality Systems, LLC
+Delaware
+POSitouch, LLC
+Rhode Island
+Posmatic GmbH
+Germany
+Postec, LLC
+Delaware
+Retail Control Solutions, LLC
+Massachusetts
+Revel Australia Pty Limited
+Australia
+Revel Systems (GB) Limited
+United Kingdom
+Revel Systems Canada, ULC
+Canada
+Revel Systems Global, Pte. Ltd.
+Singapore
+Revel Systems, Inc.
+Delaware
+S4 HoldCo, LLC
+Delaware
+S4 International Holdings, LP
+United Kingdom
+S4-ML Holdings, LLC
+Delaware
+Secret POS Systems, LLC
+Texas
+Shift Four Israel Ltd.
+Israel
+Shift4 Corporation
+Nevada
+Shift4 Germany GmbH
+Germany
+Shift4 Holdings Limited
+Malta
+Shift4 Hong Kong Limited
+Hong Kong
+Shift4 Japan KK
+Japan
+Shift4 Limited
+Malta
+Shift4 Malta Limited
+Malta
+Shift4 MX Gateway, LLC (US)
+Delaware
+Shift4 Payments Finance Sub, Inc.
+Delaware
+Shift4 Payments Lithuania, UAB
+Lithuania
+Shift4 Payments UK Limited
+United Kingdom
+Shift4 Services UAB
+Lithuania
+Shift4 Solutions Limited
+Malta
+Shift4 Solutions UK Limited
+United Kingdom
+Shift4 Technology Limited
+Malta
+Shift4Shop, LLC
+Delaware
+ShipUp Holding SAS
+France
+ShipUp SAS
+France
+Smartpay Australia Pty Ltd
+Australia
+Smartpay Holdings Limited
+New Zealand
+Smartpay Limited
+New Zealand
+Smartpay New Zealand Limited
+New Zealand
+The Customer Connection II Limited Liability Company
+New Jersey
+The Giving Block Holdings, LLC
+Delaware
+UAB Global Blue Lietuva
+Lithuania
+ValuAccess Limited
+Hong Kong
+Vectron Systems AG
+Germany
+VenueNext, LLC
+Delaware
+Yocuda Europe Ltd
+United Kingdom
+Yocuda Network UK Ltd
+United Kingdom
+Yocuda UK Holdings Ltd
+United Kingdom
+ZigZag Global EOOD
+Bulgaria
+ZigZag Global GmbH
+Germany
+Zigzag Global Iberia S.L
+Spain
+ZigZag Global Limited
+United Kingdom
+ZigZag Global LLC
+Delaware
+ZigZag Global SAS
+France
+ZZ Global Blue Holding Limited
+United Kingdom

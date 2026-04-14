@@ -1,0 +1,39 @@
+EX-21.1
+3
+hubs-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+Subsidiaries of HubSpot, Inc.
+Name of Subsidiary
+Jurisdiction of Incorporation or Organization
+APIHub, Inc. d/b/a Clearbit
+HubSpot Asia Pte. Ltd.
+State of Delaware, United States
+Singapore
+HubSpot Australia Pty Ltd
+HubSpot Belgium
+HubSpot Canada Inc.
+Australia
+Belgium
+Canada
+HubSpot France S.A.S.
+HubSpot Germany GmbH
+HubSpot India Private Limited
+HubSpot Ireland Limited
+HubSpot Japan K.K.
+HubSpot Latin America S.A.S.
+HubSpot Netherlands
+HubSpot Spain
+HubSpot Sweden, a filial of HubSpot Ireland Limited
+HubSpot UK Holdings Limited
+France
+Germany
+India
+Ireland
+Japan
+Colombia
+Netherlands
+Spain
+Sweden
+United Kingdom

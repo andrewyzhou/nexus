@@ -1,0 +1,311 @@
+EX-2.1
+3
+exhibit21_descriptionofsec.htm
+EX-2.1_DESCRIPTION_OF_SECURITIES
+Document
+Exhibit 2.1
+Description of the registrant’s securities
+registered pursuant to Section 12 of the Securities Exchange Act of 1934
+The following description of our share capital is a summary and does not purport to be complete. It is subject to and qualified in its entirety by reference to our articles of association, which are incorporated by reference as an exhibit to the Annual Report on Form 20-F of which this exhibit is a part. We encourage you to read the articles of association for additional information.
+General
+We are incorporated as a corporation (
+Aktiengesellschaft
+) under the laws of Switzerland and our affairs are governed by the provisions of our articles of association, as amended and restated from time to time, our organizational regulations and the provisions of applicable Swiss law.
+As provided in our articles of association, subject to Swiss law, we have full capacity to carry on or undertake any business or activity, do any act or enter into any transaction, and, for such purposes, full rights, powers and privileges. Our registered office is Förrlibuckstrasse 190, 8005 Zürich, Switzerland.
+Our Class A ordinary shares are listed on the NYSE under the symbol “ONON.”
+The following is a summary of the material provisions of our share capital and our articles of association.
+Share Capital
+Issued Share Capital
+As of December 31, 2025, 306,847,124 Class A ordinary shares were issued and registered with the Commercial Register, thereof 296,873,353 Class A ordinary shares were outstanding, and 341,241,680 Class B voting rights shares were issued, fully paid and outstanding.
+Holders of our Class A ordinary shares who are nonresidents of Switzerland may freely hold and vote their shares.
+Dual Share Class Structure
+Our articles of association provide for two share classes, Class A ordinary shares with a par value of CHF 0.10 each and Class B voting rights shares with a par value of CHF 0.01 each. Because each of our shares carries one vote in our general meeting of shareholders, irrespective of the par value of the shares, Class B voting rights shares provide for ten times the voting power of Class A ordinary shares for each CHF of capital invested in the Company.
+Class B voting rights shares are subject to transfer restrictions both under our articles of association as well as under the shareholders’ agreement between the extended founder team and the Company (see “—Shareholders’ Agreement”). Pursuant to the shareholders’ agreement, Class B voting rights shares are only transferable among members of the extended founder team or trusts, non-profit or other corporations or partnerships controlled by them (a “founder family entity”).
+If a member of the extended founder team wishes to sell Class B voting rights shares to any person or entity other than a member of the extended founder team or a founder family entity, the members of the extended founder team are required to first vote for the conversion of the relevant number of Class B voting rights shares into Class A ordinary shares. Under Swiss law, any such conversion requires
+approval of a general meeting of shareholders and a corresponding amendment of the articles of association.
+Pursuant to the terms of the shareholders’ agreement, the members of the extended founder team are required to vote for the conversion of all the Class B voting rights shares into Class A ordinary shares no sooner than 13 months and no later than 24 months following the occurrence of any of the following events, which we refer to as the “general sunset events”:
+•
+the extended founder team ceases to hold at least 65% of the aggregate number of Class B voting rights shares held by them since the date immediately following our initial public offering; or
+•
+fewer than two of the initial holders of Class B voting rights shares continue to hold Class B voting rights shares.
+In addition to the general sunset events, the shareholders’ agreement includes additional restrictions that apply individually to each member of the extended founder team (see “—Shareholders’ Agreement”). In particular, the shareholders’ agreement also provides for “individual sunset events,” which include the following events:
+•
+an individual member of the extended founder team ceases to hold at least 65% of the number of Class B voting rights shares held by such individual since the date immediately following our initial public offering;
+•
+a member of the extended founder team is no longer acting as a member of the executive committee of the Company or serving in an advisory role with the Company or its controlled affiliates;
+•
+a member of the extended founder team is subject to a final non-appealable conviction for fraud, theft, misappropriation and/or criminal mismanagement against the Company and/or its controlled affiliates; and
+•
+a member of the extended founder team dies or is incapacitated in a manner that causes such member to permanently, but not temporarily, be unable to exercise such member’s function as an executive or board member.
+In each case, such member (or such member’s heirs) is required to offer his Class B voting rights shares for sale to the other members of the extended founder team or request conversion of the Class B voting rights shares into Class A ordinary shares no sooner than 13 months and no later than 24 months following the occurrence of such individual sunset event. See “—Shareholders’ Agreement.”
+Conversion of Class B voting rights shares into Class A ordinary shares requires approval at a general meeting of shareholders. If such conversion is approved, ten (10) Class B voting rights shares will be converted into one (1) Class A ordinary share. The conversion ratio is strictly based on the different par value of the shares and there will be no separate consideration for the increased voting right power of the Class B voting rights shares.
+No additional Class B voting rights shares may be issued except (i) in connection with a share split or share dividend on the Class B voting rights shares in which the Class A ordinary shares are similarly split or receive a similar dividend, or (ii) to members of the extended founder team under the Company’s equity participation and incentive plans.
+Shareholders’ Agreement
+The Company and the extended founder team entered into a shareholders’ agreement in connection with the initial public offering. Pursuant to the terms of the shareholders’ agreement, the members of our extended founder team have agreed to vote together on those matters that will be put for a vote in our general meeting of shareholders. In particular, if with regard to a specific matter at least 50% or more of the extended founder team and the simple majority of the voting rights of the extended founder team represented at the meeting of the extended founder team resolve to vote in a specific manner, each member of the extended founder team would be required to vote at the shareholders’ meeting on such matter accordingly. If at the meeting of the extended founder team no such quorum is reached, the extended founder team would be required to vote (i) for the motions of the board of directors of the Company at the general meeting of shareholders as set forth in the invitation to such meeting, or (ii) if a motion is requested by a shareholder, according to the recommendations of the board of directors (except for elections to the board of directors, in which the extended founder team may vote individually).
+Moreover, pursuant to the terms of the shareholders’ agreement, the members of the extended founder team are required to vote for a conversion of all Class B voting rights shares into Class A ordinary shares no sooner than 13 months and no later than 24 months following the occurrence of any of the following events, which we refer to as the “general sunset events”:
+•
+the extended founder team ceases to hold at least 65% of the aggregate number of Class B voting rights shares held by since the date immediately following our initial public offering; or
+•
+fewer than two of the initial holders of Class B voting rights shares continue to hold Class B voting rights shares.
+In addition to the general sunset events, the shareholders’ agreement includes additional restrictions that apply individually to each member of the extended founder team. In particular, the shareholders’ agreement also provides for “individual sunset events,” which include the following events:
+•
+an individual member of the extended founder team ceases to hold at least 65% of the number of Class B voting rights shares held by such individual since the date immediately following our initial public offering;
+•
+a member of the extended founder team is no longer acting as a member of the executive committee of the Company or serving in an advisory role with the Company or its controlled affiliates;
+•
+a member of the extended founder team is subject to a final non-appealable conviction for fraud, theft, misappropriation and/or criminal mismanagement against the Company and/or its controlled affiliates; and
+•
+a member of the extended founder team dies or is incapacitated in a manner that causes such member to permanently, but not temporarily, be unable to exercise such member’s function as an executive or board member.
+In each case, such member (or such member’s heirs) would be required to offer his Class B voting rights shares for sale to the other members of the extended founder team, or request conversion of the Class B voting rights shares into Class A ordinary shares no sooner than 13 months and no later than 24 months following the occurrence of such individual sunset event.
+The shareholders’ agreement provides that as long as a co-founder continues to hold at least 65% of the number of Class B voting rights shares held since the date immediately following our initial public offering, such co-founder shall be entitled to a seat on the board of directors of the Company and that the members of the extended founder team undertake to vote for such co-founder’s election or re-election (as applicable) to the board of directors of the Company, subject to limited exceptions, including in the case of certain criminal convictions.
+In addition, the shareholders’ agreement also provides members of our extended founder team with a right of first refusal to purchase shares of Class B voting rights shares that are intended to be sold or transferred by other members of our extended founder team, subject to certain exceptions.
+Conversion of Class B voting rights shares into Class A ordinary shares requires approval at a general meeting of shareholders. If such conversion is approved, ten (10) Class B voting rights shares will be converted into one (1) Class A ordinary shares. The conversion ratio is strictly based on the different par value of the shares and there will be no separate consideration for the increased voting right power of the Class B voting rights shares. If the conversion is not approved at the general meeting of shareholders, the holder of the Class B voting rights shares may sell such shares to any third party (subject to compliance with applicable law).
+Articles of Association
+Our amended and restated articles of association are filed as Exhibit 1.1 to this Annual Report. We encourage you to read our articles of association for additional information.
+Ordinary Capital Increase, Conditional Share Capital and Capital Band
+Under Swiss law, we may increase our share capital (
+Aktienkapital
+) with a resolution of the general meeting of shareholders (ordinary capital increase) that must be carried out by the board of directors within six months of the respective general meeting in order to become effective. Under our articles of association and Swiss law, in the case of subscription and increase against payment of contributions in cash, a resolution passed by an absolute majority of the voting rights represented at the general meeting of shareholders is required. In the case of subscription and increase against contributions in kind or  by way of set-off with a debt of the Company, when shareholders’ statutory pre-emptive subscription rights or advance subscription rights are limited or withdrawn, or where transformation of freely disposable equity into share capital is involved, a resolution passed by two-thirds of the voting rights represented at a general meeting of shareholders and the absolute majority of the par value of the shares represented is required.
+Furthermore, under the Swiss Code of Obligations (the “CO”), our shareholders, by a resolution passed by two-thirds of the voting rights represented at a general meeting of shareholders and the absolute majority of the par value of the shares represented, may:
+•
+authorize our board of directors to issue shares of a specific aggregate par value up to a maximum of 50% of the existing share capital registered in the Commercial Register in the form of conditional share capital (
+bedingtes
+Aktienkapital
+) for the purpose of issuing shares in connection with, among other things, (i) option and conversion rights granted in connection with warrants and convertible bonds of the Company or one of our subsidiaries or (ii) grants of rights to employees, members of our board of directors or consultants or to our subsidiaries or other persons providing services to the Company or a subsidiary to subscribe for new shares (conversion or option rights); and/or
+•
+create a capital band (
+Kapitalband
+) authorizing our board of directors at any time within 5 (five) years to increase or decrease the share capital of the Company by a maximum amount of 50% of the existing share capital registered in the Commercial Register. As of January 1, 2023 the capital band has replaced the authorized share capital (
+genehmigtes Aktienkapital
+), which has been abolished. Existing authorized share capital may remain in place until it expires but it may no longer be renewed and no new authorized share capital may be created.
+Pre-emptive and Advance Subscription Rights
+Pursuant to the CO, shareholders have pre-emptive subscription rights (
+Bezugsrechte
+) to subscribe for new issuances of shares. With respect to conditional capital in connection with the issuance of conversion rights, convertible bonds or similar debt instruments, shareholders have advance subscription rights (
+Vorwegzeichnungsrechte
+) for the subscription of such conversion rights, convertible bonds or similar debt instruments.
+A resolution passed at a general meeting of shareholders by two-thirds of the voting rights represented and the absolute majority of the par value of the shares represented may authorize our board of directors to withdraw or limit pre-emptive subscription rights and/or advance subscription rights in certain circumstances.
+If pre-emptive subscription rights are granted, but not exercised, the board of directors may allocate the unexercised pre-emptive subscription rights at its discretion.
+Our Capital Band
+Capital Band for Class A Ordinary Shares
+Under our articles of association, our board of directors is authorized to increase or reduce the share capital within the capital band for Class A ordinary shares between CHF 28,184,712.40 (lower limit) and CHF 33,184,712.40 (upper limit), once or several times and in any amounts until May 25, 2028 or until an earlier expiration of the capital band for Class A ordinary shares, through the issuance of up to 25,000,000 Class A ordinary shares, which would have to be fully paid-in, each with a par value of CHF 0.10, or by cancelling up to 25,000,000 Class A ordinary shares, each with a par value of CHF 0.10, or by increasing or reducing the par value of the existing Class A ordinary shares within the capital band or by a combined capital reduction and capital increase.
+The board of directors has the power to determine the type of contributions, the issue price and the date on which the dividend entitlement starts.
+With respect to the capital band, the board of directors is authorized by our articles of association to withdraw or to limit the pre-emptive subscription rights of shareholders, and to allocate them to third parties or to us, in the event that the newly issued shares are issued under the following circumstances:
+•
+if the issue price of the new registered shares is determined by reference to the market price;
+•
+for the acquisition of companies, part(s) of companies or participations, or for the financing or refinancing of any of such transactions or the financing of new investment projects of the Company or any of its group companies, including the acquisition of products, intellectual property or licenses;
+•
+for purposes of broadening the shareholder constituency of the Company in certain geographic, financial or investor markets, for purposes of the participation of strategic partners, or in connection with the listing of new shares on domestic or foreign stock exchanges;
+•
+for purposes of granting an over-allotment option or an option to purchase additional shares in a placement or sale of shares to the respective initial purchaser(s) or underwriter(s);
+•
+for the participation of members of the board of directors, members of the executive committee, employees, contractors, consultants, or other persons performing services for the benefit of, the Company or any of its group companies; or
+•
+for raising capital (including private placements) in a fast and flexible manner, which would not be possible, or might only be possible with great difficulty or delays or at significantly less favorable conditions, without the exclusion of the statutory pre-emptive subscription rights of existing shareholders.
+New Class A ordinary shares issued under this authorization will be subject to the applicable
+transfer restrictions under our articles of association.
+If our share capital is increased out of the conditional share capital for Class A ordinary shares, the upper and lower limits of the capital band for Class A ordinary shares shall increase in an extent corresponding to the increase of the share capital consisting of Class A ordinary shares.
+In the event of a reduction of the share capital within the capital band for Class A, our board of directors is authorized to determine the use of the reduction amount. Our board of directors may also use the reduction amount for the partial or complete elimination of a negative net worth within the meaning of Article 653p CO or reduce the share capital within the meaning of Article 653q CO and increase it simultaneously at least to the previous amount.
+Capital Band for Class B Voting Rights Shares
+Further, under our articles of association, our board of directors is authorized to increase the share capital within the capital band for Class B voting rights shares between CHF 3,349,166.80 (lower limit) and CHF 3,507,291.80 (upper limit), once or several times and in any amounts until May 25, 2028 or until and earlier expiration of the capital band for Class B voting rights shares, through the issuance of up to 9,487,500 Class B voting rights shares, which would have to be fully paid-in, each with a par value of CHF 0.01, or by increasing the par value of the existing Class B voting rights shares within the capital band.
+The board of directors has the power to determine the type of contributions, the issue price and the date on which the dividend entitlement starts.
+With respect to the capital band for Class B voting rights shares, the board of directors is authorized by our articles of association to withdraw or to limit the pre-emptive subscription rights of shareholders, and to allocate them to third parties or to us, for the participation of members of the board of directors or members of the executive committee of the Company or any of its group companies.
+New Class B voting rights shares issued under this authorization will be subject to the applicable transfer restrictions under our articles of association.
+Our Conditional Share Capital
+Our nominal share capital may be increased by the maximum amount of CHF 1,004,246.10 by issuing up to 10,042,461 fully paid-up Class A ordinary shares, upon exercise of rights that are given to members of the board of directors or independent consultants, service partners or sales agents of the Company or of affiliated companies.
+With respect to the issuance of new shares out of our conditional capital, the shareholders’ statutory advance subscription rights are excluded. The acquisition of Class A ordinary shares through the exercise of option rights and the further transfer of registered shares is subject to the applicable transfer restrictions under our articles of association.
+Form of Shares
+Our shares are in the form of uncertificated securities (
+Wertrechte
+) within the meaning of Article 973c of the CO. In accordance with Article 973c of the CO, we will maintain a non-public register of uncertificated securities (
+Wertrechtebuch
+). Following entry in the share register, a shareholder of record may at any time request from us a written confirmation regarding his or her shares. Shareholders are not entitled, however, to request the conversion and/or printing and delivery of share certificates.
+General Meeting of Shareholders
+Ordinary/Extraordinary Meetings, Powers
+The general meeting of shareholders is our supreme corporate body. Under Swiss law, an annual general meeting of shareholders must be held annually within six months after the end of a corporation’s financial year. In our case, this generally means on or before June 30. In addition, extraordinary general meetings of shareholders may be held.
+The following powers are vested exclusively in the general meeting of shareholders:
+•
+adopting and amending the articles of association, including changing the company’s purpose or registered seat;
+•
+electing and de-selecting the members of the board of directors, the co-chairmen of the board of directors, the members of the nomination and compensation committee, the auditors and the independent proxy representative;
+•
+approving the annual and management report, the annual statutory and consolidated financial statements and determining the allocation of profits shown on the balance sheet, in particular with regard to dividends;
+•
+determining interim dividends and approving the interim financial statements required;
+•
+passing resolutions on the repayment of the statutory capital reserve (gesetzliche Kapitalreserve);
+•
+resolving to delist the Company's equity securities;
+•
+approving the aggregate amount of compensation for the members of the board of directors, the executive committee and the advisory board;
+•
+discharging the members of the board of directors and the executive committee from liability with respect to their conduct of business; and
+•
+deciding matters reserved for the general meeting of shareholders by law or the articles of association or submitted by the board of directors.
+An extraordinary general meeting of shareholders may be called by a resolution of the board of directors or the general meeting of shareholders or, under certain circumstances, by the company’s auditors, liquidators or the representatives of bondholders, if any. In addition, the board of directors is required to convene an extraordinary general meeting of shareholders if shareholders representing at least 5% of the share capital or of the voting rights of our share capital request such general meeting of shareholders in writing. Such request must set forth the items to be discussed and the proposals to be acted upon. In case of a capital loss (
+Kapitalverlust
+), i.e. if, based on our stand-alone annual statutory balance sheet, the assets less the liabilities no longer cover half of the sum of our share capital, the statutory capital reserves (
+gesetzliche Kapitalreserven
+) not to be repaid to the shareholders and the statutory retained earnings (
+gesetzliche Gewinnreserven
+), our board of directors shall take measures to rectify such loss of capital. Where necessary, it shall take further measures to restructure the Company or shall request the general meeting of shareholders to approve such measures, if they fall within the competence of the general meeting of shareholders.
+Voting and Quorum Requirements
+Shareholder resolutions and elections (including elections of members of the board of directors) require the affirmative vote of the absolute majority of voting rights represented at the general meeting of shareholders, unless otherwise stipulated by law or our articles of association.
+Under Swiss law and our articles of association, a resolution of the general meeting of the shareholders passed by two-thirds of the voting rights represented at the meeting and the absolute majority of the par value of the shares represented is required for:
+•
+amending the Company’s corporate purpose;
+•
+the consolidation of shares, unless the consent of all the shareholders concerned is required;
+•
+creating or cancelling voting right shares;
+•
+cancelling or amending the transfer restrictions of shares;
+•
+creating conditional share capital or a capital band;
+•
+increasing share capital out of equity, against contributions in-kind or through contribution by set-off and granting specific benefits;
+•
+changing the currency of the share capital;
+•
+converting participation certificates into shares;
+•
+introducing a provision in the articles of association regarding the holding of the general meeting of shareholders abroad;
+•
+introducing in the articles of association the casting vote of the chairperson at the general meeting of shareholders;
+•
+limiting or withdrawing shareholders’ pre-emptive subscription rights;
+•
+changing the Company’s registered office;
+•
+dissolving or liquidating the Company;
+•
+delisting the shares; and
+•
+introducing an arbitration clause in the articles of association.
+The same voting requirements apply to resolutions regarding transactions among corporations based on Switzerland’s Federal Act on Mergers, Demergers, Transformations and the Transfer of Assets of October 3, 2003, as amended (the “Swiss Merger Act”). See “—Compulsory Acquisitions; Appraisal Rights.”
+In accordance with Swiss law and generally accepted business practices, our articles of association do not provide quorum requirements generally applicable to general meetings of shareholders.
+Hybrid, Multilocal and Virtual Shareholders' Meeting
+A shareholders' meeting may take place at several locations simultaneously, if the votes of the participants are immediately transmitted in sound and image to all meeting venues (multilocal shareholders' meeting). Furthermore, if the board of directors designates an independent proxy representative in the invitation to the general meeting of shareholders and the articles of association contain the necessary provisions in accordance with Swiss law, a shareholders' meeting may be held abroad. The board of directors may previse that shareholders, which are not present at the meeting venue of the shareholders' meeting, may exercise their rights electronically (hybrid shareholders' meeting). A virtual shareholders' meeting without a physical meeting venue but using electronic means (virtual shareholders' meeting) is possible if the articles of association include the necessary provisions and the board of directors designates an independent proxy representative in the invitation to the general meeting of shareholders. The board of directors must regulate the use of electronic means and ensure that (i) the identity of the participants is established; (ii) the votes cast are immediately transmitted; (iii) each participant may submit requests and participate in the discussion; and (iv) the results cannot be forged.
+Convocation
+General meetings of shareholders must be convened by the board of directors at least 20 days before the date of the meeting. The general meeting of shareholders is convened by way of an invitation appearing in our official publication medium, currently the Swiss Official Gazette of Commerce. Registered shareholders may also be informed by ordinary mail or e-mail. The invitation to a general meeting of shareholders must state the (i) the date, the start time, the type and the place of the general meeting, (ii) items on the agenda, (iii) the motions to be decided by the shareholders together with a brief statement of the reasons therefor and, in case of elections, the names of the nominated candidates and (iv) the name and address of the independent proxy representative. A resolution on a matter that is not on the agenda may not be passed at a general meeting of shareholders, except for motions to convene an extraordinary general meeting of shareholders to initiate a special investigation or to elect the auditors, regarding which the general meeting of shareholders may vote at any time. No previous
+notification is required for motions concerning items included in the agenda or for debates that do not result in a vote.
+All of the owners or representatives of our shares may, if no objection is raised, hold a general meeting of shareholders without complying with the formal requirements for convening general meetings of shareholders (a universal meeting). This universal meeting of shareholders may discuss and pass binding resolutions on all matters within the purview of the general meeting of shareholders, provided that the owners or representatives of all the shares are present at the meeting. Shareholders may also pass resolutions in written or electronic form without complying with the formal requirements for convening general meetings of shareholders provided no shareholder requests the deliberation at a general meeting of shareholders.
+Agenda Requests
+Pursuant to Swiss law and our articles of association, one or more shareholders whose combined shareholdings represent 0.5% of the voting rights or of our share capital may request that an item be included in the agenda for a general meeting of shareholders. To be timely, the shareholder’s request must be in writing and must be received by us at least 60 calendar days in advance of the meeting.
+Our annual report, the compensation report and the auditor’s report must be made available for inspection by the shareholders no later than 20 days prior to the general meeting of shareholders. If such documents are not available electronically, a shareholder may request that a copy is sent to it.
+Voting Rights
+Each of our shares entitles a holder to one vote in the general meeting of the shareholders, irrespective of the par value of such shares. Our shares are not divisible. The right to vote and the other rights of share ownership may only be exercised by shareholders (including any nominees) or usufructuaries who are entered in the share register prior to the applicable cut-off date to be determined by the board of directors. Those entitled to vote in the general meeting of shareholders may be represented by the independent proxy representative (annually elected by the general meeting of shareholders), by its legal representative or by a third party, who does not need to be a shareholder, with written authorization to act as proxy. The chairman of the general meeting of the shareholders has the power to decide whether to recognize a power of attorney.
+Transfer of Shares
+Shares in uncertificated form (
+Wertrechte
+) may only be transferred by way of written assignment. Shares or the beneficial interest in shares, as applicable, credited in a securities account may only be transferred when a credit of the relevant intermediated securities to the acquirer’s securities account is made in accordance with applicable rules.
+Voting rights may be exercised only after a shareholder (including any nominees) or usufructuary has been entered in the share register with his or her name and address (in the case of legal entities, the registered office) as a shareholder with voting rights. For a discussion of the restrictions applicable to the control and exercise of voting rights, see “—Voting Rights.”
+Inspection of Books and Records
+Under the CO, a shareholder has a right to inspect the share register with respect to his or her own shares and otherwise to the extent necessary to exercise his or her shareholder rights. No other person has a right to inspect the share register. Our books and correspondence may be inspected with the express authorization of the general meeting of shareholders or by resolution of the board of directors and subject to the safeguarding of our business secrets and other legitimate interests.
+In addition, shareholders holding in the aggregate at least 5% of our nominal share capital or of our voting rights have the right to inspect at any time company ledgers and files. Furthermore, our board of directors is required to grant the inspection request within four months after receipt of such request. Denial of the request needs to be justified in writing. In the event an inspection or information request is denied by the board of directors, shareholders may request the order of an inspection or information right by the court within thirty days.
+Special Investigation
+If the shareholders’ inspection rights as outlined above prove to be insufficient in the judgment of the shareholder, any shareholder who has already exercised his or her inspection rights may propose to the general meeting of shareholders that specific facts be examined by a special examiner in a special investigation. If the general meeting of shareholders approves the proposal, we or any shareholder may, within 30 calendar days after the general meeting of shareholders, request a court at our registered office (currently Zurich, Canton of Zurich, Switzerland) to appoint a special examiner. If the general meeting of shareholders rejects the request, one or more shareholders representing at least 5% of our share capital or voting rights may request that the court appoint a special examiner. The court will issue such an order if the petitioners can demonstrate that the board of directors, any member of the board of directors or our executive committee infringed the law or our articles of association and thereby caused damages to the Company or the shareholders. The costs of the investigation would generally be allocated to us and only in exceptional cases to the petitioners.
+Shareholders’ Rights to Bring Actions for the Benefit of the Company
+According to the CO, an individual shareholder may bring an action, in its own name and for the benefit of the Company, against the Company’s directors, officers or liquidators for the recovery of any losses we have suffered as a result of the intentional or negligent breach by such directors, officers or liquidators of their duties.
+Compulsory Acquisitions; Appraisal Rights
+Business combinations and other transactions that are governed by the Swiss Merger Act (i.e., mergers, demergers, transformations and certain asset transfers) are binding on all shareholders. A statutory merger or demerger requires approval of two-thirds of the shares represented at a general meeting of shareholders and the absolute majority of the par value of the shares represented.
+If a transaction under the Swiss Merger Act receives all of the necessary consents, all shareholders are compelled to participate in such a transaction.
+Swiss corporations may be acquired by an acquirer through the direct acquisition of the shares of the Swiss corporation. The Swiss Merger Act provides for the possibility of a so-called “cash-out” or “squeeze-out” merger with the approval of holders of 90% of the issued shares. In these limited circumstances, minority shareholders of the corporation being acquired may be compensated in a form other than through shares of the acquiring corporation (for instance, through cash or securities of a parent corporation of the acquiring corporation or of another corporation). For business combinations effected in the form of a statutory merger or demerger and subject to Swiss law, the Swiss Merger Act provides that if equity rights have not been adequately preserved or compensation payments in the transaction are unreasonable, a shareholder may request a competent court to determine a reasonable amount of compensation.
+In addition, under Swiss law, the sale of “all or substantially all of our assets” by us may require the approval of two-thirds of the voting rights represented at a general meeting of shareholders and the
+absolute majority of the par value of the shares represented. Whether a shareholder resolution is required depends on the particular transaction, including whether the following test is satisfied:
+•
+a core part of our business is sold without which it is economically impracticable or unreasonable to continue to operate the remaining business;
+•
+our assets, after the divestment, are not invested in accordance with our corporate purpose as set forth in the articles of association; and
+•
+the proceeds of the divestment are not earmarked for reinvestment in accordance with our corporate purpose but, instead, are intended for distribution to our shareholders or for financial investments unrelated to our corporate purpose.
+A shareholder of a Swiss corporation participating in certain major corporate transactions may, under certain circumstances, be entitled to appraisal rights. As a result, such shareholder may, in addition to the consideration (be it in shares or in cash) receive an additional amount to ensure that the shareholder receives the fair value of the shares held by the shareholder. Following a statutory merger or demerger, pursuant to the Swiss Merger Act, shareholders can file an appraisal action against the surviving company. The action must be filed within two months after the merger or demerger resolution has been published in the Swiss Official Gazette of Commerce. The filing of the action will not prevent completion of the merger or demerger. If the consideration is deemed inadequate, the court will determine an adequate compensation payment.
+Board of Directors
+Our articles of association provide that the board of directors shall consist of at least three members.
+The members of the board of directors and the co-chairmen are elected annually by the general meeting of shareholders for a period until the completion of the subsequent annual general meeting of shareholders and are eligible for re-election. Each member of the board of directors must be elected individually.
+Powers
+The board of directors has the following non-delegable and inalienable powers and duties:
+•
+the ultimate direction of the business of the Company and the issuance of the relevant directives;
+•
+determining the organization of the Company;
+•
+formulating accounting procedures, financial controls and financial planning;
+•
+nominating and removing persons entrusted with the management and representation of the Company and regulating the power to sign for the Company;
+•
+the ultimate supervision of those persons entrusted with the management of the Company, with particular regard to adherence to law, our articles of association, and regulations and directives of the Company;
+•
+issuing the annual and the management report and the compensation report, and preparing for the general meeting of shareholders and carrying out its resolutions;
+•
+the non-transferable and inalienable powers and duties of the board of directors pursuant to the Swiss Merger Act; and
+•
+filing of a moratorium request and informing the court in case of over-indebtedness.
+The board of directors may, while retaining such non-delegable and inalienable powers and duties, delegate some of its powers, in particular direct management, to a single or to several of its members, committees or to third parties (such as executive officers) who need be neither members of the board of directors nor shareholders. Pursuant to Swiss law and our articles of association, details of the delegation and other procedural rules such as quorum requirements have been set in the organizational rules established by the board of directors.
+Indemnification of Executive Officers and Directors
+Subject to Swiss law, our articles of association provide for indemnification of the existing and former members of the board of directors and the executive committee and their heirs, executors and administrators against liabilities arising in connection with the performance of their duties in such capacity, and permit us to advance the expenses of defending any act, suit or proceeding against our directors and executive officers to the extent not included in insurance coverage or advanced by third parties.
+In addition, under general principles of Swiss employment law, an employer may be required to indemnify an employee against losses and expenses incurred by such employee in the proper execution of his or her duties under the employment agreement with the employer.
+We have entered into indemnification agreements with each of the members of our board of directors and executive officers.
+Conflict of Interest, Management Transactions
+Swiss law does not have a general provision defining conflicts of interest. However, the CO contains a provision that requires our directors and executive committee members to safeguard the Company’s interests and imposes a duty of loyalty and duty of care on our directors and executive officers. This rule is generally understood to disqualify directors and executive officers from participation in decisions that directly affect them. Members of the board of directors and the executive committee must inform the board of directors of any conflicts of interest that concern them and the board of directors has to take the appropriate measures to safeguard the interest of the company.
+Our directors and executive officers are personally liable to us for breaches of these obligations. In addition, Swiss law contains provisions under which directors and all persons engaged in the Company’s management are liable to the Company, each shareholder and in certain circumstances, the Company’s creditors for damages caused by an intentional or negligent violation of their duties. Furthermore, Swiss law contains a provision under which payments made to any of the Company’s shareholders or directors or any person related to any such shareholder or director, other than payments made at arm’s length, must be repaid to the Company if such shareholder or director acted in bad faith.
+If in connection with entering into a contract (except relating to daily business matters for a value of up to CHF 1,000) we are represented by the person with whom we are entering into the contract with, such contract must be in writing.
+Principles of the Compensation of the Board of Directors and the Executive Committee
+Pursuant to Swiss law, our shareholders must annually approve the aggregate amount of compensation of the board of directors and the persons whom the board of directors has, fully or partially, entrusted with the management (which we refer to as our “executive committee”) of the Company.
+The board of directors must issue, on an annual basis, a written compensation report that must be reviewed by our auditors. The compensation report must disclose all compensation granted by the Company, directly or indirectly, to current members of the board of directors and the executive committee and, to the extent related to their former role within the Company or not on customary market terms, to former members of the board of directors and former executive officers.
+The disclosure concerning compensation, loans and other forms of indebtedness must include the aggregate amount for the board of directors and the executive committee, respectively, as well as the particular amount for each member of the board of directors and for the highest-paid executive officer, specifying the name and function of each of these persons.
+We are prohibited from granting certain forms of compensation to members of our board of directors and executive committee, such as:
+•
+severance payments (compensation due until the termination of a contractual relationship does not qualify as severance payment);
+•
+compensation related to a ban of competition that (i) exceeds the average remuneration for the last three financial years, or (ii) is not justified on business grounds;
+•
+remuneration that is not at customary market conditions connected with a previous activity as
+corporate body of the Company;
+•
+advance compensation;
+•
+incentive fees for the acquisition or transfer of companies, or parts thereof, by the Company or by companies being directly or indirectly controlled by us;
+•
+loans, other forms of indebtedness, pension benefits not based on occupational pension schemes and performance-based compensation not provided for in the articles of association; and
+•
+equity-based compensation not provided for in the articles of association.
+Compensation to members of the board of directors and the executive committee for activities in entities that are directly or indirectly controlled by the Company is prohibited if (i) the compensation would be prohibited if it were paid directly by the Company, (ii) the Company’s articles of association do not provide for it or (iii) the compensation has not been approved by the general meeting of shareholders.
+The general meeting of shareholders vote annually on the proposals of the board of directors with respect to:
+•
+the maximum aggregate amount of compensation of the board of directors for the term of office until the next annual general meeting of shareholders;
+•
+the maximum aggregate amount of fixed compensation of the executive committee (including our executive directors) for the following financial year; and
+•
+the maximum aggregate amount of variable compensation of the executive committee (including our executive directors) for the current financial year.
+The board of directors may submit for approval at the general meeting of shareholders deviating or additional proposals relating to the same or different periods.
+If at the general meeting of shareholders the shareholders do not approve a compensation proposal of the board of directors, the board of directors must prepare a new proposal, taking into account all relevant factors, and submit the new proposal for approval by the same general meeting of shareholders at a subsequent extraordinary general meeting of shareholders or the next annual general meeting of shareholders.
+In addition to fixed compensation, members of the executive committee (including executive directors) may be paid variable compensation depending on the achievement of certain performance criteria. The performance criteria may include individual targets, targets of the Company or parts thereof and targets in relation to the market, other companies or comparable benchmarks, taking into account the position and level of responsibility of the recipient of the variable compensation. The board of directors or, where delegated to it, the nomination and compensation committee shall determine the relative weight of the performance criteria and the respective target values.
+Compensation may be paid or granted in kind or in the form of cash, shares, financial instruments or other types of benefits. The board of directors or, where delegated to it, the nomination and compensation committee shall determine grant, vesting, exercise, restriction and forfeiture conditions and periods.
+Dividends
+Our board of directors may propose to shareholders that a dividend or other distribution be paid, but cannot itself authorize distributions. Dividend payments require a resolution passed by an absolute majority of the voting rights represented at a general meeting of shareholders. In addition, our auditors must confirm that the dividend proposal of our board of directors conforms to Swiss statutory law and our articles of association.
+Under Swiss law, we may pay dividends only if we have sufficient distributable profits from the previous business year or have brought forward profits from previous business years, or if we have distributable reserves, each as evidenced by the Company’s audited stand-alone statutory balance sheet prepared pursuant to Swiss law and after allocations to reserves required by Swiss law and by the articles of association have been deducted. The Company may also pay interim dividends out of the current business year’s profits, which requires in addition to the general dividend requirements that an interim audited stand-alone statutory balance sheet is drawn-up. Dividends are paid to shareholders in proportion to the par value of the relevant shares held.
+The distributable reserves have to be booked either as “reserves from retained earnings” (
+gesetzliche Gewinnreserve
+) or as “statutory capital reserves” (gesetzliche Kapitalreserve) and 5% of our annual profit has to be retained as “reserves from retained earnings” until such “reserves from retained earnings”, when taken together with the “statutory capital reserves”, reach 20% of our share capital registered with the Commercial Register. Also, in particular subscription premiums and contributions into the reserves of the Company have to be allocated to the “statutory capital reserves”.
+The CO permits us to accrue additional “voluntary reserves from retained earnings”. Furthermore, a purchase of our own shares (whether by us or a subsidiary) reduces the distributable reserves in an amount corresponding to the purchase price of such shares. Finally, the CO under certain circumstances requires the creation of revaluation reserves, which are not distributable.
+Distributions out of issued share capital (i.e., the aggregate par value of our issued shares) are not allowed and may be made only by way of a share capital reduction. Such a capital reduction requires a resolution passed by an absolute majority of the shares represented at a general meeting of
+shareholders. The resolution of the shareholders must be recorded in a public deed and a special audit report must confirm that claims of our creditors remain fully covered despite the reduction in our share capital recorded in the Commercial Register. Our share capital may be reduced below CHF 100,000 only if and to the extent that at the same time the statutory minimum share capital of CHF 100,000 is reestablished by sufficient new, fully paid-up capital. Upon approval by the general meeting of shareholders of the capital reduction, the board of directors must give public notice of the capital reduction resolution in the Swiss Official Gazette of Commerce and notify creditors that they may request, within 30 days of the publication, satisfaction of or security for their claims to the extent that the previous cover has been reduced by the capital reduction. The reduction of our share capital may be implemented only after expiration of this time limit. The obligation to secure claims lapses if we satisfy the claim or demonstrate that there is no risk that the claim will not be satisfied as a result of reducing the share capital, which will be presumed if confirmed in an audit confirmation.
+Dividends are usually due and payable shortly after the shareholders have passed the resolution approving the payment, but shareholders may also resolve at the annual general meeting of shareholders to pay dividends in quarterly or other installments.
+We may not make any dividend or distribution to any holder of either class of shares unless simultaneously with such dividend or distribution we make the same dividend or distribution (adjusted only
+pro rata
+to the par value of the relevant shares) with respect to each outstanding share of the other class of shares. In the case of a dividend or other distribution payable in shares of a class of ordinary shares, including distributions pursuant to share splits or divisions of ordinary shares, only Class A ordinary shares may be distributed with respect to Class A ordinary shares and only Class B voting shares may be distributed with respect to Class B voting rights shares.
+Borrowing Powers
+Neither Swiss law nor our articles of association restrict our power to borrow and raise funds. The decision to borrow funds is made by or under the direction of our board of directors, and no approval by the shareholders is required in relation to any such borrowing.
+Repurchases of Shares and Purchases of Own Shares
+The CO limits our ability to repurchase and hold our own shares. We and our subsidiaries may repurchase shares only to the extent that (i) we have freely distributable reserves in the amount of the purchase price; and (ii) the aggregate par value of all shares held by us does not exceed 10% of our registered share capital. Pursuant to Swiss law, where shares are acquired in connection with a transfer restriction set out in the articles of association or an action for dissolution of the company, the foregoing upper limit is 20%. If we own shares that exceed the threshold of 10% of our share capital, the excess must be sold or cancelled by means of a capital reduction within two years.
+Shares held by us or our subsidiaries are not entitled to vote at the general meeting of shareholders but are entitled to the economic benefits applicable to the shares generally, including dividends and pre-emptive subscription rights in the case of share capital increases.
+In addition, selective share repurchases are only permitted under certain circumstances. Within these limitations, as is customary for Swiss corporations, we may, subject to applicable law, purchase and sell our own shares from time to time in order to meet imbalances of supply and demand, to provide liquidity and to balance variances in the market price of shares.
+Notification and Disclosure of Substantial Share Interests
+The disclosure obligations generally applicable to shareholders of Swiss corporations under the Swiss Federal Act on Financial Market Infrastructures and Market Conduct in Securities and Derivatives
+Trading, or the Financial Market Infrastructure Act (the “FMIA”), do not apply to us since our shares are not listed on a Swiss exchange.
+Mandatory Bid Rules
+The obligation of any person or group of persons that acquires more than one third of a company’s voting rights to submit a cash offer for all the outstanding listed equity securities of the relevant company at a minimum price pursuant to the FMIA does not apply to us since our shares are not listed on a Swiss exchange.
+Transfer Agent and Registrar of Shares
+Computershare Trust Company, N.A. acts as our transfer agent and registrar. The share register reflects only holders of record of our Class A ordinary shares, usufructuaries therein and/or nominees subject to the limitations set forth in Article 5 of our articles of association. See “—Voting Rights” for further information. Swiss law does not recognize fractional share interests.

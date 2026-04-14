@@ -1,0 +1,57 @@
+EX-21.1
+2
+ex21-1.htm
+EX-21.1
+Exhibit 21.1
+List of Subsidiaries
+As of April 8, 2026, the following is a list of the
+subsidiaries of GameSquare Holdings, Inc.:
+Subsidiaries
+Jurisdiction of Incorporation
+FaZe Holdings, Inc.
+FaZe Clan Inc.
+USA
+USA
+LA Peripherals Inc.
+USA
+Faze Media Holdings LLC
+USA
+Stream Hatchet S.L.
+Spain
+SideQik Inc.
+USA
+Vemba Media Technologies Private Limited
+India
+GameSquare Esports (USA) Inc.
+USA
+GCN Inc.
+USA
+Swingman LLC
+USA
+Mission Supply LLC
+USA
+Code Red Esports Ltd.
+UK
+Click Management Pty Ltd
+Australia
+Click Media & Management LLC
+USA
+TubeBuddy, Inc.
+USA
+Discontinued / Inactive
+UMG Media Ltd.
+Canada
+UMG Media Corp
+Canada
+UMG Events LLC
+USA
+Crowd Control Studies Inc.
+Canada
+UMG Events (Ontario) Ltd.
+Canada
+WinView, Inc.
+USA
+Frankly Inc.
+Canada
+Frankly Media LLC
+USA

@@ -1,0 +1,41 @@
+EX-21.1
+12
+ex21-1.htm
+EX-21.1
+Exhibit
+21.1
+AIRO
+Group Holdings, Inc.
+List
+of Subsidiaries of the Company
+Name
+of Subsidiary
+Jurisdiction
+of Organization
+AIRO
+Drone, LLC
+United
+States (Illinois)
+Agile
+Defense, LLC
+United
+States (Minnesota)
+Aspen
+Avionics, Inc.
+United
+States (Delaware)
+Coastal
+Defense, Inc.
+United
+States (Pennsylvania)
+Old
+AGI, Inc. f/k/a AIRO Group, Inc.
+United
+States (Delaware)
+Jaunt
+Air Mobility, LLC
+United
+States (Delaware)
+Sky-Watch
+A/S
+Denmark

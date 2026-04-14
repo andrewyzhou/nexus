@@ -1,0 +1,45 @@
+EX-21.1
+4
+ex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of the Registrant*
+As of December 31, 2025, the following entities are wholly owned direct or indirect subsidiaries of Robinhood Markets, Inc.
+Name of Subsidiary
+State/Country of Organization
+Bitstamp USA, Inc.
+Delaware
+RHX, LLC
+Delaware
+Robinhood Asset Management, LLC
+Delaware
+Robinhood Credit, Inc.
+Delaware
+Robinhood Crypto, LLC
+Delaware
+Robinhood Derivatives, LLC
+Delaware
+Robinhood Financial LLC
+Delaware
+Robinhood Gold, LLC
+Delaware
+Robinhood Money, LLC
+Delaware
+Robinhood Securities, LLC
+Delaware
+Robinhood Ventures DE, LLC
+Delaware
+Robinhood Ventures Fund I
+Delaware
+Trade-PMR, Inc.
+Florida
+TradePMR Insurance Agency, LLC
+Florida
+Sherwood Reinsurance Company, Inc.
+Hawaii
+SRC All Other Cell, LLC
+Hawaii
+SRC D&O Cell, LLC
+Hawaii
+* In accordance with Item 601(b)(21)(ii) of Regulation S-K, the Company has omitted from this Exhibit the names of certain subsidiaries which, considered in the aggregate as a single subsidiary, would not constitute a “significant subsidiary” (as defined in Rule 1-02(w) of Regulation S-X) as of December 31, 2025.

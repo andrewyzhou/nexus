@@ -1,0 +1,70 @@
+EX-21.1
+5
+ex211listofsubsidiaries_20.htm
+EX-21.1
+Document
+Exhibit 21.1
+List of Subsidiaries
+Name of Subsidiary
+Country of Incorporation
+Percentage of Voting Securities Owned
+Energy Vault, Inc.
+United States (Delaware)
+100%
+Calistoga Resiliency Center Holdco, LLC
+United States (Delaware)
+100%
+Calistoga Resiliency Center, LLC
+United States (Delaware)
+100%
+Cetus Energy LLC
+United States (Delaware)
+100%
+Cetus Energy, Inc.
+United States (Delaware)
+97%
+Cross Trails Energy Storage Project Holdco, LLC
+United States (Delaware)
+100%
+Cross Trails Energy Storage Project, LLC
+United States (Delaware)
+100%
+Asset Vault, LLC
+United States (Delaware)
+100%
+Energy Vault CDU Holdco, LLC
+United States (Delaware)
+100%
+Energy Vault CDU Project, LLC
+United States (Delaware)
+100%
+Energy Vault SOSA HoldCo LLC
+United States (Delaware)
+100%
+SOSA Energy Center, LLC
+United States (Delaware)
+100%
+Snyder Housing LLC
+United States (Texas)
+100%
+Energy Vault SA
+Switzerland
+100%
+Energy Vault Pty Ltd
+Australia
+100%
+Energy Vault Stoney Creek HoldCo Pty Ltd.
+Australia
+100%
+Energy Vault Stoney Creek ProjectCo Pty Ltd.
+Australia
+100%
+Energy Vault Solutions UK Limited
+United Kingdom
+100%
+Energy Vault Nantong Co., Ltd.
+China
+100%
+Energy Vault Srl
+Italy
+100%

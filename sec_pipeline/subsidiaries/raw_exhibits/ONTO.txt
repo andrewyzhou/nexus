@@ -1,0 +1,45 @@
+EX-21.1
+7
+onto-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+SUBSIDIARIES
+Name
+Jurisdiction
+Rudolph Technologies, Inc.
+U.S.A.
+4D Technology Corporation
+U.S.A.
+Inspectrology LLC
+U.S.A.
+Lumina Instruments Inc.
+U.S.A
+Semilab USA LLC
+U.S.A
+Onto Innovation Japan Co. Ltd.
+Japan
+Onto Innovation (Shanghai) Trading Co., Ltd.
+China
+Onto Innovation Germany GmbH
+Germany
+Onto Innovation Hong Kong Limited
+Hong Kong
+Onto Innovation Europe, B.V.
+Netherlands
+Onto Innovation Switzerland GmBH
+Switzerland
+Onto Innovation Korea Ltd.
+Korea
+Onto Innovation Southeast Asia Pte. Limited
+Singapore
+Onto Innovation Ireland Limited
+Ireland
+Onto Innovation Malaysia Sdn. Bhd.
+Malaysia
+Onto Innovation Vietnam PTE Company Limited
+Vietnam
+Neta SAS
+France
+Liteq B.V.
+Netherlands

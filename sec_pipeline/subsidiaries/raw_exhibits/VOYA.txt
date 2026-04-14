@@ -1,0 +1,695 @@
+EX-21.1
+2
+a2025q4voyaex211listofsubs.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiary
+% Parent Interest Held
+State/Country of Jurisdiction
+Parent
+1
+Benefitfocus, Inc.
+100
+Delaware
+Voya Financial, Inc.
+2
+Benefitfocus.com, Inc.
+100
+South Carolina
+Benefitfocus, Inc.
+3
+BenefitStore, LLC
+100
+South Carolina
+Benefitfocus.com, Inc.
+4
+Benefit Strategies, LLC
+100
+New Hampshire
+Voya Benefits Company, LLC
+5
+Oconee Real Estate Holdings IV - ARB LLC
+16
+Delaware
+ReliaStar Life Insurance Company
+6
+Oconee Real Estate Holdings IV - ARB LLC
+33
+Delaware
+Voya Retirement Insurance and Annuity Company
+7
+Oconee Real Estate Holdings V - CASC LLC
+44.80
+Delaware
+Voya Retirement Insurance and Annuity Company
+8
+Oconee Real Estate Holdings VI - Green LLC
+38.50
+Delaware
+ReliaStar Life Insurance Company
+9
+Oconee Real Estate Holdings VI - Green LLC
+12.50
+Delaware
+Voya Retirement Insurance and Annuity Company
+10
+Oconee Real Estate Holdings VII - CANOPY LLC
+10.13
+Delaware
+Voya Retirement Insurance and Annuity Company
+11
+Oconee Real Estate Holdings X - OASIS LLC
+100
+Delaware
+Voya Commercial Mortgage Originator, LLC
+12
+Oconee Real Estate Holdings XI - MARKET CENTER LLC
+100
+Delaware
+Voya Commercial Mortgage Originator, LLC
+13
+Oconee Real Estate Holdings XII - RIVERSIDE LLC
+22.31
+Delaware
+Voya Retirement Insurance and Annuity Company
+14
+Oconee Real Estate Holdings XII - RIVERSIDE LLC
+3.08
+Delaware
+ReliaStar Life Insurance Company
+15
+Oconee Real Estate Holdings XV - SPANISH COVE LLC
+100
+Delaware
+Voya Commercial Mortgage Originator, LLC
+16
+Oconee Real Estate Holdings XVII - CROSSINGS LLC
+10
+Delaware
+Voya Retirement Insurance and Annuity Company
+17
+Oconee Real Estate Holdings XVIII - HOUSTON LLC
+100
+Delaware
+Voya Commercial Mortgage Originator, LLC
+18
+OneAmerica Investment Advisory Services LLC
+100.00
+Indiana
+Voya Financial, Inc.
+19
+OneAmerica Retirement Services LLC
+100.00
+Indiana
+Voya Financial, Inc.
+20
+Opportunity Investor P Associates, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+21
+Opportunity Investor P Associates, L.P.
+1
+Delaware
+Opportunity Investor P Secondary Associates, LLC
+22
+Opportunity Investor P Secondary Associates, LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+23
+Opportunity Investor P, L.P.
+1
+Delaware
+Opportunity Investor P Associates, L.P.
+Exhibit 21.1
+24
+Pen-Cal Administrators, Inc.
+100
+California
+Voya Financial, Inc.
+25
+Pomona Associates V, LP
+49
+Delaware
+Pomona G.P. Holdings LLC
+26
+Pomona Associates V, LP
+1
+Delaware
+Pomona Secondary Associates V LLC
+27
+Pomona Associates VI, LP
+49
+Delaware
+Pomona G.P. Holdings LLC
+29
+Pomona Associates VI, LP
+1
+Delaware
+Pomona Secondary Associates VI LLC
+29
+Pomona Associates VII, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+30
+Pomona Associates VII, L.P.
+1
+Delaware
+Pomona Secondary Associates VII LLC
+31
+Pomona Associates VIII, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+32
+Pomona Associates VIII, L.P.
+1
+Delaware
+Pomona Secondary Associates VIII, LLC
+33
+Pomona Capital Asia Limited
+100
+Hong Kong
+Pomona Management LLC
+34
+Pomona Energy Partners US, L.P.
+99.75
+Delaware
+Pomona Capital VII, L.P.
+35
+Pomona Energy Partners, L.P.
+100
+Delaware
+Pomona Associates VII, L.P.
+36
+Pomona Europe Advisers Limited
+100
+United Kingdom
+Pomona Europe, Ltd.
+37
+Pomona Europe, Ltd.
+100
+United Kingdom
+Pomona Management LLC
+38
+Pomona G.P. Holdings LLC
+50
+Delaware
+Voya Pomona Holdings LLC
+39
+Pomona Holdings Associates III LLC
+100
+Delaware
+Pomona Primary Associates III LLC
+40
+Pomona Investors III, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+41
+Pomona Investors III, L.P.
+1
+Delaware
+Pomona Primary Associates III LLC
+42
+Pomona Investors IV, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+43
+Pomona Investors IV, L.P.
+1
+Delaware
+Pomona Primary Associates IV LLC
+44
+Pomona Investors V L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+45
+Pomona Investors V L.P.
+1
+Delaware
+Pomona Primary Associates V LLC
+46
+Pomona Management LLC
+100
+Delaware
+Voya Pomona Holdings LLC
+47
+Pomona Primary Associates III LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+48
+Pomona Primary Associates IV LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+49
+Pomona Primary Associates V LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+50
+Pomona Secondary Associates V LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+51
+Pomona Secondary Associates VI LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+52
+Pomona Secondary Associates VII LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+Exhibit 21.1
+53
+Pomona Secondary Associates VIII, LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+54
+Pomona Voya (US) Holdings Associates II LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+55
+Pomona Voya (US) Holdings Associates II, L.P.
+1
+Delaware
+Pomona Voya (US) Holdings Associates II LLC
+56
+Pomona Voya (US) Holdings Associates II, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+57
+Pomona Voya (US) Holdings Associates III LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+58
+Pomona Voya (US) Holdings Associates III LP
+1
+Delaware
+Pomona Voya (US) Holdings Associates III LLC
+59
+Pomona Voya (US) Holdings Associates III LP
+49
+Delaware
+Pomona G.P. Holdings LLC
+60
+Pomona Voya (US) Holdings Associates IV LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+61
+Pomona Voya (US) Holdings Associates IV, L.P.
+1
+Delaware
+Pomona Voya (US) Holdings Associates IV LLC
+62
+Pomona Voya (US) Holdings Associates IV, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+63
+Pomona Voya (US) Holdings Associates LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+64
+Pomona Voya (US) Holdings Associates V, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+65
+Pomona Voya (US) Holdings Associates V, L.P.
+1
+Delaware
+Pomona Voya (US) Holdings Associates V, LLC
+66
+Pomona Voya (US) Holdings Associates V, LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+67
+Pomona Voya (US) Holdings Associates, L.P.
+1
+Delaware
+Pomona Voya (US) Holdings Associates LLC
+68
+Pomona Voya (US) Holdings Associates, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+69
+Pomona Voya (US) Holdings Co- Investment Associates II, L.P.
+1
+Delaware
+Pomona Voya (US) Holdings Associates II, L.P.
+70
+Pomona Voya (US) Holdings Co- Investment Associates II, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+71
+Pomona Voya (US) Holdings Co-Investment Associates L.P.
+1
+Delaware
+Pomona Voya (US) Holdings Associates II LLC
+72
+Pomona Voya (US) Holdings Co-Investment Associates L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+73
+Pomona Voya (US) Holdings Co-Investment II, L.P.
+24.29
+Delaware
+ReliaStar Life Insurance Company
+74
+Pomona Voya (US) Holdings Co-Investment II, L.P.
+0.14
+Delaware
+Pomona Voya (US) Holdings Co- Investment Associates II, L.P.
+75
+Pomona Voya (US) Holdings Co-Investment II, L.P.
+1
+Delaware
+Pomona Voya (US) Holdings Associates II, L.P.
+Exhibit 21.1
+76
+Pomona Voya (US) Holdings Co-Investment II, L.P.
+29.69
+Delaware
+Voya Retirement Insurance and Annuity Company
+77
+Pomona Voya (US) Holdings IV, L.P.
+11.46
+Delaware
+ReliaStar Life Insurance Company
+78
+Pomona Voya (US) Holdings IV, L.P.
+0.13
+Delaware
+Pomona Voya (US) Holdings Associates IV, L.P.
+79
+Pomona Voya (US) Holdings IV, L.P.
+13.50
+Delaware
+Voya Retirement Insurance and Annuity Company
+80
+Pomona Voya (US) Holdings V L.P.
+32.22
+Delaware
+ReliaStar Life Insurance Company
+81
+Pomona Voya (US) Holdings V L.P.
+0.12
+Delaware
+Pomona Voya (US) Holdings Associates V, L.P.
+82
+Pomona Voya (US) Holdings V L.P.
+40.28
+Delaware
+Voya Retirement Insurance and Annuity Company
+83
+Pomona Voya (US) Holdings V-A, L.P.
+33.30
+Delaware
+ReliaStar Life Insurance Company
+84
+Pomona Voya (US) Holdings V-A, L.P.
+0.12
+Delaware
+Pomona Voya (US) Holdings Associates V, L.P.
+85
+Pomona Voya (US) Holdings V-A, L.P.
+32.69
+Delaware
+Voya Retirement Insurance and Annuity Company
+86
+Pomona Voya Asia Pacific Associates, L.P.
+49
+Delaware
+Pomona G.P. Holdings LLC
+87
+Pomona Voya Asia Pacific Associates, L.P.
+1
+Delaware
+Pomona Voya Asia Pacific Associates, LLC
+88
+Pomona Voya Asia Pacific Associates, LLC
+100
+Delaware
+Pomona G.P. Holdings LLC
+89
+ReliaStar Life Insurance Company
+100
+Minnesota
+Voya Holdings Inc.
+90
+ReliaStar Life Insurance Company of New York
+100
+New York
+ReliaStar Life Insurance Company
+91
+Security Life Assignment Corporation
+100
+Colorado
+Voya Financial, Inc.
+92
+Tango Health, Inc.
+100
+Delaware
+Benefitfocus.com, Inc.
+93
+VAAM (Cayman) Ltd.
+100
+Cayman Islands
+Voya Investment Management Alternative Assets LLC
+94
+VAAM GP LLC
+100
+Delaware
+Voya Alternative Asset Management LLC
+95
+VFI India Holdings LLC
+1
+India
+Voya Global Services Private Limited
+96
+VIM Holdings LLC
+76
+Delaware
+Voya Holdings Inc.
+97
+VIM SLP Holdings LLC
+100
+Delaware
+VIM Holdings Inc.
+98
+VIM SLP Holdings Inc.
+100
+Delaware
+VIM Holdings Inc.
+Exhibit 21.1
+99
+Voya Alternative Asset Management Ireland Limited
+100
+Ireland
+Voya Investment Management Alternative Assets LLC
+100
+Voya Alternative Asset Management LLC
+100
+Delaware
+Voya Investment Management Alternative Assets LLC
+101
+Voya Benefits Company, LLC
+100
+Delaware
+Voya Holdings Inc.
+102
+Voya Capital, LLC
+100
+Delaware
+Voya Investment Management LLC
+103
+Voya Custom Investments LLC
+100
+Delaware
+Voya Holdings Inc.
+104
+Voya Enhanced Middle Market Credit GP I LP
+100
+Delaware
+VAAM GP LLC
+105
+Voya Enhanced Middle Market Credit Fund I LP
+100
+Delaware
+Voya Enhanced Middle Market Credit GP I LP
+106
+Voya Enhanced Middle Market Credit Fund I (RNF) LP
+100
+Delaware
+Voya Enhanced Middle Market Credit GP I LP
+107
+Voya Enhanced Middle Market Credit Fund I Originator LLC
+100
+Delaware
+Voya Enhanced Middle Market Credit Fund I LP
+108
+Voya Financial Advisors, Inc.
+100
+Minnesota
+Voya Holdings Inc.
+109
+Voya Financial Partners, LLC
+100
+Delaware
+Voya Retirement Insurance and Annuity Company
+110
+Voya Funds Services, LLC
+100
+Delaware
+Voya Capital, LLC
+111
+Voya Global Services Private Limited
+99
+India
+Voya Financial, Inc.
+112
+Voya Holdings Inc.
+100
+Connecticut
+Voya Financial, Inc.
+113
+Voya Institutional Plan Services, LLC
+100
+Delaware
+Voya Retirement Insurance and Annuity Company
+114
+Voya Institutional Trust Company
+100
+Connecticut
+Voya Holdings Inc.
+115
+Voya Insurance Solutions, LLC
+100
+Connecticut
+Voya Holdings Inc.
+116
+Voya Investment Management (UK) Limited
+100
+United Kingdom
+Voya Investment Management LLC
+117
+Voya Investment Management Alternative Assets LLC
+100
+Delaware
+Voya Investment Management LLC
+118
+Voya Investment Management Co. LLC
+100
+Delaware
+Voya Investment Management LLC
+119
+Voya Investment Management LLC
+100
+Delaware
+VIM Holdings LLC
+120
+Voya Investment Trust Co.
+100
+Connecticut
+Voya Investment Management Co. LLC
+121
+Voya Investments Distributor, LLC
+100
+Delaware
+Voya Funds Services, LLC
+122
+Voya Investments, LLC
+100
+Arizona
+Voya Funds Services, LLC
+123
+Voya Multi-Strategy Opportunity Fund LLC
+100
+Delaware
+Voya Alternative Asset Management LLC
+Exhibit 21.1
+124
+Voya Nonqualified Plan Pay Services, LLC
+100
+Delaware
+Pen-Cal Administrators, Inc.
+125
+Voya Payroll Management, Inc.
+100
+Delaware
+Voya Financial, Inc.
+126
+Voya Pomona Asia Pacific G.P. Limited
+100
+Hong Kong
+Pomona Voya Asia Pacific Associates, L.P.
+127
+Voya Pomona Asia Pacific Private Equity Co-Invest I L.P.
+1.35
+Delaware
+Voya Pomona Asia Pacific G.P. Limited
+128
+Voya Pomona Asia Pacific Private Equity Co-Invest I L.P.
+39.99
+Delaware
+Voya Retirement Insurance and Annuity Company
+129
+Voya Pomona Holdings LLC
+100
+Delaware
+Voya Investment Management Alternative Assets LLC
+130
+Voya Realty Group LLC
+100
+Delaware
+Voya Investment Management Alternative Assets LLC
+131
+Voya Retirement Advisors, LLC
+100
+New Jersey
+Voya Retirement Insurance and Annuity Company
+132
+Voya Retirement Insurance and Annuity Company
+100
+Connecticut
+Voya Holdings Inc.
+133
+Voya Services Company
+100
+Delaware
+Voya Financial, Inc.
+134
+Voya Special Investments, Inc.
+0.20
+Delaware
+Voya Financial, Inc.
+135
+Voya Special Investments, Inc.
+49.99
+Delaware
+Voya Financial, Inc.
+136
+Voya Special Investments, Inc.
+49.99
+Delaware
+Voya Financial, Inc.

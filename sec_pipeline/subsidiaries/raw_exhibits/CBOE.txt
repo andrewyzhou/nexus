@@ -1,0 +1,42 @@
+EX-21.1
+24
+cboe-20251231xex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF CBOE GLOBAL MARKETS, INC.
+AS OF DECEMBER 31, 2025
+The below is a list of Cboe Global Markets, Inc.’s subsidiaries as of December 31, 2025, and the states or jurisdictions in which they are organized:
+Name of Subsidiary
+Jurisdiction of Organization
+BIDS Holdings L.P.
+Delaware
+Cboe Asia Pacific Holdings Ltd.
+Hong Kong
+Cboe Bats, LLC
+Delaware
+Cboe BYX Exchange, Inc.
+Delaware
+Cboe BZX Exchange, Inc.
+Delaware
+Cboe C2 Exchange, Inc.
+Delaware
+Cboe Clear Europe N.V.
+Netherlands
+Cboe EDGX Exchange, Inc.
+Delaware
+Cboe Europe B.V.
+Netherlands
+Cboe Europe Limited
+England and Wales
+Cboe Exchange, Inc.
+Delaware
+Cboe Futures Exchange, LLC
+Delaware
+Cboe FX Markets, LLC
+Delaware
+Cboe Services Company
+Delaware
+Omicron Acquisition Corp.
+Delaware
+Pursuant to Item 601(b)(21)(ii) of Regulation S-K under the Exchange Act, subsidiaries may be excluded if, when considered in the aggregate as a single subsidiary, such subsidiaries would not constitute a “significant subsidiary” as defined by Rule 1-02(w) of Regulation S-X under the Securities Act (“Reg S-X”). Therefore, a listed subsidiary may not individually be deemed a “significant subsidiary” under Rule 1-02(w) of Reg S-X, rather, included to meet such aggregation requirements.

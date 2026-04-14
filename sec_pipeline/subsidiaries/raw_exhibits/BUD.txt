@@ -1,0 +1,1118 @@
+EX-2.15
+2
+d65314dex215.htm
+EX-2.15
+EX-2.15
+Exhibit 2.15
+DESCRIPTION OF SECURITIES
+REGISTERED UNDER SECTION 12 OF THE EXCHANGE ACT
+As of 31 December 2025, Anheuser-Busch InBev SA/NV had the following series of securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading symbol
+Name of each exchange on which registered
+Ordinary shares without nominal value
+New York Stock Exchange*
+American Depositary Shares, each representing one ordinary share without nominal value
+BUD
+New York Stock Exchange
+3.750% Notes due 2042 (issued July 2012)
+BUD42A
+New York Stock Exchange
+4.000% Notes due 2043 (issued January 2013)
+BUD/43
+New York Stock Exchange
+4.625% Notes due 2044 (issued January 2014)
+BUD/44
+New York Stock Exchange
+4.700% Notes due 2036 (issued January 2016)
+BUD/36
+New York Stock Exchange
+4.900% Notes due 2046 (issued January 2016)
+BUD/46
+New York Stock Exchange
+4.950% Notes due 2042 (issued December 2016)
+BUD/42
+New York Stock Exchange
+6.625% Notes due 2033 (issued December 2016)
+BUD/33
+New York Stock Exchange
+5.875% Notes due 2035 (issued December 2016)
+BUD/35
+New York Stock Exchange
+4.375% Notes due 2038 (issued April 2018)
+BUD/38
+New York Stock Exchange
+4.600% Notes due 2048 (issued April 2018)
+BUD/48A
+New York Stock Exchange
+4.750% Notes due 2058 (issued April 2018)
+BUD/58
+New York Stock Exchange
+4.750% Notes due 2029 (issued January 2019)
+BUD/29
+New York Stock Exchange
+4.900% Notes due 2031 (issued January 2019)
+BUD/31
+New York Stock Exchange
+5.450% Notes due 2039 (issued January 2019)
+BUD/39A
+New York Stock Exchange
+5.550% Notes due 2049 (issued January 2019)
+BUD/49
+New York Stock Exchange
+5.800% Notes due 2059 (issued January 2019)
+BUD/59
+New York Stock Exchange
+3.500% Notes due 2030 (issued April 2020)
+BUD/30
+New York Stock Exchange
+4.350% Notes due 2040 (issued April 2020)
+BUD/40
+New York Stock Exchange
+4.500% Notes due 2050 (issued April 2020)
+BUD/50
+New York Stock Exchange
+4.600% Notes due 2060 (issued April 2020)
+BUD/60
+New York Stock Exchange
+5.000% Notes due 2034 (issued March 2024)
+BUD/34
+New York Stock Exchange
+*
+Not for trading, but only in connection with the registration of American Depositary Shares representing such
+ordinary shares, pursuant to the requirements of the Securities and Exchange Commission.
+In this exhibit, references to
+“
+AB InBev
+,” “
+we
+,” “
+us
+,” “
+our
+” and “
+AB InBev Group
+” are to, as the context otherwise requires, Anheuser-Busch InBev SA/NV, a Belgian public limited
+liability company (
+société anonyme/naamloze vennootschap
+), and the group of companies owned and/or controlled by AB InBev. Capitalized terms used but not defined herein have the meanings given to them in AB InBev’s annual
+report on Form
+20-F
+for the fiscal year ended 31 December 2025 (the “
+2025 Form
+20-F
+”).
+Description of Ordinary Shares
+Form and Transferability of Our Shares
+Our share capital is represented by 2,019,241,973 shares without nominal value, of which 1,797,199,994 are Ordinary Shares registered pursuant
+to Section 12(b) of the Act. There are two classes of shares: all shares are Ordinary Shares, except for 222,041,979 Restricted Shares as of 31 December 2025, which are not registered pursuant to Section 12(b) of the Act.
+Our Ordinary Shares can take the form of registered shares or dematerialized shares. Restricted Shares may only be held in registered form.
+All of our shares are fully
+paid-up.
+Ordinary Shares are freely transferable.
+Changes to Our Share Capital
+Capital Increase by Our Shareholders’ Meeting
+Changes to our share capital may be decided by our shareholders’ meeting. Our shareholders’ meeting may at any time decide to
+increase or decrease our share capital. Such resolution must satisfy the following quorum and majority requirements: (i) a quorum of 50% of the issued share capital must be present or represented at the meeting, and (ii) the capital
+increase must be approved by at least 75% of the votes cast at the meeting (not counting abstentions). If there is no quorum, a second meeting must be convened where no quorum requirement applies but where the special 75% majority requirement
+applies. See “—Description of the Rights and Benefits Attached to Our Shares—Right to Attend and Vote at Our Shareholders’ Meeting—Quorum and Majority Requirements” below.
+Capital Increase by Our Board of Directors
+Subject to the same quorum and majority requirements described above, our shareholders’ meeting may authorize our Board, within certain
+limits, to increase our share capital without any further approval of shareholders, by way of authorized capital. This authorization needs to be limited in time (i.e., it can only be granted for a renewable period of a maximum of five years) and in
+scope (i.e., the increase by way of authorized capital may not exceed the amount of the share capital at the time of the authorization).
+At the annual shareholders’ meeting on 27 April 2022, our shareholders’ meeting authorized our Board to increase the share
+capital of AB InBev to an amount not to exceed 3% of the total number of shares issued and outstanding on 27 April 2022 (i.e., 2,019,241,973). This authorization has been granted for five years from the date of publication of the amendment of
+the Articles of Association resolved upon by the shareholders’ meeting held on 27 April 2022 (i.e., until 3 June 2027). It can be used for several purposes, including when the sound management of our business or the need to react to
+appropriate business opportunities calls for a restructuring, an acquisition (whether private or public) of securities or assets in one or more companies, or generally, any other appropriate increase of our capital.
+Preferential Subscription Right and Anti-Dilution
+In the event of a share capital increase by way of the issue of new shares, convertible bonds, bonds repayable in shares, subscription rights
+or other financial instruments giving a right to shares (any such shares, bonds, rights or instruments being “Equity Interests”), all shareholders will have a preferential right to subscribe for any such Equity Interests, as set out in
+and in accordance with Article 7:188 of the Belgian Companies Code. The preferential subscription right shall entitle each shareholder to subscribe for any new Equity Interests, pro rata to the proportion of existing share capital as he or she holds
+immediately prior to such issue and subject to the rules of Article 7:188 of the Belgian Companies Code. Each shareholder may exercise his or her preferential right in whole or in part.
+Our shareholders’ meeting may restrict or cancel the preferential subscription right, in accordance with Article 7:191 of the Belgian
+Companies Code, for a purpose that is in our best interests, provided, however, that if the preferential subscription right is restricted or canceled with respect to any issuance in which any of our shareholders acquires any such Equity Interests,
+all our shareholders shall be given the same right and be treated
+-2-
+in the same way. This requirement shall not apply when the preferential subscription right is restricted or canceled with respect to issuances of Equity Interests issued solely pursuant to stock
+option plans or other compensation plans in the ordinary course of business. Where our shareholders’ meeting has granted an authorization to our board of directors to effect a capital increase in the framework of the authorized capital and
+such authorization allows our board of directors to do so, our board of directors may likewise restrict or cancel the preferential subscription right applying the same principles as set out in this paragraph.
+Any decision to restrict or cancel the preferential subscription right will require a quorum at the shareholders’ meeting of
+shareholders holding at least 50% of the share capital and, approval by a qualified majority of at least 75% of the votes cast at the meeting (not counting abstentions). If there is no quorum, a second meeting must be convened. At the second
+meeting, no quorum is required, but the relevant resolution must be approved by a qualified majority of at least 75% of the votes cast at the meeting (not counting abstentions).
+No Restricted Shares shall be issued other than to a Restricted Shareholder exercising its preferential subscription right in respect of its
+holding of Restricted Shares, without prejudice to the right of the Ordinary Shareholders to exercise their second ranking preferential subscription right in accordance with Article 7:188 of the Belgian Companies Code. In case of any event referred
+to in Article 8.1 of our articles of association, Restricted Shareholders shall only be entitled or required to receive Restricted Shares in respect of the Restricted Shares held by them.
+Certain shareholders (including shareholders resident in, or citizens of, certain jurisdictions, such as the United States, Australia, Canada
+and Japan) may not be entitled to exercise such rights even if they are not disapplied unless the rights and related shares are registered or qualified for sale under the relevant legislative or regulatory framework.
+Purchases and Sales of Our Own Shares
+We
+may only acquire our own shares pursuant to a decision by our shareholders’ meeting taken under the conditions of quorum and majority provided for in the Belgian Companies Code. Such a decision requires a quorum at the shareholders’
+meeting of shareholders holding at least 50% of the share capital and approval by a qualified majority of at least 75% of the votes cast at the meeting (not counting abstentions). If there is no quorum, a second meeting must be convened. At the
+second meeting, no quorum is required, but the relevant resolution must be approved by a qualified majority of at least 75% of the votes cast at the meeting (not counting abstentions).
+On 28 April 2021, our shareholders’ meeting granted an authorization allowing us to acquire our shares, either on or outside of the
+stock exchange, up to a maximum of 20% of the issued shares for a unitary price which will not be lower than one Euro and not higher than 20% above the highest closing price on Euronext Brussels in the last 20 trading days preceding the transaction.
+This authorization is valid for five years as from the date of publication in the Belgian State Gazette of the amendment of the Articles of Association resolved upon by the shareholders’ meeting held on 28 April 2021 (i.e., until
+1 June 2026).
+We may only dispose of our own shares in accordance with the conditions of the Belgian Companies Code.
+With respect to the shares acquired by us as a result of the merger between us and predecessor Anheuser-Busch InBev SA/NV, our Board shall be
+entitled to dispose of such shares only in connection with (i) any share delivery obligations undertaken by us prior to 11 November 2015, (ii) any stock option plans or other compensation plans (including the Zenzele schemes) or
+(iii) any stock lending agreement or similar arrangement in respect of which we used our own shares for the purposes set out in items (i) and (ii).
+See “Item 16E. Purchases of Equity Securities by the Issuer” in the 2025 Form
+20-F
+for
+details of our recent share repurchase programs.
+-3-
+Description of the Rights and Benefits Attached to Our Shares
+Right to Attend and Vote at Our Shareholders’ Meeting
+Ordinary Shareholders’ Meeting
+Our
+ordinary shareholders’ meeting will be held on the last Wednesday of April of each year, at 11:00 a.m., Belgian time, in one of the municipalities of the Brussels-Capital Region, in Leuven or in Liège, at the place which will be
+mentioned in the convening notice. If this date is a legal holiday, the meeting will be held on the next business day at the same time.
+At this meeting, our Board and the statutory auditor will present a report on our management and financial situation as at the end of the
+previous accounting year, which shall run from 1 January to 31 December. The shareholders will then vote on the approval of the annual accounts, the allocation of our profit or loss, the appointment or renewal, if necessary, of directors
+or statutory auditors, remuneration of the directors and the auditor and the release from liability of the directors and the statutory auditor.
+The convening notice to the upcoming annual shareholders’ meeting to be held on 29 April 2026 will be published on 27 March
+2026 and will contain further information on the format of the meeting and modalities for participation.
+Ad hoc and Extraordinary Shareholders’
+Meetings
+Our Board or our statutory auditor (or the liquidators, if appropriate) may, whenever our interests so require, convene a
+special or extraordinary shareholders’ meeting. Such shareholders’ meeting must also be convened every time one or more of our shareholders holding at least
+one-tenth
+of our share capital so
+demand.
+Such shareholders’ meetings shall be held on the day, at the hour and in the place designated by the convening notice. They
+may be held at locations other than our registered office.
+Notices Convening Our Shareholders’ Meeting
+Notices of our shareholders’ meetings contain the agenda of the meeting and the recommendations of our board of directors on the matters
+to be voted upon.
+Notices for our shareholders’ meetings will be sent 30 days prior to the date of our shareholders’ meetings
+to the holders of our registered shares and to our directors and our statutory auditor.
+Notices of all our shareholders’ meetings
+and all related documents, such as specific board of directors’ and auditor’s reports, will also be published on our website.
+Admission to
+Meetings
+All shareholders are entitled to attend our shareholders’ meetings, take part in the deliberations and, within the
+limits prescribed by the Belgian Companies Code and our articles of association, vote, provided they have complied with the formalities for admission set out in the convening notice.
+The right to participate in and vote at a shareholders’ meeting will require a shareholder to:
+•
+have the ownership of his or her shares recorded in his or her name on the 14th calendar day preceding the date
+of the shareholders’ meeting, either through registration in the register of our registered shares, for holders of registered shares, or through book-entry in the accounts of an authorized account holder or clearing organization, for holders
+of dematerialized shares; and
+•
+notify us (or a person designated by us) at the latest on the sixth calendar day preceding the date of the
+shareholders’ meeting of his or her intention to participate in the meeting, indicating the number of shares in respect of which he or she intends to do so. In addition, a holder of dematerialized shares must, at the latest on the same day,
+provide us (or a person designated by us) with an original certificate issued by an authorized account holder or a clearing organization certifying the number of shares owned by the relevant shareholder on the record date for the shareholders’
+meeting and for which he or she has notified his or her intention to participate in that meeting.
+-4-
+Voting by Proxy
+Any shareholder with the right to vote may either personally participate in the meeting or give a proxy to another person, who need not be a
+shareholder, to represent him or her at the meeting. A shareholder may designate, for a given meeting, only one person as proxy holder, except in circumstances where Belgian law allows the designation of multiple proxy holders. The appointment of a
+proxy holder may take place in paper form or electronically (in which case, the form shall be signed by means of an electronic signature in accordance with applicable Belgian law), through a form which shall be made available by us. The signed
+original paper or electronic form must be received by us at the latest on the sixth calendar day preceding the date of the shareholders’ meeting. Any appointment of a proxy holder shall comply with relevant requirements of applicable Belgian
+law in terms of conflicting interests, record keeping and any other applicable requirements.
+Vote by Correspondence
+Any shareholder with the right to vote may vote remotely in advance of our shareholders’ meeting by sending a paper form or, if permitted
+by us in the notice convening the meeting, by sending a form electronically (in which case, the form shall be signed by means of an electronic signature in accordance with applicable Belgian law). These forms shall be made available by us. Only
+forms received by us at the latest on the sixth calendar day preceding the date of the meeting will be taken into account.
+Shareholders
+voting remotely must, in order for their vote to be taken into account for the calculation of the quorum and voting majority, comply with the admission formalities set out in the convening notice.
+Right to Request Items Be Added to the Agenda and to Ask Questions at the Shareholders’ Meeting
+One or more shareholders that together hold at least 3% of our share capital may request for items to be added to the agenda of any convened
+meeting and submit proposals for resolutions with regard to existing agenda items or new items to be added to the agenda, provided that (i) they prove ownership of such shareholding as at the date of their request and record their shares
+representing such shareholding on the record date for the relevant shareholders’ meeting and (ii) the additional items to be added to the agenda and/or proposed resolutions have been sent in writing (by registered mail or
+e-mail)
+by these shareholders to our registered office no later than on the twenty-second day preceding the date of the relevant shareholders’ meeting. Such shareholdings must be proven by a certificate
+evidencing the registration of the relevant shares in our share register or by a certificate issued by the authorized account holder or the clearing organization certifying the book-entry of the relevant number of dematerialized shares in the name
+of the relevant shareholder(s).
+We shall acknowledge receipt of shareholders’ requests within 48 hours and, if required, publish a
+revised agenda of the shareholders’ meeting at the latest on the 15th day preceding the date of the shareholders’ meeting. The right to request that items be added to the agenda or that proposed resolutions in relation to existing agenda
+items be submitted does not apply in case of a second shareholders’ meeting that must be convened because the quorum was not obtained during the first shareholders’ meeting.
+Within the limits of Article 7:139 of the Belgian Companies Code, our directors and our auditor shall answer, during the shareholders’
+meeting, any questions raised by shareholders. Shareholders may ask questions either during the meeting or in writing, provided that we receive the written question at the latest on the sixth day preceding the date of the shareholders’
+meeting.
+Quorum and Majority Requirements
+Each of our shares is entitled to one vote except for shares owned by us, or by any of our subsidiaries, the voting rights of which are
+suspended. Without prejudice to the specific rights and obligations attached to the Restricted Shares, the shares held by our principal shareholders do not entitle such shareholders to different voting rights.
+-5-
+Save as provided in the Belgian Companies Code and our articles of association, there will
+be no quorum requirement at our shareholders’ meetings and decisions will be taken by a simple majority vote.
+Resolutions relating
+to amendments of our articles of association or a merger or split are subject to special quorum and majority requirements. Specifically, any resolution on these matters will require the presence in person or by proxy of shareholders holding an
+aggregate of at least 50% of our issued share capital, and the approval of at least 75% of the votes cast at the meeting (not counting abstentions). If there is no quorum, a second meeting must be convened. At the second meeting, the quorum
+requirement will not apply. However, the special majority requirement will continue to apply.
+Resolutions relating to the modification of
+the rights attached to a particular class of our shares are subject to special quorum and majority requirements. Specifically, any resolution on these matters will require the presence in person or by proxy of shareholders holding an aggregate of at
+least 50% of the issued share capital in each class of our shares and the approval of at least 75% of the votes cast at the meeting in each class of our shares (not counting abstentions). If there is no quorum, a second meeting must be convened. At
+the second meeting, the quorum requirement will not apply. However, the special majority requirement will continue to apply.
+Any
+modification of our corporate purpose will require a quorum of shareholders holding an aggregate of at least 50% of the share capital and approval by a qualified majority of at least 80% of the votes cast at the meeting (not counting abstentions).
+If there is no quorum, a second meeting must be convened. At the second meeting, no quorum will be required, but the relevant resolution must be approved by a qualified majority of at least 80% of the votes cast at the meeting (not counting
+abstentions).
+Any authorization to repurchase shares will require a quorum of shareholders holding an aggregate of at least 50% of the
+share capital and approval by a qualified majority of at least 75% of the votes cast at the meeting (not counting abstentions). If there is no quorum, a second meeting must be convened. At the second meeting, no quorum will be required, but the
+relevant resolution must be approved by a qualified majority of at least 75% of the votes cast at the meeting (not counting abstentions).
+Pursuant to Article 40 of our articles of association, any acquisition or disposal of tangible assets by us for an amount higher than the
+value of
+one-third
+of our consolidated total assets as reported in our most recent audited consolidated financial statements shall be within the exclusive jurisdiction of our shareholders’ meeting and
+shall be adopted with a positive vote of 75% of the shares attending or represented at the meeting, regardless of the number of shares attending or represented.
+Dividends
+All of
+our shares participate equally in our profits. Our Ordinary Shares (including our Ordinary Shares represented by our ADSs) and Restricted Shares have the same rights in relation to dividends and other distributions.
+The Belgian Companies Code provides that dividends can only be paid up to an amount equal to the excess of our shareholders’ equity over
+the sum of
+(i) paid-up
+or
+called-up
+share capital and (ii) reserves not available for distribution pursuant to law or our articles of association.
+In general, we may only pay dividends with the approval of the shareholders’ meeting. The annual dividend payment (if any) will be
+approved by our shareholders at our Ordinary Shareholders’ meeting and will be paid on the dates and the places determined by our board of directors. In addition, our Board may declare interim dividends without shareholder approval, in
+accordance with the provisions of the Belgian Companies Code and Article 44 of our articles of association. It is expected that our Board will decide the payment of dividends on a semi-annual basis.
+See “Item 8. Financial Information—A. Consolidated Financial Statements and Other Financial Information—Dividend
+Policy” in the 2025 Form
+20-F
+for further information on our current dividend policy.
+-6-
+Appointment of Directors
+Under our articles of association, the directors are appointed as follows:
+•
+four independent directors will be appointed by our shareholders’ meeting upon proposal by our board of
+directors;
+•
+so long as the Stichting and/or any of its affiliates, any of their respective successors and/or
+successors’ affiliates own, in aggregate, more than 30% of the shares with voting rights in our share capital, eight directors will be appointed by our shareholders’ meeting upon proposal by the Stichting (and/or any of its affiliates,
+any of their respective successors and/or successors’ affiliates); and
+•
+so long as the Restricted Shareholders, together with their affiliates and/or any of their successors and/or
+successors’ affiliates, own in aggregate:
+•
+more than 13.5% of the shares with voting rights in our share capital, three directors will be appointed by our
+shareholders’ meeting upon proposal by the Restricted Shareholders;
+•
+more than 9% but not more than 13.5% of the shares with voting rights in our share capital, two directors will be
+appointed by our shareholders’ meeting upon proposal by the Restricted Shareholders;
+•
+more than 4.5% but not more than 9% of the shares with voting rights in our share capital, one director will be
+appointed by our shareholders’ meeting upon proposal by the Restricted Shareholders; and
+•
+4.5% or less than 4.5% of the shares with voting rights in our share capital, the Restricted Shareholders will no
+longer have the right to propose any candidate for appointment as a member of our board of directors and no directors will be appointed upon proposal by the Restricted Shareholders.
+The percentage of shares with voting rights in our share capital necessary for the appointment of directors as described in this section is
+determined 120 days before our annual shareholders’ meeting, i.e. 30 December 2025 for the meeting to be held on 29 April 2026. For purposes of this calculation, the denominator is determined in accordance with rules set out in
+article 20 of our articles of association, which excludes certain shares which have been disposed of by us from treasury since the completion of the combination with SAB.
+Liquidation Rights
+We can only be dissolved by a shareholders’ resolution passed in accordance with the conditions laid down for the amendment of our
+articles of association (i.e., with a majority of at least 75% of the votes cast (not counting abstentions) at an extraordinary shareholders’ meeting where at least 50% of the share capital is present or represented).
+If, as a result of losses incurred, the ratio of our net assets (determined in accordance with Belgian legal and accounting rules) to share
+capital is less than 50%, our board of directors must convene an extraordinary shareholders’ meeting within two months as of the date upon which our board of directors discovered or should have discovered this undercapitalization. At this
+shareholders’ meeting, our board of directors must propose either the dissolution of the company or the continuation of the company, in which case, our board of directors must propose measures to redress our financial situation.
+Shareholders’ resolutions relating to our dissolution are adopted in accordance with the conditions laid down for the amendments of our articles of association.
+If, as a result of losses incurred, the ratio of our net assets to share capital is less than 25%, the same procedure must be followed;
+provided, however, that in this instance, shareholders representing 25% of the votes validly cast at the relevant shareholders’ meeting can decide to dissolve the company. If the amount of our net assets has dropped below EUR 61,500 (the
+minimum amount of share capital of a Belgian limited liability company (
+société anonyme / naamloze vennootschap
+)), any interested party is entitled to request the competent court to dissolve the company. The court can order the
+dissolution of the company or grant a grace period within which we may remedy the situation.
+-7-
+In the event of our dissolution and liquidation, the assets remaining after payment of all
+debts and liquidation expenses shall be distributed to the holders of our shares, each receiving a sum proportional to the number of our shares held by them. Our Ordinary Shares and Restricted Shares have the same rights in relation to all proceeds
+of a dissolution, liquidation or
+winding-up.
+Transactions with Major Shareholders
+Pursuant to Article 41 of our Articles of Association, in the event of (i) a contribution in kind to us with assets owned by
+any person or entity which is required to file a transparency declaration pursuant to applicable Belgian law or a subsidiary of such person or entity or (ii) a merger of the company with such a person or entity or a subsidiary of such person or
+entity, then such person or entity and its subsidiaries shall not be entitled to vote on the resolution submitted to the shareholders’ meeting to approve such contribution in kind or merger.
+Disclosure of Significant Shareholdings
+In addition to the transparency disclosure thresholds set out by the applicable Belgian legislation (i.e., 5%, 10%, 15% and so on in five
+percentage point increments), the disclosure obligation set out in such legislation shall also apply as soon as the amount of securities giving voting rights, voting rights and assimilated financial instruments held by a person acting alone or by
+persons acting in concert reaches, exceeds or falls below a 3% or 7.5% threshold of the total outstanding voting rights. For details of our major shareholders, see “Item 7. Major Shareholders and Related Party Transactions—A. Major
+Shareholders” in the 2025 Form
+20-F.
+Mandatory Bid
+Public takeover bids for our shares and other securities, if any, are subject to supervision by the FSMA. Any public takeover bids must be
+extended to all of our voting securities, as well as all other securities giving access to voting rights. Prior to making a bid, a bidder must publish a prospectus which has been approved by the FSMA prior to publication.
+Belgium has implemented the Thirteenth Company Law Directive (European Directive 2004/25/EC of 21 April 2004) in the Belgian Law of
+1 April 2007 on public takeover bids and the Belgian Royal Decree of 27 April 2007 on public takeover bids. The Belgian Law of 1 April 2007 on public takeover bids provides that a mandatory bid must be launched if a person, as a
+result of his or her own acquisition or the acquisition by persons acting in concert with him or her or by persons acting for his or her account, directly or indirectly holds more than 30% of the voting rights in a company having its registered
+office in Belgium and of which at least part of the voting securities are traded on a regulated market or on a multilateral trading facility, as designated by the Belgian Royal Decree of 27 April 2007 on public takeover bids (as set out in
+“Item 7. Major Shareholders and Related Party Transactions—A. Major Shareholders—Shareholding Structure” in the 2025 Form
+20-F).
+The mere fact of exceeding the relevant threshold through the acquisition of shares will give rise to a mandatory bid, irrespective of whether
+the price paid in the relevant transaction exceeds the current market price. The duty to launch a mandatory bid does not apply in case of an acquisition if it can be shown that a third party exercises control over us or that such third party holds a
+larger stake than the person holding 30% of the voting rights.
+There are several provisions of Belgian company law and certain other
+provisions of Belgian law, such as the obligations to disclose significant shareholdings and merger control regulations, that may apply to us and which may make an unsolicited tender offer, merger, change in management or other change in control
+more difficult. These provisions could discourage potential takeover attempts that other shareholders may consider to be in their best interest and could adversely affect the market price of our shares. These provisions may also have the effect of
+depriving the shareholders of the opportunity to sell their shares at a premium.
+In addition, the board of directors of a Belgian company
+may, in certain instances and subject to prior authorization by the shareholders, deter or frustrate public takeover bids through dilutive issuances of equity securities (pursuant to the company’s authorized capital) or through share
+buy-backs
+(i.e., the purchase of our own shares).
+-8-
+Limitations on the Right to Own Securities
+Neither Belgian law nor our articles of association imposes any general limitation on the right of
+non-residents
+or foreign persons to hold our securities or exercise voting rights on our securities other than those limitations that would generally apply to all shareholders.
+-9-
+Description of Debt Securities
+Terms Applicable to the 5.000% Notes due 2034
+The fixed rate notes due 2034 (the “
+March 2024
+Notes
+”) will bear interest at a rate of 5.000% per year. The
+Notes will be issued by Anheuser-Busch InBev Worldwide Inc. (the “
+Issuer
+”, with respect to the March 2024 Notes) and are fully and unconditionally guaranteed by Anheuser-Busch InBev SA/NV (the “
+Parent
+Guarantor
+”), Anheuser-Busch InBev Finance Inc., Brandbev S.à r.l., Brandbrew S.A., Cobrew NV, and Anheuser-Busch Companies, LLC (the “
+Subsidiary Guarantors,
+” and together with the Parent Guarantor, the
+“
+Guarantors
+”). The March 2024 Notes are listed on the New York Stock Exchange.
+The March 2024 Notes are issued under a
+supplemental indenture to the indenture dated as of April 4, 2018 (the “
+Indenture
+”, with respect to the March 2024 Notes), entered into among the Issuer, each of the Guarantors and The Bank of New York Mellon Trust Company,
+N.A., as trustee, principal paying agent, transfer agent and registrar (the “
+Trustee
+”). The information below on certain provisions of the Notes and the Indenture should be read together with “Description of Debt Securities
+- Terms Applicable to the March 2024 Notes” below. This information, however, does not purport to be complete and is subject to, and is qualified in its entirety by reference to, all the provisions of the March 2024 Notes and the Indenture,
+including the definitions of certain terms contained therein. The Indenture is by its terms subject to and governed by the Trust Indenture Act of 1939, as amended.
+The March 2024 Notes are senior unsecured obligations of the Issuer and rank equally with all other existing and future unsecured and
+unsubordinated debt obligations of the Issuer. The March 2024 Notes will be repaid at maturity in U.S. dollars at a price equal to 100% of the principal amount thereof. The March 2024 Notes are issued in denominations of $1,000 and integral
+multiples of $1,000 in excess thereof. The March 2024 Notes do not provide for any sinking fund.
+The March 2024 Notes are initially
+limited to $1,000,000,000 aggregate principal amount and will mature on June 15, 2034.
+Interest will accrue on the March 2024 Notes
+until the principal of such March 2024 Notes is paid or duly made available for payment. Interest on the March 2024 Notes will be calculated on the basis of
+a 360-day year
+consisting of
+twelve 30-day months.
+If the date of maturity of interest on or principal of the March 2024 Notes or the date fixed for redemption or payment in connection with an acceleration of the March 2024 Notes is
+not a Business Day, then payment of interest or principal need not be made on such date, but may be made on the next succeeding Business Day with the same force and effect as if made on the date of maturity or the date fixed for redemption or
+payment in connection with an acceleration, and no interest shall accrue as a result of the delayed payment.
+Interest on the March 2024
+Notes will be paid to the persons in whose names the March 2024 Notes are registered at the close of business on the June 1 and December 1 immediately preceding the applicable interest payment date, whether or not such date is a Business
+Day. The March 2024 Notes may, in addition, be redeemed at any time prior to maturity in the circumstances described under “—Optional Redemption” below and may be redeemed prior to maturity in the circumstances described under
+“—Optional Tax Redemption” below.
+Optional Redemption
+The Issuer may, at its option, redeem the March 2024 Notes, as a whole or in part at any time prior to the applicable Par Call Date (as set
+forth in the table below), upon not less than 10 nor more than 60 days’ prior notice, at a redemption price equal to the greater of:
+•
+100% of the aggregate principal amount of the March 2024 Notes to be redeemed; and
+•
+as determined by the Independent Investment Banker (as defined below), the sum of the present values of the
+remaining scheduled payments of principal and interest on the March 2024 Notes to be redeemed as if the March 2024 Notes to be redeemed matured on March 15, 2034 (three months prior to maturity) (not including any portion of such payments of
+interest accrued to the date of redemption) discounted to the redemption date on a semi-annual basis (assuming
+a 360-day year
+consisting of
+twelve 30-day months)
+at the Treasury Rate plus 15 basis points;
+-10-
+plus, in each case described above, accrued and unpaid interest on the principal amount
+being redeemed to (but excluding) the redemption date.
+The March 2024 Notes will be redeemable in whole or in part, at the Issuer’s
+option at any time and from time to time on or after March 15, 2034 (three months prior to maturity), at a redemption price equal to 100% of the principal amount of the March 2024 Notes being redeemed, plus accrued and unpaid interest to, but
+excluding the date of redemption.
+Optional Tax Redemption
+The March 2024 Notes may be redeemed at any time, at the Issuer’s or the Parent Guarantor’s option, as a whole, but not in part,
+upon not less than 10 nor more than 60 days’ prior notice, at a redemption price equal to 100% of the principal amount of the March 2024 Notes of such series then outstanding plus accrued and unpaid interest on the principal amount being
+redeemed (and all Additional Amounts (see “Description of Debt Securities—Terms Applicable to the March 2024 Notes—Additional Amounts” below), if any) to (but excluding) the redemption date, if (i) as a result of any
+change in, or amendment to, the laws, treaties, regulations or rulings of a jurisdiction in which the Issuer or any Guarantor is incorporated, organized, or otherwise tax resident or any political subdivision or any authority thereof or therein
+having power to tax, or in the interpretation, application or administration of any such laws, treaties, regulations or rulings (including a holding, judgment or order by a court of competent jurisdiction) which becomes effective on or after
+March 19, 2024 (any such change or amendment, a “
+Change in Tax Law
+”), the Issuer (or if a payment were then due under a Guarantee, the relevant Guarantor) would be required to pay Additional Amounts, with respect to the March
+2024 Notes and (ii) such obligation cannot be avoided by the Issuer (or the relevant Guarantor) taking reasonable measures available to it. Additional Amounts are payable by the Issuer under the circumstances described under “Description
+of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April 2018 Notes—Additional Amounts” below;
+provided, however
+, that the April 2020 Notes of such series may not be redeemed to the
+extent such Additional Amounts arise solely as a result of the Issuer assigning its obligations under the March 2024 Notes to a Substitute Issuer, unless this assignment to a Substitute Issuer is undertaken as part of a plan of merger by Parent
+Guarantor.
+Prior to the mailing of any notice of redemption pursuant to the foregoing, the Issuer or the relevant Guarantor will deliver
+to the Trustee an opinion of independent tax counsel of recognized standing to the effect that the Issuer or the relevant Guarantor is or would be obligated to pay such Additional Amounts as a result of a Change in Tax Law.
+No notice of redemption may be given earlier than 90 days prior to the earliest date on which the Issuer or the relevant Guarantor would be
+obligated to pay Additional Amounts if a payment in respect of the Notes were then due.
+The foregoing provisions shall
+apply
+mutatis mutandis
+to any successor person, after such successor person becomes a party to the Indenture.
+Terms Applicable to
+the 3.500% Notes due 2030, 4.350% Notes due 2040, 4.500% Notes due 2050 and 4.600% Notes due 2060
+The fixed rate notes due 2030
+(the “
+2030
+Notes
+”) will bear interest at a rate of 3.500% per year, the fixed rate notes due 2040 (the “
+2040
+Notes
+”) will bear interest at a rate of 4.350% per year, the fixed rate notes
+due 2050 (the “
+2050
+Notes
+”) will bear interest at a rate of 4.500% per year and the fixed rate notes due 2060 (the “
+2060 Notes
+”, and together with the 2030 Notes, the 2040 Notes and the 2050 Notes,
+the “
+April 2020
+Notes
+”) will bear interest at a rate of 4.600% per year. The Notes will be issued by Anheuser-Busch InBev Worldwide Inc. (the “
+Issuer
+”, with respect to the April 2020 Notes) and are fully
+and unconditionally guaranteed by Anheuser-Busch InBev SA/NV (the “
+Parent Guarantor
+”), Anheuser-Busch InBev Finance Inc., Brandbev S.à r.l., Brandbrew S.A., Cobrew NV, and Anheuser-Busch Companies, LLC (the
+“
+Subsidiary Guarantors,
+” and together with the Parent Guarantor, the “
+Guarantors
+”). Each series of the April 2020 Notes is listed on the New York Stock Exchange.
+-11-
+Each series of the April 2020 Notes is issued under a separate supplemental indenture to the
+indenture dated as of April 4, 2018 (the “
+Indenture
+”, with respect to the April 2020 Notes), entered into among the Issuer, each of the Guarantors and The Bank of New York Mellon Trust Company, N.A., as trustee, principal
+paying agent, transfer agent and registrar (the “
+Trustee
+”). The information below on certain provisions of the Notes and the Indenture should be read together with “Description of Debt Securities—Terms Applicable to
+the April 2020 Notes, January 2019 Notes and April 2018 Notes” below. This information, however, does not purport to be complete and is subject to, and is qualified in its entirety by reference to, all the provisions of the April 2020 Notes
+and the Indenture, including the definitions of certain terms contained therein. The Indenture is by its terms subject to and governed by the Trust Indenture Act of 1939, as amended.
+The April 2020 Notes are senior unsecured obligations of the Issuer and rank equally with all other existing and future unsecured and
+unsubordinated debt obligations of the Issuer. The April 2020 Notes will be repaid at maturity in U.S. dollars at a price equal to 100% of the principal amount thereof. The April 2020 Notes are issued in denominations of $1,000 and integral
+multiples of $1,000 in excess thereof. The April 2020 Notes do not provide for any sinking fund.
+The 2030 Notes are initially limited to
+$1,750,000,000 aggregate principal amount and will mature on June 1, 2030. The 2040 Notes are initially limited to $1,000,000,000 aggregate principal amount and will mature on June 1, 2040. The 2050 Notes are initially limited to
+$2,250,000,000 aggregate principal amount and will mature on June 1, 2050. The 2060 Notes are initially limited to $1,000,000,000 aggregate principal amount and will mature on June 1, 2060.
+Interest will accrue on the April 2020 Notes of each series until the principal of such April 2020 Notes is paid or duly made available for
+payment. Interest on the April 2020 Notes will be calculated on the basis of
+a 360-day year
+consisting of
+twelve 30-day months.
+If the date of
+maturity of interest on or principal of any April 2020 Note or the date fixed for redemption or payment in connection with an acceleration of any April 2020 Note is not a Business Day, then payment of interest or principal need not be made on such
+date, but may be made on the next succeeding Business Day with the same force and effect as if made on the date of maturity or the date fixed for redemption or payment in connection with an acceleration, and no interest shall accrue as a result of
+the delayed payment.
+Interest on the April 2020 Notes will be paid to the persons in whose names the April 2020 Notes are registered at
+the close of business on the May 17 and November 16 immediately preceding the applicable interest payment date, whether or not such date is a Business Day. The April 2020 Notes may, in addition, be redeemed at any time prior to maturity in
+the circumstances described under “—Optional Redemption” below and may be redeemed prior to maturity in the circumstances described under “—Optional Tax Redemption” below.
+Optional Redemption
+The Issuer may, at
+its option, redeem each series of April 2020 Notes, as a whole or in part at any time prior to the applicable Par Call Date (as set forth in the table below), upon not less than 10 nor more than 60 days’ prior notice, at a redemption price
+equal to the greater of:
+•
+100% of the aggregate principal amount of the April 2020 Notes to be redeemed; and
+•
+as determined by the Independent Investment Banker (as defined below), the sum of the present values of the
+remaining scheduled payments of principal and interest on the April 2020 Notes to be redeemed as if the April 2020 Notes to be redeemed matured on the applicable Par Call Date (as defined herein) (not including any portion of such payments of
+interest accrued to the date of redemption) discounted to the redemption date on a semi-annual basis (assuming
+a 360-day year
+consisting of
+twelve 30-day months)
+at the Treasury Rate plus the applicable Spread (as defined below) for such series of April 2020 Notes;
+plus, in each case described above, accrued and unpaid interest on the principal amount being redeemed to (but excluding) the redemption date.
+-12-
+Each of the April 2020 Notes will be redeemable in whole or in part, at the Issuer’s
+option at any time and from time to time on or after the applicable Par Call Date, at a redemption price equal to 100% of the principal amount of the April 2020 Notes being redeemed, plus accrued and unpaid interest to, but excluding the date of
+redemption.
+Series
+Par Call Date
+Spread
+2030 Notes
+March 1, 2030 (three months prior to maturity)
+45 bps
+2040 Notes
+December 1, 2039 (six months prior to maturity)
+50 bps
+2050 Notes
+December 1, 2049 (six months prior to maturity)
+50 bps
+2060 Notes
+December 1, 2059 (six months prior to maturity)
+50 bps
+“
+Independent Investment Banker
+” means, with respect to the April 2020 Notes, Barclays
+Capital Inc., BNP Paribas Securities Corp., BofA Securities, Inc., Citigroup Global Markets Inc., Deutsche Bank Securities Inc. or J.P. Morgan Securities LLC, as specified by the Issuer, or if all of these firms are unwilling or unable to serve in
+that capacity, an independent investment banking institution of national standing in the United States appointed by the Issuer.
+“
+Reference Treasury Dealer
+” means, with respect to the April 2020 Notes, (i) Barclays Capital Inc., BNP Paribas
+Securities Corp., BofA Securities, Inc., Citigroup Global Markets Inc., Deutsche Bank Securities Inc. and J.P. Morgan Securities LLC, and their respective successors,
+provided
+,
+however
+, that if any of the foregoing shall cease to be a
+primary U.S. government securities dealer in the City of New York (a “
+Primary Treasury Dealer
+”), the Issuer will substitute therefor another Primary Treasury Dealer and (ii) any three other Primary Treasury Dealers selected by the
+Issuer after consultation with an Independent Investment Banker.
+Optional Tax Redemption
+A series of April 2020 Notes may be redeemed at any time, at the Issuer’s or the Parent Guarantor’s option, as a whole, but not in
+part, upon not less than 10 nor more than 60 days’ prior notice, at a redemption price equal to 100% of the principal amount of the April 2020 Notes of such series then outstanding plus accrued and unpaid interest on the principal amount being
+redeemed (and all Additional Amounts (see “Description of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April 2018 Notes—Additional Amounts” below), if any) to (but excluding) the redemption
+date, if (i) as a result of any change in, or amendment to, the laws, treaties, regulations or rulings of a jurisdiction in which the Issuer or any Guarantor is incorporated, organized, or otherwise tax resident or any political subdivision or
+any authority thereof or therein having power to tax, or in the interpretation, application or administration of any such laws, treaties, regulations or rulings (including a holding, judgment or order by a court of competent jurisdiction) which
+becomes effective on or after April 1, 2020 (any such change or amendment, a “
+Change in Tax Law
+”), the Issuer (or if a payment were then due under a Guarantee, the relevant Guarantor) would be required to pay Additional
+Amounts, with respect to the April 2020 Notes of such series and (ii) such obligation cannot be avoided by the Issuer (or the relevant Guarantor) taking reasonable measures available to it. Additional Amounts are payable by the Issuer under the
+circumstances described under “Description of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April 2018 Notes —Additional Amounts” below;
+provided, however
+, that the April 2020
+Notes of such series may not be redeemed to the extent such Additional Amounts arise solely as a result of the Issuer assigning its obligations under the April 2020 Notes of such series to a Substitute Issuer, unless this assignment to a Substitute
+Issuer is undertaken as part of a plan of merger by Parent Guarantor.
+Prior to the mailing of any notice of redemption pursuant to the
+foregoing, the Issuer or the relevant Guarantor will deliver to the Trustee an opinion of independent tax counsel of recognized standing to the effect that the Issuer or the relevant Guarantor is or would be obligated to pay such Additional Amounts
+as a result of a Change in Tax Law.
+No notice of redemption may be given earlier than 90 days prior to the earliest date on which the
+Issuer or the relevant Guarantor would be obligated to pay Additional Amounts if a payment in respect of the Notes were then due.
+The
+foregoing provisions shall apply
+mutatis mutandis
+to any successor person, after such successor person becomes a party to the Indenture.
+Terms Applicable to the 4.750% Notes due 2029, 4.900% Notes due 2031, 5.450% Notes due 2039, 5.550% Notes due 2049 and 5.800% Notes due 2059
+The fixed rate notes due 2029 (the “
+2029 Notes
+”) will bear interest at a rate of 4.750% per year, the fixed
+rate notes due 2031 (the “
+2031 Notes
+”) will bear interest at a rate of 4.900% per year, the fixed rate notes due 2039 (the “
+2039 Notes
+”) will bear interest at a rate of 5.450% per year, the fixed rate notes due
+2049 (the “
+2049 Notes
+”) will bear interest at a rate of 5.550% per year and the fixed rate notes due 2059 (the “
+2059 Notes
+” and together with the 2029 Notes, the 2039 Notes and the 2049 Notes, the
+“
+January 2019 Notes
+”) will bear interest at a rate of 5.800% per year. The Notes are issued by Anheuser-Busch InBev Worldwide Inc. (the “
+Issuer
+”, with respect to the January 2019 Notes) and are fully and
+unconditionally guaranteed by Anheuser-
+-13-
+Busch InBev SA/NV (the “
+Parent Guarantor
+”), Anheuser-Busch InBev Finance Inc., Brandbev S.à r.l., Brandbrew S.A., Cobrew NV, and Anheuser-Busch Companies, LLC (the
+“
+Subsidiary Guarantors,
+” and together with the Parent Guarantor, the “
+Guarantors
+”, with respect to the January 2019 Notes). Each series of the January 2019 Notes are listed on the New York Stock Exchange.
+Each series of the January 2019 Notes is issued under a separate supplemental indenture to the indenture dated as of April 4, 2018 (the
+“
+Indenture
+”, with respect to the January 2019 Notes), entered into among the Issuer, each of the Guarantors and The Bank of New York Mellon Trust Company, N.A., as trustee, principal paying agent, transfer agent and registrar (the
+“
+Trustee
+”). The information below on certain provisions of the Notes and the Indenture should be read together with “Description of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April
+2018 Notes” below. This information, however, does not purport to be complete and is subject to, and is qualified in its entirety by reference to, all the provisions of the January 2019 Notes and the Indenture, including the definitions of
+certain terms contained therein. The Indenture is by its terms subject to and governed by the Trust Indenture Act of 1939, as amended.
+The January 2019 Notes are senior unsecured obligations of the Issuer and will rank equally with all other existing and future unsecured and
+unsubordinated debt obligations of the Issuer. The January 2019 Notes will be repaid at maturity in U.S. dollars at a price equal to 100% of the principal amount thereof. The January 2019 Notes were issued in denominations of $1,000 and integral
+multiples of $1,000 in excess thereof. The January 2019 Notes do not provide for any sinking fund.
+The 2029 Notes are initially limited
+to $4,250,000,000 aggregate principal amount and will mature on 23 January 2029. The 2031 Notes are initially limited to $750,000,000 aggregate principal amount and will mature on 23 January 2031. The 2039 Notes are initially limited to
+$2,000,000,000 aggregate principal amount and will mature on 23 January 2039. The 2049 Notes are initially limited to $4,000,000,000 aggregate principal amount and will mature on 23 January 2049. The 2059 Notes are initially limited to
+$2,000,000,000 aggregate principal amount and will mature on 23 January 2059.
+Interest will accrue on the January 2019 Notes of each
+series until the principal of such January 2019 Notes is paid or duly made available for payment. Interest on the January 2019 Notes will be calculated on the basis of a
+360-day
+year consisting of twelve
+30-day
+months. If the date of maturity of interest on or principal of any January 2019 Note or the date fixed for redemption or payment in connection with an acceleration of any January 2019 Note is not a Business
+Day, then payment of interest or principal need not be made on such date, but may be made on the next succeeding Business Day with the same force and effect as if made on the date of maturity or the date fixed for redemption or payment in connection
+with an acceleration, and no interest shall accrue as a result of the delayed payment.
+Interest on the January 2019 Notes will be paid to
+the persons in whose names the January 2019 Notes are registered at the close of business on the 8 January and 8 July immediately preceding the applicable interest payment date, whether or not such date is a Business Day. The January 2019
+Notes may, in addition, be redeemed at any time prior to maturity in the circumstances described under “—Optional Redemption” below and may be redeemed prior to maturity in the circumstances described under “—Optional
+Tax Redemption” below.
+Optional Redemption
+The Issuer may, at its option, redeem each series of January 2019 Notes, as a whole or in part at any time prior to the applicable Par Call
+Date (as set forth in the table below), upon not less than 10 nor more than 60 days’ prior notice, at a redemption price equal to the greater of:
+•
+100% of the aggregate principal amount of the January 2019 Notes to be redeemed; and
+•
+as determined by the Independent Investment Banker (as defined below), the sum of the present values of the
+remaining scheduled payments of principal and interest on the January 2019 Notes to be redeemed as if the January 2019 Notes to be redeemed matured on the applicable Par Call Date (as defined herein) (not including any portion of such payments of
+interest accrued to the date of redemption) discounted to the redemption date on a semi-annual basis (assuming a
+360-day
+year consisting of twelve
+30-day
+months) at the
+Treasury Rate plus the applicable Spread (as defined herein) for such series of January 2019 Notes;
+plus, in each case described above,
+accrued and unpaid interest on the principal amount being redeemed to (but excluding) the redemption date.
+-14-
+Each of the January 2019 Notes will be redeemable in whole or in part, at the Issuer’s
+option at any time and from time to time on or after the applicable Par Call Date, at a redemption price equal to 100% of the principal amount of the January 2019 Notes being redeemed, plus accrued and unpaid interest to, but excluding the date of
+redemption.
+Series
+Par Call Date
+Spread
+2029 Notes
+23 October 2028 (three months prior to maturity)
+30 bps
+2031 Notes
+23 October 2030 (three months prior to maturity)
+35 bps
+2039 Notes
+23 July 2038 (six months prior to maturity)
+40 bps
+2049 Notes
+23 July 2048 (six months prior to maturity)
+40 bps
+2059 Notes
+23 July 2058 (six months prior to maturity)
+45 bps
+“
+Independent Investment Banker
+” means, with respect to the January 2019 Notes, Barclays
+Capital Inc., Citigroup Global Markets Inc., Deutsche Bank Securities Inc., J.P. Morgan Securities LLC or Merrill Lynch, Pierce, Fenner & Smith Incorporated, as specified by the Issuer, or if all of these firms are unwilling or unable to
+serve in that capacity, an independent investment banking institution of national standing in the United States appointed by the Issuer.
+“
+Reference Treasury Dealer
+” means, with respect to the January 2019 Notes, (i) Barclays Capital Inc., Citigroup Global
+Markets Inc., Deutsche Bank Securities Inc., J.P. Morgan Securities LLC and Merrill Lynch, Pierce, Fenner & Smith Incorporated, and their respective successors,
+provided
+,
+however
+, that if any of the foregoing shall cease to be
+a primary U.S. government securities dealer in the City of New York (a “
+Primary Treasury Dealer
+”), the Issuer will substitute therefor another Primary Treasury Dealer and (ii) any three other Primary Treasury Dealers selected
+by the Issuer after consultation with an Independent Investment Banker.
+Optional Tax Redemption
+A series of January 2019 Notes may be redeemed at any time, at the Issuer’s or the Parent Guarantor’s option, as a whole, but not
+in part, upon not less than 10 nor more than 60 days’ prior notice, at a redemption price equal to 100% of the principal amount of the January 2019 Notes of such series then outstanding plus accrued and unpaid interest on the principal amount
+being redeemed (and all Additional Amounts (see “Description of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April 2018 Notes—Additional Amounts”), if any) to (but excluding) the redemption
+date, if (i) as a result of any change in, or amendment to, the laws, treaties, regulations or rulings of a jurisdiction in which the Issuer or any Guarantor is incorporated, organized, or otherwise tax resident or any political subdivision or
+any authority thereof or therein having power to tax, or in the interpretation, application or administration of any such laws, treaties, regulations or rulings (including a holding, judgment or order by a court of competent jurisdiction) which
+becomes effective on or after January 10, 2019 (any such change or amendment, a “
+Change in Tax Law
+”), the Issuer (or if a payment were then due under a Guarantee, the relevant Guarantor) would be required to pay Additional
+Amounts, with respect to the January 2019 Notes of such series and (ii) such obligation cannot be avoided by the Issuer (or the relevant Guarantor) taking reasonable measures available to it. Additional Amounts are payable by the Issuer under
+the circumstances described under “Description of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April 2018 Notes—Additional Amounts” below; provided, however, that the Notes of such series
+may not be redeemed to the extent such Additional Amounts arise solely as a result of the Issuer assigning its obligations under the January 2019 Notes of such series to a Substitute Issuer, unless this assignment to a Substitute Issuer is
+undertaken as part of a plan of merger by Parent Guarantor.
+Prior to the mailing of any notice of redemption pursuant to the foregoing,
+the Issuer or the relevant Guarantor will deliver to the Trustee an opinion of independent tax counsel of recognized standing to the effect that the Issuer or the relevant Guarantor is or would be obligated to pay such Additional Amounts as a result
+of a Change in Tax Law.
+No notice of redemption may be given earlier than 90 days prior to the earliest date on which the Issuer or the
+relevant Guarantor would be obligated to pay Additional Amounts if a payment in respect of the January 2019 Notes were then due.
+The
+foregoing provisions shall apply mutatis mutandis to any successor person, after such successor person becomes a party to the Indenture.
+-15-
+Terms Applicable to the 4.375% Notes due 2038, the 4.600% Notes due 2048 and the 4.750% Notes due
+2058:
+The fixed rate notes due 2038 (the “
+2038 Notes
+”) will bear interest at a rate of 4.375% per year, the
+fixed rate notes due 2048 (the “
+2048 Notes
+”) will bear interest at a rate of 4.600% per year and the fixed rate notes due 2058 (the “
+2058 Notes
+” and together with the 2038 Notes and the 2048 Notes, the
+“
+April 2018 Notes
+”) will bear interest at a rate of 4.750% per year.
+The April 2018 Notes are issued by Anheuser-Busch
+InBev Worldwide Inc. (the “
+Issuer
+”, with respect to the April 2018 Notes) and are fully and unconditionally guaranteed by the Parent Guarantor, Anheuser-Busch InBev Finance Inc., Brandbev S.à r.l., Brandbrew S.A., Cobrew
+NV, and Anheuser-Busch Companies, LLC (the “
+Subsidiary Guarantors,
+” and together with the Parent Guarantor, the “
+Guarantors
+”, with respect to the April 2018 Notes). The April 2018 Notes are listed on the New
+York Stock Exchange.
+Each series of the April 2018 Notes was issued under a separate supplemental indenture to the indenture dated as of
+April 4, 2018 (the “
+Indenture
+”, with respect to the April 2018 Notes), entered into among the Issuer, each of the Guarantors and The Bank of New York Mellon Trust Company, N.A., as trustee, principal paying agent, transfer
+agent and registrar (the “
+Trustee
+”). The information below on certain provisions of the Notes and the Indenture should be read together with “Description of Debt Securities—Terms Applicable to the April 2020 Notes,
+January 2019 Notes and April 2018 Notes” below. This information, however, does not purport to be complete and is subject to, and is qualified in its entirety by reference to, all the provisions of the April 2018 Notes and the Indenture,
+including the definitions of certain terms contained therein. The Indenture is by its terms subject to and governed by the Trust Indenture Act of 1939, as amended.
+The 2038 Notes were initially limited to $1,500,000,000 aggregate principal amount and will mature on April 15, 2038. The 2048 Notes were
+initially limited to $2,500,000,000 aggregate principal amount and will mature on April 15, 2048. The 2058 Notes were initially limited to $1,500,000,000 aggregate principal amount and will mature on April 15, 2058. The April 2018 Notes
+are senior unsecured obligations of the Issuer and rank equally with all other existing and future unsecured and unsubordinated debt obligations of the Issuer.
+Interest on the April 2018 Notes will be paid to the persons in whose names the April 2018 Notes are registered at the close of business on
+the April 1 and October 1 immediately preceding the applicable interest payment date, whether or not such date is a Business Day. The April 2018 Notes may be redeemed at any time prior to maturity in the circumstances described under
+“—Optional Redemption” and all of the outstanding April 2018 Notes may be redeemed prior to maturity in the circumstances described under “—Optional Tax Redemption.”
+Optional Redemption
+The Issuer may, at
+its option, redeem each series of April 2018 Notes, as a whole or in part at any time prior to the applicable Par Call Date (as set forth in the table below), upon not less than 10 nor more than 60 days’ prior notice, at a redemption price
+equal to the greater of:
+•
+100% of the aggregate principal amount of the April 2018 Notes to be redeemed; and
+•
+as determined by the Independent Investment Banker (as defined below), the sum of the present values of the
+remaining scheduled payments of principal and interest on the April 2018 Notes to be redeemed as if the April 2018 Notes to be redeemed matured on the applicable Par Call Date (as defined herein) (not including any portion of such payments of
+interest accrued to the date of redemption) discounted to the redemption date on a semi-annual basis (assuming a
+360-day
+year consisting of twelve
+30-day
+months) at the
+Treasury Rate plus the applicable Spread (as defined herein) for such series of Notes;
+plus, in each case described above, accrued and
+unpaid interest on the principal amount being redeemed to (but excluding) the redemption date.
+-16-
+Each of the April 2018 Notes will be redeemable in whole or in part, at the Issuer’s
+option at any time and from time to time on or after the applicable Par Call Date, at a redemption price equal to 100% of the principal amount of the April 2018 Notes being redeemed, plus accrued and unpaid interest to, but excluding the date of
+redemption.
+Series
+Par Call Date
+Spread
+2038 Notes
+October 15, 2037 (six months prior to maturity)
+25 bps
+2048 Notes
+October 15, 2047 (six months prior to maturity)
+25 bps
+2058 Notes
+October 15, 2057 (six months prior to maturity)
+25 bps
+“
+Independent Investment Banker
+” means, with respect to the April 2018 Notes, Barclays
+Capital Inc., Deutsche Bank Securities Inc., J.P. Morgan Securities LLC, Merrill Lynch, Pierce, Fenner & Smith Incorporated or Mizuho Securities USA LLC, as specified by the Issuer, or if all of these firms are unwilling or unable to serve
+in that capacity, an independent investment banking institution of national standing in the United States appointed by the Issuer.
+“
+Reference Treasury Dealer
+” means, with respect to the April 2018 Notes, (i) Barclays Capital Inc., Deutsche Bank
+Securities Inc., J.P. Morgan Securities LLC, Merrill Lynch, Pierce, Fenner & Smith Incorporated and Mizuho Securities USA LLC, and their respective successors,
+provided
+,
+however
+, that if any of the foregoing shall cease to be
+a primary U.S. government securities dealer in the City of New York (a “
+Primary Treasury Dealer
+”), the Issuer will substitute therefor another Primary Treasury Dealer and (ii) any three other Primary Treasury Dealers selected
+by the Issuer after consultation with an Independent Investment Banker.
+Optional Tax Redemption
+A series of April 2018 Notes may be redeemed at any time, at the Issuer’s or the Parent Guarantor’s option, as a whole, but not in
+part, upon not less than 10 nor more than 60 days’ prior notice, at a redemption price equal to 100% of the principal amount of the April 2018 Notes of such series then outstanding plus accrued and unpaid interest on the principal amount being
+redeemed (and all Additional Amounts (see “Description of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April 2018 Notes—Additional Amounts”), if any) to (but excluding) the redemption date,
+if (i) as a result of any change in, or amendment to, the laws, treaties, regulations or rulings of a jurisdiction in which the Issuer or any Guarantor is incorporated, organized, or otherwise tax resident or any political subdivision or any
+authority thereof or therein having power to tax, or in the interpretation, application or administration of any such laws, treaties, regulations or rulings (including a holding, judgment or order by a court of competent jurisdiction) which becomes
+effective on or after March 20, 2018 (any such change or amendment, a “
+Change in Tax Law
+”), the Issuer (or if a payment were then due under a Guarantee, the relevant Guarantor) would be required to pay Additional Amounts,
+with respect to the Notes of such series and (ii) such obligation cannot be avoided by the Issuer (or the relevant Guarantor) taking reasonable measures available to it. Additional Amounts are payable by the Issuer under the circumstances
+described under “Description of Debt Securities—Terms Applicable to the April 2020 Notes, January 2019 Notes and April 2018 Notes—Additional Amounts” below;
+provided, however
+, that the April 2018 Notes of such series
+may not be redeemed to the extent such Additional Amounts arise solely as a result of the Issuer assigning its obligations under the April 2018 Notes of such series to a Substitute Issuer, unless this assignment to a Substitute Issuer is undertaken
+as part of a plan of merger by Parent Guarantor.
+Prior to the mailing of any notice of redemption pursuant to the foregoing, the Issuer
+or the relevant Guarantor will deliver to the Trustee an opinion of independent tax counsel of recognized standing to the effect that the Issuer or the relevant Guarantor is or would be obligated to pay such Additional Amounts as a result of a
+Change in Tax Law.
+No notice of redemption may be given earlier than 90 days prior to the earliest date on which the Issuer or the
+relevant Guarantor would be obligated to pay Additional Amounts if a payment in respect of the Notes were then due.
+The foregoing
+provisions shall apply mutatis mutandis to any successor person, after such successor person becomes a party to the Indenture.
+-17-
+Terms Applicable to the March 2024 Notes
+For the purposes of this section “—Terms Applicable to the March 2024 Notes”: (i) the term “Notes” or “debt
+securities” shall refer to the March 2024 Notes, (ii) the term “Issuer” shall refer to the Issuer under the March 2024 Notes, (iii) the term “Guarantor” shall refer to any Guarantor under the March 2024 Notes
+and (iv) the term “Indenture” shall refer to the Indenture under the March 2024 Notes.
+Event of Default
+The occurrence and continuance of one or more of the following events will constitute an “
+Event of Default
+” under the
+Indenture and under the Notes:
+(a)
+payment default
+—(i) the Issuer or a Guarantor fails to pay interest within 30 days from the
+relevant due date, or (ii) the Issuer or a Guarantor fails to pay the principal (or premium, if any) due on the Notes at maturity;
+provided
+that to the extent any such failure to pay principal or premium is caused by a technical or
+administrative error, delay in processing payments or events beyond the control of the Issuer or Guarantors, no Event of Default shall occur for three days following such failure to pay;
+provided further
+that, in the case of a redemption
+payment, no Event of Default shall occur for 30 days following a failure to make such payment;
+(b)
+breach of other material obligations
+—the Issuer or a Guarantor defaults in the performance or
+observance of any of its other material obligations under or in respect of the Notes or the Indenture and such default remains unremedied for 90 days after a written notice has been given to the Issuer and the Parent Guarantor by the Trustee or to
+the Issuer, the Parent Guarantor and the Trustee by the Holders of at least 25% in principal amount of the outstanding Notes of the applicable series affected thereby, specifying such default or breach and requiring it to be remedied and stating
+that such notice is a “
+Notice of Default
+” under the Notes;
+(c)
+bankruptcy or insolvency
+—a court of competent jurisdiction commences bankruptcy or other
+insolvency proceedings against the Issuer, the Parent Guarantor or a Guarantor that is a Significant Subsidiary under the applicable laws of their respective jurisdictions of incorporation, or the Issuer, the Parent Guarantor or a Guarantor that is
+a Significant Subsidiary applies for or institutes such proceedings or offers or makes an assignment for the benefit of its creditors generally, or a third party institutes bankruptcy or insolvency proceedings against the Issuer, the Parent
+Guarantor or a Guarantor that is a Significant Subsidiary and such proceedings are not discharged or stayed within 90 days;
+(d)
+impossibility due to government action
+—any governmental order, decree or enactment shall be made
+in or by Belgium or the jurisdiction of incorporation of a Guarantor that is a Significant Subsidiary whereby the Issuer, the Parent Guarantor, or such Guarantor that is a Significant Subsidiary is prevented from observing and performing in full its
+obligations as set forth in the terms and conditions of the Notes and the Guarantees, respectively, and this situation is not cured within 90 days; or
+(e)
+invalidity of the Guarantees
+—the Guarantees provided by the Parent Guarantor or a Guarantor that
+is a Significant Subsidiary cease to be valid and legally binding for any reason whatsoever or the Parent Guarantor or a Guarantor that is a Significant Subsidiary seeks to deny or disaffirm its obligations under the Guarantee.
+If an Event of Default occurs and is continuing with respect to the Notes, then, unless the principal of all of the
+Notes shall already have become due and payable (in which case no action is required for the acceleration of the Notes), the Holders of not less than 25% in aggregate principal amount of Notes then outstanding, by written notice to the Issuer, the
+Parent Guarantor and the Trustee as provided in the Indenture, may declare the entire principal of all the Notes of such series, and the interest accrued thereon, to be due and payable immediately,
+provided
+,
+however
+, that if an Event
+of Default specified in paragraph (c) above with respect to the Notes at the time outstanding occurs, the principal amount of that series shall automatically, and without any declaration or other action on the part of the Trustee or any Holder,
+become immediately due and payable. Under certain circumstances, the Holders of a majority in aggregate principal amount of the Notes then outstanding may, by written notice to the Issuer and the Trustee as provided in the Indenture, waive all
+defaults and rescind and annul such declaration and its consequences, but no such waiver or rescission and annulment shall extend to or shall affect any subsequent default or shall impair any right consequent thereon.
+-18-
+Trustee
+The Bank of New York Mellon Trust Company, N.A. is the trustee and principal paying agent under each indenture. The trustee has two principal
+functions:
+•
+first, it can enforce a holder’s rights against us if we default on the Notes. There are some limitations
+on the extent to which the trustee acts on a holder’s behalf, described under “—Events of Default”; and
+•
+second, the trustee performs administrative duties for us, such as sending the holder’s interest payments,
+transferring Notes to a new buyer and sending notices to holders.
+We and some of our subsidiaries maintain deposit
+accounts and conduct other banking transactions with the trustee and affiliates of the trustee in the ordinary course of our respective businesses. The address of The Bank of New York Mellon Trust Company, N.A. is 100 South 4th Street, Suite 550,
+St. Louis, MO 63102.
+If an event of default occurs, or an event occurs that would be an event of default if the requirements for giving
+us default notice or our default having to exist for a specific period of time were disregarded, the trustee may therefore be considered to have a conflicting interest with respect to the Notes or the applicable indenture for purposes of the Trust
+Indenture Act of 1939. In that case, the trustee may be required to resign as trustee under the applicable indenture and we would be required to appoint a successor trustee.
+Except in cases of default, where the Trustee has some special duties, the Trustee is not required to take any action under the Indenture at
+the request of any Holders unless the Holders offer the Trustee reasonable protection from costs, expenses and liability. This protection is called an indemnity. If reasonable indemnity is provided, the Holders of a majority in principal amount of
+the outstanding Notes may direct the time, method and place of conducting any proceeding seeking any remedy available to the Trustee. These majority Holders may also direct the Trustee in performing any other action under the Indenture, so long as
+such direction would not involve the Trustee in personal liability.
+Before you bypass the Trustee and bring your own lawsuit or other
+formal legal action or take other steps to enforce your rights or protect your interests relating to the Notes, the following must occur:
+•
+The Trustee must be given written notice that an event of default has occurred and remains uncured.
+•
+The Holders of not less than 25% in principal amount of all outstanding Notes of the relevant series must make a
+written request that the Trustee institute proceedings because of the default, and must offer indemnity and/or security satisfactory to the Trustee against the costs, expenses and liabilities of taking such request.
+•
+The Trustee must have not taken action for 60 days after receipt of the above notice, request and offer of
+indemnity.
+•
+No direction inconsistent with such written request has been given to the Trustee during such
+60-day
+period by the holders of the majority in principal amount of the outstanding Notes of that series.
+•
+However, you are entitled at any time to bring a lawsuit for the payment of money due on your security on or
+after its due date.
+We will furnish to the Trustee every year a written statement of certain of our officers and
+directors, certifying that, to their knowledge, we are in compliance with the Indenture and the Notes, or else specifying any default.
+Modifications
+and Amendment
+The Issuer, the Guarantors and the Trustee may execute agreements adding any provisions to or changing in any manner or
+eliminating any of the provisions of the Indenture or of any supplemental agreement or modifying in any manner the rights of the Holders under the Notes or the Guarantees only with the consent of the Holders of not less than a majority in aggregate
+principal amount of the notes then outstanding (irrespective of series) that would be affected by the proposed modification or amendment;
+provided
+that no such agreement shall (a) change the maturity of the principal of, or any
+installment of interest on, any Note, or reduce the principal amount or the interest thereof, or extend the time of payment of any installment of interest thereon, or change the currency of payment of principal of, or interest on, any Note, or
+change the Issuer’s or a Guarantor’s obligation to pay Additional Amounts, impair or affect the right of any Holder to institute suit for the
+-19-
+enforcement of any such payment on or after the due date thereof (or in the case of redemption on or after the redemption date) or change in any manner adverse to the interests of the Holders the
+terms and provisions of the Guarantees in respect of the due and punctual payment of principal amount of the Notes then outstanding plus accrued and unpaid interest (and all Additional Amounts, if any) without the consent of the Holder of each Note
+so affected; or (b) reduce the aforesaid percentage of notes, the consent of the Holders of which is required for any such agreement, without the consent of all of the Holders of the affected series of the notes then outstanding. To the extent
+that any changes directly affect fewer than all the series of the notes issued under the Indenture, only the consent of the Holders of notes of the relevant series (in the respective percentages set forth above) will be required.
+The Issuer, the Guarantors and the Trustee may, without the consent of the Holders, from time to time execute agreements or amendments or
+enter into an indenture or indentures supplemental thereto (including in respect of one series of notes only) for one or more of the following purposes:
+•
+to convey, transfer, assign, mortgage or pledge any property or assets to the Trustee or another person as
+security for the Notes;
+•
+to evidence the succession of another person to the Issuer or any Guarantors, or successive successions, and the
+assumption by the successor person of the covenants of the Issuer or any of the Guarantors, pursuant to the Indenture and the Notes;
+•
+to evidence and provide for the acceptance of appointment of a successor or successors to the Trustee in any of
+its capacities and to add to or change any of the provisions of the Indenture to facilitate the administration of the trusts created thereunder by more than one trustee;
+•
+to add to the covenants of the Issuer or the Guarantors, for the benefit of the Holders of the Notes issued under
+the Indenture, or to surrender any rights or powers conferred on the Issuer or the Guarantors in the Indenture;
+•
+to add any additional events of default for the benefit of the Holders of the Notes;
+•
+to add to, change or eliminate any of the provisions of the Indenture in respect of the Notes,
+provided
+that any such addition, change or elimination (A) shall neither (i) apply to any Note created prior to the execution of such supplemental indenture and entitled to the benefit of such provision nor (ii) modify the rights of the Holder
+of any such Note with respect to such provision or (B) shall become effective only when there is no such Note outstanding;
+•
+to modify the restrictions on and procedures for, resale and other transfers of the Notes pursuant to law,
+regulation or practice relating to the resale or transfer of restricted securities generally;
+•
+to provide for the issues of securities in exchange for one or more series of outstanding debt securities;
+•
+to provide for the issuance and terms of any particular series of securities, the rights and obligations of the
+Guarantors and the holders of the securities of such series, the form or forms of the securities of such series and such other matters in connection therewith as the Issuer and the Guarantors shall consider appropriate, including, without
+limitation, provisions for (a) additional or different covenants, restrictions or conditions applicable to such series, (b) additional or different events of default in respect of such series, (c) a longer or shorter period of grace
+and/or notice in respect of any provision applicable to such series than is otherwise provided, (d) immediate enforcement of any event of default in respect of such series or (e) limitations upon the remedies available in respect of any
+events of default in respect of such series or upon the rights of the holders of securities of such series to waive any such event of default;
+•
+(a) to cure any ambiguity or to correct or supplement any provision contained in the Indenture, the Notes or the
+Guarantees, or in any supplemental agreement, which may be defective or inconsistent with any other provision contained therein or in any supplemental agreement, (b) to eliminate any conflict between the terms thereof and the Trust Indenture
+Act or (c) to make such other provision in regard to matters or questions arising under the Indenture or under any supplemental agreement as the Issuer may deem necessary or desirable and which will not adversely affect the interests of the
+Holders to which such provision relates in any material respect;
+•
+to “reopen” the Notes and create and issue additional Notes having identical terms and conditions as
+the Notes (or in all respects except for the issue date, issue price, first interest accrual date and first interest payment date) so that the additional notes are consolidated and form a single series with the outstanding Notes;
+•
+to add any Subsidiary of the Parent Guarantor as a Guarantor or a
+co-Issuer
+with respect to any series of notes, or to convert a Guarantor into a
+co-Issuer
+with respect to any series of notes, subject to applicable regulatory or
+contractual limitations relating to such subsidiary’s Guarantee and provided in each case that the obligations of any
+co-Issuer
+will be joint and several with the Issuer;
+-20-
+•
+to provide for the release and termination of any Subsidiary Guarantor’s Guarantee in the circumstances
+described under “Description of Debt Securities and Guarantees—Guarantees” in the Prospectus;
+•
+to provide for any amendment, modification or alteration of any Subsidiary Guarantor’s Guarantee and the
+limitations applicable thereto in the circumstances described under “Description of Debt Securities and Guarantees—Guarantees” in the Prospectus; or
+•
+to make any other change that does not materially adversely affect the interests of the holders of the notes
+affected thereby.
+Interest will accrue on the Notes of each series until the principal of such Notes is paid or duly
+made available for payment. Interest on the Notes will be calculated on the basis of a
+360-day
+year consisting of twelve
+30-day
+months. If the date of maturity of
+interest on or principal of any Note or the date fixed for redemption or payment in connection with an acceleration of any Note is not a Business Day, then payment of interest or principal need not be made on such date, but may be made on the next
+succeeding Business Day with the same force and effect as if made on the date of maturity or the date fixed for redemption or payment in connection with an acceleration, and no interest shall accrue as a result of the delayed payment.
+“
+Treasury Rate
+” means, with respect to any redemption date, the yield determined by the Issuer in accordance with the following two
+paragraphs.
+The Treasury Rate shall be determined by the Issuer after 4:15 p.m., New York City time (or after such time as yields on U.S. government
+securities are posted daily by the Board of Governors of the Federal Reserve System), on the third Business Day preceding the redemption date based upon the yield or yields for the most recent day that appear after such time on such day in the most
+recent statistical release published by the Board of Governors of the Federal Reserve System designated as “Selected Interest Rates (Daily) - H.15” (or any successor designation or publication) (“
+H.15
+”) under the
+caption “U.S. government securities–Treasury constant maturities–Nominal” (or any successor caption or heading) (“
+H.15 TCM
+”). In determining the Treasury Rate, the Issuer shall select, as applicable:
+(1) the yield for the Treasury constant maturity on H.15 exactly equal to the period from the redemption date to the Par Call Date (the “
+Remaining Life
+”); or (2) if there is no such Treasury constant maturity on H.15
+exactly equal to the Remaining Life, the two yields – one yield corresponding to the Treasury constant maturity on H.15 immediately shorter than and one yield corresponding to the Treasury constant maturity on H.15 immediately longer than the
+Remaining Life – and shall interpolate to the Par Call Date on a straight-line basis (using the actual number of days) using such yields and rounding the result to three decimal places; or (3) if there is no such Treasury constant
+maturity on H.15 shorter than or longer than the Remaining Life, the yield for the single Treasury constant maturity on H.15 closest to the Remaining Life. For purposes of this paragraph, the applicable Treasury constant maturity or maturities on
+H.15 shall be deemed to have a maturity date equal to the relevant number of months or years, as applicable, of such Treasury constant maturity from the redemption date.
+If on the third Business Day preceding the redemption date H.15 TCM is no longer published, the Issuer shall calculate the Treasury Rate based on the rate per
+annum equal to the semi-annual equivalent yield to maturity at 11:00 a.m., New York City time, on the second Business Day preceding such redemption date of the United States Treasury security maturing on, or with a maturity that is closest to, the
+Par Call Date, as applicable. If there is no United States Treasury security maturing on the Par Call Date but there are two or more United States Treasury securities with a maturity date equally distant from the Par Call Date, one with a maturity
+date preceding the Par Call Date and one with a maturity date following the Par Call Date, the Issuer shall select the United States Treasury security with a maturity date preceding the Par Call Date. If there are two or more United States Treasury
+securities maturing on the Par Call Date or two or more United States Treasury securities meeting the criteria of the preceding sentence, the Issuer shall select from among these two or more United States Treasury securities the United States
+Treasury security that is trading closest to par based upon the average of the bid and asked prices for such United States Treasury securities at 11:00 a.m., New York City time. In determining the Treasury Rate in accordance with the terms of this
+paragraph, the semi-annual yield to maturity of the applicable United States Treasury security shall be based upon the average of the bid and asked prices (expressed as a percentage of principal amount) at 11:00 a.m., New York City time, of such
+United States Treasury security, and rounded to three decimal places.
+-21-
+“
+Business Day
+” means a day on which commercial banks and exchange markets are open, or
+not authorized to close, in the City of New York, London and Brussels.
+The Issuer’s actions and determinations in determining the redemption price
+shall be conclusive and binding for all purposes, absent manifest error.
+Notice of any redemption will be mailed or electronically delivered (or
+otherwise transmitted in accordance with the Depositary’s procedures) at least 10 days but not more than 60 days before the redemption date to each holder of the Notes to be redeemed.
+A notice of redemption may, at the discretion of the Issuer, be subject to one or more conditions precedent, including, but not limited to,
+completion of an equity offering, a financing, or other corporate transaction. In addition, if such redemption or notice is subject to satisfaction of one or more conditions precedent, such notice shall state that, in our discretion, the redemption
+date may be postponed until up to 60 days following the notice of redemption, and such notice may be rescinded in the event that any or all such conditions shall not have been satisfied by the redemption date (including as it may be postponed).
+Unless the Issuer (and/or the Guarantors) defaults on payment of the redemption price, from and after the redemption date interest will cease
+to accrue on the Notes or portions thereof called for redemption. On the redemption date, the Issuer will deposit with the Trustee or with one or more paying agents (or, if the Issuer is acting as its own paying agent, set aside, segregate and hold
+in trust as provided in the Indenture) money sufficient to pay the redemption price of and accrued interest on the Notes to be redeemed on such date. If fewer than all of the Notes of any series are to be redeemed, the Trustee will select, not more
+than 60 days prior to the redemption date, the particular Notes of such series or portions thereof for redemption from the outstanding Notes of that series not previously called for redemption, on a pro rata basis across such series, or by such
+method as the Trustee deems fair and appropriate, provided that if the Notes of a series are represented by one or more global notes, interests in such global notes shall be selected for redemption by DTC in accordance with its standard procedures
+therefor.
+Additional Notes
+The
+Notes were issued in the initial aggregate principal amount set forth above. The Issuer may, from time to time, without notice to or the consent of the Holders, create and issue, pursuant to the Indenture and in accordance with applicable laws and
+regulations, additional Notes (the “
+Additional Notes
+”) maturing on the same maturity date as the other Notes of a series and having the same terms and conditions under the Indenture (including with respect to the Guarantors and
+the Guarantees) as the previously outstanding Notes of that series in all respects (or in all respects except for the issue date and the principal amount and, in some cases, the date of the first payment of interest thereon) so that such Additional
+Notes shall be consolidated and form a single series with the previously outstanding Notes of that series,
+provided
+that either (i) such Additional Notes are fungible with the Notes of such series offered hereby for U.S. federal income
+tax purposes or (ii) such Additional Notes shall have a separate CUSIP number. Without limiting the foregoing, the Issuer may, from time to time, without notice to or the consent of the Holders, create and issue, pursuant to the Indenture and
+in accordance with applicable laws and regulations, additional series of notes with additional or different terms and maturity dates than the Notes.
+Guarantee
+Each debt security will
+benefit from an unconditional, full and irrevocable guarantee by the Parent Guarantor. One or more of the following Subsidiary Guarantors, which are subsidiaries of the Parent Guarantor, may, along with the Parent Guarantor, jointly and severally
+guarantee the debt securities on a full, unconditional and irrevocable basis:
+•
+Anheuser-Busch Companies, LLC
+•
+Anheuser-Busch InBev Worldwide Inc.
+•
+Anheuser-Busch InBev Finance Inc.
+•
+Brandbev S.à r.l.
+•
+Brandbrew S.A.
+•
+Cobrew NV
+-22-
+The Subsidiary Guarantors, if any, for any particular series of debt securities will be
+specified in the applicable prospectus supplement. The Issuer of a particular series of securities will not act as a Subsidiary Guarantor for that series.
+Each guarantee to be provided is referred to as a “Guarantee” and collectively, the “Guarantees;” the subsidiaries of
+the Parent Guarantor providing Guarantees are referred to as the “Subsidiary Guarantors” and the Parent Guarantor and Subsidiary Guarantors collectively are referred to as the “Guarantors”.
+All such Guarantees are set forth in each indenture, or a supplement thereto, and may take the form of a guarantee to be endorsed on a
+particular series of securities or a global guarantee that applies to multiple series of securities under an indenture. The Guarantees provided by several of the Guarantors will be subject to certain limitations set forth below under
+“—Guarantee Limitations”.
+Under the Guarantees, the Guarantors will guarantee to each Holder the due and punctual
+payment of any principal, accrued and unpaid interest (and all Additional Amounts, as defined below, if any) due under the debt securities in accordance with each indenture. Each Guarantor will also pay Additional Amounts (if any) in respect of
+payments under its Guarantee. The Guarantees will be the full, direct, unconditional, unsecured and unsubordinated general obligations of the Guarantors. The Guarantees will rank pari passu among themselves, without any preference of one over the
+other by reason of priority of date of issue or otherwise, and at least equally with all other unsecured and unsubordinated general obligations of the Guarantors from time to time outstanding.
+Any Subsidiary Guarantor will automatically and unconditionally be released from all obligations under its Subsidiary Guarantee and such
+Subsidiary Guarantee shall thereupon terminate and be discharged of no further force or effect, in the event that at substantially the same time its Guarantee of the debt securities is terminated, (i) (for so long as any commitments remain
+outstanding under the 2010 Senior Facilities Agreement) the relevant Subsidiary Guarantor is or has been released from its guarantee of 2010 Senior Facilities Agreement (as defined in the 2025 Form
+20-F
+under
+the heading “Item 5. Operating and Financial Review—G. Liquidity and Capital Resources” and as it may be amended from time to time) or is no longer a guarantor under the 2010 Senior Facilities Agreement, and (ii) the aggregate
+amount of indebtedness for borrowed money for which the relevant Guarantor is an obligor (as a guarantor or borrower) does not exceed 10% of the consolidated gross assets of the Parent Guarantor as reflected in the balance sheet included in its most
+recent publicly released interim or annual consolidated financial statements. For purposes of this paragraph, the amount of a Guarantor’s indebtedness for borrowed money shall not include (A) the debt securities issued pursuant to the
+indentures dated 12 January 2009, 16 October 2009 and 16 December 2016, and the indentures supplemental thereto, in each case between Anheuser-Busch InBev Worldwide Inc., as Issuer, the Parent Guarantor, the Subsidiary Guarantors
+named therein and The Bank of New York Mellon Trust Company, N.A., as trustee, (B) the debt securities issued pursuant to the indentures dated 17 January 2013, 25 January 2016 and 15 May 2017, and the indentures supplemental
+thereto, in each case between Anheuser-Busch InBev Finance Inc., as Issuer, the Parent Guarantor, the Subsidiary Guarantors named therein and The Bank of New York Mellon Trust Company, N.A., as trustee, (C) any other debt the terms of which
+permit the termination of the Guarantor’s guarantee of such debt under similar circumstances, as long as such Guarantor’s obligations in respect of such other debt are terminated at substantially the same time as its guarantee of the
+debt securities, and (D) any debt that is being refinanced at substantially the same time that the Guarantee of the debt securities is being released; provided that any obligations of the Guarantor in respect of the debt that is incurred in the
+refinancing shall be included in the calculation of the Guarantor’s indebtedness for borrowed money.
+In addition, Brandbrew S.A.
+and/or Brandbev S.à r.l., whose guarantees are subject to certain limitations described below, shall be entitled to terminate its Guarantee, and the trustee under each indenture shall execute a release and termination agreement effecting such
+termination, with respect to any or all series of the notes issued under each indenture, in the event that Brandbrew S.A. or Brandbev S.à r.l determines that under the rules, regulations or interpretations of the SEC it would be required to
+include its financial statements in any registration statement filed with the SEC with respect to any series of notes or guarantees issued under each indenture or in periodic reports filed with or furnished to the SEC (by reason of such limitations
+or otherwise). Furthermore, Brandbrew S.A. and/or Brandbev S.à r.l. will be entitled to amend or modify by execution of indentures supplemental to each indenture the terms of its Guarantee or the limitations applicable to its Guarantee, as
+set forth below, in any respect reasonably deemed necessary by Brandbrew S.A. or Brandbev S.à r.l to meet the requirements of Rule
+3-10
+under Regulation
+S-X
+under
+the Securities Act (or any successor or similar regulation or exemption) in order for financial statements of such Subsidiary Guarantor not to be required to be included in any registration statement or in periodic reports filed with or furnished to
+the SEC.
+-23-
+Guarantee Limitations
+Pursuant to restrictions imposed by Luxembourg law, notwithstanding anything to the contrary in the Guarantees to be provided by Brandbrew S.A.
+or Brandbev S.à r.l., (each, a “
+Luxembourg Guarantor
+”), for the purposes of any such Guarantees, the maximum aggregate liability of such Luxembourg Guarantor under its Guarantee (including any actual or contingent
+liabilities as a guarantor under the Other Guaranteed Facilities (as defined below)) shall not exceed an amount equal to the aggregate of (without double counting):
+(1)
+the aggregate amount of all moneys received by such Luxembourg Guarantor and its Subsidiaries as a borrower or
+issuer under the Other Guaranteed Facilities;
+(2)
+the aggregate amount of all outstanding intercompany loans made to such Luxembourg Guarantor and its
+Subsidiaries by other members of the AB InBev Group which have been directly or indirectly funded using the proceeds of borrowings under the Debt Securities and the Other Guaranteed Facilities; and
+(3)
+an amount equal to 100% of the greater of:
+(a)
+the sum of (x) such Luxembourg Guarantor’s own capita

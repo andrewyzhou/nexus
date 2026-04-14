@@ -1,0 +1,436 @@
+TICKER: OPTX
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain management. As Industry 4.0 continues to bring changes in manufacturing, technological
+advancements leading to innovative photonics-enabled products, and photonics are improving manufacturing performance with photonics-enabled
+technology. We expect Industry 4.0 to transform production by driving faster, more flexible and more efficient processes which will be
+monetized by companies through the production of higher-quality goods at reduced costs. Beyond the traditional industrial
+automation, new transforming products from unmanned aircraft and driverless cars, smart robots in the operating rooms and artificial intelligence
+of organ and tissue imaging, to augmented and virtual reality, increasingly require optics and photonics imagers, sensors, and detectors.
+We expect this trend to be especially pronounced in the United States, which has seen automation as a way to be globally competitive in
+spite of rising wages. Optics and photonics
+are an integral aspect of the ongoing advancement of traditional manufacturing and industrial practices. Optics and photonics can reduce
+cost, size, weight, and power consumption in all spheres of technology that is making us smarter. These include our content, its context,
+inter-connection for exchange, and various types of content – from imaging to detection and sensing. Syntec
+Platform Overview Our
+unifying platform is a key differentiator. We believe the unifying platform is an aggregation of horizontal and vertical optics and photonics
+capabilities that span through the value-chain across materials, spectrum and advanced manufacturing processes. This unifying platform
+works by providing customers with several manufacturing capabilities in one location that saves time and reduces logistical burdens and
+costs. In 1999 Syntec brought precision machining capabilities into the company with the addition of Wordingham Technologies, enabling
+broader capabilities for integrated optical assemblies. The acquisition of Rochester Tool and Mold provided control over making very
+precise tools for molded polymer components and molded glass components in hybrid systems. Close collaboration of these acquired entities
+began in 2000 and then all three acquired companies moved into one building in the city of Rochester by 2016. Investments from the cash
+flow and the unification was achieved to offer customers vertical and horizontal integrated critical capabilities under one-roof for
+mission critical sub-system solutions with well demonstrated metrology in both clean room optics and electro-optics assemblies. Thin
+film coating laboratory and glass molding technique was developed from grounds up organically to further support the optical element
+performances. Altogether, such a vertically and horizontal integrated company offers a further unification platform for consolidation
+through further acquisition in a fragmented industry of advanced manufacturers for mission critical application of optics and photonics
+even beyond biomedical, defense, and consumer end-markets. Syntec
+Optics has built its brand over two decades and is known as a leader to OEMs in optics and photonics sub-systems production. The dome was made from glass-filled polymer
+that replaced Sapphire for domes that had to not only meet high optical performance expected from windows, but be light weight, less
+expensive and rapidly scale. Ever since, we have ramped up rapidly many devices ranging from blood analyzers for patients in hospitals
+to night vison goggles to keep soldiers safe. The brand has been very visible at the pivotal show for optics and photonics solution providers
+annually in San Francisco’s Photonics West trade show. 3 We
+currently offer a number of vertically integrated advanced manufacturing processes that deliver to our customers optically enabled products
+serving mission critical applications. Syntec’s
+vertical integration strategy delivers many advantages, including greater economies of scale, lower variable production costs, decreased
+logistics costs and quality concerns. Advantages of vertical integration specific at Syntec include: Positive
+differentiation is created. ● Vertical
+    integration creates predictability because more information is available to our team internally. There is more access to supply chain
+    and production inputs. By being in more control, from start to finish, Syntec can function with stability and adapt quickly to changes
+    so that the most effective and profitable results can be achieved. Asset
+investments can focus on specialization. ● Instead
+    of seeking
+
+--- VENDORS ---
+vendors and contractors with specific skill sets, vertical integration allows us to invest into internal assets that can
+    specialize in the skill set that is required. This allows us to differentiate ourselves from others within its industry, creating
+    a specific brand message and value proposition that resonates consistently with our customer base. Transaction
+costs are lower throughout the supply chain. ● With
+    a high level of vertical integration, we can reduce the transaction costs that occur throughout our supply chain. This is done by
+    removing cascaded margins imposed when dealing with suppliers and vendors that are not part of our integrated process. Quality
+assurance can be built into the system. ● Vertical
+    integration allows us to put more eyes on the quality of what is being produced. From the initial supply to the final sale, a better
+    Q/A process within our system creates a value proposition that is more reliable. In return, greater customer satisfaction occurs,
+    which builds brand loyalty and return revenues. 4 It
+opens new markets. ● Vertical
+    Integration can open new markets to the business. By partnering with or purchasing other vendors, proprietary information, property,
+    or technologies can create local access that may have been otherwise unavailable. When this occurs, more profits can be achieved
+    with a broader base of business to pursue. Our
+Competitive Strengths We
+believe that we possess the largest share in the markets we operate in, due to our following business strengths, which distinguish us
+in this competitive landscape and position us to capitalize on the anticipated continued growth in the optics and photonics enabled market: ○ Premier
+    Polymer-Based Optics Technology. Each of our innovative optics features custom designed components to enhance optical clarity
+    and performance in its particular application or setting. Syntec has assembled a world class optical and opto-mechanical design team
+    capable of executing on the most challenging design projects. ○ Extensive,
+    Growing Patent Portfolio. We have developed and filed patent applications on commercially relevant aspects of our business
+    including optical systems and production processes. We own three active issued patents, with an additional one patent
+    applications pending on
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+raw materials, components, and finished goods. In 2025, the U.S. administration announced significant tariff increases on imports from
+various countries. Although the impact of these measures has not been material to date because we have generally been able to pass increased
+costs on to customers, there can be no assurance that we will be able to continue to do so in the future. On February 20, 2026, the United States Supreme Court ruled that the International
+Emergency Economic Powers Act (“IEEPA”) does not authorize the President to impose tariffs, invalidating certain tariffs previously
+imposed under that authority. However, tariffs imposed pursuant to other statutory authorities, including Sections 301 and 232 of the
+Trade Act, remain in effect. In addition, the U.S. administration has announced new tariff measures under alternative legal authorities,
+including a temporary import surcharge under Section 122 of the Trade Act, which is subject to statutory duration limits and may be extended
+only through congressional action. Trade policy remains highly dynamic and uncertain, and additional tariffs,
+quotas, import restrictions, retaliatory trade measures, or other barriers could be imposed by the United States or foreign governments
+at any time. If we are unable to offset the effects of such measures through pricing actions, sourcing changes, operational efficiencies,
+or other mitigation strategies, our costs could increase and our supply chain could be disrupted. As a result, our sales, gross margins,
+profitability, and operating results could be materially adversely affected. Risks
+Related to Syntec Optics’ Financial Position and Capital Requirements Our
+business is capital intensive, and we may not be able to raise additional capital on attractive terms, if at all. Any further indebtedness
+we incur may limit our operational flexibility in the future. Over
+time, we expect that we will need to raise additional funds, including through the issuance of equity, equity-related or debt securities
+or by obtaining credit from financial institutions to fund, together with our principal sources of liquidity, ongoing costs, such as
+research and development relating to our advanced manufacturing related products, expansion of our facilities, and new strategic investments.
+We cannot be certain that additional capital will be available on attractive terms, if at all, when needed, which could be dilutive to
+stockholders. If we raise additional funds through the issuance of equity or convertible debt or other equity-linked securities, our
+existing stockholders could experience significant dilution. Any equity securities issued may provide for rights, preferences, or privileges
+senior to those of common stockholders. If we raise funds by issuing debt securities, these debt securities would have rights, preferences,
+and privileges senior to those of common stockholders. 18 As
+of December 31, 2025, we had approximately $9.4 million in outstanding indebtedness. We may be unable to repay our indebtedness when
+due, or we may be unable to refinance our indebtedness on acceptable terms or at all. The incurrence of additional debt could adversely
+impact our business, including limiting our operational flexibility by: ● making
+    it difficult for us to pay other obligations; ● increasing
+    our cost of borrowing from other sources; ● making
+    it difficult to obtain favorable terms for any necessary future financing for working capital, capital expenditures, investments,
+    acquisitions, debt service requirements, or other purposes; ● restricting
+    us from making acquisitions or causing us to make divestitures or similar transactions; ● requiring
+    us to dedicate a substantial portion of our cash flow from operations to service and repay our indebtedness, reducing the amount
+    of cash flow available for other purposes; ● placing
+    us at a competitive disadvantage compared to our less leveraged competitors; and ● limiting
+    our flexibility in planning for and reacting to changes in our business. Restrictions
+imposed by our outstanding indebtedness and any future indebtedness may limit our ability to operate our business and to finance our
+future operations or capital needs or to engage in acquisitions or other business activities necessary to achieve growth. The
+agreements governing our indebtedness restrict us from engaging in specified types of transactions. These restrictive covenants restrict
+our ability to, among other things: ● incur
+    additional indebtedness; and ● create
+    or incur encumbrances or liens. Under
+the agreements governing our indebtedness, we are also subject to certain financial covenants, including maintaining minimum levels of
+Adjusted EBITDA, a minimum fixed charge coverage ratio, and debt service ratio. We cannot guarantee that we will be able to maintain
+compliance with these covenants or, if we fail to do so, that we will be able to obtain waivers from the applicable lender(s) and/or
+amend the covenants. Even if we comply with all of the applicable covenants, the restrictions on the conduct of our business could adversely
+affect our business by, among other things, limiting our ability to take advantage of financing opportunities, mergers, acquisitions,
+investments, and other corporate opportunities that may be beneficial to our business. A
+breach of any of the covenants in the agreements governing our existing or future indebtedness could result in an event of default, which,
+if not cured or waived, could trigger acceleration of our indebtedness, and may result in the acceleration of or default under any other
+debt we may incur in the future to which a cross-acceleration or cross-default provision applies, which could have a material adverse
+effect on our business, financial condition and results of operations. In the event of any default under our existing or future credit
+facilities, the applicable lenders could elect to terminate borrowing commitments and declare all borrowings and loans outstanding, together
+with accrued and unpaid interest and any fees and other obligations, to be immediately due and payable. In addition, our obligations
+under our indebtedness are secured by, among other things, a security interest in our proprietary techniques and intellectual property.
+During the existence of an event of default under our credit agreements, the applicable lender could exercise its rights and remedies
+thereunder, including by way of initiating foreclosure proceedings against any assets constituting collateral for our obligations under
+such credit facility. 19 As
+a “controlled company” within the meaning of the Nasdaq corporate governance rules, Syntec Optics is permitted to corporate
+governance matters that differ significantly from Nasdaq corporate governance listing standards applicable to domestic U.S. companies
+or rely on exemptions that are available to a “controlled company”; these practices may afford less protection to shareholders
+than they would enjoy if Syntec Optics complied fully with Nasdaq corporate governance listing standards. Syntec
+Optics is a “controlled company” as defined under the Nasdaq rules because Mr. Kapoor, chairman of the Syntec Optics
+Board, owns more than 50% of the total voting power of all issued and outstanding Syntec Optics Class A Shares, and therefore, as
+long as Syntec Optics remains a controlled company under that definition, it is permitted to elect to rely, and may rely, on certain
+exemptions from Nasdaq corporate governance rules. As
+a “controlled company”, Syntec Optics is permitted to elect to rely, and may rely, on certain exemptions from corporate governance
+rules, including (i) an exemption from the rule that a majority of our board of directors must be independent directors; (ii) an exemption
+from the rule that director nominees must be selected or recommended solely by independent directors; and (iii) an exemption from the
+rule that the compensation committee must be comprised solely of independent directors. Syntec
+Optics relies on the exemption available to a “controlled company” for the requirement that a majority of the board of directors
+must be comprised of independent directors under Nasdaq Rule 5605(b)(1). Syntec Optics is not required to and will not voluntarily meet
+this requirement. As
+a result, you may not be provided with the benefits of certain corporate governance requirements of Nasdaq applicable to companies that
+are subject to these corporate governance requirements. We
+may issue additional shares of Syntec common stock or other equity securities without your approval, which would dilute your ownership
+interests and may depress the market price of your shares. We
+may issue additional shares of Syntec common stock or other equity securities of equal or senior rank in the future in connection with,
+among other things, future acquisitions, repayment of outstanding indebtedness or under our 2023 Incentive Plan, without stockholder
+approval, in a number of circumstances. Our
+issuance of such additional shares of Syntec common stock or other equity securities of equal or senior rank could have the following
+effects: ● your
+    proportionate ownership interest in Syntec will decrease; ● the
+    relative voting strength of each previously outstanding share of common stock may be diminished; or ● the
+    market price of our shares of Syntec common stock may decline. We
+may redeem unexpired public warrants prior to their exercise at a time that is disadvantageous to warrant holders, thereby making their
+public warrants worthless. We
+have the ability to redeem outstanding public warrants at any time after they become exercisable and prior to their expiration, at a
+price of $0.01 per warrant, upon a minimum of 30 days’ prior written notice of redemption; provided that the last reported sales
+price of Syntec common stock equals or exceeds $18.00 per share (as adjusted for stock splits, stock dividends, reorganizations, recapitalizations
+and the like) for any ten Trading Days within a 30 Trading Day period ending three business days prior to the date we send the notice
+of redemption to the warrant holders. If and when the warrants become redeemable by us, we may exercise our redemption rights provided
+that there is an effective registration statement covering the issuance of the shares of Syntec Optics common stock issuable upon exercise
+of the Syntec Optics warrants. Redemption of the outstanding warrants could force the warrant holders to (i) exercise their warrants
+and pay the exercise price therefor at a time when it may be disadvantageous for them to do so, (ii) sell their warrants at the then-current
+market price when they might otherwise wish to hold their warrants or (iii) accept the nominal redemption price which, at the time the
+outstanding public warrants are called for redemption, is likely to be substantially less than the market value of their warrants. If
+we call the warrants for redemption as described above, our management will have the option to require all holders that wish to exercise
+warrants to do so on a “cashless basis.” 20 Syntec
+Optics will have a classified board of directors Syntec
+Optics Certificate of Incorporation provides for a classified Board consisting of three classes of directors, with staggered three-year
+terms. Only one class of directors will be elected at each annual meeting of our stockholders, with the other classes continuing for
+the remainder of their respective three-year terms. This provision may have the effect of delaying a change in control of the Syntec
+Optics board of directors. The existence of a classified board of directors could discourage a third party from making a tender offer
+or otherwise attempting to obtain control of Syntec Optics as it is more difficult and time consuming for stockholders to replace a majority
+of the directors on a classified board of directors. Unanticipated
+changes in effective tax rates or adverse outcomes resulting from examination of our income or other tax returns could adversely affect
+our financial condition and results of operations. We
+will be subject to income taxes in the United States, and our tax liabilities will be subject to the allocation of expenses in differing
+jurisdictions. Our future effective tax rates could be subject to volatility or adversely affected by a number of factors, including: ● changes
+    in the valuation of our deferred tax assets and liabilities; ● expected
+    timing and amount of the release of any tax valuation allowances; ● tax
+    effects of stock-based compensation; ● costs
+    related to intercompany restructurings; ● changes
+    in tax laws, regulations or interpretations thereof; or ● lower
+    than anticipated future earnings in jurisdictions where we have lower statutory tax rates and higher than anticipated future earnings
+    in jurisdictions where we have higher statutory tax rates. In
+addition, we may be subject to audits of our income, sales and other transaction taxes by taxing authorities. Outcomes from these audits
+could have an adverse effect on our financial condition and results of operations. Risks
+Related to Ownership of Syntec Optics’ Common Stock If
+securities or industry analysts do not publish research or reports about Syntec Optics, or publish negative reports, Syntec Optics’
+stock price and trading volume could decline. The
+trading market for Syntec Optics’ common stock will depend, in part, on the research and reports that securities or industry analysts
+publish about Syntec Optics. Syntec Optics will not have any control over these analysts. If Syntec Optics’ financial performance
+fails to meet analyst estimates or one or more of the analysts who cover Syntec Optics downgrade its common stock or change their opinion,
+Syntec Optics’ stock price would likely decline. If one or more of these analysts cease coverage of Syntec Optics or fail to regularly
+publish reports on Syntec Optics, it could lose visibility in the financial markets, which could cause Syntec Optics’ stock price
+or trading volume to decline. An
+active trading market for Syntec Optics’ securities may not be available on a consistent basis to provide stockholders with adequate
+liquidity. Syntec
+Optics common stock and warrants are listed on Nasdaq under the symbols “OPTX” and “OPTXW” respectively, and
+trade on that market. However, Syntec Optics cannot assure you that an active trading market for its common stock will be sustained.
+Accordingly, Syntec Optics cannot assure you of the liquidity of any trading market, your ability to sell your shares of its common stock
+when desired or the prices that you may obtain for your shares. 21 Warrants
+will become exercisable for Syntec Optics’ common stock, which would increase the number of shares eligible for future resale in
+the public market and result in dilution to Syntec Optics’ stockholders. Warrants
+will become exercisable for the Company’s common stock, which would increase the number of shares eligible for future resale in
+the public market and result in dilution to our stockholders. There are 7,187,500 outstanding public warrants to purchase 7,187,500 shares
+of common stock at an exercise price of $11.50 per share, which warrants will become exercisable commencing the later of 30 days following
+the Closing and 12 months from the closing of the OmniLit IPO, which closed on November 12, 2021. In addition, there will be 6,920,500
+private warrants outstanding exercisable for 6,920,500 shares of common stock at an exercise price of $11.50 per share. To
+the extent such warrants are exercised, additional shares of common stock will be issued, which will result in dilution to the holders
+of the Company’s common stock and increase the number of shares eligible for resale in the public market. Sales of substantial
+numbers of such shares in the public market could adversely affect the market price of the Company’s common stock, the impact of
+which is increased as the value of our stock price increases. Syntec
+Optics’ operating results may fluctuate significantly, which makes its future operating results difficult to predict and could
+cause its operating results to fall below expectations or any guidance it may provide. Syntec
+Optics’ quarterly and annual operating results may fluctuate significantly, which makes it difficult for it to predict its future
+operating results. These fluctuations may occur due to a variety of factors, many of which are outside of its control, including, but
+not limited to: ● Syntec
+    Optics’ ability to engage target customers and successfully convert these customers into meaningful orders in the future; ● the
+    size and growth of the potential markets for Syntec Optics’ products and its ability to serve those markets; ● the
+    level of demand for any products, which may vary significantly; ● future
+    accounting pronouncements or changes in its accounting policies; and ● macroeconomic
+    conditions, both nationally and locally; and ● any
+    other change in the competitive landscape of its industry, including consolidation among Syntec Optics’ competitors or partners. The
+cumulative effects of these factors could result in large fluctuations and unpredictability in Syntec Optics’ quarterly and annual
+operating results. As a result, comparing its operating results on a period- to-period basis may not be meaningful. Investors should
+not rely on its past results as an indication of its future performance. This
+variability and unpredictability could also result in its failing to meet the expectations of industry or financial analysts or investors
+for any period. If Syntec Optics’ revenue or operating results fall below the expectations of analysts or investors or below any
+forecasts Syntec Optics may provide to the market, or if the forecasts it provides to the market are below the expectations of analysts
+or investors, the price of Syntec Optics common stock could decline substantially. Such a stock price decline could occur even when it
+has met any prior publicly stated revenue or earnings guidance it may provide. 22 Changes
+in laws, regulations or rules, or a failure to comply with any laws, regulations or rules, may adversely affect Syntec Optics’
+business, investments and results of operations. Syntec
+Optics will be subject to laws, regulations and rules enacted by national, regional, and local governments and Nasdaq. In particular,
+Syntec Optics will be required to comply with certain SEC, Nasdaq and other legal or regulatory requirements. Compliance with, and monitoring
+of, applicable laws, regulations and rules may be difficult, time consuming and costly. Those laws, regulations or rules and their interpretation
+and application may also change from time to time and those changes could have a material adverse effect on Syntec Optics’ business,
+investments and results of operations. In addition, a failure to comply with applicable laws, regulations or rules, as interpreted and
+applied, could have a material adverse effect on Syntec Optics’ business and results of operations. The
+second amended and restated certificate of incorporation will designate specific courts as the exclusive forum for substantially all
+stockholder litigation matters, which could limit the ability of Syntec Optics’ stockholders to obtain a favorable forum for disputes
+with Syntec Optics or its directors, officers or employees. The
+second amended and restated certificate of incorporation will require, to the fullest extent permitted by law, that derivative actions
+brought in Syntec Optics’ name, actions against current or former directors, officers or other employees for breach of fiduciary
+duty, any action asserting a claim arising pursuant to any provision of the DGCL, the second amended and restated certificate of incorporation
+or the Syntec Optics amended and restated bylaws, any action asserting a claim governed by internal affairs doctrine of the State of
+Delaware or any other action asserting an “internal corporate claim” (as defined in Section 115 of the DGCL), confers jurisdiction
+to the Court of Chancery of the State of Delaware (or, if and only if the Court of Chancery of the State of Delaware does not have subject
+matter jurisdiction thereof, any state court located in the State of Delaware or, if and only if all such state courts lack subject matter
+jurisdiction, the federal district court for the District of Delaware), unless Syntec Optics consents in writing to the selection of
+an alternative forum. This provision would not apply to suits brought to enforce a duty or liability created by the Exchange Act or any
+other claim for which the federal courts have exclusive jurisdiction. The second amended and restated certificate of incorporation also
+provides that, unless Syntec Optics consents in writing to the selection of an alternative forum, the federal district courts of the
+United States shall be the exclusive forum for the resolution of any complaint asserting a cause of action arising under the Securities
+Act. This provision may limit a stockholder’s ability to bring a claim in a judicial forum that it finds favorable for disputes
+with Syntec Optics and Syntec Optics’ directors, officers or other employees and may have the effect of discouraging lawsuits against
+Syntec Optics’ directors, officers and other employees. Furthermore, stockholders may be subject to increased costs to bring these
+claims, and the exclusive forum provision could have the effect of discouraging claims or limiting investors’ ability to bring
+claims in a judicial forum that they find favorable. In
+addition, the enforceability of similar exclusive forum provisions in other companies’ certificates of incorporation has been challenged
+in legal proceedings, and it is possible that, in connection with one or more actions or proceedings described above, a court could rule
+that this provision in the second amended and restated certificate of incorporation is inapplicable or unenforceable. In March 2020,
+the Delaware Supreme Court issued a decision in Salzburg et al. v. Sciabacucchi , which found that an exclusive forum provision
+providing for claims under the Securities Act to be brought in federal court is facially valid under Delaware law. We intend to enforce
+this provision, but we do not know whether courts in other jurisdictions will agree with this decision or enforce it. If a court were
+to find the exclusive forum provision contained in the second amended and restated certificate of incorporation to be inapplicable or
+unenforceable in an action, Syntec Optics may incur additional costs associated with resolving such action in other jurisdictions, which
+could harm its business, prospects, financial condition and operating results. 23 The
+second amended and restated certificate of incorporation could discourage another company from acquiring Syntec Optics and may prevent
+attempts by its stockholders to replace or remove its management. Provisions
+in our second amended and restated certificate of incorporation and our amended and restated bylaws to be in effect immediately prior
+to the consummation of the Business Combination may discourage, delay or prevent, a merger, acquisition or other change in control of
+Syntec Optics that stockholders may consider favorable, including transactions in which stockholders might otherwise receive a premium
+for their shares. These provisions could also limit the price that investors might be willing to pay in the future for shares of Syntec
+Optics common stock, thereby depressing the market price of its common stock. In addition, these provisions may frustrate or prevent
+any attempts by our stockholders to replace or remove our current management by making it more difficult for stockholders to replace
+members of our board of directors. These provisions provide, among other things, that: ● the
+    Syntec Optics board of directors will be divided into three classes, with each class serving staggered three-year terms, which may
+    delay the ability of stockholders to change the membership of a majority of our board of directors; ● the
+    Syntec Optics board of directors has the exclusive right to expand the size of its board of directors and to elect directors to fill
+    a vacancy created by the expansion of the board of directors or the resignation, death or removal of a director, which prevents stockholders
+    from being able to fill vacancies on our board of directors; ● Syntec
+    Optics stockholders may not act by written consent, which forces stockholder action to be taken at an annual or special meeting of
+    stockholders; ● a
+    special meeting of stockholders may be called only by a majority of the Syntec Optics board of directors, which may delay the ability
+    of Syntec Optics stockholders to force consideration of a proposal or to take action, including the removal of directors; ● the
+    second amended and restated certificate of incorporation prohibits cumulative voting in the election of directors, which limits the
+    ability of minority stockholders to elect director candidates; ● the
+    Syntec Optics board of directors may alter certain provisions of the Syntec Optics amended and restated bylaws without obtaining
+    stockholder approval; ● the
+    approval of the holders of at least sixty-six and two-thirds percent (66 2⁄3%) of the Syntec Optics common shares entitled
+    to vote at an election of the Syntec Optics board of directors is required to adopt, amend, alter or repeal our amended and restated
+    bylaws or amend, alter, change or repeal or adopt any provision of the second amended and restated certificate of incorporation inconsistent
+    with the provisions of the Syntec Optics second amended and restated certificate of incorporation regarding the election and removal
+    of directors; ● stockholders
+    must provide advance notice and additional disclosures to nominate individuals for election to the Syntec Optics board of directors
+    or to propose matters that can be acted upon at a stockholders’ meeting, which may discourage or deter a potential acquirer
+    from conducting a solicitation of proxies to elect the acquirer’s own slate of directors or otherwise attempting to obtain
+    voting control of the Syntec Optics common stock; and ● the
+    Syntec Optics board of directors is authorized to issue shares of preferred stock and to determine the terms of those shares, including
+    preferences and voting rights, without stockholder approval, which could be used to significantly dilute the ownership of a hostile
+    acquirer. Moreover,
+because Syntec Optics is incorporated in Delaware, it will be governed by the provisions of Section 203 of the DGCL, which prohibits
+a person who owns in excess of 15% of the Syntec Optics outstanding voting stock from merging or combining with Syntec Optics for a period
+of three years after the date of the transaction in which the person acquired in excess of 15% of the Syntec Optics outstanding voting
+stock, unless the merger or combination is approved in a prescribed manner. 24 Syntec
+Optics will be an emerging growth company and any decision to comply only with certain reduced reporting and disclosure requirements
+applicable to emerging growth companies could make Syntec Optics’ common stock less attractive to investors. Syntec
+Optics is an “emerging growth company,” as defined in the JOBS Act. For as long as it continues to be an emerging growth
+company, Syntec Optics may choose to take advantage of exemptions from various reporting requirements applicable to other public companies
+but not to “emerging growth companies,” including: ● not
+    being required to have an independent registered public accounting firm audit Syntec Optics’ internal control over financial
+    reporting under Section 404 of the Sarbanes-Oxley Act; ● reduced
+    disclosure obligations regarding executive compensation in Syntec Optics’ periodic reports and annual report on Form 10-K;
+    and ● exemptions
+    from the requirements of holding non-binding advisory votes on executive compensation and stockholder approval of any golden parachute
+    payments not previously approved. As
+a result, the stockholders may not have access to certain information that they may deem important. Syntec Optics’ status as an
+emerging growth company will end as soon as any of the following takes place: ● the
+    last day of the fiscal year in which Syntec Optics has at least $1.07 billion in annual revenue; ● the
+    date Syntec Optics qualifies as a “large accelerated filer,” with at least $700.0 million of equity securities held by
+    non-affiliates; ● the
+    date on which Syntec Optics has issued, in any three-year period, more than $1.0 billion in non- convertible debt securities; or ● the
+    last day of the fiscal year ending after the fifth anniversary of the OmniLit IPO. Under
+the JOBS Act, emerging growth companies can also delay adopting new or revised accounting standards until such time as those standards
+apply to private companies. Syntec Optics may elect to take advantage of this extended transition period and as a result, its financial
+statements may not be comparable with similarly situated public companies. Syntec
+Optics cannot predict if investors will find Syntec Optics’ common stock less attractive if it chooses to rely on any of the exemptions
+afforded emerging growth companies. If some investors find Syntec Optics’ common stock less attractive because Syntec Optics relies
+on any of these exemptions, there may be a less active trading market for Syntec Optics’ common stock and the market price of Syntec
+Optics’ common stock may be more volatile and may decline. If
+Syntec Optics fails to maintain an effective system of disclosure controls and internal control over financial reporting, Syntec Optics’
+ability to produce timely and accurate financial statements or comply with applicable regulations could be impaired, which may adversely
+affect investor confidence in Syntec Optics and, as a result, the market price of Syntec Optics common stock. As
+a public company, Syntec Optics will be required to comply with the requirements of the Sarbanes-Oxley Act, including, among other things,
+that Syntec Optics maintain effective disclosure controls and procedures and internal control over financial reporting. Syntec Optics
+is continuing to develop and refine its disclosure controls and other procedures that are designed to ensure that information required
+to be disclosed by Syntec Optics in the reports that Syntec Optics will file with the SEC is recorded, processed, summarized and reported
+within the time periods specified in SEC rules and forms and that information required to be disclosed in reports under the Exchange
+Act is accumulated and communicated to Syntec Optics’ management, including Syntec Optics’ principal executive and financial
+officers and Board of Directors. 25 Syntec
+Optics will continue to improve its internal control over financial reporting. Syntec Optics will be required to make a formal assessment
+of the effectiveness of its internal control over financial reporting and once Syntec Optics ceases to be an emerging growth company,
+Syntec Optics will be required to include an attestation report on internal control over financial reporting issued by Syntec Optics’
+independent registered public accounting firm. To achieve compliance with these requirements within the prescribed time period, Syntec
+Optics will be engaging in a process to document and evaluate Syntec Optics’ internal control over financial reporting, which is
+both costly and challenging. In this regard, Syntec Optics will need to continue to dedicate internal resources, potentially engage outside
+consultants and adopt a detailed work plan to assess and document the adequacy of Syntec Optics’ internal control over financial
+reporting, validate through testing that controls are functioning as documented and implement a continuous reporting and improvement
+process for internal control over financial reporting. There is a risk that Syntec Optics will not be able to conclude, within the prescribed
+time period or at all, that Syntec Optics’ internal control over financial reporting is effective as required by Section 404 of
+the Sarbanes- Oxley Act. Moreover, Syntec Optics’ testing, or the subsequent testing by Syntec Optics’ independent registered
+public accounting firm, may reveal additional deficiencies in Syntec Optics’ internal control over financial reporting that are
+deemed to be material weaknesses. Any
+failure to implement and maintain effective disclosure controls and procedures and internal control over financial reporting, including
+the identification of one or more material weaknesses, could cause investors to lose confidence in the accuracy and completeness of Syntec
+Optics’ financial statements and reports, which would likely have an adverse effect on the market price of Syntec Optics’
+common stock. In addition, Syntec Optics could be subject to sanctions, inquiries, or other actions by Nasdaq, the SEC, and other regulatory authorities. If
+we fail to maintain compliance with Nasdaq listing requirements, our securities could be delisted. Syntec
+Optics’ common stock and warrants are listed on The Nasdaq Stock Market. Nasdaq listing standards require us to satisfy certain
+corporate governance and financial and liquidity criteria and to file periodic reports with the SEC in a timely manner. In 2025, we received
+notices from Nasdaq related to our failure to timely file periodic reports and related inquiries regarding certain current report filings.
+Although we submitted a compliance plan that was accepted by Nasdaq, we cannot assure you that we will remain in compliance with Nasdaq’s
+continued listing requirements in the future. If Nasdaq delists our securities, we could face significantly reduced liquidity and trading
+volume, increased volatility, a loss of analyst coverage, reduced ability to access capital markets on acceptable terms (or at all),
+and a decline in the market price of our securities. Delisting could also trigger defaults or other adverse consequences under certain
+agreements, increase the costs and burdens of regulatory compliance, and impair our ability to attract and retain employees and business
+partners. Insiders
+will have substantial influence over Syntec Optics, which could limit your ability to affect the outcome of key transactions, including
+a change of control. The
+beneficial ownership of Common Stock is based on 36,920,226 shares of Common Stock issued and outstanding. Mr. Kapoor owns 30,631,090
+shares of Common Stock, representing 83% of the shares issued and outstanding. As
+a result, these stockholders, if they act together, will not be able to influence Syntec Optics’ management and affairs and all
+matters requiring stockholder approval, including the election of directors, amendments of Syntec Optics’ organizational documents
+and approval of significant corporate transactions. Mr. Kapoor will retain voting and investment discretion following the business combination
+given Mr. Kapoor’s holdings of approximately 83% the outstanding shares of Syntec Optics, will be able to influence the corporate
+decisions without having to act with other stockholders. They may also have interests that differ from yours and may vote in a way with
+which you disagree and which may be adverse to your interests. This concentration of ownership may have the effect of delaying, preventing
+or deterring a change in control of Syntec Optics and might affect the market price of Syntec Optics’ common stock. The
+numbers of shares and percentage interests set forth above are based on a number of assumptions, including that: (1) Syntec Optics Holdings,
+Inc. does not issue any additional equity securities prior to the Business Combination and no other event occurs that would change the
+Merger Consideration from what it would have been as of the date of the initial signing of the Business Combination Agreement; and (2)
+there is no exercise of OmniLit’s 14,107,989 outstanding warrants at an exercise price of $11.50 per share (which warrants are
+not exercisable until 30 days after the completion of the Business Combination). If the actual facts differ from these assumptions, the
+numbers of shares and percentage interests set forth above will be different. Because
+there are no current plans to pay cash dividends on the Syntec Optics common stock for the foreseeable future, you may not receive any
+return on investment unless you sell your Syntec Optics common stock at a price greater than what you paid for it. Syntec
+Optics intends to retain future earnings, if any, for future operations, expansion and debt repayment and there are no current plans
+to pay any cash dividends for the foreseeable future. The declaration, amount and payment of any future dividends on shares of Syntec
+Optics common stock will be at the sole discretion of the Syntec Optics board of directors. The Syntec Optics board of directors may
+take into account general and economic conditions, Syntec Optics’ financial condition and results of operations, Syntec Optics’
+available cash and current and anticipated cash needs, capital requirements, contractual, legal, tax and regulatory restrictions, implications
+of the payment of dividends by Syntec Optics to its stockholders or by its subsidiaries to it and such other factors as the Syntec Optics
+board of directors may deem relevant. As a result, you may not receive any return on an investment in Syntec Optics common stock unless
+you sell your Syntec Optics common stock for a price greater than that which you paid for it. 26 Item
+1B. Unresolved Staff Comments Not
+applicable. Item
+1C. Cybersecurity Risk
+Management and Strategy We
+recognize the importance of protecting information assets such as the personally identifiable information of our employees, and proprietary
+business information, and have adopted policies, management oversight, accountability structures, and technology processes designed to
+safeguard this information. All of our employees are required to attest annually to our information security policies and participate
+in regular security awareness training to protect their information and the Syntec Optics data and systems to which they have access.
+These trainings also instruct employees on how to report any potential privacy or data security issues. We
+have developed and implemented a cybersecurity risk management program intended to protect the confidentiality, integrity, and availability
+of our critical systems and information. Our cybersecurity risk management program includes a cybersecurity incident response plan. We
+design and assess our program based on various cybersecurity frameworks, such as the National Institute of Standards and Technology (“NIST”).
+We use these cybersecurity frameworks and information security standards as a guide to help us identify, assess, and manage cybersecurity
+risks relevant to our business. Our cybersecurity risk management program is integrated into our overall enterprise risk management program,
+sharing common methodologies and governance processes across the enterprise risk management program. Specifically, our cybersecurity
+risk management program includes: ●
+risk assessments designed to help identify material cybersecurity risks to our critical systems and enterprise information technology
+(“IT”) environment; ●
+an internal security team and an external service provider principally responsible for managing (1) our cybersecurity risk assessment
+processes, (2) our security controls, and (3) our response to cybersecurity threats and incidents; ●
+the use of external service providers, where appropriate, to assess, test, or otherwise assist with aspects of our cybersecurity security
+controls; ●
+cybersecurity awareness training for our employees, incident response personnel, and senior management on an annual basis as part of
+the risk mitigation strategy; ●
+annual testing of the effectiveness of the cybersecurity awareness training; ●
+a cybersecurity incident response plan that includes procedures for responding to cybersecurity incidents; ●
+a third-party risk management process for service providers, suppliers, and vendors; and ●
+cybersecurity internal and external penetration testing. We
+work with third-party service providers to proactively assess our information security program and provide us with an industry view of
+the cyberthreat landscape, in addition to monitoring and supporting our control environment and breach notification and response processes . As
+of the date of this Annual Report on Form 10-K, cybersecurity threats have not materially affected and we believe are not reasonably
+likely to materially affect Syntec Optics, including our business strategy, results of operations, or financial condition. Refer to the
+risk factor captioned “Cyberattacks and security vulnerabilities could lead to reduced revenue, increased costs, liability claims,
+or harm to our reputation or competitive position.” in Part I,
+

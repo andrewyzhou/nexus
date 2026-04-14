@@ -1,0 +1,57 @@
+EX-21.1
+19
+btm-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+Bitcoin Depot Inc.
+List of subsidiaries
+Bitcoin Depot Inc. has the following subsidiaries as of December 31, 2025:
+Subsidiary
+Jurisdiction of Incorporation or Organization
+Percentage of Voting Securities Owned by Immediate Parent
+BT Holdco LLC
+Delaware
+100%
+BCD Merger Sub LLC.
+Delaware
+100%
+Bitcoin Depot Operating LLC
+Delaware
+100%
+Intuitive Software, LLC
+Canada
+100%
+Digital Gold Ventures, Inc.
+Canada
+100%
+Kiosk Holdco LLC
+Delaware
+100%
+BitAccess, Inc.
+Canada
+80%
+Mintz Assets, Inc.
+Georgia
+100%
+BTM Solutions India Private Limited
+India
+100%
+Express Vending, Inc.
+Canada
+100%
+Brazil BTM Limitada
+Brazil
+100%
+Bitcoin Depot S. de R.L. de C.V.
+Mexico
+100%
+UK BTM Limited
+United Kingdom
+100%
+Aus BTM Pty Ltd
+Australia
+100%
+HK BTM Limited
+Hong Kong
+100%

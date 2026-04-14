@@ -1,0 +1,210 @@
+EX-2.1
+2
+exhibit21.htm
+EX-2.1
+Document
+Exhibit 2.1
+DESCRIPTION OF SECURITIES
+REGISTERED UNDER SECTION 12 OF THE EXCHANGE ACT
+The following is a description of our outstanding securities registered under Section 12 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”) as required pursuant to the relevant Items under Form 20-F. As of December 31, 2024, XP Inc. (“we,” “us,” “our” and “XP”) had the following series of securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Class A common shares, par value US$0.00001 per share
+XP
+The NASDAQ Global Select Market
+XP Inc. was incorporated on August 29, 2019, as a Cayman Islands exempted company with limited liability with the Cayman Islands Registrar of Companies. Our corporate purposes are unrestricted and we have the authority to carry out any object not prohibited by any law as provided by Section 7(4) of the Companies Act (As Revised) of the Cayman Islands, or the Companies Act.
+Our affairs are governed principally by: (1) our Third Amended and Restated Memorandum and Articles of Association (the “Memorandum and Articles of Association”); (2) the Companies Act; and (3) the common law of the Cayman Islands. As provided in our Memorandum and Articles of Association, subject to Cayman Islands law, we have full capacity to carry on or undertake any business or activity, do any act or enter into any transaction, and, for such purposes, full rights, powers and privileges. Our registered office is c/o Maples Corporate Services Limited, P.O. Box 309, Ugland House, Grand Cayman, KY1-1104, Cayman Islands.
+CLASS A COMMON SHARES
+Item 9. General
+9.A.3 Preemptive rights
+See “—Item 10.B Memorandum and articles of association-Preemptive or Similar Rights” below.
+9.A.5 Type and class of securities
+As of December 31, 2024, XP had a total issued share capital of
+US$5,398.06829, divided into 539,806,829 common shares. Those common shares are divided into 434,047,695 Class A common shares and 103,375,726  Class B common shares that are issued and outstanding, and common shares held by XP as treasury shares. All of our issued and outstanding share capital is fully paid. Our Class A common shares are in book-entry form, registered in the name of each shareholder or its nominee.
+As of December 31, 2024, our total authorized share capital was US$35,000, divided into 3,500,000,000 shares par value US$0.00001 each, of which (i) 2,000,000,000 shares are designated as Class A common shares, (ii) 1,000,000,000 shares are designated as Class B common shares, and (iii) 500,000,000 authorized but unissued shares are presently undesignated and may be issued by our board of directors as common shares of any class or as shares with preferred, deferred or other special rights or restrictions.
+1
+[ CLASSIFICAÇÃO: PÚBLICA ]
+Our Memorandum and Articles of Association authorize two classes of common shares: Class A common shares, which are entitled to one vote per share and Class B common shares, which are entitled to 10 votes per share and to maintain a proportional ownership and voting interest in the event that additional Class A common shares are issued. Any holder of Class B common shares may convert his or her shares at any time into Class A common shares on a share-for-share basis. The rights of the two classes of common shares are otherwise identical, except as described in our Memorandum and Articles of Association. See “-Anti-Takeover Provisions in our Memorandum and Articles of Association-Two Classes of Common Shares.”
+Item 9.A.6. Limitations or qualifications
+Not applicable.
+Item 9.A.7. Other rights
+Not applicable.
+Item 10.B Memorandum and articles of association
+The following information describes our Class A common shares and provisions set forth by our Memorandum and Articles of Association, the Companies Act; and the common law of the Cayman Islands. This description is only a summary. You should read and refer to our Third Amended and Restated Memorandum and Articles of Association included as Exhibit 1.1 to
+our annual report on Form 20-F
+.
+Description of Our Memorandum and Articles of Association
+History of Share Capital
+On December 10, 2019, the registration statement on Form F-1 (File No 333-234719) relating to our initial public offering of our class A common shares was declared effective by the SEC. On December 11, 2019, we commenced our initial public offering and on December 13, 2019, we closed our initial public offering.
+As of December 31, 2024, XP had
+1,327,100 Class A common shares and 1,056,308 Class B common shares in treasury
+. On July 30, 2024, we cancelled 12,650,574 Class A common shares (92.3% of total treasury shares as of the date of cancellation) held in our treasury accounts. As a result, our outstanding and treasury shares were reduced from 549,630,977 to 536,980,403.
+General
+Our shareholders adopted the Memorandum and Articles of Association included as Exhibit 1.1 to our annual report on Form 20-F.
+The following summary is subject to and qualified in its entirety by
+XP Inc.’s
+Memorandum and Articles of Association. This is not a summary of all the significant provisions of our Memorandum and Articles of Association, of the Companies Act or of the common law of the Cayman Islands and does not purport to be complete. Capitalized terms used but not defined herein have the meanings given to them in our annual report.
+Corporate Purposes
+Our corporate purposes are unrestricted and we have the authority to carry out any object not prohibited by any law as provided by Section 7(4) of Companies Act.
+2
+[ CLASSIFICAÇÃO: PÚBLICA ]
+Issuance of Shares
+Except as expressly provided in XP’s Memorandum and Articles of Association, XP’s board of directors has general and unconditional authority to allot, grant options over, offer or otherwise deal with or dispose of any unissued shares in the company’s capital without the approval of our shareholders (whether forming part of the original or any increased share capital), either at a premium or at par, with or without preferred, deferred or other special rights or restrictions, whether in regard to dividend, voting, return of capital or otherwise and to such persons, on such terms and conditions, and at such times as the directors may decide, but so that no share shall be issued at a discount, except in accordance with the provisions of the Companies Act. In accordance with its Memorandum and Articles of Association, XP shall not issue bearer shares.
+XP’s Memorandum and Articles of Association provide that at any time that there are Class A common shares in issue, additional Class B common shares may only be issued pursuant to (1) a share split, subdivision of shares or similar transaction or where a dividend or other distribution is paid by the issue of shares or rights to acquire shares or following capitalization of profits; (2) a merger, consolidation or other business combination involving the issuance of Class B common shares as full or partial consideration; or (3) an issuance of Class A common shares, whereby holders of the Class B common shares are entitled to purchase a number of Class B common shares that would allow them to maintain their proportional ownership and voting interests in XP (following an offer by XP to each holder of Class B common shares to issue to such holder, upon the same economic terms and at the same price, such number of Class B common shares as would ensure such holder may maintain a proportional ownership and voting interest in XP pursuant to XP’s Memorandum and Articles of Association). In light of (a) the above provisions; and (b) the ten-to-one voting ratio between our Class B common shares and Class A common shares, holders of our Class B common shares will in many situations continue to maintain control of all matters requiring shareholder approval. This concentration of ownership and voting power will limit or preclude your ability to influence corporate matters for the foreseeable future. For more information see “—Preemptive or similar rights.”
+Fiscal Year
+XP’s fiscal year begins on January 1 of each year and ends on December 31 of the same year.
+Voting Rights
+The holder of a Class B common share is entitled, in respect of such share, to 10 votes per share, whereas the holder of a Class A common share is entitled, in respect of such share, to one vote per share. The holders of Class A common shares and Class B common shares vote together as a single class on all matters (including the election of directors) submitted to a vote of shareholders, except as provided below and as otherwise required by law.
+3
+[ CLASSIFICAÇÃO: PÚBLICA ]
+XP’s Memorandum and Articles of Association provide as follows regarding the respective rights of holders of Class A common shares and Class B common shares:
+•
+class consents from the holders of Class A common shares and Class B common shares, as applicable, shall be required for any variation to the rights attached to their respective class of shares; however, the Directors may treat the two classes of shares as forming one class if they consider that both such classes would be affected in the same way by the proposal;
+•
+the rights conferred on holders of Class A common shares shall not be deemed to be varied by the creation or issue of further Class B common shares and vice versa; and
+•
+the rights attaching to the Class A common shares and the Class B common shares shall not be deemed to be varied by the creation or issue of shares with preferred or other rights, including, without limitation, shares with enhanced or weighted voting rights.
+As set forth in the Memorandum and Articles of Association, the holders of Class A common shares and Class B common shares, respectively, do not have the right to vote separately if the number of authorized shares of such class is increased or decreased. Rather, the number of authorized Class A common shares and Class B common shares may be increased or decreased (but not below the number of shares of such class then outstanding) by both classes voting together by way of an “ordinary resolution,” which is defined in the Memorandum and Articles of Association as being a resolution (1) of a duly constituted general meeting passed by a simple majority of the votes cast by, or on behalf of, the shareholders entitled to vote present in person or by proxy and voting at the meeting; or (2) approved in writing by all of the shareholders entitled to vote at a general meeting in one or more instruments each signed by one or more of the shareholders and the effective date of the resolution so adopted shall be the date on which the instrument, or the last of such instruments, if more than one, is executed.
+Conversion Rights
+As set forth in the Memorandum and Articles of Association, Class B common shares shall be convertible into Class A common shares (i) at the option of the holder; and (ii) automatically immediately prior to any transfer through a Designated Stock Exchange. Furthermore, as set forth in the Memorandum and Articles of Association, each Class B common share will convert automatically into one Class A common share and no Class B common shares will be issued thereafter if, at any time, the total number of votes of the issued and outstanding Class B common shares represents less than 10% of the voting share rights of the Company.
+Preemptive or Similar Rights
+The Class B common shares are entitled to maintain a proportional ownership and voting interest in the event that additional Class A common shares are issued. As such, except for certain exceptions provided for in the Memorandum and Articles of Association, if XP increases its share capital or issues common shares, it must first make an offer to each holder of Class B common shares to issue to such holder on the same economic terms such number of Class A common shares and Class B common shares, as applicable, as would ensure such holder may maintain a proportional ownership and voting interest in XP. This right to maintain a proportional ownership and voting interest may be waived by the holders of two-thirds of the Class B common shares in the context of a public offering.
+4
+[ CLASSIFICAÇÃO: PÚBLICA ]
+Equal Status
+Except as expressly provided in XP’s Memorandum and Articles of Association, Class A common shares and Class B common shares have the same rights and privileges and rank equally, share ratably and are identical in all respects as to all matters. In the event of any merger, consolidation, scheme, arrangement or other business combination requiring the approval of our shareholders entitled to vote thereon (whether or not XP is the surviving entity), the holders of Class A common shares shall have the right to receive, or the right to elect to receive, the same form of consideration (as shall be adjusted, in the case of share or equivalent consideration, by the directors so as to account for the different economic and voting rights that exist or may exist between such consideration and the share classes) as the holders of Class B common shares, and (save as aforesaid) the holders of Class A common shares shall have the right to receive, or the right to elect to receive, at least the same amount of consideration on a per share basis as the holders of Class B common shares. In the event of any (1) tender or exchange offer to acquire any Class A common shares or Class B common shares by any third party pursuant to an agreement to which XP is a party, or (2) tender or exchange offer by XP to acquire any Class A common shares or Class B common shares, the holders of Class A common shares shall have the right to receive, or the right to elect to receive, the same form of consideration (as shall be adjusted, in the case of share or equivalent consideration, by the directors so as to account for the different economic and voting rights that exist or may exist between such consideration and the share classes) as the holders of Class B common shares, and (save as aforesaid) the holders of Class A common shares shall have the right to receive, or the right to elect to receive, at least the same amount of consideration on a per-share basis as the holders of Class B common shares.
+Record Dates
+For the purpose of determining shareholders entitled to notice of, or to vote at any general meeting of shareholders or any adjournment thereof, or shareholders entitled to receive dividend or other distribution payments, or in order to make a determination of shareholders for any other purpose, XP’s board of directors may set a record date which shall not exceed forty clear days prior to the date where the determination will be made.
+General Meetings of Shareholders
+As a condition of admission to a shareholders’ meeting, a shareholder must be duly registered as a shareholder of XP at the applicable record date for that meeting and, in order to vote, all calls or installments then payable by such shareholder to XP in respect of the shares that such shareholder holds must have been paid.
+Subject to any special rights or restrictions as to voting then attached to any shares, at any general meeting every shareholder who is present in person or by proxy (or, in the case of a shareholder being a corporation, by its duly authorized representative not being himself or herself a shareholder entitled to vote) shall have one vote per Class A common share and 10 votes per Class B common share.
+As a Cayman Islands exempted company, XP is not obliged by the Companies Act to call annual general meetings; however, the Memorandum and Articles of Association provide that in each year the company will hold an annual general meeting of shareholders. For the annual general meeting of shareholders the agenda will include, among other things, the presentation of the annual accounts and the report of the directors (if any). In addition, the agenda for an annual general meeting of shareholders will only include such items as have been included therein by the board of directors.
+Also, XP may, but is not required to (unless required by the laws of the Cayman Islands), hold other extraordinary general meetings during the year. General meetings of shareholders are generally expected to take place in São Paulo, Brazil, but may be held elsewhere if the directors so decide.
+5
+[ CLASSIFICAÇÃO: PÚBLICA ]
+The Companies Act provides shareholders a limited right to request a general meeting, and does not provide shareholders with any right to put any proposal before a general meeting in default of a company’s Memorandum and Articles of Association. However, these rights may be provided in a company’s Memorandum and Articles of Association. XP’s Memorandum and Articles of Association provide that, upon the requisition of one or more shareholders representing not less than one-third of the voting rights entitled to vote at general meetings, the board will convene an extraordinary general meeting and put the resolutions so requisitioned to a vote at such meeting. The Memorandum and Articles of Association provide no other right to put any proposals before annual general meetings or extraordinary general meetings.
+Subject to regulatory requirements, the annual general meeting and any extraordinary general meetings must be called by not less than eight days’ notice prior to the relevant shareholders meeting and convened by a notice discussed below. Alternatively, upon the prior consent of all holders entitled to receive notice, with regards to the annual general meeting, and the holders of 95% in par value of the shares entitled to attend and vote at an extraordinary general meeting, that meeting may be convened by a shorter notice and in a manner deemed appropriate by those holders.
+XP will give notice of each general meeting of shareholders by publication on its website and in any other manner that it may be required to follow in order to comply with Cayman Islands law, Nasdaq and SEC requirements. The holders of registered shares may be given notice of a shareholders’ meeting by means of letters sent to the addresses of those shareholders as registered in our shareholders’ register, or, subject to certain statutory requirements, by electronic means.
+Holders whose shares are registered in the name of DTC or its nominee, which we expect will be the case for all holders of Class A common shares, will not be a shareholder or member of the company and must rely on the procedures of DTC regarding notice of shareholders’ meetings and the exercise of rights of a holder of the Class A common shares.
+A quorum for a general meeting consists of any one or more persons holding or representing by proxy not less than 50% of the aggregate voting power of all shares in issue and entitled to vote upon the business to be transacted. If a quorum is not present within half an hour from the time appointed for the meeting to commence or if, during such a meeting, a quorum ceases to be present, a second meeting may be called with at least five days’ notice to shareholders specifying the place, the day and the hour of the second meeting, as the Directors may determine, and if at the second meeting a quorum is not present within half an hour from the time appointed for the meeting to commence, the shareholders present shall be a quorum.
+A resolution put to a vote at a general meeting shall be decided on a poll. Generally speaking, an ordinary resolution to be passed by the shareholders at a general meeting requires the affirmative vote of a simple majority of the votes cast by, or on behalf of, the shareholders entitled to vote, present in person or by proxy and voting at the meeting, and a special resolution requires the affirmative vote on a poll of no less than two-thirds of the votes cast by the shareholders entitled to vote who are present in person or by proxy at a general meeting. Both ordinary resolutions and special resolutions may also be passed by a unanimous written resolution signed by all the shareholders of our Company, as permitted by the Companies Act and our Memorandum and Articles of Association.
+6
+[ CLASSIFICAÇÃO: PÚBLICA ]
+Pursuant to XP’s Memorandum and Articles of Association, general meetings of shareholders are to be chaired by the chairman of our board of directors or any other person appointed by our board of directors. If the chairman or such other person is absent, the directors present at the meeting shall appoint one of them to be chairman of the general meeting. If neither the chairman nor such other person nor another director is present at the general meeting within 15 minutes after the time appointed for holding the meeting, the shareholders present in person or by proxy and entitled to vote may elect any one of the shareholders to be chairman. The order of business at each meeting shall be determined by the chairman of the meeting, and he or she shall have the right and authority to prescribe such rules, regulations and procedures and to do all such acts and things as are necessary or desirable for the proper conduct of the meeting, including, without limitation, the establishment of procedures for the maintenance of order and safety, limitations on the time allotted to questions or comments on the affairs of the Company, restrictions on entry to such meeting after the time prescribed for the commencement thereof, and the opening and closing of the polls.
+Liquidation Rights
+If XP is voluntarily wound up, the liquidator, after taking into account and giving effect to the rights of preferred and secured creditors and to any agreement between XP and any creditors that the claims of such creditors shall be subordinated or otherwise deferred to the claims of any other creditors and to any contractual rights of set-off or netting of claims between XP and any person or persons (including without limitation any bilateral or any multilateral set-off or netting arrangements between the company and any person or persons) and subject to any agreement between XP and any person or persons to waive or limit the same, shall apply XP’s property in satisfaction of its liabilities
+pari passu
+and subject thereto shall distribute the property among the shareholders according to their rights and interests in XP.
+Changes to Capital
+Pursuant to the Memorandum and Articles of Association, XP may from time to time by ordinary resolution:
+•
+increase its share capital by such sum, to be divided into shares of such amount, as the resolution shall prescribe;
+•
+consolidate and divide all or any of its share capital into shares of a larger amount than its existing shares;
+•
+convert all or any of its paid-up shares into stock and reconvert that stock into paid-up shares of any denomination;
+•
+subdivide its existing shares or any of them into shares of a smaller amount, provided that in the subdivision the proportion between the amount paid and the amount, if any, unpaid on each reduced share shall be the same as it was in the case of the share from which the reduced share is derived; or
+•
+cancel any shares which, at the date of the passing of the resolution, have not been taken or agreed to be taken by any person and diminish the amount of its share capital by the amount of the shares so canceled.
+XP’s shareholders may by special resolution, subject to confirmation by the Grand Court of the Cayman Islands on an application by the Company for an order confirming such reduction, reduce its share capital or any capital redemption reserve in any manner permitted by law.
+7
+[ CLASSIFICAÇÃO: PÚBLICA ]
+In addition, subject to the provisions of the Companies Act and our Memorandum and Articles of Association, XP may:
+•
+issue shares on terms that they are to be redeemed or are liable to be redeemed;
+•
+purchase its own shares (including any redeemable shares); and
+•
+make a payment in respect of the redemption or purchase of its own shares in any manner authorized by the Companies Act, including out of its own capital.
+Transfer of Shares
+Subject to any applicable restrictions set forth in the Memorandum and Articles of Association, any shareholder of XP may transfer all or any of his or her common shares by an instrument of transfer in the usual or common form or in the form prescribed by the Nasdaq or any other form approved by the Company’s board of directors.
+Our Class A common shares are traded on the Nasdaq in book-entry form and may be transferred in accordance with XP’s Memorandum and Articles of Association and Nasdaq’s rules and regulations.
+However, XP’s board of directors may, in its absolute discretion, decline to register any transfer of any common share which is either not fully paid up to a person of whom it does not approve or is issued under any share incentive scheme for employees which contains a transfer restriction that is still applicable to such common share. The board of directors may also decline to register any transfer of any common share unless:
+•
+the instrument of transfer is lodged with XP, accompanied by the certificate (if any) for the common shares to which it relates and such other evidence as our board of directors may reasonably require to show the right of the transferor to make the transfer;
+•
+the instrument of transfer is in respect of only one class of shares;
+•
+the instrument of transfer is properly stamped, if required;
+•
+the common shares transferred are free of any lien in favor of XP; and
+•
+in the case of a transfer to joint holders, the transfer is not to more than four joint holders.
+If the directors refuse to register a transfer they are required, within two months after the date on which the instrument of transfer was lodged, to send to the transferee notice of such refusal.
+Share Repurchase
+The Companies Act and the Memorandum and Articles of Association permit XP to purchase its own shares, subject to certain restrictions. The board of directors may only exercise this power on behalf of XP, subject to the Companies Act, the Memorandum and Articles of Association and to any applicable requirements imposed from time to time by the SEC, the Nasdaq, or by any recognized stock exchange on which our securities are listed.
+For more information, please see “Item 16E. Purchases of Equity Securities by the Issuer and Affiliated Purchasers.”
+8
+[ CLASSIFICAÇÃO: PÚBLICA ]
+Dividends and Capitalization of Profits
+We have not adopted a dividend policy with respect to payments of any future dividends by XP. Subject to the Companies Act, XP’s shareholders may, by resolution passed by a simple majority of the voting rights entitled to vote at a general meeting, declare dividends (including interim dividends) to be paid to shareholders but no dividend shall be declared in excess of the amount recommended by the board of directors. The board of directors may also declare dividends. Dividends may be declared and paid out of funds lawfully available to XP. Except as otherwise provided by the rights attached to shares and the Memorandum and Articles of Association of XP, all dividends shall be paid in proportion to the number of Class A common shares or Class B common shares a shareholder holds at the date the dividend is declared (or such other date as may be set as a record date); but, (1) if any share is issued on terms providing that it shall rank for dividend as from a particular date, that share shall rank for dividend accordingly; and (2) where we have shares in issue which are not fully paid up (as to par value), we may pay dividends in proportion to the amounts paid up on each share.
+The holders of Class A common shares and Class B common shares shall be entitled to share equally in any dividends that may be declared in respect of XP’s common shares from time to time. In the event that a dividend is paid in the form of Class A common shares or Class B common shares, or rights to acquire Class A common shares or Class B common shares, (1) the holders of Class A common shares shall receive Class A common shares, or rights to acquire Class A common shares, as the case may be and (2) the holders of Class B common shares shall receive Class B common shares, or rights to acquire Class B common shares, as the case may be.
+Appointment, Disqualification and Removal of Directors
+XP is managed by its board of directors. The Memorandum and Articles of Association provide that the board of directors will be composed of such number of directors as a majority of directors in office may determine, being up to 12 directors on the date of adoption of the Memorandum and Articles of Association. There are no provisions relating to retirement of directors upon reaching any age limit. The Memorandum and Articles of Association also provide that, while XP’s shares are admitted to trading on Nasdaq, the board of directors must always comply with the residency and citizenship requirements of the U.S. securities laws applicable to foreign private issuers.
+The Memorandum and Articles of Association provide that directors shall be elected by an ordinary resolution of our shareholders, which requires the affirmative vote of a simple majority of the votes cast on the resolution by the shareholders entitled to vote who are present, in person or by proxy, at the meeting. Each director shall be appointed for a two-year term, unless they resign or their office is vacated earlier, provided, however, that such term shall be extended beyond two years in the event that no successor has been appointed (in which case such term shall be extended to the date on which such successor has been appointed).
+Grounds for Removing a Director
+A director may be removed with or without cause by ordinary resolution. The notice of general meeting must contain a statement of the intention to remove the director and must be served on the director not less than ten calendar days before the meeting. The director is entitled to attend the meeting and be heard on the motion for his removal.
+The office of a director will be vacated automatically if he or she (1) becomes prohibited by law from being a director; (2) becomes bankrupt or makes an arrangement or composition with his creditors; (3) dies or is in the opinion of all his co-directors, incapable by reason of mental disorder of discharging his duties as director; (4) resigns his office by notice to us; or (5) has for more than six months been absent without permission of the directors from meetings of the board of directors held during that period, and the remaining directors resolve that his or her office be vacated.
+9
+[ CLASSIFICAÇÃO: PÚBLICA ]
+Proceedings of the Board of Directors
+The Memorandum and Articles of Association provide that XP’s business is to be managed and conducted by the board of directors. The quorum necessary for the board meeting shall be a simple majority of the directors then in office and business at any meeting shall be decided by a majority of votes. In the case of an equality of votes, the chairman shall not have a casting vote.
+Subject to the provisions of the Memorandum and Articles of Association, the board of directors may regulate its proceedings as they determine is appropriate. Board meetings shall be held at least once every calendar quarter and shall take place either in São Paulo, Brazil or at such other place as the directors may determine.
+Subject to the provisions of the Memorandum and Articles of Association, to any directions given by ordinary resolution of the shareholders and the listing rules of the Nasdaq, the board of directors may from time to time at its discretion exercise all powers of XP, including, subject to the Companies Act, the power to issue debentures, bonds and other securities of the company, whether outright or as collateral security for any debt, liability or obligation of our company or of any third party.
+Inspection of Books and Records
+Holders of XP shares will have no general right under Cayman Islands law to inspect or obtain copies of the list of shareholders or corporate records of the Company. However, the board of directors may determine from time to time whether and to what extent XP’s accounting records and books shall be open to inspection by shareholders who are not members of the board of directors. Notwithstanding the above, the Memorandum and Articles of Association provide shareholders with the right to receive annual financial statements. Such right to receive annual financial statements may be satisfied by publishing the same on the company’s website or filing such annual reports as we are required to file with the SEC.
+Register of Shareholders
+Our Class A common shares are held through DTC, and DTC or Cede & Co., as nominee for DTC, is recorded in the shareholders’ register as the holder of our Class A common shares.
+Under Cayman Islands law, XP must keep a register of shareholders that includes:
+•
+the names and addresses of the shareholders, a statement of the shares held by each member and of the amount paid or agreed to be considered as paid on the shares of each member;
+•
+the date on which the name of any person was entered on the register as a member; and
+•
+the date on which any person ceased to be a member.
+Under Cayman Islands law, the register of shareholders of XP is prima facie evidence of the matters set out therein (
+i.e.
+, the register of shareholders will raise a presumption of fact on the matters referred to above unless rebutted) and a shareholder registered in the register of shareholders is deemed as a matter of Cayman Islands law to have
+prima facie
+legal title to the shares as set against his or her name in the register of shareholders.
+If the name of any person is incorrectly entered in or omitted from the register of shareholders, or if there is any default or unnecessary delay in entering on the register the fact of any person having ceased to be a shareholder of XP, the person or member aggrieved (or any shareholder of XP, or XP itself) may apply to the Cayman Islands Grand Court for an order that the register be rectified, and the Court may either refuse such application or it may, if satisfied of the justice of the case, make an order for the rectification of the register.
+10
+[ CLASSIFICAÇÃO: PÚBLICA ]
+Exempted Company
+XP is an exempted company with limited liability under the Companies Act. The Companies Act distinguishes between ordinary resident companies and exempted companies. Any company that is registered in the Cayman Islands but conducts business mainly outside of the Cayman Islands may apply to be registered as an exempted company. The requirements for an exempted company are essentially the same as for an ordinary company except for the exemptions and privileges listed below:
+•
+an exempted company does not have to file an annual return of its shareholders with the Registrar of Companies;
+•
+an exempted company’s register of shareholders is not open to inspection;
+•
+an exempted company does not have to hold an annual general meeting;
+•
+an exempted company may obtain an undertaking against the imposition of any future taxation (such undertakings are usually given for 20 years in the first instance);
+•
+an exempted company may register by way of continuation in another jurisdiction and be deregistered in the Cayman Islands;
+•
+an exempted company may register as a limited duration company; and
+•
+an exempted company may register as a segregated portfolio company.
+“Limited liability” means that the liability of each shareholder is limited to the amount unpaid by the shareholder on the shares of the company (except in exceptional circumstances, such as involving fraud, the establishment of an agency relationship or an illegal or improper purpose or other circumstances in which a court may be prepared to pierce or lift the corporate veil).
+Anti-Takeover Provisions in Our Memorandum and Articles of Association
+Some provisions of the Memorandum and Articles of Association may discourage, delay or prevent a change in control of XP or management that shareholders may consider favorable. In particular, the capital structure of XP concentrates ownership of voting rights in the hands of XP Control, as the controlling shareholder. These provisions, which are summarized below, are expected to discourage coercive takeover practices and inadequate takeover bids. These provisions are also designed to encourage persons seeking to acquire control of XP to first negotiate with the board of directors. However, these provisions could also have the effect of discouraging others from attempting hostile takeovers and, as a consequence, they may also inhibit temporary fluctuations in the market price of the Class A common shares that often result from actual or rumored hostile takeover attempts. These provisions may also have the effect of preventing changes in the management of XP. It is possible that these provisions could make it more difficult to accomplish transactions that shareholders may otherwise deem to be in their best interests.
+Two Classes of Common Shares
+The Class B common shares of XP are entitled to 10 votes per share, while the Class A common shares are entitled to one vote per share. Since XP Control owns all of the issued and outstanding Class B common shares, XP Control currently has the ability to elect a majority of the directors and to determine the outcome of most matters submitted for a vote of shareholders, with XP Control as the controlling shareholder. This concentrated voting control could discourage others from initiating any potential merger, takeover or other change of control transaction that other shareholders may view as beneficial.
+11
+[ CLASSIFICAÇÃO: PÚBLICA ]
+So long as XP Control has the ability to determine the outcome of most matters submitted to a vote of shareholders as well, third parties may be deterred in their willingness to make an unsolicited merger, takeover or other change of control proposal, or to engage in a proxy contest for the election of directors. As a result, the fact that XP has two classes of common shares may have the effect of depriving you as a holder of Class A common shares of an opportunity to sell your Class A common shares at a premium over prevailing market prices and make it more difficult to replace the directors and management of XP.
+Preferred Shares
+XP’s board of directors is given wide powers to issue one or more classes or series of shares with preferred rights. Such preferences may include, for example, dividend rights, conversion rights, redemption privileges, enhanced voting powers and liquidation preferences.
+Despite the anti-takeover provisions described above, under Cayman Islands law, XP’s board of directors may only exercise the rights and powers granted to them under the Memorandum and Articles of Association for what they believe in good faith to be in the best interests of XP.
+Protection of Non-Controlling Shareholders
+The Grand Court of the Cayman Islands may, on the application of shareholders holding not less than one fifth of the shares of XP in issue, appoint an inspector to examine the Company’s affairs and report thereon in a manner as the Grand Court shall direct.
+Subject to the provisions of the Companies Act, any shareholder may petition the Grand Court of the Cayman Islands which may make a winding-up order, if the court is of the opinion that this winding-up is just and equitable.
+Notwithstanding the U.S. securities laws and regulations that are applicable to XP, general corporate claims against XP by its shareholders must, as a general rule, be based on the general laws of contract or tort applicable in the Cayman Islands or their individual rights as shareholders as established by XP’s Memorandum and Articles of Association.
+The Cayman Islands courts ordinarily would be expected to follow English case law precedents, which permit a minority shareholder to commence a representative action against XP, or derivative actions in XP’s name, to challenge (1) an act which is ultra vires or illegal; (2) an act which constitutes a fraud against the minority and the wrongdoers themselves control XP; and (3) an irregularity in the passing of a resolution that requires a qualified (or special) majority.
+Registration Rights and Restricted Shares
+On December 1, 2019, we entered into a registration rights agreement (as amended from time to time, the “Registration Rights Agreement”), with XP Controle, Itaú and GA Bermuda. Following the merger of XPart with and into us on October 1, 2021, we entered into an amended and restated registration rights agreement with XP Controle, GA Bermuda, ITB Holding, IUPAR – Itaú Unibanco Participações S.A., and Itaúsa S.A. Also, following XP Controle’s and IUPAR - Itaú Unibanco Participações S.A.’s reorganizations in December 2021, XP Control, São Carlos and São Marcos became parties to the Registration Rights Agreement.
+12
+[ CLASSIFICAÇÃO: PÚBLICA ]

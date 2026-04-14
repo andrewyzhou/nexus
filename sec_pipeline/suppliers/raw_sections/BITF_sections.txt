@@ -1,0 +1,186 @@
+TICKER: BITF
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain disruptions, trade restrictions, and
+                                            tariff risks; ● delays,
+                                            cost overruns, and other risks associated with the continued development of our existing
+                                            and planned facilities; ● intense
+                                            competition from other Bitcoin Mining companies and established HPC data center operators,
+                                            some of which may have greater resources and experience; ● the
+                                            potential inadequacy of our insurance coverage to protect against all losses; Risks
+Related to HPC Infrastructure ● our
+                                            increased focus on developing HPC and AI data centers may not become profitable and may divert
+                                            resources from our Bitcoin Mining operations; ● the
+                                            capital-intensive nature of constructing HPC data centers and our potential inability to
+                                            secure financing for such efforts; vii ● significant
+                                            competition for suitable data center sites and regulatory constraints that could adversely
+                                            impact our development pipeline; ● our
+                                            dependence on significant customers for our HPC data centers, and the risk of customer default
+                                            or failure to make timely payments; ● the
+                                            rapidly evolving regulatory landscape surrounding HPC, AI, and Bitcoin Mining, which may
+                                            negatively impact our expansion efforts; Risks
+Related to Bitcoin and Digital Assets ● the
+                                            high volatility of Bitcoin prices, which has significantly affected and will continue to
+                                            affect the profitability of our operations; ● periodic
+                                            Bitcoin halving events that reduce Mining rewards and could render our Mining operations
+                                            unprofitable; ● increases
+                                            in cryptocurrency Network Difficulty and global computing power that could reduce our Mining
+                                            revenues; ● our
+                                            reliance on a single third-party Mining Pool operator, subjecting us to concentration risk; ● fraud
+                                            or failure of Bitcoin exchanges, custodians, and other trading venues that could adversely
+                                            impact Bitcoin prices and our business; Risks
+Related to Regulation, Tax, and Compliance ● our
+                                            requirement to obtain and comply with numerous government permits and approvals across multiple
+                                            jurisdictions; ● extensive
+                                            environmental, energy, and climate-related regulation that could result in significant additional
+                                            costs or liabilities; ● political
+                                            uncertainty in the U.S. and internationally, including potential regulatory and policy changes
+                                            affecting the cryptocurrency and data center industries; ● cybersecurity
+                                            threats and hacking attacks that could compromise our systems and data; ● the
+                                            potential classification of Bitfarms as a passive foreign investment company, which could
+                                            result in adverse tax consequences for U.S. holders; Risks
+Related to Our Capital Needs, Corporate Structure, and Securities ● the
+                                            need for additional capital in the future, with no assurance that financing will be available
+                                            on acceptable terms; ● risks
+                                            that our hedging activities may not be effective and could result in significant losses; ● counterparty
+                                            risk with respect to the capped call transactions entered into in connection with the Convertible
+                                            Notes; ● potential
+                                            dilution to shareholders from future issuances of capital stock, conversion of Convertible
+                                            Notes, or exercise of options and warrants; ● risks
+                                            related to the U.S. Redomiciliation, including the possibility that anticipated benefits
+                                            may not be realized; ● the
+                                            market price of our common shares has fluctuated significantly and may continue to do so;
+                                            and ● our
+                                            current intention not to pay cash dividends on our common shares. viii PART
+I. Item
+1. Business. 1.
+Company Overview Bitfarms
+is a North American digital and energy infrastructure company that develops, owns, and plans to operate data centers and energy infrastructure
+for HPC and AI workloads. We currently maintain our legacy North American Bitcoin Mining operations to help fund our operations and development
+efforts. Bitfarms was founded in 2017 and is publicly traded on the Nasdaq and
+TSX under the ticker symbol “BITF”. On or about April 1, 2026, we expect to complete our U.S. Redomiciliation, pursuant to
+which shareholders of Bitfarms will exchange their shares for shares of common stock of Keel Infrastructure Corp. (“Keel Common
+Stock”), a newly formed public company incorporated in the State of Delaware. The Keel Common Stock is expected to begin trading
+on Nasdaq and the TSX under the ticker “KEEL” two business days following completion of the U.S. Redomiciliation, subject
+to fulfilling all of the listing requirements of Nasdaq and the TSX, respectively. Our
+mission is to deliver the infrastructure and energy required to support HPC and AI workloads. We have a portfolio of assets (our “Infrastructure
+Assets”) that include owned and operated power generation facilities with collocated Bitcoin Mining data centers, established grid
+interconnections within the wholesale electricity market administered by PJM Interconnection in Pennsylvania,
+and 100% renewable hydroelectric capacity in Canada and Washington state. Our Infrastructure Assets represent a 2.2 GW power capacity
+pipeline, comprising 648 MW of secured capacity and 1,513 MW of planned capacity in development, located across our U.S. Sites and our
+Québec Sites. Currently, our Infrastructure Assets are deployed to support our Bitcoin Mining activities. We are developing our
+Infrastructure Assets to support HPC data center operations and expect to continue such development in the coming years. 2.
+Lines of Business and Business Model Our
+primary growth area is HPC Infrastructure. We expect to operate our Bitcoin Mining assets to the extent they remain profitable
+and until they are decommissioned to facilitate HPC data center construction. HPC
+Infrastructure is our primary growth area. We are developing data centers designed to support HPC and AI workloads, with
+the intention of leasing capacity to hyperscalers, cloud service providers, AI companies, and enterprises under long-term contracts.
+We expect these contracts to deliver higher cash flows per megawatt and greater revenue predictability than Bitcoin Mining. As of December
+31, 2025, this line of business had not yet generated revenue. We anticipate initial data center revenue generation to begin in 2027.
+See “
+
+--- VENDORS ---
+[NOT FOUND]
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+components, among other
+options: Project-level and/or parent-level debt financing. The Macquarie Credit Facility provided up to $300 million for HPC data center development at Panther Creek, secured by Panther
+Creek assets. We drew $100 million in 2025 and subsequently repaid this amount in February 2026 to avoid negative carry and balance sheet
+complexity, given the amount of cash on our balance sheet to fund near-term development. As we lease sites, we expect to finance construction
+through project-level bank debt and/or project-level bonds. Equity-linked financing. In October
+2025, we issued $588 million of Convertible Notes (approximately $569 million of net proceeds), bearing interest at 1.375% per annum and
+maturing January 15, 2031, with a conversion price of approximately $6.86 per share (30% premium to reference price). In connection with
+this issuance, we entered into capped call transactions, all with a cap price of $11.88 per share. As we progress with HPC data center
+development, we may raise additional equity financing through convertible debt, public equity offerings, and/or sales of minority equity
+interests at the project level. We expect to finance the construction phase of
+development of a site with a combination of the project- and/or parent-level debt and equity-linked sources described above. 8.
+Competition Demand
+for HPC and AI workloads continues to outpace the supply of HPC data center capacity, particularly in power-constrained markets. HPC
+data centers require power densities and cooling architectures that most legacy facilities cannot accommodate, while grid interconnection
+bottlenecks and extended lead times for critical electrical equipment have further constrained new supply. In
+HPC Infrastructure, we compete with established colocation and wholesale data center operators, independent developers, hyperscalers
+developing proprietary capacity, infrastructure-focused investment platforms, and former Bitcoin Mining companies repositioning their
+assets for HPC data center development. Competition is centered on securing grid-interconnected power, accessing land and permitting
+entitlements, procuring long-lead-time equipment, attracting engineering talent, and establishing relationships with creditworthy customers. In
+Bitcoin Mining, we compete with publicly traded and private mining companies for block rewards on the Bitcoin network. We do not
+plan to invest incremental capital in expanding hashrate and expect Mining to wind down progressively as HPC data center operations commence
+across our Infrastructure Assets. 9.
+Team and Capabilities As of March 27, 2026, we had 274 employees across
+Canada and the United States. None of our employees are represented by a labor union, and we have never experienced a work stoppage. We
+have built a team that includes both senior professionals in power infrastructure and digital infrastructure, an important combination
+as HPC data center development requires deep expertise in both domains. Our in-house capabilities span power procurement, utility negotiations,
+grid management, wholesale energy markets, data center construction oversight, project finance, and capital markets execution. We maintain
+offices in New York City (New York, U.S.), Toronto (Ontario, Canada), Brossard (Québec, Canada) and Pittsburgh (Pennsylvania,
+U.S.). We established our New York City office in 2025 as part of our U.S. Redomiciliation plan, and this office will be our principal
+executive office upon the completion of our U.S. Redomiciliation. 7 As
+described herein, we have complemented our internal team with a network of industry-leading development partners selected for domain-specific
+HPC data center expertise. There is a high level of competition for talent across both digital infrastructure and energy engineering,
+and we invest continuously in attracting and retaining professionals with the cross-disciplinary skills our strategy demands. 10.
+Power Generation Operations Through
+Scrubgrass and Panther Creek, we own and operate two waste-to-energy facilities that are designated as qualifying facilities (“QFs”)
+under the provisions of PURPA and FERC’s implementing regulations under PURPA. Each of Scrubgrass and Panther Creek sells electricity
+into the PJM electricity markets, and their primary fuel source is coal refuse, which is provided by various third parties. These facilities
+generate electricity while also consuming and remediating coal refuse, which is considered an environmental liability. As QFs, these
+facilities are recognized under the applicable regulatory framework as eligible resources alongside other qualifying renewable and alternative
+energy facilities, including hydroelectric generation. Scrubgrass and Panther Creek earn Tier II AECs and waste coal tax credits for
+their use of coal refuse as their primary fuel source. In addition, Scrubgrass and Panther Creek may use power generated by their QFs
+to self supply electricity to data centers indirectly owned by the Company and collocated at each site. 11.
+Regulation, Intellectual Property, and the Environment Regulatory
+Landscape Our
+business is subject to extensive U.S. and Canadian federal, state, provincial and local laws. Compliance with, or changes to, the requirements
+under these legal and regulatory regimes may cause us to incur significant additional costs or adversely impact our ability to compete
+on favorable terms with competitors. Failure to comply with such requirements could result in the shutdown of a non-complying facility,
+the imposition of liens, fines, and/or civil or criminal liability and/or costly litigation before the agencies and/or in state of federal
+court. We operate in a complex and rapidly evolving regulatory environment and we are subject to a wide range of laws and regulations
+enacted by federal, state, provincial, and local governments, governmental agencies, and regulatory authorities, including the SEC, the
+Commodity Futures Trading Commission (“CFTC”), the Federal Trade Commission, and the Financial Crimes Enforcement Network
+of the U.S. Department of the Treasury (“FinCEN”), as well as similar entities in Canada and other countries. Other regulatory
+bodies, governmental or semi-governmental, have shown an increased interest in companies operating energy-intensive technologies, Bitcoin
+Mining and use cases related to HPC and AI computing. For example, the energy consumption and environmental impact of data center operations
+(whether used for Bitcoin Mining or HPC and AI) have received heightened regulatory scrutiny, and future regulations may emphasize energy
+efficiency, sustainability, and grid reliability in a manner that is different than current conditions. As
+we expand into the development and ownership of HPC data centers, our facilities may become subject to an increasing number of laws,
+ordinances, and regulations. Regulators and policymakers are increasingly focused on the governance, ethical use, and potential misuse
+of HPC and AI systems and advanced computing technologies, as well as cybersecurity, data protection, export controls, and compliance
+obligations applicable to data center and HPC Infrastructure. Furthermore, Bitcoin and other digital assets are subject to anti-fraud
+regulations under federal and state commodity and/or securities laws, and digital asset derivative instruments are regulated by the CFTC
+and SEC. Certain jurisdictions have developed, or are developing, regulatory requirements specifically for digital assets and companies
+that transact in them. Regulatory frameworks applicable to AI and large-scale computing infrastructure are similarly developing and may
+vary significantly across jurisdictions. Regulations may substantially change in the future, and it is presently not possible to know
+how regulations will apply to our business, or when they will be effective. Intellectual
+Property We
+utilize specialized hardware and software in our operations, including certain open-source technologies for which we adhere to applicable
+license terms. We rely on trade secrets, trademarks, and copyright protections, and license intellectual property from third parties.
+We have one non-provisional patent application under review by the U.S. Patent and Trademark Office and may pursue additional protections
+in the future. 8 Environmental
+Matters Our Pennsylvania energy facilities are subject
+to federal and state environmental laws governing air emissions, water usage, and waste management, and are required to maintain permits
+administered by the Pennsylvania Department of Environmental Protection. Our operations in Canada operate on approximately 100% renewable
+hydroelectric energy provided by Hydro-Québec. Our energy mix in 2025 was approximately 65% renewable, 20% waste-to-energy alternative
+energy, 10% PJM-import, and 5% natural gas. We continue to monitor the evolving regulatory landscape regarding data center resource consumption,
+grid reliability, and environmental impact. We believe we are in material compliance with applicable environmental requirements, and our
+environmental compliance costs have not historically been material to our consolidated results. Insurance Where
+practical, we maintain insurance against risks associated with our operations in amounts we believe to be reasonable. Our insurance coverage
+contains customary exclusions and limitations, and there is no assurance that such insurance will continue to be available, will be available
+on acceptable terms, or will be adequate to cover all potential losses. Any uninsured or underinsured loss could have a material adverse
+effect on our business, financial condition, or results of operations. 12.
+Additional Information Additional information about us is available on
+our website at www.bitfarms.com, on the EDGAR website maintained by the SEC at www.sec.gov, and the SEDAR+ website maintained by the Canadian
+Securities Administrators at www.sedarplus.ca. The information on our website is not incorporated by reference in this Annual Report on
+Form 10-K. As of the date of filing, we are a “foreign
+private issuer” as defined in Rule 3b-4 under the Exchange Act. Although not required to do so, we have chosen to file annual reports
+on Form 10-K, quarterly reports on Form 10-Q, and current reports on Form 8-K with the SEC. We will make available free of charge, through
+our website, annual reports on Form 10-K, quarterly reports on Form 10-Q and current reports on Form 8-K and amendments to those reports
+filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange Act, as soon as reasonably practicable after we electronically file
+such material with, or furnish it to, the SEC. On or about April 1, 2026, we expect to complete
+our previously announced U.S. Redomiciliation. After the U.S. Redomiciliation, our website will be www.keelinfra.com. Keel Infrastructure
+Corp. is incorporated in Delaware and will be a U.S. domestic issuer. The
+estimated costs, timelines, and milestones described in this section are forward-looking statements and are subject to change based on
+numerous factors, including the cost and availability of equipment and materials, supply chain conditions, currency exchange rates, the
+availability of electricity at competitive rates, regulatory developments, the ability to secure customer contracts on acceptable terms,
+the availability of financing, and geopolitical events. See “
+

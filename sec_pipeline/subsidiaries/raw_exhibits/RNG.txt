@@ -1,0 +1,77 @@
+EX-21.1
+3
+rng-20251231xex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+List of Subsidiaries
+Name
+Jurisdiction of Incorporation
+RingCentral International, Inc.
+Delaware
+RCLEC, Inc.
+Delaware
+RCVA, Inc.
+Virginia
+Connect First, Inc.
+Delaware
+RingCentral Florida, LLC
+Delaware
+RingCentral Canada Inc.
+Canada
+RingCentral Brasil Soluções em TI LTDA
+Brazil
+RingCentral UK LTD
+United Kingdom
+RingCentral CH GmbH
+Switzerland
+RingCentral B.V.
+Netherlands
+RingCentral Ireland Limited
+Ireland
+RingCentral Espana S.L.
+Spain
+RingCentral Italy S.R.L.
+Italy
+RingCentral France SAS
+France
+RingCentral Hong Kong Limited
+Hong Kong
+Xiamen RingCentral Software Co., Ltd.
+China
+RingCentral Singapore Pte. Ltd.
+Singapore
+RingCentral Australia Pty Ltd
+Australia
+RingCentral Japan K.K.
+Japan
+RingCentral Korea, Ltd.
+South Korea
+RingCentral Holdings I, Inc.
+Delaware
+RingCentral IP Holdings, Inc.
+Delaware
+RingCentral South Africa Pty Ltd
+South Africa
+RingCentral Germany GmbH
+Germany
+RingCentral India Private Limited
+India
+RingCentral Israel Ltd.
+Israel
+RingCentral Ventures, LLC
+Delaware
+RingCentral Innovation (India) Private Limited
+India
+RingCentral Philippines, Inc.
+Philippines
+RingCentral Taiwan, Ltd.
+Taiwan
+RingCentral Bulgaria EOOD
+Bulgaria
+RingCentral MiCloud and Sky, LLC
+Delaware
+Panther Acquisition Sub, Inc.
+Delaware
+Workforce Management Software Group, Inc.
+Florida

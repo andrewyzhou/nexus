@@ -1,0 +1,157 @@
+EX-21.1
+3
+lii-ex211_20251231x10k.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+Lennox International Inc. Subsidiaries
+The following are the subsidiaries of Lennox International Inc., as of December 31, 2025, and the states or jurisdictions in which they are organized. Subsidiaries are indented below their immediate parent entity. The names of certain subsidiaries have been omitted because, considered in the aggregate as a single subsidiary, they would not constitute, as of the end of the year covered by this report, a “significant subsidiary” as that term is defined in Rule 1-02(w) of Regulation S-X under the Securities Exchange Act of 1934.
+Name
+Ownership
+Jurisdiction
+Lennox Industries Inc. (See Annex A)
+100%
+Delaware
+d/b/a Lennox Parts Plus, Lennox Industries Inc. of Delaware, Lennox Global
+Heatcraft Inc.
+100%
+Delaware
+Bohn de Mexico S.A. de C.V.
+50%
+Mexico
+Frigus-Bohn S.A. de C.V.
+50%
+Mexico
+Advanced Distributor Products LLC
+100%
+Delaware
+Heatcraft Refrigeration Products LLC
+100%
+Delaware
+Heatcraft Technologies Inc.
+100%
+Delaware
+Alliance Compressor LLC
+24.5%
+Delaware
+Lennox Procurement Company Inc.
+100%
+Delaware
+ANNEX A
+TO
+EXHIBIT 21.1
+Lennox Industries Inc. Subsidiaries
+Name
+Ownership
+Jurisdiction
+Allied Air Enterprises LLC
+100%
+Delaware
+LPAC Corp.
+100%
+Delaware
+Lennox Global LLC (See Annex B)
+100%
+Delaware
+LGL Europe Holding Co.
+54%
+Delaware
+Lennox National Account Services Inc.
+100%
+California
+Lennox Services LLC
+100%
+Delaware
+Lennox National Account Services LLC
+100%
+Florida
+d/b/a Commercial Air Systems
+Lennox AES Holdings LLC
+100%
+Delaware
+Lennox AES Industries LLC
+100%
+Delaware
+Duro Dyne Buyer, Inc.
+100%
+Delaware
+Duro Dyne National Corp.
+100%
+Delaware
+Duro Dyne Canada Inc.
+100%
+Canada
+Sealed Unit Parts Buyer, Inc.
+100%
+Delaware
+Sealed Unit Parts Co, Inc.
+100%
+Delaware
+ANNEX B
+TO
+EXHIBIT 21.1
+Lennox Global LLC Subsidiaries
+Name
+Ownership
+Jurisdiction
+Lennox (Shanghai) Refrigeration Technology Consulting Co Ltd.
+100%
+China
+LGL Europe Holding Co.
+46%
+Delaware
+P.M. Pagdig, S. de R.L. de C.V. (See Annex C)
+99.998%
+Mexico
+LGL Germany GmbH
+100%
+Germany
+LGL Australia (US) Inc.
+100%
+Delaware
+Lennox India Technology Centre Private Ltd.
+0.0005%
+India
+LII Comercial de Mexico, S. de R.L. de C.V.
+99.97%
+Mexico
+P.M. Pagdig, S. de R.L. de C.V. (See Annex C)
+0.002%
+Mexico
+ANNEX C
+TO
+EXHIBIT 21.1
+P.M. Pagdig, S. de R.L. de C.V Subsidiaries
+Name
+Ownership
+Jurisdiction
+Lennox Switzerland GmbH
+100%
+Switzerland
+LII Mexico Holdings Ltd.
+100%
+UK
+LII United Products, S. de R.L. de C.V.
+99.99%
+Mexico
+LII Comercial de Mexico, S. de R.L. de C.V.
+0.03%
+Mexico
+Lennox Mexico Minority Holdings LLC
+100%
+Delaware
+LII United Products, S. de R.L. de C.V.
+0.01%
+Mexico
+LGL Holland B.V.
+100%
+Netherlands
+Lennox Industries (Canada) ULC
+100%
+Canada
+Lennox India Technology Centre Private Ltd.
+99.9995%
+India
+LII Global UK Ltd.
+100%
+United Kingdom

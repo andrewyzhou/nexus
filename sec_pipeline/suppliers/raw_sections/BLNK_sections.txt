@@ -1,0 +1,409 @@
+TICKER: BLNK
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain disruptions including availability of certain components such as semiconductors,
+                                            microchips, and lithium, availability of batteries and battery materials, and geopolitical,
+                                            tariff, and trade issues that may disrupt the EV supply chain; ● volatility
+                                            in the cost of oil and gasoline and
+the impact of international conflicts; ● government
+                                            regulations and economic incentives promoting fuel efficiency and alternate forms of energy; ● access
+                                            to charging stations, standardization of EV charging systems and consumers’ perceptions
+                                            about convenience and cost to charge an EV; and ● the
+                                            availability of tax and other governmental incentives to purchase and operate EVs or future
+                                            regulation requiring increased use of zero emission vehicles. The
+influence of any of the factors described above may negatively impact the widespread consumer adoption of EVs, which would materially
+and adversely affect our business, operating results, financial condition and prospects. War,
+terrorism, other acts of violence or natural or human-made disasters may affect the markets in which we operate, our customers, our delivery
+of products and customer service, and could have a material adverse impact on our business, results of operations, or financial condition. Our
+business may be adversely affected by instability, disruption or destruction in a geographic region in which we operate, regardless of
+cause, including war, terrorism, riot, civil insurrection or social unrest, and natural or human-made disasters, including famine, flood,
+fire, earthquake, storm or public health crises. Such events may cause customers to suspend their decisions on using our services, make
+it impossible for us to render our services, cause restrictions, and give rise to sudden significant changes in regional and global economic
+conditions and cycles. These events also pose significant risks to our personnel and to physical facilities and operations, which could
+materially adversely affect our financial results. Further,
+the current Russia-Ukraine and Middle East conflicts have created extreme volatility in the global financial markets and are expected
+to have further global economic consequences, including disruptions of the global supply chain and energy markets and heightened volatility
+of commodity and raw material prices. In addition, recently there has been increasing geopolitical tension between China and Taiwan that
+may affect future shipments from Taiwan based electronics suppliers for certain of our EV chargers. Any such volatility or disruptions
+may have adverse consequences for us or the third parties on whom we rely. If the equity and credit markets deteriorate, including as
+a result of political unrest or war, it may make any necessary debt or equity financing more difficult to obtain in a timely manner or
+on favorable terms, more costly or more dilutive. Our business, financial condition and results of operations may be materially and adversely
+affected by any negative impact on the global economy, capital markets or commodity and raw material prices resulting from the conflicts
+in Ukraine and the Middle East, the geopolitical tensions between China and Taiwan or any other geopolitical tensions. Changes
+to corporate average fuel economy standards may negatively impact the EV market, which would adversely affect our business. To
+meet higher fuel efficiency and greenhouse gas emission standards for passenger vehicles, automobile manufacturers are increasingly
+using technologies, such as turbocharging, direct injection and higher compression ratios, which require high octane gasoline. If
+fuel efficiency of vehicles continues to rise, and the affordability of internal combustion vehicles increases, the demand for
+electric vehicles could diminish. If consumers no longer purchase EVs, or purchase fewer EVs, it would materially and adversely
+affect our business, operating results, financial condition and prospects. Our
+quarterly operating results may fluctuate significantly. We
+expect that our operating results may be subject to substantial quarterly fluctuations. If our quarterly operating results fall below
+the expectations of investors or securities analysts, the price of our common stock could decline substantially. We believe that quarterly
+comparisons of our financial results are not necessarily meaningful and should not be relied upon as an indication of our future performance. 14 We
+are unable to predict the ultimate impact of equipment order delays and chip shortages on our business and future results of operations,
+financial position and cash flows. The
+global chip shortage and supply chain disruption over the past several years caused some temporary delays for us in equipment orders
+from our contract manufacturer. As federal, state, local and foreign economies returned to pre-pandemic levels and the demand for charging
+station usage increased, these delays and shortages became less apparent; however, we are unable to predict the extent of any final recovery
+from prior years due to the uncertainty of the possible occurrence of another pandemic or other epidemics. As a result, we are unable
+to predict the ultimate impact that equipment order delays and chip shortages will have on our business and our future results of operations,
+financial position and cash flows . We
+rely on a limited number of
+
+--- VENDORS ---
+vendors. Available
+Information We
+maintain a corporate website at www.blinkcharging.com. Our website’s information is not, and will not be deemed, a part of this
+Annual Report or incorporated into any other filings we make with the SEC. Our Annual Reports on Form 10-K, Quarterly Reports on Form
+10-Q, Current Reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange
+Act are made available, free of charge, on our website as soon as reasonably practicable after we electronically file such material with,
+or furnish it to, the SEC. Our corporate governance documents, including our code of conduct and ethics, are also available on our website.
+In this Annual Report, we incorporate by reference certain information as identified herein from parts of our proxy statement for our
+2025 Annual Meeting of Stockholders, which we will file with the SEC and will be available, free of charge, on our website. Reports of
+our executive officers, directors, and any other persons required to file securities ownership reports under Section 16(a) of the Exchange
+Act are also available on our website. 12
+
+--- MANUFACTURING ---
+manufacturing partners for hardware production. This model
+allows us to control product roadmap, software, and customer experience, while reducing fixed overhead and focusing on our
+intellectual property and operational uptime. Differentiated
+but Flexible Business Models. We own, operate and supply proprietary electric vehicle charging equipment and networked EV
+charging services. We believe that our ability to provide various business models, and to leverage our proprietary technology to
+meet both Property Partners’ and EV drivers’ needs, is creating a competitive advantage for Blink, which will enhance access to long-term growth opportunities at profitable margins, in the markets where we operate. Ownership
+and Control of EV Charging Stations and Services. We own and operate a considerable percentage of our charging stations, which
+is a significant differentiation between us and some of our primary competitors. This owner-operator model allows us to control the settings
+and pricing for our EV charging services, service the equipment as necessary, and have more effective brand management and price uniformity.
+For stations that we do not own, we are making our best efforts to encourage owners to keep the stations operating in good order and,
+in some cases, to replace faulty stations with our new charging station equipment. Our
+Growth Strategy Our
+objective is to continue to grow as a vertically integrated and leading provider of EV charging solutions by deploying EV charging
+infrastructure at mass scale. By doing so, we aim to enable the accelerated growth of EV adoption and the EV industry. Key elements of our growth
+strategy include: ● Relentless
+                                            Focus on Customer Satisfaction. Our objective is to increase overall customer satisfaction
+                                            among new and existing Property Partners and EV drivers. This entails prioritizing charger
+                                            uptime and availability while expanding and enhancing EV charging infrastructure within densely
+                                            populated regions of high demand. We are committed to optimizing the productivity and utilization
+                                            of existing EV charging stations, as well as enhancing the key features of our EV charging
+                                            station hardware and Blink Network. ● Pursue
+                                            Strategic Opportunities to Expand Blink-Owned Turnkey and Hybrid Models. We have
+                                            structured our business to identify and pursue opportunities to develop Blink’s owner
+                                            and operator business model with locations that have potential for high utilization, where
+                                            grant or rebate funds are available, and where we can realize long-term benefit for the EV
+                                            charging location and anchor recurring revenue. ● Continue
+                                            to Invest in Technology Innovations . We continue to enhance product offerings available
+                                            in our EV charging hardware, cloud-based software, and networking capability in the U.S.
+                                            and internationally. Our Networks can serve a wide variety of EV equipment, languages, currencies,
+                                            and applications, allowing Blink to stay competitive in the fast-moving EV charging landscape.
+                                            Concurrently, the mobile app creates seamless driver charging experience.
+                                            Our software implementation allows us to remain technology agnostic to enable the onboarding
+                                            of Open Charge Point Protocol (“OCPP”) compliant equipment from other manufacturers onto our network. ● Strengthen
+                                            and Support our Human Capital. Our experienced employees and management team are
+                                            our most valuable resources.
+Attracting, training, and retaining key personnel has been and will remain critical to our success. To achieve our human capital goals,
+we intend to stay focused on providing our personnel with entrepreneurial opportunities to expand our business within their areas of
+expertise. We will also continue to provide our personnel with personal and professional growth opportunities, including additional training,
+performance-based incentives such as opportunities for stock ownership, and other competitive benefits. ● Expand
+                                            Sales and Marketing Resources. We intend to further invest in sales and marketing infrastructure
+                                            to capitalize on market growth and expand our go-to-market strategy while maintaining a disciplined
+                                            approach to expenses. We use a direct sales force, as well as maintaining relationships
+                                            with notable reseller partners and electrical equipment distributors. 6 ● Seek
+                                            Strategic Acquisition Opportunities. We seek domestic and international acquisition
+                                            opportunities which are accretive towards our profitability targets, while allowing us to
+                                            expeditiously expand our footprint of EV charging station locations, product offerings, and
+                                            Blink Network’s reach. ● Leverage
+                                            Our Early Mover Advantage. We continue to leverage our extensive and defendable early-mover
+                                            advantage and the digital customer experience we have created for both EV drivers and Property
+                                            Partners. Our established network, scale, and software platform enable drivers to transact
+                                            charging sessions across a single, cohesive network. Blink chargers are deployed across North
+                                            America, mainland Europe, and the United Kingdom, providing broad geographic coverage and
+                                            reinforcing network effects that support continued driver engagement and partner adoption. ● Appropriately
+                                            Capitalize Our Business. We continue to pursue new potential capital sources to deliver
+                                            critical operational objectives and the necessary resources to execute our long-term growth
+                                            strategy. The EV charging industry, in general, is undercapitalized to deliver the full potential
+                                            of expected EV market growth. We expect to retain our leadership position with new growth
+                                            capital as required. Sales Our
+sales organization builds and maintains long-term business relationships with our customers by utilizing our three core business
+models, outlined above. These business models provide a high degree of flexibility to match host location goals and objectives for
+EV charging with our premier equipment and software solutions. Our team identifies locations that have the potential to create
+long-term, recurring value for the Property Partner and Blink. Sales personnel can pivot to host-owned equipment sales , the
+hybrid-ownership model or the charging-as-a-service models as a function of our evaluation of whether the location is as a promising
+generator of future repeat and recurring revenues. The team strives to maintain a balance between equipment sales that grow revenue
+today, and owner-operator sites at locations that have potential to generate strong repeat and recurring revenues in the future. We
+also engage with strategic distributor and reseller partners across a range of vertical markets within the US, mainland Europe, and the
+UK. These organizations typically have unique relationships or capabilities within their respective markets and provide Blink with additional
+sales opportunities and market coverage. These partnerships amplify Blink’s sales reach and are authorized to sell our EV charging
+hardware, software services (connectivity to the Blink Network), and extended warranty service plans. In
+2025, we continued diversifying our global footprint by securing agreements with new customers across public and private commercial sectors.
+Our expansion into critical infrastructure, including major airport authorities, localities and cities, healthcare networks, and premium
+commercial hubs, underscores the versatility of the Blink ecosystem and our ability to capture demand in both the municipal and private
+commercial markets. Along with these new business relationships, we forged critical strategic relationships with organizations that directly
+or indirectly influence EV charging station purchase decisions. Our
+internal marketing team works to promote and sell our services to a variety of vertical markets, and directly to EV drivers. We also
+utilize marketing and communication channels, including press releases, email marketing, website (www.blinkcharging.com), pay-per-click
+advertising, social media marketing, webinars, sponsorships, and partnerships, advertising, and conferences. Our website’s information
+is not, and will not be deemed, a part of this Annual Report or incorporated into any other filings we make with the SEC. We
+anticipate continuing to grow our revenues by (i) selling our next generation of EV charging equipment to current as well as to new Property
+Partners across a variety of vertical markets, (ii) expanding our sales channels to wholesale distributors, utilities, OEMs, solar integrators,
+and dealers, which will include implementing EV charging station occupancy fees (after charging is completed, fees for remaining connected
+to the charging station beyond an allotted grace period) and subscription plans for EV drivers on our company-owned public charging locations,
+(iii) adding Blink owned and operated charging stations in locations with increasing utilization metrics, and (iv) offering maintenance
+and extended warranty programs for our chargers and services. 7 Our
+Customers and Partners We
+have strategic partnerships across numerous vertical market locations and have hundreds of Property Partners that include well-recognized
+companies, large municipalities, and local businesses. We strive to engage all Blink-owned turnkey and hybrid property partners with
+exclusive EV charging contracts. This strategy further supports our owner-operator model to generate repeat and recurring revenue for Blink. We continue to establish new contracts with Property Partners that previously secured our services
+independently or had prior contracts with EV service providers that Blink has acquired. Our
+revenues are primarily derived from fees charged to EV drivers for EV charging in public locations, EV charging hardware sales, Blink
+Network fees, and sales of equipment warranties. EV charging fees to drivers are generally based on an hourly rate, by energy dispensed
+per kilowatt-hour (“kWh”), and/or by session. Such fees are calculated based on various factors, including associated station
+costs, competitive activities, and local electricity tariffs. EV charging hardware is sold to our customers engaged with our host-owned
+business model. Additionally, we generate revenues from our EV car-sharing program through Envoy, which allows customers the ability
+to retain electric vehicles through a subscription service. We
+are focused on profitable international expansion and have made significant progress at expanding our business outside of North America,
+focusing primarily on mainland Europe and the United Kingdom. Our
+Competition The
+EV charging equipment and service market is highly competitive, and we expect the market to become increasingly competitive as new
+entrants enter this growing market. Our products and services generally compete on product performance and features, the total cost
+of ownership, quality of customer experience, sales capabilities, financial stability, brand recognition, product reliability, and
+the installed base’s size. Notable competitors in the US currently include ChargePoint, which manufactures EV charging
+equipment and operates the ChargePoint Network, EVgo and Electrify America, who offer high-speed DC fast public charging with
+pay-as-you-go and subscription models, and Tesla. Other companies include Loop, Swtch, Flo, Clipper Creek, StarCharge, Wallbox,
+Autel, and EV Connect. Many other EV charging companies offer non-networked or “basic” chargers with limited customer
+leverage but could provide a low-cost solution for basic charger needs in commercial and home locations. We
+continue to differentiate ourselves through a flexible, multi-industry approach bridging the gap between essential public
+infrastructure and private commercial hubs. By offering various deployment configurations, from direct sales to our Owner-Operator
+and Hybrid models, we aim to provide the right solution at the right price for our customers. This vertical integration ensures that
+we don’t just sell a product; we own the charging experience. We believe that this “owner-operator”
+differentiation de-risks our partners’ investment while securing Blink’s position in the global EV
+ecosystem. Government
+Grants We
+have a dedicated team that identifies and pursues federal, state and international funding opportunities in the US, mainland Europe
+and the UK for EV charging infrastructure development. Grants for EV charging infrastructure accelerate the deployment of EV
+charging infrastructure at the scale needed to accompany the rapid growth in the percentage of EVs in vehicle fleets in the markets in which we operate. We are committed to pursuing EV charging development grant
+opportunities in all U.S. states where they are available. Funding sources in the U.S. include the Department of Energy, Department of Transportation,
+Department of Agriculture, the VW mitigation settlement trust fund, funding initiatives from utility service providers and various
+state, and local jurisdictions. Blink has recently completed grant projects in Maryland, Illinois, New Jersey, Florida, and
+Delaware, increasing our DCFC footprint throughout the East Coast and Midwest, with additional projects slated for deployment in
+2026 and beyond. Disclosure
+Related to Climate Change In
+March 2024, the SEC adopted rules mandating disclosure of climate-related risks and greenhouse gas emissions in companies’ annual
+reports and registration statements, with compliance requirements phased in beginning with fiscal year 2025 filings for certain registrants.
+In April 2024, the SEC stayed the rules’ effectiveness pending judicial review. In March 2025, the SEC voted to formally withdraw
+its legal defense of the rules, and they remain stayed pending the outcome of the judicial proceedings. 8 Privacy
+and Data Security Laws We
+are currently subject, and/or may in the future be subject to numerous privacy and data security laws. For example, some U.S. states,
+members of the European Economic Area, the United Kingdom, and many other jurisdictions in which we operate have adopted some form of
+privacy and data security laws and regulations which impose significant compliance obligations. The
+European Union’s General Data Protection Regulation (“GDPR”) is a comprehensive data privacy law that came into
+effect in May 2018. It is wide-ranging in scope, and imposes several requirements relating to the control over personal data by
+individuals to whom the personal data relates, the information provided to the individuals, the documentation we must maintain, the
+security and confidentiality of the personal data, requirements around data breach and notification, and the use of third-party
+processors in connection with the processing of personal data. The GDPR also imposes strict rules on the transfer of personal data
+outside of the European Union (“EU”), provides enforcement authority, and authorizes the imposition of large penalties
+for noncompliance, including the potential for significant fines. The GDPR requirements apply not only to third-party transactions,
+but also to transfers of information between Blink Charging and its subsidiaries, including employee information. The GDPR has
+increased our responsibility and potential liability in relation to all types of personal data that we process and we may be
+required to put in place additional mechanisms to ensure compliance with the GDPR, which could divert management’s attention
+and increase its cost of doing business, and despite our ongoing efforts to bring our practices into compliance with the GDPR, we
+may not always be successful. Additionally,
+we are governed by a California state privacy law called the California Consumer Privacy Act of 2018 (“CCPA”), which
+contains requirements similar to those to the GDPR for the handling of personal information for California residents. The CCPA
+establishes a privacy framework for covered businesses, including an expansive definition of personal information and data privacy
+rights for California residents. The CCPA includes a framework with potentially severe statutory damages and private rights of
+action. The CCPA requires covered companies to provide new disclosures to California consumers (as that word is broadly defined in
+the CCPA), and new ways for such consumers to opt out of certain sales of personal information, and to allow for a new cause of
+action for data breaches. Further, California voters approved a new privacy law, the California Privacy Rights Act
+(“CPRA”) in November 2020. Effective starting on January 1, 2023, the CPRA significantly modifies the CCPA, including by
+expanding the consumers’ rights with respect to certain sensitive personal information. The CPRA also creates a new state
+agency, the California Privacy Protection Agency (“CPPA”), that is vested with authority to implement and enforce the CCPA and the
+CPRA. More recently, several other states have passed or are in the process of passing comprehensive data privacy laws,
+including the Virginia Consumer Data Protection Act (“VCDPA”), the Colorado Privacy Act (“CPA”), the Connecticut Data Privacy Act
+(“CTDPA”), and the Utah Consumer Privacy Act (“UCPA”). The Virginia law became effective on January 1,
+2023; the Colorado law became effective on July 1, 2023; and the Connecticut law became effective on July 1, 2023. The Utah Privacy
+Act came into force on December 31, 2023 , and there are expected legislative changes in other states as well, shaping the
+evolving national data privacy landscape. The
+GDPR, CCPA, CPRA, VCDPA, CPA, CTDPA and UCPA exemplify the exposure of our business to the evolving regulatory environment related
+to personal data. Our compliance costs and potential liability may increase as a result of such additional regulatory requirements related to data privacy and data security. Some U.S. states, members of the
+European Economic Area, the United Kingdom, and many other jurisdictions in which we operate have adopted or are in the process of
+adopting privacy and data security laws and regulations which impose significant compliance obligations. Environmental,
+Social, and Governance (ESG ) We
+are committed to sourcing only responsibly produced materials. We have a zero-tolerance policy when it comes to child or forced labor
+and human trafficking by our suppliers. 9 Government
+Regulation and Incentives State,
+regional and local regulations for installing EV charging stations vary by jurisdiction and may include requirements around permitting, inspection, licensing, and certifications. Compliance with such regulations may cause installation
+delays. We
+intend to continue to vigorously seek incentives such as government grants, loans, rebates, and subsidies, as
+cost-effective means of reducing our capital investment in the promotion, purchase and installation of charging stations where
+applicable. A range of
+incentives are currently offered to encourage electric vehicle adoption at the federal, state and local levels. OSHA We
+are subject to the Occupational Safety and Health Act of 1970, as amended (“OSHA”). OSHA establishes specific employer responsibilities,
+including maintaining a workplace free of recognized hazards likely to cause death or serious injury, compliance with standards promulgated
+by the Occupational Safety and Health Administration and various recordkeeping, disclosure and procedural requirements. Multiple standards,
+including standards for notices of hazards, safety in excavation and demolition work and the handling of asbestos, may apply to our operations.
+We are in full compliance with OSHA regulations. NEMA The
+National Electrical Manufacturers Association (“NEMA”) is the association of electrical equipment and medical imaging manufacturers.
+NEMA provides a forum for developing technical standards in the industry and users’ best interests, advocating industry policies
+on legislative and regulatory matters, and collecting, analyzing, and disseminating industry data. All products distributed within the
+U.S. adhere to the applicable NEMA standards governing such merchandise. 10 Waste
+Handling and Disposal We
+are subject to laws and regulations regarding the handling and disposal of hazardous substances and solid wastes, including
+electronic wastes and batteries. These laws generally regulate the generation, storage, treatment, transportation, and disposal of
+solid and hazardous waste, and may impose strict, joint, and several liability for the investigation and remediation of areas where
+hazardous substances may have been released or disposed. For instance, the Comprehensive Environmental Response, Compensation, and
+Liability Act (“CERCLA”), also known as the Superfund law, in the United States and comparable state laws impose
+liability, without regard to fault or the legality of the original conduct, on certain classes of persons that contributed to the
+release of a hazardous substance into the environment. These persons include current and prior owners or operators of the site where
+the release occurred as well as companies that disposed of or arranged for the disposal of hazardous substances found at the site.
+Under CERCLA, these persons may be subject to joint and several strict liability for the costs of cleaning up the hazardous
+substances that have been released into the environment, for damages to natural resources and for the costs of certain health
+studies. CERCLA also authorizes the EPA and, in some instances, third parties to act in response to threats to the public health or
+the environment and to seek to recover from the responsible classes of persons the costs they imposed. We may handle hazardous
+substances within the meaning of CERCLA, or similar state statutes, in the course of ordinary operations and, as a result, may be
+jointly and severally liable under CERCLA for all or part of the costs required to clean up sites at which these hazardous
+substances have been released into the environment. We
+also generate solid wastes, which may include hazardous wastes that are subject to the requirements of the Resource Conservation and
+Recovery Act (“RCRA”) and comparable state statutes. While RCRA regulates both solid and hazardous wastes, it imposes
+strict requirements on the generation, storage, treatment, transportation, and disposal of hazardous wastes. Certain components of
+our products are excluded from RCRA’s hazardous waste regulations, provided certain requirements are met (as detailed in the
+section “CESQG,” below). However, if these components do not meet all the established requirements for the exclusion, or
+if the requirements for the exclusion change, we may be required to treat such products as hazardous waste, which are subject to
+more rigorous and costly disposal requirements. Any such changes in the laws and regulations, or our ability to qualify the
+materials it uses for exclusions under such laws and regulations, could adversely affect our operating expenses. Similar
+laws exist in other jurisdictions where we operate. Additionally, in the EU, we are subject to the Waste Electrical and Electronic Equipment
+Directive (“WEEE Directive”). The WEEE Directive provides for the creation of a collection scheme where consumers return
+waste electrical and electronic equipment to merchants, such as Blink Charging. If we fail to properly manage such waste electrical and
+electronic equipment, it may be subject to fines, sanctions, or other actions that may adversely affect on our financial operations. CESQG As
+a Conditionally Exempt Small Quantity Generator (“CESQG”), we generate a limited quantity of hazardous waste, mainly solvent
+contaminated wipes, which are transported to local solid waste facilities. Scrapped electronic boards are transported to a local recycler.
+A CESQG of hazardous waste is defined as a generator that: ● produces
+                                            no more than 100 kg (220 lbs.) of hazardous waste per calendar month; ● produces
+                                            no more than 1 kg (2.2 lbs.) of acute hazardous waste per calendar month; ● never
+                                            accumulates more than 1,000 kg (2,204 lbs.) of hazardous waste at any one time; and ● never
+                                            accumulates more than 1 kg (2.2 lbs.) of acute hazardous waste at any one time. The
+use of our machinery and equipment must comply with the following applicable laws and regulations, including safety and environmental
+regulations: ● General
+                                            Safety for All Employees – Includes health hazard communication, emergency exit plans,
+                                            electrical safety-related work practices, office safety, and hand-powered tools. ● Technicians
+                                            and Engineers – Only authorized persons (technicians and engineers) perform product
+                                            testing and repair in the facility’s production and engineering areas, including those
+                                            engineers involved in field service work. Regulations include control of hazardous energy sources and the use of personal protective equipment. ● Logisticians
+                                            – Includes forklift operations performed only by certified shipping/receiving personnel
+                                            and material handling and storage. We
+fully comply with the general industry category’s environmental regulations applicable to us as a CESQG. 11 Intellectual
+Property We
+rely on a combination of patent, trademark, copyright, unfair competition and trade secret laws, as well as confidentiality procedures
+and contractual restrictions, to establish, maintain and protect our proprietary rights. Our success depends partly on our ability to
+obtain and maintain proprietary protection for our products, technology and know-how, to operate without infringing the proprietary rights
+of others, and to prevent others from infringing our proprietary rights. Our
+patents relate to various EV charging station designs. We intend to regularly assess opportunities for seeking patent protection for
+those aspects of our technology, designs, and methodologies that we believe provide a meaningful competitive advantage. If we cannot
+do so, our ability to protect our intellectual property or prevent others from infringing our proprietary rights may be impaired. Human
+Capital Resources Our
+experienced employees and management team are some of our most valuable resources, and we are committed to attracting, motivating, and
+retaining top talent. As of December 31, 2025, we had 320 employees and contractors. With exception of Belgium, none of our employees
+are represented by a union or covered by a collective bargaining agreement. Two
+employees in our Belgian entity are represented by a union in accordance with Belgian labor legislation. Due to the size of the Belgian
+company (at time of mandatory social elections) within the applicable joint committee, a union delegation (CPBW) was required and put
+in place. These employees are based in our Antwerp office. We
+have not experienced any work stoppages, and we consider our relationship with our employees to be good. Our
+success is directly related to the satisfaction, growth, and development of our employees. We strive to offer a work environment where
+employee opinions are valued and allow our employees to use and augment their professional skills. To achieve our human capital goals,
+we intend to remain focused on providing opportunities to expand our business within their areas of expertise and continue to provide
+our personnel with opportunities for growth. We emphasize several measures and objectives in managing our human capital assets, including,
+among others, employee safety and wellness, talent acquisition and retention, employee engagement, development and training, diversity
+and inclusion, and compensation and pay equity. Diversity
+and Inclusion and Ethical Business Practices. We believe that a company culture focused on diversity and inclusion is a crucial driver
+of creativity and innovation. We also believe that diverse and inclusive teams make better business decisions, ultimately driving better
+business outcomes. We are committed to recruiting, retaining, and developing high-performing, innovative, and engaged employees with
+diverse backgrounds and experiences. This commitment includes providing equal access to, and participation in, equal employment opportunities,
+programs, and services without regard to race, religion, color, national origin, disability, sex, sexual orientation, gender identity,
+stereotypes, or assumptions based thereon. We welcome and celebrate our teams’ differences, experiences, and beliefs, and we are
+investing in a more engaged, diverse, and inclusive workforce. We
+also foster a strong corporate culture that promotes high standards of ethics and compliance for our business, including policies that
+set forth principles to guide employee, officer, director, and vendor conduct, such as our Code of Business Conduct and Ethics. We also
+maintain a whistleblower policy and anonymous hotline for the confidential reporting of any suspected policy violations or unethical
+business conduct on the part of our businesses, employees, officers, directors, or vendors. Available
+Information We
+maintain a corporate website at www.blinkcharging.com. Our website’s information is not, and will not be deemed, a part of this
+Annual Report or incorporated into any other filings we make with the SEC. Our Annual Reports on Form 10-K, Quarterly Reports on Form
+10-Q, Current Reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange
+Act are made available, free of charge, on our website as soon as reasonably practicable after we electronically file such material with,
+or furnish it to, the SEC. Our corporate governance documents, including our code of conduct and ethics, are also available on our website.
+In this Annual Report, we incorporate by reference certain information as identified herein from parts of our proxy statement for our
+2025 Annual Meeting of Stockholders, which we will file with the SEC and will be available, free of charge, on our website. Reports of
+our executive officers, directors, and any other persons required to file securities ownership reports under Section 16(a) of the Exchange
+Act are also available on our website. 12
+
+--- RAW_MATERIALS ---
+components of
+our products are excluded from RCRA’s hazardous waste regulations, provided certain requirements are met (as detailed in the
+section “CESQG,” below). However, if these components do not meet all the established requirements for the exclusion, or
+if the requirements for the exclusion change, we may be required to treat such products as hazardous waste, which are subject to
+more rigorous and costly disposal requirements. Any such changes in the laws and regulations, or our ability to qualify the
+materials it uses for exclusions under such laws and regulations, could adversely affect our operating expenses. Similar
+laws exist in other jurisdictions where we operate. Additionally, in the EU, we are subject to the Waste Electrical and Electronic Equipment
+Directive (“WEEE Directive”). The WEEE Directive provides for the creation of a collection scheme where consumers return
+waste electrical and electronic equipment to merchants, such as Blink Charging. If we fail to properly manage such waste electrical and
+electronic equipment, it may be subject to fines, sanctions, or other actions that may adversely affect on our financial operations. CESQG As
+a Conditionally Exempt Small Quantity Generator (“CESQG”), we generate a limited quantity of hazardous waste, mainly solvent
+contaminated wipes, which are transported to local solid waste facilities. Scrapped electronic boards are transported to a local recycler.
+A CESQG of hazardous waste is defined as a generator that: ● produces
+                                            no more than 100 kg (220 lbs.) of hazardous waste per calendar month; ● produces
+                                            no more than 1 kg (2.2 lbs.) of acute hazardous waste per calendar month; ● never
+                                            accumulates more than 1,000 kg (2,204 lbs.) of hazardous waste at any one time; and ● never
+                                            accumulates more than 1 kg (2.2 lbs.) of acute hazardous waste at any one time. The
+use of our machinery and equipment must comply with the following applicable laws and regulations, including safety and environmental
+regulations: ● General
+                                            Safety for All Employees – Includes health hazard communication, emergency exit plans,
+                                            electrical safety-related work practices, office safety, and hand-powered tools. ● Technicians
+                                            and Engineers – Only authorized persons (technicians and engineers) perform product
+                                            testing and repair in the facility’s production and engineering areas, including those
+                                            engineers involved in field service work. Regulations include control of hazardous energy sources and the use of personal protective equipment. ● Logisticians
+                                            – Includes forklift operations performed only by certified shipping/receiving personnel
+                                            and material handling and storage. We
+fully comply with the general industry category’s environmental regulations applicable to us as a CESQG. 11 Intellectual
+Property We
+rely on a combination of patent, trademark, copyright, unfair competition and trade secret laws, as well as confidentiality procedures
+and contractual restrictions, to establish, maintain and protect our proprietary rights. Our success depends partly on our ability to
+obtain and maintain proprietary protection for our products, technology and know-how, to operate without infringing the proprietary rights
+of others, and to prevent others from infringing our proprietary rights. Our
+patents relate to various EV charging station designs. We intend to regularly assess opportunities for seeking patent protection for
+those aspects of our technology, designs, and methodologies that we believe provide a meaningful competitive advantage. If we cannot
+do so, our ability to protect our intellectual property or prevent others from infringing our proprietary rights may be impaired. Human
+Capital Resources Our
+experienced employees and management team are some of our most valuable resources, and we are committed to attracting, motivating, and
+retaining top talent. As of December 31, 2025, we had 320 employees and contractors. With exception of Belgium, none of our employees
+are represented by a union or covered by a collective bargaining agreement. Two
+employees in our Belgian entity are represented by a union in accordance with Belgian labor legislation. Due to the size of the Belgian
+company (at time of mandatory social elections) within the applicable joint committee, a union delegation (CPBW) was required and put
+in place. These employees are based in our Antwerp office. We
+have not experienced any work stoppages, and we consider our relationship with our employees to be good. Our
+success is directly related to the satisfaction, growth, and development of our employees. We strive to offer a work environment where
+employee opinions are valued and allow our employees to use and augment their professional skills. To achieve our human capital goals,
+we intend to remain focused on providing opportunities to expand our business within their areas of expertise and continue to provide
+our personnel with opportunities for growth. We emphasize several measures and objectives in managing our human capital assets, including,
+among others, employee safety and wellness, talent acquisition and retention, employee engagement, development and training, diversity
+and inclusion, and compensation and pay equity. Diversity
+and Inclusion and Ethical Business Practices. We believe that a company culture focused on diversity and inclusion is a crucial driver
+of creativity and innovation. We also believe that diverse and inclusive teams make better business decisions, ultimately driving better
+business outcomes. We are committed to recruiting, retaining, and developing high-performing, innovative, and engaged employees with
+diverse backgrounds and experiences. This commitment includes providing equal access to, and participation in, equal employment opportunities,
+programs, and services without regard to race, religion, color, national origin, disability, sex, sexual orientation, gender identity,
+stereotypes, or assumptions based thereon. We welcome and celebrate our teams’ differences, experiences, and beliefs, and we are
+investing in a more engaged, diverse, and inclusive workforce. We
+also foster a strong corporate culture that promotes high standards of ethics and compliance for our business, including policies that
+set forth principles to guide employee, officer, director, and vendor conduct, such as our Code of Business Conduct and Ethics. We also
+maintain a whistleblower policy and anonymous hotline for the confidential reporting of any suspected policy violations or unethical
+business conduct on the part of our businesses, employees, officers, directors, or vendors. Available
+Information We
+maintain a corporate website at www.blinkcharging.com. Our website’s information is not, and will not be deemed, a part of this
+Annual Report or incorporated into any other filings we make with the SEC. Our Annual Reports on Form 10-K, Quarterly Reports on Form
+10-Q, Current Reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange
+Act are made available, free of charge, on our website as soon as reasonably practicable after we electronically file such material with,
+or furnish it to, the SEC. Our corporate governance documents, including our code of conduct and ethics, are also available on our website.
+In this Annual Report, we incorporate by reference certain information as identified herein from parts of our proxy statement for our
+2025 Annual Meeting of Stockholders, which we will file with the SEC and will be available, free of charge, on our website. Reports of
+our executive officers, directors, and any other persons required to file securities ownership reports under Section 16(a) of the Exchange
+Act are also available on our website. 12
+

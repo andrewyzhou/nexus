@@ -1,0 +1,2786 @@
+EX-21
+3
+reg-ex21.htm
+EX-21
+EX-21
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+1
+% of
+Ownership
+Regency Centers, L.P.
+Delaware
+Regency Centers Corporation
+Outside Investors
+General Partner
+Limited Partners
+~98%
+~2%
+Columbia Village District SPE, LLC
+Delaware
+Regency Centers, L.P.
+Columbia Perfco Partners, L.P.
+Managing Member
+Member
+30%
+70%
+Columbia Village District, LLC
+Delaware
+Columbia Village District SPE, LLC
+Member
+100%
+Columbia Regency Partners II, LLC
+Delaware
+Regency Centers, L.P.
+Columbia Perfco Partners, L.P.
+Managing Member
+Member
+20%
+80%
+Columbia Crossroads Commons, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Retail Dulles, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Retail Texas 3, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Retail Sweetwater Plaza, LP
+Delaware
+Columbia Retail Texas 3, LLC
+Columbia Regency Partners II, LLC
+General Partner
+Limited Partner
+1%
+99%
+Columbia Retail Washington 1, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Cascade Plaza, LLC
+Delaware
+Columbia Retail Washington 1, LLC
+Columbia Regency Partners II, LLC
+Managing Member
+Member
+1%
+99%
+Columbia Julington Village, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia II Broadway Market, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia II Burnt Mills Shopping Center, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Cochran Commons, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia II Johns Creek, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia II Ridgewood, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Lorton Station Marketplace Member, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Lorton Station Marketplace, LLC
+Delaware
+Columbia Lorton Station Marketplace Member, LLC
+Member
+100%
+Columbia II Rockridge Center, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia Sutton Square, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia II Holding, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Columbia II Raley’s Center, LLC
+Delaware
+Columbia II Holding, LLC
+Member
+100%
+Columbia II Village Plaza, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+GRI-Regency, LLC
+Delaware
+Global Retail Investors, LLC
+Regency Centers, L.P.
+Member
+Managing Member
+60%
+40%
+GRI-Lake Grove, LLC
+Delaware
+GRI-Regency Lake Grove Member, LLC
+Member
+100%
+GRI-Regency Lake Grove Member, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW PA-Mercer Square, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW PA-Newtown Square, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW PA-Warwick Plaza, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+MCW-RC SC-Merchant’s, LLC (fka MCW-RC South Carolina, LLC)
+Delaware
+GRI-Regency, LLC
+Member
+100%
+MCW-RC SC-Merchant’s Village Member, LLC
+Delaware
+MCW-RC SC-Merchant’s, LLC
+Member
+100%
+MCW-RC SC-Merchant’s Village, LLC
+Delaware
+MCW-RC SC-Merchant’s Village Member, LLC
+Member
+100%
+FW-CA Brea Marketplace Member, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW CA-Brea Marketplace, LLC
+Delaware
+FW-CA Brea Marketplace Member, LLC
+Member
+100%
+FW CA-Brea Marketplace II, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+U.S. Retail Partners Holding, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+1
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+2
+% of
+Ownership
+U.S. Retail Partners Member, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+U.S. Retail Partners, LLC
+Delaware
+U.S. Retail Partners Holding, LLC
+U.S. Retail Partners Member, LLC
+Managing Member
+Member
+1%
+99%
+FW CO-Arapahoe Village, LLC
+Delaware
+U.S. Retail Partners, LLC
+Member
+100%
+FW CO-Cherrywood Square, LLC
+Delaware
+U.S. Retail Partners, LLC
+Member
+100%
+FW MN-Rockford Road, LLC
+Delaware
+U.S. Retail Partners, LLC
+Member
+100%
+FW MN-Colonial Square, LLC
+Delaware
+U.S. Retail Partners, LLC
+Member
+100%
+USRP I Holding, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+USRP I Member, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+USRP I, LLC
+Delaware
+USRP I Holding, LLC
+USRP I Member, LLC
+Managing Member
+Member
+1%
+99%
+FW NJ-Plaza Square, LLC
+Delaware
+USRP I, LLC
+Member
+100%
+FW VA-Greenbriar Town Center, LLC
+Delaware
+USRP I, LLC
+Member
+100%
+FW VA-Festival at Manchester, LLC
+Delaware
+USRP I, LLC
+Member
+100%
+FW-Reg II Holdings, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW CA-Bay Hill Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Five Points Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Mariposa Gardens Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Navajo Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Point Loma Plaza, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Rancho San Diego Village, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Silverado Plaza, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Snell & Branham Plaza, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Twin Oaks Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CA-Ygnacio Plaza, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW CT-Corbins Corner Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW DC-Spring Valley Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW IL-Riverside/Rivers Edge, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW IL-Riverview Plaza, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+USRP Willow East, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+FW VA-Ashburn Farm Village Center, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+FW VA-Fox Mill Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW VA-Kings Park Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW VA-Saratoga Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW VA-The Village Shopping Center, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW WA-Aurora Marketplace, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW WA-Eastgate Plaza, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW WA-Eastgate Plaza II, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW WA-Overlake Fashion Plaza, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+FW WA-Overlake Fashion Plaza II, LLC
+Delaware
+FW-Reg II Holdings, LLC
+Member
+100%
+Parkville Shopping Center, LLC
+Maryland
+FW-Reg II Holdings, LLC
+Member
+100%
+FW Parkville Borrower, LLC
+Delaware
+Parkville Shopping Center, LLC
+Member
+100%
+2
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+3
+% of
+Ownership
+FW-Reg II Holding Company Two, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW CA-Granada Village, LLC
+Delaware
+FW-Reg II Holding Company Two, LLC
+Member
+100%
+FW CA-Pleasant Hill Shopping Center, LLC
+Delaware
+FW-Reg II Holding Company Two, LLC
+Member
+100%
+FW IL-Civic Center Plaza, LLC
+Delaware
+FW-Reg II Holding Company Two, LLC
+Member
+100%
+FW IN-Willow Lake West, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+FW NJ-Westmont Shopping Center, LLC
+Delaware
+FW-Reg II Holding Company Two, LLC
+Member
+100%
+FW NC-Shoppes of Kildaire, LLC
+Delaware
+FW-Reg II Holding Company Two, LLC
+Member
+100%
+FW OR-Greenway Town Center, LLC
+Delaware
+FW-Reg II Holding Company Two, LLC
+Member
+100%
+USRP LP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+USRP GP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+US Retail Partners Limited Partnership
+Delaware
+USRP GP, LLC
+USRP LP, LLC
+General Partner
+Limited Partner
+1%
+99%
+FW MD Woodmoor Borrower, LLC
+Delaware
+US Retail Partners Limited Partnership
+Member
+100%
+FW VA-Willston Centre II, LLC
+Delaware
+US Retail Partners Limited Partnership
+Member
+100%
+FW Woodholme GP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+Woodholme Properties Limited Partnership
+Maryland
+FW Woodholme GP, LLC
+Eastern Shopping Centers I, LLC
+General Partner
+Limited Partner
+1%
+99%
+FW Woodholme Borrower, LLC
+Delaware
+Woodholme Properties Limited Partnership
+Member
+100%
+Woodholme Properties, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW Southside Marketplace GP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+Southside Marketplace Limited Partnership
+Maryland
+FW Southside Marketplace GP, LLC
+Eastern Shopping Centers I, LLC
+General Partner
+Limited Partner
+1%
+99%
+FW Southside Marketplace Borrower, LLC
+Delaware
+Southside Marketplace Limited Partnership
+Member
+100%
+FW Southside Marketplace, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW Valley Centre GP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+Greenspring Associates Limited Partnership
+Maryland
+FW Valley Centre GP, LLC
+Eastern Shopping Centers I, LLC
+General Partner
+Limited Partner
+1%
+99%
+FW MD-Greenspring Borrower, LLC
+Delaware
+Greenspring Associates Limited Partnership
+Member
+100%
+Eastern Shopping Centers I, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+Cloppers Mill Village Center, LLC
+Maryland
+Eastern Shopping Centers I, LLC
+FW-Reg II Holdings, LLC
+Member
+Member
+1%
+99%
+City Line Shopping Center Associates
+Pennsylvania
+US Retail Partners Limited Partnership
+City Line LP, LLC
+General Partner
+Limited Partner
+1%
+99%
+City Line LP, LLC
+Delaware
+USRP LP, LLC
+Member
+100%
+FW Allenbeth GP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+Allenbeth Associates Limited Partnership
+Maryland
+FW Allenbeth GP, LLC
+Eastern Shopping Centers I, LLC
+General Partner
+Limited Partner
+1%
+99%
+FW Weslyan GP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW TX-Weslyan Plaza, L.P.
+Delaware
+FW Weslyan GP, LLC
+GRI-Regency, LLC
+General Partner
+Limited Partner
+1%
+99%
+FW Woodway GP, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+FW TX-Woodway Collection, L.P.
+Delaware
+FW Woodway GP, LLC
+GRI-Regency, LLC
+General Partner
+Limited Partner
+1%
+99%
+MCW RC III Hilltop Village Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+3
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+4
+% of
+Ownership
+MCW RC III Hilltop Village, LLC
+Delaware
+MCW RC III Hilltop Village Member, LLC
+Member
+100%
+MCW-RD Brentwood Plaza, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+MCW-RD Bridgeton, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+MCW-RD Dardenne Crossing, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+MCW-RD Kirkwood Commons Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+MCW-RD Kirkwood Commons, LLC
+Delaware
+MCW-RD Kirkwood Commons Member, LLC
+Member
+100%
+RegCal Holding, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+CAR Apple Valley Square Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+CAR Apple Valley Square, LLC
+Delaware
+CAR Apple Valley Square Member, LLC
+Member
+100%
+CAR Apple Valley Land, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+CAR Calhoun Commons, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+CAR Corral Hollow, LLC
+Delaware
+RegCal Holding, LLC
+Member
+100%
+CAR Shops at the Columbia, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RC FL-Anastasia, LLC (fka MCW-RC FL-Anastasia, LLC)
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RC FL-Shoppes at 104, LLC (fka MCW-RC FL-Shoppes at 104, LLC)
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RC GA-Howell Mill, LLC (fka MCW-RC GA-Howell Mill Village, LLC)
+Delaware
+Regency Centers, LLC
+Member
+100%
+MCD-RC CA-Amerige, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+MCD-RC El Cerrito Holdings, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+MCD-RC CA-El Cerrito, LLC
+Delaware
+MCD-RC El Cerrito Holdings, LLC
+Member
+100%
+REG8 Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+REG8 Tassajara Crossing, LLC
+Delaware
+REG8 Member, LLC
+Member
+100%
+REG8 Plaza Hermosa, LLC
+Delaware
+REG8 Member, LLC
+Member
+100%
+REG8 Mockingbird Commons, LLC
+Delaware
+REG8 Member, LLC
+Member
+100%
+REG8 Sterling Ridge, LLC
+Delaware
+REG8 Member, LLC
+Member
+100%
+REG8 Prestonbrook Crossing, LLC
+Delaware
+REG8 Member, LLC
+Member
+100%
+REG8 Wellington, LLC
+Delaware
+REG8 Member, LLC
+Member
+100%
+REG8 Berkshire Commons, LLC
+Delaware
+REG8 Member, LLC
+Member
+100%
+FL-Corkscrew Village Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+FL-Corkscrew Village, LLC
+Delaware
+FL-Corkscrew Village Member, LLC
+Member
+100%
+FL-Naples Walk Shopping Center Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+FL-Naples Walk Shopping Center, LLC
+Delaware
+FL-Naples Walk Shopping Center Member, LLC
+Member
+100%
+FL-Northgate Square Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+FL-Northgate Square, LLC
+Delaware
+FL-Northgate Square Member, LLC
+Member
+100%
+FL-Westchase Center Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+FL-Westchase Center, LLC
+Delaware
+FL-Westchase Center Member, LLC
+Member
+100%
+19330 Hawthorne, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+1C Tustin Legacy, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+60617 Balboa Mesa, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+4S Regency Partners, LLC
+Delaware
+Regency Centers, L.P.
+4S Ranch Company 1700, L.P.
+Member
+Member
+93.433%
+6.567%
+Alba Village Phase II, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Alba Village Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Bartram Park Center, LLC
+Delaware
+Regency Centers, L.P.
+Real Sub, LLC
+Managing Member
+Member
+50%
+50%
+4
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+5
+% of
+Ownership
+Belleview Square, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Belmont Chase, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Bridges Insurance Company
+South Carolina
+Regency Centers, L.P.
+Shareholder
+100%
+Buckwalter Bluffton, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Caligo Crossing, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+CityLine-REG, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Clayton Valley Shopping Center, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Clybourn Commons-REG, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Colonnade Regency, L.P.
+Delaware
+Regency NC GP, LLC
+Regency Centers, L.P.
+General Partner
+Limited Partner
+1%
+99%
+Corvallis Market Center, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+CPGPI Regency Erwin, LLC
+Delaware
+Regency Centers, L.P.
+CPGPI Erwin Retail, LLC
+Managing Member
+Member
+55%
+45%
+Fairfax Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Fellsway Associates Holdings Company, LLC
+Delaware
+Regency Centers, L.P.
+Charter Fellsway, LLC
+Charter Fellsway Group, LLC
+Member
+Member
+Member
+75%
+24%
+1%
+Fellsway Associates, LLC
+Delaware
+Fellsway Associates Holdings Company, LLC
+Member
+100%
+Fellsway Property, LLC
+Delaware
+Fellsway Associates Holdings Company, LLC
+Member
+100%
+Fontainebleau Square, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Gateway Azco GP, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Gateway Azco LP, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+AZCO Partners
+Pennsylvania
+Gateway Azco Partners GP, LLC
+Gateway Azco LP, LLC
+Regency Centers, L.P.
+General Partner
+Limited Partner
+Limited Partner
+1%
+89%
+10%
+Glen Oak Glenview, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Grand Ridge Plaza I, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Grand Ridge Plaza II, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Hibernia North, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Hoadly Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Holly Park Property, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Hunters Lake Tampa, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Indian Springs at Woodlands, Ltd.
+Texas
+Indian Springs GP, LLC
+Regency Centers, L.P.
+General Partner
+Limited Partner
+0.1%
+99.9%
+Indian Springs GP, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+La Floresta Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Lee Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+The Marketplace at Briargate, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+NTC-REG, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+New Smyrna Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Northlake Village Shopping Center, LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Oakshade Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Ocala Corners, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Parmer Tech Ridge, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency Centers Acquisitions, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency Centers Advisors, LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Red Bank Village, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency Blue Ash, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency NC GP, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency-Kleban Properties, LLC
+Delaware
+Regency Centers, L.P.
+Member
+80.0000%
+5
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+6
+% of
+Ownership
+Brick Walk Associates, LLC
+Pine Tree Ventures, LLC
+Bright Star, LLC
+1261 Post Road Associates, LLC
+Kleban Holding Company, LLC
+Kleban Holding Company II, LLC
+Kleban Fairfield, LLC
+Alida Kleban Holding Company, LLC
+Sun Realty Associates, LLC
+Kleban Development Company
+FBW, LLC
+Member
+Member
+Member
+Member
+Member
+Member
+Member
+Member
+Member
+Member
+Member
+5.1676%
+1.1789%
+0.9871%
+1.3768%
+2.6451%
+0.7769%
+1.1790%
+0.8306%
+3.9009%
+0.4598%
+1.4973%
+R-K Brick Walk I, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Brick Walk II, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Brick Walk III, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Brick Walk IV, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Brick Walk V, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Fairfield I, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Fairfield IV, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Fairfield V, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Black Rock I, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Black Rock II, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+R-K Black Rock III, LLC
+Delaware
+Regency-Kleban Properties, LLC
+Member
+100%
+Regency Village at Dublin, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Sandy Springs Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+SEPR Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Shops at Saugus, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Shops at Mira Vista Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Shoppes on Riverside Jax, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Southpark Cinco Ranch, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Spring Hill Town Center, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+T&R New Albany Development Company, LLC
+Ohio
+Regency Centers, L.P.
+Member
+100%
+Tinwood, LLC
+Delaware
+Regency Centers, L.P.
+Real Sub, LLC
+Managing Member
+Member
+50%
+50%
+Tinwood-Pebblebrooke, LLC
+Delaware
+Tinwood, LLC
+Member
+100%
+Twin City Plaza Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Twin City Plaza, LLC
+Delaware
+Twin City Plaza Member, LLC
+Member
+100%
+UC Shopping Center, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Uncommon, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Uptown Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Uptown District Regency, LLC
+Delaware
+Uptown Member, LLC
+Member
+100%
+WFC-Purnell, L.P.
+Delaware
+Regency NC GP, LLC
+Regency Centers, L.P.
+General Partner
+Limited Partner
+1%
+99%
+Willow Festival Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Willow Oaks Crossing, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency Realty Group, Inc.
+Florida
+Regency Centers, L.P.
+Outside Investors
+Common Stock
+Preferred Stock
+100%
+Varies
+1488-2978 SC GP, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+1488-2978 SC, L.P.
+Texas
+1488-2978 SC GP, LLC
+Regency Centers, L.P.
+General Partner
+Limited Partner
+1%
+99%
+Centerplace of Greeley III, LLC
+Delaware
+Regency Realty Group, Inc.
+Member
+100%
+East San Marco, LLC
+Florida
+Regency Realty Group, Inc.
+Member
+100%
+Lower Nazareth LP Holding, LLC
+Delaware
+Regency Realty Group, Inc.
+Member
+100%
+6
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+7
+% of
+Ownership
+Lower Nazareth Partner, LP
+Delaware
+Regency Realty Group, Inc.
+Lower Nazareth LP Holding, LLC
+Limited Partner
+General Partner
+100%
+0%
+Lower Nazareth GP, LLC
+Delaware
+Regency Realty Group, Inc.
+Member
+100%
+Lower Nazareth Commons, LP
+Delaware
+Lower Nazareth GP, LLC
+Lower Nazareth Partner, LP
+General Partner
+Limited Partner
+.5%
+99.5%
+NorthGate Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Paso Golden Hill, LLC
+Delaware
+Regency Realty Group, Inc.
+Member
+100%
+RB Schererville Crossings, LLC
+Delaware
+Regency Realty Group, Inc.
+WH41, LLC
+Managing Member
+Member
+Varies
+Regency Solar, LLC
+Delaware
+Regency Realty Group, Inc.
+Member
+100%
+Regency Solar II, LLC
+Delaware
+New Regency Realty Group, Inc.
+Member
+100%
+Seminole Shoppes, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Shops at Quail Creek, LLC
+Delaware
+Regency Realty Group, Inc.
+Member
+100%
+US Regency Hasley Canyon Village, LLC
+Delaware
+Sequoia Reverse AHS, LLC
+Member
+100%
+US Regency Blossom Valley, LLC
+Delaware
+Parnassus Reverse BB, LLC
+Member
+100%
+US Regency Alden Bridge, LLC
+Delaware
+Sequoia Reverse AHS, LLC
+Member
+100%
+US Regency Bethany Park Place, LLC
+Delaware
+Parnassus Reverse BB, LLC
+Member
+100%
+US Regency Shiloh Springs, LLC
+Delaware
+Sequoia Reverse AHS, LLC
+Member
+100%
+US Regency Willa Springs, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+US Regency Dunwoody Hall, LLC
+Delaware
+Hancock Reverse D, LLC
+Member
+100%
+Parnassus Reverse BB, LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Hancock Reverse D, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Sequoia Reverse AHS, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Clarendon Regency I, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Mellody Farm, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Springwoods Village Stuebner/Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Spring Stuebner RRC I Inc.
+Delaware
+Springwoods Village Stuebner/Regency, LLC
+Member
+100%
+Culver Public Market, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Clarendon Regency II, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Clarendon Regency III, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Clarendon Regency IV, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Clarendon Regency V, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+2C Tustin Legacy, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Klahanie Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Commonwealth Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Commonwealth Regency II, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Bridgewater Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Midtown East Regency-ITB, LLC
+Delaware
+Regency Centers, L.P.
+I.T.B. Holdings, L.L.C.
+Member
+Member
+50%
+50%
+The Village at Riverstone, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Columbia II Plaza Venezia, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Chimney Rock LQR, LLC
+Delaware
+New Regency Realty Group, Inc.
+Member
+100%
+Garden City Park, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Pinecrest Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency Springing Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Regency Goodwyn, LLC
+Delaware
+Regency Centers, L.P.
+Richmond Shopping Center, Inc. and Goodwyn Bros. General Partnership
+Managing Member
+Member
+64%
+36%
+Indigo Square Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+7
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+8
+% of
+Ownership
+5510-5520 Broadway, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Equity Asset Investor (Talega) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Equity One (Bridgemill) LLC
+Georgia
+Regency Centers, L.P.
+Member
+100%
+Equity One (Copps Hill) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Equity One (Florida Portfolio) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Equity One (Louisiana Portfolio) LLC
+Florida
+Louisiana Holding LLC
+Member
+100%
+Equity One (Northeast Portfolio) LLC
+Massachusetts
+Regency Centers, L.P.
+Member
+100%
+Equity One (San Carlos) LLC
+Delaware
+Equity One (West Coast Portfolio) LLC
+Member
+100%
+Equity One (Sheridan Plaza) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Equity One (Southeast Portfolio) LLC
+Georgia
+Regency Centers, L.P.
+Member
+100%
+Equity One (Westbury Plaza) LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Equity One (West Coast Portfolio) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Equity One (Westport) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Equity One (Westport Village Center) LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Equity One Realty & Management NE, LLC
+Massachusetts
+Regency Centers, L.P.
+Member
+100%
+Regency Centers Management, LLC f/k/a Equity One Realty & Management SE, LLC
+Georgia
+Regency Centers, L.P.
+Member
+100%
+EQY Portfolio Investor (Empire) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+EQY Portfolio Investor (GRI) LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+GRI-EQY (Concord) LLC
+Delaware
+EQY Portfolio Investor (GRI) LLC
+Member
+100%
+Harvard Collection LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+IRT LP, LLC
+Georgia
+Regency Centers, L.P.
+Member
+100%
+IRT Partners, L.P.
+Georgia
+Regency Centers, L.P.
+IRT LP, LLC
+General Partner
+Limited Partner
+1%
+99%
+Louisiana Holding LLC
+Florida
+Regency Centers, L.P.
+Member
+100%
+Southbury Spirits Member, LLC
+Connecticut
+Regency Centers, L.P.
+Member
+100%
+Southbury Spirits, LLC
+Connecticut
+Southbury Spirits Member, LLC
+Member
+100%
+IRT Capital II, LLC (formerly IRT Capital Corporation II)
+Georgia
+Regency Centers, L.P.
+Member
+100%
+DIM Vastgoed N.V.
+Netherlands
+Regency Centers, L.P.
+Member
+100%
+EQY-CSC, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+C&C (US) No. 1, Inc.
+Delaware
+Regency Centers. L.P.
+Outside Investors
+Common Stock
+Preferred Stock
+100%
+varies
+C&C Delaware, Inc.
+Delaware
+C&C (US) No. 1, Inc.
+Common Stock
+100%
+621 Colorado Associates, LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Equity One (Culver) LLC
+Delaware
+621 Colorado Associates, LLC
+Member
+100%
+Equity One Realty & Management CA, Inc.
+Delaware
+C&C (US) No. 1, Inc.
+Common Stock
+100%
+Equity One (Circle West) LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Equity One (Compo Acres) LLC
+Connecticut
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Equity One (Darinor) LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Equity One (Metropolitan) LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Equity One (Post Road) LLC
+Connecticut
+Equity One Realty & Management CA, Inc.
+Member
+100%
+8
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+9
+% of
+Ownership
+Equity One (Ralphs Circle) LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Equity One (Vons Circle) LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Marketplace Center, Inc.
+California
+Equity One Realty & Management CA, Inc.
+Common Stock
+100%
+Daly City Serramonte Center, LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+Serramonte Center Holding Co. LLC
+Delaware
+Daly City Serramonte Center, LLC
+Member
+100%
+Willows Center Concord, Inc.
+California
+Equity One Realty & Management CA, Inc.
+Common Stock
+100%
+Willows Center Concord, LLC
+California
+Willows Center Concord, Inc.
+Member
+100%
+G.S. Associates Holding Corp.
+Delaware
+Equity One Realty & Management CA, Inc.
+Common Stock
+100%
+G.S. Associates Joint Venture 326118
+California
+Equity One Realty & Management CA, Inc.
+G.S. Associates Holding Corp.
+Partner
+Partner
+99.9%
+0.1%
+Escuela Shopping Center, LLC
+Delaware
+G.S. Associates Joint Venture 326118
+Member
+100%
+Equity One (Country Walk) LLC
+Delaware
+EQY Portfolio Investor (Empire) LLC
+Member
+100%
+Sunlake-Equity One LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+EQY Talega LLC
+Delaware
+Equity Asset Investor (Talega) LLC
+Regency Centers, L.P.
+Member
+Managing Member
+99%
+1%
+Talega Village Center JV, LLC
+Delaware
+EQY Talega LLC
+Regency Centers, L.P.
+Member
+Managing Member
+99%
+1%
+Talega Village Center, LLC
+Delaware
+Talega Village Center JV, LLC
+Member
+100%
+Riverstone Market SWC, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Columbia II Metuchen, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Scripps REG, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Hewlett I Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Hewlett II Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Roosevelt Square Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Rivertowns Square Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Shops on Main LQR, LLC
+Indiana
+RB Schererville Crossings, LLC
+Member
+100%
+Block in Ballard II, LLC
+Delaware
+Block in Ballard II JV, LLC
+Member
+100%
+Block in Ballard II JV, LLC
+Delaware
+Regency Centers, L.P.
+1290 Broadway Lane REIT, LLC
+Managing Member
+Member
+49.9%
+50.1%
+Block in Ballard I JV, LLC
+Delaware
+Regency Centers, L.P.
+Principal Enhanced Property Fund, L.P.
+Managing Member
+Member
+49.9%
+50.1%
+Block in Ballard, LLC
+Delaware
+Reflections at the Lake REIT, LLC
+Member
+100%
+Reflections at the Lake REIT, LLC
+Delaware
+Block in Ballard I JV, LLC
+Member
+100%
+Melrose Market Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+TF REG, LLC
+Delaware
+Regency Centers, L.P.
+Outside Investors
+Managing Member
+Members
+35%
+65%
+New Regency Realty Group, Inc.
+Florida
+Regency Centers, L.P.
+Member
+100%
+6401 Roosevelt Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Pruneyard Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Old Bridge Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Old Bridge Regency-Village, LLC
+Delaware
+Old Bridge Regency, LLC
+Village Old Bridge LLC
+Member
+Member
+70%
+30%
+Restaurant Ventures, LLC
+Delaware
+RB Schererville Crossings, LLC
+Member
+100%
+NRRG Net, LLC
+Delaware
+New Regency Realty Group, Inc.
+Member
+100%
+Stonewall Regency Lending, LLC
+Delaware
+Equity One Realty & Management CA, Inc.
+Member
+100%
+9
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+10
+% of
+Ownership
+Regency Protective Trust II
+Florida
+New Regency Realty Group, Inc.
+Beneficiary
+100%
+Eastfield at Baybrook, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Eastfield REG, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Blakeney Crossing Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Blakeney Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Island Village Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Columbia II Naperville Plaza, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Long Island Regency Holdings, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Valley Stream Regency, LLC
+Delaware
+Long Island Regency Holdings, LLC
+Member
+100%
+Eastport Regency, LLC
+Delaware
+Long Island Regency Holdings, LLC
+Member
+100%
+Wading River Regency, LLC
+Delaware
+Long Island Regency Holdings, LLC
+Member
+100%
+East Meadow Regency, LLC
+Delaware
+Long Island Regency Holdings, LLC
+Member
+100%
+East Meadow Plaza Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Sienna Pkwy Retail, LLC
+Delaware
+Regency Centers, L.P.
+Sienna/Johnson North, L.P.
+Managing Member
+Member
+75%
+25%
+IRPF Jenkintown Baederwood Member, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Baederwood Fairway, LLC
+Delaware
+Charter Jenkintown, LLC
+IRPF Jenkintown Baederwood Member, LLC
+Member
+Member
+20%
+80%
+RidgeGate Couplet Grocery Center, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Jordan Ranch Grocer, LLC
+Delaware
+Regency Centers, L.P.
+HEB Commercial, LLC
+Managing Member
+Member
+50%
+50%
+Energy Enterprise Group – JV, LLC
+Delaware
+GRI-Regency, LLC
+Member
+100%
+Energy Enterprise Group, LLC
+Delaware
+New Regency Realty Group, Inc.
+Member
+100%
+Westbard TH Regency, LLC
+Delaware
+New Regency Realty Group. Inc.
+Member
+100%
+Nohl Plaza, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Cheshire Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Columbia II Old Town Square, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Oakley Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Burlywood Centers X, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+REB-UB Properties, LLC
+Maryland
+Hercules Merger Sub, LLC
+Member
+100%
+UB Solar, Inc.
+New Jersey
+New Regency Realty Group, Inc.
+Member
+100%
+UB Solar SPE Yorktown, LLC
+Delaware
+UB Solar, Inc.
+Member
+100%
+Hercules Merger Sub, LLC
+Maryland
+Regency Centers, L.P.
+Member
+100%
+323 Railroad, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+Pompton Lakes Towne Square Urban Renewal Entity, LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+Pompton Lakes Towne Square Urban Renewal Entity II (Retail), LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+Staples Plaza Self Storage, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+The Dock Self Storage, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB 970 High Ridge, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB 1031 Parking, LLC
+Connecticut
+REG-UB Properties, LLC
+Member
+100%
+UB Bloomfield I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Boonton I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Brewster, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Chestnut, LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+UB Danbury, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Darien, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Derby I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+10
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+11
+% of
+Ownership
+UB Dockside, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Eastchester Plaza, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Fairfield Centre, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Fort Lee I, LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+UB Greenwich I, LLC
+Connecticut
+REG-UB Properties, LLC
+Member
+100%
+UB Greenwich II-OGCC, LLC
+Connecticut
+REG-UB Properties, LLC
+Member
+100%
+UB Harrison I, LLC
+New York
+REG-UB Properties, LLC
+Member
+100%
+UB Kinnelon I, LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+UB Litchfield, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB McLean, LLC
+New York
+REG-UB Properties, LLC
+Member
+100%
+UB Midland Park, I, LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+UB Midway I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Midway II, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB New City I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB New Milford, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB New Providence, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Newfield Green, LLC
+Connecticut
+REG-UB Properties, LLC
+Member
+100%
+UB NM Fairfield Plaza, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Passaic I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Pompton Lakes I, LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+UB Putnam, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Railside, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Riverhead I, LLC
+New York
+REG-UB Properties, LLC
+Member
+100%
+UB Riverhead II, LLC
+New York
+REG-UB Properties, LLC
+Member
+100%
+UB Rye LLC
+New York
+REG-UB Properties, LLC
+Member
+100%
+UB Shelton Gas Pad, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Shelton Square, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Somers Sub, LLC
+New York
+REG-UB Properties, LLC
+Member
+100%
+UB Stratford I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Tanglewood, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Waldwick I, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Wyckoff I, LLC
+New Jersey
+REG-UB Properties, LLC
+Member
+100%
+UB Yorktown, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+UB Stamford, L.P.
+Delaware
+REG-UB Properties, LLC
+UB Katonah, LLC
+General Partner
+Limited Partner
+98.774%
+1.226%
+UB Katonah, LLC
+New York
+REG-UB Properties, LLC
+Member
+100%
+UB Ironbound, L.P.
+Delaware
+UB Ironbound GP, LLC
+REG-UB Properties, LLC
+General Partner
+Limited Partner
+84.02%
+15.98%
+UB Ironbound GP, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+Airport Beverages, Inc.
+Connecticut
+REG-UB Properties, LLC
+Shareholder
+100%
+Greens Farms Beverages, Inc.
+Connecticut
+REG-UB Properties, LLC
+Shareholder
+100%
+Ridgeway Beverages, Inc.
+Connecticut
+REG-UB Properties, LLC
+Shareholder
+100%
+The Dock Wine and Liquors, Inc.
+Connecticut
+REG-UB Properties, LLC
+Shareholder
+100%
+Veterans Plaza Beverages, Inc.
+Connecticut
+REG-UB Properties, LLC
+Shareholder
+100%
+UB High Ridge, LLC
+Delaware
+REG-UB Properties, LLC
+Various Individuals
+Managing Member
+Other Members
+42.8%
+57.2%
+UB High Ridge SPE, LLC
+Delaware
+UB High Ridge, LLC
+Member
+100%
+UB Dumont I, LLC
+Delaware
+REG-UB Properties, LLC
+Various Individuals
+Managing Member
+Other Members
+55.9%
+44.1%
+Midway Shopping Center, L.P.
+New York
+UB Midway I, LLC
+UB Midway II, LLC
+Steinberg Group
+Various Individuals
+General Partner
+Limited Partner
+General Partner
+Limited Partners
+9.97%
+1.83%
+12.52%
+75.68%
+11
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.
+Exhibit 21
+REGENCY CENTERS CORPORATION
+and
+REGENCY CENTERS, L.P.
+Subsidiaries
+(Regency Centers, L.P. is a subsidiary of Regency Centers Corporation)
+Entity
+Jurisdiction
+Owner(s)
+Nature of
+Interest
+12
+% of
+Ownership
+McLean Plaza Associates, LLC
+New York
+UB McLean, LLC
+CP-700 McLean Avenue LLC
+JB-700 McLean Avenue LLC
+Managing Member
+Member
+Member
+66.99%
+10.96%
+22.05%
+UB Orangeburg, LLC
+Delaware
+REG-UB Properties, LLC
+Member
+100%
+Riverhead Spirits, Inc.
+New York
+REG-UB Properties, LLC
+Lerner Spirits LLC
+Shareholder
+Shareholder
+50%
+50%
+BDG Sun-Vet, LLC
+New York
+Regency Centers, L.P.
+BDG SV Five, LLC
+Managing Member
+99.2%
+0.8%
+Clarendon Regency LQR Holding I, LLC
+Delaware
+New Regency Realty Group, Inc.
+Member
+100%
+Clarendon Regency LQR Holding II, LLC
+Delaware
+Clarendon Regency Holding I, LLC
+Member
+100%
+Clarendon Regency LQR Commons, LLC
+Delaware
+Clarendon Regency Holding II, LLC
+Member
+100%
+Westbard Square LQR, LLC
+Delaware
+New Regency Realty Group, Inc.
+Member
+100%
+Compo Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+WW Associates Member LLC
+Delaware
+Westbard TH Regency, LLC
+EYA Westwood Investments LLC
+Managing Member
+Member
+83%
+17%
+Westwood Associates 2, LLC
+Delaware
+Westbard TH Regency, LLC
+Member
+100%
+WW Associates Member 2, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+EGS Division Street, LLC
+Delaware
+Regency Centers, L.P.
+Brand Street Properties, LLC
+Member
+Managing Member
+70%
+30%
+Columbia II University Commons, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Brentwood Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Redlands Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Ellis Village Center, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Columbia II Armonk Square, LLC
+Delaware
+Columbia Regency Partners II, LLC
+Member
+100%
+Seven Pines Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Beaumont Regency AVG, LLC
+Delaware
+Regency Centers, L.P.
+AVG Partners
+Managing Member
+Member
+75%
+25%
+RMV Sendero Marketplace, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RMV Mercantile East, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RMV Mercantile West, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RMV Bridgepark Plaza, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RMV Mercantile East Ladera, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+RMV Terrace Shops, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Mount Sinai Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Stefko Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Firstfield Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Fall Hill Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Ellerbe Square Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Morgan Hill Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+Durbin Regency, LLC
+Delaware
+Regency Centers, L.P.
+Member
+100%
+12
+Unless otherwise noted, the sole member of all single member limited liability companies is also the managing member or manager of the limited liability company.

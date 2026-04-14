@@ -1,0 +1,102 @@
+EX-21.1
+2
+exhibit211-fy25subsidiarie.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+Subsidiaries of Atlassian Corporation
+Atlassian Corporation is a holding company and we conduct substantially all of our business through certain of our subsidiaries. As of June 30, 2025, our subsidiaries, all of which are wholly-owned, are as follows:
+Name
+Country of Incorporation
+AirTrack Software Pty. Ltd.
+Australia
+Atlassian Australia 1 Pty. Ltd.
+Australia
+Atlassian Australia 2 Pty. Ltd.
+Australia
+Atlassian Capital Pty. Ltd.
+Australia
+Atlassian Corporation Pty. Ltd.
+Australia
+Atlassian Pty. Ltd.
+Australia
+Lead Green Pty. Ltd.
+Australia
+Lead Green Trust
+Australia
+MITT Australia Pty. Ltd.
+Australia
+MITT Unit Trust
+Australia
+Atlassian Canada Inc.
+Canada
+Atlassian France SAS
+France
+Atlassian Germany GmbH
+Germany
+Atlassian India LLP
+India
+Atlassian India LLP Employees' Gratuity Trust Fund
+India
+Securezapp India Private Limited
+India
+Atlassian K.K.
+Japan
+Atlassian B.V.
+Netherlands
+Atlassian Holdings B.V.
+Netherlands
+Atlassian New Zealand
+New Zealand
+Atlassian Philippines, Inc.
+Philippines
+Atlassian Poland sp z o.o.
+Poland
+Atlassian Portugal, Unipessoal Lda
+Portugal
+Atlassian Pte. Ltd.
+Singapore
+Borneo Data Pte. Ltd.
+Singapore
+Pridatect S.L
+Spain
+Atlassian Korea Ltd.
+South Korea
+Opsgenie Yazılım Anonim Şirketi
+Turkey
+Atlassian Corporation Limited
+United Kingdom
+Atlassian (UK) Operations Limited
+United Kingdom
+Atlassian (Australia) Limited
+United Kingdom, United States of America
+Atlassian (UK) Limited
+United Kingdom, United States of America
+Atlassian (UK) Holdings Limited
+United Kingdom, United States of America
+AgileCraft LLC
+United States of America
+Atlassian Holdings, Inc.
+United States of America
+Atlassian Network Services, Inc.
+United States of America
+Atlassian US, Inc.
+United States of America
+Atlassian (US) LLC
+United States of America
+Atlassian Ventures LLC
+United States of America
+Borneo Data Inc.
+United States of America
+Dogwood Labs, Inc.
+United States of America
+Halp, Inc.
+United States of America
+Loom, Inc.
+United States of America
+OpsGenie, Inc.
+United States of America
+Optic Labs Corporation
+United States of America
+Trello, Inc.
+United States of America

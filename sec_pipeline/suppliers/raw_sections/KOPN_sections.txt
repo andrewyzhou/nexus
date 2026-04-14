@@ -1,0 +1,549 @@
+TICKER: KOPN
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chains, particularly
+with respect to semiconductor components, whether resulting from regional or global geopolitical developments, changes imposed by
+the current U.S. presidential administration, or otherwise; costs and outcomes relating to any disputes, governmental inquiries or
+investigations, regulatory proceedings, legal proceedings or litigation; our ability to continue to introduce new products in our
+target markets; our ability to generate revenue growth and positive cash flow, and reach profitability; the strengthening of the
+U.S. dollar and its effects on the price of our products in foreign markets; the impact of new regulations and customer demands
+relating to conflict minerals; our ability to obtain a competitive advantage in the wearable technologies market through our
+extensive portfolio of patents, trade secrets and non-patented know-how; our ability to grow within our targeted markets; the
+importance of small form factor displays in the development of defense, consumer, and industrial products such as thermal weapon
+sights, safety equipment, virtual and augmented reality gaming, training and simulation products and metrology tools; the
+suitability of our properties for our needs for the foreseeable future; and our need to achieve and maintain positive cash flow and
+profitability. 3 Item
+    1. Business Overview Corporate
+Background and Market Presence As
+used herein, the terms “Company,” “we,” “us,” or “our” refer to Kopin Corporation, a
+Delaware corporation. Kopin
+Corporation, a Delaware corporation, incorporated in 1984, and is headquartered in Westborough, Massachusetts, is a leader of innovative microdisplay technologies and optical systems, catering to defense, enterprise, industrial, consumer, and medical sectors.
+Our portfolio includes four types of miniature active-matrix liquid crystal
+displays (“AMLCDs”), liquid crystal on silicon (“LCOS”) displays, organic light emitting diode (“OLED”)
+displays, and emerging micro light emitting diode (“MicroLED”) displays, in addition to optics, electronics, and housings
+for subsystems which we call Application Specific Optical Solutions (“ASOS”). These microdisplays and subsystem solutions
+are all geared toward enhancing human performance when it matters most – in critical applications. We are developing patent pending fifth-generation MicroDisplay called NeuralDisplay™. The display is a bi-directional, human-in-the-loop and artificial intelligence enabled backplane that can be manufactured into
+microdisplays using either OLED or MicroLED deposition technology. The Company continues to research bi-directional sensing capabilities with potential partners, customers and investors. While
+microdisplays remain a core competency for Kopin, we also bring value to our customers through the design and manufacture of high-performance
+subsystems of application-specific solutions (“ASOS”) which include optics, electronics, and housings that are designed to meet the rigorous performance, size, weight,
+power, and cost requirements of the applications into which they are used. These
+products are critical for applications ranging from weapon mounted thermal sights to spatial computing devices and medical headsets.
+We have been supplying our microdisplays and ASOS to the U.S. Department of War for many years for solider centric systems, rotary and
+fixed wing aircraft and are developing products for armored vehicles and soldier carried missile systems. Our market reach now extends
+globally, with significant operations in the Americas, Asia-Pacific, and Europe. This global footprint and strategic focus underscores
+our capability to serve diverse and demanding markets, particularly in defense, where it supports both U.S. and international customers
+with development and production programs. During 2025,
+Kopin received a significant and strategic Industrial Analysis and Sustainment Act (IBAS) award from the Secretary of War to
+research and develop color MicroLED technology for soldier borne systems, heads up displays and other imaging applications within
+aircraft and automotive applications. The Company expects to receive additional government funding to further the technology and establish domestic
+full-rate productions within 2026 and beyond. Strategic
+Initiatives and Recent Developments Our
+strategy is to expand our offerings from selling individual display components to integrated, higher-value complete solutions,
+including headsets and subsystems This direction is supported by our proprietary technologies, enabling the design and manufacture
+of high-performance, rugged systems. The additional capability of offering complete solutions to our customers by offering a
+seamless integration of components, ensuring optimal performance and ease of use. This is a critical differentiator, as competitors
+ do not typically provide integrated subassemblies or headsets. Our
+ability to meet specific customer needs is enhanced by our proprietary technologies, which include over 200 patents and patent applications
+covering microdisplays, optics, and related systems, providing a significant intellectual property advantage. Our technological edge allows us to develop products that are not only high-resolution and low power but also rugged enough for
+defense applications, such as pilot helmets and armored vehicle targeting systems. The
+Company’s competitive edge is further strengthened by our focus on application-specific solutions, which cater to the unique requirements
+of each market segment. For example, in the industrial sector, we license wireless headset reference designs that integrate displays
+and optics for field service personnel, enhancing productivity. Similarly, in the medical field our stereoscopic 3D high-resolution headset
+is used by surgeons to provide comfortable and convenient visual support. 4 ONE
+Kopin Strategic Initiative and Rebranding In
+alignment with our “ONE Kopin” strategic initiative, we have completed this strategic initiative to reorganize and streamline
+our operations. The initiative included a rebranding effort to unify our corporate identity, and as announced in recent
+corporate organizational updates. Our
+unified business now operates through various market and technology groups, strategically located across multiple sites to support our
+global operations. These groups are organized by market segments (e.g., defense, industrial, consumer) and technology areas (e.g., AMLCD,
+FLCOS, OLED, MicroLED), with locations including Westborough, Massachusetts, Dalgety Bay, Scotland, and Reston, Virginia. In
+addition to unifying our operations, we have also expanded and unified our sales and business development team, substantially increasing
+our investment in new customer acquisitions, existing customer revenue and margin enhancement, and diversification of our customer base.
+In the defense, medical and industrial segments that we serve, product development cycles and transitions from development to manufacturing
+are lengthy. Therefore, maintaining a robust pipeline of active customer-funded development programs that will evolve into production
+programs is a critical part of growing revenues and expanding our customer base. In conjunction with our portfolio of unique microdisplays
+and ASOS, we have also invested in our sales and business development group – nearly doubling the resources focused on
+acquisition of new customers and programs over the past 12 months. This
+reorganization is designed to improve coordination and innovation, leveraging the strengths of each division under a single umbrella,
+and growing and diversify our customer base. Our multiple locations ensure global reach, supporting customers in the Americas, Asia-Pacific,
+and Europe as these regions become more focused on sovereign defense spending, medical research and semiconductor developments. Product
+Portfolio and Technological Edge Our
+product lineup is diverse, with four micro-display technologies inclusive of both off-the-shelf and custom products, as well as complete
+headset solutions for training & simulation and medical applications, and ASOS sub-systems. Manufacturing
+processes vary. For example, AMLCDs are designed in Westborough, then initial manufacturing steps occur in Taiwan and then the product
+is completed in Westborough, while FLCOS products are handled by our facility in Dalgety Bay, Scotland. Our OLED displays are designed
+in Westborough, the initial manufacturing occurs in South Korea, then they are completed in Europe or Asia. These displays are sold separately
+or integrated into subassemblies, including binocular modules and higher-level assemblies (“HLAs”) for defense, used in applications
+like weapon sights, pilot helmets, and training headsets. Our
+development of OLED and MicroLED displays, including color and monochrome variants with capabilities such as NeuralDisplay™ Artificial
+Intelligence (“AI”) based eye-tracking, signifies our forward-looking approach to deliver new capabilities designed to optimize
+human performance. Additionally, we offer display drivers, application-specific integrated circuits (“ASICS”),
+optical lenses, and backlights, manufactured by third parties, complementing its core offerings. Revenue
+Streams and Market Opportunities Revenue
+generation derives primarily from the sale of displays, optical components, and ASOS that we manufacture for defense, industrial,
+medical and training and simulation applications, alongside customer-funded development contracts for U.S. defense programs. This
+dual revenue stream ensures stability and growth potential. Most of the programs designed for these market segments tend to run for
+extended time periods, potentially yielding multiple years of revenue and margin streams. We
+are particularly well-positioned for the emerging augmented reality (“AR”) and virtual reality (“VR”) markets,
+leveraging our technology and intellectual property. Our unique position as the only known USA-based provider offering AMLCDs, LCOS,
+OLED and MicroOLED Displays, combined with optics, enhances our ability to offer the market a leading solution for each unique application,
+serving customers based on their specific needs. This is a significant competitive advantage for us. The addition of AI Enabled backplane
+architectures and pending patent applications in this area puts us at the forefront of display technology for consumer and defense applications. Research
+and Development Focus Internally
+funded research and development is concentrated on advancing OLED, MicroLED, and other display technologies such as bi-directional pixel
+architectures and software defined, AI enabled backplane architectures. Historically, we have invested in headset systems for emerging
+industrial and consumer markets, now licensed under agreements that may include royalties and purchase commitments. We believe this licensing
+strategy results in revenue from past innovations while freeing resources for new developments. Funded
+Research and Development We
+have entered various development contracts with agencies and prime contractors of the U.S. Government and commercial customers.
+These contracts help support the continued development of our core and new higher risk technologies which the Company requires either financial or application support to further develop. A substantial percentage of
+our revenue derives from Funded Research and Development, focusing on developing custom product solutions, particularly for the U.S.
+defense industry. These programs are typically fixed price and span several years, aiming for production orders post-design
+completion and are cancellable at short notice. The knowledge gained, as per corporate strategy outlines, enhances our expertise,
+positioning us for future business opportunities. The potential for technologies developed for defense to eventually transition to
+commercial and consumer applications underscores long-term growth prospects. 5 Operational
+Flexibility and Market Adaptability A
+key aspect of our operations is our flexibility in sourcing, purchasing, and developing display backplanes and deposition solutions from
+other companies for integration with proprietary optics and headset designs, particularly in new or cost-sensitive markets. This adaptability
+ensures competitiveness and responsiveness to market dynamics, geo-political conflicts, tariffs, and US Department of War and Asian and
+European defense requirements for country-of-origin and source of supply requirements. We
+have shifted our business development efforts to focus on markets where we have a greater competitive advantage and as a result
+revenues from defense applications remain a majority of our revenues. Sales to significant non-affiliated customers for fiscal years 2025 and 2024,
+as a percentage of total revenues, were as follows: (In thousands) 2025 2024 Defense $ 29,361 $ 41,249 Industrial 3,025 2,200 Consumer 9 24 Medical 594 103 Other product 78 — Net product revenues 33,067 43,576 R&D 4,590 5,997 License and royalties 410 762 ASC 606 revenues 38,067 50,335 Grant 858 — Collaboration 399 — Non ASC 606 revenues 1,257 — Total Revenues $ 39,324 $ 50,335 Our
+fiscal year ends on the last Saturday in December. The fiscal years ended December 27, 2025 and December 28, 2024, are referred to
+herein as fiscal years 2025 and 2024, respectively. Augmented
+and Virtual Reality Kopin, a leader in optical solutions, has expressed views on the future of augmented reality (“AR”) and virtual reality
+(“VR”) in defense, industrial, and consumer sectors. Our opinion on these technologies reflects current market dynamics and
+technological advancements. The focus is on the adoption trends, necessary technological developments, and the ongoing challenge of balancing
+performance and cost in display technologies. Industry
+Overview and Market Interest We
+believe, and current trends support, that defense, industrial, and consumer companies are increasingly integrating AR and VR into
+their operations, which we believe positions us very well for business expansion given our expertise in these technologies.
+Furthermore, sovereign technology developments are required for USA and NATO customers. These technologies are viewed as innovative
+applications and computing platforms, transforming how sectors operate. For instance: ● Defense
+    Sector: AR and VR are pivotal for training simulations, such as the U.S. Army’s Integrated Visual Augmentation System Next
+    (“IVAS”), which enhances soldier capabilities through real-time data overlays. VR is also used for high-fidelity training
+    in simulated combat environments. Thermal Weapon Sights, Night Vision Goggles (“NVGs”) and integrated helmet systems
+    for pilots, tank gunners and first-person viewers (“FPV”) for drone control are all burgeoning applications. ● Industrial
+    Sector: AR has been adopted for maintenance and repair, allowing workers to access real-time diagrams and remote expert assistance,
+    boosting productivity. ● Medical
+    Sector: AR headsets offer surgeons significant advantages over the historical arrangement of having multiple monitors in the
+    operating suite. The headset provides surgeons with the physical convenience and comfort of maintaining direct view of the patient
+    while being able to refer to the images provided by the headset as opposed to needing to look away at a separate monitor or monitors
+    positioned at various locations in the operating suite. We are seeing significant interest in our headset system in this emerging
+    area among both surgeons and through our partnerships with the leading surgical/optical equipment providers. ● Consumer
+    Sector: The consumer market has seen significant activity, driven by products such as Apple’s Vision Pro, released in 2024,
+    and other VR headsets such as Oculus. While these products have yet to reach the “tipping point” with widespread adoption,
+    each new iteration of product brings in new users, and we believe that in the long-term as foundational technologies (microdisplays
+    and optics), product designs and application software all improve, adoption will grow significantly. This
+widespread interest underscores the potential for AR and VR to become mainstream, but their growth is contingent on several technological
+advancements. Necessary
+Technological Advancements For
+AR and VR markets to mature and expand, sustained investment and innovation are required in the following areas: 1. Display
+                                            Technology: ○ The
+                                            demand for higher performance is evident, with a need for displays offering superior resolution,
+                                            brightness, and field of view. Emerging technologies such as MicroLED, next-generation
+                                            OLED and Color MicroLED are at the forefront, providing high contrast and energy efficiency. For example, MicroLED’s
+                                            potential for high brightness makes it suitable for outdoor AR applications. The challenge
+                                            is to integrate these advancements while reducing size, weight, power consumption and costs,
+                                            as high-end displays currently contribute significantly to device prices. 2. Optics: ○ Due to the recent FCC and DHS laws surrounding domestically manufactured
+Drone technology, the Company is developing customized and standard eye pieces and integrated optics for First Person Viewer (FPV) Drone
+Controllers. Optical
+                                            systems require improvements to enhance visual clarity and user comfort. Lightweight and
+                                            compact designs are crucial, especially for prolonged use in AR glasses and VR headsets.
+                                            Advances in lens materials and designs are underway, aiming to reduce weight and improve
+                                            optical performance. 3. Application
+                                            Software: ○ Robust
+                                            and user-centric application software is vital to unlock the full utility of AR and VR. This
+                                            includes developing applications for diverse use cases, such as complex defense simulations,
+                                            industrial maintenance guides, and immersive consumer gaming experiences. The proliferation
+                                            of app ecosystems, supported by platforms like ATAK™, Wilcox CLAW™ and others,
+                                            is driving this development while our NeuralDisplay™ software development will focus
+                                            on developing the associated protocols to integrate with key customers’ systems, in
+                                            this domain. Our
+updated opinion reflects a robust and growing interest in AR and VR across defense, industrial, and consumer sectors. The path to widespread
+adoption hinges on continuous innovation in display technology, optics, application software, and software integration, with a particular
+emphasis on balancing performance and cost. The integration of advanced bi-directional, human-in-the-loop sensing, coupled with low power,
+edge node algorithms will also be required to enable the performance requirements for Defense, Consumer and Medical applications. 6 Our
+Solution and Technology Kopin
+Corporation is a leader in high-performance optical solutions, focusing on microdisplays and related technologies for various markets.
+We design and manufacture small form factor displays, including AMLCDs, LCOS, OLED, and developing MicroLED, along with optical lenses,
+backlights, and ASICs. The Company recently invented a fifth generation microdisplay architecture, NeuralDisplay™ which includes
+bi-directional, human-in-the-loop and AI-based algorithms resident within the backplane of the display. This technological advancement
+can be utilized with either OLED or MicroLED depositions. These components are used in defense, industrial, medical, and consumer applications,
+offering complete solutions that include subassemblies and headsets. Other bi-directional architecture research was started midyear which
+may prove interesting for several current and new markets. Products
+and Applications Our
+displays are critical for near-eye applications, such as thermal weapon sights and pilot helmets in defense, wearable headsets for field
+service in industry, surgeon headsets in medical fields, and spatial computing devices for consumers. Their subassemblies combine displays,
+optics, and electronics, designed to survive extreme conditions like weapon fire shock and vibration, while headsets are standalone products,
+our displays and subsystems are integrated into the finished products built by our customers. Competitive
+Edge A
+critical aspect of our business is our ability to offer tailored and complete solutions, not just displays, which differentiate us
+from competitors. We offer active-matrix liquid crystal, organic light emitting diode, ferroelectic liquid crystal on silicon and
+organic light emitting diode microdisplays as stand-alone products and in modules and subassemblies which include our optics and
+electronics. Furthermore, we believe we are the only small domestic business that offers five variants of microdisplay technologies
+which provide a vast array of technological options for customers’ application needs. A “small business” as
+defined in U.S. procurement may receive preferential treatment in awarding contracts. We can assist customers with choosing and
+customizing the right display architecture for their unique application as compared to competitors who only offer one technology,
+for all applications. Specifically, our strategy enables us to design products for rugged environments, a key advantage in defense
+and industrial markets, while offering these solutions to be manufactured in multiple locations within the USA and
+Europe. Detailed
+Analysis of Kopin Corporation’s Technology and Market Position Kopin
+Corporation, a leader in optical solutions, is recognized for our advanced microdisplay technologies and related products, catering to
+defense, industrial, medical, and emerging consumer AR and VR markets. This analysis, prepared as of March 2026, provides a comprehensive
+overview of the Company’s technology, products, strategy, and market position. The focus is on detailing the Company’s capabilities,
+competitive advantages, and potential risks, ensuring a thorough understanding of potential investment decisions. Corporate
+Background and Technology Portfolio We
+design and manufacture a range of small form factor displays, including AMLCDs, LCOS displays, OLED displays, and are developing MicroLED
+displays. These displays are complemented by optical lenses, backlights, and ASICs, forming the backbone of our product offerings. Our
+technology extends beyond individual components to include subassemblies and headsets, which integrate displays, optics, and electronics.
+These products are designed to withstand extreme environmental conditions, such as the shock and vibration experienced in weapons fire,
+making them particularly suitable for defense applications. This capability is a critical differentiator, as it ensures reliability in
+rugged environments, a key requirement for defense, medical and industrial customers. Our AMLCDs , branded as CyberDisplay® products, utilize a proprietary process involving the transfer of integrated circuits from
+silicon wafers to glass. This process, detailed in corporate disclosures, enables greater miniaturization, higher pixel density, lower
+power consumption, and higher brightness compared to conventional active-matrix LCDs. The manufacturing involves initial steps at foundries
+in Taiwan, with final assembly at our facility in Westborough, Massachusetts, as noted in recent financial reports. LCOS displays, manufactured by
+Kopin Europe Limited (“KEL”) in Scotland, are reflective and used in 3D optical inspection equipment, offering high-speed,
+high-density imaging capabilities. OLED displays, with their emissive nature, provide high contrast and fast response times, making them ideal for AR and VR applications.
+We have recently launched a new OLED display with improved brightness and resolution, aimed at the AR/VR market, as announced in November
+2024. MicroLED displays are in development, promising high brightness, wide viewing angle, excellent contrast, and potentially low cost. We received
+a patent for our MicroLED manufacturing process in September 2024, which is expected to enhance production efficiency and reduce costs,
+positioning the Company for future growth in this emerging technology. Through the Department of War, Kopin received funding for advanced
+research and development for a color MicroLED which are expected to be designed and built to the US Army specifications for various soldier borne
+systems. The Company will also adapt this display architecture for other potential markets like aviation, automotive and advanced AI
+computing applications. NeuralDisplay™ architecture is a software-based development focused on integrating bi-directional sensing into the subpixel of either an OLED or
+MicroLED display. We believe this patent pending technology will reduce the size, weight, power consumption of consumer and defense AR
+solutions by reducing several cameras which are required for eye-tracking, gaze, and dynamic brightness and contrast controls. The display
+system is being designed to utilize software and AI, accelerating algorithms to adjust the display image and thereby reduce nausea, latency,
+and overall system weight which will increase user comfort and battery life. 7 Product
+Offerings and Applications Our
+products are utilized across multiple sectors, each with specific applications: ● Defense: Currently it includes thermal weapon rifle sights, fixed and rotary wing pilot helmets and training and simulation headsets and
+    are designed for armored vehicle targeting systems and soldier deployed missile systems. These applications require displays and
+    subassemblies that are manufactured to exact specifications so that they can endure extreme conditions, such as repetitive shock
+    and vibration. ● Industrial: Focuses on 3D automated optical inspection (“3D AOI”) systems that use our displays as spatial light modulators.
+    3D AOI are quality control systems used in production lines that manufacture products such as cell phones. Our products are also
+    used in headsets for field service personnel, enabling hands-free access to data, schematics, and videos for production or repairs.
+    The Company licenses to our customers wireless industrial headset reference designs, which integrate displays, optics, and electronics,
+    enhancing productivity. ● Medical: Targets surgeon headsets, allowing real-time visual aid during medical procedures, improving precision and efficiency. We are
+    developing medical headsets to expand our presence in this market, as mentioned in recent updates. ● Consumer: Includes recreational rifle scopes and potential AR/VR applications, with OLED and MicroLED displays being key for immersive
+    experiences. Our strategy is to leverage defense and industrial technologies for consumer market entry. Our
+subassemblies, such as HLAs for defense, combine displays, optics, and electronics in sealed housings, designed for exact tolerances
+to meet rugged environment requirements. Headsets, on the other hand, are standalone products that interface with larger systems, requiring
+significant know-how in design, materials selection, assembly, and testing. Manufacturing
+and Supply Chain Our
+manufacturing process varies by product. AMLCDs involve initial fabrication at Taiwan foundries, with final assembly in Westborough,
+Massachusetts, using proprietary Wafer Engineering technology while our LCOS displays similarly start with silicon wafers fabricated
+at Taiwan foundries and are then completed at Kopin Europe Limited in Scotland. For OLED displays, we design the critical backplane
+and outsource the deposition process to various foundries, with final assembly ans test at Kopin facilities. Optical
+lenses and backlights are either developed internally or licensed, with third-party manufacturing used to meet specifications. This approach
+reduces investment in plants and equipment, allowing us to stay agile and adapt to technological advancements. Our
+ASOS products are currently manufactured using a significant amount of direct labor. However, we have implemented initiatives to automate
+many of the processes required to manufacture the products. For example, we removed human defect inspection of lenses and changed the
+process to use camera inspection. Strategy
+and Market Expansion Our
+strategy is centered on participating in U.S. defense development programs, funded by government agencies and prime contractors, to develop
+leading-edge microdisplay technologies. This approach supplements internal R&D budgets and enhances expertise, with revenues from
+these contracts contributing significantly to past years. We
+also utilize Small Business Innovation Research (“SBIR”) and Cooperative Research & Development Awards (“CRADA”)
+to work with Defense end-users directly to learn, develop, demonstrate, and commercialize new technologies. The
+knowledge gained is leveraged for industrial, medical, and consumer applications, aiming to diversify revenue streams. We maintain a
+broad intellectual property portfolio, with approximately 200 patents and patent applications, covering microdisplays, optics, and related
+technologies, which we believe provides a technology and manufacturing platform competitive advantage. We
+are also developing software-defined backplanes with AI capabilities, known as NeuralDisplay™, to address specific use cases in
+defense and consumer markets, indicating a forward-looking approach to innovation, as mentioned in recent product development updates. 8 Markets,
+Customers, and Financial Performance Our
+primary market is defense, with significant customers including Collins Aerospace and DRS Network & Imaging Systems LLC. In fiscal
+year 2025, defense sales (excluding R&D contracts) accounted for 74% of total revenue, down from 82% in 2024, but maintaining
+a strong reliance on this sector. These results were a by-product of an intentional strategic shift in market focus, which we believe
+is already proving successful. Kopin continues to expand our focus into growing markets which are geographic expansions and new market verticals
+to lessen our dependency and concentration in North American Defense customers to promote further stability, higher margins and growth. Industrial
+and medical markets are growing, with customers like HMDmD, expanding our customer base. Research and development revenues,
+primarily from U.S. Government contracts, accounted for 12% of total revenues in 2025 and 2024. The
+Company generally seeks a balance between research and development to low-rate initial production (“LRIP”) sales, with
+the overall intent of shifting more to LRIP Financially,
+we reported a 22% revenue decrease in fiscal year 2025 compared to 2024, driven by defense product sales, and are progressing towards
+profitability with a reduced net loss, indicating operational improvements, as noted in market analyses. Competition
+and Risks The
+general commercial display market is highly competitive, and we face competition from large Asian electronics companies such as AUO,
+BOE Technology Group, Himax, LG Display, Samsung, Sharp, and Sony in the near eye microdisplay sector. We cannot be certain that we will
+be able to compete against these companies and technologies, or that consumers will accept the use of such eyewear in general or our
+customers’ product form factor specifically. The
+Company differentiates itself from its competitors by offering a USA small business, designed and built, complete solutions, including
+displays, optics, and electronics such as MicroLED, OLED, LCOS and AMLCD, that are tailored to application specific solutions. Furthermore,
+the Company is the only USA-based, small business which offers five variants of microdisplay technologies, which provide a vast array
+of technological options for customers’ application needs. The Company can assist customers to choose the right display architecture
+for the application versus competitors who only offer one technology for all applications. Specifically, the Company’s strategy
+enables it to design products for rugged environments, a key advantage in defense and industrial markets, while offering these solutions
+to be manufactured in multiple locations within the USA and Europe. Key
+risks include dependence on major customers, such as DRS Network & Imaging Systems LLC comprising 63% of revenues in 2025 and therefore
+posing a concentration risk. The need for continuous innovation in a rapidly evolving technology market and managing complex supply chains
+to maintain high production yields for defense subassemblies are additional challenges. Recent
+Developments and Future Outlook Kopin
+was awarded a transformative $15.4M order to develop sovereign manufacturing capability for color MicroLED displays on September 11, 2025. This program
+will focus on establishing Kopin’s production capabilities for MicroLED displays in the USA, with the initial display product
+for use in soldier borne systems. This program enhances Kopin’s position as a supplier of critical MicroLED display
+technology for US defense programs and is funded by the office of the Secretary of War and the US Army under the Industrial Base
+Analysis and Sustainment (IBAS) program. During
+the fourth quarter, Theon International posted a $23M commitment including previously announced $15M investment and additional $8M planned
+for development of Military-grade MicroLED display and other products. Further financing developments included several new partnerships with major defense contractors in the US such as
+Ondas and Unusual Machines, and in Europe including Theon International. These firms participated in Kopin’s recent $41M private placement fundraising
+activity and are strategic investors, with the desire to develop or co-develop defense solutions with Kopin. The
+Company received several recurring awards for thermal weapon sight modules, training and simulation systems and displays and display modules
+for military pilot helmet HUD (head-up display) systems, including Kopin’s first production order for MicroLED displays which has
+been qualified and will be deployed in a fielded combat jet program. A strategic aspect with regards to geopolitical
+uncertainties, uncertainties with respect to tariffs and sovereign sources of supply for US DoW and European Department of Defense, is
+our flexibility in manufacturing, using third-party foundries for OLED and MicroLED displays, which reduces capital expenditure and allows
+for scalability. Kopin Europe, Limited (“KEL”) is in the process of expanding its capabilities beyond the manufacture of FLCOS
+microdisplays and 3DAOI structure light systems to include the back-end manufacture and test of both OLED displays and MicroLED displays,
+as well as Higher-level assemblies which are modules of sub-systems that include a micro-display, optics, electronics and housing that
+we sell to prime contractors to include in their finished products. This capability within the territories of the EU, at KEL, has strong
+appeal for the European military establishment (both prime contractors and the various ministries of defense) who are looking to source
+their technology and products closer to home, and put Kopin Europe in a strong position for future growth. Patents,
+Proprietary Rights and Licenses An
+important part of our product development strategy is to seek, when appropriate, protection for our products and proprietary technology
+using various U.S. and foreign patents and contractual arrangements. We intend to prosecute and defend our proprietary technology aggressively.
+Many of our U.S. patents and applications have counterpart foreign patents, foreign patent applications or international patent applications
+through the Patent Cooperation Treaty. Although we believe that our patents or other proprietary products and processes do not infringe
+upon the intellectual property rights of any third parties, third parties may assert infringement claims against us from time to time. Human
+Capital Resources As of December 27, 2025, our consolidated business employed 145 full-time employees
+in the U.S. Of these employees, 3 hold Ph.D. degrees in Material Science, Electrical Engineering or Physics. Our management and professional
+employees have significant prior experience in semiconductor materials, device transistor and display processing, optical design, manufacturing,
+and other related technologies. None of our employees are covered by a collective bargaining agreement. We have policies to prevent discrimination
+based on gender, race, ethnicity, nationality, religion, sexual orientation, gender identity or gender expression. We take affirmative
+action to ensure that applicants are hired, and that employees are treated during employment without regard to their race, ethnicity,
+religion, sex, or national origin. We also take affirmative action to employ and advance veterans in employment. We consider relations
+with our employees to be good. 9 In
+2004, we finalized and adopted a Code of Business Conduct and Ethics regarding the standards of conduct of our directors, officers and
+employees. The code is reviewed and updated periodically by our Board of Directors and is available on our website at www.kopin.com. Corporate Social Responsibility We
+strive to create and maintain a working environment that fosters honesty and hard work and rewards all of our employees’ hard work.
+We endeavor to make Kopin Corporation a place people are proud to be associated with.  Our initial process for strategy creation includes work
+by a cross-functional ESG team of leaders representing operations, human resources, supply chain, finance, marketing, and facilities
+departments. We also utilize third-party facilities, environmental and legal consulting services. These third-party consultants are assisting
+us in creating an ESG materiality assessment from which we can develop a baseline assessment for monitoring our progress. Our progress
+in creating our ESG strategy and other related activities is reported to the Board of Directors. We
+provide recurring company-wide communication of our formalized values, a summary of which are: Integrity Team Customers Uphold
+    Ethical Standards in Our Performance Treat
+    Everyone with Respect Highest
+    Quality Customer Service Through Collaborative Success Keep
+    Our Commitments Encourage
+    Open Communication Provide
+    Industry Leading Products Protect
+    Our Intellectual Property Promote
+    Critical Thinking and Innovation Maintain
+    Confidentiality and Protect Customer Intellectual Property We
+are not a member of the Responsible Business Alliance (“RBA”); however, we have utilized the themes of the RBA Code of Conduct
+to supplement our Code of Ethics, including the RBA Code of Conduct’s five critical areas of corporate social responsibility: labor,
+health and safety, environment, management systems, and ethics. We believe that by following the values noted above and doing our part
+in each of these areas, we can achieve our business objectives and long-term stockholder value. For additional information, see “Item
+1 – Business: Human Capital Resources” in this Annual Report on Form 10-K. We
+strive to create a workplace based on the following principles and goals: Care
+for Our People ●
+We believe in upholding the principles of human rights, worker safety, and observing fair labor practices within our organization. ●
+We respect different viewpoints and perspectives, and ultimately individual thoughts create innovation and achieve better results. We
+continually evaluate how we provide organizational training, formalize company values, and revitalize recruitment strategy. ●
+We are committed to employee safety. We have installed safety protocols and monitoring systems. We have periodic audits by third parties
+to test our systems and perform preventive maintenance. Our policies prohibit an employee from being alone in our production facilities
+or in unsupervised areas of our facilities. Environmental
+Responsibility ●
+We are committed to protecting the natural environment and our community by complying with all applicable legal and regulatory requirements.
+We maintain an environmental management system and a specific framework for implementing relevant sustainable practices. ●
+We ask our employees to help us contribute towards environmental sustainability by looking for opportunities to conserve energy, reduce
+consumption of natural resources, preserve air and water quality, manage waste properly, reuse and recycle, and reduce the use of toxic
+substances in our operations where possible, including, in particular, in our clean room and lab facilities. Our clean room facility
+emissions are less than permitting and reporting thresholds, and we track emissions monthly to verify compliance with the regulations. ●
+We look for ways to reduce energy consumption in our facilities around the world, including upgrades and/or retrofits to smart heating,
+ventilation, and air conditioning systems. For instance, we have installed variable speed fans, which only turn on based on various metrics,
+thereby reducing energy usage. Ethics
+& Corporate Responsibility ●
+We are committed to ensuring ethical organizational governance and embracing diversity and inclusion in the board room and throughout
+the organization. ●
+We are committed to observing fair, transparent, and accountable operating practices. ●
+We seek to create and foster a healthy, balanced, and ethical work environment for everyone in our organization. To this end, we promote
+an ethical organizational culture and encourage all employees to raise questions or concerns about actual or potential ethical issues
+and Company policies and to offer suggestions about how we can make our organization better. We have a Whistleblower Ethics Hotline that
+includes global telephone access and online access. We have an independent third party periodically test the Whistleblower Ethics Hotline. Supply
+Chain Responsibility ●
+We intend to request that our suppliers adhere to the RBA Code of Conduct or its equivalent by flowing this requirement through our commercial
+contracts. ●
+We also adhere to Rule 13p-1 under the Exchange Act and support efforts to avoid sourcing conflict minerals that directly or indirectly
+finance, or benefit armed groups in the Democratic Republic of Congo and in adjoining countries. Consistent with the Organization for
+Economic Co-operation and Development Due Diligence Guidance concerning conflict minerals, we adopted the Conflict-Free Sourcing Initiative
+Due Diligence reporting process and seek to obtain conflict minerals content declarations from our suppliers each year, to promote supply chain transparency. We do not directly source tin, tantalum, tungsten, or gold (collectively referred to as 3TG) from
+mines, smelters or refiners, and we are, in most cases, several or more levels removed from these supply chain participants. 10 Government
+Regulations Our
+business is subject to extensive regulation in the industries we serve. We deal with numerous U.S. Government agencies and entities,
+including but not limited to branches of the Department of War (“DoW”). U.S.
+defense contractors are among our largest customers, representing a substantial majority of our total revenues. The U.S. Government may
+terminate a contract with us or our customers either “for convenience” (for instance, due to a change in its perceived needs)
+or if we default due to our failure or the failure of a general or subcontractor to perform under the contract. If the federal government
+terminates a contract with one of our customers, our contract with our customers would entitle us to recover only our incurred or committed
+costs, settlement expenses and possibly profit on the work completed prior to termination. However, under certain circumstances, our
+recovery costs upon termination for convenience of such a contract may be limited. If terminated by the government because of our default,
+we could be liable for payments made to us for undelivered goods or services, additional costs the government incurs in acquiring undelivered
+goods or services from another source, and any other damages it suffers. In
+addition, we are subject to a variety of federal, state and local governmental regulations including the use, storage, discharge and
+disposal of toxic, volatile or otherwise hazardous chemicals used in our manufacturing process. Failure to comply with present or future
+regulations could result in fines being imposed on us, suspension of production or cessation of operations. Any failure on our part to
+control the use of, or adequately restrict the discharge of hazardous substances, or otherwise comply with environmental regulations,
+could subject us to significant future liabilities. We also cannot be certain that past use or disposal of environmentally sensitive
+materials in conformity with the existing environmental laws and regulations will protect us from required remediation or other liabilities
+under current or future environmental laws or regulations. Certain chemicals we import are subject to regulation by the U.S. Government.
+If we or our suppliers do not comply with applicable laws, we could be subject to adverse government actions and may not be able to import
+critical supplies. The
+costs, burdens, and/or impacts of complying with federal and state regulations could be an expensive and time-consuming process, and
+failure to comply with any such legal requirements could have a significant impact on our financial position, results of operations,
+and cash flows. We
+are also subject to federal International Traffic in Arms Regulations (“ITAR”) laws which regulate the protection (cybersecurity)
+and export of technical data and export of products to other nations that may use such data or products for defense purposes. Cybersecurity
+and data security and protection laws and regulations are evolving and present increasing compliance challenges, which may increase our
+costs, affect our competitiveness, cause reputational harm, and expose us to substantial fines or other penalties. Failure to comply
+with present or future regulations could result in fines being imposed on us, suspension of production, or a cessation of operations.
+Any failure on our part to obtain any required licenses for the export of technical data and/or export of our products, or to otherwise
+comply with ITAR, could subject us to significant future liabilities. We
+are also subject to federal importation laws that regulate the importation of raw materials and equipment from other nations that are
+used in our products. Failure to comply with present or future regulations could result in fines being imposed on us, suspension of production,
+or a cessation of operations. Investments
+in Related Businesses On
+September 30, 2019, we entered into an Asset Purchase Agreement with Solos Technology Limited (“Solos Technology”), pursuant
+to which we sold and licensed certain assets of our Solos product line and Whisper Audio (“Whisper”) technology. As consideration
+for the transaction, we received 1,172,000 common shares representing a 20.0% equity stake in Solos Technology’s parent company,
+Solos Incorporation (“Solos Inc.”). Our 20.0% equity stake will be maintained until Solos Inc. has raised a total of $7.5
+million in equity financing after which we will need to participate in future equity offerings, or our ownership percentage will be diluted. We
+acquired an equity interest in Lenovo New Vision in the first quarter of 2018 for $1.0 million and the contribution of certain
+intellectual property. As of December 27, 2025, we have approximately 10% interest in this investment and the carrying value of
+our investment is $1.5 million. 11 We
+                                            acquired the right to an equity interest in HMDmd, a medical device company in 2021. As of December
+                                            27, 2025, the carrying value of this investment is $0.3 million. As
+of December 27, 2025, we own 100% of the outstanding common stock of Kopin Virginia, Inc. (formerly NVIS, Inc), and e-MDT
+America Inc. (“eMDT”) and we consolidate each of their financial results within our consolidated financial statements. We
+terminated operations of our subsidiary, Kopin Software Ltd., in the third quarter of 2019 and are in the process of liquidating it. On
+January 5, 2023, the Company entered into a Technology License Agreement and an Asset Purchase Agreement (the “LST Agreements”)
+with Lightning Silicon Technology, Inc (“LST”). Pursuant to the LST Agreements, the Company issued a license to LST for certain
+technology associated with our Organic Light Emitting Technology, transferred in-process development contracts with two customers and
+accounts receivables that the Company had previously determined were not collectible. As consideration for the transaction, the Company
+received 18,000,000 common shares representing a 20.0% equity stake in LST. The Company will also receive a royalty based on unit sales of products that utilize the technology licensed. We
+may from time to time make further equity investments in these and other companies engaged in certain aspects of the display, electronics,
+optical and software industries as part of our business strategy. In addition, the wearable computing product market is relatively new
+and there may be other technologies we need to invest in to enhance our product offering. These investments may not provide us with any
+financial return or other benefit, and any losses by these companies or associated losses in our investments may negatively impact on
+our operating results. Sources
+and Availability of Raw Materials and Components We
+rely on third-party independent contractors for certain integrated circuit chip sets, backlights and other critical raw materials such
+as special glasses, wafers and chemicals. In addition, our CyberDisplay subassemblies, HLAs, binocular display modules, and other modules
+include lenses, backlights, printed circuit boards and other components that we purchase from third-party suppliers. Some of these third-party
+contractors and suppliers are small companies with limited financial resources. In addition, our defense customers typically buy a small
+number of units, which prevents us from qualifying and buying components economically from multiple
+
+--- VENDORS ---
+vendors. As a result, we are highly
+dependent on the select number of third-party contractors and suppliers. Availability
+of Information We
+make available free of charge through our website, www.kopin.com, our Annual Reports on Form 10-K and other reports that we file or furnish
+with the SEC as soon as reasonably practicable after they are filed or furnished, as well as certain of our corporate governance policies,
+including the charters for the Board of Directors’ audit, compensation, and nominating and corporate governance committees and
+our code of ethics, corporate governance guidelines and whistleblower policy. We will also provide any person without charge, upon request,
+a copy of any of the foregoing materials. Any such request must be made in writing to us, c/o Investor Relations, Kopin Corporation,
+125 North Drive, Westborough, MA, 01581. 12 Item
+    1A. Risk
+    Factors We
+operate in a changing global environment that involves numerous known and unknown risks and uncertainties that could materially adversely
+affect our financial condition, results of operations, cash flows, and competitive position. Accordingly, our business and financial
+results are subject to risks and uncertainties, including those set forth below. Additional risks and uncertainties that
+are not currently known to us or that we currently do not believe to be material may also negatively affect our business and financial
+results. The
+
+--- MANUFACTURING ---
+contract manufacturers who use the 3D metrology machines for quality control purposes.
+The industrial applications market has seen new entrants over the last few years, which has led to increased price competition. We
+have introduced lower priced products in 2025 to compete with our competitors, but we expect this trend will continue and hence we are focusing our
+product and selling efforts on other more attractive market segments. Sales of our displays for Consumer applications are primarily for use in thermal imaging products, recreational rifle
+and hand-held scopes. The decrease in Consumer applications in 2025 compared to 2024 was primarily due to our re-focusing the Company’s
+sales and marketing efforts on defense applications. R&D
+revenues decreased in 2025 as compared to 2024 primarily due to the timing of both starts of new programs and completion of our existing programs. This variance falls within the
+normal ebb and flow of funded programs. These contracts typically reimburse us
+for direct costs and allocated overhead and selling, general and administrative costs and in some cases profit. In 2025 and 2024, our
+R&D revenues exceeded funded R&D expenses by approximately $1.1 million and $2.2 million, respectively. The
+decrease in license and royalty revenue in 2025 compared to 2024 is due to a decrease in royalties earned under IP license agreements
+for industrial wearable headsets. International product sales represented
+approximately 5% of product revenues for 2025 and 2024. We categorize our revenues as either domestic or international based upon the
+delivery destination of our product. For example, if the customer is located in Asia or if a U.S. customer has its Asian contract manufacturer
+order product from us and we deliver the product to Asia, we categorize both these sales as international. In addition, if we earn royalties
+on sales from a customer, the royalties are categorized as domestic or international based on how the product revenues are categorized.
+Our international sales decreased in 2025 as compared to 2024 due mainly to a decrease in sales of our products for 3D metrology application
+by Kopin Europe Ltd. Our international sales are primarily denominated in U.S. dollars. Consequently, a strengthening of the U.S. dollar
+could increase the price in local currencies of our products in foreign markets and make our products relatively more expensive than competitors’
+products that are denominated in local currencies, which could result in a reduction in sales or profitability in those foreign markets.
+As a result, our financial position and results of operations are subject to exchange rate fluctuation in transactional and functional
+currency. We have not taken any protective measures against exchange rate fluctuations, such as purchasing hedging instruments with respect
+to such fluctuations, because of the historically stable exchange rate between the Japanese yen, Great Britain pound and the U.S. dollar. 30 Cost
+of Product Revenues. Cost of product revenues, which are comprised of materials, labor and manufacturing overhead related to the production
+of our products for fiscal years 2025 and 2024 were as follows: (In thousands, except percentages) 2025 2024 Cost of product revenues $ 27,831 $ 36,164 Cost of product revenues as a % of net product
+    revenues 84.2 % 83.0 % Fiscal
+Year 2025 Compared to Fiscal Year 2024 Cost
+of product revenues increased as a percentage of revenues in 2025 as compared to 2024 primarily due to lower overhead absorption due
+to lower total product volume, as well as higher one-time write downs of obsolete materials that offset gains in operational
+efficiencies. Additionally, the margin improvements from efficiency gains within our thermal weapon sights product line were
+partially offset by lower margin contribution from industrial and training and simulation revenues due to their lower 2025 sales.
+The Company also implemented several programs and hired additional employees to improve manufacturing quality and
+efficiency. The
+United States government is or is in the process of increasing or implementing tariffs on the importation of certain goods. In some
+cases, our contracts allow us to pass along new or increased tariffs subject to ability to prove the impact of the tariff on the
+cost of our product. If we are unable to increase our prices due to the implementation or increase in tariffs, duties and other
+taxes our gross margin and overall profitability will be negatively impacted. Furthermore, order intake along with certain
+programmatic revenue recognition was hindered by several government shutdowns that imposed significant delays to our 2025 plan.
+Several expected orders and subsequent revenue recognition have been delayed into 2026 due to substantial backlogs within the
+contracting pipeline. The
+issues associated with the global shortage of semiconductor circuit chips and other
+
+--- RAW_MATERIALS ---
+raw materials and equipment from other nations that are
+used in our products. Failure to comply with present or future regulations could result in fines being imposed on us, suspension of production,
+or a cessation of operations. Investments
+in Related Businesses On
+September 30, 2019, we entered into an Asset Purchase Agreement with Solos Technology Limited (“Solos Technology”), pursuant
+to which we sold and licensed certain assets of our Solos product line and Whisper Audio (“Whisper”) technology. As consideration
+for the transaction, we received 1,172,000 common shares representing a 20.0% equity stake in Solos Technology’s parent company,
+Solos Incorporation (“Solos Inc.”). Our 20.0% equity stake will be maintained until Solos Inc. has raised a total of $7.5
+million in equity financing after which we will need to participate in future equity offerings, or our ownership percentage will be diluted. We
+acquired an equity interest in Lenovo New Vision in the first quarter of 2018 for $1.0 million and the contribution of certain
+intellectual property. As of December 27, 2025, we have approximately 10% interest in this investment and the carrying value of
+our investment is $1.5 million. 11 We
+                                            acquired the right to an equity interest in HMDmd, a medical device company in 2021. As of December
+                                            27, 2025, the carrying value of this investment is $0.3 million. As
+of December 27, 2025, we own 100% of the outstanding common stock of Kopin Virginia, Inc. (formerly NVIS, Inc), and e-MDT
+America Inc. (“eMDT”) and we consolidate each of their financial results within our consolidated financial statements. We
+terminated operations of our subsidiary, Kopin Software Ltd., in the third quarter of 2019 and are in the process of liquidating it. On
+January 5, 2023, the Company entered into a Technology License Agreement and an Asset Purchase Agreement (the “LST Agreements”)
+with Lightning Silicon Technology, Inc (“LST”). Pursuant to the LST Agreements, the Company issued a license to LST for certain
+technology associated with our Organic Light Emitting Technology, transferred in-process development contracts with two customers and
+accounts receivables that the Company had previously determined were not collectible. As consideration for the transaction, the Company
+received 18,000,000 common shares representing a 20.0% equity stake in LST. The Company will also receive a royalty based on unit sales of products that utilize the technology licensed. We
+may from time to time make further equity investments in these and other companies engaged in certain aspects of the display, electronics,
+optical and software industries as part of our business strategy. In addition, the wearable computing product market is relatively new
+and there may be other technologies we need to invest in to enhance our product offering. These investments may not provide us with any
+financial return or other benefit, and any losses by these companies or associated losses in our investments may negatively impact on
+our operating results. Sources
+and Availability of Raw Materials and Components We
+rely on third-party independent contractors for certain integrated circuit chip sets, backlights and other critical raw materials such
+as special glasses, wafers and chemicals. In addition, our CyberDisplay subassemblies, HLAs, binocular display modules, and other modules
+include lenses, backlights, printed circuit boards and other components that we purchase from third-party suppliers. Some of these third-party
+contractors and suppliers are small companies with limited financial resources. In addition, our defense customers typically buy a small
+number of units, which prevents us from qualifying and buying components economically from multiple vendors. As a result, we are highly
+dependent on the select number of third-party contractors and suppliers. Availability
+of Information We
+make available free of charge through our website, www.kopin.com, our Annual Reports on Form 10-K and other reports that we file or furnish
+with the SEC as soon as reasonably practicable after they are filed or furnished, as well as certain of our corporate governance policies,
+including the charters for the Board of Directors’ audit, compensation, and nominating and corporate governance committees and
+our code of ethics, corporate governance guidelines and whistleblower policy. We will also provide any person without charge, upon request,
+a copy of any of the foregoing materials. Any such request must be made in writing to us, c/o Investor Relations, Kopin Corporation,
+125 North Drive, Westborough, MA, 01581. 12 Item
+    1A. Risk
+    Factors We
+operate in a changing global environment that involves numerous known and unknown risks and uncertainties that could materially adversely
+affect our financial condition, results of operations, cash flows, and competitive position. Accordingly, our business and financial
+results are subject to risks and uncertainties, including those set forth below. Additional risks and uncertainties that
+are not currently known to us or that we currently do not believe to be material may also negatively affect our business and financial
+results. The
+

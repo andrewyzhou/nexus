@@ -1,0 +1,493 @@
+EX-21
+3
+a2025ugicorp10kex21.htm
+EX-21
+Document
+EXHIBIT 21
+SUBSIDIARIES OF UGI CORPORATION
+SUBSIDIARY
+OWNERSHIP
+STATE OF
+INCORPORATION
+AMERIGAS, INC.
+100%
+PA
+AMERIGAS PROPANE, INC.
+100%
+PA
+AmeriGas Partners, L.P.
+(1)
+DE
+AmeriGas Finance Corp.
+100%
+DE
+AmeriGas Propane GP, LLC
+100%
+DE
+AmeriGas Propane, L.P.
+(3), (4), (5)
+(2)
+DE
+902 Gilbert Street, LLC
+100%
+NC
+AmeriGas Eagle Holdings, Inc.
+100%
+DE
+AmeriGas Propane Parts & Service, Inc.
+100%
+PA
+AmeriGas Propane Holdings, Inc.
+100%
+DE
+FOUR FLAGS DRILLING COMPANY, INC.
+100%
+PA
+ASHTOLA PRODUCTION COMPANY
+100%
+PA
+UGI ETHANOL DEVELOPMENT CORPORATION
+100%
+PA
+MOUNTAINTOP ENERGY HOLDINGS LLC
+100%
+DE
+MOUNTAINEER GAS COMPANY
+100%
+WV
+NEWBURY HOLDING COMPANY
+100%
+DE
+UGI ENTERPRISES, LLC
+100%
+PA
+EASTFIELD INTERNATIONAL HOLDINGS, INC.
+100%
+DE
+UGI BLACK SEA ENTERPRISES, INC.
+100%
+PA
+UGI CENTRAL GAS CONTROL, LLC
+100%
+DE
+UGI ENERGY SERVICES, LLC
+100%
+PA
+Energy Services Funding Corporation
+100%
+DE
+Homestead Holding Company
+100%
+DE
+UGI Appalachia, LLC
+100%
+DE
+UGI Gibraltar Gathering, LLC
+100%
+DE
+UGI Moraine East Gathering, LLC
+100%
+DE
+Pennant Midstream, LLC
+100%
+DE
+Pennant Field Gathering, LLC
+100%
+DE
+Pennant NGL, LLC
+100%
+DE
+Pennant Processing, LLC
+100%
+DE
+Pennant Residue Gathering, LLC
+100%
+DE
+Pennant Trunkline Gathering, LLC
+100%
+DE
+UGI Pine Run, LLC
+100%
+DE
+Pine Run Gathering, LLC
+49%
+DE
+Pine Run Midstream, LLC
+100%
+DE
+Riverwest Appalachia Midstream, LLC
+100%
+DE
+UGI Biofuels, LLC
+100%
+DE
+GHI Energy, LLC
+100%
+TX
+UGI Ag-Grid, LLC
+100%
+DE
+UGI Broad Mountain RNG, LLC
+100%
+DE
+UGI Dakota, LLC
+100%
+DE
+1
+SUBSIDIARY
+OWNERSHIP
+STATE OF
+INCORPORATION
+UGI NEO, LLC
+100%
+DE
+UGI Cayuga, LLC
+100%
+DE
+Cayuga RNG Holdings, LLC
+99%
+DE
+Allen Farms RNG, LLC
+100%
+DE
+BERGEN RNG, LLC
+100%
+DE
+EL-VI RNG, LLC
+100%
+DE
+New Hope RNG, LLC
+100%
+DE
+Spruce Haven RNG, LLC
+97.8%
+DE
+UGI Hamilton, LLC
+100%
+DE
+Hamilton RNG Holdings, LLC
+90%
+DE
+Synthica St. Bernard, LLC
+100%
+DE
+UGI Gathering, LLC
+100%
+DE
+UGI Auburn Gathering, LLC
+100%
+DE
+UGI Ponderosa, LLC
+100%
+DE
+UGI Texas Creek, LLC
+100%
+DE
+UGI Marcellus, LLC
+100%
+DE
+UGI Peaking, LLC
+100%
+DE
+UGI Bethlehem LNG, LLC
+100%
+DE
+UGI Carlisle LNG, LLC
+100%
+DE
+UGI Manning LNG, LLC
+100%
+DE
+UGI Propane Air, LLC
+100%
+DE
+UGI Steelton LNG, LLC
+100%
+DE
+UGI Transmission, LLC
+100%
+DE
+UGI Auburn, LLC
+100%
+DE
+UGI LNG, Inc.
+100%
+DE
+UGI Mt. Bethel Pipeline Company, LLC
+100%
+DE
+UGI PennEast, LLC
+100%
+DE
+PennEast Pipeline Company, LLC
+20%
+DE
+UGI Storage Company
+100%
+PA
+UGI Sunbury, LLC
+100%
+DE
+UGID Solar, LLC
+100%
+DE
+UGI INTERNATIONAL (ROMANIA), INC.
+100%
+PA
+UGI INTERNATIONAL, LLC
+100%
+PA
+UGI Europe, Inc.
+100%
+DE
+UGI International Holdings B.V.
+100%
+NETHERLANDS
+DVEP Investeringen B.V.
+100%
+NETHERLANDS
+De Vrije Energie Producent B.V.
+100%
+NETHERLANDS
+Qwint B.V.
+100%
+NETHERLANDS
+UGI France NewCo I
+100%
+FRANCE
+UGI France NewCo II
+100%
+FRANCE
+UGI France
+100%
+FRANCE
+Antargaz Belgium N.V.
+100%
+BELGIUM
+Antargaz B.V.
+100%
+NETHERLANDS
+2
+SUBSIDIARY
+OWNERSHIP
+STATE OF
+INCORPORATION
+Antargaz Luxembourg S.A.
+100%
+LUXEMBOURG
+EnergySud S.A.
+100%
+BELGIUM
+Gasbottling N.V.
+100%
+BELGIUM
+Antargaz
+100%
+FRANCE
+Antargaz Energies
+100%
+FRANCE
+WEKAN
+50%
+FRANCE
+Cobogal
+50%
+FRANCE
+Geogaz - Lavera
+21.57%
+FRANCE
+Gie Donges
+50%
+FRANCE
+Groupement Technique Citernes
+25%
+FRANCE
+Norgal
+61.06%
+FRANCE
+Butane Du Havre
+37.3%
+FRANCE
+Redeo Antargaz
+100.00%
+FRANCE
+Rhone Gaz
+50.62%
+FRANCE
+Sobegal
+72%
+FRANCE
+SoGaCYP
+50%
+FRANCE
+SP Queven
+50%
+FRANCE
+Stogaz
+100%
+FRANCE
+Antarsolaire
+100%
+FRANCE
+Antsol 1
+100%
+FRANCE
+Antsol 2
+100%
+FRANCE
+Antsol 3
+100%
+FRANCE
+Antsol 4
+100%
+FRANCE
+Antsol 5
+100%
+FRANCE
+Antsol 6
+100%
+FRANCE
+Antsol 7
+100%
+FRANCE
+Antsol 8
+100%
+FRANCE
+Antsol 9
+100%
+FRANCE
+Antsol 10
+100%
+FRANCE
+Antsol 11
+100%
+FRANCE
+Antsol 12
+100%
+FRANCE
+Antsol 13
+100%
+FRANCE
+Antsol 14
+100%
+FRANCE
+Antsol 15
+100%
+FRANCE
+Antsol 16
+100%
+FRANCE
+Antsol 17
+100%
+FRANCE
+UGI International LPG Distributors B.V.
+100%
+NETHERLANDS
+Flaga GmbH
+100%
+AUSTRIA
+UGI Distributors Flaga GmbH
+100%
+AUSTRIA
+Zentraleuropa LPG Holding GmbH
+100%
+AUSTRIA
+AmeriGas Polska Sp. z.o.o.
+100%
+POLAND
+Flaga GPL Romania S.r.l.
+100%
+ROMANIA
+Flaga Hungaria Kft.
+100%
+HUNGARY
+3
+SUBSIDIARY
+OWNERSHIP
+STATE OF
+INCORPORATION
+Flaga spol s.r.o.
+100%
+SLOVAKIA
+Flaga s.r.o.
+100%
+CZECH REPUBLIC
+UGI Kosan GmbH
+100%
+AUSTRIA
+Kosan Gas A/S
+100%
+DENMARK
+Kosan Gas Finland Oy
+100%
+FINLAND
+Kosan Gas Norge A/S
+100%
+NORWAY
+Kosan Gas Sverige AB
+100%
+SWEDEN
+UGI International Sustainable Solutions B.V.
+100%
+NETHERLANDS
+Dimeta B.V.
+37%
+NETHERLANDS
+Circular Fuels Limited
+100%
+UNITED KINGDOM
+Circular Fuels Arboretum Limited
+100%
+UNITED KINGDOM
+UGI Midlands Limited
+100%
+UNITED KINGDOM
+AvantiGas Limited
+100%
+UNITED KINGDOM
+Fieldchester LPG Ltd (formerly LPG 4 U Limited)
+100%
+UNITED KINGDOM
+LPG Direct Limited
+100%
+UNITED KINGDOM
+Premier LPG Limited
+100%
+UNITED KINGDOM
+AvantiGas On Ltd.
+100%
+UNITED KINGDOM
+UGI Malta Ltd.
+100%
+MALTA
+UGI ROMANIA, INC.
+100%
+PA
+UGI PROPERTIES, INC.
+100%
+PA
+UGI UTILITIES, INC.
+100%
+PA
+OPERATION SHARE ENERGY FUND
+100%
+PA
+UGI CENTRAL PENN PROPANE, LLC
+100%
+PA
+UGI ENERGY VENTURES, INC.
+100%
+DE
+UGI PENN HVAC SERVICES, INC.
+100%
+PA
+UNITED VALLEY INSURANCE COMPANY
+100%
+VT
+(1)    AmeriGas Propane, Inc. holds a non-economic general partner interest and a 33.85% limited partner interest, and AmeriGas Propane Holdings, Inc. holds a 66.15% limited partner interest.
+(2)
+AmeriGas Propane GP, LLC holds a 1.0101% general partner interest; AmeriGas Partners, L.P. holds a 98.8899% limited partner interest; and AmeriGas Eagle Holdings, Inc. holds a 0.1% limited partner interest.
+(3) Doing business as Cynch in Arizona, California, Colorado, Delaware, District of Columbia, Florida, Georgia, Illinois, Maryland, Nevada, New Jersey, North Carolina, Pennsylvania, South Carolina, Tennessee, Texas, Virginia and Washington.
+(4) Doing business as Propane Transport International in Alabama, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Idaho, Illinois, Indiana, Kentucky, Louisiana, Maine, Maryland, Michigan, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin and Wyoming.
+(5) Doing business as PTI in Alabama, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Idaho, Illinois, Indiana, Kentucky, Louisiana, Maine, Maryland, Mississippi, Missouri, Montana, Nebraska, Nevada, New Jersey, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, South Carolina, South Dakota, Texas, Utah, Vermont, Virginia, Washington, Wisconsin and Wyoming.
+4

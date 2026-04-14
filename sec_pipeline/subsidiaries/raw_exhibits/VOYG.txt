@@ -1,0 +1,69 @@
+EX-21.1
+7
+ex-211_listofsubsidiaries.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Voyager Technologies, Inc.
+Legal Name
+Jurisdiction of Formation
+Altius Space Machines, Inc.
+Colorado
+DreamUp PBC
+Delaware
+ElectroMagnetic Systems, Inc
+California
+ExoTerra Resource LLC
+Colorado
+Goex Industries LLC
+Louisiana
+LeoCloud, Inc.
+Virginia
+Nanoracks UK
+United Kingdom
+Nanoracks, LLC
+Nevada
+Optical Physics Company, Inc.
+Nevada
+Pioneer Invention, LLC
+Colorado
+Space Micro, Inc.
+Delaware
+Starlab Space, LLC
+Delaware
+The Launch Company, LLC
+Alaska
+Valley Tech Systems, Inc.
+California
+Voyager Energetics Inc
+Colorado
+Voyager Space Force, LLC
+Delaware
+Voyager Space Exploration, LLC
+Delaware
+Voyager Space IP Holdings, LLC
+Delaware
+Voyager Technology Holdings LLC
+Delaware
+Voyager Space IPX, LLC
+Delaware
+Voyager Space Science Park, LLC
+Ohio
+Voyager Space Services, LLC
+Delaware
+Voyager Technologies Europe
+Italy
+Voyager Ventures, LLC
+Delaware
+Voyager Workforce, LLC
+Delaware
+XO Airlock, LLC
+Delaware
+XO Markets Holdings, Inc.
+Delaware
+ZIN Aerospace, Inc.
+Delaware
+ZIN Aerospace, Ltd.
+UAE
+ZIN Technologies, Inc.
+Delaware

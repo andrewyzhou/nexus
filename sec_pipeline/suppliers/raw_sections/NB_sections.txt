@@ -1,0 +1,351 @@
+TICKER: NB
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain issues, tariffs, and geopolitical unrest on the Elk Creek Project’s
+economic model; and the creation of full time and contract construction jobs over the construction period of the Elk Creek Project. 7 Forward-looking
+statements are frequently, but not always, identified by words such as “expects,” “anticipates,” “believes,”
+“intends,” “estimates,” “potential,” “possible,” and similar expressions, or statements
+that events, conditions, or results “will,” “may,” “could,” or “should” (or the
+negative and grammatical variations of any of these terms) occur or be achieved. Any statements that express or involve discussions
+with respect to predictions, expectations, beliefs, plans, projections, objectives, assumptions, or future events or performance
+(often, but not always, using words or phrases such as “expects” or “does not expect,” “is expected,”
+“anticipates” or “does not anticipate,” “plans,” “estimates,” or “intends,”
+or stating that certain actions, events, or results “may,” “could,” “would,” “might,”
+or “will” be taken, occur or be achieved) are not statements of historical fact and may be forward-looking statements.
+Forward-looking statements reflect material expectations and assumptions, including, without limitation, expectations and assumptions
+relating to: NioCorp’s ability to receive sufficient project financing for the construction of the Elk Creek Project on
+acceptable terms, or at all; the future price of metals; the stability of the financial and capital markets; and current estimates
+and assumptions regarding the Yorkville Equity Facility Financing Agreement and its benefits. Such forward-looking statements
+reflect the Company’s current views with respect to future events and are subject to certain known and unknown risks, uncertainties,
+and assumptions. Many factors could cause actual results, performance, or achievements to be materially different from any future
+results, performance, or achievements that may be expressed or implied by such forward-looking statements, including, among others,
+risks related to the following: NioCorp’s ability to operate as a going concern; NioCorp’s requirement of significant
+additional capital; NioCorp’s ability to receive sufficient project financing for the construction of the Elk Creek Project
+on acceptable terms, or at all; NioCorp’s ability to achieve the required milestones and receive the full $10.0 million
+in reimbursement under the DoD Agreement; NioCorp’s ability to receive a final commitment of financing from EXIM or other debt financing or financial support on acceptable timelines, on acceptable terms, or at all; NioCorp’s ability to access the
+full amount of the expected net proceeds under the Yorkville Equity Facility Financing Agreement; NioCorp’s ability to continue
+to meet Nasdaq listing standards; risks relating to the Common Shares, including price volatility, lack of dividend payments and
+dilution or the perception of the likelihood of any of the foregoing; the extent to which NioCorp’s level of indebtedness
+and/or the terms contained in agreements governing NioCorp’s indebtedness, if any, the Yorkville Equity Facility Financing
+Agreement or other agreements may impair NioCorp’s ability to obtain additional financing, on acceptable terms, or at all;
+covenants contained in agreements with NioCorp’s secured creditors that may affect its assets; NioCorp’s limited operating
+history; NioCorp’s history of losses; the material weaknesses in NioCorp’s internal control over financial reporting,
+NioCorp’s efforts to remediate such material weaknesses and the timing of remediation; the possibility that NioCorp may
+qualify as a PFIC under the Code; the potential that the 2023 Transactions could result in NioCorp becoming subject to materially
+adverse U.S. federal income tax consequences as a result of the application of Section 7874 and related sections of the Code;
+cost increases for NioCorp’s exploration and, if warranted, development projects; a disruption in, or failure of, NioCorp’s
+information technology systems, including those related to cybersecurity; equipment and supply shortages; variations in the market
+demand for, and prices of, niobium, scandium, titanium and rare earth products; current and future offtake agreements, joint ventures,
+and partnerships, including our ability to negotiate extensions to existing agreements or to enter into new agreements, on favorable
+terms or at all; NioCorp’s ability to attract qualified management; estimates of mineral resources and reserves; mineral
+exploration and production activities; feasibility study results; the results of metallurgical testing; the results of technological
+research; changes in demand for and price of commodities (such as fuel and electricity) and currencies; competition in the mining
+industry; changes or disruptions in the securities markets; legislative, political or economic developments, including changes
+in federal and/or state laws that may significantly affect the mining industry; trade policies and tensions, including tariffs;
+inflationary pressures; the impacts of climate change, as well as actions taken or required by governments related to strengthening
+resilience in the face of potential impacts from climate change; the need to obtain permits and comply with laws and regulations
+and other regulatory requirements; the timing and reliability of sampling and assay data; the possibility that actual results
+of work may differ from projections/expectations or may not realize the perceived potential of NioCorp’s projects; risks
+of accidents, equipment breakdowns, and labor disputes or other unanticipated difficulties or interruptions; the possibility of
+cost overruns or unanticipated expenses in development programs; operating or technical difficulties in connection with exploration,
+mining, or development activities; management of the water balance at the Elk Creek Project site; land reclamation requirements
+related to the Elk Creek Project; the speculative nature of mineral exploration and development, including the risks of diminishing
+quantities of grades of reserves and resources; claims on the title to NioCorp’s properties; potential future litigation;
+and NioCorp’s lack of insurance covering all of NioCorp’s operations. Should
+one or more of these risks or uncertainties materialize, or should underlying assumptions prove incorrect, actual results may
+vary materially from those described herein. This list is not exhaustive of the factors that may affect 8 any of the Company’s
+forward-looking statements. Forward-looking statements are statements about the future and are inherently uncertain, and actual
+achievements of the Company or other future events or conditions may differ materially from those reflected in the forward-looking
+statements due to a variety of risks, uncertainties, and other factors, including without limitation those discussed under Item
+1A.,
+
+--- VENDORS ---
+vendors, use Canadian dollars. As used herein, “C$” represents Canadian
+dollars. The
+following table sets forth the rate of exchange for the Canadian dollar, expressed in U.S. dollars in effect at the end of the
+periods indicated, the average of exchange rates in effect during such periods, and the high and low exchange rates during such
+periods based on the daily rate of exchange as reported by the Bank of Canada for conversion of Canadian dollars into U.S. dollars. Fiscal Year Ended June 30, 2025 2024 Canadian
+    Dollars to U.S. Dollars Rate
+    at end of period 0.7330 0.7306 Average
+    rate for period 0.7170 0.7380 High
+    for period 0.7429 0.7617 Low
+    for period 0.6848 0.7207 Risk
+Factors Summary Investing
+in common shares, no par value, of the Company (“Common Shares”) involves numerous risks and uncertainties, as more
+fully described below. You should read these risks before you invest in our Common Shares. In particular, risks associated with
+our business include, but are not limited to, the following: Risks
+Related to Our Business ● Our
+                                         ability to operate as a going concern is in doubt. ● We
+                                         will require significant additional capital to fund our business plan. ● We
+                                         have a limited operating history on which to base an evaluation of our business and prospects. ● We
+                                         have a history of losses and expect to continue to incur losses in the future. ● We
+                                         may not recognize the full value of the Yorkville Equity Facility Financing Agreement
+                                         (as defined herein) and may not receive any proceeds from the exercise our outstanding
+                                         Common Share purchase warrants (“Warrants”), and the potential adverse effect
+                                         on the prevailing market prices for our Common Shares as a result of sales, or the perception
+                                         of future sales, of Common Shares could adversely affect our ability to raise additional
+                                         capital. ● The
+                                         Company has identified material weaknesses in its internal control over financial reporting.
+                                         If not remediated, the Company’s failure to establish and maintain effective disclosure
+                                         controls and procedures and internal control over financial reporting could result in
+                                         material misstatements in its financial statements and a failure to meet its reporting
+                                         and financial obligations, each of which could have a material adverse effect on the
+                                         Company’s financial condition and the trading price of the Common Shares. Risks
+Related to Mining and Development ● We
+                                         face numerous uncertainties in estimating our mineral reserves and resources and inaccuracies
+                                         in our estimates could result in lower than expected revenues, higher than expected costs
+                                         and decreased profitability. ● The
+                                         nature of mineral exploration and production activities involves a high degree of risk
+                                         and the possibility of uninsured losses. ● We
+                                         have no history of producing commercial products from our current mining properties and
+                                         there can be no assurance that we will successfully establish mining operations or profitably
+                                         produce minerals. vi ● Any
+                                         material changes in mineral resource/reserve estimates and grades of mineralization will
+                                         affect the economic viability of placing a property into production and a property’s
+                                         return on capital. ● Our
+                                         properties and operations may be subject to litigation or other claims. ● We
+                                         do not currently insure against all the risks and hazards of mineral exploration, development,
+                                         and mining operations. Risks
+Related to Government Regulation ● We
+                                         may not be able to obtain or renew all required permits and licenses to place any of
+                                         our properties into production. ● We
+                                         are subject to significant governmental regulations that affect our operations and costs
+                                         of conducting our business. ● Land
+                                         reclamation requirements for our properties may be burdensome and expensive. Risks
+Related to Our Debt ● The
+                                         level of our indebtedness from time to time could impair our ability to obtain additional
+                                         financing. Risks
+Related to the Common Shares ● Future
+                                         sales, or the perception of future sales, of Common Shares by existing shareholders or
+                                         by us, or future dilutive issuances of Common Shares by us, could adversely affect prevailing
+                                         market prices for the Common Shares and cause investors to suffer dilution in their net
+                                         book value per Common Share. ● We
+                                         are subject to the continued listing criteria of The Nasdaq Stock Market LLC (“Nasdaq”)
+                                         and our failure to satisfy these criteria may result in delisting of the Common Shares. vii PART
+I ITEM 1. BUSINESS Introduction NioCorp
+Developments Ltd. (“NioCorp,” “we,” “us,” “our,” or the “Company”)
+was incorporated under the laws of the Province of British Columbia under the Business Corporations Act (British Columbia) on
+February 27, 1987, under the name “IPC International Prospector Corp.” On May 22, 1991, we changed our name to “Kingston
+Resources Ltd.” On June 29, 2001, we changed our name to “Butler Developments Corp.” On February 12, 2009, we
+changed our name to “Butler Resource Corp.” On March 4, 2010, we changed our name to “Quantum Rare Earth Developments
+Corp.” On March 4, 2013, we changed our name to “NioCorp Developments Ltd.” NioCorp
+is a United States Securities and Exchange Commission (“SEC”) reporting company, and we are also a Canadian reporting
+issuer in British Columbia, Alberta, Saskatchewan, Ontario, and New Brunswick. Our registered and records office is located at
+1133 Melville Street, Suite 3500, Vancouver, British Columbia V6E 4E5 (ATTN: Blake, Cassels & Graydon LLP). Our principal
+executive office is located at 7000 South Yosemite Street, Suite 115, Centennial, Colorado 80112. Business
+Operations NioCorp, through
+ECRC (as defined below), is developing a critical minerals project that, if and when developed, will produce niobium, scandium,
+titanium, and potentially, rare earth products. Known as the “Elk Creek Project,” it is located near Elk Creek, Nebraska,
+in the southeast portion of the state. ● Niobium
+                                         is used to produce various superalloys that are extensively used in high performance
+                                         aircraft and jet turbines. It also is used in high-strength, low-alloy steel, a stronger
+                                         steel used in automobiles, bridges, structural systems, buildings, pipelines, and other
+                                         applications that generally enables those applications to be stronger and lighter in
+                                         mass. This “lightweighting” benefit often results in environmental benefits,
+                                         including reduced fuel consumption and material usage, which can result in fewer air
+                                         emissions. ● Scandium
+                                         can be combined with aluminum to make super-high-performance alloys with increased strength
+                                         and improved corrosion resistance. Scandium also is a critical component of advanced
+                                         solid oxide fuel cells, an environmentally preferred technology for high-reliability,
+                                         distributed electricity generation. ● Titanium
+                                         is a component of various superalloys and other applications that are used for aerospace
+                                         applications, weapons systems, protective armor, medical implants and many others. It
+                                         also is used in pigments for paper, paint, and plastics. ● Rare
+                                         earth elements are critical minerals that are needed in virtually all U.S. defense systems
+                                         and across the electronics,
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+raw materials, or any franchise or license or other agreement to use a patent, formula, trade secret,
+process or trade name upon which its business depends. 4 Government
+Regulation The
+exploration and development of a mining prospect is subject to regulation by a number of federal and state government authorities.
+These include the United States Environmental Protection Agency (the “EPA”) and the United States Army Corps of Engineers
+(the “USACE”) as well as the various state and local environmental protection agencies. The regulations address many
+environmental issues relating to air, soil, and water contamination, and apply to many mining related activities including exploration,
+mine construction, mineral extraction, ore milling, water use, waste disposal, and use of toxic substances. In addition, we are
+subject to regulations relating to labor standards, occupational health and safety, mine safety, general land use, export of minerals,
+taxation, data protection, and data security. Many of the regulations require permits or licenses to be obtained, the absence
+of which and/or inability to obtain such permits or licenses will adversely affect our ability to conduct our exploration, development,
+and operation activities. The failure to comply with the regulations and terms of permits and licenses may result in fines or
+other penalties or in revocation of a permit or license or loss of a prospect. General While
+none of the lands on which the Elk Creek Project is proposed to be built are owned by the U.S. Government, mining rights on public
+lands are governed by the General Mining Law of 1872, as amended, which allows for the location of mining claims on certain federal
+lands upon the discovery of a valuable mineral deposit and compliance with location requirements. The exploration of mining properties
+and development and operation of mines is governed by both federal and state laws. Federal laws that govern mining claim location
+and maintenance and mining operations on federal lands are generally administered by the Bureau of Land Management. Additional
+federal laws, governing mine safety and health, also apply. State laws also require various permits and approvals before exploration,
+development or production operations can begin. Among other things, a reclamation plan must typically be prepared and approved,
+with financial assurance provided in the amount of projected reclamation costs. The financial assurance is used to ensure that
+proper reclamation takes place and will not be released until that time. Local jurisdictions may also impose permitting requirements,
+such as conditional use permits or zoning approvals. Environmental
+Regulation Our
+mineral projects are subject to various federal, state, and local laws and regulations governing protection of the environment.
+These laws are continually changing and, in general, are becoming more restrictive. The development, operation, closure, and reclamation
+of mining projects in the U.S. requires numerous notifications, permits, authorizations, and public agency decisions. Compliance
+with environmental and related laws and regulations requires us to obtain permits issued by regulatory agencies and to file various
+reports and keep records of our operations. Certain of these permits require periodic renewal or review of their conditions and
+may be subject to a public review process during which opposition to our proposed operations may be encountered. We are currently
+operating under various permits for activities connected to mineral exploration, reclamation, and environmental considerations.
+Our policy is to conduct business in a way that safeguards public health and the environment. We believe that our operations are
+conducted in material compliance with applicable laws and regulations. Changes
+to current local, state, or federal laws and regulations in the jurisdictions where we operate could require additional capital
+expenditures and increased operating and/or reclamation costs. Although we are unable to predict what additional legislation,
+if any, might be proposed or enacted, additional regulatory requirements could impact the economics of our projects. Environmental
+Regulation - U.S. Federal Laws The
+Comprehensive Environmental, Response, Compensation, and Liability Act (“CERCLA”), and comparable state statutes,
+impose strict, joint, and several liability on current and former owners and operators of sites and on persons who disposed of
+or arranged for the disposal of hazardous substances found at such sites. It is not uncommon for the government to file claims
+requiring clean-up actions and/or demands for reimbursement for government-incurred clean-up costs or natural resource damages.
+It is also not uncommon for neighboring landowners and other third parties to file claims for personal injury and property damage
+allegedly caused by hazardous substances released into the environment. The Resource Conservation and Recovery Act (“RCRA”),
+and comparable state statutes, govern the disposal of solid waste and hazardous waste and authorize the imposition of substantial
+fines and penalties for noncompliance, as well as requirements for corrective actions. CERCLA, RCRA, and comparable state statutes
+can impose liability for clean-up of sites and disposal of substances found on exploration, mining and processing sites long after
+activities on such sites have been completed. 5 The
+Clean Air Act, as amended (“CAA”), restricts the emission of air pollutants from many sources, including mining and
+processing activities. Any future mining operations by the Company may produce air emissions, including fugitive dust and other
+air pollutants from stationary equipment, storage facilities, and the use of mobile sources such as trucks and heavy construction
+equipment, which are subject to review, monitoring and/or control requirements under the CAA and state air quality laws. New facilities
+may be required to obtain permits before work can begin, and existing facilities may be required to incur capital costs in order
+to remain in compliance. In addition, permitting rules may impose limitations on our production levels or result in additional
+capital expenditures in order to comply with the rules. The
+National Environmental Policy Act (“NEPA”) requires federal agencies to integrate environmental considerations into
+their decision-making processes by evaluating the environmental impacts of their proposed actions, including issuance of permits
+to mining facilities and assessing alternatives to those actions. If a proposed action could significantly affect the environment,
+the agency must prepare either a detailed statement known as an Environmental Impact Statement (“EIS”), or a less
+detailed statement known as an Environmental Assessment (“EA”). The EPA, other federal agencies, and any interested
+third parties can review and comment on the scope of the EIS or EA and the adequacy of any findings set forth in the draft and
+final EIS or EA. This process can cause delays in issuance of required permits or result in changes to a project to mitigate its
+potential environmental impacts, which can in turn impact the economic feasibility of a proposed project. The
+Clean Water Act (“CWA”), and comparable state statutes, impose restrictions and controls on the discharge of pollutants
+into waters of the U.S. The discharge of pollutants into regulated waters is prohibited, except in accordance with the terms of
+a permit issued by the EPA or an analogous state agency. The CWA regulates storm water from mining facilities and requires a storm
+water discharge permit or Stormwater Pollution Prevention Plan for certain activities. Such a permit requires the regulated facility
+to monitor and sample storm water run-off from its operations. The CWA and regulations implemented thereunder also prohibit discharges
+of dredged and fill material in wetlands and other waters of the U.S. unless authorized by an appropriately issued permit. The
+CWA and comparable state statutes provide for civil, criminal, and administrative penalties for unauthorized discharges of pollutants,
+and impose liability on parties responsible for those discharges for the costs of cleaning up any environmental damage caused
+by the release and for natural resource damages resulting from the release. The
+Safe Drinking Water Act (“SDWA”) and the Underground Injection Control (“UIC”) program promulgated thereunder,
+regulate the drilling and operation of subsurface injection wells. The EPA directly administers the UIC program in some states
+and in others the responsibility for the program has been delegated to the state. The program requires that a permit be obtained
+before drilling a disposal or injection well. Violation of these regulations and/or contamination of groundwater by mining-related
+activities may result in fines, penalties, and remediation costs, among other sanctions and liabilities under the SDWA and state
+laws. In addition, third-party claims may be filed by landowners and other parties claiming damages for alternative water supplies,
+property damages, and bodily injury. Environmental
+Regulation − Nebraska Nebraska
+has a well-developed set of environmental regulations and responsible agencies but does not have clearly defined regulations with
+respect to permitting mines. As such, review of the project and the issuance of permits by Nebraska agencies and regulatory bodies
+could potentially impact the total time to market for our Elk Creek Project. Other Nebraska regulations govern operating and design
+standards for the construction and operation of any source of air emissions and landfill operations. Any changes to these laws
+and regulations could have an adverse impact on our financial performance and results of operations by, for example, requiring
+changes to operating conditions, technical criteria, fees, or surety requirements. The most stringent permit related to air quality
+is known as a Prevention of Significant Deterioration (“PSD”) permit, which requires the applicant to demonstrate
+compliance with NAAQS and Best Available Control Technology (“BACT”) for the control of air emissions. If the facility
+exceeds the potential to emit thresholds for such a permit and is thus subject to PSD requirements, permanent construction at
+the project site may not begin until the responsible agency issues the PSD permit. For facilities in Nebraska with potential emissions
+below PSD thresholds, a state air construction permit is needed. The state permit also requires a demonstration of compliance
+with NAAQS but does not require a BACT demonstration and further allows construction at a subject facility to proceed ahead of
+permit issuance through an established variance process. 6 Human
+Capital The
+Company’s ability to continue to progress the Elk Creek Project will depend on its ability to attract and retain individuals
+with (among other skills) financial, administrative, engineering, geological and mining skills, and knowledge of our industry
+and targeted markets. Much of the necessary specialized skills and knowledge required by the Company as a mineral exploration
+company are available from the Company’s current management team and Board of Directors (the “Board”). The Company
+retains outside consultants if additional specialized skills and knowledge are required. As
+of June 30, 2025, we had seven full-time employees as well as one contract employee. In addition, we use consultants with specific
+skills to assist with various aspects of our corporate affairs, project evaluation, due diligence, corporate governance, and property
+management. Our
+compensation programs are designed to align compensation of our employees with the Company’s performance and to provide
+the proper incentives to attract, retain, and motivate employees to achieve superior results. The structure of our compensation
+programs balances competitive wages and benefits and incentive earnings for both short-term and long-term performance. Our
+priority to maintain a culture of ethical performance as a core value is reflected in the Company’s Code of Business Conduct
+and Ethics (the “Code of Conduct”) and other related policies. Oversight is provided by the Company’s Board
+and, for specific areas of performance, by committees of the Board. Employees are required to review the Code of Conduct on a
+periodic basis. Our compensation programs also include consideration of ethical performance in determining incentive awards. The
+Company also provides a robust suite of benefits to our employees, including 401(k) participation, medical-insurance options,
+and programs to encourage and support the whole person. Forward-Looking
+Statements This
+Annual Report on Form 10-K and the exhibits attached hereto contain “forward-looking statements” within the meaning
+of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities
+Exchange Act of 1934, as amended (the “Exchange Act”), and “forward-looking information” within the meaning
+of applicable Canadian securities legislation (collectively, “forward-looking statements”). Forward-looking
+statements have been based upon our current business and operating plans, as approved by the Board, and may include statements
+regarding, among other matters, the financial and business performance of NioCorp; NioCorp’s anticipated results and developments
+in the operations of NioCorp in future periods; NioCorp’s planned exploration activities; the adequacy of NioCorp’s
+financial resources; NioCorp’s ability to secure sufficient project financing to complete construction and commence operation
+of the Elk Creek Project; NioCorp’s ability to receive a final commitment of financing from EXIM; the estimated total upfront
+capital expenditure for the Elk Creek Project; NioCorp’s expectation and ability to produce niobium, scandium, and titanium
+and the potential to produce rare earth elements at the Elk Creek Project; NioCorp’s plans to produce and supply specific
+products and market demand for those products; NioCorp’s ability to access the full amount of the expected net proceeds
+of the Yorkville Equity Facility Financing Agreement; NioCorp’s expectation that it will receive the full $10 million in
+reimbursement under the DoD Agreement; the intended use of our cash balance as of June 30, 2025 as well as the proceeds from the
+July 2025 Offering, the proceeds from Warrant exercise issuances, and the reimbursement payments pursuant to the DoD Agreement;
+the expected results of the drilling program at the Elk Creek Project; the expectation that the results of the drilling program
+will be used to update the feasibility study for the Elk Creek Project; the Elk Creek Project’s ability to produce multiple
+critical metals; the Elk Creek Project’s projected ore production and mining operations over its expected mine life; the
+completion of technical and economic analyses on the potential addition of magnetic rare earth oxides to NioCorp’s planned
+product suite; statements with respect to the estimation of mineral resources and mineral reserves; the exercise of options to
+purchase additional land parcels; the execution of contracts with engineering, procurement and construction companies; NioCorp’s
+ongoing evaluation of the impact of inflation, supply chain issues, tariffs, and geopolitical unrest on the Elk Creek Project’s
+economic model; and the creation of full time and contract construction jobs over the construction period of the Elk Creek Project. 7 Forward-looking
+statements are frequently, but not always, identified by words such as “expects,” “anticipates,” “believes,”
+“intends,” “estimates,” “potential,” “possible,” and similar expressions, or statements
+that events, conditions, or results “will,” “may,” “could,” or “should” (or the
+negative and grammatical variations of any of these terms) occur or be achieved. Any statements that express or involve discussions
+with respect to predictions, expectations, beliefs, plans, projections, objectives, assumptions, or future events or performance
+(often, but not always, using words or phrases such as “expects” or “does not expect,” “is expected,”
+“anticipates” or “does not anticipate,” “plans,” “estimates,” or “intends,”
+or stating that certain actions, events, or results “may,” “could,” “would,” “might,”
+or “will” be taken, occur or be achieved) are not statements of historical fact and may be forward-looking statements.
+Forward-looking statements reflect material expectations and assumptions, including, without limitation, expectations and assumptions
+relating to: NioCorp’s ability to receive sufficient project financing for the construction of the Elk Creek Project on
+acceptable terms, or at all; the future price of metals; the stability of the financial and capital markets; and current estimates
+and assumptions regarding the Yorkville Equity Facility Financing Agreement and its benefits. Such forward-looking statements
+reflect the Company’s current views with respect to future events and are subject to certain known and unknown risks, uncertainties,
+and assumptions. Many factors could cause actual results, performance, or achievements to be materially different from any future
+results, performance, or achievements that may be expressed or implied by such forward-looking statements, including, among others,
+risks related to the following: NioCorp’s ability to operate as a going concern; NioCorp’s requirement of significant
+additional capital; NioCorp’s ability to receive sufficient project financing for the construction of the Elk Creek Project
+on acceptable terms, or at all; NioCorp’s ability to achieve the required milestones and receive the full $10.0 million
+in reimbursement under the DoD Agreement; NioCorp’s ability to receive a final commitment of financing from EXIM or other debt financing or financial support on acceptable timelines, on acceptable terms, or at all; NioCorp’s ability to access the
+full amount of the expected net proceeds under the Yorkville Equity Facility Financing Agreement; NioCorp’s ability to continue
+to meet Nasdaq listing standards; risks relating to the Common Shares, including price volatility, lack of dividend payments and
+dilution or the perception of the likelihood of any of the foregoing; the extent to which NioCorp’s level of indebtedness
+and/or the terms contained in agreements governing NioCorp’s indebtedness, if any, the Yorkville Equity Facility Financing
+Agreement or other agreements may impair NioCorp’s ability to obtain additional financing, on acceptable terms, or at all;
+covenants contained in agreements with NioCorp’s secured creditors that may affect its assets; NioCorp’s limited operating
+history; NioCorp’s history of losses; the material weaknesses in NioCorp’s internal control over financial reporting,
+NioCorp’s efforts to remediate such material weaknesses and the timing of remediation; the possibility that NioCorp may
+qualify as a PFIC under the Code; the potential that the 2023 Transactions could result in NioCorp becoming subject to materially
+adverse U.S. federal income tax consequences as a result of the application of Section 7874 and related sections of the Code;
+cost increases for NioCorp’s exploration and, if warranted, development projects; a disruption in, or failure of, NioCorp’s
+information technology systems, including those related to cybersecurity; equipment and supply shortages; variations in the market
+demand for, and prices of, niobium, scandium, titanium and rare earth products; current and future offtake agreements, joint ventures,
+and partnerships, including our ability to negotiate extensions to existing agreements or to enter into new agreements, on favorable
+terms or at all; NioCorp’s ability to attract qualified management; estimates of mineral resources and reserves; mineral
+exploration and production activities; feasibility study results; the results of metallurgical testing; the results of technological
+research; changes in demand for and price of commodities (such as fuel and electricity) and currencies; competition in the mining
+industry; changes or disruptions in the securities markets; legislative, political or economic developments, including changes
+in federal and/or state laws that may significantly affect the mining industry; trade policies and tensions, including tariffs;
+inflationary pressures; the impacts of climate change, as well as actions taken or required by governments related to strengthening
+resilience in the face of potential impacts from climate change; the need to obtain permits and comply with laws and regulations
+and other regulatory requirements; the timing and reliability of sampling and assay data; the possibility that actual results
+of work may differ from projections/expectations or may not realize the perceived potential of NioCorp’s projects; risks
+of accidents, equipment breakdowns, and labor disputes or other unanticipated difficulties or interruptions; the possibility of
+cost overruns or unanticipated expenses in development programs; operating or technical difficulties in connection with exploration,
+mining, or development activities; management of the water balance at the Elk Creek Project site; land reclamation requirements
+related to the Elk Creek Project; the speculative nature of mineral exploration and development, including the risks of diminishing
+quantities of grades of reserves and resources; claims on the title to NioCorp’s properties; potential future litigation;
+and NioCorp’s lack of insurance covering all of NioCorp’s operations. Should
+one or more of these risks or uncertainties materialize, or should underlying assumptions prove incorrect, actual results may
+vary materially from those described herein. This list is not exhaustive of the factors that may affect 8 any of the Company’s
+forward-looking statements. Forward-looking statements are statements about the future and are inherently uncertain, and actual
+achievements of the Company or other future events or conditions may differ materially from those reflected in the forward-looking
+statements due to a variety of risks, uncertainties, and other factors, including without limitation those discussed under Item
+1A.,
+

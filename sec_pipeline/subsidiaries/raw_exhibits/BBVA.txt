@@ -1,0 +1,522 @@
+EX-2.1
+3
+exhibit21.htm
+EX-2.1
+Document
+Exhibit 2.1
+DESCRIPTION OF REGISTERED SECURITIES OF BBVA
+This exhibit describes each class of securities of BBVA that was registered under Section 12 of the Exchange Act as of December 31, 2025. For purposes of this exhibit, except as otherwise expressly provided or unless the context requires otherwise, all terms used but not defined in this exhibit which are defined in BBVA’s annual report on Form 20-F for the year ended December 31, 2025 (the “
+Annual Report
+”), shall have the meanings assigned to them in the Annual Report.
+DESCRIPTION OF BBVA ORDINARY SHARES
+The following summary describes the material considerations concerning the capital stock of BBVA and briefly describes the material provisions of BBVA’s bylaws (
+estatutos
+) and relevant Spanish law. This summary does not include all the provisions of such bylaws and is qualified in its entirety by reference to the detailed provisions thereof. A copy of BBVA’s bylaws is incorporated as Exhibit 1.1 to the Annual Report.
+General
+All rights and obligations of BBVA’s shareholders are contained in BBVA’s bylaws and in Spanish law. In addition, pursuant to Royal Decree 84/2015 of February 13, implementing Law 10/2014, amendments of the bylaws of a bank are subject to notice or prior authorization of the Bank of Spain. Other requirements to amend our bylaws are discussed under “—
+Attendance and Voting at Shareholders’ Meeting
+”.
+As of December 31, 2025, BBVA’s paid in share capital was €2,797,394,663, represented by a single class of 5,708,968,700 ordinary shares, each with par value of €0.49 per share and all having the same rights.
+Our shareholders have delegated to the Board of Directors the authority to issue up to 3,333,943,290 new ordinary shares (equal to half of BBVA’s share capital on March 18, 2022, the date of the authorization). The Board of Directors is authorized to exclude preemptive rights, in whole or in part, pursuant to the applicable provisions of the Spanish Companies Act. The power to exclude preemptive rights is limited,  such that the nominal amount of any share capital increases resolved or effectively carried out with the exclusion of preemptive subscription rights in use of this authority and those that may be resolved or carried out to cover the conversion of convertible issuances that may equally be made with the exclusion of preemptive subscription rights in use of the authority described below may not exceed the nominal maximum overall amount of 10% of the Bank’s share capital at the date of the authorization (equal to 666,788,658 new ordinary shares). The Board’s authorization to issue new ordinary shares expires on March 18, 2027.
+In addition, our shareholders have delegated to the Board of Directors on March 18, 2022, for a period of five years, the authority to issue securities convertible into newly issued ordinary shares other than contingent convertible securities (“
+CoCos
+”) up to the maximum overall amount of six billion euros (€6,000,000,000) or its equivalent in any other currency, delegating in turn the power to exclude preemptive subscription rights. However, this power is limited, such that the nominal amount of any share capital increases resolved or effectively carried out to cover the conversion of convertible issuances that may equally be made with the exclusion of preemptive subscription rights in use of this authority and those capital increases that may be resolved or carried out with the exclusion of preemptive subscription rights in use of the authority described above may not exceed the nominal maximum overall amount of 10% of the Bank’s share capital at the date of the authorization (equal to 666,788,658 new ordinary shares). The Board’s authorization to issue securities convertible into newly issued ordinary shares other than CoCos expires on March 18, 2027.
+Finally, our shareholders have delegated to the Board of Directors on April 20, 2021, for a period of five years,  the authority to issue securities convertible into newly issued ordinary shares whose conversion is contingent and which is intended to meet regulatory requirements for their eligibility as capital instruments, in accordance with the solvency regulations applicable from time to time (CoCos), up to the maximum overall amount of eight billion euros (€8,000,000,000) or its equivalent in any other currency. The Board of Directors is authorized to exclude preemptive rights, in whole or in part, pursuant to the legal requirements and limitations established for such purpose at any given time. The Board of Directors’ authorization to issue securities convertible into newly issued ordinary shares expires on April 20, 2026.
+At the Annual General Shareholders’ Meeting of BBVA to be held on March 20, 2026, on second call, BBVA shareholders will vote on a proposal to authorize the Board of Directors of BBVA (which may sub-delegate such powers) to issue securities convertible into newly issued ordinary shares, in line with the terms and conditions set forth in the resolution approved by the Annual General Shareholders’ Meeting of BBVA held on April 20, 2021, mentioned in the preceding paragraph and will repeal, insofar as it has not been exercised, the authority previously conferred on that date.
+The Annual General Shareholders’ Meeting of BBVA held on March 21, 2025 approved a reduction of BBVA’s share capital by up to 10% as of the date of such resolution. This resolution will be repealed, insofar as not executed, upon the approval of a new resolution at the next Annual General Shareholders’ Meeting to be held on March 20, 2026. Moreover, this resolution was partially executed on December 23, 2025, when there was a share capital reduction for an aggregate nominal amount of €26,615,214.85 and 54,316,765 BBVA shares, of €0.49 par value each share, were cancelled. For additional information, see “
+Item 8. Financial Information—Consolidated Statements and Other Financial Information—Dividends
+” of our Annual Report.
+Furthermore, at the Annual General Shareholders’ Meeting of BBVA to be held on March 20, 2026, on second call, BBVA shareholders will vote on a proposal to approve a reduction of BBVA’s share capital by up to 10% of BBVA’s share capital as of the date of such resolution, corresponding to 570,896,870 ordinary shares, with a nominal value of €0.49 each, subject to obtaining, where appropriate, the corresponding regulatory authorizations.
+Non-residents of Spain may hold and vote ordinary shares subject to the general restrictions set forth below. See “—
+Exchange Controls and Restrictions on Foreign Investments
+” and “—
+Restrictions on Acquisitions of Ordinary Shares
+”.
+Registry and Company’s Objects and Purpose
+BBVA is registered with the Commercial Registry of Bizkaia (Spain). Its registration number at the Commercial Registry of Bizkaia is volume 2,083, Company section folio 1, sheet BI-17-A, 1st entry. Its corporate purpose is to carry out all kinds of activities, operations, acts, contracts and services within the banking business or directly or indirectly related to it, which are permitted or not prohibited by the provisions in force and supplementary activities. Its corporate purpose also includes the acquisition, possession, use and disposal of securities, public offering of acquisition and sale of securities, as well as all types of holdings in any entity or company. BBVA’s corporate purpose is contained in Article 3 of BBVA’s Bylaws.
+Attendance and Voting at Shareholders’ Meetings
+Each ordinary share entitles the shareholder to one vote. Ordinary shares that are not paid up in full are not entitled to vote, or to receive distributions of dividends or preemptive subscription rights. As of the date of this Annual Report, all ordinary shares were fully paid up.
+2
+Any ordinary share may be voted by proxy. Any shareholder who is entitled to attend a general shareholders’ meeting may be represented at such general shareholders’ meeting by another person, who need not necessarily be a shareholder. Proxies are valid for ordinary (also referred to as “annual”) general shareholders’ meetings and extraordinary general shareholders’ meetings and, except with respect to general powers of attorney, must be granted specifically with respect to each general shareholders’ meeting. A single shareholder may not be represented at a general shareholders’ meeting by more than one proxy, except under the circumstances provided in the law for intermediary entities. Our bylaws do not contain provisions related to cumulative voting.
+Shareholders’ Meetings
+Pursuant to BBVA’s bylaws and to the Spanish Companies Act, general meetings of shareholders of BBVA may be ordinary or extraordinary.
+Pursuant to the Spanish Companies Act, ordinary general shareholders’ meetings shall necessarily be held within the first six months of each fiscal year, at which shareholders are requested to approve the annual accounts of the previous fiscal year, the corporate management for the previous fiscal year and the application of BBVA’s net income or loss. Other matters may also be voted on by shareholders during the ordinary general shareholders’ meetings if such items are included on the agenda or are allowed by law. Any other meetings of shareholders are considered to be extraordinary general shareholders’ meetings. Extraordinary general shareholders’ meetings may be called from time to time by the BBVA Board of Directors at its discretion. The BBVA Board of Directors will call extraordinary general shareholders’ meetings when (i) it believes such meetings to be necessary or advisable for BBVA’s interests, (ii) required by law or BBVA’s bylaws, or (iii) requested by shareholders representing at least 3% of BBVA’s share capital.
+Shareholders representing at least 3% of the share capital of BBVA have the right to request the publication of a supplemental notice including one or more additional agenda items to the ordinary general shareholders’ meeting and to add new resolution proposals to the agenda of any general shareholders’ meeting, within the first five days following the publication of the agenda.
+A universal shareholders’ meeting, at which 100% of the share capital is present or duly represented, is considered valid even if no notice of such meeting was given, and, with unanimous agreement, shareholders may consider any matter at such a meeting.
+Convening Notice
+According to BBVA’s bylaws and the Spanish Companies Act, notices of all BBVA general shareholders’ meetings must be published (i) in the Official Gazette of the Commercial Registry (
+Boletín Oficial del Registro Mercantil
+) or in a widely circulated newspaper in Spain, (ii) on BBVA’s webpage and (iii) on the webpage of the CNMV, at least one month prior to the date of the meeting or with the minimum prior notice period required by the Spanish Companies Act from time to time. The notice must indicate the date, time and place of the meeting on the first convening and all the matters to be considered at the meeting, along with other information required by the Spanish Companies Act. The notice may also include the date on which the meeting should be held on the second convening. At least twenty-four hours must elapse between the meeting on the first convening and the meeting on the second convening.
+Place of Meeting
+Notwithstanding legal provisions relating to universal General Meetings and in accordance with BBVA's bylaws, general shareholders’ meetings must be held in Bilbao, Spain, where BBVA has its registered office, on the date indicated in the convening notice. A universal shareholders’ meeting, at which 100% of the share capital is present or duly represented, may take place anywhere in the world.
+Right of Attendance
+The owners of 500 or more ordinary shares which are duly registered in the book-entry record for ordinary shares at least five days prior to the date of the general shareholders’ meeting and who continue to hold such shares until the date of the meeting are entitled to attend. The holders of fewer than 500 ordinary shares may aggregate their shares by proxy to represent at least 500 ordinary shares and appoint a representative for the meeting.
+3
+Quorums
+Under BBVA’s bylaws and the Spanish Companies Act, except as set forth below, general shareholders’ meetings will be duly constituted on the first convening if BBVA shareholders holding at least 25% of the voting share capital are present or represented by proxy. On the second convening of a general shareholders’ meeting, there is no quorum requirement.
+Notwithstanding the above, according to the Spanish Companies Act certain special events require a quorum of shareholders, present or represented by proxy, holding at least 50% of the voting share capital on first convening of the general shareholders’ meeting and no less than 25% of the voting share capital on the second convening of the general shareholders’ meeting. Those special events include the adoption of resolutions concerning the following: (i) increases or decreases in capital; (ii) in general, any modification of the bylaws; (iii) issuances of bonds (not applicable to BBVA except with respect to convertible bonds); (iv) limitation or suppression of the preemptive rights to subscribe for new shares; (v) transformations, mergers, spin-offs and assignments of assets and liabilities; and (vi) the transfer of the registered office abroad.
+Additionally, BBVA’s bylaws also require the presence, in person or represented by proxy, of two-thirds of the voting share capital on first convening or 60% of the voting share capital on the second convening, at general shareholders’ meetings in order to adopt resolutions that concern: (i) the change of the corporate purpose; (ii) the transformation of BBVA’s legal status; (iii) a full spin-off; (iv) the dissolution of BBVA; or (v) the amendment of the second paragraph of Article 25 of BBVA’s bylaws, which establishes this stricter quorum requirement.
+Under Spanish law, the rights of shareholders may only be changed by an amendment to the bylaws that complies with the requirements described herein and under “
+—Attendance and Voting at Shareholders’ Meetings
+”.
+Adoption of Resolutions and Majorities
+Subject to the higher vote requirements described in the following paragraphs, the adoption of resolutions requires a simple majority vote at the general shareholders’ meeting, meaning that a resolution is adopted when the favorable votes exceed the votes against the adoption of the resolution.
+The adoption of resolutions concerning the following: (i) increases or decreases in capital; (ii) in general, any modification of the bylaws; (iii) issuances of bonds (not applicable to BBVA except with respect to convertible bonds); (iv) limitation or supression of the preemptive rights to subscribe for new shares; (v) transformations, mergers, spin-offs and assignments of assets and liabilities; and (vi) the transfer of the registered office abroad, shall require the favorable vote of (a) a majority of the share capital present or represented at the meeting if such share capital present or represented exceeds 50% of the total share capital, or (b) if the share capital present or represented by proxy on the second convening constitutes less than 50% but more than 25% of the total share capital, the approval of two-thirds of the share capital present or represented by proxy at such meeting. In addition, the adoption of resolutions that require special quorums according to our bylaws require a favorable vote of a majority of the share capital present or represented.
+Validly adopted resolutions are binding on all the shareholders, including those who were absent, dissented or abstained from voting.
+Any resolution adopted at the general shareholders’ meeting that is contrary to Spanish law, to the bylaws or to the general shareholders’ meeting regulations, or that are deemed detrimental to BBVA’s interests to the benefit of one or more shareholders or third parties can be contested. Any director, any third party who proves a legitimate interest, and any shareholder who acquired such status before the resolution was adopted, as long as they represent at least 0.1% of the share capital of BBVA, may contest corporate resolutions. If the resolution is contrary to public order, it can be contested by any director, third party or any shareholder, even if he or she acquired such status after the resolution was adopted.
+4
+Appointment of Directors
+Pursuant to our bylaws, our board of directors includes a minimum of 5 and a maximum of 15 directors who are elected by the general shareholders’ meeting (other than as described in the following paragraph regarding co-opted directors). Directors are appointed for a term of three years, and may be re-elected one or more times for successive terms not exceeding three years.
+Under the Spanish Companies Act, in the event of a vacancy on the BBVA Board of Directors, a shareholder or group of shareholders that owns an aggregate number of ordinary shares equal to or greater than the result of dividing the total capital stock by the number of directors on the BBVA Board of Directors, has the right to appoint a corresponding proportion of the directors (rounded down to the nearest whole number) to the Board of Directors. Shareholders who exercise the right to appoint directors in accordance with the above may not vote on the appointment of other directors to the BBVA Board of Directors. Under the Spanish Companies Act, the BBVA Board of Directors may also designate directors by interim appointment to fill vacancies (co-option). If a director has been co-opted, such director will have a term of office ending on the first general shareholders’ meeting held following such co-option. The general shareholders’ meeting may then ratify such director’s appointment for the term of office remaining of the director whose vacancy has been covered through co-option, or appoint such director for the term of office established under our bylaws (currently, three years).
+Under Spanish law, any new directors shall comply with the suitability criteria set forth in, among other applicable legislation, Law 10/2014, Royal Decree 84/2015, of February 13 and Bank of Spain Circular 2/2016, of February 2.
+Preemptive Rights
+Pursuant to the Spanish Companies Act, shareholders have preemptive rights to subscribe for (i) new ordinary shares issued in the context of a capital increase involving cash contributions (except where the capital increase is due to the conversion of convertible securities into BBVA ordinary shares) and (ii) securities which are convertible into BBVA ordinary shares. These preemptive rights may be completely or partially excluded in certain circumstances in accordance with the Spanish Companies Act, following a resolution passed at the general shareholders’ meeting (which may, for example, authorize the Board of Directors to exclude preemptive rights). BBVA reserves the right to propose to the general shareholders’ meeting that such preemptive rights be completely or partially excluded in any future issuance of new ordinary shares or securities which are convertible into BBVA ordinary shares.
+Dividends and Distributions
+Shareholders have the right to participate in the distribution of corporate earnings. Pursuant to our bylaws, dividends may be paid in cash or in kind.
+Once the requirements under Spanish law and our bylaws are satisfied, dividends may be distributed and charged to the year’s profit or unrestricted reserves, provided that the value of BBVA’s total net assets is not, or as a result of such dividend would not be, less than BBVA’s share capital. In addition, BBVA must take into account any applicable capital adequacy requirements and any recommendations on payment of dividends, and any other required authorization or restriction that may be applicable. Capital adequacy requirements are applied on both a consolidated and individual basis. See “
+Item 4. Information on the Company— Business Overview—Supervision and Regulation—Capital Requirements, MREL and Resolution
+” and “
+Item 5. Operating and Financial Review and Prospects—Liquidity and Capital Resources—Capital
+” of our Annual Report.
+On November 18, 2021, BBVA communicated that its Board of Directors agreed to establish a dividend policy consisting of an annual distribution of between 40% and 50% of the consolidated ordinary profit of each year. This policy will be implemented through the distribution of an interim dividend for the year, expected to be paid in October, and a final dividend, to be paid once the year has ended and the allocation of the year-end profit has been approved, expected to take place in April, with the possibility of combining cash distributions with share buybacks, all subject to the relevant authorizations and approvals applicable at any given time. For additional information, see “
+Item 4. Information on the Company—Business Overview—Supervision and Regulation—Dividends
+” and “
+Item 8. Financial Information—Consolidated Statements and Other Financial Information—Dividends
+” of our Annual Report.
+5
+“Final” dividends for a year are proposed by the Board of Directors to be approved by the annual general shareholders’ meeting following the end of the year to which they relate. Additionally, the Board of Directors may approve the payment of “interim” dividends on account of the year’s end profits following the fulfillment of certain requirements under Spanish law, which payment is endorsed by the annual general shareholders’ meeting. Interim and final dividends are payable to shareholders of record on the record date for the dividend payment. Any unclaimed cash dividends revert to BBVA five years after declaration.
+In addition, upon a liquidation, shareholders have the right to participate in the distribution of any net assets.
+Form and Transfer
+Ordinary shares are registered in book-entry form and are indivisible. Joint holders must nominate one person to exercise their rights as shareholders, though joint holders are jointly and severally (
+solidariamente
+) liable for all obligations arising from their status as shareholders.
+Sociedad de Gestión de los Sistemas de Registro, Compensación y Liquidación de Valores, S.A. Unipersonal
+(“
+Iberclear
+”), which manages the clearance and settlement system of the Spanish Stock Exchanges, maintains the central registry of ordinary shares which reflects (i) one or several proprietary accounts which show the balances of the participating entities’ (
+entidades participantes
+) proprietary accounts; (ii) one or several general third-party accounts that show the overall balances that the participating entities hold for third parties; (iii) individual accounts opened in the name of the owner, either an individual or legal person; and (iv) individual special accounts of financial intermediaries which use the optional procedure of settlement of orders. Each participating entity, in turn, maintains the detail records of the owners of the shares held in their general third-party accounts.
+Transfers of ordinary shares quoted on the Spanish Stock Exchanges must be made by book-entry registry or delivery of evidence of title to the buyer, through or with the participation of a member of the Spanish Stock Exchanges that is an authorized broker or dealer. Transfers of ordinary shares may also be subject to certain fees and expenses.
+Reporting Requirements
+As our ordinary shares are listed on the Spanish Stock Exchanges, the acquisition or disposition of ordinary shares by shareholders must be reported within four business days of the acquisition or disposition to BBVA and the CNMV where:
+•
+in the case of an acquisition, the acquisition results in that person or group holding 3% (or 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 60%, 70%, 75%, 80% or 90%) of BBVA’s total voting rights; or
+•
+in the case of a disposal, the disposition reduces shares held by a person or group below a threshold of 3% (or 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 60%, 70%, 75%, 80% or 90%) of BBVA’s total voting rights.
+The reporting requirements apply not only to the purchase or transfer of shares, but also to those transactions in which, without a purchase or transfer, the proportion of voting rights of an individual or legal entity reaches, exceeds or falls below the threshold that triggers the obligation to report as a consequence of a change in the total number of voting rights of BBVA on the basis of the information reported to the CNMV and disclosed by it.
+6
+Regardless of the actual ownership of the shares, any individual or legal entity with a right to acquire, transfer or exercise voting rights granted by the shares, and any individual or legal entity who owns, acquires or transfers, whether directly or indirectly, other securities or financial instruments which grant a right to acquire shares with voting rights, will also have an obligation to notify the company and the CNMV of the holding of a significant stake in accordance with applicable Spanish regulations. In addition, cash settled instruments creating long positions on underlying listed shares (such as BBVA’s) shall be disclosed if the specified shareholding thresholds are reached or exceeded. Cash holdings and holdings derived from financial instruments shall be aggregated for disclosure purposes. A disclosure exemption for shareholding positions held by financial entities in their trading books as a result of the securities administration and custody services rendered by such financial entities is available pursuant to Article 33.2 of the Spanish Royal Decree 1362/2007. In the event that the individual or legal entity entering into the relevant transaction is a non-Spanish resident, notice must also be given to the Spanish Registry of Foreign Investments (
+Registro de Inversiones Exteriores
+) of the Ministry of Industry, Trade and Tourism (
+Ministerio de Industria, Comercio y Turismo
+). See “
+—Exchange Controls and Restrictions on Foreign Investment
+” for additional information, including on certain temporary measures which have been adopted in connection with foreign direct investments.
+In the case of individuals or legal entities resident in jurisdictions designated as tax havens or in countries or territories levying no taxes or with which Spain has no effective exchange of tax information, the threshold that triggers the obligation to disclose the acquisition or disposition of shares is reduced to 1% (and successive multiples of 1%).
+Additionally, since BBVA is a credit entity, any person who intends to acquire a significant participation in BBVA’s share capital must comply with certain obligations imposed by the Bank of Spain. See “
+—Restrictions on Acquisitions of Ordinary Shares
+”.
+Requirements Applicable to Purchases by BBVA and its Directors and Senior Managers
+Acquisition of Own Shares
+Article 77.1 of CRR establishes that a credit institution (such as BBVA) shall obtain the prior permission from its competent authority (the ECB in the case of BBVA) in order to repurchase its own shares.
+Additionally, BBVA is required to report to the CNMV any acquisition by BBVA or any of its affiliates, of BBVA’s own shares which, together with all other acquisitions since the last notification, reaches or exceeds 1% of BBVA’s share capital (irrespective of whether any own shares have been sold in the same period). In such circumstances, the notification must be made within four stock exchange business days and include the number of shares acquired since the last notification (detailed by transaction), the number of shares sold (detailed by transaction) and the resulting net holding of treasury shares.
+The Annual General Shareholders’ Meeting of BBVA held on March 18, 2022 resolved  to approve, under item six of the agenda, the authorization for the acquisition of BBVA shares, either directly or through its subsidiaries, for a maximum term of five years from the date of approval. The nominal value of the own shares acquired, whether directly or indirectly, together with those already held by BBVA and its subsidiaries, may not exceed ten percent (10%) of BBVA’s subscribed share capital at any given time (or any other limit established by the regulations applicable at the relevant time).
+Furthermore, at the Annual General Shareholders’ Meeting of BBVA to be held on March 20, 2026 on second call, BBVA shareholders will vote on a proposal to authorize the Board of Directors of BBVA to acquire BBVA shares, in line with the preceding agreement approved in the Annual General Shareholders’ Meeting of BBVA held on April 18, 2022 and mentioned in the preceding paragraph. This authorization, as from the time of its approval, will replace and render null and void the authorization granted by the Annual General Shareholders’ Meeting held on 18 March 2022, under agenda item six. See “
+Item 8. Financial Information—Consolidated Statements and Other Financial Information—Dividends—Share Buyback Programs
+” of the Annual Report for additional information on BBVA’s share buyback activities.
+7
+Acquisition of Shares by BBVA Directors and Senior Managers
+Each member of the BBVA Board of Directors, as well as persons closely associated to them, shall notify BBVA and the CNMV of every transaction conducted on their own account relating to BBVA shares or debt instruments issued by BBVA or to derivatives or other financial instruments linked thereto, according to Article 19 of Regulation (EU) n.º 596/2014, of the European Parliament and of the Council, of April 16, 2014, on market abuse, within three business days after the date of the transaction.
+Senior managers of BBVA, as well as persons closely associated to them, are also subject to the abovementioned reporting rules.
+Net Short Positions
+In accordance with Regulation (EU) No. 236/2012 of the European Parliament and of the Council of March 14, 2012 on short selling and certain aspects of credit default swaps (as further supplemented by several delegated regulations regulating technical aspects necessary for its effective enforceability and to ensure compliance with its provisions), net short positions on shares listed on the Spanish Stock Exchanges (including BBVA shares) equal to, or in excess of, 0.2% of the relevant entity’s share capital and any increases or reductions thereof by 0.1% are required to be disclosed to the CNMV. If the net short position reaches 0.5%, and also at every 0.1% above that, the CNMV will disclose the net short position to the public.
+In response to COVID-19, on March 16, 2020, the European Securities and Markets Authority (“
+ESMA
+”) lowered the aforementioned threshold from 0.2% to 0.1%, requiring net short position holders to report positions of 0.1% and above. This measure was renewed on September 18, 2020 and on December 17, 2020 until March 19, 2021. The European Commission adopted the decision to permanently lower the threshold from 0.2% to 0.1% on September 27, 2021, which decision was published in the Official Journal on January 11, 2022. Additionally, in line with other European supervisors, on March 16, 2020, the CNMV banned net short positions in shares admitted to trading to Spanish trading venues for which the CNMV is the competent authority as well as to all related instruments relevant for the calculation of the net short position. The CNMV ban became ineffective on May 18, 2020.
+The notification or disclosure mentioned above shall be made not later than at 15:30 (CET) on the trading day following the day when the relevant threshold was reached, exceeded or fallen below.
+Notification is mandatory even if the same position has already been notified to the CNMV in compliance with transparency obligations previously in force.
+The information to be disclosed is set out in Table 1 of Annex I of Delegated Regulation 826/2012, according to the format approved as Annex II of such Regulation. The information will be published, where appropriate, on a web page operated or supervised by the CNMV.
+Moreover, pursuant to Regulation 236/2012, where the CNMV considers that (i) there are adverse events or developments that constitute a serious threat to financial stability or to market confidence (for example, serious financial, monetary or budgetary problems, which may lead to financial instability or unusual volatility causing significant downward spirals in any financial instrument); and (ii) the measure is necessary and will not be disproportionately detrimental to the efficiency of financial markets in view of the advantages sought, it may, following consultation with the ESMA, take any one or more of the following measures:
+•
+impose additional notification obligations by either (a) reducing the thresholds for the notification of net short positions in relation to one or several specific financial instruments; and/or (b) requesting the parties involved in the lending of a specific financial instrument to notify any change in the fees requested for such lending; and
+•
+restrict short selling activity by either prohibiting or imposing conditions on short selling.
+8
+In addition, according to Regulation 236/2012, where the price of a financial instrument has fallen significantly during a single day in relation to the closing price on the previous trading day (10.0% or more in the case of a liquid share such as a BBVA share), the CNMV may prohibit or restrict short selling of financial instruments for a period not exceeding the end of the trading day following the trading day on which the fall in price occurs.
+Finally, Regulation 236/2012 also vests powers to ESMA in order to take measures similar to the ones described above in exceptional circumstances, when the purpose of these measures is to deal with a threat affecting several European Union member states and the competent authorities of these member states have not taken adequate measures to address it.
+Change of Control Provisions and Tender Offers
+Certain antitrust regulations may delay, defer or prevent a change of control of BBVA in the event of a merger, acquisition or corporate restructuring. In Spain, the application of both Spanish and European antitrust regulations requires that prior notice of domestic or cross-border merger transactions be given in order to obtain a “non-opposition” ruling from antitrust authorities.
+Spanish regulation of takeover bids may also delay, defer or prevent a change of control of BBVA or any of its subsidiaries in the event of a merger, acquisition or corporate restructuring. Act 6/2023, of March 17, on the Securities Markets and Investment Services and Royal Decree 1066/2007 set forth the Spanish rules governing takeover bids. In particular:
+•
+a bidder must make a tender offer in respect of 100% of the issued share capital of a target company if:
+◦
+it acquires an interest in shares which (taken together with shares in which persons acting in concert with it are interested) carry 30% or more of the voting rights of the target company
+if this threshold is reached by an acquiring shareholder due to a variation of the total number of voting rights of a target company which has issued loyalty shares in the terms described in article 527 ter et seq. of the Spanish Companies Act, the acquiring shareholder is entitled not to make such tender offer in case it sells the shares necessary to fall below such 30% threshold in the subsequent three months, such acquiring shareholder waives its loyalty voting rights exceeding such 30% threshold or obtains a waiver issued by the CNMV;
+◦
+it acquires an interest in shares which (taken together with shares in which persons acting in concert with it are interested) carry less than 30% of the voting rights but enable the bidder to appoint a majority of the members of the target company’s board of directors; or
+◦
+it held 30% or more but less than 50% of the voting rights of the target company on the date the law came into force, and subsequently:
+▪
+acquires, within 12 months, an additional interest in shares which carries 5% or more of such voting rights;
+▪
+acquires an additional interest in shares so that the bidder’s aggregate interest carries 50% or more of such voting rights; or
+▪
+acquires an additional interest in shares which enables the bidder to appoint a majority of the members of the target company’s board of directors;
+•
+if a bidder’s actions do not fall into the categories described above, such acquisition may qualify as an “a priori” or partial tender offer (
+i.e.
+, in respect of less than 100% of the issued share capital of a target company), in which case such bidder would not be required to make a tender offer in respect of 100% of the issued share capital of a target company;
+9
+•
+the board of directors of a target company is exempt from the rule prohibiting certain board interference with a tender offer (the “passivity rule”), provided that (i) it has been authorized by the general shareholders’ meeting to take action or enter into a transaction which could disrupt the offer, or (ii) it has been released from the passivity rule by the general shareholders’ meeting vis-à-vis bidders that are not domiciled in Spain and whose boards of directors are not subject to an equivalent passivity rule;
+•
+defensive measures included in a listed company’s bylaws and transfer and voting restrictions included in agreements among a listed company’s shareholders will remain in place whenever the company is the target of a tender offer unless the general shareholders’ meeting resolves otherwise (in which case any shareholders whose rights are diluted or otherwise adversely affected may be entitled to compensation); and
+•
+if, as a result of a tender offer in respect of 100% of the issued share capital of a target company, the bidder acquires an interest in shares representing at least 90% of the voting rights of the target company and the offer has been accepted by investors representing at least 90% of the voting rights of the target company (provided such voting rights are distinct from those already held by the bidder), the bidder may force the holders of the remaining share capital of the company to sell their shares. The minority holders shall also have the right to force the bidder to acquire their shares under these same circumstances.
+As further described below in “
+—Restrictions on Acquisitions of Ordinary Shares
+”, since BBVA is a bank, it is necessary to obtain approval from the Bank of Spain in order to acquire a number of shares considered to be a significant participation under Law 10/2014. Also, any agreement that contemplates BBVA’s merger with another credit entity requires the authorization of the Ministry of Economic Affairs and Digital Transformation (
+Ministerio de Asuntos Económicos y Transformación Digital
+). This could delay, defer or prevent a change of control of BBVA or any of its subsidiaries that are credit entities in the event of a merger.
+Exchange Controls and Restrictions on Foreign Investments
+Exchange Controls
+In 1991, Spain adopted the EU Standards for free movement of capital and services. As a result, foreign investors may transfer invested capital, capital gains and dividends out of Spain without limitation as to amount, subject to applicable taxes. See “
+Item 10. Additional Information—Taxation
+” of the Annual Report.
+Pursuant to Royal Decree 664/1999, of April 23 (repealed by RD 571/2023), on the Applicable rules to Foreign Investments, foreign investors may freely invest in shares of Spanish companies except in the case they fall within the scope of article 7 bis of Law 19/2003, enacted in March 2020, Sole Transitional Provision of Royal Decree-Law 34/2020, of November 17 (as amended by article 62 of Royal Decree-Law 20/2022, of December 27), or—only with respect to investments in the defense sector—article 11 of Royal Decree 664/1999, of April 23. For information on certain additional regulation applicable to foreign direct investments, see “—
+Restrictions on Foreign Investments
+” below. Likewise, Royal Decree 664/1999, of April 23, and Law 19/2003, on exchange controls and foreign transactions, required notification of all foreign investments in Spain and liquidations of such investments upon completion of such investments to the Investments Registry of the Ministry of Economy Affairs and Digital Transformation for administrative statistical and economical purposes. Shares in listed Spanish companies acquired or held by foreign investors needed to be reported to the Spanish Registry of Foreign Investments by the depositary bank or relevant Iberclear member. When a foreign investor acquires shares that are subject to the reporting requirements of the CNMV regarding significant stakes, notice must be given directly by the foreign investor to the relevant authorities.
+The Spanish Government approved Royal Decree 571/2023, of July 4, on foreign investments (the “New Spanish FDI Regulations”), which repeals Royal Decree 664/1999 and develops Law 19/2003. The New Spanish FDI Regulations came into force on September 1, 2023, and their provisions apply to FDI (as defined below) filings submitted from that date onwards (ongoing FDI filings as of such date are governed by the former regulations). Royal Decree 571/2023 was further developed by Order ECM 57/2024, of January 29, setting forth the templates for the declarations in foreign investments.
+10
+These new Spanish FDI Regulations set out: (i) post-closing notification obligations for foreign investments in Spain for statistical purposes; (ii) post-closing notification obligations for Spanish investments in foreign countries for statistical purposes; and (iii) most significantly, amended and developed rules for Spanish FDIs screening mechanisms (“Screening Mechanisms”), under which the closing of specific FDIs requires prior authorization through both EU-law based general FDI screening, regulated in article 7 bis of Law 19/2003 (“General FDI Screening Mechanism”), and sector-specific screening (which applies to activities directly related to Spanish National Defense, the acquisition of real estate for diplomatic purposes by non-EU Member States and investments in activities directly related to weapons, cartridges, pyrotechnic items and civil use explosives or other material to be used by the State Security Forces and Bodies), which is a new mechanism.
+These Screening Mechanisms do not prohibit foreign investments in Spain; rather, they are mandatory authorization procedures to be carried out prior to closing specific transactions. In particular, the General FDI Screening Mechanism brings the Spanish screening framework in line with that set out in the European Union laws, in particular, Regulation (EU) 2019/452, which allows Member States to adopt mechanisms to screen FDIs in the European Union. The banking activity itself is not expressly mentioned in the FDI sectors subject to the General FDI Screening Mechanism, which are the following: Critical infrastructure, Critical and dual-use technologies, Key technologies for industrial leadership and training, technologies developed pursuant to projects or programs of particular interest to Spain, Supply of critical inputs, sectors with access to or control to sensitive information and Media.
+Moreover, investments by foreigners domiciled in enumerated tax haven jurisdictions, under Royal Decree 1080/1991, are subject to special reporting requirements.
+Restrictions on Foreign Investments
+Exchange controls and foreign investments are regulated under Law 19/2003, of July 4 (“
+Law 19/2003
+”), as amended pursuant to Royal Decree-Law 8/2020, of March 17, Royal Decree-Law 11/2020, of March 31, Royal Decree-Law 34/2020, of November 17, Royal Decree-Law 20/2022, of December 27, and Royal Decree-Law 9/2024, of December 23. Foreign investments are generally liberalized unless they fall within the scope of article 7 bis of Law 19/2003, enacted in March 2020, Sole Transitional Provision of Royal Decree-Law 34/2020, of November 17, or —only with respect to investments in the defense sector— article 11 of Royal Decree 664/1999, of April 23 (repealed by RD 571/2023).
+Article 7 bis of Law 19/2003 establishes a screening mechanism for certain investments made by non-EU and non-EFTA residents (“foreign investors”), based on public order, public health and public security reasons (the “
+Screening Mechanism
+”). The Screening Mechanism aligns part of the Spanish foreign investment legal framework with Regulation (EU) 2019/452 of March 19, 2019 establishing a framework for the screening of foreign direct investments into the European Union. Certain provisions of Regulation (EU) 2019/452—such as the list of sectors affecting public order and public security or the definition of state-owned enterprises and other similar investors—are mirrored in the regulations establishing the Screening Mechanism.
+In addition, and according to Sole Transitional Provision of Royal Decree-Law 34/2020, of November 17 (as amended first by article 4 of Royal Decree-Law 27/2021, of November 23, and subsequently by article 1 and article 62 of Royal Decree-Law 20/2022, of December 27 and by article 1 of Royal Decree-Law 1/2025, of January 28), effective November 19, 2020 and until December 31, 2026, the following persons will also be deemed to be foreign investors, provided they invest in listed companies or the investment value exceeds €500 million—for investments in private – non listed – companies:
+•
+EU and EFTA residents in countries other than Spain, and
+•
+Spanish residents beneficially owned by EU or EFTA residents in countries other than Spain, that is, those in which a EU or EFTA resident other than in Spain ultimately owns or controls more than 25% of the share capital or voting rights of, or otherwise exercises control over, the Spanish resident.
+11
+Foreign direct investments (“
+FDI
+”) are:
+•
+investments that result in a foreign investor reaching a stake of at least 10% of the share capital of a Spanish company; and
+•
+any corporate transaction, business action or legal transaction which enables effective participation in the management or control of a Spanish company.
+Not all foreign direct investments are subject to the Screening Mechanism. Investors are subject to the Screening Mechanism only if they qualify as FDI and the investment is made in one of the critical sectors mentioned in article 7 bis of Law 19/2003, is made pursuant to what is foreseen in Sole Transitional Provision of Royal Decree-Law 34/2020, of November 17, or—only where the investor is a Non-UE or non-EFTA investor—by investors that meet certain subjective criteria regardless of the business of the target.
+Foreign direct investments by the following “foreign investors” are also subject to the Screening Mechanism, regardless of the business of the target:
+•
+Investors directly or indirectly controlled by the government, including state bodies or armed forces, of a non EU/EFTA country.
+•
+Investors that have already made an investment affecting national security, public order or public health in another EU Member State, including an investment in any of the above-mentioned sectors.
+•
+Investors subject to ongoing judicial or administrative proceedings for engaging in illegal or criminal activities.
+Foreign direct investments by the following non-EU and non-EFTA investors are also subject to the Screening Mechanism, regardless of the business of the target:
+•
+Investors directly or indirectly controlled by a non-EU and non-EFTA government, including state bodies, armed forces or sovereign wealth funds; the possibility of exercising decisive influence as a result of an agreement or through the ownership of shares or interests in another person (directly or indirectly) is deemed to constitute “control” for these purposes.
+•
+Investors that have already made an investment affecting national security, public order or public health in another EU Member State, including an investment in any of the above-mentioned sectors.
+•
+If there is a serious risk that the investor engages in illegal or criminal activities affecting national security, public order or public health in Spain.
+Foreign direct investments described above shall be subject to prior administrative authorization granted by the relevant Spanish Authority, in accordance with the administrative conditions established.
+In addition to the above, pursuant to Council Regulation (EU) 833/2014, it shall be prohibited to sell euro denominated transferable securities issued after April 12, 2022, or securities denominated in any other currency and issued after August 6, 2023, or units in collective investment undertakings providing exposure to such securities, to any Russian national or natural person residing in Russia or any legal person, entity or body established in Russia. This restriction shall not apply to nationals of a Member State or a country member of the European Economic Area or of Switzerland, or natural persons having a temporary or permanent residence permit in a Member State, in a country member of the European Economic Area or in Switzerland.
+Further, pursuant to Council Regulation (EC) No 765/2006, it shall be prohibited to sell transferable securities denominated in any official currency of a Member State issued after April 12, 2022 or units in collective investment undertakings providing exposure to such securities, to any Belarusian national or natural person residing in Belarus or any legal person, entity or body established in Belarus. Such prohibition shall not apply to nationals of a Member State or natural persons having a temporary or permanent residence permit in a Member State.
+See also “—
+Restrictions on Acquisitions of Ordinary Shares
+” below.
+12
+Restrictions on Acquisitions of Ordinary Shares
+BBVA’s bylaws do not provide any restrictions on the ownership of ordinary shares. Because BBVA is a Spanish bank, however, the acquisition or disposition of a significant participation of BBVA shares is subject to certain restrictions. Such restrictions may impede a potential acquirer’s ability to acquire BBVA shares and gain control of BBVA. See also “—
+Exchange Controls and Restrictions on Foreign Investments
+”.
+Pursuant to Law 10/2014, any individual or corporation, acting alone or in concert with others, intending to directly or indirectly acquire a significant holding in a Spanish financial institution (as defined in Article 16 of Law 10/2014) or to directly or indirectly increase its holding in such way that either the percentage of voting rights or of capital owned were equal to or more than any of the thresholds of 20%, 30% or 50%, or by virtue of the acquisition, might take control over the financial institution, must first notify the Bank of Spain. For the purpose of Law 10/2014, a significant participation is considered to be 10% of the outstanding share capital or voting rights of a financial institution or a lower percentage if such holding allows for the exercise of a significant influence. Secondary legislation will specify when “significant influence” exists; in any case, according to Royal Decree 84/2015, of February 13, the capacity to appoint or dismiss a Board member will be considered “significant influence”.
+The Bank of Spain will be responsible for evaluating the proposed transaction, in accordance with the terms established by Law 10/2014 (as stated in Article 18.1 of Law 10/2014) with a view to guaranteeing the sound and prudent operation of the target financial institution. The Bank of Spain will then submit a proposal to the European Central Bank, which will be in charge of deciding upon the proposed transaction in the term of 60 business days after the date on which the notification was received.
+Any acquisition made without such prior notification, or conducted before 60 business days have elapsed since the date of such notification, or made in circumstances where the European Central Bank has objected, will produce the following results:
+•
+the acquired shares will have no voting rights;
+•
+if considered appropriate, the target bank may be taken over by the relevant regulator or its directors replaced in accordance with Title III of Law 10/2014; and
+•
+a sanction may be imposed under Title IV of Law 10/2014.
+Any individual or institution that intends to sell its significant participation in a bank or reduce its participation below the above-mentioned percentages, or which, because of such sale, will lose control of the entity, must give prior notice to the Bank of Spain, indicating the amount it intends to sell and the period in which the transaction is to be executed. Non-compliance with this requirement may result in sanctions.
+Furthermore, pursuant to Law 10/2014, any natural or legal person, or such persons acting in concert, who has acquired, directly or indirectly, a holding in a Spanish bank so that the proportion of the voting rights or of the capital held reaches or exceeds 5%, must immediately notify in writing the Bank of Spain and the relevant Spanish bank, indicating the size of the acquired holding.
+13
+Lastly, Law 19/2003, of July 4, on the legal regime of capital circulation and overseas economic transactions (
+Ley 19/2003, de 4 de julio, sobre régimen jurídico de los movimientos de capitales y de las transacciones económicas con el exterior
+), as amended, among others, pursuant to Royal Decree-law 8/2020, of March 17, Royal Decree-law 11/2020, of March 31, Royal Decree-law 34/2020, of November 17 and Royal Decree-law 20/2022 of December 27, stipulates the suspension of the liberalization regime of foreign direct investment in Spain for investments made by non-residents in the EU or in the European Free Trade Association in Spanish entities of certain sectors, where the resulting stake of the relevant investor is at least 10% of the share capital of the corresponding Spanish entity, or whereby as a consequence of the relevant transaction the investor effectively participates in the management or control of the relevant Spanish entity. This suspension applies to investments made in certain sectors (the banking and finance sector not being specifically included), to investments whereby the foreign investor is directly or indirectly controlled by a third-country government or public body, as well as if the Spanish government considers that the relevant investment may affect public safety, public order or public health, and is subject to certain limitations and simplifications. This suspension implies that none of the aforementioned investments may be made without Spanish governmental authorization, and will apply until the Spanish Council of Ministers lifts such suspension. Moreover, Royal Decree-law 20/2022, of December 27, has extended the regime of suspension of liberalization of certain foreign direct investments in Spain regulated in paragraphs 2 and 5 of Article 7 bis of Law 19/2003, of July 4, 2003, until December 31, 2024, to foreign direct investments in companies listed in Spain, or in unlisted companies if the value of the investment in Spain exceeds €500 million, made by residents of other countries of the European Union and the European Free Trade Association (EFTA).
+Shareholders’ Agreements
+Act 6/2023, of March 17, on the Securities Markets and Investment Services, as amended (the “
+Spanish Securities Market Act
+”) and the Spanish Companies Act require parties to disclose certain types of shareholders’ agreements that affect the exercise of voting rights at a general shareholders’ meeting or contain restrictions or conditions on the transferability of shares or bonds that are convertible or exchangeable into shares. If any shareholders enter into such agreements with respect to BBVA’s shares, they must disclose the execution, amendment or extension of such agreements to BBVA and the CNMV and file such agreements with the appropriate Commercial Registry. Failure to comply with these disclosure obligations renders any such shareholders’ agreement unenforceable and constitutes a material infringement of the Spanish Securities Market Act. In particular, a shareholders’ agreement will have no effect with respect to the regulation of the right to vote in general shareholders’ meetings and restrictions or conditions on the free transferability of shares and bonds convertible into shares until such time as the aforementioned disclosure and filing are made.
+Upon request by the interested parties, the CNMV may waive the requirement to disclose and file a shareholder’s agreement when making the shareholders’ agreement public could cause harm to the affected company.
+Payment of Taxes
+Holders of ordinary shares are responsible for any taxes or other governmental charges payable on their ordinary shares, including any taxes payable on transfer. The paying agent or the transfer agent, as the case may be, may, and upon instruction from BBVA, will:
+•
+refuse to effect any registration of transfer of such ordinary shares or any split-up or combination thereof until such payment is made; or
+•
+withhold or deduct from any distributions on such ordinary shares or sell for the account of the holder thereof any part or all of such ordinary shares (after attempting by reasonable means to notify such holder prior to such sale), and apply, after deduction for its reasonable expenses incurred in connection therewith, the net proceeds of any such sale in payment of such tax or other governmental charge, the holder of such ordinary shares remaining liable for any deficiency.
+14
+Exercise of Spanish Bail-in Power and Other Resolution Tools
+Our ordinary shares (including those represented by ADSs) may be subject to the exercise of the Spanish Bail-in Power by the Relevant Spanish Resolution Authority, which may include and result in any of the following, or some combination thereof, among others: (i) the cancellation of such securities; (ii) the transfer of such securities to creditors of BBVA; (iii) the conversion of other securities or obligations of BBVA into ordinary shares of BBVA thereby diluting the shareholding of the holders of ordinary shares; and (iv) the variation of the terms of such securities or the rights of the holders thereunder, including to give effect to the exercise of the Spanish Bail-in Power by the Relevant Spanish Resolution Authority. See “
+Item 3. Key Information—Risk Factors—Regulatory, Tax, Compliance and Reporting Risks—The Group is subject to a comprehensive regulatory and supervisory framework, including resolution regulations, which could have a material adverse effect on its business, financial condition and results of operations
+” and “
+Item 4. Information on the Company—Business Overview—Supervision and Regulation— Capital Requirements, MREL and Resolution
+” in our Annual Report.
+Non-Voting, Redeemable and Privileged Shares
+Our bylaws authorize us to issue ordinary, non-voting, redeemable and privileged shares. As of the date of the filing of the Annual Report, we have no non-voting, redeemable or privileged shares outstanding. The provisions of our bylaws relating to such shares are described below.
+Privileged Shares
+BBVA may issue shares that confer some privilege over ordinary shares under legally established terms and conditions, complying with the formalities prescribed for amending our bylaws.
+Redeemable Shares
+BBVA may issue shares that are redeemable at our or the holders’ request, or both, for a nominal amount no greater than one quarter of our share capital. Redemption of any such shares may only occur according to the terms set forth when they are issued. If the redemption right was attributed exclusively to us, we may not enforce it until three years have elapsed since the issue. Redeemable shares must be fully paid up at the time of their subscription.
+The redemption of redeemable shares must be charged to earnings or to free reserves or be made with the proceeds of a new share issuance made under a resolution from the general shareholders’ meeting or, as the case may be, from the Board of Directors, for the purpose of financing the redemption transaction. If the redemption of these shares is charged to earnings or to free reserves, the Company must set up a reserve for the amount of the nominal value of the shares redeemed. If the redemption is not charged to earnings or free reserves or made with the proceeds of the issuance of new shares, it may only be carried out under the requirements established for the reduction of share capital by refunding contributions.
+Non-Voting Shares
+BBVA may issue shares with no voting rights within legally established limits. Holders of such shares are entitled to receive a minimum fixed or variable annual dividend, as resolved by the general shareholders’ meeting and/or the Board of Directors at the time of deciding to issue the shares. In addition, the right of non-voting shares to accumulate unpaid dividends whenever funds to pay dividends are not available, any preemptive subscription rights associated with non-voting shares, and the ability of holders of non-voting shares to recover voting rights must be established at the time of deciding to issue the shares. Once the minimum dividend has been agreed upon, holders of non-voting shares will be entitled to the same dividend as holders of ordinary shares.
+Certain Other Provisions Regarding Shareholders’ Rights
+Our bylaws do not contain any provisions relating to sinking funds or potential liability of shareholders to further capital calls by us.
+15
+Certain Powers of the Board of Directors
+Provisions regarding directors are generally contained in our bylaws. In addition, our board regulations govern the internal procedures and operation of the Board of Directors and its committees and directors’ rights and duties as described in their respective charters.
+The board regulations prohibit a director from deliberating or voting on resolutions or decisions in which they or a related party may have a direct or indirect conflict of interest (unless such decisions are related to the appointment or removal of positions on the management body). Directors are not required to hold shares of BBVA in order to be appointed as such.
+Information about directors’ compensation, including remuneration in shares, is included under “
+Item 6. Directors, Senior Management and Employees—Compensation
+” in our Annual Report.
+16
+DESCRIPTION OF BBVA AMERICAN DEPOSITARY SHARES
+The depositary, The Bank of New York Mellon (the “
+Depositary
+”), registers and delivers BBVA ADSs. Each BBVA ADS represents an ownership interest in one ordinary share. The ordinary shares will be deposited with BBVA, The Bank of New York Mellon’s custodian in Spain. Each BBVA ADS will also represent securities, cash or other property deposited with The Bank of New York Mellon but not distributed to BBVA ADS holders. The Bank of New York Mellon’s corporate trust office is located at 240 Greenwich Street, New York, NY 10286.
+BBVA ADSs may be held either (A) directly (i) by having an American Depositary Receipt, also referred to as a BBVA ADR, which is a certificate evidencing a specific number of BBVA ADSs, registered in the holder’s name, or (ii) by having BBVA ADSs registered in the holder’s name in the Direct Registration System (“
+DRS
+”), or (B) indirectly by holding a security entitlement in BBVA ADSs through a broker or other financial institution. If a person holds BBVA ADSs directly, such person is an ADS registered holder. The information provided in this section “
+Description of BBVA American Depositary Shares
+” describes the rights and procedures for ADS registered holders. Persons who hold BBVA ADSs indirectly must rely on the procedures of their broker or other financial institution to assert the rights of BBVA ADS registered holders described herein.
+The DRS is a system administered by The Depository Trust Company (“
+DTC
+”) pursuant to which the Depositary may register the ownership of uncertificated ADSs, which ownership will be evidenced by periodic statements sent by the Depositary to the registered holders of uncertificated ADSs.
+BBVA ADS holders are not BBVA shareholders and do not have shareholder rights. Because The Bank of New York Mellon will actually hold the underlying ordinary shares, holders must rely on The Bank of New York Mellon to exercise the rights of a shareholder. The obligations of The Bank of New York Mellon are set out in the Deposit Agreement. The Deposit Agreement and the BBVA ADSs are governed by New York law.
+The following is a summary of certain material terms of the Deposit Agreement. The Deposit Agreement is included as Exhibit 1 to BBVA’s Registration Statement on Form F-6 filed with the SEC on November 5, 2007.
+Deposit and Withdrawal of Deposited Securities
+The Depositary has agreed that upon the execution in favor of the Depositary or its nominee and delivery to the custodian or Depositary (if to the Depositary, then at the expense and risk of the depositor) of either (i) a certificate of title which has been executed by a Spanish stockbroker and, if required, certificates representing such shares to the custodian together with any documents and payments required under the Deposit Agreement or (ii) any other evidence of ownership of shares as recognized under the laws of Spain from time to time, and acceptable to the custodian, the Depositary will have for delivery at the Depositary’s corporate trust office to or upon the order of the person specified by the depositor at the address set forth above, upon payment of the fees, charges and taxes provided in the Deposit Agreement, registered in the name of such person or persons as specified by the depositor, the number of BBVA ADSs issuable in respect of such deposit.
+Upon surrender of BBVA ADSs at the Depositary’s corporate trust office, together with written instructions from the person or persons in whose name the BBVA ADSs are registered, and upon payment of such charges as are provided in the Deposit Agreement and subject to its terms, the Depositary will request the execution of evidence of ownership in favor of such persons designated in the written instrument and the delivery of such evidence of ownership (by book-entry transfer or physical delivery) of the deposited shares represented by the surrendered BBVA ADSs and any other property that the surrendered BBVA ADSs represent the right to receive. Such delivery is to take place at the office of the custodian or at the Depositary’s office as the person designated in the written instructions may request.
+If a person presents for deposit shares with different distribution rights than other deposited shares, the Depositary must identify them separately until such time as the distribution rights are the same.
+17
+Dividends, Other Distributions and Rights
+The Depositary has agreed to pay to holders of BBVA ADSs the cash dividends or other distributions it or the custodian receives on shares or other deposited securities after deducting its fees and expenses and according to applicable law. Holders of BBVA ADSs will receive these distributions in proportion to the number of shares their BBVA ADSs represent.
+Cash
+The Bank of New York Mellon will convert all cash dividends and other cash distributions in a foreign currency that it receives in respect of the deposited securities into U.S. dollars if in its judgment it can do so on a reasonable basis and can transfer the U.S. dollars to the United States.
+Before making a distribution, any withholding taxes that must be paid will be deducted. The Bank of New York Mellon will distribute only whole U.S. dollars and cents. If the exchange rates fluctuate during a time when The Bank of New York Mellon cannot convert euros into U.S. dollars, holders of BBVA ADSs may lose some or all of the value of the distribution.
+Ordinary Shares
+If a distribution by BBVA consists of a dividend in, or free distribution of, ordinary shares, The Bank of New York Mellon may, or if BBVA requests, will, subject to the Deposit Agreement, distribute to the holders of outstanding BBVA ADSs, in proportion to their holdings, additional BBVA ADSs representing the number of ordinary shares received as such dividend or free distribution if BBVA furnishes it with evidence that it is legal to do so. The Bank of New York Mellon will only distribute whole BBVA ADSs. It will sell ordinary shares which would require it to deliver fractional BBVA ADSs and distribute the net proceeds thereof in the same way as it does with cash. If the additional BBVA ADSs are not so distributed, each BBVA ADS will represent the additional ordinary shares distributed in respect of the ordinary shares represented by such BBVA ADS prior to such dividend or free distribution.
+Rights
+. If BBVA offers or causes to be offered to the holders of shares any rights to subscribe for additional shares or any rights of any other nature, The Bank of New York Mellon will either:
+•
+make such rights available to holders of BBVA ADSs by means of warrants or otherwise, if The Bank of New York Mellon determines that it is lawful and feasible to do so; or
+•
+if making such rights available is determined by The Bank of New York Mellon not to be lawful and feasible, or if the rights represented by such warrants or other instruments are not exercised and appear to be about to lapse, sell such rights or warrants or other instruments:
+◦
+on a stock exchange on which such rights are listed;
+◦
+on an over-the-counter market on which such rights are traded; or
+◦
+with the written approval of BBVA, at a private sale,
+at such place or places and upon such terms as The Bank of New York Mellon may deem proper, and allocate the proceeds of such sales for the account of the holders of the BBVA ADSs entitled to those proceeds, upon an averaged or other practicable basis without regard to any distinctions among such holders of BBVA ADSs due to exchange restrictions, or the date of delivery of any ADSs or otherwise.
+The net proceeds allocated to the holders of BBVA ADSs so entitled will be distributed to the extent practicable in the case of a distribution in cash. The Bank of New York Mellon will not offer such rights to holders of BBVA ADSs having an address in the United States unless BBVA furnishes to The Bank of New York Mellon (i) evidence that a registration statement under the Securities Act is in effect or (ii) an opinion from U.S. counsel for BBVA, in a form satisfactory to The Bank of New York Mellon, to the effect that such distribution does not require registration under the provisions of the Securities Act.
+18
+Ordinary shares issuable upon exercise of preemptive rights must be registered under the Securities Act in order to be offered to holders of BBVA ADSs. If BBVA decided not to register those ordinary shares, the preemptive rights would not be distributed to holders of BBVA ADSs. Pursuant to the Deposit Agreement under which the BBVA ADSs are issued, however, the Depositary will use its best efforts to sell such rights that it receives and will distribute the proceeds of the sale to holders of BBVA ADSs.
+Other Distributions
+The Bank of New York Mellon will remit to holders of BBVA ADSs any other item of value BBVA distributes on deposited securities by any means it thinks is legal, fair and practical. If it cannot make the distribution in that way, The Bank of New York Mellon may adopt such method as it may deem equitable and practicable for the purpose of effecting such distribution. The Bank of New York Mellon may sell, publicly or privately, what BBVA distributed and distribute the net proceeds in the same way as it does with cash.
+The Bank of New York Mellon is not responsible if it decides that it is unlawful or impractical to make a distribution available to any BBVA ADS holders. BBVA has no obligations to register BBVA ADSs, ordinary shares, rights or other securities under the Securities Act. BBVA also has no obligation to take any other action to permit the distribution of BBVA ADSs, ordinary shares, rights or anything else to BBVA ADS holders. This means that holders of BBVA ADSs may not receive the distributions BBVA makes on its shares or any value for them if it is illegal or impractical for BBVA or The Bank of New York Mellon to make such distributions available to them.
+Payment of Taxes
+Holders of BBVA ADSs will be responsible for any taxes or other governmental charges payable on their BBVA ADSs or on the deposited securities underlying their BBVA ADSs, including any taxes payable on transfer. The Bank of New York Mellon may, and upon instruction from BBVA, will:
+•
+refuse to effect any registration of transfer of such receipt or any split-up or combination thereof or any withdrawal of such deposited securities until such payment is made; or
+•
+withhold or deduct from any distributions on such deposited securities or sell for the account of the holder thereof any part or all of such deposited securities (after attempting by reasonable means to notify such holder prior to such sale), and apply, after deduction for its expenses incurred in connection therewith, the net proceeds of any such sale in payment of such tax or other governmental charge, the holder of such receipt remaining liable for any deficiency.
+Record Dates
+The Bank of New York Mellon will fix a record date to establish which holders of BBVA ADSs are entitled to:
+•
+receive a dividend, distributions or rights;
+•
+receive the net proceeds of any sale;
+•
+give instructions for the exercise of voting rights at any such meeting; and
+•
+receive notice or solicitation to act in respect of any matter.
+Voting of the Underlying Deposited Securities
+BBVA has agreed in the Deposit Agreement that (i) the Depositary or its nominee, whichever is the registered holder of the ordinary shares represented by the BBVA ADSs, will have the same rights as any other registered holder of ordinary shares and (ii) consistent with BBVA’s bylaws, BBVA will observe the right of the Depositary, its nominee or registered holder of the ordinary shares to attend any ordinary or extraordinary general shareholders’ meeting and to vote or cause to be voted by proxy the ordinary shares with respect to the BBVA ADSs and that BBVA will not exercise any right it may have under its bylaws to reject or in any way impair such rights.
+19
+Once The Bank of New York Mellon receives notice in English of any matter affecting holders of ordinary shares, it will mail, as soon as practicable, such notice to the holders of BBVA ADSs. The notice will (i) contain the information in the notice of meeting, (ii) explain how holders as of a certain date may instruct The Bank of New York Mellon to vote the shares underlying their BBVA ADSs and (iii) contain a statement as to the manner in which instructions may be given.
+The record holders of BBVA ADSs can instruct The Bank of New York Mellon to vote the shares underlying their BBVA ADSs. The Bank of New York Mellon will try, insofar as practicable, to cause the ordinary shares so represented to be voted in accordance with any nondiscretionary written instructions of BBVA ADS record holders received.
+In the event the BBVA ADS record holders do not provide written instructions by a specified date, The Bank of New York Mellon will deem the BBVA ADR holder to have instructed it to give discretionary proxy to a person designated by the BBVA Board of Directors. However, this proxy must not be given to such a person if the Board of Directors informs The Bank of New York Mellon, in writing, that the Board of Directors either does not wish the proxy to be given, that substantial opposition exists or that the matter at hand materially affects the rights of BBVA shareholders.
+Facilities and Register
+The Bank of New York Mellon will maintain at its transfer office:
+•
+facilities for the delivery and surrender of ordinary shares;
+•
+facilities for the withdrawal of ordinary shares;
+•
+facilities for the execution and delivery, registration, registration of transfer, combination and split-up of BBVA ADSs and the withdrawal of deposited securities; and
+•
+a register for the registration and transfer of BBVA ADSs which, at all reasonable times, shall be open for inspection by holders of BBVA ADSs.
+Reports and Notices
+The Bank of New York Mellon will, at BBVA’s expense:
+•
+arrange for the custodian to provide The Bank of New York Mellon copies in English of any reports and other communications that are generally made available by BBVA to holders of ordinary shares; and
+•
+arrange for the mailing of such copies to all holders of BBVA ADSs.
+BBVA has delivered to The Bank of New York Mellon and the custodian a copy of the provisions of or governing ordinary shares. Promptly after any amendment, BBVA will deliver to The Bank of New York Mellon and the custodian a copy in English of such amended provisions. The Bank of New York Mellon may rely upon such copy for all the purposes of the Deposit Agreement.
+The Bank of New York Mellon will, at BBVA’s expense, make available for inspection by BBVA ADS holders at the corporate trust office, the office of the custodian and at any other designated transfer office any reports and communications received from BBVA that are made generally available to holders of ordinary shares.
+Amendment and Termination of the Deposit Agreement
+The BBVA ADSs and the Deposit Agreement may at any time be amended by agreement between BBVA and The Bank of New York Mellon.
+20
+Any amendment that would impose or increase any charges (other than transmission and delivery charges incurred at the request of depositors of ordinary shares or holders of BBVA ADSs, transfer, brokerage, registration fees and charges in connection with conversion of currencies, and taxes and other governmental charges) or that will otherwise prejudice any substantial existing right of BBVA ADS holders will not become effective as to outstanding BBVA ADRs until three months have expired after notice of such amendment has been given to the holders of the BBVA ADRs.
+In no event will any amendment impair the right of any BBVA ADS holder to surrender such BBVA ADSs and receive in return the ordinary shares and other property which those surrendered BBVA ADSs represent, except in order to comply with mandatory provisions of applicable law.
+At BBVA’s direction, The Bank of New York Mellon will terminate the Deposit Agreement by giving notice of such termination to the record holders of BBVA ADSs at least 30 days prior to the date fixed in that notice for the termination. The Bank of New York Mellon may terminate the Deposit Agreement at any time commencing 90 days after delivery of a written resignation, provided that no successor Depositary has been appointed and no successor Depositary has accepted its appointment before the end of those 90 days.
+After the date that has been fixed for termination, The Bank of New York Mellon and its agents will perform no further acts under the Deposit Agreement, other than:
+•
+advise record holders of BBVA ADSs of such termination;
+•
+receive and hold distributions on ordinary shares; and
+•
+deliver ordinary shares and distributions in exchange for BBVA ADSs surrendered to The Bank of New York Mellon.
+As soon as practicable after the expiration of six months from the date that has been fixed for termination, The Bank of New York Mellon will sell ordinary shares and other deposited securities and may hold the net proceeds of any such sale together with any other cash then held by it under the provisions of the Deposit Agreement, without liability for interest, for the pro rata benefit of the holders of BBVA ADRs that have not yet surrendered their BBVA ADRs.
+Fees and Expenses
+The fees payable under the Deposit Agreement, either directly or indirectly, by a holder of ADSs are set forth under “
+Item 12. Description of Securities Other than Equity Securities—American Depositary Shares
+” in our Annual Report.
+The Depositary collects its fees for delivery and surrender of BBVA ADSs directly from investors depositing shares or surrendering ADSs for the purpose of withdrawal or from intermediaries acting for them. The Depositary may generally refuse to provide fee-attracting services until its fees for those services are paid.
+From time to time, the Depositary may make payments to us to reimburse and/or share revenue from the fees collected from ADS holders, or waive fees and expenses for services provided, generally relating to costs and expenses arising out of establishment and maintenance of the BBVA ADS program. In performing its duties under the Deposit Agreement, the Depositary may use brokers, dealers or other service providers that are affiliates of the Depositary and that may earn or share fees or commissions.
+21
+Limitations on Obligations and Liability to BBVA ADS Holders
+The Deposit Agreement expressly limits BBVA’s obligations and the obligations of The Bank of New York Mellon, and it limits BBVA’s liability and the liability of The Bank of New York Mellon. BBVA and The Bank of New York Mellon:
+•
+are only obligated to take the actions specifically set forth in the Deposit Agreement without negligence or bad faith;
+•
+are not liable for any action or inaction if either relies upon the advice of, or information from, legal counsel, accountants, any person presenting shares for deposit, any holder, or any other person believed to be competent to give such advice or information;
+•
+are not liable if either is prevented or delayed by law or circumstances beyond their control from performing their obligations under the Deposit Agreement;
+•
+are not liable if either exercises discretion permitted under the Deposit Agreement;
+•
+have no obligation to become involved in a lawsuit or other proceeding related to the BBVA ADSs or the Deposit Agreement on behalf of holders of BBVA ADSs or on behalf of any other party; and
+•
+may rely upon any documents they believe to be genuine and to have been signed or presented by the proper party.
+The Bank of New York Mellon will not be liable for its failure to carry out any instructions to vote BBVA’s securities or for the effects of any such vote.
+Other General Limitations on Liability to BBVA ADS Holders
+Neither The Bank of New York Mellon, its agents, nor BBVA will incur any liability if prevented or delayed in performing its obligations under the Deposit Agreement by reason of:
+•
+any present or future law;
+•
+any act of God;
+•
+a war;
+•
+the threat of any civil or criminal penalty; or
+•
+any other circumstances beyond their respective control.
+The obligations and liabilities of BBVA and its agents and The Bank of New York Mellon and its agents under the Deposit Agreement are expressly limited to performing their respective obligations specifically set forth and undertaken by them to perform in the Deposit Agreement without negligence or bad faith.
+In the Deposit Agreement, BBVA and The Bank of New York Mellon agree to indemnify each other under certain circumstances.
+General
+The Bank of New York Mellon will act as registrar of the BBVA ADSs or, upon BBVA’s request or approval, appoint a registrar or one or more co-registrars for registration of the BBVA ADRs evidencing the BBVA ADSs in accordance with the requirements of NYSE or of any other stock exchange on which the BBVA ADSs may be listed. Such registrars or co-registrars may be removed and a substitute or substitutes appointed by The Bank of New York Mellon upon BBVA’s request or with BBVA’s approval.
+22
+Any transfer of the BBVA ADSs is registrable on the books of The Bank of New York Mellon. However, The Bank of New York Mellon may close the transfer books at any time or from time to time when it deems expedient in connection with the performance of its duties or at BBVA’s request.
+As a condition precedent to the execution and delivery, registration of transfer, split-up or combination of any BBVA ADS or the delivery of any distribution or the withdrawal of any ordinary shares or any property represented by the BBVA ADS, The Bank of New York Mellon or the custodian may, and upon BBVA’s instructions will, require from the BBVA ADR holder or the presenter of the BBVA ADS or the depositor of the ordinary shares:
+•
+payment of a sum sufficient to pay or reimburse the custodian, The Bank of New York Mellon or BBVA for any tax or other governmental charge and any stock transfer or brokerage fee or any charges of the Depositary upon delivery of the BBVA ADS or upon surrender of the BBVA ADS, as set out in the Deposit Agreement;
+•
+the production of proof satisfactory to The Bank of New York Mellon or custodian of:
+◦
+identity or genuineness of any signature; and
+◦
+citizenship, residence, exchange control approval, and legal or beneficial ownership;
+•
+compliance with all applicable laws and regulations including the delivery of any forms required by Spanish law or custom in connection with the execution or delivery of evidence of ownership, with all applicable provisions of or governing the shares or any other deposited securities and with the terms of the Deposit Agreement; or
+•
+other information deemed necessary or proper.
+The delivery, registration of transfer, split-up or combination of BBVA ADSs, or the deposit or withdrawal of shares or other property represented by BBVA ADSs, in any particular instance or generally, may be suspended during any period when the BBVA ADSs register is closed, or when such action is deemed necessary or advisable by The Bank of New York Mellon or BBVA at any time or from time to time.
+Holders have the right to cancel their BBVA ADSs and withdraw the underlying shares at any time except:
+•
+when temporary delays arise because The Bank of New York Mellon or BBVA has closed its transfer books or the deposit of shares in connection with voting at a shareholders’ meeting or the payment of dividends;
+•
+when BBVA ADS holders owe money to pay fees, taxes and similar charges; or
+•
+when it is necessary to prohibit withdrawals in order to comply with any laws or governmental regulations that apply to BBVA ADSs or to the withdrawal of shares or other deposited securities.
+This right of withdrawal may not be limited by any other provision of the Deposit Agreement.
+The Bank of New York Mellon, upon BBVA’s request or with BBVA’s approval, may appoint one or more co-transfer agents for the purpose of effecting registrations of transfers, combinations and split-ups of BBVA ADSs at designated transfer offices on behalf of The Bank of New York Mellon. In carrying out its functions, a co-transfer agent may require evidence of authority and compliance with applicable laws and other requirements by holders of BBVA ADSs and will be entitled to protection and indemnity to the same extent as The Bank of New York Mellon.
+23
+Direct Registration System
+In the Deposit Agreement, all parties to the Deposit Agreement acknowledge that the DRS and Profile Modification System (“
+Profile
+”) will apply to uncertificated BBVA ADSs upon acceptance thereof to DRS by DTC. DRS is the system administered by DTC pursuant to which the Depositary may register the ownership of uncertificated ADSs, which ownership will be evidenced by periodic statements sent by the Depositary to the registered holders of uncertificated ADSs. Profile is a required feature of DRS which allows a DTC participant, claiming to act on behalf of a registered holder of uncertificated ADSs, to direct the Depositary to register a transfer of those ADSs to DTC or its nominee and to deliver those ADSs to the DTC account of that DTC participant without receipt by the Depositary of prior authorization from the ADS registered holder to register that transfer.
+In connection with the arrangements and procedures relating to DRS and Profile, the parties to the Deposit Agreement understand that the Depositary will not verify, determine or otherwise ascertain that the DTC participant that is claiming to be acting on behalf of a BBVA ADS registered holder in requesting registration of transfer and delivery described in the paragraph above has the actual authority to act on behalf of the ADS registered holder (notwithstanding any requirements under the Uniform Commercial Code). In the Deposit Agreement, the parties agree that the Depositary’s reliance on and compliance with instructions received by the Depositary through DRS and Profile and in accordance with the Deposit Agreement, will not constitute negligence or bad faith on the part of the Depositary.
+Exercise of Spanish Bail-in Power and Other Resolution Tools
+The ordinary shares of BBVA underlying the ADSs may be subject to the exercise of the Spanish Bail-in Power by the Relevant Spanish Resolution Authority. See “—
+Description of BBVA Ordinary Shares— Exercise of Spanish Bail-in Power and Other Resolution Tools
+.”
+24
+DESCRIPTION OF
+$750,000,000 6.138% SENIOR NON-PREFERRED FIXED-TO-FIXED RATE NOTES DUE 2028
+Defined terms provided in this section are provided for purposes of this section only and accordingly shall not modify or replace similar defined terms provided elsewhere in this exhibit.
+BBVA’s $750,000,000 6.138% senior non-preferred fixed-to-fixed rate notes due 2028 (the “
+Notes
+”) were issued under the indenture (the “
+Base Indenture
+”) dated June 25, 2019 among BBVA, as issuer, The Bank of New York Mellon, acting through its London Branch, as trustee (the “
+Trustee
+”), transfer agent and paying agent (the “
+Paying Agent
+”) and The Bank of New York Mellon, as security registrar, as amended and supplemented by the second supplemental indenture dated September 14, 2022, among BBVA, as issuer, The Bank of New York Mellon, London Branch, as Trustee, Paying Agent, calculation agent (the “
+Calculation Agent
+”) and transfer agent, and The Bank of New York Mellon, as security registrar (the Base Indenture, as so amended and supplemented with respect to the Notes, the “
+Indenture
+”).
+The Notes were issued pursuant to the resolution of the board of directors of BBVA adopted on June 25, 2019.
+The second supplemental indenture amended and supplemented the Base Indenture in certain material respects. The Base Indenture is included as Exhibit 4.7 to BBVA’s Registration Statement on Form F-3 filed with the SEC on July 29, 2022 and the second supplemental indenture is included as Exhibit 4.9 to BBVA’s report on Form 6-K furnished to the SEC on September 14, 2022 and incorporated by reference into such Registration Statement. Holders of the Notes may also obtain a copy of the Indenture from the Trustee.
+The following summary of certain provisions of the Notes and the Indenture does not purport to be complete and is subject, and is qualified in its entirety by reference, to all of the provisions of the Notes and the Indenture, including the definitions of the terms provided therein. Whenever this section refers to specific provisions of or terms defined in the Indenture, we incorporate by reference into this section such specific provisions of or terms defined in the Indenture.
+BBVA may issue future notes under other indentures or documentation which contain provisions different from those included in the Indenture, including future notes under the Base Indenture (as it may be amended and supplemented by any relevant supplemental indenture). BBVA is not prohibited under the Notes or the Indenture from paying any amounts due under any of its obligations at a time when they are in default or have failed to pay any amounts due under such Notes or the Indenture.
+General
+The Notes were issued in $750,000,000 aggregate principal amount and, unless earlier redeemed by BBVA, will mature at 100% of their principal amount on September 14, 2028 (the “
+Stated Maturity Date
+”). The Notes were issued only in registered form in denominations of $200,000 with increments of $200,000 thereafter.
+No Notes are entitled to the benefit of any sinking fund or similar custodial arrangement. All payments on or in respect of the Notes are made in U.S. dollars.
+25
+The Notes were issued in the form of one or more global certificates representing the Notes. DTC is the securities depositary for the Notes. Therefore, the Notes are issued only as registered securities registered in the name of Cede & Co. (DTC’s nominee), and BBVA has deposited with DTC one or more registered global certificates representing in aggregate the total number of the Notes. As long as DTC or its nominee is the registered holder of such global certificates representing the Notes, DTC or its nominee, as the case may be, will be considered the sole owner and holder of the Notes represented by such global certificates for all purposes under the Indenture and the Notes. Except as described below, owners of beneficial interests in a Note represented by a global certificate are not entitled to have the Notes represented by such global certificates registered in their names, may not receive or be entitled to receive physical delivery of certificated Notes and are not considered the holders of such Notes under the Indenture. Accordingly, each person owning a beneficial interest in a Note represented by a global certificate must rely on the procedures of DTC and, if that person is not a participant in DTC, on the procedures of the participant in DTC through which the person owns its interest, to exercise any rights of a beneficial owner under the Indenture. Beneficial interests in the Notes represented by such global certificates will be exchangeable for Notes represented by individual security certificates, or certificated Notes, and registered in the name or names of owners of such beneficial interests as specified in instructions provided by DTC to the Trustee only if: (i) DTC notifies BBVA in writing that it is unwilling, unable or ineligible to continue to act as depositary or that it is no longer a clearing agency registered under the Exchange Act and, in either case, a successor depositary is not appointed by BBVA within 60 days after the date of such notice from DTC, (ii) BBVA notifies the Trustee in writing that it has reasonably elected to cause the issuance of definitive registered Notes or (iii) there shall have occurred and be continuing an Event of Default (as defined in the Indenture) with respect to the Notes.
+The Indenture provides that, in addition to the Notes, notes, bonds and other evidences of indebtedness of other series may in the future be issued thereunder without limitation as to the maximum aggregate principal amount. BBVA may from time to time, without the consent of the holders of the Notes, create and issue further securities having the same terms and conditions as the previously issued Notes in all respects (or in all respects except for the issue date, the original interest accrual date and/or the issue price), so that such further issue may be consolidated and form a single series with the outstanding Notes; provided, however, that any such further issuance will only be made if either such additional securities are issued with no more than de minimis original issue discount for U.S. federal income tax purposes or any such further issuance is a “qualified reopening” as such term is defined under U.S. Treasury Regulations Section 1.1275-2(k)(3) promulgated under the U.S. Internal Revenue Code of 1986, as amended (the “
+Code
+”).
+Payment of Interest
+The Notes bear interest (i) from (and including) the Issue Date to (but excluding) the Reset Date (September 14, 2027) or any date of earlier redemption at a fixed rate of 6.138% per annum and (ii) thereafter, from (and including) the Reset Date to (but excluding) the Stated Maturity Date or any date of earlier redemption at a fixed rate per annum equal to the 1-year UST, as determined by the Calculation Agent, plus 270 basis points, such sum being converted to a semi-annual rate in accordance with market convention (rounded to the fifth decimal place, with 0.000005 being rounded upwards). BBVA must pay interest in arrears on the 2028 Notes semi-annually on March 14 and September 14 of each year, commencing on March 14, 2023 up to (and including) the Stated Maturity Date or any date of earlier redemption (each an “Interest Payment Date”).
+For these purposes:
+“
+1-year UST
+” means an interest rate expressed as a percentage determined by the Calculation Agent to be the per annum rate equal to the yield to maturity for U.S. Treasury securities with a maturity of one year, as published in the most recent H.15.
+“
+H.15
+” means the daily statistical release designated as such and published by the Board of Governors of the United States Federal Reserve System under the caption “Treasury constant maturities”, or any successor or replacement publication as reasonably determined by BBVA and notified to the Calculation Agent, that establishes yield on actively traded U.S. Treasury securities, and “most recent H.15” means the H.15 that includes a yield to maturity for U.S. Treasury securities with a maturity of one year, published closest in time (but prior to) the Reset Determination Date.
+“
+Reset Date
+” means September 14, 2027.
+26
+“
+Reset Determination Date
+” means the second Business Day (as defined below) immediately preceding the Reset Date.
+Interest on the Notes is computed on the basis of a 360-day year of twelve 30-day months. Except as described below for the first Interest Payment Date, on each Interest Payment Date, BBVA must pay interest on the Notes for the period commencing on (and including) the immediately preceding Interest Payment Date and ending on (and including) the day immediately preceding that Interest Payment Date. On the first Interest Payment Date, BBVA must pay interest for the period beginning on (and including) the Issue Date to (but excluding) the first Interest Payment Date.
+If any Interest Payment Date falls on a day that is not a Business Day (as defined in the Indenture), the related interest payment shall be postponed to the next day that is a Business Day, and no interest on such payment shall accrue for the period from and after such Interest Payment Date. If the Stated Maturity Date or date of earlier redemption for the Notes falls on a day that is not a Business Day, payment of principal and interest on the Notes will be made on the next succeeding day that is a Business Day, and no interest will accrue for the period from and after such Stated Maturity Date or date of earlier redemption.
+Interest on each Note will be paid only to the person in whose name such Note was registered at the close of business on the 15th calendar day (whether or not a Business Day) immediately preceding the applicable Interest Payment Date (each such date a “
+Regular Record Date
+”).
+Payments of Additional Amounts
+Any amounts to be paid by BBVA with respect to the Notes must be paid without withholding or deduction for or on account of any and all present or future taxes or duties of whatever nature (“
+Taxes
+”) unless such withholding or deduction is required by law. In the event any such withholding or deduction is imposed or levied in respect of payment of interest (but not principal or premium) by or on behalf of Spain or any political subdivision or authority thereof or therein having the power to tax, BBVA has agreed to pay to the holder of Notes such additional amounts (“
+Additional Amounts
+”) as may be necessary in order that the net amount received by such holder of Notes under the Indenture, after such withholding or deduction, shall equal the amount of interest, if any, which would have been receivable by such holder of Notes in the absence of such withholding or deduction. Notwithstanding the foregoing, the Indenture specifies certain situations for which no such Additional Amounts are payable with respect to any Note.
+Any reference to the payment of interest shall be deemed to include the payment of Additional Amounts to the extent payable 

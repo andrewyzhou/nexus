@@ -1,0 +1,42 @@
+EX-21.1
+6
+twlo-20251231ex211subsidia.htm
+EX-21.1
+Document
+Exhibit 21.1
+List of Subsidiaries of Twilio Inc.
+Subsidiary
+Country
+Twilio Australia Pty Ltd
+Australia
+Teravoz Telecom Telecomunicacoes Ltda.
+Brazil
+Twilio Canada Corp.
+Canada
+Twilio Colombia S.A.S.
+Colombia
+Twilio Estonia OÜ
+Estonia
+Twilio France SARL
+France
+Twilio Germany GmbH
+Germany
+Twilio Hong Kong Limited
+Hong Kong
+Twilio Technology India Private Limited
+India
+Twilio Ireland Limited
+Ireland
+Twilio Japan GK
+Japan
+Twilio Poland sp. z o.o.
+Poland
+Twilio Singapore Pte. Ltd.
+Singapore
+Twilio Spain, S.L.
+Spain
+Twilio Sweden AB
+Sweden
+Twilio UK Limited
+England and Wales
+In accordance with Item 601(b)(21)(ii) of Regulation S-K, the names of certain other subsidiaries of Twilio Inc. are omitted which, considered in the aggregate, would not constitute a significant subsidiary as of the end of the year covered by this report.

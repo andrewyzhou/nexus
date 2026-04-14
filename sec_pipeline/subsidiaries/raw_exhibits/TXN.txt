@@ -1,0 +1,159 @@
+EX-21
+2
+q42025txnex21.htm
+EX-21
+Document
+Exhibit 21
+TEXAS INSTRUMENTS INCORPORATED AND SUBSIDIARIES
+LIST OF SUBSIDIARIES OF THE REGISTRANT
+The following are subsidiaries of the Registrant as of December 31, 2025.
+Subsidiary and Name Under Which Business is Done
+Where Organized
+Algorex Inc.
+California
+ASIC II Limited
+Hawaii
+Benchmarq Microelectronics Corporation of South Korea
+Delaware
+Burr-Brown International Holding Corporation
+Delaware
+Energy Recommerce Inc.
+California
+innoCOMM wireless
+California
+Integrated Circuit Designs, Inc.
+Maryland
+Mediamatics, Inc.
+California
+National Acquisition Sub, Inc.
+Delaware
+National Semiconductor (Maine), Inc.
+Delaware
+National Semiconductor Corporation
+Delaware
+National Semiconductor International B.V.
+Netherlands
+National Semiconductor International, Inc.
+Delaware
+National Semiconductor Labuan Ltd.
+Malaysia
+PT Texas Instruments Indonesia
+Indonesia
+Telogy Networks, Inc.
+Delaware
+Texas Instruments (India) Private Limited
+India
+Texas Instruments (Philippines) LLC
+Delaware
+Texas Instruments (Shanghai) Co., Ltd.
+PRC
+Texas Instruments Asia Limited
+Delaware
+Texas Instruments Austin Incorporated
+Delaware
+Texas Instruments Australia Pty Limited
+Australia
+Texas Instruments Business Expansion GmbH
+Germany
+Texas Instruments Canada Limited
+Canada
+Texas Instruments China Sales Limited
+Hong Kong
+Texas Instruments CZ, s.r.o.
+Czech Republic
+Texas Instruments de Mexico, S. de R.L. de C.V.
+Mexico
+Texas Instruments Denmark ApS
+Denmark
+Texas Instruments Deutschland GmbH
+Germany
+Texas Instruments Electronics Malaysia Sdn. Bhd.
+Malaysia
+Texas Instruments EMEA Sales GmbH
+Germany
+Texas Instruments España, S.A. Unipersonal
+Spain
+Texas Instruments Federal LLC
+Delaware
+Texas Instruments Finland Oy
+Finland
+Subsidiary and Name Under Which Business is Done
+Where Organized
+Texas Instruments France SAS
+France
+Texas Instruments Gesellschaft m.b.H.
+Austria
+Texas Instruments Global Investments LLC
+Delaware
+Texas Instruments Holland B.V.
+Netherlands
+Texas Instruments Hong Kong Limited
+Hong Kong
+Texas Instruments Hungary Korlatolt Felelossegu Tarsasag
+Hungary
+Texas Instruments International (U.S.A.) Inc.
+Delaware
+Texas Instruments International Capital Corporation
+Delaware
+Texas Instruments International Trade Corporation
+Delaware
+Texas Instruments Israel Ltd.
+Israel
+Texas Instruments Italia S.r.l.
+Italy
+Texas Instruments Japan Limited
+Japan
+Texas Instruments Korea Limited
+Korea
+Texas Instruments Lehigh Valley Incorporated
+Delaware
+Texas Instruments Limited
+United Kingdom
+Texas Instruments Logistics Malaysia Sdn. Bhd.
+Malaysia
+Texas Instruments Low Power Wireless San Diego LLC
+Delaware
+Texas Instruments Malaysia Sdn. Bhd.
+Malaysia
+Texas Instruments Management GmbH & Co. KG
+Germany
+Texas Instruments Northern Virginia Incorporated
+Delaware
+Texas Instruments Norway AS
+Norway
+Texas Instruments Palo Alto Incorporated
+California
+Texas Instruments Richardson LLC
+Delaware
+Texas Instruments Romania S.R.L.
+Romania
+Texas Instruments Santa Rosa Incorporated
+California
+Texas Instruments Semiconductor Manufacturing (Chengdu) Co., Ltd.
+PRC
+Texas Instruments Semiconductor Technologies (Shanghai) Co., Ltd.
+PRC
+Texas Instruments Semiconductor Trading Limited Company
+Turkey
+Texas Instruments Semicondutores e Tecnologias Ltda.
+Brazil
+Texas Instruments Singapore (Pte) Limited
+Singapore
+Texas Instruments Southeast Asia Pte. Ltd.
+Singapore
+Texas Instruments Sunnyvale Incorporated
+Delaware
+Texas Instruments Sweden AB
+Sweden
+Texas Instruments Taiwan Limited
+Taiwan
+Texas Instruments Tucson Corporation
+Delaware
+Texas Instruments Vietnam LLC
+Socialist Republic of Vietnam
+TI (Philippines), Inc.
+Philippines
+Unitrode Corporation
+Maryland
+Unitrode-Maine
+Maine

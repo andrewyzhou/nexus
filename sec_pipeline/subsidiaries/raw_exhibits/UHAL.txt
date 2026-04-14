@@ -1,0 +1,643 @@
+EX-21
+2
+uhal-ex21.htm
+EX-21
+EX-21
+Exhibit 21
+U-HAUL HOLDING COMPANY
+(Nevada)
+Consolidated Subsidiaries
+Name of Entity
+Jurisdiction of Incorporation
+Patriot Truck Leasing, LLC
+NV
+Picacho Peak Investments Co.
+NV
+Picacho Peak, LLC
+NV
+ARCOA Risk Retention Group, Inc.
+NV
+U-Haul International Shipping, LLC
+NV
+Repwest Insurance Company
+AZ
+Republic Claims Service Co.
+AZ
+Ponderosa Insurance Agency, LLC
+AZ
+Ponderosa Self-Storage Liability Group, LLC
+AZ
+RWIC Investments, Inc.
+AZ
+Oxford Life Insurance Company
+AZ
+Oxford Life Insurance Agency, Inc.
+AZ
+Christian Fidelity Life Insurance Company
+TX
+Amerco Real Estate Company
+NV
+Amerco Real Estate Company of Texas, Inc.
+TX
+Amerco Real Estate Services, Inc.
+NV
+Rainbow-Queen Properties, L.L.C.
+AZ
+Two PAC Company
+NV
+Twenty PAC Company
+NV
+Twenty-One PAC Company
+NV
+Nationwide Commercial Co.
+AZ
+AREC RW, LLC
+AZ
+13622 66th, LLC
+NV
+Name of Entity
+Jurisdiction of Incorporation
+AREC Holdings, LLC
+DE
+AREC 1, LLC
+DE
+AREC 2, LLC
+DE
+AREC 3, LLC
+DE
+AREC 4, LLC
+DE
+AREC 5, LLC
+DE
+AREC 6, LLC
+DE
+AREC 7, LLC
+DE
+AREC 8, LLC
+DE
+AREC 9, LLC
+DE
+AREC 10, LLC
+DE
+AREC 11, LLC
+DE
+AREC 12, LLC
+DE
+AREC 13, LLC
+DE
+AREC 14, LLC
+NV
+AREC 15, LLC
+NV
+AREC 19, LLC
+NV
+AREC 20, LLC
+NV
+AREC 21, LLC
+NV
+AREC 22, LLC
+DE
+AREC 23, LLC
+DE
+AREC 24, LLC
+DE
+AREC 25, LLC
+DE
+AREC 26, LLC
+DE
+AREC 27, LLC
+DE
+AREC 28, LLC
+DE
+AREC 29, LLC
+DE
+AREC 30, LLC
+DE
+AREC 31, LLC
+DE
+AREC 32, LLC
+DE
+AREC 33, LLC
+DE
+AREC 34, LLC
+DE
+AREC 35, LLC
+DE
+AREC 36, LLC
+DE
+AREC 37, LLC
+DE
+AREC 38, LLC
+DE
+AREC 39, LLC
+DE
+AREC 40, LLC
+NV
+AREC 41, LLC
+DE
+AREC 42, LLC
+DE
+Name of Entity
+Jurisdiction of Incorporation
+AREC 43, LLC
+DE
+AREC 44, LLC
+DE
+AREC 45, LLC
+DE
+AREC 46, LLC
+DE
+AREC 47, LLC
+DE
+AREC 48, LLC
+DE
+AREC 49, LLC
+NV
+AREC 50, LLC
+NV
+AREC 2018, LLC
+NV
+AREC QOF, LLC
+NV
+20 Oak Harbor, LLC
+NV
+41 Haig, LLC
+NV
+53 Roanoke, LLC
+NV
+74-5583 Pawai, LLC
+NV
+125 Beechwood, LLC
+NV
+333 Sunrise, LLC
+NV
+370 Orange Street, LLC
+NV
+407 Park, LLC
+NV
+506 Fesslers, LLC
+NV
+625 & 639 8
+th
+Avenue, LLC
+NV
+700 54th Avenue, LLC
+NV
+8201 Santa Fe (CA), LLC
+NV
+1315 3rd, LLC
+NV
+1450 Walbridge, LLC
+NV
+1506 Woodlawn, LLC
+DE
+1508 Woodlawn, LLC
+DE
+CRP Holdings Dunleavey, LLC
+DE
+1833 Egg Harbor Road, LLC
+NV
+2022 MC, LLC
+NV
+2115 West, LLC
+NV
+2317 Route 70, LLC
+DE
+2447 Roosevelt, LLC
+NV
+2823 Nashville Road, LLC
+DE
+3355 Washburn Way, LLC
+NV
+3400 MacArthur, LLC
+NV
+3410 Galena, LLC
+DE
+3463 Billy Hext, LLC
+NV
+3700 Bigelow, LLC
+NV
+4029 Golden, LLC
+DE
+4251 Hiawatha, LLC
+NV
+Name of Entity
+Jurisdiction of Incorporation
+4795 Charlotte, LLC
+NV
+5655 Whipple, LLC
+NV
+8250 Hwy 99, LLC
+NV
+8272 Hwy 59, LLC
+NV
+Foster 81st, LLC
+DE
+Kansas City 454, LLC
+NV
+Rosehill Street, LLC
+NV
+West 16th, LLC
+DE
+West 136, LLC
+DE
+Shoen Family Holdings, LLC
+NV
+AREC 1031 Holdings, LLC
+NV
+8 Erie EAT, LLC
+NV
+53 Technology EAT, LLC
+NV
+60 Burrell Plaza EAT, LLC
+NV
+88 Birnie EAT, LLC
+NV
+176 Ragland EAT, LLC
+NV
+200-220 North Point EAT, LLC
+NV
+207 Simpson EAT, LLC
+NV
+339-341 Lehigh EAT, LLC
+NV
+463 Lakewood EAT, LLC
+NV
+529 & Westgreen EAT, LLC
+NV
+665 Perry EAT, LLC
+NV
+800 28 EAT, LLC
+NV
+817 Appleyard EAT, LLC
+NV
+900 Roswell EAT, LLC
+NV
+950 25th EAT, LLC
+NV
+1200 Main EAT, LLC
+NV
+1320 Grandview EAT, LLC
+NV
+1450 South West EAT, LLC
+NV
+2811 Vista EAT, LLC
+NV
+4225 Hiawatha EAT, LLC
+NV
+5204 Links EAT, LLC
+NV
+6805 Corporate EAT, LLC
+NV
+6910 Richmond EAT, LLC
+NV
+8135-8171 Houghton Lake EAT, LLC
+NV
+10412 Sprague EAT, LLC
+NV
+10681 Loop 1604 EAT, LLC
+NV
+Dimond EAT, LLC
+NV
+Marginal EAT, LLC
+NV
+Name of Entity
+Jurisdiction of Incorporation
+U-Haul International, Inc.
+NV
+United States:
+A & M Associates, Inc.
+AZ
+Web Team Associates, Inc.
+NV
+eMove, Inc.
+NV
+U-Haul Business Consultants, Inc.
+AZ
+U-Haul Leasing & Sales Co.
+NV
+RTAC, LLC
+NV
+U-Haul R Fleet, LLC
+NV
+2010 BE-BP-2, LLC
+NV
+2010 U-Haul S Fleet, LLC
+NV
+2010 TM-1, LLC
+NV
+2010 TT-1, LLC
+NV
+2010 DC-1, LLC
+NV
+2013 U-Haul R Fleet, LLC
+NV
+2013 BP, LLC
+NV
+2013 U-Haul R Fleet 2, LLC
+NV
+2013 BOA-BE, LLC
+NV
+2013 U-Haul R Fleet 3, LLC
+NV
+2013 NYCB-BE, LLC
+NV
+U-Haul Moving Partners, Inc.
+NV
+U-Haul Self-Storage Management (WPC), Inc.
+NV
+U-Haul Co. of Alabama, Inc.
+AL
+U-Haul Co. of Alaska
+AK
+U-Haul Co. of Arizona
+AZ
+Boxman Rentals, LLC
+NV
+U-Haul Titling, LLC
+NV
+2010 U-Haul Titling 2, LLC
+NV
+2010 U-Haul Titling 3, LLC
+NV
+2013 U-Haul Titling 1, LLC
+NV
+2013 U-Haul Titling 2, LLC
+NV
+2013 U-Haul Titling 3, LLC
+NV
+CGAF Holdings, LLC
+NV
+Casa Grande Alternative Fuel Co., LLC
+NV
+U-Haul Co. of Arkansas
+AR
+U-Haul Co. of California
+CA
+U-Haul Co. of Colorado
+CO
+U-Haul Co. of Connecticut
+CT
+U-Haul Co. of District of Columbia, Inc.
+DC
+U-Haul Co. of Florida
+FL
+Name of Entity
+Jurisdiction of Incorporation
+6810 US Hwy 1, LLC
+NV
+1800 State Road, LLC
+NV
+Sample Square Office Park Property Owners’ Master Association, Inc.
+FL
+U-Haul Co. of Florida 2, LLC
+DE
+U-Haul Co. of Florida 3, LLC
+DE
+U-Haul Co. of Florida 4, LLC
+DE
+U-Haul Co. of Florida 5, LLC
+DE
+U-Haul Co. of Florida 8, LLC
+DE
+U-Haul Co. of Florida 9, LLC
+DE
+U-Haul Co. of Florida 10, LLC
+DE
+U-Haul Co. of Florida 905, LLC
+DE
+U-Haul Co. of Florida 14, LLC
+NV
+U-Haul Co. of Florida 15, LLC
+NV
+U-Haul Co. of Florida 19, LLC
+NV
+U-Haul Co. of Florida 21, LLC
+NV
+U-Haul Co. of Florida 22, LLC
+DE
+U-Haul Co. of Florida 23, LLC
+DE
+U-Haul Co. of Florida 24, LLC
+DE
+U-Haul Co. of Florida 25, LLC
+DE
+U-Haul Co. of Florida 26, LLC
+DE
+U-Haul Co. of Florida 28, LLC
+DE
+U-Haul Co. of Florida 30, LLC
+DE
+U-Haul Co. of Florida 31, LLC
+DE
+U-Haul Co. of Florida 32, LLC
+DE
+U-Haul Co. of Florida 33, LLC
+DE
+U-Haul Co. of Florida 34, LLC
+DE
+U-Haul Co. of Florida 35, LLC
+DE
+U-Haul Co. of Florida 42, LLC
+DE
+U-Haul Co. of Florida 44, LLC
+DE
+U-Haul Co. of Florida 48, LLC
+DE
+U-Haul Co. of Florida 49, LLC
+NV
+U-Haul Co. of Florida 50, LLC
+NV
+U-Haul Co. of Georgia
+GA
+U-Haul of Hawaii, Inc.
+HI
+U-Haul Co. of Idaho, Inc.
+ID
+U-Haul Co. of Illinois, Inc.
+IL
+U-Haul Co. of Indiana, Inc.
+IN
+U-Haul Co. of Iowa, Inc.
+IA
+U-Haul Co. of Kansas, Inc.
+KS
+Name of Entity
+Jurisdiction of Incorporation
+U-Haul Co. of Kentucky
+KY
+U-Haul Co. of Louisiana
+LA
+U-Haul Co. of Maine, Inc.
+ME
+U-Haul Co. of Maryland, Inc.
+MD
+U-Haul Co. of Massachusetts and Ohio, Inc.
+MA
+Collegeboxes, LLC
+MA
+U-Haul Co. of Michigan
+MI
+U-Haul Co. of Minnesota
+MN
+U-Haul Co. of Mississippi
+MS
+U-Haul Company of Missouri
+MO
+U-Haul Co. of Montana, Inc.
+MT
+U-Haul Co. of Nebraska
+NE
+U-Haul Co. of Nevada, Inc.
+NV
+U-Haul Co. of New Hampshire, Inc.
+NH
+U-Haul Co. of New Jersey, Inc.
+NJ
+U-Haul Co. of New Mexico, Inc.
+NM
+U-Haul Co. of New York and Vermont, Inc.
+NY
+U-Haul Co. of North Carolina
+NC
+U-Haul Co. of North Dakota
+ND
+U-Haul Co. of Oklahoma, Inc.
+OK
+U-Haul Co. of Oregon
+OR
+U-Haul Co. of Pennsylvania
+PA
+U-Haul Co. of Rhode Island
+RI
+U-Haul Co. of South Carolina, Inc.
+SC
+U-Haul Co. of South Dakota, Inc.
+SD
+U-Haul Co. of Tennessee
+TN
+U-Haul Co. of Texas
+TX
+U-Haul Propane of Texas, LLC
+NV
+U-Haul Co. of Utah, Inc.
+UT
+U-Haul Co. of Virginia
+VA
+U-Haul Co. of Washington
+WA
+U-Haul Co. of West Virginia
+WV
+U-Haul Co. of Wisconsin, Inc.
+WI
+U-Haul Co. of Wyoming, Inc.
+WY
+UHIL Holdings, LLC
+DE
+UHIL 1, LLC
+DE
+UHIL 2, LLC
+DE
+UHIL 3, LLC
+DE
+UHIL 4, LLC
+DE
+UHIL 5, LLC
+DE
+Name of Entity
+Jurisdiction of Incorporation
+UHIL 6, LLC
+DE
+UHIL 7, LLC
+DE
+UHIL 8, LLC
+DE
+UHIL 9, LLC
+DE
+UHIL 10, LLC
+DE
+UHIL 11, LLC
+DE
+UHIL 12, LLC
+DE
+UHIL 13, LLC
+DE
+UHIL 14, LLC
+NV
+UHIL 15, LLC
+NV
+UHIL 16, LLC
+NV
+UHIL 19, LLC
+NV
+UHIL 20, LLC
+NV
+UHIL 21, LLC
+NV
+UHIL 22, LLC
+DE
+UHIL 23, LLC
+DE
+UHIL 24, LLC
+DE
+UHIL 25, LLC
+DE
+UHIL 26, LLC
+DE
+UHIL 27, LLC
+DE
+UHIL 28, LLC
+DE
+UHIL 29, LLC
+DE
+UHIL 30, LLC
+DE
+UHIL 31, LLC
+DE
+UHIL 32, LLC
+DE
+UHIL 33, LLC
+DE
+UHIL 34, LLC
+DE
+UHIL 35, LLC
+DE
+UHIL 36, LLC
+DE
+UHIL 37, LLC
+DE
+UHIL 38, LLC
+DE
+UHIL 39, LLC
+DE
+UHIL 40, LLC
+NV
+UHIL 41, LLC
+DE
+UHIL 42, LLC
+DE
+UHIL 43, LLC
+DE
+UHIL 44, LLC
+DE
+UHIL 45, LLC
+DE
+UHIL 46, LLC
+DE
+UHIL 47, LLC
+DE
+Name of Entity
+Jurisdiction of Incorporation
+UHIL 48, LLC
+DE
+UHIL 49, LLC
+NV
+UHIL 50, LLC
+NV
+UHIL RW, LLC
+DE
+Canada:
+U-Haul Co. (Canada) Ltd. U-Haul Co. (Canada) Ltee
+ON
+U-Haul Inspections Ltd.
+BC

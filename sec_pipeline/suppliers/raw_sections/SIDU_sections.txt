@@ -1,0 +1,865 @@
+TICKER: SIDU
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain dependencies for space-rated components and materials; ● anticipate
+    changes in our commercial, defense, and international markets; ● advance, protect our intellectual property portfolio; and ● hire, integrate, and retain highly
+skilled personnel across engineering, software, AI, machining, mission operations, and program management. If
+we fail to address the risks and difficulties that we face, including those associated with the challenges listed above as well as those
+described elsewhere in this “
+
+--- VENDORS ---
+vendors, no assurance can be given that these agreements will be effective in controlling
+access to and distribution of our technology and proprietary information. Further, these agreements do not prevent our competitors from
+independently developing technologies that are substantially equivalent or superior to our products. 15 Protecting
+and defending against intellectual property claims may have a material adverse effect on our business. Our
+success depends in part upon successful prosecution, maintenance, enforcement and protection of our owned and licensed intellectual property. To
+protect our intellectual property rights, we may be required to spend significant resources to monitor and protect these rights. Litigation
+may be necessary in the future to enforce our intellectual property rights and to protect our trade secrets. Such litigation could be
+costly, time-consuming and distracting to management and could result in the impairment or loss of portions of our intellectual property.
+Furthermore, our efforts to enforce our intellectual property rights may be met with defenses, counterclaims and countersuits attacking
+the validity and enforceability of our intellectual property rights. Our inability to protect our proprietary technology, as well as
+any costly litigation or diversion of our management’s attention and resources, could disrupt our business, as well as have a material
+adverse effect on our financial condition and results of operations. The results of intellectual property litigation are difficult to
+predict and may require us to stop using certain technologies or offering certain services or may result in significant damage awards
+or settlement costs. There is no guarantee that any action to defend, maintain or enforce our owned or licensed intellectual property
+rights will be successful, and an adverse result in any such proceeding could have a material adverse impact on our business, financial
+condition, operating results, and prospects. In
+addition, we may from time-to-time face allegations that we are infringing, misappropriating or otherwise violating the intellectual
+property rights of third parties, including the intellectual property rights of our competitors. We may be unaware of the intellectual
+property rights that others may claim cover some or all of our technology or services. Irrespective of the validity of any such claims,
+we could incur significant costs and diversion of resources in defending against them, and there is no guarantee any such defense would
+be successful, which could have a material adverse effect on our business, contracts, financial condition, operating results, liquidity,
+and prospects. Even
+if these matters do not result in litigation or are resolved in our favor or without significant cash settlements, these matters, and
+the time and resources necessary to litigate or resolve them, could divert the time and resources of our management team, and harm our
+business, our operating results and our reputation. The
+majority of our customer contracts may be terminated by the customer at any time for convenience as well as other provisions permitting
+the customer to discontinue contract performance for cause (for example, if we do not achieve certain milestones on a timely basis).
+If our contracts are terminated or if we experience any other contract-related risks, our results of operations may be adversely impacted.
+In addition, some of our customers are government entities, which subjects us to additional risks including early termination, audits,
+investigations, sanctions, and penalties. We
+are subject to a variety of contract-related risks. Some of our existing customer contracts, including those with the government, include
+provisions allowing the customers to terminate their contracts for convenience, with a termination penalty for at least the amounts already
+paid, or to terminate the contracts for cause (for example, if we do not achieve certain milestones on a timely basis). Customers that
+terminate such contracts may also be entitled to a pro rata refund of the amount of the customer’s deposit. In addition, some of
+our customers are pre-revenue startups or otherwise not fully established companies, which exposes us to a degree of counterparty credit
+risk. Part
+of our strategy is to market our space and satellite
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+raw materials and supplied components; ● performance
+    of our third-party contractors that support our future research and development activities; ● our
+    ability to maintain rights from third parties for intellectual properties critical to our future research and development activities; ● our
+    ability to fund and maintain our future research and development activities, particularly the development of various enhancements
+    that increase the data transfer capacity of our satellite; and We
+routinely conduct hazardous operations in testing our satellite subsystems, which could result in damage to property or persons. Unsatisfactory
+performance or failure of our satellites and related technology at launch or during operation could have a material adverse effect on
+our business, financial condition and results of operation. We
+manufacture and operate highly sophisticated products for the commercial space, aerospace and defense industries and conduct activities
+that depend on complex technology. Although there have been and will continue to be technological advances in spaceflight, our operations
+remain an inherently hazardous and risky activity. Launch failures, explosions and other accidents on launch or during flight have occurred
+for others and will likely occur in the future. While
+we have built operational processes to ensure that the design, manufacture, performance and servicing of our products and related technologies
+meet rigorous quality standards, there can be no assurance that we will not experience operational or process failures and other problems,
+including through manufacturing or design defects, cyber-attacks or other intentional acts, that could result in potential safety risks.
+We may experience a total loss of our customers’ payloads and our own payloads if there is an accident or failure at launch or
+during the journey into space, which could have a material adverse effect on our results of operations and financial condition. For some
+missions, we or our customers can elect to buy launch insurance, which can reduce our monetary losses from any launch failure, but even
+in this case we will have losses associated with our inability to test our technology in space and delays with further technology development.
+Any insurance we or our customers have may not be adequate to cover our or their loss, respectively. Any
+actual or perceived safety or reliability issues may result in significant reputational harm to our businesses, in addition to tort liability,
+maintenance, increased safety infrastructure and other costs that may arise. Such issues could result in delaying or cancelling planned
+launches, increased regulation or other systemic consequences. Our inability to meet our safety standards or adverse publicity affecting
+our reputation as a result of accidents, mechanical failures, damages to customer property or medical complications could have a material
+adverse effect on our business, financial condition and results of operation. 11 We
+may experience a total loss of our technology and products and our customers’ payloads if there is an accident on launch or during
+the journey into space, and any insurance we have may not be adequate to cover our loss. Although
+there have been and will continue to be technological advances in spaceflight, it is still an inherently dangerous activity. Explosions
+and other accidents on launch or during the flight have occurred and will likely occur in the future. If such incident should occur,
+we will likely experience a total loss of our systems, products, technologies and services and our customers’ payloads. The total
+or partial loss of one or more of our products or customer payloads could have a material adverse effect on our results of operations
+and financial condition. For some missions, we can elect to buy launch insurance, which can reduce our monetary losses from the launch
+failure, but even in this case we will have losses associated with our inability to test our technology in space and delays with further
+technology development. Our satellites and platform could fail to perform
+or perform at reduced levels of service because of technological malfunctions, satellite failures, or loss of connectivity, which could
+materially and adversely affect our business, financial condition and results of operations. The success of our business depends on the successful
+launch, deployment, and sustained operation of our satellites. Satellites are subject to significant operational risks while in orbit,
+including technical failures, component malfunctions, loss of connectivity, and damage from space debris or solar activity. We may experience
+a total loss of a satellite during launch or fail to maintain communication once in orbit. Additionally, even if successfully deployed,
+a satellite may suffer a premature “end-of-life” event or a degradation in performance that results in a permanent loss of connectivity
+and subsequent impairment. Any
+delays in the development and manufacture of satellites and related technology may adversely impact our business, financial condition
+and results of operations. We
+have previously experienced, and may experience in the future, delays or other complications in the design, manufacture, launch, production,
+delivery and servicing ramp of satellites and related technology. If delays like this arise or recur, if our remediation measures and
+process changes do not continue to be successful or if we experience issues with planned manufacturing improvements or design and safety,
+we could experience issues in sustaining the ramp of our spaceflight system or delays in increasing production further. If
+we encounter difficulties in scaling our delivery or servicing capabilities, if we fail to develop and successfully commercialize our
+satellites and related technologies, if we fail to develop such technologies before our competitors, or if such technologies fail to
+perform as expected, are inferior to those of our competitors or are perceived as less safe than those of our competitors, our business,
+financial condition and results of operations could be materially and adversely impacted. Our
+customized hardware and software may be difficult and expensive to service, upgrade or replace. Some
+of the hardware and software we use in operations is significantly customized and tailored to meet our requirements and specifications
+and could be difficult and expensive to service, upgrade or replace. Although we expect to maintain inventories of some spare parts,
+it nonetheless may be difficult, expensive or impossible to obtain replacement parts for the hardware due to a limited number of those
+parts being manufactured to our requirements and specifications. Also, our business plan contemplates updating or replacing some of the
+hardware and software in our network as technology advances, but the complexity of our requirements and specifications may present us
+with technical and operational challenges that complicate or otherwise make it expensive or infeasible to carry out such upgrades and
+replacements. If we are not able to suitably service, upgrade or replace our equipment, our ability to provide our services and therefore
+to generate revenue could be harmed. Our
+satellites may collide with space debris or another spacecraft, which could adversely affect our operations. Although
+we expect to comply with best practices and international orbital debris mitigation requirements to actively maneuver our satellites
+to avoid potential collisions with space debris or other spacecraft, these abilities are limited by, among other factors, uncertainties
+and inaccuracies in the projected orbit location of, and predicted collisions with, debris objects tracked and cataloged by governments
+or other entities. Additionally, some space debris is too small to be tracked and therefore its orbital location is unknown; nevertheless,
+this debris is still large enough to potentially cause severe damage or a failure of our satellites should a collision occur. If our
+satellites collide with space debris or other spacecraft, our products and services could be impaired. Also, a failure of one or more
+of our satellites or the occurrence of equipment failures, collision damage, or other related problems that may result during the de-orbiting
+process could constitute an uninsured loss and could materially harm our financial condition. If
+we are unable to adapt to and satisfy customer demands in a timely and cost-effective manner, or if we are unable to manufacture our
+products at a quantity and quality that our customers demand, our ability to grow our business may suffer. The
+success of our business depends in part on effectively managing and maintaining our space services, manufacturing our products, conducting
+a sufficient number of launches to meet customer demand and providing customers with an experience that meets or exceeds their expectations.
+Even if we succeed in developing our products and completing launches within our targeted timeline, we could thereafter fail to develop
+the ability to produce these products at quantity with a quality management system that ensures that each unit performs as required.
+Any delay in our ability to produce products or complete launches at rate and with a reliable quality management system could have a
+material adverse on our business. 12 If
+our current or future space services do not meet expected performance or quality standards, including with respect to customer safety
+and satisfaction, this could cause operational delays. Further, launching satellites within restricted airspace requires advance scheduling
+and coordination with government agencies and range owners and other users, and any high priority national defense assets will have priority
+in the use of these resources, which may impact our cadence of our space operations or could result in cancellations or rescheduling.
+Any operational or manufacturing delays or other unplanned changes to our ability to conduct our launches could have a material adverse
+effect on our business, financial condition and results of operations. We
+may be unable to manage our future growth effectively, which could make it difficult to execute our business strategy. If
+our operations continue to grow as planned, of which there can be no assurance, we will need to expand our sales and marketing, customer
+and commercial strategy, products and services, supply, and manufacturing and distribution functions and initiate research and development.
+We will also need to continue to leverage our manufacturing and operational systems and processes, and there is no guarantee that we
+will be able to scale the business and the manufacture of spacecraft as currently planned or within the planned timeframe. The continued
+expansion of our business may also require additional manufacturing and operational facilities, as well as space for administrative support,
+and there is no guarantee that we will be able to find suitable locations or partners for the manufacture and operation of our products. Our
+continued growth could increase the strain on our resources, and we could experience operating difficulties, including difficulties in
+hiring, training and managing an increasing number of employees, finding manufacturing capacity to produce our products and related equipment,
+and delays in production and launches. These difficulties may result in the erosion of our brand image, divert the attention of management
+and key employees and impact financial and operational results. In addition, in order to continue to expand our presence around the globe,
+we expect to incur substantial expenses as we continue to attempt to streamline our manufacturing process, increase our launch cadence,
+hire more employees, and fund research and development efforts relating to new products and technologies and expand our business. If
+we are unable to drive commensurate growth, these costs, which include lease commitments, headcount and capital assets, could result
+in decreased margins, which could have a material adverse effect on our business, financial condition and results of operations. Our
+prospects and operations may be adversely affected by changes in consumer preferences and economic conditions that affect demand for
+satellite services. Because
+our business is currently concentrated on commercial satellite manufacturing, launch and data services, we are vulnerable to changes
+in consumer preferences or other market changes. The global economy has in the past, and will in the future, experience recessionary
+periods and periods of economic instability. During such periods, our potential customers may choose not to expend the amounts that we
+anticipate based on our expectations with respect to the addressable market for satellite services. There could be a number of other
+effects from adverse general business and economic conditions on our business, including insolvency of any of our third-party suppliers
+or contractors, decreased consumer confidence, decreased discretionary spending and reduced customer or governmental demand for satellites
+and other products we produce, which could have a material adverse effect on our business, financial condition and results of operations. Adverse
+publicity stemming from any incident involving us or our competitors, could have a material adverse effect on our business, financial
+condition and results of operations. We
+are at risk of adverse publicity stemming from any public incident involving our company, our people or our brand. If any of our launch
+partners’ vehicles or our satellites or those of one of our competitors were to be involved in a public incident, accident or catastrophe,
+this could create an adverse public perception of satellite launch or manufacturing activities and result in decreased customer demand
+for launch and satellite services, which could cause a material adverse effect on our business, financial conditions and results of operations.
+Further, if our launch partners’ vehicles or rockets were to be involved in a public incident, accident or catastrophe, we could
+be exposed to significant reputational harm or potential legal liability. Any reputational harm to our business could cause customers
+with existing contracts with us to cancel their contracts and could significantly impact our ability to make future sales. The insurance
+we carry may be inapplicable or inadequate to cover any such incident, accident or catastrophe. In the event that our insurance is inapplicable
+or not adequate, we may be forced to bear substantial losses from an incident or accident. 13 If
+we are unable to maintain relationships with our existing launch partners or enter into relationships with new launch partners, we may
+be unable to reach our targeted annual launch rate, which could have an adverse effect on our ability to grow our business. We
+do not own or operate our own launch vehicles. We rely on third party launch partners to launch our and our customers’ satellites.
+We may in the future experience delays in our efforts to secure additional launch partners. Challenges as a result of regulatory processes
+or in the ability of our partners to secure the necessary permissions to establish launch sites could delay our ability to achieve our
+target cadence and could adversely affect our business. We
+are dependent on third-party launch vehicles to deliver our systems, products, and technologies into space. If the number of companies
+offering launch services or the number of launches does not grow in the future or there is a consolidation among companies who offer
+these services, this could result in a shortage of space on these launch vehicles, which may cause delays in our ability to meet our
+customers’ needs. Additionally, a shortage of space available on launch vehicles may cause prices to increase or cause delays in
+our ability to meet our customers’ needs. Either of these situations could have a material adverse effect on our results of operations
+and financial condition. Further,
+if a launch is delayed, our timing for recognition of revenue may be impacted depending on the length of the delay and the nature of
+the contract with the customers with payloads on such delayed flight. Such a delay in recognizing revenue could materially impact our
+financial statements or result in negative impacts to our earnings during a specified time period, which could have a material effect
+on our results of operations and financial condition. We
+rely on a limited number of suppliers for certain raw materials and supplied components. We may not be able to obtain sufficient raw
+materials or supplied components to meet our manufacturing and operating needs, or obtain such materials on favorable terms, which could
+impair our ability to fulfill our orders in a timely manner or increase our costs of production. Our
+ability to manufacture our products is dependent upon sufficient availability of raw materials and supplied components, which we secure
+from a limited number of suppliers. Our reliance on suppliers to secure these raw materials and supplied components exposes us to volatility
+in the prices and availability of these materials. We may not be able to obtain sufficient supply of raw materials or supplied components,
+on favorable terms or at all, which could result in delays in manufacture of our products or increased costs. In
+addition, we have in the past and may in the future experience delays in manufacture or operation as we go through the requalification
+process with any replacement third-party supplier, as well as the limitations imposed by International Traffic in Arms Regulations and
+other restrictions on transfer of sensitive technologies. Additionally, the imposition of tariffs on such raw materials or supplied components
+could have a material adverse effect on our operations. Prolonged disruptions in the supply of any of our key raw materials or components,
+difficulty qualifying new sources of supply, implementing use of replacement materials or new sources of supply or any volatility in
+prices could have a material adverse effect on our ability to operate in a cost-efficient, timely manner and could cause us to experience
+cancellations or delays of scheduled launches, customer cancellations or reductions in our prices and margins, any of which could harm
+our business, financial condition and results of operations. Failure
+of third-party contractors could adversely affect our business. We
+are dependent on various third-party contractors to develop and provide certain of our components of and processes to our products. Should
+we experience complications with any of these components and services, we may need to delay our manufacturing activities or delay or
+cancel scheduled launches. We face the risk that any of our contractors may not fulfill their contracts and deliver their products or
+services on a timely basis, or at all. We have in the past experienced, and may in the future experience, operational complications with
+our contractors. The ability of our contractors to effectively satisfy our requirements could also be impacted by such contractors’
+financial difficulty or damage to their operations caused by fire, terrorist attack, natural disaster, or other events. The failure of
+any contractors to perform to our expectations could result in shortages of certain manufacturing or operational components for our spacecraft
+or delays in spaceflights and harm our business. Our reliance on contractors and inability to fully control any operational difficulties
+with our third-party contractors could have a material adverse effect on our business, financial condition, and results of operations. We
+expect to face intense competition in the commercial space market and other industries in which we may operate. We
+face intense competition in the commercial space market and amongst our competitors. Currently, our primary competitors in the commercial
+satellite market are Blacksky, Spire, Hawkeye 360, LoftOrbital, York Aerospace Systems and IceEye. In addition, we are aware of a significant
+number of entities actively engaged in developing commercial launch capabilities for small and medium sized satellite payloads, including
+ABL, Rocketlab, Blue Origin, United Launch Alliance and Firefly, among others. Many of our current and potential competitors are larger
+and have substantially greater financial or other resources than we currently have or expect to have in the future and thus may be better
+positioned to exploit the market need for small payloads and targeted orbital delivery, which is the focus of our business. They may
+also be able to devote greater resources to the development of their current and future technologies, which could overlap with our technologies,
+or the promotion and sale of their products and services. Our competitors could offer small launch vehicles at lower prices, which could
+undercut our business strategy and potential competitive edge. Our current and potential competitors may also establish cooperative or
+strategic relationships amongst themselves or with third parties that may further enhance their resources and offerings relative to ours.
+Further, it is possible that domestic or foreign companies or governments, some with greater experience in the aerospace industry or
+greater financial resources than we possess, will seek to provide products or services that compete directly or indirectly with ours
+in the future. Any such foreign competitor, for example, could benefit from subsidies from, or other protective measures by, its home
+country. 14 We
+believe our ability to compete successfully as a commercial provider of launch and satellite services does and will depend on a number
+of factors, which may change in the future due to increased competition, including the price of our products and services, consumer satisfaction
+for the experiences we offer, and the frequency and availability of our products and services. If we are unable to compete successfully,
+our business, financial condition and results of operations could be adversely affected. We
+may in the future invest significant resources in developing new service offerings and exploring the application of our proprietary technologies
+for other uses and those opportunities may never materialize. While
+our primary focus for the foreseeable future will be on our commercial launch activities, increasing our launch cadence, and fully expanding
+our satellite operations center, we may also invest significant resources in developing new technologies, services, products, and offerings.
+However, we may not realize the expected benefits of these investments. These anticipated technologies, however, are unproven and these
+products or technologies may never materialize or be commercialized in a way that would allow us to generate ancillary revenue streams.
+Relatedly, if such technologies become viable offerings in the future, we may be subject to competition from our competitors within the
+commercial launch and satellite industries, some of which may have substantially greater monetary and knowledge resources than we have
+and expect to have in the future to devote to the development of these technologies. Such competition or any limitations on our ability
+to take advantage of such technologies could impact our market share, which could have a material adverse effect on our business, financial
+condition, and results of operations. Such
+research and development initiatives may also have a high degree of risk and involve unproven business strategies and technologies with
+which we have limited operating or development experience. They may involve claims and liabilities (including, but not limited to, personal
+injury claims), expenses, regulatory challenges, and other risks that we may not be able to anticipate. There can be no assurance that
+customer demand for such initiatives will exist or be sustained at the levels that we anticipate, or that any of these initiatives will
+gain sufficient traction or market acceptance to generate sufficient revenue to offset any new expenses or liabilities associated with
+these new investments. Further, any such research and development efforts could distract management from current operations and would
+divert capital and other resources from our more established offerings and technologies. Even if we were to be successful in developing
+new products, services, offerings or technologies, regulatory authorities may subject us to new rules or restrictions in response to
+our innovations that may increase our expenses or prevent us from successfully commercializing new products, services, offerings, or
+technologies. If
+we fail to adequately protect our proprietary intellectual property rights, our competitive position could be impaired and we may lose
+valuable assets, generate reduced revenue and incur costly litigation to protect our rights. Our
+success depends, in part, on our ability to protect our proprietary intellectual property rights, including certain methodologies, practices,
+tools, technologies and technical expertise we utilize in designing, developing, implementing, and maintaining applications and processes
+used in our satellite systems and related technologies. To date, we have relied primarily on trade secrets and other intellectual property
+laws, non-disclosure agreements with our employees, consultants and other relevant persons and other measures to protect our intellectual
+property and intend to continue to rely on these and other means, including patent protection, in the future. However, the steps we take
+to protect our intellectual property may be inadequate, and we may choose not to pursue or maintain protection for our intellectual property
+in the United States or foreign jurisdictions. We will not be able to protect our intellectual property if we are unable to enforce our
+rights or if we do not detect unauthorized use of our intellectual property. Despite our precautions, it may be possible for unauthorized
+third parties to copy our technology and use information that we regard as proprietary to create technology that competes with ours. Further,
+the laws of some countries do not protect proprietary rights to the same extent as the laws of the United States, and mechanisms for
+enforcement of intellectual property rights in some foreign countries may be inadequate. To the extent we expand our international activities,
+our exposure to unauthorized copying and use of our technologies and proprietary information may increase. Accordingly, despite our efforts,
+we may be unable to prevent third parties from infringing upon, misappropriating or otherwise violating our technology and intellectual
+property. We
+rely in part on trade secrets, proprietary know-how and other confidential information to maintain our competitive position. Although
+we enter into non-disclosure and invention assignment agreements with our employees, enter into non-disclosure agreements with our customers,
+consultants, and other parties with whom we have strategic relationships and business alliances and enter into intellectual property
+assignment agreements with our consultants and vendors, no assurance can be given that these agreements will be effective in controlling
+access to and distribution of our technology and proprietary information. Further, these agreements do not prevent our competitors from
+independently developing technologies that are substantially equivalent or superior to our products. 15 Protecting
+and defending against intellectual property claims may have a material adverse effect on our business. Our
+success depends in part upon successful prosecution, maintenance, enforcement and protection of our owned and licensed intellectual property. To
+protect our intellectual property rights, we may be required to spend significant resources to monitor and protect these rights. Litigation
+may be necessary in the future to enforce our intellectual property rights and to protect our trade secrets. Such litigation could be
+costly, time-consuming and distracting to management and could result in the impairment or loss of portions of our intellectual property.
+Furthermore, our efforts to enforce our intellectual property rights may be met with defenses, counterclaims and countersuits attacking
+the validity and enforceability of our intellectual property rights. Our inability to protect our proprietary technology, as well as
+any costly litigation or diversion of our management’s attention and resources, could disrupt our business, as well as have a material
+adverse effect on our financial condition and results of operations. The results of intellectual property litigation are difficult to
+predict and may require us to stop using certain technologies or offering certain services or may result in significant damage awards
+or settlement costs. There is no guarantee that any action to defend, maintain or enforce our owned or licensed intellectual property
+rights will be successful, and an adverse result in any such proceeding could have a material adverse impact on our business, financial
+condition, operating results, and prospects. In
+addition, we may from time-to-time face allegations that we are infringing, misappropriating or otherwise violating the intellectual
+property rights of third parties, including the intellectual property rights of our competitors. We may be unaware of the intellectual
+property rights that others may claim cover some or all of our technology or services. Irrespective of the validity of any such claims,
+we could incur significant costs and diversion of resources in defending against them, and there is no guarantee any such defense would
+be successful, which could have a material adverse effect on our business, contracts, financial condition, operating results, liquidity,
+and prospects. Even
+if these matters do not result in litigation or are resolved in our favor or without significant cash settlements, these matters, and
+the time and resources necessary to litigate or resolve them, could divert the time and resources of our management team, and harm our
+business, our operating results and our reputation. The
+majority of our customer contracts may be terminated by the customer at any time for convenience as well as other provisions permitting
+the customer to discontinue contract performance for cause (for example, if we do not achieve certain milestones on a timely basis).
+If our contracts are terminated or if we experience any other contract-related risks, our results of operations may be adversely impacted.
+In addition, some of our customers are government entities, which subjects us to additional risks including early termination, audits,
+investigations, sanctions, and penalties. We
+are subject to a variety of contract-related risks. Some of our existing customer contracts, including those with the government, include
+provisions allowing the customers to terminate their contracts for convenience, with a termination penalty for at least the amounts already
+paid, or to terminate the contracts for cause (for example, if we do not achieve certain milestones on a timely basis). Customers that
+terminate such contracts may also be entitled to a pro rata refund of the amount of the customer’s deposit. In addition, some of
+our customers are pre-revenue startups or otherwise not fully established companies, which exposes us to a degree of counterparty credit
+risk. Part
+of our strategy is to market our space and satellite manufacturing and launch and data services to key government customers. We expect
+we may derive limited revenue from contracts with NASA and the U.S. government and may enter into further contracts with the U.S. or
+foreign governments in the future, and this subjects us to statutes and regulations applicable to companies doing business with the U.S.
+government, including the Federal Acquisition Regulation. These U.S. government contracts customarily contain provisions that give the
+government substantial rights and remedies, many of which are not typically found in commercial contracts, and which are unfavorable
+to contractors. For instance, most U.S. government agencies include provisions that allow the government to unilaterally terminate or
+modify contracts for convenience, in which case the counterparty to the contract may generally recover only its incurred or committed
+costs and settlement expenses and profit on work completed prior to the termination. If the government terminates a contract for default,
+the defaulting party may be liable for any extra costs incurred by the government in procuring undelivered items from another source. 16 Our
+government contracts may be subject to the approval of appropriations being made by the U.S. Congress to fund the expenditures under
+these contracts. In addition, government contracts normally contain additional requirements that may increase our costs of doing business,
+reduce our profits, and expose us to liability for failure to comply with these terms and conditions. These requirements include, for
+example: ● specialized
+    disclosure and accounting requirements unique to government contracts; ● financial
+    and compliance audits that may result in potential liability for price adjustments, recoupment of government funds after such funds
+    have been spent, civil and criminal penalties, or administrative sanctions such as suspension or debarment from doing business with
+    the U.S. government; ● public
+    disclosures of certain contract and company information; and ● mandatory
+    socioeconomic compliance requirements, including labor requirements, non-discrimination and affirmative action programs and environmental
+    compliance requirements. Government
+contracts are also generally subject to greater scrutiny by the government, which can initiate reviews, audits, and investigations regarding
+our compliance with government contract requirements. In addition, if we fail to comply with government contract laws, regulations and
+contract requirements, our contracts may be subject to termination, and we may be subject to financial and/or other liability under our
+contracts, the Federal Civil False Claims Act (including treble damages and other penalties), or criminal law. In particular, the False
+Claims Act’s “whistleblower” provisions also allow private individuals, including present and former employees, to
+sue on behalf of the U.S. government. Any penalties, damages, fines, suspension, or damages could adversely affect our ability to operate
+our business and our financial results. If any customer were to unexpectedly terminate, cancel, or decline to exercise an option to renew
+with respect to one or more of our significant contracts for any reason, including as a result of our failure to meet certain performance
+milestones, or if a government customer were to suspend or debar us from doing business with such government, our business, financial
+condition, and results of operations would be materially harmed. If
+we commercialize outside the United States, we will be exposed to a variety of risks associated with international operations that could
+materially and adversely affect our business. As
+part of our growth, we aim to establish offices and partnerships outside of the United States. We plan to continue to build our pipeline
+of global customers to include joint ventures and strategic partnerships. As we expand internationally, we expect that we would be subject
+to additional risks related to entering into international business relationships, including: ● restructuring
+    our operations to comply with local regulatory regimes; ● identifying,
+    hiring and training highly skilled personnel; ● unexpected
+    changes in tariffs, trade barriers and regulatory requirements, including through the International Traffic in Arms Regulations,
+    or ITAR, Export Administration Regulations, or EAR, and Office of Foreign Assets Control, or OFAC; ● economic
+    weakness, including inflation, or political instability in foreign economies and markets; ● compliance
+    with tax, employment, immigration, and labor laws for employees living or traveling abroad; ● foreign
+    taxes, including withholding of payroll taxes; ● the
+    need for U.S. government approval to operate our spaceflight systems outside the United States; ● foreign
+    currency fluctuations, which could result in increased operating expenses and reduced revenue; ● government
+    appropriation of assets; ● workforce
+    uncertainty in countries where labor unrest is more common than in the United States; and ● disadvantages
+    of competing against companies from countries that are not subject to U.S. laws and regulations, including the U.S. Foreign Corrupt
+    Practices Act, or FCPA, OFAC regulations and U.S. anti-money laundering regulations, as well as exposure of our foreign operations
+    to liability under these regulatory regimes. 17 Our
+business is subject to a wide variety of extensive and evolving government laws and regulations. Failure to comply with such laws and
+regulations could have a material adverse effect on our business. We
+are subject to a wide variety of laws and regulations relating to various aspects of our business, including with respect to our satellite
+system operations, employment and labor, health care, tax, privacy and data security, health and safety, and environmental issues. Laws
+and regulations at the foreign, federal, state, and local levels frequently change, especially in relation to new and emerging industries,
+and we cannot always reasonably predict the impact from, or the ultimate cost of compliance with, current or future regulatory or administrative
+changes. We monitor these developments and devote a significant amount of management’s time and external resources towards compliance
+with these laws, regulations and guidelines, and such compliance places a significant burden on management’s time and other resources,
+and it may limit our ability to expand into certain jurisdictions. Moreover, changes in law, the imposition of new or additional regulations
+or the enactment of any new or more stringent legislation that impacts our business could require us to change the way we operate and
+could have a material adverse effect on our sales, profitability, cash flows and financial condition. Failure
+to comply with these laws, such as with respect to obtaining and maintaining licenses, certificates, authorizations and permits critical
+for the operation of our business, may result in civil penalties or private lawsuits, or the suspension or revocation of licenses, certificates,
+authorizations or permits, which would prevent us from operating our business. For example, deploying space assets such as satellites
+in the United States require licenses and permits from certain agencies of the Department of Transportation, including the Federal Aviation
+Administration, or FAA, and review by other agencies of the U.S. Government, including the National Oceanic and Atmospheric Administration,
+or “NOAA”, the Department of Defense, Department of State, NASA, Federal Communications Commission, or the “FCC”
+and the International Telecommunications Union, or the “ITU”. License approval includes an interagency review of safety,
+operational, national security, and foreign policy and international obligations implications, as well as a review of foreign ownership.
+Delays in licensing and approvals allowing us to deploy our commercial satellites could adversely affect our ability to operate our business
+and our financial results. Moreover,
+regulation of our industry is still evolving, and new or different laws or regulations could affect our operations, increase direct compliance
+costs for us or cause any third-party suppliers or contractors to raise the prices they charge us because of increased compliance costs.
+Application of these laws to our business may negatively impact our performance in various ways, limiting the collaborations we may pursue,
+further regulating the export and re-export of our products, services, and technology from the United States and abroad, and increasing
+our costs and the time necessary to obtain required authorization. The adoption of a multi-layered regulatory approach to any one of
+the laws or regulations to which we are or may become subject, particularly where the layers are in conflict, could require alteration
+of our manufacturing processes or operational parameters which may adversely impact our business. We may not be in complete compliance
+with all such requirements at all times and, even when we believe we are in complete compliance, a regulatory agency may determine that
+we are not. The timing of our satellite deployments may depend on the ability of our partners to secure regulatory licenses from the
+FAA and the FCC/ITU . A
+component of our near-term strategy involves increasing our launch cadence by accelerating our development and production efforts and
+adding additional launch partners. Our ability to achieve this increased launch cadence within the timeframe in which we hope to do so
+will depend on the ability of our launch partners to secure the necessary regulatory licenses from the FAA, the FCC/ITU and other regulatory
+authorities. If our launch partners fail to obtain the licenses necessary to support our anticipated launch cadence, or any delays or
+hurdles that present in our interactions with the FAA, the FCC/ITU or other regulatory authorities, could impact our ability to grow
+our business, could delay our ability to execute on our existing and future customer contracts and could adversely affect our business
+and results of operations. We
+are subject to stringent U.S. export and import control laws and regulations. Unfavorable changes in these laws and regulations or U.S.
+government licensing policies, our failure to secure timely U.S. government authorizations under these laws and regulations, or our failure
+to comply with these laws and regulations could have a material adverse effect on our business, financial condition, and results of operation. Our
+business is subject to stringent U.S. import and export control laws and regulations as well as economic sanctions laws and regulations.
+We are required to import and export our products, software, technology, and services, as well as run our operations in the United States,
+in full compliance with such laws and regulations, which include the EAR, the ITAR, and economic sanctions administered by the Treasury
+Department’s OFAC. Similar laws that impact our business exist in other jurisdictions. These foreign trade controls prohibit, restrict,
+or regulate our ability to, directly or indirectly, export, deemed export, re-export, deemed re-export or transfer certain hardware,
+technical data, technology, software, or services to certain countries and territories, entities, and individuals, and for end uses.
+If we are found to be in violation of these laws and regulations, it could result in civil and criminal, monetary and non-monetary penalties,
+the loss of export or import privileges, debarment, and reputational harm. 18 Pursuant
+to these foreign trade control laws and regulations, we are required, among other things, to (i) maintain a registration under the ITAR,
+(ii) determine the proper licensing jurisdiction and export classification of products, software, and technology, and (iii) obtain licenses
+or other forms of U.S. government authorization to engage in the conduct of our spaceflight business. The authorization requirements
+include the need to get permission to release controlled technology to foreign person employees and other foreign persons. Changes in
+U.S. foreign trade control laws and regulations, or reclassifications of our products or technologies, may restrict our operations. The
+inability to secure and maintain necessary licenses and other authorizations could negatively impact our ability to compete successfully
+or to operate our spaceflight business as planned. Any changes in the export control regulations or U.S. government licensing policy,
+such as those necessary to implement U.S. government commitments to multilateral control regimes, may restrict our operations. Given
+the great discretion the government has in issuing or denying such authorizations to advance U.S. national security and foreign policy
+interests, there can be no assurance we will be successful in our future efforts to secure and maintain necessary licenses, registrations,
+or other U.S. government regulatory approvals. Under
+the “Exon-Florio Amendment” to the U.S. Defense Production Act of 1950, as amended (the “DPA”), the U.S. President
+has the power to disrupt or block certain foreign investments in U.S. businesses if he determines that such a transaction threatens U.S.
+national security. The Committee on Foreign Investment in the United States (“CFIUS”) has been delegated the authority to
+conduct national security reviews of certain foreign investments. CFIUS may impose mitigation conditions to grant clearance of a transaction. The
+Foreign Investment Risk Review Modernization Act (“FIRRMA”), enacted in 2018, amended the DPA to, among other things, expand
+CFIUS’s jurisdiction beyond acquisitions of control of U.S. businesses. Under FIRRMA, CFIUS also has jurisdiction over certain
+foreign non-controlling investments in U.S. businesses that are involved with critical technology or critical infrastructure, or that
+collect and maintain sensitive personal data of U.S. citizens (“TID U.S. Businesses”), if the foreign investor receives specified
+triggering rights in connection with its investment. We are a TID U.S. Business because we develop and design technologies that would
+be considered critical technologies. Certain foreign investments in TID U.S. Businesses are subject to mandatory filing with CFIUS. These
+restrictions on the ability of foreign persons to invest in us could limit our ability to engage in strategic transactions that could
+benefit our stockholders, including a change of control, and could also affect the price that an investor may be willing to pay for our
+common stock. Failure
+to comply with federal, state, and foreign laws and regulations relating to privacy, data protection and consumer protection, or the
+expansion of current or the enactment of new laws or regulations relating to privacy, data protection and consumer protection, could
+adversely affect our business and our financial condition. We
+collect, store, process, and use personal information and other customer data, and we rely in part on third parties that are not directly
+under our control to manage certain of these operations and to collect, store, process and use payment information. Due to the volume
+and sensitivity of the personal information and data we and these third parties manage and expect to manage in the future, as well as
+the nature of our customer base, the security features of our information systems are critical. A variety of federal, state, and foreign
+laws and regulations govern the collection, use, retention, sharing and security of this information. Laws and regulations relating to
+privacy, data protection and consumer protection are evolving and subject to potentially differing interpretations. These requirements
+may not be harmonized, may be interpreted, and applied in a manner that is inconsistent from one jurisdiction to another or may conflict
+with other rules or our practices. As a result, our practices may not have complied or may not comply in the future with all such laws,
+regulations, requirements, and obligations. We
+expect that new industry standards, laws and regulations will continue to be proposed regarding privacy, data protection and information
+security in many jurisdictions. We cannot yet determine the impact such future laws, regulations and standards may have on our business.
+Complying with these evolving obligations is costly. As
+we expand our international presence, we may also become subject to additional privacy rules, many of which, such as the General Data
+Protection Regulation promulgated by the European Union (the “GDPR”) and national laws supplementing the GDPR, such as in
+the United Kingdom, are significantly more stringent than those currently enforced in the United States. The law requires companies to
+meet stringent requirements regarding the handling of personal data of individuals located in the EEA. These more stringent requirements
+include expanded disclosures to inform customers about how we may use their personal data through external privacy notices, increased
+controls on profiling customers and increased rights for data subjects (including customers and employees) to access, control and delete
+their personal data. In addition, there are mandatory data breach notification requirements. The law also includes significant penalties
+for non-compliance, which may result in monetary penalties of up to the higher of €20.0 million or 4% of a group’s worldwide
+turnover for the preceding financial year for the most serious violations. The GDPR and other similar regulations require companies to
+give specific types of notice and informed consent is required for the placement of a cookie or similar technologies on a user’s
+device for online tracking for behavioral advertising and other purposes and for direct electronic marketing, and the GDPR also imposes
+additional conditions in order to satisfy such consent, such as a prohibition on pre-checked tick boxes and bundled consents, thereby
+requiring customers to affirmatively consent for a given purpose through separate tick boxes or other affirmative action. 19 A
+significant data breach or any failure, or perceived failure, by us to comply with any federal, state or foreign privacy or consumer
+protection-related laws, regulations or other principles or orders to which we may be subject or other legal obligations relating to
+privacy or consumer protection could adversely affect our reputation, brand and business, and may result in claims, investigations, proceedings
+or actions against us by governmental entities or others or other penalties or liabilities or require us to change our operations and/or
+cease using certain data sets. Depending on the nature of the information compromised, we may also have obligations to notify users,
+law enforcement or payment companies about the incident and may need to provide some form of remedy, such as refunds, for the individuals
+affected by the incident. Failures
+in our technology infrastructure could damage our business, reputation and brand and substantially harm our business and results of operations. If
+our main data center were to fail, or if we were to suffer an interruption or degradation of services at our main data center, we could
+lose important manufacturing and technical data, which could harm our business. Our facilities are vulnerable to damage or interruption
+from earthquakes, hurricanes, floods, fires, cyber security attacks, terrorist attacks, power losses, telecommunications failures, and
+similar events. In the event that our or any third-party provider’s systems or service abilities are hindered by any of the events
+discussed above, our ability to operate may be impaired. A decision to close the facilities without adequate notice, or other unanticipated
+problems, could adversely impact our operations. Any of the aforementioned risks may be augmented if our or any third-party provider’s
+business continuity and disaster recovery plans prove to be inadequate. The facilities also could be subject to break-ins, computer viruses,
+sabotage, intentional acts of vandalism and other misconduct. Any security breach, including personal data breaches, or incident, including
+cybersecurity incidents, that we experience could result in unauthorized access to, misuse of or unauthorized acquisition of our or our
+customers’ data, the loss, corruption or alteration of this data, interruptions in our operations or damage to our computer hardware
+or systems or those of our customers. Moreover, negative publicity arising from these types of disruptions could damage our reputation.
+We may not carry sufficient business interruption insurance to compensate us for losses that may occur as a result of any events that
+cause interruptions in our service. Significant unavailability of our services due to attacks could cause users to cease using our services
+and materially and adversely affect our business, prospects, financial condition, and results of operations. We
+are highly dependent on our senior management team and other highly skilled personnel, and if we are not successful in attracting or
+retaining highly qualified personnel, we may not be able to successfully implement our business strategy. Our
+success depends, in significant part, on the continued services of our senior management team and on our ability to attract, motivate,
+develop, and retain a sufficient number of other highly skilled personnel, including engineers, manufacturing and quality assurance,
+design, finance, marketing, sales and support personnel. Our senior management team has extensive experience in the aerospace industry,
+and we believe that their depth of experience is instrumental to our continued success. The loss of any one or more members of our senior
+management team, for any reason, including resignation or retirement, could impair our ability to execute our business strategy and have
+a material adverse effect on our business, financial condition, and results of operations. Competition
+for qualified highly skilled personnel can be strong, and we can provide no assurance that we will be successful in attracting or retaining
+such personnel now or in the future. We have not yet started production level satellite manufacturing, launch and data operations, and
+our estimates of the required team size to support our estimated flight rates may require increases in staffing levels that may require
+significant capital expenditure. Further, any inability to recruit, develop and retain qualified employees may result in high employee
+turnover and may force us to pay significantly higher wages, which may harm our profitability. Additionally, we only carry key man insurance
+for our Chief Executive Officer, and the loss of any key employee or our inability to recruit, develop and retain these individuals as
+needed, could have a material adverse effect on our business, financial condition, and results of operations. Any
+acquisitions, partnerships, or joint ventures that we enter into could disrupt our operations and have a material adverse effect on our
+business, financial condition and results of operations. From
+time to time, we may evaluate potential strategic acquisitions of businesses, including partnerships or joint ventures with third parties,
+both domestic and international. We may not be successful in identifying acquisition, partnership, and joint venture candidates. In addition,
+we may not be able to continue the operational success of such businesses or successfully finance or integrate any businesses that we
+acquire or with which we form a partnership or joint venture. We may have potential write-offs of acquired assets and/or an impairment
+of any goodwill recorded as a result of acquisitions. Furthermore, the integration of any acquisition may divert management’s time
+and resources from our core business and disrupt our operations or may result in conflicts with our business. Any acquisition, partnership
+or joint venture may not be successful, may reduce our cash reserves, may negatively affect our earnings and financial performance and,
+to the extent financed with the proceeds of debt, may increase our indebtedness. We cannot ensure that any acquisition, partnership,
+or joint venture we make will not have a material adverse effect on our business, financial condition, and results of operations. 20 We
+may experience difficulties in integrating the operations of acquired companies into our business and in realizing the expected benefits
+of these acquisitions. Acquisitions
+involve numerous risks, any of which could harm our business and negatively affect our financial condition and results of operations.
+The success of any acquisition will depend in part on our ability to realize the anticipated business opportunities from combining their
+and our operations in an efficient and effective manner. These integration processes could take longer than anticipated and could result
+in the loss of key employees, the disruption of each company’s ongoing businesses, tax costs or inefficiencies, or inconsistencies
+in standards, controls, information technology systems, procedures and policies, any of which could adversely affect our ability to maintain
+relationships with customers, employees or other third parties, or our ability to achieve the anticipated benefits of the acquisitions,
+and could harm our financial performance. If we are unable to successfully or timely integrate the operations of an acquired company
+with our business, we may incur unanticipated liabilities and be unable to realize the revenue growth, synergies and other anticipated
+benefits resulting from the acquisitions, or fully offset the costs of the acquisition, and our business, results of operations and financial
+condition could be materially and adversely affected. We
+are subject to many hazards and operational risks that can disrupt our business, including interruptions or disruptions in service at
+our primary facilities, which could have a material adverse effect on our business, financial condition, and results of operations. Our
+operations are subject to many hazards and operational risks inherent to our business, including general business risks, product liability
+and damage to third parties, our infrastructure or properties that may be caused by fires, floods and other natural disasters, power
+losses, telecommunications failures, terrorist attacks, human errors and similar events. Additionally, our manufacturing operations are
+hazardous at times and may expose us to safety risks, including environmental risks and health and safety hazards to our employees or
+third parties. Moreover,
+our operations are entirely based in and around our Cape Canaveral, Florida facility, where our machine shop, production facilities,
+administrative offices, and engineering functions are located. Any significant interruption due to any of the above hazards and operational
+to the manufacturing or operation of our facilities, including from weather conditions, growth constraints, performance by third-party
+providers (such as electric, utility or telecommunications providers), failure to properly handle and use hazardous materials, failure
+of computer systems, power supplies, fuel supplies, infrastructure damage, disagreements with the owners of the land on which our facilities
+are located could result in manufacturing delays or the delay or cancellation of our planned commercial satellite launches and, as a
+result, could have a material adverse effect on our business, financial condition and results of operations. In
+addition, our insurance coverage may be inadequate to cover our liabilities related to such hazards or operational risks. Moreover, we
+may not be able to maintain adequate insurance in the future at rates we consider reasonable and commercially justifiable, and insurance
+may not continue to be available on terms as favorable as our current arrangements. The occurrence of a significant uninsured claim,
+or a claim in excess of the insurance coverage limits maintained by us, could harm our business, financial condition and results of operations. We
+have not historically obtained and may not maintain launch or in-orbit insurance coverage for our satellites to address the risk of potential
+systemic anomalies, failures, collisions with our satellites or other satellites or debris, or catastrophic events affecting the existing
+satellite system. If one or more of our launches result in catastrophic failure or one or more of our in-orbit satellites or payloads
+fail, and we have not obtained insurance coverage, we could be required to record significant impairment charges for the satellite or
+payload. We
+have not historically obtained and may not maintain launch or in-orbit insurance coverage for our satellites to address the risk of potential
+systemic anomalies, failures, collisions with our satellites or other satellites or debris, or catastrophic events affecting the existing
+satellite system. If one or more of our in-orbit uninsured satellites or payloads fail, or one or more of our uninsured satellites is
+destroyed during failed launch, we could be required to record significant impairment charges for the satellite or payload. We may review
+the purchase of launch insurance on a case-by-case basis evaluating the launch history of our launch provider, number of satellites to
+be deployed on the launch vehicle, the status of our on-orbit satellite fleet, our ability to launch additional satellites in the near
+term, and the cost of insurance, among other factors. As a result of our case-by-case evaluation process, we have procured launch insurance
+for our next four upcoming launches, which policies are subject to the typical terms and conditions regarding, among other things, cancellation
+and scope of coverage. We do not maintain third-party liability insurance with respect to our satellites. Accordingly, we currently have
+no insurance to cover any third-party damages that may be caused by any of our satellites, including personal and property insurance.
+If we experience significant uninsured losses, such events could have a material adverse impact on our business, financial condition
+and results of operations. 21 Natural
+disasters, unusual weather conditions, epidemic outbreaks, global health crises, terrorist acts and political events could disrupt our
+business and flight schedule. The
+occurrence of one or more natural disasters such as tornadoes, hurricanes, fires, floods and earthquakes, unusual weather conditions,
+epidemic outbreaks, terrorist attacks or disruptive political events in certain regions where our facilities are located, or where our
+third-party contractors’ and suppliers’ facilities are located, could adversely affect our business, financial condition,
+and results of operations. Severe weather, such as rainfall, snowfall, or extreme temperatures, may impact the ability of our satellite
+launch and data services to be carried out as planned, resulting in additional expense to reschedule such service, thereby reducing our
+sales and profitability. Terrorist attacks, actual or threatened acts of war or the escalation of current hostilities, or any other military
+or trade disruptions impacting our domestic or foreign suppliers of components of our products, may impact our operations by, among other
+things, causing supply chain disruptions and increases in commodity prices, which could adversely affect our raw materials or transportation
+costs. These events also could cause or act to prolong an economic recession in the United States or abroad. To the extent these events
+also impact one or more of our suppliers or contractors or result in the closure of any of their facilities or our facilities, commence
+our commercial satellite launch activities as planned or thereafter increase our launch cadence. In addition, the disaster recovery and
+business continuity plans we have in place currently are limited and are unlikely to prove adequate in the event of a serious disaster
+or similar event. We may incur substantial expenses as a result of the limited nature of our disaster recovery and business continuity
+plans and, more generally, any of these events could cause consumer confidence and spending to decrease, which could adversely impact
+our commercial satellite manufacturing, launch and data operations. Our
+operating results may fluctuate significantly, which makes our future operating results difficult to predict and could cause our operating
+results to fall below expectations or any guidance we may provide. Our
+quarterly and annual operating results may fluctuate significantly, which makes it difficult for us to predict our future operating results.
+These fluctuations may occur due to a variety of factors, many of which are outside of our control, including, but not limited to: ● the
+    number of satellite launch missions we schedule for a period, the price at which we sell them and our ability to schedule additional
+    launch missions for repeat customers; ● unexpected
+    weather patterns, maintenance issues, natural disasters, or other events that force us to cancel or reschedule launches; ● the
+    cost of raw materials or supplied components critical for the manufacture and operation of our satellite equipment; ● the
+    timing and cost of, and level of investment in, research and development relating to our technologies and our current or future facilities; ● developments
+    involving our competitors; ● changes
+    in governmental regulations or in the status of our regulatory approvals or applications; ● future
+    accounting pronouncements or changes in our accounting policies; and ● general
+    market conditions and other factors, including factors unrelated to our operating performance or the operating performance of our
+    competitors. The
+individual or cumulative effects of factors discussed above could result in large fluctuations and unpredictability in our quarterly
+and annual operating results. As a result, comparing our operating results on a period-to-period basis may not be meaningful. This
+variability and unpredictability could also result in our failing to meet the expectations of industry or financial analysts or investors
+for any period. If our revenue or operating results fall below the expectations of analysts or investors or below any guidance we may
+provide, or if the guidance we provide is below the expectations of analysts or investors, the price of our common stock could decline
+substantially. Such a stock price decline could occur even when we have met any previously publicly stated guidance we may provide. 22 We
+may become involved in litigation that may materially adversely affect us. From
+time to time, we may become involved in various legal proceedings relating to matters incidental to the ordinary course of our business,
+including intellectual property, commercial, product liability, employment, class action, whistleblower and other litigation and claims,
+and governmental and other regulatory investigations and proceedings. Such matters can be time-consuming, divert management’s attention
+and resources from the operation of our business, and cause us to incur significant expenses or liability or require us to change our
+business practices. Because of the potential risks, expenses, and uncertainties of litigation, we may, from time to time, settle disputes,
+even where we believe that we have meritorious claims or defenses. Because litigation is inherently unpredictable, we cannot assure you
+that the results of any of these actions will not have a material adverse effect on our business. We
+have been focused on developing satellite manufacturing and launch capabilities and services since 2013. This limited operating history
+makes it difficult to evaluate our future prospects and the risks and challenges it may encounter. Because
+we have limited historical financial data and operate in a rapidly evolving market, any predictions about its future revenue and expenses
+may not be as accurate as they would be if it had a longer operating history or operated in a more developed market. We have encountered
+in the past, and will encounter in the future, risks and uncertainties frequently experienced by growing companies with limited operating
+histories in rapidly changing industries. If our assumptions regarding these risks and uncertainties, which we use to plan and operate
+our business, are incorrect or change, or if we do not address these risks successfully, our results of operations could differ materially
+from our expectations and our business, financial condition and results of operations could be adversely affected. The
+markets for commercial satellite manufacturing, launch and data services have not been well established as the commercialization of space
+is a relatively new development and is rapidly evolving. Our estimates for the total addressable markets for satellite launch and data
+services are based on a number of internal and third-party estimates, including our contracted revenue and sales pipeline, assumed prices
+at which we can offer services, assumed frequency of service, our ability to leverage our current manufacturing and operational processes
+and general market conditions. As a result, our estimates of the annual total addressable markets for in-space infrastructure services,
+as well as the expected growth rate for the total addressable market for that experience, may prove to be incorrect. We
+are subject to environmental regulation and may incur substantial costs. We
+are subject to federal, state, local and foreign laws, regulations, and ordinances relating to the protection of the environment, including
+those relating to emissions to the air, discharges to surface and subsurface waters, safe drinking water, greenhouse gases and the management
+of hazardous substances, oils and waste materials. Federal, state, and local laws and regulations relating to the protection of the environment
+may require a current or previous owner or operator of real estate to investigate and remediate hazardous or toxic substances or petroleum
+product releases at or from the property. Under federal law, generators of waste materials, and current and former owners or operators
+of facilities, can be subject to liability for investigation and remediation costs at locations that have been identified as requiring
+response actions. Compliance with environmental laws and regulations can require significant expenditures. In addition, we could incur
+costs to comply with such current or future laws and regulations, the violation of which could lead to substantial fines and penalties. We
+may have to pay governmental entities or third parties for property damage and for investigation and remediation costs that they incurred
+in connection with any contamination at our current and former properties without regard to whether we knew of or caused the presence
+of the contaminants. Liability under these laws may be strict, joint and several, meaning that we could be liable for the costs of cleaning
+up environmental contamination regardless of fault or the amount of waste directly attributable to us. Even if more than one person may
+have been responsible for the contamination, each person covered by these environmental laws may be held responsible for all of the clean-up
+costs incurred. Environmental liabilities could arise and have a material adverse effect on our financial condition and performance.
+We do not believe, however, that pending environmental regulatory developments in this area will have a material effect on our capital
+expenditures or otherwise materially adversely affect its operations, operating costs, or competitive position. Changes
+in tax laws or regulations may increase tax uncertainty and adversely affect results of our operations and our effective tax rate. We
+will be subject to taxes in the United States and certain foreign jurisdictions. Due to economic and political conditions, tax rates
+in various jurisdictions, including the United States, may be subject to change. Our future effective tax rates could be affected by
+changes in the mix of earnings in countries with differing statutory tax rates, changes in the valuation of deferred tax assets and liabilities
+and changes in tax laws or their interpretation. In addition, we may be subject to income tax audits by various tax jurisdictions. Although
+we believe our income tax liabilities are reasonably estimated and accounted for in accordance with applicable laws and principles, an
+adverse resolution by one or more taxing authorities could have a material impact on the results of our operations. Further, we may be
+unable to utilize our net operating losses in the event a change in control is determined to have occurred. 23 Our
+Chief Executive Officer, Carol Craig, is also the Chief Executive Officer of Craig Technical Consulting, Inc., d/b/a/ Craig
+Technologies (“CTC”) and may allocate her time to such other business thereby causing conflicts of interest in her determination
+as to how much time to devote to our affairs. This could have a negative impact on our ability to implement our plan of
+operation. Our
+Chief Executive Officer, Carol Craig, is also the Chief Executive Officer of CTC and may not commit her full time to our affairs, which
+may result in a conflict of interest in allocating her time between our business and the other business. Ms. Craig spends approximately
+50 hours per week working for us. Furthermore, our Chief Executive Officer is not obligated to contribute any specific number of her
+hours per week to our affairs. If other business affairs require our Chief Executive Officer to devote more amounts of time to other
+affairs, including the business of CTC, it could limit their ability to devote time to our affairs and could have a negative impact on
+our ability to implement our plan of operation. Risks
+Related to our Relationship with CTC The
+ownership by our Chief Executive Officer of shares of CTC common stock may create, or may create the appearance of, conflicts of interest. The
+ownership by our Chief Executive Officer of shares of CTC common stock may create, or may create the appearance of conflicts of interest.
+Ownership by our Chief Executive Officer of common stock of CTC, creates, or may create the appearance of conflicts of interest when
+she is faced with decisions that could have different implications for CTC than the decisions have for us. Our Chief Executive Officer
+has agreed to recuse herself with respect to voting on any matter coming before either CTC’s or our board of directors related
+to our relationship with CTC, although she will still be permitted to participate in discussions and negotiations. Any perceived conflicts
+of interest resulting from investors questioning the independence of our management or the integrity of corporate governance procedures
+may materially affect our stock price. Risks
+Related to Our Class A Common Stock We
+are currently listed on The Nasdaq Capital Market. If we are unable to maintain listing of our securities on Nasdaq or any stock exchange,
+our stock price could be adversely affected and the liquidity of our stock and our ability to obtain financing could be impaired and
+it may be more difficult for our stockholders to sell their securities. Although
+our common stock is currently listed on The Nasdaq Capital Market, we may not be able to continue to meet the exchange’s minimum
+listing requirements or those of any other national exchange. If we are unable to maintain listing on Nasdaq or if a liquid market for
+our common stock does not develop or is sustained, our common stock may remain thinly traded. The
+listing rules of Nasdaq require listing issuers to comply with certain standards in order to remain listed on its exchange. If, for any
+reason, we should fail to maintain compliance with these listing standards and Nasdaq should delist our securities from trading on its
+exchange and we are unable to obtain listing on another national securities exchange, a reduction in some or all of the following may
+occur, each of which could have a material adverse effect on our stockholders: ● the
+    liquidity of our common stock; ● the
+    market price of our common stock; ● our
+    ability to obtain financing for the continuation of our operations; ● the
+    number of institutional and general investors that will consider investing in our common stock; ● the
+    number of investors in general that will consider investing in our common stock; ● the
+    number of market makers in our common stock; ● the
+    availability of information concerning the trading prices and volume of our common stock; and ● the
+    number of broker-dealers willing to execute trades in shares of our common stock. 24 The
+dual-class structure of our common stock as contained in our amended and restated certificate of incorporation, as amended, has the effect
+of concentrating voting influence with those stockholders who held our Class B common stock prior to our initial public offering. This
+ownership could limit your ability to influence corporate matters, including the election of directors, amendments of our organizational
+documents, and any merger, consolidation, sale of all or substantially all of our assets, or other major corporate transactions requiring
+stockholder approval, and that may adversely affect the trading price of our Class A common stock. Our
+Class B common stock has ten votes per share, and our Class A common stock, which is the stock that we sold in our initial public offering,
+has one vote per share. CTC holds all of the issued and outstanding shares of our Class B common stock, representing approximately 1.5%
+of the voting power of our outstanding capital stock. In addition, because of the ten-to-one voting ratio between our Class B and Class
+A common stock, the holder of our Class B common stock could continue to have significant influence in the voting power of our common
+stock and therefore significantly influence all matters submitted to our stockholders for approval until converted by our Class B common
+stockholder. This significant influence may limit or preclude your ability to influence corporate matters for the foreseeable future,
+including the election of directors, amendments of our organizational documents and any merger, consolidation, sale of all or substantially
+all of our assets or other major corporate transactions requiring stockholder approval. In addition, this concentrated control may prevent
+or discourage unsolicited acquisition proposals or offers for our capital stock that you may feel are in your best interest as one of
+our stockholders. As a result, such influence may adversely affect the market price of our Class A common stock. Future
+transfers by holders of Class B common stock will generally result in those shares converting to Class A common stock, subject to limited
+exceptions as specified in our amended and restated certificate of incorporation, such as transfers to family members and certain transfers
+effected for estate planning purposes. The conversion of Class B common stock to Class A common stock will have the effect, over time,
+of increasing the relative voting power of those holders of Class B common stock who retain their shares in the long term. As a result,
+it is possible that one or more of the persons or entities holding our Class B common stock could gain significant voting influence as
+other holders of Class B common stock sell or otherwise convert their shares into Class A common stock. We
+cannot predict the effect our dual-class structure may have on the market price of our Class A common stock. We
+cannot predict whether our dual-class structure will result in a lower or more volatile market price of our Class A common stock, adverse
+publicity or other adverse consequences. For example, certain index providers have announced and implemented restrictions on including
+companies with multiple-class share structures in certain of their indices. In July 2017, FTSE Russell announced that it would require
+new constituents of its indices to have greater than 5% of the company’s voting rights in the hands of public stockholders, and
+S&P Dow Jones announced that it would no longer admit companies with multiple-class share structures to certain of its indices. Affected
+indices include the Russell 2000 and the S&P 500, S&P MidCap 400 and S&P SmallCap 600, which together make up the S&P
+Composite 1500. Also in 2017, MSCI, a leading stock index provider, opened public consultations on its treatment of no-vote and multi-class
+structures and temporarily barred new multi-class listings from certain of its indices; however, in October 2018, MSCI announced its
+decision to include equity securities “with unequal voting structures” in its indices and to launch a new index that specifically
+includes voting rights in its eligibility criteria. Under such announced and implemented policies, the dual-class structure of our common
+stock would make us ineligible for inclusion in certain indices and, as a result, mutual funds, exchange-traded funds and other investment
+vehicles that attempt to passively track those indices would not invest in our Class A common stock. These policies are relatively new
+and it is unclear what effect, if any, they will have on the valuations of publicly-traded companies excluded from such indices, but
+it is possible that they may adversely affect valuations, as compared to similar companies that are included. Due to the dual-class structure
+of our common stock, we will likely be excluded from certain indices and we cannot assure you that other stock indices will not take
+similar actions. Given the sustained flow of investment funds into passive strategies that seek to track certain indices, exclusion from
+certain stock indices would likely preclude investment by many of these funds and could make our Class A common stock less attractive
+to other investors. As a result, the market price of our Class A common stock could be adversely affected. We
+could be subject to securities class action litigation. In
+the past, securities class action litigation has often been brought against companies following a decline in the market price of their
+securities. This risk is especially relevant for us because space technology and defense companies have experienced significant share
+price volatility in recent years. If we face such litigation, it could result in substantial costs and a diversion of management’s
+attention and resources, which could harm our business. 25 If
+securities or industry analysts do not publish research or publish inaccurate or unfavorable research about our business, the market
+price for the shares and trading volume could decline. The
+trading market for our Class A common stock will depend in part on the research and reports that securities or industry analysts publish
+about us or our business. If research analysts do not establish and maintain adequate research coverage or if one or more of the analysts
+who covers us downgrades our Class A common stock or publishes inaccurate or unfavorable research about our business, the market price
+for our Class A common stock would likely decline. If one or more of these analysts cease coverage of our company or fail to publish
+reports on us regularly, we could lose visibility in the financial markets, which, in turn, could cause the market price or trading volume
+for our common stock to decline. We
+do not expect to pay dividends in the foreseeable future, and you must rely on price appreciation of your shares of Class A common stock
+for return on your investment. We
+have paid no cash dividends on any class of our stock to date, and we do not anticipate paying cash dividends in the near term. For the
+foreseeable future, we intend to retain any earnings to finance the development and expansion of our business, and we do not anticipate
+paying any cash dividends on our stock. Accordingly, investors must be prepared to rely on sales of their shares after price appreciation
+to earn an investment return, which may never occur. Investors seeking cash dividends should not purchase our shares. Any determination
+to pay dividends in the future will be made at the discretion of our board of directors and will depend on our results of operations,
+financial condition, contractual restrictions, restrictions imposed by applicable law and other factors our board deems relevant. We
+will incur increased costs as a public company, and our management will be required to devote substantial time to new compliance initiatives
+and corporate governance practices. As
+a public company, and particularly after we no longer qualify as an emerging growth company, we will incur significant legal, accounting,
+and other expenses that we did not incur previously. The Sarbanes-Oxley Act of 2002 (“SOX”), the Dodd-Frank Wall Street Reform
+and Consumer Protection Act, the listing requirements of Nasdaq, and other applicable securities rules and regulations impose various
+requirements on U.S. reporting public companies, including the establishment and maintenance of effective disclosure and financial controls
+and corporate governance practices. Our management and other personnel will need to devote a substantial amount of time to these compliance
+initiatives. Moreover, these rules and regulations will increase our legal and financial compliance costs and will make some activities
+more time-consuming and costly. For example, we expect that these rules and regulations may make it more expensive for us to obtain director
+and officer liability insurance, which in turn could make it more difficult for us to attract and retain qualified senior management
+personnel or members for our board of directors. In addition, these rules and regulations are often subject to varying interpretations,
+and, as a result, their application in practice may evolve over time as new guidance is provided by regulatory and governing bodies.
+This could result in continuing uncertainty regarding compliance matters and higher costs necessitated by ongoing revisions to disclosure
+and governance practices. Pursuant to Section 404 of SOX (“Section 404”), we will be required to furnish a report by our
+senior management on our internal control over financial reporting. While
+we remain an emerging growth company, we will not be required to include an attestation report on internal control over financial reporting
+issued by our independent registered public accounting firm. To prepare for eventual compliance with Section 404, once we no longer qualify
+as an emerging growth company, we will be engaged in a process to document and evaluate our internal control over financial reporting,
+which is both costly and challenging. In this regard, we will need to continue to dedicate internal resources, potentially engage outside
+consultants and adopt a detailed work plan to assess and document the adequacy of internal control over financial reporting, continue
+steps to improve control processes as appropriate, validate through testing that controls are functioning as documented and implement
+a continuous reporting and improvement process for internal control over financial reporting. Despite our efforts, there is a risk that
+we will not be able to conclude, within the prescribed timeframe or at all, that our internal control over financial reporting is effective
+as required by Section 404. We
+are an “emerging growth company,” and the reduced reporting requirements applicable to emerging growth companies may make
+our common stock less attractive to investors. We
+are an “emerging growth company,” as defined in the Jumpstart Our Business Startups Act (“the JOBS Act”). For
+as long as we continue to be an emerging growth company, we may take advantage of exemptions from various reporting requirements that
+are applicable to other public companies that are not emerging growth companies, including exemption from compliance with the auditor
+attestation requirements of Section 404, reduced disclosure obligations regarding executive compensation and exemptions from the requirements
+of holding a nonbinding advisory vote on executive compensation and stockholder approval of any golden parachute payments not previously
+approved. We will remain an emerging growth company until the earlier of (1) the last day of the fiscal year (a) following the fifth
+anniversary of the closing of our initial public offering, (b) in which we have total annual gross revenue of at least $1.07 billion
+or (c) in which we are deemed to be a large accelerated filer, which means the market value of our common stock held by non-affiliates
+exceeds $700 million as of the end of our prior second fiscal quarter, and (2) the date on which we have issued more than $1.0 billion
+in non-convertible debt during the prior three-year period. 26 In
+addition, under the JOBS Act, emerging growth companies may delay adopting new or revised accounting standards until such time as those
+standards apply to private companies. We may elect not to avail ourselves of this exemption from new or revised accounting standards
+and, therefore, may be subject to the same new or revised accounting standards as other public companies that are not emerging growth
+companies. We
+cannot predict if investors will find our common stock less attractive because we may rely on these exemptions. If some investors find
+our common stock less attractive as a result, there may be a less active trading market for our common stock and our share price may
+be more volatile. Anti-takeover
+provisions contained in our certificate of incorporation and bylaws as well as provisions of Delaware law, could impair a takeover attempt. Our
+certificate of incorporation, bylaws and Delaware law contain provisions which could have the effect of rendering more difficult, delaying
+or preventing an acquisition deemed undesirable by our board of directors. Our corporate governance documents include provisions: ● authorizing
+    “blank check” preferred stock, which could be issued by our board of directors without stockholder approval and may contain
+    voting, liquidation, dividend, and other rights superior to our common stock; ● limiting
+    the liability of, and providing indemnification to, our directors and officers; ● limiting
+    the ability of our stockholders to call and bring business before special meetings; ● requiring
+    advance notice of stockholder proposals for business to be conducted at meetings of our stockholders and for nominations of candidates
+    for election to our board of directors; ● controlling
+    the procedures for the conduct and scheduling of board of directors and stockholder meetings; and ● providing
+    our board of directors with the express power to postpone previously scheduled annual meetings and to cancel previously scheduled
+    special meetings. These
+provisions, alone or together, could delay or prevent hostile takeovers and changes in control or changes in our management. As
+a Delaware corporation, we are also subject to provisions of Delaware law, including Section 203 of the Delaware General Corporation
+law, which prevents some stockholders holding more than 15% of our outstanding common stock from engaging in certain business combinations
+without approval of the holders of substantially all of our outstanding common stock. Any
+provision of our certificate of incorporation, bylaws or Delaware law that has the effect of delaying or deterring a change in control
+could limit the opportunity for our stockholders to receive a premium for their shares of our Class A common stock and could also affect
+the price that some investors are willing to pay for our Class A common stock. Our
+amended and restated certificate of incorporation, as amended, designates the Court of Chancery of the State of Delaware as the sole
+and exclusive forum for certain types of actions and proceedings that may be initiated by our stockholders, which could limit our stockholders’
+ability to obtain a favorable judicial forum for disputes with us or our directors, officers, or other employees. Our
+certificate of incorporation requires that, unless we consent in writing to the selection of an alternative forum, the Court of Chancery
+of the State of Delaware will, to the fullest extent permitted by law, be the sole and exclusive forum for each of the following: ● any
+    derivative action or proceeding brought on our behalf; ● any
+    action asserting a claim for breach of any fiduciary duty owed by any director, officer, or other employee of ours to the Company
+    or our stockholders, creditors or other constituents; ● any
+    action asserting a claim against us or any director or officer of ours arising pursuant to, or a claim against us or any of our directors
+    or officers, with respect to the interpretation or application of any provision of, the DGCL, our certificate of incorporation or
+    bylaws; or ● any
+    action asserting a claim governed by the internal affairs doctrine; provided,
+that, if and only if the Court of Chancery of the State of Delaware dismisses any of the foregoing actions for lack of subject matter
+jurisdiction, any such action or actions may be brought in another state court sitting in the State of Delaware. 27 The
+exclusive forum provision is limited to the extent permitted by law, and it will not apply to claims arising under the Securities Exchange
+Act of 1934, as amended (the “Exchange Act”), the Securities Act of 1933, as amended (the “Securities Act”),
+or for any other federal securities laws which provide for exclusive federal jurisdiction. Our
+Amended and Restated Certificate of Incorporation, as amended, provides that unless we consent in writing to the selection of an alternative
+forum, the federal district courts of the United States of America will be the exclusive forum for the resolution of any complaint asserting
+a cause of action arising under the Securities Act or the Securities Exchange Act of 1934, as amended. Any person or entity purchasing
+or otherwise acquiring any interest in shares of our capital stock are deemed to have notice of and consented to this provision. Furthermore,
+Section 22 of the Securities Act creates concurrent jurisdiction for federal and state courts over all such Securities Act actions. Accordingly,
+both state and federal courts have jurisdiction to entertain such claims. To prevent having to litigate claims in multiple jurisdictions
+and the threat of inconsistent or contrary rulings by different courts, among other considerations, our second amended and restated certificate
+of incorporation provides that the federal district courts of the United States of America will be the exclusive forum for resolving
+any complaint asserting a cause of action arising under the Securities Act. While the Delaware courts have determined that such choice
+of forum provisions are facially valid, a stockholder may nevertheless seek to bring such a claim arising under the Securities Act against
+us, our directors, officers, or other employees in a venue other than in the federal district courts of the United States of America.
+In such instance, we would expect to vigorously assert the validity and enforceability of the exclusive forum provisions of our second
+amended and restated certificate of incorporation. Although
+we believe this provision benefits us by providing increased consistency in the application of Delaware law in the types of lawsuits
+to which it applies, this provision may limit or discourage a stockholder’s ability to bring a claim in a judicial forum that it
+finds favorable for disputes with us or our directors, officers, or other employees, which may discourage such lawsuits against us and
+our directors, officers and other employees. Alternatively, if a court were to find the choice of forum provision contained in our certificate
+of incorporation to be inapplicable or unenforceable in an action, we may incur additional costs associated with resolving such action
+in other jurisdictions, which could adversely affect our business and financial condition. We
+note that there is uncertainty as to whether a court would enforce the provision and that investors cannot waive compliance with the
+federal securities laws and the rules and regulations thereunder. Although we believe this provision benefits us by providing increased
+consistency in the application of Delaware law in the types of lawsuits to which it applies, the provision may have the effect of discouraging
+lawsuits against our directors and officers. ITEM
+1B. UNRESOLVED STAFF COMMENTS None. ITEM
+1C. CYBERSECURITY We
+believe cybersecurity is critical to advancing our technological developments. As a U.S. commercial space company with an established
+manufacturing business, we face a multitude of cybersecurity threats common to most industries, such as ransomware and denial-of service.
+Our customers, suppliers, subcontractors, and business partners face similar cybersecurity threats, and a cybersecurity incident impacting
+us or any of these entities could materially adversely affect our business strategy, performance, and results of operations. These cybersecurity
+threats and related risks make it imperative that we expend resources on cybersecurity. 28 Risk
+Management We
+engage third-party services to conduct evaluations of our security controls, whether through penetration testing, independent audits,
+or consulting on best practices to address new challenges. We have established cybersecurity security awareness training and ongoing
+monitoring. In
+the event of an incident, we intend to follow our cybersecurity incident response plan, which outlines the steps to be followed from
+incident detection to mitigation, and notification. We contract with external firms that have extensive information technology and program
+management experience. We have implemented a governance structure and processes to assess, identify, manage, and report cybersecurity
+risks. As a commercial space company, we must comply with extensive regulations, including requirements imposed by the Department of
+Defense related to contracts with government agencies and reporting cybersecurity incidents to the SEC. In addition to following SEC
+guidance and implementing pre-existing third party frameworks, we have developed our own practices and frameworks, which we believe enhance
+our ability to identify and manage cybersecurity risks. Assessing, identifying, and managing cybersecurity related risks are factored
+into our overall business approach. We rely heavily on our supply chain to deliver our products and services, and a cybersecurity incident
+at a subcontractor, or business partner could materially adversely impact us. We require that our subcontractors report cybersecurity
+incidents to our IT Incident Response Coordinator who will investigate the direct impact of the incident. Once a potential incident has
+been confirmed, the Incident Response Coordinator will notify senior management that activation of the incident response plan is required
+and assign a severity rating, ranging from none to critical, based on the perceived impact. Governance The Audit Committee has oversight responsibility for risks and incidents relating to cybersecurity threats, including compliance with disclosure requirements, cooperation with law enforcement, and related effects on financial and other risks, and it reports any findings and recommendations, as appropriate, to the full Board for consideration. Senior management regularly discusses cyber risks and trends and, should they arise, any material incidents with the Audit Committee. While
+we have not experienced any material cybersecurity threats or incidents in recent years, there can be no guarantee that we will not be
+the subject of future threats or incidents. Notwithstanding the extensive approach we take to cybersecurity, we may not be successful
+in preventing or mitigating a cybersecurity incident that could have a material adverse effect on us. While we maintain cybersecurity
+insurance, the costs related to cybersecurity threats or disruptions may not be fully insured. See “
+

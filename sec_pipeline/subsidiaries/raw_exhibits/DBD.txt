@@ -1,0 +1,436 @@
+EX-21.1
+4
+dbd12312025ex-211.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+LIST OF SIGNIFICANT SUBSIDIARIES
+The following are the subsidiaries of the Registrant included in the Registrant’s consolidated financial statements at December 31, 2025. Other subsidiaries are not listed because such subsidiaries are inactive. Subsidiaries are listed alphabetically under either the domestic or international categories.
+Domestic
+Jurisdiction under which organized
+Percent of voting securities owned by Registrant
+Diebold Global Finance, LLC
+Delaware
+100%
+Diebold Griffin Technology, LLC
+New York
+100%
+Diebold Holding Company, LLC
+Delaware
+100%
+Diebold Latin America Holding Company, LLC
+Delaware
+100%
+Diebold Mexico Holding Company, LLC
+Delaware
+100%(1)
+Diebold Nixdorf Technology Finance, LLC
+Delaware
+100%
+Diebold Self-Service Systems
+New York
+100%(2)
+Diebold Software Solutions, LLC
+Delaware
+100%
+Diebold SST Holding Company, LLC
+Delaware
+100%
+VDM Holding Company, Inc.
+Delaware
+100%
+International
+Jurisdiction under which organized
+Percent of voting securities owned by Registrant
+Aisino Wincor Manufacturing (Shanghai) Co. Ltd.
+China
+49%(15)
+Aisino-Wincor Retail & Banking Systems (Shanghai) Co. Ltd.
+China
+49%(37)
+CI Tech Sensors AG
+Switzerland
+100%(4)
+C.R. Panama, Inc.
+Panama
+100%(10)
+D&G ATMS y Seguridad de Costa Rica Ltda.
+Costa Rica
+51%(31)
+D&G Centroamerica, S. de R.L.
+Panama
+51%(27)
+D&G Centroamerica y GBM de Nicaragua y Compañia Ltda.
+Nicaragua
+51%(28)
+D&G Dominicana S.R.L.
+Dominican Republic
+51%(30)
+D&G de Honduras S. de R.L.
+Honduras
+51%(29)
+D&G Panama S. de R.L.
+Panama
+51%(32)
+DB & GB ATMs Seguridad de Guatemala, Limitada
+Guatemala
+51%(28)
+DB & GB de El Salvador Limitada
+El Salvador
+51%(28)
+DCHC, S.A.
+Panama
+100%(10)
+Diebold Africa (Pty) Ltd.
+South Africa
+100%(17)
+Diebold Africa Investment Holdings (Pty) Ltd.
+South Africa
+100%(14)
+Diebold Argentina, S.A.
+Argentina
+100%(46)
+Diebold Brasil LTDA
+Brazil
+100%(26)
+Diebold Brasil Servicos de Tecnologia e Participacoes Ltda
+Brazil
+100%(22)
+Diebold Canada Holding Company Inc.
+Canada
+100%
+Diebold Ecuador, S.A.
+Ecuador
+100%(18)
+Diebold Financial Equipment Company, Ltd.
+China
+48.1%(24)
+Diebold Nixdorf AB
+Sweden
+100%(4)
+Diebold Nixdorf AG
+Switzerland
+100%(5)
+Diebold Nixdorf A/S
+Denmark
+100%(4)
+Diebold Nixdorf AS
+Norway
+100%(4)
+Diebold Nixdorf Australia Pty. Ltd.
+Australia
+100%(1)
+Diebold Nixdorf BPO Sp. z.o.o.
+Poland
+100%(4)
+Diebold Nixdorf Business Administration Center GmbH
+Germany
+100%(4)
+Diebold Nixdorf B.V.
+Netherlands
+100%(4)
+Diebold Nixdorf B.V.
+Belgium
+100%(16)
+Diebold Nixdorf, C.A.
+Venezuela
+100%(4)
+Diebold Nixdorf Canada Limited
+Canada
+100%(1)
+Diebold Nixdorf Chile Limitada
+Chile
+100%(20)
+Diebold Nixdorf Colombia, S.A.S.
+Colombia
+100%(13)
+Diebold Nixdorf de Mexico S.A. de C.V.
+Mexico
+100%(41)
+Diebold Nixdorf Deutschland GmbH
+Germany
+100%(4)
+Diebold Nixdorf Dutch Holding B.V.
+Netherlands
+100%(45)
+Diebold Nixdorf EURL
+Algeria
+100%(4)
+Diebold Nixdorf Global Holding BV
+Netherlands
+100%
+Diebold Nixdorf Global Logistics GmbH
+Germany
+100%(19)
+Diebold Nixdorf Global Solutions B.V.
+Netherlands
+100%(38)
+Diebold Nixdorf GmbH
+Austria
+100%(4)
+Diebold Nixdorf Holding Germany GmbH
+Germany
+100%(44)
+Diebold Nixdorf (Hong Kong) Ltd.
+Hong Kong
+100%(4)
+Diebold Nixdorf India Private Limited
+India
+100%(8)
+Diebold Nixdorf Information Systems S.A.
+Greece
+100%(4)
+Diebold Nixdorf Information Systems (Shanghai) Co. Ltd.
+China
+100%(4)
+Diebold Nixdorf (Ireland) Ltd.
+Ireland
+100%(4)
+Diebold Nixdorf Kft.
+Hungary
+100%(4)
+Diebold Nixdorf Limited
+Nigeria
+100%(4)
+Diebold Nixdorf LLC
+Russia
+100%(3)
+Diebold Nixdorf Logistics GmbH
+Germany
+100%(35)
+Diebold Nixdorf Middle East FZ-LLC
+United Arab Emirates
+100%(4)
+Diebold Nixdorf Myanmar Limited
+Myanmar
+100%(7)
+Diebold Nixdorf Operations GmbH
+Germany
+100%(4)
+Diebold Nixdorf Oy
+Finland
+100%(4)
+Diebold Nixdorf Peru S.r.l
+Peru
+100%(33)
+Diebold Nixdorf Philippines, Inc.
+Philippines
+100%
+Diebold Nixdorf Portugal Unipessoal, Lda.
+Portugal
+100%(1)
+Diebold Nixdorf Real Estate GmbH & Co. KG
+Germany
+100%(40)
+Diebold Nixdorf Retail Solutions s.r.o.
+Czech Republic
+100%(34)
+Diebold Nixdorf S.A.
+Morocco
+100%(4)
+Diebold Nixdorf S.A.S.
+France
+100%(4)
+Diebold Nixdorf Sdn. Bhd.
+Malaysia
+100%(4)
+Diebold Nixdorf Security GmbH
+Germany
+100%(4)
+Diebold Nixdorf Singapore Pte. Ltd.
+Singapore
+100%(4)
+Diebold Nixdorf S.L.
+Spain
+100%(4)
+Diebold Nixdorf Software C.V.
+Netherlands
+100%(9)
+Diebold Nixdorf Software Partner B.V.
+Netherlands
+100%(4)
+Diebold Nixdorf South Africa (Pty) Ltd.
+South Africa
+74.9%(25)
+Diebold Nixdorf Sp. z.o.o.
+Poland
+100%(4)
+Diebold Nixdorf S.r.l.
+Italy
+100%(4)
+Diebold Nixdorf Srl
+Romania
+100%(39)
+Diebold Nixdorf s.r.o.
+Czech Republic
+100%(4)
+DIEBOLD NIXDORF s.r.o.
+Slovakia
+100%(4)
+Diebold Nixdorf Solutions Sole Proprietorship LLC
+United Arab Emirates
+49%(42)
+Diebold Nixdorf Systems GmbH
+Germany
+100%(4)
+Diebold Nixdorf Taiwan Ltd.
+Taiwan
+100%(4)
+Diebold Nixdorf Technologies LLC
+UAE
+100% (4)
+Diebold Nixdorf Teknoloji A.S.
+Turkey
+100%(4)
+Diebold Nixdorf (Thailand) Company Limited
+Thailand
+100%
+Diebold Nixdorf (UK) Limited
+United Kingdom
+100%(4)
+Diebold Nixdorf Vermögensverwaltungs GmbH
+Germany
+100%(4)
+Diebold Nixdorf Vietnam Company Limited
+Vietnam
+100%
+Diebold Pacific, Limited
+Hong Kong
+100%
+Diebold Panama, Inc.
+Panama
+100%(10)
+Diebold Paraguay S.A.
+Paraguay
+100%(43)
+Diebold Self-Service Solutions S.ar.l
+Switzerland
+100%(14)
+Diebold Switzerland Holding Company, Sárl
+Switzerland
+100%(1)
+Diebold Uruguay S.A.
+Uruguay
+100%(10)
+Inspur Financial Information Technology Co., Ltd.
+China
+48.1%(6)
+IP Management GmbH
+Germany
+100%(4)
+J.J.F. Panama, Inc.
+Panama
+100%(10)
+LLC Diebold Nixdorf
+Ukraine
+100%(4)
+Procomp Amazonia Industria Eletronica Ltda.
+Brazil
+100%(11)
+Procomp Industria Eletronica LTDA
+Brazil
+100%(23)
+Pt. Diebold Nixdorf Indonesia
+Indonesia
+100%(12)
+Wincor Nixdorf Facility GmbH
+Germany
+100%(36)
+WINCOR NIXDORF International GmbH
+Germany
+100%(3)
+WN IT Support S.A. de C.V.
+Mexico
+100%(21)
+(1)
+100 percent of voting securities are owned by Diebold Nixdorf Global Holding, B.V., which is 100 percent owned by Registrant.
+(2)
+70 percent partnership interest is owned by Diebold Holding Company, LLC, which is 100 percent owned by Registrant, while the remaining 30 percent partnership interest is owned by Diebold SST Holding Company, LLC, which is 100 percent owned by Registrant.
+(3)
+100 percent of voting securities are owned by Diebold Nixdorf Holding Germany GmbH, (refer to 44 for ownership).
+(4)
+100 percent of voting securities are owned by WINCOR NIXDORF International GmbH (refer to 3 for ownership).
+(5)
+100 percent of voting securities are owned by Diebold Self-Service Solutions S.ar.l (refer to 14 for ownership).
+(6)
+48.1 percent of voting securities are owned by Diebold Switzerland Holding Company, Sárl (refer to 1 for ownership).
+(7)
+99.99 percent of voting securities are owned by VDM Holding Company, Inc., which is 100 percent owned by Registrant, while the remaining .01 percent of voting securities is owned by Diebold Pacific, Limited, which is 100 percent owned by Registrant.
+(8)
+62.42 percent of voting securities are owned by Registrant; 19.03 percent of voting securities are owned by Diebold Self-Service Solutions S.ar.l (refer to 14 for ownership); 6.82 percent of voting securities are owned by Diebold Switzerland Holding Company, Sárl (refer to 1 for ownership); 11.72 percent of voting securities are owned by WINCOR NIXDORF International GmbH (refer to 3 for ownership); and the remaining .01 percent of voting securities is owned by Diebold Holding Company, LLC, which is 100 percent owned by Registrant.
+(9)
+60 percent of voting securities are owned by Diebold Nixdorf Global Holding B.V., which is 100 percent owned by Registrant; 39.96 percent of voting securities are owned by IP Management GmbH (refer to 4 for ownership); and the remaining .04 percent of voting securities is owned by Diebold Nixdorf Software Partner B.V. (refer to 4 for ownership).
+(10)
+100 percent of voting securities are owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant.
+(11)
+99.99 percent of voting securities are owned by Diebold Brasil LTDA (refer to 26 for ownership), while the remaining .01 percent is owned by Registrant.
+(12)
+87.33 percent of voting securities are owned by WINCOR NIXDORF International GmbH (refer to 3 for ownership), while the remaining 12.67 percent of voting securities are owned by Diebold Nixdorf Global Holding, B.V., which is 100 percent owned by Registrant.
+(13)
+21.4 percent of voting securities are owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant; 16.8 percent of voting securities are owned by Diebold Panama, Inc. (refer to 10 for ownership); 16.8 percent of voting securities are owned by DCHC, S.A. (refer to 10 for ownership); 13.5 percent of voting securities are owned by J.J.F. Panama, Inc. (refer to 10 for ownership); and the remaining 31.5 percent of voting securities are owned by C.R. Panama, Inc. (refer to 10 for ownership).
+(14)
+100 percent of voting securities are owned by Diebold Switzerland Holding Company, Sárl (refer to 1 for ownership).
+(15)
+100 percent of voting securities are owned by Aisino-Wincor Retail & Banking Systems (Shanghai) Co. Ltd. (refer to 37 for ownership).
+(16)
+90 percent of voting securities are owned by Diebold Self-Service Solutions S.ar.l (refer to 14 for ownership), while the remaining 10 percent of voting securities are owned by Diebold Nixdorf AG (refer to 5 for ownership).
+(17)
+100 percent of voting securities are owned by Diebold Africa Investment Holdings (Pty) Ltd. (refer to 14 for ownership).
+(18)
+99.99 percent of voting securities are owned by Diebold Nixdorf Colombia, S.A.S. (refer to 13 for ownership), while the remaining 0.01 percent of voting securities is owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant.
+(19)
+100 percent of voting securities are owned by Diebold Nixdorf Logistics GmbH (refer to 35 for ownership).
+(20)
+99.88 percent of voting securities are owned by Registrant, while the remaining .12 percent of voting securities is owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant.
+(21)
+100 percent of voting securities are owned by Diebold Nixdorf, C.A. (refer to 4 for ownership).
+(22)
+99.99 percent of voting securities are owned by Diebold Canada Holding Company Inc., which is 100 percent owned by Registrant, while the remaining .01 percent of voting securities is owned by Procomp Amazonia Industria Eletronica Ltda. (refer to 11 for ownership).
+(23)
+99.99 percent of voting securities are owned by Diebold Brasil Servicos de Tecnologia e Participacoes Ltda. (refer to 22 for ownership), while the remaining .01 percent of voting securities is owned by Registrant.
+(24)
+100 percent of voting securities are owned by Inspur Financial Information Technology Co., Ltd. (refer to 6 for ownership).
+(25)
+74.9 percent of voting securities are owned by Diebold Africa Investment Holdings (Pty) Ltd. (refer to 14 for ownership).
+(26)
+99.99 percent of voting securities are owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant, while the remaining .01 percent of voting securities is owned by Registrant.
+(27)
+51 percent of voting securities are owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant.
+(28)
+99 percent of voting securities are owned by D&G Centroamerica, S. de R. L. (refer to 27 for ownership).
+(29)
+99.97 percent of voting securities are owned by D&G Centroamerica, S. de R. L. (refer to 27 for ownership), while the remaining .03 percent of voting securities is owned by D&G ATMs y Seguridad de Costa Rica Ltda. (refer to 31 for ownership).
+(30)
+99.99 percent of voting securities are owned by D&G Centroamerica, S. de R. L. (refer to 27 for ownership), while the remaining .01 percent of voting securities is owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant.
+(31)
+100 percent of voting securities are owned by D&G Centroamerica, S. de R. L. (refer to 27 for ownership).
+(32)
+99.99 percent of voting securities are owned by D&G Centroamerica, S. de R.L. (refer to 27 for ownership).
+(33)
+99.86 percent of voting securities are owned by Registrant, while the remaining .14 percent of voting securities is owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant.
+(34)
+100 percent of voting securities are owned by IP Management GmbH (refer to 4 for ownership).
+(35)
+94.99 percent of voting securities are owned by WINCOR NIXDORF International GmbH (refer to 3 for ownership); while the remaining 5.01 percent of voting securities is owned by Diebold Nixdorf Holding Germany GmbH (refer to 44 for ownership).
+(36)
+100 percent of voting securities are owned by Diebold Nixdorf Business Administration Center GmbH (refer to 4 for ownership).
+(37)
+49 percent of voting securities are owned by WINCOR NIXDORF International GmbH (refer to 3 for ownership).
+(38)
+100 percent of voting securities are owned by Diebold Nixdorf Software C.V. (refer to 9 for ownership).
+(39)
+99.99 percent of voting securities are owned by Diebold Self-Service Solutions S.ar.l (refer to 14 for ownership), while the remaining .01 percent of voting securities is owned by Diebold Switzerland Holding Company, Sárl (refer to 1 for ownership).
+(40)
+100 percent of voting securities are owned by Wincor Nixdorf Facility GmbH (refer to 36 for ownership).
+(41)
+84.996 percent of voting securities are owned by Diebold Mexico Holding Company, LLC (refer to 1 for ownership); 15 percent of voting securities are owned by WINCOR NIXDORF International (refer to 3 for ownership); while the remaining <.01 percent of voting securities is owned by Registrant.
+(42)
+100 percent of voting securities are owned by Diebold Nixdorf Technologies LLC (refer to 4 for ownership).
+(43)
+99 percent of voting securities are owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant, while the remaining 1 percent is owned by Registrant.
+(44)
+57.798 percent of voting securities are owned by Registrant, while the remaining 42.202 percent of voting securities are owned by Diebold Nixdorf Dutch Holding B.V. (refer to 45 for ownership)
+(45)
+100 percent of voting securities are owned by Diebold Nixdorf US Holding, LLC, which is 100 percent owned by Registrant.
+(46)
+95.35 percent of voting securities are owned by Diebold Latin America Holding Company, LLC, which is 100 percent owned by Registrant, while the remaining 4.65 percent of voting securities are owned by Registrant.

@@ -1,0 +1,105 @@
+EX-8.1
+2
+d321169dex81.htm
+LIST OF SUBSIDIARIES
+List of Subsidiaries
+Exhibit 8.1
+Organizational Structure—NTT’s Consolidated Subsidiaries as of March 31, 2017
+Name
+Country of
+Incorporation
+Equity Held by NTT,
+Directly or Indirectly
+Regional Communications Business
+NIPPON TELEGRAPH AND TELEPHONE EAST CORPORATION
+Japan
+100.0%
+NIPPON TELEGRAPH AND TELEPHONE WEST CORPORATION
+Japan
+100.0%
+Long Distance and International Communications Business
+NTT COMMUNICATIONS CORPORATION
+Japan
+100.0%
+Dimension Data Holdings
+UK
+100.0%
+NTT Security Corporation
+Japan
+100.0%
+NTT America
+USA
+100.0%
+NTT EUROPE
+UK
+100.0%
+Lux
+e-shelter
+1
+Luxembourg
+86.7%
+Arkadin International
+France
+92.7%
+RagingWire Data Centers
+USA
+80.1%
+Virtela Technology Services
+USA
+100.0%
+NETMAGIC SOLUTIONS PRIVATE LIMITED
+India
+81.6%
+GYRON INTERNET
+UK
+100.0%
+NTT Plala Inc.
+Japan
+95.4%
+Spectrum Holdings
+British
+Virgin
+Islands
+100.0%
+Mobile Communications Business
+NTT DOCOMO, INC.
+Japan
+66.7%
+Data Communications Business
+NTT DATA CORPORATION
+Japan
+54.2%
+NTT DATA
+USA
+54.2%
+NTT DATA Services LLC
+USA
+54.2%
+EVERIS PARTICIPACIONES
+Spain
+54.2%
+NTT Data International
+USA
+54.2%
+Other Business
+NTT URBAN DEVELOPMENT CORPORATION
+Japan
+67.3%
+NTT FINANCE CORPORATION
+Japan
+97.1%
+NTT FACILITIES, INC.
+Japan
+100.0%
+NTT COMWARE CORPORATION
+Japan
+100.0%
+NTT ADVANCED TECHNOLOGY CORPORATION
+Japan
+100.0%
+918 Others
+Various
+Various
+*Note:
+Percentage of equity held shown represents the equity held by NTT, directly or indirectly, in relation to each of the companies’ outstanding shares (excluding
+treasury stock). Percentages are rounded to the nearest tenth.

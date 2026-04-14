@@ -1,0 +1,60 @@
+EX-21
+2
+fy25form10-kexhibit21.htm
+EX-21
+Document
+Exhibit 21
+Baker Hughes Company
+SIGNIFICANT SUBSIDIARIES
+December 31, 2025
+Subsidiary
+Jurisdiction
+Percentage
+Ownership
+EHHC NewCo LLC
+Delaware
+100%
+CFC Holdings LLC
+Delaware
+100%
+Baker Hughes Holdings LLC
+Delaware
+100%
+Baker Hughes Energy Services LLC
+Delaware
+100%
+Baker Hughes Energy Manufacturing LLC
+Delaware
+100%
+Baker Hughes International Branches LLC
+Delaware
+100%
+Baker Hughes International Holdings LLC
+Delaware
+100%
+International Professional Resources USA LLC
+Delaware
+100%
+Baker Hughes Energy International B.V.
+Netherlands
+100%
+Baker Hughes Energy Europe B.V.
+Netherlands
+100%
+Nuovo Pignone Holding S.p.a.
+Italy
+Note (1)
+Nuovo Pignone International S.r.l.
+Italy
+100%
+Nuovo Pignone S.r.l.
+Italy
+100%
+Notes:
+(1) Nuovo Pignone Holding S.p.a.
+Baker Hughes Energy Europe B.V.
+83.7387    %
+Other subsidiaries of Baker Hughes Holdings LLC
+16.2458    %
+Third Party
+0.0155    %

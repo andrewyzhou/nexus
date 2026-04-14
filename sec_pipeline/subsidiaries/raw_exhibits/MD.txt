@@ -1,0 +1,24 @@
+EX-21.1
+3
+md-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+Subsidiaries
+The list below excludes subsidiaries in the same line of business and includes the immediate parent of each excluded subsidiary. The list also excludes subsidiaries that in the aggregate, as a single subsidiary, would not constitute a significant subsidiary as of December 31, 2025.
+Number of Omitted Subsidiaries Operating
+Immediate Parent
+State of Incorporation
+Line of Business
+in the United States
+in Foreign Countries
+PMG Services, Inc. (d/b/a Pediatrix Services, Inc.)
+Florida
+Physician Services
+7
+0
+Pediatrix Management Services, Inc.
+Florida
+Physician Services
+9
+0

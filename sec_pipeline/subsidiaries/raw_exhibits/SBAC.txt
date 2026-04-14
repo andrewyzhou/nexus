@@ -1,0 +1,135 @@
+EX-21
+3
+sbac-20251231xex21.htm
+EX-21
+EX 21 Significant Subsidiaries
+Exhibit 21
+Subsidiaries of SBA Communications Corporation
+﻿
+Name
+Relationship
+Jurisdiction
+﻿
+SBA Telecommunications, LLC
+100% owned by SBA Communications Corporation
+Florida
+﻿
+SBA Senior Finance, LLC
+100% owned by SBA Telecommunications, LLC
+Florida
+﻿
+SBA Guarantor, LLC
+100% owned by SBA Holdings, LLC
+Delaware
+﻿
+SBA Monarch Towers I, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Monarch Towers III, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Infrastructure, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Properties, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Structures, L
+L
+C
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Sites, L
+L
+C
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA 2012 TC Assets, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Towers IV, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Towers VII, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Towers V, LLC
+100% owned by SBA Guarantor, LLC
+Delaware
+﻿
+SBA Senior Finance II, LLC
+100% owned by SBA Senior Finance, LLC.
+Florida
+﻿
+SBA Network Management, Inc.
+100% owned by SBA Senior Finance II, LLC
+Florida
+﻿
+SBA Puerto Rico, LLC
+100% owned by SBA Senior Finance II, LLC
+Florida
+﻿
+SBA Towers III, LLC
+100% owned by SBA Senior Finance II, LLC
+Florida
+﻿
+SBA Towers, LLC
+100% owned by SBA Senior Finance II, LLC
+Florida
+﻿
+SBA Site Management, LLC
+100% owned by SBA Towers, LLC
+Florida
+﻿
+SBA Towers II, LLC
+100% owned by SBA Towers, LLC
+Florida
+﻿
+Brazil Shareholder I, LLC
+100% owned by SBA Senior Finance II, LLC
+Florida
+﻿
+SBA Torres Brasil L
+imitada
+98.96
+% owned by
+Brazil Shareholder I, LLC
+1.04% owned by Brazil Shareholder II, LLC
+Brazil
+﻿
+SBA Towers IX, LLC
+100% owned by SBA Senior Finance II, LLC
+Delaware
+﻿
+SBA New Builds, LLC
+100% owned by SBA Telecommunications, LLC
+Florida
+﻿
+As of December 31, 20
+2
+5
+, SBA Communications Corporation owned, directly or indirectly, 1
+72
+additional subsidiaries,
+8
+8
+of which are incorporated in U.S. jurisdictions and
+8
+4
+of which are organized in foreign jurisdictions. These subsidiaries, in the aggregate as a single subsidiary, would not constitute a
+“Significant Subsidiary”
+as defined in Rule 405 under the Securi
+ties Act as of December 31, 20
+2
+5
+.
+﻿

@@ -1,0 +1,55 @@
+EX-21.1
+2
+mktx-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+SUBSIDIARIES OF THE REGISTRANT
+Name
+Place of Incorporation of Organization
+MarketAxess Corporation
+Delaware
+MarketAxess SEF Corporation
+Delaware
+MarketAxess Technologies Inc.
+Delaware
+MarketAxess Colombia Corp.
+Delaware
+MarketAxess International Holdings, LLC
+Delaware
+MarketAxess Limited
+United Kingdom
+MarketAxess Europe Limited
+United Kingdom
+MarketAxess Post-Trade Limited
+United Kingdom
+MarketAxess Capital Limited
+United Kingdom
+MarketAxess Canada Company
+Nova Scotia, Canada
+MarketAxess Plataforma De Negociacao Ltda.
+Brazil
+MarketAxess Information Consulting (Shanghai) Co., Ltd.
+China
+MarketAxess Singapore Pte Limited
+Singapore
+MarketAxess NL B.V.
+Netherlands
+MarketAxess Post-Trade B.V.
+Netherlands
+MarketAxess India Markets Private Limited
+India
+Trax Limited
+United Kingdom
+RFQ-hub Holdings LLC
+Delaware
+RFQ-hub Holdings B.V.
+Netherlands
+RFQ-hub Europe B.V.
+Netherlands
+RFQ-hub International Limited
+Ireland
+RFQ-hub Asia Pacific Private Limited
+Singapore
+RFQ-hub Software Solutions (France)
+France

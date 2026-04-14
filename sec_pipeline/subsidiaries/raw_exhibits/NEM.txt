@@ -1,0 +1,686 @@
+EX-21
+5
+q42025exhibit21.htm
+EX-21
+Document
+EXHIBIT 21
+NEWMONT CORPORATION AND SUBSIDIARIES
+As of December 31, 2025
+Name
+Incorporation
+Ownership*
+Newmont Corporation
+Delaware, USA
+Goldcorp Inc.
+Delaware, USA
+100.0000%
+1144963 B.C. Ltd.
+British Columbia
+100.0000%
+North American Metals Corp.
+British Columbia
+52.9083%
+Administradora de Negocios Mineros S.A. de C.V.
+Mexico
+>99.9999%
+Goldcorp S.A. de C.V.
+Mexico
+27.8573%
+Administradora de Negocios Mineros S.A. de C.V.
+Mexico
+<0.0001%
+Minera Peñasquito S.A. de C.V.
+Mexico
+99.9867%
+Goldcorp S.A. de C.V.
+Mexico
+<0.0013%
+Servicios Administrativos Goldcorp, S.A. de C.V.
+Mexico
+>99.9999%
+Servicios Administrativos Goldcorp, S.A. de C.V.
+Mexico
+<0.0001%
+Goldcorp Canada ULC
+Alberta
+100.0000%
+1516847 B.C. Ltd.
+British Columbia
+100.0000%
+Goldcorp (Barbados) Inc.
+Barbados
+100.0000%
+Goldcorp Aureus Inc.
+Barbados
+100.0000%
+Pueblo Viejo (Jersey) 1 Limited
+Jersey
+40.0000%
+Pueblo Viejo (Jersey) 2 Limited
+Jersey
+100.0000%
+Goldcorp Tesoro Inc.
+Barbados
+100.0000%
+Datawave Sciences Inc.
+British Virgin Islands
+100.0000%
+Minera Goldcorp Chile S.p.A.
+Chile
+0.1600%
+NuevaUnion S.p.A.
+Chile
+11.9086%
+El Morro S.p.A.
+Chile
+100.0000%
+Minera Goldcorp Chile S.p.A.
+Chile
+99.8400%
+NuevaUnion S.p.A.
+Chile
+38.0914%
+Newmont Servicios Chile S.p.A.
+Chile
+0.0077%
+Goldcorp Global Services Inc.
+British Columbia
+100.0000%
+Newmont Goldcorp Integrated Services Inc.
+Ontario
+100.0000%
+Newmont Goldcorp Red Lake Holdings Ltd.
+British Columbia
+100.0000%
+Goldcorp Exeter Ltd.
+British Columbia
+100.0000%
+Goldcorp MC Holding S.p.A.
+Chile
+100.0000%
+Norte Abierto S.p.A.
+Chile
+34.1615%
+Goldcorp Stratum Holdings (Canada) ULC
+British Collumbia
+100.0000%
+Newmont Servicios Chile S.p.A.
+Chile
+99.9923%
+Norte Abierto Holdings (Canada) ULC
+British Columbia
+50.0000%
+Norte Abierto S.p.A.
+Chile
+31.6770%
+Goldcorp General Holdings Ltd.
+British Columbia
+100.0000%
+Goldcorp S.A. de C.V.
+Mexico
+72.1414%
+Goldcorp USA Holdings Ltd.
+Delaware, USA
+100.0000%
+Goldcorp America Holdings Inc.
+Nevada, USA
+100.0000%
+Goldcorp USA Inc.
+Nevada, USA
+100.0000%
+Glamis Rand Mining Company
+Nevada, USA
+100.0000%
+Honduras Holdings Ltd.
+Cayman Islands
+100.0000%
+Prestadora de Servicios Generales, S.A. de C.V.
+Honduras
+99.6000%
+International Mineral Finance B.V.
+Netherlands
+100.0000%
+Goldcorp Holdings B.V.
+Netherlands
+100.0000%
+Goldcorp Trading B.V.
+Netherlands
+100.0000%
+Oroplata S.A.
+Argentina
+99.7450%
+Mexicana Resources Inc.
+British Columbia
+100.0000%
+Minera Peñasquito S.A. de C.V.
+Mexico
+<0.0133%
+Montana Exploradora de Guatemala S.A.
+Guatemala
+1.0000%
+Peridot S.A.
+Guatemala
+2.0000%
+Sermineros de Mexico S.A. de C.V.
+Mexico
+<0.0001%
+Montana Exploradora de Guatemala S.A.
+Guatemala
+99.0000%
+Newmont Goldcorp Insurance Company Inc.
+Barbados
+100.0000%
+Newmont Saddle Minerals Ltd.
+British Columbia
+100.0000%
+North American Metals Corp.
+British Columbia
+47.0917%
+Oroplata S.A.
+Argentina
+0.2550%
+Peridot S.A.
+Guatemala
+98.0000%
+Sermineros de Mexico S.A. de C.V.
+Mexico
+>99.9999%
+Newcrest Resources, Inc.
+Delaware, USA
+100.0000%
+Newcrest USA Finance LLC
+Delaware, USA
+100.0000%
+Newroyal Resources Inc.
+Delaware, USA
+100.0000%
+Newmont  Australia Pty Ltd
+Victoria, Australia
+100.0000%
+Hotham Wind Farm Pty Ltd
+Western Australia
+100.0000%
+Newmont AP Power Pty Ltd
+Western Australia
+100.0000%
+Newmont Boddington Pty Ltd
+Western Australia
+100.0000%
+Newmont  Boddington Gold Pty Ltd
+Western Australia
+100.0000%
+Newmont Capital Pty Ltd
+New South Wales, Australia
+100.0000%
+Newmont Exploration Holdings Pty Ltd
+Queensland, Australia
+100.0000%
+Newmont Exploration Pty Ltd
+Victoria, Australia
+100.0000%
+Newmont Landco Pty Ltd
+Western Australia
+100.0000%
+Newmont Mining Finance Pty Ltd
+Australian Capital Territory
+100.0000%
+Newmont Mining Holdings Pty Ltd
+South Australia
+100.0000%
+Newmont Gold Pty Ltd
+Western Australia
+100.0000%
+Newmont Mining Services Pty Ltd
+Western Australia
+100.0000%
+Newmont Tanami Pty Ltd
+Western Australia
+100.0000%
+Newmont Woodcutters Pty Ltd
+New South Wales, Australia
+100.0000%
+Newmont Yandal Operations Pty Ltd
+Victoria, Australia
+100.0000%
+Newmont Canada FN Holdings ULC
+British Columbia
+<.0001%
+Newmont Capital Limited
+Nevada, USA
+100.0000%
+Miramar Gold Corporation
+Nevada, USA
+100.0000%
+Talapoosa Mining Inc.
+Nevada, USA
+100.0000%
+Newmont FH B.V.
+Netherlands
+100.0000%
+Newmont Canada Holdings ULC
+British Columbia
+100.0000%
+Newmont Holdings ULC
+Nova Scotia
+100.0000%
+Newmont Canada FN Holdings ULC
+British Columbia
+99.9846%
+Miramar Northern Mining Ltd.
+British Columbia
+100.0000%
+Con Exploration Ltd.
+British Columbia
+100.0000%
+Miramar HBG Inc.
+Quebec
+100.0000%
+Newmont Canada Corporation
+Nova Scotia
+100.0000%
+Hemlo Gold Mines (Ghana) Limited
+Ghana
+100.0000%
+Newmont Canada FN Holdings ULC
+British Columbia
+0.0154%
+PT Newmont Minahasa Raya
+Indonesia
+80.0000%
+Newmont Galore Creek Holdings Corporation
+British Columbia
+100.0000%
+Galore Creek Partnership
+British Columbia
+50.0000%
+Galore Creek Mining Corporation
+British Columbia
+100.0000%
+Newmont International Holdings Pty Ltd.
+Australia
+100.0000%
+Newmont Overseas Holdings Pty Ltd
+Australia
+100.0000%
+Newcrest Mining Limited
+Australia
+100.0000%
+Cadia Holdings Pty Limited
+Australia
+100.0000%
+Contango Agricultural Company Pty Ltd
+Australia
+100.0000%
+Lihir Gold Limited
+Papua New Guinea
+100.0000%
+Lihir Management Company Limited
+Papua New Guinea
+100.0000%
+Newcrest Finance Pty Limited
+Australia
+100.0000%
+Newcrest Holdings (Investments) Pty Limited
+Australia
+100.0000%
+Newcrest Insurance Pte. Ltd.
+Singapore
+100.0000%
+Newcrest International Pty Ltd
+Australia
+100.0000%
+600 Holdings Inc
+USA
+100.0000%
+Newcrest USA, Inc.
+USA
+100.0000%
+Newcrest British Columbia 2 Mining Ltd.
+Canada, British Columbia
+100.0000%
+Newcrest Canada Holdings Inc.
+Canada
+100.0000%
+Newcrest Canada Inc.
+Canada
+100.0000%
+Lundin Gold Inc.
+Canada
+32.0000%
+Newcrest Canada Services Inc.
+Canada
+100.0000%
+Newcrest Chile Holdings 1 Limited
+Bermuda
+100.0000%
+Newcrest Chile Holdings 2 Limited
+Bermuda
+100.0000%
+NewcrestEcuador S.A.
+Ecuador
+99.0000%
+Newcrest Exploration Holdings Pty Ltd
+Australia
+100.0000%
+NewcrestEcuador S.A.
+Ecuador
+1.0000%
+Newcrest Fiji Exploration Holdings 1 Pte. Ltd.
+Singapore
+100.0000%
+Newcrest Exploration (Fiji) Pte. Limited
+Fiji
+50.0000%
+Newcrest Fiji Exploration Holdings 2 Pte. Ltd.
+Singapore
+100.0000%
+Newcrest Exploration (Fiji) Pte. Limited
+Fiji
+50.0000%
+Newcrest (Fiji) Pte Limited
+Fiji
+100.0000%
+Newcrest PNG 2 Limited
+Papua New Guinea
+100.0000%
+Wafi-Golpu Services Limited
+Papua New Guinea
+50.0000%
+Newcrest PNG 3 Limited
+Papua New Guinea
+100.0000%
+Morobe Exploration Services Limited
+Papua New Guinea
+50.0000%
+Newcrest PNG Exploration Limited
+Papua New Guinea
+100.0000%
+Newcrest PNG Wamum Limited (PNG)
+Papua New Guinea
+100.0000%
+Newcrest Peru Holdings 1 Limited
+Bermuda
+100.0000%
+Minera Newcrest Peru SAC
+Peru
+50.0000%
+Newcrest Peru Holdings 2 Limited
+Bermuda
+100.0000%
+Minera Newcrest Peru SAC
+Peru
+50.0000%
+Newcrest Red Chris Mining Limited
+Canada, British Columbia
+100.0000%
+Pretium Resources Inc.
+Canada, British Columbia
+100.0000%
+0890696 B.C. Ltd.
+Canada, British Columbia
+100.0000%
+PT Nusantara Bintang Management
+Indonesia
+95.0000%
+Sulawesi Investments Pty Limited
+Australia
+100.0000%
+PT Nusantara Bintang Management
+Indonesia
+5.0000%
+Surnorte Ventures Pte. Ltd.
+Singapore
+50.0000%
+Surnorte Holdings I Pte. Ltd.
+Singapore
+100.0000%
+Surnorte S.A
+Ecuador
+50.0000%
+Surnorte Holdings II Pte. Ltd.
+Singapore
+100.0000%
+Surnorte S.A
+Ecuador
+50.0000%
+Wafi Golpu Australia Services Pty Ltd
+Australia
+50.0000%
+Newcrest Services Pty Limited
+Australia
+100.0000%
+Newcrest Technology Pty Ltd
+Australia
+100.0000%
+Newgen Pty Ltd
+Australia
+100.0000%
+Newmont NOL Pty Limited
+Australia
+100.0000%
+Niugini Mining (Australia) Pty Ltd
+Australia
+100.0000%
+Newcrest West Africa Holdings Pty Ltd
+Australia
+100.0000%
+LGL Holdings CI SA
+Ivory Coast
+98.0000%
+LGL Development CI SA
+Ivory Coast
+98.0000%
+LGL Mount Rawdon Operations Pty Ltd
+Australia
+100.0000%
+LGL CDI Investments Pty Ltd
+Australia
+100.0000%
+Newcrest Dougbafla Holdings Pte. Ltd.
+Singapore
+100.0000%
+Newcrest Dougbafla CI SA
+Ivory Coast
+89.8900%
+Newmont LaSource SAS
+France
+100.0000%
+Newmont Ghana Gold Limited
+Ghana
+100.0000%
+Newmont Services Costa Rica Sociedad de Responsabilidad Limitada
+Costa Rica
+100.0000%
+Newmont Suriname, LLC
+Delaware, USA
+100.0000%
+Suriname Gold Project CV
+Suriname
+75.0000%
+Newmont USA Limited
+Delaware, USA
+100.0000%
+Battle Mountain Resources Inc.
+Nevada, USA
+100.0000%
+Dawn Mining Company LLC
+Delaware, USA
+58.1855%
+Elko Land and Livestock Company
+Nevada, USA
+100.0000%
+ELLC Grazing Membership LLC
+Nevada, USA
+100.0000%
+Empresa Minera Maria SRL
+Bolivia
+75.4286%
+Fronteer Development (USA) LLC
+Delaware, USA
+100.0000%
+Fronteer Development LLC
+Delaware, USA
+100.0000%
+Fronteer Royalty LLC
+Delaware, USA
+100.0000%
+Nevada Eagle Resources LLC
+Nevada, USA
+100.0000%
+Hospah Holdings Company
+Delaware, USA
+100.0000%
+Idarado Mining Company
+Delaware, USA
+80.1674%
+Minera BMG
+Nevada, USA
+100.0000%
+Minera Choluteca S.A. de C.V.
+Honduras
+48.0000%
+Minera Newmont (Chile) Limitada
+Chile
+99.3827%
+Nevada Gold Mines LLC
+Delaware, USA
+38.5000%
+Newmont Bolivia Limited
+Nevada, USA
+100.0000%
+Newmont de Mexico, S.A. de C.V.
+Mexico
+>99.9999%
+Newmont Global Employment Limited Partnership
+Bermuda
+99.0000%
+Newmont Gold Company
+Delaware, USA
+100.0000%
+Newmont Indonesia Investment Limited
+Delaware, USA
+100.0000%
+Newmont International Services Limited
+Delaware, USA
+100.0000%
+Newmont Global Employment Limited Partnership
+Bermuda
+1.0000%
+PT Newmont Pacific Nusantara
+Indonesia
+1.0000%
+Newmont Latin America Limited
+Delaware, USA
+100.0000%
+Minera Los Tapados S.A.
+Peru
+0.0134%
+Minera Newmont (Chile) Limitada
+Chile
+0.6173%
+Newmont de Mexico S.A. de C.V.
+Mexico
+<0.0001%
+Newmont McCoy Cove Limited
+Nevada, USA
+100.0000%
+Newmont North America Exploration Limited
+Delaware, USA
+100.0000%
+Newmont Overseas Exploration Limited
+Delaware, USA
+100.0000%
+Newmont Exploration Limited Cote D'Ivore
+Cote D'Ivore
+100.0000%
+PT Newmont Pacific Nusantara
+Indonesia
+99.0000%
+Yamagano JV GK
+Japan
+60.0000%
+Newmont Peru Limited
+Delaware, USA
+100.0000%
+Minera Los Tapados S.A.
+Peru
+99.9866%
+Newmont Investment Holdings LLC
+Delaware, USA
+100.0000%
+Newmont Peru S.R.L.
+Peru
+<.0001%
+Newmont Peru S.R.L.
+Peru
+>99.9999%
+Minera Yanacocha S.R.L.
+Peru
+<.0001%
+Newmont Peru Royalty S.R.L.
+Peru
+99.9999%
+Newmont Realty Company
+Delaware, USA
+100.0000%
+Newmont Second Capital Corporation
+Delaware, USA
+100.0000%
+Minera Yanacocha S.R.L.
+Peru
+>99.9999%
+Newmont Mines Limited
+Delaware, USA
+100.0000%
+Newmont Technologies Limited
+Nevada, USA
+100.0000%
+New Verde Mines LLC
+Delaware, USA
+100.0000%
+Resurrection Mining Company
+Delaware, USA
+100.0000%
+San Juan Basin Holdings Company
+Delaware, USA
+100.0000%
+Santa Fe Pacific Gold Corporation
+Delaware, USA
+100.0000%
+Newmont Ventures Limited
+Delaware, USA
+100.0000%
+Newmont (Guyana) Incorporated
+Guyana
+100.0000%
+NVL Argentina S.R.L.
+Argentina
+90.0344%
+NVL PNG Limited
+Papua New Guinea
+100.0000%
+NVL Solomon Islands Limited
+Solomon Islands
+100.0000%
+Saddleback Investments Pty Ltd
+Western Australia
+100.0000%
+Normandy Overseas Holding Company Sdn Bhd
+Malaysia
+100.0000%
+Normandy Company (Malaysia) Sdn Bhd
+Malaysia
+100.0000%
+NVL Argentina S.R.L.
+Argentina
+9.9656%
+Pittston Nevada Gold Company, Ltd.
+Nevada, USA
+100.0000%
+West Pequop Project LLC
+Nevada, USA
+100.0000%
+Prestadora de Servicios Generales, S.A. de C.V.
+Honduras
+0.4000%
+* Ownership percentages relate to that of the entity directly above, with indentation used to reflect intermediary levels of ownership.

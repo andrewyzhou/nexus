@@ -1,0 +1,159 @@
+EX-21.1
+6
+ter-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+Present Subsidiaries
+Entity Name:
+State or Jurisdiction Of
+Incorporation
+Percentage of Voting
+Securities Owned
+Teradyne (Asia) Pte., Ltd.
+Singapore
+100	%*
+Teradyne Canada Limited
+Canada
+100	%
+Teradyne de Costa Rica S.R.L.
+Costa Rica
+100	%
+Teradyne GmbH
+Germany
+100	%*
+Teradyne Holdings Denmark ApS
+Denmark
+100	%*
+Teradyne International Holdings B.V.
+The Netherlands
+100	%
+Teradyne International UK Holdings Ltd.
+United Kingdom
+100	%*
+Teradyne Israel Limited
+Israel
+100	%*
+Teradyne Italia SrL
+Italy
+100	%*
+Teradyne K.K.
+Japan
+100	%
+Teradyne Korea Ltd.
+Korea
+100	%*
+Teradyne Limited
+United Kingdom
+100	%*
+Teradyne Malaysia Sdn. Bhd.
+Malaysia
+100	%*
+Teradyne (New Zealand) Holdings Ltd.
+New Zealand
+100	%*
+Teradyne Philippines Limited
+Delaware
+100	%
+Teradyne SAS
+France
+100	%
+Teradyne (Shanghai) Co., Ltd
+Peoples Republic of China
+100	%*
+Teradyne Taiwan LLC
+Delaware
+100	%*
+Teradyne Thailand Limited.
+Delaware
+100	%
+GenRad, LLC
+Delaware
+100	%
+Herco Technology Corp.
+California
+100	%
+P.L.S.T., Inc. (f/k/a Perception Laminates, Inc.)
+California
+100	%
+Eagle Test Systems, Inc.
+Delaware
+100	%
+Nextest Systems Corporation
+Delaware
+100	%
+Lemsys SA
+Switzerland
+100	%*
+LitePoint Corporation
+Delaware
+100	%
+LitePoint Europe A/S
+Denmark
+100	%*
+LitePoint Technology Limited
+Hong Kong
+100	%*
+LitePoint Technology (Shanghai) Company Ltd.
+Peoples Republic of China
+100	%*
+LitePoint Vietnam Limited
+Socialist Republic of Vietnam
+100	%*
+Mobile Industrial Robots, Inc.
+Delaware
+100	%*
+Teradyne Robotics, Inc. (f/k/a MiR Global, Inc.)
+Delaware
+100	%*
+MiR Robots (Shanghai) Co. Ltd.
+Peoples Republic of China
+100	%*
+Teradyne Robotics A/S (
+successor to merger between Universal Robots A/S and Mobile Industrial Robots A/S
+)
+Denmark
+100	%*
+Universal Robots (India) Pte. Ltd.
+India
+100	%*
+Universal Robots (Shanghai) Co. Ltd.
+Peoples Republic of China
+100	%*
+Universal Robots (USA), Inc.
+Delaware
+100	%*
+Teradyne Robotics Canada Inc.
+Canada
+100	%*
+Teradyne Robotics Denmark ApS
+Denmark
+100	%*
+Teradyne Robotics (Germany) GmbH
+Germany
+100	%*
+Teradyne Robotics (Spain) S.L.
+Spain
+100	%*
+Universal Robots Mexico S.A. de C.V.
+Mexico
+100	%*
+Universal Robots (UK) Ltd
+United Kingdom
+100	%*
+UR Technology (Shanghai) Co. Ltd.
+People Republic of China
+100	%*
+Quantifi Photonics Limited
+New Zealand
+100	%*
+Quantifi Photonics (Thailand) Ltd.
+Thailand
+100	%*
+Smartest Electronics Co., Limited
+Hong Kong
+100	%*
+Quantifi Photonics USA Inc.
+Delaware
+100	%*
+*	Indirect subsidiaries whose voting securities are 100% controlled by Teradyne, Inc.

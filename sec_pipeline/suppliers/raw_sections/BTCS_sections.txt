@@ -1,0 +1,248 @@
+TICKER: BTCS
+============================================================
+
+--- SUPPLY_CHAIN ---
+[NOT FOUND]
+
+--- VENDORS ---
+vendors and employees, access capital markets, or conduct ordinary business operations. In addition,
+regulatory guidance or informal pressure on financial institutions regarding digital asset customers could further limit our access to
+banking and financial services. Sales
+of our common stock through our ATM program or other offerings may result in substantial dilution to existing shareholders. We
+have established an at-the-market (“ATM”) offering program under which we may sell shares of our common stock from time to
+time at prevailing market prices. Sales under the ATM program, or the perception that such sales may occur, could adversely affect the
+market price of our common stock and result in significant dilution to existing shareholders. Because ATM sales are made at market prices
+without a fixed discount, the dilutive effect on existing shareholders depends on the prices at which shares are sold and the volume
+of shares sold over time. We have discretion to determine the timing and amount of any sales under the ATM program, and shareholders
+will not have advance notice of when or whether sales will occur. In
+addition, we may issue additional shares of common stock or securities convertible into or exchangeable for common stock in connection
+with future financings, acquisitions, employee compensation, or other purposes. Any such issuances would further dilute the ownership
+interests of existing shareholders and could adversely affect the market price of our common stock. We may also issue securities with
+rights, preferences, or privileges senior to those of our common stock, which could adversely affect the rights of common stockholders. 32 Our
+Senior Convertible Notes may result in dilution and contain provisions that may adversely affect shareholders. We
+have issued Senior Convertible Notes. Conversion of these notes could result in dilution to existing shareholders. The Senior Convertible
+Notes also include provisions that may affect our capital structure, liquidity, and financial flexibility. In
+addition, the Senior Convertible Notes and related financing documents contain affirmative and negative covenants and other provisions
+that may restrict our ability to incur additional indebtedness, grant liens, make certain distributions, transfer assets, or otherwise
+engage in certain transactions without the consent of the noteholder. These provisions may limit our ability to pursue strategic transactions,
+obtain additional financing, manage our capital structure, or respond to changes in market conditions. Our
+share repurchase program may not enhance shareholder value and may reduce liquidity. Our
+share repurchase program is discretionary and may be modified, suspended, or discontinued. Repurchases may reduce liquidity available
+for operations and growth and may not increase shareholder value. Risks
+Related to Cybersecurity, Custody, and Digital Asset Security If
+we experience a cybersecurity incident, theft, loss of private keys, or compromise of wallet controls, we could lose digital assets and
+suffer significant harm. Digital
+assets are controlled through cryptographic private keys and are subject to theft, loss, unauthorized access, and cybersecurity risks.
+If we lose access to private keys, experience a compromise of wallet infrastructure or access controls, or suffer a cybersecurity breach
+affecting our systems or those of our service providers, we may lose some or all of our digital assets. Such losses could be immediate,
+irreversible, and unrecoverable. The security of digital assets depends on the continued integrity of our private key management practices,
+including the use of multi-signature authorization, hardware security modules, cold storage, and access control procedures. A failure
+in any of these safeguards, whether due to human error, insider threat, social engineering, technical malfunction, or external attack,
+could result in the permanent loss of digital assets. In
+addition, our ability to respond to and recover from a cybersecurity incident depends on our incident response capabilities, business
+continuity planning, and the effectiveness of our security monitoring and detection systems. If we fail to detect, contain, or remediate
+a security incident in a timely manner, the scope and magnitude of losses could be significantly greater. We may also be required to
+expend significant resources to investigate and remediate any security incident, implement additional protective measures, and address
+any resulting regulatory inquiries, litigation, or reputational harm. We
+rely on third-party vendors, service providers, and infrastructure providers, and disruptions or failures involving these third parties
+could materially adversely affect our business. We
+rely on third-party vendors and service providers to support certain aspects of our operations, including cloud hosting and infrastructure,
+digital asset wallet infrastructure, access controls, transaction signing, transaction workflows, software and security tooling, professional
+services, and other operational functions. These providers may have access to or control over components of our security infrastructure,
+and we depend on their continued performance, security practices, and operational reliability. While we seek to select reputable providers
+and implement safeguards, we do not control these third parties and may not be able to ensure their continued performance, reliability,
+security, or compliance with applicable laws. We may have limited visibility into, or control over, the security practices and internal
+controls of our third-party providers, and we cannot guarantee that their systems will remain secure or that they will meet their contractual
+obligations. Disruptions,
+outages, performance degradation, cybersecurity incidents, security breaches, service interruptions, or other failures by third-party
+providers could impair our ability to operate validator nodes, block-building infrastructure, and DeFi activities, and could adversely
+affect our ability to access, safeguard, or transfer digital assets. Such failures could result in lost revenues, increased costs, reputational
+harm, and potential regulatory scrutiny. In addition, if a third-party provider experiences financial distress, service termination,
+or operational constraints, we may be required to transition services to an alternative provider, which could be costly, time-consuming,
+and disruptive. Certain services may also be difficult to replace in the short term, and alternative providers may not be available on
+favorable terms, if at all. 33 We
+do not maintain insurance coverage for losses of digital assets. We
+do not maintain any insurance policies that would compensate us for the loss of any digital assets. Insurance coverage for digital asset
+losses is limited in availability, may be prohibitively expensive, and may not cover all potential loss scenarios. Accordingly, if our
+digital assets are lost, stolen, or otherwise compromised for any reason, we would bear the full economic loss, which could materially
+and adversely affect our financial condition, liquidity, and results of operations. In addition, even if we had insurance coverage in
+the future, policy terms, exclusions, coverage limits, or claim disputes could limit our ability to recover losses. Risks
+Related to Regulation, Legal Uncertainty, and Government Oversight The
+regulatory landscape for digital assets, blockchain infrastructure, DeFi, and related activities is rapidly evolving, and regulatory
+developments could materially adversely affect our business. The
+legal and regulatory environment for digital assets, blockchain networks, DeFi protocols, and related activities remains uncertain and
+continues to evolve in the United States and internationally. Federal, state, and foreign regulators have taken and may continue to take
+actions that could materially affect the development, adoption, and use of digital assets and blockchain technologies. Regulatory
+agencies, including the Securities and Exchange Commission (“SEC”), the Commodity Futures Trading Commission (“CFTC”),
+the Financial Crimes Enforcement Network (“FinCEN”), the Office of Foreign Assets Control (“OFAC”), the Federal
+Reserve, the Office of the Comptroller of the Currency (“OCC”), state financial regulators, and foreign regulatory bodies
+have asserted or may assert jurisdiction over aspects of the digital asset ecosystem. Changes
+in laws, regulations, enforcement priorities, or regulatory interpretations could adversely affect our ability to operate our business,
+access capital, deploy digital assets, participate in DeFi protocols, engage in block building, or conduct validator operations. Regulatory
+outcomes could also increase our compliance costs, require us to modify or terminate certain activities, or subject us to civil or criminal
+liability. Digital
+assets, including ETH, are subject to evolving and uncertain regulatory classifications, and adverse regulatory developments, including
+classification of digital assets as securities or classification of the Company as an investment company under the Investment Company
+Act of 1940, could materially adversely affect our business. Digital
+assets are subject to evolving and uncertain regulatory treatment under U.S. federal securities laws, commodities laws, and other regulatory
+frameworks. ETH, the primary digital asset we hold and use in our operations, is generally treated as a commodity for regulatory purposes,
+including by the CFTC and in connection with certain exchange-traded products approved by the SEC. However, the regulatory classification
+of digital assets remains unsettled and subject to ongoing debate among regulators, legislators, and market participants. The classification
+of any particular digital asset may change as a result of new legislation, regulatory rulemaking, enforcement actions, court decisions,
+or evolving interpretations by the SEC, CFTC, or other regulatory authorities. If
+ETH or other digital assets that we hold, earn, or deploy were to be reclassified as securities, we and other ecosystem participants
+could become subject to significant regulatory requirements. Such requirements could include registration of digital assets as securities,
+registration as a broker-dealer or securities exchange, compliance with disclosure and reporting obligations, restrictions on trading
+and transferability, and limitations on who may purchase, hold, or transact in such assets. Any such determination could significantly
+reduce the liquidity, utility, and market value of ETH and other digital assets, disrupt our operations, and materially adversely affect
+our business and financial condition. In addition, if we were found to have violated securities laws by holding, transacting in, or facilitating
+transactions in unregistered securities, we could be subject to enforcement actions, penalties, disgorgement, and other remedies. In
+addition, if certain digital assets or related instruments we hold or obtain through our operations were deemed “securities,”
+we could be deemed an “investment company” under the Investment Company Act of 1940 (the “Investment Company Act”).
+Under the Investment Company Act, a company may be deemed an investment company if it is engaged primarily in the business of investing,
+reinvesting, owning, holding, or trading in securities, or if investment securities comprise a significant portion of its assets. 34 If
+we were deemed to be an investment company, we would be required to register under the Investment Company Act, which would subject us
+to extensive and burdensome regulatory requirements, including restrictions on our capital structure, limitations on our ability to issue
+debt and equity securities, prohibitions or restrictions on transactions with affiliates, requirements regarding the composition and
+independence of our board of directors, custody requirements, and extensive compliance, reporting, and recordkeeping obligations. Registration
+as an investment company could fundamentally change our business model and make it impractical to continue our current operations. If
+we failed to register when required, we could be subject to SEC enforcement action, including injunctive relief, and could be prohibited
+from engaging in certain business activities. In addition, contracts entered into by an unregistered investment company may be voidable,
+and a court could appoint a receiver to take control of the company. Our
+validator node operations, block-building activities, and DeFi participation may be subject to increased regulatory scrutiny and could
+be deemed to involve regulated activities. Our
+operations involve participation in blockchain networks and DeFi protocols, including staking, block building, and digital asset deployments.
+Regulators may view certain of these activities as involving regulated financial services, including, without limitation, securities
+transactions, commodities transactions, investment contracts, swaps, lending, brokerage, exchange activity, clearing activity, custody,
+money transmission, or other regulated activities. For
+example, regulatory authorities may assert that certain DeFi protocols operate as unregistered exchanges, broker-dealers, clearing agencies,
+or other regulated entities, or that participants in such protocols, including liquidity providers or borrowers, may be subject to regulatory
+obligations. Similarly,
+regulators may scrutinize block-building activities or transaction execution markets. Regulatory action could require us to modify or
+cease certain activities, could reduce the profitability of our operations, and could expose us to enforcement actions. Regulatory
+actions, enforcement proceedings, or legal restrictions affecting third parties and protocols we rely on could materially adversely affect
+our business. In
+addition to the direct regulatory risks described above, our operations depend on the continued functionality, accessibility, and participation
+of third parties and decentralized protocols across the digital asset ecosystem. These include blockchain networks, DeFi protocols, stablecoin
+ecosystems, centralized exchanges and liquidity venues, custody and wallet infrastructure providers, and participants in Ethereum transaction
+execution markets, including validator and block-building infrastructure. Governmental
+authorities have brought, and may continue to bring, enforcement actions and pursue regulatory initiatives involving digital assets,
+staking and validation activities, DeFi protocols, stablecoin issuers, crypto exchanges, custodians, wallet providers, and other ecosystem
+participants. Even if we believe our operations are conducted in compliance with applicable law, regulatory actions, restrictions, or
+adverse legal developments directed at third parties or protocols we rely on could materially disrupt our operations, reduce liquidity,
+restrict our ability to deploy or redeploy digital assets, increase compliance costs, reduce transaction flow or execution opportunities,
+or otherwise materially adversely affect our business, financial condition, and results of operations. In
+addition, because portions of the digital asset ecosystem are decentralized, open-source, and not operated by a single identifiable entity,
+regulatory actions may result in indirect impacts, including reduced protocol participation, decreased liquidity, market fragmentation,
+changes in protocol governance or access policies, or the withdrawal of service providers. The occurrence of any of these events could
+materially adversely affect our ability to operate and scale our validator operations, block-building operations, and DeFi activities. Regulatory
+authorities may take enforcement actions or adopt rules that could materially adversely affect our operations. U.S.
+and international regulators, including the SEC, the CFTC, and other governmental authorities, continue to evaluate and develop regulatory
+frameworks applicable to digital assets, blockchain infrastructure, and decentralized finance activities. These regulators have broad
+authority to investigate and bring enforcement actions relating to digital asset markets and blockchain-based activities. 35 Even
+if we believe that we are operating in compliance with applicable laws and regulations, we may become subject to investigations, subpoenas,
+enforcement actions, litigation, or administrative proceedings related to our digital asset holdings, validator operations, block-building
+activities, or other aspects of our business. Regulatory authorities may also adopt new rules or interpretations that impose additional
+compliance requirements or restrictions on participants in the digital asset ecosystem. Any
+such investigations, enforcement actions, or regulatory developments could result in significant legal costs, reputational harm, penalties,
+fines, injunctions, operational restrictions, or other adverse outcomes that could materially and adversely affect our business, financial
+condition, and results of operations. Regulatory
+requirements related to anti-money laundering (“AML”), sanctions, and financial crime compliance could adversely affect our
+business. Regulators
+may impose or expand AML, know-your-customer (“KYC”), sanctions, and other financial crime compliance requirements on digital
+asset activities. OFAC has issued sanctions-related guidance applicable to certain blockchain activities, and additional sanctions designations
+could impact DeFi protocols, relays, validators, or other ecosystem participants. Although
+our operations are primarily non-custodial, regulators may nonetheless assert that certain activities require compliance obligations.
+If we are required to implement additional compliance measures, our costs may increase, and we may be required to restrict or cease certain
+activities. We
+may be subject to state money transmission laws or other licensing requirements. Certain
+state laws regulate money transmission and similar activities. State regulators have actively pursued enforcement actions against digital
+asset businesses and may interpret money transmission and similar laws broadly in the context of digital assets. If our activities were
+deemed to involve money transmission or similar regulated activity, we could be required to obtain licenses in multiple jurisdictions,
+comply with bonding requirements, maintain minimum net capital, implement compliance programs, submit to examinations, or restrict or
+cease certain operations. The cost of obtaining and maintaining state licenses, if required, could be substantial, and failure to comply
+with applicable state laws could result in civil or criminal penalties, enforcement actions, or reputational harm. Regulation
+of stablecoins could materially adversely affect our DeFi activities. Stablecoins
+play a significant role in DeFi ecosystems, including as collateral, as a medium of exchange, and as a source of liquidity for lending
+and borrowing protocols. Our DeFi operations, including our ETH-backed borrowings through Aave, involve stablecoins such as USDC and
+USDT. Stablecoins are designed to maintain a stable value relative to a reference asset, typically the U.S. dollar, but there is no guarantee
+that any stablecoin will maintain its peg. Stablecoins have experienced depegging events in the past, including significant disruptions
+affecting major stablecoins, and such events could recur. A depegging event affecting stablecoins we hold or use could result in immediate
+losses, impair our ability to manage collateral or repay borrowings, and adversely affect our liquidity and financial condition. If
+stablecoin regulation results in reduced availability, liquidity disruptions, restrictions on stablecoin usage, or prohibitions on certain
+stablecoins, our DeFi operations and borrowing activities could be materially adversely affected. For example, if stablecoins we use
+were prohibited, restricted, or deemed non-compliant with regulatory requirements, we may be required to transition to alternative stablecoins,
+which may have different risk profiles, liquidity characteristics, or protocol support. In addition, regulatory actions against stablecoin
+issuers, exchanges, or DeFi protocols that support stablecoins could disrupt the broader stablecoin ecosystem and adversely affect our
+ability to conduct DeFi operations. The occurrence of any of these events could materially and adversely affect our business, financial
+condition, and results of operations. 36 Tax
+laws and reporting requirements related to digital assets are evolving and could adversely affect our business. Tax
+treatment of digital assets is complex and evolving. Changes in tax laws, IRS guidance, reporting requirements, or interpretations could
+increase our tax liabilities, impose additional reporting burdens, or affect the economics of our operations. Accounting
+standards, SEC disclosure expectations, and audit practices for digital assets may evolve and could materially adversely affect our reporting
+obligations. Accounting
+and disclosure requirements for digital assets, DeFi activities, and blockchain infrastructure operations continue to evolve. The SEC
+has issued and may continue to issue guidance or comment letters related to digital asset disclosures, custody practices,
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+components of the Company’s
+operations rely on open-source software, BTCS believes that its proprietary implementations, integrations, and operational expertise
+provide differentiation in its infrastructure activities. BTCS
+seeks to protect its intellectual property and trade secrets through confidentiality and proprietary rights agreements with employees
+and certain contractors, non-disclosure agreements with consultants and other third parties, and applicable trademark and domain name
+protections. The Company believes these measures are appropriate to safeguard its proprietary information and support its competitive
+position. HUMAN
+CAPITAL / EMPLOYEES As
+of March 22, 2026, the Company had nine full-time employees. The Company’s limited workforce presents operational risks, including
+dependence on key personnel, limited redundancy in critical functions, and potential challenges in scaling operations. None of the Company’s
+employees are represented by a labor union or covered by a collective bargaining agreement. In addition to its employees, BTCS engages
+third-party contractors and consultants on an as-needed basis to support its operations. BTCS
+operates as a remote-first company and believes that this approach provides access to a broader talent pool and enhances its ability
+to attract and retain skilled professionals. The Company’s workforce includes employees with expertise in blockchain infrastructure,
+software development, finance, and operations. Human
+capital management is an important component of the Company’s business strategy. BTCS seeks to foster an engaged and motivated
+workforce by promoting a culture of accountability, professional development, and respect. The Company is committed to providing equal
+employment opportunities and maintaining a work environment free from discrimination, harassment, or retaliation, in compliance with
+applicable laws and regulations. The
+Compensation Committee of the Board of Directors (the “Board”) oversees executive compensation and succession planning. The
+Company seeks to offer compensation arrangements that are competitive and appropriate for a company of its size and stage of development.
+BTCS offers employees access to health insurance and a 401(k) retirement plan with employer matching contributions, subject to applicable
+limits, as well as other employee benefits consistent with market practice. CAPITALIZATION The
+following table details the Company’s capitalization as of March 22, 2026. Class of Security Shares of Common Stock as Converted Common Stock Issued and Outstanding 46,684,968 Restricted Common Stock (Not Vested) (1) 3,069,272 Restricted Stock Units Issued (Not Vested) (1) 2,681,835 Convertible Debt (weighted average conversion price of $8.47) 2,107,757 Options to Purchase Common Stock (weighted average exercise price of $2.72) 2,632,695 Warrants to Purchase Common Stock (weighted average exercise price of $6.02) 1,411,566 Total Common Shares Diluted 58,588,093 Series V Preferred Stock (non-convertible) 15,393,030 Restricted Series V Preferred Stock (non-convertible) (2) 278,375 (1)
+As of March 22, 2026, a total of 3,069,272 shares of restricted common stock and 2,681,835 restricted stock units remain unvested and
+subject to forfeiture. These awards are subject to a combination of performance-based vesting conditions, including market capitalization
+and stock price thresholds, as well as time-based service conditions. Certain awards require the achievement of performance conditions
+alone, while others require both performance and continued service. In addition, the settlement of certain restricted stock units is
+subject to stockholder approval of an increase in the number of shares available for issuance under the Company’s equity incentive
+plan. If the applicable vesting conditions or stockholder approval requirements are not satisfied, the awards will be forfeited or will
+not be settled in shares. (2)
+As of March 22, 2026, a total of 278,375 shares of restricted Series V preferred stock remain subject to forfeiture and have not yet vested. These
+shares are subject to a combination of performance-based vesting conditions, including market capitalization thresholds as well as time-based
+service conditions. Certain awards require both performance and continued service. If the applicable vesting conditions are not satisfied,
+the shares will be forfeited and returned to the Company. 8 Cautionary
+Note Regarding Forward Looking Statements This
+report contains “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, and Section
+21E of the Securities Exchange Act of 1934. These forward-looking statements include, but are not limited to, statements concerning our
+strategy, future operations, future financial position, future revenues, projected costs, prospects, plans and objectives of management,
+and any other statements that are not statements of historical fact. Forward-looking statements can be identified by words such as “anticipates,”
+“intends,” “may,” “might,” “will,” “would,” “could,” “should,”
+“potential,” “continues,” “plans,” “seeks,” “believes,” “estimates,”
+“expects,” “projects,” “forecasts,” “targets,” “outlook,” “guidance”
+and similar references to future periods, or by the use of the negative of such terms or other comparable terminology. Forward-looking
+statements are based on our current expectations and assumptions regarding our business, the economy, capital markets, regulatory environment
+and other future conditions. Because forward-looking statements relate to the future, they are subject to inherent uncertainties, risks
+and changes in circumstances that are difficult to predict. Our actual results may differ materially from those contemplated by the forward-looking
+statements, and you should not place undue reliance on any forward-looking statement. We caution you therefore against relying on any
+of these forward-looking statements. They are neither statements of historical fact nor guarantees or assurances of future performance.
+The results anticipated by any or all of these forward-looking statements might not occur. Important factors, uncertainties and risks
+that may cause actual results to differ materially from these forward-looking statements include, but are not limited to, the risks described
+in “Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations” and elsewhere in
+this report. Any forward-looking statement made by us speaks only as of the date on which it is made. Factors or events that could cause
+our actual results to differ may emerge from time to time, and it is not possible for us to predict all of them. We undertake no obligation
+to publicly update or revise any forward-looking statement, whether as a result of new information, future developments or otherwise,
+except as may be required by applicable securities laws. ITEM
+1A.
+

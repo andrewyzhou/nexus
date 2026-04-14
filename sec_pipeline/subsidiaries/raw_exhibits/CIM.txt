@@ -1,0 +1,29 @@
+EX-21.1
+6
+cim-12x3125exhibit211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Registrant
+(1)
+Chimera RMBS Whole Pool LLC (formerly known as Chimera Asset Holding LLC), a Delaware limited
+liability company
+Chimera RMBS LLC (formerly known as Chimera Holding LLC), a Delaware limited liability company
+Chimera CMBS Whole Pool LLC (formerly known as Chimera Whole Pool Securities LLC), a Delaware
+limited liability company
+CIM Trading Company LLC, a Delaware limited liability company
+Chimera Funding TRS LLC, a Delaware limited liability company
+Chimera RR Holding LLC, a Delaware limited liability company
+Chimera Mortgage Securities LLC (formerly known as Chimera Mortgage Trust LLC), a Delaware limited liability company
+Chimera GT Holdings 2016-4 LLC, a Delaware limited liability company
+Chimera Residential Mortgage Inc., a Delaware corporation
+Funding Depositor LLC, a Delaware limited liability company
+(2)
+CIM Advisory Holding TRS LLC, a Delaware limited liability company
+Palisades Advisory Services, LLC, a Delaware limited liability company
+HX Holdco Corp., a Delaware corporation
+HomeXpress Mortgage Corp., a Delaware corporation
+(1)
+Excludes subsidiaries in the same line of business (investing in or originating mortgage assets) and includes the immediate parent of each excluded subsidiary. A total of 68 subsidiaries have been excluded, each of which operates in the United States.
+(2)
+Funding Depositor LLC is the depositor with respect to more than 33 securitization trusts that are not listed in this exhibit, but we are required to consolidate the assets and liabilities of certain of these trusts under GAAP for financial reporting purposes.

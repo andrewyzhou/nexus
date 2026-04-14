@@ -1,0 +1,45 @@
+EX-21
+8
+ni-ex21x20251231.htm
+EX-21
+Document
+Exhibit 21
+SUBSIDIARIES OF NISOURCE INC.
+as of December 31, 2025
+Segment/Subsidiary                                State of Incorporation
+COLUMBIA OPERATIONS
+Columbia Gas of Kentucky, Inc.    Kentucky
+Columbia Gas of Maryland, Inc.    Delaware
+Columbia Gas of Ohio, Inc.    Ohio
+Columbia Gas of Ohio Receivables Corporation    Delaware
+Columbia Gas of Pennsylvania, Inc.    Pennsylvania
+Columbia Gas of Pennsylvania Receivables Corporation    Delaware
+Columbia Gas of Virginia, Inc.    Virginia
+NiSource Gas Distribution Group, Inc.    Delaware
+NIPSCO OPERATIONS
+Dunn’s Bridge I Solar Generation LLC    Delaware
+Dunns Bridge Solar Center, LLC    Delaware
+Fairbanks Solar Energy Center LLC    Delaware
+Gibson Solar, LLC    Delaware
+Indiana Crossroads Solar Generation LLC    Delaware
+Indiana Crossroads Wind Farm LLC    Delaware
+Indiana Crossroads Wind Generation LLC    Delaware
+Meadow Lake Solar Park LLC    Delaware
+NIPSCO Accounts Receivable Corporation    Indiana
+NIPSCO Holdings I LLC    Indiana
+NIPSCO Holdings II LLC    Delaware
+Northern Indiana Public Service Company LLC*    Indiana
+RoseWater Wind Farm LLC    Delaware
+RoseWater Wind Generation LLC    Delaware
+CORPORATE AND OTHER OPERATIONS
+Bay State Gas Company    Massachusetts
+Generation Holdings I LLC    Indiana
+Generation Holdings II LLC    Delaware
+Lake Erie Land Company    Indiana
+NIPSCO Generation LLC    Indiana
+NiSource Corporate Group, LLC    Delaware
+NiSource Corporate Services Company    Delaware
+NiSource Development Company, Inc.    Indiana
+NiSource Energy Technologies, Inc.    Indiana
+NiSource Insurance Corporation, Inc.    Utah
+* Both Gas Distribution Operations and Electric Operations

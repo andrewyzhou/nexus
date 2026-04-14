@@ -1,0 +1,70 @@
+EX-21.1
+4
+exhibit211_fy2026.htm
+EX-21.1
+Document
+Exhibit 21.1
+SentinelOne, Inc. Global Subsidiaries Chart
+As of January 31, 2026
+Company Name
+Country
+SentinelOne Ventures LLC
+Delaware
+Sentinel Labs Israel Ltd
+Israel
+Scalyr, LLC (fka Scalyr, Inc.)
+Delaware
+Attivo Networks, LLC (fka Attivo Networks, Inc.)
+Delaware
+SentinelOne Federal, Inc.
+Delaware
+Sentinel Labs Limited
+UK
+EPP Sentinel Research Labs France SAS
+France
+SentinelOne Holding B.V.
+Netherlands
+SentinelOne B.V.
+Netherlands
+SentinelOne CZ s.r.o
+Czech Republic
+SentinelOne Denmark ApS
+Denmark
+SentinelOne Italy Srl
+Italy
+SentinelOne Cybersecurity Ireland Limited
+Ireland
+SentinelOne CyberSecurity Spain, S.L.
+Spain
+SentinelOne GmbH
+Germany
+SentinelOne Poland Sp Z o.o.
+Poland
+SentinelOne Japan KK
+Japan
+Sentinel Labs Pte Limited
+Singapore
+SentinelOne Korea, LLC
+Korea
+Sentinel Labs Australia Pty Ltd
+Australia
+SentinelOne Costa Rica, S.R.L.
+Costa Rica
+SentinelOne India Private Limited
+(Dormant)
+India
+SentinelOne Cybersecurity India Private Limited
+India
+PingSafe India Private Limited.
+India
+SentinelOne Arabia Limited
+Saudi Arabia
+SentinelOne Regional Headquarters Company (Saudi Arabia)
+Saudi Arabia
+Observo, LLC (fka Observo, Inc.)
+Delaware
+Prompt Security, Inc.
+Delaware
+Prompt Security Ltd
+Israel
+Each entity set forth on this chart is a wholly-owned subsidiary of its parent company and the voting rights in each such subsidiary is equivalent to the ownership percentage in such entity.

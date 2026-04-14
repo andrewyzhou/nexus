@@ -1,0 +1,27 @@
+EX-21.1
+3
+ex211-listofsubsidiariesfo.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+LIST OF REGISTRANT'S SUBSIDIARIES
+SUBSIDIARY NAME
+JURISDICTION OF ORGANIZATION
+FormFactor International, Inc.
+Delaware, United States
+FormFactor, K.K.
+Japan
+FormFactor Korea, Inc.
+South Korea
+FormFactor Singapore Pte. Ltd.
+Singapore
+FormFactor GmbH
+Germany
+Advanced Temperature Test Systems GmbH
+Germany
+Keystone Photonics GmbH
+Germany
+FormFactor SASU
+France
+High Precision Devices, Inc.
+Colorado, United States

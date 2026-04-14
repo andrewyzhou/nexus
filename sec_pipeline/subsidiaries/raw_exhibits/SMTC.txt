@@ -1,0 +1,99 @@
+EX-21.1
+4
+smtc-01252026xex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Semtech Corporation
+•
+Semtech EV, Inc. (California)
+•
+Semtech San Diego Corporation (California)
+•
+Sierra Monolithics, Inc. (California)
+•
+Semtech Colorado, Inc. (Delaware)
+•
+Semtech New York Corporation (Delaware)
+•
+Sierra Wireless America, Inc (Delaware)
+•
+Triune IP, LLC (Texas)
+•
+Triune Systems, L.L.C. (Texas)
+•
+NextInput, LLC (Delaware)
+•
+M2M Connectivity Australia Pty Ltd (Australia)
+•
+M2M One Pty Ltd (Australia)
+•
+Sierra Wireless, Inc. (Nova Scotia, Canada)
+•
+Semtech Canada Corporation (Nova Scotia, Canada)
+•
+Semtech Quebec Inc. (Quebec, Canada)
+•
+Semtech Semiconductor (Chengdu) Co. Ltd. (China)
+•
+Semtech Semiconductor (Shanghai) Co. Ltd. (China)
+•
+Semtech Semiconductor (Shenzhen) Company Limited (China)
+•
+Semtech France SAS (France)
+•
+Semtech (International) AG (Italy)
+•
+Sierra Wireless France SAS (France)
+•
+Sierra Wireless SA (France)
+•
+Sierra Wireless Solutions and Services SA (France)
+•
+Semtech Germany GmbH (Germany)
+•
+Semtech Semiconductor (Shanghai) Co. Ltd. (Beijing)
+•
+Semtech (International) AG (Philippines)
+•
+Semtech (International) AG (Taiwan)
+•
+Semtech Semiconductor (Malaysia) Sdn Bhd (Taiwan)
+•
+Semtech Semiconductor Holdings Limited (Hong Kong)
+•
+Sierra Wireless (Asia Pacific) Limited (Hong Kong)
+•
+Sierra Wireless Hong Kong Limited (Hong Kong)
+•
+Semtech Advanced Systems India Private Limited (India)
+•
+Sierra Wireless India Private Limited (India)
+•
+Semtech Japan GK (Japan)
+•
+Sierra Wireless Luxembourg S.A.R.L. (Luxembourg)
+•
+Semtech Semiconductor (Malaysia) Sdn Bhd (Malaysia)
+•
+Snowbush Mexico S.A.P.I. de C.V. – 99.9% (Mexico)
+•
+M2M One NZ Ltd (New Zealand)
+•
+Sierra Wireless Korea Limited (South Korea)
+•
+Semtech (International) AG (South Korea)
+•
+Sierra Wireless Sweden AB (Sweden)
+•
+Semtech (International) AG (Switzerland)
+•
+Semtech Neuchatel SARL (Switzerland)
+•
+Semtech EMEA Limited (United Kingdom)
+•
+Semtech Limited (United Kingdom)
+•
+Semtech UK Holdings Ltd (United Kingdom)
+•
+Sierra Wireless Limited (United Kingdom)

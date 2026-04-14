@@ -1,0 +1,29 @@
+EX-21.1
+3
+exhibit21132426.htm
+EX-21.1
+Document
+Exhibit 21.1
+GAMESTOP CORP.
+SUBSIDIARIES
+ELBO Inc., a Delaware corporation, is a wholly-owned subsidiary of GameStop Corp.
+EB International Holdings, Inc., a Delaware corporation, is a wholly-owned subsidiary of ELBO, Inc.
+Geeknet, Inc., a Delaware corporation, is a wholly-owned subsidiary of GameStop Corp.
+GameStop, Inc., a Minnesota corporation, is a wholly-owned subsidiary of GameStop Corp.
+Sunrise Publications, Inc., a Minnesota corporation, is a wholly-owned subsidiary of GameStop, Inc.
+GME Entertainment, LLC, a Delaware limited liability company, is a wholly-owned subsidiary of GameStop Corp.
+GameStop Texas Ltd., a Delaware corporation, is a wholly-owned subsidiary of GameStop, Inc.
+SOCOM LLC, a Delaware limited liability company, is a wholly-owned subsidiary of GameStop Texas Ltd.
+GS Mobile, Inc., a Delaware corporation, is a wholly-owned subsidiary of GameStop Corp.
+Marketing Control Services, Inc., a Virginia corporation, is a wholly-owned subsidiary of GameStop Corp.
+GameStop Limited, an Irish company, is a wholly-owned subsidiary of GameStop Global Holdings S.à r.l.
+GameStop Global Holdings S.à r.l., a Luxembourg company, is a wholly-owned subsidiary of EB International Holdings, Inc.
+Electronics Boutique Australia Pty. Limited, an Australian company, is a wholly-owned subsidiary of GameStop Global Holdings S.à r.l.
+Micromania GameStop SAS, a French company, is a wholly-owned subsidiary of GameStop Global Holdings S.à r.l.
+Micromania Group SAS, a French company, is a wholly-owned subsidiary of Micromania GameStop SAS.
+Micromania SAS, a French company, is a wholly-owned subsidiary of Micromania Group SAS.
+GameStop Deutschland GmbH, a German company, is a wholly-owned subsidiary of GameStop Global Holdings S.à r.l.
+Polarford Limited, an Irish company, is a wholly-owned subsidiary of GameStop Global Holdings S.à r.l.
+GameStop Service Holdings, LLC, a Delaware limited liability company, is a wholly-owned subsidiary of GameStop, Inc.
+GameStop Service Company, LLC, a Delaware limited liability company, is a wholly-owned subsidiary of GameStop Service Holdings, LLC
+GameStop Pennsylvania, LLC, a Delaware limited liability company, is a wholly-owned subsidiary of GameStop Texas Ltd.

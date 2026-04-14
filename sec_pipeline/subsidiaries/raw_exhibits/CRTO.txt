@@ -1,0 +1,67 @@
+EX-21.1
+3
+exhibit211subsidiariesfy20.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Criteo S.A.
+Name of Subsidiary
+Jurisdiction of Incorporation
+Iponweb Labs LLC
+Armenia
+Criteo Australia Pty Ltd
+Australia
+Criteo Do Brasil Desenvolvimento De Serviços De Internet Ltda.
+Brazil
+Criteo Canada Corp.
+Canada
+Criteo Advertising (Beijing) Co., Ltd.
+China
+Iponweb Labs Limited
+Cyprus
+Criteo France S.A.S.
+France
+Criteo Technology S.A.S.
+France
+Criteo GmbH
+Germany
+Criteo India Private Limited
+India
+Doobe In Site Ltd.
+Israel
+Criteo S.R.L.
+Italy
+Criteo K.K.
+Japan
+Criteo Korea Ltd.
+Korea
+Criteo B.V.
+Netherlands
+Criteo Technology SRL
+Romania
+Criteo LLC
+Russia
+Criteo Singapore Pte. Ltd.
+Singapore
+Criteo Europa MM, S.L.
+Spain (Barcelona)
+Criteo España, S.L.
+Spain (Madrid)
+Criteo Nordics AB
+Sweden
+Criteo Reklamcilik Hizmetleri ve Ticaret A.S.
+Turkey
+Criteo MEA FZ - LLC
+United Arab Emirates (Dubai)
+Criteo Ltd.
+United Kingdom
+Iponweb Limited (in liquidation)
+United Kingdom
+Criteo Corp.
+United States (Delaware)
+Bidswitch Inc.
+United States (Delaware)
+The MediaGrid Inc.
+United States (Delaware)
+Criteo Holdings Inc.
+United States (Delaware)

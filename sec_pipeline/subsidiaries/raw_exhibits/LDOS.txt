@@ -1,0 +1,57 @@
+EX-21
+2
+ldos1022026ex21.htm
+EX-21
+Document
+Exhibit 21
+SUBSIDIARIES
+In accordance with SEC rules, the following is a list of Leidos Holdings, Inc.'s subsidiaries as of January 2, 2026, other than those subsidiaries, considered in the aggregate as a single subsidiary, that would not constitute a “significant subsidiary” as of January 2, 2026.
+This list of subsidiaries will change from year-to-year as a result of changes in Leidos' and its subsidiaries’ results of operations and financial condition, legal entity consolidations and any sales and other dispositions of Leidos Holdings, Inc.'s subsidiaries. Accordingly, this list is not representative of the total number of subsidiaries that Leidos Holdings, Inc. may have at any given time.
+Name
+Jurisdiction of Formation
+Leidos, Inc.
+Delaware
+Leidos Biomedical Research, Inc.
+Delaware
+Leidos Consulting Engineers, Inc.
+California
+Leidos Engineering, LLC
+Delaware
+Leidos Global Technology Corporation
+Delaware
+Leidos Services, Inc.
+Delaware
+Leidos Intermediate Holdings, Inc.
+Delaware
+Leidos Government Services, Inc.
+Maryland
+Leidos Integrated Technology, LLC
+Delaware
+Hanford Mission Integration Solutions, LLC
+Delaware
+QTC Holdings, Inc.
+Delaware
+QTC Management, Inc.
+California
+QTC Medical Services, Inc.
+California
+Leidos Digital Solutions, Inc.
+Virginia
+Leidos New Zealand Limited
+New Zealand
+Dynetics, Inc.
+Alabama
+Dynetics Technical Solutions, Inc.
+Alabama
+SPIRE Manufacturing Solutions, LLC
+Colorado
+Leidos Security Detection & Automation, Inc.
+Delaware
+1901 Group, LLC
+Virginia
+Gibbs & Cox, Inc.
+New York
+Savanna Industries, Inc.
+Virginia
+Kudu Dynamics LLC
+Virginia

@@ -1,0 +1,113 @@
+EX-21
+12
+ex-21x10312025.htm
+EX-21
+Document
+Exhibit 21
+Subsidiaries of Hewlett Packard Enterprise Company
+The registrant's subsidiaries as of October 31, 2025, omitting subsidiaries which, considered in the aggregate, would not constitute a significant subsidiary, are included in the list below.
+COUNTRY
+SUBSIDIARY
+AUSTRALIA
+Hewlett-Packard Australia Pty. Ltd.
+HP Financial Services (Australia) Pty Limited
+BELGIUM
+Hewlett Packard Enterprise Belgium BV/SRL
+BRAZIL
+HP Financial Services Arrendamento Mercantil S.A.
+Hewlett-Packard Brasil Ltda.
+CANADA
+Hewlett-Packard Financial Services Canada Company
+Hewlett Packard Enterprise Canada Company
+CAYMAN ISLANDS
+H3C Holdings Limited
+Juniper Networks (Cayman) LP
+Juniper Networks Cayman International Holdings II, Ltd.
+CHINA
+Shanghai Hewlett-Packard Co. Ltd.
+DENMARK
+Hewlett-Packard ApS
+ENGLAND & WALES
+Hewlett-Packard Holdings Ltd.
+Hewlett-Packard Limited
+FRANCE
+Hewlett-Packard France SAS
+GERMANY
+Compaq Computer Deutschland GmbH (Holding)
+Hewlett-Packard GmbH
+HONG KONG
+Hewlett-Packard HK SAR Ltd.
+INDIA
+Hewlett Packard Enterprise India Private Limited
+Hewlett-Packard Financial Services (India) Private Limited
+Hewlett-Packard (India) Software Operation Private Limited
+IRELAND
+Hewlett-Packard International Bank Designated Activity Company
+ISRAEL
+Hewlett-Packard (Israel) Ltd.
+ITALY
+Hewlett-Packard Italiana S.r.l.
+HPFS Rental S.R.L.
+JAPAN
+Hewlett Packard Japan, G.K.
+HP Financial Services (Japan) K.K.
+KOREA, REPUBLIC OF
+Hewlett-Packard Korea Ltd.
+MEXICO
+Hewlett-Packard Mexico S. de R.L. de C.V.
+Hewlett-Packard Operations Mexico, S. de R.L. de C.V.
+NETHERLANDS
+Compaq Trademark B.V.
+Hewlett-Packard Nederland B.V.
+Juniper Networks International B.V.
+NORWAY
+Hewlett-Packard Norge AS
+PERU
+Hewlett-Packard Peru S.R.L.
+POLAND
+Hewlett Packard Enterprise Polska sp. z o.o.
+PUERTO RICO
+Hewlett Packard Enterprise CRL
+Hewlett Packard Enterprise Holdings CRL
+Hewlett Packard Enterprise I LLC
+Hewlett Packard Enterprise III LLC
+Hewlett Packard Enterprise IV LLC
+Hewlett Packard Enterprise V LLC
+SAUDI ARABIA
+Hewlett Packard Enterprise Limited
+SINGAPORE
+Hewlett-Packard Asia Pacific Pte. Ltd.
+Hewlett-Packard Singapore (Sales) Pte. Ltd.
+Hewlett Packard Enterprise Singapore Pte. Ltd
+HPE Financial Services (Singapore) Pte.Ltd.
+SOUTH AFRICA
+Hewlett-Packard South Africa (Proprietary) Limited
+SPAIN
+Hewlett-Packard Servicios España S.L.
+SWEDEN
+Hewlett-Packard Sverige AB
+SWITZERLAND
+Hewlett Packard Enterprise B.V., Amstelveen, Meyrin Branch
+Hewlett-Packard International Sàrl
+Hewlett-Packard (Schweiz) GmbH
+TAIWAN
+Hewlett Packard Taiwan Ltd.
+THAILAND
+Hewlett-Packard (Thailand) Limited
+TURKEY
+Hewlett-Packard Teknoloji Çözümleri Limited Şirketi
+UNITED STATES
+Hewlett-Packard Financial Services Company
+HPEFS Equipment Trust 2023-1
+HPEFS Equipment Trust 2023-2
+HPEFS Equipment Trust 2024-1
+HPEFS Equipment Trust 2024-2
+HPEFS Equipment Trust 2025-1
+HPEFS Equipment Trust 2025-2
+Juniper Networks, Inc.
+Juniper Networks (US), Inc.
+Juniper Networks International Development II LLC
+Juniper Networks Systems (Cayman), Inc.
+Juniper Networks Worldwide Holdings LLC
+Juniper Networks Worldwide I LLC
+Menlo/Juniper Networks, LLC

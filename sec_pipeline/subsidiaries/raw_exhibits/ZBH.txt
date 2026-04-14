@@ -1,0 +1,368 @@
+EX-21
+5
+zbh-ex21.htm
+EX-21
+EX-21
+Exhibit 21
+Subsidiaries of Zimmer Biomet Holdings, Inc.
+As of December 31, 2025
+Name of Subsidiary
+1
+Jurisdiction of Formation
+Domestic subsidiaries
+:
+A&E Medical Corp.
+New Jersey
+Alto Development Corp.
+New Jersey
+Avitus Orthopaedics, Inc.
+Delaware
+Biomet Biologics, LLC
+Indiana
+Biomet CV Holdings, LLC
+Delaware
+Biomet Fair Lawn LLC
+Indiana
+Biomet International, Inc.
+Delaware
+Biomet Manufacturing, LLC
+Indiana
+Biomet Microfixation, LLC
+Florida
+dba Zimmer Biomet CMF and Thoracic
+Biomet Orthopedics, LLC
+Indiana
+Biomet Sports Medicine, LLC
+Indiana
+dba Biomet Sports Medicine Limited Liability Company
+(Forced)
+Biomet Trauma, LLC
+Indiana
+Biomet U.S. Reconstruction, LLC
+Indiana
+Biomet, Inc.
+Indiana
+dba Zimmer Biomet
+Cayenne Medical, Inc.
+Delaware
+CD Diagnostics, Inc.
+Delaware
+CD Laboratories, Inc.
+Maryland
+Citra Labs, LLC
+Indiana
+dba Biomet Citra Labs, LLC (
+Forced
+)
+Dornoch Medical Systems, Inc.
+Illinois
+Embody, Inc.
+Virginia
+ETEX Corporation
+Massachusetts
+dba Zimmer ETEX
+dba Zimmer Biomet ETEX
+ETEX Holdings, Inc.
+Delaware
+dba Zimmer ETEX
+dba Zimmer Biomet ETEX
+Interpore Cross International, LLC
+California
+dba Zimmer Biomet Irvine
+LVB Acquisition, Inc.
+Delaware
+Medtech Surgical, Inc.
+Delaware
+Monogram Technologies Inc.
+Delaware
+OrthoGrid Systems, Inc.
+Delaware
+Paragon 28, Inc.
+Delaware
+ReLign Corporation
+Delaware
+ZB Manufacturing, LLC
+Delaware
+Zimmer Biomet CMFT Holdings, LLC
+Delaware
+Zimmer Biomet Contract Solutions, LLC
+Delaware
+dba ZTECH
+dba ZTECH LLC
+Zimmer Biomet Integrations LLC
+Delaware
+Zimmer Biomet Leasing LLC
+Delaware
+Zimmer Caribe, LLC
+Delaware
+Zimmer Co-op Holdings, LLC
+Delaware
+Zimmer CV, Inc.
+Delaware
+Zimmer Knee Creations, Inc.
+Delaware
+Zimmer Orthobiologics, Inc.
+New Jersey
+Name of Subsidiary
+1
+Jurisdiction of Formation
+Zimmer Production, Inc.
+Delaware
+Zimmer Surgical, Inc.
+Delaware
+Zimmer Trabecular Metal Technology, Inc.
+New Jersey
+Zimmer US, Inc.
+Delaware
+dba Zimmer Biomet
+dba Zimmer Biomet Bay Area
+dba Zimmer Biomet Mid-Atlantic
+dba Zimmer Biomet North Texas
+dba Zimmer Biomet Southern California
+dba Zimmer US Cooperative
+dba Compression Therapy Concepts
+dba CTC Inc.
+Zimmer, Inc.
+Delaware
+dba Zimmer Biomet
+dba Zimmer Biomet Corporate Services (
+Forced
+)
+dba Z Hotel
+dba CD Diagnostics
+dba CD Laboratories
+Foreign subsidiaries
+:
+Biomet Argentina SA
+Argentina
+Paragon 28 Australia PTY LTD
+Australia
+Zimmer Australia Holding Pty. Ltd.
+Australia
+Zimmer Biomet Pty. Ltd.
+Australia
+Zimmer Biomet Austria GmbH
+Austria
+Zimmer Biomet Finance Srl
+Barbados
+Zimmer Biomet BV
+Belgium
+WM World Medical Importacao e Exportacao Ltda.
+Brazil
+Zimmer Biomet Brasil Ltda.
+Brazil
+ORTHOsoft ULC
+Canada
+dba Zimmer CAS
+Zimmer Biomet Canada, Inc.
+Canada
+ZB Cayman (Asia) Holding Ltd.
+Cayman Islands
+Biomet Chile SA
+Chile
+Beijing Montagne Medical Device Co., Ltd.
+China
+Biomet China Co., Ltd.
+China
+Changzhou Biomet Medical Devices Co., Ltd.
+China
+Shanghai Biomet Business Consulting Co., Ltd.
+China
+Zhejiang Biomet Medical Products Co., Ltd.
+China
+Zimmer Biomet CBT
+China
+Zimmer (Shanghai) Medical International Trading Co., Ltd.
+China
+Zimmer (Shanghai) Medical International Trading Co., Ltd. - Beijing Branch (branch)
+China
+Zimmer Biomet Colombia SAS
+Colombia
+3-102-910623 Sociedad de Responsabilidad Limitada
+Costa Rica
+Zimmer Biomet Centroamerica SA
+Costa Rica
+Zimmer Czech sro
+Czech Republic
+Zimmer Biomet Denmark ApS
+Denmark
+Disior Oy
+Finland
+Zimmer Biomet Finland Oy
+Finland
+Biomet France Sarl
+France
+Medtech SAS
+France
+Neosteo SAS
+France
+OrthoGrid Systems SAS
+France
+V.I.M.S. VIDEO INTERVENTIONNELLE MEDICALE SCIENTIFIQUE SA
+France
+Name of Subsidiary
+1
+Jurisdiction of Formation
+Zimmer Biomet France SAS
+France
+Zimmer Biomet France Holdings SAS
+France
+Biomet Deutschland GmbH
+Germany
+Paragon 28 DE GmbH
+Germany
+Zimmer Biomet Healthcare Management GmbH
+Germany
+Zimmer Biomet Deutschland GmbH
+Germany
+Zimmer Germany Holdings GmbH
+Germany
+Zimmer International Logistics GmbH
+Germany
+Zimmer Biomet Hellas SA
+Greece
+Biomet Hong Kong Holding Ltd.
+Hong Kong
+ZB Hong Kong Holding Ltd.
+Hong Kong
+ZB Hong Kong Ltd.
+Hong Kong
+Zimmer Asia (HK) Ltd.
+Hong Kong
+Zimmer India Private Ltd.
+India
+Paragon 28 Medical Devices Trading Limited
+Ireland
+Zimmer Biomet Ireland Holdings Limited
+Ireland
+Zimmer Biomet Ireland Limited
+Ireland
+Zimmer Orthopedics Manufacturing Limited
+Ireland
+Zimmer Biomet Medical Israel Ltd.
+Israel
+Paragon 28 Italia SRL
+Italy
+Zimmer Biomet Italia Srl
+Italy
+Paragon 28 Japan K.K.
+Japan
+Zimmer Biomet G.K.
+Japan
+Zimmer Biomet Korea Ltd.
+Korea
+Zimmer GmbH Representative Office Lebanon (branch)
+Lebanon
+Zimmer Biomet OUS Holdings GmbH
+Liechtenstein
+Zimmer Luxembourg Sarl
+Luxembourg
+Zimmer Luxembourg II Sarl
+Luxembourg
+Zimmer Medical Malaysia SDN BHD
+Malaysia
+Biomet Mexico S.A. de C.V.
+Mexico
+Representaciones Zimmer Inc., S. de R.L. de C.V.
+Mexico
+Biomet C.V.
+Netherlands
+Biomet Global Supply Chain Center B.V.
+Netherlands
+Biomet Holdings B.V.
+Netherlands
+ZB COOP C.V.
+Netherlands
+Zimmer Biomet Asia Holding B.V.
+Netherlands
+Zimmer Biomet Nederland B.V.
+Netherlands
+Zimmer Manufacturing B.V.
+Netherlands
+OSSIS Corporation
+New Zealand
+Zimmer Biomet New Zealand Company
+New Zealand
+Zimmer Biomet NZ Holdings Corporation
+New Zealand
+Zimmer Biomet Norway AS
+Norway
+Zimmer Biomet Polska Sp. z.o.o
+Poland
+Zimmer Biomet Portugal, Unipessoal Lda
+Portugal
+Zimmer Manufacturing B.V. (Puerto Rico Branch)
+Puerto Rico
+Zimmer Biomet Romania S.R.L.
+Romania
+Zimmer CIS Ltd.
+Russia
+Zimmer Biomet Asel Alarabiya Limited Company
+Saudi Arabia
+Zimmer GmbH, Zimmer Biomet Regional Headquarters (branch)
+Saudi Arabia
+Zimmer Biomet Asia Holdings Pte. Ltd.
+Singapore
+Zimmer Pte. Ltd.
+Singapore
+Zimmer Slovakia sro
+Slovakia
+Paragon 28 Medical Devices Trading Limited, Cape Town Branch (branch)
+South Africa
+Zimmer Biomet South Africa (Pty) Ltd.
+South Africa
+Name of Subsidiary
+1
+Jurisdiction of Formation
+Biomet Spain Orthopaedics S.L.U.
+Spain
+Zimmer Biomet Spain S.L.U.
+Spain
+Zimmer Biomet Sweden AB
+Sweden
+Zimmer Biomet Global Holdings Switzerland GmbH
+Switzerland
+Zimmer Biomet OUS Holdings 1 GmbH
+Switzerland
+Zimmer GmbH
+Switzerland
+Zimmer GmbH, Euro IP Branch (branch)
+Switzerland
+Zimmer GmbH, Distribution (branch)
+Switzerland
+Zimmer GmbH, Zug Branch (branch)
+Switzerland
+Zimmer Surgical SA
+Switzerland
+Zimmer Switzerland Holdings LLC
+Switzerland
+Zimmer Switzerland Manufacturing GmbH
+Switzerland
+Zimmer Biomet Taiwan Co., Ltd.
+Taiwan
+Zimmer Biomet (Thailand) Co., Ltd.
+Thailand
+Zimmer Biomet Tibbi Cihazlar Sanayi ve Ticaret Anonim Sirketi
+Turkey
+Zimmer Gulf FZ LLC
+United Arab Emirates
+Biomet UK Ltd.
+United Kingdom
+Biomet UK Healthcare Limited
+United Kingdom
+Paragon 28 UK, LTD
+United Kingdom
+ZB EMEA Finance UK 1 Ltd.
+United Kingdom
+ZB UK Group Holdings Limited
+United Kingdom
+ZB UK Plant Holdings Limited
+United Kingdom
+Zimmer Biomet UK Limited
+United Kingdom
+Zimmer Trustee Limited
+United Kingdom
+Zimmer Pte. Ltd., The Representative Office of Zimmer Pte. Ltd. in Hanoi City (branch)
+Vietnam
+1
+Excludes certain entities that have de minimis activity or are in the process of being liquidated or dissolved and that, if considered in the aggregate as a single subsidiary, would not constitute a significant subsidiary.

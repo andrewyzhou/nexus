@@ -1,0 +1,83 @@
+EX-21.1
+2
+path-2026131xlistofsubsidi.htm
+EX-21.1
+Document
+Exhibit 21.1
+List of Subsidiaries of UiPath, Inc. as of January 31, 2026
+Company Name
+Jurisdiction of Incorporation
+UiPath Australia Pty Ltd
+Australia
+UiPath Austria GmbH
+Austria
+UiPath Belgium BVBA
+Belgium
+UiPath Brasil Consultoria Limitada
+Brazil
+UiPath Canada Operations Ltd.
+Canada
+UiPath Shanghai Technology Co., Ltd.
+China
+UiPath Limited (Hong Kong)
+China (Hong Kong)
+UiPath Denmark ApS
+Denmark
+UiPath Finland Oy
+Finland
+UiPath France SAS
+France
+UiPath GmbH
+Germany
+UiPath Robotic Process Automation India Private Limited
+India
+CloudElements Technologies India Private Limited
+India
+Peak Business Insight Private Limited
+India
+UiPath Israel LTD
+Israel
+UiPath Italy SRL
+Italy
+UiPath Kabushiki Kaisha
+Japan
+UiPath Mexico S. DE R.L. DE C.V.
+Mexico
+UiPath Netherlands Holding B.V.
+Netherlands
+UiPath Netherlands B.V.
+Netherlands
+UiPath Process Mining B.V.
+Netherlands
+UiPath Norway AS
+Norway
+UiPath Poland sp. z o.o.
+Poland
+UiPath SRL
+Romania
+UiPath Arabia for Information Technology LLC
+Saudi Arabia
+UiPath PTE LTD
+Singapore
+UiPath South Africa (Pty) LTD
+South Africa
+UiPath Korea Ltd.
+South Korea
+UiPath Spain S.L.
+Spain
+UiPath AB
+Sweden
+UiPath Switzerland GmbH
+Switzerland
+UiPath Ukraine LLC
+Ukraine
+UiPath FZ-LLC
+United Arab Emirates (Dubai)
+UiPath Ltd. (UK)
+United Kingdom
+Peak AI Ltd.
+United Kingdom
+The Conundrum IP LLC
+United States of America (Delaware)
+UiPath Ventures LLC
+United States of America (Delaware)

@@ -1,0 +1,844 @@
+EX-21.1
+5
+tsla-2025x12x31xex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF TESLA, INC.
+Name of Subsidiary
+Jurisdiction of
+Incorporation or Organization
+Alabama Service LLC
+Delaware
+All EV Holdings, LLC
+Delaware
+Allegheny Solar 1, LLC
+Delaware
+Allegheny Solar Manager 1, LLC
+Delaware
+Alset Transport GmbH
+Germany
+Alset Warehouse GmbH
+Germany
+Ancon Holdings II, LLC
+Delaware
+Ancon Holdings III, LLC
+Delaware
+Ancon Holdings, LLC
+Delaware
+Ancon Solar Corporation
+Delaware
+Ancon Solar I, LLC
+Delaware
+Ancon Solar II Lessee Manager, LLC
+Delaware
+Ancon Solar II Lessee, LLC
+Delaware
+Ancon Solar II Lessor, LLC
+Delaware
+Ancon Solar III Lessee Manager, LLC
+Delaware
+Ancon Solar III Lessee, LLC
+Delaware
+Ancon Solar III Lessor, LLC
+Delaware
+Ancon Solar Managing Member I, LLC
+Delaware
+Arpad Solar Borrower, LLC
+Delaware
+Arpad Solar I, LLC
+Delaware
+Arpad Solar Manager I, LLC
+Delaware
+AU Solar 1, LLC
+Delaware
+AU Solar 2, LLC
+Delaware
+Banyan SolarCity Manager 2010, LLC
+Delaware
+Banyan SolarCity Owner 2010, LLC
+Delaware
+Barbacoa Battery Storage, LLC
+Texas
+Basking Solar Manager II, LLC
+Delaware
+Beatrix Solar I, LLC
+Delaware
+Bernese Solar Manager I, LLC
+Delaware
+Blue Skies Solar I, LLC
+Delaware
+Blue Skies Solar II, LLC
+Delaware
+BT Connolly Storage, LLC
+Texas
+BT Smith Storage, LLC
+Texas
+Caballero Solar Managing Member I, LLC
+Delaware
+Caballero Solar Managing Member II, LLC
+Delaware
+Caballero Solar Managing Member III, LLC
+Delaware
+Castello Solar I, LLC
+Delaware
+Castello Solar II, LLC
+Delaware
+Castello Solar III, LLC
+Delaware
+Chaparral SREC Borrower, LLC
+Delaware
+Chaparral SREC Holdings, LLC
+Delaware
+Chestnut Storage, LLC
+North Carolina
+Chompie Solar I, LLC
+Delaware
+Chompie Solar II, LLC
+Delaware
+Chompie Solar Manager I, LLC
+Delaware
+Chompie Solar Manager II, LLC
+Delaware
+Colorado River Project, LLC
+Delaware
+Community Solar Partners, LLC
+Delaware
+Compass Automation Incorporated
+Illinois
+Connecticut Auto Repair and Service LLC
+Delaware
+Corpus Battery Storage, LLC
+Texas
+El Rey EV, LLC
+Delaware
+Falconer Solar Manager I, LLC
+Delaware
+Firehorn Solar I, LLC
+Cayman Islands
+Firehorn Solar Manager I, LLC
+Delaware
+FocalPoint Solar Borrower, LLC
+Delaware
+FocalPoint Solar I, LLC
+Delaware
+FocalPoint Solar Manager I, LLC
+Delaware
+Fontane Solar I, LLC
+Delaware
+Fotovoltaica GI 4, S. de R.L. de C.V.
+Mexico
+Fotovoltaica GI 5, S. de R.L. de C.V.
+Mexico
+FP System Owner, LLC
+Delaware
+Giga Insurance Texas, Inc.
+Texas
+Giga Texas Energy, LLC
+Delaware
+Goldilocks Battery Storage, LLC
+Texas
+Tesla Automation (Shanghai) Co. Ltd.
+China
+Guilder Solar, LLC
+Delaware
+Hamilton Solar, LLC
+Delaware
+Harborfields LLC
+Delaware
+Harpoon Solar I, LLC
+Delaware
+Harpoon Solar Manager I, LLC
+Delaware
+Haymarket Holdings, LLC
+Delaware
+Haymarket Manager 1, LLC
+Delaware
+Haymarket Solar 1, LLC
+Delaware
+Hibar Systems Europe GmbH
+Germany
+Hive Battery Inc.
+Delaware
+Ikehu Manager I, LLC
+Delaware
+IL Buono Solar I, LLC
+Delaware
+Iliosson, S.A. de C.V.
+Mexico
+Industrial Maintenance Technologies, Inc.
+California
+Kansas Repair LLC
+Delaware
+Klamath Falls Solar 1, LLC
+Delaware
+Knight Solar Managing Member I, LLC
+Delaware
+Knight Solar Managing Member II, LLC
+Delaware
+Knight Solar Managing Member III, LLC
+Delaware
+Landlord 2008-A, LLC
+Delaware
+Lincoln Auto Repair and Service LLC
+Delaware
+Louis Solar II, LLC
+Delaware
+Louis Solar III, LLC
+Delaware
+Louis Solar Manager II, LLC
+Delaware
+Louis Solar Manager III, LLC
+Delaware
+Louis Solar Master Tenant I, LLC
+Delaware
+Louis Solar MT Manager I, LLC
+Delaware
+Louis Solar Owner I, LLC
+Delaware
+Louis Solar Owner Manager I, LLC
+Delaware
+Master Tenant 2008-A, LLC
+Delaware
+Matterhorn Solar I, LLC
+Delaware
+Maxwell Technologies, Inc.
+Delaware
+Megalodon Solar, LLC
+Delaware
+MISO 1 Battery Storage, LLC
+Texas
+Monte Rosa Solar I, LLC
+Delaware
+Mound Solar Manager V, LLC
+Delaware
+Mound Solar Manager VI, LLC
+Delaware
+Mound Solar Manager X, LLC
+Delaware
+Mound Solar Manager XI, LLC
+Delaware
+Mound Solar Manager XII, LLC
+Delaware
+Mound Solar Master Tenant IX, LLC
+Delaware
+Mound Solar Master Tenant V, LLC
+California
+Mound Solar Master Tenant VI, LLC
+Delaware
+Mound Solar Master Tenant VII, LLC
+Delaware
+Mound Solar Master Tenant VIII, LLC
+Delaware
+Mound Solar MT Manager IX, LLC
+Delaware
+Mound Solar MT Manager VII, LLC
+Delaware
+Mound Solar MT Manager VIII, LLC
+Delaware
+Mound Solar Owner IX, LLC
+Delaware
+Mound Solar Owner Manager IX, LLC
+Delaware
+Mound Solar Owner Manager VII, LLC
+Delaware
+Mound Solar Owner Manager VIII, LLC
+Delaware
+Mound Solar Owner V, LLC
+California
+Mound Solar Owner VI, LLC
+Delaware
+Mound Solar Owner VII, LLC
+Delaware
+Mound Solar Owner VIII, LLC
+Delaware
+Mound Solar Partnership X, LLC
+Delaware
+Mound Solar Partnership XI, LLC
+Delaware
+Mound Solar Partnership XII, LLC
+Delaware
+MS SolarCity 2008, LLC
+Delaware
+MS SolarCity Commercial 2008, LLC
+Delaware
+MS SolarCity Residential 2008, LLC
+Delaware
+New Mexico Sales and Vehicle Service LLC
+Delaware
+NBA SolarCity AFB, LLC
+California
+NBA SolarCity Commercial I, LLC
+California
+NBA SolarCity Solar Phoenix, LLC
+California
+Northern Nevada Research Co., LLC
+Nevada
+Oranje Solar I, LLC
+Delaware
+Oranje Solar Manager I, LLC
+Delaware
+Palmetto Auto Repair and Service LLC
+Delaware
+Paramount Energy Fund I Lessee, LLC
+Delaware
+Paramount Energy Fund I Lessor, LLC
+Delaware
+PEF I MM, LLC
+Delaware
+Perbix Machine Company, Inc.
+Minnesota
+Presidio Solar I, LLC
+Delaware
+Presidio Solar II, LLC
+Delaware
+Presidio Solar III, LLC
+Delaware
+Pukana La Solar I, LLC
+Delaware
+R9 Solar 1, LLC
+Delaware
+Roadster Automobile Sales and Service (Beijing) Co., Ltd.
+China
+Roadster Finland Oy
+Finland
+SA VPP Holding Trust
+Australia
+Sealy Power LLC
+Delaware
+Sequoia Pacific Holdings, LLC
+Delaware
+Sequoia Pacific Manager I, LLC
+Delaware
+Sequoia Pacific Solar I, LLC
+Delaware
+Sequoia SolarCity Owner I, LLC
+Delaware
+Sierra Solar Power (Hong Kong) Limited
+Hong Kong
+SiiLion, Inc.
+Delaware
+Silevo, LLC
+Delaware
+Smith II Battery Storage, LLC
+Texas
+Solar Aquarium Holdings, LLC
+Delaware
+Solar Energy of America 1, LLC
+Delaware
+Solar Energy of America Manager 1, LLC
+Delaware
+Solar Explorer, LLC
+Delaware
+Solar Gezellig Holdings, LLC
+Delaware
+Solar House I, LLC
+Delaware
+Solar House II, LLC
+Delaware
+Solar House III, LLC
+Delaware
+Solar House IV, LLC
+Delaware
+Solar Integrated Fund I, LLC
+Delaware
+Solar Integrated Fund II, LLC
+Delaware
+Solar Integrated Fund III, LLC
+Delaware
+Solar Integrated Fund IV-A, LLC
+Delaware
+Solar Integrated Fund V, LLC
+Delaware
+Solar Integrated Fund VI, LLC
+Delaware
+Solar Integrated Manager I, LLC
+Delaware
+Solar Integrated Manager II, LLC
+Delaware
+Solar Integrated Manager III, LLC
+Delaware
+Solar Integrated Manager IV-A, LLC
+Delaware
+Solar Integrated Manager V, LLC
+Delaware
+Solar Integrated Manager VI, LLC
+Delaware
+Solar Services Company, LLC
+Delaware
+Solar Ulysses Manager I, LLC
+Delaware
+Solar Ulysses Manager II, LLC
+Delaware
+Solar Voyager, LLC
+Delaware
+Solar Warehouse Manager I, LLC
+Delaware
+Solar Warehouse Manager II, LLC
+Delaware
+Solar Warehouse Manager III, LLC
+Delaware
+Solar Warehouse Manager IV, LLC
+Delaware
+SolarCity Alpine Holdings, LLC
+Delaware
+SolarCity Amphitheatre Holdings, LLC
+Delaware
+SolarCity Arbor Holdings, LLC
+Delaware
+SolarCity Arches Holdings, LLC
+Delaware
+SolarCity AU Holdings, LLC
+Delaware
+SolarCity Cruyff Holdings, LLC
+Delaware
+SolarCity Electrical, LLC
+Delaware
+SolarCity Electrical New York Corporation
+Delaware
+SolarCity Finance Company, LLC
+Delaware
+SolarCity Finance Holdings, LLC
+Delaware
+SolarCity Foxborough Holdings, LLC
+Delaware
+SolarCity FTE Series 1, LLC
+Delaware
+SolarCity FTE Series 2, LLC
+Delaware
+SolarCity Fund Holdings, LLC
+Delaware
+SolarCity Grand Canyon Holdings, LLC
+Delaware
+SolarCity Holdings 2008, LLC
+Delaware
+SolarCity International, Inc.
+Delaware
+SolarCity Leviathan Holdings, LLC
+Delaware
+SolarCity LMC Series I, LLC
+Delaware
+SolarCity LMC Series II, LLC
+Delaware
+SolarCity LMC Series III, LLC
+Delaware
+SolarCity LMC Series IV, LLC
+Delaware
+SolarCity LMC Series V, LLC
+Delaware
+SolarCity Mid-Atlantic Holdings, LLC
+Delaware
+SolarCity Nitro Holdings, LLC
+Delaware
+SolarCity Orange Holdings, LLC
+Delaware
+SolarCity Series Holdings I, LLC
+Delaware
+SolarCity Series Holdings II, LLC
+Delaware
+SolarCity Series Holdings IV, LLC
+Delaware
+SolarCity Steep Holdings, LLC
+Delaware
+SolarCity Ulu Holdings, LLC
+Delaware
+SolarCity Village Holdings, LLC
+Delaware
+SolarRock, LLC
+Delaware
+SolarStrong, LLC
+Delaware
+Sparrowhawk Solar I, LLC
+Delaware
+SREC Holdings, LLC
+Delaware
+Swanson Battery Storage, LLC
+Texas
+TALT Holdings, LLC
+Delaware
+TEO Engineering, Inc.
+California
+TES 2017-1, LLC
+Delaware
+TES Holdings 2017-1, LLC
+Delaware
+Tesla Auto Lease Trust 2021-B
+Delaware
+Tesla Auto Lease Trust 2023-B
+Delaware
+Tesla Auto Lease Trust 2024-A
+Delaware
+Tesla Auto Lease Trust 2024-B
+Delaware
+Tesla Electric Vehicle Trust 2023-1
+Delaware
+Tesla Autobidder International B.V.
+Netherlands
+Tesla Automation GmbH
+Germany
+Tesla Automobile Information Service (Dalian) Co., Ltd.
+China
+Tesla Automobile Management and Service (Haikou) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Beijing) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Changchun) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Changsha) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Chengdu) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Chongqing) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Dalian) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Fuzhou) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Guangzhou) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Guangzhou Panyu District) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Guiyang) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Haerbin) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Hangzhou) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Hefei) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Hohhot) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Jinan) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Kunming) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Lanzhou) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Nanchang) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Nanjing) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Nanning) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Ningbo) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Ningbo) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Ordos City) Co., Ltd
+China
+Tesla Automobile Sales and Service (Qingdao) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Shanghai) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Shenyang) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Shenzhen) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Shijiazhuang) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Suzhou) Co. Ltd.
+China
+Tesla Automobile Sales and Service (Taiyuan) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Tianjin) Co. Ltd.
+China
+Tesla Automobile Sales and Service (Urumqi) Co. Ltd.
+China
+Tesla Automobile Sales and Service (Wenzhou) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Wuhan) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Wuxi) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Xi'an) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Xiamen) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Xining) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Yinchuan) Co., Ltd.
+China
+Tesla Automobile Sales and Service (Zhengzhou) Co. Ltd.
+China
+Tesla Automobiles Sales and Service Mexico, S. de R.L. de C.V.
+Mexico
+Tesla (Beijing) New Energy R&D Co., Ltd.
+China
+Tesla Belgium BV
+Belgium
+Tesla Canada Finance ULC
+Canada
+Tesla Canada Lease Finance GP ULC
+Canada
+Tesla Canada Lease Finance LP
+Canada
+Tesla LLC
+Delaware
+Tesla Chile SpA
+Chile
+Tesla Construction Inc.
+Texas
+Tesla Construction (Shanghai) Co., Ltd.
+China
+Tesla Czech Republic s.r.o.
+Czech Republic
+Tesla Energia Macau Limitada
+Macau
+Tesla Engineering Germany GmbH
+Germany
+Tesla Energy d.o.o.
+Slovenia
+Tesla Energy Management LLC
+Delaware
+Tesla Energy Operations, Inc.
+Delaware
+Tesla Energy Ventures Australia Pty Ltd
+Australia
+Tesla Energy Ventures France S.à r.l.
+France
+Tesla Energy Ventures Limited
+United Kingdom
+Tesla Energy Ventures, LLC
+Delaware
+Tesla Energy Ventures Holdings B.V.
+Netherlands
+Tesla Estonia OÜ
+Estonia
+Tesla EV Vault, LLC
+Texas
+Tesla Finance LLC
+Delaware
+Tesla Financial Leasing (China) Co., Ltd.
+China
+Tesla Financial Services GmbH
+Germany
+Tesla Financial Services Holdings B.V.
+Netherlands
+Tesla Financial Services Limited
+United Kingdom
+Tesla Financial Services France S.à r.l.
+France
+Tesla Fleet Operations LLC
+Texas
+Tesla France S.à r.l.
+France
+Tesla Germany GmbH
+Germany
+Tesla General Insurance (TX)
+Texas
+Tesla General Insurance, Inc.
+Arizona
+Tesla Greece Single Member P.C.
+Greece
+Tesla Gulf Limited Company
+Saudi Arabia
+Tesla Hrvatska d.o.o.
+Croatia
+Tesla Hungary Kft.
+Hungary
+Tesla India Motors and Energy Private Limited
+India
+Tesla Insurance Brokers (China) Co., Ltd.
+China
+Tesla Insurance Holdings, LLC
+Delaware
+Tesla Insurance, Inc.
+Delaware
+Tesla Insurance Company
+California
+Tesla Insurance Company of Hawaii, LLC
+Hawaii
+Tesla Insurance Services, Inc.
+California
+Tesla Insurance Services of Texas, Inc.
+Texas
+Tesla International B.V.
+Netherlands
+Tesla Italy S.r.l.
+Italy
+Tesla Jordan Car Trading LLC
+Jordan
+Tesla Korea Limited
+Republic of Korea
+Tesla Latvia SIA
+Latvia
+Tesla Lease Electric Vehicle Securitization 2025-A, LLC
+Texas
+Tesla Lease Trust
+Delaware
+Tesla Lithuania UAB
+Lithuania
+Tesla LLC
+Delaware
+Tesla Manufacturing Brandenburg SE
+Germany
+Tesla Manufacturing Mexico, S. de R.L. de C.V.
+Mexico
+Tesla Manufacturing Mexico Holding, S. de R.L. de C.V.
+Mexico
+Tesla Michigan, Inc.
+Michigan
+Tesla Mississippi LLC
+Delaware
+Tesla Morocco SARL
+Morocco
+Tesla Motors Australia, Pty Ltd
+Australia
+Tesla Motors Austria GmbH
+Austria
+Tesla Motors (Beijing) Co., Ltd.
+China
+Tesla Motors Canada ULC
+Canada
+Tesla Motors Colombia S.A.S
+Colombia
+Tesla Motors Holding B.V.
+Netherlands
+Tesla Motors Denmark ApS
+Denmark
+Tesla Motors FL, Inc.
+Florida
+Tesla Motors HK Limited
+Hong Kong
+Tesla Motors Iceland ehf.
+Iceland
+Tesla Motors Ireland Limited
+Ireland
+Tesla Motors Israel Ltd.
+Israel
+Tesla Motors Japan GK
+Japan
+Tesla Motors Limited
+United Kingdom
+Tesla Motors Luxembourg S.à r.l.
+Luxembourg
+Tesla Motors MA, Inc.
+Massachusetts
+Tesla Motors Netherlands B.V.
+Netherlands
+Tesla Motors New York LLC
+New York
+Tesla Motors NL LLC
+Delaware
+Tesla Motors NV, Inc.
+Nevada
+Tesla Motors PA, Inc.
+Pennsylvania
+Tesla Motors Philippines Inc.
+Philippines
+Tesla Motors Romania S.R.L.
+Romania
+Tesla Motors Sales and Service LLC
+Turkey
+Tesla Motors Singapore Holdings Pte. Ltd.
+Singapore
+Tesla Motors Singapore Private Limited
+Singapore
+Tesla Motors Stichting
+Netherlands
+Tesla Motors Taiwan Limited
+Taiwan
+Tesla Motors TN, Inc.
+Tennessee
+Tesla Motors TX, Inc.
+Texas
+Tesla Motors UT, Inc.
+Utah
+Tesla Nambe LLC
+Delaware
+Tesla New Zealand ULC
+New Zealand
+Tesla Norway AS
+Norway
+Tesla Poland sp. z o.o.
+Poland
+Tesla Power Marketing, Inc.
+Texas
+Tesla Property &Casualty, Inc.
+California
+Tesla Portugal, Sociedade Unipessoal LDA
+Portugal
+Tesla Puerto Rico LLC
+Puerto Rico
+Tesla Qatar LLC
+Qatar
+Tesla Rental LLC
+Delaware
+Tesla Residential Energy Holdings, LLC
+Texas
+Tesla Residential Energy Leasing, LLC
+Texas
+Tesla Robotaxi, LLC
+Texas
+Tesla Sales, Inc.
+Delaware
+Tesla Sdn. Bhd.
+Malaysia
+Tesla (Shanghai) Co., Ltd
+China
+Tesla (Shanghai) New Energy Co., LTD.
+China
+Tesla Slovakia s.r.o.
+Slovakia
+Tesla Spain, S.L. Unipersonal
+Spain
+Tesla Solar Systems, LLC
+Delaware
+Tesla Sustainable Energy Holdings, LLC
+Delaware
+Tesla Sustainable Energy Trust 2024-1
+Delaware
+Tesla Switzerland GmbH
+Switzerland
+Tesla (Thailand) Ltd.
+Thailand
+Tesla TH1 LLC
+Delaware
+Tesla Toronto Automation ULC
+Canada
+Tesla US Property Holdings, LLC
+Texas
+Tesla Wholesale Energy Holdings, LLC
+Delaware
+The Big Green Solar I, LLC
+Delaware
+The Big Green Solar Manager I, LLC
+Delaware
+Three Rivers Solar 1, LLC
+Delaware
+Three Rivers Solar 2, LLC
+Delaware
+Three Rivers Solar 3, LLC
+Delaware
+Three Rivers Solar Manager 1, LLC
+Delaware
+Three Rivers Solar Manager 2, LLC
+Delaware
+Three Rivers Solar Manager 3, LLC
+Delaware
+TM International C.V.
+Netherlands
+TM Sweden AB
+Sweden
+TSET Holdings, LLC
+Delaware
+Tesla Uruguay S.A.S.
+Uruguay
+USB SolarCity Manager IV, LLC
+Delaware
+USB SolarCity Owner IV, LLC
+California
+Visigoth Solar 1, LLC
+Delaware
+Visigoth Solar Holdings, LLC
+Delaware
+Visigoth Solar Managing Member 1, LLC
+Delaware
+VPP Project 1 (SA) Pty Ltd.
+Australia
+Weisshorn Solar I, LLC
+Cayman Islands
+Weisshorn Solar Manager I, LLC
+Delaware
+Zep Solar LLC
+California

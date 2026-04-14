@@ -1,0 +1,37 @@
+EX-21.1
+4
+exhibit211subsidiariesofup.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Upwork Inc.
+Name of Subsidiary
+Jurisdiction
+Ascen Inc.
+Delaware
+Ascen Workforce Canada Inc.
+Canada
+Ascen Workforce, LLC
+Delaware
+Bubty B.V.
+Netherlands
+Elance Limited
+Ireland
+Elance LLC
+Delaware
+Lifted Solutions LLC
+Delaware
+Lifted Talent Group LLC
+Delaware
+Payment Escrow Inc.
+Delaware
+Tallance B.V.
+Netherlands
+UPW Holdco, Inc.
+Delaware
+Upwork Global LLC
+California
+Upwork Payments Inc.
+Delaware
+Upwork Services LLC
+Delaware

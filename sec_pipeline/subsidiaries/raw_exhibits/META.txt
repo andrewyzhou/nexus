@@ -1,0 +1,17 @@
+EX-21.1
+3
+meta-12312025x10kexhibit211.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+LIST OF SUBSIDIARIES
+META PLATFORMS, INC.
+Facebook Holdings, LLC (Delaware)
+Facebook Procurement, LLC (Delaware)
+FCL Tech Limited (Ireland)
+Instagram, LLC (Delaware)
+Meta Payments Inc. (Florida)
+Meta Platforms Ireland Limited (Ireland)
+Siculus LLC (Delaware)
+Sidecat LLC (Delaware)
+WhatsApp LLC (Delaware)

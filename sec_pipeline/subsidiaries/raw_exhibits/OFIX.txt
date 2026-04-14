@@ -1,0 +1,67 @@
+EX-21.1
+4
+ofix-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+The following is a list of our significant subsidiaries:
+Company
+Country of Incorporation
+Ultimate Ownership by Parent
+Orthofix Australia Pty. Ltd.
+Australia
+100%
+Orthofix do Brasil Ltda.
+Brazil
+100%
+Orthofix France SAS
+France
+100%
+Orthofix GmbH
+Germany
+100%
+Orthofix Spine GmbH
+Germany
+100%
+Orthofix S.r.l.
+Italy
+100%
+Orthofix Netherlands B.V.
+Netherlands
+100%
+Implantes y Sistemas Medicos, Inc.
+Puerto Rico
+100%
+Orthofix AG
+Switzerland
+100%
+Orthofix Limited
+UK
+100%
+Orthofix US LLC
+US
+100%
+Orthofix Services LLC
+US
+100%
+Spinal Kinetics, LLC
+US
+100%
+IsoTis International SARL
+Switzerland
+100%
+IsoTis OrthoBiologics, Inc.
+US
+100%
+IosTis, Inc.
+US
+100%
+SeaSpine Orthopedics Corporation
+US
+100%
+SeaSpine Orthopedics IntermediateCo, Inc.
+US
+100%
+7D Surgical ULC
+Canada
+100%

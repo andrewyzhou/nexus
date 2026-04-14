@@ -1,0 +1,1060 @@
+TICKER: TARA
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain delays adversely impact availability of materials, components or manufacturing
+of our product candidates. Any decision by the U.S. government to adopt such actions, such as an increase in customs duties or tariffs,
+the renegotiation of U.S. trade agreements or any other action that could have a negative impact on international trade, including corresponding
+actions taken by other countries in response to U.S. governmental actions, could adversely impact our supply chain, manufacturing and
+availability of our product candidates. The manufacturing of biologics is complex
+and our third-party manufacturers may encounter difficulties in production. If our CDMO encounters such difficulties, the ability to provide
+supply of TARA-002 for clinical trials, our ability to obtain marketing approval, or our ability to obtain commercial supply of TARA-002,
+if approved, could be delayed or stopped. We have no experience in
+biologic manufacturing and do not own or operate, and we do not expect to own or operate, facilities for product manufacturing, storage
+and distribution, or testing. We are completely dependent on CDMOs to fulfill our clinical and commercial supply of TARA-002. The process
+of manufacturing biologics is complex, highly regulated and subject to multiple risks. Manufacturing biologics is highly susceptible to
+product loss due to contamination, equipment failure, improper installation or operation of equipment, vendor or operator error, inconsistency
+in yields, variability in product characteristics and difficulties in scaling the production process. Even minor deviations from normal
+manufacturing processes could result in reduced production yields, product defects and other supply disruptions and higher costs. If microbial,
+viral or other contaminations are discovered at the facilities of our manufacturer, such facilities may need to be closed for an extended
+period of time to investigate and remedy the contamination, which could delay clinical trials, result in higher costs of drug product
+and adversely harm our business. Moreover, if the FDA determines that our manufacturer is not in compliance with FDA laws and regulations,
+including those governing cGMP, the FDA may deny BLA approval until the deficiencies are corrected or we replace the manufacturer in our
+BLA with a manufacturer that is in compliance. In addition, there are risks
+associated with large scale manufacturing for clinical trials or commercial scale including, among others, cost overruns, potential problems
+with process scale-up, process reproducibility, stability issues, compliance with cGMP, lot consistency and timely availability of raw
+materials. Even if we obtain regulatory approval for TARA-002 or any future product candidates, there is no assurance that our manufacturers
+will be able to manufacture the approved product to specifications acceptable to the FDA or other regulatory authorities, to produce it
+in sufficient quantities to meet the requirements for the potential launch of the product or to meet potential future demand. If our manufacturers
+are unable to produce sufficient quantities for clinical trials or for commercialization, commercialization efforts would be impaired,
+which would have an adverse effect on our business, financial condition, results of operations and growth prospects. Scaling up a biologic
+manufacturing process is a difficult and uncertain task, and any CDMO we contract may not have the necessary capabilities to complete
+the implementation and development process of further scaling up production, transferring production to other sites, or managing its production
+capacity to timely meet product demand. Our CDMOs and suppliers use biological materials
+and may use hazardous materials, and any claims relating to improper handling, storage or disposal of these materials could be time-consuming
+or costly. Our CDMOs and suppliers may
+use hazardous materials, including chemicals and biological agents and compounds that could be dangerous to human health and safety or
+the environment. The operations of our third-party manufacturers and suppliers also produce hazardous waste products. Federal, state,
+and local laws and regulations govern the use, generation, manufacture, storage, handling and disposal of these materials and wastes.
+Compliance with applicable environmental laws and regulations may be expensive, and current or future environmental laws and regulations
+may impair our product development efforts. In addition, we cannot entirely eliminate the risk of accidental injury or contamination from
+these materials or wastes. We do not carry specific biological or hazardous waste insurance coverage, and our property, casualty and general
+liability insurance policies specifically exclude coverage for damages and fines arising from biological or hazardous waste exposure or
+contamination. Accordingly, in the event of contamination or injury, we could be held liable for damages or be penalized with fines in
+an amount exceeding our resources, and our clinical trials or regulatory approvals could be suspended. 61 Changes in methods of product candidate
+manufacturing or formulation may result in additional costs or delay. As product candidates proceed
+through preclinical studies to late-stage clinical trials towards potential approval and commercialization, it is common that various
+aspects of the development program, such as manufacturing methods and formulation, are altered along the way in an effort to optimize
+processes and results. Such changes carry the risk that they will not achieve these intended objectives. Any of these changes could cause
+our product candidates to perform differently and affect the results of planned clinical trials or other future clinical trials conducted
+with the materials manufactured using altered processes. Such changes may also require additional testing, FDA notification or FDA approval.
+This could delay completion of clinical trials, require the conduct of bridging clinical trials or the repetition of one or more clinical
+trials, increase clinical trial costs, delay approval of our product candidates and jeopardize our ability to commence sales and generate
+revenue. If we fail to attract and retain management
+and other key personnel, we may be unable to continue to successfully develop or commercialize our product candidates or otherwise implement
+our business plan. Our ability to compete in
+the highly competitive biopharmaceuticals industry depends on our ability to attract and retain highly qualified managerial, scientific,
+medical, legal, sales and marketing and other personnel. We are highly dependent on our management and scientific personnel. The loss
+of the services of any of these individuals could impede, delay or prevent the successful development of our product pipeline, completion
+of our planned clinical trials, commercialization of our product candidates or in-licensing or acquisition of new assets and could impact
+negatively our ability to implement successfully our business plan. If we lose the services of any of these individuals, we might not
+be able to find suitable replacements on a timely basis or at all, and our business could be harmed as a result. We might not be able
+to attract or retain qualified management and other key personnel in the future due to the intense competition for qualified personnel
+among biotechnology, pharmaceutical and other businesses. From time to time, the U.S.
+has experienced a decrease in unemployment rates and an increasingly competitive labor market, which has at times resulted in difficulties
+in hiring or retaining sufficient qualified personnel to maintain and grow our business. We are uncertain as to the employment environment
+in the future, or how that environment will impact our workforce, including our ability to attract and retain qualified management and
+other key personnel. We or the third parties upon which we depend
+may be adversely affected by natural disasters and other catastrophic events and by man-made problems such as terrorism and war that could
+disrupt our business operations, and our business continuity and disaster recovery plans may not adequately protect us from a serious
+disaster. Our office is located in
+New York, New York. If a disaster, power outage, computer hacking, or other event occurred that prevented us from using all or a significant
+portion of an office, that damaged critical infrastructure, such as enterprise financial systems, IT systems, manufacturing resource
+planning or enterprise quality systems, or that otherwise disrupted operations, it may be difficult or, in certain cases, impossible
+for us to continue our business for a substantial period of time. For example, we have expanded our clinical development of TARA-002
+in NMBIC to clinical trial sites outside the U.S. and may continue expanding to other geographies. If political or civil conditions require
+it, our sites may need to delay or suspend clinical trial activities. In addition, enrollment and retention of patients at such sites
+could be disrupted by geopolitical events, including civil or political unrest, such as the current ongoing conflict between Russia and
+Ukraine. All of the aforementioned risks may be further increased if we do not implement a disaster recovery plan or our partners’
+or manufacturers’ disaster recovery plans prove to be inadequate. To the extent that any of the above should result in delays in
+the research, development, regulatory approval, manufacture, distribution or commercialization of TARA-002 or IV Choline Chloride, our
+business, financial condition, operating results and prospects would suffer. The effects of epidemics and pandemics and
+their corresponding macroeconomic impacts could materially and adversely impact our business, including our clinical development plans
+and non-clinical research. As a result of the COVID-19
+pandemic and the associated health and safety measures that were imposed, we had and, in the event of a resurgence of the pandemic or
+the onset of another public health crisis, may again experience, disruptions that could severely impact our business, including but not
+limited to delays or difficulties in clinical trial site operations and in the enrollment, scheduling and retention of patients in our
+clinical trials; interruption of key manufacturing, research and clinical development and other activities; and delays or difficulties
+conducting and completing non-clinical studies. 62 In addition, macroeconomic
+factors, including supply chain disruptions, rising inflation and resulting increases in interest rates, which were, in part, tied to
+the impacts of the COVID-19 pandemic, had an impact on our operations, and any future pandemic or public health crisis may have the same
+effects. Similarly, if banks and financial institutions enter receivership or become insolvent in the future due to financial conditions
+affecting the banking system and financial markets, there could be an adverse effect on our ability to access our cash and cash equivalents
+and investments, including transferring funds, making payments or receiving funds, any of which could have a material adverse effect on
+our business and financial condition. If we are not able to respond
+to and manage the impact of such events effectively, our business will be harmed. Risks Related to Our Common Stock We expect
+our stock price to be highly volatile. The market price of our shares
+could be subject to significant fluctuations. Market prices for securities of biotechnology and other life sciences companies historically
+have been particularly volatile, even subject to large daily price swings. For example, the closing price of our common stock from the
+period January 1, 2025 to December 31, 2025 has ranged from a low of $2.78 to a high of $7.56. Some of the factors that may cause the
+market price of our shares to fluctuate include, but are not limited to: ● the results of current and any future clinical trials of TARA-002 or IV Choline Chloride and any clinical trial failure, including any failure resulting from difficulties or delays in identifying patients, enrolling patients, retaining patients, meeting specific clinical trial endpoints or completing and timely reporting the results of any clinical trial; ● our ability to obtain regulatory approvals for TARA-002, IV Choline Chloride or future product candidates, and delays of, or failures to obtain such approvals; ● the failure of TARA-002 or IV Choline Chloride or future product candidates, if approved, to achieve commercial success; ● potential side effects associated with TARA-002 or IV Choline Chloride or future product candidates; ● issues in manufacturing, or the inability to obtain adequate supply of, TARA-002, IV Choline Chloride or future product candidates; ● the entry into, or termination of, or breach by partners of key agreements, including key commercial partner agreements; ● the initiation of, material developments in, or conclusion of, any litigation or other actions to enforce or defend any intellectual property rights or defend against the intellectual property rights of others; ● announcements of any dilutive equity financings; ● inability to obtain additional funding; ● announcements by commercial partners or competitors of new commercial products, clinical progress or the lack thereof, significant contracts, commercial relationships or capital commitments; ● failure to elicit meaningful stock analyst coverage and downgrades of our stock by analysts; ● the loss of key employees; 63 ● changes in laws or regulations application to TARA-002 or IV Choline Chloride or future product candidates; and ● sales of our common stock by us, our insiders or our other stockholders. Moreover, the stock markets
+in general have experienced substantial volatility in our industry that has often been unrelated to the operating performance of individual
+companies or a certain industry segment. These broad market fluctuations may also adversely affect the trading price of our shares. In the past, following periods
+of volatility in the market price of a company’s securities, stockholders have often instituted class action securities litigation
+against those companies. Such litigation, if instituted, could result in substantial costs and diversion of management attention and resources,
+which could significantly harm our profitability and reputation. In addition, such securities litigation often has ensued after a reverse
+merger or other merger and acquisition activity. Such litigation if brought could impact negatively our business. We incur costs and demands upon management
+as a result of complying with the laws and regulations affecting public companies. As a public company, we have
+incurred, and will continue to incur, significant legal, accounting and other expenses, including costs associated with public company
+reporting and other SEC requirements. We have also incurred, and will continue to incur, costs associated with corporate governance requirements,
+including requirements under the Exchange Act, the Sarbanes-Oxley Act and other applicable legislation, as well as rules implemented by
+the SEC and Nasdaq. We expect the rules and regulations
+applicable to public companies will continue to substantially increase our legal and financial compliance costs and to make some activities
+more time-consuming and costly. Our executive officers and other personnel will need to continue to devote substantial time to managing
+operations as a public company and compliance with applicable laws and regulations. These rules and regulations may also make it expensive
+for us to operate our business. If we fail to maintain proper and effective
+internal controls, our ability to produce accurate financial statements on a timely basis could be impaired, investors may lose confidence
+in our financial reporting and the trading price of our common stock may decline. We are subject to the reporting
+requirements of the Exchange Act, the Sarbanes-Oxley Act and the rules and regulations of Nasdaq. The Sarbanes-Oxley Act requires, among
+other things, that we maintain effective disclosure controls and procedures and internal control over financial reporting. We must perform
+system and process evaluations and testing of our internal control over financial reporting to allow management to report on the effectiveness
+of our internal controls over financial reporting in our Annual Report on Form 10-K filing for that year, as required by Section 404 of
+the Sarbanes-Oxley Act. While we remain a smaller reporting company and non-accelerated filer, we will not be required to include an attestation
+report on internal control over financial reporting issued by our independent registered public accounting firm. When we cease to be a
+smaller reporting company and no longer qualify as a non-accelerated filer, we would incur substantial professional fees and internal
+costs to expand our accounting and finance functions. We may experience difficulty in meeting these reporting requirements in a timely
+manner. We may discover weaknesses
+in our system of internal financial and accounting controls and procedures that could result in a material misstatement of our financial
+statements. Our internal control over financial reporting will not prevent or detect all errors and all fraud. A control system, no matter
+how well designed and operated, can provide only reasonable, not absolute, assurance that the control system’s objectives will be
+met. Because of the inherent limitations in all control systems, no evaluation of controls can provide absolute assurance that misstatements
+due to error or fraud will not occur or that all control issues and instances of fraud will be detected. If we are not able to comply
+with the requirements of Section 404 of the Sarbanes-Oxley Act, or if we are unable to maintain proper and effective internal controls,
+we may not be able to produce timely and accurate financial statements. If that were to happen, the market price of our common stock could
+decline and we could be subject to sanctions or investigations by the SEC or other regulatory authorities or by Nasdaq. 64 We are able to take advantage of reduced
+disclosure and governance requirements applicable to smaller reporting companies, which could result in our common stock being less attractive
+to investors. We qualify as a smaller reporting
+company under the rules of the SEC. As a smaller reporting company, we are able to take advantage of reduced disclosure requirements,
+such as certain simplified executive compensation disclosures and reduced financial statement disclosure requirements in our SEC filings.
+Comparatively reduced disclosures in our SEC filings due to our status as a smaller reporting company may make it harder for our investors
+to analyze our results of operations and financial prospects. We cannot predict if investors will find our common stock less attractive
+due to our reliance on these exemptions. If some investors find our common stock less attractive as a result, there may be a less active
+trading market for our common stock and our stock price may be more volatile. We may take advantage of the reporting exemptions applicable
+to a smaller reporting company until we are no longer a smaller reporting company, which status would end once we have a public float
+greater than $250 million. In that event, we could still be a smaller reporting company if our annual revenues were below $100 million
+and we have a public float of less than $700 million. We do not
+anticipate paying any dividends in the foreseeable future. The current expectation is
+that we will retain our future earnings to fund the development and growth of our business. As a result, capital appreciation, if any,
+of your shares of our stock will be your sole source of gain, if any, for the foreseeable future. If equity research analysts do not publish
+research or reports, or publish unfavorable research or reports, about us, our business or our market, our stock price and trading volume
+could decline. The trading market for our
+common stock is influenced by the research and reports that equity research analysts publish about us and our business. Equity research
+analysts may elect not to provide research coverage of our common stock, and such lack of research coverage may adversely affect the market
+price of our common stock. In the event we do have equity research analyst coverage, we will not have any control over the analysts or
+the content and opinions included in their reports. The price of our common stock could decline if one or more equity research analysts
+downgrade our stock or issue other unfavorable commentary or research. If one or more equity research analysts ceases coverage of us or
+fails to publish reports on us regularly, demand for our common stock could decrease, which in turn could cause our stock price or trading
+volume to decline. We will not receive
+a significant amount, or potentially any, additional funds upon the exercise of our April 2024 Pre-Funded Warrants and December 2024 Pre-Funded
+Warrants; however, any exercise would increase the number of shares eligible for future resale in the public market and result in substantial
+dilution to our stockholders. In
+April 2024 and December 2024, we issued the April 2024 Pre-Funded Warrants and December 2024 Pre-Funded Warrants to purchase a total of
+1,700,000 and 2,325,372 shares of our common stock, respectively, 3,400,272 of which are outstanding as of the date of this report. Each
+April 2024 Pre-Funded Warrant and December 2024 Pre-Funded Warrant is exercisable for $0.001 per share of common stock underlying such
+Pre-Funded Warrant. Accordingly, we will not receive a significant amount of additional funds upon the exercise of the April 2024 Pre-Funded
+Warrants and December 2024 Pre-Funded Warrants. To the extent such Pre-Funded Warrants are exercised, additional shares of common stock
+will be issued for nominal consideration, which will result in dilution to the then existing holders of our common stock and will increase
+the number of shares eligible for resale in the public market. Sales of substantial numbers of such shares in the public market could
+adversely affect the market price of the common stock, causing our stock price to decline. 65 The number of shares
+of common stock underlying our outstanding warrants is significant in relation to our currently outstanding common stock, which could
+have a negative effect on the market price of our common stock and make it more difficult for us to raise funds through future equity
+offerings. In addition, in connection with any merger, consolidation or sale of all or substantially all of our assets, holders of our
+outstanding warrants would be entitled to receive consideration in excess of their reported beneficial ownership of our common stock and
+this could adversely impact the consideration our other stockholders would receive. In
+April 2024 and December 2024, we issued the April 2024 Pre-Funded Warrants, December 2024 Pre-Funded Warrants and April 2024 Common Warrants.
+Each April 2024 Common Warrant is exercisable solely by means of a cash exercise, except that the April 2024 Common Warrant is exercisable
+via cashless exercise if at the time of exercise, a registration statement registering the issuance of the shares of common stock underlying
+the common stock warrants under the Securities Act is not then effective. The April 2024 Common Warrants include certain rights upon “fundamental
+transactions” as described in the April 2024 Common Warrants. Additionally, each holder of warrants will not be entitled to exercise
+any portion of any April 2024 Pre-Funded Warrant, December 2024 Pre-Funded Warrant or April 2024 Common Warrant, which, upon giving effect
+to such exercise, would cause (A) for the holders of the April 2024 Pre-Funded Warrants and April 2024 Common Warrants, (i) the aggregate
+number of shares of our common stock beneficially owned by the holder (together with its affiliates) to exceed 9.99%, or for certain holders,
+4.99%, of the number of shares of our common stock outstanding immediately after giving effect to the exercise, or (ii) the combined voting
+power of our securities beneficially owned by the holder (together with its affiliates) to exceed 9.99% of the combined voting power of
+all of our securities then outstanding immediately after giving effect to the exercise and (B) for the holders of the December 2024 Pre-Funded
+Warrants, the aggregate number of shares of our common stock beneficially owned by the holder (together with its affiliates) to exceed
+4.99% of the number of shares of our common stock outstanding immediately after giving effect to the exercise. However, for the April
+2024 Pre-Funded Warrants, December 2024 Pre-Funded Warrants and April 2024 Common Warrants, any holder may increase or decrease such percentage
+to any other percentage (not in excess of 19.99%) upon prior notice from the holder to us. Although
+these warrants are subject to beneficial ownership limitations, upon exercise in full of the warrants, the shares issuable upon exercise
+would represent a significant portion of our outstanding common stock. As a result, the holders of these warrants may be able to exert
+substantial influence over our business. The concentration of voting power resulting from the exercise of the warrants could delay, defer
+or prevent a change of control, entrench our management and our board of directors or delay or prevent a merger, consolidation, takeover
+or other business combination involving us on terms that other stockholders may desire. In addition, conflicts of interest could arise
+in the future between us and the holders of these warrants concerning potential competitive business activities, business opportunities,
+the issuance of additional securities and other matters. In addition, sales of these shares could cause the market price of our common
+stock to decline significantly. We
+have registered the issuance and/or resale of shares issuable upon exercise of these warrants under an effective registration statement.
+As a result, the shares issuable upon exercise of these warrants can be freely sold in the public market upon issuance. Sales of these
+shares could cause the market price of our common stock to decline significantly. Furthermore, if our stock price rises, the holders of
+these warrants may be more likely to exercise their warrants and sell a large number of shares, which could negatively impact the market
+price of our common stock and reduce or eliminate any appreciation in our stock price that might otherwise occur. Given the amount and terms of these warrants,
+we may find it more difficult to raise additional equity capital on favorable terms or at all while these warrants are outstanding. Risk Related
+to Our Ownership Structure and Governance Certain stockholders have the ability to
+control or significantly influence certain matters submitted to our stockholders for approval. Certain stockholders have
+consent rights over certain significant matters of our business. These include decisions to effect a merger or other similar transaction,
+changes to our principal business, and the sale or other transfer of TARA-002 or other assets with an aggregate value of more than $2,500,000.
+As a result, these stockholders have significant influence over certain matters that require approval by our stockholders. 66 Anti-takeover provisions in our charter
+documents and under Delaware law could make an acquisition of our business more difficult and may prevent attempts by our stockholders
+to replace or remove management. Provisions in our certificate
+of incorporation and bylaws may delay or prevent an acquisition or a change in management. In addition, because we are incorporated in
+Delaware, we are governed by the provisions of Section 203 of the Delaware General Corporation Law, or DGCL, which prohibits stockholders
+owning in excess of 15% of the outstanding voting stock from merging or combining with us. These provisions may frustrate or prevent any
+attempts by our stockholders to replace or remove then current management by making it more difficult for stockholders to replace members
+of the board of directors, which is responsible for appointing the members of management. Our certificate of incorporation provides
+that the Court of Chancery of the State of Delaware is the exclusive forum for certain disputes between us and our stockholders, which
+could limit our stockholders’ ability to obtain a favorable judicial forum for disputes with us or our directors, officers or other
+employees. Our certificate of incorporation
+provides that the Court of Chancery of the State of Delaware is the sole and exclusive forum for any derivative action or proceeding brought
+on our behalf, any action asserting a breach of fiduciary duty owed by any of our directors, officers or other employees to us or our
+stockholders, any action asserting a claim against us arising pursuant to any provisions of the DGCL, our certificate of incorporation
+or our bylaws, or any action asserting a claim against us that is governed by the internal affairs doctrine. The choice of forum provision
+may limit a stockholder’s ability to bring a claim in a judicial forum that it finds favorable for certain disputes with us or our
+directors, officers or other employees, which may discourage such lawsuits against us and our directors, officers and other employees.
+If a court were to find the choice of forum provision contained in the certificate of incorporation to be inapplicable or unenforceable
+in an action, we may incur additional costs associated with resolving such action in other jurisdictions. Risks Related to Intellectual Property Rights We may not be able to obtain, maintain or
+enforce global patent rights or other intellectual property rights that cover our product candidates and technologies that are of sufficient
+breadth to prevent third parties from competing against us. Our success with respect to our product candidates will depend, in
+part, on our ability to obtain and maintain patent protection in both the U.S. and other countries, to preserve our trade secrets and
+to prevent third parties from infringing on our proprietary rights. Our ability to protect our product candidates from unauthorized or
+infringing use by third parties depends in substantial part on our ability to obtain and maintain valid and enforceable patents around
+the world. The patent application process,
+also known as patent prosecution, is expensive and time-consuming, and we and our current or future licensors and licensees may not be
+able to prepare, file and prosecute all necessary or desirable patent applications at a reasonable cost or in a timely manner in all the
+countries that are desirable. It is also possible that we or our current licensors, or any future licensors or licensees, will fail to
+identify patentable aspects of inventions made in the course of development and commercialization activities before it is too late to
+obtain patent protection on them. Therefore, these and any of our patents and applications may not be prosecuted and enforced in a manner
+consistent with the best interests of our business. Moreover, our competitors independently may develop equivalent knowledge, methods
+and know-how or discover workarounds to our patents that would not constitute infringement. Any of these outcomes could impair our ability
+to enforce the exclusivity of our patents effectively, which may have an adverse impact on our business, financial condition and operating
+results. Due to legal standards relating
+to patentability, validity, enforceability and claim scope of patents covering pharmaceutical inventions, our ability to obtain, maintain
+and enforce patents is uncertain and involves complex legal and factual questions especially across countries. Accordingly, rights under
+any existing patents or any patents we might obtain or license may not cover our product candidates or may not provide us with sufficient
+protection for our product candidates to afford a sustainable commercial advantage against competitive products or processes, including
+those from branded, generic and over-the-counter pharmaceutical companies. In addition, we cannot guarantee that any patents or other
+intellectual property rights will issue from any pending or future patent or other similar applications owned by or licensed to us. Even
+if patents or other intellectual property rights have issued or will issue, we cannot guarantee that the claims of these patents and other
+rights are or will be held valid or enforceable by the courts, through injunction or otherwise, or will provide us with any significant
+protection against competitive products or otherwise be commercially valuable to us in every country of commercial significance that we
+may target. 67 Competitors in the field
+of immunology and oncology therapeutics have created a substantial amount of prior art, including scientific publications, posters, presentations,
+patents and patent applications and other public disclosures including on the Internet. Our ability to obtain and maintain valid and enforceable
+patents depends on whether the differences between our technology and the prior art allow our technology to be patentable over the prior
+art. We do not have outstanding issued patents covering all of the recent developments in our technology and are unsure of the patent
+protection that we will be successful in obtaining, if any. Even if the patents do successfully issue, third parties may design around
+or challenge the validity, enforceability or scope of such issued patents or any other issued patents we own or license, which may result
+in such patents being narrowed, invalidated or held unenforceable. If the breadth or strength of protection provided by the patents we
+hold or pursue with respect to our product candidates is challenged, it could dissuade companies from collaborating with us to develop
+or threaten our ability to commercialize or finance our product candidates. The laws of some foreign
+jurisdictions do not provide intellectual property rights to the same extent or duration as in the U.S., and many companies have encountered
+significant difficulties in acquiring, maintaining, protecting, defending and especially enforcing such rights in foreign jurisdictions.
+International and U.S. free trade agreements like the Agreement on Trade-Related Aspects of Intellectual Property Rights, or TRIPs Agreement,
+administered by the World Trade Organization provide global protection of certain intellectual property rights, but in a number of markets
+we may be unable to patent our products or to enforce the patents that we receive for our products. Further, many developing countries,
+and some developed countries, do not provide effective data package protection even though it is specified in the TRIPs Agreement. If
+we encounter such difficulties in protecting, or are otherwise precluded from effectively protecting, our intellectual property in foreign
+jurisdictions, our business prospects could be substantially harmed, especially internationally. Proprietary trade secrets
+and unpatented know-how are also very important to our business. Although we have taken steps to protect our trade secrets and unpatented
+know-how by entering into confidentiality agreements with third parties, and intellectual property protection agreements with officers,
+directors, employees, and certain consultants and advisors, there can be no assurance that binding agreements will not be breached or
+will be enforced by courts, that we would have adequate remedies for any breach, including injunctive and other equitable relief, or that
+our trade secrets and unpatented know-how will not otherwise become known, inadvertently disclosed by us or our agents and representatives,
+or be independently discovered by our competitors. If trade secrets are independently discovered, we would not be able to prevent their
+use and if we and our agents or representatives inadvertently disclose trade secrets and/or unpatented know-how, we may not be allowed
+to retrieve this and maintain the exclusivity we previously enjoyed. We may
+not be able to protect our intellectual property rights throughout the world. Filing, prosecuting and defending
+patents on our product candidates does not guarantee exclusivity. The requirements for patentability differ in certain countries, particularly
+developing countries. In addition, the laws of some foreign countries do not protect intellectual property rights to the same extent as
+laws in the U.S., especially when it comes to granting use and other kinds of patents and what kind of enforcement rights will be allowed,
+especially injunctive relief in a civil infringement proceeding. Consequently, we may not be able to prevent third parties from practicing
+our inventions in all countries outside the U.S. and even in launching an identical version of our product notwithstanding we have a valid
+patent in that country. Competitors may use our technologies in jurisdictions where we have not obtained patent protection to develop
+their own products, or produce copy products, and, further, may export otherwise infringing products to territories where we have patent
+protection but enforcement on infringing activities is inadequate or where we have no patents. These products may compete with our products,
+and our patents or other intellectual property rights may not be effective or sufficient to prevent them from competing. Many companies have encountered
+significant problems in protecting and defending intellectual property rights in foreign jurisdictions. The legal systems of certain countries,
+particularly certain developing countries, do not favor the enforcement of patents and other intellectual property protection, particularly
+those relating to pharmaceuticals, which could make it difficult for us to stop the infringement of our patents or marketing of competing
+products in violation of our proprietary rights generally. Proceedings to enforce our patent rights in foreign jurisdictions could result
+in substantial costs and divert our efforts and attention from other aspects of our business, could put our global patents at risk of
+being invalidated or interpreted narrowly and our global patent applications at risk of not issuing, and could provoke third parties to
+assert claims against us. We may not prevail in any lawsuits that we initiate or infringement actions brought against us, and the damages
+or other remedies awarded, if any, may not be commercially meaningful when we are the plaintiff. When we are the defendant we may be required
+to post large bonds to stay in the market while we defend ourselves from an infringement action. 68 In addition, certain countries
+in Europe and certain developing countries have compulsory licensing laws under which a patent owner may be compelled to grant licenses
+to third parties, especially if the patent owner does not enforce or use its patents over a protracted period of time. In some cases,
+the courts will force compulsory licenses on the patent holder even when finding the patent holder’s patents are valid if the court
+believes it is in the best interests of the country to have widespread access to an essential product covered by the patent. In these
+situations, the royalty the court requires to be paid by the license holder receiving the compulsory license is not calculated at fair
+market value and can be inconsequential, thereby adversely affecting the patent holder’s business. In these countries, we may have
+limited remedies if our patents are infringed or if we are compelled to grant a license to our patents to a third-party, which could also
+materially diminish the value of those patents. This would limit our potential revenue opportunities. Accordingly, our efforts to enforce
+our intellectual property rights around the world may be inadequate to obtain a significant commercial advantage from the intellectual
+property that we own or license, especially in comparison to what we enjoy from enforcing our intellectual property rights in the Unites
+States. Finally, our ability to protect and enforce our intellectual property rights may be adversely affected by unforeseen changes in
+both U.S. and foreign intellectual property laws, or changes to the policies in various government agencies in these countries, including
+but not limited to the patent office issuing patents and the health agency issuing pharmaceutical product approvals. For example, in Brazil,
+pharmaceutical patents require initial approval of the Brazilian health agency (ANVISA). Finally, many countries have large backlogs in
+patent prosecution, and in some countries in Latin America it can take years, even decades, just to get a pharmaceutical patent application
+reviewed notwithstanding the merits of the application. Obtaining and maintaining patent protection
+depends on compliance with various procedural, document submission, fee payment, and other requirements imposed by governmental patent
+agencies, and our patent protection could be reduced or eliminated for non-compliance with these requirements. Periodic maintenance and
+annuity fees on any issued patent are due to be paid to the USPTO and foreign patent agencies in several stages over the lifetime of the
+patent. The USPTO and various foreign governmental patent agencies require compliance with a number of procedural, documentary, fee payment
+and other similar provisions during the patent application process. While an inadvertent lapse can, in many cases, be cured by payment
+of a late fee or by other means in accordance with the applicable rules, there are situations in which non-compliance can result in abandonment
+or lapse of the patent or patent application, resulting in partial or complete loss of patent rights in the relevant jurisdiction just
+for failure to know about and/or timely pay a prosecution fee. Non-compliance events that could result in abandonment or lapse of a patent
+or patent application include failure to respond to official actions within prescribed time limits, non-payment of fees in prescribed
+time periods, and failure to properly legalize and submit formal documents in the format and style the country requires. If we or our
+licensors fail to maintain the patents and patent applications covering our product candidates for any reason, our competitors might be
+able to enter the market, which could materially adversely affect our business, financial condition, operating results and prospects. If we fail to comply with our obligations
+under our intellectual property license agreements, we could lose license rights that are important to our business. Additionally, these
+agreements may be subject to disagreement over contract interpretation, which could narrow the scope of our rights to the relevant intellectual
+property or technology or increase our financial or other obligations to our licensors. We have entered into in-license
+arrangements with respect to certain of our product candidates. These license agreements impose various diligence, milestone, royalty,
+insurance and other obligations on us. If we fail to comply with these obligations, the respective licensors may have the right to terminate
+the license, in which event we may not be able to develop or market the affected product candidate. The loss of such rights could materially
+adversely affect our business, financial condition, operating results and prospects. 69 If
+we are sued for infringing intellectual property rights of third parties, such litigation could be costly and time consuming and could
+prevent or delay us from developing or commercializing our product candidates. Our
+commercial success depends on our ability to develop, manufacture, market and sell our product candidates and use our proprietary technologies
+without infringing the proprietary rights of third parties. We cannot assure that marketing and selling such candidates and using such
+technologies will not infringe existing or future patents. Numerous U.S.- and foreign-issued patents and pending patent applications
+owned by third parties exist in the fields relating to our product candidates. As the biotechnology and pharmaceutical industries expand
+and more patents are issued, the risk increases that others may assert that our product candidates, technologies or methods of delivery
+or use infringe their patent rights. Moreover, it is not always clear to industry participants, including us, which patents and other
+intellectual property rights cover various drugs, biologics, drug delivery systems or their methods of use, and which of these patents
+may be valid and enforceable. Thus, because of the large number of patents issued and patent applications filed in our fields across
+many countries, there may be a risk that third parties may allege they have patent rights encompassing our product candidates, technologies
+or methods. In addition, there may be
+issued patents of third parties that are infringed or are alleged to be infringed by our product candidates or proprietary technologies
+notwithstanding patents we may possess. Because some patent applications in the U.S. may be maintained in secrecy until the patents are
+issued, because patent applications in the U.S. and many foreign jurisdictions are typically not published until 18 months after filing
+and because publications in the scientific literature often lag behind actual discoveries, we cannot be certain that others have not filed
+patent applications for technology covered by our own and in-licensed issued patents or our pending applications. Our competitors may
+have filed, and may in the future file, patent applications covering our product candidates or technology similar to our technology. Any
+such patent application may have priority over our own and in-licensed patent applications or patents, which could further require us
+to obtain rights to issued patents covering such technologies, which may mean paying significant licensing fees or the like. If another
+party has filed a U.S. patent application on inventions similar to those owned or in-licensed to us, or, in the case of in-licensed technology,
+the licensor may have to participate, in the U.S., in an interference proceeding to determine priority of invention. We
+may be exposed to, or threatened with, future litigation by third parties having patent or other intellectual property rights alleging
+that our product candidates or proprietary technologies infringe such third parties’ intellectual property rights, including litigation
+resulting from filing under Paragraph IV of the Hatch-Waxman Act or other countries’ laws similar to the Hatch-Waxman Act. These
+lawsuits could claim that there are existing patent rights for such drug, and this type of litigation can be costly and could adversely
+affect our operating results and divert the attention of managerial and technical personnel, even if we do not infringe such patents
+or the patents asserted against us are ultimately established as invalid. There is a risk that a court would decide that we are infringing
+the third-party’s patents and would order us to stop the activities covered by the patents. In addition, there is a risk that a
+court would order us to pay the other party significant damages for having violated the other party’s patents. Because
+we rely on certain third-party licensors and partners and will continue to do so in the future, if one of our licensors or partners is
+sued for infringing a third-party’s intellectual property rights, our business, financial condition, operating results and prospects
+could suffer in the same manner as if we were sued directly. In addition to facing litigation risks, we have agreed to indemnify certain
+third-party licensors and partners against claims of infringement caused by our proprietary technologies, and we have entered or may
+enter into cost-sharing agreements with some our licensors and partners that could require us to pay some of the costs of patent litigation
+brought against those third parties whether or not the alleged infringement is caused by our proprietary technologies. In certain instances,
+these cost-sharing agreements could also require us to assume greater responsibility for infringement damages than would be assumed just
+on the basis of our technology. The
+occurrence of any of the foregoing could adversely affect our business, financial condition or operating results. 70 We
+may be subject to claims that our officers, directors, employees, consultants or independent contractors have wrongfully used or disclosed
+to us alleged trade secrets of their former employers or their former or current customers. As
+is common in the biotechnology and pharmaceutical industries, certain of our employees were formerly employed by other biotechnology
+or pharmaceutical companies, including our competitors or potential competitors. Moreover, we engage the services of consultants to assist
+us in the development of our products and product candidates, many of whom were previously employed at, or may have previously been or
+are currently providing consulting services to, other biotechnology or pharmaceutical companies, including our competitors or potential
+competitors. We may be subject to claims that these employees and consultants or we have inadvertently or otherwise used or disclosed
+trade secrets or other proprietary information of their former employers or their former or current customers. Although we have no knowledge
+of any such claims being alleged to date, if such claims were to arise, litigation may be necessary to defend against any such claims.
+Even if we are successful in defending against any such claims, any such litigation could be protracted, expensive, a distraction to
+our management team, not viewed favorably by investors and other third parties, and may potentially result in an unfavorable outcome. General
+
+--- VENDORS ---
+vendors, CROs and any partners with whom we may collaborate may engage
+in misconduct or other improper activities, including non-compliance with regulatory standards and requirements. We are exposed to the risk
+that our employees, independent contractors, principal investigators, other clinical trial staff, consultants, vendors, CROs and any partners
+with which we may collaborate may engage in fraudulent or other illegal activity. Misconduct by these persons could include intentional,
+reckless, gross or negligent misconduct or unauthorized activity that violates: laws or regulations, including those laws requiring the
+reporting of true, complete and accurate information to the FDA or foreign regulatory authorities;
+
+--- MANUFACTURING ---
+contract manufacturers and suppliers will need to produce our API and other substances and materials used in our product candidates
+in larger quantities, more cost-effectively and, in certain cases, at higher yields than they currently achieve. If our third-party contractors
+are unable to scale up the manufacturing of any of our product candidates successfully in sufficient quality and quantity and at commercially
+reasonable prices, or are shut down or put on clinical hold by government regulators, and we are unable to find one or more replacement
+suppliers or manufacturers capable of production at a substantially equivalent cost in substantially equivalent volumes and quality, and
+we are unable to transfer the processes successfully on a timely basis, the development of that product candidate and regulatory approval
+or commercial launch for any resulting products may be delayed, or there may be a shortage in supply, either of which could significantly
+harm our business, financial condition, operating results and prospects. We expect to continue to depend on third-party contract suppliers and
+manufacturers for the foreseeable future. Our supply and manufacturing agreements, if any, do not guarantee that a contract supplier or
+manufacturer will provide services adequate for our needs. Additionally, any damage to or destruction of our third-party manufacturers’
+or suppliers’ facilities or equipment, even by force majeure, may significantly impair our ability to have our products and product
+candidates manufactured on a timely basis. Our reliance on contract manufacturers and suppliers further exposes us to the possibility
+that they, or third parties with access to their facilities, will have access to and may misappropriate our trade secrets or other proprietary
+information. In addition, the manufacturing facilities of certain of our suppliers may be located outside of the U.S. This may give rise
+to difficulties in importing our products or product candidates or their components into the U.S. or other countries. 60 Furthermore, as we depend
+on third-party suppliers and manufacturers, some of which may be located outside of the U.S., any future additional or new tariffs or
+other changes in trade measures adopted by the U.S. government could adversely impact the Company’s business, financial condition,
+and results of operations, particularly where supply chain delays adversely impact availability of materials, components or manufacturing
+of our product candidates. Any decision by the U.S. government to adopt such actions, such as an increase in customs duties or tariffs,
+the renegotiation of U.S. trade agreements or any other action that could have a negative impact on international trade, including corresponding
+actions taken by other countries in response to U.S. governmental actions, could adversely impact our supply chain, manufacturing and
+availability of our product candidates. The manufacturing of biologics is complex
+and our third-party manufacturers may encounter difficulties in production. If our CDMO encounters such difficulties, the ability to provide
+supply of TARA-002 for clinical trials, our ability to obtain marketing approval, or our ability to obtain commercial supply of TARA-002,
+if approved, could be delayed or stopped. We have no experience in
+biologic manufacturing and do not own or operate, and we do not expect to own or operate, facilities for product manufacturing, storage
+and distribution, or testing. We are completely dependent on CDMOs to fulfill our clinical and commercial supply of TARA-002. The process
+of manufacturing biologics is complex, highly regulated and subject to multiple risks. Manufacturing biologics is highly susceptible to
+product loss due to contamination, equipment failure, improper installation or operation of equipment, vendor or operator error, inconsistency
+in yields, variability in product characteristics and difficulties in scaling the production process. Even minor deviations from normal
+manufacturing processes could result in reduced production yields, product defects and other supply disruptions and higher costs. If microbial,
+viral or other contaminations are discovered at the facilities of our manufacturer, such facilities may need to be closed for an extended
+period of time to investigate and remedy the contamination, which could delay clinical trials, result in higher costs of drug product
+and adversely harm our business. Moreover, if the FDA determines that our manufacturer is not in compliance with FDA laws and regulations,
+including those governing cGMP, the FDA may deny BLA approval until the deficiencies are corrected or we replace the manufacturer in our
+BLA with a manufacturer that is in compliance. In addition, there are risks
+associated with large scale manufacturing for clinical trials or commercial scale including, among others, cost overruns, potential problems
+with process scale-up, process reproducibility, stability issues, compliance with cGMP, lot consistency and timely availability of raw
+materials. Even if we obtain regulatory approval for TARA-002 or any future product candidates, there is no assurance that our manufacturers
+will be able to manufacture the approved product to specifications acceptable to the FDA or other regulatory authorities, to produce it
+in sufficient quantities to meet the requirements for the potential launch of the product or to meet potential future demand. If our manufacturers
+are unable to produce sufficient quantities for clinical trials or for commercialization, commercialization efforts would be impaired,
+which would have an adverse effect on our business, financial condition, results of operations and growth prospects. Scaling up a biologic
+manufacturing process is a difficult and uncertain task, and any CDMO we contract may not have the necessary capabilities to complete
+the implementation and development process of further scaling up production, transferring production to other sites, or managing its production
+capacity to timely meet product demand. Our CDMOs and suppliers use biological materials
+and may use hazardous materials, and any claims relating to improper handling, storage or disposal of these materials could be time-consuming
+or costly. Our CDMOs and suppliers may
+use hazardous materials, including chemicals and biological agents and compounds that could be dangerous to human health and safety or
+the environment. The operations of our third-party manufacturers and suppliers also produce hazardous waste products. Federal, state,
+and local laws and regulations govern the use, generation, manufacture, storage, handling and disposal of these materials and wastes.
+Compliance with applicable environmental laws and regulations may be expensive, and current or future environmental laws and regulations
+may impair our product development efforts. In addition, we cannot entirely eliminate the risk of accidental injury or contamination from
+these materials or wastes. We do not carry specific biological or hazardous waste insurance coverage, and our property, casualty and general
+liability insurance policies specifically exclude coverage for damages and fines arising from biological or hazardous waste exposure or
+contamination. Accordingly, in the event of contamination or injury, we could be held liable for damages or be penalized with fines in
+an amount exceeding our resources, and our clinical trials or regulatory approvals could be suspended. 61 Changes in methods of product candidate
+manufacturing or formulation may result in additional costs or delay. As product candidates proceed
+through preclinical studies to late-stage clinical trials towards potential approval and commercialization, it is common that various
+aspects of the development program, such as manufacturing methods and formulation, are altered along the way in an effort to optimize
+processes and results. Such changes carry the risk that they will not achieve these intended objectives. Any of these changes could cause
+our product candidates to perform differently and affect the results of planned clinical trials or other future clinical trials conducted
+with the materials manufactured using altered processes. Such changes may also require additional testing, FDA notification or FDA approval.
+This could delay completion of clinical trials, require the conduct of bridging clinical trials or the repetition of one or more clinical
+trials, increase clinical trial costs, delay approval of our product candidates and jeopardize our ability to commence sales and generate
+revenue. If we fail to attract and retain management
+and other key personnel, we may be unable to continue to successfully develop or commercialize our product candidates or otherwise implement
+our business plan. Our ability to compete in
+the highly competitive biopharmaceuticals industry depends on our ability to attract and retain highly qualified managerial, scientific,
+medical, legal, sales and marketing and other personnel. We are highly dependent on our management and scientific personnel. The loss
+of the services of any of these individuals could impede, delay or prevent the successful development of our product pipeline, completion
+of our planned clinical trials, commercialization of our product candidates or in-licensing or acquisition of new assets and could impact
+negatively our ability to implement successfully our business plan. If we lose the services of any of these individuals, we might not
+be able to find suitable replacements on a timely basis or at all, and our business could be harmed as a result. We might not be able
+to attract or retain qualified management and other key personnel in the future due to the intense competition for qualified personnel
+among biotechnology, pharmaceutical and other businesses. From time to time, the U.S.
+has experienced a decrease in unemployment rates and an increasingly competitive labor market, which has at times resulted in difficulties
+in hiring or retaining sufficient qualified personnel to maintain and grow our business. We are uncertain as to the employment environment
+in the future, or how that environment will impact our workforce, including our ability to attract and retain qualified management and
+other key personnel. We or the third parties upon which we depend
+may be adversely affected by natural disasters and other catastrophic events and by man-made problems such as terrorism and war that could
+disrupt our business operations, and our business continuity and disaster recovery plans may not adequately protect us from a serious
+disaster. Our office is located in
+New York, New York. If a disaster, power outage, computer hacking, or other event occurred that prevented us from using all or a significant
+portion of an office, that damaged critical infrastructure, such as enterprise financial systems, IT systems, manufacturing resource
+planning or enterprise quality systems, or that otherwise disrupted operations, it may be difficult or, in certain cases, impossible
+for us to continue our business for a substantial period of time. For example, we have expanded our clinical development of TARA-002
+in NMBIC to clinical trial sites outside the U.S. and may continue expanding to other geographies. If political or civil conditions require
+it, our sites may need to delay or suspend clinical trial activities. In addition, enrollment and retention of patients at such sites
+could be disrupted by geopolitical events, including civil or political unrest, such as the current ongoing conflict between Russia and
+Ukraine. All of the aforementioned risks may be further increased if we do not implement a disaster recovery plan or our partners’
+or manufacturers’ disaster recovery plans prove to be inadequate. To the extent that any of the above should result in delays in
+the research, development, regulatory approval, manufacture, distribution or commercialization of TARA-002 or IV Choline Chloride, our
+business, financial condition, operating results and prospects would suffer. The effects of epidemics and pandemics and
+their corresponding macroeconomic impacts could materially and adversely impact our business, including our clinical development plans
+and non-clinical research. As a result of the COVID-19
+pandemic and the associated health and safety measures that were imposed, we had and, in the event of a resurgence of the pandemic or
+the onset of another public health crisis, may again experience, disruptions that could severely impact our business, including but not
+limited to delays or difficulties in clinical trial site operations and in the enrollment, scheduling and retention of patients in our
+clinical trials; interruption of key manufacturing, research and clinical development and other activities; and delays or difficulties
+conducting and completing non-clinical studies. 62 In addition, macroeconomic
+factors, including supply chain disruptions, rising inflation and resulting increases in interest rates, which were, in part, tied to
+the impacts of the COVID-19 pandemic, had an impact on our operations, and any future pandemic or public health crisis may have the same
+effects. Similarly, if banks and financial institutions enter receivership or become insolvent in the future due to financial conditions
+affecting the banking system and financial markets, there could be an adverse effect on our ability to access our cash and cash equivalents
+and investments, including transferring funds, making payments or receiving funds, any of which could have a material adverse effect on
+our business and financial condition. If we are not able to respond
+to and manage the impact of such events effectively, our business will be harmed. Risks Related to Our Common Stock We expect
+our stock price to be highly volatile. The market price of our shares
+could be subject to significant fluctuations. Market prices for securities of biotechnology and other life sciences companies historically
+have been particularly volatile, even subject to large daily price swings. For example, the closing price of our common stock from the
+period January 1, 2025 to December 31, 2025 has ranged from a low of $2.78 to a high of $7.56. Some of the factors that may cause the
+market price of our shares to fluctuate include, but are not limited to: ● the results of current and any future clinical trials of TARA-002 or IV Choline Chloride and any clinical trial failure, including any failure resulting from difficulties or delays in identifying patients, enrolling patients, retaining patients, meeting specific clinical trial endpoints or completing and timely reporting the results of any clinical trial; ● our ability to obtain regulatory approvals for TARA-002, IV Choline Chloride or future product candidates, and delays of, or failures to obtain such approvals; ● the failure of TARA-002 or IV Choline Chloride or future product candidates, if approved, to achieve commercial success; ● potential side effects associated with TARA-002 or IV Choline Chloride or future product candidates; ● issues in manufacturing, or the inability to obtain adequate supply of, TARA-002, IV Choline Chloride or future product candidates; ● the entry into, or termination of, or breach by partners of key agreements, including key commercial partner agreements; ● the initiation of, material developments in, or conclusion of, any litigation or other actions to enforce or defend any intellectual property rights or defend against the intellectual property rights of others; ● announcements of any dilutive equity financings; ● inability to obtain additional funding; ● announcements by commercial partners or competitors of new commercial products, clinical progress or the lack thereof, significant contracts, commercial relationships or capital commitments; ● failure to elicit meaningful stock analyst coverage and downgrades of our stock by analysts; ● the loss of key employees; 63 ● changes in laws or regulations application to TARA-002 or IV Choline Chloride or future product candidates; and ● sales of our common stock by us, our insiders or our other stockholders. Moreover, the stock markets
+in general have experienced substantial volatility in our industry that has often been unrelated to the operating performance of individual
+companies or a certain industry segment. These broad market fluctuations may also adversely affect the trading price of our shares. In the past, following periods
+of volatility in the market price of a company’s securities, stockholders have often instituted class action securities litigation
+against those companies. Such litigation, if instituted, could result in substantial costs and diversion of management attention and resources,
+which could significantly harm our profitability and reputation. In addition, such securities litigation often has ensued after a reverse
+merger or other merger and acquisition activity. Such litigation if brought could impact negatively our business. We incur costs and demands upon management
+as a result of complying with the laws and regulations affecting public companies. As a public company, we have
+incurred, and will continue to incur, significant legal, accounting and other expenses, including costs associated with public company
+reporting and other SEC requirements. We have also incurred, and will continue to incur, costs associated with corporate governance requirements,
+including requirements under the Exchange Act, the Sarbanes-Oxley Act and other applicable legislation, as well as rules implemented by
+the SEC and Nasdaq. We expect the rules and regulations
+applicable to public companies will continue to substantially increase our legal and financial compliance costs and to make some activities
+more time-consuming and costly. Our executive officers and other personnel will need to continue to devote substantial time to managing
+operations as a public company and compliance with applicable laws and regulations. These rules and regulations may also make it expensive
+for us to operate our business. If we fail to maintain proper and effective
+internal controls, our ability to produce accurate financial statements on a timely basis could be impaired, investors may lose confidence
+in our financial reporting and the trading price of our common stock may decline. We are subject to the reporting
+requirements of the Exchange Act, the Sarbanes-Oxley Act and the rules and regulations of Nasdaq. The Sarbanes-Oxley Act requires, among
+other things, that we maintain effective disclosure controls and procedures and internal control over financial reporting. We must perform
+system and process evaluations and testing of our internal control over financial reporting to allow management to report on the effectiveness
+of our internal controls over financial reporting in our Annual Report on Form 10-K filing for that year, as required by Section 404 of
+the Sarbanes-Oxley Act. While we remain a smaller reporting company and non-accelerated filer, we will not be required to include an attestation
+report on internal control over financial reporting issued by our independent registered public accounting firm. When we cease to be a
+smaller reporting company and no longer qualify as a non-accelerated filer, we would incur substantial professional fees and internal
+costs to expand our accounting and finance functions. We may experience difficulty in meeting these reporting requirements in a timely
+manner. We may discover weaknesses
+in our system of internal financial and accounting controls and procedures that could result in a material misstatement of our financial
+statements. Our internal control over financial reporting will not prevent or detect all errors and all fraud. A control system, no matter
+how well designed and operated, can provide only reasonable, not absolute, assurance that the control system’s objectives will be
+met. Because of the inherent limitations in all control systems, no evaluation of controls can provide absolute assurance that misstatements
+due to error or fraud will not occur or that all control issues and instances of fraud will be detected. If we are not able to comply
+with the requirements of Section 404 of the Sarbanes-Oxley Act, or if we are unable to maintain proper and effective internal controls,
+we may not be able to produce timely and accurate financial statements. If that were to happen, the market price of our common stock could
+decline and we could be subject to sanctions or investigations by the SEC or other regulatory authorities or by Nasdaq. 64 We are able to take advantage of reduced
+disclosure and governance requirements applicable to smaller reporting companies, which could result in our common stock being less attractive
+to investors. We qualify as a smaller reporting
+company under the rules of the SEC. As a smaller reporting company, we are able to take advantage of reduced disclosure requirements,
+such as certain simplified executive compensation disclosures and reduced financial statement disclosure requirements in our SEC filings.
+Comparatively reduced disclosures in our SEC filings due to our status as a smaller reporting company may make it harder for our investors
+to analyze our results of operations and financial prospects. We cannot predict if investors will find our common stock less attractive
+due to our reliance on these exemptions. If some investors find our common stock less attractive as a result, there may be a less active
+trading market for our common stock and our stock price may be more volatile. We may take advantage of the reporting exemptions applicable
+to a smaller reporting company until we are no longer a smaller reporting company, which status would end once we have a public float
+greater than $250 million. In that event, we could still be a smaller reporting company if our annual revenues were below $100 million
+and we have a public float of less than $700 million. We do not
+anticipate paying any dividends in the foreseeable future. The current expectation is
+that we will retain our future earnings to fund the development and growth of our business. As a result, capital appreciation, if any,
+of your shares of our stock will be your sole source of gain, if any, for the foreseeable future. If equity research analysts do not publish
+research or reports, or publish unfavorable research or reports, about us, our business or our market, our stock price and trading volume
+could decline. The trading market for our
+common stock is influenced by the research and reports that equity research analysts publish about us and our business. Equity research
+analysts may elect not to provide research coverage of our common stock, and such lack of research coverage may adversely affect the market
+price of our common stock. In the event we do have equity research analyst coverage, we will not have any control over the analysts or
+the content and opinions included in their reports. The price of our common stock could decline if one or more equity research analysts
+downgrade our stock or issue other unfavorable commentary or research. If one or more equity research analysts ceases coverage of us or
+fails to publish reports on us regularly, demand for our common stock could decrease, which in turn could cause our stock price or trading
+volume to decline. We will not receive
+a significant amount, or potentially any, additional funds upon the exercise of our April 2024 Pre-Funded Warrants and December 2024 Pre-Funded
+Warrants; however, any exercise would increase the number of shares eligible for future resale in the public market and result in substantial
+dilution to our stockholders. In
+April 2024 and December 2024, we issued the April 2024 Pre-Funded Warrants and December 2024 Pre-Funded Warrants to purchase a total of
+1,700,000 and 2,325,372 shares of our common stock, respectively, 3,400,272 of which are outstanding as of the date of this report. Each
+April 2024 Pre-Funded Warrant and December 2024 Pre-Funded Warrant is exercisable for $0.001 per share of common stock underlying such
+Pre-Funded Warrant. Accordingly, we will not receive a significant amount of additional funds upon the exercise of the April 2024 Pre-Funded
+Warrants and December 2024 Pre-Funded Warrants. To the extent such Pre-Funded Warrants are exercised, additional shares of common stock
+will be issued for nominal consideration, which will result in dilution to the then existing holders of our common stock and will increase
+the number of shares eligible for resale in the public market. Sales of substantial numbers of such shares in the public market could
+adversely affect the market price of the common stock, causing our stock price to decline. 65 The number of shares
+of common stock underlying our outstanding warrants is significant in relation to our currently outstanding common stock, which could
+have a negative effect on the market price of our common stock and make it more difficult for us to raise funds through future equity
+offerings. In addition, in connection with any merger, consolidation or sale of all or substantially all of our assets, holders of our
+outstanding warrants would be entitled to receive consideration in excess of their reported beneficial ownership of our common stock and
+this could adversely impact the consideration our other stockholders would receive. In
+April 2024 and December 2024, we issued the April 2024 Pre-Funded Warrants, December 2024 Pre-Funded Warrants and April 2024 Common Warrants.
+Each April 2024 Common Warrant is exercisable solely by means of a cash exercise, except that the April 2024 Common Warrant is exercisable
+via cashless exercise if at the time of exercise, a registration statement registering the issuance of the shares of common stock underlying
+the common stock warrants under the Securities Act is not then effective. The April 2024 Common Warrants include certain rights upon “fundamental
+transactions” as described in the April 2024 Common Warrants. Additionally, each holder of warrants will not be entitled to exercise
+any portion of any April 2024 Pre-Funded Warrant, December 2024 Pre-Funded Warrant or April 2024 Common Warrant, which, upon giving effect
+to such exercise, would cause (A) for the holders of the April 2024 Pre-Funded Warrants and April 2024 Common Warrants, (i) the aggregate
+number of shares of our common stock beneficially owned by the holder (together with its affiliates) to exceed 9.99%, or for certain holders,
+4.99%, of the number of shares of our common stock outstanding immediately after giving effect to the exercise, or (ii) the combined voting
+power of our securities beneficially owned by the holder (together with its affiliates) to exceed 9.99% of the combined voting power of
+all of our securities then outstanding immediately after giving effect to the exercise and (B) for the holders of the December 2024 Pre-Funded
+Warrants, the aggregate number of shares of our common stock beneficially owned by the holder (together with its affiliates) to exceed
+4.99% of the number of shares of our common stock outstanding immediately after giving effect to the exercise. However, for the April
+2024 Pre-Funded Warrants, December 2024 Pre-Funded Warrants and April 2024 Common Warrants, any holder may increase or decrease such percentage
+to any other percentage (not in excess of 19.99%) upon prior notice from the holder to us. Although
+these warrants are subject to beneficial ownership limitations, upon exercise in full of the warrants, the shares issuable upon exercise
+would represent a significant portion of our outstanding common stock. As a result, the holders of these warrants may be able to exert
+substantial influence over our business. The concentration of voting power resulting from the exercise of the warrants could delay, defer
+or prevent a change of control, entrench our management and our board of directors or delay or prevent a merger, consolidation, takeover
+or other business combination involving us on terms that other stockholders may desire. In addition, conflicts of interest could arise
+in the future between us and the holders of these warrants concerning potential competitive business activities, business opportunities,
+the issuance of additional securities and other matters. In addition, sales of these shares could cause the market price of our common
+stock to decline significantly. We
+have registered the issuance and/or resale of shares issuable upon exercise of these warrants under an effective registration statement.
+As a result, the shares issuable upon exercise of these warrants can be freely sold in the public market upon issuance. Sales of these
+shares could cause the market price of our common stock to decline significantly. Furthermore, if our stock price rises, the holders of
+these warrants may be more likely to exercise their warrants and sell a large number of shares, which could negatively impact the market
+price of our common stock and reduce or eliminate any appreciation in our stock price that might otherwise occur. Given the amount and terms of these warrants,
+we may find it more difficult to raise additional equity capital on favorable terms or at all while these warrants are outstanding. Risk Related
+to Our Ownership Structure and Governance Certain stockholders have the ability to
+control or significantly influence certain matters submitted to our stockholders for approval. Certain stockholders have
+consent rights over certain significant matters of our business. These include decisions to effect a merger or other similar transaction,
+changes to our principal business, and the sale or other transfer of TARA-002 or other assets with an aggregate value of more than $2,500,000.
+As a result, these stockholders have significant influence over certain matters that require approval by our stockholders. 66 Anti-takeover provisions in our charter
+documents and under Delaware law could make an acquisition of our business more difficult and may prevent attempts by our stockholders
+to replace or remove management. Provisions in our certificate
+of incorporation and bylaws may delay or prevent an acquisition or a change in management. In addition, because we are incorporated in
+Delaware, we are governed by the provisions of Section 203 of the Delaware General Corporation Law, or DGCL, which prohibits stockholders
+owning in excess of 15% of the outstanding voting stock from merging or combining with us. These provisions may frustrate or prevent any
+attempts by our stockholders to replace or remove then current management by making it more difficult for stockholders to replace members
+of the board of directors, which is responsible for appointing the members of management. Our certificate of incorporation provides
+that the Court of Chancery of the State of Delaware is the exclusive forum for certain disputes between us and our stockholders, which
+could limit our stockholders’ ability to obtain a favorable judicial forum for disputes with us or our directors, officers or other
+employees. Our certificate of incorporation
+provides that the Court of Chancery of the State of Delaware is the sole and exclusive forum for any derivative action or proceeding brought
+on our behalf, any action asserting a breach of fiduciary duty owed by any of our directors, officers or other employees to us or our
+stockholders, any action asserting a claim against us arising pursuant to any provisions of the DGCL, our certificate of incorporation
+or our bylaws, or any action asserting a claim against us that is governed by the internal affairs doctrine. The choice of forum provision
+may limit a stockholder’s ability to bring a claim in a judicial forum that it finds favorable for certain disputes with us or our
+directors, officers or other employees, which may discourage such lawsuits against us and our directors, officers and other employees.
+If a court were to find the choice of forum provision contained in the certificate of incorporation to be inapplicable or unenforceable
+in an action, we may incur additional costs associated with resolving such action in other jurisdictions. Risks Related to Intellectual Property Rights We may not be able to obtain, maintain or
+enforce global patent rights or other intellectual property rights that cover our product candidates and technologies that are of sufficient
+breadth to prevent third parties from competing against us. Our success with respect to our product candidates will depend, in
+part, on our ability to obtain and maintain patent protection in both the U.S. and other countries, to preserve our trade secrets and
+to prevent third parties from infringing on our proprietary rights. Our ability to protect our product candidates from unauthorized or
+infringing use by third parties depends in substantial part on our ability to obtain and maintain valid and enforceable patents around
+the world. The patent application process,
+also known as patent prosecution, is expensive and time-consuming, and we and our current or future licensors and licensees may not be
+able to prepare, file and prosecute all necessary or desirable patent applications at a reasonable cost or in a timely manner in all the
+countries that are desirable. It is also possible that we or our current licensors, or any future licensors or licensees, will fail to
+identify patentable aspects of inventions made in the course of development and commercialization activities before it is too late to
+obtain patent protection on them. Therefore, these and any of our patents and applications may not be prosecuted and enforced in a manner
+consistent with the best interests of our business. Moreover, our competitors independently may develop equivalent knowledge, methods
+and know-how or discover workarounds to our patents that would not constitute infringement. Any of these outcomes could impair our ability
+to enforce the exclusivity of our patents effectively, which may have an adverse impact on our business, financial condition and operating
+results. Due to legal standards relating
+to patentability, validity, enforceability and claim scope of patents covering pharmaceutical inventions, our ability to obtain, maintain
+and enforce patents is uncertain and involves complex legal and factual questions especially across countries. Accordingly, rights under
+any existing patents or any patents we might obtain or license may not cover our product candidates or may not provide us with sufficient
+protection for our product candidates to afford a sustainable commercial advantage against competitive products or processes, including
+those from branded, generic and over-the-counter pharmaceutical companies. In addition, we cannot guarantee that any patents or other
+intellectual property rights will issue from any pending or future patent or other similar applications owned by or licensed to us. Even
+if patents or other intellectual property rights have issued or will issue, we cannot guarantee that the claims of these patents and other
+rights are or will be held valid or enforceable by the courts, through injunction or otherwise, or will provide us with any significant
+protection against competitive products or otherwise be commercially valuable to us in every country of commercial significance that we
+may target. 67 Competitors in the field
+of immunology and oncology therapeutics have created a substantial amount of prior art, including scientific publications, posters, presentations,
+patents and patent applications and other public disclosures including on the Internet. Our ability to obtain and maintain valid and enforceable
+patents depends on whether the differences between our technology and the prior art allow our technology to be patentable over the prior
+art. We do not have outstanding issued patents covering all of the recent developments in our technology and are unsure of the patent
+protection that we will be successful in obtaining, if any. Even if the patents do successfully issue, third parties may design around
+or challenge the validity, enforceability or scope of such issued patents or any other issued patents we own or license, which may result
+in such patents being narrowed, invalidated or held unenforceable. If the breadth or strength of protection provided by the patents we
+hold or pursue with respect to our product candidates is challenged, it could dissuade companies from collaborating with us to develop
+or threaten our ability to commercialize or finance our product candidates. The laws of some foreign
+jurisdictions do not provide intellectual property rights to the same extent or duration as in the U.S., and many companies have encountered
+significant difficulties in acquiring, maintaining, protecting, defending and especially enforcing such rights in foreign jurisdictions.
+International and U.S. free trade agreements like the Agreement on Trade-Related Aspects of Intellectual Property Rights, or TRIPs Agreement,
+administered by the World Trade Organization provide global protection of certain intellectual property rights, but in a number of markets
+we may be unable to patent our products or to enforce the patents that we receive for our products. Further, many developing countries,
+and some developed countries, do not provide effective data package protection even though it is specified in the TRIPs Agreement. If
+we encounter such difficulties in protecting, or are otherwise precluded from effectively protecting, our intellectual property in foreign
+jurisdictions, our business prospects could be substantially harmed, especially internationally. Proprietary trade secrets
+and unpatented know-how are also very important to our business. Although we have taken steps to protect our trade secrets and unpatented
+know-how by entering into confidentiality agreements with third parties, and intellectual property protection agreements with officers,
+directors, employees, and certain consultants and advisors, there can be no assurance that binding agreements will not be breached or
+will be enforced by courts, that we would have adequate remedies for any breach, including injunctive and other equitable relief, or that
+our trade secrets and unpatented know-how will not otherwise become known, inadvertently disclosed by us or our agents and representatives,
+or be independently discovered by our competitors. If trade secrets are independently discovered, we would not be able to prevent their
+use and if we and our agents or representatives inadvertently disclose trade secrets and/or unpatented know-how, we may not be allowed
+to retrieve this and maintain the exclusivity we previously enjoyed. We may
+not be able to protect our intellectual property rights throughout the world. Filing, prosecuting and defending
+patents on our product candidates does not guarantee exclusivity. The requirements for patentability differ in certain countries, particularly
+developing countries. In addition, the laws of some foreign countries do not protect intellectual property rights to the same extent as
+laws in the U.S., especially when it comes to granting use and other kinds of patents and what kind of enforcement rights will be allowed,
+especially injunctive relief in a civil infringement proceeding. Consequently, we may not be able to prevent third parties from practicing
+our inventions in all countries outside the U.S. and even in launching an identical version of our product notwithstanding we have a valid
+patent in that country. Competitors may use our technologies in jurisdictions where we have not obtained patent protection to develop
+their own products, or produce copy products, and, further, may export otherwise infringing products to territories where we have patent
+protection but enforcement on infringing activities is inadequate or where we have no patents. These products may compete with our products,
+and our patents or other intellectual property rights may not be effective or sufficient to prevent them from competing. Many companies have encountered
+significant problems in protecting and defending intellectual property rights in foreign jurisdictions. The legal systems of certain countries,
+particularly certain developing countries, do not favor the enforcement of patents and other intellectual property protection, particularly
+those relating to pharmaceuticals, which could make it difficult for us to stop the infringement of our patents or marketing of competing
+products in violation of our proprietary rights generally. Proceedings to enforce our patent rights in foreign jurisdictions could result
+in substantial costs and divert our efforts and attention from other aspects of our business, could put our global patents at risk of
+being invalidated or interpreted narrowly and our global patent applications at risk of not issuing, and could provoke third parties to
+assert claims against us. We may not prevail in any lawsuits that we initiate or infringement actions brought against us, and the damages
+or other remedies awarded, if any, may not be commercially meaningful when we are the plaintiff. When we are the defendant we may be required
+to post large bonds to stay in the market while we defend ourselves from an infringement action. 68 In addition, certain countries
+in Europe and certain developing countries have compulsory licensing laws under which a patent owner may be compelled to grant licenses
+to third parties, especially if the patent owner does not enforce or use its patents over a protracted period of time. In some cases,
+the courts will force compulsory licenses on the patent holder even when finding the patent holder’s patents are valid if the court
+believes it is in the best interests of the country to have widespread access to an essential product covered by the patent. In these
+situations, the royalty the court requires to be paid by the license holder receiving the compulsory license is not calculated at fair
+market value and can be inconsequential, thereby adversely affecting the patent holder’s business. In these countries, we may have
+limited remedies if our patents are infringed or if we are compelled to grant a license to our patents to a third-party, which could also
+materially diminish the value of those patents. This would limit our potential revenue opportunities. Accordingly, our efforts to enforce
+our intellectual property rights around the world may be inadequate to obtain a significant commercial advantage from the intellectual
+property that we own or license, especially in comparison to what we enjoy from enforcing our intellectual property rights in the Unites
+States. Finally, our ability to protect and enforce our intellectual property rights may be adversely affected by unforeseen changes in
+both U.S. and foreign intellectual property laws, or changes to the policies in various government agencies in these countries, including
+but not limited to the patent office issuing patents and the health agency issuing pharmaceutical product approvals. For example, in Brazil,
+pharmaceutical patents require initial approval of the Brazilian health agency (ANVISA). Finally, many countries have large backlogs in
+patent prosecution, and in some countries in Latin America it can take years, even decades, just to get a pharmaceutical patent application
+reviewed notwithstanding the merits of the application. Obtaining and maintaining patent protection
+depends on compliance with various procedural, document submission, fee payment, and other requirements imposed by governmental patent
+agencies, and our patent protection could be reduced or eliminated for non-compliance with these requirements. Periodic maintenance and
+annuity fees on any issued patent are due to be paid to the USPTO and foreign patent agencies in several stages over the lifetime of the
+patent. The USPTO and various foreign governmental patent agencies require compliance with a number of procedural, documentary, fee payment
+and other similar provisions during the patent application process. While an inadvertent lapse can, in many cases, be cured by payment
+of a late fee or by other means in accordance with the applicable rules, there are situations in which non-compliance can result in abandonment
+or lapse of the patent or patent application, resulting in partial or complete loss of patent rights in the relevant jurisdiction just
+for failure to know about and/or timely pay a prosecution fee. Non-compliance events that could result in abandonment or lapse of a patent
+or patent application include failure to respond to official actions within prescribed time limits, non-payment of fees in prescribed
+time periods, and failure to properly legalize and submit formal documents in the format and style the country requires. If we or our
+licensors fail to maintain the patents and patent applications covering our product candidates for any reason, our competitors might be
+able to enter the market, which could materially adversely affect our business, financial condition, operating results and prospects. If we fail to comply with our obligations
+under our intellectual property license agreements, we could lose license rights that are important to our business. Additionally, these
+agreements may be subject to disagreement over contract interpretation, which could narrow the scope of our rights to the relevant intellectual
+property or technology or increase our financial or other obligations to our licensors. We have entered into in-license
+arrangements with respect to certain of our product candidates. These license agreements impose various diligence, milestone, royalty,
+insurance and other obligations on us. If we fail to comply with these obligations, the respective licensors may have the right to terminate
+the license, in which event we may not be able to develop or market the affected product candidate. The loss of such rights could materially
+adversely affect our business, financial condition, operating results and prospects. 69 If
+we are sued for infringing intellectual property rights of third parties, such litigation could be costly and time consuming and could
+prevent or delay us from developing or commercializing our product candidates. Our
+commercial success depends on our ability to develop, manufacture, market and sell our product candidates and use our proprietary technologies
+without infringing the proprietary rights of third parties. We cannot assure that marketing and selling such candidates and using such
+technologies will not infringe existing or future patents. Numerous U.S.- and foreign-issued patents and pending patent applications
+owned by third parties exist in the fields relating to our product candidates. As the biotechnology and pharmaceutical industries expand
+and more patents are issued, the risk increases that others may assert that our product candidates, technologies or methods of delivery
+or use infringe their patent rights. Moreover, it is not always clear to industry participants, including us, which patents and other
+intellectual property rights cover various drugs, biologics, drug delivery systems or their methods of use, and which of these patents
+may be valid and enforceable. Thus, because of the large number of patents issued and patent applications filed in our fields across
+many countries, there may be a risk that third parties may allege they have patent rights encompassing our product candidates, technologies
+or methods. In addition, there may be
+issued patents of third parties that are infringed or are alleged to be infringed by our product candidates or proprietary technologies
+notwithstanding patents we may possess. Because some patent applications in the U.S. may be maintained in secrecy until the patents are
+issued, because patent applications in the U.S. and many foreign jurisdictions are typically not published until 18 months after filing
+and because publications in the scientific literature often lag behind actual discoveries, we cannot be certain that others have not filed
+patent applications for technology covered by our own and in-licensed issued patents or our pending applications. Our competitors may
+have filed, and may in the future file, patent applications covering our product candidates or technology similar to our technology. Any
+such patent application may have priority over our own and in-licensed patent applications or patents, which could further require us
+to obtain rights to issued patents covering such technologies, which may mean paying significant licensing fees or the like. If another
+party has filed a U.S. patent application on inventions similar to those owned or in-licensed to us, or, in the case of in-licensed technology,
+the licensor may have to participate, in the U.S., in an interference proceeding to determine priority of invention. We
+may be exposed to, or threatened with, future litigation by third parties having patent or other intellectual property rights alleging
+that our product candidates or proprietary technologies infringe such third parties’ intellectual property rights, including litigation
+resulting from filing under Paragraph IV of the Hatch-Waxman Act or other countries’ laws similar to the Hatch-Waxman Act. These
+lawsuits could claim that there are existing patent rights for such drug, and this type of litigation can be costly and could adversely
+affect our operating results and divert the attention of managerial and technical personnel, even if we do not infringe such patents
+or the patents asserted against us are ultimately established as invalid. There is a risk that a court would decide that we are infringing
+the third-party’s patents and would order us to stop the activities covered by the patents. In addition, there is a risk that a
+court would order us to pay the other party significant damages for having violated the other party’s patents. Because
+we rely on certain third-party licensors and partners and will continue to do so in the future, if one of our licensors or partners is
+sued for infringing a third-party’s intellectual property rights, our business, financial condition, operating results and prospects
+could suffer in the same manner as if we were sued directly. In addition to facing litigation risks, we have agreed to indemnify certain
+third-party licensors and partners against claims of infringement caused by our proprietary technologies, and we have entered or may
+enter into cost-sharing agreements with some our licensors and partners that could require us to pay some of the costs of patent litigation
+brought against those third parties whether or not the alleged infringement is caused by our proprietary technologies. In certain instances,
+these cost-sharing agreements could also require us to assume greater responsibility for infringement damages than would be assumed just
+on the basis of our technology. The
+occurrence of any of the foregoing could adversely affect our business, financial condition or operating results. 70 We
+may be subject to claims that our officers, directors, employees, consultants or independent contractors have wrongfully used or disclosed
+to us alleged trade secrets of their former employers or their former or current customers. As
+is common in the biotechnology and pharmaceutical industries, certain of our employees were formerly employed by other biotechnology
+or pharmaceutical companies, including our competitors or potential competitors. Moreover, we engage the services of consultants to assist
+us in the development of our products and product candidates, many of whom were previously employed at, or may have previously been or
+are currently providing consulting services to, other biotechnology or pharmaceutical companies, including our competitors or potential
+competitors. We may be subject to claims that these employees and consultants or we have inadvertently or otherwise used or disclosed
+trade secrets or other proprietary information of their former employers or their former or current customers. Although we have no knowledge
+of any such claims being alleged to date, if such claims were to arise, litigation may be necessary to defend against any such claims.
+Even if we are successful in defending against any such claims, any such litigation could be protracted, expensive, a distraction to
+our management team, not viewed favorably by investors and other third parties, and may potentially result in an unfavorable outcome. General
+
+--- RAW_MATERIALS ---
+components do not contain sufficient amounts of choline to correct this deficit. The
+use of choline for PS patients is included in key professional medical society recommendations, including ASPEN. IV Choline Chloride has
+been granted ODD by the FDA for the prevention and/or treatment of choline deficiency in patients on long-term PN. The FDA granted IV
+Choline Chloride FTD as a source of choline when oral or enteral nutrition is not possible, insufficient, or contraindicated. 12 We have entered into a license
+agreement with Dr. Alan Buchman for exclusive rights to the IND, ODD and other regulatory assets related to IV Choline Chloride, as well
+as exclusive rights to the data from previously conducted Phase 1 and Phase 2 clinical trials led by Dr. Buchman. The results of Dr. Buchman’s
+randomized, controlled, Phase 2 clinical trial demonstrated that treatment with IV Choline Chloride resulted in normalization of plasma-free
+choline concentrations, improvement of hepatic steatosis, and statistically significant improvement in cholestasis in patients dependent
+on PS. Disease Overview PN typically consists of
+carbohydrate (typically derived from dextrose), fat (lipid emulsion with essential fatty acids), protein (in the form of a balanced free
+amino acid solution), electrolytes, trace elements, and most vitamins and essential nutrients known to be required by the human body,
+with the notable exception of choline. PS is a medical treatment, representing PN plus fluids and is used to manage and treat malnourishment
+and is indicated when there is impaired gastrointestinal function and contraindications to enteral nutrition. ASPEN and the Academy of
+Nutrition and Dietetics’ Dietitians in Nutrition Support both recommend that choline be required in PN products (Vanek et al., 2012);
+however, there are currently no FDA-approved intravenous choline chloride products. Humans can produce choline endogenously in the liver,
+but the amount that the body naturally synthesizes is not sufficient to meet human needs, making it an essential nutrient. As a result,
+humans must obtain choline from their diets. The development of IV Choline Chloride is intended to provide a source of choline when oral
+or enteral nutrition is not possible, insufficient, or contraindicated. Clinical Development In Dr. Buchman’s Phase
+2 randomized, double-blind, controlled 24-week clinical trial, patients (n=15) receiving nightly PN for > 85% of their nutritional
+needs (for at least 12 weeks prior to entry) were randomized to receive via IV infusion (10-12 hours) their usual PN with placebo (n =
+8), or PN to which 2g IV Choline Chloride was added (n = 7). In the IV Choline Chloride
+group, mean choline levels were within or greater than the estimated normal range (i.e., 6.7 to 26.9 nmol/mL) throughout the 24-week trial
+and quickly returned to baseline levels when treatment was discontinued. In September 2024, we presented
+the results of THRIVE-1, a prospective, observational study evaluating the prevalence of choline deficiency and liver injury in patients
+dependent on PS in the U.S., U.K. and Europe. The study found that 78% of patients who are dependent on PS were choline deficient, and
+that 63% of choline deficient participants had liver dysfunction, including steatosis, cholestasis and hepatobiliary injury, underscoring
+the need for IV Choline supplementation in this patient population. In January 2026, we advanced
+the development of IV Choline Chloride as a source of choline for adult and adolescent patients on long-term PS and initiated THRIVE-3.
+THRIVE-3 is a seamless Phase 2b/3 trial with a dose confirmation portion (n=24) followed by a double-blinded, randomized, placebo-controlled
+portion to assess the efficacy and safety of IV Choline Chloride over 24 weeks in adolescents and adults on long-term PS when oral or
+enteral nutrition is not possible, insufficient, or contraindicated (n=100). The primary endpoint of the clinical trial is a PK endpoint
+measuring the change from baseline in plasma choline concentration. We also plan to include a number of secondary endpoints related to
+liver, bone and memory. In addition to the studies performed by Dr. Buchman,
+we have completed a number of preclinical in vitro and non-clinical pharmacology studies for IV Choline Chloride. 13 Regulatory Interactions IV Choline Chloride has been
+granted ODD by the FDA for the prevention and/or treatment of choline deficiency in patients on long-term PN. In April 2024, we announced
+alignment with the FDA on a registrational path forward for IV Choline Chloride. In October 2024, the FDA
+granted FTD to IV Choline Chloride as a source of choline when oral or enteral nutrition is not possible, insufficient, or contraindicated. Manufacturing Our end-to-end manufacturing
+of IV Choline Chloride is conducted in the U.S. by a cGMP compliant CDMO. TARA-002 in LMs Disease Overview The International Society
+for the Study of Vascular Anomalies classifies LMs as either macrocystic, microcystic, or mixed-cystic. Macrocystic and microcystic LMs
+are differentiated by the size of the fluid-containing portion of the malformation. Macrocystic LMs are characteristically large, fluid-filled
+cysts with a thin endothelial lining. Macrocystic LMs are composed of cysts greater than 2 cubic centimeters in size and present as a
+soft, fluid-filled swelling beneath normal or slightly discolored skin. Macrocystic LMs are usually located in the antero-lateral cervical
+region of the neck; however, it is possible for this type of LM to originate in other areas of the body. In contrast, microcystic LMs
+have very limited internal space with a thick irregular endothelial lining. Microcystic LMs are comprised of cysts less than 2 cubic centimeters
+in size and are often composed of micro-lymphatic channels that integrate and infiltrate normal soft tissue. Microcystic LMs can involve
+both superficial and deep aspects including muscle and bone. Microcystic LMs can thicken or swell causing enlargement of surrounding soft
+tissue and bones and can be found on any area of the skin or mucous membrane. Mixed-cystic LMs are comprised of varying degrees of both
+macrocystic and microcystic LMs. While the exact prevalence of
+LMs is not known, in the U.S., the condition is thought to be present in approximately one in every 4,000 live births and we believe there
+are approximately 1,400-1,800 LM cases per year. Treatment We are not aware of any approved
+pharmacotherapies for LMs, except in Japan and Taiwan where OK-432 is approved. In Japan, for example, OK-432 has been the standard of
+care for LMs for over 25 years. Treatment of LMs varies depending
+on the symptoms and complications that present themselves. The standard of care outside Japan for the treatment of LMs is either a partial
+or complete surgical excision of the cysts. While surgery is the standard approach to the treatment of LMs in the head and neck, the region
+is a difficult area to operate on because of the large number of important anatomical structures in the area. Major venous and arterial
+trunks travel through the neck, as do important nerves. Surgery on such malformations frequently results in high rates of recurrence and
+complications including life-long chronic conditions, such as damage to nerves and other important structures of the head and neck. Clinical Development Historical Data on OK-432, predecessor therapy
+to TARA-002 When TARA-002 is administered,
+it is hypothesized that innate and adaptive immune cells within the cyst or tumor are activated and produce a strong immune cascade. Neutrophils,
+monocytes, and lymphocytes infiltrate the abnormal cells and various cytokines, including interleukins IL-2, IL-6, IL-10, IL-12, interferon-γ,
+and TNF-α are secreted by immune cells to induce a strong inflammatory reaction and destroy the abnormal cells. In concert, these
+immune activities induce a strong local inflammatory reaction in the cyst wall, resulting in fluid drainage, shrinkage and fibrotic adhesion
+of the cyst. 14 A randomized, Phase 2 clinical
+trial led by the University of Iowa studied the use of OK-432 in patients with LMs from 1998 to 2005. Most eligible subjects were between
+six months and 18 years of age with macrocystic or mixed-cystic LMs (with ≥ 50% macrocystic disease) of the head and/or neck. There
+were three treatment groups: immediate treatment, or ITG, delayed treatment, or DTG, and open label treatment group. The ITG received
+treatment with OK-432 upon diagnosis. The DTG received OK-432 treatment following a six-month observation period; the cross-over design
+was intended to investigate spontaneous resolution. The open-label treatment group included infants younger than six months of age, adults
+older than 18 years of age, patients with LMs involving sites other than the head and neck (such as the axilla, thorax and extremities),
+and patients treated on an emergent basis. The open label treatment group were treated immediately with OK-432. Response to therapy was
+measured by quantitating change in lesion size. Clinical success was defined as a complete (90% to 100%) or substantial (60% to 89%) response
+to treatment based on radiographically confirmed shrinkage in lesions. The study results were based
+on a retrospective analysis of source verified data that included the full dataset of subjects enrolled in the Phase 2 randomized clinical
+trial between January 1998 and August 2005, including data in the published study (Smith et al. 2009) that included subjects enrolled
+between January 1998 and November 2004. Overall, 310 subjects were enrolled
+with intent to treat: 246 subjects were randomized to the immediate (ITG, N=171) and delayed (DTG, N=75) treatment groups; 64 subjects
+were nonrandomized and assigned to the open-label group. Analysis of the primary efficacy endpoint (N=150) demonstrated clinical success
+(complete and/or substantial response) in 69% of patients in the ITG 6 months after enrollment, while 7.5% of patients in the DTG experienced
+spontaneous regression of a LM during this time interval (p < 0.0001). When the results were analyzed by lesion type across all treatment
+groups, a successful outcome was observed in 84% and 60% of patients with macrocystic and mixed-cystic LMs, respectively. None of the
+patients with microcystic LMs demonstrated clinical success with OK-432 therapy. The results of the retrospective analysis were consistent
+with the results observed in the original analysis (Smith et al. 2009). Figure 1: 69% of patients
+in the ITG had a complete or substantial response to OK-432, meeting the primary endpoint, while 7.5% of patients in the DTG had a complete
+or substantial response after six months of observation and before treatment. ǂ Clinical Success was defined as complete or substantial response. * Results were analyzed by lesion type across all treatment groups 15 Figure 2: patients with radiographically
+confirmed macrocystic lesions had the greatest likelihood of clinical success and in those patients with mixed lesions, clinical success
+was also present. ǂ Clinical Success was defined as complete or substantial response. * Reflects data prior to dosing with OK-432. After dosing, the clinical success rate was 66%, which was not statistically different from the ITG. ** Results were analyzed by lesion type across all treatment groups. TARA-002 Clinical Development We have an open IND for LMs with
+the FDA’s Vaccines Division. In October 2023, we initiated the STARBORN-1 trial, a Phase 2 single arm, open-label clinical trial
+to evaluate the safety and efficacy of TARA-002 in approximately 30 pediatric patients ages six months to less than 18 years old with
+macrocystic and mixed-cystic LMs. The clinical trial design includes a safety lead-in phase followed by an expansion phase. The primary
+endpoint of the clinical trial is the proportion of participants with macrocystic and mixed cystic LMs who demonstrate clinical success,
+defined as having either a CR (90% to 100% reduction from baseline in total LM volume) or substantial response (60% to less than 90% reduction
+in total LM volume) as measured by axial imaging. In November 2025, we announced
+interim results from our ongoing Phase 2 open-label STARBORN-1 trial. The interim analysis included a total of 12 patients who enrolled
+in the trial and received ≥ one dose of TARA-002 as of the November 12, 2025 data cutoff. Of those, eight patients were evaluable at
+an eight-week post-treatment assessment, two withdrew prior to the eight-week assessment and two remain in dosing. Patients receive up
+to four injections of TARA-002 spaced approximately six weeks apart. Of the eight patients who were evaluable, the majority (7/8) achieved
+clinical success with one or two doses. Only one patient, who presented with a 1,739 mL macrocystic LM, required all four doses, and achieved
+a CR. 16 Overall, 80% (8/10) of patients
+that completed treatment achieved clinical success and 100% (8/8) of patients who completed the eight-week response assessment achieved
+clinical success. 83% (5/6) of macrocystic patients achieved a CR (90% to 100% reduction in total LM volume) and one patient achieved
+a substantial response (60% to less than 90% reduction in total LM volume). The only mixed cystic patient treated achieved a CR. Two LMs patients in the interim
+analysis reached the 32-week post-treatment assessment and remain disease-free. One patient deemed a CR was subsequently diagnosed with
+a ranula (a different type of maxillofacial cyst from LMs). Two patients withdrew before the eight-week post-treatment assessment, including
+one patient who was misdiagnosed and had a rare form of cancer and did not respond to treatment and one patient who dropped out after
+achieving a notable resolution of their macrocystic LM. The patient received two doses of TARA-002 with 160 mL aspiration at the first
+dose, which was reduced to a 10 mL aspiration at the second dose. The majority of AEs were
+mild to moderate, with no serious AEs reported. The most common AEs were swelling and fatigue. One patient discontinued treatment due
+to a Grade 2 AE of fatigue. Historical Safety Profile on OK-432, predecessor
+therapy to TARA-002 The most common AEs with
+treatment with OK-432 were local injection site reactions, fever, fatigue and decreased appetite, with resolution within two weeks. Treatment
+emergent SAEs (treatment emergent SAEs are defined as any SAE occurring or worsening on or after the first dose of study drug and within
+35 days after the last dose of study drug) associated with OK-432 treatment were reported in 4.1% of patients, with the most severe events
+being airway obstruction and facial paralysis due to massive swelling post-injection that required tracheostomy and hospitalization. Both
+of these events were reported as resolved. The safety findings from
+the sponsor-conducted retrospective analysis are consistent with the original analysis reported in Smith et al. 2009, and with safety
+data in published studies in approximately 865 patients with LMs after treatment with OK-432. Historical Preclinical Development on
+OK-432, predecessor therapy to TARA-002 A comprehensive preclinical
+development program for OK-432, including in vitro and in vivo pharmacology and toxicology studies, was conducted by Chugai Pharmaceutical
+to support the filing and approval of an NDA with the Japan Pharmaceuticals and Medical Devices Agency. We believe these studies may
+help inform the design of a development plan for TARA-002 in LMs. In addition, there is a significant body of literature exploring
+the use of OK-432 in other maxillofacial cysts demonstrating strong potential for TARA-002 to be explored in the treatment of these cysts
+as well. Regulatory Interactions In July 2020, the FDA granted
+RPDD for TARA-002 for the treatment of LMs. The FDA grants RPDD for serious diseases that primarily affect children ages 18 years or younger
+and fewer than 200,000 persons in the U.S. Under the FDA’s Rare Pediatric Disease Priority Review Voucher Program, a sponsor who
+receives an approval of an NDA or BLA for a product for the prevention or treatment of a rare pediatric disease may be eligible for a
+voucher, which can be redeemed to obtain priority review for any subsequent marketing application or may be sold or transferred prior
+to such redemption. Under the current provisions in the law, the Rare Pediatric Disease Priority Review Voucher Program will sunset on
+September 30, 2029, which means that the FDA may only award a Priority Review Voucher, or PRV, for an approved Rare Pediatric Disease
+product application if the sponsor has received RPDD for the product and the product is subsequently approved by September 30, 2029. In
+May 2022, the European Commission granted Orphan Medicinal Product Designation to TARA-002 for the treatment of LMs. In December 2025, the FDA
+granted both BTD and FTD for TARA-002 for the treatment of macrocystic and mixed cystic LMs in pediatric patients. 17 Manufacturing TARA-002 is manufactured using
+an equivalent, but modernized, proprietary manufacturing process as is used to produce OK-432 by Chugai Pharmaceutical. We propagated
+a master cell bank using the same master cell line of the genetically distinct strain of Streptococcus pyogenes (A group, type 3) Su
+strain as OK-432. The bacteria is rendered inactive during the manufacturing process, consistent with the process used for OK-432. We
+have contracted a cGMP compliant CDMO to manufacture TARA-002 in the U.S. Collaborations and License Agreements Chugai Agreement On June 17, 2019, we entered
+into an agreement, or the Chugai Agreement, with Chugai Pharmaceutical, a company organized and existing under the laws of Japan. Chugai
+Pharmaceutical has developed and commercialized a therapeutic product, OK-432, or Existing Product, in Japan and Taiwan, or the Chugai
+Territory, and owns and controls certain materials and documents related to the Existing Product, or the Chugai Materials. Pursuant to
+the Chugai Agreement, Chugai Pharmaceutical has provided us with certain materials and documents relating to the Existing Product and
+has provided certain technical services to us for our development and commercialization. This pertains to territories other than the Chugai
+Territory, or the Protara Territory, of a new therapeutic product, or the New Product or TARA-002, comparable to the Existing Product.
+Under the Chugai Agreement, Chugai Pharmaceutical will exclusively provide the Existing Product and Chugai Materials to us and will not
+provide the Existing Product or Chugai Materials to any third parties during the Chugai Service Period, other than for medical, compassionate
+use and/or non-commercial research purposes. Additionally, beginning on the effective date of the Chugai Agreement and ending on the fifth
+anniversary of such date or upon the termination of the Chugai Agreement, whichever comes earlier, Chugai Pharmaceutical will not provide
+Chugai Materials or technical support to any third-party for the purpose of development and commercialization in the Protara Territory
+of a therapeutic product comparable to the Existing Product. We are responsible, at our sole cost and expense, for the development and
+commercialization of the New Product in the Protara Territory. On July 14, 2020, we and
+Chugai Pharmaceutical entered into an amendment of the Chugai Agreement, or the Chugai Pharmaceutical Amendment, with an effective date
+as of June 30, 2020. The Chugai Amendment extended the date through which Chugai will exclusively provide the Existing Product and materials
+to us from June 30, 2020 to June 30, 2021, extended the date through which Chugai will not provide materials or technical support to any
+third-party for the purpose of development and commercialization in a given area from the fifth anniversary to the eleventh anniversary
+of the original effective date (extended to June 17, 2030), and provides for further such extensions on the occurrence of certain events
+and milestones. The Chugai Amendment also provides that, in addition to the designated fee payable upon the initial indication approval
+in the Chugai Agreement described below, we will pay Chugai Pharmaceutical a designated fee in the low, single digit millions for each
+additional indication approval. As consideration for Chugai
+Pharmaceutical’s performance under the Chugai Agreement, we agreed to pay Chugai Pharmaceutical a payment in the low, single-digit
+millions, which will be made in two installments with an initial payment made in July 2020, and the remaining majority of the total amount
+will be payable upon FDA approval of the New Product. We granted Chugai Pharmaceutical
+a right of first refusal on terms to be negotiated between the parties for a license related to the New Product-relevant information,
+data and documentation and inventions to develop and commercialize the New Product in the Chugai Territory. We will be responsible for
+manufacturing and supplying, or causing our CDMO to manufacture and supply, the New Product to Chugai Pharmaceutical. The
+Chugai Agreement will remain in full force and effect until the first anniversary of the date of FDA approval of the New Product, unless
+terminated sooner, or the Chugai Term. Following the Chugai Service Period and during the Chugai Term, Chugai Pharmaceutical may terminate
+the Chugai Agreement, in whole or in part, without cause, by providing us 90 days prior written notice. Following such termination, we
+would maintain exclusive access to Chugai Materials, subject to the termination clauses outlined below. We may terminate the Chugai Agreement,
+in whole only, by providing Chugai Pharmaceutical 90 days’ prior written notice if: (i) we decide to discontinue the New Product
+development; (ii) we decide that the FDA’s requirements for the New Product are not likely to be met; or (iii) the FDA identifies
+a safety issue regarding the New Product. 18 In addition, either party
+may terminate the Chugai Agreement, in whole or in part, in the event that the other party materially breaches the Chugai Agreement and
+fails to cure the breach within 30 days of written notice. Either party may terminate the Chugai Agreement in its entirety immediately
+upon notice to the other party if such other party: (i) is dissolved or liquidated or takes any corporate action for such purpose; (ii)
+becomes insolvent or is generally unable to pay, or fails to pay, its debts as they become due; (iii) files or has filed against it a
+petition for voluntary or involuntary bankruptcy or otherwise becomes subject to any proceeding under any domestic or foreign bankruptcy
+or insolvency laws; (iv) makes or seeks to make a general assignment for the benefit of creditors; or (v) applies for or has a receiver,
+trustee, custodian or similar agent appointed by order of any court to take charge of or sell any material portion of its property or
+business. In the event that we undergo
+a change of control, Chugai Pharmaceutical may terminate the Chugai Agreement upon 90 days’ written notice to us, absent a written
+pledge by the new controlling party of its agreement to fulfill and undertake all obligations of ours and to be bound by the Chugai Agreement. Sponsored Research and License Agreement On November 28, 2018, we
+entered into a sponsored research and license agreement, or the Research Agreement, with The University of Iowa, or the University, pursuant
+to which the University will provide access to certain program data related to Chugai Pharmaceutical’s OK-432 and will assist us
+in conducting certain clinical studies. As consideration for the University’s performance under the Research Agreement, we will
+pay the University $30,000 per year in funding for the project, taking into consideration the time spent by University employees required
+for the Project. The parties also agree to discuss in good faith potential additional funding required for completion of the project pursuant
+to the Research Agreement as applicable and necessary. In addition, within 45 days of approval of the TARA-002 BLA by the FDA, we will
+pay a one-time approval milestone between $0 and $1 million to the University, the amount of which depends on the usefulness of the program
+data in TARA-002’s BLA filing. We will also be responsible for certain tiered royalties on annual net sales of products for the
+indication, which royalty rates are in the low single digit percentages. These royalty rates are also subject to a reduction in the event
+that regulatory authorities determine that the program data is not sufficient for regulatory approval on its own and additional pediatric
+efficacy and safety clinical studies are required. In the event that the annual net sales surpass certain dollar amount thresholds, we
+will need to make certain additional milestone payments following the close of the calendar quarter in which each milestone is reached,
+with the payments ranging from $62,500 to $125,000. We may terminate the Research
+Agreement upon 30 days’ prior written notice to the University. Either party may terminate the project under the Research Agreement
+and all commitments and obligations with respect thereto upon 30 days’ prior written notice to the other party. In the event of
+any termination of the project under the Research Agreement by the University, (a) the University agrees to complete certain phases of
+the project and (b) we will continue to provide annual funding until the completion of the second phase of the project. Upon termination
+of the project by us, the Agreement will terminate and we will reassign to the University the IND for LMs. Choline License Agreement On September 27, 2017, we
+entered into a choline license agreement, or the Choline Agreement, with Alan L. Buchman, M.D., pursuant to which Dr. Buchman granted
+us an exclusive, worldwide, non-transferable license in and to certain licensed orphan designations, a certain licensed IND, certain existing
+study data and certain licensed know-how to develop, make, use, sell, offer for sale and import the licensed product during the term of
+the Choline Agreement. We are solely responsible for all fees and expenses under the Choline Agreement, including all due diligence obligations,
+regulatory authority fees, attorney fees and consulting fees. During the term of the Choline Agreement, Dr. Buchman may not work with
+any third parties on any product competing with the licensed product. In consideration for the rights and licenses granted under the Choline
+Agreement, we made an initial upfront payment of $50,000 to Dr. Buchman. Certain milestone and royalty
+payments may also be payable to Dr. Buchman. Pursuant to the Choline Agreement, we paid Dr. Buchman $50,000 in October 2019 because we
+had not received at least $5 million in working capital from any source or in any manner as of October 15, 2019. We then paid Dr. Buchman
+a $550,000 milestone in January 2020 following our receipt of at least $5 million in working capital. 19 Regardless of whether development
+or commercialization is undertaken by us under the Choline Agreement, commencing in November 2022 and during the term of the Choline Agreement,
+we will pay Dr. Buchman a minimum annual royalty that ranges from $25,000 to $75,000. We have an obligation to pay
+Dr. Buchman sales royalties based on aggregate net sales of IV Choline Chloride in each calendar quarter, with the tiered royalty rates
+ranging from 5.0% to 10.5% of net sales. In the event of development or commercialization activity by any sublicensees, we also agreed
+to pay Dr. Buchman a royalty in the mid-single digit percentage of (i) net cash receipts, after payment of taxes, received by us from
+sublicensees for their sales of licensed products and (ii) any other consideration received by us from such sublicensees; in each case,
+including a fair monetary value for any transaction that is not a bona fide arms-length transaction or that is for consideration other
+than monetary. Further, in the event of a sale or transfer of a PRV, regarding the license product, regardless of whether any development
+or commercialization activity is undertaken by us or our sublicensees, we agreed to pay Dr. Buchman a milestone payment representing the
+mid-single digit percentage of (i) net cash receipts, after payment of taxes and (ii) any other consideration; in each case, received
+by us, our affiliates, or our sublicensees, including a fair monetary value for any transaction that is not a bona fide arms-length transaction
+or that is for consideration other than monetary. We will also pay Dr. Buchman
+up to $775,000 in additional payments upon the achievement of various regulatory approval milestones. The Choline Agreement will remain
+in full force and effect until the last sale of the licensed product under the Choline Agreement. After we received the FDA’s written
+minutes from the initial FDA meeting concerning the development of the first licensed product for one or more of the licensed indications,
+we paid an additional payment of $100,000 to Dr. Buchman and elected to not terminate the Choline Agreement at that time. The Choline
+Agreement may be terminated by Dr. Buchman if, following regulatory approval of a licensed product, we have not made our first sale of
+a licensed product within such country within a specified time period. We may terminate the Choline Agreement for convenience upon 90
+days’ prior written notice to Dr. Buchman. Dr. Buchman may terminate the Choline Agreement for non-payment of any payment due that
+has not been cured. Either party may terminate the Choline Agreement if the other party is in material breach and has not cured such breach
+within 60 days’ notice. In addition, Dr. Buchman may terminate the Choline Agreement upon 60 days’ prior written notice if:
+(a) we cease or threaten to cease to carry on our business; (b) a petition or resolution for the making of an administration order or
+for the bankruptcy, winding-up or dissolution of us is presented or passed; (c) we file a voluntary petition in bankruptcy or insolvency;
+(d) a receiver or administrator takes possession of our assets; or (e) any similar procedure is commenced against us in the U.S. License Agreement On December 22, 2017, we
+entered into a license agreement, or the License Agreement, with The Feinstein Institute for Medical Research, a not-for-profit corporation
+organized and existing under the laws of New York, or the Institute. The Institute owns, by assignment, a U.S. patent related to the treatment
+of fatty liver disease in humans. Pursuant to the License Agreement, the Institute granted us an exclusive, worldwide license, with the
+right to grant sublicenses to non-affiliate third parties, to develop, make, have made, use, sell, offer for sale and import certain products
+for use in the field of fatty liver disease in humans receiving total PN, by administering, as monotherapy, a pharmaceutical composition
+comprising intravenous choline, wherein the fatty liver disease is selected from IFALD, non-alcoholic fatty liver, non-alcoholic steatohepatitis,
+or NASH, NASH-associated liver fibrosis, or non-alcoholic cirrhosis. Notwithstanding the exclusive rights granted to us, the Institute
+will retain the right to make, use and practice such patents in its own laboratories solely for non-commercial scientific purposes and
+for continued non-commercial research. As consideration for the
+license grant, we agreed to pay the Institute tiered royalties of between 1.0% and 1.5% of all net sales. In addition, we agreed to pay
+the Institute a low double digit percentage of net proceeds resulting from agreements entered into within two years from the effective
+date of the License Agreement and a mid-single digit percentage of net proceeds resulting from agreements entered into thereafter. We
+also agreed to make certain license maintenance payments of $15,000 beginning on the second anniversary of the effective date of the License
+Agreement and continuing upon every anniversary thereafter until the first commercial sale of a licensed product. Beginning on the first
+anniversary of the effective date of the License Agreement after the first commercial sale of a licensed product and every anniversary
+of the effective date of the License Agreement thereafter, we will pay the Institute $30,000 as a license maintenance fee. Such license
+maintenance fees are non-refundable but are creditable against future royalty payments due to the Institute during the 12-month period
+following each such anniversary. 20 We agreed to make certain
+one-time milestone payments in the aggregate amount of $375,000 upon the achievement of certain regulatory approval milestones, of which
+$100,000 was paid on January 28, 2020 upon us having consummated certain private placements of securities. Unless terminated earlier,
+the License Agreement will expire upon the expiration of the last to expire patent under the License Agreement. We may terminate the License
+Agreement by giving the Institute 60 days’ prior notice. Either party may terminate the License Agreement in the event of a default
+or breach by the other party that has not been cured within 60 days of such notice. If we (i) make an assignment for the benefit of creditors
+or if proceedings for a voluntary bankruptcy are instituted on our behalf; (ii) are declared bankrupt or insolvent or (iii) are convicted
+of a felony relating to the manufacture, use or sale of the licensed products or a felony relating to moral turpitude, the Institute may
+terminate the License Agreement. Intellectual Property Our intellectual property is
+critical to our business and we strive to protect it, including by obtaining and maintaining patent protection in the U.S. and internationally
+for our product candidates, novel biological discoveries, epitopes, new therapeutic approaches and potential indications, and other inventions
+that are important to our business. Throughout the development of our product candidates, we will seek to identify additional means of
+obtaining patent protection that would potentially enhance commercial success. We also rely upon trade secrets, know-how, continuing technological
+innovation and in-licensing opportunities to develop and maintain our proprietary position. The patent positions of biotechnology
+companies like us are generally uncertain and involve complex legal, scientific and factual questions. We recognize that the ability to
+obtain patent protection and the degree of such protection depends on a number of factors, including the extent of the prior art, the
+novelty and non-obviousness of the invention, and the ability to satisfy the enablement requirement of the patent laws. In addition, the
+coverage claimed in a patent application can be significantly reduced before the patent is issued, and its scope can be reinterpreted
+after issuance. Consequently, we may not obtain or maintain adequate patent protection for any of our product candidates. Any patents
+that we hold may be challenged, circumvented or invalidated by third parties. Our commercial success will also
+depend in part on not infringing the proprietary rights of third parties. In addition, we have licensed rights under proprietary technologies
+of third parties to develop, manufacture and commercialize specific aspects of our products and services. It is uncertain whether the
+issuance of any third-party patent would require us to alter our development or commercial strategies, alter our processes, obtain licenses
+or cease certain activities. The expiration of patents or patent applications licensed from third parties or our breach of any license
+agreements or failure to obtain a license to proprietary rights that it may require to develop or commercialize our future technology
+may have a material adverse impact on it. If third parties prepare and file patent applications in the U.S. that also claim technology
+to which we have rights, we may have to participate in interference proceedings in the USPTO to determine priority of invention. For a
+more comprehensive discussion of the risks related to our intellectual property, please see “
+

@@ -1,0 +1,91 @@
+EX-21.1
+4
+ex211-subsidiariesxq425.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+Subsidiaries
+Name of Subsidiary
+Jurisdiction of Organization
+Percent Owned
+1.21 Gigawatts, LLC
+Delaware
+100%
+APLD Rattlesnake Den I LLC
+Delaware
+100%
+APLD ELN-01 LLC
+Nevada
+100%
+APLD ELN-02 LLC
+Delaware
+100%
+Applied Talent Resources LLC
+Nevada
+100%
+APLD GPU-01 LLC
+Delaware
+100%
+APLD OKC-01 LLC
+Nevada
+100%
+APLD SLC-01 LLC
+Delaware
+100%
+APLD IOWA-01 LLC
+Nevada
+100%
+APLD HPC-01 LLC
+Delaware
+100%
+James River Housing LLC
+Delaware
+100%
+APLD AST-01 Holdings LLC
+Delaware
+100%
+APLD AST-01 LLC
+Delaware
+100%
+Sai Computing Holdings LLC
+Delaware
+100%
+Sai Computing LLC
+Delaware
+100%
+Sai - Foundry Computing LLC
+Delaware
+98%
+Applied Digital Cloud Corporation
+Nevada
+100%
+APLD Holdings 1 LLC
+Delaware
+100%
+APLD Holdings 2 LLC
+Delaware
+100%
+APLD ALX-01 LLC
+Delaware
+100%
+APLD Hosting, LLC
+APLD HPC TopCo LLC
+APLD HPC Holdings LLC
+Applied Talent Resources – HPC LLC
+APLD ELN-02 LandCo LLC
+APLD ELN-03 LLC
+APLD ELN-02 C LLC
+Nevada
+Delaware
+Delaware
+Delaware
+Delaware
+Delaware
+Delaware
+100%
+100%
+100%
+100%
+100%
+100%
+100%

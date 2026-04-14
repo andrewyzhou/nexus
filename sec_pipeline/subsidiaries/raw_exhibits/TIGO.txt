@@ -1,0 +1,52 @@
+EX-8.1
+7
+a81subsidiaries.htm
+EX-8.1
+Document
+Exhibit 8.1
+Significant Subsidiaries
+Entity
+Country
+Colombia Móvil S.A. E.S.P.
+Colombia
+Comunicaciones Celulares S.A.
+Guatemala
+Grupo de Comunicaciones Digitales S.A. (formerly Telefónica Móviles Panamá S.A.)
+Panama
+Millicom Cable Costa Rica S.A.
+Costa Rica
+Millicom International Operations B.V.
+Netherlands
+Millicom International Services LLC
+USA
+Millicom LIH S.A.
+Luxembourg
+Millicom International Operations S.A.
+Luxembourg
+Millicom Spain S.L.
+Spain
+Millicom Telecommunications S.A. (i)
+Luxembourg
+Navega.com S.A.
+Guatemala
+Otecel, S.A.
+Ecuador
+Servicios Especializados en Telecomunicaciones, S.A.
+Guatemala
+Servicios Innovadores de Comunicacion y Entretenimiento, S.A.
+Guatemala
+Telecomunicaciones Digitales, S.A. (formerly Cable Onda S.A.)
+Panama
+Telefónica Celular de Bolivia S.A.
+Bolivia
+Telefónica Celular de Nicaragua S.A.
+Nicaragua
+Telefónica Celular del Paraguay S.A.
+Paraguay
+Telemóvil El Salvador, S.A. de C.V.
+El Salvador
+Telefónica Moviles de Uruguay S.A.
+Uruguay
+UNE EPM Telecomunicaciones S.A. and subsidiaries
+Colombia
+(i) Millicom Telecommunications S.A. is the holding company of most of our MFS business.

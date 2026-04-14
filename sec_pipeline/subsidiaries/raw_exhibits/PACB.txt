@@ -1,0 +1,46 @@
+EX-21.1
+4
+pacb-exx211x2025.htm
+EX-21.1
+Document
+Exhibit 21.1
+LIST OF SUBSIDIARIES
+Subsidiary name
+Jurisdiction
+Type
+Pacific Biosciences International LLC
+Delaware
+Domestic
+Pacific Biosciences Canada Limited
+Canada (Ontario)
+Foreign
+Pacific Biosciences Germany GmbH
+Germany (Munich)
+Foreign
+Pacific Biosciences Japan GK
+Japan (Tokyo)
+Foreign
+Pacific Biosciences (Shanghai) Co., Ltd.
+China (Shanghai)
+Foreign
+PacBio Singapore Pte. Limited
+Singapore
+Foreign
+Pacific Biosciences UK, Ltd.
+United Kingdom (London)
+Foreign
+Omniome, LLC
+Delaware
+Domestic
+Circulomics Inc.
+Maryland
+Domestic
+PacBio B.V.
+Netherlands (Amsterdam)
+Foreign
+PacBio of Korea, Yuhan Hoesa
+Korea
+Foreign
+Apton Biosystems LLC
+Delaware
+Domestic

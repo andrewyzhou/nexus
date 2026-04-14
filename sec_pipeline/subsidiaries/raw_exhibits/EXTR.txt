@@ -1,0 +1,94 @@
+EX-21.1
+5
+extr-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+EXTREME NETWORKS, INC.
+SUBSIDIARY LIST
+Name
+Location
+Extreme Networks, Inc.
+Delaware
+Aerohive Networks, Inc.
+Delaware
+Aerohive Networks, LLC
+Delaware
+Aerohive Networks Ltd.
+Cayman Islands
+Enterasys Networks, Inc.
+Delaware
+Extreme Federal Inc.
+Delaware
+Extreme Networks GmbH
+Germany
+Extreme Networks SRL
+Italy
+Extreme Networks s.r.o.
+Czech Republic
+Extreme Networks Bilisim Teknolojileri Hizmetleri Limited Sirketi
+Turkey
+Extreme Networks APAC Sdn Bhd
+Malaysia
+Extreme Networks Arabia LLC
+Saudi Arabia
+Extreme Networks Australia PTY, Ltd.
+Australia
+Extreme Networks Belgium SARL
+Belgium
+Extreme Networks Canada Inc.
+Canada
+Extreme Networks Chile, Ltda.
+Chile
+Extreme Networks China Ltd.
+Hong Kong
+Extreme Networks Colombia Technology SAS
+Colombia
+Extreme Networks Delaware LLC
+Delaware
+Extreme Networks Do Brazil, Ltda
+Brazil
+Extreme Networks EMEA Ltd.
+Cayman Islands
+Extreme Networks France SA
+France
+Extreme Networks (Hangzhou) Ltd.
+China
+Extreme Networks Hong Kong Ltd.
+Hong Kong
+Extreme Networks IHC, Inc.
+Delaware
+Extreme Networks India Private Ltd.
+India
+Extreme Networks International Ltd.
+Cayman Islands
+Extreme Networks Ireland Ltd.
+Ireland
+Extreme Networks Ireland Holding UC
+Ireland
+Extreme Networks Ireland Ops UC
+Ireland
+Extreme Networks KK
+Japan
+Extreme Networks Korea Ltd.
+South Korea
+Extreme Networks Mauritius
+Mauritius
+Extreme Networks Mexico, SA de CV
+Mexico
+Extreme Networks Netherlands BV
+Netherlands
+Extreme Networks Norway AS
+Norway
+Extreme Networks Singapore Pte. Ltd.
+Singapore
+Extreme Networks Spain SL
+Spain
+Extreme Networks Switzerland GmbH
+Switzerland
+Extreme Networks Technology Co. (Beijing) Ltd.
+China
+Extreme Networks UK Technology Ltd.
+United Kingdom
+IHC Networks AB
+Sweden

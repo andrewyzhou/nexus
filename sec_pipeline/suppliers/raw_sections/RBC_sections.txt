@@ -1,0 +1,73 @@
+TICKER: RBC
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain adjustments and pricing actions.
+We believe the majority of our imports from Mexico are compliant with the United States-Mexico-Canada Agreement (“USMCA”)
+and are currently exempt from tariffs upon importing into the United States. The ultimate impact of tariffs on our operations and financial
+results is currently uncertain and will depend on the scope, duration, and potential expansion of the measures implemented. Some of our products and operations are
+subject to certain approvals and government regulations and the loss of such approvals, or our failure to comply with such regulations,
+could materially reduce our revenues, cash flows and profitability. Essential to servicing the
+aerospace market is the ability to obtain product approvals. We have a substantial number of product approvals, which enable us to provide
+products used in virtually all domestic aircraft platforms presently in production or operation. Product approvals are typically issued
+by the FAA to designated OEMs who are Production Approval Holders of FAA-approved aircraft. These Production Approval Holders provide
+quality control oversight and generally limit the number of suppliers directly servicing the commercial aerospace market. Regulations
+enacted by the FAA provide for an independent process (the PMA process) that enables suppliers who currently sell their products to the
+Production Approval Holders to also sell products to the aftermarket. Our foreign sales may be subject to similar approvals or U.S. export
+control restrictions. We cannot assure you that we will not lose approvals for our aerospace products in the future. The loss or suspension
+of product approvals could result in lost sales and materially reduce our revenues, cash flows and profitability. The repair and overhaul of
+aircraft parts and accessories throughout the world is highly regulated by government agencies, including the FAA. Our repair and overhaul
+operations are subject to certification pursuant to regulations established by the FAA and foreign government agencies, with regulations
+varying from country to country, although compliance with FAA requirements generally satisfies regulatory requirements in other countries.
+Our failure to comply with these regulations, or our compliance with new and more stringent government regulations, if enacted, could
+have an adverse effect on our business, financial condition and results of operations. As a U.S. government contractor,
+we are subject to various procurement and other laws, regulations and contract terms applicable to our industry, including the FAR, the
+DFARS, the Truth in Negotiations Act, the False Claims Act, the Procurement Integrity Act, the International Traffic in Arms Regulations
+promulgated under the Arms Export Control Act, the Close the Contractor Fraud Loophole Act, the Foreign Corrupt Practices Act, and CAS,
+and we could be adversely affected by any negative finding by the U.S. government as to our compliance with them, including suspension
+or debarment from future government contracting. The retirement of commercial aircraft could
+reduce our revenues, cash flows and profitability. We sell replacement parts
+used in the repair and overhaul of jet engine and aircraft components, as well as provide such repair and overhaul services ourselves.
+As aircraft or engines for which we offer replacement parts or repair and overhaul services are retired, demand for these parts and services
+could decline and could reduce our revenue, cash flows and profitability. Risks associated with utilizing information
+technology systems could adversely affect our operations. We rely upon our information
+technology (“IT”) systems to process, transmit and store electronic information to manage and operate our business. Further,
+in the ordinary course of business we store sensitive data, including intellectual property, on our networks. The secure maintenance and
+transmission of this information is critical to our business operations. 11 We may face cyber events and
+other IT security threats, including malware, ransomware, phishing and other intrusions, to our IT infrastructure, attempts to gain unauthorized
+access to proprietary, classified or confidential information, and threats to the physical security of our IT systems. As a U.S. government
+contractor, our risk of cyber events may be greater than the risk faced by other companies that are not government contractors. In addition
+to security threats, our IT systems may also be subject to network, software or hardware failures. The unavailability of our IT systems,
+the failure of these systems to perform as anticipated, or any significant breach of data security could cause loss of data, disrupt our
+operations, require significant management attention and resources, subject us to liability to third parties or regulatory actions or
+contract termination, and negatively impact our reputation among our customers and the public, which could have a negative impact on our
+financial and competitive position, results of operations and liquidity. In addition, our business with our customers and
+
+--- VENDORS ---
+vendors could
+be impacted by cyber events on their IT systems. To address the risk to our
+IT systems and data, we maintain an IT security program designed to resist cyber events and to mitigate the damage from successful events.
+Refer to Part I, Item 1C of this Annual Report for details regarding our data protection and cybersecurity risk management program. Work stoppages and other labor problems
+could materially reduce our ability to operate our business. We currently have three collective
+bargaining agreements covering employees at our Plymouth, Indiana, Fairfield, Connecticut and West Trenton, New Jersey facilities, representing
+approximately 7% of our U.S.-based hourly employees as of March 29, 2025. While we believe our relations with our employees are satisfactory,
+the inability to satisfactorily negotiate and enter into new collective bargaining agreements upon expiration, or a lengthy strike or
+other work stoppage at any of our facilities, particularly at some of our larger facilities, could materially reduce our ability to operate
+our business. In addition, any attempt by our employees not currently represented by a union to join a union could result in additional
+expenses, including with respect to wages, benefits and pension obligations. In addition, work stoppages
+at one or more of our customers or suppliers (including suppliers of transportation services), many of which have large unionized workforces,
+could also cause disruptions to our business that we cannot control, and these disruptions could materially reduce our revenues, cash
+flows and profitability. Unexpected equipment failures or catastrophic
+events could increase our costs and reduce our sales due to production curtailments or shutdowns. Our
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+Raw Materials We obtain raw materials, component
+parts and supplies from a variety of sources and generally from more than one supplier. Our principal raw materials are steel and cast
+iron. Our suppliers and sources of raw materials are based in the U.S., Europe and Asia. We purchase steel at market prices, which fluctuate
+as a result of supply and demand driven by economic conditions in the marketplace, and we currently pay import tariffs on our raw materials
+sourced outside the U.S. For further discussion of the possible effects of import tariffs and changes in the cost of raw materials on
+our business, see Part I,
+

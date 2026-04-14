@@ -1,0 +1,437 @@
+TICKER: VWAV
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain planning. Our Solutions and Technologies Our portfolio comprises nine interconnected product
+lines, progressing from proof-of-concept to production-ready prototypes, with several undergoing client trials and demonstrations. These
+solutions leverage our EI™ AI engine for real-time, edge-based processing in GPS-denied or contested environments, integrating proprietary
+algorithms for radio wave analysis, neuromorphic vision, and 2D/3D RF imaging. Development is conducted in-house, without reliance on
+open-source models, and focuses on modularity for seamless integration with existing platforms. 1 The following table summarizes our key product lines
+as of the date hereof: Product Line Description Domain Status and Key Features C-UAS (Counter-Unmanned Aircraft System) Autonomous detection, tracking, and neutralization of aerial threats using onboard AI-driven sensors and effectors. Air Pilot testing completed Q2 2025; live-fire demonstrations Q3 2025; integrated into U.S. Army proposals; commercial rollout targeted for 2026. Multi-Purpose Autonomous UAS Versatile unmanned aerial systems configurable for reconnaissance, perimeter protection, search-and-rescue, with modular payloads. Air Pilot testing Q2 2025; showcased at AUSA expo; initial commercial sales in 2025; endurance up to 2 hours with EI™ autonomy. Vision-AI Technology Bio-inspired, pixel-level visual processing for superior adaptability and speed over traditional thermal or EO/IR systems. Cross-Domain Demonstrations Q3 2025; neuromorphic algorithms enable low-light/object recognition; commercial availability 2025. Vision-RF Imaging System Patented conversion of RF signals into 2D/3D video feeds, effective in indoor, underwater, or subterranean settings. Cross-Domain Demonstrations planned Q1 2026; disrupts surveillance markets; sub-meter precision geolocation. High-Resolution Radar System Real-time threat detection and tracking for dynamic objects, integrable with active protection or weapon systems. Cross-Domain Pilot integrations completed; commercial 2025; supports 360-degree coverage in cluttered environments. Remote Weapon Station (RWS) Stabilized, high-elevation platforms for vehicle or naval mounting, with precision targeting and AI-assisted fire control. Ground/Sea Demonstrations Q4 2025; acquired integration from partner; production lines established; compatible with legacy turrets. Unmanned Ground Vehicle (UGV) Stealthy, low-noise robotic platforms for special forces, law enforcement, or medical evacuation in urban/rough terrain. Ground Prototypes field-tested; EI™ enables swarm coordination; initial deployments targeted for 2026. Active Protection System (APS) Modular, solid-state defense against short-range threats like FPV drones, RPGs, or ATGMs; vehicle-agnostic integration. Ground Prototype aligned with India upgrade programs; trials ongoing; intercepts at 50-100m range. In 2024, VisionWave significantly strengthened its
+intellectual property portfolio through the acquisition of key patents from Tokenize. This includes the acquisition of 6 approved patents,
+Patent numbers: 10,521,614, 10,853,327, 11,663,167, 11,527,104, 11,302,032, 12,014,521 and one pending patent application, 18/743.171.
+These patents, which focus on AI-powered RF imaging and autonomous systems, reinforce VisionWave’s leadership in these advanced
+technological sectors. This strategic acquisition enhances our ability to innovate and deliver state-of-the-art solutions for defense,
+homeland security, and beyond, further solidifying VisionWave’s competitive edge in the global market. U.S. trademark registration
+is pending and not guaranteed for our trademark. Our trademark is VisionWave’s real-time, embedded AI engine engineered for split-second,
+on-device decision-making in contested or bandwidth-limited environments. Its modular architecture combines multi-modal sensor fusion
+with a deterministic, edge-optimized runtime to deliver low-latency perception, prediction, and control across drones, unmanned ground
+vehicles, guided munitions, sensors and humanoid robotics. EI is intended to serve as a common autonomy layer across sensors and platforms.
+Separately, VisionWave has filed a U.S. trademark application for our trademark (Serial No. 99317884); registration is not guaranteed
+and remains subject to standard USPTO examination. Key Developments in Fiscal Year 2025 The year ended September 30, 2025, marked our transition
+to a public entity and initial commercialization efforts, with significant milestones in financing, partnerships, and product validation: 2 ● Business
+                                            Combination and Public Listing: The July 14, 2025 closing of the Business Combination
+                                            with Bannix enabled Nasdaq trading commencement and unlocked public market access. Post-merger,
+                                            authorized shares include 150,000,000 common shares (par value $0.01) and 10,000,000 preferred
+                                            shares (par value $0.01). ● Financing
+                                            Initiatives : On July 25, 2025, we entered a Standby Equity Purchase Agreement (“SEPA”)
+                                            with YA II PN, Ltd., providing up to $50 million in equity financing through common stock
+                                            sales, subject to volume limits and Nasdaq rules. This included issuance of 200,000 commitment
+                                            shares, a $35,000 structuring fee, and a $500,000 commitment fee payable in shares. We received
+                                            $3 million in pre-paid convertible advances on July 25 and an additional $2 million on September
+                                            11, 2025, under notes bearing 6% interest (up to 18% on default), maturing in 12 months,
+                                            and convertible at the lower of $10.00 or 93% of the five-day volume-weighted average price
+                                            (with a $1.00 floor). ● Strategic
+                                            Partnerships and Acquisitions : Formed a joint venture on August 25, 2025, with AIPHEX,
+                                            GBT Tokenize, and GBT Technologies for defense technology co-development. Signed a Memorandum
+                                            of Understanding (“MoU”) with VEDA Aeronautics on September 2, 2025, for Indian
+                                            defense programs. Executed a Memorandum of Agreement (“MOA”) with a U.S. defense
+                                            contractor on July 25, 2025, designating us as design authority and subcontractor for U.S.
+                                            market, Foreign Military Sales (“FMS”), and Foreign Military Financing (“FMF”)
+                                            opportunities. Entered an AI infrastructure agreement with PVML Ltd. on October 5, 2025,
+                                            and a consulting agreement with Crypto Treasury Management on September 26, 2025, for digital
+                                            asset strategies (up to $300 million potential). Acquired RWS integration capabilities from
+                                            a partner, establishing production lines. On December 3, 2025, we entered into a Share Purchase
+                                            Agreement (the “Solar Agreement”) with BladeRanger Ltd., a company organized
+                                            under the laws of Israel and listed on the Tel Aviv Stock Exchange under the ticker “BLRN”
+                                            (“Blade”), and, solely for purposes of acknowledgment and certain covenants therein,
+                                            Solar Drone Ltd., an Israeli corporation (“Solar Drone”). Pursuant to the Agreement,
+                                            the Company will acquire all of the issued and outstanding shares of the Solar Drone (the
+                                            “Solar Drone Acquisition”) from Blade in consideration for the issuance by the
+                                            Company to Blade (or its designee(s)) of 1,800,000 shares of the Company’s common stock,
+                                            $0.01 par value per share (the “Buyer Shares”), and, if the average daily volume-weighted
+                                            average price (“VWAP”) of the Company’s common stock for the five Trading
+                                            Day period immediately preceding the date of effectiveness of the registration statement
+                                            registering the resale of the Buyer Shares is less than $12.00 per share, Pre-Funded Common
+                                            Stock Purchase Warrants (the “Pre-Funded Warrants”) to purchase a number of additional
+                                            shares of the Company’s common stock (the “Warrant Shares”) equivalent
+                                            to the difference between $21,600,000 and the aggregate value of the Buyer Shares based on
+                                            such VWAP, such that the aggregate consideration has a value of $21,600,000. ● Product
+                                            and Pilot Milestones : Completed pilot testing for C-UAS, Multi-Purpose UAS, and Vision-AI
+                                            in Q2 2025, securing a $30,000 order from a U.S. contractor subsidiary. Conducted live-fire
+                                            trials in Abu Dhabi in September 2025 outperforming global competitors. Advanced Israeli
+                                            Ministry of Defense border security deployment for Q4 2025 and India Ministry of Defense
+                                            10-year agreement discussions, including APS trials and local manufacturing feasibility.
+                                            Showcased products at the AUSA expo in October 2025 and submitted proposals to the U.S. Army’s
+                                            Joint Counter-small Unmanned Aircraft Systems Office (“JCO”). ● Governance :
+                                            Appointed independent directors Haggai Ravid, Chuck Hansen, Eric Shuss, Judit Nagypal and
+                                            Atara Atara Dzikowski. Customers and Markets Our target customers include U.S. and allied defense
+contractors, government agencies (e.g., U.S. Army, NATO members, Ministries of Defense in Israel and India), homeland security organizations,
+and industrial clients in surveillance and inspection. Revenue is derived from pilot orders, NRE fees, product sales, and licensing. In
+2025, 100% of limited revenue came from U.S.-based pilots, with no single customer exceeding 50% due to our early-stage diversification
+efforts. We serve global markets, with a focus on high-growth
+regions: North America (U.S. Army programs and expos); Middle East (UAE and Israel border security); and Asia-Pacific (India’s modernization
+initiatives). International sales require compliance with export controls, and we anticipate 60% of future revenue from non-U.S. sources,
+particularly India. 3 Competition The defense technology sector is highly competitive,
+characterized by rapid innovation in AI, drones, and sensing technologies. We compete with established primes possessing greater resources,
+established relationships, and scale, as well as emerging players in autonomous systems. Our differentiation stems from proprietary EI™
+integration, cost-effective modularity, and partnerships that mitigate entry barriers. However, shifts in drone/AI landscapes could erode
+our position without continuous R&D investment. Regulation Our operations are governed by U.S. securities laws,
+Nasdaq listing standards (e.g., independent board majority, audit/compensation committees per Rule 10A-3), and defense-specific regulations
+including International Traffic in Arms Regulations (“ITAR”) and evolving AI/ethical standards. We are not an investment company
+under the Investment Company Act of 1940, as less than 40% of assets are in securities. Cryptocurrency activities require anti-money laundering
+(“AML”)/know-your-customer (“KYC”) compliance and may incur a 1% excise tax on stock repurchases. No material
+violations occurred in 2025, with compliance costs of $450,000. Human Capital Our team comprises 12 employees and consultants as of September 30, 2025, with
+70% in technical R&D roles. Key executives include Interim CEO and Executive Chairman Douglas Davis, CTO Danny Rittman, CFO Erik Klinger,
+CRO Elad Shoval, COO David Allon, and Senior Engineer Jaz Williman. We lack key man insurance and have no family relationships among officers.
+Retention strategies include equity incentives and consulting agreements. Available Information Our Form 10-K, Quarterly Reports on Form 10-Q, Current
+Reports on Form 8-K, and any amendment to these reports are filed with the SEC. Such reports and other information filed by us with the
+SEC are available free of charge on our website at investors.authid.ai as soon as reasonably practicable after we electronically
+file such material with, or furnish it to, the SEC. The SEC maintains an internet site that contains reports, proxy and information statements
+and other information regarding issuers that file electronically with the SEC at www.sec.gov . The information contained on the
+websites referenced in this Form 10-K is not incorporated by reference into this filing.
+
+--- VENDORS ---
+vendors, including
+those in countries outside the U.S. Components are expected to be supplied from vendors in China. Items sourced internationally potentially
+carry increased risk to the business, including higher shipping costs, uncertain tariff and tax structures, longer lead times, language
+barriers, potential compliance and quality issues, and political instability. Additionally, once we commence
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+raw materials, components, and sub-assemblies to manufacture its drones that are sourced from various vendors, including
+those in countries outside the U.S. Components are expected to be supplied from vendors in China. Items sourced internationally potentially
+carry increased risk to the business, including higher shipping costs, uncertain tariff and tax structures, longer lead times, language
+barriers, potential compliance and quality issues, and political instability. Additionally, once we commence manufacturing, although we
+will attempt to mitigate this risk, we may in certain circumstances rely on a single supplier and manufacturer which will pose risks of
+shortages, price increases, changes, delay and other issues that could disrupt and adversely affect our business. If any of these companies
+ceases supplying and/or serving us, we would have to find and qualify alternate suppliers. Additionally, if there are general supply chain
+disruptions due to global economic events, we may not be able to produce the VisionWave Products if the raw materials, components, and
+sub-assemblies needed are not available to us. Operations could be adversely affected by interruptions
+of production that are beyond our control. We intend to manufacture the VisionWave Products using
+systems, components and parts developed and manufactured by third-party suppliers. Our eventual manufacturing could be affected by interruptions
+of production at such suppliers. Such suppliers may be subject to additional risks such as financial problems that limit their ability
+to conduct their operations. If any of these third parties experience difficulties, it may have a direct negative impact on VisionWave. 6 We depend on key personnel. Our future success depends on the efforts of key personnel, including Douglas
+Davis, our Interim Chief Executive Officer and our Executive Chairman, and the balance of our senior executive team. We do not currently
+carry any key man life insurance on our key personnel or senior executive team. However, the Company may obtain such insurance at some
+point after closing of the Business Combination. Regardless of such insurance, the loss of services of any of these or other key personnel
+may have an adverse effect on VisionWave. There can be no assurance that VisionWave will be successful in attracting and retaining the
+personnel VisionWave requires to develop and market the proposed VisionWave Products. We will require intellectual property protection
+and may be subject to the intellectual property claims of others. Our intellectual property consists of six granted
+patents. In addition, VisionWave’s intellectual property relies on licenses to three patents. VisionWave intends to seek copyright
+and patent protection for these items; however, there is no guarantee that such the VisionWave will be successful in obtaining such protection.
+If we fail to successfully enforce our proprietary technology or otherwise maintain the proprietary nature of the intellectual property
+used in the VisionWave Products, our competitive position could suffer. Furthermore, VisionWave’s competitive advantage relies heavily
+on its proprietary artificial intelligence algorithms. Any failure to adequately protect its intellectual property could significantly
+impact the VisionWave’s business and market position. Disputes or termination of licensing agreements could adversely affect its
+business. Notwithstanding VisionWave’s efforts to protect our intellectual property, our competitors may independently develop similar
+or alternative technologies or products that are equal to or superior to VisionWave’s Products without infringing on any of VisionWave’s
+intellectual property rights or design around our proprietary technologies. There is no guarantee that the USPTO will issue patents to
+VisionWave or that any court will rule in VisionWave’s favor in the event of a dispute related to its intellectual property.
+In the absence of further patent protection, it may be more difficult for VisionWave to achieve commercial production of the VisionWave
+Products. C onfidentiality agreements may not adequately
+prevent disclosure of trade secrets and other proprietary information. We anticipate that a substantial amount of our processes
+and technologies will be protected by trade secret laws. To protect these technologies and processes, we intend to rely in part on confidentiality
+agreements with our employees, licensees, independent contractors and other advisors. These agreements may not effectively prevent disclosure
+of confidential information, including trade secrets, and may not provide an adequate remedy in the event of unauthorized disclosure of
+confidential information. In addition, others may independently discover our trade secrets and proprietary information, and in such cases,
+we could not assert any trade secret rights against such parties. To the extent that our employees, contractors or other third parties
+with which we do business use intellectual property owned by others in their work for us, disputes may arise as to the rights in related
+or resulting know-how and inventions. Laws regarding trade secret rights in certain markets in which we operate may afford little or no
+protection to our trade secrets. The loss of trade secret protection could make it easier for third parties to compete with our products
+and related future products and services by copying functionality, among other things. In addition, any changes in, or unexpected interpretations
+of, the trade secret and other intellectual property laws in any country in which we operate may compromise our ability to enforce our
+trade secret and intellectual property rights. Costly and time-consuming litigation could be necessary to enforce and determine the scope
+of our proprietary rights, and failure to obtain or maintain trade secret protection could adversely affect our business, revenue, reputation
+and competitive position. Risks Related to Our Financing with YA II Substantial blocks of our common stock may be
+sold into the market as a result of the shares sold to YA II under the SEPA, which may cause the price of our common stock to decline. The price of our common stock could decline if there
+are substantial sales of shares of our common stock, if there is a large number of shares of our common stock available for sale, or if
+there is the perception that these sales could occur. 7 On July 25, 2025, we entered into the SEPA with YA
+II. Under the SEPA, we agreed to issue and sell to YA II, from time to time, and YA II agreed to purchase from us, up to $50.0 million
+of our common stock. We shall not affect any sales under the SEPA and YA II shall not have any obligation to purchase shares of common
+stock under the SEPA to the extent that after giving effect to such purchase and sale YA II would exceed the Ownership Limitation or the
+Exchange Cap. Thus, we may not have access to the right to sell the full $50.0 million of shares of common stock to YA II. In connection
+with the SEPA, and subject to the condition set forth therein, YA II has agreed to advance us the Pre-Paid Advance which shall be evidenced
+by the Convertible Notes to be issued to YA II at a purchase price equal to 94.0% of the principal amount of each Pre-Paid Advance. Under
+the SEPA, we received $3.0 million in pre-paid advances on July 25, 2025, and $2.0 million on September 11, 2025, in the form of convertible
+promissory notes (the “Notes”). The purchase price for each Convertible Note representing a Pre-Paid Advance is 94.0% of the
+principal amount of the Pre-Paid Advance. Interest shall accrue on the outstanding balance of any Convertible Note at an annual rate equal
+to 6.0%, subject to an increase to 18% upon an event of default as described in the Convertible Notes. The maturity date for each Convertible
+Note will be 12-months after the closing of each tranche of the Pre-Paid Advance. YA II may convert the Convertible Notes into shares
+of our common stock at the Conversion Price, which in no event may the Conversion Price be lower than the Floor Price. YA II, in its sole
+discretion and providing that there is a balance remaining outstanding under the Convertible Notes, may deliver a notice under the SEPA
+requiring an Investor Advance. YA II, in its sole discretion, may select the amount of any Investor Advance, provided that the number
+of shares issued does not cause YA II to exceed the Ownership Limitation or does not exceed the Exchange Cap. As a result of an Investor
+Advance, the amounts payable under the Convertible Notes will be offset by such amount subject to each Investor Advance. Any issuance of shares of common stock pursuant to
+this facility will dilute the percentage ownership of stockholders and may dilute the per share projected earnings (if any) or book value
+of our common stock. Sales of a substantial number of shares of our common stock in the public market or other issuances of shares of
+our common stock, or the perception that these sales or issuances could occur, could cause the market price of our common stock to decline
+and may make it more difficult for you to sell your shares at a time and price that you deem appropriate. It is not possible to predict the actual number
+of shares we will sell under the SEPA to YA II at any one time or in total, or the actual gross proceeds resulting from those sales. We generally have the right to control the timing
+and amount of any sales of our shares of common stock to YA II under the SEPA. Sales of our common stock, if any, to YA II under the SEPA
+will depend upon market conditions and other factors. We may ultimately decide to sell to YA II all, some or none of the shares of our
+common stock that may be available for us to sell to YA II pursuant to the SEPA. In connection with the SEPA, and subject to the condition
+set forth therein, YA II has agreed to advance us the Pre-Paid Advance which shall be evidenced by the Convertible Notes to be issued
+to YA II at a purchase price equal to 94.0% of the principal amount of each Pre-Paid Advance. Under the SEPA, we received $3.0 million
+in pre-paid advances on July 25, 2025, and $2.0 million on September 11, 2025, in the form of Notes. The purchase price for each Convertible
+Note representing a Pre-Paid Advance is 94.0% of the principal amount of the Pre-Paid Advance. Interest shall accrue on the outstanding
+balance of any Convertible Note at an annual rate equal to 6.0%, subject to an increase to 18% upon an event of default as described in
+the Convertible Notes. The maturity date of each Convertible Note will be 12-months after the issuance of such note. YA II may convert
+the Convertible Notes into shares of our common stock at the Conversion Price, which in no event may the Conversion Price be lower than
+the Floor Price. YA II, in its sole discretion and providing that there is a balance remaining outstanding under the Convertible Notes,
+may deliver a notice under the SEPA requiring an Investor Advance. YA II, in its sole discretion, may select the amount of any Investor
+Advance, provided that the number of shares issued does not cause YA II to exceed the Ownership Limitation or does not exceed the Exchange
+Cap. As a result of an Investor Advance, the amounts payable under the Convertible Notes will be offset by such amount subject to each
+Investor Advance. Because the purchase price per share to be paid by
+YA II for the shares of common stock that we may elect to sell to YA II under the SEPA, if any, will fluctuate based on the market prices
+of our common stock during the applicable Pricing Period for each Advance made pursuant to the SEPA, if any, it is not possible for us
+to predict, as of the date of this prospectus and prior to any such sales, the number of shares of common stock that we will sell to YA
+II under the SEPA, the purchase price per share that YA II will pay for shares purchased from us under the SEPA, or the aggregate gross
+proceeds that we will receive from those purchases by YA II under the SEPA, if any. 8 In addition, unless we obtain stockholder approval,
+we will not be able to issue shares of common stock in excess of the Exchange Cap under the SEPA in accordance with applicable Nasdaq
+rules. Depending on the market prices of our common stock in the future, this could be a significant limitation on the amount of funds
+we are able to raise pursuant to the SEPA. Other limitations in the SEPA, including the Ownership Limitation, and our ability to meet
+the conditions necessary to deliver an Advance Notice, could also prevent us from being able to raise funds up to the Commitment Amount. Moreover, although the SEPA provides that we may sell
+up to an aggregate of $50.0 million of our common stock to YA II, we have filed a Form S-1 Registration Statement seeking to register
+only 10,200,000 shares of our common stock, consisting of (i) the 200,000 Commitment Shares that we issued to YA II upon execution of
+the SEPA as consideration for its commitment to purchase our common stock under the SEPA and (ii) up to 10,000,000 shares of common stock
+that we may elect to sell to YA II, in our sole discretion, from time to time from and after the date of, and pursuant to, the SEPA or
+that YA II may require that we sell pursuant to an Investor Advance. Even if we elect to sell to YA II all of the shares of common stock
+being registered for resale under this prospectus, depending on the market prices of our common stock at the time of such sales, the actual
+gross proceeds from the sale of all such shares may be substantially less than the $50.0 million Commitment Amount under the SEPA, which
+could materially adversely affect our liquidity. If we desire to issue and sell to YA II under the
+SEPA more than the 10,000,000 shares that we are current seeking to register, and the Exchange Cap provisions and other limitations in
+the SEPA would allow us to do so, we would need to file with the SEC one or more additional registration statements to register under
+the Securities Act the resale by YA II of any such additional shares of our common stock and the SEC would have to declare such registration
+statement or statements effective before we could sell additional shares. Further, the resale by YA II of 10,200,000 shares
+of common stock registered for resale at any given time, or the perception that these sales may occur, could cause the market price of
+our common stock to decline and to be highly volatile. The sale and issuance of our shares of Common
+Stock to YA II will cause dilution to our existing shareholders, and the sale of the shares of Common Stock acquired by YA II, or the
+perception that such sales may occur, could cause the price of our Common Stock to fall. The purchase price for the shares that we may sell
+to YA II under the SEPA will fluctuate based on the price of our shares of Common Stock. Depending on a number of factors, including market
+liquidity, sales of such shares may cause the trading price of our Common Stock to fall. If and when we do sell shares to YA II or when
+YA II requests an Investor Advance, YA II may resell all, some, or none of those shares at its discretion, subject to the terms of the
+SEPA. Therefore, sales to YA II by us could result in substantial dilution to the interests of other holders of our shares of Common Stock.
+Additionally, the sale of a substantial number of shares of Common Stock to YA II, or the anticipation of such sales, could make it more
+difficult for us to sell equity or equity-related securities in the future at a desirable time and price. The resale of shares of Common
+Stock by YA II in the public market or otherwise, including sales pursuant to this prospectus, or the perception that such sales could
+occur, could also harm the prevailing market price of our shares of Common Stock. Following these issuances described above and as restrictions
+on resale end and registration statements are available for use, the market price of our shares of Common Stock could decline if the holders
+of restricted shares sell them or are perceived by the market as intending to sell them. As such, sales of a substantial number of shares
+of Common Stock in the public market could occur at any time. These sales, or the perception in the market that the holders of a large
+number of shares intend to sell shares, could reduce the market price of our shares of Common Stock. Once we receive a Pre-Paid Advance, we do not
+have the right to control the timing and amount of the issuance of our Common Shares to YA II under the PPA and, accordingly, it is not
+possible to predict the actual number of shares we will issue pursuant to Pre-Paid Advances at any one time or in total. Once we receive any of the Pre-Paid Advances, including
+the initial Pre-Paid Advance, we do not have the right to control the timing and amount of any issuances of our shares of Common Stock
+to YA II under the SEPA. Sales of our shares of Common Stock, if any, to YA II under the SEPA will depend upon market conditions and other
+factors, and the discretion of YA II. We may ultimately decide to sell to YA II all, some or none of the shares of Common Stock that may
+be available for us to sell to YA II pursuant to the SEPA. Each Pre-Paid Advance matures within one year. 9 Because the purchase price per share to be paid by
+YA II for the shares of Common Stock that we may elect to sell to YA II under the SEPA, if any, will fluctuate based on the market prices
+of our shares of Common Stock, if any, it is not possible for us to predict, as of the date of this prospectus supplement and prior to
+any such sales, the number of shares of Common Stock that we will sell to YA II under the SEPA, the purchase price per share that YA II
+will pay for shares purchased from us under the SEPA, or the aggregate gross proceeds that we will receive from those purchases by YA
+II under the SEPA, if any. Further, the resale by YA II of 10,200,000 shares
+of common stock registered in this offering at any given time, or the perception that these sales may occur, could cause the market price
+of our shares of Common Stock to decline and to be highly volatile. Upon an amortization event, we may be required
+to make payments that could cause us financial hardship. In connection with the SEPA, and subject to the condition
+set forth therein, YA II has agreed to advance us the Pre-Paid Advance which shall be evidenced by the Convertible Notes to be issued
+to YA II at a purchase price equal to 94.0% of the principal amount of each Pre-Paid Advance. Under the SEPA, we received $3.0 million
+in pre-paid advances on July 25, 2025, and $2.0 million on September 11, 2025, in the form of Notes. The purchase price for each Convertible
+Note representing a Pre-Paid Advance is 94.0% of the principal amount of the Pre-Paid Advance. Interest shall accrue on the outstanding
+balance of any Convertible Note at an annual rate equal to 6.0%, subject to an increase to 18% upon an event of default as described in
+the Convertible Notes. The maturity date of each Convertible Note is 12-months from the date of issuance. YA II may convert the Convertible
+Notes into shares of our common stock at the Conversion Price, which in no event may the Conversion Price be lower than the Floor Price.
+YA II, in its sole discretion and providing that there is a balance remaining outstanding under the Convertible Notes, may deliver a notice
+under the SEPA requesting an Investor Advance. YA II, in its sole discretion, may select the amount of any YA II Advance, provided that
+the number of shares issued does not cause YA II to exceed the Ownership Limitation or does not exceed the Exchange Cap. As a result of
+an Investor Advance, the amounts payable under the Convertible Notes will be offset by such amount subject to each Investor Advance. If at any time on or after the issuance of the
+Convertible Notes (i) the daily VWAP is less than the Floor Price for five trading days during a period of seven consecutive trading days
+(“Floor Price Event”), (ii) the Company has issued in excess of 99% of the shares of common stock available under the Exchange
+Cap, where applicable (“Exchange Cap Event”) or (iii) any time after the effectiveness deadline set forth in the Registration
+Rights Agreement, Investor is unable to utilize a registration statement to resell the shares underlying each Convertible Note for a period
+of 30 consecutive Trading Days, then the Company shall make monthly payments to Investor beginning on the seventh trading day after the
+Amortization Event and continuing monthly in the amount of $750,000 plus a 5.0% premium and all accrued and unpaid interest. This financial obligation may be an undue and unsustainable
+burden and may cause a material adverse effect on our operations and financial condition. Investors who buy shares at different times
+will likely pay different prices. Pursuant to the SEPA, we will have discretion, subject
+to market demand, to vary the timing, prices, and numbers of shares sold to YA II. If and when we do elect to sell shares of our common
+stock to YA II pursuant to the SEPA, YA II may resell all, some or none of such shares at any time or from time to time in its discretion
+and at different prices. As a result, investors who purchase shares from YA II in any offering at different times will likely pay different
+prices for those shares, and so may experience different levels of dilution and in some cases substantial dilution and different outcomes
+in their investment results. Investors may experience a decline in the value of the shares they purchase from YA II in any offering as
+a result of future sales made by us to YA II at prices lower than the prices such investors paid for their shares in this offering. Our current business plans require a significant
+amount of capital. If we are unable to obtain sufficient funding or do not have access to capital, we may not be able to execute our business
+plans and our prospects, financial condition and results of operations could be materially adversely affected. 10 The extent to which we rely on YA II as a source of
+funding will depend on a number of factors, including the prevailing market price of our common stock, our ability to meet the conditions
+necessary to deliver Advance Notices under the SEPA, the impacts of the Exchange Cap and the Ownership Limitation and the extent to which
+we are able to secure funding from other sources. In addition to the amount of funds we ultimately raise under the SEPA, if any, we expect
+to continue to seek other sources of funding, including by offering additional equity, and/or equity-linked securities, through one or
+more credit facilities and potentially by offering debt securities, to finance a portion of our future expenditures. We have experienced operating losses, and we expect
+to continue to incur operating losses as we implement our business plans. We expect our capital expenditures to continue to be significant
+in the foreseeable future as we expand our business. We expect to expend capital with significant outlays directed towards servicing our
+operations. The fact that we have a limited operating history with respect to the agri-foods and farming operations business means we
+have limited historical data on the demand for our services. As a result, our capital requirements are uncertain and actual capital requirements
+may be different from those we currently anticipate. In addition, new opportunities for growth in future product lines and markets may
+arise and may require additional capital. As of September 30, 2025, our principal source of
+liquidity is our cash balance in the amount of approximately $2.28 million. We entered into the SEPA whereby we will have the right, but
+not the obligation, to sell to YA II up to $50.0 million of our shares of common stock. However, our right to sell shares under the SEPA
+is subject to certain conditions that may not be satisfied. Accordingly, we may not be able to utilize this facility to raise additional
+capital when, or in the amounts, we may require. Under the SEPA, we received $3.0 million in pre-paid advances on July 25, 2025, and $2.0
+million on September 11, 2025, in the form of Notes. The Pre-Paid Advances were made in the form of Convertible Notes. In addition, upon
+the occurrence and during the continuation of an event of default, the Convertible Notes may be declared immediately due and payable,
+in which case the Company shall pay to YA II the principal and interest due thereunder. If any time (i) the daily VWAP is less than the
+Floor Price for five trading days during a period of seven consecutive trading days (“Floor Price Event”), or (ii) the Company
+has issued in excess of 99% of the shares of common stock available under the Exchange Cap (“Exchange Cap Event” and collectively
+with the Floor Price Event, the “Amortization Event”)), then we shall make monthly payments to YA II beginning on the seventh
+trading day after the Amortization Event and continuing monthly in the amount of $750,000 plus a 5.0% premium and accrued and unpaid interest.
+The Exchange Cap Event will not apply in the event we have obtained the approval from our stockholders in accordance with the rules of
+Nasdaq Stock Market for the issuance of shares of common stock pursuant to the transactions contemplated in the Convertible Note and the
+SEPA in excess of 19.99% of the aggregate number of shares of common stock issued and outstanding as of the effective date of the SEPA
+(the “Exchange Cap”). Any debt we incur from YA II or other parties could make us more vulnerable to a downturn in our operating
+results or a downturn in economic conditions. If our cash flow from operations is insufficient to meet any debt service requirements including
+the repayment of the Convertible Notes in the event of a Amortization Event, we could be required to refinance our obligations, or dispose
+of assets in order to meet debt service requirements. As an early-stage growth company, our ability to access
+capital is critical. We expect that we will need to raise additional capital in order to continue to execute our business plans in the
+future, and we plan to use the SEPA, if the conditions for its use are satisfied and seek additional equity and/or debt financing, including
+by offering additional equity, and/or equity-linked securities, through one or more credit facilities and potentially by offering debt
+securities, to finance a portion of our future expenditures. The sale of additional equity or equity-linked securities
+could dilute our stockholders. The incurrence of indebtedness would result in increased debt service obligations and could result in operating
+and financing covenants that would restrict our operations or our ability to pay dividends to our stockholders. Our ability to obtain
+the necessary additional financing to carry out our business plans or to refinance, if necessary, any outstanding debt when due is subject
+to a number of factors, including general market conditions and investor acceptance of our business model. These factors may make the
+timing, amount, terms and conditions of such financing unattractive or unavailable to us. If we are unable to raise sufficient funds on
+favorable terms, we may have to significantly reduce our spending, delay or cancel our planned activities or substantially change our
+corporate structure. We might not be able to obtain any such funding or we might not have sufficient resources to conduct our business
+as projected, both of which could mean that we would be forced to curtail or discontinue our operations and our prospects, financial consolidated
+results of operations could be materially adversely affected, in which case our investors could lose some or all of their investment. 11 Management will have broad discretion as to
+the use of the proceeds from the SEPA, and uses may not improve our financial condition or market value. Because we have not designated the amount of net proceeds
+from the SEPA to be used for any particular purpose, our management will have broad discretion as to the application of such proceeds.
+Our management may use the proceeds for working capital and general corporate purposes that may not improve our financial condition or
+advance our business objectives. Risks Related to Ownership of Our Common Stock As a smaller reporting company, we are exempt
+from certain disclosure requirements, which could make our Common Stock less attractive to the potential investors . Rule 12b-2 of the Exchange Act defines a “smaller
+reporting company” as an issuer that is not an investment company, an asset-backed issuer, or a majority-owned subsidiary of a parent
+that is not a smaller reporting company and that: ● had a public float of less than $250 million as of the last business day of its most recently completed second fiscal quarter, computed by multiplying the aggregate worldwide number of shares of its voting and non-voting common equity held by non-affiliates by the price at which the common equity was last sold, or the average of the bid and asked prices of common equity, in the principal market for the common equity; or ● in the case of an initial registration statement under the Securities Act, or the Exchange Act of 1934, as amended, which we refer to as the Exchange Act, for shares of its common equity, had a public float of less than $250 million as of a date within 30 days of the date of the filing of the registration statement, computed by multiplying the aggregate worldwide number of such shares held by non-affiliates before the registration plus, in the case of a Securities Act registration statement, the number of such shares included in the registration statement by the estimated public offering price of the shares; or ● in the case of an issuer whose public float as calculated under paragraph (1) or (2) of this definition was zero, had annual revenues of less than $100 million during the most recently completed fiscal year for which audited financial statements are available. As a smaller reporting company, we will not
+be required and may not include a Compensation Discussion and Analysis section in our proxy statements; we will provide only two years
+of financial statements; and we need not provide the table of selected financial data. We also will have other “scaled” disclosure
+requirements that are less comprehensive than issuers that are not smaller reporting companies which could make our Common Stock less
+attractive to potential investors, which could make it more difficult for our stockholders to sell their shares. We are an emerging growth company and subject
+to less rigorous public reporting requirements and cannot be certain if the reduced reporting requirements applicable to emerging growth
+companies will make our Common Stock less attractive to investors. We are a public reporting company under the Exchange
+Act, and thereafter publicly report on an ongoing basis as an “emerging growth company” (as defined in the Jumpstart Our Business
+Startups Act of 2012, which we refer to as the JOBS Act) under the reporting rules set forth under the Exchange Act. For so long as we
+remain an “emerging growth company”, we may take advantage of certain exemptions from various reporting requirements that
+are applicable to other Exchange Act reporting companies that are not “emerging growth companies”, including but not limited
+to: ● Not being required to comply with the auditor attestation requirements of Section 404 of the Sarbanes-Oxley Act; ● Taking advantage of extensions of time to comply with certain new or revised financial accounting standards; ● Being permitted to comply with reduced disclosure obligations regarding executive compensation in our periodic reports and proxy statements; and ● Being exempt from the requirement to hold a non-binding advisory vote on executive compensations and stockholder approval of a golden parachute payments not previously approved. 12 We expect to take advantage of these reporting exemptions
+until we are no longer an emerging growth company. We could be an emerging growth company for up to five years, circumstances could cause
+us to lose that status earlier, including if the market value of our Common Stock held by non-affiliates exceeds $700 million, if we issue
+$1 billion or more in non-convertible debt during a three-year period, or if our annual gross revenues exceed $1 billion. We would cease
+to be an emerging growth company on the last day of the fiscal year following the date of the fifth anniversary of our first sale of common
+equity securities under an effective registration statement or a fiscal year in which we have $1 billion in gross revenues. Finally, at
+any time we may choose to opt-out of the emerging growth company reporting requirements. If we choose to opt out, we will be unable to
+opt back in to being an emerging growth company. We cannot predict if investors will find our Common
+Stock less attractive because we may rely on these exemptions. If some investors find our Common Stock less attractive as a result, there
+may be a less active trading market for our Common Stock and our stock price may be more volatile. As an emerging growth company, our auditor is
+not required to attest to the effectiveness of our internal controls. Our independent registered public accounting firm
+is not required to attest to the effectiveness of our internal control over financial reporting while we are an emerging growth company.
+This means that the effectiveness of our financial operations may differ from our peer companies in that they may be required to obtain
+independent registered public accounting firm attestations as to the effectiveness of their internal controls over financial reporting
+and we are not. While our management will be required to attest to internal control over financial reporting and we will be required to
+detail changes to our internal controls on a quarterly basis, we cannot provide assurance that the independent registered public accounting
+firm’s review process in assessing the effectiveness of our internal controls over financial reporting, if obtained, would not find
+one or more material weaknesses or significant deficiencies. Further, once we cease to be an emerging growth company, we will be subject
+to independent registered public accounting firm attestation regarding the effectiveness of our internal controls over financial reporting.
+Even if management finds such controls to be effective, our independent registered public accounting firm may decline to attest to the
+effectiveness of such internal controls and issue a qualified report. As a public company, we will incur significant
+increased costs as a result of operating as a public company, and our management will be required to devote substantial time to new compliance
+initiatives. As a public company, we have incurred significant
+legal, accounting and other expenses that we did not incur as a private company. In addition, the rules of the SEC and those of The NASDAQ
+Stock Market LLC (“NASDAQ “), NASDAQ Capital Market has imposed various requirements on public companies including requiring
+establishment and maintenance of effective disclosure and financial controls. Our management and other personnel will need to devote a
+substantial amount of time to these compliance initiatives. Moreover, these rules and regulations have increased and will continue to
+increase our legal and financial compliance costs and will make some activities more time-consuming and costlier. For example, we expect
+that these rules and regulations may make it more difficult and more expensive for us to obtain directors’ and officers’ liability
+insurance, which could make it more difficult for us to attract and retain qualified members of our board of directors. We cannot predict
+or estimate the amount of additional costs we will incur as a public company or the timing of such costs. The Sarbanes-Oxley Act requires, among other things,
+that we maintain effective internal control over financial reporting and disclosure controls and procedures. In particular, we must perform
+system and process evaluation and testing of our internal control over financial reporting to allow management to report on the effectiveness
+of our internal control over financial reporting, as required by Section 404 of the Sarbanes-Oxley Act. In addition, we will be required
+to have our independent registered public accounting firm attest to the effectiveness of our internal control over financial reporting
+the later of our second annual report on Form 10-K or the first annual report on Form 10-K following the date on which we are no longer
+an emerging growth company. Our compliance with Section 404 of the Sarbanes-Oxley Act will require that we incur substantial accounting
+expense and expend significant management efforts. We currently do not have an internal audit group, and we will need to hire additional
+accounting and financial staff with appropriate public company experience and technical accounting knowledge. If we are not able to comply
+with the requirements of Section 404 in a timely manner, or if we or our independent registered public accounting firm identify deficiencies
+in our internal control over financial reporting that are deemed to be material weaknesses, the market price of our stock could decline
+and we could be subject to sanctions or investigations by the exchange we are listed on, the SEC or other regulatory authorities, which
+would require additional financial and management resources. 13 Our ability to successfully implement our business
+plan and comply with Section 404 requires us to be able to prepare timely and accurate financial statements. We expect that we will need
+to continue to improve existing, and implement new operational and financial systems, procedures and controls to manage our business effectively.
+Any delay in the implementation of, or disruption in the transition to, new or enhanced systems, procedures or controls, may cause our
+operations to suffer and we may be unable to conclude that our internal control over financial reporting is effective and to obtain an
+unqualified report on internal controls from our auditors as required under Section 404 of the Sarbanes-Oxley Act. This, in turn, could
+have an adverse impact on trading prices for our common stock, and could adversely affect our ability to access the capital markets. The Financial Industry Regulatory Authority
+(“FINRA”) sales practice requirements may limit a stockholder’s ability to buy and sell our stock. In addition to the “penny stock” rules
+described above, FINRA has adopted rules that require that in recommending an investment to a customer, a broker-dealer must have reasonable
+grounds for believing that the investment is suitable for that customer. Prior to recommending speculative, low-priced securities to their
+non-institutional customers, broker-dealers must make reasonable efforts to obtain information about the customer’s financial status,
+tax status, investment objectives and other information. The FINRA requirements may make it more difficult for broker-dealers to recommend
+that their customers buy our Common Stock, which may have the effect of reducing the level of trading activity in our Common Stock. As
+a result, fewer broker-dealers may be willing to make a market in our common stock, reducing a stockholder’s ability to resell shares
+of our Common Stock. Our stock price may be volatile. The market price of our Common Stock has been highly
+volatile and could fluctuate widely in price in response to various potential factors, many of which will be beyond our control, including
+the following: ● services by us or our competitors; ● additions or departures of key personnel; ● our ability to execute our business plan; ● operating results that fall below expectations; ● loss of any strategic relationship; ● industry developments; ● economic and other external factors; and ● period-to-period fluctuations in our financial results. In addition, the securities markets have from time-to-time
+experienced significant price and volume fluctuations that are unrelated to the operating performance of particular companies. These market
+fluctuations may also materially and adversely affect the market price of our common stock. If securities or industry analysts do not publish
+research or reports about our business, or publish negative reports about our business, our share price and trading volume could decline. The trading market for our common stock will, to some
+extent, depends on the research and reports that securities or industry analysts publish about us or our business. We do not have any
+control over these analysts. If one or more of the analysts who cover us downgrade our shares or change their opinion of our shares, our
+share price would likely decline. If one or more of these analysts cease coverage of us or fail to regularly publish reports on us, we
+could lose visibility in the financial markets, which could cause our share price or trading volume to decline. 14 We do not intend to pay dividends for the foreseeable
+future, which could reduce the attractiveness of our stock to some investors. We currently intend to retain any future earnings
+to finance the operation and expansion of our business, and we do not expect to declare or pay any dividends in the foreseeable future.
+As a result, you may only receive a return on your investment in our common stock if the market price of our common stock increases. In
+addition, we may incur debt financing to further finance our operations, the governing documents of which may contain restrictions on
+our ability to pay dividends. If we are unable to maintain listing of our
+securities on the NASDAQ Global Market or another reputable stock exchange, it may be more difficult for our stockholders to sell their
+securities. NASDAQ requires listing issuers to comply with certain
+standards in order to remain listed on its exchange. If, for any reason, NASDAQ should delist our securities from trading on its exchange
+and we are unable to obtain listing on another reputable national securities exchange, a reduction in some or all of the following may
+occur, each of which could materially adversely affect our stockholders. If our shares of Common Stock become subject
+to the penny stock rules, it would become more difficult to trade our shares. The Commission has adopted rules that regulate broker-dealer
+practices in connection with transactions in penny stocks. Penny stocks are generally equity securities with a price per share of less
+than $5.00, other than securities registered on certain national securities exchanges or authorized for quotation on certain automated
+quotation systems, provided that current price and volume information with respect to transactions in such securities is provided by the
+exchange or system. If we do not obtain or retain a listing on the NYSE American or NASDAQ Market and if the price of our Common Stock
+is less than $5.00 per share, our Common Stock will be deemed a penny stock. The penny stock rules require a broker-dealer, before effecting
+a transaction in a penny stock not otherwise exempt from those rules, to deliver a standardized risk disclosure document containing specified
+information. In addition, the penny stock rules require that, before effecting any such transaction in a penny stock not otherwise exempt
+from those rules, a broker-dealer must make a special written determination that the penny stock is a suitable investment for the purchaser
+and receive; (i) the purchaser’s written acknowledgment of the receipt of a risk disclosure statement; (ii) a written agreement
+to transactions involving penny stocks; and (iii) a signed and dated copy of a written suitability statement. These disclosure requirements
+may have the effect of reducing the trading activity in the secondary market for our Common Stock, and therefore stockholders may have
+difficulty selling their shares. Provisions in our certificate of incorporation
+and bylaws and Delaware law may discourage, delay or prevent a change of control of our Company and, therefore, may depress the trading
+price of our stock. Our certificate of incorporation and bylaws contain
+certain provisions that may discourage, delay or prevent a change of control that our stockholders may consider favorable. These provisions: ● prohibit stockholder action to elect or remove directors by majority written consent; ● provide that the board of directors is expressly authorized to make, alter or repeal our bylaws; ● prohibit our stockholders from calling a special meeting of stockholders; and ● establish advance notice requirements for nominations for elections to our board of directors or for proposing matters that can be acted upon by stockholders at stockholder meetings. We may be subject to securities litigation,
+which is expensive and could divert management attention. In the past companies that have experienced volatility
+in the market price of their stock have been subject to securities class action litigation. We may be the target of this type of litigation
+in the future. Litigation of this type could result in substantial costs and diversion of management’s attention and resources,
+which could seriously hurt our business. Any adverse determination in litigation could also subject us to significant liabilities. 15 Item 1B. Unresolved Staff Comments None. Item 1C. Cybersecurity Cyber criminals are becoming more sophisticated and
+effective every day, and they are increasingly targeting companies similar to ours operating in the technology, software and identification
+space. All companies utilizing technology are subject to threats of breaches of their cybersecurity programs. To mitigate the threat to
+our business, we take a comprehensive approach to cybersecurity risk management and make securing the data customers and other stakeholders
+entrust to us a top priority. Our Board of directors and our management are actively involved in the oversight of our risk management
+program, of which cybersecurity represents an important component. As described in more detail below, we have established policies, standards,
+processes and practices for assessing, identifying, and managing material risks from cybersecurity threats. We have devoted significant
+financial and personnel resources to implement and maintain security measures to meet regulatory requirements and customer expectations,
+and we intend to continue to make significant investments to maintain the security of our data and cybersecurity infrastructure. There
+can be no guarantee that our policies and procedures will be properly followed in every instance or that those policies and procedures
+will be effective to prevent cyberattack incidents. Such incidents, whether or not successful, could result in our incurring significant
+costs related to, for example, rebuilding our internal systems, implementing additional threat protection measures, providing modifications
+or replacements to our products and services, defending against litigation, responding to regulatory inquiries or actions, paying damages,
+providing customers with incentives to maintain a business relationship with us, or taking other remedial steps with respect to third
+parties, as well as incurring significant reputational harm. In addition, these threats are constantly evolving, thereby increasing the
+difficulty of successfully defending against them or implementing adequate preventative measures. We have seen an increase in cyberattack
+volume, frequency, and sophistication. Although our
+

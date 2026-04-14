@@ -1,0 +1,49 @@
+EX-21.1
+6
+bill-20250630xex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+LIST OF SUBSIDIARIES
+Name of Entity
+Jurisdiction
+Bill.com, LLC
+Delaware, USA
+Bill.com Australia Holdings Pty Ltd
+Australia
+Bill.com Canada, Inc.
+Canada
+Bill.com Canada, LLC
+Delaware, USA
+Bill.com Capital Holdings, LLC
+Delaware, USA
+Bill.com Capital 1, LLC
+Delaware, USA
+Bill.com Capital 2, LLC
+Delaware, USA
+Bill.com Capital 3, LLC
+Delaware, USA
+Bill.com Capital 4, LLC
+Delaware, USA
+Bill.com International, Inc.
+Delaware, USA
+Bill.com International, LLC
+Delaware, USA
+BILL Operations, LLC
+Delaware, USA
+Cimrid Pty, Ltd
+Australia
+DivvyPay, LLC
+Delaware, USA
+Divvy Credit 1, LLC
+Delaware, USA
+Divvy Peach, LLC
+Delaware, USA
+Invoice2Go, LLC
+Delaware, USA
+Odin Financing, LLC
+Delaware, USA
+Phlo, Inc.
+Delaware, USA
+Track Technologies, Inc.
+Delaware, USA

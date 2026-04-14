@@ -1,0 +1,1715 @@
+TICKER: ATHR
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain disruptions, inflationary pressures, interest rates, financial and credit market fluctuations, volatility in the
+capital markets, liquidity concerns at, and failures of, banks and other financial institutions, international trade relations, political
+turmoil, political instability, natural catastrophes, outbreaks of contagious diseases, warfare and terrorist attacks on the United States,
+Europe or elsewhere, including military actions affecting Russia, Ukraine, the Middle East or elsewhere, could cause a decrease in business
+investments in information technology and negatively affect the growth of our business and our results of operations. While our business
+model provides some resilience against these factors, we will continue to monitor the impacts of these or similar circumstances on our
+business, and will take appropriate measures to minimize potential risk exposure. 68 Key
+Business Metrics We
+review the following key business metrics to measure our performance, identify trends, formulate financial projections, and make strategic
+decisions. We are not aware of any uniform standards for calculating these key metrics, which may hinder comparability with other companies
+who may calculate similarly titled metrics in a different way. SentimenTrader For
+    the Year Ended September 30, 2025 2024 %
+    change Free Subscribers 1,558 5,576 (72.1 ) Average conversion rate from free to Paid Subscribers 19.10 % 23.90 % (20.1 ) Paid Subscribers 2,319 2,831 (18.1 ) Average Revenue Per User (“ARPU”) $ 595 $ 509 16.9 Free
+Subscribers “Free
+subscribers” are defined as Users who subscribe to our free investment publications using a valid email address and remain directly
+opted-in, excluding paid subscribers who also receive free subscriptions. These free subscriptions often feature daily publications with
+commentary on the stock market, investment ideas, and other specialized topics. Our free publications include advertisements and editorial
+support for our current marketing campaigns. Through these publications, free subscribers become acquainted with our editors and analysts,
+explore our products and services, and discover how we could help them become better investors. The
+number of free subscribers for SentimenTrader decreased by 4,018, or 72.06%, from 5,576 for the year ended September 30, 2024 to 1,558
+for the year ended September 30, 2025. This decline was primarily due to the limited number of marketing campaigns for free subscriptions
+during the year ended September 30, 2025, compared to the large-scale marketing campaigns conducted throughout the year ended September
+30, 2024. We
+acknowledge that free subscribers play a critical role in our business ecosystem, serving as the foundation of the customer acquisition
+funnel. They represent a low-barrier entry point for potential Users, allowing them to explore and engage with the platform without financial
+commitment. This group often acts as a pipeline for converting Users into paid subscribers, which directly drives revenue growth. To
+address the decline in free subscribers in fiscal 2025, we plan to implement more diversified and targeted marketing campaigns, enhance
+our User interface to simplify the free User sign-up process, and foster a sense of community through exclusive events, forums, and social
+media groups, which encourage retention and advocacy. Paid
+Subscribers “Paid
+subscribers” are defined as the number of monthly average users with paid subscriptions during the period or year. We view the
+number of paid subscribers at the end of a given year as a key indicator of the attractiveness of our products and services, as well
+as the efficacy of our marketing in converting free subscribers to paid subscribers and generating direct-to-paid paid subscribers. We
+grow our paid subscriber base through performance marketing directly to prospective and existing users across a variety of media, channels,
+and platforms. Management anticipates the conversion rate will increase when the business becomes more mature in the future. Paid
+subscribers for SentimenTrader decreased by 512, or 18.09%, from 2,831 for the year ended September 30, 2024 to 2,319 for the year ended
+September 30, 2025. 69 The
+average conversion rate for SentimenTrader was approximately 19.10% and 23.90% for the years ended September 30, 2025 and 2024, respectively.
+The lower conversion rates for the year ended September 30, 2025 was attributable to the absence of a large-scale promotional campaign. To
+reverse this downward trend and drive future growth, management is focused on several strategic initiatives. We are actively incorporating
+new features and improvements into SentimenTrader to enhance user experience and increase conversion rates. This includes introducing
+advanced analytical tools, expanding data sources, and refining our platform’s design to improve accessibility and ease of use.
+Additionally, we are exploring targeted marketing strategies to attract new paid subscribers while retaining existing ones. Through these
+efforts, we are confident in our ability to enhance user engagement and improve both subscriber growth and conversion rates in the coming
+periods. Because
+Altcoin Investing began operations in August 2025, no subscriber data is currently available for its Users. Average
+Revenue Per User (“ARPU”) The
+ARPU is calculated based on the revenue divided by the number of monthly average paid subscribers over that period or year. We believe
+ARPU is a key indicator of how successful we are in attracting users to higher-value content. We believe that our high ARPU is indicative
+of the trust we build with our users and of the value they see in our products and services. ARPU
+for SentimenTrader increased by $86, or 16.90%, to $595 for the year ended September 30, 2025, as compared to $509 for the year ended
+September 30, 2024. Revenue Revenue
+is generated from providing online subscription services. Revenue is generally recognized ratably over the contract term, starting from
+the commencement date of each contract, which is the date our cloud-based software is made available to customers and collection is reasonably
+assured. Total
+revenue decreased marginally by $59,246, or 4.11%, from $1,440,096 for the year ended September 30, 2024, to $1,380,850 for the year
+ended September 30, 2025. 70 Results
+of Operations For
+the years ended September 30, 2025 and 2024 The
+following table summarizes the results of consolidated statements of operations and comprehensive loss for the years ended September
+30, 2025 and 2024 in U.S. dollars, and provides information regarding the dollar and percentage increase or (decrease) during such periods.
+The operating results in any historical period are not necessarily indicative of the results that may be expected for any future period. For
+    the year ended September 30, 2025 2024 Amount Percentage As % of As % of Increase Increase Amount Sales Amount Sales (Decrease) (Decrease) Sales $ 1,380,850 100.00 % $ 1,440,096 100.00 % $ (59,246 ) (4.11 )% Cost of sales 403,381 29.21 % 445,466 30.93 % (42,085 ) (9.45 )% Gross profit 977,469 70.79 % 994,630 69.07 % (17,161 ) (1.72 )% Operating expenses Sales and marketing expenses 553,385 40.08 % 130,443 9.06 % 422,942 324.24 % General and administrative expenses 3,623,915 262.44 % 1,653,623 114.83 % 1,970,292 119.15 % Research and development
+    expenses 52,500 3.80 % 150,000 10.42 % (97,500 ) (65.00 )% Total operating expenses 4,229,800 306.32 % 1,934,066 134.30 % 2,295,734 118.70 % Interest Income 91,439 6.62 % - - 91,439 - Other income, net 24,879 1.80 % - - 24,879 - Total Other Income 116,318 8.42 % - - 116,318 - Loss before income taxes (3,136,013 ) (227.11 )% (939,436 ) (65.23 )% (2,196,577 ) 233.82 % Provision for income taxes (5,298 ) (0.38 )% - - (5,298 ) - Net
+    loss and comprehensive loss $ (3,141,311 ) (227.49 )% (939,436 ) (65.23 )% (2,201,875 ) 234.38 % Revenue Our
+revenues decreased by $59,246, or 4.11%, from $1,440,096 for the year ended September 30, 2024, to $1,380,850 for the year ended September
+30, 2025. We
+are actively incorporating new features and improvements into SentimenTrader to enhance user experience and increase conversion rates.
+This includes introducing advanced analytical tools, expanding data sources, and refining our platform’s design to improve accessibility
+and ease of use. Additionally, we are exploring targeted marketing strategies to attract new paid subscribers while retaining existing
+ones. Through these efforts, we are confident in our ability to enhance user engagement and improve both subscriber growth and conversion
+rates in the coming periods. Gross
+Profit and Costs of Sales Cost
+of sales mainly include the hosting costs for the Sentiment Trader platform, Bloomberg access for the analysts to research tools, and
+the analyst salaries. Cost of sales decreased by $42,085, or 9.45%, from $445,466 for the year ended September 30, 2024, to $403,381
+for the year ended September 30, 2025. Gross
+profit decreased by $17,161 or 1.72% from $994,630 for the year ended September 30, 2024, to $977,469 for the year ended September 30,
+2025. The decrease in gross profit was mainly due to the decrease in subscription revenue and decrease in cost of sales, as discussed
+above. 71 Gross
+profit margin increased from 69.07% for the year ended September 30, 2024, to 70.79% for the year ended September 30, 2025. The increase
+in gross profit margin was primarily attributable to the combined impact of the decrease in subscription revenue and decrease in cost
+of sales. Our
+cost and gross profit are as follows: For the
+    year ended For the
+    year ended Variance Variance Variance September
+    30, 2025 September
+    30, 2024 in Cost in in Cost of Gross Gross Cost of Gross Gross of gross gross Category sales profit profit% sales profit profit% sales profit profit% Subscription
+    service $ 403,381 $ 977,469 70.79 $ 445,466 $ 994,630 69.07 $ (42,085 ) $ (17,161 ) 2.49 % Total $ 403,381 $ 977,469 70.79 $ 445,466 $ 994,630 69.07 $ (42,085 ) $ (17,161 ) 2.49 % Sales
+and marketing expenses Our
+sales and marketing costs primarily consist of expenses related to advertising and marketing consultants. These costs increased by
+$422,942, or 324.24 %, from $130,443 for the year ended September 30, 2024, to $553,385 for the year ended September 30, 2025, representing
+40.08% and 9.06% of our revenue for the respective years. The increase was mainly driven by higher advertising and marketing expenses
+compared to fiscal year 2024. General
+and administrative expenses Our
+general and administrative expenses primarily include salaries and benefits, professional fees, office expenses, software development
+expenses, travel and entertainment expenses and amortization expenses. Our general and administrative expenses represented 262.44 % and
+114.83 % of our revenue for the years ended September 30, 2025 and 2024, respectively. General and administrative expenses increased
+by $ 1,970,292 or 119.15% from $ 1,653,623 for the years ended September 30, 2024, to $ 3,623,915 for the year ended September 30, 2025.
+The increase was mainly due to the increase in professional fees and executive and director compensation. Our
+legal and professional fees increased by $ 969,005 or 90.36 %, from $ 1,072,363 for the year September 30, 2024, to $ 2,041,368 for the
+year ended September 30, 2025, representing 56.25% and 64.85% of our total general and administrative expenses for the years ended September
+30, 2025 and 2024, respectively. The increase was mainly due to the increase in accounting and consulting fees for the IPO. Our
+salaries and benefits, including executive officers and directors’ compensation, increased by $528,990 or 145.02%, from $364,774 for
+the year ended September 30, 2024, to $893,764 for the year ended September 30, 2025, representing 24.61% and 22.06% of our total general
+and administrative expenses for the years ended September 30, 2025 and 2024, respectively. The increase was mainly due to the appointment
+of several executive officers from April to August 2024. Research
+and development expenses Our
+research and development expenses primarily consist of expenses related to the development of AI and machine learning tools for our platform.
+These costs decreased by $97,500, or 65.00%, from $150,000 for the year ended September 30, 2024, to $52,500 for the year ended September
+30, 2025, representing 3.80% and 10.42% of our revenue for the respective years. We remain committed to further expanding our investment
+in AI-related features to deliver enhanced functionality and value to our Users. 72 Loss
+before income taxes We
+had a loss before income taxes of $3,136,013 and $939,436 for the years ended September 30, 2025, and 2024, respectively. The loss was
+primarily attributable to the increase in sales expenses, general and administrative expenses and the decrease in gross profit. Provision
+for income taxes We
+had provision for income taxes of $5,298 for the year ended September 30, 2025 related to taxes due to the state of Minnesota. Net
+loss and comprehensive loss We
+had a net loss and comprehensive loss of $3,141,311 and $939,436 for the years ended September 30, 2025 and 2024, respectively. The
+loss was primarily attributable to the increase in sales expenses, general and administrative expenses and the decrease in gross profit.
+The discussion regarding the increase in sales expenses, general and administrative expenses and the decrease in gross profit are discussed
+in the sections above. Cash
+Flows For
+the years ended September 30, 2025 and 2024 The
+following table sets forth a summary of our cash flows for the years indicated: For
+    the years ended September 30, 2025 2024 Net cash used in operating activities $ (3,570,318 ) $ (688,661 ) Net cash used in investing activities (250,667 ) - Net cash provided by financing activities 7,681,331 1,148,378 Net increase in cash 3,860,346 459,717 Cash, beginning of the year 557,823 98,106 Cash, end of the year $ 4,418,169 $ 557,823 Operating
+Activities Net
+cash used in operating activities was $3,570,318 for the year ended September 30, 2025, as compared to net cash used in operating activities
+of $688,661 for the year ended September 30, 2024. The increase in net cash used in operating activities was mainly attributable to the
+following factors: ● Net
+    loss of 3,141,311 for the year ended September 30, 2025, compared to net loss of 939,436 for the year ended September 30, 2024; ● Services
+    in exchange for shares incurred $0 for the year ended September 30, 2025, compared to $222,919 for the year ended September 30, 2024; ● Prepaid
+    expenses increased by $345,787 for the year ended September 30, 2025, compared to an increase of $6,526 for the year ended September
+    30, 2024; 73 ● Accounts
+    payable and accrued liabilities increased by $91,925 for the year ended September 30, 2025, compared to a decrease of $109,068 for
+    the year ended September 30, 2024; ● The
+    amounts due to related party decrease by $154,759 for the year ended September 30, 2025, compared to the increase of $164,719 for
+    the ended September 30, 2024; and ● Contract
+    liabilities decreased by $21,449 for the year ended September 30, 2025, compared to a decrease of $23,363 for the year ended September
+    30, 2024. Investing
+Activities Net
+cash used in investing activities was $250,667 for the years ended September 30, 2025 and $0 for the year ended September 30, 2024. The increase in net cash used in investing activities for the year September
+30, 2025 was primarily due to purchase of computers of $1,817, payment for intangible assets for $40,850, advances for purchase of property
+for $108,000 and advance of $100,000 to third-party
+
+--- VENDORS ---
+vendors, difficulty retaining or attracting employees, or negative media attention. Furthermore,
+if we are unable to cost-effectively use social media platforms or ad networks as marketing tools, our ability to acquire new Users and
+our financial condition may suffer. Unauthorized or inappropriate use of our social media channels could result in harmful publicity
+or negative customer experiences, which could have an adverse impact on the effectiveness of our marketing in these channels. In addition,
+substantial negative commentary by others on social media platforms could have an adverse impact on our ability to successfully connect
+with consumers. Furthermore,
+there are extensive and rapidly evolving regulations governing our ability to market to Users, whether via post, email, or social media
+platforms, and our marketing is subject to the rules and regulations of the U.S. Federal Trade Commission (the “FTC”) and
+state consumer protection agencies. The failure by us, our employees, or third parties acting at our direction to comply with applicable
+laws and regulations could subject us to regulatory investigations, and lawsuits, including class actions, liability, fines, or other
+penalties, and could result in a material adverse effect on our business, results of operations, and financial condition. In addition,
+an increase in the use of social media platforms for product promotion and marketing may cause an increase in our burden to monitor compliance
+with such platforms and increase the risk that such materials could contain problematic product or marketing claims in violation of applicable
+regulations. To
+the extent we promote our content inefficiently or ineffectively, we may not be able to obtain expected subscriber acquisition and retention
+benefits, and our business, results of operations, and financial condition may be adversely affected. 34 Failure
+to maintain and protect our reputation for trustworthiness and independence may harm our business. In addition, in the event the reputation
+of any of our current or former directors, officers, key contributors, editors, or editorial staff were harmed for any reason, our business,
+results of operations, and financial condition could suffer. We
+believe our brand is highly regarded because of the integrity of its editorial content. Independence is at the core of our brand and
+business, and we believe that our reputation and the reputation of our brand is one of our greatest corporate assets. Importantly, we
+believe that one of our greatest competitive advantages is the loyalty that we have gained from our Users as a direct result of our brand,
+reputation for integrity, and ability to deliver high-quality products and services. To protect our brand, our code of conduct and workplace
+culture demand that all of our content providers and employees adhere to rigorous standards of integrity and independence, including
+guidelines that are designed to prevent any actual, potential, or perceived conflict of interest and to comply with all applicable laws,
+including securities laws. The occurrence of events such as our misreporting a market event, the non-disclosure of a security ownership
+position by one or more of our content providers, the manipulation of a security by one or more of our content providers, or any other
+breach of our compliance policies could harm our reputation for trustworthiness and reduce readership. In
+the event the reputation of any of our current or former directors, officers, key contributors, editors, or editorial staff was harmed
+for any reason, we could suffer as a result of our association with such individual, including if the quantity or value of future services
+we received from the individual was diminished. In particular, we depend heavily on the ideas and reputation of our analyst team, and
+often name products after themselves such as Jay Kaeppel, who runs the Kaeppel Corner. To the extent that any such analysts have, in
+the past, been the subject of regulatory actions, accusations, claims, investigations, lawsuits, or settlements, such actions may have
+or may continue to have a negative impact on our reputation, readership and financial results. Furthermore, if, at any point in the future,
+any editors, contributors, or other personnel associated with our products or brand, or businesses that we may acquire become the subject
+of regulatory actions, accusations, claims, investigations, lawsuits, or settlements, any such action may have a negative impact on our
+reputation, readership, and financial results. These risks apply to editors, contributors, or other personnel who are currently part
+of the organization, as well as any such people who were part of our organization in the past or become part of us in the future, whether
+by acquisition or otherwise. In addition, any failures by us to continue to effectively instill in our employees the expectation of independence
+and integrity may devalue our reputation over time. Our reputation may also be harmed by factors beyond our control, such as adverse
+news reports about our products and services, negative publicity about the investment newsletter, financial technology, or artificial
+intelligence industries generally, or negative publicity about key personnel associated with our business. These events could materially
+adversely affect our business, results of operations, and financial condition. Furthermore,
+with respect to our newsletter efforts in the digital asset space and our emerging crypto treasury strategy where we plan as a company
+to make significant investments in Bitcoin, we may face challenges or scrutiny regarding our ability to maintain the editorial independence
+of our digital asset-focused publications while at the same time making investments in Bitcoin, which challenges or scrutiny could harm
+our reputation, stock price, ability to operate and results of operations. If
+demand for our services does not develop as expected, our projected revenues and profits will be affected. Our
+future potential for meaningful revenues, positive cash flows and profitability will be influenced by many factors, including economics,
+the health of financial markets, technological advancements, governmental regulation, world events and, importantly, changing customer
+preferences and demand for our products. Our expectations as to the size of the market, demand for our services and our ability to sell
+our products and services in this market may not be correct. If we are incorrect, our revenue may not materialize and our business will
+be adversely affected. 35 The
+financial technology sector is subject to rapid change, and there are risks associated with new products and services. Software-driven
+products and services such as ours are characterized by rapidly changing technology. Our products and services may require continual
+improvement in order to satisfy the demand by our customers for new features and capabilities. Our future success will depend upon our
+ability to introduce products and services and to add new features and enhancements that keep pace with technological and market developments.
+The development of new services and products and the enhancement of existing services and products entail significant technical risks.
+There can be no assurance that we will be successful in (i) developing, maintaining and improving one or more products; (ii) effectively
+using new technologies; (iii) adapting our services and products to emerging industry standards, in particular as they relate to the
+use of AI; or (iv) developing, introducing and marketing service and product enhancements or new services and products. Furthermore,
+there can be no assurance that we will not experience difficulties that could delay or prevent the successful development, introduction
+or marketing of these services and products, or that our new service and product enhancements will adequately satisfy the requirements
+of the marketplace and achieve market acceptance. If we are unable, for technical or other reasons, to develop and introduce new services
+and products or enhancements of existing services and products in a timely manner in response to changing market conditions or customer
+requirements, or if new services and products do not achieve market acceptance, our business, results of operations or financial condition
+could be materially and adversely affected. Our
+success depends on our ability to respond to and adapt to changes in technology and consumer behavior. We
+believe the technology landscape has been changing at an accelerating rate over the past several years. Advances in technology have led
+to an increasing number of methods for the delivery of content, including financial research publications, and have resulted in a wide
+variety of consumer demands and expectations, which are also rapidly evolving. The increasing number of channels through which consumers
+access content available on the Internet, through social networking tools and through mobile and other devices distributing content,
+is expanding consumer choice significantly. In addition, there has been an increasing focus on technology not merely supplying additional
+tools for Users, but also offering solutions to specific customer problems. Given a multitude of media choices and a dramatic increase
+in accessible information, consumers may place greater value on when, where, how, and at what price they consume digital content, including
+financial research. If we are unable to exploit new and existing technologies to distinguish our products and services from those of
+our competitors or adapt to new distribution methods that provide optimal User experiences, our business, results of operations, and
+financial condition may be adversely affected. In addition, our reputation could suffer if we are perceived as not moving quickly enough
+to meet the changing needs of investors. Our
+future success will continue to depend upon our ability to identify and develop new products and User enhancements that address the future
+needs of our Users and respond to their changing standards and practices. We may not be successful in developing, introducing, marketing,
+licensing, and implementing new products and enhancements on a timely and cost-effective basis or without impacting the performance,
+stability, security, or efficiency of existing products and systems. Further, any new products and enhancements may not adequately meet
+the needs of our Users. Our failure or inability to anticipate and respond to changes in the marketplace, including competitor developments,
+may also adversely affect our business, operations, and growth. Furthermore,
+the success of our software products depends on frequently rolling out new features so that we can quickly incorporate User feedback,
+and we cannot guarantee that we will successfully adapt our software to meet such evolving customer needs. Our competitive position and
+business results may suffer if we fail to meet subscriber demands, if our execution speed is too slow, or if we adopt a technology strategy
+that does not align with changes in the market. As
+technology continues to evolve, the expenditures necessary to integrate new technology into our products and services could be substantial,
+and we may incur additional operating expenses if such integration projects take longer than anticipated. There can be no assurance that
+we will have sufficient funds available to fund any of these projects or that the projects will be completed on time or within budget.
+Other companies employing new technologies before we are able to do so could aggressively compete with our business. If we are not successful
+in responding to changes in technology and consumer behavior, we may lose new business opportunities or potential renewals or upgrades
+from existing Users and our business, financial condition, and prospects may be adversely affected. 36 Our
+services are based in a new and unproved market and are subject to the risks of failure inherent in the development of new products and
+services. Because
+our business is based in part on new technologies, we are subject to risks of failure that are particular to new technologies, including
+the possibility that: ● our
+    new product development process will not result in any products or services that gain market acceptance; ● our
+    services could be restricted; ● proprietary
+    rights of third parties may preclude us from marketing our new product and services; or ● third
+    parties may market superior or more cost-effective products or services. As
+a result, our development activities may not result in a commercially viable product or service, which would harm our sales, revenue
+and financial condition. If
+we fail to effectively manage our growth, our business, results of operations, and financial condition could be harmed. The
+growth and expansion of our business create significant challenges for our management, operational, and financial resources. In the event
+of continued growth of our operations or the number of our third-party relationships, our information technology systems and our internal
+controls and procedures may not be adequate to support our operations. To effectively manage our growth, we must continue to improve
+our operational, financial, and management processes and systems and to effectively expand, train, and manage our employee base. As our
+organization continues to grow and we are required to implement more complex organizational management structures, we may find it increasingly
+difficult to maintain the benefits of our corporate culture, including our ability to quickly develop and launch new and innovative products
+and solutions. This could negatively affect our business performance. We
+continue to experience growth in our headcount and operations, which will continue to place significant demands on our management and
+our operational and financial infrastructure. As we continue to grow, we must effectively integrate, develop, and motivate new employees,
+and we must maintain the beneficial aspects of our corporate culture. If we fail to effectively manage our hiring needs and successfully
+integrate our new hires, our efficiency, ability to meet our forecasts, and employee morale, productivity, and retention could suffer,
+and our business, results of operations, and financial condition could be adversely affected. In
+addition, our rapid growth may make it difficult to evaluate our future prospects. Our ability to forecast our future results of operations
+is subject to a number of uncertainties, including our ability to effectively plan for and model future growth. We have encountered in
+the past, and may encounter in the future, risks and uncertainties frequently experienced by growing companies in rapidly changing industries.
+If we fail to achieve the necessary level of efficiency in our organization as we grow, or if we are not able to accurately forecast
+future growth, our business, results of operations, and financial condition could be harmed. Given
+that our revenues will be insufficient to fund our operating expenses for the foreseeable future, we will need to raise additional capital
+to support our operations. Given
+that our revenues will be insufficient to fund our operating expenses for the foreseeable future, we will need to procure additional
+financing over time, the amount and timing of which will depend on a number of factors, including the pace of expansion of our business
+development opportunities and customer base, the scope of service development to be undertaken by us, the need to respond to customer
+needs for improvement of service offerings, the services offered and development efforts, the cash flow generated by our operations,
+the extent of losses with respect to matters identified as
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+components of the XYZ Terminal
+platform. Key efforts included: ● Platform
+    Architecture and Data Integration : Development of the system framework and integration of real-time market data feeds, automated
+    aggregation of regulatory and corporate disclosures, and the implementation of third-party financial data services. ● AI
+    and Quantitative Modeling : Design and prototyping of large language model (LLM)–based tools for conversational financial
+    queries, as well as predictive analytics modules to assist Users in identifying market opportunities. ● User
+    Interface Development : Enhancement of the web-based dashboard for speed, navigation, and customization, with parallel design
+    work for mobile platforms. ● Administrative
+    and Monetization Systems : Integration of subscription billing capabilities, role-based access controls, and administrative analytics
+    dashboards. Research
+and development expenditures for the year primarily consisted of fees charged by third-party service providers. Management expects research and development work on XYZ
+Terminal to continue in subsequent periods, with commercialization targeted following the completion of the initial feature set. Macroeconomic
+Conditions Unfavorable
+conditions in the economy both in the United States and abroad, including conditions resulting from changes in gross domestic product
+growth, supply chain disruptions, inflationary pressures, interest rates, financial and credit market fluctuations, volatility in the
+capital markets, liquidity concerns at, and failures of, banks and other financial institutions, international trade relations, political
+turmoil, political instability, natural catastrophes, outbreaks of contagious diseases, warfare and terrorist attacks on the United States,
+Europe or elsewhere, including military actions affecting Russia, Ukraine, the Middle East or elsewhere, could cause a decrease in business
+investments in information technology and negatively affect the growth of our business and our results of operations. While our business
+model provides some resilience against these factors, we will continue to monitor the impacts of these or similar circumstances on our
+business, and will take appropriate measures to minimize potential risk exposure. 68 Key
+Business Metrics We
+review the following key business metrics to measure our performance, identify trends, formulate financial projections, and make strategic
+decisions. We are not aware of any uniform standards for calculating these key metrics, which may hinder comparability with other companies
+who may calculate similarly titled metrics in a different way. SentimenTrader For
+    the Year Ended September 30, 2025 2024 %
+    change Free Subscribers 1,558 5,576 (72.1 ) Average conversion rate from free to Paid Subscribers 19.10 % 23.90 % (20.1 ) Paid Subscribers 2,319 2,831 (18.1 ) Average Revenue Per User (“ARPU”) $ 595 $ 509 16.9 Free
+Subscribers “Free
+subscribers” are defined as Users who subscribe to our free investment publications using a valid email address and remain directly
+opted-in, excluding paid subscribers who also receive free subscriptions. These free subscriptions often feature daily publications with
+commentary on the stock market, investment ideas, and other specialized topics. Our free publications include advertisements and editorial
+support for our current marketing campaigns. Through these publications, free subscribers become acquainted with our editors and analysts,
+explore our products and services, and discover how we could help them become better investors. The
+number of free subscribers for SentimenTrader decreased by 4,018, or 72.06%, from 5,576 for the year ended September 30, 2024 to 1,558
+for the year ended September 30, 2025. This decline was primarily due to the limited number of marketing campaigns for free subscriptions
+during the year ended September 30, 2025, compared to the large-scale marketing campaigns conducted throughout the year ended September
+30, 2024. We
+acknowledge that free subscribers play a critical role in our business ecosystem, serving as the foundation of the customer acquisition
+funnel. They represent a low-barrier entry point for potential Users, allowing them to explore and engage with the platform without financial
+commitment. This group often acts as a pipeline for converting Users into paid subscribers, which directly drives revenue growth. To
+address the decline in free subscribers in fiscal 2025, we plan to implement more diversified and targeted marketing campaigns, enhance
+our User interface to simplify the free User sign-up process, and foster a sense of community through exclusive events, forums, and social
+media groups, which encourage retention and advocacy. Paid
+Subscribers “Paid
+subscribers” are defined as the number of monthly average users with paid subscriptions during the period or year. We view the
+number of paid subscribers at the end of a given year as a key indicator of the attractiveness of our products and services, as well
+as the efficacy of our marketing in converting free subscribers to paid subscribers and generating direct-to-paid paid subscribers. We
+grow our paid subscriber base through performance marketing directly to prospective and existing users across a variety of media, channels,
+and platforms. Management anticipates the conversion rate will increase when the business becomes more mature in the future. Paid
+subscribers for SentimenTrader decreased by 512, or 18.09%, from 2,831 for the year ended September 30, 2024 to 2,319 for the year ended
+September 30, 2025. 69 The
+average conversion rate for SentimenTrader was approximately 19.10% and 23.90% for the years ended September 30, 2025 and 2024, respectively.
+The lower conversion rates for the year ended September 30, 2025 was attributable to the absence of a large-scale promotional campaign. To
+reverse this downward trend and drive future growth, management is focused on several strategic initiatives. We are actively incorporating
+new features and improvements into SentimenTrader to enhance user experience and increase conversion rates. This includes introducing
+advanced analytical tools, expanding data sources, and refining our platform’s design to improve accessibility and ease of use.
+Additionally, we are exploring targeted marketing strategies to attract new paid subscribers while retaining existing ones. Through these
+efforts, we are confident in our ability to enhance user engagement and improve both subscriber growth and conversion rates in the coming
+periods. Because
+Altcoin Investing began operations in August 2025, no subscriber data is currently available for its Users. Average
+Revenue Per User (“ARPU”) The
+ARPU is calculated based on the revenue divided by the number of monthly average paid subscribers over that period or year. We believe
+ARPU is a key indicator of how successful we are in attracting users to higher-value content. We believe that our high ARPU is indicative
+of the trust we build with our users and of the value they see in our products and services. ARPU
+for SentimenTrader increased by $86, or 16.90%, to $595 for the year ended September 30, 2025, as compared to $509 for the year ended
+September 30, 2024. Revenue Revenue
+is generated from providing online subscription services. Revenue is generally recognized ratably over the contract term, starting from
+the commencement date of each contract, which is the date our cloud-based software is made available to customers and collection is reasonably
+assured. Total
+revenue decreased marginally by $59,246, or 4.11%, from $1,440,096 for the year ended September 30, 2024, to $1,380,850 for the year
+ended September 30, 2025. 70 Results
+of Operations For
+the years ended September 30, 2025 and 2024 The
+following table summarizes the results of consolidated statements of operations and comprehensive loss for the years ended September
+30, 2025 and 2024 in U.S. dollars, and provides information regarding the dollar and percentage increase or (decrease) during such periods.
+The operating results in any historical period are not necessarily indicative of the results that may be expected for any future period. For
+    the year ended September 30, 2025 2024 Amount Percentage As % of As % of Increase Increase Amount Sales Amount Sales (Decrease) (Decrease) Sales $ 1,380,850 100.00 % $ 1,440,096 100.00 % $ (59,246 ) (4.11 )% Cost of sales 403,381 29.21 % 445,466 30.93 % (42,085 ) (9.45 )% Gross profit 977,469 70.79 % 994,630 69.07 % (17,161 ) (1.72 )% Operating expenses Sales and marketing expenses 553,385 40.08 % 130,443 9.06 % 422,942 324.24 % General and administrative expenses 3,623,915 262.44 % 1,653,623 114.83 % 1,970,292 119.15 % Research and development
+    expenses 52,500 3.80 % 150,000 10.42 % (97,500 ) (65.00 )% Total operating expenses 4,229,800 306.32 % 1,934,066 134.30 % 2,295,734 118.70 % Interest Income 91,439 6.62 % - - 91,439 - Other income, net 24,879 1.80 % - - 24,879 - Total Other Income 116,318 8.42 % - - 116,318 - Loss before income taxes (3,136,013 ) (227.11 )% (939,436 ) (65.23 )% (2,196,577 ) 233.82 % Provision for income taxes (5,298 ) (0.38 )% - - (5,298 ) - Net
+    loss and comprehensive loss $ (3,141,311 ) (227.49 )% (939,436 ) (65.23 )% (2,201,875 ) 234.38 % Revenue Our
+revenues decreased by $59,246, or 4.11%, from $1,440,096 for the year ended September 30, 2024, to $1,380,850 for the year ended September
+30, 2025. We
+are actively incorporating new features and improvements into SentimenTrader to enhance user experience and increase conversion rates.
+This includes introducing advanced analytical tools, expanding data sources, and refining our platform’s design to improve accessibility
+and ease of use. Additionally, we are exploring targeted marketing strategies to attract new paid subscribers while retaining existing
+ones. Through these efforts, we are confident in our ability to enhance user engagement and improve both subscriber growth and conversion
+rates in the coming periods. Gross
+Profit and Costs of Sales Cost
+of sales mainly include the hosting costs for the Sentiment Trader platform, Bloomberg access for the analysts to research tools, and
+the analyst salaries. Cost of sales decreased by $42,085, or 9.45%, from $445,466 for the year ended September 30, 2024, to $403,381
+for the year ended September 30, 2025. Gross
+profit decreased by $17,161 or 1.72% from $994,630 for the year ended September 30, 2024, to $977,469 for the year ended September 30,
+2025. The decrease in gross profit was mainly due to the decrease in subscription revenue and decrease in cost of sales, as discussed
+above. 71 Gross
+profit margin increased from 69.07% for the year ended September 30, 2024, to 70.79% for the year ended September 30, 2025. The increase
+in gross profit margin was primarily attributable to the combined impact of the decrease in subscription revenue and decrease in cost
+of sales. Our
+cost and gross profit are as follows: For the
+    year ended For the
+    year ended Variance Variance Variance September
+    30, 2025 September
+    30, 2024 in Cost in in Cost of Gross Gross Cost of Gross Gross of gross gross Category sales profit profit% sales profit profit% sales profit profit% Subscription
+    service $ 403,381 $ 977,469 70.79 $ 445,466 $ 994,630 69.07 $ (42,085 ) $ (17,161 ) 2.49 % Total $ 403,381 $ 977,469 70.79 $ 445,466 $ 994,630 69.07 $ (42,085 ) $ (17,161 ) 2.49 % Sales
+and marketing expenses Our
+sales and marketing costs primarily consist of expenses related to advertising and marketing consultants. These costs increased by
+$422,942, or 324.24 %, from $130,443 for the year ended September 30, 2024, to $553,385 for the year ended September 30, 2025, representing
+40.08% and 9.06% of our revenue for the respective years. The increase was mainly driven by higher advertising and marketing expenses
+compared to fiscal year 2024. General
+and administrative expenses Our
+general and administrative expenses primarily include salaries and benefits, professional fees, office expenses, software development
+expenses, travel and entertainment expenses and amortization expenses. Our general and administrative expenses represented 262.44 % and
+114.83 % of our revenue for the years ended September 30, 2025 and 2024, respectively. General and administrative expenses increased
+by $ 1,970,292 or 119.15% from $ 1,653,623 for the years ended September 30, 2024, to $ 3,623,915 for the year ended September 30, 2025.
+The increase was mainly due to the increase in professional fees and executive and director compensation. Our
+legal and professional fees increased by $ 969,005 or 90.36 %, from $ 1,072,363 for the year September 30, 2024, to $ 2,041,368 for the
+year ended September 30, 2025, representing 56.25% and 64.85% of our total general and administrative expenses for the years ended September
+30, 2025 and 2024, respectively. The increase was mainly due to the increase in accounting and consulting fees for the IPO. Our
+salaries and benefits, including executive officers and directors’ compensation, increased by $528,990 or 145.02%, from $364,774 for
+the year ended September 30, 2024, to $893,764 for the year ended September 30, 2025, representing 24.61% and 22.06% of our total general
+and administrative expenses for the years ended September 30, 2025 and 2024, respectively. The increase was mainly due to the appointment
+of several executive officers from April to August 2024. Research
+and development expenses Our
+research and development expenses primarily consist of expenses related to the development of AI and machine learning tools for our platform.
+These costs decreased by $97,500, or 65.00%, from $150,000 for the year ended September 30, 2024, to $52,500 for the year ended September
+30, 2025, representing 3.80% and 10.42% of our revenue for the respective years. We remain committed to further expanding our investment
+in AI-related features to deliver enhanced functionality and value to our Users. 72 Loss
+before income taxes We
+had a loss before income taxes of $3,136,013 and $939,436 for the years ended September 30, 2025, and 2024, respectively. The loss was
+primarily attributable to the increase in sales expenses, general and administrative expenses and the decrease in gross profit. Provision
+for income taxes We
+had provision for income taxes of $5,298 for the year ended September 30, 2025 related to taxes due to the state of Minnesota. Net
+loss and comprehensive loss We
+had a net loss and comprehensive loss of $3,141,311 and $939,436 for the years ended September 30, 2025 and 2024, respectively. The
+loss was primarily attributable to the increase in sales expenses, general and administrative expenses and the decrease in gross profit.
+The discussion regarding the increase in sales expenses, general and administrative expenses and the decrease in gross profit are discussed
+in the sections above. Cash
+Flows For
+the years ended September 30, 2025 and 2024 The
+following table sets forth a summary of our cash flows for the years indicated: For
+    the years ended September 30, 2025 2024 Net cash used in operating activities $ (3,570,318 ) $ (688,661 ) Net cash used in investing activities (250,667 ) - Net cash provided by financing activities 7,681,331 1,148,378 Net increase in cash 3,860,346 459,717 Cash, beginning of the year 557,823 98,106 Cash, end of the year $ 4,418,169 $ 557,823 Operating
+Activities Net
+cash used in operating activities was $3,570,318 for the year ended September 30, 2025, as compared to net cash used in operating activities
+of $688,661 for the year ended September 30, 2024. The increase in net cash used in operating activities was mainly attributable to the
+following factors: ● Net
+    loss of 3,141,311 for the year ended September 30, 2025, compared to net loss of 939,436 for the year ended September 30, 2024; ● Services
+    in exchange for shares incurred $0 for the year ended September 30, 2025, compared to $222,919 for the year ended September 30, 2024; ● Prepaid
+    expenses increased by $345,787 for the year ended September 30, 2025, compared to an increase of $6,526 for the year ended September
+    30, 2024; 73 ● Accounts
+    payable and accrued liabilities increased by $91,925 for the year ended September 30, 2025, compared to a decrease of $109,068 for
+    the year ended September 30, 2024; ● The
+    amounts due to related party decrease by $154,759 for the year ended September 30, 2025, compared to the increase of $164,719 for
+    the ended September 30, 2024; and ● Contract
+    liabilities decreased by $21,449 for the year ended September 30, 2025, compared to a decrease of $23,363 for the year ended September
+    30, 2024. Investing
+Activities Net
+cash used in investing activities was $250,667 for the years ended September 30, 2025 and $0 for the year ended September 30, 2024. The increase in net cash used in investing activities for the year September
+30, 2025 was primarily due to purchase of computers of $1,817, payment for intangible assets for $40,850, advances for purchase of property
+for $108,000 and advance of $100,000 to third-party vendors for the development of intangible assets for the year ended September 30,
+2025. No comparable investing cash outflows were incurred during the year ended September 30, 2024. Financing
+Activities Net
+cash provided by financing activities was $7,681,331 for the year ended September 30, 2025, as compared to $1,148,378 for the year ended
+September 30, 2024. The
+increase in net cash provided by financing activities for the year ended September 30, 2025, was primarily due to net proceeds of $7,725,350
+from the share issuance in our IPO, and offset by deferred offering costs decreased of $44,019 compared to net proceeds of $1,505,662
+from the share issuance through non-brokered private placements, and offset by deferred offering costs increased of $139,017 ,and the
+payment of $218,267 to acquire non-controlling interest in Sundial during the year ended September 30, 2024. Liquidity
+and Capital Resources Overview Our
+primary capital management strategy is to preserve sufficient capital to continue providing benefits to our stakeholders and adequate
+investment returns to our shareholders by selling our products at prices commensurate with our operating risks. We
+determine the total amount of capital required to be consistent with risk levels. This capital structure is adjusted on a timely basis
+depending on changes in the economic environment and risks of the underlying assets. We are not subject to any externally imposed capital
+requirements. Working
+Capital As
+of September 30, 2025, our current assets were $4,783,242 which includes cash of $4,418,169 and prepaid expenses of $365,073. Our current
+liabilities were $519,078 which includes trade payables and accrued liabilities of $150,727, amounts due to related parties of $9,723,
+and contract liabilities of $358,628. The resulting positive working capital was $4,264,164. No dividends were declared and paid to the
+shareholders for the year ended September 30, 2025. As
+of September 30, 2024, our current assets totaled $716,126, which included cash of $557,823, prepaid expenses of $19,286, and deferred
+offering costs of $139,017. Our current liabilities amounted to $603,361, which consisted of trade payables and accrued liabilities of
+$31,332, amounts due to related parties of $191,952, and contract liabilities of $380,077. This resulted in positive working capital
+of $112,765. No dividends were declared or paid to shareholders for the year ended September 30, 2024. 74 Our
+available cash resources currently consist of the net proceeds from our April 2025 IPO and cash generated from our business. We estimate
+that we will be able to conduct our planned operations using currently available capital resources for at least the next 12 months. However,
+in order to meet our growth expectations, we will need to raise funds beyond our current working capital balance in order to finance
+future development of services and meet any debt obligations until such time as future profitable revenues are achieved. We completed
+our IPO on April 11, 2025 and closed the IPO Over-Allotment Option on April 16, 2025, which generated aggregate gross proceeds of $8,901,000.
+We believe that the successful completion of the IPO significantly improved our liquidity and financial position. We will seek to fund
+our operations for the next 12 months with the proceeds raised in our IPO, and if needed, through additional public and private offerings
+of securities. Capital
+Expenditures During
+the year, we advanced $108,000 towards purchase of property, $100,000 advance towards the development of Project Alpha, $40,850
+towards the purchase of intangible assets and $1,817 towards the purchase of office equipment. Contractual
+Obligations As
+of September 30, 2025 and 2024, we don’t have any contractual obligations. Off-Balance
+Sheet Arrangements We
+have no off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on our financial condition,
+changes in financial condition, revenues or expenses, results of operations, liquidity, capital expenditures or capital resources for
+the years ended September 30, 2025 and 2024. Critical
+Accounting Policies and Estimates The
+preparation of consolidated financial statements in conformity with accounting principles generally accepted in the United States (“GAAP”)
+requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, contingent assets and
+liabilities, each as of the date of the financial statements, and revenues and expenses during the periods presented. On an ongoing basis,
+management evaluates their estimates and assumptions, and the effects of any such revisions are reflected in the financial statements
+in the period in which they are determined to be necessary. Management bases their estimates on historical experience and on various
+other factors that they believe are reasonable under the circumstances, the results of which form the basis for making judgments about
+the carrying value of assets and liabilities that are not readily apparent from other sources. Actual outcomes could differ materially
+from those estimates in a manner that could have a material effect on our consolidated financial statements. While
+our significant accounting policies are more fully described in Note 2 – Summary of Significant Accounting Policies to our consolidated
+financial statements, we believe that there were no critical accounting policies and estimates that affect the preparation of financial
+statements. ITEM
+7A. Quantitative and Qualitative Disclosure About Market Risk As
+a “smaller reporting company” we are not required to provide information required by this Item. ITEM
+8. Financial Statements and Supplementary Data The
+financial statements begin on page F-1 and are incorporated in their entirety into this Item 8. 75 ITEM
+9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure None. ITEM
+9A. Controls and Procedures Evaluation
+of Disclosure Controls and Procedures Our
+management conducted an evaluation, under the supervision and with the participation of our Chief Executive Officer (“CEO”)
+and Chief Financial Officer (“CFO”), of the effectiveness of the design and operation of our disclosure controls and procedures,
+as defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Based
+upon that evaluation, our CEO and CFO concluded that, as of September 30, 2025, our disclosure controls and procedures were effective
+to provide reasonable assurance that the information required to be disclosed by our company in the reports that it files or submits
+under the Exchange Act is recorded, processed, summarized and reported within the time periods specified in SEC rules and forms and that
+such information is accumulated and communicated to the officers who certify our financial reports and to the members of our senior management
+and board of directors as appropriate to allow timely decisions regarding required disclosure. Management’s
+Report of Internal Control over Financial Reporting This
+Annual Report does not include a report of management’s assessment regarding internal control over financial reporting or an attestation
+report of the company’s registered public accounting firm due to a transition period established by rules of the Securities and
+Exchange Commission for newly public companies. Changes
+in Internal Control over Financial Reporting There
+was no change in our internal control over financial reporting that occurred during the fiscal year covered by this Annual Report that
+has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting . Item
+9B. Other Information No
+director or Section 16 officer adopted or terminated a trading arrangement intended to satisfy the affirmative defense conditions of
+Rule 10b5-1(c) or a “non-Rule 10b5-1” trading arrangement during the three months ended September 30, 2025. Item
+9C. Disclosure Regarding Foreign Jurisdictions That Prevent Inspections Not
+applicable. PART
+III ITEM
+10. Directors, Executive Officers and Corporate Governance Listed
+below are the names of our directors and executive officers, their ages as of the date of this Annual Report, their positions held and
+the year they commenced service with us. Name Age Position/Title Nicolas Kuan Liang Lin 38 Chief Executive Officer and Chairman Suresh R. Iyer 51 Chief Financial Officer David Chi Ching Ho 54 Chief Strategy Officer Hao Hu 51 Chief Technical Officer Justin Peter Molander (1)(2)(3)(4) 42 Independent Director Timothy William Murphy (1)(2)(3)(4) 54 Independent Director (1) Member
+    of the Audit Committee (2) Member
+    of the Compensation Committee (3) Member
+    of the Nominating and Corporate Governance Committee (4) Member
+    of the Investment and Treasury Committee 76 Nicolas
+Kuan Liang Lin has been a director of our company since August 25, 2023, was appointed our interim Chief Executive Officer and
+Director on September 11, 2023, and was appointed our Chief Executive Officer and Chairman on April 1, 2024. He is an experienced corporate
+finance executive has over a decade experience in the field of equity capital markets transactions, particular expertise in the field
+of U.S.-based transactions. Mr. Lin has advised and participated in a number of such transactions, often on behalf of Chinese and other
+Asian clients. Mr. Lin has been a director of Advance Opportunities Fund and Advance Opportunities Fund I since March 2019 and served
+as a director and Chief Financial Officer of Origin Investment Corp. I from September 2024 to September 2025. He has also been a director
+of St James Gold Corp (TSXV: LORD; OTCQB: LRDJF), a mining and exploration company headquartered in Vancouver since October 2019. Mr.
+Lin has served on the board of several public companies in the United States and Canada with experiences including Hawkeye Systems Inc.,
+Technovative Group Inc., Rebel Group, Inc., and Moxian, Inc., where he has led and executed multiple transactions ranging from fund-raising,
+restructuring, and advisory. From 2012 to 2017, Mr. Lin was a manager at 8i Capital Ltd., where he was involved in advising businesses
+to list in the United States and London, fundraising, and restructuring work. Mr. Lin’s previous roles include a wide range of
+finance and legal positions, primarily advising Chinese and Asia-based businesses from restructuring to fund-raising. Mr. Lin received
+his Bachelor of Law degree from Queen Mary University of London and his MBA degree from University Canada West. We believe Mr. Lin is
+qualified to serve on our board of directors due to his status as a founder of our company as well his experience with public companies
+and capital markets. Suresh
+R. Iyer was appointed as our Chief Financial Officer on May 16, 2024. He is an accomplished senior finance professional with
+over 25 years of international experience in both public and private sectors. As Managing Partner of SRI Associates and a founding member
+of Ledger Folios, he specializes in US GAAP, IFRS, SEC Reporting, financial planning, IPO/Transaction Readiness, and SPAC/de-SPAC transactions
+and has assisted clients with reducing operating costs through Offshore Consulting, improving their financial and operational procedures and
+controls, preparing for a planned IPO, performing a risk assessment, and reviewing various SEC reporting forms. He holds both CPA
+and ACA credentials and has extensive knowledge and exposure to the Fintech and Start-up industry. Previously, he was an Audit Manager
+at BDO USA LLP from January 2017 to June 2021, leading audits for major investment firms and helped in developing BDO’s captive
+service center in India. From May 2015 to September 2016, he served as a Sr. Associate at PricewaterhouseCoopers LLP, managing financial
+statement audits. As Corporate Controller at Flex Films USA Inc. from July 2011 to April 2015, he formulated internal controls policies
+and implemented financial strategies. Earlier in his career, he worked at Iyer Associates from November 2009 to July 2011 and Deloitte
+& Touché LLP from September 2005 to March 2009, focusing on audit, business development, and financial due diligence. David
+Chi Ching Ho has been our Chief Strategy Officer since April 1, 2024. He is a corporate strategy professional with more than
+25 years of business experience with a proven track record of driving growth and expansion through strategic planning, mergers &
+acquisitions, and joint-venture partnerships. Since July 2020, Mr. Ho has been the strategic advisor to the Hoovest Group, advising
+the group on its investments, as well as its corporate strategy and strategic alliances. From September 2018 to April 2020, Mr. Ho
+was an assistant to the Chairman, and corporate development leader of Lai Sun Development (HKEX: 0488), where he facilitated
+and supported the Group’s direct investments, acquisitions, and joint venture partnerships. From January 2014 to August 2018,
+Mr. Ho was a co-founder and executive director at Pergill Internationally Holdings Inc., where he engaged in M&A
+advisory, corporate strategy, business development, joint venture partnerships and strategic alliances, and successfully completed
+the acquisition of assets with a total transaction value of US$280 Million. From June 2009 to May 2017, Mr. Ho was the co-founder
+and executive director of ChinaLive WTM, where he integrated marketing agency servicing multinational well-known clients including
+Absolute Vodka, Pernod Ricard and Chivas Regal. From 2010 to 2014, he was also a Greater China business advisor at Reliance Media
+&Entertainment (Mumbai and Los Angeles) and represented Reliance to monetize their digital content and IP rights in the Greater
+China region. From 2000 to 2010, he was involved as a co-founder and executive in several companies including BigCafe Holdings
+Ltd., Temple Saigon and V Private Clubs and DNA-e. Mr. Ho received his Bachelor of Arts degree from University of British Columbia
+in 1993, he is also fluent in English, Mandarin and Cantonese. 77 Hao
+Hu has been our Chief Technical Officer since August 1, 2024. Mr. Hao Hu is an excellent technical professional with over 20
+years of experience in software development and management. Since January 2023, Mr. Hu has been the Chief Information Officer of Sundial, and since July 2024, Mr. Hu has also served as the Interim Chief Executive Officer of Sundial.  From August 2021 to March 2023, he was the Chief Technology Officer of Elixir Technology, Inc., where he led the team to significant
+milestones in technological innovation and machine learning development. From March 2020 to July 2021, Mr. Hu served as the Director
+of IOT Software Development of Omnisolu Technology Inc. From May 2014 to November 2019, he founded and served as the Chief Executive
+Officer of Guyi Network Technology Co. During the decade from 2003 to 2013, Mr. Hu served as a Software Engineer / Developer in various
+technology companies in Vancouver, including Wurldtech Security, Corinex Communications, Aurel Systems., Intel Corporation, and Mitel
+Telecom. Mr. Hu holds 20+ Industry Automation and IOT Data security patents pending and has been a committee member of several nation-level
+industrial committees. He received his Bachelor of Electrical Engineering from Zhejiang University in 1995 and his M.Sc. in Computer
+Science from Dalhousie University in 2002. Justin
+Peter Molander , has been a director of our company since April 9, 2025. He is a registered member of the Sapotaweyak Cree
+Nation who holds both Certified Public Accountant and Certified Management Accountant designations. He has over 20 years of experience
+spanning from financial analysis and market research to financing high growth, capital intensive companies in broad range of industries.
+He has assembled major financing packages and oversaw the execution of these deals. He has held profile positions in the mining industry
+analyzing business risk, demand, supply, pricing and mergers and activity. Since September 2021, Mr. Molander has been a Sessional Instructor
+and teaches in the business and accounting departments at Kwantlen Polytechnic University, Langara
+College, University Canada West and CPA Canada . Since June 2014, he has served as the Founder and Managing Director of Trading
+Post Investments Ltd. From September 2011 to July 2014, he was a Commodity/Research Analyst to Teck Resources, Coal Business Unit. From August 2007 to January 2011, he served as the Executive Assistant to the Minister of Energy
+and Mines & Research Officer for the Minister of Finance, where he provided political and policy advice to Members of the
+Legislative Assembly . Mr. Molander has acted as an Accountant since July 2001. We believe
+Mr. Molander is qualified to serve as a member of our board of directors due to accounting and finance experience. Timothy
+William Murphy, has been a director of our company since April 9, 2025. He is an experienced business executive and
+international lawyer. He is the Founding Partner of Murphy & Company, LLP since January 2011, a leading business law firm in
+Vancouver, Canada, and has over 15 years of experience advising high growth companies on mergers and acquisitions, technology and
+finance matters. Mr. Murphy has executive experience as a chief executive officer and has served on the boards of numerous public
+and private companies. Since August 2019, Mr. Murphy has served as a board member of Shop and Shout Ltd., and has additionally
+served as a board member of the Angus Reid Institute since August 2018. From 2018 to 2021, Mr. Murphy also served as a board member
+in several private and public companies, including Rival Group Inc., Asep Medical Holdings Inc., and Gerser Brands Inc. Mr. Murphy
+received his Bachelor of Law and Arts from the University of Saskatchewan in 2001 and 2004, respectively, and later earned his Master of
+Laws from McGill University in 2006. We believe Mr. Murphy is qualified to serve as a member of our board of directors due to his
+substantial experience leading and advising businesses. 78 Family
+Relationships There
+are no family relationships among any of the directors or executive officers. Director
+Independence With the removal
+of David Mandel as an independent director of our company in November 2025 and the resignation from our board of directors by Jaclyn
+Mang Hei Wu on December 14, 2025, each as described elsewhere in this Annual Report, our board of directors is currently comprised
+of three directors, a majority of which are independent directors. Our board of directors is presently searching for additional
+qualified candidates, at least one of which will be independent, to fill the vacancies on the board occasioned by Mr. Mandel’s
+removal and Ms. Wu’s resignation. In addition, the Nasdaq Marketplace Rules require that, subject to specified exceptions, each member of a listed
+company’s audit, compensation and nominating and corporate governance committees be independent and that audit committee members
+also satisfy independence criteria set forth in Rule 10A-3 under the Exchange Act. Under
+Rule 5605(a)(2) of the Nasdaq Marketplace Rules, a director will only qualify as an “independent director” if, in the opinion
+of our board of directors, that person does not have a relationship that would interfere with the exercise of independent judgment in
+carrying out the responsibilities of a director. In order to be considered independent for purposes of Rule 10A-3 of the Exchange Act,
+a member of an audit committee of a listed company may not, other than in his or her capacity as a member of the audit committee, the
+board of directors, or any other board committee, accept, directly or indirectly, any consulting, advisory, or other compensatory fee
+from the listed company or any of its subsidiaries or otherwise be an affiliated person of the listed company or any of its subsidiaries. Of
+our current directors, we have determined that Justin Peter Molander and Timothy William Murphy are “independent”
+directors under the Nasdaq listing standards, while Nicolas Kuan Liang Lin is not independent under such
+standards. We have also determined that each of the two current members of the Audit Committee is “independent” for
+purposes of Section 10A(m)(3) of the Exchange Act and the rules promulgated thereunder and under the Nasdaq listing standards.
+Further, the board of directors has determined that each of the two members of both the Compensation Committee and the Nominating
+and Corporate Governance Committee is “independent” under the Nasdaq listing standards. Board
+Committees We
+have four standing committees of our board of directors: the Audit Committee, Compensation Committee, the Nominating and Corporate Governance
+Committee, and the Investment and Treasury Committee. Each of the board committees act pursuant to a separate written charter adopted
+by our board of directors. The charters for our Audit Committee, Compensation Committee, and Nominating and Corporate Governance Committee
+are available on our website at https://helloaether.com/. Our board of directors may at any time or from time to time appoint certain
+other committees in its sole discretion as it deems necessary or appropriate to carry out its functions. Audit
+Committee The
+Audit Committee consists of Justin Peter Molander (Chairman) and Timothy William Murphy. Our board of directors has determined that all
+of the members of the Audit Committee are “independent,” as defined by the Nasdaq listing standards and by applicable SEC
+rules. In addition, the board of directors has determined that Justin Peter Molander is an audit committee financial expert, as that
+term is defined by the SEC rules, by virtue of having the following attributes through relevant experience: (i) an understanding of generally
+accepted accounting principles and financial statements; (ii) the ability to assess the general application of such principles in connection
+with the accounting for estimates, accruals, and reserves; (iii) experience preparing, auditing, analyzing, or evaluating financial statements
+that present a breadth and level of complexity of accounting issues that are generally comparable to the breadth and complexity of issues
+that can reasonably be expected to be raised by the Company’s financial statements, or experience actively supervising one or more
+persons engaged in such activities; (iv) an understanding of internal controls and procedures for financial reporting; and (v) an understanding
+of audit committee functions. The
+function of the Audit Committee relates to oversight of the auditors, the auditing, accounting, and financial reporting processes, and
+the review of the Company’s financial reports and information. In addition, the functions of the Audit Committee includes, among
+other things, recommending to the board of directors the engagement or discharge of independent auditors, discussing with the auditors
+their review of the Company’s quarterly results and the results of their audit, and reviewing the Company’s internal accounting
+controls. 79 Compensation
+Committee The
+Compensation Committee consists of Justin Peter Molander and Timothy William Murphy. The board of directors has determined that all of
+the members of the Compensation Committee are “independent,” as defined by Nasdaq listing standards. The responsibility of
+the Compensation Committee is to review and approve the compensation and other terms of employment of our President and Chief Executive
+Officer and our other executive officers, including all of the executive officers named in the Summary Compensation Table under the heading
+“Executive Compensation” below (the “named executive officers”). Among its other duties, the Compensation Committee
+oversees all significant aspects of the Company’s compensation plans and benefit programs. The Compensation Committee annually
+reviews and approves corporate goals and objectives for the President and Chief Executive Officer’s compensation and evaluates
+the Chief Executive Officer’s performance in light of those goals and objectives. The Compensation Committee also recommends to
+the board of directors the compensation and benefits for members of the board of directors. The Compensation Committee has also been
+appointed by the board of directors to administer our 2024 Equity Incentive Plan. The Compensation Committee does not delegate any of
+its authority to other persons. Nominating
+and Corporate Governance Committee The
+Nominating and Corporate Governance Committee is comprised of Timothy William Murphy (Chairman) and Justin Peter Molander. The committee
+members are independent under applicable Nasdaq rules and regulations. The Nominating and Corporate Governance Committee is responsible
+for, among other things, considering potential board members, making recommendations to the full board as to nominees for election to
+the board, assessing the effectiveness of the board and implementing our corporate governance guidelines. Investment
+and Treasury Committee The
+Investment and Treasury Committee is comprised of Timothy William Murphy and Justin Peter Molander (Chairman). The Investment
+and Treasury Committee is responsible for, among other things, oversight and periodic approval of the Company’s (i) treasury strategies,
+particularly those related to the Company’s digital assets and related Company assets, (ii) liquidity, working capital, financing
+activities, asset custodian and manager relationships, and related matters, and (iii) investment management and treasury policies and
+guidelines, particularly those related to the Company’s digital assets, including review of asset manager and financial advisor
+selections, the establishment of investment strategies and goals, review of investment performance, and oversight of investment risk
+management exposure policies and guidelines. Code
+of Business Conduct and Ethics and Insider Trading Policy Our
+board of directors has adopted a Code of Business Conduct and Ethics (the “Code of Ethics”) and an Insider Trading Policy,
+each of which are included as exhibits hereto. You can review these documents by accessing our public filings at the SEC’s web
+site at www.sec.gov. The Code of Ethics are available on our website at https://www.helloaether.com. In addition, a copy of the Code
+of Ethics will be provided without charge upon request from us. We intend to disclose any amendments to or waivers of certain provisions
+of our Code of Ethics in a Current Report on Form 8-K. 80 Delinquent
+Section 16(a) Reports Section
+16(a) of the Exchange Act requires our executive officers, directors and persons who beneficially own more than 10% of a registered class
+of our equity securities to file with the SEC initial reports of ownership and reports of changes in ownership of our common stock and
+other equity securities. These executive officers, directors, and greater than 10% beneficial owners are required by SEC regulation to
+furnish us with copies of all Section 16(a) forms filed by such reporting persons. Based solely on our review of such forms furnished
+to us and written representations from certain reporting persons, we believe that during the fiscal year ended September 30, 2025, all
+reports applicable to our executive officers, directors and greater than 10% beneficial owners were filed in a timely manner in accordance
+with Section 16(a) of the Exchange Act, except as set forth below: ● Elixir
+    Technology Inc., a holder of more than 10% of our common stock, filed a Form 5 reporting its initial statement of beneficial ownership
+    on November 14, 2025. ● Up
+    and Up Ventures Limited, a holder of more than 10% of our common stock, filed a Form 5 reporting its initial statement of beneficial
+    ownership on November 14, 2025. ● Greentown
+    Investments Corporation Limited, a holder of more than 10% of our common stock, filed a Form 5 reporting its initial statement of
+    beneficial ownership on November 14, 2025. ITEM
+11. Executive Compensation Summary
+Compensation Table The
+following table shows information regarding the compensation of the named executive officers during the fiscal years ended September
+30, 2025 and 2024. Name and Principal Fiscal Year
+    Ending, Salary Bonus Stock Awards Option Awards Non-Equity
+    Incentive Plan Compensation Non-Qualified
+    Deferred Compensation Earnings All Other
+    Compensation Totals Position September
+    30 ($) ($) ($) ($) ($) ($) ($) ($) Nicolas Kuan Liang Lin (1) CEO
+    and Chairman 2025 19
+                                            0,000 - - - - - - 190,000 2024 80,000 - - - - - - 80,000 Suresh Iyer (2) Chief Financial Officer 2025 107,667 - - - - - - 107,667 2024 12,000 - - - - - 24,450 36,450 Hao Hu (3) Chief Technical Officer 2025 8 - - - - - 150,000 150,008 2024 2 - - - - - 159,500 159,502 (1)
+Mr. Nicolas Kuan Liang Lin was appointed our Director on August 25, 2023, our Interim Chief Executive Officer on September 11, 2023,
+and our Chief Executive Officer on April 1, 2024. As of September 30, 2025, Mr. Lin received total salary compensation
+of $130,000, from his position as our director, pursuant to his Non-Independent Director Agreement described below. In addition, he received
+$60,000 in salary for his services as the our Chief Executive Officer as per his employment agreement. Prior to April 1, 2024, as described further
+in Mr. Lin’s Employment Agreement below, Mr. Lin did not receive any compensation from us for his role. From April 1, 2024 to
+September 30, 2024, Mr. Lin accrued $80,000 in salary compensation, consisting of $50,000 of fees from his position as our director,
+pursuant to his Non-Independent Director Agreement described below, and $30,000 of salary from his services as our Chief Executive Officer.
+The accrued amount as of September 30, 2024 was paid following the receipt of IPO proceeds in April 2025. 81 (2)
+On May 16, 2024, Mr. Suresh Iyer was appointed our Chief Financial Officer. During the fiscal year ended September 30, 2025, Mr. Iyer
+was paid $45,167 for his services provided under the Consulting Agreement with Ledger Pros LLC and $62,500 in salary compensation for
+his service provided under the CFO Employment Agreement described below. As of September 30, 2024, Mr. Iyer had been paid $19,650 in
+compensation, consisting of $6,000 salary and $13,650 expenses for his services provided under the Consulting Agreement with Ledger Pros
+LLC described below, with the remaining $6,000 salary having been paid in early October 2024. Mr. Iyer accrued $10,800 in fees under
+the Consulting Agreement as of September 30, 2024. Prior to May 16, 2024, Mr. Iyer received no compensation from the Company. (3)
+Mr. Hu was appointed our Chief Technical Officer on August 1, 2024. As of September 30, 2025 and 2024. Mr. Hu accrued $8 and $2 respectively
+in salary compensation from the Company. As Chief Information Officer and Director of Sundial, Mr. Hu has
+been paid $150,000 and $159,500 as of September 30, 2025 and 2024, respectively. Employment
+Arrangements with our Executive Officers Nicolas
+Kuan Liang Lin On
+April 1, 2024, we entered into an employment agreement with Mr. Nicolas Kuan Liang Lin, which was amended on September 1, 2024, to serve
+as the Company’s Chief Executive Officer. We agreed to pay Mr. Lin an annual base salary of $60,000, payable monthly. We shall
+pay or reimburse Mr. Lin for all reasonable and necessary expenses incurred or paid by him during the term while performing his duties
+under this agreement. Mr. Lin will be permitted, to the extent eligible, to participate in all employee benefit plans we maintain and
+is subject to certain non-compete, non-solicitation, and confidentiality covenants. The
+term of the employment agreement commenced on April 1, 2024, and is subject to termination for cause (as defined therein) by us, upon
+the death or disability of Mr. Lin, or by us without cause. Mr. Lin is entitled to severance upon his termination by us for the aforementioned
+reasons, subject to certain limitations, equal to: (i) the
+    Base Salary on the termination date for the shorter of (x) six months and (y) the remainder of the term (the applicable period being
+    referred to as the “Severance Period”), payable in monthly installments; (ii) benefits
+    under group health and life insurance plans in which Mr. Lin participated prior to termination through the Severance Period; and (iii) all
+    previously earned, accrued, and unpaid benefits from the Company and its employee benefit plans, including any such benefits under
+    the Company’s pension, disability, and life insurance plans, policies, and programs. Notwithstanding
+the foregoing, in the event of Mr. Lin’s termination by us for cause, death, or disability, Mr. Lin, or in the event of his death,
+his estate, will only be entitled to receive the amounts specified in (ii) - (iii) above. The
+initial term of the employment agreement will expire on the first anniversary of the date of our initial public offering. The term of
+the employment agreement shall automatically renew for additional one (1) year periods after the expiration of the initial term and each
+renewal period unless either party gives written notice to the other at least thirty (30) days prior to the expiration of the initial
+term or any renewal period. 82 Suresh
+R. Iyer Consulting
+Agreement On
+August 1, 2024, we entered into an updated CFO Consulting Agreement with Ledger Pros LLC. Mr. Suresh R. Iyer, the Founder of Ledger Pros
+LLC, will serve as the Company’s Chief Financial Officer. For services rendered by Mr. Iyer under this agreement, we shall pay
+him at the rate of $72,000 per annum, on a pro-rated basis and payable monthly. Mr. Iyer shall also be reimbursed for all out-of-pocket
+and travel-related expenses incurred during the performance of this agreement. We agreed to indemnify Ledger Pros LLC against claims,
+liabilities, damages, losses or other obligations which may arise under the agreement. The
+agreement commenced on its effective date set forth therein and continue for one year from that date unless terminated earlier. We may,
+at our option, agree to renew, extend, and revise this agreement prior to its expiration. Either party may terminate the agreement upon
+thirty (30) days’ notice to the other party. Upon termination, Mr. Iyer will be entitled to receive compensation and reimbursement
+for any work accrued, but not paid by the Company. CFO
+Employment Agreement On
+January 28, 2025, we entered into an Employment Agreement with Mr. Iyer, which was subsequently amended on February 27, 2025 (as amended,
+the “CFO Agreement”), to continue in his role as Chief Financial Officer, effective as of April 11, 2025. Under the terms
+of the CFO Agreement, Mr. Iyer will be employed as a full-time employee of the Company, with the understanding that he may provide services
+to other companies though his consulting company provided that the provision of such services to other companies does not create an actual
+or perceived conflict of interest. The CFO Agreement provides for Mr. Iyer to receive an annual base salary of $150,000 and that Mr.
+Iyer will be eligible to receive bonus compensation in the sole discretion of our board of directors and reimbursement of reasonable
+out-of-pocket travel and other expenses incurred in providing services to us. In
+the event of a termination without cause or a good reason resignation, as such terms are defined in the CFO Agreement, Mr. Iyer will
+be entitled to severance in the amount of six months base salary and accrued bonus and benefits, conditioned upon Mr. Iyer executing
+a general release of claims within thirty days of his termination. The employment agreement contains other customary provisions regarding
+expenses and treatment of proprietary information, may be terminated by Mr. Iyer or us for any reason upon thirty days prior written
+notice to the other party or earlier in the event of a termination for cause, and shall continue until terminated by either Mr. Iyer
+or us. Hao
+Hu Sundial
+Employment Agreement On
+March 15, 2023, Mr. Hu became the Chief Information Officer of Sundial, the wholly owned subsidiary of the Company, and entered into
+an associated employment agreement with Sundial (the “Sundial Employment Agreement”). Sundial agreed to pay Mr. Hu an annual
+base salary of $125,000, payable on a semi-monthly basis and a one-time signing bonus of 300 shares of restricted stock, scheduled to
+vest in three equal installments on March 31, 2023, June 30, 2023, and September 30, 2023. On July 1, 2023, Mr. Hu’s employment
+agreement was amended to provide for the immediate vesting of his remaining restricted shares. On
+February 16, 2024, Mr. Hu’s base salary was increased to $150,000, payable on a semi-monthly basis effective March 1, 2024. Mr.
+Hu is eligible to receive a performance bonus at the discretion of Sundial’s board of directors and reimbursement of personal expenses
+incurred in connection with his performance of his duties, participate in Sundial’s health and dental insurance plan, and receive
+20 business days of paid time off during each year of employment. Mr. Hu was also granted a one-time incentive signing bonus consisting
+of three hundred shares of restricted Sundial common stock. Mr.
+Hu’s term of employment with Sundial commenced on March 15, 2023. If Mr. Hu is terminated by Sundial either not for cause or if
+Mr. Hu terminates his employment for good reason (as such terms are defined in the Sundial Employment Agreement), Mr. Hu will be entitled
+to receive up to ninety (90) days Base Salary and any pro-rated bonuses, commissions, distributions, or the like as calculated effective
+the last day of his employment, subject to certain conditions. The initial term of the Sundial Employment Agreement is five (5) years,
+subject to successive one-year extensions upon mutual agreement of the parties. The Sundial Employment Agreement additionally contains
+certain customary non-compete, non-solicitation, and confidentiality covenants. 83 Aether
+Employment Agreement On
+August 1, 2024, we entered into an employment agreement with Hao Hu to serve as the Company’s Chief Technical Officer, which was
+amended on September 1, 2024. Mr. Hu has agreed to receive an additional nominal salary of $10 per year for his services as the Chief
+Technical Officer of the Company. We shall pay or reimburse Mr. Hu for all reasonable and necessary expenses incurred or paid by him
+during the term while performing his duties under this agreement. Mr. Hu will be permitted, to the extent eligible, to participate in
+all employee benefit plans we maintain, and is subject to certain non-compete, non-solicitation, and confidentiality covenants. The
+term of the employment agreement commenced on August 1, 2024, and is subject to termination for cause (as defined therein) by us, upon
+the death or disability of Mr. Hu, or by us without cause. Mr. Hu is entitled to severance upon his termination by us for the aforementioned
+reasons, subject to certain limitations, equal to: (i) the
+    Base Salary on the termination date for the shorter of (x) six months and (y) the remainder of the term (the applicable period being
+    referred to as the “Severance Period”), payable in monthly installments; (ii) benefits
+    under group health and life insurance plans in which Mr. Hu participated prior to termination through the Severance Period; and (iii) all
+    previously earned, accrued, and unpaid benefits from the Company and its employee benefit plans, including any such benefits under
+    the Company’s pension, disability, and life insurance plans, policies, and programs. Notwithstanding
+the foregoing, in the event of Mr. Hu’s termination by us for cause, death, or disability, Mr. Hu, or in the event of his death,
+his estate, will only be entitled to receive the amounts specified in (ii) - (iii) above. The
+initial term of the employment agreement will expire on the first anniversary of the date of our initial public offering. The term of
+the employment agreement shall automatically renew for additional one (1) year periods after the expiration of the initial term and each
+renewal period unless either party gives written notice to the other at least thirty (30) days prior to the expiration of the initial
+term or any renewal period. Outstanding
+Equity Awards at Fiscal Year-End There
+were no outstanding stock awards held by any of our executive officers on September 30, 2025. Employee
+Benefit Plans 2024
+Equity Incentive Plan The
+following is a summary of the material features of the Aether Holdings, Inc. 2024 Equity Incentive Plan (the “2024 Plan”). Eligibility The
+Administrator (as defined below) may grant awards to any director, employee or consultant of the Company or its subsidiaries. Only employees
+are eligible to receive incentive stock options. Process
+for Making Awards Awards
+under the 2024 Plan are subject to the discretion of the Administrator (as defined below). The Administrator may grant awards to eligible
+persons pursuant to any criteria and subject to any vesting schedule the Administrator determines to be appropriate, subject to the terms
+and conditions of the 2024 Plan and all applicable laws. Awards may be subject to service-based and/or performance-based vesting conditions.
+A non-exhaustive list of potential performance-based vesting conditions is included below under the “Performance Awards”
+heading. 84 Administration The 2024 Plan will be administered by our board of directors or one more
+committees or subcommittees of our board of directors, which will be comprised, unless otherwise determined by our board of directors,
+solely of not less than two members who will be non-employee directors (a “Committee”), or any officer that has been delegated
+administrative authority pursuant to the 2024 Plan for the duration such delegation is in effect (collectively, the “Administrator”).
+The Administrator, which initially will be our board of directors with respect to awards to non-employee directors and the Compensation
+Committee of our board of directors with respect to other participants. The Administrator will have the authority to make all determinations
+and interpretations under, prescribe all forms for use with, and adopt rules for the administration of the 2024 Plan, subject to the 2024
+Plan’s express terms and conditions. The Administrator will also set the terms and conditions of all awards under the 2024 Plan,
+including any vesting and vesting acceleration conditions. Share
+Reserve The
+maximum aggregate number of shares that may be issued under the 2024 Plan is the sum of (A) 1,183,128 shares of common stock, plus (B)
+an increase commencing on January 1, 2026 and continuing annually on each anniversary thereof through and including January 1, 2034,
+equal to the lesser of (i) 5% of the Shares outstanding on the last day of the immediately preceding calendar year and (ii) such smaller
+number of Shares as determined by the Committee or our board of directors. 1,183,128
+shares of our common stock may be issued upon the exercise of incentive stock options. Shares
+issuable under the 2024 Plan may be authorized, but unissued, or reacquired shares. Shares underlying any awards under the 2024 Plan
+that are settled in cash, forfeited, canceled, repurchased, held back upon exercise of an option or settlement of an award to cover the
+exercise price or tax withholding satisfied without the issuance of stock or otherwise terminated (other than by exercise) will be added
+back to the shares available for issuance under the 2024 Plan, although shares shall not again become available for issuance as incentive
+stock options. Additionally, shares issued as “substitute awards” (as defined in the 2024 Plan) will not count against the
+2024 Plan’s share limit, except substitute awards that are incentive stock options will count against the incentive stock option
+limit. The
+share reserve described herein may be subject to certain adjustments in the event of certain changes in the capitalization of the Company
+(see Equitable Adjustments below). Annual
+Limitation on Awards to Non-Employee Directors The
+2024 Plan contains a limitation whereby the value of all awards under the 2024 Plan and all other cash compensation paid by the Company
+to any non-employee director may not exceed $750,000 for the first calendar year a non-employee director is initially appointed to our board of directors, and $500,000 in any other calendar year. Types
+of Awards The
+2024 Plan provides for the grant of stock options, stock appreciation rights, restricted stock, restricted stock units, performance awards,
+dividend equivalent awards, and other stock- or cash-based awards (collectively, “awards”). Stock
+Options . The 2024 Plan permits the granting of both options intended to qualify as incentive stock options under Section 422 of the
+Internal Revenue Code of 1986, as amended (the “Code”) and options that do not so qualify. Options granted under the 2024
+Plan will be nonqualified options if they fail to qualify as incentive stock options or exceed the annual limit on incentive stock options.
+Incentive stock options may only be granted to employees of the Company and its subsidiaries. Nonqualified options may be granted to
+any persons eligible to receive awards under the 2024 Plan. 85 The
+exercise price of each option will be determined by the Administrator, but such exercise price may not be less than 100% of the fair
+market value of one share of our common stock on the date of grant or, in the case of an incentive stock option granted to a 10% or greater
+stockholder, 110% of such share’s fair market value. The term of each option will be set by the Administrator and may not exceed
+ten (10) years from the date of grant (or five (5) years for an incentive stock option granted to a 10% or greater stockholder). The
+Administrator will determine at what time or times each option may be exercised, including the ability to accelerate the vesting of such
+options. Stock
+Appreciation Rights . The Administrator may award stock appreciation rights subject to such conditions and restrictions as it may
+determine. Stock appreciation rights entitle the recipient to shares of our common stock or cash, equal to the value of the appreciation
+in our stock price over the exercise price, as set by the Administrator and which will be at least equal to the fair market value of
+a share of our common stock on the grant date. The term of each stock appreciation right will be set by the Administrator and may not
+exceed ten years from the date of grant. The Administrator will determine at what time or times each stock appreciation right may be
+exercised, including the ability to accelerate the vesting of such stock appreciation rights. Restricted
+Stock . A restricted stock award is an award of shares of our common stock that vests in accordance with the terms and conditions
+established by the Administrator. The Administrator will determine the persons to whom grants of restricted stock awards are made, the
+number of restricted shares to be awarded, the price (if any) to be paid for the restricted shares, the time or times within which awards
+of restricted stock may be subject to forfeiture, the vesting schedule and rights to acceleration thereof, and all other terms and conditions
+of restricted stock awards. Unless otherwise provided in the applicable award agreement, a participant generally will have the rights
+and privileges of a stockholder as to such restricted shares, including without limitation the right to vote such restricted shares and
+the right to receive cash dividends, if applicable. Restricted
+Stock Units . Restricted stock units are the right to receive shares of our common stock at a future date in accordance with the terms
+of such grant upon the attainment of certain conditions specified by the Administrator. Restrictions or conditions could include, but
+are not limited to, the attainment of performance goals, continuous service with the Company or its subsidiaries, the passage of time
+or other restrictions or conditions. The Administrator determines the persons to whom grants of restricted stock units are made, the
+number of restricted stock units to be awarded, the time or times within which awards of restricted stock units may be subject to forfeiture,
+the vesting schedule, and rights to acceleration thereof, and all other terms and conditions of the restricted stock unit awards. The
+value of the restricted stock units may be paid in shares of our common stock, cash, other securities, other property, or a combination
+of the foregoing, as determined by the Administrator. The
+holders of restricted stock units will have no voting rights. Prior to settlement or forfeiture, restricted stock units awarded under
+the 2024 Plan may, at the Administrator’s discretion, provide for a right to dividend equivalents. Performance
+Awards . The Administrator has the authority to grant stock options, stock appreciation rights, restricted stock, or restricted stock
+units as a performance award, which means that such awards vest at least in part upon the attainment of one or more specified performance
+criteria. For each performance period, the Administrator will have the sole authority to select the length of such performance period,
+the types of performance awards to be granted, the performance criteria that will be used to establish the performance goals, and the
+level(s) of performance which shall result in a performance award being earned. At any time, the Administrator may adjust or modify the
+calculation of a performance goal for a performance period, to appropriately reflect any circumstance or event that occurs during a performance
+period and that in the Administrator’s sole discretion, warrants adjustment or modification. Depending on the type of performance
+award granted, the previously discussed terms and conditions will also apply to a performance award. 86 Performance
+criteria for a performance award may be based on the attainment of specific levels of performance of the Company (and/or one or more
+subsidiaries, divisions, business segments or operational units, or any combination of the foregoing) and may include, without limitation,
+any of the following: (i) net earnings or net income (before or after taxes); (ii) basic or diluted earnings per share (before or after
+taxes); (iii) revenue or revenue growth (measured on a net or gross basis); (iv) gross profit or gross profit growth; (v) operating profit
+(before or after taxes); (vi) return measures (including, but not limited to, return on assets, capital, invested capital, equity, or
+sales); (vii) cash flow (including, but not limited to, operating cash flow, free cash flow, net cash provided by operations and cash
+flow return on capital); (viii) financing and other capital raising transactions (including, but not limited to, sales of the Company’s
+equity or debt securities); (ix) earnings before or after taxes, interest, depreciation and/or amortization; (x) gross or operating margins;
+(xi) productivity ratios; (xii) share price (including, but not limited to, growth measures and total shareholder return); (xiii) expense
+targets; (xiv) margins; (xv) productivity and operating efficiencies; (xvi) customer satisfaction; (xvii) customer growth; (xviii) working
+capital targets; (xix) measures of economic value added; (xx) inventory control; (xxi) enterprise value; (xxii) sales; (xxiii) debt levels
+and net debt; (xxiv) combined ratio; (xxv) timely launch of new facilities; (xxvi) client retention; (xxvii) employee retention; (xxviii)
+timely completion of new product rollouts; (xxix) cost targets; (xxx) reductions and savings; (xxxi) productivity and efficiencies; (xxxii)
+strategic partnerships or transactions; and (xxxiii) personal targets, goals or completion of projects. Any one or more of the performance
+criteria may be used on an absolute or relative basis to measure the performance of the Company and/or one or more subsidiaries as a
+whole or any business unit(s) of the Company and/or one or more subsidiaries or any combination thereof, or any of the above performance
+criteria may be compared to the performance of a selected group of comparison or peer companies, or a published or special index that
+the Administrator deems appropriate, or as compared to various stock market indices. Dividend
+Equivalents . An award of dividend equivalents entitles the holder to be credited with an amount equal to all dividends paid on one
+share of our common stock while the holder’s tandem award is outstanding. Dividend equivalents may be paid currently or credited
+to an account for the participant, settled in cash or shares of our common stock, and subject to the same restriction on transferability
+and forfeitability as the award with respect to which the dividend equivalents are granted. Other
+Stock- or Cash-Based Awards . Other stock-based awards may be granted either alone, in addition to, or in tandem with, other awards
+granted under the 2024 Plan and/or cash awards made outside of the 2024 Plan. The Administrator shall have authority to determine the
+service providers to whom and the time or times at which other stock-based awards shall be made, the amount of such other stock-based
+awards, and all other conditions of the other stock-based awards including any dividend and/or voting rights. The Administrator may grant
+cash awards in such amounts and subject to such performance or other vesting criteria and terms and conditions as the Administrator may
+determine. Repricing The
+2024 Plan authorizes the Administrator to take the following repricing actions without stockholder approval: (i) modify the purchase
+price or the exercise price of any outstanding award or (ii) cancel any award in exchange for cash or another award. Equitable
+Adjustments In
+the event of a merger, consolidation, recapitalization, stock split, reverse stock split, reorganization, split-up, spin-off, combination,
+repurchase or other change in corporate structure affecting shares of our common stock, the Administrator will adjust (i) the number
+and class of shares which may be delivered under the 2024 Plan (or number and kind of other securities or other property); (ii) the number,
+class and price (including the exercise or strike price of options and stock appreciation rights) of shares subject to outstanding awards,
+(iii) any applicable performance criteria, performance period, and other terms and conditions of outstanding performance awards, and
+(iv) the 2024 Plan’s numerical limits. Change
+in Control In
+the event of any proposed change in control (as defined in the 2024 Plan), the Administrator will take any action as it deems appropriate,
+which action may include, without limitation, the following: (i) the continuation of any award, if the Company is the surviving corporation;
+(ii) the assumption of any award by the surviving corporation or its parent or subsidiary; (iii) the substitution by the surviving corporation
+or its parent or subsidiary of equivalent awards; (iv) accelerated vesting of the award, with all performance objectives and other vesting
+criteria deemed achieved at targeted levels, and a limited period during which to exercise the award prior to the closing of the change
+in control, or (v) settlement of any award for the change in control price (less, to the extent applicable, the per share exercise price).
+Unless determined otherwise by the Administrator, in the event that the successor corporation refuses to assume or substitute for the
+award, a participant shall fully vest in and have the right to exercise the award as to all shares of our common stock, including those
+that would not otherwise be vested or exercisable, all applicable restrictions will lapse, and all performance objectives and other vesting
+criteria will be deemed achieved at targeted levels. 87 Term The
+2024 Plan became effective on May 20, 2024, and, unless terminated earlier, the 2024 Plan will continue in effect for a term of ten (10)
+years. Amendment
+and Termination Our
+board of directors may amend, alter, suspend or terminate the 2024 Plan at any time. No amendment or termination of the 2024 Plan will materially
+impair the rights of any participant, unless mutually agreed otherwise between the participant and the Company. Approval of the stockholders
+shall be required for any amendment, where required by applicable law, as well as (i) to increase the number of shares available for
+issuance under the 2024 Plan and (ii) to change the persons or class of persons eligible to receive awards under the 2024 Plan. Recoupment
+Policy All
+awards granted under the 2024 Plan, all amounts paid under the 2024 Plan, and all shares of our common stock issued under the 2024 Plan
+shall be subject to reduction, recoupment, clawback, or recovery by the Company in accordance with applicable laws and with Company policy. Policies
+and Practices Related to the Grant of Certain Equity Awards Close in Time to the Release of Material Nonpublic Information We
+do not have a written policy regarding the timing of equity awards, but we do not grant equity awards in anticipation of the release
+of material nonpublic information, nor do we time the release of material nonpublic information based on equity award grant dates. Compensation
+Recovery Policy On February 27, 2025, our board of directors adopted a policy (commonly
+known as a “clawback” policy) which provides for the recovery of erroneously awarded incentive compensation to certain of
+our officers in the event that we are required to prepare an accounting restatement due to material noncompliance by us with any financial
+reporting requirements under the federal securities laws. This policy is designed to comply with Section 10D of the Securities Exchange
+Act of 1934, as amended, related rules and the listing standards of Nasdaq Stock Market or any other securities exchange on which our
+shares are listed in the future. The policy is administered by our board of directors or, if so designated by the board of directors,
+the Compensation Committee. Any determinations made by our board of directors shall be final and binding on all affected individuals. 88 Director
+Compensation The
+following table sets forth the aggregate compensation paid to our non-employee directors for the fiscal year ended September 30, 2025. Name Fees earned or paid in cash ($) Stock Awards ($) (2) Option Awards ($) Nonequity incentive plan compensation ($) Nonqualified deferred compensation earnings ($) All
+    other compensation ($) Total ($) Jaclyn
+    Mang Hei Wu (1) 130,000 - - - - - $ 130,000 Director Timothy
+    William Murphy (2) 20,363 - - - - - $ 20,363 Director Justin
+    Peter Molander (3) 19,113 - - - - - $ 19,113 Director David
+    Mandel (4) 16,613 - - - - - $ 16,613 Director (1)
+Ms. Wu was appointed to our board of directors on August 25, 2023. On April
+1, 2024, we entered into the Non-Independent Director Agreement with Ms. Wu described below. During the fiscal year ended September 30,
+2025 Ms. Wu was paid $130,000 in fees under the terms of her Non-Independent Director Agreement. Ms. Wu resigned from our board of directors
+on December 14, 2025. See “ Business – Recent Developments – Resignation of Director ” above for more information. (2)
+Mr. Murphy was appointed to our board of directors on April 9, 2025. During
+the fiscal year ended September 30, 2025, Mr. Murphy received total fees of $20,363, including $14,240 in independent director fees, $2,373
+for his service as chair of a board committee, and $3,750 for his services on a special committee of the Board. (3)
+Mr. Molander was appointed to our board of directors on April 9, 2025.
+During the fiscal year ended September 30, 2025, Mr. Molander was paid $19,113 in fees for his service as a member of our board of directors.
+The amount consisted of $14,240 in Independent Director fees, $2,373 for his service as chair of a board committee, and $2,500 for his
+services on a special committee of the board of directors. (4)
+Mr. Mandel was appointed to our board of directors on April 9, 2025. During
+the fiscal year ended September 30, 2025, Mr. Mandel was paid $16,613 in fees for his service as a member of our board of directors. The
+amount consisted of $14,240 in Independent Director fees and $2,373 as Chair of the Committee of the board of directors. Mr. Mandel was
+removed from our board of directors on November 21, 2025. See “ Business – Recent Developments – Removal of Director ”
+above for more information. Nicolas
+Kuan Liang Lin On
+April 1, 2024, we entered into a formal Agreement with Mr. Nicolas Kuan Liang Lin to serve as a member of the Company’s board of
+directors. Mr. Lin was appointed as a Director of the Company’s board of directors on August 25, 2023. We agreed to pay Mr. Lin
+an annual compensation of one hundred and twenty thousand dollars ($120,000), pro-rated and payable monthly, starting one month after
+April 1, 2024. Jaclyn
+Mang Hei Wu On
+April 1, 2024, we entered into a formal Agreement with Ms. Jaclyn Mang Hei Wu to serve as a member of the Company’s board of directors.
+Ms. Wu was appointed as a Director of the Company’s board of directors on August 25, 2023. We agreed to pay Ms. Wu an annual compensation
+of one hundred and twenty thousand dollars ($120,000), pro-rated and payable monthly, starting one month after April 1, 2024. Ms. Wu
+resigned from our board of directors on December 14, 2025. See “ Business – Recent Developments – Resignation of
+Director ” above for more information. This agreement terminated upon her resignation. ITEM
+12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters As
+of December 11, 2025, we had 12,117,586 shares of common stock issued and outstanding. Holders of common stock are entitled to one vote
+per share. The following table sets forth information with respect to the beneficial ownership of our common stock as of December 11,
+2025: ● each
+    person, or group of affiliated persons, who is the beneficial owner of more than 5% of the outstanding common stock of the Company; ● each
+    executive officer and director of the Company; and ● all
+    of the Company’s executive officers and directors as a group. 89 Beneficial
+ownership is determined according to the rules of the SEC and generally means that a person has beneficial ownership of a security if
+he, she or it possesses sole or shared voting or investment power of that security, including securities that are exercisable or convertible,
+as the case may be, within 60 days of December 11, 2025. Shares of common stock issuable pursuant to such securities are deemed outstanding
+for computing the percentage of the person holding such securities and the percentage of any group of which the person is a member but
+are not deemed outstanding for computing the percentage of any other person. Except as indicated by the footnotes below, the Company
+believes, based on the information furnished to it, that the persons named in the table below have sole voting and investment power with
+respect to all shares of common stock shown that they beneficially own, subject to community property laws where applicable. The information
+does not necessarily indicate beneficial ownership for any other purpose, including for purposes of Section 13(d) and 13(g) of the Securities
+Act. Beneficial
+    Ownership Name of Beneficial
+    Owner(1) Shares % Directors and officers Nicolas Kuan Liang Lin (2) Chairman
+    and Chief Executive Officer 2,375,000 19.60 % Suresh R. Iyer (3) Chief Financial Officer 59,524 * % Hao Hu (4) Chief Technical Officer 1,662,500 13.72 % Justin Peter Molander Director - - % Timothy William Murphy Director - - % All directors and officers
+    as a group (six individuals named above) 4,097,024 33.81 % 5% or greater shareholders Jaclyn
+    Mang Hei Wu (5) 3,930,063 32.43 % Elixir Technology Inc. (6) 3,879,167 32.01 % Up and Up Ventures Limited (7) 2,375,000 19.60 % Greentown Investments Corporation Limited (8) 1,662,500 13.72 % *
+Less than 1%. Percentage
+ownership is based on 12,117,586 shares of our common stock outstanding as of December 11, 2025. (1)
+Unless otherwise specified, the address of each noted person is 1441 Broadway, 30th Floor, New York, NY 10018. (2)
+The shares beneficially owned by Mr. Nicolas Kuan Liang Lin, our Chairman and Chief Executive Officer, are held by Up and Up Ventures
+Limited (“Up Ventures”). Mr. Lin is the Director of Up Ventures and holds sole voting and dispositive power over the shares
+of our common stock held by Up Ventures. Mr. Lin does not directly hold any shares of our common stock. (3)
+Mr. Iyer directly owns 59,524 shares of our common stock. (4)
+The shares beneficially owned by Mr. Hu include 1,662,500 shares of our common stock held by Greentown Investments Corporation Limited
+(“Greentown”). Mr. Hu has the sole voting and dispositive authority over the shares held by Greentown. Mr. Hu does not directly
+hold any shares of our common stock. (5)
+The shares beneficially owned by Ms. Jaclyn Mang Hei Wu include 3,879,167 shares of our common stock held by Elixir Technology Inc. (“Elixir”)
+and 50,896 shares of our common stock held by Monic Wealth Solutions Ltd. (“Monic”). Ms. Wu has the sole voting and dispositive
+authority over the shares held by Elixir and Monic. Ms. Wu does not directly hold any shares of our Common Stock. Ms. Wu resigned from our board of directors on December 14, 2025. See
+“ Business – Recent Developments – Resignation of Director ” above for more information. (6)
+The address of Elixir Technology, Inc. is 429-4974 Kingsway, Burnaby BC V5H4M9, Canada. Ms. Jaclyn Mang Hei Wu is the director and has
+sole voting and dispositive control over the shares of our common stock held by Elixir Technology, Inc. (7)
+The address of Up and Up Ventures Limited is Room 1301,13/F Wing Tuck Commercial Centre, 177-183 Wing Lok Street, Sheung Wan, Hong Kong.
+Mr. Nicolas Kuan Liang Lin is the director and has sole voting and dispositive control over the shares held by Up and Up Ventures Limited. (8)
+The address of Greentown Investments Corporation Limited is 1500 Cedar Springs Place, Delta BC V4M0A7, Canada. Mr. Hao Hu is the director
+and has sole voting and dispositive control over the shares held by Greentown Investments Corporation Limited. 90 ITEM
+13. Certain Relationships and Related Transactions, and Director Independence Other
+than compensation agreements and other arrangements which are described under “Executive Compensation”, since October 1, 2023, there has not been, and there is not currently proposed, any transaction or series of similar
+transactions to which we were or will be a party in which the amount involved exceeded or will exceed the lesser of $120,000 and in which
+any of our directors, executive officers or holders of more than 5% of our capital stock, or 5% securityholders, or an affiliate or family
+member thereof, had or will have a direct or indirect material interest. Policies
+and Procedures with Respect to Related Party Transactions Pursuant
+to our audit committee charter, our audit committee is responsible for reviewing and approving transactions with related parties. A related
+party includes directors, executive officers, beneficial owners of 5% or more of any class of the Company’s voting securities,
+immediate family members of any of the foregoing persons, and any entities in which any of the foregoing is an executive officer or is
+an owner of 5% or more ownership interest. If
+a transaction involving an amount in excess of $120,000 has been identified as a related party transaction, including any transaction
+that was not a related party transaction when originally consummated or any transaction that was not initially identified as a related
+party transaction prior to consummation, information regarding the related party transaction will be reviewed by the Company’s
+audit committee, which will determine whether to approve the transaction. In
+considering related party transactions, the Company’s audit committee will take into account the relevant available facts and circumstances
+including, but not limited to: ● the
+    related party’s interest in the related party transaction; ● the
+    approximate dollar value of the amount involved in the related party transaction; ● the
+    approximate dollar value of the amount of the related party’s interest in the transaction without regard to the amount of any
+    profit or loss; ● whether
+    the transaction was undertaken in the ordinary course of business of the Company; ● whether
+    the transaction with the related party is proposed to be, or was, entered into on terms no less favorable to the Company than terms
+    that could have been reached with an unrelated third party; ● the
+    purpose of, and the potential benefits to the Company of, the transaction; and ● any
+    other information regarding the related party transaction or the related parties in the context of the proposed transaction that
+    would be material to investors in light of the circumstances of the particular transaction. In
+determining whether to approve, ratify or reject a related party transaction, the audit committee will review all relevant information
+available to it about such transaction, and it will approve or ratify the related party transaction only if it determines that, under
+all of the circumstances, the transaction is in, or is not inconsistent with, the best interests of our company. ITEM
+14. Principal Accounting Fees and Services The
+following table sets forth the fees billed by our independent accountant, ZH CPA LLC (“ZH CPA”), for the fiscal years ended
+September 30, 2025 and 2024. Year
+    Ended September 30, 2025 2024 Audit fees $ 195,310 $ 150,630 Audit-related fees $ 80,000 $ 95,000 Tax fees $ - $ - All other fees $ - $ - 91 Audit
+Fees Audit
+fees represent amounts billed by ZH CPA for the services rendered in connection with the audit of our consolidated financial statements,
+amounting $195,310 and $150,630 for the fiscal years ended September 30, 2025 and 2024, respectively. These services included audit planning,
+execution of fieldwork, review of quarterly financial statements, and issuance of the auditors’ reports. Audit-Related
+Fees Audit-related
+fees, representing amounts billed by ZH CPA LLC for assurance and related services reasonably related to the audit or review of the Company’s
+financial statements, including reviews of interim financial information and quarterly reports, review of SEC comment responses, issuance
+of comfort, bring-down, and consent letters, dual-dated audit report procedures, and reviews of amendments or follow-on registration
+statements totaled $80,000 and $95,000 for the fiscal years ended September 30, 2025 and 2024, respectively. Tax
+Fees We
+did not pay ZH CPA for tax services, planning or advice for the years ended September 30, 2025 or 2024. All
+Other Fees We
+did not pay ZH CPA for any other services for the years ended September 30, 2025 or 2024. Procedures
+For Board of Directors Pre-Approval of Audit and Permissible Non-Audit Services of Independent Auditor Our
+Audit Committee is ultimately responsible for reviewing and approving, in advance, any audit and any permissible non-audit engagement
+or relationship between us and our independent registered public accounting firm. Our engagement of ZH CPA to conduct all audit and permissible
+non-audit related activities incurred during fiscal years 2025 and 2024, respectively were approved by our Audit Committee in accordance
+with these procedures. PART
+IV ITEM
+15. Exhibits and Financial Statements Schedules 1.
+Consolidated Financial Statements Our
+financial statements and the notes thereto, together with the report of our independent registered public accounting firm on those financial
+statements, are hereby filed as part of this Annual Report beginning on page F-1. 2.
+Financial Statement Schedules All
+financial statement schedules have been omitted since the required information is not applicable or is not present in amounts sufficient
+to require submission of the schedule, or because the information required is included in the consolidated financial statements and notes
+thereto. 3.
+Exhibits The
+following is a complete list of exhibits filed as part of this Form 10-K. Exhibit numbers correspond to the numbers in the Exhibit Table
+of Item 601 of Regulation S-K. 92 Exhibit
+    Number Description 3.1 Amended Certificate of Incorporation of Aether Holdings, Inc. (incorporated by reference to Exhibit 3.1 of the Registrant’s Amendment No. 1 to Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on February 27, 2025). 3.2 Amended and Restated Bylaws of Aether Holdings, Inc. (incorporated by reference to Exhibit 3.2 of the Registrant’s Amendment No. 1 to Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on February 27, 2025). 4.1 Specimen Common Stock Certificate (incorporated by reference to Exhibit 4.1 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 4.2 Form of Representatives’ Warrant, dated April 9, 2025 (incorporated by reference to Exhibit 4.1 of the Registrant’s Current Report on Form 8-K, filed with the SEC on April 11, 2025). 4.3* Description of Securities 10.1† Employment Agreement dated April 1, 2024, by and between the Registrant and Nicolas Lin Kuan Liang (incorporated by reference to Exhibit 10.1 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.2† Employment Agreement dated April 1, 2024, by and between the Registrant and David Chi Ching Ho (incorporated by reference to Exhibit 10.2 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.3† Employment Agreement dated June 1, 2024, by and between the Registrant and Siu Hang (Henry) Wong (incorporated by reference to Exhibit 10.3 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.4† Employment Agreement dated August 1, 2024, by and between the Registrant and Hao Hu (incorporated by reference to Exhibit 10.4 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.5† Employment Agreement dated March 15, 2023, by and between Sundial Capital Research Inc. and Hao Hu (incorporated by reference to Exhibit 10.5 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.6† Indemnification Agreement dated April 1, 2024, by and between the Registrant and David Chi Ching Ho (incorporated by reference to Exhibit 10.6 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.7† Indemnification Agreement dated June 1, 2024, by and between the Registrant and Siu Hang (Henry) Wong (incorporated by reference to Exhibit 10.7 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.8† Indemnification Agreement dated August 1, 2024, by and between the Registrant and Hao Hu (incorporated by reference to Exhibit 10.8 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.9† Director Indemnification Agreement dated April 1, 2024, by and between the Registrant and Jaclyn Wu Mang Hei (incorporated by reference to Exhibit 10.9 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.10† Director Indemnification Agreement dated April 1, 2024, by and between the Registrant and Nicolas Lin Kuan Liang (incorporated by reference to Exhibit 10.10 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.11† Non-Independent Director Agreement dated April 1, 2024, by and between the Registrant and Jaclyn Wu Mang Hei (incorporated by reference to Exhibit 10.11 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.12† Non-Independent Director Agreement dated April 1, 2024, by and between the Registrant and Nicolas Lin Kuan Liang (incorporated by reference to Exhibit 10.12 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.13† Aether Holdings, Inc. 2024 Equity Incentive Plan (incorporated by reference to Exhibit 10.13 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 93 10.14† CFO Consulting Agreement dated August 1, 2024, by and between the Registrant and Ledger Pros LLC, d/b/a Ledger Folios (incorporated by reference to Exhibit 10.14 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.15† Indemnification Agreement dated May 20, 2024, by and between the Registrant and Suresh R. Iyer or Ledger Pros LLC (incorporated by reference to Exhibit 10.15 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.16† Amendment to Employment Agreement dated September 1, 2024, by and between the Registrant and Nicolas Lin Kuan Liang (incorporated by reference to Exhibit 10.16 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.17† Amendment to Employment Agreement dated September 1, 2024, by and between the Registrant and David Chi Ching Ho (incorporated by reference to Exhibit 10.17 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.18† Amendment to Employment Agreement dated September 1, 2024, by and between the Registrant and Siu Hang (Henry) Wong (incorporated by reference to Exhibit 10.18 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.19† Amendment to Employment Agreement dated September 1, 2024, by and between the Registrant and Hao Hu (incorporated by reference to Exhibit 10.19 of the Registrant’s Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on December 30, 2024). 10.20+† Employment Agreement, dated January 28, 2025, by and between the Registrant and Suresh Iyer (incorporated by reference to Exhibit 10.20 of the Registrant’s Amendment No. 1 to Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on February 27, 2025). 10.21† Amendment to Employment Agreement, dated February 27, 2025, by and between the Registrant and Suresh Iyer (incorporated by reference to Exhibit 10.21 of the Registrant’s Amendment No. 1 to Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on February 27, 2025). 10.22† Form of Independent Director Agreement (incorporated by reference to Exhibit 10.1 of the Registrant’s Current Report on Form 8-K, filed with the SEC on May 1, 2025). 10.23† Form of Independent Director Indemnification Agreement (incorporated by reference to Exhibit 10.2 of the Registrant’s Current Report on Form 8-K, filed with the SEC on May 1, 2025). 14.1 Code of Ethics of Aether Holdings, Inc. (incorporated by reference to Exhibit 14.1 of the Registrant’s Amendment No. 1 to Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on February 27, 2025). 19.1 Insider Trading Policies and Procedures (incorporated by reference to Exhibit 19.1 of the Registrant’s Amendment No. 1 to Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on February 27, 2025). 21.1* List of Subsidiaries 31.1* Certification of the Principal Executive Officer pursuant to Rule 13a-14(a) and Rule 15d-14(a) under the Securities Exchange Act of 1934, as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 31.2* Certification of the Principal Financial Officer pursuant to Rule 13a-14(a) and Rule 15d-14(a) under the Securities Exchange Act of 1934, as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 32.1** Certification of the Principal Executive Officer pursuant to 18 U.S.C. 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002 32.2** Certification of the Principal Financial Officer pursuant to 18 U.S.C. 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002 97.1 Policy Related to Recovery of Erroneously Awarded Compensation (incorporated by reference to Exhibit 99.7 of the Registrant’s Amendment No. 1 to Registration Statement on Form S-1 (File No. 333-284081), filed with the SEC on February 27, 2025). 99.1* Audit Committee Charter 99.2* Compensation Committee Charter 99.3* Nominating and Corporate Governance Committee Charter 101.INS* Inline
+    XBRL Instance Document 101.SCH* Inline
+    XBRL Taxonomy Extension Schema Document 101.CAL* Inline
+    XBRL Taxonomy Extension Calculation Linkbase Document 101.DEF* Inline
+    XBRL Taxonomy Extension Definition Linkbase Document 101.LAB* Inline
+    XBRL Taxonomy Extension Label Linkbase Document 101.PRE* Inline
+    XBRL Taxonomy Extension Presentation Linkbase Document 104* Cover
+    Page Interactive Data File *
+Filed herewith. **
+Furnished herewith. †
+Indicates a management contract or compensatory plan or arrangement. +
+Certain portions of this exhibit (indicated by “[*]”) have been omitted pursuant to Item 601(a)(6) of Regulation S-K. ITEM
+16. Form 10-K Summary Not
+applicable. 94 SIGNATURES Pursuant
+to the requirements of Section 12 of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on
+its behalf by the undersigned, thereunto duly authorized this 17 th day of December, 2025. AETHER
+    HOLDINGS, INC. By: /s/
+    Nicolas Kuan Liang Lin Name: Nicolas
+    Kuan Liang Lin Title: Chief
+    Executive Officer By: /s/
+    Suresh R. Iyer Name: Suresh
+    R. Iyer Title: Chief
+    Financial Officer Pursuant
+to the requirements of the Securities Exchange Act of 1934, this Annual Report has been signed by the following persons in the capacities
+and on the date indicated: Signature Title Date /s/Nicolas
+    Kuan Liang Lin Chief
+    Executive Officer and Chairman (Principal Executive Officer) December
+    17, 2025 Nicolas
+    Kuan Liang Lin /s/Suresh
+    R. Iyer Chief
+    Financial Officer (Principal Accounting Officer) December
+    17, 2025 Suresh
+    R. Iyer /s/Justin
+    Peter Molander Director December
+    17, 2025 Justin
+    Peter Molander /s/Timothy
+    William Murphy Director December
+    17, 2025 Timothy
+    William Murphy 95 AETHER
+HOLDINGS INC. Index
+to Consolidated Financial Statements Page Report
+    of Independent Registered Public Accounting Firm (PCAOB ID: 6413 ) F-2 Consolidated Balance Sheets as of September 30, 2025 and 2024 F-3 Consolidated
+    Statements of Operations and Comprehensive Loss for the Years Ended September 30, 2025 and 2024 F-4 Consolidated
+    Statements of Shareholders’ Equity for the Years Ended September 30, 2025 and 2024 F-5 Consolidated Statements of Cash Flows Statements for the Years Ended September 30, 2025 and 2024 F-6 Notes to Consolidated Financial Statements F-7 F- 1 REPORT
+OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To
+the Shareholders and Board of Directors of Aether
+Holdings, Inc. Opinion
+on the Financial Statements We
+have audited the accompanying consolidated balance sheets of Aether Holdings, Inc. and its subsidiaries (“the Company”) as
+of September 30, 2025 and 2024, and the related consolidated statements of operations and comprehensive loss, changes in shareholders’
+equity, and cash flows for each of the years in the two-year period ended September 30, 2025, and the related notes (collectively referred
+to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly, in
+all material respects, the financial position of the Company as of September 30, 2025 and 2024, and the results of its operations and
+its cash flows for each of the years in the two-year period ended September 30, 2025, in conformity with accounting principles generally
+accepted in the United States of America. Basis
+for Opinion These
+consolidated financial statements are the responsibility of the Company’s management. Our responsibility is to express an opinion
+on the Company’s consolidated financial statements based on our audits. We are a public accounting firm registered with the Public
+Company Accounting Oversight Board (United States) (“PCAOB”) and are required to be independent with respect to the Company
+in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission
+and the PCAOB. We
+conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain
+reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud.
+The Company is not required to have, nor were we engaged to perform, an audit of its internal control over financial reporting. As part
+of our audits, we are required to obtain an understanding of internal control over financial reporting, but not for the purpose of expressing
+an opinion on the effectiveness of the Company’s internal control over financial reporting. Accordingly, we express no such opinion. Our
+audits included performing procedures to assess the risks of material misstatement of the consolidated financial statements, whether
+due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence
+regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the accounting principles
+used and significant estimates made by management, as well as evaluating the overall presentation of the consolidated financial statements.
+We believe that our audits provide a reasonable basis for our opinion. /s/ ZH CPA, LLC We
+    have served as the Company’s auditor since 2023. Denver,
+    Colorado December
+    17, 2025 999
+18 th Street, Suite 3000, Denver, CO, 80202 USA Phone: 1.303.386.7224 Fax: 1.303.386.7101 Email: admin@zhcpa.us F- 2 AETHER
+HOLDINGS, INC. CONSOLIDATED
+BALANCE SHEETS September
+    30, 2025 September
+    30, 2024 ASSETS Current Assets Cash $ 4,418,169 $ 557,823 Prepaid expenses 365,073 19,286 Deferred Offering Cost - 139,017 Total current assets 4,783,242 716,126 Intangible assets 40,850 - Prepaid development costs 100,000 - Property acquisition deposit 108,000 - Property and equipment,
+    net 4,069 3,315 Total
+    assets $ 5,036,161 $ 719,441 LIABILITIES AND SHAREHOLDERS’
+    EQUITY Current Liabilities Payables and accrued liabilities $ 123,257 $ 31,332 Due to related parties 37,193 191,952 Contract Liabilities 358,628 380,077 Total current liabilities 519,078 603,361 Total
+    liabilities 519,078 603,361 Shareholders’
+    Equity Common stock, $ 0.001 par value, 50,000,000 and 50,000,000 shares authorized, 12,101,273 and 10,031,273 shares issued and outstanding at September 30, 2025 and September 30,
+    2024, respectively * 12,101 10,031 Additional paid-in capital 9,703,189 2,162,945 Accumulated deficit ( 5,198,207 ) ( 2,056,896 ) Total shareholders’
+    equity 4,517,083 116,080 Total
+    liabilities and shareholders’ equity $ 5,036,161 $ 719,441 * Shares and per
+share data are presented on a retroactive basis to reflect the 1.2-for-1 reverse stock split. Refer to Note 8(c). The
+accompanying notes are an integral part of these consolidated financial statements F- 3 AETHER
+HOLDINGS, INC. CONSOLIDATED
+STATEMENTS OF OPERATIONS AND COMPREHENSIVE
+LOSS For
+    the Years Ended September 30, 2025 2024 Revenue $ 1,380,850 $ 1,440,096 Cost of sales 403,381 445,466 Gross Profit 977,469 994,630 Operating Expenses Sales and marketing expense 553,385 130,443 General and administrative expense 3,623,915 1,653,623 Research and development
+    expenses 52,500 150,000 Total operating expenses 4,229,800 1,934,066 Other Income Interest income 91,439 - Other income, net 24,879 - Total Other Income 116,318 - Loss before provision for
+    income taxes ( 3,136,013 ) ( 939,436 ) Income
+    Tax expense ( 5,298 ) - Net loss ( 3,141,311 ) ( 939,436 ) Comprehensive loss $ ( 3,141,311 ) $ ( 939,436 ) Loss per share – Basic and Diluted* $ ( 0.29 ) $ ( 0.10 ) Weighted average number of shares outstanding – Basic and Diluted
+    * 11,008,698 9,503,939 * Shares and per
+share data are presented on a retroactive basis to reflect the 1.2-for-1 reverse stock split. Refer to Note 8(c). The
+accompanying notes are an integral part of these consolidated financial statements F- 4 AETHER
+HOLDINGS, INC. CONSOLIDATED
+STATEMENTS OF CHANGES IN SHAREHOLDERS’ EQUITY FOR
+THE YEAR ENDED SEPTEMBER 30, 2025 *Common
+    Shares Additional
+    Paid In Capital Accumulated
+    deficit Total
+    equity Number Amount Amount Amount Amount Balance – October 1, 2023 7,986,112 $ 7,986 $ 436,409 $ ( 1,117,460 ) $ ( 673,065 ) Net loss ( 939,436 ) ( 939,436 ) Services in exchange for shares 205,856 206 222,713 - 222,919 Issuance of shares 1,839,305 1,839 1,543,169 - 1,545,008 Offering costs - ( 39,346 ) - ( 39,346 ) Balance – September 30, 2024 10,031,273 $ 10,031 $ 2,162,945 $ ( 2,056,896 ) $ 116,080 Balance 10,031,273 $ 10,031 $ 2,162,945 $ ( 2,056,896 ) $ 116,080 Net loss - - - ( 3,141,311 ) ( 3,141,311 ) Issuance of shares and warrants 2,070,000 2,070 9,201,681 - 9,203,751 Offering costs - ( 1,661,437 ) - ( 1,661,437 ) Balance – September
+    30, 2025 12,101,273 $ 12,101 $ 9,703,189 $ ( 5,198,207 ) $ 4,517,083 Balance 12,101,273 $ 12,101 $ 9,703,189 $ ( 5,198,207 ) $ 4,517,083 * Shares and per
+share data are presented on a retroactive basis to reflect and the 1.2-for-1 reverse stock split. Refer to Note 8(c). The
+accompanying notes are an integral part of these consolidated financial statements. F- 5 AETHER
+HOLDINGS, INC. CONSOLIDATED
+STATEMENTS OF CASH FLOWS For
+    the Years Ended September 30, 2025 2024 CASH FLOWS FROM OPERATING
+    ACTIVITIES Net loss $ ( 3,141,311 ) $ ( 939,436 ) Adjustments: Depreciation 1,063 2,094 Services in exchange for
+    shares - 222,919 Changes in operating assets and liabilities: Prepaid expenses ( 345,787 ) ( 6,526 ) Payables and accrued liabilities 91,925 ( 109,068 ) Amounts due to related
+    parties ( 154,759 ) 164,719 Deferred
+    revenue ( 21,449 ) ( 23,363 ) Net cash used in operating
+    activities ( 3,570,318 ) ( 688,661 ) CASH FLOWS FROM INVESTING
+    ACTIVITIES Property acquisition deposit ( 108,000 ) - Purchase of Intangible assets ( 40,850 ) - Development Cost of Intangible ( 100,000 ) Purchase of Property and
+    equipment ( 1,817 ) - Net cash used in investing
+    activities ( 250,667 ) - CASH FLOWS FROM FINANCING
+    ACTIVITIES Shares Repurchase Payable - ( 218,267 ) Deferred offering costs ( 44,019 ) ( 139,017 ) Net proceeds from issuance
+    of shares 7,725,350 1,505,662 Cash provided by financing
+    activities 7,681,331 1,148,378 Net increase in cash 3,860,346 459,717 Cash,
+    beginning of the year 557,823 98,106 Cash,
+    end of the year $ 4,418,169 $ 557,823 Supplemental
+    Disclosures of Cash Flow Information Cash paid for interest $ - $ - Cash paid for income taxes $ - $ - The
+accompanying notes are an integral part of these consolidated financial statements F- 6 AETHER
+HOLDINGS, INC. NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS NOTE
+1 — DESCRIPTION OF BUSINESS AND ORGANIZATION Aether Holdings, Inc. (“we,” “us,” “our,” the “Company,” or “Aether”) was
+incorporated pursuant to the Delaware General Corporation Law (“DGCL”) on August 15, 2023. The Company, acting through its
+primary operating subsidiary, Sundial Capital Research Inc. (“Sundial”), is principally engaged in providing proprietary
+research analytics, data, and tools for equity traders through its flagship platform, SentimenTrader.com. The
+registration statement for the Company’s initial underwritten public offering (“IPO”) was declared effective on April
+9, 2025. We consummated our IPO on April 11, 2025, with the issuance of 1,800,000 shares of the Company’s common stock, par value
+$ 0.001 per share (the “Common Stock”) at a public offering price of $ 4.30 per share, generating gross proceeds of $ 7,740,000 .
+In connection with the IPO, we granted the underwriters an over-allotment option to purchase up to 270,000 additional shares of Common
+Stock at the same public offering price (the “IPO Over-Allotment Option”). On April 16, 2025, the IPO Over-Allotment Option
+was fully exercised, resulting in additional gross proceeds of $ 1,161,000 . With the full exercise of the IPO Over-Allotment Option, the
+total gross proceeds from the IPO amounted to $ 8,901,000 , before deducting underwriting discounts, commissions, and offering expenses.
+Additionally, as partial compensation for their services, the Company issued warrants to purchase an aggregate of 144,900 shares of the
+Company’s common stock to The Benchmark Company, LLC and Axiom Capital Management, Inc., as representatives of the several underwriters
+of the Company’s IPO. On
+April 30, 2025, the Company incorporated a new subsidiary, Alpha Edge Media, Inc. (“AEM”), under the laws of the State of
+Delaware to support its expanding newsletter business. The newsletters published or acquired and thereafter published by AEM will target
+both institutional and retail investors, focusing on topics such as macroeconomic trends, market insights, and market psychology, while
+broadening the Company’s overall coverage of securities, commodities, markets and exchanges. On
+May 22, 2025, the Company incorporated a new subsidiary, Aether Grid Inc. (“Aether Grid”), under the laws of the State of
+Delaware to house and support the growth of its suite of financial tools. On
+June 6, 2025, the Company incorporated a new subsidiary, Aether Labs, Inc. (“Aether Labs”), under the laws of the State of
+Delaware to act as the arm of the Company that focuses on innovation and research and development of its fintech ecosystem, with a focus
+on proprietary analytics and models driven by artificial intelligence (“AI”). On
+October 14, 2025, the Company incorporated a new wholly owned subsidiary, 537 Greenwich LLC, under the laws of the State of Delaware.
+The subsidiary was established for the purpose of acquiring and holding office space in New York, which will be purchased and owned by
+the LLC. The
+following table sets forth information concerning the Company and its subsidiaries as of September 30, 2025: SCHEDULE OF SUBSIDIARY Name of Entity Date
+    of Organization Place
+    of Organization Percentage
+    of Ownership Principal
+    Activities Aether Holdings, Inc. August 15, 2023 Delaware Parent Company Holding Company Sundial Capital Research Inc. January 22, 2003 Minnesota 100 % Financial Research Publication Alpha Edge Media, Inc. April 30, 2025 Delaware 100 % Financial Newsletters Aether Grid Inc. May 22, 2025 Delaware 100 % Financial Technology Tools Aether Labs, Inc. June 6, 2025 Delaware 100 % Research and Development F- 7 NOTE
+2 — SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES Basis
+of Presentation and Principles of Consolidation The
+accompanying consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the
+United States of America (U.S. GAAP). The accompanying consolidated financial statements include the accounts of the Company and its
+subsidiary. All intercompany transactions have been eliminated in consolidation. Subsidiaries
+are those entities in which the Company, directly or indirectly, controls more than one half of the voting power; or has the power to
+govern the financial and operating policies, to appoint or remove the majority of the members of the board of directors, or to cast a
+majority of votes at the meeting of directors. Control
+exists when the Company has the power, directly or indirectly, to govern the financial and operating policies of an entity so as to obtain
+benefits from its activities. The financial statements of subsidiaries are included in the consolidated financial statements from the
+date that control commences until the date that control ceases. Going
+Concern We
+incurred negative cash flows from operating activities of $ 3,570,318 for the year ended September 30, 2025. The increase in cash used
+in operations was primarily driven by higher personnel-related costs, increase in legal and professional fees, including those related
+to our IPO. Despite
+these negative operating cash flows, management believes there is no substantial doubt about our ability to continue as a going concern
+for at least the next 12 months from the issuance date of these financial statements. As of September 30, 2025, we had cash and cash
+equivalents, totaling $ 4,418,169 , which includes net proceeds from the IPO. We expect that our existing cash resources, will be sufficient
+to meet our working capital, capital expenditure, and contractual obligations as they come due over the next 12 months. Foreign
+Currency These
+consolidated financial statements are presented in United States dollars which are the parent and subsidiaries’ functional currency.
+The functional currency for each entity consolidated with the Company is determined by the currency of the primary economic environment
+in which it operates, US dollars (“USD”). Monetary
+assets and liabilities denominated in foreign currencies are translated at the functional currency spot rates of exchange at the reporting
+date. Differences arising on settlement or translation of monetary items are recognized in consolidated statement of operations and comprehensive
+loss. Use
+of Estimates and Assumptions The
+preparation of consolidated financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that
+affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the consolidated
+financial statements and the reported amounts of revenues and expenses during the reporting year. Actual results could differ from those
+estimates. There were no significant estimates or assumptions that materially impacted the consolidated financial statements for the
+years ended September 30, 2025 and 2024. Segment
+Information The
+Company follows ASC 280, “Segment Reporting”, which requires disclosures based on how management organizes the Company to
+make operating decisions and assess performance. The Company has determined that it operates as a single reportable segment. F- 8 The
+Chief Executive Officer functions as the Company’s Chief Operating Decision Maker (“CODM”) and is responsible for key
+operating decisions, resource allocation, and performance assessment. In executing these responsibilities, the CODM regularly reviews
+consolidated financial information, including total revenue, gross profit, key operational metrics, and cash flow, on a Company-wide
+basis. The CODM does not review or receive discrete financial information by business function, product category, or geographic region.
+Consequently, decisions about resource allocation and performance evaluation are made based solely on consolidated results. Accordingly,
+management has concluded that the Company has one operating segment: the online subscription service, which consists of one reporting
+unit based on the financial information available and which operating results are regularly reviewed by the CODM. All the Company’s
+business activities for the years ended September 30, 2025 and 2024 were conducted in US. Segment profit and loss is determined on a
+basis that is consistent with how the Company reports operating profit and loss in its consolidated statements of operations. Because
+the Company operates only one segment, there are no intersegment transactions. Cash Cash
+consists of cash on hand, the balances with banks and the liquid investments with maturities of three months or less. Property
+and Equipment Property
+and equipment are recorded at cost less accumulated depreciation and impairment losses at the following depreciation rates: SCHEDULE
+OF PROPERTY AND EQUIPMENT DEPRECIATION RATES Computer
+    hardware & IT Double
+    declining balance method – 30 % Equipment
+that is withdrawn from use or has no reasonable prospect of being recovered through use or sale, are regularly identified, and written
+off. The assets’ residual values, depreciation methods and useful lives are reviewed, and adjusted if appropriate, at each reporting
+date. Subsequent expenditures relating to items of property and equipment are capitalized when it is probable that future economic benefits
+from the use of the assets will be increased. All other subsequent expenditures are recognized as repairs and maintenance. Intangible
+Assets The Company’s intangible assets consist of (i)
+the Company’s corporate tradenames and (ii) intangible assets acquired in connection with the acquisitions of the WhaleTales and
+Altcoin Investing digital newsletter businesses (collectively, the “Acquisitions”) . The acquired intangible assets
+include domains, tradenames, subscriber lists, content libraries, vendor/platform rights, writer relationships, and non-competition agreements . Indefinite-lived Intangible Assets The Company’s tradenames and domains (including
+the Company’s corporate tradename and the domain name and tradenames acquired in the Acquisitions) are considered indefinite-lived,
+as they are expected to contribute to future cash flows indefinitely and the costs to maintain/renew the associated legal rights are not
+significant. Accordingly, tradenames and domain names are not amortized. Indefinite-lived tradenames and domains are tested
+for impairment at least annually, and more frequently if events or changes in circumstances indicate that it is more likely than not that
+the asset is impaired, in accordance with ASC 350-30-35-18. Finite-lived intangible assets The remaining intangible assets acquired in the Acquisitions
+are finite-lived and are amortized on a straight-line basis over their estimated useful lives, which reflect the periods over which the
+assets are expected to contribute to future cash flows. Finite-lived intangible assets are evaluated for amortization. Amortization method and estimated useful lives SCHEDULE OF INTANGIBLE ASSETS USEFUL LIFE Category Amortization
+    Method Estimated useful life Domain names /Tradenames Not Amortized Indefinite Subscriber List Straight Line Method 2 to 3 years Content Library Straight Line Method 1 to 2 years Vendor/platform rights Straight Line Method 1 to 2 years Writer relationship Straight Line Method 1 to 2 years Non-competition agreement Straight Line Method 1 to 2 years F- 9 Offering
+Costs Deferred
+offering costs consist of specific expenses directly attributable to the company’s IPO, including legal, accounting, printing,
+underwriter fees and filing fees. These costs are capitalized as incurred in accordance with the guidance under ASC 340-10-S99-1. On
+April 11, 2025, the Company completed its IPO, and on April 16, 2025, the Company closed on the IPO Over-Allotment Option, resulting
+in an aggregate issuance of 2,070,000 shares of its Common Stock at a public offering price of $ 4.30 per share. The IPO and IPO Over-Allotment
+option resulted in aggregate gross proceeds of $ 8,901,000 . Offering costs, consisting primarily of underwriting discounts, legal, accounting,
+and other professional fees, totaled $ 1,358,686 and were recorded as a reduction to additional paid-in capital in accordance with ASC
+340-10-S99-1. Impairment
+of Long-lived asset Long-lived
+assets, including, property and equipment, intangible assets and property acquisition deposit are evaluated for impairment whenever events
+or changes in circumstances (such as a significant adverse change to market conditions that will impact the future use of the assets)
+indicate that the carrying amount may not be fully recoverable or that the useful life is shorter than the Company had originally estimated.
+When these events occur, the Company evaluates the impairment by comparing the carrying value of the assets to an estimate of future
+undiscounted cash flows expected to be generated from the use of the assets and their eventual disposition. If the sum of the expected
+future undiscounted cash flows is less than the carrying value of the assets, the Company recognizes an impairment loss based on the
+excess of the carrying value of the assets over the fair value of the assets. No impairment charge was recognized for the year ended
+September 30, 2025 and 2024, respectively. Research and Development (“R&D”) Expenses Research
+and development expenses represent costs directly attributable to XYZ Terminal development, including data integration, LLM tools,
+predictive analytics, interface upgrades, and supporting systems, with spending driven by personnel, software, data, and cloud
+resources R&D expenses are expensed as incurred in accordance with ASC 730. The Company capitalizes certain application development
+costs incurred which primarily include fees paid to third-party vendors for application development activities (e.g., configuration, coding,
+installation, and testing). Costs incurred during the preliminary project stage and during the post-implementation/operation stage are
+expensed as incurred, including training and routine maintenance. Capitalization ceases no later than the point at which the application
+project is substantially complete and ready for its intended use (i.e., after all substantial testing is completed) Revenue
+Recognition The
+Company adopted ASC Topic 606 Revenue from Contracts with Customers (“ASC 606”). The core principle of the guidance is that
+an entity should recognize revenue to depict the transfer of promised goods or services to customers in an amount that reflects the consideration
+to which the entity expects to be entitled in exchange for those goods or services. To achieve that core principle, the Company applies
+the following steps: Step
+    1: Identification
+    of the contract with a customer; Step
+    2: Identification
+    of the performance obligations in the contract; Step
+    3: Determination
+    of the transaction price; Step
+    4: Allocation
+    of the transaction price to the performance obligations in the contract (where revenue is allocated on a relative standalone selling
+    price basis by maximizing the use of observable inputs to determine the standalone selling price for each performance obligation);
+    and Step
+    5: Recognition
+    of revenue when, or as, the Company satisfies a performance obligation. F- 10 Revenue
+from online subscription services Our
+revenue source consists of subscriptions to our cloud-based software during the term of arrangement. Cloud-based services allow our customers
+to access the tailor-made stock research reports without taking possession of the software. Revenue is generally recognized ratably over
+the contract term beginning on the commencement date of each contract, which is the date our cloud-based software is made available to
+customers, and collection is reasonably assured. Subscription agreements generally have terms ranging from one month to one year. Amounts
+that have been invoiced are recorded either contract liabilities or revenue in the consolidated financial statements, depending on whether
+the underlying performance obligation has been satisfied. Contract
+liabilities Contract
+liabilities consist of advance payments that are received in advance of the Company’s performance. The Company’s contract
+liabilities are reported on a contract-by-contract basis at the end of each reporting year. The Company classifies contract liabilities
+as current when the term of the applicable subscription period or expected completion of the performance obligation is one year or less. Cost
+of Revenue Cost
+of revenue primarily consists of expenses related to hosting the Company’s service and analyst salaries that directly benefit sales.
+These expenses are comprised of hosted data center global costs, fees paid to third-party data providers and personnel-related costs
+directly associated with research reports, including salaries and benefits. These
+costs are incurred to support the production and delivery of the Company’s research reports, data platforms, and other customer-facing
+services. Capital
+Stock Common
+shares are classified as shareholders’ equity. Transaction costs directly attributable to the issue of common shares and share
+purchase options are recognized as a deduction from equity, net of any tax effects. Warrants The
+Company performs an assessment of warrants upon issuance to determine their proper classification in the financial statements based on
+the warrant’s specific terms, in accordance with the authoritative guidance provided in Financial Accounting Standards Board (“FASB”)
+Accounting Standards Codification (“ASC”) 480 Distinguishing Liabilities from Equity, and ASC 815 Derivatives and Hedging.
+The assessment considers whether the warrants are freestanding financial instruments pursuant to ASC 480 and whether they meet all of
+the requirements for equity classification under ASC 815, including whether the warrants are indexed to the Company’s own common
+stock and whether the warrant holders could potentially require cash settlement of the warrants. For
+issued warrants that meet all the criteria for equity classification, the warrants are required to be recorded as a component of
+additional paid-in capital. For issued warrants that do not meet all the criteria for equity classification, the warrants are
+required to be liability-classified and recorded at their initial fair value on the date of issuance and remeasured at fair value at
+each balance sheet date thereafter. The Company has performed an assessment of all warrants issued and determined that the
+Company’s warrants are equity-classified as of September 30, 2025. Related
+parties The
+Company adopted ASC 850, Related Party Disclosures, for the identification of related parties and disclosure of related party transactions. F- 11 Fair
+Value Measurement Fair
+value is the price that would be received from selling an asset or paid to transfer a liability in an orderly transaction between market
+participants at the measurement date. When determining the fair value measurements for assets and liabilities required or permitted to
+be recorded at fair value, the Company considers the principal or most advantageous market in which it would transact and it considers
+assumptions that market participants would use when pricing the asset or liability. The
+established fair value hierarchy requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs
+when measuring fair value. A financial instrument’s categorization within the fair value hierarchy is based upon the lowest level
+of input that is significant to the fair value measurement. The three levels of inputs that may be used to measure fair value are as
+follows: Level
+1: Quoted prices (unadjusted) in active markets for identical assets or liabilities. Level
+2: Observable, market-based inputs, other than quoted prices, in active markets for identical assets or liabilities. Level
+3: Unobservable inputs to the valuation methodology that are significant to the measurement of the fair value of the assets or liabilities. The
+Company’s financial instruments include cash, payable and accrued liabilities and due to related parties. The carrying amounts
+of these accounts approximate their fair values due to the short-term nature of these instruments. The
+Company noted no transfers between levels during any of the years presented. The Company did not have any instruments that were measured
+at fair value on a recurring nor non-recurring basis as of September 30, 2025 and 2024. Income
+taxes Current
+tax Current
+tax consists of current tax payable based on the Company’s taxable income for the year. The Company’s liability for current
+tax is calculated using tax rates that have been enacted or substantively enacted by the end of the reporting year. Deferred
+tax Deferred
+tax assets and liabilities are determined based on the difference between the financial statement carrying amounts and the tax bases
+of assets and liabilities using enacted tax rates in effect for the year in which the differences are expected to affect taxable income.
+Valuation allowances are established when necessary to reduce deferred tax assets to the amounts that are more likely than not to be
+realized. Loss
+per share The
+Company presents basic and diluted loss per share data for its common shares. Basic loss per share is calculated by dividing the net
+loss attributable to common shareholders of the Company by the weighted average number of common shares outstanding during the year,
+adjusted for own shares held. Diluted loss per share is determined by dividing the net loss attributable to common shareholders by the
+weighted average number of common shares outstanding, adjusted for own shares held and for the effects of all potential dilutive common
+shares related to outstanding stock options and warrants issued by the Company for the periods presented, except if their inclusion is
+anti-dilutive. Recent
+Accounting Pronouncements Recently
+adopted accounting pronouncements The
+Company considers the applicability and impact of all accounting standards updates (“ASUs”). Management periodically reviews
+new accounting standards that are issued. F- 12 In
+November 2023, the FASB issued ASU No. 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures. The amendments
+are intended to improve the transparency and decision usefulness of segment information by requiring enhanced disclosures about significant
+segment expenses and more consistent information in interim periods. The amendments are effective for the Company for fiscal year beginning
+after December 15, 2023, and for interim periods beginning after December 15, 2024. Early adoption is permitted. The Company adopted
+ASU 2023-07 on October 1, 2024 on a retrospective basis. The adoption did not have an impact on the consolidated financial statement
+but resulted in expanded segment disclosures. Recently
+Issued Accounting Pronouncements In
+December 2023, the FASB issued ASU 2023-09, “Income Taxes (Topic 740): Improvements to Income Tax Disclosures” (“ASU
+2023-09”). This ASU requires that public business entities must annually “(1) disclose specific categories in the rate reconciliation
+and (2) provide additional information for reconciling items that meet a quantitative threshold (if the effect of those reconciling items
+is equal to or greater than 5 percent of the amount computed by multiplying pretax income or loss by the applicable statutory income
+tax rate).” This ASU is effective for annual periods beginning after December 15, 2024. Early adoption is permitted. The Company
+is currently evaluating the impact of this standard but does not expect it to have a material impact on consolidated financial statements.
+The Company expects the ASU to result in expanded disclosures regarding income taxes. In
+November 2024, the FASB issued ASU 2024-03, “Income Statement—Reporting Comprehensive Income (Subtopic 220-40): Disaggregation
+of Income Statement Expenses.” This pronouncement introduces new disclosure requirements aimed at enhancing transparency in financial
+reporting by requiring disaggregation of specific income statement expense captions. Under the new guidance, entities are required to
+disclose a breakdown of certain expense categories, such as: employee compensation; depreciation; amortization, and other material components.
+The disaggregated information can be presented either on the face of the income statement or in the notes to the financial statements,
+often using a tabular format. The ASU is effective for fiscal years beginning after December 15, 2025, and interim periods within those
+fiscal years. Early adoption is permitted. The Company is currently evaluating these new disclosure requirements. In
+September 2025, the FASB issued ASU 2025-06, Intangibles - Goodwill and Other - Internal-Use Software (Subtopic 350-40): Targeted Improvements
+to the Accounting for Internal-Use Software (“ASU 2025-06”). ASU 2025-06 amends the guidance in ASC 350-40, Intangibles—Goodwill
+and Other—Internal-Use Software. The amendments modernize the recognition and disclosure framework for internal-use software costs,
+removing the previous “development stage” model and introducing a more judgment-based approach. ASU 2025-06 is effective
+for fiscal years beginning after December 15, 2027 and for interim periods within those annual reporting periods, with early adoption
+permitted. The Company is currently evaluating the impact of ASU 2025-06 on its consolidated financial statements. The
+Company does not believe other recently issued but not yet effective accounting standards, if currently adopted, would have a material
+effect on the Company’s consolidated balance sheets, statements of income (loss) and comprehensive income (loss) and statements
+of cash flows. F- 13 NOTE
+3 — CONTRACT LIABILITIES Contract
+liabilities consist of the unearned portion of customer billings, which is recognized as revenue in accordance with our revenue recognition
+policy. The Company classifies contract liabilities as a current liability on the consolidated balance sheets because the longest
+subscription plan is for twelve months. The movement of contract liabilities for the years ended September 30, 2025 and 2024 are as follows: SCHEDULE
+OF CONTRACT LIABILITIES For
+    the Year ended September 30, 2025 For
+    the Year ended September 30, 2024 Opening balance $ 380,077 $ 403,440 Additional contract liabilities accrual 1,358,557 1,416,733 Revenue recognized from opening contract
+    liabilities ( 380,077 ) ( 403,440 ) Revenue recognized
+    from current year billings ( 999,928 ) ( 1,036,657 ) Ending
+    balance $ 358,628 $ 380,077 Remaining
+Performance Obligations The Company applies the practical expedient in ASC 606-10-50-14, which allows an entity not to disclose the value of remaining performance
+obligations for contracts with an original expected term of one year or less. Because all of the Company’s customer contracts have
+original expected durations of one year or less, the Company has elected this practical expedient and, accordingly, does not disclose
+information about remaining performance obligations. NOTE
+4 — COST OF SALES Cost
+of revenue consists primarily of managed hosting providers, other third-party service providers, and employee-related costs including
+payroll and benefits for our research analysts. SCHEDULE OF COST OF SALES September
+    30, 2025 September
+    30, 2024 Personnel related cost $ 353,313 $ 385,458 Bloomberg data and hosting 30,050 41,498 IT services and other 20,018 18,510 Total $ 403,381 $ 445,466 NOTE
+5- GENERAL AND ADMINISTRATIVE EXPENSES General
+and administrative expense consist primarily of legal and professional services provided by various consultants, salaries and wages
+including executive and director compensation and other admin costs. SCHEDULE
+OF GENERAL AND ADMINISTRATIVE EXPENSES September
+    30, 2025 September
+    30, 2024 Legal & Professional Fees $ 2,041,368 $ 1,072,363 Salaries & Benefits 893,764 364,774 Other 688,783 216,486 Total $ 3,623,915 $ 1,653,623 NOTE
+6 — PREPAID EXPENSES The
+prepaid expenses as of September 30, 2025 and September 30, 2024, were as follows: SCHEDULE OF PREPAID EXPENSES September
+    30, 2025 September
+    30, 2024 Software license and prepaid rent $ 16,673 $ 10,000 SEC filing fees 49,675 4,728 D&O Insurance 282,066 - Other 16,659 4,558 Total $ 365,073 $ 19,286 F- 14 NOTE
+7 — PAYABLES AND ACCRUED LIABILITIES The
+trade payables and accrued liabilities as of September 30, 2025 and September 30, 2024, were as follows: SCHEDULE OF TRADE PAYABLES AND ACCRUED LIABILITIES September
+    30, 2025 September
+    30, 2024 Accounts payable $ 67,430 $ 1,186 Accrued liabilities 21,021 19,817 Other payables 34,806 10,329 Total $ 123,257 $ 31,332 NOTE
+8 — EQUITY A)
+Shares Issued for Service Agreements On
+August 25, 2023, the Company entered into a project development agreement with Wuyao Safety Technology (“Wuyao”). Under this
+agreement, the Company will issue 208,333 shares of Common Stock for an aggregate total value of $ 250,000 , to settle the services provided
+by Wuyao. For the year ended September 30, 2024, the Company issued 138,889 shares of Common Stock to Wuyao and recognized $ 100,000 as
+share-based compensation expense. On
+October 31, 2023, the Company issued 16,071 shares of Common Stock with a value of $ 0.84 per share to settle the services provided by
+Research Capital Corporation, for an aggregate total value of $ 13,500 . On
+November 21, 2023, the Company issued 50,896 shares of Common Stock with a value of $ 0.84 per share to settle the services provided by
+Monic Wealth Solutions Ltd. (a related party), for an aggregate total value of $ 42,753 . No shares were issued for Service Agreement for the year ended September 30, 2025. B)
+Non-brokered Private Placements On
+October 31, 2023, the Company entered into a non-brokered private placement to issue 1,339,293 shares of common stock at a price of $ 0.84 per share for aggregate gross proceeds of $ 1,125,007 . The transaction closed in two tranches, with the first closing October 31, 2023,
+and the second on November 21, 2023. The transaction incurred share issuance costs of $ 36,210 , which included bank transaction fees and
+finder commissions. On
+June 18, 2024, the Company entered into a non-brokered private placement to issue 500,001 shares of common stock at a price of $ 0.84 per share for aggregate gross proceeds of $ 420,001 . The transaction was closed on June 18, 2024, with share issuance cost of $ 3,136 ,
+which included bank transaction fees and finder commissions. The shares issued in the private placements described
+above were originally issued at a price of $ 0.70 per share prior to the Company’s 1.2-for-1 reverse stock split effective on January 15,
+2025. Accordingly, the share counts and per-share prices disclosed above give effect to the reverse stock split. The
+Company did not conduct any private placements during the year ended September 30, 2025. C)
+Reverse Stock Split On
+January 15, 2025, the Company’s board of directors approved a share consolidation of the Company’s common shares at a ratio
+of 1.2-for-1 reverse split , effective on January 15, 2025. As a result of the share consolidation, every 1.2 common shares outstanding
+automatically combined and converted into 1 issued and outstanding common share , without any action required from shareholders. The par
+value and the authorized number of common shares remained unchanged. All
+share and per-share information included in the consolidated financial statements and notes thereto have been retroactively adjusted
+for the 1.2-for-1 reverse split occurred on the first day of the first year presented. As
+of September 30, 2025, and September 30, 2024, the Company had 12,101,273 and 10,031,273 shares of Common Stock issued and outstanding,
+respectively. F- 15 D)
+IPO The
+registration statement for the Company’s IPO was declared effective on April 9, 2025. We consummated our IPO on April 11, 2025,
+with the issuance of 1,800,000 shares of the Company’s common stock, par value $ 0.001 per share at a public offering price of $ 4.30 per share, generating gross proceeds of $ 7,740,000 . In connection with the IPO, we granted the underwriters an over-allotment option
+to purchase up to 270,000 additional shares of Common Stock at the same public offering price. On April 16, 2025, the IPO Over-Allotment
+Option was fully exercised, resulting in additional gross proceeds of $ 1,161,000 . With the full exercise of the IPO Over-Allotment Option,
+the total gross proceeds from the IPO amounted to $ 8,901,000 , before deducting underwriting discounts, commissions, and offering expenses.
+Total share issuance cost incurred for same is $ 1,661,437 . E) Underwriters’ Warrants In
+connection with the Company’s IPO and the IPO Over-Allotment Option, the Company issued to the representatives of the underwriters,
+or their permitted designees, warrants (the “Underwriters’ Warrants”) to purchase 144,900 shares of the Company’s common stock (representing 7%
+of the total shares sold in the offering) at an exercise price of $ 4.30 per share (the public offering price). The Underwriters’
+Warrants become exercisable 180 days after the IPO closing date and have a term of five ( 5 )
+years from the commencement of sales of the securities in the offering. The issuance of these warrants represented additional compensation
+to the underwriters for services rendered in connection with the IPO. The
+Company performs an assessment of Underwriters’ Warrants upon issuance to determine their proper classification in the financial
+statements based on the warrant’s specific terms, in accordance with the authoritative guidance provided in Financial Accounting
+Standards Board (“FASB”) Accounting Standards Codification (“ASC”) 480 Distinguishing Liabilities from Equity,
+and ASC 815 Derivatives and Hedging. The assessment considers whether the warrants are freestanding financial instruments pursuant to
+ASC 480 and whether they meet all of the requirements for equity classification under ASC 815, including whether the warrants are indexed
+to the Company’s own common stock and whether the warrant holders could potentially require cash settlement of the warrants. The
+company has concluded that the Underwriters’ Warrants are equity classified. Accordingly, the Underwriters’ Warrants
+were recorded within shareholders’ equity in additional paid-in capital (“APIC”) . However as the warrants
+are incremental and directly attributable to the IPO, the Company recorded the fair value of the Underwriters’ Warrants
+as an equity issuance cost as a reduction of APIC. As the result, no net impact to total APIC. The Underwriters’
+Warrants were valued at $ 302,751 based
+on a Black-Scholes valuation with the following assumptions (Risk-free interest rate: 4.30 %;
+expected life of warrants: 5 years;
+estimated volatility: 50 %;
+dividend rate: 0 %). A
+summary of the warrants’ movement schedule is as follows: SCHEDULE OF WARRANT ACTIVITY Warrants
+    Outstanding Number
+    of Shares Weighted
+    average exercise price Weighted
+    average remaining life Aggregate
+    intrinsic value Outstanding - September 30,
+    2024 - $ - - $ - Granted 144,900 4.3 4.53 - Exercised - - - - Forfeited - - - - Expired - - - - Outstanding
+    - September 30, 2025 144,900 $ 4.3 4.53 $ - F- 16 NOTE
+9 — SEGMENTED INFORMATION Operating
+segments The
+Company operates primarily in one principal business, that being the development, marketing and support management of the Company’s
+cloud-based platform. 100% of the revenue and non-current assets are in the United States. NOTE
+10 — PROPERTY AND EQUIPMENT, NET Property
+and equipment, net consisted of the following: SCHEDULE OF PROPERTY AND EQUIPMENT, NET September
+    30, 2025 September
+    30, 2024 Computer equipment $ 16,982 $ 16,982 Add: Additions 1,817 - Less: Accumulated depreciation 14,730 13,667 Property
+    and equipment, net $ 4,069 $ 3,315 Depreciation
+expenses totaled $ 1,063 and $ 2,094 during the years ended September 30, 2025 and 2024, respectively. NOTE
+11 — INTANGIBE ASSETS Intangible
+assets consisted of the following: SCHEDULE
+OF INTANGIBLE ASSETS September
+    30, 2025 September
+    30, 2024 Tradenames $ 24,350 $ - Domain name 8,500 - Subscriber List 5,000 - Content Library 1,600 - Vendor/platform rights 900 - Writer relationship 200 - Non-competition agreement 300 - Intangible
+    assets $ 40,850 $ - As
+at September 30, 2025, the weighted-average life for each of the total finite-lived intangible assets is approximately 2.2 years (2024: 0 year). No amortization expenses were recorded for the years ended September 30, 2025 and 2024. As
+of September 30, 2025, the estimated aggregate amortization expense of identifiable intangible assets for each of the next three fiscal
+years is as shown below: SCHEDULE
+OF ESTIMATED AGGREGATE AMORTIZATION EXPENSE OF IDENTIFIABLE INTANGIBLE ASSETS Estimated amortization expenses 2026 $ 4,200 2027 2,800 2028 1,000 No impairment indicators were identified as of September 30, 2025. F- 17 NOTE
+12 — RELATED PARTY TRANSACTIONS Related
+parties include key management personnel, their close family members and entities under their control or joint control. Key management
+personnel are those having authority and responsibility for the planning, directing and controlling the activities of the entity, directly
+or indirectly. The Company defines key management personnel as the Company’s C-level executives and Board of Directors. The Company’s
+relationship with related parties who had transactions with the Company are summarized as follows: SCHEDULE OF RELATED PARTIES
+TRANSACTIONS Related
+    Party Relationship
+    with the Company Qian
+    Zhang Former
+    Director and CEO of Sundial from May 31, 2023 to July 10, 2024; Operating Officer (“COO”) of Sundial since July 10, 2024
+    Former Director and Interim CEO of Aether from August 25, 2023 to September 11, 2023 Hao
+    Hu Chief
+    Information Officer (“CIO”) of Sundial since March 15, 2023; Director of Sundial since September 9, 2023; Interim Chief
+    Executive Officer of Sundial since July 10, 2024; Former Director and CTO of Aether from August 25, 2023 to September 11, 2023 Nicolas
+    Kuan Liang Lin Interim
+    CEO from September 11, 2023, to April 1, 2024, CEO since April 1, 2024, and Director of Aether since August 25, 2023 David
+    Chi Ching Ho Chief
+    Strategy Officer (“CSO”) since April 1, 2024 Siu
+    Hang (Henry) Wong Director
+    of Business Development since December 1, 2024 to February 1, 2025 Former Chief Operating Officer (“COO”) from June 1,
+    2024 to November 20, 2024 Elixir
+    Technology Inc. Aether’s
+    principal common shareholder Jaclyn
+    Wu Director
+    of Sundial since August 16, 2022; Director of Aether from August 25, 2023, to December 14, 2025. Monic
+    Wealth Solutions Ltd. Owned
+    by Jaclyn Wu, a former director of Aether and current director of Sundial. Ledger
+    Pros LLC Owned
+    by Suresh R. Iyer, the Chief Financial Officer (“CFO”) since May 16, 2024 Suresh
+                                            R. Iyer Chief
+                                            Financial Officer (“CFO”) since May 16, 2024 WUYAO
+    Safety Technology (Hang Zhou) Co., Ltd Hao
+    Hu, CTO of Aether, CIO and Interim CEO of Sundial is Director of Wuyao since June 2025 and had Controlling Ownership of same for the
+    period June 20, 2025 to October 30, 2025. Monic
+    Financial Group Owned
+    by Jaclyn Wu, a former director of Aether and current Director of Sundial. F- 18 Related
+Party transactions A)
+Due to related parties The
+Company’s balances due to related parties as of September 30, 2025 and 2024, were $ 37,193 and $ 191,952 respectively, which are unsecured,
+interest-free and due on demand. B)
+Services rendered from related party During
+the year ended September 30, 2024, the Company issued 50,896 shares of Common Stock, valued at $ 0.84 per share, as compensation for consulting
+services provided by Monic Wealth Solutions Ltd., for a total value of $ 42,753 . (See Note 8A). No shares were issued to Monic Wealth
+Solutions Ltd. for the year ended September 30, 2025. During
+the year ended September 30, 2024, the Company incurred $ 50,127 for the marketing and sales channel services provided by Monic Wealth
+Solutions Ltd. During the year ended September 30, 2025, the Company incurred $ 0 for the for the marketing and sales channel services
+provided by Monic Wealth Solutions Ltd. During
+the year ended September 30, 2025, the Company incurred $ 18,600 for the accounting services provided by Ledger Pros LLC. During the year
+ended September 30, 2024, the Company incurred $ 3,150 for the accounting services provided by Ledger Pros LLC. During
+the year ended September 30, 2025, the Company received sponsorship income of $ 15,000 from Monic Financial Group for Alpha Edge Summit
+in Hong Kong. During
+the year ended September 30, 2025, the Company incurred $ 82,700 for the services provided by WUYAO Safety Technology (Hang Zhou) Co.
+Ltd for the period it was related party. C)
+Compensation of Key Management Personnel Compensation
+paid to key management personnel for services rendered totaled $ 821,362 and $ 508,061 for the years ended September 30, 2025 and 2024,
+respectively. These amounts represent salaries and other employee benefits provided in the normal course of employment. F- 19 NOTE
+13 — INCOME TAXES The
+Company is subjected to a combined effective tax rate for federal and state income taxes of 30.8 % and state minimum fee. The
+deferred tax assets and liabilities were estimated for further tax consequences attributable to differences between the financial statement
+carrying amounts of the Company’s existing assets and liabilities and their respective tax bases. The deferred tax assets and liabilities
+were measured using tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be
+recovered or settled. For
+the year ended September 30, 2025, the Company incurred $ 5,298 in tax expenses. No amounts were incurred for income tax uncertainties
+or interest and penalties during these years. As of September 30, 2025 the Company did not have an accrued liability for uncertain
+tax positions and does not anticipate recognition of any significant liabilities for uncertain tax positions during the next 12 months.
+The Company is currently not aware of any issues under review that could result in significant payments, accruals, or material deviation
+from its position. The Company’s tax years since its formation remain subject to possible income tax examination by its major taxing
+authorities for all periods. No
+provision for income tax was made for the year ended September 30, 2025 and 2024. The
+following table reconciles income taxes based on the U.S. statutory tax rate to the Company’s income tax expense: SCHEDULE OF RECONCILES INCOME TAXES For
+    the Year ended September
+    30, 2025 September
+    30, 2024 Loss before income tax $ ( 3,136,013 ) $ ( 939,436 ) Statutory tax rate 30.80 % 30.80 % Tax at the domestic income tax rate ( 965,892 ) ( 289,346 ) State Minimum fee 240 240 State Franchise Tax 5,298 - Tax effect of tax losses not recognized 931,755 275,735 Non-deductible expenses ( 49 ) 1,387 Difference in state tax
+    rate 33,946 11,984 Total income tax expense 5,298 - Significant
+components of deferred income tax assets and liabilities were as follows: SCHEDULE
+OF DEFERRED INCOME TAX ASSETS AND LIABILITIES September
+    30, 2025 September
+    30, 2024 Tax Loss Carry forward 1,299,283 367,528 Valuation allowance for
+    deferred tax assets ( 1,299,283 ) ( 367,528 ) Total
+    deferred income tax assets (liabilities) $ - $ - As
+of September 30, 2025 and 2024, there was net operating loss (“NOL”) carry forward of $ 4,380,306 and $ 1,244,454 respectively
+and they can be carried forward indefinitely. In assessing the recovery of the deferred tax assets, management considers whether it is
+more likely than not that some portion or all the deferred tax assets will not be realized. The ultimate realization of deferred tax
+assets is dependent upon the generation of future taxable income in the periods in which those temporary differences become deductible.
+Management considers the scheduled reversals of future deferred tax assets, projected future taxable income, and tax planning strategies
+in making this assessment. As a result, management determined it was more likely than not the deferred tax assets would not be realized
+as of September 30, 2025 and 2024. F- 20 NOTE
+14 — CREDIT RISK AND CONCENTRATION The
+Company’s risk exposures and the impact on the Company’s financial instruments are summarized below: Credit
+risk Credit
+risk is the risk of loss associated with a counter-party’s inability to fulfil its payment obligations. The Company’s credit
+risk is primarily attributable to cash. As of September 30, 2025 and 2024, substantially all of the Company’s cash was held in
+major financial institutions located in the United States, which are FDIC-insured and management considers to be of high credit quality. The
+maximum exposure of such assets to credit risk is their carrying amounts at the balance sheet dates. The Company maintains its bank accounts
+at financial institutions in the United States, where there is a $ 250,000 standard deposit insurance coverage limit per depositor, per
+FDIC-insured bank and per ownership category. As of September 30, 2025 and 2024, cash balances of $ 4,258,605 and $ 365,433 , respectively,
+were maintained at financial institutions in the US. The remaining balances of $ 159,564 and $ 192,389 , respectively, were maintained in
+payment processing accounts with services such as Mercury, PayPal and Stripe. While management believes that the financial institutions
+and payment processors used by the Company are of high credit quality, it also continually monitors their creditworthiness. Liquidity
+risk Liquidity
+risk arises through the excess of financial obligations over available financial assets due at any point in time. The Company’s
+approach to managing liquidity risk is to ensure that it will have sufficient liquidity to meet liabilities when they come due. All of
+the Company’s financial liabilities are subject to normal trade terms. The Company has historically funded the working capital
+needs primarily from operations, as well as advances from related parties. The
+Company has incurred a loss since inception resulting in an accumulated deficit. However, following the successful completion of its
+IPO on April 11, 2025 and closing of the IPO Over-Allotment Option on April 16, 2025, which collectively generated aggregate gross proceeds
+of $ 8,901,000 , the Company’s management believes that it is adequately capitalized to meet its obligations as they become due.
+Based on the current financial position, available capital resources and planned operating activities, management believes there is no
+substantial doubt about the Company’s ability to continue as a going concern. The ability to continue as a going concern depends
+on the Company’s ability to generate revenue and profit in the future and/or to obtain necessary financing to meet its obligations
+and repay its liabilities arising from normal business operations when they come due. Management intends to finance operating costs over
+the next twelve months primarily through use of the IPO proceeds and, if needed, additional financings from the public and private offerings
+of securities. Market
+risk Market
+risk is the risk of loss that may arise from changes in market factors such as interest rates, foreign exchange rates, and commodity
+and equity prices. These market factors are not expected to pose significant risks to the Company. Concentration
+risk For
+purposes of assessing the concentration of credit risk and significant customers, a group of customers under common control or customers
+that are affiliates of each other are regarded as a single customer. Additionally, there were no customers that represented 10 % or more
+of the Company’s revenue for the year ended September 30, 2025, or the year ended September 30, 2024. F- 21 NOTE
+15 — COMMITMENTS AND CONTINGENCIES From
+time to time, the Company may be involved in litigation relating to claims arising out of its operations in the normal course of business.
+There are no pending lawsuits that could reasonably be expected to have a material effect on the results of its operations and there
+are no proceedings in which any of the Company’s directors, officers, or affiliates, or any registered or beneficial stockholder,
+is an adverse party or has a material interest adverse to the Company’s interest. In
+July 2025, the Company entered into a binding agreement to acquire a property. Pursuant to the terms of the purchase agreement, the Company
+remitted a deposit of $ 108,000 during the year ended September 30, 2025 and recorded as property acquisition deposit in the consolidated
+balance sheets. The remaining purchase consideration of $ 972,000 is contractually payable on the closing date, subject to the satisfaction
+of the closing conditions precedent. NOTE
+16 — SUBSEQUENT EVENTS On
+October 14, 2025, the Company incorporated a new wholly owned subsidiary, 537 Greenwich LLC, under the laws of the State of Delaware.
+The subsidiary was established for the purpose of acquiring and holding office space in New York, which will be purchased and owned by
+537 Greenwich LLC. On
+October 15, 2025, the Company announced the acquisition of 21Bitcoin.xyz, a digital platform that autonomously generates and distributes
+real-time market intelligence through an advanced AI-powered publishing engine. 21Bitcoin provides extensive coverage of the digital
+asset landscape, including market trends, blockchain innovation, industry developments, regulatory policy, decentralized finance (DeFi),
+non-fungible tokens (NFTs), the metaverse, Web3 infrastructure, cybersecurity, privacy, and global adoption trends. The integration of
+21Bitcoin into Alpha Edge Media is expected to deepen the Company’s coverage for both institutional and retail readers by combining
+algorithmic precision with editorial context Between
+October 1, 2025, and the date that the consolidated financial statements were issued, 65,205 underwriter warrants with an exercise price of $ 4.30 per share were exercised on a cashless basis to purchase 16,313 Common Stock. F- 22
+

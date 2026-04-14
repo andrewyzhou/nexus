@@ -1,0 +1,593 @@
+EX-2.1
+3
+suzanofy2025xex21xdescript.htm
+EX-2.1
+Document
+Exhibit 2.1
+DESCRIPTION OF SECURITIES REGISTERED UNDER SECTION 12 OF THE EXCHANGE ACT
+As of December 31, 2025, Suzano S.A. (“Suzano,” the “Company,” “we,” “us,” and “our”) had the following classes of securities registered pursuant to Section 12(b) of the Exchange Act:
+#
+Title of each class
+Trading symbol(s)
+Name of each exchange on which registered
+I
+Our common shares without par value*
+SUZB3/ SUZ
+NYSE
+II
+American Depositary Shares, or ADSs,**
+each representing one of our common shares
+SUZB3/ SUZ
+NYSE
+III
+6.000% Notes due 2029, issued by Suzano Austria GmbH
+SUZ/29
+NYSE
+5.000% Notes due 2030, issued by Suzano Austria GmbH
+SUZ/30
+NYSE
+3.750% Notes due 2031, issued by Suzano Austria GmbH
+SUZ/31
+NYSE
+3.125% Notes due 2032, issued by Suzano Austria GmbH
+SUZ/32
+NYSE
+2.500% Notes due 2028, issued by Suzano Austria Gmb
+SUZ/28
+NYSE
+5.500 % Notes due 2036, issued by Suzano Netherlands B.V.
+SUZ/36
+NYSE
+*
+Not for trading purposes but only in connection with the registration on the New York Stock Exchange of American Depositary Shares representing those common shares.
+**    Evidenced by American Depositary Receipts, or ADRs.
+Capitalized terms used but not defined herein have the meanings assigned to them in our annual report on Form 20-F for the fiscal year ended December 31, 2025, unless otherwise indicated herein.
+[AM_ACTIVE 406907653_1]
+I.
+COMMON SHARES
+The following description of our share capital and certain material provisions of our corporate rules is a summary and does not purport to be complete.  It is subject to, and qualified in its entirety by, our bylaws, Brazilian Corporate Law and any other applicable law concerning Brazilian companies, as amended from time to time.
+A copy of our bylaws is attached to our annual report as Exhibit 1.1.  We encourage you to read our bylaws and the applicable sections of our annual report for additional information.
+Share Capital
+Our capital stock is composed of common shares, all without par value and denominated in
+reais
+. As of December 31, 2025 our share capital, including shares in treasury, was represented by 1,264,117,615 common shares.
+In addition to the negotiation in the U.S., as detailed in item II below, our common shares are negotiated on the B3 (ticker symbols SUZB3).  All of our shares are registered in book-entry form on behalf of their holders, without share certificates, and Itaú Corretora de Valores S.A. performs services of safe-keeping and transfer of shares.  To make the transfer, Itaú Corretora de Valores S.A. makes an entry in the register, debits the share account of the transferor and credits the share account of the transferee.
+Pursuant to CVM regulations, any Brazilian public company’s (i) direct or indirect controlling shareholders, (ii) shareholders who have elected members of such company’s board of directors or fiscal council, as well as (iii) any person or group of persons representing the same interest, in each case that has directly or indirectly acquired or sold an interest that exceeds (either upward or downward) the threshold of 5%, or any multiple thereof, of the total number of shares of any type or class, must disclose such shareholder’s or person’s share ownership or divestment, immediately after the acquisition or sale, to the CVM and the B3.
+Changes to Our Share Capital
+Each of our shareholders has a general preemptive right to subscribe for shares or convertible securities in any capital increase, in proportion to its shareholding, except (i) by sale on a stock exchange or by public subscription, (ii) pursuant to an exchange for shares in a public offer for the acquisition of control, in accordance with the Brazilian Corporate Law, (iii) for subscription of shares in accordance with the special law for tax incentives, (iv) conversion of debentures and other securities into shares, since, in these cases, the preemptive right must be exercised when the security is issued, (iv) in the event of the grant and exercise of any stock option to acquire or subscribe for shares of our capital stock; and (v) in the context of a capital increase derived from merger, merger of shares and/or spin-off implemented according to Brazilian Corporation Law.  A minimum period of 30 days following the publication of notice of the issuance of shares or convertible securities is allowed for exercise of the right, and the right is negotiable.  However, according to our bylaws, our board of directors can eliminate this preemptive right or reduce the 30-day period in case we issue debentures that are convertible into shares, warrants (
+bônus de
+2
+[AM_ACTIVE 406907653_1]
+subscrição
+) or shares within the limits authorized by the bylaws and the Brazilian Corporate Law: (i) through a stock exchange or through a public offering or (ii) through an exchange of shares in a public offering to acquire control of another publicly-held company.
+Any shareholders’ resolution must satisfy the quorum and all other legal requirements established in the Brazilian Corporate Law and in our bylaws.  No shareholder is liable to make any further contribution to our capital stock other than with respect to the liability to pay the issue price of the shares subscribed or acquired by such shareholder.
+Dividends
+Our dividend payments are subject to the provisions of Brazilian Corporate Law, applicable local laws and regulations and our bylaws. Our distributions can include dividends or interest on net equity (
+juros sobre capital próprio
+).  The payment of interest on net equity is subject to withholding income tax, pursuant to Brazilian tax laws, which is not levied upon payments of dividends.
+The profits are distributed in proportion to the number of shares owned by each shareholder on the applicable record date.  In accordance with the Brazilian Corporation Law, our bylaws require that we distribute annually to our shareholders a mandatory minimum dividend, which we refer to as the mandatory dividend, equal to at least 25% of our net income after taxes, after certain deductions, including accumulated losses and any amounts allocated to employee and management participation, any amount allocated to our legal reserve, and any amount allocated to the contingency reserve and any amount written off in respect of the contingency reserve accumulated in previous fiscal years, in each case in accordance with Brazilian law.
+Payments of dividends for each fiscal year or payment of interest on net equity must be within 60 days from the shareholders’ meeting in which the distribution was approved, unless a shareholders’ resolution determines another date, not later than the end of the fiscal year in which such dividend was declared.
+The Brazilian Corporation Law permits, however, a company to suspend the mandatory distribution of dividends if its board of directors reports to the shareholders’ meeting that the distribution would be incompatible with the financial condition of the company, subject to approval by the shareholders’ meeting and review by the fiscal council.
+The amounts available for distribution are determined on the basis of financial statements prepared in accordance with the requirements of the Brazilian Corporation Law.  In addition, amounts arising from tax incentive benefits or rebates are appropriated to a separate capital reserve in accordance with the Brazilian Corporation Law.  This investment incentive reserve is not normally available for distribution, although it can be used to absorb losses under certain circumstances or be capitalized. Amounts appropriated to this reserve are not available for distribution as dividends.
+3
+[AM_ACTIVE 406907653_1]
+The Brazilian Corporation Law permits a company to pay interim dividends out of preexisting and accumulated profits for the preceding fiscal year or semester, based on financial statements approved by its shareholders.  We may prepare financial statements semiannually or for shorter periods.  Our board of directors may declare a distribution of dividends based on the profits reported in semiannual financial statements.  Our board of directors may also declare a distribution of interim dividends based on profits previously accumulated or in profits reserve, which are reported in such financial statements or in the last annual financial statement approved by resolution taken at a shareholders’ meeting.
+If any dividend has not been claimed for 3 years after the date such dividend became due for payment, it will be forfeited and will revert to us.
+Voting Rights
+Our annual shareholders’ meeting takes place at our headquarter, in Bahia, Brazil, in April of each year.  Additionally, our board of directors or, in some specific situations set forth in Brazilian Corporate Law, our shareholders or our fiscal council, may call our extraordinary shareholders’ meetings.
+Holders of our common shares are entitled to one voting right for each unit of common shares held.
+Generally, the quorum required to hold shareholders’ meetings is at least ¼ of our issued and outstanding common shares, except as provided for by Brazilian Corporate Law and our bylaws in relation to decisions regarding certain matters.  Decisions are made by simple majority, except where Brazilian Corporate Law or our bylaws provide for a different quorum.
+Certain matters require majority quorum for approval, including any amendment to our bylaws and the issuance of new shares.  In addition, the appointment of a specialized firm to prepare an appraisal report of our shares in case of cancellation of our registration as a publicly-held company requires a special quorum, pursuant to the terms of B3 regulations.
+Under Brazilian Corporate Law, minority shareholders representing at least 5% of our voting capital stock have the right to demand a cumulative voting procedure to elect a member of our board of directors.
+Restrictions on Non-Brazilian Holders
+There are no restrictions on ownership of our common shares by individuals or legal entities domiciled outside Brazil.  Foreign investors may trade their shares through ADSs on the NYSE or directly on the B3.
+However, the right to convert dividend payments and proceeds from the sale of common shares into foreign currency and to remit such amounts outside Brazil is subject to exchange control restrictions and foreign investment legislation, which generally require, among other things, obtaining an electronic registration with the Central Bank of Brazil.  Nonetheless, any non-
+4
+[AM_ACTIVE 406907653_1]
+Brazilian holder who registers with the CVM may use the dividend payments and proceeds from the sale of shares to buy and sell securities directly on the B3.
+Liquidation Rights
+We can only be dissolved by shareholders’ resolution passed by at least 50% of our share capital.  In the event of our liquidation, after payment of all liabilities, the balance of assets available for distribution will be distributed among the shareholders, each receiving a sum on a
+pro rata
+basis.
+Right to Withdraw
+Subject to Brazilian Corporate Law, our shareholders have the right to withdraw their equity interests and receive the relevant payment for their shares in case such shareholders are adversely affected by specific resolutions from shareholders’ meeting, as well as if after a corporate reorganization involving us, the resulted entity does not negotiate new shares in the secondary market.  This withdraw right may be exercised by dissenting or non-voting shareholders, if the relevant resolution is authorized by the vote of at least 50% of voting shares.
+The right of withdrawal lapses 30 days after publication of the minutes of the relevant shareholders’ meeting.  We would be entitled to reconsider any action giving rise to withdrawal rights within 10 days following the expiration of such rights if the withdrawal of shares of dissenting shareholders would jeopardize our financial stability.
+Given that our bylaws do not provide for rules to determine any value for redemption, any redemption of shares arising out of the exercise of such withdrawal rights would be made generally based on the book value per share, determined on the basis of the last balance sheet approved by our shareholders.  However, if a shareholders’ meeting giving rise to redemption rights occurred more than 60 days after the latest approved balance sheet, the shareholders would be entitled to demand that their shares be valued based on a more updated balance sheet.
+Anti-Takeover Provision
+Any person who, individually or jointly with another person representing the same interests or bound by a voting agreement, subscribes, acquires or in any way becomes a direct or indirect holder in Brazil or elsewhere of a material participation in Suzano’s share capital shall, within 30 days of the date of the event that results in such person holding a material participation, commence a public tender offer for all of the outstanding Suzano shares.  A material participation is defined in Suzano’s bylaws as a stake equal to 20% or more of the total number of Suzano shares.
+The price per share of a tender offer in the event of the acquisition of a material participation will correspond to the higher of the following values:  (i) the economic value of Suzano Shares determined in a valuation report; and (ii) 145% of the highest price per Suzano Share during the 24-month period prior to the tender offer, corrected by the SELIC rate up to the time of payment.
+5
+[AM_ACTIVE 406907653_1]
+Carrying out the tender offer above will not exclude the possibility of a third party submitting a competing tender offer, in accordance with applicable law.
+For the purposes of calculating the percentage of 20% of the total of shares issued by us, involuntary increases of equity interest resulting from the cancellation of shares in treasury or redemption of shares will not be computed.  The tender offer will not be applicable to direct and indirect controlling shareholders on September 29, 2017 and their successors (as defined in our bylaws).
+In the event that a person does not comply with the tender offer obligations described above, our board of directors must call an extraordinary shareholders’ meeting, in which such person is not allowed to vote, in order to resolve on the suspension of the rights held by such person.
+Delisting from the Novo Mercado
+See Item 10. “Additional Information — B. Memorandum and Articles of Association — Delisting from the Novo Mercado” of our annual report on Form 20-F for the fiscal year ended December 31, 2025.
+Delisting as Publicly-Held Company
+See Item 10. “Additional Information — B. Memorandum and Articles of Association — Delisting as Publicly-Held Company” of our annual report on Form 20-F for the fiscal year ended December 31, 2025.
+6
+[AM_ACTIVE 406907653_1]
+II.
+AMERICAN DEPOSITARY SHARES
+The following description of the ADSs and certain material provisions of our corporate rules is a summary and does not purport to be complete.  It is subject to, and qualified in its entirety by the Deposit Agreement (as defined below), the form of ADS, which contain the terms of the ADSs, and any applicable law, as amended from time to time.
+Copies of the Deposit Agreement (as defined below) are available for inspection at the offices of our depositary.
+We encourage you to read the Deposit Agreement (defined below), the ADS form and the applicable sections of our annual report for additional information.
+General
+In the U.S., we trade ADSs representing our common shares, which are evidenced by ADRs.  The ADSs are negotiated on the NYSE.  The ADSs representing common shares are traded with ticker symbol SUZ.
+The Bank of New York Mellon acts as depositary for our ADSs (“BNYM”).  In its capacity, the depositary will register and deliver the ADSs, each representing an ownership interest in one common share deposited with the custodian, as agent of the depositary, under the amended and restated deposit agreement dated December 10, 2018 between us, the depositary, and registered holders and beneficial owners from time to time of the ADSs (the “Deposit Agreement”), and (ii) any other securities, cash or other property which may be held by the depositary.
+The principal executive office of BNYM is currently located at 240 Greenwich Street, New York, New York 10286, United States of America and the office at which the ADSs will be administered is currently located at 101 Barclay Street, New York, New York 10286, United States of America.
+You may hold ADSs either directly or indirectly through your broker or other financial institution.  If you hold ADSs directly, by having an ADS registered in your name on the books of the depositary, you are an ADS holder.  If you hold the ADSs through your broker or financial institution nominee, you must rely on the procedures of such broker or financial institution to assert the rights of an ADS holder described in this section.  You should consult with your broker or financial institution to find out what those procedures are.
+Holders of ADSs may not be able to exercise the preemptive rights relating to the common shares underlying their ADSs, unless a registration statement under the Exchange Act is effective with respect to those rights.
+The depositary will be the holder of the ordinary shares underlying the ADSs.  As a holder of ADSs, you will have ADS holder rights, which are set out in the Deposit Agreement.  The Deposit Agreement also sets out the rights and obligations of the depositary.
+7
+[AM_ACTIVE 406907653_1]
+Share Dividends and Other Distributions
+We may make various types of distributions with respect to our common shares, as detailed below. The depositary has agreed that, to the extent practicable, it will pay to ADS holders the dividends or other distributions it or the custodian receives on common shares, making any necessary deductions provided for in the Deposit Agreement.  The depositary may utilize a division, branch or affiliate of BNYM to direct, manage and/or execute any public and/or private sale of common shares under the Deposit Agreement.  Such division, branch and/or affiliate may charge the depositary a fee in connection with such sales, which fee is considered an expense of the depositary.  ADS holders will receive these distributions in proportion to the number of underlying common shares that such ADSs represent.  Except as stated below, the depositary will deliver such distributions to ADR holders in proportion to their interests in the following manner:
+●
+Cash.
+The depositary will convert any cash dividend or other cash distribution we pay on the shares into U.S. dollars, if it can do so on a reasonable basis and can transfer the U.S. dollars to the United States. If that is not possible or if any government approval is needed and cannot be obtained, the deposit agreement allows the depositary to distribute the foreign currency only to those ADS holders to whom it is possible to do so.   The depositary will hold the foreign currency it cannot convert for the account of the ADS holders who have not been paid.  The depositary will not invest the foreign currency and it will not be liable for any interest.  Before making a distribution, any withholding taxes, or other governmental charges that must be paid will be deducted.  The depositary will distribute only whole U.S. dollars and cents and will round fractional cents to the nearest whole cent.  If the exchange rates fluctuate during a time when the depositary cannot convert the foreign currency, ADS holders may lose some of the value of the distribution.
+●
+Shares.
+The depositary may distribute additional ADSs representing any shares we distribute as a dividend or free distribution.  The depositary will only distribute whole ADSs.  The depositary will sell shares which would require it to deliver a fraction of a ADS (or ADSs representing those shares) and distribute the net proceeds in the same way as it does with cash.  If the depositary does not distribute additional ADSs, the outstanding ADSs will also represent the new shares.  The depositary may sell a portion of the distributed shares (or ADSs representing those shares) sufficient to pay its fees and expenses in connection with that distribution.
+8
+[AM_ACTIVE 406907653_1]
+●
+Rights to purchase additional shares.
+If we offer holders of our securities any rights to subscribe for additional shares or any other rights, the depositary may (i) exercise those rights on behalf of ADS holders, (ii) distribute those rights to ADS holders or (iii) sell those rights and distribute the net proceeds to ADS holders, in each case after deduction or upon payment of its fees and expenses.  To the extent the depositary does not do any of those things, it will allow the rights to lapse.  In that case, ADS holders will receive no value for them.  The depositary will exercise or distribute rights only if we ask it to and provide satisfactory assurances to the depositary that it is legal to do so.  If the depositary will exercise rights, it will purchase the securities to which the rights relate and distribute those securities or, in the case of shares, new ADSs representing the new shares, to subscribing ADS holders, but only if ADS holders have paid the exercise price to the depositary.  U.S. securities laws may restrict the ability of the depositary to distribute rights or ADSs or other securities issued on exercise of rights to all or certain ADS holders, and the securities distributed may be subject to restrictions on transfer.
+●
+Other Distributions.
+The depositary will send to ADS holders anything else we distribute on deposited securities by any means it thinks is legal, fair and practical.  If it cannot make the distribution in that way, the depositary has a choice.  It may decide to sell what we distributed and distribute the net proceeds, in the same way as it does with cash.  Or, it may decide to hold what we distributed, in which case ADSs will also represent the newly distributed property.  However, the depositary is not required to distribute any securities (other than ADSs) to ADS holders unless it receives satisfactory evidence from us that it is legal to make that distribution.  The depositary may sell a portion of the distributed securities or property sufficient to pay its fees and expenses in connection with that distribution.  U.S. securities laws may restrict the ability of the depositary to distribute securities to all or certain ADS holders, and the securities distributed may be subject to restrictions on transfer.  The depositary is not responsible if it decides that it is unlawful or impractical to make a distribution available to any ADS holders.  We have no obligation to register ADSs, shares, rights or other securities under the Securities Act.  We also have no obligation to take any other action to permit the distribution of ADSs, shares, rights or anything else to ADS holders.  This means that you may not receive the distributions we make on our shares or any value for them if it is illegal or impractical for us to make them available to you.
+The depositary is not responsible if it decides that it is unlawful or impractical to make a distribution available to any ADS holders. We have no obligation to register ADSs, shares, rights or other securities under the Securities Act. We also have no obligation to take any other action to permit the distribution of ADSs, shares, rights or anything else to ADS holders. This means that ADS holders may not receive the distributions we make on our shares or any value for them if it is illegal or impractical for us to make them available to you.
+Deposit, Withdrawal and Cancellation
+The depositary will deliver ADSs if investors or their broker deposits shares or evidence of rights to receive shares with the custodian.  Upon payment of its fees and expenses and of any taxes or charges, such as stamp taxes or stock transfer taxes or fees, the depositary will register the
+9
+[AM_ACTIVE 406907653_1]
+appropriate number of ADSs in the names requested and will deliver the ADSs to or upon the order of the person or persons that made the deposit.
+ADS holders may surrender their ADSs to the depositary for the purpose of withdrawal.  Upon payment of depositary’s fees and expenses and of any taxes or charges, such as stamp taxes or stock transfer taxes or fees, the depositary will deliver the shares and any other deposited securities underlying the ADSs to the ADS holder or a person the ADS holder designates at the office of the custodian.  Or, at the ADS holder request, risk and expense, the depositary will deliver the deposited securities at its office, if feasible.  However, the depositary is not required to accept surrender of ADSs to the extent it would require delivery of a fraction of a deposited share or other security.  The depositary may charge a fee and its expenses for instructing the custodian regarding delivery of deposited securities.
+Investors may surrender their ADR to the depositary for the purpose of exchanging ADRs for uncertificated ADSs.  The depositary will cancel that ADR and will send to the ADS holder a statement confirming that the ADS holder is the registered holder of uncertificated ADSs.  Upon receipt by the depositary of a proper instruction from a registered holder of uncertificated ADSs requesting the exchange of uncertificated ADSs for certificated ADSs, the depositary will execute and deliver to the ADS holder an ADR evidencing those ADSs.
+The depositary may only restrict the withdrawal of deposited securities in connection with the reasons set forth in General Instruction I.A.(1) of Form F-6 under the Securities Act of 1933:
+●
+temporary delays caused by closing our transfer books or those of the depositary or the deposit of common or preferred shares in connection with voting at a shareholders’ meeting, or the payment of dividends;
+●
+the payment of fees, taxes and similar charges; or
+●
+compliance with any U.S. or foreign laws or governmental regulations relating to the ADRs or to the withdrawal of deposited securities.
+This right of withdrawal may not be limited by any other provision of the Deposit Agreement.
+Voting Rights
+Holders of the ADSs do not have the same voting rights as holders of our shares. Holders of the ADSs are entitled to the contractual rights set forth for their benefit under the Deposit Agreement.
+ADS holders may instruct the depositary how to vote the number of deposited shares their ADSs represent.  If we request the depositary to solicit ADS holders voting instructions (and we are not required to do so), the depositary will notify you of a shareholders’ meeting and send or make voting materials available to you.  Those materials will describe the matters to be voted on and explain how ADS holders may instruct the depositary how to vote.  For instructions to be valid, they must reach the depositary by a date set by the depositary.  The depositary will try, as far as
+10
+[AM_ACTIVE 406907653_1]
+practical, subject to the laws of Brazil and the provisions of our bylaws or similar documents, to vote or to have its agents vote the shares or other deposited securities as instructed by ADS holders.  If we do not request the depositary to solicit your voting instructions, ADS holders can still send voting instructions, and, in that case, the depositary may try to vote as you instruct, but it is not required to do so.  Except by instructing the depositary as described above, ADS holders won’t be able to exercise voting rights unless they surrender their ADSs and withdraw the shares.  However, ADS holders may not know about the meeting enough in advance to withdraw the shares.  In any event, the depositary will not exercise any discretion in voting deposited securities and it will only vote or attempt to vote as instructed, as set forth in the amended and restated deposit agreement.
+We cannot assure ADS holders that they will receive the voting materials in time to ensure that they can instruct the depositary to vote their shares.  In addition, the depositary and its agents are not responsible for failing to carry out voting instructions or for the manner of carrying out voting instructions.  This means that ADS holders may not be able to exercise voting rights and there may be nothing they can do if their shares are not voted as requested.  In order to give ADS holders a reasonable opportunity to instruct the depositary as to the exercise of voting rights relating to securities deposited with the Depositary as part of our ADR program, if we request the Depositary to act, we agree to give the depositary notice of any such meeting and details concerning the matters to be voted upon at least 45 days in advance of the meeting date.
+Amendment and Termination
+We may agree with the depositary to amend the amended and restated deposit agreement and the ADRs without your consent for any reason.  If an amendment adds or increases fees or charges, except for taxes and other governmental charges or expenses of the depositary for registration fees, facsimile costs, delivery charges or similar items, or prejudices a substantial right of ADS holders, it will not become effective for outstanding ADSs until 30 days after the depositary notifies ADS holders of the amendment.  At the time an amendment becomes effective, you are considered, by continuing to hold your ADSs, to agree to the amendment and to be bound by the ADRs and the amended and restated deposit agreement as amended.
+The depositary will initiate termination of the deposit agreement if we instruct it to do so.  The depositary may initiate termination of the deposit agreement if: (i) 60 days have passed since the depositary told us it wants to resign but a successor depositary has not been appointed and accepted its appointment; (ii) we delist our shares from an exchange on which they were listed and do not list the shares on another exchange; (iii) we appear to be insolvent or enter insolvency proceedings; (iv) all or substantially all the value of the deposited securities has been distributed either in cash or in the form of securities; (v) there are no deposited securities underlying the ADSs or the underlying deposited securities have become apparently worthless; or (vi) there has been a replacement of deposited securities.
+If the deposit agreement will terminate, the depositary will notify ADS holders at least 90 days before the termination date.  At any time after the termination date, the depositary may sell the deposited securities.  After that, the depositary will hold the money it received on the sale, as well as any other cash it is holding under the deposit agreement, unsegregated and without
+11
+[AM_ACTIVE 406907653_1]
+liability for interest, for the pro rata benefit of the ADS holders that have not surrendered their ADSs.  Normally, the depositary will sell as soon as practicable after the termination date.
+If the depositary is advised by counsel that it could be subject to material legal liability because we failed to provide information required by Brazilian regulators, the depositary may terminate the amended and restated deposit agreement on as little as 15 days’ notice.
+After the termination date and before the depositary sells, ADS holders can still surrender their ADSs and receive delivery of deposited securities, except that the depositary may refuse to accept a surrender for the purpose of withdrawing deposited securities or reverse previously accepted surrenders of that kind if it would interfere with the selling process.  The depositary may refuse to accept a surrender for the purpose of withdrawing sale proceeds until all the deposited securities have been sold.  The depositary will continue to collect distributions on deposited securities, but, after the termination date, the depositary is not required to register any transfer of ADSs or distribute any dividends or other distributions on deposited securities to the ADSs holder (until they surrender their ADSs) or give any notices or perform any other duties under the amended and restated deposit agreement except as described in this paragraph.
+Limitations on Obligations and Liability to ADS Holders
+Prior to the issue, registration, registration of transfer, split-up, combination, or cancellation of any ADRs, or the delivery of any distribution in respect thereof, and from time to time in the case of the production of proofs as described below, we or the depositary or its custodian may require:
+●
+payment with respect thereto of (i) any stock transfer or other tax or other governmental charge, (ii) any stock transfer or registration fees in effect for the registration of transfers of common shares or other deposited securities upon any applicable register and (iii) any applicable fees and expenses described in the Deposit Agreement;
+●
+the production of proof satisfactory to it of (i) the identity of any signatory and genuineness of any signature and (ii) such other information, including without limitation, information as to citizenship, residence, exchange control approval, beneficial or other ownership of, or interest in, any securities, compliance with applicable law, regulations, provisions of or governing deposited securities and terms of the Deposit Agreement and the ADRs, as it may deem necessary or proper; and
+●
+compliance with such regulations as the depositary may establish consistent with the Deposit Agreement.
+The issuance of ADRs, the acceptance of deposits of common shares, the registration, registration of transfer, split-up or combination of ADRs or the withdrawal of common shares, may be suspended, generally or in particular instances, when the ADR register or any register for deposited securities is closed or when any such action is deemed advisable by the depositary.
+12
+[AM_ACTIVE 406907653_1]
+The Deposit Agreement expressly limits the obligations and liability of the depositary, ourselves and each of our and the depositary’s respective agents, provided, however, that no provision of the Deposit Agreement is intended to constitute a waiver or limitation of any rights which ADR holders or beneficial owners of ADSs may have under the Securities Act of 1933 or the Exchange Act, to the extent applicable.  The Deposit Agreement provides that we and the depositary:
+•
+are only obligated to take the actions specifically set forth in the amended and restated deposit agreement without negligence or bad faith, and the depositary will not be a fiduciary or have any fiduciary duty to holders of ADSs;
+•
+are not liable if we are or it is prevented or delayed by law or by events or circumstances beyond our or its ability to prevent or counteract with reasonable care or effort from performing our or its obligations under the amended and restated deposit agreement;
+•
+are not liable if we or it exercises discretion permitted under the amended and restated deposit agreement;
+•
+are not liable for the inability of any holder of ADSs to benefit from any distribution on deposited securities that is not made available to holders of ADSs under the terms of the deposit agreement, or for any special, consequential or punitive damages for any breach of the terms of the amended and restated deposit agreement, or for any;
+•
+have no obligation to become involved in a lawsuit or other proceeding related to the ADSs or the amended and restated deposit agreement on your behalf or on behalf of any other person;
+•
+may rely upon any documents we believe or it believes in good faith to be genuine and to have been signed or presented by the proper person;
+•
+are not liable for the acts or omissions of any securities depository, clearing agency or settlement system; and
+•
+the depositary has no duty to make any determination or provide any information as to our tax status, or any liability for any tax consequences that may be incurred by ADS holders as a result of owning or holding ADSs or be liable for the inability or failure of an ADS holder to obtain the benefit of a foreign tax credit, reduced rate of withholding or refund of amounts withheld in respect of tax or any other tax benefit.
+The depositary shall not be a fiduciary or have any fiduciary duty to ADR holders or beneficial owners of ADSs.  The depositary shall not be subject to any liability with respect to the validity or worth of the deposited securities, the ADSs or the ADRs.  Neither the depositary nor we shall be under any obligation to appear in, prosecute or defend any action, suit, or other proceeding in respect of any deposited securities or in respect of the ADS, on behalf of any ADR holders or beneficial owners of ADSs or other person.  Neither the depositary nor we shall be liable for any action or non-action by it in reliance upon the advice of or information from legal counsel,
+13
+[AM_ACTIVE 406907653_1]
+accountants, any person presenting shares for deposit, any ADR holder or beneficial owners of ADSs, or any other person believed by it in good faith to be competent to give such advice or information.  Each of the depositary and we may rely, and shall be protected in relying upon, any written notice, request, direction or other document believed by it to be genuine and to have been signed or presented by the proper party or parties.  The depositary shall not be liable for any acts or omissions made by a successor depositary whether in connection with a previous act or omission of the depositary or in connection with a matter arising wholly after the removal or resignation of the depositary, provided that in connection with the issue out of which such potential liability arises, the depositary performed its obligations without negligence or bad faith while it acted as depositary. The depositary shall not be liable for the acts or omissions of any securities depository, clearing agency or settlement system in connection with or arising out of book-entry settlement of ADSs or deposited securities or otherwise.  In the absence of bad faith on its part, the depositary shall not be responsible for any failure to carry out any instructions to vote any of the deposited securities, the ADSs or the ADRs or for the manner in which any such vote is cast or the effect of any such vote. The depositary shall have no duty to make any determination or provide any information as to our or any liability for any tax consequences that may be incurred by ADR holders or beneficial owners of ADSs as a result of owning or holding ADSs.  The depositary shall not be liable for the inability or failure of an ADR holder or beneficial owner of ADSs to obtain the benefit of a foreign tax credit, reduced rate of withholding or refund of amounts withheld in respect of tax or any other tax benefit.  No disclaimer of liability under the Securities Act of 1933 is intended by any provision of the deposit agreement.
+Additionally, none of us, the depositary or the custodian shall be liable for the failure by any ADR holder or beneficial owner of ADSs to obtain the benefits of credits or refunds of non-U.S. tax paid against such ADR holder’s or beneficial owner’s income tax liability.
+The depositary and its agents may own and deal in any class of securities of our company and our affiliates and in ADSs.
+Books of Depositary
+The depositary or its agent will keep books for the registration and transfers of ADSs, which shall be open for inspection by the ADS holders at the depositary’s office during regular business hours, provided that such inspection is not for the purpose of communicating with ADS holders in the interest of a business or object other than our or a matter related to the deposit agreement or the ADSs.  Such register (and/or any portion thereof) may be closed at any time or from time to time, when deemed expedient by the depositary, and the depositary may also close the issuance book portion of such register when reasonably requested by us solely in order to enable us to comply with applicable law.
+The depositary will maintain facilities for the delivery and receipt of ADRs.
+14
+[AM_ACTIVE 406907653_1]
+CGSH Draft – March 16, 2026
+III.
+DEBT SECURITIES
+Each series of guaranteed notes listed on the NYSE and set forth on the cover page to our annual report on Form 20-F for the fiscal year ended December 31, 2025 has been issued by our wholly-owned subsidiaries Suzano Netherlands B.V. (“Suzano Netherlands”), as successor of Fibria Overseas Finance Ltd. (“Fibria Overseas Finance”), and Suzano Austria GmbH (“Suzano Austria”) themselves and guaranteed by us.  Each of these series of notes and related guarantees was issued pursuant to a registration statement and a related prospectus and prospectus supplement (if applicable).
+The following table sets forth each relevant series of notes (the “Notes”) registered pursuant to Section 12(b) of the Exchange Act:
+Series
+Date of Issuance
+Principal Amount
+Principal Payment
+Interest
+Interest Payment Date
+Maturity Date
+Indenture
+Prospectus Supplement
+6.000% Notes due 2029, issued by Suzano Austria GmbH
+9.20.2018
+(reopening: 2.5.2019)
+US$1,750 million
+(original: US$1,000 million; and reopening: US$750 million)
+Single installment
+No principal amount payment prior to maturity
+(a)
+6.000% per annum
+(based on a 360-day year of twelve 30-day months)
+January 15 and July 15 of each year
+1
+st
+payment: 1.15.2019
+1.15.2029
+Base Indenture dated 9.20.2018, First Supplemental Indenture dated 2.5.2019 and Second Supplemental Indenture dated 8.14.2019
+Prospectus dated July 16, 2019
+(To Prospectus dated June 24, 2019)
+5.000% Notes due 2030, issued by Suzano Austria GmbH
+5.29.2019
+US$1,000 million
+Single installment
+No principal amount payment prior to maturity
+(a)
+5.000% per annum
+(based on a 360-day year of twelve 30-day months)
+January 15 and July 15 of each year
+1
+st
+payment: 1.15.2020
+1.15.2030
+Base Indenture dated 5.29.2019 and First Supplemental Indenture dated 8.14.2019
+Prospectus dated July 16, 2019
+(To Prospectus dated June 24, 2019)
+3.750% Notes due 2031, issued by Suzano Austria GmbH
+9.14.2020
+US$1,250 million
+(original: US$750 million and reopening US$500 million
+Single installment
+No principal amount payment prior to maturity
+(a)
+Initial Rate of Interest: 3.750% per annum
+Subsequent Rate of Interest: 4.000% per annum
+(based on a 360-day year of twelve 30-day months)
+January 15 and July 15 of each year
+1
+st
+payment: 1.15.2021
+1.15.2031
+Base Indenture dated 1.24.2020 and Amended and Restated First Supplemental Indenture dated 11.19.2020
+Prospectus Supplement dated September 10, 2020
+and
+Prospectus Supplement dated November 16, 2020
+(To Prospectus dated January 24, 2020)
+3.125% Notes due 2032, issued by Suzano Austria GmbH
+7.1.2021
+US$1,000 million
+Single installment
+No principal amount payment prior to maturity
+(a)
+Initial Rate of Interest: 3.125% per annum
+Subsequent Rate of Interest: 3.250% or 3.375% per annum
+(based on a 360-day year of twelve 30-day months)
+January 15 and July 15 of each year
+1
+st
+payment: 1.15.2022
+1.15.2032
+Base Indenture dated 1.24.2020 and Second Supplemental Indenture dated 7.1.2021
+Prospectus Supplement dated June 28, 2021
+(To Prospectus dated January 24, 2020)
+2.500% Notes due 2028, issued by Suzano Austria GmbH
+9.13.2021
+US$500 million
+Single installment
+No principal amount payment prior to maturity
+(a)
+Initial Rate of Interest: 2.500% per annum
+Subsequent Rate of Interest: 2.750% or 3.000% per annum
+(based on a 360-day year of twelve 30-day months)
+March 15 and September 15 of each year
+1
+st
+payment: 3.15.2022
+9.15.2028
+Base Indenture dated 1.24.2020 and Third Supplemental Indenture dated 9.13.2021
+Prospectus Supplement dated September 8, 2021
+(To Prospectus dated January 24, 2020)
+5.500% Notes due 2036, Issued by Suzano Netherlands B. V.
+9.10.2025
+US$1,000 million
+Single installment
+No principal amount payment prior to maturity
+5.500% per annum
+(based on a 360-day year of twelve 30-day months)
+January 15 and July 15 of each year
+1
+st
+payment: 1.15.2026
+1.15.2026
+Base Indenture dated 9.10.2025 and First Supplemental Indenture dated 9.10.2025
+Prospectus Supplement dated September 3, 2025
+(To Prospectus dated April 30, 2025)
+(a)
+Except in the case of the occurrence of an Event of Default (as such term is defined in the applicable Note) and acceleration of the aggregate outstanding principal amount of the notes, upon redemption prior to the maturity date.
+[AM_ACTIVE 406907653_1]
+CGSH Draft – March 16, 2026
+The following description of our debt securities and certain material provisions of our prospectus and guaranties is a summary and does not purport to be complete.  It is subject to, and qualified in its entirety by the respective indentures, any supplement to such indentures, the instruments representing each series of the notes and any applicable law, as amended from time to time.  Certain terms, unless otherwise defined here, have the meaning given to them in the relevant indenture.
+We encourage you to read the indentures governing the notes, as well as the applicable sections of our annual report for additional information.
+General
+Any debt securities issued by Suzano Austria or Suzano Netherlands is governed by a document called an indenture.  The indenture is a contract entered into between any one of us, and a trustee, currently The Bank of New York Mellon (the “Trustee”), as well as us, as guarantor.  The Trustee has the following main roles:
+(i)
+first, the trustee can enforce debt securities holders’ rights against us if we default on our obligations under the indenture or the debt securities, although there are some limitations on the extent to which the trustee acts on debt securities holders behalf that are described under “—Events of Default”; and
+(ii)
+second, the trustee performs administrative duties for the debt securities holders, such as sending payments and notices to debt securities holders.
+Suzano Austria will issue debt securities guaranteed by Suzano under an indenture we refer to as the Suzano Austria indenture. Suzano Netherlands will issue debt securities guaranteed by Suzano under an indenture we refer to as the Suzano Netherlands indenture.
+Together or separately, Suzano Austria, Suzano Netherlands and us may issue as many distinct series of debt securities under our indentures as are authorized by the corporate bodies that are required under applicable law and our corporate organizational documents to authorize the issuance of debt securities.  Specific issuances of debt securities will also be governed by a supplemental indenture, an officer’s certificate or a document evidencing the authorization of any such corporate body.  This summary contains material terms of the debt securities that are common to all series and to each of the indentures, unless otherwise indicated in this Exhibit 2.4 and in the prospectus supplement relating to a particular series.
+As listed in the table above, until December 31, 2025 we have 6 outstanding Notes issued in U.S. dollar, which were all based on the following 4 different indentures, as applicably amended: (i) indenture entered into by Suzano Austria and the Trustee on September 20, 2018 (“2018 Suzano Austria Base Indenture”); (ii) indenture entered into by Suzano Austria and the Trustee on May 29, 2019 (“2019 Suzano Austria Base Indenture”); (iii) indenture entered into by Suzano Austria and the Trustee on January 24, 2020 (“2020 Suzano Austria Base Indenture” and, together with the 2018 Suzano Austria Base Indenture and the 2019 Suzano Austria Base Indenture, the
+[AM_ACTIVE 406907653_1]
+“Suzano Austria Base Indentures”); and (iv) indenture entered into by Suzano Netherlands, and the Trustee on September 10, 2025 (“Suzano Netherlands Base Indenture”).
+Each of the indentures and their associated documents contain the full legal text of the matters described herein.  We have agreed that New York law governs the indentures and the debt securities.  We have filed a copy of all applicable indentures with the SEC as exhibits to our respective registration statements.  We have consented in each indenture to the non-exclusive jurisdiction of any U.S. federal court sitting in the borough of Manhattan in the City of New York, New York, United States and any appellate court from any thereof.
+Types of Debt Securities
+This section summarizes material terms of the debt securities that are common to all series and to the Suzano Austria and Suzano Netherlands indentures, unless otherwise indicated in this section or in the prospectus supplement relating to a particular series.
+Because this section is a summary, it does not describe every aspect of the debt securities.  This summary is subject to and qualified in its entirety by reference to all the provisions of the indentures, including the definition of various terms used in the indentures.  For example, we describe the meanings for only the more important terms that have been given special meanings in the indentures.
+We may issue original issue discount securities, which are debt securities that are offered and sold at a substantial discount to their stated principal amount.  We may also issue indexed securities or securities denominated in currencies other than the U.S. dollar, currency units or composite currencies, as described in more detail in the prospectus supplement relating to any such debt securities.  We will describe the U.S. federal income tax consequences and any further specific U.S. federal income tax consequences and any other special considerations applicable to original issue discount, indexed or foreign currency debt securities in the applicable prospectus supplement.
+In addition, the material financial, legal and other terms particular to a series of debt securities will be described in the prospectus supplement relating to that series.  Those terms may vary from the terms described here.  Accordingly, this summary also is subject to and qualified by reference to the description of the terms of the series described in the applicable prospectus supplement.
+In addition, the prospectus supplement will state whether we will list the debt securities of the series on any stock exchanges and, if so, which ones.
+Form, Exchange and Transfer
+The notes will be issued, unless otherwise indicated in the applicable prospectus supplement, in fully registered form without interest coupons, in minimum denominations of U.S.$200,000, in case of the 2018 Suzano Austria Base Indenture and the 2019 Suzano Austria Base Indenture, or U.S.$1,000 in case of the Suzano Netherlands Base Indenture and the 2020 Suzano Austria Base
+17
+[AM_ACTIVE 406907653_1]
+Indenture and any integral multiples thereof.  The debt holders may have the debt securities broken into more debt securities of smaller denominations or combined into fewer debt securities of larger denominations, as long as the total principal amount is not changed.  This is called an exchange.
+Debt holders may exchange or transfer their registered debt securities at the office of the trustee.  The Trustee will maintain an office in New York, New York.
+The trustee acts as our agent for registering debt securities in the names of holders and transferring registered debt securities.  The entity performing the role of maintaining the list of registered holders is called the “
+security registrar
+.”  It will also register transfers of the registered debt securities.
+Holders will not be required to pay a service charge to transfer or exchange debt securities, but may be required to pay any tax or other governmental charge associated with the registration of transfer or exchange.  The transfer or exchange of a registered debt security will only be made if holders have duly endorsed the debt security or provided the security registrar with a written instrument of transfer satisfactory in form to the security registrar.
+If we designate additional transfer agents, they will be named in the applicable prospectus supplement.  We may cancel the designation of any particular transfer agent.  We may also approve a change in the office through which any transfer agent acts or choose to act as our transfer agent.
+If the debt securities are redeemable and we redeem less than all of the debt securities of a particular series, we may block the transfer or exchange of debt securities in order to freeze the list of holders to prepare the mailing during the period beginning 15 days before the day we mail the notice of redemption and ending on the day of that mailing.  We may also refuse to register transfers or exchanges of debt securities selected for redemption.  However, we will continue to permit transfers and exchanges of the unredeemed portion of any debt security being partially redeemed.
+Payment and Paying Agents
+Debt securities in registered form, will have interest paid to the direct holder listed in the trustee’s records at the close of business on a particular day in advance of each due date for interest, even if such holder no longer own the security on the interest due date.  That particular day is called the “regular record date” and will be stated in the applicable prospectus supplement.
+We will pay interest, principal (and premium, if any) and any other money due on global registered debt securities pursuant to the applicable procedures of the depositary or, if the debt securities are not in global form, at our office or agency maintained for that purpose in New York, New York.  We may also choose to pay interest by mailing checks.  We may also arrange for additional payment offices, and we may cancel or change our use of these offices, including our use of the trustee’s corporate trust office.  These offices are called “
+paying agents
+.”  We may appoint paying agents outside the United States for a specific issuance of securities.  We may also choose to act as our own paying agent.
+18
+[AM_ACTIVE 406907653_1]
+Regardless of who acts as paying agent, all money that we pay as principal, premium or interest to a paying agent, or then held by us in trust, that remains unclaimed at the end of two years after the amount is due to a direct holder will, subject to any unclaimed property laws, be repaid to us or (if then held in trust) discharged from trust.  After that two-year period, direct holders may look only to us for payment and not to the trustee, any other paying agent or anyone else.
+Notices
+We and the trustee will send notices only to direct holders, using their addresses as listed in the registrar’s records.  In addition, if the debt securities of a series are listed on a securities exchange, we will provide notice to the holders in accordance with the applicable rules of such exchange.
+Modification and Waiver
+Each indenture provides several categories of changes that can be made to the indenture and the debt securities issued under that indenture.  Such changes may or may not require the consent of the holders, as described below.
+1)
+Changes Requiring Each Holder’s Approval
+. Each indenture provides that there are changes to the indenture that cannot be made without the approval of each holder of the outstanding debt securities affected thereby. Those types of changes include:
+•
+reduce the rate of interest on any debt security or extend the stated maturity of any payment of interest on any debt security;
+•
+reduce the principal amount of any debt security or extend the stated maturity of any payment of principal of (and premium, if any, on) any debt security;
+•
+reduce the amount payable upon the redemption of any debt security in respect of an optional redemption, change the times at which any debt security may be redeemed or, once notice of redemption has been given, change the time at which it must thereupon be redeemed;
+•
+a change in the currency of any payment on a debt security or its place of payment;
+•
+an impairment of the holder’s right to sue for payment of any amount due on a debt security;
+•
+a reduction in the percentage in principal amount of the outstanding debt securities the consent of the holders of which is needed to modify or amend the indenture or a debt security or waive compliance with various provisions of the indenture; and
+It is not necessary for holders of the debt securities to approve the particular form of any proposed amendment, supplement or waiver, but is sufficient if their consent approves the substance thereof.
+19
+[AM_ACTIVE 406907653_1]
+Neither Suzano nor any of its subsidiaries or affiliates may, directly or indirectly, pay or cause to be paid any consideration, whether by way of interest, fee or otherwise, to any holder for or as an inducement to any consent, waiver or amendment of any of the terms or provisions of the indentures or the debt securities unless such consideration is offered to be paid or agreed to be paid to all holders of the debt securities that consent, waive or agree to amend such term or provision within the time period set forth in the solicitation documents relating to the consent, waiver or amendment.
+2)
+Changes Not Requiring Approval
+. Each indenture provides that there are changes to the indenture that do not require any approval by holders of outstanding debt securities under that indenture.  Those types of changes include:
+•
+to cure any ambiguity, defect or inconsistency in the indenture or the debt securities;
+•
+to comply with the covenant described under the caption “—Consolidation, Merger or Sale of Substantially All Assets”;
+•
+to evidence and provide for the acceptance of an appointment by a successor trustee;
+•
+to provide for uncertificated debt securities in addition to or in place of Certificated debt securities;
+•
+to provide for any guarantee of the debt securities, to secure the debt securities or to confirm and evidence the release, termination or discharge of any guarantee of or Lien securing the debt securities when such release, termination or discharge is permitted by the indenture;
+•
+to provide for or confirm the issuance of additional debt securities; or
+•
+to make any other change that does not materially, adversely affect the rights of any holder or to conform the indenture to this “Description of the Debt Securities” or the “Description of the Notes” in the applicable  prospectus supplement.
+3)
+Changes Requiring a Majority Vote
+.  Each indenture provides that other changes to the indenture and the outstanding debt securities under the indenture requires the approval by the holders of debt securities that together represent a majority of the outstanding principal amount of the particular series affected.  This approval would also be required for us to obtain a waiver of all or part of any covenants described below under “—Certain Covenants of Suzano” or in the applicable prospectus supplement, for us to obtain a waiver of a past default, or to rescind or annul a declaration of acceleration with respect to debt securities of any series before a judgment or decree for payment of the money due has been obtained by the trustee if subject to the conditions described in “Events of Default—Remedies Upon an Event of Default.”  The required approval must be given by written consent.  However, we cannot obtain a waiver of a payment default or any other aspect of an indenture or the debt securities issued under that indenture described above under “—Changes Requiring Each Holder’s Approval” unless we obtain the consent of all holders of the debt securities issued under that indentures to the waiver.
+20
+[AM_ACTIVE 406907653_1]
+Further Details Concerning Voting
+Debt securities will not be considered outstanding, and therefore the holders of those debt securities will not be eligible to vote or take other action under the applicable indenture, if we have deposited or set aside in trust for the holders money for their payment or redemption.  Debt securities will also not be eligible to vote or take other action under the applicable indenture if they have been defeased as described under “—Defeasance and Discharge.”  Debt securities held by us, Suzano Austria, Suzano Netherlands or our affiliates are not considered outstanding.
+We will generally be entitled to set any day as a record date for the purpose of determining the holders of outstanding debt securities that are entitled to vote or take other action under the applicable indenture.  In limited circumstances, the trustee, and not us, will be entitled to set a record date for action by holders.  If a record date is set for a vote or other action to be taken by holders of a particular series, that vote or action may be taken only by persons who are holders of outstanding debt securities of that series on the record date and must be taken within 180 days following the record date or another period that we or, if it sets the record date, the trustee may specify.  This period may be shortened or lengthened (but not beyond 180 days).
+Street name and other indirect holders should consult their banks or brokers for information on how approval may be granted or denied if we seek to change the indenture or the debt securities or request a waiver.
+Redemption
+Unless otherwise indicated in the applicable prospectus supplement, the debt securities will not be entitled to the benefit of any sinking fund; that is, we will not deposit money on a regular basis into any separate custodial account to repay the debt securities.  In addition, other than as set forth in “—Optional Tax Redemption” below, unless otherwise specified in the applicable prospectus supplement, we will not be entitled to redeem the debt securities before their stated maturity.
+If the applicable prospectus supplement specifies a redemption date, it will also specify one or more redemption prices, which may be expressed as a percentage of the principal amount of your debt security or by reference to one or more formulae used to determine the redemption price. It may also specify one or more redemption periods during which the redemption prices relating to a redemption of debt securities during those periods will apply.
+If the applicable prospectus supplement specifies a redemption commencement date, we may redeem the debt securities at our option at any time on or after that date.  If we redeem the debt securities, we will do so at the specified redemption price, together with interest accrued to the redemption date.  If different prices are specified for different redemption periods, the price we pay will be the price that applies to the redemption period during which the debt securities is redeemed.  If less than all of the debt securities are redeemed at any time, the trustee will authenticate and deliver to the holder of such debt securities without service charge, a new debt security or securities of the same series and of like tenor, of any authorized denomination as requested by such holder, in aggregate principal amount equal to and in exchange for the
+21
+[AM_ACTIVE 406907653_1]
+unredeemed portion of the principal of the debt security so surrendered.  If less than all of the debt securities are redeemed, the debt securities to be redeemed will be determined in accordance with the applicable procedures of the depositary.
+In the event that we exercise an option to redeem any debt securities, we will give to the trustee and the holders written notice of the principal amount of the debt securities to be redeemed, not less than five business days nor more than 60 days, before the applicable redemption date.  We will give the notice in the manner described above under “—Notices.”
+In the case of the Suzano Netherlands Base Indenture, in connection with any tender offer for the notes, in the event that the holders of not less than 85% of the aggregate principal amount of the outstanding notes validly tender and do not validly withdraw notes in such tender offer or a third party purchases all the notes held by such holders, then the issuer will have the right, on not less than 10 nor more than 60 days’ prior notice, given not more than 30 days following such purchase date, to redeem all of the notes that remain outstanding following such purchase at a price equal to the price paid to each other holder in such tender offer, plus, to the extent not included in the purchase price, accrued and unpaid interest and additional amounts, if any, on the notes that remain outstanding, to the date of redemption (subject to the right of holders of record on the relevant record date to receive interest due on the relevant interest payment date).
+Optional Tax Redemption
+If, as a result of any change in or amendment to the laws or treaties (or any rules or regulations thereunder) of any Relevant Jurisdiction, or any amendment to or change in an official interpretation, administration or application of such laws, treaties, rules, or regulations (including a holding by a court of competent jurisdiction), which change or amendment or change in official position becomes effective on or after the issue date, or, with respect to a successor, after the date a successor assumes the obligations under the debt securities or the debt securities guarantees, Suzano Austria or Suzano Netherlands or their successors have or will become obligated to pay Additional Amounts as described below under “— Payment of Additional Amounts” in excess of the Additional Amounts that Suzano Austria or Suzano Netherlands would be obligated to pay if payments were subject to withholding or deduction at a rate of 15% (or at a rate of 25% in case the holder of the debt securities is resident in a tax haven jurisdiction, i.e., countries which do not impose any income tax or which impose it at a maximum rate lower than 20% or where the laws impose restrictions on the disclosure of ownership composition or securities ownership) as a result of the taxes, duties, assessments and other governmental charges described above (the “Minimum Withholding Level”), then we may, at our option, redeem all, but not less than all, of the debt securities of the series so affected, at a redemption price equal to 100% of their principal amount, together with interest and Additional Amounts accrued to the date fixed for redemption, upon publication of irrevocable notice not less than 30 days nor more than 90 days prior to the date fixed for redemption.
+No notice of such redemption may be given earlier than 90 days prior to the earliest date on which we would, but for such redemption, be obligated to pay the Additional Amounts above the Minimum Withholding Level, were a payment then due.  We shall not have the right to so redeem the debt securities in the event we become obliged to pay Additional Amounts which are
+22
+[AM_ACTIVE 406907653_1]
+less than the Additional Amounts payable at the Minimum Withholding Level.  Notwithstanding the foregoing, we shall not have the right to so redeem the debt securities unless:  (i) it has taken measures it considers reasonable to avoid the obligation to pay Additional Amounts; and (ii) it has complied with all applicable regulations to legally effect such redemption; provided, however, that for this purpose reasonable measures shall not include any change in Suzano Austria’s or Suzano Netherlands’s or any successor’s jurisdiction of incorporation or organization or location of each of their principal executive or registered office.
+Open Market Purchases
+Subject to any restrictions described in the applicable prospectus supplement, we or our affiliates may at any time purchase debt securities from investors who are willing to sell from time to time, either in the open market at prevailing prices or in private transactions at negotiated prices.  Debt securities that we or they purchase may, in our discretion, be held, resold or canceled, but will only be resold in compliance with applicable requirements or exemptions under the relevant securities laws.
+Payment of Additional Amounts
+Unless otherwise indicated in the applicable prospectus supplement, all payments in respect of the debt securities issued thereunder and the related guarantee, if any, will be made without withholding or deduction for or on account of any present or future taxes, duties, assessments, or other governmental charges of whatever nature imposed or levied by or on behalf of (i) Brazil, (ii) Austria; (iii) the Cayman Islands, or (iii) or any other jurisdiction or political subdivision thereof from or through which a payment is made or in which Suzano Austria or Suzano Netherlands (or any successor to each of them) is organized or is a resident for tax purposes having power to tax (a “Relevant Jurisdiction”), unless we are compelled by law to deduct or withhold such taxes, duties, assessments or governmental charges.  In such event, Suzano Austria or Suzano Netherlands, as applicable, will make such deduction or withholding, make payment of the amount so withheld to the appropriate governmental authority and pay such additional amounts as may be necessary to ensure that the net amounts receivable by holders of debt securities after such withholding or deduction shall equal the respective amounts of principal and interest which would have been receivable in respect of the debt securities in the absence of such withholding or deduction (“Additional Amounts”).  Notwithstanding the foregoing, no such Additional Amounts shall be payable:
+i.
+in respect of any taxes, duties, assessments or governmental charges that would not have been so withheld or deducted but for the existence of any present or former connection between the holder or beneficial owner of the debt securities (or between a fiduciary, settlor, beneficiary, member or shareholder of such holder or beneficial owner, if such holder or beneficial owner is an estate, a trust, a partnership, a limited liability company or a corporation) and the Relevant Jurisdiction, including, without limitation, such holder or beneficial owner (or such fiduciary, settlor, beneficiary, member or shareholder) being or having been a citizen or resident thereof or being or having been engaged in a trade or business or present therein or having, or having had, a permanent establishment therein,
+23
+[AM_ACTIVE 406907653_1]
+other than the mere holding of the debt securities or enforcement of rights and the receipt of payments with respect to the debt securities;
+ii.
+in respect of debt securities presented for payment more than 30 days after the Relevant Date (as defined below) except to the extent that the holder of such debt securities would have been entitled to such Additional Amounts, on surrender of such debt securities for payment on the last day of such period of 30 days;
+iii.
+in respect of any taxes, duties, assessments or other governmental charges that would not have been so withheld or deducted but for the failure by the holder, the beneficial owner of the debt securities, or, in the case of amounts payable to the Trustee, the Trustee to (i) make a declaration of non-residence, or any other claim or filing for exemption, to which it is entitled, or (ii) comply with any certification, identification or other reporting requirement concerning the nationality, residence, identity or connection with the Relevant Jurisdiction, if (1) compliance is required by the Relevant Jurisdiction, as a precondition to, exemption from, or reduction in the rate of, the tax, assessment or other governmental charge and (2) the Suzano Austria or Suzano Netherlands has given the holders or the Trustee, as applicable, at least 30 days’ notice that holders will be required to provide such certification, identification or other requirement; provided that, in no event, shall such holder’s, beneficial owner’s, or Trustee’s requirement to make a valid and legal claim for exemption from or reduction of such taxes require such holder, beneficial owner or the Trustee to provide any materially more onerous information, documents or other evidence than would be required to be provided had such holder, beneficial owner or the Trustee been required to file U.S. IRS Forms W-8 or W-9, as applicable;
+iv.
+in respect of any estate, inheritance, gift, sales, transfer, capital gains, excise or personal property or similar tax, assessment or governmental charge;
+v.
+any withholding or deduction that is imposed on the debt securities that is presented for payment, where presentation is required, by or on behalf of a holder who would have been able to avoid such withholding or deduction by presenting such debt securities to another paying agent;
+vi.
+in respect of any tax, assessment or other governmental charge which is payable other than by deduction or withholding from payments of principal of or interest on the debt securities; or
+vii.
+in respect of any combination of the above.
+In addition, no Additional Amounts shall be paid with respect to any payment on a debt security to a holder who is a fiduciary, a partnership, a limited liability company or other than the sole beneficial owner of that payment to the extent that payment would be required by the laws of the Relevant Jurisdiction to be included in the income, for tax purposes, of a beneficiary or settlor with respect to the fiduciary, a member of that partnership, an interest holder in a limited liability
+24
+[AM_ACTIVE 406907653_1]
+company or a beneficial owner who would not have been entitled to the Additional Amounts had that beneficiary, settlor, member or beneficial owner been the holder.
+The prospectus supplement relating to the debt securities may describe additional circumstances in which we would not be required to pay additional amounts.
+For purposes of the above, “Relevant Date” means, with respect to any payment on a debt security, whichever is the later of:  (i) the date on which such payment first becomes due; and (ii) if the full amount payable has not been received by the Trustee on or prior to such due date, the date on which notice is given to the holders that the full amount has been received by the Trustee.
+The applicable prospectus supplement may describe additional circumstances in which we would not be required to pay additional amounts.
+Any reference in this document, any prospectus supplement, the indentures or the debt securities to principal, interest or any other amount payable in respect of the debt securities by Suzano Austria or Suzano Netherlands or the debt securities guarantees by the guarantor will be deemed also to refer to any Additional Amount, unless the context requires otherwise, that may be payable with respect to that amount under the obligations referred to in this subsection.
+Suzano Austria and Suzano Netherlands shall promptly pay when due any present or future stamp, court or documentary taxes or any other excise or property taxes, charges or similar levies that arise in any Relevant Jurisdiction from the execution, delivery or registration of each note or any other document or instrument referred to herein or therein except, in certain cases, for taxes, charges or similar levies resulting from certain registrations of transfer or exchange debt securities.
+The foregoing obligation will survive termination or discharge of the indentures, payment of the debt securities and/or the resignation or removal of the Trustee or any agent hereunder.
+The debt securities are subject in all cases to any tax, fiscal or other law or regulation or administrative or judicial interpretation.  Except as specifically provided above, we will not be required to make a payment with respect to any tax, assessment or governmental charge imposed by any government or a political subdivision or taxing authority thereof or therein.
+Certain Covenants
+Limitation on Liens
+Unless otherwise specified in the applicable prospectus supplement, Suzano will not, and will not permit any Subsidiary to, directly or indirectly, incur or permit to exist any Lien securing the payment of Debt on any of its properties or assets, whether owned at the Issue Date or thereafter acquired, other than Permitted Liens, without effectively providing that the debt securities or the debt securities guarantees, as applicable, are secured equally and ratably with (or, if the obligation to be secured by the Lien is subordinated in right of payment to the debt securities or
+25
+[AM_ACTIVE 406907653_1]
+any debt securities guarantees, prior to) the obligations so secured for so long as such obligations are so secured.
+Limitation on Sale and Leaseback Transactions
+In the case of the Suzano Austria Base Indentures, unless otherwise specified in the applicable prospectus supplement, Suzano will not, and will not permit any Subsidiary to, enter into any Sale and Leaseback Transaction with respect to any Property unless Suzano or such Subsidiary would be entitled to create a Lien on such Property or asset securing the Attributable Debt without equally and ratably securing the debt securities pursuant to the covenant described under the heading “—Limitation on Liens,” in which case, the corresponding Lien will be deemed incurred pursuant to such provision.
+Repurchase of Debt Securities upon a Change of Control
+Unless otherwise specified in the applicable prospectus supplement, not later than 30 days following a Change of Control that results in a Rating Decline for any series of debt securities, Suzano Austria or Suzano Netherlands shall make an Offer to Purchase all outstanding debt securities of such series at a purchase price equal to 101% of the principal amount plus accrued interest to the date of purchase.
+An “Offer to Purchase” must be made by written offer, which will specify the principal amount of debt securities subject to the offer and the purchase price.  The offer must specify an expiration date (the “expiration date”) not less than 30 days or more than 60 days after the date of the offer and a settlement date for purchase (the “purchase date”) not more than five Business Days after the expiration date.  The offer must include information concerning the business of Suzano and its Subsidiaries which Suzano or Suzano Austria or Suzano Netherlands in good faith believes will enable the holders to make an informed decision with respect to the Offer to Purchase.  The offer will also contain instructions and materials necessary to enable holders to tender debt securities pursuant to the offer.
+A holder may tender all or any portion of its debt securities pursuant to an Offer to Purchase, subject to the minimum denomination requirement and the requirement that any portion of a debt security tendered must be in a multiple of U.S.$1,000 principal amount.  Holders are entitled to withdraw debt securities tendered up to the close of business on the expiration date.  On the purchase date, the purchase price will become due and payable on each debt securities accepted for purchase pursuant to the Offer to Purchase, and interest on debt securities purchased will cease to accrue on and after the purchase date provided that payment is made available on that date.
+We will comply with Rule 14e-1 under the Exchange Act (to the extent applicable) and all other applicable laws and regulations in making any Offer to Purchase, and the above procedures will be deemed modified as necessary to permit such compliance.
+We are only required to offer to repurchase the debt securities of a series in the event that a Change of Control results in a Rating Decline for such series.  Consequently, if a Change of
+26
+[AM_ACTIVE 406907653_1]
+Control were to occur which does not result in a Rating Decline, Suzano Austria or Suzano Netherlands would not be required to offer to repurchase the debt securities of such series.  In addition, neither Suzano Austria nor Suzano Netherlands will be required to make an Offer to Purchase upon a Change of Control if (1) a third party makes the Offer to Purchase in the manner, at the times and otherwise in compliance with the requirements set forth in the indenture applicable to an Offer to Purchase made by Suzano Austria or Suzano Netherlands and purchases all debt securities of such series properly tendered and not withdrawn under the Offer to Purchase, or (2) notice of redemption for all outstanding debt securities of such series has been given pursuant to the indentures as described above under the caption “—Optional Redemption,” unless and until there is a default in payment of the applicable redemption price.
+Notwithstanding anything to the contrary contained herein, an Offer to Purchase may be made in advance of a Change of Control, conditioned upon the consummation of such Change of Control, if a definitive agreement is in place for the Change of Control at the time the Offer to Purchase is made.
+Certain existing and/or future Debt of Suzano Austria or Suzano Netherlands may provide that a Change of Control is a default or require repurchase upon a Change of Control.  Moreover, the exercise by the noteholders of their right to require Suzano Austria or Suzano Netherlands to purchase the debt securities could cause a default under other debt, even if the Change of Control itself does not, due to the financial effect of the purchase on Suzano Austria or Suzano Netherlands.  In addition, any remittance of funds outside of Brazil to noteholders or the Trustee may require the consent of the Central Bank, which may not be granted.  Our ability to pay cash to the noteholders following the occurrence of a Change of Control may be limited by Suzano Austria’s or Suzano Netherlands’s then existing financial resources.  There can be no assurance that sufficient funds will be available when necessary to make the required purchase of the debt securities.
+Except as described above with respect to a Change of Control, the applicable indenture will not contain provisions that permit the holder of the debt securities to require that Suzano Austria or Suzano Netherlands purchase or redeem the debt securities in the event of a takeover, recapitalization or similar transaction.
+The provisions under the applicable indentures relating to Suzano Austria’s or Suzano Netherlands’s obligation to make an offer to repurchase the debt securities as a result of a Change of Control may be waived or amended as described in “—Modification and Waiver.”
+Limitation on Transactions with Affiliates
+In the case of the Suzano Austria Base Indentures, unless otherwise specified in the applicable prospectus supplement,
+a)
+Suzano Austria will not, and will not permit any of its Subsidiaries to, directly or indirectly, enter into, renew or extend any transaction or arrangement including the purchase, sale, lease or exchange of property or assets, or the rendering of any service with any Affiliate of Suzano Austria (a “Related Party Transaction”), except upon fair
+27
+[AM_ACTIVE 406907653_1]
+and reasonable terms no less favorable to Suzano Austria or of its Subsidiaries than could be obtained in a comparable arm’s-length transaction with a Person that is not an Affiliate of Suzano Austria.
+b)
+In any Related Party Transaction or series of Related Party Transactions with an aggregate value in excess of US20 million (or the equivalent thereof at the time of determination), Suzano must first deliver to the Trustee an Officer’s Certificate to the effect that such transaction or series of related transactions are on fair and reasonable terms no less favorable to Suzano or such Subsidiary than could be obtained in a comparable arm’s length transaction and is otherwise compliant with the terms of the applicable indenture.
+c)
+The foregoing paragraphs do not apply to:
+(1)
+any transaction between Suzano Austria and any of its Subsidiaries or between or among Subsidiaries of Suzano;
+(2)
+any transaction between Suzano Austria or any of its Subsidiaries, on the one hand, and any joint venture, on the other, on market terms;
+(3)
+the payment of reasonable and customary regular fees to directors of Suzano who are not employees of Suzano;
+(4)
+any issuance or sale of Equity Interests of Suzano (other than Disqualified Stock);
+(5)
+transactions or payments (including loans and advances) pursuant to any employee, officer or director compensation or benefit plans, customary indemnifications or arrangements entered into in the ordinary course of business;
+(6)
+transactions pursuant to agreements in effect on the Issue Date and described in the prospectus, as amended, modified or replaced from time to time so long as the amended, modified or new agreements, taken as a whole, are no less favorable to Suzano and its Subsidiaries than those in effect on the date the indentures;
+(7)
+any Sale and Leaseback Transaction otherwise permitted under the caption “—Limitation on Sale and Leaseback Transactions” if such transaction is on market terms;
+(8)
+transactions with customers, clients, distributors, suppliers or purchasers or sellers of goods or services, in each case in the ordinary course of business and on market terms;
+(9)
+the provision of administrative services to any joint venture on substantially the same terms provided to or by Subsidiaries of Suzano; and
+(10)
+any guarantee or security granted by an affiliate of Suzano Austria in favor of Suzano Austria or any of its Subsidiaries on market terms
+28
+[AM_ACTIVE 406907653_1]
+Consolidation, Merger or Sale of Substantially All Assets
+Unless otherwise specified in the applicable prospectus supplement,
+a)
+Neither Suzano, Suzano Austria or Suzano Netherlands will, in a single transaction or a series of related transactions:
+•
+consolidate with or merge with or into any Person, or
+•
+sell, convey, transfer, assign, or otherwise dispose of all or substantially all of its assets (determined on a consolidated basis for Suzano and its Subsidiaries, as the case may be) as an entirety or substantially an entirety, in one transaction or a series of related transactions, to any Person, or
+•
+permit any Person to merge with or into Suzano or Suzano Austria or Suzano Netherlands; in each case unless
+(1)
+either: (x) Suzano, Suzano Austria or Suzano Netherlands, as applicable, is the continuing Person; or (y) the resulting, surviving or transferee Person (the “Successor Company”) is (A) in the event of a merger of Suzano, a corporation organized and validly existing under the laws of Brazil or any political subdivision thereof, the United States of America or any state thereof or the District of Columbia or any other country member of the Organization for Economic Co-operation and Development (“OECD”) or (B) in the event of a merger of the issuer, an entity organized and validly existing under the laws of Austria, the United States of America or any state thereof or the District of Columbia or any other country member of the OECD, and, in each case, expressly assumes by supplemental indenture, executed and delivered to the Trustee, in form as set forth in the applicable indenture or as otherwise satisfactory to the Trustee, all of the obligations of Suzano, Suzano Austria or Suzano Netherlands, as the case may be, under the indentures and the debt securities guarantees, as applicable;
+(2)
+immediately after giving effect to such transaction, no Default or Event of Default has occurred and is continuing;
+(3)
+if Suzano is organized under Brazilian law or the issuer is organized under Austrian law or Cayman Islands law, as applicable, and Suzano or the issuer merges with a corporation, or the Successor Company is, organized under the laws of the United States, any State thereof or the District of Columbia or any country member of the OECD, or (ii) if Suzano or the issuer is organized under the laws of the United States, any State thereof or the District of Columbia and merges with a corporation, or the Successor Company is, organized under the laws of Brazil, Austria or the Cayman Islands, as applicable, or any country member of the OECD, then Suzano, the issuer or the Successor Company will have delivered to the Trustee an Opinion of Counsel from each of Brazilian, Austrian or Cayman Islands, as applicable, U.S. and the successor jurisdiction counsel to the effect that, as applicable, the holders of the debt securities will not recognize income, gain or loss for
+29
+[AM_ACTIVE 406907653_1]
+U.S. jurisdiction or Brazilian, Austrian or Cayman Islands jurisdiction, as applicable, or the successor jurisdiction income tax purposes as a result of such transaction; and
+(4)
+Suzano Austria or Suzano Netherlands or the Successor Company, as the case may be, delivers to the Trustee an Officer’s Certificate and an Opinion of Counsel, each stating that the consolidation, merger or transfer and the supplemental indenture (if any) comply with the indentures;
+provided
+, that clause (2) does not apply to the consolidation or merger of Suzano or Suzano Austria or Suzano Netherlands with or into any of Suzano’s Subsidiaries or the consolidation or merger of a Subsidiary of Suzano with or into Suzano or Suzano Austria or Suzano Netherlands.
+b)
+Suzano shall not sell or otherwise transfer any Equity Interest in Suzano Austria or Suzano Netherlands (other than directors’ qualifying shares) to any other Person other than a Subsidiary of Suzano unless Suzano becomes the direct obligor under the debt securities.
+c)
+Upon the consummation of any transaction effected in accordance with these provisions, if Suzano or Suzano Austria or Suzano Netherlands, as applicable, is not the continuing Person, the Successor Company will succeed to, and be substituted for, and may exercise every right and power of Suzano under the debt securities guarantees, or Suzano Austria or Suzano Netherlands under the applicable indenture with the same effect as if such successor Person had been named as Suzano or Suzano Austria or Suzano Netherlands, as applicable, in the applicable indenture.  Upon such substitution, unless the successor is one or more of Suzano’s Subsidiaries, Suzano or Suzano Austria or Suzano Netherlands, as applicable, will be released from its obligations under the applicable indenture or the debt securities guarantees, as applicable.
+Maintenance of Properties
+Unless otherwise specified in the applicable prospectus supplement, Suzano will cause all properties used or useful in the conduct of its business or the business of any of its Subsidiaries to be maintained and kept in good condition, repair and working order as in the judgment of Suzano may be necessary so that the business of Suzano and its Subsidiaries may be properly and advantageously conducted at all times; provided that nothing shall prevent Suzano or any of its Subsidiaries from discontinuing the use, operation or maintenance of any of such properties or disposing of any of them, if such discontinuance or disposal is, in the judgment of Suzano, desirable in the conduct of the business of Suzano and its Subsidiaries taken as a whole.
+Substitution of the Issuer
+In the case of the Suzano Austria Base Indentures, without the consent of any holder of the debt securities (and, by purchasing any debt securities, each holder expressly consents to the provisions of this section), Suzano Austria, as the case may be, may be substituted by (a) Suzano or (b) any Wholly Owned Subsidiary of Suzano as principal debtor in respect of the debt
+30
+[AM_ACTIVE 406907653_1]
+securities (in each case, in that capacity, the “Successor Issuer”); provided that the following conditions are satisfied:
+a)
+such documents will be executed by the Successor Issuer, Suzano Austria, Suzano and the Trustee as may be necessary to give full effect to the substitution, including (i) a supplemental indenture under which the Successor Issuer assumes all of the obligations of Suzano Austria, as applicable under the applicable indenture and the debt securities and, unless the Guarantor’s then existing guarantees remain in full force and effect, substitute guarantees issued by the Guarantor in respect of the debt securities and (ii) a Subsidiary guarantee by Suzano Austria (collectively, the “Issuer Substitution Documents”);
+b)
+the Issuer Substitution Documents will contain covenants (i) to ensure that each holder of the debt securities has the benefit of a covenant in terms corresponding to the obligations of Suzano Austria, in respect of the payment of Additional Amounts (but replacing references to Austria or Cayman Islands, as applicable, with references to the jurisdiction of organization of the Successor Issuer); and (ii) to indemnify each holder and beneficial owner of the debt securities against all taxes or duties (a) which arise by reason of a law or regulation in effect or contemplated on the effective date of the substitution, which may be incurred or levied against such holder or beneficial owner of the debt securities as a result of the substitution and which would not have been so incurred or levied had the substitution not been made and (b) which are imposed on such holder or beneficial owner of the debt securities by any political subdivision or taxing authority of any country in which such holder or beneficial owner of the debt securities resides or is subject to any such tax or duty and which would not have been so imposed had the substitution not been made;
+c)
+the Successor Issuer will deliver, or cause the delivery, to the Trustee of opinions from counsel reasonably satisfactory to the Trustee in the jurisdiction of organization of the Successor Issuer, Austria or Cayman Islands, as applicable, Brazil and New York as to the validity, legally binding effect and enforceability of the Issuer Substitution Documents, the applicable indenture, the debt securities and the debt securities guarantees and specified other legal matters, as well as an officers’ certificate and opinion as to compliance with the provisions of the applicable indenture, including those provisions described under this section;
+d)
+the Successor Issuer will appoint a process agent in the Borough of Manhattan in The City of New York to receive service of process on its behalf in relation to any legal action or proceedings arising out of or in connection with the debt securities, the applicable indenture and the Issuer Substitution Documents;
+e)
+no Event of Default has occurred and is continuing; and
+f)
+the substitution will comply with all applicable requirements under the laws of the jurisdiction of organization of the Successor Issuer, Austria or Cayman Islands, as applicable, and Brazil for the purpose of such substitution.
+31
+[AM_ACTIVE 406907653_1]
+Upon the execution of the Issuer Substitution Documents, any substitute guarantee and compliance with the other conditions in the applicable indenture relating to the substitution, the Successor Issuer will be deemed to be named in the debt securities as the principal debtor in place of Suzano Austria, any reference in this “Description of the Debt Securities” to Suzano Austria shall from then on be deemed to refer to the Successor Issuer and any reference to the country in which Suzano Austria is domiciled or resident for taxation purposes shall from then on be deemed to refer to the country of domicile or residence for taxation purposes of the Successor Issuer.
+Not later than 10 Business Days after the execution of the Issuer Substitution Documents, the Successor Issuer will give notice thereof to the holders of the debt securities.
+Notwithstanding any other provision of the applicable indenture, the Guarantor will (unless it is the Successor Issuer) promptly execute and deliver any documents or instruments necessary or that the Trustee may reasonably request, to ensure that the debt securities guarantees are in full force and effect for the benefit of the holders and beneficial owners of debt securities following the substitution.
+In the case of the Suzano Netherlands Base Indenture, without the consent of any holder of the debt securities, the Suzano Netherlands or the Guarantor may arrange for and cause the substitution of Suzano Netherlands as issuer and principal obligor in respect of any series of Notes by Suzano (including any successor to Suzano pursuant to Suzano Netherlands Base Indenture) or any wholly owned Subsidiary of Suzano s (the “Successor Issuer”); provided that:
+a)
+the Successor Issuer shall expressly assume, by a supplemental indenture executed and delivered to the Trustee, the due and punctual payment of the principal of (and premium, if any) and interest on the notes of such series and the performance of every covenant of the Suzano Netherlands Base Indenture on the part of Suzano Netherlands to be performed or observed, and, unless the Successor Issuer is Suzano, Suzano shall unconditionally guarantee all of the obligations of such Successor Issuer under the notes of such series and the Suzano Netherlands Base Indenture as so supplemented;
+b)
+the Successor Issuer’s assumption of obligations includes the obligation to pay the Additional Amounts described under “Description of the Debt Securities—Payment of Additional Amounts” in the accompanying prospectus; provided that the definition of “Relevant Taxing Jurisdiction” shall be amended, if applicable, to include the jurisdiction in which such Successor Issuer is resident for tax purposes;
+c)
+immediately after giving effect to such transaction and treating any indebtedness which becomes an obligation of the Successor Issuer as a result of such transaction as having been incurred by the Successor Issuer at the time of such transaction, no Event of Default with respect to the notes of such series, and no event which, after notice or lapse of time or both, would become an Event of Default with respect to the notes of such series, shall have occurred and be continuing; and
+32
+[AM_ACTIVE 406907653_1]
+d)
+the Successor Issuer has delivered to the Trustee (x) a certificate signed by two executive officers of the Successor Issuer and (y) an Opinion of Counsel of recognized standing, each stating that the assumption and supplemental indenture comply with the Suzano Netherlands Base Indenture;
+Upon any substitution in accordance with the Suzano Netherlands Base Indenture, the Successor Issuer shall succeed to, and be substituted for, and may exercise every right and power of, Suzano Netherlands under the Suzano Netherlands Base Indenture with the same effect as if the Successor Issuer had been named as Suzano Netherlands of the notes, and Suzano Netherlands (including any successor Issuer pursuant to Section 8.2) shall be released from all obligations under the Suzano Netherlands Base Indenture and the notes.
+No vote by holders of the notes approving any of the actions set forth in the Indenture is required, unless as part of the transaction Suzano Netherlands or Suzano make other changes to the applicable indenture requiring approval of holders of the notes as set forth in the Suzano Netherlands Base Indenture.
+Defeasance and Discharge
+The following discussion of full defeasance and covenant defeasance will apply to the series of debt securities.
+Full Defeasance
+We can legally release ourselves from any payment or other obligations on the debt securities, except for various obligations described below (called “full defeasance”), if we, in addition to other actions, put in place the following arrangements for you to be repaid:
+•
+We must irrevocably deposit in trust for debt securities holders benefit and the benefit of all other direct holders of the debt securities a combination of money and non-callable U.S. government or U.S. government agency debt securities or bonds that, in the opinion of a firm of nationally recognized independent public accounts, will generate enough cash without reinvestment to make interest, principal and any other payments, including additional amounts, on the debt securities on their various due dates.
+•
+We must deliver to the trustee a legal opinion of our counsel, based upon a ruling by the U.S. Internal Revenue Service or upon a change in applicable U.S. federal income tax law, confirming that under then current U.S. federal income tax law we may make the above deposit without ca

@@ -1,0 +1,61 @@
+EX-21.1
+4
+exhibit21120251231.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Registrant
+Subsidiary
+Entity Name
+Jurisdiction of Incorporation
+Name Under Which the Subsidiary Does Business
+1.
+LPL Holdings, Inc.**
+Massachusetts
+LPL
+2.
+PTC Holdings, Inc.**
+Ohio
+PTC
+3.
+The Private Trust Company, N.A.
+Ohio
+PTC
+4.
+LPL Financial LLC
+California
+LPL, LPL Financial
+5.
+LPL Insurance Associates, Inc.
+Delaware
+LPL, LPL Financial
+6.
+AW Subsidiary, Inc.**
+Delaware
+AW Subsidiary
+7.
+LPL Employee Services, LLC**
+Delaware
+LPL Employee Services
+8.
+Allen & Company of Florida, LLC
+Delaware
+Allen & Company of Florida
+9.
+Blaze Portfolio Systems LLC
+Illinois
+Blaze
+10.
+LPL Enterprise, LLC
+Delaware
+LPL Enterprise, LPL Financial
+11.
+Atria Wealth Solutions, Inc.
+Delaware
+Atria
+12.
+CFN Holding Company LLC**
+Massachusetts
+Commonwealth
+*     All subsidiaries are wholly owned, directly or indirectly, by the Registrant.
+**     Holding companies.

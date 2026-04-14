@@ -1,0 +1,590 @@
+TICKER: DTST
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain weaknesses, instability in the geopolitical environment as a result of
+the withdrawal of the United Kingdom from the European Union, the Russian invasion of Ukraine, the war in the Middle East and other political
+tensions, and foreign governmental debt concerns. Such challenges have caused, and may continue to cause, uncertainty and instability
+in local economies and in global financial markets. Risks Related to Intellectual
+Property Assertions by a third
+party that the Company’s solutions infringe its intellectual property, whether or not correct, could subject the Company to costly
+and time-consuming litigation or expensive licenses. There is frequent litigation
+in the software and technology industries based on allegations of infringement or other violations of intellectual property rights. Any
+such claims or litigation may be time-consuming and costly, divert management resources, require the Company to change its services, require
+it to credit or refund subscription fees, or have other adverse effects on its business. Many companies are devoting significant resources
+to obtaining patents that could affect many aspects of the Company’s business. Third parties may claim that the Company’s
+technologies or solutions infringe or otherwise violate their patents or other intellectual property rights. If the Company is forced
+to defend itself against intellectual property infringement claims, whether they have merit or are determined in its favor, it may face
+costly litigation, diversion of technical and management personnel, limitations on its ability to use its current websites and technologies,
+and an inability to market or provide its solutions. As a result of any such claim, the Company may have to develop or acquire non-infringing
+technologies, pay damages, enter into royalty or licensing agreements, cease providing certain services, adjust its marketing and advertising
+activities, or take other actions to resolve the claims. These actions, if required, may be costly or unavailable on terms acceptable
+to the Company, or at all. Furthermore, the Company
+has licensed proprietary technologies from third parties that it uses in its technologies and business, and it cannot be certain that
+the owners’ rights in their technologies will not be challenged, invalidated, or circumvented. In addition to the general risks
+described above associated with intellectual property and other proprietary rights, the Company is subject to the additional risk that
+the seller of such technologies may not have appropriately created, maintained, or enforced their rights in such technology. 22 The Company relies
+on third-party software to develop and provide its solutions, including server software and licenses from third parties to use patented
+intellectual property. The Company relies on software
+licensed from third parties to develop and offer its solutions. In addition, the Company may need to obtain future licenses from third
+parties to use intellectual property associated with the development of its solutions, which might not be available to the Company on
+acceptable terms, or at all. Any loss of the right to use any software required for the development and maintenance of the Company’s
+solutions could result in delays in the provision of its solutions until equivalent technology is either developed by the Company, or,
+if available from others, is identified, obtained, and integrated, which delay could harm its business. Any errors or defects in third-party
+software could result in errors or a failure of its solutions, which could harm its business. If the Company is unable
+to protect its domain names, its reputation, brand, customer base, and revenue, as well as its business and operating results, it could be
+adversely affected. The Company has registered
+domain names for websites (“URLs”) that it uses in its business, such as www.datastoragecorp.com. If the Company is unable
+to maintain its rights in these domain names, its competitors or other third parties could capitalize on the Company’s brand recognition
+by using these domain names for their own benefit. In addition, although the Company owns the Company’s domain name under various
+global top-level domains such as .com and .net, as well as under various country-specific domains, it might not be able to, or may choose
+not to, acquire or maintain other country-specific versions of the Company’s domain name or other potentially similar URLs. Domain
+names similar to the Company have already been registered in the U.S. and elsewhere, and its competitors or other third parties could
+capitalize on its brand recognition by using domain names similar to the Company’s. The regulation of domain names in the U.S. and
+elsewhere is generally conducted by internet regulatory bodies and is subject to change. If the Company loses the ability to use a domain
+name in a particular country, it may be forced to either incur significant additional expenses to market its solutions within that country,
+including the development of a new brand and the creation of new promotional materials, or elect not to sell its solutions in that country.
+Either result could substantially harm its business and operating results. Regulatory bodies could establish additional top-level domains,
+appoint additional domain name registrars, or modify the requirements for holding domain names. As a result, the Company may not be able
+to acquire or maintain the domain names that utilize the Company’s name in all of the countries in which it currently conducts or
+intends to conduct business. Further, the relationship between regulations governing domain names and laws protecting trademarks and similar
+proprietary rights varies among jurisdictions and is unclear in some jurisdictions. The Company may be unable to prevent third parties
+from acquiring and using domain names that infringe, are similar to, or otherwise decrease the value of, its brand or its trademarks.
+Protecting and enforcing the Company’s rights in its domain names and determining the rights of others may require litigation, which
+could result in substantial costs, divert management attention, and not be decided favorably to the Company. Risks Related to the Company’s
+Common Stock and Securities The Company’s
+stock price has fluctuated in the past and may be volatile in the future, and as a result, investors in its common stock could incur substantial
+losses. The
+Company’s stock price has fluctuated in the past, has recently been volatile, and may be volatile in the future. By way of example,
+on March 28, 2024, the reported low sale price of the Company’s common stock was $5.52, and the reported high sales price was $7.02.
+For comparison purposes, on May 29, 2024, the last closing price of the Company’s common stock was $7.81 while the last closing
+price on September 6, 2024, was $3.32. The Company may incur rapid and substantial decreases in its stock price in the foreseeable future
+that are unrelated to its operating performance or prospects. The stock market has experienced extreme volatility that has often been
+unrelated to the operating performance of particular companies. As a result of this volatility, investors may experience losses on their
+investment in the Company’s common stock. The market price for the Company’s common stock may be influenced by many factors,
+including the following: ● investor reaction to the Company’s business strategy; ● the success of competitive products or technologies; ● regulatory or legal developments in the United States and other countries, especially changes in laws or regulations applicable to the Company’s products; ● variations in the Company’s financial results or those of companies that are perceived to be similar to the Company; 23 ● the Company’s ability or inability to raise additional capital and the terms on which it raises it; ● declines in the market prices of stocks generally; ● the Company’s public disclosure of the terms of any financing which it consummates in the future; ● an announcement that the Company has effected a reverse split of the Company’s common stock and treasury stock; ● the Company’s failure to be profitable; ● the Company’s failure to raise working capital; ● any acquisitions we may consummate; ● announcements by the Company or its competitors of significant contracts, new services, acquisitions, commercial relationships, joint ventures or capital commitments; ● cancellation of key contracts; ● the Company’s failure to meet financial forecasts it publicly discloses; ● trading volume of the Company’s common stock; ● sales of the Company’s common stock by it or its stockholders; ● general economic, industry and market conditions; and ● other events or factors, including those resulting from such events, or the prospect of such events, including war, terrorism and other international conflicts, public health issues including health epidemics or pandemics, such as the COVID-19 pandemic, and natural disasters such as hurricanes, floods, fires, earthquakes, tornadoes or other adverse weather and climate conditions, whether occurring in the United States or elsewhere, could disrupt the Company’s operations, disrupt the operations of its suppliers or result in political or economic instability. These broad market and industry
+factors may seriously harm the market price of the Company’s common stock, regardless of its operating performance. Since the stock
+price of its common stock has fluctuated in the past, has been volatile recently and may be volatile in the future, investors in its common
+stock could incur substantial losses. In the past, following periods of volatility in the market, securities class-action litigation has
+often been instituted against companies. Such litigation, if instituted against the Company, could result in substantial costs and diversion
+of management’s attention and resources, which could materially and adversely affect its business, financial condition, results
+of operations and growth prospects. There can be no guarantee that the Company’s stock price will remain at current prices or that
+future sales of its common stock will not be at prices lower than those sold to investors. Additionally, recently, securities
+of certain companies have experienced significant and extreme volatility in stock price due to short sellers of shares of common stock,
+known as a “short squeeze.” These short squeezes have caused extreme volatility in those companies and in the market and have
+led to the price per share of those companies to trade at a significantly inflated rate that is disconnected from the underlying value
+of the company. Many investors who have purchased shares in those companies at an inflated rate face the risk of losing a significant
+portion of their original investment as the price per share has declined steadily as interest in those stocks has abated. While the Company
+has no reason to believe its shares would be the target of a short squeeze, there can be no assurance that it won’t be in the future,
+and investors may lose a significant portion or all of their investment if they purchase the Company’s shares at a rate that is
+significantly disconnected from its underlying value. The
+Company cannot be assured that it will be able to maintain its listing on the Nasdaq Capital Market. The Company’s
+securities are listed on The Nasdaq Capital Market, a national securities exchange. The Company cannot be assured that it will continue
+to comply with the rules, regulations or requirements governing the listing of its common stock on The Nasdaq Capital Market or that its
+securities will continue to be listed on Nasdaq Capital Market in the future. If Nasdaq should determine at any time that the Company
+failed to meet Nasdaq requirements, it may be subject to a delisting action by Nasdaq. 24 On January
+18, 2024, Nasdaq notified the Company that due to the passing of Mr. Hoffman, a member of the Company’s Board of Directors and member
+of the Audit Committee, the Company was no longer compliant with Nasdaq’s audit committee requirements as set forth in Rule 5605(c)(2)(A)
+of the Nasdaq listing standards. On April
+2, 2024, the Company received a letter (the “Notification Letter”) from Nasdaq stating that, based on the information regarding
+the appointment of Nancy M. Stallone, CPA to the Company’s Board of Directors and Audit Committee, Nasdaq has determined that the
+Company complies with the Audit Committee requirement for continued listing on The Nasdaq Capital Market set forth in Listing Rules 5605(c)(2),
+which requires that the Company maintain an audit committee of at least three members, each of whom must meet specified criteria, including
+certain independence criteria. Accordingly, the Nasdaq staff has determined that the Company has regained compliance with Nasdaq Listing
+Rule 5605(c)(2) and has indicated that the matter is now closed. If Nasdaq
+delists the Company’s securities from trading on its exchange at some future date, the Company could face significant material adverse
+consequences, including: ● a limited availability of market quotations for its securities; ● reduced liquidity with respect to its securities; ● a determination that the Company’s common stock is
+a “penny stock” which will require brokers trading in the Company’s common stock to adhere to more stringent rules,
+possibly resulting in a reduced level of trading activity in the secondary trading market for the Company’s common stock; ● a limited amount of news and analyst coverage for the Company;
+and ● a decreased ability to issue additional securities or obtain additional financing in the future. Upon exercising  the
+Company’s outstanding options or warrants, it will be obligated to issue a substantial number of additional shares of common stock
+which will dilute its present shareholders . The Company is obligated
+to issue additional shares of its common stock in connection with any exercise or conversion, as applicable, of its outstanding options,
+warrants, and shares of its convertible preferred stock. As of December 31, 2024, there were options and warrants outstanding convertible
+into an aggregate of 3,174,162 shares of common stock. The exercise of warrants or options will cause the Company
+to issue additional shares of its common stock and will dilute the percentage ownership of its shareholders. In addition, the Company
+has in the past, and may in the future, exchange outstanding securities for other securities on terms that are dilutive to the securities
+held by other shareholders not participating in such an exchange. Offers or availability
+for sale of a substantial number of shares of the Company’s common stock may cause the price of its common stock to decline . Sales of large blocks of
+the Company’s common stock could depress the price of its common stock. The existence of these shares and shares of common stock
+that may be issuable upon conversion or exercise, as applicable, of outstanding shares of convertible preferred stock, warrants and options
+create a circumstance commonly referred to as an “overhang” which can act as a depressant to the Company’s common stock
+price. The existence of an overhang, whether or not sales have occurred or are occurring, also could make the Company’s ability
+to raise additional financing through the sale of equity or equity-linked securities more difficult in the future at a time and price
+that the Company deems reasonable or appropriate. If the Company’s existing shareholders and investors seek to convert or exercise
+such securities or sell a substantial number of shares of its common stock, such selling efforts may cause significant declines in the
+market price of its common stock. In addition, the shares of the Company’s common stock included in the Units and underlying warrants
+sold in the offering will be freely tradable without restriction or further registration under the Securities Act. As a result, a substantial
+number of shares of the Company’s common stock may be sold in the public market following this offering. If there are significantly
+more shares of common stock offered for sale than buyers are willing to purchase, then the market price of the Company’s common
+stock may decline to a market price at which buyers are willing to purchase the offered common stock and sellers remain willing to sell
+its common stock. 25 The Company does not
+expect to declare any common stock cash dividends in the foreseeable future. The Company does not anticipate
+declaring any cash dividends to holders of its common stock in the foreseeable future. Consequently, common stockholders may need to rely
+on sales of their shares after price appreciation, which may never occur, as the only way to realize any future gains on their investment. Because the Company
+may issue preferred stock without the approval of its shareholders and have other anti-takeover defenses, it may be more difficult for
+a third party to acquire the Company and could depress its stock price. In general, the Company’s
+Board may issue, without a vote of its shareholders, one or more additional series of preferred stock that has more than one vote per
+share. Without these restrictions, the Company’s Board could issue preferred stock to investors who support it and its management
+and give effective control of its business to its management. Additionally, the issuance of preferred stock could block an acquisition
+resulting in both a drop in the Company’s stock price and a decline in interest of its common stock. This could make it more difficult
+for shareholders to sell their common stock. This could also cause the market price of the Company’s common stock shares to drop
+significantly, even if its business is performing well. Provisions of Nevada
+law could delay or prevent an acquisition of DSC, even if the acquisition would be beneficial to its stockholders and could make it more
+difficult for stockholders to change DSC’s management. DSC is subject to anti-takeover
+provisions under Nevada law, which could delay or prevent a change of control. Together, these provisions may make more difficult the
+removal of management and may discourage transactions that otherwise could involve payment of a premium over prevailing market prices
+for the Company’s securities. These provisions include: limitations on the ability to engage in any “combination” with
+an “interested stockholder” (each, as defined in the Nevada Revised Statutes (“NRS”)) for two years from the date
+the person first becomes an “interested stockholder”; being subject to Sections 78.378 to 78.3793 of the NRS and allowing
+an “acquiring person” to obtain voting rights in “control shares” without shareholder approval; the ability of
+the Board to issue shares of currently undesignated and unissued preferred stock without prior stockholder approval; limitations on the
+ability of stockholders to call special meetings; and the ability of the Board to amend its amended Bylaws without stockholder approval. 26 ITEM 1B. UNRESOLVED STAFF COMMENTS Not Applicable. ITEM 1C. CYBERSECURITY The Company maintains a cyber risk management program
+designed to identify, assess, manage, mitigate, and respond to cybersecurity threats. The Company’s cyber risk management program’s
+underlying processes and controls incorporate recognized best practices and standards for cybersecurity and information technology. We
+conduct annual risk assessments to identify risks related to company assets and business processes, assess the risk’s likelihood
+and potential consequences to the organization, and document any mitigating controls that are in place. Risks that are either highly likely
+to occur or whose impact on the organization is high are addressed through risk treatment, including risk acceptance, mitigation, transfer,
+or avoidance. The Company documents risk treatments and corresponding action items and tracks progress quarterly through an information
+security steering committee. The Company maintains a comprehensive set of policies,
+standards, processes, and other documentation per the ISO 27001:2013 standard’s requirements, the most widely industry-accepted
+standard for managing organizational information and data security risks, for implementing an Information Security Management System (ISMS).
+Documentation addresses overall information security, access management, asset management, encryption, data retention and disposal, vulnerability
+management, and more. Together, these documents form the foundation of the Company’s ISMS and ensure organizational assets and processes
+for information security are managed, governed, and are operating effectively. The Company’s management team oversees and administers its risk management
+program and informs senior management, the Cyber Security & Risk Committee of the Company’s Board of Directors (the “Board”
+or the “Board of Directors”), and other relevant stakeholders regarding the prevention, detection, mitigation, and remediation
+of cybersecurity incidents. The Cyber Security & Risk Committee of the Board of Directors consists of Matthew Grover and Uwayne A.
+Mitchell. The Company’s ISMS Steering Committee also oversees risks from cybersecurity threats. In addition, the Company also contracts
+with a third-party consultant to ensure the ISMS and information security controls comply with applicable standards and requirements. The Company’s management team possesses extensive experience in selecting,
+deploying, and overseeing cybersecurity technologies, initiatives, and processes, and relies on threat intelligence and other information
+obtained from governmental, public, and private sources to guide its approach. Matthew Grover brings over 15 years of experience in enterprise
+IT governance and has held senior leadership positions overseeing global information security operations. Uwayne A. Mitchell holds certifications
+such as CISSP and CISM and has a background in regulatory compliance and incident response within highly regulated industries. The ISMS
+Steering Committee includes members with technical and strategic expertise in cybersecurity risk assessment, data protection, and ISO/IEC
+27001 implementation, providing the Company with robust oversight capabilities. 27 The ISMS Steering Committee is specifically responsible
+for reviewing the adequacy of the Company’s information security controls. The committee, including member(s) of management assigned
+with cybersecurity oversight responsibility and/or third-party consultants providing cyber risk services, reviews vulnerabilities identified
+through the risk management process, the effectiveness of the Company’s cyber risk management program, and the emerging threat landscape
+and new cyber risks on a quarterly basis. This includes updates on the Company’s processes to prevent, detect, and mitigate cybersecurity
+incidents. In addition, cybersecurity risks are reviewed by the Cyber Security and Risk Committee at least annually as part of the Company’s
+corporate risk oversight processes. The Company also undergoes annual internal and external ISO 27001:2013 audits to proactively identify
+nonconformity issues within the ISMS and demonstrate ongoing compliance with the standard. As part of its review of the adequacy of the Company’s
+system of internal controls over financial reporting and disclosure controls and procedures, the Cyber Security & Risk Committee of
+the Board of Directors, comprised of independent directors, is specifically responsible for reviewing the adequacy of the Company’s
+computerized information system controls and security related thereof, the Company’s cybersecurity threat landscape, risks and the
+Company’s management and mitigation of cybersecurity risks and potential breach incidents. The Company faces risks from cybersecurity threats
+that could adversely affect its business, financial condition, results of operations, cash flows, or reputation. The Company acknowledges
+that the risk of cyber incidents is prevalent in the current threat landscape and that a future cyber incident may occur in the normal
+course of its business. To date, the Company has not experienced a cybersecurity incident. The Company proactively seeks to detect and
+investigate unauthorized attempts and attacks against its IT assets, data, and services and to prevent their occurrence and recurrence
+where practicable through changes or updates to internal processes and tools and changes or updates to service delivery; however, potential
+vulnerabilities to known or unknown threats will remain. Further, there is increasing regulation regarding responses to cybersecurity
+incidents, including reporting to regulators, investors, and additional stakeholders, which could subject the Company to additional liability
+and reputational harm. See
+
+--- VENDORS ---
+vendors or developers,
+violate applicable laws or its policies, such violations may also put its customers’ information at risk and could in turn have
+an adverse effect on its business. Any significant change to applicable laws, regulations, or industry practices regarding the use or
+disclosure of the Company’s customers’ data, or regarding the manner in which the express or implied consent of customers
+for the use and disclosure of such data is obtained, could require it to modify its solutions and features, possibly in a material manner,
+and may limit its ability to develop new services and features that make use of the data that its customers voluntarily share with the
+Company. The Company’s
+solutions are used by customers in the health care industry, and it must comply with numerous federal and state laws related to patient
+privacy in connection with providing its solutions to these customers. The Company’s solutions
+are used by customers in the health care industry, and it must comply with numerous federal and state laws related to patient privacy
+in connection with providing its solutions to these customers. In particular, the Health Insurance Portability and Accountability Act
+of 1996 (“HIPAA”), and the Health Information Technology for Economic and Clinical Health Act (“HITECH”) include
+privacy standards that protect individual privacy by limiting the uses and disclosures of individually identifiable health information
+and implementing data security standards. Because the Company’s solutions may backup individually identifiable health information
+for its customers, its customers are mandated by HIPAA to enter into written agreements with us known as business associate agreements
+that require the Company to safeguard individually identifiable health information. Business associate agreements typically include: ● a description of the Company’s permitted uses of individually identifiable health information; ● a covenant not to disclose that information except as permitted under the agreement and to make the Company’s subcontractors, if any, subject to the same restrictions; ● assurances that appropriate administrative, physical, and technical safeguards are in place to prevent misuse of that information; ● an obligation to report to the Company’s customers any use or disclosure of that information other than as provided for in the agreement; ● a prohibition against the Company’s use or disclosure of that information if a similar use or disclosure by its customers would violate the HIPAA standards; 18 ● the ability of the Company’s customers to terminate their subscription to its solution if the Company breaches a material term of the business associate agreement and are unable to cure the breach; ● the requirement to return or destroy all individually identifiable health information at the end of the customer’s subscription; and ● access by the Department of Health and Human Services to the Company’s internal practices, books, and records to validate that we are safeguarding individually identifiable health information. The Company may not be able
+to adequately address the business risks created by HIPAA or HITECH implementation or comply with its obligations under its business associate
+agreements. Furthermore, the Company is unable to predict what changes to HIPAA, HITECH or other laws or regulations might be made in
+the future or how those changes could affect its business or the costs of compliance. Failure by the Company to comply with any of the
+federal and state standards regarding patient privacy may subject the Company to penalties, including civil monetary penalties and, in
+some circumstances, criminal penalties, which could have an adverse effect on its business, financial condition, and operating results. Errors, failures, bugs
+in or unavailability of the Company’s solutions released by it could result in negative publicity, damage to its brand, returns,
+loss of or delay in market acceptance of its solutions, loss of competitive position, or claims by customers or others. The Company offers solutions
+that operate in a wide variety of environments, systems, applications, and configurations, that are often installed and used in large-scale
+computing environments with different operating systems, system management software, and equipment and networking configurations. The
+Company’s customers’ computing environments are often characterized by a wide variety of standard and non-standard configurations
+that can make pre-release testing for programming or compatibility errors very difficult and time-consuming. In addition, despite testing
+by the Company and others, errors, failures, or bugs may not be found in new solutions or releases until after distribution. In the past,
+when the Company has discovered any software errors, failures or bugs in certain of its solution offerings after their introduction or
+when new versions are released, it, in some cases, has experienced delayed or lost revenues as a result of these errors. In addition,
+the Company relies on hardware purchased or leased and software licensed from third parties to offer its solutions, and any defects in,
+or unavailability of, its third-party software or hardware could cause interruptions to the availability of its solutions. Errors, failures, bugs in
+or unavailability of the Company’s solutions released by it could result in negative publicity, damage to its brand, returns, loss
+of or delay in market acceptance of its solutions, loss of competitive position, or claims by customers or others. Many of the Company’s
+end-user customers use its solutions in applications that are critical to their business and may have a greater sensitivity to defects
+in its solutions than to defects in other, less critical, software solutions. In addition, if an actual or perceived breach of information
+integrity or availability occurs in one of its end-user customer’s systems, regardless of whether the breach is attributable to
+its solutions, the market perception of the effectiveness of its solutions could be harmed. Alleviating any of these problems could require
+significant expenditures of the Company’s capital and other resources and could cause interruptions, delays, or cessation of its
+solution licensing, which could cause it to lose existing or potential customers and could adversely affect its operating results. The Company faces many
+risks associated with its growth and plans to expand, which could harm its business, financial condition, and operating results. The Company continues to
+experience sales growth in its business. This growth has placed, and may continue to place, significant demands on its management and
+its operational and financial infrastructure. As the Company’s operations grow in size, scope, and complexity, it will need to improve
+and upgrade its systems and infrastructure to attract, service, and retain an increasing number of customers. The expansion of its systems
+and infrastructure will require the Company to commit substantial financial, operational, and technical resources in advance of an increase
+in the volume of business, with no assurance that the volume of business will increase. Any such additional capital investments will increase
+the Company’s cost base. Continued growth could also strain the Company’s ability to maintain reliable service levels for
+its customers, develop and improve its operational, financial, and management controls, enhance its reporting systems and procedures,
+and recruit, train, and retain highly skilled personnel. If the Company fails to achieve the necessary level of efficiency in its organization
+as it grows, its business, financial condition, and operating results could be harmed. 19 The Company has office locations
+in New York, Florida, Texas and the United Kingdom, and data centers in New York, Massachusetts, North Carolina, Texas, Canada and the
+United Kingdom. If the Company is unable to effectively manage a large and geographically dispersed group of employees and contractors
+or to anticipate its future growth and personnel needs, its business may be adversely affected. As the Company expands its business, it
+adds complexity to its organization and must expand and adapt its operational infrastructure and effectively coordinate throughout its
+organization. As a result, the Company has incurred and expects to continue to incur additional expenses related to its continued growth. The Company also anticipates
+that its ongoing efforts to continue to expand internationally will entail the marketing and advertising of its services and brand and
+the development of localized websites. The Company does not have substantial experience in selling its solutions in international markets
+or in conforming to the local cultures, standards, or policies necessary to successfully compete in those markets, and it must invest
+significant resources in order to do so. The Company may not succeed in these efforts or achieve its customer acquisition or other goals.
+For some international markets, customer preferences and buying behaviors may be different, and the Company may use business or pricing
+models that are different from its traditional subscription model to provide cloud backup and related services to customers. The Company’s
+revenue from new foreign markets may not exceed the costs of establishing, marketing, and maintaining its international solutions, and
+therefore may not be profitable on a sustained basis, if at all. The
+Company’s international expansion will subject it to risks typically encountered when operating internationally including economic
+and political instability, fluctuations in currency exchange rates, differing legal and regulatory environments, challenges in managing
+a geographically dispersed workforce, and cultural differences. International
+operations are subject to numerous political and economic factors, including changes in foreign national priorities, foreign government
+budgets, global economic conditions, and fluctuations in foreign currency exchange rates, the possibility of trade sanctions and other
+government actions, regulatory requirements, significant competition, taxation, and other risks associated with doing business outside
+the United States. Competition for international sales is intense. As
+a result of the Company’s international expansion into Europe, it will be exposed to risks inherent in foreign operations. These
+risks, which can vary substantially by market, include: 1. higher
+                                            costs and difficulties inherent in managing cross-border business operations and complying
+                                            with different commercial and legal requirements of overseas markets; 2. political
+                                            instability, corruption, and social and ethnic unrest; 3. changes
+                                            in economic conditions (including wage and commodity inflation, consumer spending and unemployment
+                                            levels); 4. the
+                                            regulatory environment; 5. compliance
+                                            with tax, trade, environmental and other foreign laws and regulations, including legal limitations
+                                            on ownership in some foreign countries and inadequate or inconsistent enforcement of regulations; 6. actions
+                                            by local regulatory bodies, including setting rates and tariffs that may be earned by or
+                                            charged to our businesses; 7. adverse
+                                            rulings by foreign courts or tribunals; challenges obtaining, maintaining and complying with
+                                            permits or approvals; difficulty enforcing contractual and property rights; and differing
+                                            legal standards; 8. cultural
+                                            differences; 9. consumer
+                                            preferences ; 10. changes
+                                            in the laws and policies that govern foreign investment in countries where our business is
+                                            operated; 20 11. crime,
+                                            strikes, riots, civil disturbances, terrorist attacks, natural disasters and wars; 12. deterioration
+                                            of political relations with the United States; and 13. Government
+                                            appropriations of assets. In
+addition, the Company may experience gains and losses resulting from fluctuations in foreign currency exchange rates. To date, the majority
+of the Company’s revenues and costs are denominated in U.S. dollars; however, the majority of revenues and costs in its international
+operations [are/will be] denominated in foreign currencies. Where the Company’s prices are denominated in U.S. dollars, its sales
+could be adversely affected by declines in foreign currencies relative to the U.S. dollar, thereby making its products and services more
+expensive in local currencies. The Company is also exposed to risks resulting from fluctuations in foreign currency exchange rates in
+connection with its international expansion. To the extent the Company pay contractors in foreign currencies, international expansions
+could cost more than anticipated as a result of declines in the U.S dollar relative to foreign currencies. In addition, fluctuating foreign
+currency exchange rates have a direct impact on how the Company’s international results of operations translate into U.S. dollars,
+which may adversely affect reported earnings. Even
+if the Company may decide in the future to undertake foreign exchange hedging transactions to reduce foreign currency transaction exposure,
+it does not currently intend to eliminate all foreign currency transaction exposure. Therefore, any weakness of the U.S. dollar may have
+a positive impact on the Company’s consolidated results of operations because the currencies in the foreign countries in which it
+operates may translate into more U.S. dollars. However, if the U.S. dollar strengthens relative to the currencies of the foreign countries
+in which the Company operates its consolidated financial position and results of operations may be negatively impacted as amounts in foreign
+currencies will generally translate into fewer U.S. dollars. There can be no assurance as to the future effect of any such changes on
+our results of operations, financial condition or cash flows. The
+Company’s international business involves sales directly to international customers which are subject to U.S. and foreign laws and
+regulations, technology transfer restrictions, investments, taxation, repatriation of earnings, exchange controls, the Foreign Corrupt
+Practices Act and other anti-corruption laws and regulations, and the anti-boycott provisions of the U.S. Export Control Reform Act of
+2018. While the Company has policies in place to comply with such laws and regulations, failure by the Company, its employees or others
+working on its behalf to comply with these laws and regulations could result in administrative, civil, or criminal liabilities, which
+could have a material adverse effect on the Company. Additionally,
+international procurement and local country rules and regulations, contract laws and judicial systems differ from those in the U.S. and,
+in some cases, may be less predictable than those in the U.S., which could impair our ability to enforce contracts and increase the risk
+of adverse or unpredictable outcomes, including the possibility that certain matters that would be considered civil matters in the U.S.
+are treated as criminal matters in other countries. We
+may not be able to adequately address these additional risks. If we were unable to do so, our operations might suffer, which may adversely
+impact our results of operations and financial condition. 21 The Company’s software
+contains encryption technologies, certain types of which are subject to U.S. and foreign export control regulations and, in some foreign
+countries, restrictions on importation and/or use. Any failure on the Company’s part to comply with encryption or other applicable
+export control requirements could result in financial penalties or other sanctions under the U.S. export regulations, including restrictions
+on future export activities, which could harm its business and operating results. Regulatory restrictions could impair the Company’s
+access to technologies that it seeks for improving its solutions and may also limit or reduce the demand for its solutions outside of
+the U.S. The loss of the Company’s
+key personnel, or its failure to attract, integrate, and retain other highly qualified personnel, could harm its business and growth prospects. The Company depends on the
+continued service and performance of its key personnel. In addition, many of the Company’s key technologies and systems are custom-made
+for its business by its personnel. The loss of key personnel, including key members of the Company’s management team, as well as
+certain of its key marketing, sales, product development, or technology personnel, could disrupt its operations and have an adverse effect
+on its ability to grow its business. In addition, several of the Company’s key personnel have only recently been employed by it,
+and the Company is still in the process of integrating these personnel into its operations. The Company’s failure to successfully
+integrate these key employees into its business could adversely affect its business. To execute the Company’s
+growth plan, it must attract and retain highly qualified personnel. Competition for these employees is intense, and the Company may not
+be successful in attracting and retaining qualified personnel. The Company, from time to time in the past, experienced, and  expects
+to continue to experience, difficulty in hiring and retaining highly-skilled employees with appropriate qualifications. New hires require
+significant training and, in most cases, take significant time before they achieve full productivity. The Company’s recent hires
+and planned hires may not become as productive as it expects, and it may be unable to hire or retain sufficient numbers of qualified individuals.
+Many of the companies with which it competes for experienced personnel have greater resources than it has. In addition, in making employment
+decisions, particularly in the internet and high-technology industries, job candidates often consider the value of the equity that they
+are to receive in connection with their employment. In addition, employees may be more likely to voluntarily exit the Company if the shares
+underlying their vested and unvested options, as well as unvested restricted stock units, have significantly depreciated in value resulting
+in the options they are holding potentially being significantly above the market price of the Company’s common stock and the value
+of the restricted stock units decreasing. If the Company fails to attract new personnel, or fails to retain and motivate its current personnel,
+its business and growth prospects could be severely harmed. Declining general economic
+or business conditions and changes to trade policy, including tariff and customs regulations, may have a negative impact on the Company’s
+business. Continuing concerns over U.S. health care reform legislation
+and energy costs, geopolitical issues, including those in Eastern Europe, the availability and cost of credit and government stimulus
+programs in the United States and other countries have contributed to increased volatility and diminished expectations for the global
+economy. These factors, combined with low business and consumer confidence and high unemployment, precipitated an economic slowdown and
+recession and stagnant economy for more than a decade. Additionally, political changes in the U.S. and elsewhere in the world have created
+a level of uncertainty in the markets. If the economic climate does not improve or deteriorate, our business, as well as the financial
+condition of our suppliers and our third-party payors, could be adversely affected, resulting in a negative impact on our business, financial
+condition and results of operations. Changes in U.S. or international social, political,
+regulatory and economic conditions or in laws and policies governing trade,
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+components of lease expense were as follows: Schedule of components of lease expense Year Ended December 31, 2024 Finance leases: Amortization of assets, included in depreciation and amortization expense $ 418,700 Interest on lease liabilities, included in interest expense 23,549 Operating lease: Amortization of assets, included in total operating expense 91,425 Interest on lease liabilities, included in total operating expense 773 Total net lease cost $ 534,447 Supplemental balance sheet information related to leases was as follows: Operating Leases: Operating lease right-of-use asset $ 575,380 Current operating lease liabilities $ 98,860 Noncurrent operating lease liabilities 523,070 Total operating lease liabilities $ 621,930 December 31, 2024 Finance leases: Property and equipment, at cost $ 5,521,716 Accumulated amortization ( 5,008,846 ) Property and equipment, net $ 512,870 Current obligations of finance leases $ 51,520 Finance leases, net of current obligations — Total finance lease liabilities $ 51,520 F- 19 Supplemental cash flow and other information related to leases were as
+follows: Schedule of supplemental cash flow and other information related to leases Year Ended December 31, 2024 Cash paid for amounts included in the measurement of lease liabilities: Operating cash flows related to operating leases $ 90,010 Financing cash flows related to finance leases $ 485,962 Weighted average remaining lease term (in years): Operating leases 4.83 Finance leases 0.11 Weighted average discount rate: Operating leases 9 % Finance leases 7 % Long-term obligations under the operating and finance leases at December
+31, 2024, mature as follows: Schedule of long term obligations operating and finance leases For the Twelve Months Ended December 31, Operating Leases Finance Leases 2025 $ 146,931 $ 52,009 2026 152,074 — 2027 157,396 — 2028 162,905 — 2029 140,266 — Total lease payments 759,572 52,009 Less: Amounts representing interest ( 137,642 ) ( 489 ) Total lease obligations 621,930 51,520 Less: long-term obligations ( 523,070 ) — Total current $ 98,860 $ 51,520 As of December 31, 2024, the Company had no additional
+significant operating or finance leases that had not yet commenced. Rent expense under all operating leases for the year ended December
+31, 2024 and 2023 was $ 330,500 and $ 276,676 , respectively. Note 7 - Commitments and Contingencies On May 7, 2024, the Company entered into a master
+service agreement with a vendor. The obligation is payable in monthly installments of $ 51,680 . The master service agreement ends June
+1, 2029. On December 18, 2024, the Company entered into a master
+service agreement with a vendor. The obligation is payable in monthly installments of $ 4,410 . The master service agreement ends December
+17, 2027. On January 1, 2025, the Company entered into a master
+service agreement with a vendor. The obligation is payable in monthly installments of $ 3,846 . The master service agreement ends December
+31, 2027. On January 24, 2025, the Company entered into a master
+service agreement with a vendor. The obligation is payable in monthly installments of $ 3,618 . The master service agreement ends January
+23, 2028. As part of the Flagship acquisition the Company acquired
+a licensing agreement for marketing related materials with a National Football League team. The Company has approximately $ 821,118 in
+payments over the next 3 years. Note 8 - Stockholders’ Equity Capital Stock The Company has 260,000,000 authorized shares
+of capital stock, consisting of 250,000,000 shares of Common Stock, par value $0 .001 , and 10,000,000 shares of Preferred
+Stock, par value $0 .001 per share. On July 18, 2024, the Company entered into an Equity
+Distribution Agreement (the “Agreement”), pursuant to which it may offer and sell, from time to time, shares of its common
+stock. Sales of shares of common stock under the Agreement will be made pursuant to the Company’s registration statement on Form
+S-3 (File No. 333-280881) (the “Registration Statement”) and a related prospectus supplement (the “ATM Prospectus”).
+The ATM Prospectus relates to the offering of up to $ 10,600,000 shares of the Company’s common stock. The issuance and sale,
+if any, of common stock under the Agreement is subject to the Company maintaining an effective registration statement. The Registration
+Statement was declared effective on July 26, 2024. To date, the Company has not made any sales under the Agreement. During the year ended December 31, 2023, employees
+exercised 833 stock options into shares of Common Stock. The Company received $ 1,699 for these options. F- 20 During the year ended December 31, 2024, employees
+exercised 68,988 stock options into 65,832 shares of Common Stock. The Company received $ 133,005 for these options. Common Stock Options On July 1, 2024, the Company registered an
+                                                                                              additional 111,323 and 1,000,000 shares of common stock under the 2010 Stock Incentive Plan and 2021 Stock Incentive Plan, respectively. A summary of the Company’s stock option activity
+and related information follows: Schedule of options activity and related information Number of Weighted Weighted Shares Average Average Under Exercise Contractual Options Price Life Options Outstanding at January 1, 2023 301,391 $ 3.46 7.45 Options Granted 354,685 1.93 10 Exercised ( 833 ) 2.04 — Expired/Cancelled ( 59,896 ) 4.14 — Options Outstanding at December 31, 2023 595,347 2.48 6.87 Options Granted 163,755 3.69 5.20 Exercised ( 68,988 ) 2.22 — Expired/Cancelled ( 11,812 ) 6.24 — Options Outstanding at December 31, 2024 678,302 2.79 6.42 Options Exercisable at December 31, 2024 271,650 2.99 5.79 Share-based compensation expense recognized for stock
+options granted totaled $ 425,029 and $ 315,815 for the years ended December 31, 2024, and 2023, respectively. The intrinsic value of outstanding stock options as
+of December 31, 2024, and 2023 was $ 1,171,313 and $ 391,283 , respectively. The valuation methodology used to determine the fair
+value of stock options issued during the year was the Black-Scholes option-pricing model. The Black-Scholes model requires the use of
+a number of assumptions including the volatility of the stock price, the average risk-free interest rate, and the weighted average expected
+life of stock options. The risk-free interest rate assumption is based upon
+observed interest rates on zero-coupon U.S. Treasury bonds whose maturity period is appropriate for the term of the stock options. Estimated volatility is a measure of the amount by
+which the Company’s stock price is expected to fluctuate each year during the expected life of the award. The Company’s calculation
+of estimated volatility is based on historical stock prices of the Company’s stock over a period equal to the expected life of the
+awards. As of December 31, 2024, there was $ 642,873 of total
+unrecognized compensation expense related to unvested employee stock options granted under the Company’s share-based compensation
+plans that is expected to be recognized over a weighted average period of approximately 1.37 years. The weighted average fair value of options granted,
+and the assumptions used in the Black-Scholes model during the years ended December 31, 2024, and 2023, are set forth in the table below. Schedule of weighted average fair value of options granted 2024 2023 Weighted
+    average fair value of stock options granted $ 3.69 $ 1.74 Risk-free
+    interest rate 3.84 %- 4.33 % 3.48 %
+                                            - 4.59 % Volatility 122 %- 159 % 133 - 199 % Expected
+    life (years) 3.50 - 6.00 years 5 – 10 years Dividend
+    yield — % — % F- 21 Share-Based Awards, restricted stock award (“RSAs”) On March 1, 2023, the Company granted certain employees
+an aggregate of 73,530 RSA’s. Compensation as a group amounted to $ 130,883 . The shares vest one third each year for three years
+after issuance. On March 28, 2023, the Company granted certain employees
+an aggregate of 44,942 RSA’s. Compensation as a group amounted to $ 72,357 . The shares vest one third each year for three years after
+issuance. On March 31, 2023, the Board of Directors resolved
+that the Company shall issue to Board members an aggregate of 12,500 RSA’s. Compensation as a group amounted to $ 22,750 . The shares
+vest one year after issuance. On April 10, 2023, the Company granted certain employees
+an aggregate of 50,000 RSA’s. Compensation as a group amounted to $ 90,000 . The shares vest one third each year for three years after
+issuance. On June 30, 2023, the Board of Directors resolved
+that the Company shall issue to Board members an aggregate of 12,500 RSAs. Compensation as a group amounted to $ 29,125 . The shares vest
+one year after issuance. On September 30, 2023, the Board of Directors resolved
+that the Company shall issue to Board members an aggregate of 12,500 RSAs. Compensation as a group amounted to $ 38,875 . The shares vest
+one year after issuance. On October 11, 2023, the Company granted certain employees
+an aggregate of 687 RSA’s. Compensation as a group amounted to $ 2,497 . The shares vest one third each year for three years after
+issuance. On December 31, 2023, the Board resolved that the
+Company shall issue to Board members an aggregate of 10,000 RSAs Compensation as a group amount of $ 28,751 . The shares vest one year after
+issuance. On January 2, 2024, the Company granted certain employees
+an aggregate of 70,393 RSAs. Compensation as a group amounted to $ 156,251 . The shares vest one third each year for three years
+after issuance. On March 31, 2024, the Board resolved that the Company
+shall issue to Board members an aggregate of 14,166 RSAs. Compensation as a group amounted to $ 81,030 . The shares vest one year
+after issuance. On April 1, 2024, the Company granted certain employees
+an aggregate of 2,660 RSAs. Compensation as a group amounted to $ 15,002 . The shares vested on grant. On June 30, 2024, the Board resolved that the Company
+shall issue to Board members an aggregate of 17,500 RSAs. Compensation as a group amounted to $ 114,800 . The shares vest one year after
+issuance. A summary of the activity related to RSAs for the year ended December 31,
+2024, is presented below: Schedule of activity related to RSAs Restricted Stock Awards (RSAs) Shares Fair Value Outstanding non-vested at January 1, 2023 50,000 $ 1.89 Granted 216,659 Vested ( 57,500 ) Forfeited — Outstanding non-vested at December 31, 2023 209,159 — Granted 104,719 $ 3.98 Vested ( 98,816 ) $ 2.18 Forfeited ( 687 ) — Outstanding non-vested at December 31, 2024 214,375 $ 2.79 Stock-based compensation for RSA’s has been
+recorded in the consolidated statements of operations and totaled $ 369,658 and $ 190,389 for the years ended December 31, 2024, and 2023,
+respectively. F- 22 As of December 31, 2024,
+there was $ 333,225 of total unrecognized compensation expense related to unvested RSUs granted under the Company’s share-based compensation
+plans that is expected to be recognized over a weighted average period of approximately 1.1 years . Common Stock Warrants A summary of the Company’s warrant activity
+and related information follows: Schedule of warrant activity and related information Schedule of warrant activity and related information Weighted Number of Range of Weighted Average Shares Option Price Average Contractual Under Options Per Share Exercise Price Life Warrant Outstanding at January 1, 2023 2,419,193 $ 7.43 - 0.40 $ 6.87 $ 3.67 Warrant Granted — — — — Warrant Expired ( 3,333 ) 0.40 0.40 — Warrant Outstanding at December 31, 2023 2,415,860 $ 7.43 - 6.15 $ 6.88 $ 2.67 Warrant Granted 80,000 7.43 7.43 5.00 Warrant Expired — — — — Warrant Outstanding at December 31, 2024 2,495,860 $ 7.43 - 6.15 $ 6.90 $ 1.66 Warrant Exercisable at December 31, 2024 2,495,860 $ 7.43 - 6.15 $ 6.90 $ 1.66 The intrinsic value of outstanding warrants as of
+December 31, 2024 and 2023 was $ 0 . Preferred Stock Liquidation preference Upon any liquidation, dissolution, or winding up of
+the Corporation, whether voluntary or involuntary, before any distribution or payment shall be made to the holders of any Common Stock,
+the holders of Series A Preferred Stock shall be entitled to be paid out of the assets of the Corporation legally available for distribution
+to stockholders, for each share of Series A Preferred Stock held by such holder, an amount per share of Series A Preferred Stock equal
+to the Original Issue Price for such share of Series A Preferred Stock plus all accrued and unpaid dividends on such share of Series A
+Preferred Stock as of the date of the Liquidation Event. No Preferred shares are issued as of December 31, 2024. Conversion The number of shares of Common Stock to which a share
+of Series A Preferred Stock may be converted shall be the product obtained by dividing the Original Issue Price of such share of Series
+A Preferred Stock by the then-effective Conversion Price (as defined herein) for such share of Series A Preferred Stock. The Conversion
+Price for the Series A Preferred Stock shall initially be equal to $0.02 and shall be adjusted from time to time. Voting Each holder of shares of Series A Preferred Stock
+shall be entitled to the number of votes, upon any meeting of the stockholders of the Corporation (or action taken by written consent
+in lieu of any such meeting) equal to the number of shares of Class B Common Stock into which such shares of Series A Preferred Stock
+could be converted. Dividends Each share of Series A Preferred Stock, in preference
+to the holders of all common stock, shall entitle its holder to receive, but only out of funds that are legally available therefore, cash
+dividends at the rate of ten percent ( 10 %) per annum from the Original Issue Date on the Original Issue Price for such share of Series
+A Preferred Stock, compounding annually unless paid by the Company. On May 18, 2021, the Company converted 1,401,786 shares
+of Series A Preferred Stock into 43,806 shares of common stock. Accrued dividends at December 31, 2022, were $ 0 . There are no
+shares of Series A Preferred Stock outstanding. F- 23 Note 9 - Income Taxes The components of deferred taxes are as follows: Schedule of components of deferred taxes Year Ended December 31, 2024 2023 Deferred tax assets: Net operating loss carry forwards $ 2,277,000 $ 2,444,000 Operating Lease – Right of Use Asset 172,496 — Other — 195,000 Total deferred tax assets 2,449,496 2,639,000 Deferred tax liabilities: Property and equipment ( 521,358 ) — Intangibles ( 120,123 ) ( 225,000 ) Goodwill ( 195,154 ) — Right of Use Liability ( 158,947 ) — Other — ( 65,000 ) Total deferred tax liabilities ( 995,582 ) ( 290,000 ) Valuation Allowance ( 1,492,945 ) ( 2,349,000 ) Net deferred taxes $ ( 39,031 ) $ — The Company had federal and state net operating
+tax loss carry-forwards of $ 7,526,435 and $ 11,185,137 , respectively
+as of December 31, 2024. The tax loss carry-forwards are available to offset future taxable income with the federal and state carry-forwards
+beginning to expire in 2029 . During the tax year, the Company claimed a tax credit
+related to the amortization of goodwill for US federal income tax purposes. However, the tax position underlying the credit may not have
+the appropriate economic substance to support the claim under current US federal income tax law. The Company is recognizing a naked credit
+associated with goodwill, where the tax deduction has been claimed based on goodwill that may not be associated with a qualifying transaction
+as required under income tax provisions. As of tax year ended December 31, 2024, management has reviewed the relevant
+tax laws and believes that the tax positions taken are reasonable. Given the potential for challenge by tax authorities, the Company may
+be exposed to the risk that the credits taken may not be sustained upon examination, which may result in additional tax liabilities and
+penalties. The amount of any potential tax adjustments to the credits have not been determined at this time. A reconciliation of the Company’s effective
+income tax rate to the expected income tax rate, computed by applying the federal statutory income tax rate of 21.0% for each of the
+years ended December 31, 2024 and 2023 to the Company’s loss before provision (benefit) for income taxes, is as follows: Schedule of expected income tax expense benefit 2024 2023 U.S. Federal Statutory Rate 21.0 % 21.0 % State Taxes 6.9 % 7.3 % Other permanent and prior period adjustments 5.7 % 9.1 % Valuation allowance ( 37.0 )% ( 37.4 )% Income tax provision — % — % Note 10 – Litigation The Company is currently not involved in any litigation
+that it believes could have a materially adverse effect on its financial condition or results of operations. There is no action, suit,
+proceeding, inquiry or investigation before or by any court, public board, government agency, self-regulatory organization or body pending
+or, to the knowledge of the executive officers of the Company or any of its subsidiaries, threatened against or affecting DSC, its common
+stock, any of its subsidiaries or of DSC’s or DSC’s subsidiaries’ officers or directors in their capacities as such,
+in which an adverse decision could have a material adverse effect. Note 11 – Related Party Transactions F- 24 Nexxis Capital LLC Charles M. Piluso (Chairman and CEO) and Harold Schwartz
+(President) collectively own 100% of Nexxis Capital LLC (“Nexxis Capital”). Nexxis Capital was formed to purchase equipment
+and provide leases to Nexxis Inc.’s customers. The Company received funds of $ 7,348 and $ 32,283 during the year ended December
+31, 2024, and 2023, respectively. Eisner & Maglione CPA’s LLC Lawrence Maglione is a partner of Eisner & Maglione
+CPA’s LLC. The Company paid his firm $ 31,352 and $ 34,644 for accounting and due diligence services during the year ended December 31, 2024, and 2023, respectively. Note 12 – Segment Information The Company operates in three reportable
+segments: CloudFirst, CloudFirst Europe and Nexxis. The Company’s segments were determined based on its internal organizational
+structure, the manner in which its operations are managed, and the criteria used by the Company’s CODM’s which is its Chief
+Executive Officer and the senior management team, to evaluate performance, which is generally the segment’s operating income or
+losses. Operations of: Products and services provided: CloudFirst Technologies Corporation CloudFirst provides services from CloudFirst technological assets deployed in six Tier 3 data centers throughout the USA and Canada. This technology has been developed by CloudFirst. Clients are invoiced for cloud infrastructure and disaster recovery on the CloudFirst platforms. Services provided to clients are provided on a subscription basis on long term contracts. CloudFirst Europe Ltd. CloudFirst Europe Ltd. provides services from CloudFirst technological assets deployed in three Tier 3 data centers throughout the United Kingdom. This technology has been developed by CloudFirst. Clients are invoiced for cloud infrastructure and disaster recovery on the CloudFirst UK platforms. Services provided to clients are provided on a subscription basis on long term contracts. Nexxis Inc. Nexxis
+is a single-source solution provider that delivers fully-managed cloud-based voice over internet services, data transport, internet access,
+and SD-WAN solutions focused on business continuity for today’s modern business environment. The following tables present certain financial information
+related to the Company’s reportable segments and Corporate: Schedule of financial information related to reportable segments As of December 31, 2024 CloudFirst Technologies CloudFirst Europe Ltd. Nexxis Inc. Corporate Total Accounts receivable $ 2,166,440 $ — 59,018 $ — $ 2,225,458 Prepaid expenses and other current assets 678,123 62,842 25,056 93,481 859,502 Net Property and Equipment 2,858,664 574,919 2,056 4,017 3,439,656 Intangible assets, net 1,427,006 — — — 1,427,006 Goodwill 4,238,671 — — — 4,238,671 Operating lease right-of-use assets 575,380 — — — 575,380 All other assets — — — 12,514,542 12,514,542 Total Assets $ 11,944,284 $ 637,761 $ 86,130 $ 12,612,040 $ 25,280,215 Accounts payable and accrued expenses $ 2,514,439 $ 80,348 $ 78,654 $ 509,938 $ 3,183,379 Deferred revenue 212,390 — — — 212,390 Deferred tax liability — — — 39,031 39,031 Total Finance leases payable 17,641 — — — 17,641 Total Finance leases payable related party 33,879 — — — 33,879 Total Operating lease liabilities 621,930 — — — 621,930 Total Liabilities $ 3,400,279 $ 80,348 $ 78,654 $ 548,969 $ 4,108,250 F- 25 As of December 31, 2023 CloudFirst Technologies Nexxis Inc. Corporate Total Accounts receivable $ 1,229,820 $ 30,152 $ — $ 1,259,972 Prepaid expenses and other current assets 419,254 18,157 75,764 513,175 Net property and equipment 2,727,225 2,905 2,644 2,732,774 Intangible assets, net 1,698,084 — — 1,698,084 Goodwill 4,238,671 — — 4,238,671 Operating lease right-of-use assets 62,981 — — 62,981 All other assets — — 12,795,362 12,795,362 Total assets $ 10,376,035 $ 51,214 $ 12,873,770 $ 23,301,019 Accounts payable and accrued expenses $ 2,020,963 $ 65,161 $ 522,814 $ 2,608,938 Deferred revenue 336,201 — — 336,201 Finance leases payable 281,241 — — 281,241 Finance leases payable related party 256,241 — — 256,241 Operating lease liabilities 63,983 — — 63,983 Total liabilities $ 2,958,629 $ 65,161 $ 522,814 $ 3,546,604 For the year ended December 31, 2024 CloudFirst Technologies CloudFirst Europe Ltd. Nexxis Inc. Corporate Total Revenue $ 24,152,056 $ — $ 1,219,247 $ — $ 25,371,303 Cost of sales 13,575,937 — 691,999 — 14,267,936 Gross Profit 10,576,119 — 527,248 — 11,103,367 Selling, general and administrative 5,544,276 290,219 619,912 3,218,831 9,673,238 Depreciation and amortization 1,348,614 — 850 774 1,350,238 Total operating expenses 6,892,890 290,219 620,762 3,219,605 11,023,476 Income (Loss) from Operations 3,683,229 ( 290,219 ) ( 93,514 ) ( 3,219,605 ) 79,891 Interest income — — — 592,819 592,819 Interest expense ( 119,008 ) — — — ( 119,008 ) Loss on disposal of equipment ( 1,599 ) — — — ( 1,599 ) Total Other Income (Expense) ( 120,607 ) — — 592,819 472,212 Income (Loss) before provision for income taxes $ 3,562,622 $ ( 290,219 ) $ ( 93,514 ) $ ( 2,626,786 ) $ 552,103 For the year ended December 31, 2023 CloudFirst Technologies CloudFirst Europe Ltd. Nexxis Inc. Corporate Total Revenue $ 23,862,649 $ — $ 1,096,927 $ — $ 24,959,576 Cost of sales 14,749,837 — 633,414 — 15,383,251 Gross Profit 9,112,812 — 463,513 — 9,576,325 Selling, general and administrative 5,112,193 — 692,185 2,638,764 8,443,142 Depreciation and amortization 1,300,238 — 705 651 1,301,594 Total operating expenses 6,412,431 — 692,890 2,639,415 9,744,736 Income (Loss) from Operations 2,700,381 — ( 229,377 ) ( 2,639,415 ) ( 168,411 ) Interest income — — — 542,229 542,229 Interest expense ( 74,502 ) — — — ( 74,502 ) Total Other Income (Expense) ( 74,502 ) — — 542,229 467,727 Income (Loss) before provision for income taxes $ 2,625,879 $ — $ ( 229,377 ) $ ( 2,097,186 ) $ 299,316 Note 13 - Subsequent Events The Company has evaluated
+events that occurred through March 31, 2025, the date that the financial statements were issued, and determined that there have been no
+events that have occurred that would require adjustments to the Company’s disclosures in the financial statements. F- 26 ITEM 9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE None. ITEM 9A. CONTROLS AND PROCEDURES Evaluation of Disclosure
+Controls and Procedures. As of the end of the period
+covered by this Annual Report, under the supervision and with the participation of DSC’s management, including its principal executive
+officer and principal financial officer, DSC conducted an evaluation of its disclosure controls and procedures, as such term is defined
+under Rule 13a-15(e) and Rule 15d-15(e) promulgated under the Securities Exchange Act of 1934, as amended (the “Exchange Act”).
+Rule 13a-15(e) under the Exchange Act defines “disclosure controls and procedures” as controls and other procedures of a company
+that are designed to ensure that the information required to be disclosed by a company in the reports that it files or submits under the
+Exchange Act is recorded, processed, summarized and reported, within the time periods specified in the SEC’s rules and forms, and
+that such information is accumulated and communicated to a company’s management, including its Chief Executive Officer and Chief
+Financial Officer, as appropriate, to allow timely decisions regarding required disclosure. Based upon that evaluation, the Company’s
+Chief Executive Officer and Chief Financial Officer have concluded that its disclosure controls and procedures were effective at the reasonable
+assurance level at December 31, 2024. A control system, no matter
+how well conceived and operated, can provide only reasonable, not absolute, assurance that the objectives of the control system are met.
+Due to its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Therefore, even those
+systems determined to be effective can provide only reasonable assurance with respect to financial statement preparation and presentation.
+Accordingly, the Company’s disclosure controls and procedures are designed to provide reasonable, not absolute, assurance that the
+objectives of its disclosure control system are met. As set forth above, the Company’s Chief Executive Officer and Chief Financial
+Officer have concluded, based on the evaluation as of the end of the period covered by this Report, that the Company’s disclosure
+controls and procedures were effective to provide reasonable assurance that the objectives of its disclosure control system were met. Management ’ s Annual Report on Internal
+Control Over Financial Reporting The Company’s management is responsible for
+establishing and maintaining adequate internal control over financial reporting, as defined in Exchange Act Rule 13a-15. Internal control
+over financial reporting is defined in Rule 13a-15(f) and 15(d)-15(f) under the Exchange Act as a process designed to provide reasonable
+assurance to the Company’s management and Board of Directors regarding the preparation and fair presentation of published financial
+statements. Management conducted an assessment of the Company’s internal control over financial reporting as of December 31, 2024,
+based on the framework and criteria established by the Committee of Sponsoring Organizations of the Treadway Commission in Internal Control-Integrated
+Framework (2013). Based on the assessment, management concluded that, as of December 31, 2024, the Company’s internal control over
+financial reporting is effective. Changes in Internal Control
+over Financial Reporting As described above, there
+were no changes in the Company’s internal control over financial reporting during the three months ended December 31, 2024, which
+would affect, or are reasonably likely to materially affect, its internal control over financial reporting. ITEM 9B. OTHER INFORMATION During the three months ended December 31, 2024, no
+director or officer of the Company adopted or terminated a “Rule 10b5-1 trading arrangement” or “nonRule 10b5-1 trading
+arrangement,” as each term is defined in Item 408(a) of Regulation S-K. Item 9C. DISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSPECTIONS Not Applicable 39 PART III ITEM 10. DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE
+GOVERNANCE The information required by this item of this Annual
+Report will be included under the headings “Corporate Governance” and “Committees of the Board of Directors” in
+our 2025 Proxy Statement, and is incorporated by reference herein. ITEM 11. EXECUTIVE COMPENSATION The information required by this item of this Annual
+Report will be included under the headings “Executive Compensation” and “Director Compensation” in the Company’s
+2025 Proxy Statement, and is incorporated by reference herein. ITEM 12. SECURITY
+OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS The information required by this item of this Annual
+Report will be included under the heading “Security Ownership of Certain Beneficial Owners and Management” in the Company’s
+2025 Proxy Statement and is incorporated by reference herein. 40 ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR
+INDEPENDENCE The information required by this item of this Annual
+Report will be included under the heading “Certain Relationships and Related Party Transactions and Director Independence”
+in the Company’s 2025 Proxy Statement and is incorporated by reference herein. ITEM 14. PRINCIPAL ACCOUNTANT FEES AND SERVICES The information required by this item of this Annual
+Report will be included under the heading “Principal Accounting Fees and Services” in the Company’s 2025 Proxy Statement
+and is incorporated by reference herein. PART IV ITEM 15. EXHIBIT AND FINANCIAL STATEMENT SCHEDULES. (a)(1) The following financial statements are included in this Annual Report for
+the fiscal years ended December 31, 2024, and 2023: 1. Report of Independent Registered Public Accounting Firm. 2. Consolidated Balance Sheets as of December 31, 2024, and 2023. 3. Consolidated Statements of Operations for the years ended December 31, 2024, and 2023. 4. Consolidated Statements of Cash Flows for the years ended December 31, 2024, and 2023. 5. Consolidated Statements of Stockholders’ Equity for the years ended December 31, 2024, and 2023. 6. Notes to Consolidated Financial Statements. (a)(2) All financial statement schedules have been omitted as the required information is either inapplicable or included in the Consolidated Financial Statements or related notes. (a)(3) The exhibits set forth in the accompanying
+    exhibit index on the page preceding the signature page are either filed as part of this report or are incorporated herein by reference: 41 ITEM 16. FORM 10-K SUMMARY Not applicable. EXHIBIT INDEX Exhibit No. Description 3.1 Articles of Incorporation (incorporated by reference to Exhibit 3.1 to the Registrant’s Registration Statement on Form SB-2 (File No. 333-148167) filed on December 19, 2007). 3.2 Certificate of Amendment to Articles of Incorporation (incorporated by reference to Exhibit 3.1 to Form 8-K (File No. 333-148167) filed on October 24, 2008). 3.3 Certificate of Amendment to Articles of Incorporation (incorporated by reference to Exhibit 3.1 on Form 8-K (File No. 333-148167) filed on January 9, 2009). 3.4 Bylaws (incorporated by reference to Exhibit 3.2 to the  Registrant’s Registration Statement on Form SB-2 (File No. 333-148167) filed on December 19, 2007). 3.5 Amended Bylaws (incorporated by reference to Exhibit 3.2 to Form 8-K (File No. 333-148167) filed on October 24, 2008). 3.6 Form of Certificate of Amendment to the Articles of Incorporation (incorporated by reference to Appendix A to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.7 Form of Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated October 7, 2008 (incorporated by reference to Appendix C to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.8 Form of Certificate of Validation and Ratification of the Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated October 7, 2008 (incorporated by reference to Appendix C to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.9 Form of Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated October 16, 2008 (incorporated by reference to Appendix D to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.10 Form of Certificate of Validation and Ratification of the Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated October 16, 2008 (incorporated by reference to Appendix D to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.11 Form of Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated January 6, 2009 (incorporated by reference to Appendix E to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.12 Form of Certificate of Validation and Ratification of the Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated January 6, 2009 (incorporated by reference to Appendix E to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.13 Form of Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated June 24, 2009 (incorporated by reference to Appendix F to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.14 Form of Certificate of Validation and Ratification of the Certificate of Correction to the Certificate of Amendment to the Articles of Incorporation dated June 24, 2009 (incorporated by reference to Appendix F to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.15 Certificate of Designations, Preferences and Rights of Series A Preferred Stock of Data Storage Corporation (incorporated by reference to Appendix F to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 3.16 Amendment to Bylaws ( incorporated by reference to Exhibit 3.1 to Form 8-K (File No. 001-35384) filed May 6, 2024). 42 4.1 Share Exchange Agreement, dated October 20, 2008, by and among, Euro Trend Inc., Data Storage Corporation and the shareholders of Data Storage Corporation named on the signature page thereto (incorporated by reference to Exhibit 10.1 to Form 8-K/A (File No. 333-148167) filed on June 29, 2009). 4.2 Data Storage Corporation 2010 Incentive Award Plan (incorporated by reference to Exhibit 10.1 on Form S-8/A (File No. 333-169042) filed on October 25, 2010). 4.3 Amended and Restated Data Storage Corporation 2010 Incentive Award Plan (incorporated by reference to Exhibit 10.1 to Form 8-K (File No. 001-35384) filed on April 26, 2012). 4.4 Data Storage Corporation 2021 Stock Incentive Plan (incorporated by reference to Appendix B to the Information Statement on Schedule 14C (File No. 001-35384) filed with the Securities and Exchange Commission on March 8, 2021). 4.5 Representative’s Warrant dated May 18, 2021 (incorporated by reference to Exhibit 4.1 to Form 8-K (File No. 001-35384) filed on May 18, 2021). 4.6 Form of Common Stock Warrant (incorporated by reference to Exhibit 4.2 to Form 8-K (File No. 001-35384) filed on May 18, 2021). 4.7 Warrant Agency Agreement, dated May 18, 2021, by and between the Company and VStock Transfer LLC (incorporated by reference to Exhibit 4.3 to Form 8-K (File No. 001-35384) filed on May 18, 2021). 4.8 Form of Warrant (incorporated by reference to Exhibit 4.1 to Form 8-K (File No. 001-35384) filed on July 20, 2021). 4.9 Description of Securities (incorporated by reference to Exhibit 4.10 to Annual Report on Form 10-K (File No. 001-35384) filed on March 31, 2023). 10.1 Asset Purchase Agreement by and between ABC Services Inc., and Data Storage Corporation as of October 25, 2016 (incorporated by reference to Exhibit 10.1 to Form 8K (File No. 001-35384) filed on October 31, 2016). 10.2 Asset Purchase Agreement by and between ABC Services II Inc., and Data Storage Corporation as of October 25, 2016 (incorporated by reference to Exhibit 10.2 to Form 8K (File No. 001-35384) filed on October 31, 2016). 10.3 Form of Stockholders Agreement by and between Data Storage Corporation, Nexxis Inc., and John Camello dated November 13, 2017 (incorporated by reference to Exhibit 10.22 to Form 10Q (File No. 001-35384) filled November 19, 2018). 10.4 Form of Employment Agreement between Data Storage Corporation, Nexxis Inc., and John Camello dated November 13, 2017 (incorporated by reference to Exhibit 10.23 to Form 10-Q (File No. 001-35384) filed November 19, 2018). 10.5 Buyout Lease Agreement between Data Storage Corporation and Systems Trading, Inc. dated March 15, 2018 (incorporated by reference to Exhibit 10.6 to Form 10-K (File No. 001-35384) filed March 31, 2021). 10.6 FMV Lease Agreement between Data Storage Corporation and Systems Trading, Inc. dated September 14, 2018 (incorporated by reference to Exhibit 10.7 to Form 10-K (File No. 001-35384) filed March 31, 2021). 10.7 Buyout Lease Agreement DSC003 between Data Storage Corporation and Systems Trading, Inc. dated December 18, 2018 (incorporated by reference to Exhibit 10.8 to Form 10-K (File No. 001-35384) filed March 31, 2021). 10.8 Buyout Lease Agreement DSC004 between Data Storage Corporation and Systems Trading, Inc. dated December 18, 2018 (incorporated by reference to Exhibit 10.9 to Form 10-K (File No. 001-35384) filed March 31, 2021). 10.9 Addendum 1 to Lease DSC003 between Data Storage Corporation and Systems Trading, Inc. dated March 20, 2019 (incorporated by reference to Exhibit 10.10 to Form 10-K (File No. 001-35384) filed March 31, 2021). 10.10 Addendum 1 to Lease DSC004 between Data Storage Corporation and Systems Trading, Inc. dated March 20, 2019 (incorporated by reference to Exhibit 10.11 to Form 10-K (File No. 001-35384) filed March 31, 2021). 43 10.11 Buyout
+    Lease Agreement DSC006 between Data Storage Corporation and Systems Trading, Inc. dated November 12, 2019 (incorporated by reference
+    to Exhibit 10.12 to Form 10-K (File No. 001-35384) filed March 31, 2021). 10.12 Agreement
+    and Plan of Merger by and between Data Storage Corporation and Flagship Solutions, LLC dated February 4, 2021 (incorporated by reference
+    to Exhibit 10.1 to Form 8-K (File No. 001-35384) filed on February 10, 2021). 10.13 Amendment,
+    dated February 12, 2021, to the Agreement and Plan of Merger by and between Data Storage Corporation, Data Storage FL, LLC, Flagship
+    Solutions, LLC, and the owners of Equity Interests (as defined therein) dated February 4, 2021 (incorporated by reference to Exhibit
+    10.2 to the Current Report on Form 8-K (File No. 001-35384) filed on February 16, 2021). 10.14 Buyout
+    Lease Agreement DSC007 between Data Storage Corporation and Systems Trading, Inc. dated March 4, 2021 (incorporated by reference
+    to Exhibit 10.15 to Form 10-K (File No. 001-35384) filed March 31, 2021). 10.15 Form
+    of Securities Purchase Agreement dated July 19, 2021 between Data Storage Corporation and certain purchasers (incorporated by reference
+    to Exhibit 10.1 to Form 8-K (File No. 001-35384) filed on July 20, 2021). 10.16# Form
+    of Employment Agreement between Data Storage Corporation and Charles M. Piluso dated March 28, 2023 (incorporated by reference to
+    Exhibit 10.1 to Form 8-K (File No. 001-35384) filed March 31, 2023). 10.17# Form
+    of Employment Agreement between Data Storage Corporation and Chris H. Panagiotakos dated March 28, 2023 (incorporated by reference
+    to Exhibit 10.2 to Form 8-K (File No. 001-35384) filed March 31, 2023). 10.18 Sublease
+    between Sentinel Benefits Group, LLC and Sentinel Benefits Group, Inc. and Data Storage Corporation, dated as of January 17, 2024
+    (incorporated by reference to Exhibit 10.1 to Form 8-K (File No. 001-35384) filed March 27, 2024) 10.19# Employment
+    Agreement Amendment between Data Storage Corporation and Charles M. Piluso (incorporated
+    by reference to Exhibit 10.20 to Form 10-K (File No. 001-35384) filed March 31, 2024). 10.20# Employment
+    Agreement Amendment between Data Storage Corporation and Chris H. Panagiotakos (incorporated
+    by reference to Exhibit 10.21 to Form 10-K (File No. 001-35384) filed March 31, 2024). 10.21# Amendment No. 1 to the Data Storage Corporation 2021 Stock Incentive Plan, as amended and restated (incorporated by reference to Exhibit 10.1 to Form 8-K (File No. 001-35384) filed June 24, 2024). 10.22 Equity Distribution Agreement, dated July 18, 2024, by and between Data Storage Corporation and Maxim Group LLC (Incorporated by reference to Exhibit 1.1 to Registration Statement on Form S-3 (File No. 333-280881) filed July 18, 2024) 19.1* Second Amended and Restated Insider Trading Policy 21.1* List of Subsidiaries of Data Storage Corporation 23.1* Consent of Rosenberg Rich Baker Berman P.A., Independent Registered Accounting Firm 24.1* Power of Attorney – Signature Page 31.1* Certification of Principal Executive Officer Pursuant to Exchange Act Rule 13a-14(a), As adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 31.2* Certification of Principal Financial Officer Pursuant to Exchange Act Rule 13a-14(a), As adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 32.1* Certification of Principal Executive Officer pursuant to 18 U.S.C. Section 1350, As adopted Pursuant to Section 906 of the Sarbanes-Oxley Act 2002 32.2* Certification of Principal Financial Officer pursuant to 18 U.S.C. Section 1350, As adopted Pursuant to Section 906 of the Sarbanes-Oxley Act 2002 97.1 Clawback Policy (incorporated by reference to Exhibit 97.1 to Form 10-K (File No. 001-35384) filed March 31, 2024). * Filed herewith # Indicates management contract or compensatory plan. 44 SIGNATURES Pursuant to the requirements
+of Section 13 or 15(d) of the Securities Exchange Act of 1934, the registrant has duly caused this to this report to be signed
+on its behalf by the undersigned, thereunto duly authorized on the 31 st day of March, 2025. DATA STORAGE
+    CORPORATION By: /s/
+    Charles M. Piluso Name: Charles
+    M. Piluso Chief Executive
+    Officer and Chairman of the Board (Principal
+    Executive Officer) Date: March
+    31, 2025 By: /s/
+    Chris H. Panagiotakos Name: Chris
+    H. Panagiotakos Title: Chief
+    Financial Officer (Principal
+    Financial and Principal Accounting Officer) Date: March
+    31, 2025 POWER OF ATTORNEY KNOW ALL PERSONS BY THESE PRESENTS, that each person
+whose signature appears below constitutes and appoints Charles M. Piluso, his true and lawful attorney-in-fact and agent, with full power
+of substitution and resubstitution, for him and in his name, place and stead, in any and all capacities, to sign any and all amendments
+to this report, and to file the same, with all exhibits thereto, and other documents in connection therewith, with the Securities and
+Exchange Commission, granting unto said attorneys-in-fact and agents, full power and authority to do and perform each and every act and
+thing requisite and necessary to be done in connection therewith, as fully to all intents and purposes as he might or could do in person,
+hereby ratifying and confirming all that said attorney-in-fact and agent, or his substitutes or substitute, may lawfully do or cause to
+be done by virtue hereof. Pursuant to the requirements of Section 13 or 15(d)
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, there
+unto duly authorized. Signature Title Date /s/
+    Charles M. Piluso Chief Executive Officer March
+    31, 2025 Charles
+    M. Piluso (Principal Executive Officer) /s/ Chris H. Panagiotakos Chief Financial Officer
+    (Principal Financial Officer March
+    31, 2025 Chris
+    H. Panagiotakos and Principal Accounting
+    Officer) /s/
+    Harold J. Schwartz President, Director March
+    31, 2025 Harold
+    Schwartz /s/
+    Thomas C. Kempster Executive
+    Vice President of Strategic Development, Director March
+    31, 2025 Thomas
+    Kempster /s/
+    John Argen Director March
+    31, 2025 John
+    Argen /s/
+    Lawrence A. Maglione, Jr. Director March
+    31, 2025 Lawrence
+    Maglione /s/
+    Matthew Grover Director March
+    31, 2025 Matthew
+    Grover /s/
+    Todd A. Correll Director March
+    31, 2025 Todd
+    Correll /s/
+    Clifford Stein Director March
+    31, 2025 Clifford
+    Stein /s/ Nancy M. Stallone Director March
+    31, 2025 Nancy
+    M. Stallone /s/ Uwayne
+    A. Mitchell Director March
+    31, 2025 Uwayne
+    A. Mitchell 45
+

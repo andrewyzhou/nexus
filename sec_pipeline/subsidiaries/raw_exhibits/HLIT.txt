@@ -1,0 +1,58 @@
+EX-21.1
+3
+hlit-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+HARMONIC INC. AND SUBSIDIARIES
+SUBSIDIARIES OF THE REGISTRANT
+The following table lists the direct and indirect subsidiaries of Harmonic Inc. as of December 31, 2025:
+Name
+State or Other Jurisdiction
+of Incorporation or Organization
+Harmonic Delaware, L.L.C.
+U.S.A.
+Harmonic Germany GmbH
+Germany
+Harmonic Japan GK
+Japan
+Harmonic India Private Limited
+India
+Harmonic International GmbH
+Switzerland
+Harmonic International Inc
+U.S.A.
+Harmonic Lightwaves (Israel) Ltd
+Israel
+Harmonic Singapore P.T.E. Ltd.
+Singapore
+Harmonic Spain SL
+Spain
+Harmonic Technologies (HK) Limited
+Hong Kong
+Harmonic (UK) Limited
+United Kingdom
+Harmonic Video Networks Ltd.
+Israel
+Horizon Acquisition Ltd
+Israel
+Harmonic Brazil LTDA
+Brazil
+Harmonic S.R.I.
+Argentina
+Harmonic Mexico International
+Mexico
+Harmonic Video Networks Malaysia Sdn Bhd
+Malaysia
+Harmonic International Australia Pty Ltd
+Australia
+Harmonic Italia Srl
+Italy
+Financiere Kepler SAS
+France
+Harmonic France SAS
+France
+Thomson Video Networks India Private Ltd
+India
+Harmonic Technologies (Canada)
+Canada

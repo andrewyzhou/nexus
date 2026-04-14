@@ -1,0 +1,98 @@
+EX-21.1
+5
+ex-211snowflakefy2026q4.htm
+EX-21.1
+Document
+Exhibit 21.1
+Snowflake Subsidiary List
+Name of Subsidiary
+Jurisdiction of Organization
+Cloudlet Information Technology (Beijing) Co. Ltd.
+China
+Crunchy Data Solutions, Inc.
+Delaware
+Mountain US Corporation
+Nevada
+Night Shift Development, Inc. dba Snowflake Public Sector, Inc.
+Delaware
+Observe, LLC
+Delaware
+Observe Switzerland Sarl
+Switzerland
+TensorStax, LLC
+Delaware
+PT Snowflake Computing Indonesia
+Indonesia
+SNFL Cloudtech India Private Limited
+India
+SNFL Technologies AB
+Sweden
+Snowflake Arabia Limited
+Saudi Arabia
+Snowflake Brazil Ltda.
+Brazil
+Snowflake Cloudtech Israel Ltd.
+Israel
+Snowflake Colombia S.A.S.
+Colombia
+Snowflake Computing Belgium B.V.
+Belgium
+Snowflake Computing Canada ULC
+Canada
+Snowflake Computing France SAS
+France
+Snowflake Computing GmbH
+Germany
+Snowflake Computing Ireland Limited
+Ireland
+Snowflake Computing Netherlands B.V.
+Netherlands
+Snowflake Computing Pty Ltd.
+Australia
+Snowflake Computing Singapore Pte. Ltd.
+Singapore
+Snowflake Computing Spain, S.L.
+Spain
+Snowflake Computing Switzerland GmbH
+Switzerland
+Snowflake Computing UK Ltd.
+United Kingdom
+Snowflake Costa Rica S.R.L.
+Costa Rica
+Snowflake Finland OY
+Finland
+Snowflake G.K.
+Japan
+Snowflake Holdings LLC
+Delaware
+Snowflake Holdings II LLC
+Delaware
+Snowflake International Holdings Inc.
+Delaware
+Snowflake International Holdings I Inc.
+Delaware
+Snowflake Investment Holdings LLC
+Delaware
+Snowflake Italy S.R.L.
+Italy
+Snowflake Korea YH
+South Korea
+Snowflake Middle East FZ-LLC
+United Arab Emirates
+Snowflake Norway AS
+Norway
+Snowflake Poland Sp. z o.o.
+Poland
+Snowflake Technologies Malaysia Sdn. Bhd.
+Malaysia
+Snowflake Technologies Philippines Inc.
+Philippines
+Snowflake Technologies Turkey Data Teknoloji Limited Şirketi
+Turkey
+Snowflake Regional Headquarter Company
+Saudi Arabia
+Exhibit 21.1
+Snowflake Technologies Mexico, S. de R.L. de C.V.
+Mexico
+Tahoe Systems, LLC
+Delaware

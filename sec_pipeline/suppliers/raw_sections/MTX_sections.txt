@@ -1,0 +1,305 @@
+TICKER: MTX
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain disruptions, potential contractual
+breaches and litigation, regional instability, and geopolitical shifts, cannot
+be predicted. We are also subject to increased risks of natural disasters,
+public health crises, including the occurrence of a contagious disease or
+illness, such as COVID-19, and other catastrophic events in such countries.
+Many of these risks are beyond our control and can lead to sudden, and
+potentially prolonged, changes in demand for our products, difficulty in
+enforcing agreements, and losses in the realizability of our assets. In addition, a significant portion of our raw material
+purchases and sales outside the United States are denominated in foreign
+currencies, and liabilities for non-U.S. operating expenses and income taxes
+are denominated in local currencies. Accordingly, reported sales, net earnings,
+cash flows, and fair values have been and, in the future, will be affected by
+changes in foreign currency exchange rates. Our overall success as a global
+business depends, in part, upon our ability to succeed in differing legal,
+regulatory, economic, social, and political conditions. We cannot assure you
+that we will implement policies and strategies that will be effective in each
+location where we do business. Adverse
+developments in any of the areas in which we do business could cause actual
+results to differ materially from historical and expected results. The Company’s operations are dependent on the availability of raw materials and access to ore reserves at its mining operations. Increases in costs of raw materials, energy, or shipping could adversely affect our financial results. The Company depends in part on having an adequate
+supply of raw materials for its manufacturing operations, particularly lime and
+carbon dioxide for the production of PCC, and magnesia and alumina for its
+refractory operations. Purchase prices and availability of these critical raw
+materials are subject to volatility. At any given time, we may be unable to
+obtain an adequate supply of these critical raw materials on a timely basis, on
+price and other terms, or at all. While most such raw materials are readily
+available, the Company has purchased approximately 57% of its magnesia
+requirements from sources in China over the past five years. The price and
+availability of magnesia have fluctuated in the past and they may fluctuate in
+the future. Price increases for certain other of our raw materials, including
+petrochemical products, as well as increases in energy prices, have also
+affected our business. Our production processes consume a significant amount of
+energy, primarily electricity, diesel fuel, natural gas, and coal. We use diesel
+fuel to operate our mining and processing equipment, and our freight costs are
+heavily dependent upon fuel prices and surcharges. Energy costs also affect the
+cost of raw materials. On a combined basis, these factors represent a large
+exposure to petrochemical and energy products which may be subject to
+significant price fluctuations. The contracts pursuant to which we construct
+and operate our PCC satellite plants generally adjust pricing to reflect the
+pass-through of increases in costs resulting from inflation, including energy.
+However, there is a time lag before such price adjustments can be implemented.
+The Company and its customers will typically negotiate reasonable price
+adjustments in order to recover these escalating costs, but there can be no
+assurance that we will be able to recover increasing costs through such
+negotiations. The Company also depends on having adequate
+access to ore reserves of appropriate quality at its mining operations. There
+are numerous uncertainties inherent in estimating ore reserves including
+subjective judgments and determinations that are based on available geological,
+technical, contract, and economic information. In addition, mining permits,
+leases, and other rights are, or may be, required for certain of the Company’s
+mining operations. Such permits, leases, and other rights are subject to
+modification, renewal, and revocation. Our ability to maintain such mining
+permits, leases, and other rights has been, and may continue to be, affected by
+changes in laws, regulations, and governmental actions, particularly in emerging
+markets such as China and Turkey. We cannot assure you that we will be able to
+maintain such mining permits, leases, and other rights to the extent we
+currently maintain them or at all. The Company relies on shipping cargos of
+bentonite from the United States, Turkey, and China to customers, as well as our
+own subsidiaries, and we are sensitive to our ability to recover these shipping
+costs. If we cannot secure our container requirements or offset additional
+shipping costs with price increases to customers, our profitability could be
+impacted. We are also subject to other shipping risks. In particular, rail
+service interruptions have affected our ability to ship, and the availability of
+rail service, and our ability to recover increased rail costs, may be beyond
+our control. In addition, governmental restrictions can, and during the
+COVID-19 pandemic did, affect our ability to ship our products. 15 Operational Risks The Company’s subsidiaries, BMI Oldco Inc. (f/k/a Barretts Minerals
+Inc.) (“Oldco”) and Barretts Ventures Texas LLC (together with Oldco, the
+“Chapter 11 Debtors”), have filed voluntary petitions for relief under Chapter
+11 of the U.S. Bankruptcy Code to address and comprehensively resolve Oldco’s
+liabilities associated with talc. Risks and uncertainties related to this
+filing could have a material adverse effect on the Company’s business,
+financial condition, results of operations, and cash flows. The Company and certain of the Company’s
+subsidiaries are among numerous defendants in over nine hundred cases seeking
+damages for alleged exposure to asbestos-contaminated talc products sold by the
+Company’s subsidiary Oldco. On October 2, 2023 (the “Petition
+Date”), notwithstanding the Company’s confidence in the safety of Oldco’s talc
+products, the Chapter 11 Debtors filed voluntary petitions for relief under
+Chapter 11 of the U.S. Bankruptcy Code in the United States Bankruptcy Court
+for the Southern District of Texas (the “Chapter 11 Cases”) to address and
+comprehensively resolve Oldco’s liabilities associated with
+talc.  Minerals Technologies Inc. and the Company’s other
+subsidiaries were not included in the Chapter 11 filing. The Chapter 11 Debtors’ ultimate goal in
+the Chapter 11 Cases is to confirm a plan of reorganization under Section
+524(g) of the U.S. Bankruptcy Code and utilize this provision of the Bankruptcy
+Code to establish a trust that will address all current and future talc-related
+claims. Discussions regarding the terms of a potential consensual
+plan of reorganization and the ultimate amount to be contributed to any trust
+are ongoing. In the second quarter of 2024, Oldco sold
+its talc assets under section 363 of the U.S. Bankruptcy Code. In addition, in
+the second quarter of 2024, the Company entered into a Debtor-in-Possession
+Credit Agreement with Oldco (the “DIP Credit Agreement”) and recorded a
+provision for credit loss of $30 million for the maximum aggregate principal
+amount under such DIP Credit Agreement. In the second quarter of 2025, the
+Company amended the DIP Credit Agreement to increase the maximum principal
+amount available under the DIP Credit Agreement by $30
+million. Proceeds of the sale of Oldco's talc assets and funds drawn
+by Oldco under the DIP Credit Agreement have been and will be used to fund the
+Chapter 11 Cases. In the first quarter of 2025, the Company recorded a
+provision to establish an accrual of $215 million for estimated costs to fund a
+trust to resolve all current and future talc-related claims as well as fund the
+Chapter 11 Cases and related litigation costs (including the aforementioned $30
+million increase to the maximum principal amount of the DIP Credit
+Agreement).  The parties have not yet reached a final resolution of
+all matters in the Chapter 11 Cases, and the Company is unable to estimate the
+possible loss or range of loss beyond the amount accrued. During the pendency of the Chapter 11 Cases, the
+Company anticipates that the Chapter 11 Debtors will benefit from the operation
+of the automatic stay, which stays ongoing litigation in connection with
+talc-related claims against the Chapter 11 Debtors. In addition, the Bankruptcy
+Court temporarily enjoined the filing or continued prosecution of all
+talc-related claims against the Chapter 11 Debtors’ non-debtor affiliates,
+subject to certain exceptions. Such exceptions consist of claims premised
+solely on alleged inadequacies in testing of talc sold by Oldco. The
+Company is vigorously opposing and defending against these
+claims. The Chapter 11 Debtors have been deconsolidated from the
+Company’s financial statements since the Petition Date. Although the Chapter 11 Cases are progressing, it is
+not possible at this time to predict how the District Court will rule on the
+pending motions, whether an appellate court will affirm or reverse the
+Bankruptcy Court order denying the Committee’s motion to dismiss, the form of
+any ultimate resolution, or when an ultimate resolution might occur.
+Accordingly, the Company is unable to estimate the possible loss or range of
+loss related to the amount that will be necessary to fully and finally resolve
+all of Oldco’s current and future talc-related claims in connection with a
+confirmed Chapter 11 plan of reorganization beyond the amount accrued. Several
+risks and uncertainties related to the Chapter 11 Cases could have a material
+adverse effect on the Company’s business, financial condition, results of
+operations, and cash flows, including the ultimate amount necessary to be
+contributed to any trust established pursuant to Section 524(g) of the U.S.
+Bankruptcy Code, the potential for the Company’s talc-related exposure to
+extend beyond the Chapter 11 Debtors arising from claims by talc plaintiffs
+relating to the Company’s liability for talc claims, corporate veil piercing
+efforts or otherwise, any final resolution of the scope of the Pfizer
+indemnity, the ongoing costs of the Chapter 11 Cases, which may require
+additional funding from time to time, the cost and length of time necessary to
+ultimately resolve the cases, either through settlement or as a result of
+litigation arising in connection with the Chapter 11 Cases, and the possibility
+that the Chapter 11 Debtors will be unsuccessful in attaining relief under
+Chapter 11. Further, while the Company anticipates that the Chapter 11 Debtors
+will benefit from the operation of the automatic stay during the Chapter 11 proceedings,
+depending on the ultimate outcome of any of these litigation matters, the
+Company could in the future be required to pay significant amounts as a result
+of settlements or judgments, potentially in excess of liabilities accrued to
+date in respect of such matters. The resolution of, or recognition of
+additional liabilities in connection with, pending or future litigation could
+have a material adverse effect on the Company’s results of operations, cash
+flows, and financial condition. For a further discussion of the Chapter 11 Cases and Oldco's talc-related liabilities, see Note 17 to the Consolidated Financial Statements, included in this report. 16 The Company is subject to stringent regulation in the areas of environmental, health and safety, and tax, and may incur unanticipated costs or liabilities arising out of claims for various legal, environmental, and tax matters or product stewardship issues that could materially harm the Company’s results of operations, cash flows, and financial condition. The Company’s operations are subject to
+international, federal, state, and local governmental environmental, health and
+safety, tax, and other laws and regulations. We have expended, and may be
+required to expend in the future, substantial funds for compliance with such
+laws and regulations. In addition, future events, such as changes to or
+modifications of interpretations of existing laws and regulations, or
+enforcement polices, or further investigation or evaluation of the potential
+environmental impacts of operations or health hazards of certain products, may
+affect our mining rights or give rise to additional compliance and other costs
+that could have a material adverse effect on the Company. Further,
+certain of our customers are subject to various federal and international laws
+and regulations relating to environmental and health and safety matters,
+especially customers of our Environmental & Infrastructure product line of
+our Engineered Solutions segment, who are subject to drilling permits, waste-water disposal, and other regulations. To the extent that these laws and
+regulations affecting our customers change, demand for our products and
+services could also change and thereby affect our financial results. Greenhouse
+gas emissions have become the subject of an increasing amount of concern from state,
+national, and international governments and agencies. These
+concerns have resulted in, and may continue to result in, the enactment or
+adoption of climate-related legislation and regulation that would restrict emissions of
+greenhouse gases in areas in which we conduct business, result
+in additional compliance costs, or  have an adverse effect on our
+operations or demand for our products. Our manufacturing processes for our
+products use a significant amount of energy and, should energy prices increase
+as a result of such legislation or regulation, we may not be able to pass these
+increased costs on to purchasers of our products. We cannot predict if or when
+currently proposed or additional laws and regulations regarding climate change
+or other environmental or health and safety concerns will be enacted or
+adopted. The Company is also subject
+to income tax laws and regulations in the United States and various foreign
+jurisdictions. Significant judgment is required in evaluating and estimating
+our provision and accruals for these taxes. Our income tax liabilities are
+dependent upon the location of earnings among these different jurisdictions.
+Our income tax provision and income tax liabilities could be adversely affected
+by the jurisdictional mix of earnings, changes in valuation of deferred tax
+assets and liabilities, and changes in tax treaties, laws, and regulations. The Company is currently a
+party in various litigation matters and tax and environmental proceedings and
+faces risks arising from various unasserted litigation matters, including
+product liability, patent infringement, antitrust claims, and claims for third-party
+property damage or personal injury stemming from alleged torts, including, as
+discussed elsewhere in this Report, a number of cases seeking damages for
+alleged exposure to asbestos-contaminated talc products sold by Oldco. Any
+failure to appropriately manage safety, human health, product liability, and
+environmental risks associated with the Company’s products and production
+processes could adversely impact the Company’s employees and other
+stakeholders, the Company’s reputation, and its results of operations, cash
+flows, and financial condition. Public perception of the risks associated with
+the Company’s products and production processes could impact product acceptance
+and influence the regulatory environment in which the Company operates. Any unanticipated
+liability arising out of a current matter or proceeding, or from the other
+risks described above, could have a material adverse effect on the Company’s
+results of operations, cash flows, and financial condition. Production facilities are subject to operating risks and capacity limitations that may adversely affect the Company’s financial condition or results of operations. The Company is dependent on the continued operation of
+its production facilities. Our production facilities and
+the transportation of our products and/or the raw materials used to manufacture
+our products are subject to
+hazards associated with the manufacturing, handling, storage, and
+transportation of chemical materials and products, including mechanical
+failure, leaks, ruptures, explosions, fires, inclement weather and natural disasters,
+transportation
+interruptions, and environmental risks. Such
+operating problems may cause personal injury and/or loss of life, damage to or
+destruction of property and equipment, environmental damage, unscheduled
+downtime, and customer attrition. We maintain property, business interruption, and
+casualty insurance but such insurance may not cover all risks associated with
+the hazards of our business and is subject to limitations, including
+deductibles and maximum liabilities covered. We may incur losses beyond the
+limits, or outside the coverage, of our insurance policies. Production
+at our facilities may also be affected by labor disputes, labor shortages, and
+increased turnover, which could disrupt our operations, cause a decline in our
+production, increase employee-related costs, and divert the attention of our
+management. Production facilities are also subject to governmental requirements
+that may affect our ability to operate. Further, from time
+to time, we may experience capacity limitations in our manufacturing operations.
+In addition, if we are unable to effectively forecast our customers’ demand, it
+could affect our ability to successfully manage operating capacity limitations.
+These hazards, limitations, labor, and employee issues, disruptions in supply, and capacity constraints
+could adversely affect financial results. 17 Operating results for some of our businesses are seasonal. Certain of our businesses are affected by
+seasonal weather patterns. A majority of revenues from our energy services
+business within the Environmental & Infrastructure product line of our
+Engineered Solutions segment is derived from the Gulf of Mexico and surrounding
+states, which are susceptible to hurricanes that typically occur June 1 st through November 30 th .
+Actual or threatened hurricanes can result in volatile demand for services
+provided by our energy services business. Our other businesses within the Environmental
+& Infrastructure product line are affected by weather patterns which
+determine the feasibility of construction activities. Typically, less
+construction activity occurs in winter months and thus this segment’s revenues
+tend to be greatest in the second and third quarters when weather patterns in
+our geographic markets are more conducive to construction activities.
+Additionally, some of the businesses within the Specialty Additives product
+line of our Consumer & Specialties segment are subject to similar seasonal
+patterns. Our operations have been and will continue to be subject to cyberattacks and other disruptions to our information systems that could have a material adverse impact on our business, consolidated results of operations, and consolidated financial condition. Our operations are dependent on digital
+technologies and services, including
+systems operated by third parties that include embedded artificial intelligence
+(“AI”). We use these technologies for activities important
+to our business, including managing and operating our manufacturing facilities,
+communications within our company and with customers and suppliers, processing transactions, maintaining
+accurate financial records and other enterprise resource planning requirements, protecting confidential information, complying with
+regulatory, financial reporting, and legal requirements, and otherwise storing,
+processing, and transmitting our data. Increased use of remote working arrangements
+has only increased our reliance on these technologies and services. Our
+business has in the past and could in the future be negatively affected by
+security incidents and systems disruptions. These disruptions or incidents may
+be caused by cyberattacks and other cyber incidents, network or power outages,
+software, equipment, or telecommunications failures, the unintentional or
+malicious actions of employees or contractors, an
+inability to appropriately update our systems, natural disasters, fires, or
+other catastrophic events. Cyberattacks and other
+cyber incidents are occurring more frequently and the techniques used to gain
+access to information technology systems and data, disable or degrade service
+or sabotage systems are constantly evolving, becoming more sophisticated in
+nature, and are being carried out by groups and individuals with a wide range of
+expertise and motives. Cyberattacks and cyber incidents may be difficult to
+detect for periods of time and take many forms including cyber extortion,
+denial of service, social engineering, introduction of viruses or malware (such
+as ransomware), exploiting vulnerabilities in hardware, software, or other
+infrastructure, hacking, website defacement, theft of passwords and other
+credentials, unauthorized use of computing resources, and business email
+compromise. Continued geopolitical instability has heightened the risk of
+cyberattacks. Like other global companies, our systems
+are subject to recurring attempts by third parties to access information,
+manipulate data, or disrupt our operations, and we have experienced cyber
+incidents. If we do not allocate and effectively manage the resources necessary
+to continue building and maintaining our information technology infrastructure,
+or if we fail to timely identify or appropriately respond to cyberattacks or
+other cyber incidents, our business has been and can continue to be adversely
+affected by, among other things:
+interruption of our business operations; loss of or damage to intellectual
+property, proprietary or confidential information, or customer, supplier, or
+employee data; and increased costs required to prevent, respond to, or mitigate
+cybersecurity attacks. Similar risks exist with
+respect to our business partners and third-party providers that we rely upon.
+We also are subject to the risk that the activities associated with our business
+partners and third-party providers can adversely affect our business even if
+the attack or breach does not directly impact our systems or information. Our use of AI software
+may create additional risks related to the unintentional disclosure of
+proprietary, confidential, or otherwise sensitive information. Although the cyber incidents that we have
+experienced to date have not had a material effect on our business, such
+incidents or disruptions could have a material adverse effect on us in the
+future. While we believe we devote significant resources to network security,
+disaster recovery, employee training, and other measures to secure our
+information technology systems and prevent unauthorized access to or loss of
+data, there can be no guarantee that they will be adequate to safeguard against
+all cyber incidents, systems disruptions, or misuses of data. In addition,
+while we currently maintain insurance coverage that is intended to address
+costs associated with certain aspects of cyber incidents and information
+systems failures, this insurance coverage may not cover all losses or all types
+of claims that arise from an incident, or the damage to our reputation or
+brands that may result from an incident. Item 1B.  Unresolved Staff Comments None. 18 Item 1C.  Cybersecurity Risk Management and Strategy The Company has processes, policies, and procedures for identifying, assessing, managing, and responding to cybersecurity threats and incidents. These are integrated into our overall risk management systems , as overseen by our Board of Directors, primarily through the Audit Committee. Our policies and procedures include protocols for assessing potential material impact from cybersecurity threats and incidents, escalating to executive leadership and the Board of Directors, engaging external stakeholders, and reporting incidents based on applicable legal requirements. Our incident response plan provides guidance in the event of a cybersecurity incident, including processes with assigned roles and responsibilities to triage, contain, assess severity, escalate, investigate, and remediate incidents, as well as to comply with potentially applicable legal obligations and mitigate reputational damage. We use cybersecurity technologies, products, specialized IT tools, and services including cyber threat intelligence and external cyber technology experts to understand, manage, mitigate, and continually remediate identified risks. A cybersecurity incident may be detected in a number of ways, including through the following avenues: Security Operations Center (SOC) events, employee reports such as helpdesk incidents, and cybersecurity tool and service stacks (e.g., vulnerability detection, threat intelligence, anti-virus, and malware detection tools). All cybersecurity risks are logged into the Company’s cybersecurity risk register where they are tracked for remediation. These cybersecurity risks are discussed with management for resolution planning and escalation. We leverage recognized cybersecurity frameworks to drive strategic direction and maturity improvement and engage third party security experts for risk assessments, risk mitigation actions, vulnerability identification, and program enhancements. We periodically test our security controls through internal and external penetration testing that covers both corporate and plant IT networks by external specialized
+
+--- VENDORS ---
+vendors, as well as in connection with auditing of our financial systems. We also conduct regular cybersecurity tabletop exercises to test established policies and procedures for responding to cybersecurity threats and incidents. In addition, we conduct an annual independent review of our cybersecurity posture. Throughout the year, we conduct cybersecurity training and awareness for our employees to help identify, avoid, and mitigate cybersecurity threats utilizing various delivery methods such as phishing campaigns, training sessions, and informational bulletins. We conduct risk assessments of third-party suppliers and service providers including due diligence assessments of third-party suppliers and service providers that have access to the Company’s networks, confidential information, and information systems. We provide all third-party vendors, consultants, and partners with detailed security requirements for securing their connections into our IT networks. Third-party service providers are also typically contractually responsible for identifying and remediating security issues within their technology and service environment. Management has not identified risks from cybersecurity threats, including as a result of any previous cybersecurity incidents, that have materially affected or are reasonably likely to materially affect the Company, including its business strategy, results of operations, or financial condition. For more information, see “
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+Raw Materials The Company depends in part on having an adequate supply of raw materials for its manufacturing operations, particularly lime and carbon dioxide for the Specialty Additives product line, and magnesia and alumina for the High-Temperature Technologies operations. We also depend on having an adequate supply of bentonite, leonardite, and limestone. Supplies of bentonite, leonardite, and limestone are mainly provided through the Company’s own mining operations and we depend on having adequate access to ore reserves of appropriate quality at such mining operations. The Company uses lime in the production of PCC and is a significant purchaser of lime worldwide. Generally, the lime utilized in our business is readily available from numerous sources and we purchase lime under long-term supply contracts from unaffiliated suppliers located in close geographic proximity to the Company’s PCC plants. We currently supply some quantities of lime to third parties that are in close proximity to our Adams, Massachusetts plant and could supply small quantities of lime to certain of our PCC satellite facilities that are in close geographic proximity to the Adams plant. Carbon dioxide is readily available in exhaust gas from the host  mills for our satellites, or other operations at our merchant facilities. The principal raw materials used in the Company’s monolithic refractory products are refractory-grade magnesia and various forms of alumina silicates. Approximately 57% of the Company’s magnesia requirements were purchased from sources in China over the past five years. The price and availability of bulk raw materials from China are subject to fluctuations that could affect the Company’s sales to its customers. In addition, the volatility of transportation costs and application of U.S. tariffs have also affected the delivered cost of raw materials imported from China to North America and Europe. The Company has developed alternate sources of magnesia that have diversified our supply of magnesia. The amount sourced from China and other locations can vary from year to year depending upon price and availability from each source. The alumina we utilize in our business is readily available from numerous sources. The Company also purchases calcium metal, calcium silicide, carbon, and various alloys for use in the production of metallurgical wire products and uses lime and aluminum in the production of calcium metal. In addition to bentonite and leonardite provided through our mining operations, the principal raw materials for the products we supply to the foundry industry in our High-Temperature Technologies  product line are coal, soda ash, and chromite, all of which are readily available from numerous sources. Mineral Reserves and Mining Process The Company relies on access to bentonite reserves to support our businesses. The Company has reserves of sodium and calcium bentonite at various locations in the U.S., including Wyoming, Montana, South Dakota, Nevada, and Alabama, as well as in Australia, China, Slovakia, and Turkey. Through the Company’s affiliations and joint ventures, the Company also has access to bentonite deposits in Mexico. The Company owns or controls the properties on which the bentonite reserves are located through long-term leases, royalty agreements (including easement and right of way agreements), and patented and unpatented mining claims. No single or group of mining claims or leases is significant or material to the financial condition or operations of our Company or our segments. In general, our bentonite reserves are immediately adjacent to, or within sixty miles of, one of the related processing plants. All of the properties on which our reserves are located are either physically accessible for the purposes of mining and hauling or the cost of obtaining physical access would not be material. Access to processing facilities from the mining areas is generally by private road, public highway, or railroad. For most of our leased properties and mining claims, there are multiple means of access. The Specialty Additives product line is supported by the Company’s limestone reserves located in the western and eastern parts of the United States. The Company generally owns and surface mines these reserves and processes its products at nearby processing plants. The Company has ongoing exploration and development activities for all of its mineral interests with the intent to increase its proven and probable reserves. See
+

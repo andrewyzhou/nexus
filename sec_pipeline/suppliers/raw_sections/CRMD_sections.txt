@@ -1,0 +1,715 @@
+TICKER: CRMD
+============================================================
+
+--- SUPPLY_CHAIN ---
+Supply Chain We do not own or operate
+any manufacturing facilities related to the production of our products. All our manufacturing processes currently are, and we expect
+them to continue to be, outsourced to third parties. We rely on third-party manufacturers to produce sufficient quantities of drug product
+for use both commercially and in clinical trials. We intend to continue this practice in the future. 9 For DefenCath, we currently
+have one FDA-approved source (contract manufacturing organization, or “CMO”) for each of our two key active pharmaceutical
+ingredients (“APIs”), taurolidine and heparin sodium, respectively. With regards to taurolidine, the Company has a drug master
+file (“DMF”) filed with the FDA. There is a master commercial supply agreement between a third-party manufacturer which has
+been in place since August 2018. With respect to heparin sodium API, the Company has identified an alternate third-party supplier and
+may qualify such supplier under the DefenCath NDA in the future. The Company received FDA
+approval of DefenCath with finished dosage production from its European based CMO Rovi Pharma Industrial Services. In addition, the Company
+also qualified Siegfried Hameln as an alternate finished dosage manufacturing site and is in the process of scaling production at the
+facility. Each of the products in the
+Melinta Portfolio has one FDA-approved contract manufacturing organization, primarily in Europe or in the U.S. The Company has ongoing
+technology transfers intended to reduce costs of goods sold as well as to onshore the manufacture of several of its products, which it
+expects to complete over the next two to three years. CMOs and our API suppliers are subject to FDA oversight and inspection
+regarding compliance with Current Good Manufacturing Practices (“cGMP”), and if deemed non-compliant with cGMP by the FDA,
+we could face shortages or risk with respect to producing sufficient quantities of drug product or drug substance. Biomedical Advanced Research and Development
+Authority (“BARDA”) Contract In July 2023, Melinta entered into partnership with BARDA to advance
+BAXDELA and VABOMERE for use in pediatrics and to partner on the development of BAXDELA against certain biothreat pathogens (“BARDA-Supported
+Studies”). Under this agreement, BARDA reimburses certain percentages of costs incurred, as defined in the agreement, in connection
+with the BARDA-Supported Studies. As of December 31, 2025, BARDA has awarded a total of $47.5 million of funding with the potential of
+additional funding of $97.1 million, amounting to total funding up to $144.6 million, if all options are exercised. If all contract options
+are exercised, the contract is expected to continue through 2034. Through December 31, 2025, we have recognized BARDA reimbursement totaling
+$19.4 million. The BARDA contract contains
+a number of terms and conditions that are customary for government contracts of this nature, including provisions giving the government
+the right to terminate the contract at any time for its convenience. United States Government Regulation The research, development,
+testing, manufacture, labeling, promotion, advertising, distribution, and marketing, among other things, of our products are extensively
+regulated by governmental authorities in the U.S. and other countries. In the U.S., the FDA regulates
+drugs and medical devices under the Federal Food, Drug, and Cosmetic Act (“FDCA”) and the FDA’s implementing regulations.
+If we fail to comply with the applicable U.S. requirements at any time during the product development process, clinical testing, and
+during the approval process or after approval, we may become subject to administrative or judicial sanctions. These sanctions could include
+the FDA’s refusal to approve pending applications, withdrawal of an approval, warning letters, adverse publicity, product recalls,
+product seizures, total or partial suspension of production or distribution, injunctions, fines, civil penalties or criminal prosecution,
+among other actions. Any agency enforcement action and/or any related impact could have a material adverse effect on us. Clinical Trial Programs Clinical trial programs in
+humans generally follow a three-phase process. Typically, Phase 1 studies are conducted in small numbers of healthy volunteers or, on
+occasion, in patients afflicted with the target disease. Phase 1 studies are conducted to determine the metabolic and pharmacological
+action of the product line in humans and the side effects associated with increasing doses, and, if possible, to gain early evidence
+of effectiveness. In Phase 2, studies are generally conducted in larger groups of patients having the target disease or condition in
+order to validate clinical endpoints, and to obtain preliminary data on the effectiveness of the product line and optimal dosing. This
+phase also helps determine further the safety profile of the product line. In Phase 3, large-scale clinical trials are generally conducted
+in patients having the target disease or condition to provide sufficient data for the statistical proof of effectiveness and safety of
+the product line as required by United States and foreign regulatory agencies. Typically, two Phase 3 trials are required for marketing
+approval, though one such trial, plus confirmatory evidence, may be acceptable. 10 Post-approval trials, sometimes
+referred to as Phase 4 clinical trials, may be conducted after initial marketing approval. These trials are used to gain additional experience
+from the treatment of patients in the intended therapeutic indication and are commonly intended to generate additional safety data regarding
+use of the product in a clinical setting. In certain instances, the FDA may mandate the performance of Phase 4 clinical trials as a condition
+of approval of an NDA or post-approval. The clinical trial process
+for a new compound can take ten years or more to complete. The FDA may prevent clinical trials from beginning or may place clinical trials
+on hold at any point in this process if, among other reasons, it concludes that study subjects are being exposed to an unacceptable health
+risk. Trials may also be prevented from beginning or may be terminated by institutional review boards, or IRBs, who must review and approve
+all research involving human subjects and amendments thereto. The IRB must continue to oversee the clinical trial while it is being conducted.
+This includes the IRB receiving information concerning unanticipated problems involving risk to subjects. Side effects or adverse events
+that are reported during clinical trials can delay, impede, or prevent marketing authorization. Similarly, adverse events that are reported
+after marketing authorization can result in additional limitations being placed on a product’s use and, potentially, withdrawal
+of the product from the market. Following the completion
+of a clinical trial, the data is analyzed by the sponsoring company to determine whether the trial successfully demonstrated safety and
+effectiveness and whether a product approval application may be submitted. In the United States, if the product is regulated as a new
+drug, an NDA must be submitted and approved by the FDA before commercial marketing may begin. The NDA must include a substantial amount
+of data and other information concerning the safety and effectiveness of the compound from laboratory, animal, and human clinical testing,
+as well as data and information on manufacturing, product quality and stability, and proposed product labeling. Once accepted for filing,
+the FDA’s review of an application may involve review and recommendations by an independent FDA advisory committee. The FDA must
+refer applications for drugs that contain active ingredients, including any ester or salt of the active ingredients that have not previously
+been approved by the FDA to an advisory committee or provide in an action letter a summary for not referring it to an advisory committee.
+The FDA may also refer drugs to advisory committees when it is determined that an advisory committee’s expertise would be beneficial
+to the regulatory decision-making process, including the evaluation of novel products and the use of new technology. An advisory committee
+is typically a panel that includes clinicians and other experts, which review, evaluate, and make a recommendation as to whether the
+application should be approved and under what conditions. The FDA is not bound by the recommendations of an advisory committee, but it
+considers such recommendations carefully when making decisions. Approval Process After evaluating the NDA
+and all related information, including the advisory committee recommendation, if any, and inspection reports regarding the manufacturing
+facilities and clinical trial sites, the FDA may issue an approval letter, or, in some cases, a Complete Response Letter, or CRL. If
+a CRL is issued, the applicant may either resubmit the NDA, addressing all the deficiencies identified in the letter; withdraw the application;
+or request an opportunity for a hearing. A CRL indicates that the review cycle of the application is complete, and the application is
+not ready for approval and describes all the specific deficiencies that the FDA identified in the NDA. A CRL generally contains a statement
+of specific conditions that must be met in order to secure final approval of the NDA and may require additional clinical or pre-clinical
+testing in order for the FDA to reconsider the application. The deficiencies identified may be minor, for example, requiring labeling
+changes; or major, for example, requiring additional clinical trials. Even with submission of this additional information, the FDA ultimately
+may decide that the application does not satisfy the regulatory criteria for approval. If and when those conditions have been met to
+the FDA’s satisfaction, the FDA may issue an approval letter. An approval letter authorizes commercial marketing of the drug with
+specific prescribing information for specific indications. Even if the FDA approves
+a product, it may limit the approved therapeutic uses for the product as described in the product labeling, require that warning statements
+be included in the product labeling, require that additional studies be conducted following approval as a condition of the approval,
+impose restrictions and conditions on product distribution, prescribing, or dispensing in the form of a Risk Evaluation and Mitigation
+Strategy (“REMS”) or otherwise limit the scope of any approval. In addition, under the PREA,
+an NDA or supplement to an NDA for a new active ingredient, indication, dosage form, dosage regimen, or route of administration must
+contain data that are adequate to assess the safety and effectiveness of the drug for the claimed indications in all relevant pediatric
+subpopulations, and to support dosing and administration for each pediatric subpopulation for which the product is safe and effective.
+The FDA may, on its own initiative or at the request of the applicant, grant deferrals for submission of some or all pediatric data until
+after approval of the product for use in adults, or full or partial waivers from the pediatric data requirements. Such deferred studies
+become required post-marketing studies upon approval of the product. 11 Special FDA Expedited Review and Approval
+Programs The FDA has various programs,
+including Fast Track designation, priority review and breakthrough designation, that are intended to expedite or simplify the process
+for the development and FDA review of certain drug products that are intended for the treatment of serious or life-threatening diseases
+or conditions, and demonstrate the potential to address unmet medical needs or present a significant improvement over existing therapy.
+The purpose of these programs is to provide important new drugs to patients earlier than under standard FDA review procedures. To be eligible for a Fast
+Track designation, the FDA must determine, based on the request of a sponsor, that a product is intended to treat a serious or life-threatening
+disease or condition and demonstrates the potential to address an unmet medical need. The FDA will determine that a product will fill
+an unmet medical need if the product will provide a therapy where none exists or provide a therapy that may be potentially superior to
+existing therapy based on efficacy, safety, or public health factors. If Fast Track designation is obtained, drug sponsors may be eligible
+for more frequent development meetings and correspondence with the FDA. In addition, the FDA may initiate review of sections of an NDA
+before the application is complete. This “rolling review” is available if the applicant provides and the FDA approves a schedule
+for the remaining information. A Fast Track product is also eligible to apply for accelerated approval and priority review. Exclusivity For approved drug products,
+market exclusivity provisions under the FDCA provide periods of exclusivity, which gives the holder of an approved NDA limited protection
+from new competition in the marketplace for the innovation represented by its approved drug. Section 505 of the FDCA
+describes three types of marketing applications that may be submitted to the FDA to request marketing authorization for a new drug. A
+Section 505(b)(1) NDA is an application that contains full reports of investigations of safety and efficacy. A Section 505(b)(2)
+NDA is an application in which the applicant, in part, relies on investigations that were not conducted by or for the applicant and for
+which the applicant has not obtained a right of reference or use from the person by or for whom the investigations were conducted. Section 505(j)
+establishes an abbreviated approval process for a generic version of approved drug products through the submission of an Abbreviated
+New Drug Application (“ANDA”). An ANDA provides for marketing of a generic drug product that has the same active ingredients,
+dosage form, strength, route of administration, labeling, performance characteristics, and intended use, among other things, to a previously
+approved product. Limited changes must be pre-approved by the FDA via a suitability petition. Five years of exclusivity
+are available to NCEs. A NCE is a drug that contains no active moiety that has been approved by the FDA in any other NDA submitted under
+Section 505 of the FDCA. An active moiety is the molecule or ion, excluding those appended portions of the molecule, that cause the drug
+to be an ester, salt, including a salt with hydrogen or coordination bonds, or other noncovalent derivatives, such as a complex, chelate,
+or clathrate, of the molecule, responsible for the physiological or pharmacological action of the drug substance. During the exclusivity
+period, the FDA may not accept for review an ANDA or a 505(b)(2) NDA application submitted by another company that contains the previously
+approved active moiety, except that an ANDA or 505(b)(2) that contains a certification that the patents listed by the NCE sponsor in FDA’s
+list of Approved Drug Products with Therapeutic Equivalence Evaluations (“Orange Book”), are invalid or will not be infringed
+by the manufacture, use, or sale of the drug product for which approval is sought, may be submitted one year before NCE exclusivity expires.
+Five-year exclusivity will also not delay the submission or approval of a 505(b)(1) NDA; however, an applicant submitting a 505(b)(1)
+NDA would be required to conduct or obtain a right of reference to all the pre-clinical studies and adequate and well-controlled clinical
+trials necessary to demonstrate safety and efficacy. The FDCA also provides three
+years of marketing exclusivity for an NDA, 505(b)(2) NDA or supplement to an existing NDA if new clinical investigations, other than
+bioavailability studies, that were conducted or sponsored by the applicant are deemed by the FDA to be essential to the approval of the
+application, for example, new indications, dosages or strengths of an existing drug. This three-year exclusivity covers only the conditions
+of use associated with the new clinical investigations and does not prohibit the FDA from approving NDAs or ANDAs for drugs containing
+the original active agent. Pediatric exclusivity is
+another type of non-patent marketing exclusivity in the United States and, if granted, provides for the attachment of an additional
+six months of exclusivity to the term of any existing exclusivity for the product, such as NCE exclusivity. This six-month exclusivity
+may be granted if an NDA sponsor submits pediatric data that fairly responds to a written request from the FDA for such data. The data
+does not need to show the product to be effective in the pediatric population studied; rather, if the clinical trial is deemed to fairly
+respond to the FDA’s request, the additional protection is granted. If reports of requested pediatric studies are submitted to
+and accepted by the FDA within the required time frames, whatever statutory or regulatory periods of exclusivity that cover the drug
+are extended by six months. For patent protection, pediatric exclusivity does not extend the term of the patent or the term a patent
+extension, but rather the period during which FDA cannot approve an ANDA or 505(b)(2) NDA that certifies to a patent listed in the Orange
+Book. Moreover, pediatric exclusivity attaches to all formulations, dosage forms, and indications for products with existing marketing
+exclusivity or patent life that contain the same active moiety as that which was studied. 12 The Orphan Drug Act also
+provides incentives for the development of drugs intended to treat rare diseases or conditions, which generally are diseases or conditions
+affecting fewer than 200,000 individuals annually in the United States, or affecting more than 200,000 in the United States and for which
+there is no reasonable expectation that the cost of developing and making the drug available in the United States will be recovered from
+sales in the United States. Additionally, sponsors must present a plausible hypothesis for clinical superiority to obtain orphan designation
+if there is a drug already approved by the FDA that is intended for the same indication and that is considered by the FDA to be the same
+drug as the already approved drug. This hypothesis must be demonstrated to obtain orphan drug exclusivity. If granted, prior to product
+approval, Orphan Drug Designation entitles a party to financial incentives such as opportunities for grant funding towards clinical study
+costs, tax advantages, and user-fee waivers. In addition, if a product receives FDA approval for the indication for which it has orphan
+designation, the product is generally entitled to orphan drug exclusivity, which means the FDA may not approve any other application
+to market the same drug for the same indication for a period of seven years, except in limited circumstances, such as a showing of clinical
+superiority over the product with orphan exclusivity. For
+certain infectious disease products, the above discussed exclusivity periods may be further extended if the product is designated as a
+QIDP and receives GAIN Act exclusivity. A qualified infectious disease product, or QIDP, is an antibacterial or antifungal drug for human
+use intended to treat serious or life-threatening infections, including those caused by an antibacterial or antifungal resistant pathogen,
+including novel or emerging infectious pathogens; or qualifying pathogens designated by the FDA that have the potential to pose a serious
+threat to public health. Subject to the specified statutory limitations, a drug that is designated as a QIDP and is approved for the use
+for which the QIDP designation was granted will receive a 5-year extension to any exclusivity for which the application qualifies upon
+approval. For example, if the FDA approves an NDA for a drug designated as a QIDP, the NCE exclusivity period is extended to ten years,
+and the FDA may not accept applications for nine years. Moreover, if a product is designated as a QIDP and an orphan product, the orphan
+product exclusivity period is extended to twelve years. These extensions are in addition to any extension that an application may be entitled
+to under the pediatric exclusivity provisions. To receive a QIDP designation, the sponsor must request that the FDA designate the product
+as such prior to the submission of an NDA. This designation may not be withdrawn except if the FDA finds that the request for designation
+contained an untrue statement of material fact. QIDPs are also eligible for Fast Track status and priority review. Post Approval Requirements Significant legal and regulatory
+requirements also apply after FDA approval to market under an NDA. These include, among other things, requirements related to adverse
+event and other reporting, product tracking and tracing, suspect and illegitimate product investigations and notifications, product advertising
+and promotion and ongoing adherence to cGMPs, as well as the need to submit appropriate new or supplemental applications and obtain FDA
+approval for certain changes to the approved product, product labeling, or manufacturing process. FDA can also require the completion
+of studies post-approval, such as required studies under PREA. The FDA also enforces the requirements of the Prescription Drug Marketing
+Act which, among other things, imposes various requirements in connection with the distribution of product samples to physicians. The
+FDA enforces these requirements through, among other ways, review of promotional material submissions, review of adverse events, review
+of annual reports, periodic announced and unannounced facility inspections. The FDA also strictly regulates
+marketing, labeling, advertising, and promotion of products that are placed on the market. Physicians, in their independent professional
+medical judgment, may prescribe legally available products for unapproved indications that are not described in the product’s labeling
+and that differ from those tested and approved by the FDA. Pharmaceutical companies, however, are allowed to promote their drug products
+only for the approved indications and in accordance with the provisions of the approved label; off-label promotion is prohibited, as
+is false and misleading promotion. The FDA and other agencies actively enforce the laws and regulations prohibiting the promotion of
+off-label uses, and a company that is found to have improperly promoted off-label uses may be subject to significant liability, including,
+but not limited to, criminal and civil penalties under the FDCA and the civil False Claims Act, or FCA, exclusion from participation
+in federal healthcare programs, mandatory compliance programs under corporate integrity agreements, debarment, and refusal of government
+contracts. 13 FDA regulations require that
+products be manufactured in specific approved facilities and in accordance with cGMP regulations. We rely, and expect to continue to
+rely, on third parties for the production of clinical and commercial quantities of our products in accordance with cGMP regulations.
+These manufacturers must comply with cGMP regulations that require, among other things, quality control and quality assurance, the maintenance
+of records and documentation and the obligation to investigate and correct any deviations from cGMP. Manufacturers and other entities
+involved in the manufacture and distribution of approved drugs or biologics are required to register their establishments with the FDA
+and certain state agencies, and are subject to periodic unannounced inspections by the FDA and certain state agencies for compliance
+with cGMP requirements and other laws. Accordingly, manufacturers must continue to expend time, money and effort in the area of production
+and quality control to maintain cGMP compliance. The discovery of violative conditions, including failure to conform to cGMP regulations,
+could result in enforcement actions, and the discovery of problems with a product after approval may result in restrictions on a product,
+manufacturer or holder of an approved NDA or Biologics License Application (“BLA”), including recall. After approval of a drug
+is granted, FDA may withdraw the approval if compliance with regulatory requirements and standards is not maintained or if problems occur
+after the product reaches the market. Later discovery of previously unknown problems with a product, including adverse events of unanticipated
+severity or frequency, or with manufacturing processes, or failure to comply with regulatory requirements, may result in mandatory revisions
+to the approved labeling to add new safety information, or imposition of additional post-market surveillance or clinical trials to assess
+new safety risks. Other potential consequences include, among other things: restrictions on the marketing or manufacturing of the product,
+complete withdrawal of the product from the market or product recalls; fines, warning letters or other enforcement-related letters
+or clinical holds on investigational or post-approval clinical trials; refusal by FDA to approve pending NDAs or supplements to
+approved NDAs, or suspension or revocation of product approvals; product seizure or detention, or refusal to permit the import or
+export of products; injunctions or the imposition of civil or criminal penalties; and consent decrees, corporate integrity
+agreements, debarment, or exclusion from federal health care programs; or mandated modification of promotional materials and labeling
+and the issuance of corrective information. Moreover, individual states
+may have laws and regulations that we must comply with, such as laws and regulations concerning licensing, promotion, sampling, distribution,
+and reporting. Healthcare Regulation Federal and state healthcare
+laws, including fraud and abuse and health information privacy and security laws, also govern our business. If we fail to comply with
+those laws, we could face substantial penalties and our business, results of operations, financial condition and prospects could be adversely
+affected. Such laws include, but are not limited to: the federal Anti-Kickback Statute (“AKS”); federal pricing transparency
+and reporting laws and regulations; federal Physician Payments Sunshine Act and Open Payments requirements to track and report certain
+payments and other transfers of value; federal and state civil and criminal false claims laws, including the civil False Claims Act.
+Additionally, we are subject to state and local law equivalents of the above federal laws, which may be broader in scope and apply regardless
+of whether the payer is a governmental healthcare program. We may also be subject to certain state healthcare laws that may not have
+a federal parallel, such as pharmaceutical detailing and disclosure laws and requirements. We are subject to federal
+government price reporting, such as those applicable to the Medicare Part B program, those under the Medicaid Drug Rebate Program (“MDRP”),
+the 340 Drug Pricing Program and individual state laws relating to pricing and sales and marketing practices. Manufacturers report Average
+Sales Price (“ASP”) data for Part B-covered drugs and biologicals and related items, services, supplies, and products that
+are paid as drugs or biologicals. We also participate in the MDRP and report ASP, Best Price and other metrics related to our participation
+in such program. We pay rebates to state Medicaid agencies based on those metrics on Medicaid beneficiary utilization of products. In
+addition, we are required to sell our covered outpatient drugs at or below the 340B Ceiling Price to 340B Covered Entities. We are also
+required to discount our products to authorized users of the Federal Supply Schedule, under which additional laws and requirements apply.
+Each of these programs require submission of pricing data and calculation of discounts and/or rebates pursuant to complex statutory formulas
+and regulatory guidance, as well as the entry into government procurement contracts governed by the Federal Acquisition Regulations,
+and the guidance governing such calculations is not always clear. Compliance with such requirements can require significant investment
+in personnel, systems and resources. Failure to properly calculate prices, or to offer required discounts or rebates could subject us
+to substantial penalties including, but not limited to, potential False Claims Act liability. CMS continues to issue guidance and rulemaking
+governing our participation in the MDRP, and we cannot predict how future guidance or rules would affect our profitability (including
+the potential for increases in our overall Medicaid rebate liability and the obligation to charge greatly reduced prices to 340B Covered
+Entities). In the U.S., the federal
+and state governments are considering proposals or have enacted legislative and regulatory changes to the healthcare system that could
+affect our ability to sell our products profitably. Among policy makers and payers in the U.S., there is significant interest in promoting
+changes in healthcare systems with the stated goals of containing healthcare costs, improving quality and/or expanding access. 14 There has been increasing
+legislative and enforcement interest in the U.S. with respect to drug pricing practices. In particular, there have been several recent
+U.S. Congressional inquiries, hearings and proposed and enacted federal legislation and rules, as well as executive orders and sub-regulatory
+guidance that may impact pricing for pharmaceutical products. These initiatives include, among others: ● efforts to reevaluate, reduce or limit the prices of drugs and make
+    them more affordable for patients; ● implementation of additional data collection and transparency reporting
+    regarding drug pricing, rebates, fees and other remuneration provided by drug manufacturers; ● revisions to rules associated with ESRD PPS Transitional Drug Add-on
+    Payment Adjustment; ● potential revisions to rules associated with the calculation of average
+    sales price; ● revisions to rules associated with the calculation of average manufacturer
+    price and best price under Medicaid; ● changes to the MDRP, including through a May 2023 CMS-proposed rulemaking
+    for this program, that could significantly increase manufacturer rebate liability; ● implementation of the inflation Reduction Act of 2022 (Inflation Reduction
+    Act), including provisions that generally require manufacturers of Medicare Part B and Part D drugs to pay inflation rebates to the
+    Medicare program if pricing metrics associated with their products increase faster than the rate of inflation; ● potential elimination of the AKS discount safe harbor protection for
+    manufacturer rebate arrangements with Medicare Part D plan sponsors; and ● reevaluation of safe harbors under the AKS. Governments have shown significant
+interest in implementing cost-containment programs, including price controls, restrictions on reimbursement and requirements for substitution
+of generic products. For example, President Trump signed multiple executive orders aimed at reducing prescription drug costs in the U.S.,
+including: the Lowering Drug Prices by Once Again Putting Americans First executive order issued on April 15, 2025, which provided several
+actions the Secretary of the Department of HHS must take to optimize healthcare regulations designed to provide access to prescription
+drugs at lower costs, and the Delivering Most-Favored-Nation Prescription Drug Pricing to American Patients executive order issued on
+May 12, 2025, which sought to establish “most favored nation” drug pricing policy that would tie U.S. drug prices to the
+prices paid for drugs in other countries. The Trump administration has continued to exert pressure on drug manufacturers to implement
+“most favored nation” pricing, including by suggesting that the administration may impose significant tariffs on pharmaceuticals
+if such manufacturers do not reach agreements to implement “most favored nation” pricing and by reaching agreements with
+certain drug manufacturers to offer most-favored-nation pricing on certain existing and future products. On November 6, 2025, CMS announced
+a new voluntary payment initiative called the GENEROUS Model (GENErating cost Reductions for U.S. Medicaid Model) a limited duration
+payment model conducted through the CMS Innovation Center to allow drug manufacturers to voluntarily provide coordinated supplemental
+rebates to state Medicaid agencies that match international prices in certain enumerated countries. Failure to participate in the model
+could result in less favorable Medicaid coverage against competitors that choose to participate. Additionally, on December 19, 2025,
+CMS issued two additional notices of proposed rulemaking to test alternative calculations for manufacturer rebates aimed at bringing
+drug prices closers to those paid in identified economically similar countries: the GLOBE Model (Global Benchmark for Efficient Drug
+Pricing) for certain Medicare Part B drugs and the GUARD Model (Guarding U.S. Medicare Against Rising Drug Costs) for certain Medicare
+Part D drugs. Under these proposals, CMS would replace existing domestic inflation-based rebate calculations with new rebate obligations
+tied to international reference pricing benchmarks in a basket of economically comparable countries. In addition, at the state
+level, legislatures have increasingly passed legislation and implemented regulations similar to those under consideration at the federal
+level, as well as laws designed to control pharmaceutical and biotherapeutic product pricing, including restrictions on pricing or reimbursement
+at the state government level, limitations on discounts to patients, marketing cost disclosure and transparency measures, restrictions
+or other limitations on patient assistance, and, in some cases, policies to encourage importation from other countries (subject to federal
+approval) and bulk purchasing. In addition, the U.S. Foreign
+Corrupt Practices Act and similar worldwide anti-bribery laws generally prohibit companies and their intermediaries from making improper
+payments for the purpose of obtaining or retaining business. These laws and regulations
+may affect our sales, marketing, and other promotional activities by imposing administrative and compliance burdens on us. In addition,
+given the lack of clarity with respect to these laws and their implementation, our reporting actions could be subject to the penalty
+provisions of the pertinent state and federal authorities. 15 Government
+Contracts and Regulation We currently contract with
+the federal government (see section entitled “ Biomedical Advanced Research and Development Authority Contract” above).
+As a government contractor, we are subject to complex and wide-ranging federal and agency-specific regulations and contractual requirements
+that not only govern how we perform under the contract but also impose other requirements that affect our operations, including socioeconomic
+obligations such as obligations related to affirmative action and maintaining a drug-free workplace. Failure to comply with government
+contracting requirements could result in termination of our contract and the imposition of penalties. Foreign
+Regulatory Requirements We have not made any filings seeking approval for our Products outside
+of the U.S. For us to market any product outside of the U.S., we would need to comply with numerous and varying regulatory requirements
+of other countries regarding safety and efficacy and governing, among other things, clinical trials, marketing authorization, commercial
+sales and distribution of our products.  In lieu of this, we have licensing relationships with pharmaceutical companies outside
+of the U.S. under which we license rights to commercialize our Products in exchange for payments, potentially including upfront licensing
+fees, milestone fees and royalties on sales of the applicable Product or Products in their respective territories. The revenue associated
+with these licensing relationships is not expected to be material to our current or future financial statements, representing 5% or less
+of total revenue in 2025. For details on these arrangements, see Note 2 to the Consolidated Financial Statements in this Annual Report
+on Form 10-K. Employees and Human Capital Resources As of February 28, 2026 we employed approximately 191 full-time employees,
+who work out of our corporate headquarters in Parsippany, NJ, our corporate office in Lake Forest, IL, or remotely in various locations
+throughout the U.S. We invest in our workforce by offering competitive salaries and benefits.
+We endeavor to foster a strong sense of ownership by offering equity awards under our stock incentive program. We also offer comprehensive
+benefits for all eligible employees. We recognize and support the growth and development of our employees through a number of programs
+including annual performance feedback reviews and employee goal and development discussions. None of our employees are
+subject to a collective bargaining agreement. We emphasize organizational communication and consider our relationship with our employees
+to be strong. Corporate Information We were organized as a Delaware
+corporation on July 28, 2006 under the name “Picton Holding Company, Inc.” and we changed our corporate name to “CorMedix
+Inc.” on January 18, 2007. Our principal executive offices are located at 389 Interpace Parkway, Suite 450, Parsippany, New Jersey,
+07054. Available Information We maintain our website at www.cormedix.com. This
+Annual Report on Form 10-K and all of our filings under the Exchange Act, including copies of annual reports on Form 10-K, quarterly
+reports on Form 10-Q, current reports on Form 8-K, and any amendments to those reports, are available free of charge through our website
+on the date we file those materials with, or furnish them to, the SEC. Such filings are also available to the public on the internet
+at the SEC’s website at www.sec.gov. The information contained on, or that can be accessed through, the websites referenced
+in this Annual Report on Form 10-K is not a part of, nor shall it be deemed to be, incorporated by reference into this filing or any
+of our other filings with the SEC. Further, the Company’s references to website URLs are intended to be inactive textual references
+only. 16
+
+--- VENDORS ---
+vendors), and incidents at these third parties—or their subcontractors—can
+compromise our data or disrupt operations even if our own systems are not implicated. We maintain processes to assess, identify, and manage
+material cybersecurity risks, which are integrated into our broader enterprise risk management program, including with respect to incident
+response planning and employee training, and involve oversight of third-party risks. However, no controls can eliminate all threats, and
+our board and management oversee, but cannot guarantee the effectiveness of, these efforts. For more information, please see “Item
+1C (Cybersecurity).” A significant cyber incident—or a series of smaller incidents—could also interrupt
+
+--- MANUFACTURING ---
+contract manufacturers for the supply and manufacture of our product lines, as well as our APIs, which subjects us to potential
+cost increases and manufacturing delays that are not within our control. We
+do not manufacture our product lines or any of their
+
+--- RAW_MATERIALS ---
+raw materials; ● uncertainties relating to, or changes in FDA view of, the appropriate
+    product approval pathway; ● failure to obtain treatment of a drug or application under expedited
+    development and review programs or to obtain marketing exclusivities; ● failure to receive or maintain regulatory approvals; ● emergence of superior or equivalent products; ● inability to manufacture our product lines on a commercial scale on
+    our own, or in collaboration with third parties; ● inability to obtain third-party payor coverage or adequate
+reimbursement; ● failure to comply with a broad range of post-marketing requirements
+including those related to labeling, promotion and advertising, manufacturing and quality, pharmacovigilance and adverse event reporting,
+commercial distribution and supply chain requirements, and drug sample distribution requirements; and ● failure to achieve market acceptance. Additionally, healthcare
+institutions, physicians and patients may not accept and use our Products. Acceptance and use of our Products will depend upon a number
+of factors including the following: ● perceptions by members of the health care community, including physicians,
+    about the safety and effectiveness of our drug or device product; ● prevalence of the disease to be treated or prevented; ● prevalence and severity of any side effects; ● cost-effectiveness of our Product relative to current standard of care; ● availability of coverage and reimbursement from government and other
+    third-party payers; ● timing of market introduction of our drugs and competitive drugs; ● effectiveness of marketing and distribution efforts by us and our licensees
+    and distributors, if any; ● potential or perceived advantages or disadvantages over alternative
+    treatments; ● price of our future products, both in absolute terms and relative to
+    alternative treatments; and ● the effect of current and future healthcare laws and regulations on
+    our product lines, as well as post-marketing commitments imposed by regulatory authorities, such as patient registries. Because of these risks, our
+development efforts and those of our licensor and our partners may not result in any future commercially viable products. 19 If a significant portion of
+our development efforts and those of our licensor and partners are not successfully completed, required regulatory approvals are not obtained
+or any approved products are not commercialized successfully, our business, financial condition, and results of operations could be materially
+harmed. Infective pathogens
+might develop resistance to our Products or product candidates, which would decrease the efficacy and commercial viability of that product. Infective pathogens, including
+fungi and bacteria, develop resistance over time due to genetic mutation. Many current and previous anti-infective therapies have suffered
+reduced efficacy over time due to the development of resistance to such drugs. It is probable that, over time, such pathogens will also
+develop resistance to our Products and our drug candidates. If resistance were to develop rapidly to our Products or our drug candidates,
+this would reduce the commercial potential for our business. Clinical trials and regulatory approval
+for our product lines are expensive, time-consuming, and uncertain, and failure or delay in obtaining approval could materially harm
+our business. To market a new drug or device
+product in the United States, we must demonstrate proof of safety and effectiveness in humans through “adequate and well-controlled”
+clinical trials and obtain FDA approval. The clinical trial and regulatory approval process is lengthy, expensive, and subject to numerous
+risks and uncertainties at every stage. Clinical trials may be delayed
+or fail due to many factors, including: inability to manufacture sufficient quantities of qualified materials under cGMP requirements;
+slower than expected patient recruitment or insufficient enrollment; modifications to trial protocols or changes in regulatory requirements;
+lack of effectiveness or unforeseen safety issues; suspension or termination by institutional review boards or the FDA; and adverse medical
+events in patients, which may or may not be related to our products. Results from early trials are not necessarily indicative of later
+trial outcomes, and clinical results are frequently susceptible to varying interpretations that may delay, limit, or prevent regulatory
+approvals. Even after clinical trials
+are completed, final FDA approval of an NDA, Premarket Approval Application (“PMA”), or De Novo application may be delayed,
+limited, or denied for numerous reasons, including: the FDA may not find pre-clinical and clinical data sufficient or may disagree with
+our interpretation of such data; the FDA may require additional studies or manufacturing information; the FDA may not agree with our intended
+indications, study design, or proposed labeling; or manufacturing processes and facilities may be deemed to have insufficient GMP controls.
+Regulatory approval policies may also change, and compliance with evolving requirements may consume substantial financial and management
+resources. Any failure or significant
+delay in clinical trials or regulatory approval for our products would delay our ability to commercialize our product lines and generate
+product revenues, and could cause us to abandon a product line entirely. Such outcomes could materially harm our business, financial
+condition, and results of operations. Off-label marketing
+or use of our Products or future product candidates may expose us to significant fines, penalties, sanctions, or product liability claims,
+and our reputation could be harmed. The FDA, United States Department
+of Justice (the “DOJ”), and comparable foreign authorities strictly regulate the marketing and promotional claims that are
+made about pharmaceutical products following approval. In particular, a product may not be promoted for uses or indications that are
+not approved by the FDA or comparable foreign authorities as reflected in the product’s approved labeling and Summary of Product
+Characteristics. However, physicians can prescribe drugs to their patients in a manner that is inconsistent with the approved label based
+on the physician’s independent medical judgement. The FDA and other governmental authorities, have also required that companies
+enter into consent decrees or permanent injunctions under which specified promotional conduct is changed or curtailed in order to resolve
+enforcement actions. If we become the target of such an investigation or prosecution based on our marketing and promotional practices,
+we could face large civil and criminal fines and be subject to prohibitions and restrictions, which would materially harm our business.
+In addition, management’s attention could be diverted from our business operations, significant legal expenses could be incurred,
+and our reputation could be damaged. 20 Risks Related to Regulatory and Legal Compliance
+Matters Our approved Products are, and our pipeline
+product lines (if approved) will be, subject to extensive post-approval regulation. Once a product is approved, numerous FDA-mandated post-approval requirements
+apply in the United States. These include, among other things, requirements related to pharmacovigilance and adverse event and other reporting,
+supply chain security requirements, suspect and illegitimate product investigations and notifications, limitations on product advertising
+and promotion and on the distribution of product samples, required post-marketing studies, and ongoing adherence to cGMPs, as well as
+the need to submit appropriate new or supplemental applications and obtain FDA approval for certain changes to the approved product, product
+labeling, or manufacturing process. Establishing and maintaining systems and procedures for compliance with these requirements, and training
+and monitoring personnel relative to their compliance, is expensive, time consuming, and an ongoing effort. Depending on the circumstances,
+failure to meet post-approval requirements can result in criminal prosecution, fines, injunctions, recall or seizure of products, total
+or partial suspension of production, denial or withdrawal of pre-marketing product approvals, or refusal to allow us to enter into supply
+contracts, including government contracts. In addition, even if we comply with FDA, foreign and other requirements, new information regarding
+the safety or effectiveness of a product could lead the FDA or other relevant regulatory body to modify or withdraw product approval. Failure
+to complete a PREA post-marketing study can result in a PREA non-compliance letter, which is publicly posted on FDA’s website, and
+could result in the product being considered misbranded and subject to additional enforcement actions. Healthcare policy changes, including reimbursement
+policies for drugs and medical devices, may have an adverse effect on our business, financial condition and results of operations . In the U.S. there has been,
+and we expect there will continue to be, a number of legislative and regulatory changes to the health care system that could affect our
+ability to profit from our approved products. Our future revenues, profitability and access to capital will be affected by the continuing
+efforts of governmental and private third-party payors to manage, contain or reduce the costs of health care through various means, such
+as capping prices, limiting price increases, reducing reimbursement, or requiring rebates. Market acceptance and sales of our Products
+or any other product lines that we develop, will depend on reimbursement policies and may be affected by health care reform measures in
+the U.S. and abroad. Federal and state governments in the U.S. have been, and may in the
+future consider legislative and regulatory proposals to change the U.S. healthcare system in ways that could affect our ability to commercialize
+our Products and future marketed products profitably. In addition, the U.S. government, state legislatures, and foreign governments have
+shown significant interest in implementing cost containment programs as it relates to prescription drugs, including price-controls, restrictions
+on reimbursement and requirements for substitution of generic products for branded prescription drugs to limit the growth of government
+paid health care costs. For example, the current administration has pursued and is pursuing policies to reduce regulations and expenditures
+across government, including at the FDA, CMS, Health and Human Services (“HHS”) and related agencies. Recent actions include
+(i) directing HHS and other agencies to lower prescription drug costs through a variety of initiatives, including by establishing Most-Favored-Nation
+pricing for pharmaceutical products; (ii) imposing tariffs on imported pharmaceutical products; and (iii) as part of the MAHA Commission’s
+recent Strategy Report, working across government agencies to increase enforcement on direct-to-consumer pharmaceutical advertising. These
+actions and policies may significantly reduce U.S. drug prices, potentially impacting pricing strategies and profitability, while increasing
+operational costs and compliance risks. The U.S. government and other
+governments have shown significant interest in pursuing healthcare reform. Any such government-adopted reform measures may adversely affect
+the pricing of healthcare products and services in the U.S. and the amount of reimbursement available from governmental agencies or other
+third-party payors. Any such reduction in reimbursement could negatively affect the pricing of our Products. If we are not able to charge
+a sufficient amount for our Products, then our margins and our profitability will be adversely affected. 21 Changes in funding for the FDA and other
+government agencies or future government shutdowns or disruptions could cause delays in the submission and regulatory review of our product
+lines, which could negatively impact our business or prospects . The ability of the FDA to
+review and approve new products can be affected by a variety of factors, including government budget and funding levels, ability to hire
+and retain key personnel, accept submission, applications, and the payment of user fees, and statutory, regulatory, and policy changes.
+In addition, government funding of other government agencies that fund research and development activities is subject to the political
+process, which is inherently fluid and unpredictable. The impact of global events, including terrorism, natural disasters and pandemics,
+or other health emergencies, may also cause disruptions in the normal functioning of the FDA or other government agencies. Risks relating to cybersecurity and data
+privacy could create additional liabilities for us. We rely on the proper functioning
+of information technology systems, networks, and cloud services across our operations, and any failure, interruption, or other incident
+affecting the confidentiality, integrity or availability such systems or the data stored thereon, including incidents which may result
+from a cyber-attack (e.g., ransomware, malware, phishing, denial-of-service, or vendor compromise), could disrupt our business, result
+in loss or corruption of data, theft or misuse of confidential or personal information, and require significant remediation costs. Failure
+to comply with applicable privacy and data security laws and regulations could result in enforcement actions against us, including possible
+fines, imprisonment of company officials and public censure, claims for damages by affected individuals or class of individuals, or damage
+to our reputation and loss of goodwill, any of which could have a material adverse effect on our business, financial condition, results
+of operations or prospects. We also depend on third-party service providers (including cloud, SaaS,
+Contract Research Organizations, CMOs, logistics and analytics vendors), and incidents at these third parties—or their subcontractors—can
+compromise our data or disrupt operations even if our own systems are not implicated. We maintain processes to assess, identify, and manage
+material cybersecurity risks, which are integrated into our broader enterprise risk management program, including with respect to incident
+response planning and employee training, and involve oversight of third-party risks. However, no controls can eliminate all threats, and
+our board and management oversee, but cannot guarantee the effectiveness of, these efforts. For more information, please see “Item
+1C (Cybersecurity).” A significant cyber incident—or a series of smaller incidents—could also interrupt manufacturing
+and supply coordination with third parties, impair quality or safety reporting, delay clinical or commercial activities, increase insurance
+and cybersecurity costs, and negatively affect our results of operations and reputation. The legislative and regulatory
+landscape for privacy and data protection continues to evolve in jurisdictions worldwide. Certain laws may be more stringent or broader
+in scope, or offer greater individual rights, with respect to personal information than federal, international or other state laws, and
+such laws may differ from each other, which increases costs and complicates compliance efforts. Clinical trials
+required for our Products and any future product lines may be expensive, time consuming and their outcome is uncertain. In order to obtain FDA approval
+to market a new drug or device product, we must demonstrate proof of safety and effectiveness in humans. To meet FDA requirements, we
+are obligated to conduct “adequate and well-controlled” clinical trials. Conducting clinical trials is a lengthy, time-consuming,
+and expensive process. The length of time may vary substantially according to the type, complexity, novelty, and intended use of the product
+line, and often can be several years or more per trial. Delays associated with the development plans for our product lines may cause us
+to incur additional operating expenses. The commencement and rate of completion of clinical trials may be delayed by many factors, including,
+for example: ● inability to manufacture sufficient quantities of qualified materials under the FDA’s cGMP requirements for use in clinical trials; 22 ● slower than expected rates of patient recruitment; ● failure to recruit a sufficient number of patients; ● modification of clinical trial protocols; ● changes in regulatory requirements for clinical trials; ● lack of effectiveness during clinical trials; ● emergence of unforeseen safety issues; ● delays, suspension, or termination of clinical trials due to the IRB responsible for overseeing the study at a particular study site; and ● government or regulatory delays or “clinical holds” requiring suspension or termination of the trials. From time to time, we may publicly disclose interim, topline, or preliminary
+data from clinical trials involving our Products, which is based on a preliminary analysis of then-available data, and the results and
+related findings and conclusions are subject to change following a more comprehensive review of the data related to the particular study
+or trial as well as the risk that one or more of the clinical outcomes may materially change as patient enrollment continues and more
+patient data become available. We also make assumptions, estimations, calculations, and conclusions as part of our analyses of data, and
+we may not have received or had the opportunity to fully and carefully evaluate all data. Preliminary or topline data also remain subject
+to audit and verification procedures that may result in the final data being materially different from the preliminary data we previously
+published. As a result, the interim, topline, or preliminary results that we report may differ from future results of the same studies,
+or different conclusions or considerations may qualify such results, once additional data has been received and fully evaluated. Further,
+others, including regulatory authorities, may not accept or agree with our assumptions, estimates, calculations, conclusions, or analyses
+or may interpret or weigh the importance of data differently, which could impact the value of the particular program, the approvability,
+or commercialization of the particular product candidate or product and our company in general. If the interim, topline, or preliminary
+data that we report differ from actual results, or if others, including regulatory authorities, disagree with the conclusions reached,
+our ability to obtain regulatory approval for, and commercialize, our product candidates and any future product candidates may be harmed,
+which could harm our business, operating results, prospects, or financial condition. Moreover, comparisons of results
+across different studies should be viewed with caution as such comparisons are limited by a number of factors, including differences in
+study designs and populations. Such comparisons also will not provide a sufficient basis for any comparative claims following product
+approval. Clinical results are frequently susceptible to varying interpretations that may delay, limit or prevent regulatory approvals
+or commercialization. Negative or inconclusive results or adverse medical events during a clinical trial could cause a clinical trial
+to be delayed, repeated or terminated, or a clinical program to be abandoned. Clinical trials may not demonstrate
+statistically significant safety and effectiveness to obtain the requisite regulatory approvals for product lines. The failure of clinical
+trials to demonstrate safety and effectiveness for the desired indications could harm the development of our product lines. Such a failure
+could cause us to abandon a product line and could delay development of other product lines. Any delay in, or termination of, our clinical
+trials would delay the filing of any NDA, any PMA, or De Novo application, with the FDA and, ultimately, our ability to commercialize
+our product lines and generate product revenues. Any change in, or termination of, our clinical trials could materially harm our business,
+financial condition, and results of operations. 23 Our BARDA development contract requires
+ongoing funding decisions by the U.S. Government. Any reduction or discontinuation of funding of this contract could cause our business,
+financial condition, operating results and cash flows to suffer materially. In July 2023, Melinta signed
+a development contract with BARDA to advance two antibiotics currently FDA-approved for adults, BAXDELA® (delafloxacin) and VABOMERE®
+(meropenem and vaborbactam), for use in pediatrics and to advance BAXDELA for use in biodefense indications. The performance period for
+our BARDA contract, including all optional funding, is estimated to be 12 years. Under this contract, BARDA has committed funding of $47.5
+million to date, with the potential of additional funding of $97.1 million, amounting to total funding up to $144.6 million if all options
+are exercised. The primary source of funds
+for these development programs is provided by the U.S. government and is subject to Congressional appropriations, which are generally
+made on a fiscal year basis, even for programs designed to continue for several years. These appropriations can be subject to a number
+of uncertainties, including political considerations, changes in priorities due to global pandemics, the results of elections and stringent
+budgetary constraints. If levels of government expenditures and authorizations for public health countermeasure preparedness decrease
+or shift to programs in areas where we do not offer products or are not developing product candidates, or if the federal government otherwise
+declines to exercise its options under this contract or our other existing contracts, there could be a material adverse impact to our
+results of operations, financial condition, and our business. Risks Related to Our Business and Industry We may not successfully manage the growth
+of our Products. Our success may depend upon
+the expansion of our operations to continue to commercialize our Products and the effective management of any growth, which could place
+a significant strain on our management and our administrative, operational and financial resources. To manage this growth, we may need
+to augment our operational, financial and management systems and hire and train additional qualified personnel. Additionally, if market
+demand exceeds our third-party manufacturer’s ability to produce our Products, we may not be able to fulfill our customers’
+orders in a timely manner or at all, which may have an adverse impact on our results of operations and reputation. If we are unable to
+manage our growth effectively, our business may be materially harmed. We have pursued and may continue to pursue acquisitions. Acquisitions
+could be difficult to integrate, divert the attention of key personnel, disrupt our business, dilute stockholder value and impair our
+financial results. As part of our business strategy, we have pursued
+and may continue to pursue acquisitions of complementary businesses, products, services, technologies or strategic transactions that we
+believe could accelerate our ability to compete in our existing markets or allow us to enter new markets. Any of these transactions could
+be material to our financial condition and results of operations. The failure to successfully evaluate, execute and integrate acquisitions
+or otherwise adequately address these risks, we may not achieve the anticipated benefits of any such acquisition, we may incur costs in
+excess of what we anticipate, which could have a material adverse impact on our business and financial results. Any potential acquisition or strategic collaboration
+may entail numerous risks, including but not limited to: assimilation of operations, intellectual property and drugs of an acquired company,
+including challenges associated with integrating new personnel; the diversion of our management’s attention; retention of key employees
+and uncertainties in our ability to maintain key business relationships; risks and uncertainties associated with the other party to such
+a transaction, including the prospects of that party and their existing drugs or drug candidates and regulatory approvals; and our inability
+to generate revenue from acquired technology and drugs sufficient to meet our objectives in undertaking the acquisition or even to offset
+the associated acquisition and maintenance costs. If we fail to properly evaluate
+acquisitions or investments, we may not achieve the anticipated benefits of any such acquisitions, and we may incur costs in excess of
+what we anticipate. The failure to successfully evaluate, execute and integrate acquisitions or investments or otherwise adequately address
+these risks could materially harm our business and financial results. 24 Competition and technological change may
+make our Products, product lines or indications, less attractive or obsolete . We compete with established
+pharmaceutical and medical device companies that are pursuing other forms of prevention or treatment for the same or similar indications
+we are pursuing, and that have greater financial and other resources. Other companies may succeed in developing products earlier than
+we do, may develop products that are more effective than our product lines. Research and development by others may render our technology
+or product lines obsolete or noncompetitive, or result in processes, treatments or cures superior to any therapy we develop. We face competition
+from companies that develop competing technology internally, or acquire competing technology through acquisitions of other companies,
+or from universities and other research institutions. As these competitors develop their technologies, they may develop competitive positions
+that may prevent, make futile, or limit our product commercialization efforts, which would result in a decrease in the revenue we would
+be able to derive from the sale of our Products or our product lines if any of such other product lines receive marketing approval. If we lose key management, cannot recruit
+qualified employees, directors, officers, or other personnel or experience increases in compensation costs, our business may materially
+suffer . We are highly dependent on
+the principal members of our management. Our future success will depend in part on our ability to identify, hire, and retain current and
+additional personnel. We experience intense competition for qualified personnel and may be unable to attract and retain the personnel
+necessary for the development of our business. Because of this competition, our compensation costs may increase significantly. In addition,
+we have only limited ability to prevent former employees from competing with us. We face the risk of product liability claims
+and the amount of insurance coverage we hold now or in the future may not be adequate to cover all liabilities we might incur. Our business exposes us to
+the risk of product liability claims that are inherent in the development of drugs. If the use of one or more of our or our collaborators’
+drugs or devices harms people, we may be subject to costly and damaging product liability claims brought against us by clinical trial
+participants, consumers, health care providers, pharmaceutical companies or others selling or utilizing our Products. We currently carry product
+liability insurance. We cannot predict all of the possible harms or side effects that may result and, therefore, the amount of insurance
+coverage we hold may not be adequate to cover all liabilities we might incur. Our insurance covers bodily injury and property damage arising
+from our clinical trials, subject to industry-standard terms, conditions and exclusions. Our coverage also includes the sale of commercial
+products. If we are unable to protect
+against potential product liability claims, we may be exposed to significant liabilities, which may materially and adversely affect our
+business and financial position. If we are sued for any injury allegedly caused by our or our collaborators’ products and do not
+have sufficient insurance coverage, our liability could exceed our total assets and our ability to pay the liability. A successful product
+liability claim or series of claims brought against us would decrease our cash and could cause the value of our capital stock to decrease. Risks Related to Our Intellectual Property If we and our licensors do not obtain protection
+for and successfully defend our respective intellectual property rights, competitors may be able to take advantage of our research and
+development efforts to develop competing products. Our commercial success will
+depend in part on obtaining further patent protection for our Products, product lines and other technologies and successfully defending
+any patents that we currently have or will obtain against third-party challenges. We may seek further patent
+protection for our compounds and methods of treating diseases. However, the patent process is subject to numerous risks and uncertainties,
+and there can be no assurance that we will be successful in protecting our Products by obtaining and defending patents. These risks and
+uncertainties include the following: ● patents that may be issued or licensed may be challenged, invalidated, or circumvented, or otherwise may not provide any competitive advantage; 25 ● our competitors, many of which have substantially greater resources than we have and many of which have made significant investments in competing technologies, may seek, or may already have obtained, patents that will limit, interfere with, or eliminate our ability to make, use, and sell our potential products either in the United States or in international markets; ● there may be significant pressure on the United States government and other international governmental bodies to limit the scope of patent protection both inside and outside the United States for treatments that prove successful as a matter of public policy regarding worldwide health concerns; and ● countries other than the United States may have less restrictive patent laws than those upheld by United States courts, allowing foreign competitors the ability to exploit these laws to create, develop, and market competing products. In addition, the USPTO and
+patent offices in other jurisdictions have often required that patent applications concerning pharmaceutical and biotechnology-related
+inventions be limited or narrowed substantially to cover only the specific innovations exemplified in the patent application, thereby
+limiting the scope of protection against competitive challenges. Thus, even if we or our licensors are able to obtain patents, the patents
+may be substantially narrower than anticipated. Additionally, the breadth of claims allowed in biotechnology and pharmaceutical patents
+or their enforceability cannot be predicted. We cannot be sure that, should any patents be issued, we will be provided with adequate protection
+against potentially competitive products. Furthermore, we cannot be sure that should patents issue, they will be of commercial value to
+us, or that private parties, including competitors, will not successfully challenge our patents or circumvent our patent position in the
+U.S. or abroad. To support our patent strategy,
+we have engaged in a review of patentability and certain freedom to operate issues, including performing certain searches. However, patentability
+and certain freedom to operate issues are inherently complex, and we cannot provide assurances that a relevant patent office or court
+would agree with our conclusions regarding patentability issues or with our conclusions regarding freedom to operate issues, which can
+involve subtle issues of claim interpretation and claim liability. Furthermore, we may not be aware of all patents, published applications
+or published literature that may affect our business either by blocking our ability to commercialize our product lines, preventing the
+patentability of our product lines to us or our licensors, or covering the same or similar technologies that may invalidate our patents,
+limit the scope of our future patent claims or adversely affect our ability to market our product lines. Additionally, it is also
+possible that prior art of which we are aware, but which we do not believe affects the validity or enforceability of a claim, may, nonetheless,
+ultimately be found by a court of law or an administration panel to affect the validity or enforceability of a claim. If a third-party
+were to prevail on a legal assertion of invalidity or unenforceability, we would lose at least part, and perhaps all, of the patent protection
+on the applicable product lines. Such loss of patent protection could have a material adverse impact on our business. Additionally,
+since patent applications in the United States are maintained in secrecy until published or issued and as publication of discoveries in
+the scientific or patent literature often lag behind the actual discoveries, we cannot be certain that we were the first to make the inventions
+covered by the pending patent applications or issued patents or that we were the first to file patent applications for such inventions. In addition to patents, we
+also rely on trade secrets and proprietary know-how. Although we take measures to protect this information by entering into confidentiality
+and inventions agreements with our employees, and some but not all of our scientific advisors, consultants, and collaborators, we cannot
+provide any assurances that these agreements will not be breached, that we will be able to protect ourselves from the harmful effects
+of disclosure or dispute ownership if they are breached, or that our trade secrets will not otherwise become known or be independently
+discovered by competitors. We may also be unsuccessful in executing such an agreement with each party who in fact develops intellectual
+property that we regard as our own, which may result in claims by or against us related to the ownership of such intellectual property.
+If any of these events occurs, or we otherwise lose protection for our trade secrets or proprietary know-how, the value of our intellectual
+property may be greatly reduced. Even if we are successful in prosecuting or defending against such claims, litigation could result
+in substantial costs and be a distraction to our senior management and scientific personnel. 26 Intellectual property disputes require us
+to spend time and money to address such disputes could limit our intellectual property rights and if generic entrants of our Products
+are approved, it could have a material adverse impact on our results of operations and financial condition. The biotechnology and pharmaceutical
+industries have been characterized by extensive litigation regarding patents and other intellectual property rights, and companies have
+employed intellectual property litigation to gain a competitive advantage. In addition to our pending litigation discussed below, we may
+initiate or become subject to infringement claims or litigation arising out of our patents and pending applications and those of our competitors,
+or we may become subject to proceedings initiated by our competitors or other third parties or the PTO or applicable foreign bodies to
+reexamine the patentability of our licensed or owned patents. For example, generic manufacturers
+have sought, and may continue to seek, FDA approval to market generic versions of our Products through an abbreviated new drug application (“ANDA”).
+ANDA litigation and related settlement and license agreements, in some cases, may result in a loss of exclusivity for our patents prior
+to their expiration. The entry of generic versions of our Products may lead to market share and price erosion, which could have a material
+adverse impact on our results of operations and revenue. As discussed below, we are currently party to patent litigation for Minocin (minocycline)
+for Injection against Nexus Pharmaceuticals and Gland Pharma in which an adverse outcome could allow generic entry, which could materially
+harm our business, results of operations and stock price. Introduction of a generic minocycline for injection product, or a generic of
+any of our commercialized products, could result in increased competition, decreased sales and could have a material adverse impact on
+our revenue and results of operations. Please refer to “ Note 9, Commitments and Contingencies ” for a discussion of
+our ongoing litigation. In addition, litigation may
+be necessary to enforce our issued patents, to protect our trade secrets and know-how, or to determine the enforceability, scope, and
+validity of the proprietary rights of others. If we are required to defend patent infringement actions brought by third parties, or if
+we sue to protect our own patent rights, we may be required to pay substantial litigation costs and managerial attention may be diverted
+from business operations even if the outcome is not adverse to us. In addition, any legal action that seeks damages or an injunction to
+stop us from carrying on our commercial activities relating to the affected technologies could subject us to monetary liability and require
+us or any third-party licensors to obtain a license to continue to use the affected technologies. We cannot predict whether we would prevail
+in any of these types of actions or that any required license would be made available on commercially acceptable terms or at all. Furthermore,
+to the extent that we or our consultants or research collaborators use intellectual property owned by others in work performed for us,
+disputes may also arise as to the rights in such intellectual property or in resulting know-how and inventions. An adverse claim could
+subject us to significant liabilities to such other parties and/or require disputed rights to be licensed from such other parties. See
+“ Note 9, Commitments and Contingencies ” for additional detail on the Company’s legal proceedings. Our business, financial condition, and results
+of operations could be materially and adversely affected by an adverse outcome in the ongoing litigation. We are regularly involved
+in pending and threatened litigation, investigations, and other legal proceedings, including intellectual property, commercial, employment,
+securities, regulatory, and product-related claims. Litigation is inherently uncertain, can be costly and time-consuming, may divert management
+attention, and could result in injunctions, damages, settlements, fines, penalties, or other remedies. Insurance coverage may be unavailable
+or insufficient to cover losses. Any of these outcomes, or the announcement of allegations alone, could adversely affect our reputation,
+cash flows, financial condition, and results of operations. Please refer to “ Note 9, Commitments and Contingencies ”
+for a discussion of our ongoing litigation. Risks Related to Dependence on Third Parties Our ability to pursue the development and
+commercialization of certain of our Products depends upon the continuation of certain licenses and actions taken by our licensors. We rely on certain licenses
+to certain patent rights and proprietary technology from third parties that are important or necessary to the development of our technology
+and Products. We have an exclusive license to develop and sell REZZAYO in the United States. Our license agreement also grants us nonexclusive
+rights to manufacture REZZAYO anywhere in the world. We are required to make payments upon reaching specified regulatory and sales milestones
+and to pay royalties based on net sales of products containing REZZAYO or the other compounds in a valid patent licensed under the license
+agreement. We are obligated to use commercially reasonable efforts to maintain regulatory approval for REZZAYO in the United States and
+to commercialize REZZAYO in the United States within the timeframes required by the license agreement. If we do not use commercially reasonable
+efforts to achieve the development and commercialization milestones for REZZAYO within the timeframes, or if we are unable to make any
+of the required payments, the licensor may terminate the license agreement if not cured within 60 days (or 30 days with respect to any
+payment breach). If our license agreement is terminated, we would lose our rights to develop and commercialize REZZAYO. Loss of our license
+agreement would materially and adversely affect our business, results of operations and future prospects. 27 If disputes over intellectual
+property that we have licensed prevent or impair our ability to maintain our current licensing arrangements on acceptable terms, we may
+be unable to successfully develop and commercialize the affected product candidates. Licenses or similar arrangements
+involving our research programs or any product candidates currently pose, and will continue to pose, numerous risks to us, such as our
+third party partners (i) have significant discretion in determining the efforts and resources that they will apply to these arrangements;
+(ii) may delay programs, preclinical studies or clinical trials, provide insufficient funding for programs, preclinical studies or clinical
+trials, stop a preclinical study or clinical trial or abandon a product candidate, repeat or conduct new clinical trials or require a
+new formulation of a product candidate for clinical testing; and (iii) may not pursue development and commercialization of our product
+candidates or may elect not to continue or renew development or commercialization programs based on clinical trial results, changes in
+such third party’s strategic focus or available funding or external factors such as an acquisition that diverts resources or creates
+competing priorities. In addition, the agreements
+under which we currently license intellectual property or technology from third parties are complex, and certain provisions in such agreements
+may be susceptible to multiple interpretations. The resolution of any contract interpretation disagreement that may arise could narrow
+what we believe to be the scope of our rights to the relevant intellectual property or technology, or increase what we believe to be our
+financial or other obligation under the relevant agreement, either of which could have a material adverse effect on our business, financial
+condition, results of operations and prospects. We depend on third-party
+suppliers and contract manufacturers for the supply and manufacture of our product lines, as well as our APIs, which subjects us to potential
+cost increases and manufacturing delays that are not within our control. We
+do not manufacture our product lines or any of their raw materials or components ourselves, and we rely on third parties for our drug
+supplies both for clinical trials and for commercial quantities. All of our manufacturing processes currently are, and we expect them
+to continue to be, outsourced to third parties, some of which are single-source suppliers. We have made the strategic decision not to
+manufacture APIs for our product lines, as these can be more economically supplied by third parties with particular expertise in this
+area. We have engaged contract facilities that are registered with the FDA, have a track record of large-scale API manufacture, and have
+already invested in capital and equipment. We
+have no direct control over the manufacturing of our product lines. If the contract manufacturers are unable to produce sufficient quantities
+of our Products, as a result of a lack of available materials, supply chain delays or otherwise, then we would need to identify and contract
+with additional or replacement third-party manufacturers. Additionally, if the manufacturers are not able to quickly scale production
+to align with rapid changes in demand, our results of operations may be negatively impacted. If we are unable to identify suitable additional
+or replacement third-party manufacturers on favorable terms or at all, our ability to commercialize our Products, our profitability and
+results of operations may be adversely affected. Our reliance on foreign suppliers poses risks due to possible shipping delays, import
+restrictions, trade policies and tariffs as well as foreign regulatory regimes. We
+are subject to the risks associated with technology transfers, which are often required when moving manufacturing processes to new facilities
+or contract manufacturers. These include the potential for delays, loss of process knowledge, difficulties in replicating processes
+at a new site, and challenges in meeting regulatory requirements, all of which could disrupt supply or impact product quality. 28 In
+addition, we have no direct control over manufacturing costs of our product lines. If the cost of manufacturing increases, or if the cost
+of the materials used increases, these costs will be passed on to us, making the cost of clinical trials and commercializing our product
+lines more expensive. Increases in manufacturing costs could adversely affect our future profitability if we are unable to pass all of
+the increased costs along to our customers. Our
+continuing reliance on third parties for manufacturing entails a number of additional risks, including reliance on third parties for legal
+and regulatory compliance and quality assurance, the possible breach of the manufacturing or supply agreement by such third parties, and
+the possible termination or nonrenewal of the agreement by such third parties at a time that is costly or inconvenient for the Company.
+Further, we, along with our contract manufacturers, are required to comply with FDA requirements for cGMPs, related to product testing,
+quality assurance, manufacturing and documentation. Our contract manufacturers may fail to comply with the applicable FDA regulatory requirements,
+which could result in delays to our product development programs, result in adverse regulatory actions against them or us, and prevent
+us from ultimately receiving product marketing approval. They also generally must pass an FDA preapproval inspection for conformity with
+cGMPs before we can obtain approval to manufacture our product lines and will be subject to ongoing, periodic, unannounced inspection
+by the FDA and corresponding state agencies to ensure strict compliance with cGMP and other applicable government regulations and corresponding
+foreign standards. Not complying with FDA requirements could result in a product recall or prevent commercialization of our product lines
+and delay our business development activities. In addition, such failure could be the basis for the FDA to issue a warning or untitled
+letter or take other regulatory or legal enforcement action, including recall or seizure, total or partial suspension of production, suspension
+of ongoing clinical trials, refusal to approve pending applications or supplemental applications, and potentially civil and criminal penalties,
+depending on the matter. Similarly, we, along with our contract manufacturers, are required to comply with all applicable healthcare laws
+and regulations, such as, without limitation, the federal Anti-Kickback Statute , the civil
+False Claims Act, and civil monetary penalty laws, as well as similar state laws. Violation of any such laws by a contract manufacturer
+could materially impact our operations. We rely on third parties to conduct our
+clinical trials and pre-clinical studies. If those parties do not successfully carry out their contractual duties or meet expected deadlines,
+our product lines may not advance in a timely manner or at all. In the course of our pre-clinical
+and clinical trials, we may rely on third parties, including contract research organizations, laboratories, investigators, and manufacturers,
+to perform critical services for us, many of which are required to be conducted consistent with regulations on Good Laboratory Practice
+(“GLP”). Study sites are responsible for many aspects of the trials, including finding and enrolling subjects for testing
+and administering the trials. Although we may rely on these third parties to conduct our pre-clinical and clinical trials, we are responsible
+for ensuring that each of our trials is conducted in accordance with its investigational plan and protocol and that the integrity of the
+studies and resulting data is protected. Moreover, the FDA and foreign regulatory authorities require us to comply with regulations and
+standards, commonly referred to as Good Clinical Practices (“GCPs”), for conducting, monitoring, recording, and reporting
+the results of clinical trials to ensure that the data and results are scientifically credible and accurate, and that the trial subjects
+are adequately informed of the potential risks of participating in such trials. Our reliance on third parties does not relieve us of these
+responsibilities and requirements. These third parties may not be available when we need them or, if they are available, may not comply
+with all regulatory and contractual requirements or may not otherwise perform their services in a timely or acceptable manner, and we
+may need to enter into new arrangements with alternative third parties and our clinical trials may be extended, delayed or terminated.
+These independent third parties may also have relationships with other commercial entities, some of which may compete with us. In addition,
+if such third parties fail to perform their obligations in compliance with our protocols or the applicable regulatory requirements, our
+trials may not meet regulatory requirements or may need to be repeated, we may not receive marketing approvals, or we or such third parties
+may face regulatory enforcement. As a result of our dependence on third parties, we may face delays, failures or cost increases outside
+of our direct control. These risks also apply to the development activities of collaborators, and we do not control their research and
+development, clinical trial or regulatory activities. The timing of the milestone and royalty
+payments we are required to make to third parties is uncertain and could adversely affect our cash flows and results of operations. We are party to various agreements
+pursuant to which we are obligated to make milestone payments or pay royalties in connection with the development and commercialization
+of our product candidates or sales of our marketed products. The timing of our achievement of these milestones and the corresponding milestone
+payments, or the amount of our royalty payments, is subject to factors which are difficult to predict and of which many are beyond our
+control. We may become obligated to make a milestone or other payment at a time when we do not have sufficient funds to make such payment,
+or at a time that would otherwise require us to use funds needed to continue to operate our business, which could delay our clinical trials,
+curtail our operations, necessitate a scaling back of our sales and marketing efforts or cause us to seek funds to meet these obligations
+on terms unfavorable to us. If we are unable to make any payment when due or if we fail to use commercially reasonable efforts to achieve
+certain development and commercialization milestones within the timeframes required by certain of these agreements, the other party may
+have the right to terminate the agreement and all of our rights to develop and commercialize product candidates using the applicable technology. 29 Risks Related to our Common Stock Our common stock price has fluctuated considerably
+and is likely to remain volatile, in part due to the limited market for our common stock and you could lose all or a part of your investment. From December 31, 2024, through
+December 31, 2025, the high and low sales prices for our common stock were $17.43 and $5.60, respectively. The market price of our
+common stock has fluctuated considerably and may continue to fluctuate significantly in response to a number of factors, some of which
+are beyond our control. In addition, the stock markets
+in general, and the stock of pharmaceutical and medical device companies in particular, have experienced extreme price and volume fluctuations
+that have often been unrelated or disproportionate to the operating performance of these companies. In addition, changes in economic conditions
+in the U.S., the European Union or globally, particularly in the context of current global events, could impact upon our ability to grow
+profitably. Adverse economic changes are outside our control and may result in material adverse impacts on our business and our results
+of operations. Broad market and industry factors may negatively affect the market price of our common stock, regardless of our actual
+operating performance. In the past, following periods of volatility in the market price of a company’s securities, securities class-action
+litigation has often been instituted against that company. We have been, and currently are subject to securities class-actions. Such litigation,
+has caused, and if instituted against us in the future could cause, us to incur substantial costs and divert management’s attention
+and resources. For these reasons and others, an investment in our securities is risky and you should invest only if you can withstand
+wide fluctuations in and a significant or complete loss of the value of your investment. General
+

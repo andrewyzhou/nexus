@@ -1,0 +1,274 @@
+EX-21.01
+7
+ex2101listofsubsidiaries06.htm
+EX-21.01
+Document
+Exhibit 21.01
+LIST OF SUBSIDIARIES OF COHERENT CORP. AS OF JUNE 30, 2025
+The following table sets forth information as to Coherent Corp.'s subsidiaries as of June 30, 2025, all of which are included in the consolidated financial statements. Coherent Corp. owns 100% of the outstanding voting securities of such corporations noted below, either directly or indirectly, except as otherwise noted.
+Subsidiary
+Jurisdiction of Formation
+Finisar Australia Pty Limited
+Australia
+Nufibre PTY LTD
+Australia
+Finisar Brasil Suporte De Vendas LTDA
+Brazil
+Coherent Aerospace & Defense, Inc.
+California
+Coherent Asia, Inc.
+California
+Coherent TIOS, Inc.
+California
+Core Systems LLC
+1
+California
+INNOViON LLC
+1
+California
+Photop Technologies, Inc.
+California
+Coherent Canada Inc.
+Canada
+Cohernet (Cayman) Holdings A Ltd.
+Cayman Islands
+Photop Technologies, Inc.
+Cayman Islands
+CoAdna (Suzhou) Co., Ltd.
+China
+Coherent (Beijing) Commercial Company Limited
+China
+Coherent China, Inc.
+China
+Finisar Shanghai Incorporation
+China
+Finisar Shenzhen Incorporation
+China
+Finisar Wuxi Incorporation
+China
+Fuzhou Photop Optics Co., Ltd.
+China
+II-VI Infrared Laser (Suzhou) Co., Ltd.
+China
+II-VI Optics (Suzhou) Co., Ltd.
+China
+II-VI Photonics (Shenzhen) Inc.
+China
+II-VI Photonics, Inc.
+China
+II-VI Suwtech, Inc.
+China
+OptimalCoatech (Guangzhou) Co., Ltd.
+China
+Rofin-Baasel China Company Ltd.
+China
+Suzhou II-VI Lasertech Co., Ltd.
+China
+Coherent (Cyprus) Financing Limited
+Cyprus
+CoAdna Photonics, Inc.
+Delaware
+Coherent Advanced Solutions, Inc.
+Delaware
+Coherent NA, Inc.
+Delaware
+Coherent, Inc.
+Delaware
+Coherent International LLC
+Delaware
+1
+Owned 100% by Silicon Carbide LLC. See note 3.
+2
+Owned 50% by Coherent Corp. and 50% by our joint venture partner.
+Subsidiary
+Jurisdiction of Formation
+CT Crystals LLC
+2
+Delaware
+Finisar Corporation
+Delaware
+II-VI Delaware, Inc.
+Delaware
+II-VI Optoelectronic Devices, Inc.
+Delaware
+II-VI Photonics (US), Inc.
+Delaware
+Kailight Photonics, Inc.
+Delaware
+LightSmyth Technologies, Inc.
+Delaware
+Coherent Ceramics, Inc.
+Delaware
+Nufern
+Delaware
+Optium Corporation
+Delaware
+Rofin-Sinar Technologies LLC
+Delaware
+Silicon Carbide LLC
+3
+Delaware
+Wide Bandgap EmployCo LLC
+Delaware
+Wide Bandgap Holdings Corp.
+Delaware
+Corelase Oy
+Finland
+Coherent France SAS
+France
+CBL Verwaltungsgesellschaft GmbH
+Germany
+Coherent (Deutschland) GmbH
+Germany
+Coherent Germany GmbH
+Germany
+Coherent GmbH
+Germany
+Coherent Holding BV & Co. KG
+Germany
+Coherent Kaiserslautern GmbH
+Germany
+Coherent LaserSystems GmbH & Co. KG
+Germany
+Coherent Munich GmbH & Co. KG
+Germany
+Coherent Real Estate 1 GmbH & Co. KG
+Germany
+Coherent Real Estate 2 GmbH & Co. KG
+Germany
+Coherent Real Estate GmbH
+Germany
+DILAS Diodenlaser GmbH
+Germany
+Electro-Optics Technology GmbH
+Germany
+Finisar Germany GmbH
+Germany
+HIGHYAG Lasertechnologie GmbH
+Germany
+II-VI GmbH
+Germany
+RASANT-ALCOTEC Beschichtungstechnik GmbH
+Germany
+ROFIN-SINAR Laser GmbH
+Germany
+SiC Germany GmbH
+1
+Germany
+Allied Rising Investment Limited
+Hong Kong
+CoAdna (HK) Limited
+Hong Kong
+Coherent Hong Kong Limited
+Hong Kong
+Richly World Investment Limited
+Hong Kong
+EpiWorks, Inc.
+Illinois
+Finisar Technology India Private Limited
+India
+Coherent Israel Ltd.
+Israel
+Finisar Israel Ltd.
+Israel
+3
+Owned 75% by Wide Bandgap Holdings Corp. and 25% by our joint venture partners.
+Subsidiary
+Jurisdiction of Formation
+Coherent Italia S.r.l
+Italy
+Coherent Japan, Inc.
+Japan
+II-VI Japan Incorporated
+Japan
+SiC Japan GK
+1
+Japan
+Coherent Malaysia Sdn. Bhd.
+Malaysia
+COHR Malaysia SDN. BHD.
+Malaysia
+ROFIN-BAASEL Inc.
+Massachusetts
+Electro-Optics Technology, Incorporated
+Michigan
+Coherent Dutch Merger Sub B.V.
+Netherlands
+Coherent Europe B.V.
+Netherlands
+COHR International Investment C.V.
+Netherlands
+II-VI Advanced Materials LLC
+1
+Pennsylvania
+II-VI Laser Enterprise Philippines, Inc.
+Philippines
+II-VI Performance Metals, Inc.
+Philippines
+Coherent Scotland Limited
+Scotland
+Coherent Singapore PTE. Ltd.
+Singapore
+II-VI Singapore Pte Ltd
+Singapore
+Rofin-Baasel Singapore PTE Ltd.
+Singapore
+Coherent Korea Ltd.
+South Korea
+Finisar Daejeon Co. Ltd.
+South Korea
+SiC Korea LLC
+1
+South Korea
+Rofin Baasel España, S.L.
+Spain
+Rofin-Sinar Technologies Europe, S.L.
+Spain
+II-VI Jarfalla AB
+Sweden
+II-VI Kista AB
+1
+Sweden
+Optoskand AB
+Sweden
+Coherent Switzerland AG
+Switzerland
+II-VI Laser Enterprise GmbH
+Switzerland
+II-VI Taiwan Co., Ltd.
+Taiwan
+Finisar Sherman RE Holdco, LLC
+Texas
+Coherent Thermal Solutions, Inc.
+Texas
+Two-Six (Thailand) Co., Ltd.
+Thailand
+Coherent (UK) Holdings Limited
+United Kingdom
+Coherent (UK) B Holdings Ltd
+United Kingdom
+Coherent (UK) C Holdings Ltd
+United Kingdom
+Coherent (UK) Financing Ltd
+United Kingdom
+Coherent (UK) Limited
+United Kingdom
+II-VI Laser Enterprise Ltd.
+United Kingdom
+II-VI U.K. Limited
+United Kingdom
+Rofin-Baasel UK Limited
+United Kingdom
+Coherent Services Vietnam Limited Liability Company
+Vietnam
+Coherent Vietnam (Dong Nai) Company Limited
+Vietnam
+3
+Owned 75% by Wide Bandgap Holdings Corp. and 25% by our joint venture partners.
+Subsidiary
+Jurisdiction of Formation
+II-VI Vietnam Co., Ltd.
+Vietnam
+Silicon Carbide Vietnam Limited Liability Company
+1
+Vietnam

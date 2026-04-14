@@ -1,0 +1,71 @@
+EX-21.1
+4
+ex_890859.htm
+LIST OF SUBSIDIARIES
+ex_890859.htm
+Exhibit 21.1
+AvePoint, Inc.
+List of Subsidiaries
+Subsidiary
+Jurisdiction
+AvePoint AU Pty Ltd.
+Australia
+AvePoint Canada Ltd.
+Canada
+AvePoint Beijing Technology Ltd.
+China
+AvePoint Technology Changchun Co. Ltd.
+China
+Shanghai AvePoint Software Technology Corporation Ltd.
+China
+AvePoint France*
+France
+AvePoint Deutschland GmbH
+Germany
+AvePoint Japan K.K.
+Japan
+AvePoint Korea Co., Ltd.
+Korea
+AvePoint Malaysia Sdn. Bhd.
+Malaysia
+AvePoint Benelux*
+Netherlands
+Ydentic Holding B.V.
+Netherlands
+Ydentic B.V.
+Netherlands
+AvePoint Manila**
+Philippines
+AvePoint Singapore Pte. Ltd.
+Singapore
+I-Access Solutions Pte. Ltd.
+Singapore
+MaivenPoint Pte. Ltd.
+Singapore
+AvePoint South Africa***
+South Africa
+AvePoint Sweden*
+Sweden
+AvePoint Switzerland*
+Switzerland
+AvePoint Gulf FZCO
+United Arab Emirates
+AvePoint Holding Limited
+United Kingdom
+AvePoint UK, Ltd.
+United Kingdom
+Combined Knowledge Limited
+United Kingdom
+AvePoint Hanoi Company Ltd.
+Vietnam
+AvePoint Vietnam Company Ltd.
+Vietnam
+AvePoint Holdings USA, LLC
+Virginia (United States)
+AvePoint Public Sector, Inc.
+Virginia (United States)
+AvePoint Ventures, LLC
+Virginia (United States)
+* Branch office of AvePoint Deutschland GmbH
+** Branch office of AvePoint Holdings USA, LLC
+*** Branch office of AvePoint UK, Ltd.

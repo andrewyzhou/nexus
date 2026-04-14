@@ -1,0 +1,64 @@
+EX-21.1
+6
+ex211listofsubsidiaries123.htm
+EX-21.1
+Document
+Exhibit 21.1
+LIST OF SUBSIDIARIES
+NAME
+JURISDICTION OF ORGANIZATION
+Active Network, LLC
+Delaware
+Cayan LLC
+Delaware
+Central Payment Co., LLC
+Delaware
+Centrum Elektronicznych Usług Płatniczych eService Sp. z.o.o.
+(1)
+Poland
+Comercia Global Payments Entidad de Pago, S.L.
+(2)
+Spain
+Como America - UK Ltd
+United Kingdom
+EVO Merchant Services, LLC
+Delaware
+EVO Payments Mexico, S. DE R.L. DE C.V.
+Mexico
+EVO Payments UK Ltd.
+United Kingdom
+Global Payments Acquisition UK Limited
+United Kingdom
+Global Payments Direct, Inc.
+New York
+Global Payments Europe s.r.o.
+Czech Republic
+Global Payments UK Financing Limited
+United Kingdom
+GPUK LLP
+United Kingdom
+Heartland Payment Systems, LLC
+Delaware
+MineralTree, Inc.
+Delaware
+Netspend Holdings, Inc.
+Delaware
+Paylease LLC d/b/a Zego
+Delaware
+Total System Services LLC
+Delaware
+TouchNet Information Systems, Inc.
+Kansas
+TSYS Acquiring Solutions, LLC
+Delaware
+TSYS Card Tech Limited
+United Kingdom
+TSYS Merchant Solutions, LLC
+Delaware
+Xenial, Inc.
+Delaware
+(1)
+Centrum Elektronicznych Usług Płatniczych eService Sp. z.o.o. has a shareholder unrelated to Global Payments Inc. that owns a 34% noncontrolling interest.
+(2)
+Comercia Global Payments Entidad de Pago, S.L. has a shareholder unrelated to Global Payments Inc. that owns a 20% noncontrolling interest.
+* This list omits subsidiaries, which, considered in the aggregate as of the Company's most recently completed year, would not constitute a "significant subsidiary" as defined in Rule 1-02(w) of Regulation S-X.

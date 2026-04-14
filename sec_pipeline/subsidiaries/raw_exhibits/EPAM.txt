@@ -1,0 +1,319 @@
+EX-21.1
+4
+exhibit211subsidiariesofth.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+SUBSIDIARIES OF THE REGISTRANT
+Entity
+State or Country of Incorporation
+EPAM Systems Albania SHPK
+Albania
+EPAM Systems Argentina S.R.L.
+Argentina
+Vates S.A.
+Argentina
+Neoris Argentina S.A.
+Argentina
+Neoris One Argentina S.A.
+Argentina
+Neoris Consulting Argentina S.A.
+Argentina
+EPAM Systems LLC
+Armenia
+EPAM Systems (Australia) Pty. Ltd.
+Australia
+First Derivative (Aus) Pty Ltd
+Australia
+EPAM Systems Austria GmbH
+Austria
+"EPAM Systems" Limited Liability Company
+Azerbaijan
+EPAM Information Corporate Systems FPUE
+Belarus
+EPAM Systems FLLC
+Belarus
+EPAM Systems Belgium Srl
+Belgium
+EPAM SYSTEMS.BE SRL
+Belgium
+EPAM Systems Brazil LTDA.
+Brazil
+Neoris do Brasil Ltda.
+Brazil
+J8 Corp
+British Virgin Islands
+EPAM Systems Bulgaria EOOD
+Bulgaria
+EPAM Systems Canada, ULC
+Canada
+First Derivatives Canada Inc.
+Canada
+EPAM Systems Chile SpA
+Chile
+Vates Chile SPA
+Chile
+Neoris Chile Ltda.
+Chile
+Guangzhou EPAM Systems Co., Ltd.
+China
+EPAM Systems (Suzhou) Co., Ltd.
+China
+Suzhou Evelo Technology Company Limited
+China
+EPAM Systems (Shenzhen) Co. Ltd.
+China
+EPAM Systems (Suzhou) Co., Ltd.
+China – Beijing Branch
+EPAM Systems (Suzhou) Co., Ltd.
+China – Chengdu Branch
+EPAM Systems (Shenzhen) Co., Ltd.
+China – Shanghai Branch
+EPAM Systems Colombia S.A.S
+Colombia
+Neoris Colombia S.A.S.
+Colombia
+Lynxus Solutions S.A.S.
+Colombia
+EPAM Systems d.o.o.
+Croatia
+EPAM Systems (Cyprus) Limited
+Cyprus
+EPAM Solutions (Cyprus) Limited
+Cyprus
+EPAM Systems (Czech Republic) s.r.o.
+Czech Republic
+Odysseus Data Services s.r.o.
+Czech Republic
+Neoris Czech Republic S.R.O.
+Czech Republic
+EPAM Systems ApS
+Denmark
+EPAM Systems Dominicana SRL
+Dominican Republic
+Neoris-Ecuador S.A.S.
+Ecuador
+EPAM France SAS
+France
+EPAM Systems (Georgia) LLC
+Georgia
+COREtransform GmbH
+Germany
+Emakina.DE GmbH i.L.
+Germany
+EPAM Systems GmbH
+Germany
+test IO GmbH
+Germany
+EPAM SYSTEMS HELLAS SINGLE MEMBER PRIVATE COMPANY
+Greece
+EPAM Systems Guernsey Limited
+Guernsey
+EPAM Systems (Hong Kong) Limited
+Hong Kong
+First Derivative (Hong Kong) Limited
+Hong Kong
+EPAM Systems Kft
+Hungary
+Neoris Consulting & Information Technology Services LLC
+Hungary
+EPAM Systems India Private Limited
+India
+Emakina (INDIA) Private Limited
+India
+Neoris Consulting Services India Private Ltd.
+India
+EPAM Systems (Ireland) Limited
+Ireland
+First Derivative (Ireland) Limited
+Ireland
+Naya P.A.I. Technologies Ltd.
+Israel
+WhiteHat Cyber Labs Ltd.
+Israel
+WhiteHat Ltd.
+Israel
+EPAM Systems Italy S.r.l.
+Italy
+EPAM Systems Japan G.K.
+Japan
+First Derivatives Japan Co., Limited
+Japan
+LLP EPAM Kazakhstan
+Kazakhstan
+Limited Liability Partnership “EPAM Solutions”
+Kazakhstan
+EPAM Systems LLC
+Kyrgyzstan
+EPAM Systems SIA
+Latvia
+Emakina  Lb. S.A.L.
+Lebanon
+EPAM Sistemos, UAB
+Lithuania
+UAB "EPAM SISTEMOS" Kauno Branch
+Lithuania-Kauno Branch
+JUST BI Sdn Bhd
+Malaysia
+Ricston Limited
+Malta
+EPAM Systems Mexico S. de R.L. de C.V.
+Mexico
+S4N Mexico S.C.
+Mexico
+Neoris de Mexico S. de R.L. de C.V.
+Mexico
+EPAM Systems Montenegro d.o.o.
+Montenegro
+EPAM Systems Netherlands BV
+Netherlands
+Neoris BV
+Netherlands
+S4N Panama SRL
+Panama
+Neoris Peru S.A.C.
+Peru
+EPAM Systems Philippines
+Philippines
+EPAM Systems (Poland) sp z.o.o.
+Poland
+PolSource sp. z.o.o.
+Poland
+First Derivatives Poland S.P. Z.o.o
+Poland
+EPAM Systems Portugal, Unipessoal Lda.
+Portugal
+Emakina Branch QFC
+Qatar
+EPAM Systems WLL
+Qatar
+EPAM Systems International SRL
+Romania
+EPAM Systems Limited Company
+Saudi Arabia
+EPAM Systems d.o.o. Beograd
+Serbia
+Emakina Asia PTE Ltd
+Singapore
+EPAM Systems PTE Ltd.
+Singapore
+First Derivatives Pte. Ltd
+Singapore
+EPAM System s.r.o.
+Slovak Republic
+Emakina ZA Proprietary Limited
+South Africa
+FIRST DERIVATIVES SOUTH AFRICA PROPRIETARY LIMITED
+South Africa
+EPAM Systems Spain SL
+Spain
+Neoris Spain S.L.U.
+Spain
+FD Technologies Spain, S.L.U.
+Spain
+EPAM Systems Nordic AB
+Sweden
+First Derivatives Sweden AB
+Sweden
+COREtransform GmbH
+Switzerland
+EPAM Systems (Switzerland) GmbH
+Switzerland
+EPAM Systems Yazılım Geliştirme Ltd. Şti.
+Turkey
+EPAM Systems Turkey Yazılım Geliştirme Limited Şirketi İzmir Bilişim Vadisi Şubesi
+Turkey
+EPAM Systems Turkey Yazılım Geliştirme Limited Şirketi Antalya OSB Teknopark Şubesi
+Turkey
+EPAM Systems Turkey Yazılım Geliştirme Limited Şirketi İstanbul Bilişim Vadisi Şubesi
+Turkey
+EPAM Systems Turkey Yazılım Geliştirme Limited Şirketi Ege Serbest Bölge Şubesi
+Turkey
+EPAM Digital LLC
+Ukraine
+EPAM Systems LLC
+Ukraine
+EPAM Solutions LLC
+Ukraine
+EPAM Systems Ltd.
+United Kingdom
+PolSource Ltd.
+United Kingdom
+Think Limited
+United Kingdom
+FIRST DERIVATIVE LTD
+United Kingdom
+Alliance Consulting Global Holdings, Inc.
+Delaware, USA
+Alliance Global Services, Inc.
+Delaware, USA
+Alliance Global Services, LLC
+Delaware, USA
+Continuum Innovation LLC
+Delaware, USA
+EPAM CY Holdco, LLC
+Delaware, USA
+EPAM Global Campus, LLC
+Delaware, USA
+EPAM Government Solutions, LLC
+Delaware, USA
+EPAM Intercompany Management, LLC
+Delaware, USA
+First Derivatives Holdings, Inc.
+Delaware, USA
+First Derivatives US, Inc.
+Delaware, USA
+Great Fridays Inc.
+Delaware, USA
+Lynxus Solutions LLC
+Delaware, USA
+Maravir Technologies LLC
+Delaware, USA
+Naya P.A.I. Technologies Inc.
+Delaware, USA
+Navigation Arts, Inc.
+Delaware, USA
+Odysseus Data Services, Inc.
+Delaware, USA
+ShareKnowledge Inc.
+Delaware, USA
+test IO, Inc.
+Delaware, USA
+Vates, Inc.
+Delaware, USA
+Vested Development, Inc.
+Delaware, USA
+Neoris USA, Inc.
+Florida, USA
+PolSource Inc.
+Nevada, USA
+EPAM Systems LLC
+New Jersey, USA
+FOREFRONT LLC
+New Jersey, USA
+Emakina.US Inc.
+New York, USA
+The Reference.US Inc.
+New York, USA
+EPAM Upskill, LLC
+Pennsylvania, USA
+Essentia Advisory Partners, LLC
+Texas, USA
+S4N America Inc.
+Washington, USA
+Epam Software Engineering and Consultancy Services LLC
+UAE
+EPAM Software Engineering and Consultancy Services LLC – Dubai Branch (non-free zone)
+UAE
+EPAM Systems FZ-LLC
+UAE
+EPAM Systems Uruguay S.R.L
+Uruguay
+Maravir S.R.L.
+Uruguay
+EPAM Systems FE LLC
+Uzbekistan
+LLC IT-PARK UNIVERSITY
+Uzbekistan
+EPAM Systems (Vietnam) Company Limited
+Vietnam

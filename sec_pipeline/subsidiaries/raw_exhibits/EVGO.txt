@@ -1,0 +1,37 @@
+EX-21.1
+2
+evgo-20251231xex21d1.htm
+EX-21.1
+Exhibit 21.1
+EVgo INC.
+Subsidiaries
+The table below is a list of direct and indirect subsidiaries of EVgo Inc. (the “Company”) as of December 31, 2025, and the state or jurisdiction in which those subsidiaries are organized. Pursuant to Item 601(b)(21)(ii) of Regulation S-K, certain subsidiaries of the Company have been omitted from this list because, considered in the aggregate as a single subsidiary, such subsidiaries would not constitute a “significant subsidiary” as that term is defined in Rule 1-02(w) of Regulation S-X.
+​
+​
+Company
+Jurisdiction of Organization
+CRIS Thunder Merger LLC
+Delaware
+EVgo OpCo, LLC
+Delaware
+EVgo Holdco, LLC
+Delaware
+EVgo Services LLC
+Delaware
+EVgo Recargo HoldCo LLC
+Delaware
+EVgo Real Estate HoldCo LLC
+Delaware
+EVgo Real Estate LLC
+Delaware
+EVgo Swift Pledgor LLC
+Delaware
+EVgo Swift Borrower LLC
+Delaware
+EVgo Voyager Pledgor LLC
+Delaware
+EVgo Voyager Borrower LLC
+Delaware
+PlugShare LLC
+California
+​

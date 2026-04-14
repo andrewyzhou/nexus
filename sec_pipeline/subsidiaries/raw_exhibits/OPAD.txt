@@ -1,0 +1,55 @@
+EX-21.1
+6
+opad-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+Subsidiaries of Offerpad Solutions Inc.
+Name
+Jurisdiction of Incorporation
+Offerpad Holdings LLC
+Delaware
+OfferPad, LLC
+Arizona
+OfferPad (SPVBorrower), LLC
+Delaware
+OfferPad (SPVBorrower1), LLC
+Delaware
+OP SPE PHX1, LLC
+Delaware
+OP SPE TPA1, LLC
+Delaware
+OP SPE BORROWER PARENT, LLC
+Delaware
+OP SPE HOLDCO, LLC
+Delaware
+OfferPad Mortgage, LLC
+Arizona
+OfferPad Brokerage, LLC
+Arizona
+OfferPad Brokerage “FL,” LLC
+Florida
+OP Contracting AZ, LLC
+Arizona
+OP Contracting GA, LLC
+Georgia
+OP Contracting TX, LLC
+Texas
+OfferPad Brokerage CA, Inc.
+California
+Offerpad SPV Borrower G, LLC
+Delaware
+Offerpad SPE Borrower A Holdings, LLC
+Delaware
+Offerpad SPE Borrower A, LLC
+Delaware
+OP Gold Holdings, LLC
+Delaware
+OP Gold, LLC
+Delaware
+Offerpad Point LLC
+Delaware
+Offerpad Summit Holdings, LLC
+Delaware
+OP SPE Summit, LLC
+Delaware

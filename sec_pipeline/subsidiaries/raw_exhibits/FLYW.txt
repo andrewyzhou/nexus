@@ -1,0 +1,75 @@
+EX-21.1
+2
+flyw-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+SUBSIDIARIES OF FLYWIRE CORPORATION
+Name of Subsidiary
+Jurisdiction of Organization
+Flywire LatAm Corporation
+United States of America
+Flywire AEA Corporation
+United States of America
+Flywire Healthcare Corporation
+United States of America
+OnPlan Holdings, LLC
+United States of America
+Flywire Securities Corporation
+United States of America
+Flywire Global Corp.
+United States of America
+Flywire Payments Corporation
+United States of America
+Simplificare Inc.
+United States of America
+Invoiced, Inc.
+United States of America
+Sertifi, LLC
+United States of America
+Flywire Pacific Pty Ltd
+Australia
+Cohort Solutions Pty Ltd
+Australia
+OSHC Australia Pty Ltd
+Australia
+Learning Information Systems Pty Limited
+Australia
+Cohort Go Brasil Representações Eireli
+Brazil
+Flywire Serviços Ltda
+Brazil
+Flywire Payments Canada, Inc.
+Canada
+Cohort Solutions (Canada) Ltd
+Canada
+Flywire (Hong Kong) Limited
+Hong Kong
+FW Solutions India LLP
+India
+Lis Studylink India Private Limited
+India
+Simplificare Ltd.
+Israel
+Flywire G.K.
+Japan
+Flywire Europe, UAB
+Lithuania
+Flywire Mexico, S.A. de C.V.
+Mexico
+Cohort Solutions (NZ) Ltd
+New Zealand
+peerTransfer Commercial Consulting (Shanghai) Co., Ltd.
+People’s Republic of China
+Flywire Romania S.R.L.
+Romania
+Flywire (Singapore) Pte. Ltd
+Singapore
+Flywire Spain, S.L.U.
+Spain
+Flywire Payments Limited
+United Kingdom
+WPM Education Limited
+United Kingdom
+WPM Payment Security Limited
+United Kingdom

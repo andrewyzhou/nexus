@@ -1,0 +1,37 @@
+EX-8.1
+17
+glng-12312025xex81.htm
+EX-8.1 GLNG SUBSIDIARIES
+Document
+Exhibit 8.1
+The following table lists the Company’s significant subsidiaries as at March 16, 2026. Unless otherwise indicated, the Company owns a 100% controlling interest in each of the following subsidiaries.
+Name
+Jurisdiction of Incorporation
+Gimi Holding Company Limited
+Bermuda
+Golar LNG Energy Limited
+Bermuda
+Golar Management (Bermuda) Limited
+Bermuda
+Golar FLNG Sub-Holding Company Limited
+Bermuda
+Golar Hilli LLC
+(1)
+Marshall Islands
+Golar Hilli Corporation
+(1)
+Marshall Islands
+Gimi MS Corporation
+(2)
+Marshall Islands
+Golar MK II Corporation
+Marshall Islands
+Golar MS Operator SARL
+Mauritania
+Golar Management AS
+Norway
+Golar Management Limited
+United Kingdom
+(1) In February 2018, Golar Hilli LLC was incorporated with Golar as sole member. In July 2018, shares in Golar Hilli Corporation (a 89% owned subsidiary of Golar Hilli LLC) were exchanged for Hilli Common Units, Series A Special Units and Series B Special Units. In March 2023, Golar reacquired NFE’s 50% ownership interest in Hilli Common Units. In December 2024, we repurchased the remaining non-controlling interest in Hilli LLC. As at December 31, 2025, Golar effectively owns 100% of Hilli LLC.
+(2) In November 2018, Gimi MS Corporation (“Gimi MS Corp”) was incorporated with Golar LNG as sole shareholder. In February 2019, the Gimi was transferred to Gimi MS Corp from Golar Gimi Corporation. In April 2019, First FLNG Holdings Pte. Ltd. (“First FLNG Holding”), an indirect wholly-owned subsidiary of Keppel Capital, acquired a 30% share in Gimi MS Corp.
+* The above table excludes mention of the lessor variable interest entity (“lessor VIE”) that we have leased a vessel from under a finance lease. The lessor VIE is wholly-owned, newly formed special purpose vehicle (“SPV”) of a financial institution. While we do not hold any equity investment in this SPV, we have concluded that we are the primary beneficiary of the lessor VIE and accordingly have consolidated this entity into our financial results.

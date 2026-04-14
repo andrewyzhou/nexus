@@ -1,0 +1,143 @@
+EX-21.1
+4
+wday-01312026xex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES AS OF JANUARY 31, 2026
+Name
+Jurisdiction
+Adaptive Insights Co., Ltd.
+Japan
+Adaptive Insights Limited
+United Kingdom
+Adaptive Insights LLC
+Delaware
+Adaptive Insights Pty Ltd.
+Australia
+'Alohi Insurance, Inc.
+Hawaii
+Canada Workday ULC
+Canada
+Evisort LLC
+Delaware
+FlowiseAI, LLC
+Delaware
+HiredScore LLC
+Delaware
+Paradox Olivia (Australia) Pty Ltd.
+Australia
+Paradox Olivia (Singapore) Pte. Ltd.
+Singapore
+Paradox, LLC
+Delaware
+Paradox.AI Israel Ltd.
+Israel
+Paradox.AI UK Ltd.
+United Kingdom
+Peakon ApS
+Denmark
+Pipedream, LLC
+Delaware
+PT Workday Indonesia Services
+Indonesia
+Sana Labs AB
+Sweden
+Sana Labs, Inc.
+Delaware
+Sana Labs, Ltd.
+United Kingdom
+Tri-Valley Resellers, LLC
+Delaware
+Vineyard Sound, LLC
+Delaware
+VNDLY LLC
+Delaware
+Workday Arabia
+Saudi Arabia
+Workday (Beijing) Co., Ltd.
+China
+Workday (NZ) Unlimited
+New Zealand
+Workday (Thailand) Co., Ltd.
+Thailand
+Workday (UK) Limited
+United Kingdom
+Workday Asia Pacific Limited
+Hong Kong
+Workday Australia Pty Ltd
+Australia
+Workday Austria GmbH
+Austria
+Workday B.V.
+The Netherlands
+Workday Belgium
+Belgium
+Workday Costa Rica SRL
+Costa Rica
+Workday CZ s.r.o
+Czech Republic
+Workday Denmark ApS
+Denmark
+Workday España SL
+Spain
+Workday Finland Oy
+Finland
+Workday France
+France
+Workday Global, Inc.
+Delaware
+Workday GmbH
+Germany
+Workday Government, LLC
+Delaware
+Workday India Global Services Private Limited
+India
+Workday India Private Limited
+India
+Workday International LLC
+Delaware
+Workday Ireland Holding Unlimited Company
+Ireland
+Workday Israel Ltd.
+Israel
+Workday Italy S.r.l.
+Italy
+Workday K.K.
+Japan
+Workday Korea Limited
+South Korea
+Workday Latvia SIA
+Latvia
+Workday Limited
+Ireland
+Workday Limited - Liechtenstein Branch Office
+Ireland/Liechtenstein
+Workday Limited - South Korea Branch
+Ireland/South Korea
+Workday Malaysia Sdn. Bhd.
+Malaysia
+Workday Management Unlimited Company
+Ireland
+Workday MENA FZ-LLC
+United Arab Emirates
+Workday Mexico, S. de R.L. de C.V.
+Mexico
+Workday Norway AS
+Norway
+Workday Polska sp. z.o.o
+Poland
+Workday Singapore Pte. Ltd.
+Singapore
+Workday South Africa (Pty) Ltd
+South Africa
+Workday Sweden Aktiebolag
+Sweden
+Workday Switzerland GmbH
+Switzerland
+Workday Taiwan Limited
+Taiwan
+Workday Vietnam Company Limited
+Vietnam
+Zimit LLC
+Delaware

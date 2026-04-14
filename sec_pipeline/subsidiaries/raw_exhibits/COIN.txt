@@ -1,0 +1,35 @@
+EX-21.1
+10
+exhibit21110kq42025.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF COINBASE GLOBAL, INC.*
+Subsidiary name
+Jurisdiction of incorporation
+CB Payments, Ltd
+United Kingdom
+Coinbase Asset Management, LLC
+Delaware, United States
+Coinbase, Inc.
+Delaware, United States
+Coinbase Capital Markets Corporation
+California, United States
+Coinbase Credit, Inc.
+Delaware, United States
+Coinbase Custody International Limited
+Ireland
+Coinbase Custody Trust Company, LLC
+New York, United States
+Coinbase Derivatives, LLC
+Delaware, United States
+Coinbase Europe Limited
+Ireland
+Coinbase Financial Markets, Inc.
+Delaware, United States
+Coinbase Ireland Limited
+Ireland
+Coinbase Luxembourg S.A.
+Luxembourg
+*
+Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Coinbase Global, Inc. are omitted because, considered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report.

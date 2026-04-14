@@ -1,0 +1,123 @@
+EX-21.1
+6
+now-20251231xex211.htm
+EX-21.1
+Document
+EXHIBIT 21.1
+SUBSIDIARIES
+Name of Subsidiary
+Jurisdiction of Incorporation or Organization
+ServiceNow Australia Pty Ltd
+Australia
+ServiceNow GmbH
+Austria
+ServiceNow Belgium BV
+Belgium
+Sweagle NV
+Belgium
+ServiceNow Brasil Gerenciamento de Servicos Ltda
+Brazil
+ServiceNow Canada Inc.
+Canada
+ServiceNow Costa Rica, S.R.L.
+Costa Rica
+ServiceNow Czechia s.r.o
+Czech Republic
+ServiceNow Ventures Holdings, Inc.
+Delaware
+data.world, Inc.
+Delaware
+DESCO House, LLC
+Delaware
+LightStep, Inc.
+Delaware
+Logik.io Inc.
+Delaware
+Moveworks, LLC
+Delaware
+Mission Secure, Inc.
+Delaware
+ServiceNow Delaware LLC
+Delaware
+ServiceNow Delaware Holdco LLC
+Delaware
+ServiceNow Denmark ApS
+Denmark
+ServiceNow EGY for Software and Platform Development LLC
+Egypt
+ServiceNow Finland Oy
+Finland
+Contexeo SAS
+France
+Moveworks France
+France
+ServiceNow France SAS
+France
+G2K Group GmbH
+Germany
+Raytion GmbH
+Germany
+Service-now.com GmbH
+Germany
+ServiceNow Hong Kong Limited
+Hong Kong
+Logik.io India Private Limited
+India
+Moveworks Private Limited
+India
+ServiceNow Data Services Private Limited
+India
+ServiceNow Software Development India Private Limited
+India
+ServiceNow International Treasury Limited
+Ireland
+ServiceNow Ireland Limited
+Ireland
+Service Now A.B Israel 2012 Ltd
+Israel
+ServiceNow Italy S.r.l.
+Italy
+ServiceNow Japan G.K.
+Japan
+ServiceNow Operations Mexico S. de R.L. de C.V.
+Mexico
+4Industry B.V.
+Netherlands
+4Industry Holding B.V.
+Netherlands
+ServiceNow International B.V.
+Netherlands
+ServiceNow Nederland B.V.
+Netherlands
+ServiceNow Norway AS
+Norway
+Swarm64 AS
+Norway
+ServiceNow Poland sp. z o.o.
+Poland
+ServiceNow Arabia Limited
+Saudi Arabia
+ServiceNow Regional Headquarter Company
+Saudi Arabia
+ServiceNow Pte. Ltd.
+Singapore
+ServiceNow South Africa Pty Ltd.
+South Africa
+ServiceNow Korea Limited
+South Korea
+ServiceNow Spain SL
+Spain
+ServiceNow Sweden AB
+Sweden
+ServiceNow Switzerland GmbH
+Switzerland
+ServiceNow (Thailand) Limited
+Thailand
+ServiceNow Middle East FZ-LLC
+UAE
+ServiceNow UK Limited
+United Kingdom
+Sweagle Ltd.
+United Kingdom
+UK Moveworks Limited
+United Kingdom

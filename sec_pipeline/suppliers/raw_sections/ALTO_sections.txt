@@ -1,0 +1,491 @@
+TICKER: ALTO
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain disruptions. Our fuel-grade ethanol sales are tied to prevailing
+spot market prices rather than long-term, fixed-price contracts. Fuel-grade ethanol prices, as reported by the Chicago Mercantile Exchange,
+ranged from $1.57 to $2.07 per gallon in 2025, $1.38 to $2.12 per gallon in 2024 and from $1.58 to $2.67 per gallon in 2023. In addition,
+even under longer-term, fixed-price contracts for our specialty alcohols, our customers may seek to renegotiate prices under those contracts
+during periods of falling prices or high price volatility. Fluctuations in the prices of our products may cause our results of operations
+to fluctuate significantly. We may engage in hedging transactions and other risk
+mitigation strategies that could harm our results of operations and financial condition. To partially offset the effects of production
+input and product price volatility, in particular, corn and natural gas costs and fuel-grade ethanol prices, we may enter into contracts
+to purchase a portion of our corn or natural gas requirements on a forward basis or to lock in the premium to fuel-grade ethanol market
+prices on portions of our alcohol production. In addition, we may engage in other hedging transactions involving exchange-traded futures
+contracts for corn, natural gas and unleaded gasoline from time to time. The financial statement impact of these activities is dependent
+upon, among other things, the prices involved and our ability to sell sufficient products to use all of the corn and natural gas for
+which forward commitments have been made. We have recognized losses in the past, and may suffer losses in the future, from our hedging
+arrangements. For example, for the year ended December 31, 2023, we recognized net losses of $8.0 million related to the aggregate change
+in the fair values of hedging contracts. Hedging arrangements also expose us to the risk
+of financial loss in situations where our counterparty to the hedging contract defaults on its contract or, in the case of exchange-traded
+contracts, where there is a change in the expected differential between the underlying price in the hedging agreement and the actual
+prices paid or received by us. In addition, our open contract positions may require cash deposits to cover margin calls, negatively impacting
+our liquidity. As a result, our hedging activities and fluctuations in the price of corn, natural gas, fuel-grade ethanol and unleaded
+gasoline may adversely affect our results of operations, financial condition and liquidity. - 16 - Disruptions in our production or distribution, including
+from climate change and other weather effects, may adversely affect our business, results of operations and financial condition. Our business depends on the continuing availability
+of rail, road, port, storage and distribution infrastructure. In particular, due to limited storage capacity at some of our production
+facilities and other considerations related to production efficiencies, certain facilities depend on timely delivery of corn. Alcohol
+production also requires a significant and uninterrupted supply of other raw materials and energy, primarily water, electricity and natural
+gas. Local water, electricity and gas utilities may fail to reliably supply the water, electricity and natural gas that our production
+facilities need or may fail to supply those resources on acceptable terms. In the past, poor weather has caused disruptions in rail transportation,
+which slowed the delivery of fuel-grade ethanol and/or corn by rail to and from our facilities. For example, in late April 2025, during a period
+of rapidly rising river levels, our loadout dock at our Pekin Campus was damaged, negatively impacting production and logistics, and
+requiring our use of more costly third-party river transload
+
+--- VENDORS ---
+vendors to minimize business interruption. In addition, in the first quarter
+of 2024, extreme cold weather conditions in January at our Pekin Campus restricted barge deliveries and increased standby fees. To manage
+inventory levels, we transported more product by rail, a higher cost mode of transportation. Cold weather conditions also required us
+to shift to lower margin feed products and reduced our production rates across our Pekin Campus, hindering our ability to produce specialty
+alcohol at full capacity. In the third quarter of 2023 we experienced unusually high unscheduled production downtime for repairs and
+maintenance which reduced sales volumes and profits. Disruptions in production or distribution, whether
+caused by labor difficulties, unscheduled downtimes and other operational hazards inherent in the alcohol production industry, including
+equipment failures, fires, explosions, abnormal pressures, blowouts, pipeline ruptures, transportation accidents, climate change and
+natural disasters such as earthquakes, floods and storms, or other weather effects, or human error or malfeasance or other reasons, could
+prevent timely deliveries of corn or other raw materials and energy, and could delay transport of our products to market, and may require
+us to halt production at one or more production facilities, any of which could have a material adverse effect on our business, results
+of operations and financial condition. Some of these operational hazards may also cause
+personal injury or loss of life, severe damage to or destruction of property and equipment or environmental damage, and may result in
+suspension of operations and the imposition of civil or criminal penalties. Our insurance may not fully cover the potential hazards described
+above or we may be unable to renew our insurance on commercially reasonable terms or at all. Increased alcohol or essential ingredient production
+or higher inventory levels may cause a decline in prices for those products, and may have other negative effects, materially and adversely
+impacting our results of operations, cash flows and financial condition. The prices of our alcohols and essential ingredients
+are highly impacted by competing third-party supplies of those products. In addition, if fuel-grade ethanol production margins improve,
+we anticipate that owners of production facilities operating at below capacity, or owners of idled production facilities, will increase
+production levels, thereby resulting in more abundant fuel-grade ethanol supplies and inventories. Increases in the supply of alcohols
+and essential ingredients may not be commensurate with increases in demand for alcohols and essential ingredients, thus leading to lower
+prices. Any of these outcomes could have a material adverse effect on our results of operations, cash flows and financial condition. - 17 - We may suffer impairments in the value of our long-lived
+assets which may materially and adversely affect our results of operations. We evaluate our long-lived assets annually for
+impairment or when circumstances indicate that the full carrying value of an asset may be unrecoverable. These evaluations rely on financial
+and other assumptions concerning the assets, any of which may not materialize in the future. For example, we recognized asset impairments
+of $0.8 million, $24.8 million and $6.5 million for the years ended December 31, 2025, 2024 and 2023, respectively. We may recognize
+additional impairments of the values of our long-lived assets in the future based on then-prevailing financial and other circumstances.
+Impairments of our long-lived assets may materially and adversely affect our results of operations. Our alcohol production relies on traditional corn-based
+feedstock and process technologies. New technologies could make corn-based alcohol production and traditional process technologies less
+competitive or even obsolete, materially and adversely harming our business. We produce our alcohols from corn and our plants
+are constructed and operate primarily as corn-based alcohol production facilities. Competitors and other third parties have undertaken
+research to develop competing products to corn-based alcohols, and ethanol in particular, as well as new process technologies. These
+research efforts seek alternatives to corn-based ethanol and traditional process technologies aimed at improving real or perceived problems
+with the fuel, such as the carbon and energy intensity of its production, its lower energy content compared to gasoline and its hydrophobic
+nature resulting in water separation in transit or at other times. Competitors and other third parties may develop new alcohols and processes
+that improve on any of these or other real or perceived problems with corn-based alcohols, including ethanol. If viable competing products
+or new process technologies are developed and attract widespread or even modest adoption, we may be forced to modify our production facilities,
+including our process technologies, if possible, to transition in full or in part to these other products or process technologies to
+remain competitive. Modifying our production facilities may require expertise that our personnel may not possess and would likely require
+significant capital expenditures the funding for which we may not have. An inability to remain competitive due to the introduction and
+adoption of competing products or new process technologies, or significant costs associated with the adoption of new products and process
+technologies, would materially and adversely affect our business, financial condition and results of operations. Inflation and sustained higher prices may adversely
+impact our results of operations and financial condition. We have experienced adverse inflationary impacts
+on key production inputs, wages and other costs of labor, equipment, services and other business expenses. In addition, we have experienced
+adverse inflationary impacts on our budgets and expenses for many of our in-process and planned capital projects. Inflation, including
+through tariffs, and its negative impacts could escalate in future periods. Even if inflation stabilizes or abates, the prices of key
+production inputs, wages and other costs of labor, equipment, services and other business expenses, and for our capital projects, will
+likely remain at elevated levels. We may not be able to include these additional costs in the prices of the products we sell. As a result,
+inflation and sustained higher prices may have a material adverse effect on our results of operations and financial condition. - 18 - Climate change, and governmental regulations aimed
+at addressing climate-related issues, may affect conditions to which our business is highly sensitive, many of which could materially
+and adversely harm our business, results of operations and financial condition. Our business is highly sensitive to commodity
+prices, in particular, the prices of corn and natural gas. Inclement weather from climate change, including extreme temperatures or drought,
+may adversely affect growing conditions, which may reduce available corn supplies, our primary production input, and other grain substitutes,
+driving up prices and thereby increasing our production input costs. In addition, governmental regulators may disfavor carbon-based energy
+sources, such as natural gas, leading to regulations that disincentivize their use or otherwise make their production more difficult
+and costly, driving up their prices. Higher natural gas prices would likewise increase our production input costs. Other factors that may result from climate change,
+or that may result from governmental regulations aimed at addressing climate-related issues, may also adversely affect our business,
+including the following: ● water is one of our
+                                            key production inputs; water resource limitations may result from drought and other inclement
+                                            weather; water resource limitations may also result from rationing and other governmental
+                                            regulations limiting water use; ● higher water temperatures
+                                            due to increased global or regional temperatures may negatively affect production efficiencies
+                                            due to water temperature production requirements given the limited cooling capacities of
+                                            our older facilities; ● flooding and other
+                                            inclement weather may negatively affect our river access, other transportation logistics
+                                            and costs, and storage requirements; ● an overall increase
+                                            in energy costs will negatively impact our production costs generally and may critically
+                                            impact certain high energy-intensive production technologies, such as our wet milling and
+                                            multiple distillation processes for the highest quality specialty alcohols; ● regulatory and market
+                                            transition away from combustion fuels and fuel-grade ethanol blending may threaten the viability
+                                            of our renewable fuels business; and ● costs and regulatory
+                                            burdens associated with governmental regulations that limit or tax greenhouse gas emissions,
+                                            such as CO 2 , from alcohol production and distribution, will negatively impact
+                                            us. New legislation in the United States to address
+climate change issues, especially at the state and local levels, may be passed and implemented, materially and adversely impacting our
+business. Any of these factors could materially and adversely
+harm our business, results of operations and financial condition. - 19 - Risks Related to our Finances We have incurred significant losses and negative
+operating cash flow in the past and we may incur losses and negative operating cash flow in the future, which may hamper our operations
+and impede us from expanding our business. We have incurred significant losses and negative
+operating cash flow in the past. For example, for the years ended December 31, 2024 and 2023, we incurred consolidated net losses of
+approximately $59.0 million and $28.0 million, respectively. For the year ended December 31, 2024, we incurred negative operating cash
+flow of $3.5 million. We may incur losses and negative operating cash flow in the future. We expect to rely on cash on hand, cash, if
+any, generated from our operations, borrowing availability under our lines of credit and proceeds from our future financing activities,
+if any, to fund all of the cash requirements of our business. Additional losses and negative operating cash flow may hamper our operations
+and impede us from expanding our business. We are engaged in multiple capital improvement initiatives
+and projects. These initiatives and projects, and their financing, costs, timing and effects, are based on our plans, expectations and
+various assumptions that may not eventuate. We may therefore be unable to timely achieve, or achieve at all, the results we expect. We
+are engaged in multiple capital improvement initiatives and projects to diversify and enhance our revenue streams and to expand margins
+and profitability by reducing costs. These initiatives and projects have different timelines, returns on investment and risk profiles,
+including regulatory risks. In addition, we may have to raise significant additional capital to complete some of our initiatives and
+projects. Our expected financial and other results from these initiatives and projects are based on assumptions around many factors,
+including their costs, timing, operation and market prices prevailing at project completion and thereafter, as well as tax and other
+favorable environmental attributes associated with low carbon alcohol that may accrue to our benefit. These tax and other benefits may
+change, including as a result of new or repealed laws, new administrations and the implementation or interpretation of existing laws,
+or the exhaustion of funds or benefits available under a particular program. For example, in January 2025, the new administration suspended
+all Inflation Reduction Act spending for 90 days. In addition, certain provisions of the Inflation Reduction Act lack proposed or final
+regulations and guidance. Regulators could issue new regulations or guidance that significantly narrows the application of clean energy
+tax incentives, and could even defer or withdraw regulations, which could materially and adversely affect the economic outcome of our
+capital improvement initiatives and projects. We can provide no assurances that any particular benefit will be available to us upon completion
+of any capital improvement initiative or project. - 20 - We may have insufficient financial resources,
+and we may be unable to raise sufficient capital, to complete our projects timely or at all. Although we intend to use reputable third-party
+contractors with expertise in their fields to implement our projects, adverse conditions and events as well as delays in capital projects
+are not uncommon. Moreover, the projects’ interaction with existing processes may result in the degradation of other plant operations.
+For example, operation of our corn oil and high protein system at our Magic Valley facility previously resulted in inconsistent product
+quality and degraded other operations at the plant, including production rates. In the past, we have extended our expected completion
+dates for various projects and, as circumstances require, may have to do so again. We can provide no assurances that our projects
+will be completed, or if completed, will be completed timely or within budget. We also can provide no assurances that our project assumptions
+will reflect prevailing future conditions or that our projects will achieve the results we expect. Failure to achieve our expected results
+may have a material adverse effect on our business, financial condition and results of operations. We regularly incur significant expenses to repair,
+maintain and upgrade our production facilities and operating equipment, and any interruption in our operations would harm our operating
+performance. We regularly incur significant expenses to repair,
+maintain and upgrade our production facilities and operating equipment, estimated at an average of $30.0 million per year. For the years
+ended December 31, 2025, 2024 and 2023, we incurred $30.1 million, $34.6 million and $29.5 million, respectively. The machines and equipment
+we use to produce our alcohols and essential ingredients are complex, have many parts, and some operate on a continuous basis. We must
+perform routine equipment maintenance and must periodically replace a variety of parts such as motors, pumps, pipes and electrical parts,
+and engage in other repairs. In addition, our production facilities require periodic shutdowns to perform major maintenance and upgrades.
+Our production facilities also occasionally require unscheduled shutdowns to perform repairs. For example, we completed our biennial
+wet mill outage at our Pekin Campus in Spring 2024. The wet mill was offline for ten days, which negatively impacted sales and margins
+for the second quarter. In the first quarter of 2024, production at our Columbia facility was hampered by equipment issues that extended
+the facility’s regularly scheduled outage. In the third quarter of 2023 we experienced unusually high unscheduled production downtime
+for repairs and maintenance at our Pekin Campus which reduced sales volumes and increased losses. These scheduled and unscheduled shutdowns
+result in lower sales and increased costs in the periods during which a shutdown occurs and could result in unexpected operational issues
+in future periods resulting from changes to equipment and operational and mechanical processes made during shutdown. We may be unable to qualify for and receive anticipated
+Section 45Z tax credit benefits available to low carbon fuel producers. Section 45Z of the Inflation Reduction Act of
+2022 provides a technology-neutral tax credit for the production of “clean fuel” that is produced in the United States and
+sold to an unrelated person during calendar years 2025 through 2029, with the amount of the credit determined in part by the fuel’s
+carbon intensity relative to a statutory baseline. We currently expect our Columbia plant and our Pekin Campus dry mill to be eligible
+to apply for and claim Section 45Z tax credits with respect to qualifying fuel they produce and sell. Our ability to qualify for and
+receive these tax credits will depend on, among other things, our ability to produce qualifying low carbon fuel in anticipated volumes,
+to achieve and document the carbon intensity levels required under Section 45Z and applicable Treasury and IRS guidance, and to comply
+with related registration, measurement, reporting and substantiation requirements. If we are unable to produce low carbon fuel in anticipated
+amounts (including as a result of plant outages or other operational issues), if our fuels do not achieve the required or expected carbon
+intensities under the applicable carbon intensity methodology, or if we fail to satisfy applicable tax, regulatory, or documentation
+requirements, we may be unable to qualify for and receive Section 45Z tax credits in the amounts we currently anticipate, or at all,
+which could materially and adversely affect our results of operations and financial condition. In addition, Section 45Z is scheduled
+to be available only for qualifying fuel produced and sold from January 1, 2025 through December 31, 2029, and there can be no assurance
+that Congress will extend or replace this credit. - 21 - Our indebtedness may expose us to risks that could
+negatively impact our business, prospects, liquidity, cash flows and results of operations. We have incurred substantial indebtedness for our capital improvement projects. We expect that these projects, when completed, will generate financial
+returns sufficient to service and ultimately repay or refinance our indebtedness. However, the costs, timing, and effects of our capital
+improvement projects may not meet our projections. In addition, our indebtedness could: ● require a substantial
+                                            portion of our cash flows from operations for debt service payments, thereby reducing the
+                                            availability of our cash flows to fund working capital, additional capital expenditures,
+                                            acquisitions, dividend payments and for other general corporate purposes; make it more difficult
+                                            to repay or refinance our indebtedness if it becomes due during adverse economic and industry
+                                            conditions; ● limit our flexibility
+                                            to pursue strategic opportunities or react to changes in our business and the industries
+                                            in which we operate and, consequently, place us at a competitive disadvantage to our competitors
+                                            who have less debt; ● limit our ability to
+                                            procure additional financing for working capital or other purposes; or ● result in adverse consequences
+                                            due to a breach of our financial or other covenants and obligations in favor of our lenders. Our ability to generate operating results and
+sufficient cash to make all required principal and interest payments when due, and to satisfy our financial covenants and other obligations,
+depends on our performance, which is subject to a variety of factors beyond our control, including the cost of key production inputs,
+the supply of and demand for alcohols and essential ingredients, and many other factors related to the industries in which we operate.
+We cannot provide any assurance that we will be able to timely service or satisfy our debt obligations, including our financial covenants.
+Our failure to timely service or satisfy our debt obligations, including to meet our financial covenants, could result in our indebtedness
+being immediately due and payable, and would have a material adverse effect on our business, business prospects, liquidity, financial
+condition, cash flows and results of operations. Our ability to utilize net operating loss carryforwards
+and certain other tax attributes may be limited. Federal and state income tax laws impose restrictions
+on our ability to use net operating loss, or NOL, and tax credit carryforwards if an “ownership change” occurs for tax purposes,
+as defined in Section 382 of the Internal Revenue Code, or Code. In general, an ownership change occurs when one or more stockholders
+each owning 5% or more of a corporation entitled to use NOL or other loss carryforwards have increased their ownership by more than 50
+percentage points during any three-year period. The annual base limitation under section 382 of the Code is calculated by multiplying
+the corporation’s value at the time of the ownership change by the greater of the long-term tax-exempt rate determined by the Internal
+Revenue Service in the month of the ownership change or the two preceding months. As a result, our ability to utilize our NOL and other
+loss carryforwards may be substantially limited. Any such limitation could result in increased future tax obligations, which could have
+a material adverse effect on our financial condition and results of operations. - 22 - Risks Related to Legal and Regulatory Matters We may be adversely affected by environmental, health
+and safety laws and regulations, as well as related liabilities that may not be adequately covered by insurance . We are subject to various federal, state and local
+environmental laws and regulations, including those relating to the discharge of materials into the air, water and ground; the generation,
+storage, handling, use, transportation and disposal of hazardous materials and wastes; and the health and safety of our employees. In
+addition, some of these laws and regulations require us to operate under permits that are subject to renewal or modification. These laws,
+regulations and permits often require expensive pollution control equipment or operational changes to limit actual or potential impacts
+to the environment. Any violation of these laws and regulations or permit conditions may result in substantial fines, natural resource
+damages, criminal sanctions, permit revocations and/or production facility shutdowns. In addition, we have made, and expect to make, significant
+capital expenditures on an ongoing basis to comply with increasingly stringent environmental laws, regulations and permits. We may be liable for the
+investigation and cleanup of environmental contamination at each of our production facilities and at off-site locations where we
+arrange for the disposal of hazardous substances or wastes. If these substances or wastes have been or are disposed of or released
+at sites that undergo investigation and/or remediation by regulatory agencies, we may be responsible under the Comprehensive
+Environmental Response, Compensation and Liability Act of 1980, or other environmental laws for all or part of the costs of
+investigation and/or remediation, and for damages to natural resources. For example, our Pekin Campus used coal as its primary
+source of fuel for steam production until 2016. We managed associated waste in part through a coal ash pond, an engineered
+impoundment site used to store waste byproducts. We operated the pond under an Illinois state operating permit that included a
+special condition that any ash impoundments either be capped and closed in accordance with an Illinois EPA-approved closure plan or
+removed. Although we continue to operate pumps and maintain protocols under operating permit conditions, our permit has expired, has
+not been renewed and we are in discussions with the Illinois EPA regarding a closure plan or other remediation. The Illinois EPA
+previously denied our closure plan for a beneficial re-use that would have utilized the ash as a structural fill. Although we
+continue to pursue a closure plan that would involve beneficial re-use, including potential uses such as grain storage,
+cogeneration, CO 2 utilization, a hydrogen facility or other beneficial use, including third-party redevelopment, and that
+may offset all or a significant portion of any cleanup costs, we can provide no assurance that the Illinois EPA will allow any
+beneficial re-use and nor can we provide any assurance that the Illinois EPA will not mandate site cleanup, the costs of which,
+while not estimable at this time, could be substantial and could have a material adverse effect on our business, financial condition
+and results of operations. We may also be subject to related claims by private parties alleging property damage and personal injury due to exposure to
+hazardous or other materials at or from those properties. Some of these matters may require us to expend significant amounts for
+investigation, cleanup or other costs not covered by insurance. In addition, new laws, new interpretations of existing
+laws, increased governmental enforcement of environmental laws or other developments could require us to make significant additional expenditures.
+Continued government and public emphasis on environmental issues will likely result in increased future investments for environmental
+controls at our production facilities. Present and future environmental laws and regulations, and interpretations of those laws and regulations,
+applicable to our operations, more vigorous enforcement policies and discovery of currently unknown conditions may require substantial
+expenditures that could have a material adverse effect on our results of operations and financial condition. The hazards and risks associated
+with producing and transporting our products (including fires, natural disasters, explosions and abnormal pressures and blowouts) may
+also result in personal injury claims or damage to property and third parties. As protection against operating hazards, we maintain insurance
+coverage against some, but not all, potential losses. However, we could sustain losses for uninsurable or uninsured risks, or in amounts
+in excess of existing insurance coverages. Events that result in significant personal injury or damage to our property or third parties
+or other losses that are not fully covered by insurance could have a material adverse effect on our results of operations and financial
+condition. - 23 - We may be adversely affected by food and drug laws
+and regulations, as well as related liabilities that may not be adequately covered by insurance. Some of our products are subject to regulation
+by the U.S. Food and Drug Administration, or FDA, as well as similar state agencies. The FDA regulates, under the Federal Food, Drug,
+and Cosmetic Act, or FDCA, the processing, formulation, safety, manufacture, packaging, labeling and distribution of food ingredients,
+vitamins, cosmetics and pharmaceuticals for active and inactive ingredients. Many of the FDA’s and FDCA’s rules and regulations
+apply directly to us as well as indirectly through their application in our customers’ products. To be properly marketed and sold
+in the United States, a relevant product must be generally recognized as safe, approved and not adulterated or misbranded under the FDCA
+and relevant regulations issued under the FDCA. If we fail to comply with laws and FDA regulations
+or those of similar state agencies, we may be prevented from selling certain of our products and may also be subject to government agency
+enforcement liability. In addition, we may be subject to product liability and other claims by our customers or by individuals alleging
+personal injury from our products as food and drug additives. We maintain insurance coverage against some, but
+not all, potential losses. Some of these matters, if they arise, may require us to expend significant amounts for investigation and defense
+or other costs not covered by insurance. We could sustain losses for uninsurable or uninsured risks, or in amounts in excess of existing
+insurance coverages. Events that result in significant personal injury or other losses that are not fully covered by insurance could have
+a material adverse effect on our results of operations and financial condition. The United States fuel-grade ethanol industry is highly
+dependent upon various federal and state laws and regulations and any changes in or reinterpretations of those laws or regulations could
+have a material adverse effect on our results of operations, cash flows and financial condition. The domestic market for fuel-grade ethanol is significantly
+impacted by federal mandates for volumes of renewable fuels (such as ethanol) required to be blended with gasoline. Future demand for
+fuel-grade ethanol will largely depend on incentives to blend ethanol into motor fuels, including the price of ethanol relative to the
+price of gasoline, the relative octane value of ethanol, constraints on the ability of vehicles to use higher ethanol blends, and the
+EPA’s established volumes from time to time, small refinery waivers, and other applicable environmental requirements. - 24 - The EPA has implemented the Renewable Fuel Standard
+under the Energy Policy Act of 2005 and the Energy Independence and Security Act of 2007. The EPA, in coordination with the Secretary
+of Energy and the Secretary of Agriculture, determines annual quotas for the quantity of renewable fuels (such as fuel-grade ethanol)
+that must be blended into motor fuels consumed in the United States. The EPA finalized mandatory volumes of 15 billion gallons for each
+of 2025, 2024 and 2023 of conventional renewable fuels, or corn-based fuel-grade ethanol, and has proposed mandatory volumes of 15 billion
+gallons for each of 2026 and 2027, which could decline for those or other future years. The EPA may grant small refinery exemptions, in
+whole or in part, that reduce or eliminate annual RFS volume obligations for small refineries, which are defined as refineries with an
+average aggregate daily crude oil throughput not exceeding 75,000 barrels. If granted, these exemptions can remove the affected refinery’s
+gasoline and diesel from applicable RFS percentage standards for the relevant compliance year. In the past, the EPA has granted small
+refinery exemptions that have materially and adversely affected overall demand for and the price of fuel-grade ethanol. The U.S. Court
+of Appeals for the Fifth Circuit, in November 2023, struck down the EPA’s decision to deny numerous small refinery exemption petitions,
+holding that the EPA’s denials were impermissibly retroactive, contrary to law and counter to evidence in the litigation record.
+In light of that decision and recent EPA actions granting full or partial exemptions to a substantial number of petitions, small refinery
+exemptions may continue to be granted at elevated levels, which could materially and adversely affect overall demand for, and the price
+of, fuel-grade ethanol. Various bills in Congress introduced from time
+to time are also directed at altering existing renewable fuels energy legislation, but none have passed in recent years. Some legislative
+bills are directed at halting or reversing expansion of, or even eliminating in its entirety, the renewable fuel program. Our results of operations, cash flows and financial
+condition could be adversely impacted if the EPA reduces mandatory volumes or issues significant small refinery waivers, or if any legislation
+is enacted that reduces volume requirements or if existing legislation is reinterpreted to have the same effect. Future demand for fuel-grade ethanol is uncertain
+and may be affected by changes to federal mandates, public perception, consumer acceptance and overall consumer demand for transportation
+fuel, any of which could negatively affect demand for fuel-grade ethanol and our results of operations. Although many trade groups, academics and governmental
+agencies support ethanol as a fuel additive that promotes a cleaner environment, others criticize fuel-grade ethanol production and use
+as consuming considerably more energy and emitting more greenhouse gases than other biofuels and potentially depleting water resources.
+Some studies suggest that corn-based ethanol is less efficient than ethanol produced from other feedstock and that it negatively impacts
+consumers by causing increased prices for dairy, meat and other food generated from livestock that consume corn. Additionally, critics
+of fuel-grade ethanol contend that corn supplies are redirected from international food markets to domestic fuel markets. If negative
+views of corn-based ethanol production gain broader acceptance, support for existing measures promoting use and domestic production of
+corn-based ethanol as a fuel additive could decline, leading to a reduction or repeal of federal ethanol usage mandates, which would materially
+and adversely affect the demand for fuel-grade ethanol. These views could also negatively impact public perception of the fuel-grade ethanol
+industry and acceptance of ethanol as an alternative fuel. - 25 - There are limited markets for fuel-grade ethanol
+beyond those established by federal mandates. Discretionary blending and E85 blending (i.e., gasoline blended with up to 85% fuel-grade
+ethanol by volume) are important secondary markets. Discretionary blending is often determined by the price of fuel-grade ethanol relative
+to the price of gasoline. In periods when discretionary blending is financially unattractive, the demand for fuel-grade ethanol may decline.
+Also, the demand for fuel-grade ethanol is affected by the overall demand for transportation fuel. Demand for transportation fuel is affected
+by the number of miles traveled by consumers and vehicle fuel economy. Lower demand for fuel-grade ethanol and essential ingredients,
+including through the transition by consumers to alternative fuel vehicles such as electric vehicles and hybrid vehicles, would reduce
+the value of our ethanol and related products, erode our overall margins and diminish our ability to generate revenue or to operate profitably.
+In addition, we believe that additional consumer acceptance of E15 and E85 fuels is necessary before fuel-grade ethanol can achieve any
+significant growth in market share relative to other transportation fuels. The United States Supreme Court’s decision in
+the case of Loper Bright Enterprises v. Raimondo may result in less industry-favorable rulemaking and agency interpretations of laws and
+regulations, which could materially and adversely affect our results of operations, cash flows and financial condition as well as the
+business and financial prospects of certain capital improvement projects. In June 2024, the United States Supreme Court, in Loper Bright Enterprises
+v. Raimondo, overruled its prior Chevron doctrine, which had required courts to defer to reasonable administrative interpretations of
+ambiguous federal statutes. This outcome could increase litigation risk and uncertainty around rulemaking and agency interpretations that
+are favorable to the renewable fuels industry, such as the EPA’s administration of the RFS. It could also materially and adversely
+affect the Treasury Department’s ability to promulgate and sustain favorable regulations under the Inflation Reduction Act of 2022,
+including regulations implementing tax credits such as the Section 45Z clean fuel production tax credit, as well as other industry-favorable
+tax credits. Less industry-favorable rulemaking and agency interpretations of laws and regulations could materially and adversely affect
+our results of operations, cash flows, and financial condition, as well as the financial prospects of certain capital improvement projects. Risks Related to Ownership of our Common Stock Our stock price is highly volatile,
+which could result in substantial losses for investors purchasing shares of our common stock and in litigation against us. The market price of our common stock has fluctuated
+significantly in the past and may continue to fluctuate significantly in the future. The market price of our common stock may continue
+to fluctuate in response to one or more of the following factors, or any of the other risks or uncertainties discussed in this report,
+many of which are beyond our control: ● fluctuations in our quarterly or annual operating results; ● fluctuations in the market prices of our products; ● fluctuations in the costs of key production input commodities such as corn and natural gas; ● the timing, cost and
+                                            effects of, and our ability to fund, our capital improvement projects; ● regulatory developments
+                                            or increased enforcement relating to our initiatives and projects or to our business; - 26 - ● our ability to qualify for and receive Section 45Z tax credits under the Inflation Reduction Act of 2022 for low carbon fuel, including
+in the anticipated amounts and at the expected times; ● anticipated trends in our financial condition and results of operations; ● our ability to obtain any necessary financing; ● the volume and timing of the receipt of orders for our products from major customers, including annual contracted sales volumes for
+our specialty alcohols; ● competitive pricing pressures; ● changes in market valuations of companies similar to us; ● stock market price and volume fluctuations generally; ● additions or departures of key personnel; ● environmental, product or other liabilities we may incur; ● our financing activities and future sales of our common stock or other securities; and ● our ability to maintain contracts that are critical to our operations. The price at which you purchase shares of our common
+stock may not be indicative of the price that will prevail in the trading market. You may be unable to sell your shares of common stock
+at or above your purchase price, which may result in substantial losses to you and which may include the complete loss of your investment.
+In the past, securities class action litigation has often been brought against a company following periods of high stock price volatility.
+We may be the target of similar litigation in the future. Securities litigation could result in substantial costs and divert management’s
+attention and our resources away from our business. Any of the risks described above could have a material
+adverse effect on our results of operations, the price of our common stock, or both. Because we do not plan to pay any
+cash dividends on our shares of common stock, our stockholders will not be able to receive a return on their shares unless and until they
+sell them. We intend to retain a significant portion of any
+future earnings to finance the development, operation and expansion of our business. We do not anticipate paying any cash dividends on
+our common stock in the near future. The declaration, payment, and amount of any future dividends will be made at the discretion of our
+board of directors, and will depend upon, among other things, our results of operations, cash flows, and financial condition, operating
+and capital requirements, compliance with any applicable debt covenants, and other factors our board of directors considers relevant.
+There is no assurance that future dividends will be paid, and, if dividends are paid, there is no assurance of the amount of any such
+dividend. Unless our board of directors determines to pay dividends, our stockholders will be required to look solely to appreciation
+in the value of our common stock to realize any gain on their investment. There can be no assurance that any such appreciation will occur. - 27 - Our bylaws contain exclusive forum provisions that
+could limit our stockholders’ ability to obtain a favorable judicial forum for disputes with us or our directors, officers, employees
+or agents. Our bylaws provide that, unless we consent in writing
+to the selection of an alternative forum, the Delaware Court of Chancery shall be the sole and exclusive forum for (a) any derivative
+action or proceeding brought on our behalf, (b) any action asserting a claim of breach of a fiduciary duty owed by any director, officer
+or other employee of us to us or our stockholders, (c) any action asserting a claim arising pursuant to any provision of the Delaware
+General Corporation Law, or (d) any action asserting a claim governed by the internal affairs doctrine. Our bylaws also provide that, unless we consent
+in writing to the selection of an alternative forum, to the fullest extent permitted by applicable law, the federal district courts of
+the United States of America shall be the exclusive forum for the resolution of any complaint asserting a cause of action arising under
+the Securities Act of 1933, as amended, or the Securities Act, including all causes of action asserted against any defendant named in
+such complaint, including our officers and directors, underwriters for any offering giving rise to such complaint, and any other professional
+entity whose profession gives authority to a statement made by that person or entity and who has prepared or certified any part of the
+documents underlying the offering. For the avoidance of doubt, the exclusive forum
+provisions described above do not apply to any claims arising under the Securities Act or the Securities Exchange Act of 1934, as amended,
+or the Exchange Act, to the extent federal law requires otherwise. Section 27 of the Exchange Act creates exclusive federal jurisdiction
+over all suits brought to enforce any duty or liability created by the Exchange Act or the rules and regulations thereunder, and Section
+22 of the Securities Act creates concurrent jurisdiction for federal and state courts over all suits brought to enforce any duty or liability
+created by the Securities Act or the rules and regulations thereunder. The choice of forum provisions in our bylaws may
+limit our stockholders’ ability to bring a claim in a judicial forum that they find favorable for disputes with us or our directors,
+officers, employees, agents or other third parties, which may discourage such lawsuits against us and our directors, officers, employees,
+agents and other third parties even though an action, if successful, might benefit our stockholders. The applicable courts may also reach
+different judgments or results than would other courts, including courts where a stockholder considering an action may be located or would
+otherwise choose to bring the action, and such judgments or results may be more favorable to us than to our stockholders. With respect
+to the provision making the Delaware Court of Chancery the sole and exclusive forum for certain types of actions, stockholders who do
+bring a claim in the Delaware Court of Chancery could face additional litigation costs in pursuing any such claim, particularly if they
+do not reside in or near Delaware. Finally, if a court were to find these provisions of our bylaws inapplicable to, or unenforceable in
+respect of, one or more of the specified types of actions or proceedings, we may incur additional costs associated with resolving such
+matters in other jurisdictions, which could have a material adverse effect on us. General
+
+--- MANUFACTURING ---
+[NOT FOUND]
+
+--- RAW_MATERIALS ---
+raw materials for our essential ingredients
+are generated as co-products from our production of alcohols. These co-products are further manufactured, altered and refined into our
+essential ingredients, including for special customer applications. Many of our essential ingredients are used in
+a variety of food products to affect their nutrition, including protein and fat content, as well as other product attributes such as
+taste, texture, palatability and stability. Our high quality and high purity manufacturing enables our customers to use some of our essential
+ingredients in human foods while others are used solely in pet foods and animal feed. We expect the essential ingredients market to
+grow significantly due to global demand for higher-grade protein feed, such as feed used in fisheries and other applications for plant-based
+proteins. Renewable Fuels Our renewable fuels products include fuel-grade
+ethanol primarily used as a transportation fuel additive and distillers corn oil used as a renewable diesel and biodiesel feedstock.
+Our renewable fuels business is supported by our own production of fuel-grade ethanol as well as fuel-grade ethanol produced by third
+parties. Our renewable fuel products also include ISCC fuel-grade ethanol for export to Europe. Renewable fuels, primarily fuel-grade ethanol,
+are used for a variety of purposes, including as octane enhancers for premium gasoline and to enable refiners to produce greater quantities
+of lower octane blend stock; for fuel blending to extend fuel supplies and reduce reliance on crude oil and refined products; and to
+comply with a variety of governmental programs, in particular, the national Renewable Fuel Standard, or RFS, enacted to promote alternatives
+to fossil fuels. Under the RFS, the mandated use of all renewable fuels rose incrementally and peaked at 36.0 billion gallons in 2022,
+of which production of 15.0 billion gallons was required from conventional, or corn-based, ethanol. The RFS allows the Environmental
+Protection Agency, or EPA, to adjust the annual requirement based on certain facts and circumstances. The EPA set its annual requirement
+for conventional ethanol to 15.0 billion gallons for 2025. The EPA has proposed annual requirements for conventional ethanol of 15.0
+billion gallons for each of 2026 and 2027. See “—Governmental Regulation.” According to the Renewable Fuels Association,
+the domestic fuel-grade ethanol industry produced approximately 16.4 billion gallons of ethanol in 2025, up from approximately 16.1 billion
+gallons of ethanol in 2024. According to the United States Department of Energy, total annual gasoline consumption in the United States
+is approximately 137 billion gallons and total annual fuel-grade ethanol blended with gasoline represented approximately 10.5% of this
+amount in 2025. We anticipate that continued limited opportunities for gasoline refinery expansions and the growing importance of reducing
+CO 2 emissions using renewable fuels will generate additional growth in the demand for fuel-grade ethanol. - 6 - Overview of Alcohol Production Process Alcohol production from starch- or sugar-based
+feedstock is a highly efficient process. Modern alcohol production requires large amounts of corn, or other high-starch grains, and water
+as well as chemicals, enzymes and yeast, in addition to natural gas and electricity. Dry Milling Process In the dry milling process, corn or other high-starch
+grain is first ground into flour, then slurried with water to form a mash. Enzymes are added to the mash to convert the starch into dextrose,
+a simple sugar. The mash is processed through a high temperature cooking procedure, which reduces bacteria levels prior to fermentation.
+The mash is then cooled and transferred to fermenters, where yeast is added and the conversion of sugar to alcohol and CO 2 begins. After fermentation, the resulting “beer”
+is transferred to distillation where the alcohol is separated from the residual “stillage.” The resulting alcohol is concentrated
+to 190 proof using conventional distillation methods. It can then be dehydrated to approximately 200 proof, representing 100% alcohol
+levels, in either a molecular sieve system or a grits system. For fuel-grade ethanol, the resulting anhydrous alcohol is then blended
+with up to 2.5% denaturant, usually gasoline, and then shipped to renewable fuels markets. For specialty alcohols, the products can be
+sold pure or as one of the Alcohol and Tobacco Tax and Trade Bureau (TTB) approved specially denatured alcohol (SDA) formulations to
+meet customer specifications. The residual stillage is separated into a coarse
+grain portion and a liquid portion through a screw press or centrifugation process. The soluble liquid portion is concentrated to about
+40% dissolved solids by an evaporation process. This intermediate state is called condensed distillers solubles, or syrup. The coarse
+grain and syrup portions are then mixed to produce wet distillers grains with solubles, or WDGS, or can be mixed and dried to produce
+dried distillers grains with solubles, or DDGS. Both WDGS and DDGS are high-protein animal feed products. Wet Milling Process In the wet milling process, corn or other high-starch
+grain is first soaked or “steeped” in sulfurous acid for approximately 24 hours to soften the whole corn kernel prior to
+milling. After steeping, the grain is coarse milled to gently open the kernels to separate the corn germ and from which corn oil is further
+extracted in a separate process. The remaining fiber, protein and starch components are further separated and sold. The stillage from the fermentation process is
+concentrated in an evaporator and is co-dried with the fiber component and sold as corn protein feed. The protein component is separated
+from the starch, filtered and dried to produce corn protein meal, a product with greater than 60% protein content. The starch component
+is processed into alcohol through fermentation. The fermentation process for alcohol at this stage is similar to the dry milling process.
+In addition, we separate and dry yeast to produce distillers yeast. - 7 - Overview of Distillers Grains Market Distillers grains are produced as a co-product
+of alcohol production and are valuable components of feed rations primarily to dairies and beef cattle markets, both nationally and internationally.
+Our facilities produce both WDGS and DDGS. WDGS is sold to customers proximate to the facilities and DDGS is delivered by truck, rail
+and barge to customers in domestic and international markets. Producing WDGS uses up to one-third less process energy, thus reducing
+production costs and lowering the carbon footprint of our Western production facilities. Historically, the market price for distillers
+grains has generally tracked the price of corn. We believe that the market price of WDGS and DDGS is determined by a number of factors,
+including the market prices of corn, soybean meal and other competitive ingredients, the performance or value of WDGS and DDGS in a particular
+feed formulation and general market forces of supply and demand, including export markets for these essential ingredients. The market
+price of distillers grains is also often influenced by nutritional models that calculate the feed value of distillers grains by nutritional
+content, as well as reliability of consistent supply. Customers Our Kinergy Marketing LLC, or Kinergy, subsidiary
+sells all of our produced alcohols and also markets fuel-grade ethanol produced by third parties. Our Alto Nutrients, LLC subsidiary
+sells all of the essential ingredients we produce. Our Alto Carbonic, LLC subsidiary sells all of the liquid CO 2 we produce
+and our Eagle Alcohol business sells our alcohols and third-party alcohols in break bulk quantities to customers in the beverage, food,
+industrial and related-process industries. We have extensive and long-standing customer relationships,
+both domestic and international, for our specialty alcohols and essential ingredients, including yeast for pet food and human foods.
+These customers include producers and distributors of ingredients for cosmetics, sanitizers and related products, distilled spirits producers,
+food products manufacturers, producers of personal health/consumer health and personal care hygiene products, and global trading firms. Our renewable fuel customers are located throughout
+the Western and Midwestern United States and consist of integrated oil companies and gasoline marketers who blend fuel-grade ethanol
+into gasoline. Our customers depend on us to provide a reliable supply of fuel-grade ethanol and manage the logistics and timing of delivery.
+We secure additional fuel-grade ethanol supplies from third-party fuel-grade ethanol plants. We market our essential ingredient feed products
+to dairies and feedlots, in many cases located near our production facilities. These customers use our feed products for livestock as
+a substitute for corn and other sources of starch and protein. We sell our corn oil to poultry, renewable diesel and biodiesel customers. Our Pekin Campus production segment generated
+$416 million, $416 million and $502 million in net sales for the years ended December 31, 2025, 2024 and 2023, respectively, from the
+sale of alcohols. Our Pekin Campus production segment generated $175 million, $169 million and $218 million in net sales for the years
+ended December 31, 2025, 2024 and 2023, respectively, from the sale of essential ingredients. During 2025, 2024 and 2023, our Pekin Campus production
+segment sold an aggregate of approximately 208 million, 214 million and 209 million gallons of alcohols and 919,600, 906,300 and 878,400
+tons of essential ingredients, respectively. Our Western production segment generated $67 million,
+$115 million and $167 million in net sales for the years ended December 31, 2025, 2024 and 2023, respectively, from the sale of alcohols.
+Our Western production segment generated $32 million, $37 million and $57 million in net sales for the years ended December 31, 2025,
+2024 and 2023, respectively, from the sale of essential ingredients. - 8 - During 2025, 2024 and 2023, our Western production
+segment sold an aggregate of approximately 33 million, 61 million and 67 million gallons of alcohols and 299,600, 514,600 and 642,300
+tons of essential ingredients, respectively. Our marketing and distribution segment generated
+$221 million, $217 million and $263 million in net sales for the years ended December 31, 2025, 2024 and 2023, respectively, from the
+sale of our own alcohols and third-party produced alcohols. Our Corporate and other segment, which includes
+Eagle Alcohol’s business, generated $7 million, $11 million and $16 million in net sales for the years ended December 31, 2025,
+2024 and 2023, respectively, and sold 2.2 million, 3.6 million and 4.0 million gallons of alcohols, respectively, for those years. During 2025, 2024 and 2023, we produced or purchased
+from third parties and resold an aggregate of 350 million, 386 million and 383 million gallons of alcohols to approximately 82, 85 and
+88 customers, respectively. For 2025, 2024 and 2023, sales to our largest customer, Chevron Products USA represented an aggregate of
+approximately 9%, 11% and 9% of our net sales, respectively. For 2025, 2024 and 2023, sales to each of our other customers represented
+less than 10% of our net sales. Suppliers Pekin Campus and Western Production Segments Our production operations depend upon various
+raw materials suppliers, including suppliers of corn, natural gas, electricity and water. The cost of corn, including delivery costs,
+is the most important variable cost associated with our alcohol production. We source corn for our plants using standard contracts, including
+spot purchase, forward purchase and basis contracts. When resources are available, we seek to limit the exposure of our production operations
+to raw material price fluctuations by purchasing forward a portion of our corn requirements on a fixed price basis and by purchasing
+corn and other raw materials futures contracts and options. During 2025, 2024 and 2023, purchases of corn
+from our two largest suppliers represented an aggregate of approximately 28%, 29% and 26% of our total corn purchases, respectively,
+for those periods. Purchases from each of our other corn suppliers represented less than 10% of total corn purchases in each of 2025,
+2024 and 2023. Marketing and Distribution Segment Our marketing and distribution operations include
+alcohols and essential ingredients we produce but also depend upon various third-party producers of fuel-grade ethanol. In addition,
+we provide transportation, storage and delivery services through third-party service providers with whom we have contracted to receive
+fuel-grade ethanol at agreed upon locations from our third-party suppliers and to store and/or deliver the ethanol to agreed-upon locations
+on behalf of our customers. These contracts generally run from year-to-year, subject to termination by either party upon advance written
+notice before the end of the then-current annual term. During 2025, 2024 and 2023, we purchased and resold
+from third parties an aggregate of approximately 107 million, 108 million and 103 million gallons, respectively, of fuel-grade ethanol. During 2025, 2024 and 2023, purchases of fuel-grade
+ethanol from our three largest third-party suppliers represented 74%, 79% and 86%, respectively, of our total third-party ethanol purchases
+for each of those periods. Purchases from each of our other third-party ethanol suppliers represented less than 10% of total third-party
+ethanol purchases in each of 2025, 2024 and 2023. - 9 - Production Facilities We operate five alcohol production facilities.
+Three of our production facilities are located in Illinois, one is located in Oregon, and another is located in Idaho. We have an annual
+alcohol production capacity of up to 330 million gallons, including both fuel-grade ethanol and specialty alcohols ranging from industrial-,
+pharmaceutical-, and high-quality food- and beverage-grade alcohols. Of this amount, we are able to produce up to 110 million gallons
+annually of specialty alcohols, depending on our product mix among high-quality beverage-grade alcohol and other quality specification
+alcohols. We also own and operate a liquid CO 2 production facility adjacent to our plant in Oregon for the offtake of CO 2 gas from the plant for conversion to liquid CO 2 and subsequent sale. The tables below provide an overview of our five
+alcohol production facilities and our liquid CO 2 production facility. As market conditions change, we may increase, decrease
+or idle production at one or more operating facilities or resume operations at any idled facility. Pekin Campus Production Facilities Pekin Wet Facility Pekin Dry Facility Pekin ICP Facility Location Pekin, IL Pekin, IL Pekin, IL Current operating status Operating Operating Operating Approximate maximum annual alcohol production capacity (in millions of gallons) 100 60 70 Approximate maximum annual specialty alcohol production capacity (in millions of gallons) 74 — 66 Production milling process Wet Dry Dry Primary energy source Natural Gas Natural Gas Natural Gas Western Production Facilities Columbia Facility Liquid CO 2 Facility Magic Valley Facility Location Boardman, OR Boardman, OR Burley, ID Current operating status Operating Operating Cold-Idled Approximate maximum annual fuel-grade ethanol production capacity (in millions of gallons) 40 - 60 Approximate maximum annual liquid CO 2 capacity (in thousands of tons) - 70 - Production milling process Dry N/A Dry Primary energy source Natural Gas Electricity Natural Gas - 10 - Commodity Risk Management We employ various risk mitigation techniques.
+For example, we may seek to mitigate our exposure to commodity price fluctuations by purchasing forward a portion of our corn and natural
+gas requirements through fixed-price or variable-price contracts with our suppliers, as well as entering derivative contracts for fuel-grade
+ethanol, corn and natural gas. To mitigate fuel-grade ethanol inventory price risks, we may sell a portion of our production forward
+under fixed- or index-price contracts, or both. We may hedge a portion of the price risks by entering exchange-traded futures contracts
+and options. Properly executing these risk mitigation strategies can reduce the volatility of our gross profit margins. Specialty alcohols have relatively low price volatility
+and are usually priced at significant premiums to fuel-grade ethanol. The market price of fuel-grade ethanol is volatile, however, and
+subject to large fluctuations. Given the nature of our business, we cannot effectively hedge against extreme volatility or certain market
+conditions. For example, fuel-grade ethanol prices, as reported by the Chicago Mercantile Exchange, or CME, ranged from $1.57 to $2.07
+per gallon during 2025, from $1.38 to $2.12 per gallon during 2024 and from $1.58 to $2.67 per gallon during 2023; and corn prices, as
+reported by the CME, ranged from $3.72 to $5.02 per bushel during 2025, from $3.62 to $4.71 per bushel during 2024 and from $4.50 to
+$6.85 per bushel during 2023. Climate-Related and Other Risks Short- to medium-term climate-related and other
+risks include high sensitivity to certain commodity prices such as corn and natural gas; regulatory changes and political volatility,
+both domestic and international; ethanol supply and demand imbalances; logistics and storage constraints from river access during inclement
+or volatile weather conditions; lack of automation of process optimization; high repair, maintenance and production costs resulting from
+older facilities; poor cooling capacity of our older facilities as water temperatures increase; and international market competition. Long-term climate-related risks include water
+resource limitations; lower or volatile grain availability in local markets; market transition away from combustion fuels that include
+renewables; and the energy cost impact of technology such as wet milling and multiple distillation processes for high-quality alcohol.
+We also may be impacted by costs and regulatory burdens associated with carbon emissions from our production and distribution as well
+as truck transport and packaging associated with Eagle Alcohol’s use of drums and totes. See “
+

@@ -1,0 +1,40 @@
+EX-21.01
+6
+exhibit211subsidiaries1231.htm
+EX-21.01
+Document
+SUBSIDIARIES OF WORKIVA INC.
+Name
+Jurisdiction
+Workiva Canada ULC
+Canada
+Workiva Netherlands B.V.
+Netherlands
+Workiva UK Limited
+United Kingdom
+Workiva Holdings Limited
+United Kingdom
+Workiva Singapore Pte. Ltd.
+Singapore
+Workiva Hong Kong Limited
+Hong Kong
+Workiva Australia Pty. Ltd.
+Australia
+Workiva Germany GmbH
+Germany
+Workiva Ireland Limited
+Ireland
+Workiva France SAS
+France
+Workiva Japan G.K.
+Japan
+Workiva Sweden AB
+Sweden
+Workiva Spain S.L.
+Spain
+ParsePort ApS
+Denmark
+Sustain.Life, Inc.
+United States
+Sustain.Life Ventures Ireland Limited
+Ireland

@@ -1,0 +1,53 @@
+EX-21.1
+6
+a10k_2025-exhibit211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Vertex Pharmaceuticals Incorporated
+Vertex Pharmaceuticals (San Diego) LLC, a Delaware limited liability company
+Vertex Pharmaceuticals (Distribution) Incorporated, a Delaware corporation
+Vertex Pharmaceuticals Limited, a Cayman Islands company (4)
+Vertex Pharmaceuticals (Delaware) LLC, a Delaware limited liability company
+Vertex Pharmaceuticals (Puerto Rico) LLC, a Delaware limited liability company
+Vertex Pharmaceuticals (Canada) Incorporated, a Canadian company (1)
+Vertex Holdings, Inc., a Delaware corporation
+Vertex Pharmaceuticals (Europe) Limited, a United Kingdom company (4)
+Vertex Pharmaceuticals (Ireland) Limited, an Irish company (5)
+Vertex Pharmaceuticals (France) SAS, a French company
+Vertex Pharmaceuticals (Germany) GmbH, a German company
+Vertex Pharmaceuticals (Australia) Pty. Ltd., an Australian company
+Vertex Pharmaceuticals (Spain), S.L., a Spanish company
+Vertex Pharmaceuticals (Netherlands) B.V., a Dutch company
+Vertex Pharmaceuticals (Italy) S.r.L., an Italian company
+Vertex Farmaceutica do Brasil LTDA, a Brazilian company (5)
+Vertex Pharmaceuticals GmbH, an Austrian company (5)
+Vertex Pharmaceuticals (Portugal), Unipessoal Lda., a Portuguese company (5)
+Vertex Pharmaceuticals (CH) GmbH, a Swiss company (5)
+Vertex Pharmaceuticals (Sweden) AB, a Sweden company (5)
+Vertex Pharmaceuticals Single Member Societe Anonyme, a Greek company (5)
+Vertex Pharmaceuticals (Poland) sp. z.o.o., a Polish company (5)
+The Vertex Foundation, Inc., a Delaware corporation
+Torreyana Insurance Company, Inc., a Vermont corporation
+Vertex Pharmaceuticals (Czech Republic) s.r.o, a Czech company (5)
+Vertex Pharmaceuticals (Belgium) BV, a Belgian company (5)
+Vertex Pharmaceuticals Limited d.o.o. Beograd, a Serbian company (5)
+Company for Services and Trade VERTEX PHARMACEUTICALS DOOEL Skopje, a North Macedonian company (5)
+Plum Cove Capital LLC, a Delaware limited liability company
+ViaCyte, Inc., a Delaware corporation
+Vertex Pharmaceuticals (Chile) SpA, a Chilean company (5)
+Vertex Holdings U.S. LLC, a Delaware limited liability company (2)
+Vertex Pharmaceuticals Mexico, S. de R.L. de C.V., a Mexican company (2)
+Vertex Pharmaceuticals UK Holdings Limited, a United Kingdom company (2)
+Alpine Immune Sciences, Inc., a Delaware corporation
+AIS Operating Co., Inc., a Delaware corporation (7)
+Alpine Immune Sciences Australia Pty Ltd, an Australian Company (7)
+Vertex Pharmaceuticals LLC, a Saudi Arabian Company (3)
+------------------------------
+(1) a subsidiary of Vertex Pharmaceuticals (Delaware) LLC
+(2) a subsidiary of Vertex Holdings, Inc.
+(3) a subsidiary of Vertex Holdings U.S. LLC
+(4) a subsidiary of Vertex Pharmaceuticals UK Holdings Limited
+(5) a subsidiary of Vertex Pharmaceuticals (Europe) Limited
+(6) a subsidiary of ViaCyte, Inc.
+(7) a subsidiary of Alpine Immune Sciences, Inc.

@@ -1,0 +1,469 @@
+EX-2.1
+2
+a2025123110-kexhibit21a.htm
+EX-2.1
+Document
+EXHIBIT 2.1
+MASTER RECEIVABLES PURCHASE AGREEMENT
+between
+WELLCARE PRESCRIPTION INSURANCE, INC.,
+as Seller,
+and
+MUFG BANK, LTD.,
+as Purchaser
+Dated as of February 13, 2026
+TABLE OF CONTENTS
+Page
+1.
+Sale and Purchase
+1
+2.
+Representations and Warranties
+3
+3.
+Covenants
+3
+4.
+Servicing Activities
+3
+5.
+Deemed Collections; Repurchase Events; Indemnities and Set-Off
+4
+6.
+Notices
+7
+7.
+Expenses
+8
+8.
+Interest on Overdue Amounts
+8
+9.
+Governing Law
+8
+10.
+No Non-Direct Damages
+8
+11.
+General Provisions
+9
+12.
+Register
+11
+-i-
+MASTER RECEIVABLES PURCHASE AGREEMENT
+This MASTER RECEIVABLES PURCHASE AGREEMENT (this “
+Agreement
+”) is entered into as of February 13, 2026, by and between WELLCARE PRESCRIPTION INSURANCE, INC., an Arizona corporation (“
+Wellcare
+” or the “
+Seller
+”), and MUFG BANK, LTD. (“
+MUFG Bank
+”), as purchaser (the “
+Purchaser
+”).
+RECITALS
+The Seller is a prescription drug plan sponsor under the Social Security Act for the operation of a voluntary Medicare Prescription Drug Plan that has an agreement with The Centers for Medicare and Medicaid Services, a federal agency of the United States of America, or its permitted assigns (“
+CMS
+” or the “
+Approved Account Debtor
+”), to accept enrollments to provide basic prescription drug coverage and operate a voluntary prescription drug plan for eligible recipients.
+The Seller desires to sell certain of its Receivable Portions from time to time, based on all electronic prescription drug events (“
+PDEs
+”) that have been accepted by CMS as of the applicable Purchase Date, and the Purchaser may be willing to purchase from the Seller such Receivable Portions, in which case the terms set forth herein shall apply to such purchase.  Each capitalized term used but not defined herein shall have the meaning set forth in, or by reference in,
+Exhibit A
+hereto, and the interpretive provisions set out in
+Exhibit A
+hereto shall be applied in the interpretation of this Agreement.
+Accordingly, the parties hereto agree as follows:
+1.
+Sale and Purchase
+.
+(a)
+Sales of Receivable Portions
+.  From time to time during the Availability Period, the Seller may submit to the Purchaser a request (a “
+Purchase Request
+”) via the MUFG Platform that the Purchaser purchase from the Seller the Proposed Receivable Portions described in such Purchase Request as well as the proposed Purchase Date thereof;
+provided
+,
+however
+, and notwithstanding anything herein to the contrary, if (i) the MUFG Platform is not operational or is otherwise offline or (ii) the Purchaser has, in its discretion, instructed the Seller that the MUFG Platform is no longer available for use, then the Seller may deliver a Purchase Request to the Purchaser in form and substance satisfactory to the Purchaser, and this Agreement shall be construed and interpreted accordingly,
+mutatis mutandis
+.  If the Purchaser, in its sole and absolute discretion, accepts a Purchase Request, then
+the Purchaser shall purchase, and the Seller shall sell, all of the Seller’s right, title and interest (but none of the Seller’s underlying obligations to the applicable Account Debtor) with respect to such Proposed Receivable Portions as of the Purchase Date (all such Proposed Receivable Portions, once sold and purchased, or purported to be sold and purchased, hereunder, collectively, the “
+Purchased Receivable Portions
+”).  The Purchaser acknowledges and agrees that the Purchaser shall have no right, title and interest in, or any other claim in respect of, the Seller’s Retained Interest in any Subject Receivable.
+(b)
+UNCOMMITTED ARRANGEMENT
+.  THE SELLER ACKNOWLEDGES THAT THIS IS AN UNCOMMITTED ARRANGEMENT, AND THAT THE SELLER HAS NOT PAID, NOR IS REQUIRED TO PAY, A COMMITMENT FEE OR COMPARABLE FEE TO THE PURCHASER.  NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, THE SELLER EXPRESSLY AGREES THAT THE PURCHASER WILL NOT BE OBLIGATED TO PURCHASE ANY RECEIVABLE PORTION FROM THE SELLER, AND THE PURCHASER MAY REFUSE, FOR ANY REASON OR FOR NO REASON, TO PURCHASE ANY RECEIVABLE PORTION OFFERED FOR PURCHASE BY THE SELLER EXCEPT IN CIRCUMSTANCES WHERE THE PURCHASER HAS DELIVERED A NOTIFICATION OF ACCEPTANCE WITH RESPECT TO THE PURCHASE REQUEST FOR A RECEIVABLE PORTION IN ITS SOLE AND ABSOLUTE DISCRETION AND THE OTHER CONDITIONS PRECEDENT SET FORTH IN SECTION 1(d) HAVE BEEN SATISFIED WITH RESPECT TO SUCH PURCHASE.
+(c)
+Conditions to Effectiveness
+.  This Agreement shall become effective at such time as each of the conditions precedent set forth on
+Exhibit B
+to this Agreement has been satisfied to the satisfaction of the Purchaser.
+1
+(d)
+Conditions Precedent to Each Purchase
+.  Without limiting the uncommitted nature of the Purchaser’s obligations as discussed in
+Section 1(b)
+, the Purchaser shall only be obligated to purchase the Proposed Receivable Portions described in any Purchase Request that the Purchaser has accepted if the following conditions have been satisfied in connection therewith:
+(i)
+the Purchaser has received such Purchase Request via the MUFG Platform (or, if applicable, in physical form in form and substance satisfactory to the Purchaser) with respect to the Proposed Receivable Portions at least three (3) Business Days (or such shorter period as is agreed to by the Purchaser in its sole discretion) prior to the applicable Purchase Date, together with any such additional supporting documentation that the Purchaser may have reasonably requested;
+(ii)
+the Purchaser has accepted such Purchase Request and notified the Seller thereof;
+(iii)
+each of the representations and warranties made by the Seller and any Performance Guarantor in this Agreement and each of the other Transaction Documents is true and correct in all material respects as of such Purchase Date or, in the case of any representation or warranty that speaks as to a particular date or period, as of that particular date or period;
+(iv)
+the Subject Receivable with respect to each Proposed Receivable Portion is an Eligible Receivable;
+(v)
+immediately following the sale and purchase of the Proposed Receivable Portions set forth in the related Purchase Request, (A) the Outstanding Purchase Amount will not exceed the Maximum Outstanding Purchase Amount and (B) the Outstanding Purchase Amount with respect to the Purchased Receivable Portions owing by any Approved Account Debtor will not exceed such Approved Account Debtor’s Purchase Sublimit; and
+(vi)
+no Termination Event or Unmatured Termination Event has occurred and is continuing, and no Termination Event or Unmatured Termination Event would result from such sale and purchase.
+Each Purchase Request submitted by the Seller shall constitute a representation and warranty that each of the conditions outlined in this
+Section 1(d)(iv)
+through
+(vi)
+has been satisfied.
+(e)
+Purchase Price
+.  The purchase price for each Purchased Receivable Portion purchased on any Purchase Date shall equal (i) the Estimated Net Invoice Amount of such Purchased Receivable Portion
+minus
+(ii) the Discount (such amount herein referred to as the “
+Purchase Price
+”).  The Purchaser shall pay the Purchase Price with respect to each Purchased Receivable by depositing the amount thereof into the Seller’s Account in immediately available funds denominated in Dollars on the applicable Purchase Date.
+(f)
+True Sale; No Recourse
+.  Except as otherwise provided in this Agreement, each purchase of a Purchased Receivable Portion is made without recourse to the Seller and the Seller shall have no liability to the Purchaser for the failure of any Account Debtor to pay any Purchased Receivable when it is due and payable under the terms applicable thereto.  The Purchaser and the Seller have structured the transactions contemplated by this Agreement as absolute and irrevocable sales of participation interests in Subject Receivables, and the Purchaser and the Seller agree to treat each such transaction as a “true sale” for all purposes, including, without limitation, in their respective books, records, computer files, tax and regulatory and governmental filings, and each shall reflect such sales in their respective financial statements.  The Seller will advise all Persons inquiring about the ownership of any Subject Receivable or any Purchased Receivable Portion, with respect thereto, that such Purchased Receivable Portions with respect thereto have been sold to the Purchaser.  In the event that, contrary to the mutual intent of the parties hereto, any purchase of Purchased Receivable Portions is not characterized as a true sale of a participation interest in the related Subject Receivable, the Seller hereby grants to the Purchaser a security interest in and to any and all present and future Purchased Receivable Portions and the proceeds thereof to secure all obligations of the Seller arising in connection with this Agreement and each of the other Transaction Documents, whether now or hereafter existing, due or to become due, direct or indirect, absolute or contingent.  This Agreement shall be deemed to be a security agreement under Applicable Law.  The Purchaser may, at its discretion, file one or more UCC financing statements (or, if applicable, any foreign law equivalent thereof) evidencing the sale of the Purchased Receivable Portions as well as the foregoing grant of security.  With respect to such grant of a security interest, the Purchaser may at its option exercise from time to time any and all rights and remedies available to it hereunder, under the UCC or otherwise to the extent the exercise of any such rights and remedies would not violate Applicable Law.
+2
+(g)
+Effect of Benchmark Transition Event
+.  Notwithstanding anything to the contrary in this Agreement, if a Benchmark Transition Event and its related Benchmark Replacement Date have occurred prior to any setting of the then-current Benchmark, then the Benchmark Replacement will replace such Benchmark for all purposes hereunder in respect of such Benchmark setting and subsequent Benchmark settings without any amendment to this Agreement or any further action or consent of the Seller.
+The Purchaser will promptly notify the Seller of (i) the implementation of any Benchmark Replacement and (ii) the effectiveness of any Conforming Changes in connection with the use, administration, adoption or implementation of a Benchmark Replacement.  Any determination, decision or election that may be made by the Purchaser pursuant to the provisions hereof, including any determination with respect to a tenor, rate or adjustment or of the occurrence or non-occurrence of an event, circumstance or date and any decision to take or refrain from taking any action, will be conclusive and binding absent manifest error and may be made in the Purchaser’s sole discretion and without consent from the Seller.
+(h)
+Participations
+.  The Seller acknowledges that the Purchaser has arranged to participate portions of the Maximum Outstanding Purchase Amount and Purchase Sublimits to one or more participants pursuant to one or more participation agreements.  Notwithstanding any other provision of this Agreement (including, without limitation,
+Sections 1(b)
+and
+1(c))
+, should any such participant fail to provide funding in connection with any purchase of any Receivable Portions hereunder (each such participant, a “
+Non-Funding Participant
+”), the Purchaser may decline to purchase the amount of such Receivable Portion corresponding to the amount for which such Non-Funding Participant failed to provide funding.
+2.
+Representations and Warranties
+.  The Seller represents and warrants to the Purchaser on the Closing Date and on each Purchase Date that (i) the representations and warranties set forth on
+Exhibit C
+hereto are true and correct in all respects as of the Closing Date or such Purchase Date or, in the case of any representation or warranty that speaks as to a particular date or period, as of that particular date or period and (ii) the Subject Receivable with respect to each Proposed Receivable Portion is an Eligible Receivable.
+3.
+Covenants
+.  The Seller agrees to perform each of the covenants set forth on
+Exhibit D
+hereto.
+4.
+Servicing Activities
+.
+(a)
+Appointment of Seller as Servicer
+.  The Purchaser appoints the Seller as its servicer and agent for the administration and servicing of its Purchased Receivable Portions sold to the Purchaser hereunder, and the Seller hereby accepts such appointment and agrees to assume the duties and the administration and servicing obligations as a servicer, and perform all necessary and appropriate commercial servicing and collection activities in arranging the timely payment of amounts due and owing by any Account Debtor (including the identification of the proceeds of the Purchased Receivable Portions and related record-keeping that shall be made available to the Purchaser upon its reasonable request) all in accordance with Applicable Laws, with reasonable care and diligence;
+provided
+,
+however
+, that such appointment as servicer shall not release the Seller from any of its duties, responsibilities, liabilities and obligations resulting from or arising hereunder.  In connection with its servicing obligations, the Seller shall (i) be responsible for identifying, matching and reconciling any payments received from Account Debtors with the Receivable associated with such payment and (ii) perform its duties under the Contract related to a Subject Receivable with the same care and applying the same policies as it applies to its own Receivables generally and would exercise and apply if it had not sold any Purchased Receivable Portion with respect to such Subject Receivable.  The Seller shall allocate any offsets, write-offs, recoupments, reduction, returns, fines, penalties or other allowances by CMS in accordance with the applicable CMS Monthly Plan Payment Report;
+provided
+,
+however
+, any such amounts that do not reasonably relate to a Subject Receivable shall be allocated first to any Receivables owing from CMS to the Seller  that are not Subject Receivables before allocating such amount to any Subject Receivable, notwithstanding any alternative deduction by CMS.  The Seller shall not discriminate in its servicing activities pursuant to its appointment as servicer under this
+clause (a)
+between any Purchased Receivable Portion and the Seller’s Retained Interest with respect the applicable Subject Receivable.  The Seller agrees that the Purchase Price for each Purchased Receivable Portion includes consideration for the cost of servicing such Purchased Receivable Portion, and no other or further servicing compensation is required from the Purchaser.
+(b)
+Transfer of Collections to the Purchaser
+.  Subject to
+Sections 4(d)
+and
+5(a)
+below, the Seller covenants and agrees to identify and deposit in the Purchaser’s Account all Collections and other amounts received by the Seller (or any of its respective Affiliates) with respect to Purchased Receivable Portions without adjustment, setoff or deduction of any kind or nature by no later than one (1) Business Day after such Collections are received.  Until remitted to the Purchaser’s Account, the Seller will hold such funds in trust as the Purchaser’s exclusive property and safeguard such funds for the benefit of the Purchaser.  For the avoidance of doubt, the Seller and the Purchaser acknowledge and agree that the Seller may retain for its own benefit the ratable share of Collections received in respect of the Seller’s Retained Interests and any Collections received in respect of the
+3
+Subject Receivable that are in excess of the amount of Collections that would be necessary to cause the Outstanding Purchase Amount with respect to the related Subject Receivable to be reduced to $0.
+(c)
+Misdirected Payments
+.  If the Purchaser receives any payment from an Account Debtor not representing a Collection on a Purchased Receivable Portion, the Purchaser will return such payment to the Seller upon receipt of satisfactory evidence that such amount does not constitute a Collection on a Purchased Receivable Portion.
+(d)
+No Changes to Receivables
+.  Other than as specifically permitted by
+Section 5(a)
+(i) the Seller will not amend, modify or extend the payment terms under any Subject Receivable, unless approved in writing in advance by the Purchaser, and shall not otherwise waive or permit or agree to any deviation from the terms or conditions of any Subject Receivable and (ii) the Seller will not take, or cause to be taken, any action that otherwise reduces the amount payable of any Subject Receivable or materially impairs the full and timely collection thereof.
+(e)
+Reconciliation Report
+.  Concurrently with (a) each transfer of funds by the Seller to the Purchaser’s Account pursuant to
+Sections 4
+and
+5
+hereof and (b) each request by the Seller for a return of payments received by the Purchaser that do not represent Collections on Purchased Receivable Portions in accordance with
+Section 4(d)
+, the Seller shall provide to the Purchaser, in form and substance reasonably satisfactory to the Purchaser, a full reconciliation of all Collections and adjustments (including repurchases thereof, indemnifications and setoffs with respect thereto, if any) with respect to the Subject Receivable and each Purchased Receivable Portion related thereto of an Account Debtor for which Collections were received (each, a “
+Reconciliation Report
+”). The Seller shall submit each Reconciliation Report to the Purchaser via the MUFG Platform;
+provided
+,
+however
+, and notwithstanding anything herein to the contrary, if (i) the MUFG Platform is not operational or is otherwise offline or (ii) the Purchaser has, in its discretion, instructed the Seller that the MUFG Platform is no longer available for use, then the Seller may deliver a written Reconciliation Report to the Purchaser, and this Agreement shall be construed and interpreted accordingly,
+mutatis mutandis
+.
+(f)
+Non-Payment Report
+.
+(i)
+If a Purchased Receivable Portion remains unpaid, in part or in full, past the date that is fifteen (15) days after the applicable Due Date therefor, the Seller shall report to the Purchaser in a written report describing in reasonable detail the cause of such non-payment, including whether a Dispute or Insolvency Event exists with respect to the applicable Account Debtor (each a “
+Non-Payment Report
+”).
+(ii)
+If a Purchased Receivable Portion remains unpaid, in part or in full, past the date that is forty-five (45) days after the applicable Due Date therefor, the Seller shall deliver to the Purchaser by such date, a certification and report identifying such Purchased Receivable Portion and the Account Debtor and certifying the cause of such non-payment.  If such cause is not an Insolvency Event of the relevant Account Debtor, or if the Seller does not deliver such certification and report when due, a Dispute shall be deemed to have occurred with respect to such Purchased Receivable Portion, which Dispute shall constitute a Repurchase Event.
+(iii)
+For the avoidance of doubt, the rights of the Purchaser described in
+clauses (i)
+and
+(ii)
+above, respectively, are independent and the Purchaser may, in its sole discretion, enforce its rights set forth in either or both of
+clauses (i)
+and
+(ii)
+above in accordance with their terms with respect to any Purchased Receivable Portion.
+5.
+Deemed Collections; Repurchase Events; Indemnities and Set-Off
+.
+(a)
+Deemed Collections
+.  If, on any day, the outstanding balance of a Purchased Receivable Portion is reduced (but not cancelled) as a result of any Dilution, the Seller shall be deemed to have received on such day a Collection of such Purchased Receivable Portion in the amount of such reduction.  If on any day a Purchased Receivable Portion is cancelled (or reduced to zero) as a result of any Dilution, the Seller shall be deemed to have received on such day a Collection of such Purchased Receivable Portion in the amount of the Outstanding Purchase Amount of such Purchased Receivable Portion (as determined immediately prior to such Dilution). Any amount deemed to have been received under this
+Section 5(a)
+shall constitute a “
+Deemed Collection
+.”
+(b)
+Repurchase Events
+.  If any of the following events (each, a “
+Repurchase Event
+”) occurs with respect to a Subject Receivable:
+4
+(i)
+such Subject Receivable was not an Eligible Receivable at the time of purchase by the Purchaser of the applicable Purchased Receivable Portion hereunder;
+(ii)
+the Seller fails to perform or observe any other term, covenant or agreement with respect to such Subject Receivable set forth in any Transaction Document or any related Contract and such failure shall or could reasonably be expected to have a material adverse effect on the timely payment, validity or enforceability of such Subject Receivable;
+(iii)
+the applicable Account Debtor has asserted a Dispute with respect to such Subject Receivable that is not resolved within five (5) Business Days; or
+(iv)
+a Dispute shall have been deemed to have occurred pursuant to
+Section 4(f)
+,
+then, the Seller shall immediately deliver notice thereof to the Purchaser. Upon the occurrence of a Repurchase Event, the Seller shall, at the time, in the manner and otherwise as hereinafter set forth, repurchase the applicable Purchased Receivable Portion at the Purchaser’s option and demand;
+provided
+that if such Repurchase Event is caused by a deemed Dispute under the provisions of
+Section 4(f)
+and a court of competent jurisdiction determines in a final non-appealable judgment that such repurchased Purchased Receivable Portion was actually unpaid because such Account Debtor did not have the financial capacity to make such payment on its Due Date, the Purchaser shall, at the request of the Seller, purchase from the Seller all of the Seller’s right, title and interest in such repurchased Purchased Receivable Portion in exchange for payment to the Seller by the Purchaser of the Repurchase Price previously paid.  The repurchase price for a Purchased Receivable Portion shall be the amount equal to (i) the Purchase Price for such Purchased Receivable Portion, net of any Collections or other payments received by the Purchaser with respect to such Purchased Receivable Portion,
+plus
+(ii) the Discount applicable to such Purchased Receivable Portion and accrued for the period from the applicable Purchase Date to the date on which such Purchased Receivable Portion is repurchased,
+plus
+(iii) all other amounts then payable by the Seller under the Transaction Documents with respect to such Purchased Receivable Portion as of the date on which such Purchased Receivable Portion is repurchased (such amount herein referred to as the “
+Repurchase Price
+”).  The Repurchase Price for any Purchased Receivable Portion shall be paid to the Purchaser’s Account in immediately available funds by no later than the third (3
+rd
+) Business Day following demand therefor by the Purchaser.  Upon the payment in full of the Repurchase Price with respect to a Purchased Receivable Portion, such Purchased Receivable shall hereby be, and be deemed to be, repurchased by the Seller from the Purchaser without recourse to or warranty by the Purchaser.  If a Repurchase Event occurs that is caused by a Dispute deemed to have occurred pursuant to
+Section 4(f)
+, the Seller has repurchased the applicable Purchased Receivable Portion (or part thereof) and a court of competent jurisdiction determines in a final non-appealable judgment that such Purchased Receivable Portion (or a part thereof) was actually unpaid because the applicable Account Debtor did not have the financial capacity to make such payment, the Purchaser shall, at the request of the Seller, purchase from the Seller all of the Seller’s right, title and interest in such Purchased Receivable Portion (or part thereof that such court determined was actually unpaid because such Account Debtor did not have the financial capacity to make such payment) for an amount equal to the Repurchase Price that the Seller previously paid to the Purchaser to repurchase such Purchased Receivable Portion (or part thereof).
+(c)
+Indemnification
+.  The Seller hereby agrees to indemnify and hold harmless the Purchaser and its officers, directors, agents, representatives, shareholders, counsel, employees and each of their respective Affiliates, successors and assigns (each, an “
+Indemnified Person
+”) from and against any and all damages, claims, losses, costs, expenses and liabilities (including, without limitation, reasonable attorneys’ fees and expenses) (all of the foregoing being collectively referred to as “
+Indemnified Amounts
+”) arising out of or resulting from or related to this Agreement or any other Transaction Document or the ownership, maintenance or funding, directly or indirectly, of the Purchased Receivable Portions (or any of them) or otherwise arising out of or resulting from the actions or inactions of the Seller or any of its Affiliates, including, without limitation, any of the following:  (i) any representation or warranty made or deemed made by the Seller (or any of its officers) under or in connection with this Agreement or any other Transaction Document that shall have been incorrect when made; (ii) the failure by the Seller to perform any of its covenants or obligations under any Transaction Document; (iii) the failure by the Seller or any Subject Receivable or Contract to comply with any Applicable Law; (iv) the failure to vest in the Purchaser ownership of, and a first-priority perfected security interest (within the meaning of the UCC) in, each Purchased Receivable Portion and all Collections in respect thereof, free and clear of any Adverse Claim; (v) any Dispute, Dilution or any other claim resulting from the services performed or merchandise furnished in connection with any Subject Receivable or the furnishing or failure to furnish such services or merchandise or relating to collection activities with respect to any Purchased Receivable; (vi) any suit or claim related to any Subject Receivable, any Contract or any Transaction Document; (vii) the failure of the Seller to notify any Account Debtor of the sale of the Purchased Receivable Portions to the Purchaser to the extent required under this Agreement; (viii) the commingling
+5
+by the Seller of Collections at any time with other funds of the Seller or any other Person or (ix) any civil penalty or fine assessed by OFAC or any other Governmental Authority administering any Anti-Corruption Laws or Sanctions, and all reasonable and documented out-of-pocket costs and expenses (including reasonable and documented out-of-pocket legal fees and disbursements of one counsel for the Indemnified Persons (and, if applicable, one local counsel for the Indemnified Persons in each relevant jurisdiction)) incurred in connection with defense thereof by, any Indemnified Person in connection with the Transaction Documents as a result of any action of the Seller or any of its Affiliates;
+provided
+,
+however
+, that in all events there shall be excluded from the foregoing indemnification any Indemnified Amounts to the extent resulting solely from (x) the gross negligence or willful misconduct of an Indemnified Person as determined in a final non-appealable judgment by a court of competent jurisdiction or (y) the failure of an Account Debtor to pay any sum due under its Purchased Receivable Portions by reason of the financial or credit condition of such Account Debtor (including, without limitation, the occurrence of an Insolvency Event with respect to such Account Debtor).  Any amount due and payable pursuant to this Section shall be paid to the Purchaser’s Account in immediately available funds by no later than the second (2
+nd
+) Business Day following demand therefor by the Purchaser.
+(d)
+Tax Matters.
+(i)
+Indemnification
+.  All payments on the Purchased Receivable Portions or otherwise made hereunder from the Account Debtors and the Seller will be made free and clear of any present or future taxes, levies, imposts, energy surcharges, duties, deductions, withholdings, assessments, fees or other charges whatsoever (but for the avoidance of doubt not including (x) taxes imposed upon the Purchaser with respect to its overall net income, franchise taxes and branch profit taxes and (y) taxes attributable to the Purchaser’s failure to comply with
+Section 5(d)(iii)
+below), including any interest, additions to tax or penalties applicable thereto, and including whether imposed on the making of such a payment or whether arising by reason of the sale of the Purchased Receivable Portions to the Purchaser or relating to the underlying transactions between the Seller and the related Account Debtors that gave rise to the applicable Subject Receivables (any such taxes, “
+Transaction Taxes
+”) and Other Taxes, and the sum payable to the Purchaser shall be increased to the extent necessary to ensure that, after making any withholding or payment of Transaction Taxes and Other Taxes, if any, the Purchaser receives on the due date and retains (free from any liability in respect of any Transaction Taxes and Other Taxes) a net sum equal to what it would have received and so retained, had no such withholding or payment of Transaction Taxes and Other Taxes been present, imposed, required or made. The Seller will indemnify the Purchaser and hold the Purchaser harmless from any Transaction Taxes and Other Taxes, whether or not such taxes were correctly or legally imposed or asserted by the relevant Governmental Authority. Any amount due and payable pursuant to this section shall be paid to the Purchaser’s Account in immediately available funds by no later than the tenth (10
+th
+) Business Day following demand therefor by the Purchaser.
+(ii)
+Form Delivery
+. The Purchaser will deliver a properly completed and executed IRS Form W-9 (or a properly completed and executed IRS Form W-8BEN, IRS Form W-8BEN-E, IRS Form W-8ECI or W-8IMY, as applicable) to the Seller, and shall also deliver any other properly completed and executed documentation reasonably requested by the Seller as will allow the Seller to satisfy its tax reporting or withholding obligations to the extent the Purchaser is legally entitled to do so and the completion, execution and submission of such documentation would not in the Purchaser’s reasonable judgment (in consultation with such Seller) subject the Purchaser to any unreimbursed cost or expense or would prejudice the legal or commercial position of the Purchaser.
+(iii)
+Other Taxes
+. The Seller shall timely pay to the relevant Governmental Authority in accordance with Applicable Law, or at the option of the Purchaser timely reimburse it for the payment of, any Other Taxes.
+(e)
+Set-Off
+.  The Seller hereby irrevocably instructs and authorizes the Purchaser to setoff, appropriate and apply (without presentment, demand, protest or other notice which are hereby expressly waived) any deposits and any other indebtedness held or owing by the Purchaser or any branch, agency or Affiliate thereof, including the payment of the Purchase Price for any Proposed Receivable Portions, to, or for the account of, the Seller or any of its respective Affiliates against amounts owing by the Seller hereunder or under any other Transaction Document (even if contingent or unmatured).
+(f)
+UCC
+.  The rights granted to the Purchaser hereunder are in addition to all other rights and remedies afforded to the Purchaser as a secured party under the UCC.
+6
+6.
+Notices
+.  Unless otherwise provided herein, all communications by any party to any other party hereunder or under any other Transaction Document shall be in a writing personally delivered or sent by a recognized overnight delivery service, or certified mail, postage prepaid, return receipt requested, or by email to such party, as the case may be, at its address set forth below:
+If to Wellcare,
+as Seller:
+WellCare Prescription Insurance, Inc.
+7700 Forsyth Rd
+St. Louis, MO 63105
+Attention:  Christopher A. Koster
+Tel:  314-320-9689
+Email:  Christopher.a.koster@centene.com
+If to the Purchaser (other than
+Purchase Requests):
+MUFG Bank, Ltd.
+1221 Avenue of the Americas
+New York, New York 10020
+Attention: Alec Blodi
+Craig Pinsly
+Tel:  646-767-1729
+212-782-4498
+Email:  ablodi@us.mufg.jp
+cpinsly@us.mufg.jp
+With a copy to:
+MUFG Bank, Ltd.
+1221 Avenue of the Americas
+New York, New York 10020-1104
+Attention: Amy Mellon Grandis
+Tel:  212-782-4638
+Email:  amellon@us.mufg.jp
+If to the Purchaser (other than
+Purchase Requests):
+MUFG Bank, Ltd.
+1221 Avenue of the Americas
+New York, New York 10020
+Attention: Alec Blodi
+Craig Pinsly
+Tel:  646-767-1729
+212-782-4498
+Email:  ablodi@us.mufg.jp
+cpinsly@us.mufg.jp
+7
+The Seller agrees that the Purchaser may presume the authenticity, genuineness, accuracy, completeness and due execution of any email bearing a facsimile or scanned signature resembling a signature of an authorized Person of the Seller without further verification or inquiry by the Purchaser.  Notwithstanding the foregoing, the Purchaser in its sole discretion may elect not to act or rely upon such a communication and shall be entitled (but not obligated) to make inquiries or require further action by the Seller to authenticate any such communication.
+Any Purchase Request, and any supporting documentation in connection herewith or therewith, such as copies of invoices, not submitted via the MUFG Platform may be sent by the Seller by electronic mail attachment in portable document format (.pdf).
+A party may change the address at which it is to receive notices hereunder by written notice in the foregoing manner given to the other parties hereto.
+7.
+Expenses
+.  The Seller hereby agrees to reimburse the Purchaser on demand for:
+(a)
+all reasonable and documented out-of-pocket costs and expenses (including due diligence expenses) incurred by the Purchaser in connection with the negotiation, preparation and execution of the Transaction Documents (including this Agreement), including all reasonable and documented out-of-pocket expenses and accountants’, consultants’ and attorneys’ fees incurred in connection therewith;
+(b)
+all reasonable and documented out-of-pocket costs and expenses incurred by the Purchaser in connection with the administration (including periodic auditing as provided for herein) of this Agreement and the other Transaction Documents and the transactions contemplated hereby and thereby, including all reasonable and documented out-of-pocket expenses and reasonable and documented out-of-pocket accountants’, consultants’ and attorneys’ fees incurred in connection with the administration and maintenance of this Agreement and the other Transaction Documents and the transactions contemplated hereby and thereby;
+(c)
+all reasonable and documented out-of-pocket costs and expenses (including reasonable and documented out-of-pocket attorneys’ fees and expenses) the Purchaser incurs in connection with the enforcement of this
+Section 7
+, or any of its other rights under this Agreement or any of the other Transaction Documents; and
+(d)
+all Other Taxes.
+8.
+Interest on Overdue Amounts
+.  All amounts due for payment by the Seller to the Purchaser pursuant to this Agreement shall accrue interest at the Overdue Payment Rate from the date on which payment thereof is due until the date on which payment thereof is made in accordance with the terms of this Agreement.
+9.
+Governing Law
+.  THIS AGREEMENT, INCLUDING THE RIGHTS AND DUTIES OF THE PARTIES HERETO, SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK (INCLUDING SECTIONS 5-1401 AND 5-1402 OF THE GENERAL OBLIGATIONS LAW OF THE STATE OF NEW YORK, BUT WITHOUT REGARD TO ANY OTHER CONFLICTS OF LAW PROVISIONS THEREOF, EXCEPT TO THE EXTENT THAT THE PERFECTION, THE EFFECT OF PERFECTION OR PRIORITY OF THE INTERESTS OF THE PURCHASER IN THE PURCHASED RECEIVABLE PORTIONS IS GOVERNED BY THE LAWS OF A JURISDICTION OTHER THAN THE STATE OF NEW YORK).
+10.
+No Non-Direct Damages
+.  To the fullest extent permitted by Applicable Law, the Seller shall not assert, and the Seller hereby waives, any claim against any Indemnified Person, on any theory of liability, for special, indirect, consequential or punitive damages (as opposed to direct or actual damages) arising out of, in connection with, or as a result of, this Agreement, any other Transaction Document or any agreement or instrument contemplated hereby or thereby or the transactions contemplated hereby or thereby.  No Indemnified Person shall be liable for any damages arising from the use by unintended recipients of any information or other materials distributed by it through telecommunications, electronic or other information transmission systems in connection with this Agreement or the other Transaction Documents or the transactions contemplated hereby or thereby;
+provided
+that the waiver provided for in this sentence shall not apply to damages resulting directly from such Indemnified Person’s own gross negligence or willful misconduct as determined by a court of competent jurisdiction in a final and non-appealable judgment.
+8
+11.
+General Provisions
+.
+(a)
+Final Agreement; Amendments and Waivers
+.  This Agreement represents the final agreement of the parties hereto with respect to the subject matter hereof and supersedes all prior and contemporaneous understandings and agreements with respect to such subject matter.  No provision of this Agreement may be amended or waived except by a writing signed by the parties hereto.  This Agreement shall bind and inure to the benefit of the respective successors and permitted assigns of each of the parties;
+provided
+,
+however
+, that neither the Seller nor the Purchaser may assign any of its rights hereunder without the other’s prior written consent, given or withheld in its sole discretion.  The Purchaser shall have the right, without the consent of or notice to the Seller, to sell, transfer, negotiate, or grant participations in all or any part of, or any interest in, the Purchaser’s obligations, rights and benefits hereunder (including in any Purchased Receivable Portions) so long as the Purchaser remains liable to the Sellers for its obligations hereunder.
+(b)
+Severability
+.  Any provisions of this Agreement that are prohibited or unenforceable in any jurisdiction shall, as to such jurisdiction, be ineffective to the extent of such prohibition or unenforceability without invalidating the remaining provisions hereof, and any such prohibition or unenforceability in any jurisdiction shall not invalidate or render unenforceable such provision in any other jurisdiction.
+(c)
+Execution; Counterparts
+.  This Agreement may be executed in any number of counterparts and by different parties on separate counterparts, each of which, when executed and delivered, shall be deemed to be an original, and all of which, when taken together, shall constitute but one and the same agreement.  Delivery of an executed counterpart of a signature page to this Agreement by electronic mail attachment in portable document format (.pdf) or any other electronic means that reproduces an image of the actual executed signature page shall be effective as delivery of a manually executed counterpart of this Agreement.  The words “execution,” “signed,” “signature,” “delivery,” and words of like import in or relating to any document to be signed in connection with this Agreement and the transactions contemplated hereby shall be deemed to include an electronic sound, symbol, or process attached to, or associated with, a contract or other record and adopted by a Person with the intent to sign, authenticate or accept such contract or record, deliveries or the keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as a manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be, to the extent and as provided for in any applicable law, including the Federal Electronic Signatures in Global and National Commerce Act, the New York State Electronic Signatures and Records Act, or any other similar state laws based on the Uniform Electronic Transactions Act.
+(d)
+Termination
+.  Purchases of Receivable Portions under this Agreement may be effected during the period from the initial effective date hereof until the date designated by either the Purchaser or the Seller at any time by thirty (30) days’ prior written notice to the other party or, if a Termination Event shall have occurred and be continuing, immediately by the Purchaser upon written notice to the Seller (such period, the “
+Availability Period
+”).  This Agreement shall terminate automatically on the Final Collection Date.  Notwithstanding the foregoing, the Seller’s obligations to indemnify the Purchaser with respect to the expenses, damages, losses, costs and liabilities shall survive until the later of (x) the Final Collection Date and (y) such time as all applicable statute of limitations periods with respect to actions that may be brought by the Purchaser under the Transaction Documents have run.
+(e)
+Judgment Currency
+.  If, for the purposes of obtaining judgment in any court, it is necessary to convert a sum due hereunder in one currency into another currency, the rate of exchange used shall be that at which in accordance with normal banking procedures the Purchaser could purchase the first currency with such other currency on the Business Day preceding that on which final judgment is given.  The obligation of the Seller in respect of any such sum due from it to the Purchaser hereunder shall, notwithstanding any judgment in a currency (the “
+Judgment Currency
+”) other than that in which such sum is denominated in accordance with the applicable provisions of this Agreement (the “
+Agreement Currency
+”), be discharged only to the extent that on the Business Day following receipt by the Purchaser of any sum adjudged to be so due in the Judgment Currency, the Purchaser may in accordance with normal banking procedures purchase the Agreement Currency with the Judgment Currency.  If the amount of the Agreement Currency so purchased is less than the sum originally due to the Purchaser from the Seller in the Agreement Currency, the Seller agrees, as a separate obligation and notwithstanding any such judgment, to indemnify the Purchaser against such loss.  If the amount of the Agreement Currency so purchased is greater than the sum originally due to the Purchaser in such currency, the Purchaser agrees to return the amount of any excess to the Seller (or to any other Person who may be entitled thereto under Applicable Law).
+(f)
+Calculation of Interest
+.  All interest amounts calculated on a per annum basis hereunder are calculated on the basis of a year of three hundred and sixty (360) days.
+9
+(g)
+WAIVER OF JURY TRIAL
+.  EACH PARTY HERETO HEREBY IRREVOCABLY WAIVES ANY RIGHT THAT IT MAY HAVE TO A JURY TRIAL OF ANY CLAIM OR CAUSE OF ACTION BASED UPON OR ARISING OUT OF ANY OF THE TRANSACTIONS CONTEMPLATED HEREIN, INCLUDING CONTRACT CLAIMS, TORT CLAIMS, BREACH OF DUTY CLAIMS AND ALL OTHER COMMON LAW OR STATUTORY CLAIMS.
+(h)
+CONSENT TO JURISDICTION
+.  EACH PARTY HERETO HEREBY ACKNOWLEDGES AND AGREES THAT IT IRREVOCABLY (i) SUBMITS TO THE JURISDICTION, FIRST, OF ANY UNITED STATES FEDERAL COURT, AND SECOND, IF FEDERAL JURISDICTION IS NOT AVAILABLE, OF ANY NEW YORK STATE COURT, IN EITHER CASE SITTING IN NEW YORK CITY, NEW YORK, IN ANY ACTION OR PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT AND ANY OTHER TRANSACTION DOCUMENT, (ii) AGREES THAT ALL CLAIMS IN RESPECT OF SUCH ACTION OR PROCEEDING MAY BE HEARD AND DETERMINED ONLY IN SUCH NEW YORK STATE OR FEDERAL COURT AND NOT IN ANY OTHER COURT, AND (iii) WAIVES, TO THE FULLEST EXTENT IT MAY EFFECTIVELY DO SO, THE DEFENSE OF AN INCONVENIENT FORUM TO THE MAINTENANCE OF SUCH ACTION OR PROCEEDING.
+(i)
+WAIVER OF IMMUNITIES
+.  EACH PARTY HERETO HEREBY ACKNOWLEDGES AND AGREES THAT TO THE EXTENT THAT IT HAS OR HEREAFTER MAY ACQUIRE ANY IMMUNITY FROM THE JURISDICTION OF ANY COURT OR FROM ANY LEGAL PROCESS (WHETHER THROUGH SERVICE OR NOTICE, ATTACHMENT PRIOR TO JUDGMENT, ATTACHMENT IN AID TO EXECUTION, EXECUTION OR OTHERWISE) WITH RESPECT TO ITSELF OR ITS PROPERTY, IT HEREBY IRREVOCABLY WAIVES SUCH IMMUNITY IN RESPECT OF ITS OBLIGATIONS UNDER OR IN CONNECTION WITH THIS AGREEMENT.
+(j)
+No Party Deemed Drafter
+.  The Seller and the Purchaser agree that no party hereto shall be deemed to be the drafter of this Agreement.
+(k)
+PATRIOT Act
+.  The Purchaser hereby notifies each other party hereto that pursuant to the requirements of the Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act of 2001 (Title III of Pub. L. 107-56 (signed into law October 26, 2001)) (the “
+PATRIOT Act
+”), it is required to obtain, verify and record information that identifies each such party, which information includes the name, address, tax identification number and other information that will allow the Purchaser to identify such party in accordance with the PATRIOT Act. This notice is given in accordance with the requirements of the PATRIOT Act.  Upon the reasonable request of the Purchaser, the Seller shall provide to the Purchaser the documentation and other information so requested in connection with applicable “know your customer” and anti-money-laundering and counter-terrorist financing laws, rules, and regulations. The Seller shall promptly notify the Purchaser of any change(s) to beneficial ownership or control party information.
+(l)
+Divisions
+.  For all purposes under the Transaction Documents, in connection with any division or plan of division under Delaware law (or any comparable event under a different jurisdiction’s laws): (i) if any asset, right, obligation or liability of any Person becomes the asset, right, obligation or liability of a different Person, then it shall be deemed to have been transferred from the original Person to the subsequent Person, and (ii) if any new Person comes into existence, such new Person shall be deemed to have been organized on the first date of its existence by the holders of its Capital Stock at such time.
+(m)
+Accounting Treatment; Non-Reliance
+.  The Seller agrees and acknowledges that (i) it is a sophisticated party in relation to this Agreement; (ii) it has made its own independent decision to enter into this Agreement, the other Transaction Documents to which it is a party and the transactions contemplated hereby and thereby and, in connection therewith, has obtained such independent accounting, legal, tax, financial and other advice as it deems necessary and appropriate (including, without limitation, as to the appropriate treatment of such transactions for accounting, legal, tax and other purposes) and (iii) it has not relied upon any representation or advice from the Purchaser, any of its Affiliates or any of their respective directors, officers, employees, contractors, counsel, advisors or other representatives in this regard.
+(n)
+Confidentiality
+.  Each party hereto agrees to hold the Transaction Documents, the transactions contemplated thereby and all non-public information received by it in connection therewith from any other party hereto or its agents or representatives in confidence and agrees not to provide any Person with copies of this Agreement, the other Transaction Documents or such non-public information other than to (i) its Affiliates and any officers, directors, members, managers, employees or outside accountants, auditors or attorneys of such party or its Affiliates, (ii) any prospective or actual assignee or participant which (in each case) has signed a confidentiality agreement containing provisions substantively similar to this
+Section 11(n)
+or has agreed to be subject to the terms of this
+Section 1(n)
+, (iii) credit support providers (including providers of credit insurance and brokers for providers
+10
+of credit insurance) if they agree to hold it confidential pursuant to customary commercial terms, (iv) Governmental Authorities with appropriate jurisdiction (including filings required under securities laws) and (v) appropriate filings under the UCC.  Notwithstanding the above stated obligations, the parties hereto will not be liable for disclosure or use of such information which: (i) was required by Applicable Law, including pursuant to a valid subpoena or other legal process, (ii) is disclosed or used in connection with the exercise of any remedies hereunder or any suit, action or proceeding relating to this Agreement or any other Transaction Document or the enforcement of rights hereunder or thereunder, (iii) was in such Person’s possession or known to such Person prior to receipt or (iv) is or becomes known to the public through disclosure in a printed publication (without breach of any of such Person’s obligations hereunder).
+(o)
+Third Party Rights
+.  Other than as specifically provided in this Agreement, no Person not a party to this Agreement shall be deemed a third party beneficiary hereof.
+12.
+Register
+.  The Purchaser, acting solely for this purpose as a non-fiduciary agent of the Seller, shall maintain a register (the “
+Register
+”) on which it shall record the rights of the Purchaser and any assignee or participant of the Purchaser with respect to the rights under this Agreement and any Purchased Receivable Portion, and each assignment or participation.  The Register shall include the names and addresses of the Purchaser, assignees, participants or successors and the percentage or portion of such rights and obligations assigned or participated.  The entries in the Register shall be conclusive absent manifest error;
+provided
+,
+however
+, that a failure to make any such recordation, or any error in such recordation shall not affect the Seller’s obligations in respect of such rights.
+[Signatures Commence on the Following Page]
+11
+IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed as of the date first above written.
+WELLCARE PRESCRIPTION INSURANCE, INC.,
+as Seller
+By:________________________________________
+Name:
+Title:
+Signature Page 1 of 2
+MUFG BANK, LTD., as Purchaser
+By:________________________________________
+Name:
+Title:
+Signature Page 2 of 2

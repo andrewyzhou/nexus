@@ -1,0 +1,169 @@
+EX-21.1
+5
+ntap-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+SUBSIDIARIES OF THE COMPANY
+Name
+Jurisdiction of Incorporation or Organization
+NetApp Argentina S.R.L.
+Argentina
+NetApp Australia Pty Ltd
+Australia
+Instaclustr Pty Ltd
+Australia
+NetApp Austria GmbH
+Austria
+BYMS International, Inc.
+Barbados
+NetApp Belgium BV
+Belgium
+NetApp Global Limited
+Bermuda
+NetApp Global Holdings Ltd.
+Bermuda
+NetApp International Holdings Ltd.
+Bermuda
+NetApp Brasil Solucoes de Gerenciamento e Armazenamento de Dados Ltda
+Brazil
+NetApp U.S. Public Sector, Inc.
+California
+NetCache, Inc.
+California
+NetApp Canada Ltd.
+Canada
+NetApp VTC, Inc.
+Canada
+NetApp Chile Limitada
+Chile
+NetApp (Shanghai) Commercial Co., Ltd.
+China
+NetApp Holdings Limited
+Cyprus
+NetApp Capital Solutions, Inc.
+Delaware
+SolidFire International, LLC
+Delaware
+Cloud Jumper LLC
+Delaware
+NetApp R&D LLC
+Delaware
+Onaro, Inc.
+Delaware
+StackPointCloud, LLC
+Delaware
+Spotinst LLC
+Delaware
+Talon Storage Solutions, Inc.
+Delaware
+CloudCheckr LLC
+Delaware
+Data Mechanics, LLC
+Delaware
+Fylamynt LLC
+Delaware
+NetApp US Holdings, Inc.
+Delaware
+Instaclustr US Holding Inc.
+Delaware
+Instaclustr, Inc.
+Delaware
+NetApp Denmark ApS
+Denmark
+NetApp Finland Oy
+Finland
+NetApp France SAS
+France
+Data Mechanics SAS
+France
+NetApp Deutschland GmbH
+Germany
+Caravan GmbH
+Germany
+NetApp (China) Limited
+Hong Kong
+NetApp (Hong Kong) Limited
+Hong Kong
+NetApp Iceland ehf.
+Iceland
+NetApp India Private Limited
+India
+NetApp India Marketing and Services Private Limited
+India
+PT. NetApp Indonesia
+Indonesia
+Network Appliance (Sales) Limited
+Ireland
+NetApp Ireland Limited
+Ireland
+Cognigo Research Ltd
+Israel
+NetApp Israel R&D Ltd.
+Israel
+NetApp Israel Sales Limited
+Israel
+Plexistor Ltd.
+Israel
+Spotinst Ltd.
+Israel
+NetApp Italia S.r.l.
+Italy
+NetApp G.K.
+Japan
+NetApp Korea Limited
+Korea
+NetApp Luxembourg S.a.r.l.
+Luxembourg
+NetApp Malaysia Sdn. Bhd.
+Malaysia
+NetApp Mexico S. de R.L. de C.V.
+Mexico
+NetApp New Zealand Limited
+New Zealand
+NetApp Nigeria Limited
+Nigeria
+NetApp Norway AS
+Norway
+Name
+Jurisdiction of Incorporation or Organization
+NetApp Poland Sp. spółka z ograniczoną odpowiedzialnością
+Poland
+NetApp Russia LLC
+Russia
+Network Appliance Saudi Arabia LLC
+Saudi Arabia
+NetApp Regional Headquarter Company
+Saudi Arabia
+NetApp Singapore Pte. Ltd.
+Singapore
+NetApp South Africa (Pty) Limited
+South Africa
+NetApp Spain Sales SL
+Spain
+NetApp Sweden AB
+Sweden
+NetApp Switzerland GmbH
+Switzerland
+NetApp (Thailand) Limited
+Thailand
+Decru B.V.
+The Netherlands
+NA Technology C.V.
+The Netherlands
+NetApp Asia Pacific Holdings B.V.
+The Netherlands
+NetApp B.V.
+The Netherlands
+NetApp Holding & Manufacturing B.V.
+The Netherlands
+SolidFire B.V.
+The Netherlands
+NetApp Teknoloji Limited Sirketi
+Turkey
+NetApp UK Ltd.
+United Kingdom
+NetApp UK Holdings Ltd.
+United Kingdom
+NetApp Vietnam Company Limited
+Vietnam

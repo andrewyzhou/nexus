@@ -1,0 +1,85 @@
+TICKER: LTRX
+============================================================
+
+--- SUPPLY_CHAIN ---
+supply chain and logistics solutions. Our Industrial IoT devices are designed
+to be flexible in the field while offering a variety of connectivity options to suit customers’ needs across 4G, 5G and LTE cellular
+networks. These power-efficient products are designed to support communications across interfaces and industrial protocols for vehicle,
+fleet and asset tracking and equipment management. Many of the products are offered with software tools intended to further accelerate
+our customers’ time-to-market and increase their value add. Our Industrial IoT products are pre-certified in a number of countries,
+significantly reducing our OEM customers’ regulatory certification costs and accelerating their time-to-market. As Edge Computing deployment accelerates, Out-of-Band (OOB) Management
+allows for full comprehension and control of remote information technology (“IT”) infrastructure across a range of sensors
+(e.g., temperature, humidity, light, acceleration, open/close, etc.), providing status and alerting while enabling automation and remote
+control of devices, servers and end stations. OOB uses a dedicated management network to access critical infrastructure components and
+ensure production-independent connectivity. Remote Management allows organizations to effectively monitor and control their enterprise
+IT equipment and facilities (environments), either in or out of band, optimizing their IT support resources. Our Advanced OOB product line includes console management, power management
+and IP-connected keyboard-video-mouse (commonly referred to as “IPKVM”) products that provide remote access to IT and networking
+infrastructure deployed in test labs, data centers, branch offices, remote sites and server rooms. Software and Engineering Services Our Software as a Service (“SaaS”) platform offers comprehensive
+single-pane-of-glass management for OOB and IoT deployments. Our platform enables customers to easily deploy, monitor, manage and automate
+across their global deployments, all from a single platform login, virtually and seamlessly connected as if located directly on each device.
+Our platform eliminates the need to have 24/7 personnel on site and makes it easy to observe and address issues quickly, even in large-scale
+deployments. For OEMs and System Integrators (“SI”) our platform offers
+multitenancy functionality for supporting a broad customer base while ensuring customer separation and data security. Over the Air (“OTA”)
+updates streamline the process of security patches, firmware upgrades and configuration changes, keeping devices up to date and secure. We leverage our deep engineering expertise and product development best
+practices to deliver high-quality, innovative products cost-effectively and on schedule. Our engineering services model is flexible, offering
+either turnkey product development or team augmentation to accelerate complex product development challenges, such as camera tuning, voice
+control, machine learning, AI, computer vision, augmented/virtual reality, and more. In addition to our production-ready edge computing solutions, we offer
+experienced multidisciplinary engineering services across complete aspects of IoT product development, including hardware, software, mechanical
+engineering, rapid prototyping, and quality assurance. Our specialized services also extend to camera, audio, and AI/machine learning
+development, ensuring our customers can bring cutting-edge products to market faster and with greater reliability. Our engineering design services are a key component of our business model,
+enabling clients to accelerate product development and market readiness. The services focus on designing and developing high-quality,
+innovative IoT and embedded solutions. We leverage extensive expertise in hardware and software engineering to provide custom designs
+for complex applications, helping customers reduce costs and time-to-market while improving performance and reliability. Our design services are especially valuable in the development
+of IoT systems, remote management solutions, and edge computing applications. Our engineering teams have experience across a range of
+technologies, including embedded systems, wireless connectivity, and custom hardware. By integrating these design services, we offer end-to-end
+support, from concept through to manufacturing, allowing businesses to focus more on core operations while still achieving advanced technological
+outcomes. This strategy positions us as a go-to partner for companies needing specialized
+engineering capabilities for industrial, automotive, medical, and other high-tech applications. 3 Net Revenue by Product Line We have one operating and reportable business segment. A summary of our
+net revenue by product line is found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations”
+included in Part II, Item 7 of this Report, which is incorporated herein by reference. A discussion of factors potentially affecting our
+net revenue and other operating results is set forth in “
+
+--- VENDORS ---
+vendors. However, we have several single-sourced supplier relationships, either because
+alternative sources are not available or because the relationship is advantageous to us. Research and Development Our research and development efforts are focused on the development of
+hardware and software technology to differentiate our products and enhance our competitive position in the markets we serve. Product research
+and development is primarily performed in-house and supplemented with outsourced resources. Competition Our industry is highly competitive and characterized by rapid technological
+advances and evolving industry standards. The market can be affected significantly by new product introductions and marketing activities
+of industry participants. We believe that we compete for customers based on product features, software capabilities, company reputation,
+brand recognition, technical support, relationships with partners, quality, reliability, product development capabilities, price and availability.
+A discussion of factors potentially affecting our ability to compete in the markets in which we operate is set forth in “
+
+--- MANUFACTURING ---
+contract manufacturers. OEMs design and sell products under their own brand that
+are either manufactured by the OEM in-house or by third-party contract manufacturers. ODMs design and manufacture products for third parties,
+which then sell those products under the third parties’ brands. The design cycles using our embedded solutions typically range from
+nine to 24 months and can generate revenue for the entire life cycle of an end user’s product. Our IoT System Solutions are typically sold to end users through value-added
+resellers (“VARs”), systems integrators, distributors, online retailers and, to a lesser extent, OEMs. The design cycles for
+these products typically range from three to 18 months and are often project-based. Sales Channels Distributors A majority of our sales are made through distributors. Distributors resell
+our products to a wide variety of resellers and end customers including OEMs, ODMs, VARs, systems integrators, consumers, online retailers,
+IT resellers, corporate customers and government entities. Resellers Our products are sold by industry-specific system integrators and VARs,
+who often obtain our products from our distributors. Additionally, our products are sold by direct market resellers such as CDW, ProVantage,
+and Amazon.com. Direct Sales We sell products directly to larger OEMs and end users. We also maintain
+an e-commerce site for direct sales. Sales and Marketing We sell our products primarily through an internal sales force, which includes
+regional sales managers, inside sales personnel and field applications engineers in major regions throughout the world. This team manages
+our relationships with our partners and end users, identifies and develops new sales opportunities and increases penetration at existing
+accounts. We implement marketing programs, tools, and services, including displaying our products at industry-specific events, to generate
+sales leads and increase demand for our products. 4 Manufacturing Our manufacturing operations are currently conducted through third-party
+contract manufacturers. We currently utilize Hana Microelectronics, primarily located in Thailand and China, Honortone and In-Tech primarily
+located in China, and Tailyn, Info-Tek and Rubytech in Taiwan as our contract manufacturers for most of our products. In addition, we
+use Marvell Technology Inc., to manage the manufacture of our large-scale integration chips in Taiwan. We manufacture certain products
+with final assembly in the U.S. to meet trade compliance requirements. Our contract manufacturers source
+
+--- RAW_MATERIALS ---
+raw materials, components and
+integrated circuits, in accordance with our specifications and forecasts, and perform printed circuit board assembly, final assembly,
+functional testing and quality control. Our products are manufactured and tested to our specifications with standard and custom components.
+Many of these components are available from multiple vendors. However, we have several single-sourced supplier relationships, either because
+alternative sources are not available or because the relationship is advantageous to us. Research and Development Our research and development efforts are focused on the development of
+hardware and software technology to differentiate our products and enhance our competitive position in the markets we serve. Product research
+and development is primarily performed in-house and supplemented with outsourced resources. Competition Our industry is highly competitive and characterized by rapid technological
+advances and evolving industry standards. The market can be affected significantly by new product introductions and marketing activities
+of industry participants. We believe that we compete for customers based on product features, software capabilities, company reputation,
+brand recognition, technical support, relationships with partners, quality, reliability, product development capabilities, price and availability.
+A discussion of factors potentially affecting our ability to compete in the markets in which we operate is set forth in “
+

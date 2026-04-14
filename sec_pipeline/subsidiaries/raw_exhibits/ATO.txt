@@ -1,0 +1,82 @@
+EX-21
+5
+ato20250930ex-21.htm
+EX-21
+Document
+Exhibit 21
+SUBSIDIARIES OF ATMOS ENERGY CORPORATION
+Name
+State of
+Incorporation
+Percent of
+Ownership
+ATMOS ENERGY HOLDINGS, INC.
+(wholly owned by Atmos Energy Corporation)
+Delaware
+100%
+ATMOS ENERGY KANSAS SECURITIZATION I, LLC
+(wholly owned by Atmos Energy Corporation)
+Delaware
+100%
+BLUE FLAME INSURANCE SERVICES, LTD
+(wholly owned by Atmos Energy Corporation)
+Bermuda
+100%
+ATMOS ENERGY LOUISIANA INDUSTRIAL GAS, LLC
+(a limited liability company)
+(wholly owned by Atmos Energy Holdings, Inc.)
+Delaware
+100%
+ATMOS ENERGY SERVICES, LLC
+(a limited liability company)
+(wholly owned by Atmos Energy Holdings, Inc.)
+Delaware
+100%
+EGASCO, LLC
+(a limited liability company)
+(wholly owned by Atmos Energy Holdings, Inc.)
+Texas
+100%
+ATMOS POWER SYSTEMS, INC.
+(wholly owned by Atmos Energy Holdings, Inc.)
+Georgia
+100%
+ATMOS PIPELINE AND STORAGE, LLC
+(a limited liability company)
+(wholly owned by Atmos Energy Holdings, Inc.)
+Delaware
+100%
+UCG STORAGE, INC.
+(wholly owned by Atmos Pipeline and Storage, LLC)
+Delaware
+100%
+WKG STORAGE, INC.
+(wholly owned by Atmos Pipeline and Storage, LLC)
+Delaware
+100%
+ATMOS EXPLORATION AND PRODUCTION, INC.
+(wholly owned by Atmos Pipeline and Storage, LLC)
+Delaware
+100%
+TRANS LOUISIANA GAS PIPELINE, INC.
+(wholly owned by Atmos Pipeline and Storage, LLC)
+Louisiana
+100%
+TRANS LOUISIANA GAS STORAGE, INC.
+(wholly owned by Atmos Pipeline and Storage, LLC)
+Delaware
+100%
+ATMOS GATHERING COMPANY, LLC
+(a limited liability company)
+(wholly owned by Atmos Pipeline and Storage, LLC)
+Delaware
+100%
+PHOENIX GAS GATHERING COMPANY
+(wholly owned by Atmos Gathering Company, LLC)
+Delaware
+100%
+FORT NECESSITY GAS STORAGE, LLC
+(a limited liability company)
+(wholly owned by Atmos Pipeline and Storage, LLC)
+Delaware
+100%

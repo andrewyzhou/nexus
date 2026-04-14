@@ -1,0 +1,42 @@
+EX-21.1
+5
+fy2510-kxexhibit211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of Figma, Inc.*
+Name of Subsidiary
+Jurisdiction
+Figma Australia Pty Ltd
+Australia
+Figma Canada Ltd.
+Canada
+Figma UK Ltd.
+UK
+Figma France SAS
+France
+Figma GmbH
+Germany
+Weavy AI Ltd.
+Israel
+Figma India Private Limited
+India
+Figma Ireland Limited
+Ireland
+Figma Japan K.K.
+Japan
+Figma Singapore Pte. Limited
+Singapore
+Vmlapp Sweden AB
+Sweden
+Visly Inc.
+US – Delaware
+Figma Ventures LLC
+US – Delaware
+Figma International, LLC
+US – Delaware
+Payload CMS, LLC
+US – Delaware
+Weavy Inc.
+US – Delaware
+* Includes subsidiaries that do not fall under the definition of “significant subsidiary” as defined under Rule 1-02(w) of Regulation S-X.

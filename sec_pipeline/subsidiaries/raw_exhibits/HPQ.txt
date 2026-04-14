@@ -1,0 +1,556 @@
+EX-21
+5
+hp10-31x25ex21subsidiaries.htm
+EX-21
+Document
+Exhibit 21
+Subsidiaries of HP Inc.
+The registrant’s subsidiaries and affiliates as of October 31, 2025 are included in the list below.
+Name
+Jurisdiction
+HP Inc Argentina S.R.L.
+Argentina
+Polycom Telecomunicacoes do Brasil Ltda. - Argentina Branch
+Argentina
+HP PPS Australia Pty Ltd
+Australia
+Polycom Australia Pty Ltd
+Australia
+Tower Software Engineering Pty Ltd
+Australia
+HP Austria GmbH
+Austria
+HP Belgium BV
+Belgium
+HP Onyx Holding L.P.
+Bermuda
+HP Brasil Indústria e Comércio de Equipamentos Eletrônicos Ltda
+Brazil
+HP Brasil Indústria e Comércio de Equipamentos Eletrônicos Ltda. - Branch 01 (Tamboré)
+Brazil
+HP Brasil Indústria e Comércio de Equipamentos Eletrônicos Ltda. - Branch 2 (Sorocaba)
+Brazil
+HP Brasil Indústria e Comércio de Equipamentos Eletrônicos Ltda. - Branch 3 (Porto Alegre)
+Brazil
+HP Brasil Indústria e Comércio de Equipamentos Eletrônicos Ltda. - Branch 4 (Itapoá)
+Brazil
+Polycom Telecomunicacoes do Brasil Ltda.
+Brazil
+Simpress Comércio, Locação e Serviços Ltda
+Brazil
+AOME Holdings Ltd.
+British Virgin Islands
+HP Inc Bulgaria EOOD
+Bulgaria
+HP Canada Co. HP Canada Cie
+Canada
+HP Canada Development Co.
+Canada
+HP Canada Licensing L.P.
+Canada
+Plantronics Canada Inc.
+Canada
+Compaq Cayman Holdings Company
+Cayman Islands
+Compaq Cayman Holdings General Partnership II
+Cayman Islands
+Hewlett-Packard West Indies Limited
+Cayman Islands
+Plantronics International Ltd.
+Cayman Islands
+Comercializadora Plantronics Chile Limitada
+Chile
+HP Inc Chile Comercial Limitada
+Chile
+China HP Co., Ltd Hangzhou Branch
+China
+China HP Co., Ltd.
+China
+China HP Co., Ltd. Chengdu Branch
+China
+China HP Co., Ltd. Guangzhou Branch
+China
+China HP Co., Ltd. Nanjing Branch
+China
+China HP Co., Ltd. Shanghai Branch
+China
+China HP Co., Ltd Suzhou Branch
+China
+China HP Co., Ltd., Jiangan Branch
+China
+China HP Co., Ltd Jinan Branch
+China
+China HP Co., Ltd Shenyang Branch
+China
+China HP Co., Ltd Shenzhen Branch
+China
+China HP Co., Ltd Xian Branch
+China
+HP (Chongqing) Co., Ltd
+China
+Name
+Jurisdiction
+HP (Chongqing) Manufacturing, Export, Procurement and Settlement Co., Ltd
+China
+HP Information Technology R&D (Shanghai) Co., Ltd
+China
+HP Information Technology R&D (Shanghai) Co., Ltd Beijing Branch
+China
+HP Information Technology R&D (Shanghai) Co., Ltd. Suzhou Branch
+China
+HP Supply Chain Management (Shandong) Co., Ltd.
+China
+HP Trading (Shanghai) Co. Ltd.
+China
+HP Trading (Shanghai) Co., Ltd. Dalian Branch
+China
+HP Trading (Shanghai) Co., Ltd. Zhangjiang Branch
+China
+HP Trading Kunshan Co., Ltd.
+China
+Plantronics Trading (Suzhou) Co., Ltd
+China
+Polycom Communication Solutions (Beijing) Co. Ltd.
+China
+Polycom Communications Technology (Beijing) Co. Ltd.
+China
+Shanghai Peridot Printing Co. Ltd.
+China
+HP Colombia SAS
+Colombia
+Plantronics BV Sucursal Colombia
+Colombia
+HP Inc. Costa Rica Limitada
+Costa Rica
+HP PPS Costa Rica Limitada
+Costa Rica
+HP Computing and Printing d.o.o. za računalne i srodne aktivnosti
+Croatia
+HP Inc Czech Republic s.r.o.
+Czech Republic
+Compaq Information Technologies, LLC
+Delaware, United States
+Hewlett-Packard Company Archives LLC (50% owned)
+Delaware, United States
+Hewlett-Packard Enterprises, LLC
+Delaware, United States
+Hewlett-Packard World Trade, LLC
+Delaware, United States
+HP Health Solutions Inc.
+Delaware, United States
+Hip Hop Holdco LLC
+Delaware, United States
+HP Hewlett Packard Group LLC (50% owned)
+Delaware, United States
+HP Jade Holding LLC
+Delaware, United States
+HP Licensing Holding LLC
+Delaware, United States
+HP R&D Holding LLC
+Delaware, United States
+HP Technology Holdings LLC
+Delaware, United States
+HP US Digital LLC
+Delaware, United States
+HP USA Manufacturing LLC
+Delaware, United States
+HPI Bermuda Holdings LLC
+Delaware, United States
+HPI Brazil Holdings LLC
+Delaware, United States
+HPI Federal LLC
+Delaware, United States
+HPI J1 Holdings LLC
+Delaware, United States
+HPQ Holdings, LLC
+Delaware, United States
+Indigo America, Inc.
+Delaware, United States
+Jaguar Merger Corp.
+Delaware, United States
+Peridot Print LLC
+Delaware, United States
+PictureTel LLC
+Delaware, United States
+Plantronics, Inc.
+Delaware, United States
+Polycom International Corporation
+Delaware, United States
+Polycom, LLC
+Delaware, United States
+Name
+Jurisdiction
+Vyopta Incorporated
+Delaware, United States
+HP Inc Danmark ApS
+Denmark
+HP Egypt LLC
+Egypt
+Apogee Corporation Limited
+England & Wales
+Apogee Europe Limited
+England & Wales
+Apogee Group Limited
+England & Wales
+Apogee Managed Services International Limited
+England & Wales
+Apogee Rentals Limited
+England & Wales
+Balreed Digitec (Group) Limited
+England & Wales
+Balreed Digitec (North) Limited
+England & Wales
+Balreed Digitec (SE) Limited
+England & Wales
+Balreed Digitec (UK) Limited
+England & Wales
+Choose Water Limited
+England & Wales
+City Docs Limited
+England & Wales
+City Docs Solutions Limited
+England & Wales
+Datatron Document Image Archiving Limited
+England & Wales
+Direct-Tec Group Limited
+England & Wales
+Direct-Tec UK Limited
+England & Wales
+F. Smith & Co (Office Equipment) Limited
+England & Wales
+HP Inc UK Limited
+England & Wales
+HP UK Development Limited
+England & Wales
+Manzana Bidco Limited
+England & Wales
+Office Perfection Limited
+England & Wales
+Perigee Holdco UK Limited
+England & Wales
+Perigee Midco UK Limited
+England & Wales
+Plantronics Limited
+England & Wales
+The Danwood Group Limited
+England & Wales
+Xact Document Solutions Limited
+England & Wales
+Xera-Logic Group Limited
+England & Wales
+HP Finland Oy
+Finland
+Apogee France Holdings SAS
+France
+Apogee France SAS
+France
+Apogee International
+France
+HP France Holding SAS
+France
+HP France SAS
+France
+Plantronics B.V., Succursale Francaise
+France
+Polycom (France), S.A.R.L.
+France
+Apogee Deutschland GmbH
+Germany
+Apogee Germany Holding UG
+Germany
+HP Deutschland GmbH
+Germany
+HP Health Solutions Germany GmbH
+Germany
+Plantronics Services GmbH
+Germany
+HP Συστήματα Εκτύπωσης και Προσωπικών Υπολογιστών Ελλάς ΕΠΕ (HP Printing and Personal Systems Hellas EPE)
+Greece
+HP Inc AP Hong Kong Limited
+Hong Kong
+Name
+Jurisdiction
+HP Inc Hong Kong Limited
+Hong Kong
+Polycom Hong Kong Limited
+Hong Kong
+HP Inc Magyarország Kft.
+Hungary
+HP Computing and Printing Systems India Private Limited
+India
+HP India Sales Private Limited
+India
+HP PPS India Operations Private Limited
+India
+HP PPS Services India Private Limited
+India
+Polycom Technology (R&D) Center Private Ltd
+India
+Plantronics BV - Indonesia Rep Office
+Indonesia
+PT Hewlett-Packard Indonesia
+Indonesia
+Apogee Corporation (Ireland) Limited
+Ireland
+Hewlett-Packard Ireland (Holdings) Ltd.
+Ireland
+Hewlett-Packard Ireland 1, Limited
+Ireland
+HP Production Company Limited
+Ireland
+HP Technology Ireland Limited
+Ireland
+Poly Communications International Unlimited Company
+Ireland
+Argon Business Systems Limited
+Isle of Man
+Argon Office Systems Limited
+Isle of Man
+HP Indigo Ltd
+Israel
+HP Israel Ltd
+Israel
+HP Scitex Ltd
+Israel
+HP Technology Israel Ltd
+Israel
+Polycom Israel Ltd
+Israel
+HP Italy S.r.l.
+Italy
+Polycom (Italy) S.r.l
+Italy
+HP Japan Inc.
+Japan
+Nihon HP Nin-I Kumiai
+Japan
+Albacore Holdings Jersey Ltd
+Jersey
+Apogee Corporation (Jersey) Limited
+Jersey
+Manzana Holdings Limited
+Jersey
+HP Global Trading B.V., Kazakhstan Branch
+Kazakhstan
+HP Korea Inc.
+Korea (the Republic of)
+HP Printing Korea Co., Ltd.
+Korea (the Republic of)
+HP Luxembourg S.C.A.
+Luxembourg
+HP Malaysia Manufacturing Sdn. Bhd.
+Malaysia
+HP PPS Malaysia Sdn. Bhd.
+Malaysia
+HP PPS Sales Sdn. Bhd.
+Malaysia
+Polycom Asia Pacific Pte. Ltd - Malaysia Branch
+Malaysia
+Plantronics Europe Limited
+Malta
+CyberCore Technologies, LLC
+Maryland, United States
+Computing and Printing Global Services Mexico, S. de R.L. de C.V.
+Mexico
+Computing and Printing Mexico, S. de R.L. de C.V.
+Mexico
+Plamex, S.A. de C.V.
+Mexico
+Poly-com, S. de R.L. de C.V.
+Mexico
+Name
+Jurisdiction
+HP PPS Maroc
+Morocco
+Alpha Holding One B.V.
+Netherlands
+Alpha Holding Two B.V.
+Netherlands
+Anatolus Holding B.V.
+Netherlands
+Arnon Holding B.V.
+Netherlands
+Bamberga Holding B.V.
+Netherlands
+Eunomia Holding B.V.
+Netherlands
+Flame Holding B.V.
+Netherlands
+Hewlett-Packard (Japan NK) Holdings C.V.
+Netherlands
+Hewlett-Packard Copenhagen B.V.
+Netherlands
+Hewlett-Packard Global Holdings B.V.
+Netherlands
+Hewlett-Packard Global Investments B.V.
+Netherlands
+Hewlett-Packard Japan Holding B.V.
+Netherlands
+Hewlett-Packard Sunnyvale B.V.
+Netherlands
+HP China Holding B.V.
+Netherlands
+HP Europe B.V.
+Netherlands
+HP Global Trading B.V.
+Netherlands
+HP Health Holding B.V.
+Netherlands
+HP Indigo B.V.
+Netherlands
+HP International Trading B.V.
+Netherlands
+HP Nederland B.V.
+Netherlands
+Kale Holding B.V.
+Netherlands
+Lyra Holding B.V.
+Netherlands
+Perseus Holding B.V.
+Netherlands
+Plantronics B.V.
+Netherlands
+Regor Holding B.V.
+Netherlands
+HP New Zealand
+New Zealand
+HP Computing and Printing Nigeria Ltd
+Nigeria
+HP Norge AS
+Norway
+HP Pakistan (Private) Limited
+Pakistan
+HP Panama Sales and Distribution, S. de R.L.
+Panama
+HP Inc Peru S.R.L.
+Peru
+HP PPS Philippines Inc.
+Philippines
+Plantronics BV - Philippines Rep Office
+Philippines
+HP Inc Polska sp. z o.o.
+Poland
+CM Advanced Printing Iberia Portuguese Branch Office (50% owned)
+Portugal
+HPCP – Computing and Printing Portugal, Unipessoal, Lda.
+Portugal
+HP International Trading B.V. (Puerto Rico Branch), LLC
+Puerto Rico
+HP Puerto Rico LLC
+Puerto Rico
+Kale Holding B.V. (Puerto Rico Branch) LLC
+Puerto Rico
+Hewlett-Packard KSA Ltd., Qatar Branch
+Qatar
+HP Inc Romania SRL
+Romania
+Limited Liability Company HP Inc
+Russian Federation
+HP KSA Ltd.
+Saudi Arabia
+Name
+Jurisdiction
+HP Middle East and North Africa Regional Headquarters (Single Shareholder LLC)
+Saudi Arabia
+Polycom Saudi Limited
+Saudi Arabia
+HP Computing and Printing d.o.o. Novi Beograd
+Serbia
+HP International Pte. Ltd.
+Singapore
+HP PPS Asia Pacific Pte. Ltd.
+Singapore
+HP PPS Singapore (Sales) Pte. Ltd.
+Singapore
+HP R&D Singapore Pte. Ltd.
+Singapore
+HP Singapore (Private) Limited
+Singapore
+HP Singapore Financing Pte. Ltd.
+Singapore
+HP Singapore Holding Pte. Ltd.
+Singapore
+HP Singapore Services Pte. Ltd.
+Singapore
+Peridot Print Singapore Pte. Ltd.
+Singapore
+Polycom Asia Pacific Pte. Ltd.
+Singapore
+Polycom Global (Singapore) Pte. Ltd.
+Singapore
+HP Inc Slovakia, s.r.o.
+Slovakia
+HP South Africa Proprietary Limited
+South Africa
+HP South Africa Trust
+South Africa
+Burokopy, S.L. (50% owned)
+Spain
+CM Advanced Printing Iberia, S.A. (50% owned)
+Spain
+HP Printing and Computing Solutions, S.L.U.
+Spain
+HP Solutions Creation and Development Services S.L.U.
+Spain
+Peridot Print Spain S.L.U.
+Spain
+Polycom Solutions (Spain) SL
+Spain
+Soluciones Integrales De Impresión S.L. (50% owned)
+Spain
+Tot Servei Ofitmatica I Manteniment, S.L.U. (50% owned)
+Spain
+HP PPS Sverige AB
+Sweden
+Plantronics Sweden, filial of Plantronics B.V., the Netherlands
+Sweden
+HP Europe BV, Amsterdam, Meyrin Branch
+Switzerland
+HP International Sàrl
+Switzerland
+HP Schweiz GmbH
+Switzerland
+HP Suisse Services Sàrl
+Switzerland
+Peridot Print Switzerland SARL
+Switzerland
+HP International Pte. Ltd. Hsinchu Branch
+Taiwan
+HP International Pte. Ltd., Taiwan Branch
+Taiwan
+HP Taiwan Information Technology Ltd.
+Taiwan
+Polycom Asia Pacific Pte. Ltd, Taiwan Branch
+Taiwan
+Hewlett-Packard Development Company, L.P.
+Texas, United States
+HP Inc (Thailand) Ltd.
+Thailand
+Polycom Global Limited
+Thailand
+HP Inc Tunisie SARL
+Tunisia
+HP Bilgisayar ve Baskı Teknolojileri Limited Şirketi
+Turkey
+Polycom Unified Iletisim Sanayi ve Ticaret Limited Sirketi
+Turkey
+HP Computing and Printing Middle East FZ-LLC
+United Arab Emirates
+HP Europe B.V. - Abu Dhabi
+United Arab Emirates
+Name
+Jurisdiction
+HP Europe B.V. Regional Dubai Branch
+United Arab Emirates
+HP Inc Gulf
+United Arab Emirates
+Polycom (Mena) FZ-LLC
+United Arab Emirates
+HP CA mas'uliyati cheklangan jamiyati shaklidagi xorijiy korxonasi (HP CA Foreign Enterprise Limited Liability Company)
+Uzbekistan
+Tall Tree Insurance Company
+Vermont, United States
+HP Technology Vietnam Company Ltd
+Vietnam
+HP Technology Vietnam Company Ltd (Hanoi Branch)
+Vietnam

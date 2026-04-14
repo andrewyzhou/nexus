@@ -1,0 +1,30 @@
+EX-21.1
+10
+msci-20251231x10kex211.htm
+EX-21.1
+Document
+Exhibit 21.1
+Subsidiaries of MSCI Inc.
+The following is a list of the subsidiaries of MSCI Inc., excluding those subsidiaries that, considered in the aggregate as a single subsidiary, do not constitute a significant subsidiary as of December 31, 2025.
+Name
+Jurisdiction of Incorporation/Organization
+Barra, LLC
+Delaware, U.S.A.
+Investment Property Databank Limited
+United Kingdom
+MSCI Barra (Suisse) Sàrl
+Switzerland
+MSCI G.K.
+Japan
+MSCI Limited
+United Kingdom
+MSCI Solutions (UK) Limited
+United Kingdom
+MSCI Solutions LLC
+Delaware, U.S.A.
+Real Capital Analytics, Inc.
+New York, U.S.A.
+RiskMetrics Solutions, LLC
+Delaware, U.S.A.
+The Burgiss Group, LLC
+New Jersey, U.S.A.

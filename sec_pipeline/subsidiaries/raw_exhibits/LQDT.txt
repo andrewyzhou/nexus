@@ -1,0 +1,29 @@
+EX-21.1
+9
+lqdt-ex21_1.htm
+EX-21.1
+EX-21.1
+Exhibit 21.1
+SUBSIDIARIES OF LIQUIDITY SERVICES, INC.
+The following is a list of subsidiaries of Liquidity Services, Inc., the names under which such subsidiaries do business, and the state or country in which each was organized as of November 20, 2025. The list does not include subsidiaries which would not, if considered in the aggregate as a single subsidiary, constitute a significant subsidiary within the meaning of Item 601(b)(21)(ii) of Regulation S-K.
+Company
+Jurisdiction of Organization
+DBAs
+Liquidity Services Operations LLC
+Delaware
+GovDeals                                   AllSurplus  Liquidation.com
+Liquidity Services Limited
+United Kingdom
+N/A
+GoIndustry-DoveBid Limited
+United Kingdom
+N/A
+Machinio Corp.
+Delaware
+N/A
+Bid4Assets, Inc.
+Maryland
+N/A
+Sierra Auction Management, Inc.
+Arizona
+N/A

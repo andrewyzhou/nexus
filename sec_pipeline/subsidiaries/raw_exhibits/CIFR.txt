@@ -1,0 +1,41 @@
+EX-21.1
+6
+exh211subsidiariesasof1231.htm
+EX-21.1
+Document
+Exhibit 21.1
+SUBSIDIARIES OF CIPHER MINING INC.
+Name of Subsidiary
+Jurisdiction
+Barber Lake East LLC
+Delaware
+Bit56 LLC
+Delaware
+Cipher Barber Lake LLC
+Delaware
+Cipher Black Pearl LLC
+Delaware
+Cipher Compute LLC
+Delaware
+Cipher Mining (Canada) Inc.
+Canada
+Cipher Mining Infrastructure LLC
+Delaware
+Cipher Mining Technologies Inc.
+Delaware
+Cipher Operations and Maintenance LLC
+Delaware
+Cipher Reveille LLC
+Delaware
+Cipher Songbird LLC
+Delaware
+Cipher Stingray LLC
+Delaware
+Cipher Technology Inc.
+Delaware
+Colchis LLC
+Delaware
+Milsing BESS LLC
+Texas
+Odessa Mining LLC
+Delaware
