@@ -319,7 +319,7 @@ html[data-theme="light"] .track-control-btn {
 }
 
 /* Track Filters */
-#track-list {
+#track-list, #pinned-list {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -356,6 +356,7 @@ html[data-theme="light"] .track-control-btn {
   flex-shrink: 0;
 }
 .track-open:hover { opacity: 1; }
+
 
 .track-dot {
   width: 9px;

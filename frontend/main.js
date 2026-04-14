@@ -71,6 +71,7 @@ async function init() {
 
   const searchInput = document.getElementById('search-input');
   searchInput.addEventListener('input', onSearch);
+  searchInput.addEventListener('focus', () => { if (searchInput.value.trim()) onSearch({ target: searchInput }); });
   searchInput.addEventListener('blur', () => setTimeout(hideSearchDropdown, 150));
   document.getElementById('track-select-all')?.addEventListener('click', selectAllTracks);
   document.getElementById('track-clear-all')?.addEventListener('click', clearAllTracks);
@@ -131,6 +132,37 @@ function buildSidebar(tracks, nodes) {
   });
 }
 
+function renderPinnedList() {
+  const section = document.getElementById('pinned-section');
+  const list    = document.getElementById('pinned-list');
+  if (!section || !list) return;
+
+  list.innerHTML = '';
+  if (pinnedNodes.size === 0) { section.style.display = 'none'; return; }
+  section.style.display = '';
+
+  pinnedNodes.forEach(id => {
+    const n = allNodes.find(n => n.id === id);
+    if (!n) return;
+    const t = tracks.find(t => t.id === n.track);
+    const color = t ? t.color : '#888';
+    const item = document.createElement('div');
+    item.className = 'track-item active';
+    item.title = 'Click to remove from graph';
+    item.innerHTML = `
+      <span class="track-dot" style="background:${color}; box-shadow:0 0 6px ${color}66"></span>
+      <span class="track-name">${n.ticker} <span class="track-count">${n.name}</span></span>
+    `;
+    item.addEventListener('click', () => {
+      pinnedNodes.delete(id);
+      if (selectedNode && selectedNode.id === id) closePanel();
+      applyVisibility({ skipFit: true });
+      renderPinnedList();
+    });
+    list.appendChild(item);
+  });
+}
+
 function buildEdgeLegend() {
   const container = document.getElementById('edge-legend');
   container.innerHTML = '';
@@ -158,21 +190,45 @@ function toggleTrack(trackId, itemEl) {
   applyVisibility();
 }
 
+function fuzzyScore(q, target) {
+  const t = target.toLowerCase();
+  if (t === q)           return 100;
+  if (t.startsWith(q))   return 90;
+  if (t.includes(q))     return 80;
+  // word-boundary prefix: e.g. "pri" matches "3D Printing"
+  if (t.split(/[\s\-_()]+/).some(w => w.startsWith(q))) return 70;
+  // subsequence: all query chars appear in order
+  let qi = 0;
+  for (let i = 0; i < t.length && qi < q.length; i++) {
+    if (t[i] === q[qi]) qi++;
+  }
+  if (qi === q.length) return Math.max(10, 60 - (t.length - q.length));
+  return -1;
+}
+
 function onSearch(e) {
   const q = e.target.value.trim().toLowerCase();
   searchQuery = q;
   if (!q) { hideSearchDropdown(); return; }
 
-  const matchedTracks = tracks.filter(t => t.label.toLowerCase().includes(q));
-  const matchedNodes  = allNodes.filter(n =>
-    n.ticker.toLowerCase().includes(q) || n.name.toLowerCase().includes(q)
-  ).slice(0, 8);
+  const scoredTracks = tracks
+    .map(t => ({ t, score: fuzzyScore(q, t.label) }))
+    .filter(x => x.score >= 0)
+    .sort((a, b) => b.score - a.score);
 
-  if (!matchedTracks.length && !matchedNodes.length) { hideSearchDropdown(); return; }
-  showSearchDropdown(matchedTracks, matchedNodes);
+  const scoredNodes = allNodes
+    .map(n => ({ n, score: Math.max(fuzzyScore(q, n.ticker), fuzzyScore(q, n.name)) }))
+    .filter(x => x.score >= 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 8);
+
+  if (!scoredTracks.length && !scoredNodes.length) { hideSearchDropdown(); return; }
+
+  const nodesFirst = (scoredNodes[0]?.score ?? -1) >= (scoredTracks[0]?.score ?? -1);
+  showSearchDropdown(scoredTracks.map(x => x.t), scoredNodes.map(x => x.n), nodesFirst);
 }
 
-function showSearchDropdown(matchedTracks, matchedNodes) {
+function showSearchDropdown(matchedTracks, matchedNodes, nodesFirst = false) {
   let dropdown = document.getElementById('search-dropdown');
   if (!dropdown) {
     dropdown = document.createElement('div');
@@ -182,29 +238,27 @@ function showSearchDropdown(matchedTracks, matchedNodes) {
 
   dropdown.innerHTML = '';
 
-  if (matchedTracks.length) {
+  const renderTracks = () => {
+    if (!matchedTracks.length) return;
     const header = document.createElement('div');
     header.className = 'search-dropdown-header';
     header.textContent = 'Tracks';
     dropdown.appendChild(header);
-
     matchedTracks.forEach(t => {
       const item = document.createElement('div');
       item.className = 'search-dropdown-item';
       item.innerHTML = `<span class="search-dot" style="background:${t.color}"></span><span>${t.label}</span>`;
-      item.addEventListener('mousedown', () => {
-        selectSearchTrack(t.id);
-      });
+      item.addEventListener('mousedown', () => selectSearchTrack(t.id));
       dropdown.appendChild(item);
     });
-  }
+  };
 
-  if (matchedNodes.length) {
+  const renderNodes = () => {
+    if (!matchedNodes.length) return;
     const header = document.createElement('div');
     header.className = 'search-dropdown-header';
     header.textContent = 'Companies';
     dropdown.appendChild(header);
-
     matchedNodes.forEach(n => {
       const t = tracks.find(t => t.id === n.track);
       const item = document.createElement('div');
@@ -216,7 +270,10 @@ function showSearchDropdown(matchedTracks, matchedNodes) {
       item.addEventListener('mousedown', () => selectSearchNode(n));
       dropdown.appendChild(item);
     });
-  }
+  };
+
+  if (nodesFirst) { renderNodes(); renderTracks(); }
+  else            { renderTracks(); renderNodes(); }
 
   dropdown.style.display = 'block';
 }
@@ -242,12 +299,11 @@ function selectSearchTrack(trackId) {
 function selectSearchNode(n) {
   pinnedNodes.add(n.id);
   applyVisibility({ skipFit: true });
+  renderPinnedList();
 
-  // Zoom to node once it has a position (give simulation a tick to place it)
+  // Fit all visible nodes once the new node has a position
   setTimeout(() => {
-    const live = allNodes.find(node => node.id === n.id);
-    if (live && isFinite(live.x) && isFinite(live.y)) zoomToNode(live);
-    openPanel(live || n);
+    fitView(allNodes.filter(nodeIsVisible));
   }, 120);
 
   document.getElementById('search-input').value = '';
@@ -653,10 +709,6 @@ function openPanel(d) {
 
 function closePanel() {
   panel.classList.remove('open');
-  if (selectedNode && pinnedNodes.has(selectedNode.id)) {
-    pinnedNodes.delete(selectedNode.id);
-    applyVisibility({ skipFit: true });
-  }
   selectedNode = null;
 }
 
