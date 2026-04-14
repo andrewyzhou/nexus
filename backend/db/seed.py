@@ -9,6 +9,10 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from config import DATABASE_URL
+try:
+    from db.seed_supplier_subsidary import seed_relationships
+except ModuleNotFoundError:
+    from seed_supplier_subsidary import seed_relationships
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TRACKS_CANDIDATES = [
@@ -151,6 +155,9 @@ def seed():
 
     conn.commit()
     conn.close()
+
+    print("\nStarting relationship seeding...")
+    seed_relationships()
 
     print("\n" + "=" * 50)
     print("SEED COMPLETE")
