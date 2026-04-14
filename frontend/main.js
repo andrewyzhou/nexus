@@ -582,6 +582,18 @@ function openPanel(d) {
   const capStr = fmtCap(mcap);
   const priceStr = d.price != null ? '$' + Number(d.price).toFixed(2) : '—';
 
+  // Fetch live data and update price/market cap in the panel
+  fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/live`)
+    .then(r => r.ok ? r.json() : null)
+    .then(live => {
+      if (!live || !panel.classList.contains('open')) return;
+      const mcEl = document.getElementById('panel-mcap');
+      const prEl = document.getElementById('panel-price');
+      if (mcEl && live.marketCap != null) mcEl.textContent = fmtCap(live.marketCap / 1e9);
+      if (prEl && live.price != null) prEl.textContent = '$' + Number(live.price).toFixed(2);
+    })
+    .catch(() => {});
+
   document.getElementById('panel-inner').innerHTML = `
     <div class="panel-header">
       <div>
@@ -600,11 +612,11 @@ function openPanel(d) {
       <div class="stat-grid">
         <div class="stat-card">
           <div class="stat-label">Market Cap</div>
-          <div class="stat-value">${capStr}</div>
+          <div class="stat-value" id="panel-mcap">${capStr}</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Price</div>
-          <div class="stat-value price">${priceStr}</div>
+          <div class="stat-value price" id="panel-price">${priceStr}</div>
         </div>
       </div>
 
