@@ -171,6 +171,7 @@ html, body {
 .sidebar-section.tracks-section #track-list {
   flex: 1 1 0;
   overflow-y: auto;
+  overflow-x: hidden;
   min-height: 0;
   padding-right: 2px;
 }
@@ -325,6 +326,121 @@ html[data-theme="light"] .track-control-btn {
   gap: 4px;
 }
 
+.pinned-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.pinned-item .track-item {
+  display: grid;
+  grid-template-columns: 14px 44px 1fr 16px;
+  align-items: center;
+  gap: 5px;
+}
+
+.pinned-ticker {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pinned-name {
+  font-size: 12px;
+  color: var(--text-muted);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pinned-close {
+  font-size: 10px;
+  color: var(--text-muted);
+  cursor: pointer;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.pinned-close:hover { color: var(--text-primary); }
+
+.pinned-chevron {
+  font-size: 11px;
+  color: var(--text-muted);
+  cursor: pointer;
+  line-height: 1;
+  text-align: right;
+}
+.pinned-chevron:hover { color: var(--text-primary); }
+
+.pinned-dropdown {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pinned-dropdown-loading,
+.pinned-dropdown-empty {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 2px 0;
+}
+
+.pinned-rel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.pinned-rel-section + .pinned-rel-section {
+  margin-top: 10px;
+}
+
+.pinned-rel-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.pinned-rel-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 4px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background var(--t-fast);
+}
+.pinned-rel-item:hover { background: var(--bg-hover); }
+
+.pinned-rel-ticker {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex-shrink: 0;
+  min-width: 36px;
+}
+
+.pinned-rel-name {
+  font-size: 11px;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .track-item {
   display: flex;
   align-items: center;
@@ -371,6 +487,10 @@ html[data-theme="light"] .track-control-btn {
   color: var(--text-primary);
   transition: color var(--t-fast);
   flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .track-count {
@@ -398,6 +518,12 @@ html[data-theme="light"] .track-control-btn {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  flex-shrink: 0;
+}
+
+.edge-swatch-arrow {
+  width: 28px;
+  height: 8px;
   flex-shrink: 0;
 }
 
@@ -556,6 +682,7 @@ html[data-theme="light"] .track-control-btn {
 .panel-body {
   flex: 1;
   overflow-y: auto;
+  overflow-x: hidden;
   min-height: 0;
   padding: var(--sp-md);
 }
@@ -637,6 +764,24 @@ html[data-theme="light"] .track-control-btn {
 }
 .panel-open-stock:hover { opacity: 1; }
 
+.panel-add-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 10px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background var(--t-fast), color var(--t-fast);
+}
+.panel-add-btn:hover {
+  background: var(--accent);
+  color: var(--bg-base);
+}
+
 .track-badge--link {
   text-decoration: none;
   cursor: pointer;
@@ -654,15 +799,17 @@ html[data-theme="light"] .track-control-btn {
 }
 
 .conn-item {
-  display: flex;
+  display: grid;
+  grid-template-columns: 76px 40px 1fr auto;
   align-items: center;
-  justify-content: space-between;
-  padding: 7px 10px;
+  gap: 8px;
+  padding: 6px 10px;
   background: var(--bg-raised);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: background var(--t-fast), border-color var(--t-fast);
+  overflow: hidden;
 }
 
 .conn-item:hover {
@@ -674,13 +821,42 @@ html[data-theme="light"] .track-control-btn {
   font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 700;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .conn-type {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-muted);
   text-transform: capitalize;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
+
+.conn-name {
+  font-size: 11px;
+  color: var(--text-secondary);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.conn-add-btn {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 2px;
+  transition: color var(--t-fast);
+}
+.conn-add-btn:hover { color: var(--accent); }
 
 /* ── Scrollbar (sidebar) ──────────────────────────────────── */
 #sidebar::-webkit-scrollbar,
