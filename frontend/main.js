@@ -119,7 +119,14 @@ function buildSidebar(tracks, nodes) {
   const list = document.getElementById('track-list');
   list.innerHTML = '';
 
-  tracks.forEach(track => {
+  const sorted = [...tracks].sort((a, b) => {
+    const aActive = !hiddenTracks.has(a.id);
+    const bActive = !hiddenTracks.has(b.id);
+    if (aActive !== bActive) return aActive ? -1 : 1;
+    return a.label.localeCompare(b.label);
+  });
+
+  sorted.forEach(track => {
     const count = nodes.filter(n => n.track === track.id).length;
     const item  = document.createElement('div');
     const isHidden = hiddenTracks.has(track.id);
@@ -133,7 +140,7 @@ function buildSidebar(tracks, nodes) {
     `;
     item.addEventListener('click', (e) => {
       if (e.target.classList.contains('track-open')) return;
-      toggleTrack(track.id, item);
+      toggleTrack(track.id);
     });
     list.appendChild(item);
   });
@@ -324,16 +331,13 @@ function buildEdgeLegend() {
   });
 }
 
-function toggleTrack(trackId, itemEl) {
+function toggleTrack(trackId) {
   if (hiddenTracks.has(trackId)) {
     hiddenTracks.delete(trackId);
-    itemEl.classList.remove('muted');
-    itemEl.classList.add('active');
   } else {
     hiddenTracks.add(trackId);
-    itemEl.classList.remove('active');
-    itemEl.classList.add('muted');
   }
+  buildSidebar(tracks, allNodes);
   applyVisibility();
 }
 

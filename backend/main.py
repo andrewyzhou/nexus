@@ -1,8 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import hashlib
-import sys
-from pathlib import Path
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
@@ -10,15 +8,7 @@ from config import DATABASE_URL
 app = Flask(__name__)
 CORS(app)
 
-# Make the live Yahoo scraper importable from the repo root.
-REPO_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPO_ROOT / "scraper"))
-try:
-    from scraper import StockScraper  # type: ignore
-    _scraper = StockScraper()
-except Exception as e:
-    print(f"[warn] live scraper unavailable: {e}")
-    _scraper = None
+import yfinance as yf
 
 
 def get_conn():
@@ -309,16 +299,43 @@ def get_track_news(slug):
 
 @app.route("/companies/<ticker>/live")
 def get_company_live(ticker):
-    """Bypass the DB and pull a fresh quote straight from Yahoo Finance."""
-    if _scraper is None:
-        return jsonify({"error": "live scraper unavailable"}), 503
+    """Pull a fresh quote from Yahoo Finance via yfinance."""
     try:
-        data = _scraper.get(ticker.upper())
+        t = yf.Ticker(ticker.upper())
+        info = t.info
     except Exception as e:
         return jsonify({"error": f"yahoo fetch failed: {e}"}), 502
-    if data is None:
+
+    if not info or info.get("quoteType") is None:
         return jsonify({"error": "Company not found"}), 404
-    return jsonify(data)
+
+    change_pct = info.get("regularMarketChangePercent")
+    return jsonify({
+        "ticker":             ticker.upper(),
+        "companyName":        info.get("longName") or info.get("shortName"),
+        "description":        info.get("longBusinessSummary"),
+        "sector":             info.get("sector"),
+        "industry":           info.get("industry"),
+        "country":            info.get("country"),
+        "price":              info.get("currentPrice") or info.get("regularMarketPrice"),
+        "changePercent":      change_pct / 100 if change_pct is not None else None,
+        "marketCap":          info.get("marketCap"),
+        "trailingPE":         info.get("trailingPE"),
+        "forwardPE":          info.get("forwardPE"),
+        "trailingEPS":        info.get("trailingEps"),
+        "fiftyTwoWeekHigh":   info.get("fiftyTwoWeekHigh"),
+        "fiftyTwoWeekLow":    info.get("fiftyTwoWeekLow"),
+        "open":               info.get("open"),
+        "previousClose":      info.get("previousClose"),
+        "dayHigh":            info.get("dayHigh"),
+        "dayLow":             info.get("dayLow"),
+        "volume":             info.get("volume"),
+        "avgVolume":          info.get("averageVolume"),
+        "dividendYield":      info.get("dividendYield") / 100 if info.get("dividendYield") is not None else None,
+        "beta":               info.get("beta"),
+        "fullTimeEmployees":  info.get("fullTimeEmployees"),
+        "website":            info.get("website"),
+    })
 
 
 @app.route("/tracks")
