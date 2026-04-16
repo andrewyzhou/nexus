@@ -50,11 +50,22 @@ async function loadGraphData() {
   return { ...mock, _source: 'mock' };
 }
 
-const STATE_KEY = 'nexus_graph_state';
+function getUserId() {
+  let uid = localStorage.getItem('nexus_user_id');
+  if (!uid) {
+    uid = crypto.randomUUID();
+    localStorage.setItem('nexus_user_id', uid);
+  }
+  return uid;
+}
+
+const STATE_KEY = `nexus_graph_state_${getUserId()}`;
+const STATE_VERSION = 2;
 
 function saveState() {
   try {
     localStorage.setItem(STATE_KEY, JSON.stringify({
+      v:            STATE_VERSION,
       pinnedNodes:  [...pinnedNodes],
       hiddenTracks: [...hiddenTracks],
     }));
@@ -64,8 +75,26 @@ function saveState() {
 function loadState() {
   try {
     const raw = localStorage.getItem(STATE_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      // Discard state saved before versioning was added (broken all-hidden default)
+      if (!parsed.v || parsed.v < STATE_VERSION) {
+        localStorage.removeItem(STATE_KEY);
+        return null;
+      }
+      return parsed;
+    }
+    // One-time migration: adopt any state saved under the old un-scoped key
+    const legacy = localStorage.getItem('nexus_graph_state');
+    if (legacy) {
+      localStorage.removeItem('nexus_graph_state');
+      const parsed = JSON.parse(legacy);
+      if (parsed.v && parsed.v >= STATE_VERSION) {
+        localStorage.setItem(STATE_KEY, legacy);
+        return parsed;
+      }
+    }
+    return null;
   } catch (_) { return null; }
 }
 
@@ -83,7 +112,7 @@ async function init() {
     hiddenTracks = new Set(saved.hiddenTracks.filter(id => validTrackIds.has(id)));
     pinnedNodes  = new Set(saved.pinnedNodes.filter(id => validNodeIds.has(id)));
   } else {
-    // Default state: nothing selected — user picks tracks from the sidebar.
+    // First visit: blank graph — user builds it themselves.
     hiddenTracks = new Set(tracks.map(t => t.id));
   }
 
@@ -96,6 +125,7 @@ async function init() {
   buildEdgeLegend();
   updateNodeCount();
   applyVisibility();
+  renderPinnedList();
 
   const searchInput = document.getElementById('search-input');
   searchInput.addEventListener('input', onSearch);
@@ -242,7 +272,7 @@ function renderPinnedList() {
       e.stopPropagation();
       const open = dropdown.style.display !== 'none';
       dropdown.style.display = open ? 'none' : 'block';
-      chevron.textContent = open ? '▾' : '▴';
+      chevron.classList.toggle('open', !open);
       if (!loaded && !open) {
         loaded = true;
         loadPinnedRelationships(n.ticker, dropdown);

@@ -371,10 +371,15 @@ html[data-theme="light"] .track-control-btn {
   font-size: 11px;
   color: var(--text-muted);
   cursor: pointer;
-  line-height: 1;
-  text-align: right;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease;
 }
 .pinned-chevron:hover { color: var(--text-primary); }
+.pinned-chevron.open { transform: rotate(180deg); }
 
 .pinned-dropdown {
   background: var(--bg-raised);
