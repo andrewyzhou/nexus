@@ -50,14 +50,42 @@ async function loadGraphData() {
   return { ...mock, _source: 'mock' };
 }
 
+const STATE_KEY = 'nexus_graph_state';
+
+function saveState() {
+  try {
+    localStorage.setItem(STATE_KEY, JSON.stringify({
+      pinnedNodes:  [...pinnedNodes],
+      hiddenTracks: [...hiddenTracks],
+    }));
+  } catch (_) {}
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STATE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch (_) { return null; }
+}
+
 async function init() {
   const data = await loadGraphData();
   tracks   = data.tracks;
   allNodes = data.nodes.map(n => ({ ...n }));   // shallow copy so D3 can mutate
   allEdges = data.edges.map(e => ({ ...e }));
 
-  // Default state: nothing selected — user picks tracks from the sidebar.
-  hiddenTracks = new Set(tracks.map(t => t.id));
+  const saved = loadState();
+  const validTrackIds = new Set(tracks.map(t => t.id));
+  const validNodeIds  = new Set(allNodes.map(n => n.id));
+
+  if (saved) {
+    hiddenTracks = new Set(saved.hiddenTracks.filter(id => validTrackIds.has(id)));
+    pinnedNodes  = new Set(saved.pinnedNodes.filter(id => validNodeIds.has(id)));
+  } else {
+    // Default state: nothing selected — user picks tracks from the sidebar.
+    hiddenTracks = new Set(tracks.map(t => t.id));
+  }
 
   const badge = document.getElementById('source-badge');
   if (badge) badge.textContent = data._source === 'api' ? 'live' : 'demo';
@@ -475,6 +503,7 @@ function zoomToNode(n) {
 function applyVisibility(opts = {}) {
   // Force-rebuild instead of toggling opacity — the universe has
   // 4000+ nodes, so we only ever simulate the visible subset.
+  saveState();
   renderGraph(opts);
 }
 
