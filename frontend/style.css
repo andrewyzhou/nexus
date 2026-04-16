@@ -727,6 +727,27 @@ html[data-theme="light"] .track-control-btn {
 
 .stat-value.price { color: var(--track-biotech); }
 
+.stock-website-link {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 13px;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s;
+}
+.stock-website-link:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+html[data-theme="light"] .stock-website-link {
+  border-color: rgba(0, 0, 0, 0.15);
+  color: #1a1d2b;
+}
+html[data-theme="light"] .stock-website-link:hover {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
 .panel-section-title {
   font-family: var(--font-mono);
   font-size: 9px;
