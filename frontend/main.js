@@ -885,6 +885,26 @@ function renderGraph({ skipFit = false } = {}) {
 
   let fitDone = false;
 
+  // Detect parallel edges BEFORE forceLink mutates source/target into objects.
+  // Use the raw string IDs from allEdges (visibleEdges are references to the same objects).
+  const pairCount = {};
+  visibleEdges.forEach(e => {
+    const a = typeof e.source === 'object' ? e.source.id : e.source;
+    const b = typeof e.target === 'object' ? e.target.id : e.target;
+    const key = [a, b].sort().join('||');
+    pairCount[key] = (pairCount[key] || 0) + 1;
+  });
+  const pairIndex = {};
+  visibleEdges.forEach(e => {
+    const a = typeof e.source === 'object' ? e.source.id : e.source;
+    const b = typeof e.target === 'object' ? e.target.id : e.target;
+    const key = [a, b].sort().join('||');
+    if (pairIndex[key] === undefined) pairIndex[key] = 0;
+    e._parallel = pairCount[key] > 1;
+    e._pairKey  = key;
+    e._pairIdx  = pairIndex[key]++;
+  });
+
   simulation = d3.forceSimulation(visibleNodes)
     .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(65).strength(0.5))
     .force('charge', d3.forceManyBody().strength(-320))
@@ -895,9 +915,11 @@ function renderGraph({ skipFit = false } = {}) {
     .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 20))
     .alphaDecay(0.028);
 
-  linkGroup.selectAll('line')
+  linkGroup.selectAll('path.edge')
     .data(visibleEdges)
-    .enter().append('line')
+    .enter().append('path')
+    .attr('class', 'edge')
+    .attr('fill', 'none')
     .attr('stroke', d => EDGE_COLORS[d.type] || '#888')
     .attr('stroke-width', 1.5)
     .attr('stroke-opacity', 1)
@@ -945,18 +967,36 @@ function renderGraph({ skipFit = false } = {}) {
     .attr('pointer-events', 'none');
 
   simulation.on('tick', () => {
-    linkGroup.selectAll('line').each(function(d) {
-      const dx = d.target.x - d.source.x;
-      const dy = d.target.y - d.source.y;
+    linkGroup.selectAll('path.edge').each(function(d) {
+      const sx = d.source.x, sy = d.source.y;
+      const tx = d.target.x, ty = d.target.y;
+      const dx = tx - sx, dy = ty - sy;
       const dist = Math.sqrt(dx * dx + dy * dy) || 1;
       const ux = dx / dist, uy = dy / dist;
       const sr = d.source._baseR || 16;
       const tr = d.target._baseR || 16;
-      d3.select(this)
-        .attr('x1', d.source.x + ux * sr)
-        .attr('y1', d.source.y + uy * sr)
-        .attr('x2', d.target.x - ux * tr)
-        .attr('y2', d.target.y - uy * tr);
+      // Start/end points trimmed to node radius
+      const x1 = sx + ux * sr, y1 = sy + uy * sr;
+      const x2 = tx - ux * tr, y2 = ty - uy * tr;
+
+      let pathD;
+      if (d._parallel) {
+        // Use the canonical node-pair order (sorted by id) to get a stable
+        // perpendicular direction — independent of which node is source/target.
+        const [idA, idB] = d._pairKey.split('||');
+        const canonFlip = d.source.id === idB; // source is the "larger" id
+        // Perpendicular to the edge, always pointing the same way for this pair
+        const nx = -uy, ny = ux;
+        // _pairIdx 0 → one side, 1 → other side; canonFlip corrects for direction
+        const sign = ((d._pairIdx % 2 === 0) !== canonFlip) ? 1 : -1;
+        const offset = sign * 22;
+        const mx = (x1 + x2) / 2 + nx * offset;
+        const my = (y1 + y2) / 2 + ny * offset;
+        pathD = `M${x1},${y1} Q${mx},${my} ${x2},${y2}`;
+      } else {
+        pathD = `M${x1},${y1} L${x2},${y2}`;
+      }
+      d3.select(this).attr('d', pathD);
     });
     nodeGroup.selectAll('.node-g')
       .attr('transform', d => `translate(${d.x},${d.y})`);
