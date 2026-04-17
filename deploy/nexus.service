@@ -1,0 +1,39 @@
+[Unit]
+Description=Nexus Flask (iPick.ai investment-graph service)
+After=network.target docker.service
+Requires=docker.service
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/nexus
+
+# Environment file is loaded before ExecStart. Keep secrets out of this unit.
+#   DATABASE_URL=postgresql://nexus:...@127.0.0.1:5433/corporate_data
+#   NEXUS_CORS_ORIGINS=https://ipick.ai
+#   NEXUS_API_PREFIX=/nexus/api     (default; only override to remove the prefix)
+EnvironmentFile=/home/ubuntu/nexus/.env
+
+ExecStart=/home/ubuntu/nexus/.venv/bin/gunicorn \
+    --workers 4 \
+    --bind 127.0.0.1:5001 \
+    --access-logfile /var/log/nexus/access.log \
+    --error-logfile /var/log/nexus/error.log \
+    --pid /run/nexus/gunicorn.pid \
+    wsgi:app
+
+Restart=on-failure
+RestartSec=3
+RuntimeDirectory=nexus
+LogsDirectory=nexus
+
+# Light hardening — the process only needs to read the repo + talk to local pg.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/var/log/nexus /run/nexus /home/ubuntu/nexus
+
+[Install]
+WantedBy=multi-user.target
