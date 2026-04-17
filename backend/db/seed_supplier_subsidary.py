@@ -116,7 +116,9 @@ def seed_relationships():
                 
                 actual_target = resolve_target(target)
                 if not actual_target:
-                    print(f"Skipping unresolved {rel_type} target for {actual_source}: '{target}'")
+                    # Most subsidiary entries are legal entity names, not
+                    # tickers — printing every unresolved target swamps
+                    # stdout. Just count them and summarize at the end.
                     skipped_unresolved += 1
                     continue
 
