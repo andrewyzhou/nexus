@@ -1,17 +1,18 @@
 """
-Live demo seed — pulls fresh data from Yahoo Finance every run.
+Canonical production seed — pulls fresh data from Yahoo Finance on every run.
 
 Sources:
-  - ticker_track.json              : ticker -> investment-track mapping (the
-                                     universe of tickers we care about)
+  - ticker_track.json              : ticker -> investment-track mapping
+                                     (full ~4300-ticker universe)
   - scraper/scraper.py             : StockScraper.get_bulk(...) — live Yahoo
                                      Finance fetch at ~80 stocks/sec
-  - task5/SeleniumAI_Task5/...     : per-ticker relationship JSONs from the
-                                     AI team
+  - sec_pipeline/suppliers/ ,
+    sec_pipeline/subsidiaries/     : SEC Exhibit 21.1 + 10-K extracts,
+                                     ingested via seed_supplier_subsidary.py
 
 Run:
-    python backend/db/seed_demo.py
-    NEXUS_SEED_LIMIT=200 python backend/db/seed_demo.py   # cap for fast demo
+    python backend/db/seed_prod.py
+    NEXUS_SEED_LIMIT=200 python backend/db/seed_prod.py   # cap while iterating
 
 Total runtime: ~60s for the full ~4300 tickers, ~5s for a 200-ticker cap.
 """
@@ -35,7 +36,10 @@ from db.seed import (
     safe_float,
     safe_int,
 )
-from db.seed_relationships import seed_relationships
+try:
+    from db.seed_supplier_subsidary import seed_relationships
+except ModuleNotFoundError:
+    from seed_supplier_subsidary import seed_relationships
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT / "scraper"))
@@ -184,10 +188,14 @@ def main() -> None:
     conn.commit()
     print(f"  tracks={unique}  links={linked}  unmatched={missing}")
 
-    print("Seeding relationships from task5 JSONs...")
-    seed_relationships(conn=conn)
-
+    # seed_supplier_subsidary.seed_relationships opens its own connection,
+    # so commit + close ours first to avoid it seeing in-flight state.
+    conn.commit()
     conn.close()
+
+    print("\nSeeding supplier + subsidiary edges from SEC filings...")
+    seed_relationships()
+
     print("\nDone. Backend is ready to serve live data.")
 
 

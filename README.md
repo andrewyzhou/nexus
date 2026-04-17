@@ -61,7 +61,7 @@ Nexus is a three-tier app:
                            │
                            │ seed
                   ┌────────┴──────────────┐
-                  │ backend/db/seed_demo  │
+                  │ backend/db/seed_prod  │
                   │  • ticker_track.json  │  (S3-sourced ticker → track map)
                   │  • scraper.StockScraper bulk-fetch
                   │  • task5/.../*.json   │  (AI team relationships)
@@ -70,7 +70,7 @@ Nexus is a three-tier app:
 
 **Two interesting design choices:**
 
-1. **The seed talks to live Yahoo on every run.** `seed_demo.py` calls `scraper.StockScraper.get_bulk()` directly so the DB always reflects current prices/market caps. ~60 seconds for the full ~4300-ticker universe.
+1. **The seed talks to live Yahoo on every run.** `seed_prod.py` calls `scraper.StockScraper.get_bulk()` directly so the DB always reflects current prices/market caps. ~60 seconds for the full ~4300-ticker universe.
 2. **The frontend renders only the visible subset of nodes.** With 4000+ companies in the universe, force-simulating all of them in D3 was unworkable. `renderGraph()` rebuilds the SVG from scratch every time the user toggles a track filter, keeping the simulation tractable (typically 1–50 nodes per render).
 
 ---
@@ -92,7 +92,7 @@ nexus/
 │   └── db/
 │       ├── init.py                    ← schema (companies, relationships, tracks, indexes)
 │       ├── seed.py                    ← legacy: full S&P 500 via yfinance one-by-one
-│       ├── seed_demo.py               ← canonical live seed (USE THIS)
+│       ├── seed_prod.py               ← canonical live seed (USE THIS)
 │       └── seed_supplier_subsidary.py ← ingest task5/SeleniumAI_Task5/final_json/*.json
 │
 ├── frontend/                          ← Static site, no build tool
@@ -169,13 +169,13 @@ docker compose -f backend/docker-compose.yml up -d
 # database: corporate_data, user: nexus, password: nexus
 
 # 3) Seed the database (LIVE Yahoo Finance pull, ~60s)
-python3 backend/db/seed_demo.py
+python3 backend/db/seed_prod.py
 
 # Optional: cap to first N tickers for a fast iteration loop
-NEXUS_SEED_LIMIT=200 python3 backend/db/seed_demo.py
+NEXUS_SEED_LIMIT=200 python3 backend/db/seed_prod.py
 ```
 
-When `seed_demo.py` finishes you should see something like:
+When `seed_prod.py` finishes you should see something like:
 ```
 Companies seeded: 4200
 Linking tracks from ticker_track.json...
@@ -203,7 +203,7 @@ pip install -r backend/requirements.txt -r scraper/requirements.txt
 
 ## Running the app
 
-You need **two terminals** (three if you want to keep `seed_demo.py` runs separate):
+You need **two terminals** (three if you want to keep `seed_prod.py` runs separate):
 
 **Terminal 1 — backend:**
 ```bash
@@ -250,14 +250,14 @@ curl -s http://localhost:5001/tracks | python3 -c "import sys,json; ts=json.load
 ```
 ticker_track.json        ──┐
                             │
-task5/final_json/*        ──┤  seed_demo.py   ──►  Postgres (companies, relationships, tracks)
+task5/final_json/*        ──┤  seed_prod.py   ──►  Postgres (companies, relationships, tracks)
                             │       │                          │
 scraper.StockScraper      ─┘       │                          │
 (live Yahoo Finance)               │                          ▼
                                    │                    backend/main.py
                                    ▼                          │
                         seed_supplier_subsidary.py            ▼
-                        (called by seed_demo.py)    /graph, /tracks/<slug>, etc.
+                        (called by seed_prod.py)    /graph, /tracks/<slug>, etc.
 ```
 
 ### `ticker_track.json`
@@ -270,7 +270,7 @@ scraper.StockScraper      ─┘       │                          │
 - Pulls live Yahoo Finance via `curl_cffi` (TLS fingerprinting to dodge rate limits)
 - `get(ticker)` for one stock, `get_bulk(tickers, on_progress=...)` for many (~80 stocks/sec)
 - Returns dicts with `ticker`, `companyName`, `price`, `marketCap`, `trailingPE`, `sector`, `industry`, ~50 fields total
-- Used by both `seed_demo.py` (bulk seed) and `main.py` (`/companies/<ticker>/live` endpoint, single fetch)
+- Used by both `seed_prod.py` (bulk seed) and `main.py` (`/companies/<ticker>/live` endpoint, single fetch)
 
 ### `task5/SeleniumAI_Task5/final_json/*.json`
 - AI team's hand-curated relationship dataset
@@ -287,7 +287,7 @@ scraper.StockScraper      ─┘       │                          │
   ```
 - Add more files here to grow the relationship graph; `seed_supplier_subsidary.py` ingests all of them and normalizes the free-form `relationship` field to one of `competitor / supplier / investor / partnership`.
 
-### Seeding flow (inside `seed_demo.py`)
+### Seeding flow (inside `seed_prod.py`)
 
 1. `init_db()` — create tables + indexes (idempotent)
 2. Build the ticker universe = `ticker_track.json` keys ∪ task5 anchor tickers
@@ -470,7 +470,7 @@ psql postgresql://nexus:nexus@localhost:5433/corporate_data
 
 ### Add a new ticker to the graph
 1. Add it to `ticker_track.json` with the right track name (or update from S3)
-2. Re-run `python3 backend/db/seed_demo.py`
+2. Re-run `python3 backend/db/seed_prod.py`
 
 ### Add a new investment track
 1. Add `"NEWTKR": "My New Track"` entries to `ticker_track.json`
@@ -479,7 +479,7 @@ psql postgresql://nexus:nexus@localhost:5433/corporate_data
 
 ### Add new relationships
 1. Drop a JSON file in `task5/SeleniumAI_Task5/final_json/` matching the schema above
-2. Re-run `python3 backend/db/seed_demo.py` (it calls `seed_supplier_subsidary.py` internally)
+2. Re-run `python3 backend/db/seed_prod.py` (it calls `seed_supplier_subsidary.py` internally)
 
 ### Restart the backend after editing `main.py`
 Flask debug mode auto-reloads top-level files most of the time, but **always restart manually** after editing helper modules — Python's import cache will hold the old version. `Ctrl+C` then `python3 backend/main.py` again.
@@ -488,7 +488,7 @@ Flask debug mode auto-reloads top-level files most of the time, but **always res
 ```bash
 docker compose -f backend/docker-compose.yml down -v   # -v drops the volume
 docker compose -f backend/docker-compose.yml up -d
-python3 backend/db/seed_demo.py
+python3 backend/db/seed_prod.py
 ```
 
 ---
@@ -501,9 +501,9 @@ python3 backend/db/seed_demo.py
 | `ModuleNotFoundError: flask_cors` | Same interpreter mismatch | Check which python you're running with `which python3`; install deps with that exact binary |
 | `No module named 'dotenv'` | Importing `scraper.scraper` pulls in a module that needs `python-dotenv` | `python3 -m pip install python-dotenv beautifulsoup4` |
 | Header shows `demo` not `live` | Backend isn't running, `/graph` errored, or CORS blocked | Check `curl http://localhost:5001/graph`; check browser devtools Network tab |
-| Clicking a track shows nothing | (a) Backend not restarted after SQL change, (b) `company_tracks` empty, (c) wrong slug | Restart backend; re-run `seed_demo.py`; verify with `curl http://localhost:5001/tracks` |
+| Clicking a track shows nothing | (a) Backend not restarted after SQL change, (b) `company_tracks` empty, (c) wrong slug | Restart backend; re-run `seed_prod.py`; verify with `curl http://localhost:5001/tracks` |
 | Company dropdown shows no suppliers/subsidiaries | `/companies/<ticker>/neighbors` returning empty | Those relationships only exist for the 6 task5 anchor tickers — add more JSONs to `task5/final_json/` |
-| `seed_demo.py` only seeds a few companies | yfinance rate-limited or many tickers don't exist | Check the per-batch progress output; re-run; consider raising `batch_pause` in `scraper.StockScraper.get_bulk()` |
+| `seed_prod.py` only seeds a few companies | yfinance rate-limited or many tickers don't exist | Check the per-batch progress output; re-run; consider raising `batch_pause` in `scraper.StockScraper.get_bulk()` |
 | `WARN: Found orphan containers` from docker compose | Old containers from a previous compose project name | Harmless; clean with `docker rm -f backend-backend-1 backend-postgres-1` |
 | Postgres connection refused | Container not up, or another postgres on 5433 | `docker ps`; if collision, change the host port in `backend/docker-compose.yml` |
 
@@ -540,7 +540,7 @@ python3 -m pip install -r backend/requirements.txt -r scraper/requirements.txt
 docker compose -f backend/docker-compose.yml up -d
 
 # Seed (anytime — pulls fresh Yahoo data)
-python3 backend/db/seed_demo.py
+python3 backend/db/seed_prod.py
 
 # Run
 python3 backend/main.py                              # terminal 1

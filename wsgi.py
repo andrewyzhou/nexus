@@ -5,7 +5,7 @@ Example:
     gunicorn -w 4 -b 127.0.0.1:5001 wsgi:app
 
 The backend/ directory is added to sys.path so its relative imports
-(config, db.seed_demo, ...) resolve the same way they do when you run
+(config, db.seed_prod, ...) resolve the same way they do when you run
 `python3 backend/main.py` locally.
 """
 import os

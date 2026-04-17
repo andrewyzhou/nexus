@@ -60,7 +60,7 @@ cp deploy/.env.example .env
 nano .env     # set DATABASE_URL, NEXUS_CORS_ORIGINS=https://ipick.ai
 
 # 4. drop in the ticker_track.json (client-private, gitignored)
-#    either download manually from S3 or let seed_demo.py fetch it if
+#    either download manually from S3 or let seed_prod.py fetch it if
 #    AWS creds are configured in .env
 scp ticker_track.json ubuntu@ipick.ai:/home/ubuntu/nexus/
 
@@ -70,7 +70,7 @@ docker compose -f backend/docker-compose.yml up -d
 
 # 6. schema + seed
 .venv/bin/python backend/db/init.py
-.venv/bin/python backend/db/seed_demo.py
+.venv/bin/python backend/db/seed_prod.py
 # (takes ~60s for the full 4300-ticker universe)
 
 # 7. systemd
