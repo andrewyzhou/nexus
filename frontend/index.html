@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nexus — Investment Graph</title>
+  <title>Nexus</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="theme.css" />
 
@@ -17,11 +17,9 @@
     <!-- ── Header ──────────────────────────────────────────── -->
     <header id="header">
       <div class="logo">NEXUS</div>
-      <span class="subtitle">/ investment graph</span>
       <div class="header-right">
         <span id="node-count"></span>
-        <span id="source-badge" class="source-badge"></span>
-        <a href="https://ipick.ai" target="_blank" rel="noopener" class="back-link">iPick.ai ↗</a>
+        <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
         <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
       </div>
     </header>
@@ -73,17 +71,12 @@
         <div id="track-list"></div>
       </div>
 
-      <!-- Edge type legend -->
-      <div class="sidebar-section">
-        <div class="sidebar-label">Relationship types</div>
-        <div id="edge-legend"></div>
-      </div>
-
     </aside>
 
     <!-- ── Main Graph Canvas ────────────────────────────────── -->
     <main id="main">
       <div id="graph-canvas"></div>
+      <div id="edge-legend"></div>
     </main>
 
   </div><!-- /#app -->
