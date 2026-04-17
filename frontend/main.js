@@ -5,7 +5,7 @@
  * falls back to ./data/mock.json so the demo still renders.
  */
 const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
-  || 'http://localhost:5001';
+  || 'http://localhost:5001/nexus/api';
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
 const EDGE_COLORS = {
