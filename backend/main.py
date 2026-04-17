@@ -19,8 +19,8 @@ def track_color(track_name: str) -> str:
     """Stable pastel color for a track name (so the frontend gets consistent colors)."""
     h = int(hashlib.md5(track_name.encode()).hexdigest()[:6], 16)
     palette = [
-        "#00d4ff", "#f59e0b", "#10b981", "#ef4444", "#a78bfa",
-        "#ec4899", "#22d3ee", "#84cc16", "#f97316", "#6366f1",
+        "#10b981", "#a78bfa", "#ec4899", "#22d3ee", "#84cc16",
+        "#f97316", "#6366f1", "#06b6d4", "#d946ef", "#14b8a6",
     ]
     return palette[h % len(palette)]
 

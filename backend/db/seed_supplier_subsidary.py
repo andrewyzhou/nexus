@@ -73,6 +73,9 @@ def seed_relationships():
                     skipped_unresolved += 1
                     continue
 
+                if actual_target == actual_source:
+                    continue
+
                 cursor.execute("""
                     INSERT INTO relationships (source_ticker, target_ticker, relationship_type)
                     VALUES (%s, %s, %s)
