@@ -56,7 +56,7 @@ Nexus is a three-tier app:
                   ┌─────────────────┐       ┌──────────────────────┐
                   │  Postgres :5433 │       │  Yahoo Finance       │
                   │  corporate_data │       │  (live, no API key)  │
-                  │  Docker         │       │  via curl_cffi       │
+                  │  Docker         │       │  via yfinance        │
                   └────────▲────────┘       └──────────────────────┘
                            │
                            │ seed
@@ -70,7 +70,7 @@ Nexus is a three-tier app:
 
 **Two interesting design choices:**
 
-1. **The seed talks to live Yahoo on every run.** The pre-scraped `scraper/data.json` snapshot exists as a fallback but we don't use it — `seed_demo.py` calls `scraper.StockScraper.get_bulk()` directly so the DB always reflects current prices/market caps. ~60 seconds for the full ~4300-ticker universe.
+1. **The seed talks to live Yahoo on every run.** `seed_demo.py` calls `scraper.StockScraper.get_bulk()` directly so the DB always reflects current prices/market caps. ~60 seconds for the full ~4300-ticker universe.
 2. **The frontend renders only the visible subset of nodes.** With 4000+ companies in the universe, force-simulating all of them in D3 was unworkable. `renderGraph()` rebuilds the SVG from scratch every time the user toggles a track filter, keeping the simulation tractable (typically 1–50 nodes per render).
 
 ---
@@ -81,13 +81,14 @@ Nexus is a three-tier app:
 nexus/
 ├── README.md                          ← you are here
 ├── ticker_track.json                  ← master ticker → investment-track map (4342 entries)
-├── project_tracker.txt                ← plain-text export of the team's project tracker doc
 │
 ├── backend/                           ← Flask REST API
-│   ├── main.py                        ← all routes live here (~430 LOC)
+│   ├── main.py                        ← all routes live here
 │   ├── config.py                      ← DATABASE_URL (env-overridable)
 │   ├── docker-compose.yml             ← Postgres 16 on port 5433
 │   ├── requirements.txt               ← Python deps
+│   ├── tests/
+│   │   └── test_api.py
 │   └── db/
 │       ├── init.py                    ← schema (companies, relationships, tracks, indexes)
 │       ├── seed.py                    ← legacy: full S&P 500 via yfinance one-by-one
@@ -98,38 +99,43 @@ nexus/
 │   ├── index.html                     ← graph view
 │   ├── track.html                     ← per-track detail page
 │   ├── stock.html                     ← per-stock detail page
-│   ├── main.js                        ← D3 graph + sidebar
+│   ├── main.js                        ← D3 graph + sidebar logic
 │   ├── track.js                       ← track detail page logic
 │   ├── stock.js                       ← stock detail page logic
-│   ├── theme.js                       ← light/dark mode toggle (default light)
+│   ├── theme.js                       ← light/dark mode toggle (defaults to light)
 │   ├── style.css                      ← shared design tokens (CSS variables)
 │   ├── track.css                      ← track + stock page layout
 │   ├── theme.css                      ← light theme overrides
+│   ├── ipick-logo.png                 ← header logo
 │   └── data/mock.json                 ← demo fallback when API is unreachable
 │
 ├── scraper/                           ← Yahoo Finance bulk scraper
 │   ├── scraper.py                     ← StockScraper class (curl_cffi + async)
-│   ├── ten_k_fetch.py                 ← SEC EDGAR 10-K fetcher (used by scraper.py)
-│   ├── data.json                      ← cached snapshot (4788 tickers, ~13MB) — fallback only
-│   ├── all_tickers.txt                ← raw ticker universe
 │   ├── basket_stocks.py               ← curated demo basket
 │   ├── basket_tickers.txt
 │   ├── preprocess.py
+│   ├── data/                          ← cached ticker snapshots
+│   ├── tickers/                       ← raw ticker universe files
 │   └── requirements.txt
 │
-├── ai/                                ← AI team scripts (relationship extraction, news)
-│   ├── pipeline/                      ← Selenium news scrapers, geopolitical brief generator
-│   ├── geopolitical_brief.{ipynb,json,txt}
-│   └── supplier_extraction.py
+├── ai/                                ← AI team scripts (news, relationship extraction)
+│   ├── news.py
+│   ├── requirements.txt
+│   ├── pipeline/                      ← news scrapers and brief generators
+│   │   ├── news_scraper.py
+│   │   ├── news_summarizer.py
+│   │   ├── generate_news_tooltips.py
+│   │   ├── geopolitical_brief.py
+│   │   ├── suppliers.json
+│   │   └── .env.example               ← API keys (Gemini, etc.)
+│   ├── processed/
+│   └── raw/
 │
-├── task5/SeleniumAI_Task5/            ← AI team Task 5 deliverables
-│   ├── final_json/                    ← per-ticker relationship JSONs (consumed by seed_relationships.py)
-│   │   ├── NVDA.json   AMZN.json   GOOGL.json
-│   │   ├── META.json   MSFT.json   TSM.json
-│   ├── selenium_nexus.ipynb           ← scraping notebook
-│   └── gen_notebook.py
-│
-└── ai/pipeline/.env.example           ← API keys for the AI pipeline (Gemini, etc.)
+└── task5/SeleniumAI_Task5/            ← AI team Task 5 deliverables
+    ├── README.md
+    └── final_json/                    ← per-ticker relationship JSONs (consumed by seed_supplier_subsidary.py)
+        ├── NVDA.json   AMZN.json   GOOGL.json
+        ├── META.json   MSFT.json   TSM.json
 ```
 
 ---
@@ -141,7 +147,7 @@ nexus/
 | **Python** | 3.9+ | Backend + scraper. `from __future__ import annotations` is used so 3.9 works. |
 | **pip** | recent | Install Python deps |
 | **Docker Desktop** | any recent | Runs the Postgres container |
-| **A modern browser** | Chrome / Firefox / Safari 2024+ | The frontend uses `:has()` selector and ES2020 syntax |
+| **A modern browser** | Chrome / Firefox / Safari 2024+ | The frontend uses ES2020 syntax |
 
 **You do NOT need:** Node, npm, a bundler, an API key, a Yahoo Finance subscription, or anything paid.
 
@@ -213,11 +219,12 @@ cd frontend && python3 -m http.server 8000
 
 Then open **http://localhost:8000** in your browser:
 
-- The graph starts **empty** (all tracks hidden by default — opt-in design).
-- Click any investment track in the left sidebar to render its companies.
-- Click `ALL` / `NONE` above the track list for bulk toggle.
-- Click the `→` arrow on a track row to open its **detail page** (`track.html?slug=<slug>`).
-- Click any node to open the right-side panel; click "Open full stock page →" for the **stock detail page** (`stock.html?ticker=<TICKER>`).
+- On first visit the graph starts **empty** (all tracks hidden — opt-in design). Your filter state persists in `localStorage` across sessions.
+- Click any investment track's toggle button in the left sidebar to add its companies to the graph.
+- Click `ALL` / `CLEAR` above the track list for bulk toggle.
+- Expand any company row with the chevron `▾` to see its competitors/suppliers with per-entry +/✕ buttons.
+- Click any graph node to open the right-side detail panel; click the stock link for the full **stock detail page** (`stock.html?ticker=<TICKER>`).
+- Click a track name to open its **detail page** (`track.html?slug=<slug>`).
 - Theme toggle (`◐`) is in the header — defaults to light, persists in `localStorage`.
 
 ### Sanity checks
@@ -278,7 +285,7 @@ scraper.StockScraper      ─┘       │                          │
     ]
   }
   ```
-- Add more files here to grow the relationship graph; `seed_relationships.py` ingests all of them and normalizes the free-form `relationship` field to one of `competitor / supplier / investor / partnership`.
+- Add more files here to grow the relationship graph; `seed_supplier_subsidary.py` ingests all of them and normalizes the free-form `relationship` field to one of `competitor / supplier / investor / partnership`.
 
 ### Seeding flow (inside `seed_demo.py`)
 
@@ -287,7 +294,7 @@ scraper.StockScraper      ─┘       │                          │
 3. `StockScraper.get_bulk(tickers)` — live Yahoo fetch
 4. Bulk INSERT via `psycopg2.extras.execute_values` (single round-trip for thousands of rows)
 5. `load_investment_tracks()` — create track rows + link companies via `company_tracks`
-6. `seed_relationships()` — ingest task5 JSONs into the `relationships` table
+6. `seed_supplier_subsidary.seed_relationships()` — ingest task5 JSONs into the `relationships` table
 
 **Re-running is safe.** Every INSERT uses `ON CONFLICT ... DO UPDATE` so you can rerun the seed any time to refresh prices.
 
@@ -299,12 +306,12 @@ All endpoints live on `http://localhost:5001`. CORS is wide open (`flask-cors`).
 
 | Method | Path | Returns | Notes |
 |---|---|---|---|
-| GET | `/graph` | `{ tracks, nodes, edges }` | Full graph payload for D3. Each node has a `tracks: [slug, ...]` array. |
-| GET | `/companies?limit=N` | `[{ticker, name, price}]` | Default limit 500 (was 20 originally). |
+| GET | `/graph` | `{ tracks, nodes, edges }` | Full graph payload for D3. Each node has a `tracks: [slug, ...]` array. Competitor edges are auto-generated for all companies sharing a track. |
+| GET | `/companies?limit=N` | `[{ticker, name, price}]` | Default limit 500. |
 | GET | `/companies/<ticker>` | DB-backed company detail | Full row + linked investment track. |
 | GET | `/companies/<ticker>/live` | **Fresh** Yahoo Finance pull | Bypasses Postgres entirely. Powers `stock.html`. |
-| GET | `/companies/<ticker>/neighbors?type=&min_weight=&max_weight=&limit=` | `{ nodes, edges }` | Filtered graph expansion from one node. |
-| GET | `/companies/<ticker>/news?limit=N` | News items via `yfinance.Ticker.news` | Title, link, publisher, summary, timestamp. |
+| GET | `/companies/<ticker>/neighbors?type=&min_weight=&max_weight=&limit=` | `{ nodes, edges }` | Used by the sidebar dropdowns to load supplier/subsidiary relationships. |
+| GET | `/companies/<ticker>/news?limit=N` | News items via `yfinance.Ticker.news` | Title, link, publisher, summary, timestamp. Default limit 8. |
 | GET | `/tracks` | `[{slug, name, color, company_count}]` | Sorted by company count desc. |
 | GET | `/tracks/<slug>` | `{ name, slug, color, description, market_leader, companies, company_count }` | Powers `track.html`. Companies sorted by market cap. |
 | GET | `/tracks/<slug>/news?companies=N&per=M` | Aggregated news for top-N companies in the track | Default 5 companies × 3 items each. |
@@ -441,12 +448,11 @@ python3 backend/db/seed_demo.py
 | Symptom | Cause | Fix |
 |---|---|---|
 | `ModuleNotFoundError: psycopg2` | `pip` and `python` are different interpreters (conda vs system) | `python3 -m pip install <pkg>` — always use `python3 -m pip` |
-| `TypeError: unsupported operand type(s) for \|: 'type' and 'NoneType'` | Python 3.9 doesn't support `X \| Y` annotations | The `from __future__ import annotations` line at the top of the file should fix it; if you see it on a new file, add that import |
-| `No module named 'dotenv'` | Importing `scraper.scraper` pulls in `ten_k_fetch` which needs `python-dotenv` | `python3 -m pip install python-dotenv beautifulsoup4` |
-| Header badge says `demo` not `live` | Backend isn't running, `/graph` errored, or CORS blocked | Check `curl http://localhost:5001/graph`; check the browser devtools Network tab |
-| Clicking a track shows nothing | (a) Backend not restarted after `/graph` SQL change, (b) `company_tracks` empty, (c) wrong slug | Restart backend; re-run `seed_demo.py`; verify with `curl http://localhost:5001/tracks` |
-| Hover tooltip appears over empty space | Pre-fix bug where hidden nodes captured pointer events | Pull latest — `applyVisibility()` now disables pointer events |
-| Track or stock page won't scroll | Pre-fix bug — `style.css` had `html, body { overflow: hidden }` | Pull latest — `track.css` overrides it for `.track-body` pages |
+| `ModuleNotFoundError: flask_cors` | Same interpreter mismatch | Check which python you're running with `which python3`; install deps with that exact binary |
+| `No module named 'dotenv'` | Importing `scraper.scraper` pulls in a module that needs `python-dotenv` | `python3 -m pip install python-dotenv beautifulsoup4` |
+| Header shows `demo` not `live` | Backend isn't running, `/graph` errored, or CORS blocked | Check `curl http://localhost:5001/graph`; check browser devtools Network tab |
+| Clicking a track shows nothing | (a) Backend not restarted after SQL change, (b) `company_tracks` empty, (c) wrong slug | Restart backend; re-run `seed_demo.py`; verify with `curl http://localhost:5001/tracks` |
+| Company dropdown shows no suppliers/subsidiaries | `/companies/<ticker>/neighbors` returning empty | Those relationships only exist for the 6 task5 anchor tickers — add more JSONs to `task5/final_json/` |
 | `seed_demo.py` only seeds a few companies | yfinance rate-limited or many tickers don't exist | Check the per-batch progress output; re-run; consider raising `batch_pause` in `scraper.StockScraper.get_bulk()` |
 | `WARN: Found orphan containers` from docker compose | Old containers from a previous compose project name | Harmless; clean with `docker rm -f backend-backend-1 backend-postgres-1` |
 | Postgres connection refused | Container not up, or another postgres on 5433 | `docker ps`; if collision, change the host port in `backend/docker-compose.yml` |
@@ -455,43 +461,24 @@ python3 backend/db/seed_demo.py
 
 ## Known gaps & roadmap
 
-These were called out in **Meeting 8 (4/6)** and the ongoing tracker:
-
-- ❌ **Stock chart** on the stock page — needs a `/companies/<ticker>/history?range=1mo` endpoint wrapping `yf.Ticker(t).history()` plus a Chart.js or D3 line chart in `stock.html`. Probably the next thing to build.
+- ❌ **Stock chart** on the stock page — needs a `/companies/<ticker>/history?range=1mo` endpoint wrapping `yf.Ticker(t).history()` plus a Chart.js or D3 line chart in `stock.html`.
 - ❌ **Better news with citations** — current news is `yfinance.Ticker.news` (free, fast, but thin). Tracker calls out **Tavily** and **Firecrawl** as upgrade paths. The AI team owns this.
 - ❌ **Per-track descriptions** — `investment_tracks.description` column exists but is null. Either AI team writes them or generate via LLM at seed time.
-- ❌ **Logo / graphic design** — design task, not code.
-- 🟡 **Multi-track companies in `relationships` metadata** — JSON-encoded as text, fine for now, but consider migrating to JSONB if you need to query inside it.
-- 🟡 **`scraper/data.json`** (13MB snapshot) is no longer used by the live seed path. Keep as fallback or delete in a cleanup PR.
-- 🟡 **Selenium news scraper** at `ai/pipeline/news_scraper.py` is unused — Flask uses `yfinance.Ticker.news` instead because Selenium is too heavy for per-request endpoints. Keep around for batch jobs.
+- 🟡 **Relationship coverage is thin** — supplier/subsidiary edges only exist for 6 anchor tickers (NVDA, AMZN, GOOGL, META, MSFT, TSM). Competitor edges are auto-generated for all track-mates. Add more `task5/final_json/*.json` files to improve this.
+- 🟡 **`relationships` metadata** is JSON-encoded as a TEXT column — fine for now, but consider migrating to JSONB if you need to query inside it.
+- 🟡 **AI pipeline scripts** in `ai/pipeline/` (news scrapers, brief generator) are not wired into the Flask backend — they're standalone batch tools. The backend uses `yfinance.Ticker.news` directly for per-request news.
 - 🟡 **`seed_supplier_subsidary.py` filename** has a typo ("subsidary") — harmless but worth fixing if you rename anything nearby.
 
 ---
 
 ## Contributing & branching
 
-Original branch hygiene from earlier in the project:
-- `main` — production / demo branch (everything is merged here now)
-- `*/task4` — individual Task 4 submissions (historical, all superseded)
-- `backend`, `frontend`, `ai` — historical feature branches (all merged into main)
+- `main` — production / demo branch
 
-**For new work going forward:**
+**For new work:**
 1. Branch off `main`: `git checkout -b yourname/feature-foo`
-2. Use **conventional commits**: `feat(backend): ...`, `fix(frontend): ...`, `chore: ...`
+2. Keep commit messages short and imperative: `Add /history endpoint`, `Fix sidebar flicker on toggle`
 3. Open a PR against `main`
-4. Squash-merge once reviewed
-
-### Commit message style
-
-```
-feat(backend): add /companies/:ticker/history endpoint
-
-- Wraps yfinance.Ticker(t).history(period=range)
-- Caches in-memory for 60s to dodge yfinance rate limits
-- Used by the new stock chart on stock.html
-```
-
-Stick to imperative mood ("add", "fix", "remove"), keep the subject under ~70 chars, and explain *why* in the body when it isn't obvious from the diff.
 
 ---
 
@@ -521,7 +508,3 @@ curl http://localhost:5001/companies/NVDA/live
 curl http://localhost:5001/companies/NVDA/news
 docker exec -it $(docker ps -qf name=db) psql -U nexus -d corporate_data
 ```
-
----
-
-**Questions?** Check `project_tracker.txt` for meeting notes and the team's task assignments. The design doc and Linear-style task tracker are linked from there.
