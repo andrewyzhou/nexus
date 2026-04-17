@@ -250,32 +250,60 @@ class StockScraper:
 
     # ── Async bulk engine ─────────────────────────────────────────────────
 
-    async def _async_auth(self, session: AsyncSession):
-        """Get cookies + crumb for an async session."""
-        try:
-            await session.get("https://fc.yahoo.com")
-        except Exception:
-            pass
-        r = await session.get(CRUMB_URL)
-        r.raise_for_status()
-        return r.text.strip()
+    async def _async_auth(self, session: AsyncSession, retries: int = 5):
+        """
+        Get cookies + crumb for an async session.
+
+        Yahoo will occasionally 429 the crumb endpoint if we've hammered it.
+        Back off exponentially (1s, 2s, 4s, 8s, 16s) before giving up — a
+        failed auth used to crash the whole bulk run.
+        """
+        last_exc = None
+        for attempt in range(retries + 1):
+            try:
+                try:
+                    await session.get("https://fc.yahoo.com")
+                except Exception:
+                    pass
+                r = await session.get(CRUMB_URL)
+                if r.status_code == 429 or r.status_code >= 500:
+                    raise RuntimeError(f"crumb fetch returned {r.status_code}")
+                r.raise_for_status()
+                return r.text.strip()
+            except Exception as e:
+                last_exc = e
+                if attempt < retries:
+                    wait = 2 ** attempt
+                    print(f"  [auth] {e}, sleeping {wait}s (attempt {attempt+1}/{retries+1})", file=sys.stderr)
+                    await asyncio.sleep(wait)
+        raise RuntimeError(f"crumb auth failed after {retries+1} attempts: {last_exc}")
 
     async def _async_fetch_one(
         self, session: AsyncSession, state: dict, sem: asyncio.Semaphore,
         rate_limiter, ticker: str, retries: int = 2,
     ) -> tuple[str, dict | None]:
         """Fetch a single ticker with rate limiting + concurrency control."""
+        # Yahoo URL-encodes class-share tickers with a hyphen, not a dot.
+        # BRK.B / BF.B / CRD.A / MOG.A all 404 without this normalization.
+        query_ticker = ticker.replace(".", "-")
+
         async with sem:
             await rate_limiter.acquire()
             for attempt in range(retries + 1):
                 try:
                     r = await session.get(
-                        f"{QUOTE_SUMMARY_URL}/{ticker}",
+                        f"{QUOTE_SUMMARY_URL}/{query_ticker}",
                         params={"modules": MODULES, "crumb": state["crumb"], "lang": "en-US", "region": "US"},
                         headers=API_HEADERS,
                         timeout=15,
                     )
                     if r.status_code == 404:
+                        return ticker, None
+                    if r.status_code == 429:
+                        # Ticker-level rate limit — back off and retry.
+                        if attempt < retries:
+                            await asyncio.sleep(2 ** attempt)
+                            continue
                         return ticker, None
                     if r.status_code in (401, 403):
                         async with state["auth_lock"]:
@@ -308,7 +336,15 @@ class StockScraper:
         rate_limiter = _RateLimiter(rate_per_sec)
 
         async with AsyncSession(impersonate="chrome") as session:
-            crumb = await self._async_auth(session)
+            try:
+                crumb = await self._async_auth(session)
+            except Exception as e:
+                # Don't crash the whole bulk run if Yahoo rate-limits the
+                # crumb endpoint for this session. Mark the batch as failed
+                # and move on — a later batch will get a fresh session and
+                # may succeed.
+                print(f"  [batch skipped] auth failed: {e}", file=sys.stderr)
+                return [], list(tickers)
             state = {"crumb": crumb, "auth_lock": asyncio.Lock()}
 
             tasks = [
@@ -371,6 +407,14 @@ class StockScraper:
             n = len(all_failed)
             sample = ", ".join(all_failed[:20])
             print(f"\n  [!] {n} failed/not found. Sample: {sample}", file=sys.stderr)
+            # Persist the full failed list so we can inspect what Yahoo
+            # doesn't have instead of scrolling stderr.
+            try:
+                failed_path = Path(__file__).resolve().parent / "failed_tickers.txt"
+                failed_path.write_text("\n".join(sorted(all_failed)) + "\n")
+                print(f"      full list → {failed_path}", file=sys.stderr)
+            except Exception:
+                pass
 
         return all_results
 
