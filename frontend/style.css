@@ -355,14 +355,16 @@ html[data-theme="light"] .track-control-btn {
   gap: 4px;
 }
 
-/* Pinned companies — scroll when list grows tall */
+/* Companies section — scrollable, shares space with tracks */
 #pinned-section {
+  flex: 1 1 0;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  max-height: 40vh;
-  min-height: 0;
+  overflow: hidden;
 }
 #pinned-list {
+  flex: 1 1 0;
   overflow-y: auto;
   overflow-x: hidden;
   min-height: 0;
@@ -375,8 +377,7 @@ html[data-theme="light"] .track-control-btn {
 }
 
 .pinned-item .track-item {
-  display: grid;
-  grid-template-columns: 14px 44px 1fr 16px;
+  display: flex;
   align-items: center;
   gap: 5px;
 }
@@ -395,41 +396,38 @@ html[data-theme="light"] .track-control-btn {
 .pinned-name {
   font-size: 12px;
   color: var(--text-muted);
+  flex: 1;
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.pinned-close {
-  font-size: 10px;
-  color: var(--text-muted);
-  cursor: pointer;
-  line-height: 1;
-  flex-shrink: 0;
-}
-.pinned-close:hover { color: var(--text-primary); }
-
-.pinned-chevron {
-  font-size: 11px;
-  color: var(--text-muted);
-  cursor: pointer;
-  width: 16px;
-  height: 16px;
+.pinned-chevron-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  width: 26px;
+  height: 26px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.15s ease;
+  font-size: 10px;
+  color: var(--text-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color var(--t-fast), border-color var(--t-fast), transform var(--t-fast);
 }
-.pinned-chevron:hover { color: var(--text-primary); }
-.pinned-chevron.open { transform: rotate(180deg); }
+.pinned-chevron-btn:hover { color: var(--text-primary); border-color: var(--border-bright); }
+.pinned-chevron-btn.open { transform: rotate(180deg); }
 
 .pinned-dropdown {
   background: var(--bg-raised);
   border: 1px solid var(--border);
   border-top: none;
   border-radius: 0 0 var(--radius-sm) var(--radius-sm);
-  padding: 8px 10px;
+  padding: 8px 10px 8px 10px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -493,6 +491,16 @@ html[data-theme="light"] .track-control-btn {
   cursor: pointer;
   transition: background var(--t-fast);
 }
+.pinned-rel-item:hover { background: var(--bg-hover); }
+
+.pinned-rel-ticker {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex-shrink: 0;
+  min-width: 36px;
+}
 
 .pinned-rel-item .conn-add-btn {
   width: 26px;
@@ -505,19 +513,10 @@ html[data-theme="light"] .track-control-btn {
   width: 26px;
   height: 26px;
 }
-.pinned-rel-item:hover { background: var(--bg-hover); }
-
-.pinned-rel-ticker {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--text-primary);
-  flex-shrink: 0;
-  min-width: 36px;
-}
 
 .pinned-rel-name {
   font-size: 11px;
+  flex: 1;
   color: var(--text-muted);
   overflow: hidden;
   text-overflow: ellipsis;
@@ -546,15 +545,45 @@ html[data-theme="light"] .track-control-btn {
 .track-item.muted .track-dot { opacity: 0.25; }
 .track-item.muted .track-name { color: var(--text-muted); }
 
-.track-open {
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 13px;
-  opacity: 0.7;
-  transition: opacity var(--t-fast);
+.track-toggle-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
   flex-shrink: 0;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
 }
-.track-open:hover { opacity: 1; }
+.track-item.active .track-toggle-btn {
+  color: #ef4444;
+  border-color: #ef4444;
+  font-size: 12px;
+}
+.track-item.active .track-toggle-btn:hover {
+  background: rgba(239,68,68,0.12);
+}
+.track-item.muted .track-toggle-btn {
+  color: #10b981;
+  border-color: #10b981;
+  font-size: 16px;
+}
+.track-item.muted .track-toggle-btn:hover {
+  background: rgba(16,185,129,0.12);
+}
+
+a.track-item {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
 
 
 .track-dot {
@@ -576,11 +605,6 @@ html[data-theme="light"] .track-control-btn {
   white-space: nowrap;
 }
 
-.track-count {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  color: var(--text-muted);
-}
 
 /* Edge type legend — overlaid on graph canvas, bottom-left */
 #edge-legend {
@@ -1006,17 +1030,6 @@ html[data-theme="light"] .stock-website-link:hover {
 }
 .conn-remove-btn:hover { background: rgba(239, 68, 68, 0.12); }
 
-.conn-add-btn.on-graph {
-  color: #dc2626;
-  border-color: #dc2626;
-  font-size: 12px;
-  width: 26px;
-  height: 26px;
-}
-.conn-add-btn.on-graph:hover {
-  background: rgba(220, 38, 38, 0.12);
-}
-
 .conn-on-graph {
   font-size: 12px;
   color: #10b981;
@@ -1093,4 +1106,15 @@ html[data-theme="light"] .stock-website-link:hover {
 .panel-add-btn.on-graph:hover {
   background: #dc2626;
   color: #fff;
+}
+
+.conn-add-btn.on-graph {
+  color: #dc2626;
+  border-color: #dc2626;
+  font-size: 12px;
+  width: 26px;
+  height: 26px;
+}
+.conn-add-btn.on-graph:hover {
+  background: rgba(220, 38, 38, 0.12);
 }
