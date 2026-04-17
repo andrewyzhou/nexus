@@ -101,6 +101,8 @@ function loadState() {
 }
 
 async function init() {
+  // Block first fetch on Firebase auth when enabled (no-op otherwise).
+  if (window.nexusAuthReady) await window.nexusAuthReady;
   const data = await loadGraphData();
   tracks   = data.tracks;
   allNodes = data.nodes.map(n => ({ ...n }));   // shallow copy so D3 can mutate

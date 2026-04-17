@@ -26,6 +26,7 @@ function fmtNum(n, digits = 2) {
 }
 
 async function init() {
+  if (window.nexusAuthReady) await window.nexusAuthReady;
   if (!slug) {
     document.getElementById('track-title').textContent = 'No track selected';
     return;

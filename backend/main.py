@@ -1,6 +1,8 @@
-from flask import Flask, Blueprint, jsonify, request
+from flask import Flask, Blueprint, g, jsonify, request
 from flask_cors import CORS
+import base64
 import hashlib
+import json
 import os
 import psycopg2
 import psycopg2.extras
@@ -12,15 +14,85 @@ app = Flask(__name__)
 # the iPick origin so browsers from elsewhere can't call the API directly.
 _cors_env = os.getenv("NEXUS_CORS_ORIGINS", "*")
 if _cors_env == "*":
-    CORS(app)
+    CORS(app, supports_credentials=True)
 else:
-    CORS(app, origins=[o.strip() for o in _cors_env.split(",") if o.strip()])
+    CORS(
+        app,
+        origins=[o.strip() for o in _cors_env.split(",") if o.strip()],
+        supports_credentials=True,
+        allow_headers=["Authorization", "Content-Type"],
+    )
 
 # All routes live under this prefix so nginx can proxy /nexus/api/* → us while
 # the client's existing app keeps owning the root. Override with
 # NEXUS_API_PREFIX (e.g. "") if you want to mount at root in a bare deploy.
 API_PREFIX = os.getenv("NEXUS_API_PREFIX", "/nexus/api")
 api = Blueprint("nexus_api", __name__, url_prefix=API_PREFIX)
+
+# ── Firebase auth (optional; off in dev, on in prod) ─────────────────────
+# Set NEXUS_REQUIRE_AUTH=1 along with FIREBASE_CREDENTIALS (base64-encoded
+# service account JSON, same format iPick's webapp uses) to gate every
+# /nexus/api/* request behind a verified Firebase ID token.
+REQUIRE_AUTH = os.getenv("NEXUS_REQUIRE_AUTH", "").lower() in ("1", "true", "yes")
+_fb_auth = None
+if REQUIRE_AUTH:
+    import firebase_admin
+    from firebase_admin import credentials, auth as _fb_auth_mod  # noqa: F401
+    creds_b64 = os.environ.get("FIREBASE_CREDENTIALS")
+    if not creds_b64:
+        raise RuntimeError(
+            "NEXUS_REQUIRE_AUTH=1 but FIREBASE_CREDENTIALS is not set. "
+            "Populate it with the base64-encoded Firebase service account JSON."
+        )
+    _creds_dict = json.loads(base64.b64decode(creds_b64))
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app(credentials.Certificate(_creds_dict))
+    _fb_auth = _fb_auth_mod
+    print(f"[nexus] firebase auth ENABLED (project: {_creds_dict.get('project_id')})")
+else:
+    print("[nexus] firebase auth DISABLED (set NEXUS_REQUIRE_AUTH=1 to enable)")
+
+
+@api.before_request
+def _gate_api():
+    """Block every API request without a valid Firebase ID token when
+    NEXUS_REQUIRE_AUTH is on. /nexus/api/config is the public exception so
+    the frontend can bootstrap Firebase before the user is authenticated."""
+    if not REQUIRE_AUTH:
+        return None
+    if request.method == "OPTIONS":  # CORS preflight
+        return None
+    if request.path.rstrip("/").endswith("/config"):
+        return None
+
+    auth_header = request.headers.get("Authorization", "")
+    if not auth_header.startswith("Bearer "):
+        return jsonify({"error": "missing Authorization: Bearer <id_token>"}), 401
+    token = auth_header.split(" ", 1)[1].strip()
+    try:
+        g.user = _fb_auth.verify_id_token(token)
+    except Exception as e:
+        return jsonify({"error": f"invalid token: {e}"}), 401
+    return None
+
+
+@api.route("/config")
+def get_config():
+    """
+    Public bootstrap endpoint — tells the frontend whether auth is required
+    and hands back the Firebase client config so it can initialize the SDK.
+    API key is safe to expose; Firebase enforces auth server-side.
+    """
+    return jsonify({
+        "requireAuth": REQUIRE_AUTH,
+        "firebase": {
+            "apiKey":      os.getenv("FIREBASE_API_KEY", ""),
+            "authDomain":  os.getenv("FIREBASE_AUTH_DOMAIN", ""),
+            "projectId":   os.getenv("FIREBASE_PROJECT_ID", ""),
+        } if REQUIRE_AUTH else None,
+        "loginUrl": os.getenv("NEXUS_LOGIN_URL", "https://www.ipick.ai"),
+    })
+
 
 import yfinance as yf
 

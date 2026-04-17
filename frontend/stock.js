@@ -28,6 +28,7 @@ function fmtDate(t) {
 }
 
 async function init() {
+  if (window.nexusAuthReady) await window.nexusAuthReady;
   if (!ticker) {
     document.getElementById('stock-title').textContent = 'No ticker specified';
     return;
