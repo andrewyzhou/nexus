@@ -9,9 +9,9 @@ const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
 const EDGE_COLORS = {
-  competitor:  '#ef4444',
-  supplier:    '#f59e0b',
-  subsidiary:  '#10b981',
+  competitor:  '#ef4444',  // red
+  supplier:    '#eab308',  // yellow
+  subsidiary:  '#3b82f6',  // blue
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -204,7 +204,7 @@ function buildSidebar(tracks, nodes) {
   });
 }
 
-function renderPinnedList() {
+function renderPinnedList(keepOpenTicker) {
   const section = document.getElementById('pinned-section');
   const list    = document.getElementById('pinned-list');
   if (!section || !list) return;
@@ -268,16 +268,29 @@ function renderPinnedList() {
       }
     });
 
-    chevron.addEventListener('click', e => {
-      e.stopPropagation();
-      const open = dropdown.style.display !== 'none';
-      dropdown.style.display = open ? 'none' : 'block';
-      chevron.classList.toggle('open', !open);
-      if (!loaded && !open) {
+    const openDropdown = () => {
+      dropdown.style.display = 'block';
+      chevron.classList.add('open');
+      if (!loaded) {
         loaded = true;
         loadPinnedRelationships(n.ticker, dropdown);
       }
+    };
+
+    chevron.addEventListener('click', e => {
+      e.stopPropagation();
+      const open = dropdown.style.display !== 'none';
+      if (open) {
+        dropdown.style.display = 'none';
+        chevron.classList.remove('open');
+      } else {
+        openDropdown();
+      }
     });
+
+    if (keepOpenTicker && n.ticker === keepOpenTicker) {
+      openDropdown();
+    }
 
     wrapper.appendChild(row);
     wrapper.appendChild(dropdown);
@@ -311,11 +324,11 @@ function loadPinnedRelationships(ticker, container) {
     const parents      = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
 
     const sections = [
-      { label: 'Competitors',     color: EDGE_COLORS.competitor, tickers: competitors },
-      { label: 'Supplies To',     color: EDGE_COLORS.supplier,   tickers: supplies_to },
-      { label: 'Supplied By',     color: EDGE_COLORS.supplier,   tickers: supplied_by },
-      { label: 'Subsidiaries',    color: EDGE_COLORS.subsidiary, tickers: subsidiaries },
-      { label: 'Parent',           color: EDGE_COLORS.subsidiary, tickers: parents },
+      { label: 'Competitors',  color: EDGE_COLORS.competitor, tickers: competitors },
+      { label: 'Customers',    color: EDGE_COLORS.supplier,   tickers: supplies_to },
+      { label: 'Suppliers',    color: EDGE_COLORS.supplier,   tickers: supplied_by },
+      { label: 'Subsidiaries', color: EDGE_COLORS.subsidiary, tickers: subsidiaries },
+      { label: 'Parent',       color: EDGE_COLORS.subsidiary, tickers: parents },
     ].filter(s => s.tickers.length > 0);
 
     if (!sections.length) {
@@ -327,7 +340,21 @@ function loadPinnedRelationships(ticker, container) {
     sections.forEach(s => {
       const section = document.createElement('div');
       section.className = 'pinned-rel-section';
-      section.innerHTML = `<div class="pinned-rel-label" style="color:${s.color}">${s.label}</div>`;
+
+      const header = document.createElement('div');
+      header.className = 'pinned-rel-header';
+      const labelEl = document.createElement('span');
+      labelEl.className = 'pinned-rel-label';
+      labelEl.style.color = s.color;
+      labelEl.textContent = s.label;
+      const allBtn = document.createElement('button');
+      allBtn.className = 'pinned-rel-all-btn';
+      allBtn.textContent = 'All';
+      header.appendChild(labelEl);
+      header.appendChild(allBtn);
+      section.appendChild(header);
+
+      const sectionNodes = [];
       s.tickers.forEach(tk => {
         const node = allNodes.find(n => n.ticker === tk || n.ticker === tk.toUpperCase() || n.id === tk.toLowerCase());
         const displayTicker = node ? node.ticker : tk.toUpperCase();
@@ -336,6 +363,7 @@ function loadPinnedRelationships(ticker, container) {
         item.className = 'pinned-rel-item';
         item.innerHTML = `<span class="pinned-rel-ticker">${displayTicker}</span>${displayName ? `<span class="pinned-rel-name">${displayName}</span>` : ''}`;
         if (node) {
+          sectionNodes.push({ node, item });
           if (pinnedNodes.has(node.id)) {
             item.style.opacity = '0.45';
             item.style.cursor = 'default';
@@ -344,15 +372,33 @@ function loadPinnedRelationships(ticker, container) {
             item.addEventListener('click', () => {
               pinnedNodes.add(node.id);
               applyVisibility({ skipFit: true });
+              renderPinnedList(ticker);
               document.getElementById('pinned-section').style.display = '';
-              item.title = '';
-              item.style.opacity = '0.45';
-              item.style.cursor = 'default';
             });
           }
         }
         section.appendChild(item);
       });
+
+      allBtn.addEventListener('click', () => {
+        let added = false;
+        sectionNodes.forEach(({ node, item }) => {
+          if (!pinnedNodes.has(node.id)) {
+            pinnedNodes.add(node.id);
+            item.style.opacity = '0.45';
+            item.style.cursor = 'default';
+            item.title = '';
+            added = true;
+          }
+        });
+        allBtn.disabled = true;
+        if (added) {
+          applyVisibility({ skipFit: true });
+          renderPinnedList(ticker);
+          document.getElementById('pinned-section').style.display = '';
+        }
+      });
+
       container.appendChild(section);
     });
   }).catch(() => {
@@ -584,19 +630,33 @@ function buildGraph() {
 
   // ── Defs: arrow markers per edge type ──
   const defs = svg.append('defs');
+  const bgColor = getComputedStyle(document.documentElement).getPropertyValue('--bg-base').trim() || '#0d0f1a';
   Object.entries(EDGE_COLORS).forEach(([type, color]) => {
-    defs.append('marker')
+    const marker = defs.append('marker')
       .attr('id', `arrow-${type}`)
-      .attr('viewBox', '0 -4 8 8')
-      .attr('refX', 8)
-      .attr('refY', 0)
-      .attr('markerWidth', 6)
-      .attr('markerHeight', 6)
-      .attr('orient', 'auto')
-      .append('path')
-      .attr('d', 'M0,-4L8,0L0,4')
-      .attr('fill', color.replace(/rgba?\([^,]+,[^,]+,[^,]+,?\s*[\d.]*\)/, color));
+      .attr('viewBox', '0 0 10 10')
+      .attr('refX', 10)
+      .attr('refY', 5)
+      .attr('markerWidth', 8)
+      .attr('markerHeight', 8)
+      .attr('orient', 'auto-start-reverse');
+    // Opaque background rect masks the line that would bleed through the tip
+    marker.append('rect')
+      .attr('x', 0).attr('y', 0)
+      .attr('width', 10).attr('height', 10)
+      .attr('fill', bgColor);
+    marker.append('path')
+      .attr('d', 'M0,1 L9,5 L0,9 Z')
+      .attr('fill', color);
   });
+
+  // Rebuild markers when theme changes so bg rect color stays in sync
+  new MutationObserver(() => {
+    const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg-base').trim() || '#0d0f1a';
+    Object.entries(EDGE_COLORS).forEach(([type]) => {
+      defs.select(`#arrow-${type} rect`).attr('fill', bg);
+    });
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
   // ── Zoom layer ──
   zoomLayer = svg.append('g').attr('class', 'zoom-layer');
@@ -854,7 +914,7 @@ function openPanel(d) {
       const node = isSource ? e.target : e.source;
       let role = e.type;
       if (e.type === 'subsidiary') role = isSource ? 'Parent of' : 'Subsidiary of';
-      if (e.type === 'supplier')   role = isSource ? 'Supplies'  : 'Supplied by';
+      if (e.type === 'supplier')   role = isSource ? 'Supplier of' : 'Customer of';
       return { node, role };
     });
 
@@ -915,7 +975,9 @@ function openPanel(d) {
                   <span class="conn-type">${c.role}</span>
                   <span class="conn-ticker" style="color:${ct ? ct.color : '#fff'}">${cn.ticker}</span>
                   <span class="conn-name">${cn.name}</span>
-                  ${!onGraph ? `<button class="conn-add-btn" data-id="${cn.id}" title="Add to graph">+</button>` : ''}
+                  ${onGraph
+                    ? `<span class="conn-on-graph" title="Already on graph">✓</span>`
+                    : `<button class="conn-add-btn" data-id="${cn.id}" title="Add to graph">+</button>`}
                 </div>
               `;
             }).join('')}
