@@ -30,7 +30,18 @@ from threading import Lock
 from curl_cffi import requests as cfreq
 from curl_cffi.requests import AsyncSession
 
-from ten_k_fetch import fetch_sec_sections
+# ten_k_fetch was superseded by the sec_pipeline/ directory setup but this
+# file still references it in the __main__ SEC-dump path. Keep the import
+# optional so `from scraper import StockScraper` works for the hot path
+# (Yahoo Finance pulls) even when ten_k_fetch.py isn't in sys.path.
+try:
+    from ten_k_fetch import fetch_sec_sections
+except ModuleNotFoundError:
+    def fetch_sec_sections(ticker):  # type: ignore
+        raise RuntimeError(
+            "ten_k_fetch is not installed. The scraper's SEC-sections path "
+            "moved to sec_pipeline/; use that module instead."
+        )
 
 
 # ── Yahoo Finance API ────────────────────────────────────────────────────────
