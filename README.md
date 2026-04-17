@@ -332,29 +332,79 @@ So `"Payment - Restaurant & Hotels"` → `"payment---restaurant---hotels"`. **Ba
 ## Frontend pages
 
 ### `index.html` — main graph
-- Left sidebar:
-  - **Search** — fuzzy search by ticker or track name
-  - **Companies** — scrollable list of all companies; pinned (on-graph) ones sorted to the top. Each row has a chevron to expand a dropdown showing that company's competitors, suppliers, etc. with per-entry +/✕ buttons. Toggling a row updates in-place — no full list rebuild, so open dropdowns stay open.
-  - **Investment Tracks** — each track has a chevron dropdown listing its member companies and a toggle button to show/hide the whole track on the graph
-  - **Edge legend** — bottom-left of the canvas
-- Center: D3 force-directed graph. Parallel edges (same pair of nodes, different relationship type) render as offset quadratic bezier curves so both are visible.
-- Right (on click): node detail panel with market cap, price, track badge, connections, link to full stock page
-- Header: iPick.ai link, theme toggle
+
+#### Left sidebar
+
+- **Search** — fuzzy search by ticker or track name; filters both the Companies list and Investment Tracks list in real time.
+- **Companies** — scrollable list of every company in the graph universe. Pinned (currently on-graph) companies sort to the top, alphabetically within each group.
+  - Click the **chevron `▾`** on any row to expand a dropdown showing that company's related companies (competitors, suppliers, etc.) fetched live from `/companies/<ticker>/neighbors`.
+  - Each connection entry has a **green `+` button** (add to graph) or **red `✕` button** (remove from graph), depending on whether that company is currently visible. Clicking toggles its presence on the canvas.
+  - The row-level toggle button works the same way: green `+` to pin, red `✕` to unpin.
+  - Toggling updates the list **in-place** — existing DOM nodes are reordered, not rebuilt — so open dropdowns stay open and there's no flicker.
+  - **ALL** / **CLEAR** buttons above the list bulk-add or bulk-remove all companies.
+- **Investment Tracks** — one row per track. Each track has:
+  - A **toggle button** (`+` / `✕`) to show or hide that entire track's member companies on the graph.
+  - A **chevron** to expand a dropdown listing every company in the track, each with its own `+`/`✕` button for individual control.
+  - **ALL** / **CLEAR** buttons above the list.
+
+#### Graph canvas (center)
+
+- **Hover** a node — a tooltip appears showing the company's ticker and name.
+- **Click a node** — opens the right-side detail panel for that company. Click the same node again, or click the blank canvas, to close the panel.
+- **Scroll** to zoom in/out; **drag** the canvas to pan.
+- **Double-click the canvas** to reset zoom to the default view.
+- **Parallel edges** — when two companies share more than one relationship type (e.g. both competitor and supplier), each edge renders as an offset quadratic bezier curve so both are visible and don't overlap.
+- **Edge color legend** (bottom-left of the canvas):
+  - 🔴 Red — Competitor
+  - 🟡 Yellow — Supplier
+  - 🔵 Blue — Subsidiary
+
+#### Right detail panel
+
+Opens when you click any graph node or company row. Contains (top to bottom):
+
+1. **Ticker badge** — styled pill with the stock ticker symbol.
+2. **Company name** and **sector**.
+3. **"Open full stock page →"** link — navigates to `stock.html?ticker=<TICKER>`.
+4. **Add/Remove button** — green **`+ Add to graph`** if the company isn't currently visible; red **`✕ Remove from graph`** if it is. Clicking toggles it and updates the graph immediately.
+5. **Stat cards** — Market cap and current price. Price and market cap are fetched live (async) from `/companies/<ticker>/live` after the panel opens, so they update from static DB values to fresh Yahoo Finance data within a second or two.
+6. **Investment track badge** — clickable pill showing the company's track. Clicking navigates to `track.html?slug=<slug>`.
+7. **About** — company description text pulled from the DB.
+8. **Connections** — list of related companies with:
+   - **Role label** (Competitor, Supplier of, Customer of, Parent of, Subsidiary of)
+   - **Green `+` / Red `✕` button** per entry — same add/remove logic as the sidebar dropdowns
+   - Clicking the **company name** in a connection entry focuses the panel on that company
+   - After the initial connections load, the panel asynchronously fetches additional subsidiary and supplier relationships from `/companies/<ticker>/neighbors` and appends them
+
+#### Header
+
+- **iPick.ai logo** — links to `https://ipick.ai` in a new tab.
+- **Theme toggle `◐`** — switches between light and dark mode.
 
 **Key implementation note:** the graph re-renders from scratch every time you toggle a track filter. See `renderGraph()` in `main.js`. This is necessary because the universe is too large to keep all 4200 nodes simulated at once.
 
+---
+
 ### `track.html` — investment track detail
-- URL: `track.html?slug=<track-slug>`
-- Hero with name, description, market leader pill
-- Sortable companies table (market cap / ticker / name / price / P/E)
-- Live news feed via `/tracks/<slug>/news`
+
+URL: `track.html?slug=<track-slug>`
+
+- Hero section: track name, description, **Market Leader** pill (`Leader: TICKER ($XB)`).
+- **Sortable companies table** — sort dropdown with options: Market Cap, Ticker, Name, Price, P/E Ratio. Clicking a different sort key re-sorts the table instantly (client-side).
+- Each company row links to its `stock.html` page.
+- **News feed** — aggregated news via `/tracks/<slug>/news`. Each item shows headline, publisher, date, summary, and a ticker label indicating which company the article is about.
+
+---
 
 ### `stock.html` — stock detail
-- URL: `stock.html?ticker=<TICKER>`
-- Hero with name, sector, price, market cap, P/E
-- Stats grid: open/close/high/low/52w range/volume/EPS/forward P/E/dividend yield/beta/employees/website
-- Live news feed via `/companies/<ticker>/news`
-- All numbers come from `/companies/<ticker>/live` (fresh Yahoo Finance pull on every page load)
+
+URL: `stock.html?ticker=<TICKER>`
+
+All data comes from `/companies/<ticker>/live` (fresh Yahoo Finance pull on every page load) and `/companies/<ticker>/news`.
+
+- **Hero**: company name, sector, current price shown as `$X.XX (Y.YY%)` with the percent change from the previous close, market cap, and P/E ratio.
+- **Stats grid**: only non-null values are shown. Possible stats: Open, Previous Close, Day High, Day Low, 52-Week Range, Volume, EPS, Forward P/E, Dividend Yield, Beta, Employees, Website (as a clickable link). Empty or unavailable fields are hidden entirely rather than shown as dashes.
+- **News feed** — per-company news via `/companies/<ticker>/news`. Each item: headline (linked), publisher, date, and summary text. All content is HTML-escaped to prevent injection.
 
 ### Theme system
 - `theme.js` reads/writes `localStorage["nexus-theme"]`, defaults to `light`
