@@ -1,6 +1,0 @@
-EX-21.1
-8
-ex211listofsubsidiaries.htm
-EX-21.1
-ex211listofsubsidiaries
-Exhibit 21.1      List of Subsidiaries      Company Name Place of Incorporation  iRhythm Technologies, Inc. Delaware  iRhythm Technologies Ltd. United Kingdom  iRhythm Technologies Netherlands B.V. The Netherlands  iRhythm Singapore PTE. Ltd. Singapore   iRhythm Japan GK (1) Japan   iRhythm Philippines, Inc. (1) Philippines  (1) iRhythm Japan GK and iRhythm Philippines, Inc. are indirect subsidiaries through iRhythm Singapore PTE. Ltd.

@@ -9,6 +9,47 @@ from config import DATABASE_URL
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
+# The output JSONs live in S3, not the repo. We sync them down lazily on
+# first use so the repo stays ~50MB instead of ~310MB. The extractor
+# scripts under sec_pipeline/**/*.py regenerate them and the S3 copies
+# should be refreshed from whoever runs the pipeline.
+S3_URIS = {
+    "suppliers":    "s3://ipickai-storage/metadata/suppliers.json",
+    "subsidiaries": "s3://ipickai-storage/metadata/subsidiaries.json",
+}
+
+
+def ensure_local(kind: str, local_path: Path) -> Path:
+    """Make sure `local_path` exists locally. If not, pull it from S3."""
+    if local_path.exists():
+        return local_path
+
+    uri = S3_URIS[kind]
+    print(f"  {local_path.name} not on disk — fetching from {uri}")
+    local_path.parent.mkdir(parents=True, exist_ok=True)
+
+    import shutil, subprocess
+    if shutil.which("aws"):
+        try:
+            subprocess.run(["aws", "s3", "cp", uri, str(local_path)], check=True)
+            print(f"  downloaded via aws cli")
+            return local_path
+        except subprocess.CalledProcessError as e:
+            print(f"  aws cli failed: {e} — falling back to boto3")
+    try:
+        import boto3  # type: ignore
+        bucket, key = uri.replace("s3://", "").split("/", 1)
+        boto3.client("s3").download_file(bucket, key, str(local_path))
+        print(f"  downloaded via boto3")
+        return local_path
+    except Exception as e:
+        raise SystemExit(
+            f"Could not fetch {uri}: {e}\n"
+            f"    Set up AWS credentials (`aws configure`) or re-run the\n"
+            f"    sec_pipeline/{kind}/extractor.py to regenerate locally."
+        )
+
+
 def seed_relationships():
     conn = psycopg2.connect(DATABASE_URL)
     cursor = conn.cursor()
@@ -28,8 +69,14 @@ def seed_relationships():
             return name_to_ticker[target_lower]
         return None
 
-    suppliers_path = REPO_ROOT / "sec_pipeline" / "suppliers" / "suppliers.json"
-    subsidiaries_path = REPO_ROOT / "sec_pipeline" / "subsidiaries" / "subsidiaries.json"
+    suppliers_path = ensure_local(
+        "suppliers",
+        REPO_ROOT / "sec_pipeline" / "suppliers" / "suppliers.json",
+    )
+    subsidiaries_path = ensure_local(
+        "subsidiaries",
+        REPO_ROOT / "sec_pipeline" / "subsidiaries" / "subsidiaries.json",
+    )
 
     inserted_suppliers = 0
     inserted_subsidiaries = 0

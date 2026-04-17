@@ -24,6 +24,15 @@ ticker_track.json
 investment_tracks.json
 frontend/investment_tracks.json
 
+# SEC pipeline outputs — these are cached in S3 at
+#   s3://ipickai-storage/metadata/{suppliers,subsidiaries}.json
+# and synced down by seed_supplier_subsidary.py on first use. Raw SEC
+# text scrapes stay local only; they're pipeline intermediates.
+sec_pipeline/**/*.json
+sec_pipeline/**/raw_sections/
+sec_pipeline/**/raw_exhibits/
+sec_pipeline/**/cik_cache.json
+
 # Project tracker export (may contain member info)
 project_tracker.txt
 Nexus*.docx
