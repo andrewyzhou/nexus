@@ -45,14 +45,20 @@ def seed_relationships():
             print(f"Skipping {filepath} due to error: {e}")
             return
 
-        for record in data:
+        # Support both list format [{"ticker": ..., "suppliers": [...]}]
+        # and dict format {"AAPL": {"suppliers": [...]}}
+        if isinstance(data, dict):
+            records = [{"ticker": k, **v} for k, v in data.items()]
+        else:
+            records = data
+
+        for record in records:
             source_ticker = record.get("ticker")
             if not source_ticker:
                 continue
 
             actual_source = resolve_target(source_ticker)
             if not actual_source:
-                print(f"Skipping main ticker {source_ticker} - not in DB.")
                 skipped_missing_source += 1
                 continue
 
