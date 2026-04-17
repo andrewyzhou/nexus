@@ -92,7 +92,7 @@ nexus/
 │       ├── init.py                    ← schema (companies, relationships, tracks, indexes)
 │       ├── seed.py                    ← legacy: full S&P 500 via yfinance one-by-one
 │       ├── seed_demo.py               ← canonical live seed (USE THIS)
-│       └── seed_relationships.py      ← ingest task5/SeleniumAI_Task5/final_json/*.json
+│       └── seed_supplier_subsidary.py ← ingest task5/SeleniumAI_Task5/final_json/*.json
 │
 ├── frontend/                          ← Static site, no build tool
 │   ├── index.html                     ← graph view
@@ -241,16 +241,16 @@ curl -s http://localhost:5001/tracks | python3 -c "import sys,json; ts=json.load
 ## The data pipeline
 
 ```
-ticker_track.json   ──┐
-                      │
-task5/final_json/*  ──┤  seed_demo.py   ──►  Postgres (companies, relationships, tracks)
-                      │       │                          │
-scraper.StockScraper ─┘       │                          │
-(live Yahoo Finance)          │                          ▼
-                              │                    backend/main.py
-                              │                          │
-                              ▼                          ▼
-                      seed_relationships.py     /graph, /tracks/<slug>, etc.
+ticker_track.json        ──┐
+                            │
+task5/final_json/*        ──┤  seed_demo.py   ──►  Postgres (companies, relationships, tracks)
+                            │       │                          │
+scraper.StockScraper      ─┘       │                          │
+(live Yahoo Finance)               │                          ▼
+                                   │                    backend/main.py
+                                   ▼                          │
+                        seed_supplier_subsidary.py            ▼
+                        (called by seed_demo.py)    /graph, /tracks/<slug>, etc.
 ```
 
 ### `ticker_track.json`
@@ -325,10 +325,14 @@ So `"Payment - Restaurant & Hotels"` → `"payment---restaurant---hotels"`. **Ba
 ## Frontend pages
 
 ### `index.html` — main graph
-- Left sidebar: search, investment tracks (scrollable list, default empty, ALL/NONE bulk buttons), edge type legend
-- Center: D3 force-directed graph
+- Left sidebar:
+  - **Search** — fuzzy search by ticker or track name
+  - **Companies** — scrollable list of all companies; pinned (on-graph) ones sorted to the top. Each row has a chevron to expand a dropdown showing that company's competitors, suppliers, etc. with per-entry +/✕ buttons. Toggling a row updates in-place — no full list rebuild, so open dropdowns stay open.
+  - **Investment Tracks** — each track has a chevron dropdown listing its member companies and a toggle button to show/hide the whole track on the graph
+  - **Edge legend** — bottom-left of the canvas
+- Center: D3 force-directed graph. Parallel edges (same pair of nodes, different relationship type) render as offset quadratic bezier curves so both are visible.
 - Right (on click): node detail panel with market cap, price, track badge, connections, link to full stock page
-- Header: node count, source badge (`live`/`demo`), iPick.ai link, theme toggle
+- Header: iPick.ai link, theme toggle
 
 **Key implementation note:** the graph re-renders from scratch every time you toggle a track filter. See `renderGraph()` in `main.js`. This is necessary because the universe is too large to keep all 4200 nodes simulated at once.
 
@@ -418,7 +422,7 @@ psql postgresql://nexus:nexus@localhost:5433/corporate_data
 
 ### Add new relationships
 1. Drop a JSON file in `task5/SeleniumAI_Task5/final_json/` matching the schema above
-2. `python3 backend/db/seed_relationships.py` (or just re-run `seed_demo.py`)
+2. Re-run `python3 backend/db/seed_demo.py` (it calls `seed_supplier_subsidary.py` internally)
 
 ### Restart the backend after editing `main.py`
 Flask debug mode auto-reloads top-level files most of the time, but **always restart manually** after editing helper modules — Python's import cache will hold the old version. `Ctrl+C` then `python3 backend/main.py` again.
@@ -460,6 +464,7 @@ These were called out in **Meeting 8 (4/6)** and the ongoing tracker:
 - 🟡 **Multi-track companies in `relationships` metadata** — JSON-encoded as text, fine for now, but consider migrating to JSONB if you need to query inside it.
 - 🟡 **`scraper/data.json`** (13MB snapshot) is no longer used by the live seed path. Keep as fallback or delete in a cleanup PR.
 - 🟡 **Selenium news scraper** at `ai/pipeline/news_scraper.py` is unused — Flask uses `yfinance.Ticker.news` instead because Selenium is too heavy for per-request endpoints. Keep around for batch jobs.
+- 🟡 **`seed_supplier_subsidary.py` filename** has a typo ("subsidary") — harmless but worth fixing if you rename anything nearby.
 
 ---
 
