@@ -27,13 +27,13 @@
   --text-secondary: #7a8898;
   --text-muted:     #444f60;
 
-  --accent:         #00d4ff;
-  --accent-dim:     rgba(0, 212, 255, 0.12);
+  --accent:         #69cbba;
+  --accent-dim:     rgba(105, 203, 186, 0.15);
 
   /* ── Layout ─────────────────────────────────────────────── */
-  --sidebar-w:      260px;
-  --panel-w:        300px;
-  --header-h:       48px;
+  --sidebar-w:      320px;
+  --panel-w:        360px;
+  --header-h:       56px;
 
   /* ── Spacing ────────────────────────────────────────────── */
   --sp-xs: 4px;
@@ -62,7 +62,7 @@ html, body {
   background: var(--bg-base);
   color: var(--text-primary);
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
@@ -94,7 +94,7 @@ html, body {
 
 #header .logo {
   font-family: var(--font-mono);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.12em;
   color: var(--accent);
@@ -107,8 +107,8 @@ html, body {
 #header .logo::before {
   content: '';
   display: block;
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background: var(--accent);
   box-shadow: 0 0 10px var(--accent);
@@ -116,7 +116,7 @@ html, body {
 }
 
 #header .subtitle {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-muted);
   font-family: var(--font-mono);
   letter-spacing: 0.04em;
@@ -132,7 +132,7 @@ html, body {
 
 #node-count {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
 }
 
@@ -140,6 +140,35 @@ html, body {
   color: var(--accent);
   font-weight: 700;
 }
+
+.ipick-logo-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.15s;
+  opacity: 0.85;
+}
+.ipick-logo-link:hover { opacity: 1; }
+.ipick-logo {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+/* dark mode: hide image, show text instead */
+.ipick-logo-text {
+  display: none;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+}
+.ipick-logo-link {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+.ipick-logo-text { display: none; }
 
 /* ── Left Sidebar ─────────────────────────────────────────── */
 #sidebar {
@@ -173,7 +202,7 @@ html, body {
   overflow-y: auto;
   overflow-x: hidden;
   min-height: 0;
-  padding-right: 2px;
+  padding-right: 6px;
 }
 
 /* Inline 'select all / clear' controls — sit next to the section label */
@@ -188,7 +217,7 @@ html, body {
 }
 .track-hint {
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-muted);
   line-height: 1.5;
   margin: 0 0 6px;
@@ -223,7 +252,7 @@ html[data-theme="light"] .track-control-btn {
 
 .sidebar-label {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -250,10 +279,10 @@ html[data-theme="light"] .track-control-btn {
   background: var(--bg-raised);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 8px 10px 8px 32px;
+  padding: 9px 10px 9px 32px;
   color: var(--text-primary);
   font-family: var(--font-body);
-  font-size: 13px;
+  font-size: 14px;
   outline: none;
   transition: border-color var(--t-fast), box-shadow var(--t-fast);
 }
@@ -281,7 +310,7 @@ html[data-theme="light"] .track-control-btn {
 }
 .search-dropdown-header {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -292,9 +321,9 @@ html[data-theme="light"] .track-control-btn {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 7px 12px;
+  padding: 8px 12px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-primary);
   transition: background var(--t-fast);
 }
@@ -324,6 +353,20 @@ html[data-theme="light"] .track-control-btn {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+/* Pinned companies — scroll when list grows tall */
+#pinned-section {
+  display: flex;
+  flex-direction: column;
+  max-height: 40vh;
+  min-height: 0;
+}
+#pinned-list {
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+  padding-right: 6px;
 }
 
 .pinned-item {
@@ -409,14 +452,37 @@ html[data-theme="light"] .track-control-btn {
   margin-top: 10px;
 }
 
+.pinned-rel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
 .pinned-rel-label {
   font-family: var(--font-mono);
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-bottom: 2px;
 }
+
+.pinned-rel-all-btn {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--text-secondary);
+  padding: 1px 5px;
+  cursor: pointer;
+  line-height: 1.4;
+}
+.pinned-rel-all-btn:hover { color: var(--text-primary); border-color: var(--text-secondary); }
+.pinned-rel-all-btn:disabled { opacity: 0.35; cursor: default; }
 
 .pinned-rel-item {
   display: flex;
@@ -488,7 +554,7 @@ html[data-theme="light"] .track-control-btn {
 }
 
 .track-name {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-primary);
   transition: color var(--t-fast);
   flex: 1;
@@ -504,11 +570,20 @@ html[data-theme="light"] .track-control-btn {
   color: var(--text-muted);
 }
 
-/* Edge type legend */
+/* Edge type legend — overlaid on graph canvas, bottom-left */
 #edge-legend {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
   display: flex;
   flex-direction: column;
   gap: 6px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  z-index: 10;
+  pointer-events: none;
 }
 
 .edge-legend-item {
@@ -725,10 +800,12 @@ html[data-theme="light"] .track-control-btn {
   color: var(--text-primary);
 }
 
-.stat-value.price { color: var(--track-biotech); }
+.stat-value.price { color: var(--text-primary); }
 
 .stock-website-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   padding: 5px 12px;
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -736,6 +813,11 @@ html[data-theme="light"] .track-control-btn {
   color: var(--text-primary);
   text-decoration: none;
   transition: color 0.15s, border-color 0.15s;
+}
+.website-arrow {
+  line-height: 1;
+  font-size: 12px;
+  opacity: 0.75;
 }
 .stock-website-link:hover {
   border-color: rgba(255, 255, 255, 0.4);
@@ -873,24 +955,39 @@ html[data-theme="light"] .stock-website-link:hover {
 }
 
 .conn-add-btn {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   color: var(--text-muted);
   background: transparent;
-  border: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
   cursor: pointer;
-  padding: 0 2px;
-  transition: color var(--t-fast);
+  padding: 2px 6px;
+  transition: color var(--t-fast), border-color var(--t-fast);
+  flex-shrink: 0;
 }
-.conn-add-btn:hover { color: var(--accent); }
+.conn-add-btn:hover { color: var(--text-primary); border-color: var(--text-secondary); }
+
+.conn-on-graph {
+  font-size: 12px;
+  color: #10b981;
+  border: 1px solid #10b981;
+  border-radius: 4px;
+  padding: 2px 6px;
+  line-height: 1;
+  flex-shrink: 0;
+}
 
 /* ── Scrollbar (sidebar) ──────────────────────────────────── */
 #sidebar::-webkit-scrollbar,
-#track-list::-webkit-scrollbar { width: 3px; }
+#track-list::-webkit-scrollbar,
+#pinned-list::-webkit-scrollbar { width: 3px; }
 #sidebar::-webkit-scrollbar-track,
-#track-list::-webkit-scrollbar-track { background: transparent; }
+#track-list::-webkit-scrollbar-track,
+#pinned-list::-webkit-scrollbar-track { background: transparent; }
 #sidebar::-webkit-scrollbar-thumb,
-#track-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+#track-list::-webkit-scrollbar-thumb,
+#pinned-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
 /* ── Animations ───────────────────────────────────────────── */
 @keyframes pulse {
@@ -906,8 +1003,8 @@ html[data-theme="light"] .stock-website-link:hover {
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 900px) {
   :root {
-    --sidebar-w: 220px;
-    --panel-w: 280px;
+    --sidebar-w: 260px;
+    --panel-w: 300px;
   }
 }
 
