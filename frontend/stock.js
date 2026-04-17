@@ -86,7 +86,7 @@ function renderStock(d) {
     ['Employees',      d.fullTimeEmployees != null ? d.fullTimeEmployees.toLocaleString() : '—'],
   ];
 
-  document.getElementById('stats-grid').innerHTML = stats.map(([k, v]) => `
+  document.getElementById('stats-grid').innerHTML = stats.filter(([, v]) => v !== '—').map(([k, v]) => `
     <div class="stat-cell">
       <div class="stat-label">${k}</div>
       <div class="stat-val">${v}</div>

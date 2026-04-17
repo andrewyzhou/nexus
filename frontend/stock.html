@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nexus — Stock</title>
+  <title>Nexus</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="track.css" />
   <link rel="stylesheet" href="theme.css" />
@@ -11,9 +11,8 @@
 <body class="track-body">
   <header id="header">
     <a href="index.html" class="logo logo-link">NEXUS</a>
-    <span class="subtitle">/ stock</span>
     <div class="header-right">
-      <a href="https://ipick.ai" target="_blank" rel="noopener" class="back-link">iPick.ai ↗</a>
+      <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
       <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
       <a href="index.html" class="back-link">← graph</a>
     </div>
@@ -26,7 +25,7 @@
         <h1 id="stock-title">Loading…</h1>
         <p id="stock-description"></p>
         <div id="stock-website-wrap" style="display:none; margin-top:8px; margin-bottom:-12px">
-          <a id="stock-website" href="#" target="_blank" rel="noopener" class="stock-website-link">↗ Website</a>
+          <a id="stock-website" href="#" target="_blank" rel="noopener" class="stock-website-link"><span class="website-arrow">↗</span> Website</a>
         </div>
         <div class="track-meta">
           <span id="stock-price" class="meta-pill"></span>
@@ -38,14 +37,13 @@
     </section>
 
     <section id="track-section">
-      <div class="section-head"><h2>Key stats</h2></div>
+      <div class="section-head"><h2>Key Stats</h2></div>
       <div id="stats-grid" class="stats-grid"></div>
     </section>
 
     <section id="track-section">
       <div class="section-head">
-        <h2>News</h2>
-        <span class="dim small">live · yahoo finance</span>
+        <h2>Latest News</h2>
       </div>
       <div id="news-list" class="news-list">
         <div class="news-empty">Loading news…</div>
