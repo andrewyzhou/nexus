@@ -336,16 +336,20 @@ function loadPinnedRelationships(ticker, container) {
         item.className = 'pinned-rel-item';
         item.innerHTML = `<span class="pinned-rel-ticker">${displayTicker}</span>${displayName ? `<span class="pinned-rel-name">${displayName}</span>` : ''}`;
         if (node) {
-          item.title = 'Click to add to graph';
-          item.addEventListener('click', () => {
-            pinnedNodes.add(node.id);
-            applyVisibility({ skipFit: true });
-            document.getElementById('pinned-section').style.display = '';
-            item.title = '';
+          if (pinnedNodes.has(node.id)) {
             item.style.opacity = '0.45';
             item.style.cursor = 'default';
-            item.removeEventListener('click', item._addHandler);
-          });
+          } else {
+            item.title = 'Click to add to graph';
+            item.addEventListener('click', () => {
+              pinnedNodes.add(node.id);
+              applyVisibility({ skipFit: true });
+              document.getElementById('pinned-section').style.display = '';
+              item.title = '';
+              item.style.opacity = '0.45';
+              item.style.cursor = 'default';
+            });
+          }
         }
         section.appendChild(item);
       });
