@@ -1,12 +1,26 @@
-from flask import Flask, jsonify, request
+from flask import Flask, Blueprint, jsonify, request
 from flask_cors import CORS
 import hashlib
+import os
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
 
 app = Flask(__name__)
-CORS(app)
+
+# CORS allow-list. In dev we want the whole web open; in prod we pin it to
+# the iPick origin so browsers from elsewhere can't call the API directly.
+_cors_env = os.getenv("NEXUS_CORS_ORIGINS", "*")
+if _cors_env == "*":
+    CORS(app)
+else:
+    CORS(app, origins=[o.strip() for o in _cors_env.split(",") if o.strip()])
+
+# All routes live under this prefix so nginx can proxy /nexus/api/* → us while
+# the client's existing app keeps owning the root. Override with
+# NEXUS_API_PREFIX (e.g. "") if you want to mount at root in a bare deploy.
+API_PREFIX = os.getenv("NEXUS_API_PREFIX", "/nexus/api")
+api = Blueprint("nexus_api", __name__, url_prefix=API_PREFIX)
 
 import yfinance as yf
 
@@ -29,7 +43,7 @@ def slugify(name: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in name).strip("-")
 
 
-@app.route("/companies")
+@api.route("/companies")
 def get_companies():
     conn = get_conn()
     cursor = conn.cursor()
@@ -45,7 +59,7 @@ def get_companies():
     ])
 
 
-@app.route("/companies/<ticker>")
+@api.route("/companies/<ticker>")
 def get_company(ticker):
     conn = get_conn()
     cursor = conn.cursor()
@@ -97,7 +111,7 @@ def get_company(ticker):
     return jsonify(company)
 
 
-@app.route("/companies/<ticker>/neighbors")
+@api.route("/companies/<ticker>/neighbors")
 def get_neighbors(ticker):
     conn = get_conn()
     cursor = conn.cursor()
@@ -165,7 +179,7 @@ def get_neighbors(ticker):
     return jsonify({"nodes": nodes, "edges": edges})
 
 
-@app.route("/investment_tracks", strict_slashes=False)
+@api.route("/investment_tracks", strict_slashes=False)
 def get_investment_tracks():
     conn = get_conn()
     cursor = conn.cursor()
@@ -190,7 +204,7 @@ def get_investment_tracks():
     return jsonify(tracks)
 
 
-@app.route("/investment_tracks/<int:track_id>/companies")
+@api.route("/investment_tracks/<int:track_id>/companies")
 def get_track_companies(track_id):
     conn = get_conn()
     cursor = conn.cursor()
@@ -255,13 +269,13 @@ def fetch_news_for(ticker: str, limit: int = 8) -> list:
     return out
 
 
-@app.route("/companies/<ticker>/news")
+@api.route("/companies/<ticker>/news")
 def get_company_news(ticker):
     limit = request.args.get("limit", default=8, type=int)
     return jsonify(fetch_news_for(ticker.upper(), limit=limit))
 
 
-@app.route("/tracks/<slug>/news")
+@api.route("/tracks/<slug>/news")
 def get_track_news(slug):
     """Aggregate news for the top-N companies (by market cap) in this track."""
     conn = get_conn()
@@ -297,7 +311,7 @@ def get_track_news(slug):
     return jsonify(aggregated)
 
 
-@app.route("/companies/<ticker>/live")
+@api.route("/companies/<ticker>/live")
 def get_company_live(ticker):
     """Pull a fresh quote from Yahoo Finance via yfinance."""
     try:
@@ -338,7 +352,7 @@ def get_company_live(ticker):
     })
 
 
-@app.route("/tracks")
+@api.route("/tracks")
 def list_tracks():
     """All investment tracks with company counts (for the track index page)."""
     conn = get_conn()
@@ -364,7 +378,7 @@ def list_tracks():
     return jsonify(out)
 
 
-@app.route("/tracks/<slug>")
+@api.route("/tracks/<slug>")
 def get_track(slug):
     """
     Detail page payload for a single investment track.
@@ -415,7 +429,7 @@ def get_track(slug):
     })
 
 
-@app.route("/graph")
+@api.route("/graph")
 def get_graph():
     """
     Aggregated graph payload consumed by the frontend.
@@ -483,5 +497,19 @@ def get_graph():
     return jsonify({"tracks": tracks, "nodes": nodes, "edges": edges})
 
 
+app.register_blueprint(api)
+
+
+# Tiny root so an ops-level `curl /nexus/api/` returns something useful instead
+# of a 404 when someone is sanity-checking the deployment.
+@app.route(API_PREFIX or "/", strict_slashes=False)
+def _root():
+    return jsonify({
+        "service": "nexus",
+        "prefix": API_PREFIX,
+        "endpoints": sorted({str(r) for r in app.url_map.iter_rules() if "nexus_api" in r.endpoint}),
+    })
+
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(debug=True, host="0.0.0.0", port=int(os.getenv("PORT", "5001")))
