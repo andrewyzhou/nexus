@@ -69,7 +69,8 @@ async def get_ticker_news_summary(
 
     if summarizer is None:
         registry = load_registry()
-        local_summarizer = NewsSummarizer(model_name=summarizer_model, registry=registry)
+        model_to_use = summarizer_model or "claude-sonnet"
+        local_summarizer = NewsSummarizer(model_name=model_to_use, registry=registry)
     else:
         local_summarizer = summarizer
 

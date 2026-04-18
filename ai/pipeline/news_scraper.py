@@ -28,17 +28,54 @@ class NewsScraper:
         self.myft_rss_url = myft_rss_url or os.environ.get("MYFT_RSS_URL")
 
     def _is_relevant(self, text: str, title: str, ticker: str, company_name: str | None) -> bool:
+        """Score relevance using ticker/company evidence and reject generic macro-only items."""
         if not text and not title:
             return False
-            
-        # content = f"{title}\n{text}".lower()
-        # if re.search(rf"\b{ticker.lower()}\b", content):
-        #     return True
-            
-        # if company_name and company_name.lower() in content:
-        #     return True
-            
-        return True 
+
+        title_l = (title or "").lower()
+        body_l = (text or "").lower()
+        content_l = f"{title_l}\n{body_l}"
+
+        score = 0.0
+        t = (ticker or "").strip().lower()
+        if t and re.search(rf"\b{re.escape(t)}\b", content_l):
+            score += 0.6
+        if t and re.search(rf"\b{re.escape(t)}\b", title_l):
+            score += 0.25
+
+        aliases: list[str] = []
+        if company_name:
+            aliases.append(company_name.strip().lower())
+            aliases.extend(re.findall(r"[a-zA-Z]{3,}", company_name.lower()))
+
+        for alias in aliases:
+            if not alias:
+                continue
+            if alias in title_l:
+                score += 0.25
+            elif alias in body_l:
+                score += 0.15
+
+        # Penalize broad macro market commentary when ticker/company evidence is weak.
+        macro_terms = [
+            "s&p 500",
+            "dow jones",
+            "nasdaq composite",
+            "federal reserve",
+            "interest rates",
+            "inflation",
+            "treasury yields",
+            "macro backdrop",
+            "risk sentiment",
+        ]
+        macro_hits = sum(1 for m in macro_terms if m in content_l)
+        if macro_hits >= 2 and score < 0.8:
+            score -= 0.35
+
+        if len((text or "").split()) >= 120:
+            score += 0.05
+
+        return score >= 0.55
 
     async def fetch_full_text(self, session: aiohttp.ClientSession, url: str | None) -> str:
         """Use Trafilatura to extract body text from an article URL."""
@@ -262,17 +299,21 @@ class NewsScraper:
 
         Attempts all tiers simultaneously and collects one valid article from each source.
         """
+        final_articles: list[str] = []
+
+        # Prioritize Finnhub first as requested.
+        finnhub_result = await self.fetch_finnhub_tier(session, ticker, company_name)
+        if isinstance(finnhub_result, list) and finnhub_result:
+            final_articles.extend(finnhub_result)
+
+        # Enrich with additional tiers (best effort).
         tasks = [
             self.fetch_yfinance_tier(session, ticker, company_name),
             self.fetch_rss_tier(session, ticker, company_name),
-            self.fetch_finnhub_tier(session, ticker, company_name),
         ]
-        
         results = await asyncio.gather(*tasks, return_exceptions=True)
-        
-        final_articles = []
         for r in results:
             if isinstance(r, list) and r:
                 final_articles.extend(r)
-                
+
         return "\n\n---\n\n".join(final_articles)
