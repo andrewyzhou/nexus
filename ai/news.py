@@ -1074,29 +1074,12 @@ def run_track(
     This function is intentionally pure-ish with explicit inputs so all-track
     orchestration can call it repeatedly with different track configs.
     """
-    # Build a stable, de-duplicated ticker query list for this track. A user
-    # override (if provided) is prioritized, then all track company tickers.
-    query_tickers: list[str] = []
-    if ticker_for_run:
-        query_tickers.append(str(ticker_for_run).upper().strip())
-    for company in track.get("companies", []):
-        if not isinstance(company, dict):
-            continue
-        t = str(company.get("ticker", "")).upper().strip()
-        if t and t not in query_tickers:
-            query_tickers.append(t)
-    if not query_tickers:
-        query_tickers = [TICKER]
-
-    # Clone base sources and expand ticker-specific Google News queries.
-    rss_fallbacks = [s for s in RSS_FALLBACKS if s[0] != "rss_google_ticker"]
-    for t in query_tickers:
-        rss_fallbacks.append(
-            (
-                f"rss_google_ticker_{t}",
-                f"https://news.google.com/rss/search?q={t}+stock&hl=en-US&gl=US&ceid=US:en",
-            )
-        )
+    # Clone base sources and patch ticker-specific query feed for this run.
+    rss_fallbacks = list(RSS_FALLBACKS)
+    rss_fallbacks[-1] = (
+        "rss_google_ticker",
+        f"https://news.google.com/rss/search?q={ticker_for_run}+stock&hl=en-US&gl=US&ceid=US:en",
+    )
     # Deprioritize unstable sources based on persisted health state.
     rss_fallbacks = sorted(rss_fallbacks, key=lambda s: source_priority_key(s[0], health))
 
@@ -1115,7 +1098,7 @@ def run_track(
         "crop",
         "commodities",
         "commodity",
-        *[t.lower() for t in query_tickers],
+        ticker_for_run.lower(),
     ]
     if include_energy_terms:
         extra += ENERGY_EXTRA_TERMS
@@ -1167,15 +1150,13 @@ def run_track(
         counts[sid] = len(collected) - before
         print(f"{sid}: +{counts[sid]} (total {len(collected)})")
 
-    # Secondary fallback: per-ticker Yahoo feeds if still short on evidence.
-    for yt in query_tickers:
-        if len(collected) >= min_hits:
-            break
-        yid = f"rss_yahoo_{yt}"
+    yid = f"rss_yahoo_{ticker_for_run}"
+    # Secondary fallback: ticker-specific Yahoo feed if still short on evidence.
+    if len(collected) < min_hits:
         before = len(collected)
         items, meta = fetch_items_with_cache(
             fetch_func=fetch_func,
-            feed=YAHOO_RSS.format(sym=yt),
+            feed=YAHOO_RSS.format(sym=ticker_for_run),
             source_id=yid,
             cache_dir=cache_dir,
             ttl_seconds=cache_ttl_seconds,
@@ -1335,7 +1316,6 @@ def run_track(
         "rss_fallbacks": rss_fallbacks,
         "terms_count": len(terms),
         "ticker_for_run": ticker_for_run,
-        "query_tickers": query_tickers,
     }
 
 
@@ -1359,18 +1339,17 @@ def write_outputs(
     counts: dict[str, int] = run_result["counts"]
     rss_fallbacks = run_result["rss_fallbacks"]
     ticker_for_run = run_result["ticker_for_run"]
-    query_tickers = run_result.get("query_tickers") or [ticker_for_run]
     terms_count = run_result["terms_count"]
 
     briefs_dir.mkdir(parents=True, exist_ok=True)
     out_json_per_track = briefs_dir / f"geopolitical_brief_{_slugify_track(track['track_id'])}.json"
     out_summaries_per_track = briefs_dir / f"news_summaries_{_slugify_track(track['track_id'])}.json"
 
-    ordered_ids = [s[0] for s in rss_fallbacks] + [f"rss_yahoo_{t}" for t in query_tickers]
+    ordered_ids = [s[0] for s in rss_fallbacks] + [f"rss_yahoo_{ticker_for_run}"]
     prov = [f"{sid}: +{counts.get(sid, 0)}" for sid in ordered_ids]
     lines = [
         "NEXUS - Demo geopolitical/ag brief (consolidated walkthrough)",
-        f"Ticker queries (Yahoo RSS): {', '.join(query_tickers)}",
+        f"Primary ticker (Yahoo RSS): {ticker_for_run}",
         f"Track: {track['label']} [{track['track_id']}]",
         f"Collected (UTC): {_iso_utc(_utc_now().replace(microsecond=0))}",
         f"Match threshold: min_hits={min_hits} | terms~{terms_count}",
