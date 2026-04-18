@@ -1,10 +1,13 @@
 import asyncio
 import os
 import re
+from email.utils import parsedate_to_datetime
+from urllib.parse import parse_qsl, quote_plus, urlencode, urlsplit, urlunsplit
+
 import aiohttp
 import feedparser
 import trafilatura
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from tenacity import (
     retry,
     retry_if_not_exception_type,
@@ -19,6 +22,18 @@ except ImportError:
 
 
 class NewsScraper:
+    SOURCE_TRUST_WEIGHTS = {
+        "reuters": 1.25,
+        "bloomberg": 1.2,
+        "financial times": 1.15,
+        "wsj": 1.15,
+        "wall street journal": 1.15,
+        "cnbc": 1.1,
+        "finnhub api": 1.0,
+        "google news": 0.9,
+        "yahoo": 0.95,
+    }
+
     def __init__(
         self,
         finnhub_api_key: str | None = None,
@@ -27,34 +42,128 @@ class NewsScraper:
         self.finnhub_api_key = finnhub_api_key or os.environ.get("FINNHUB_API_KEY")
         self.myft_rss_url = myft_rss_url or os.environ.get("MYFT_RSS_URL")
 
-    def _is_relevant(self, text: str, title: str, ticker: str, company_name: str | None) -> bool:
-        """Score relevance using ticker/company evidence and reject generic macro-only items."""
+    def _canonicalize_url(self, url: str | None) -> str:
+        if not url:
+            return ""
+        try:
+            parts = urlsplit(url.strip())
+            filtered_q = [
+                (k, v)
+                for k, v in parse_qsl(parts.query, keep_blank_values=True)
+                if not k.lower().startswith(("utm_", "fbclid", "gclid", "ocid", "cmpid"))
+            ]
+            new_query = urlencode(filtered_q, doseq=True)
+            return urlunsplit((parts.scheme, parts.netloc, parts.path, new_query, ""))
+        except Exception:
+            return (url or "").strip()
+
+    def _coerce_datetime(self, value) -> datetime | None:
+        if value is None:
+            return None
+        if isinstance(value, datetime):
+            return value if value.tzinfo else value.replace(tzinfo=timezone.utc)
+        if isinstance(value, (int, float)):
+            ts = float(value)
+            if ts > 1_000_000_000_000:
+                ts /= 1000.0
+            try:
+                return datetime.fromtimestamp(ts, tz=timezone.utc)
+            except Exception:
+                return None
+        if hasattr(value, "tm_year"):
+            try:
+                return datetime(*value[:6], tzinfo=timezone.utc)
+            except Exception:
+                return None
+        if isinstance(value, str):
+            raw = value.strip()
+            if not raw:
+                return None
+            try:
+                return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+            except Exception:
+                try:
+                    return parsedate_to_datetime(raw)
+                except Exception:
+                    return None
+        return None
+
+    def _source_weight(self, source: str | None) -> float:
+        src = (source or "").lower()
+        for token, weight in self.SOURCE_TRUST_WEIGHTS.items():
+            if token in src:
+                return weight
+        return 1.0
+
+    def _freshness_bonus(self, published_at: datetime | None) -> float:
+        if not published_at:
+            return 0.0
+        dt = published_at if published_at.tzinfo else published_at.replace(tzinfo=timezone.utc)
+        age_hours = max(0.0, (datetime.now(timezone.utc) - dt).total_seconds() / 3600.0)
+        if age_hours <= 24:
+            return 0.2
+        if age_hours <= 72:
+            return 0.1
+        if age_hours <= 168:
+            return 0.03
+        return -0.05
+
+    def _relevance_score(
+        self,
+        text: str,
+        title: str,
+        ticker: str,
+        company_name: str | None,
+        *,
+        source: str | None = None,
+        published_at: datetime | None = None,
+    ) -> float:
+        """Compute trust-weighted relevance score with strict ticker/company evidence."""
         if not text and not title:
-            return False
+            return -1.0
 
         title_l = (title or "").lower()
         body_l = (text or "").lower()
         content_l = f"{title_l}\n{body_l}"
 
-        score = 0.0
-        t = (ticker or "").strip().lower()
-        if t and re.search(rf"\b{re.escape(t)}\b", content_l):
-            score += 0.6
-        if t and re.search(rf"\b{re.escape(t)}\b", title_l):
-            score += 0.25
+        ticker_norm = (ticker or "").strip().lower()
+        ticker_in_title = bool(ticker_norm and re.search(rf"\b{re.escape(ticker_norm)}\b", title_l))
+        ticker_in_body = bool(ticker_norm and re.search(rf"\b{re.escape(ticker_norm)}\b", body_l))
 
+        company_in_title = False
+        company_in_body = False
         aliases: list[str] = []
         if company_name:
             aliases.append(company_name.strip().lower())
             aliases.extend(re.findall(r"[a-zA-Z]{3,}", company_name.lower()))
+            deduped_aliases: list[str] = []
+            seen: set[str] = set()
+            for a in aliases:
+                aa = a.strip()
+                if aa and aa not in seen:
+                    seen.add(aa)
+                    deduped_aliases.append(aa)
+            aliases = deduped_aliases
 
-        for alias in aliases:
-            if not alias:
-                continue
-            if alias in title_l:
-                score += 0.25
-            elif alias in body_l:
-                score += 0.15
+            for alias in aliases:
+                if alias in title_l:
+                    company_in_title = True
+                if alias in body_l:
+                    company_in_body = True
+
+        # Strict evidence gate: reject articles with no ticker/company evidence.
+        if not (ticker_in_title or ticker_in_body or company_in_title or company_in_body):
+            return -1.0
+
+        score = 0.0
+        if ticker_in_body:
+            score += 0.6
+        if ticker_in_title:
+            score += 0.25
+        if company_in_title:
+            score += 0.25
+        if company_in_body:
+            score += 0.15
 
         # Penalize broad macro market commentary when ticker/company evidence is weak.
         macro_terms = [
@@ -69,13 +178,64 @@ class NewsScraper:
             "risk sentiment",
         ]
         macro_hits = sum(1 for m in macro_terms if m in content_l)
-        if macro_hits >= 2 and score < 0.8:
+        if macro_hits >= 2 and not (ticker_in_title or company_in_title):
             score -= 0.35
 
         if len((text or "").split()) >= 120:
             score += 0.05
 
-        return score >= 0.55
+        score *= self._source_weight(source)
+        score += self._freshness_bonus(published_at)
+
+        return score
+
+    def _is_relevant(
+        self,
+        text: str,
+        title: str,
+        ticker: str,
+        company_name: str | None,
+        *,
+        source: str | None = None,
+        published_at: datetime | None = None,
+    ) -> bool:
+        score = self._relevance_score(
+            text,
+            title,
+            ticker,
+            company_name,
+            source=source,
+            published_at=published_at,
+        )
+        return score >= 0.65
+
+    def _select_top_candidates(self, candidates: list[dict[str, object]], k: int = 2) -> list[str]:
+        if not candidates:
+            return []
+
+        dedup: dict[str, dict[str, object]] = {}
+        for c in candidates:
+            url = self._canonicalize_url(str(c.get("url", "") or ""))
+            key = url or str(c.get("title", "") or "").strip().lower()
+            if not key:
+                continue
+            prior = dedup.get(key)
+            if prior is None or float(c.get("score", 0.0) or 0.0) > float(prior.get("score", 0.0) or 0.0):
+                c["url"] = url
+                dedup[key] = c
+
+        ranked = sorted(dedup.values(), key=lambda x: float(x.get("score", 0.0) or 0.0), reverse=True)
+        out: list[str] = []
+        for row in ranked[: max(1, k)]:
+            out.append(
+                (
+                    f"Title: {row.get('title', '')}\n"
+                    f"Source: {row.get('source', 'Unknown')}\n"
+                    f"URL: {row.get('url', '')}\n"
+                    f"Text: {row.get('text', '')}"
+                )
+            )
+        return out
 
     async def fetch_full_text(self, session: aiohttp.ClientSession, url: str | None) -> str:
         """Use Trafilatura to extract body text from an article URL."""
@@ -132,6 +292,11 @@ class NewsScraper:
             publisher = content.get("publisher")
             if not publisher and content.get("provider"):
                 publisher = content.get("provider", {}).get("displayName")
+            published_at = self._coerce_datetime(
+                content.get("providerPublishTime")
+                or content.get("pubDate")
+                or content.get("published")
+            )
                 
             if not link:
                 return None
@@ -139,23 +304,41 @@ class NewsScraper:
             text = await self.fetch_full_text(session, link)
           
             word_count = len(text.split()) if text else 0
-            if word_count > 100 and self._is_relevant(text, title or "", ticker, company_name):
-                return (
-                    f"Title: {title}\n"
-                    f"Source: {publisher}\n"
-                    f"URL: {link}\n"
-                    f"Text: {text}"
-                )
+            if word_count > 100 and self._is_relevant(
+                text,
+                title or "",
+                ticker,
+                company_name,
+                source=publisher,
+                published_at=published_at,
+            ):
+                return {
+                    "title": title or "",
+                    "source": publisher or "Yahoo Finance",
+                    "url": link,
+                    "text": text,
+                    "score": self._relevance_score(
+                        text,
+                        title or "",
+                        ticker,
+                        company_name,
+                        source=publisher,
+                        published_at=published_at,
+                    ),
+                }
             return None
 
         tasks = [process_item(item) for item in news_items[:5]]
         results = await asyncio.gather(*tasks, return_exceptions=True)
         
-        valid_results = [r for r in results if r and not isinstance(r, Exception)]
+        valid_results = [r for r in results if isinstance(r, dict)]
         if not valid_results:
             raise ValueError("No relevant text > 100 words could be extracted from yfinance links")
-            
-        return [valid_results[0]]
+
+        picked = self._select_top_candidates(valid_results, k=2)
+        if not picked:
+            raise ValueError("No relevant text > 100 words could be extracted from yfinance links")
+        return picked
 
     @retry(
         stop=stop_after_attempt(2),
@@ -179,26 +362,52 @@ class NewsScraper:
                             link = entry.link
                             text = await self.fetch_full_text(session, link)
                             word_count = len(text.split()) if text else 0
+                            published_at = self._coerce_datetime(
+                                getattr(entry, "published_parsed", None)
+                                or getattr(entry, "updated_parsed", None)
+                                or getattr(entry, "published", None)
+                            )
                             
-                            if word_count > 100 and self._is_relevant(text, title, ticker, company_name):
-                                return (
-                                    f"Title: {title}\n"
-                                    f"Source: myFT\n"
-                                    f"URL: {link}\n"
-                                    f"Text: {text}"
-                                )
+                            if word_count > 100 and self._is_relevant(
+                                text,
+                                title,
+                                ticker,
+                                company_name,
+                                source="myFT",
+                                published_at=published_at,
+                            ):
+                                return {
+                                    "title": title or "",
+                                    "source": "myFT",
+                                    "url": link,
+                                    "text": text,
+                                    "score": self._relevance_score(
+                                        text,
+                                        title,
+                                        ticker,
+                                        company_name,
+                                        source="myFT",
+                                        published_at=published_at,
+                                    ),
+                                }
                             return None
                             
                         tasks = [process_entry(e) for e in feed.entries[:5]]
                         rss_res = await asyncio.gather(*tasks, return_exceptions=True)
-                        valid = [r for r in rss_res if r and not isinstance(r, Exception)]
+                        valid = [r for r in rss_res if isinstance(r, dict)]
                         if valid:
-                            results.append(valid[0])
+                            results.extend(self._select_top_candidates(valid, k=2))
             except Exception as e:
                 print(f"[RSS Tier] myFT failed: {e}")
 
         if not results:
-            url = f"https://news.google.com/rss/search?q={ticker}+stock+when:1d&hl=en-US&gl=US&ceid=US:en"
+            company_clause = f' OR "{company_name}"' if company_name else ""
+            query = (
+                f"({ticker}{company_clause}) "
+                "(earnings OR guidance OR forecast OR acquisition OR product OR sec OR lawsuit) "
+                "when:3d"
+            )
+            url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=en-US&gl=US&ceid=US:en"
             try:
                 async with session.get(url, timeout=10) as response:
                     if response.status == 200:
@@ -210,21 +419,41 @@ class NewsScraper:
                             link = entry.link
                             text = await self.fetch_full_text(session, link)
                             word_count = len(text.split()) if text else 0
+                            published_at = self._coerce_datetime(
+                                getattr(entry, "published_parsed", None)
+                                or getattr(entry, "updated_parsed", None)
+                                or getattr(entry, "published", None)
+                            )
                             
-                            if word_count > 100 and self._is_relevant(text, title, ticker, company_name):
-                                return (
-                                    f"Title: {title}\n"
-                                    f"Source: Google News\n"
-                                    f"URL: {link}\n"
-                                    f"Text: {text}"
-                                )
+                            if word_count > 100 and self._is_relevant(
+                                text,
+                                title,
+                                ticker,
+                                company_name,
+                                source="Google News",
+                                published_at=published_at,
+                            ):
+                                return {
+                                    "title": title or "",
+                                    "source": "Google News",
+                                    "url": link,
+                                    "text": text,
+                                    "score": self._relevance_score(
+                                        text,
+                                        title,
+                                        ticker,
+                                        company_name,
+                                        source="Google News",
+                                        published_at=published_at,
+                                    ),
+                                }
                             return None
                             
                         tasks = [process_entry(e) for e in feed.entries[:5]]
                         rss_res = await asyncio.gather(*tasks, return_exceptions=True)
-                        valid = [r for r in rss_res if r and not isinstance(r, Exception)]
+                        valid = [r for r in rss_res if isinstance(r, dict)]
                         if valid:
-                            results.append(valid[0])
+                            results.extend(self._select_top_candidates(valid, k=2))
             except Exception as e:
                 print(f"[RSS Tier] Google News failed: {e}")
                 
@@ -274,23 +503,43 @@ class NewsScraper:
                     text = item.get("summary", "")
                     word_count = len(text.split()) if text else 0
                     
-                if word_count > 100 and self._is_relevant(text, title, ticker, company_name):
-                    return (
-                        f"Title: {title}\n"
-                        f"Source: Finnhub API\n"
-                        f"URL: {link}\n"
-                        f"Text: {text}"
-                    )
+                published_at = self._coerce_datetime(item.get("datetime"))
+
+                if word_count > 100 and self._is_relevant(
+                    text,
+                    title,
+                    ticker,
+                    company_name,
+                    source="Finnhub API",
+                    published_at=published_at,
+                ):
+                    return {
+                        "title": title or "",
+                        "source": "Finnhub API",
+                        "url": link,
+                        "text": text,
+                        "score": self._relevance_score(
+                            text,
+                            title,
+                            ticker,
+                            company_name,
+                            source="Finnhub API",
+                            published_at=published_at,
+                        ),
+                    }
                 return None
                 
             tasks = [process_item(item) for item in data[:20]]
             results = await asyncio.gather(*tasks, return_exceptions=True)
-            valid_results = [r for r in results if r and not isinstance(r, Exception)]
+            valid_results = [r for r in results if isinstance(r, dict)]
             
             if not valid_results:
                 raise ValueError("No relevant text > 100 words extracted from Finnhub")
-                
-            return [valid_results[0]]
+
+            picked = self._select_top_candidates(valid_results, k=3)
+            if not picked:
+                raise ValueError("No relevant text > 100 words extracted from Finnhub")
+            return picked
 
     async def scrape_all(
         self, session: aiohttp.ClientSession, ticker: str, company_name: str | None = None
@@ -316,4 +565,16 @@ class NewsScraper:
             if isinstance(r, list) and r:
                 final_articles.extend(r)
 
-        return "\n\n---\n\n".join(final_articles)
+        # Canonical URL dedupe across tiers.
+        unique_articles: list[str] = []
+        seen_urls: set[str] = set()
+        for article in final_articles:
+            match = re.search(r"^URL:\s*(.*)$", article, flags=re.MULTILINE)
+            canonical = self._canonicalize_url(match.group(1).strip() if match else "")
+            if canonical and canonical in seen_urls:
+                continue
+            if canonical:
+                seen_urls.add(canonical)
+            unique_articles.append(article)
+
+        return "\n\n---\n\n".join(unique_articles)
