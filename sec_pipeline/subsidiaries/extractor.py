@@ -321,7 +321,7 @@ def main():
                 key, val = line.split("=", 1)
                 os.environ[key.strip()] = val.strip()
 
-    tickers = load_tickers()[:10]
+    tickers = load_tickers()
     results = []
 
     method_label = args.llm

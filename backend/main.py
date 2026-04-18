@@ -1,24 +1,100 @@
-from flask import Flask, jsonify, request
+from flask import Flask, Blueprint, g, jsonify, request
 from flask_cors import CORS
+import base64
 import hashlib
-import sys
-from pathlib import Path
+import json
+import os
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
 
 app = Flask(__name__)
-CORS(app)
 
-# Make the live Yahoo scraper importable from the repo root.
-REPO_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPO_ROOT / "scraper"))
-try:
-    from scraper import StockScraper  # type: ignore
-    _scraper = StockScraper()
-except Exception as e:
-    print(f"[warn] live scraper unavailable: {e}")
-    _scraper = None
+# CORS allow-list. In dev we want the whole web open; in prod we pin it to
+# the iPick origin so browsers from elsewhere can't call the API directly.
+_cors_env = os.getenv("NEXUS_CORS_ORIGINS", "*")
+if _cors_env == "*":
+    CORS(app, supports_credentials=True)
+else:
+    CORS(
+        app,
+        origins=[o.strip() for o in _cors_env.split(",") if o.strip()],
+        supports_credentials=True,
+        allow_headers=["Authorization", "Content-Type"],
+    )
+
+# All routes live under this prefix so nginx can proxy /nexus/api/* → us while
+# the client's existing app keeps owning the root. Override with
+# NEXUS_API_PREFIX (e.g. "") if you want to mount at root in a bare deploy.
+API_PREFIX = os.getenv("NEXUS_API_PREFIX", "/nexus/api")
+api = Blueprint("nexus_api", __name__, url_prefix=API_PREFIX)
+
+# ── Firebase auth (optional; off in dev, on in prod) ─────────────────────
+# Set NEXUS_REQUIRE_AUTH=1 along with FIREBASE_CREDENTIALS (base64-encoded
+# service account JSON, same format iPick's webapp uses) to gate every
+# /nexus/api/* request behind a verified Firebase ID token.
+REQUIRE_AUTH = os.getenv("NEXUS_REQUIRE_AUTH", "").lower() in ("1", "true", "yes")
+_fb_auth = None
+if REQUIRE_AUTH:
+    import firebase_admin
+    from firebase_admin import credentials, auth as _fb_auth_mod  # noqa: F401
+    creds_b64 = os.environ.get("FIREBASE_CREDENTIALS")
+    if not creds_b64:
+        raise RuntimeError(
+            "NEXUS_REQUIRE_AUTH=1 but FIREBASE_CREDENTIALS is not set. "
+            "Populate it with the base64-encoded Firebase service account JSON."
+        )
+    _creds_dict = json.loads(base64.b64decode(creds_b64))
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app(credentials.Certificate(_creds_dict))
+    _fb_auth = _fb_auth_mod
+    print(f"[nexus] firebase auth ENABLED (project: {_creds_dict.get('project_id')})")
+else:
+    print("[nexus] firebase auth DISABLED (set NEXUS_REQUIRE_AUTH=1 to enable)")
+
+
+@api.before_request
+def _gate_api():
+    """Block every API request without a valid Firebase ID token when
+    NEXUS_REQUIRE_AUTH is on. /nexus/api/config is the public exception so
+    the frontend can bootstrap Firebase before the user is authenticated."""
+    if not REQUIRE_AUTH:
+        return None
+    if request.method == "OPTIONS":  # CORS preflight
+        return None
+    if request.path.rstrip("/").endswith("/config"):
+        return None
+
+    auth_header = request.headers.get("Authorization", "")
+    if not auth_header.startswith("Bearer "):
+        return jsonify({"error": "missing Authorization: Bearer <id_token>"}), 401
+    token = auth_header.split(" ", 1)[1].strip()
+    try:
+        g.user = _fb_auth.verify_id_token(token)
+    except Exception as e:
+        return jsonify({"error": f"invalid token: {e}"}), 401
+    return None
+
+
+@api.route("/config")
+def get_config():
+    """
+    Public bootstrap endpoint — tells the frontend whether auth is required
+    and hands back the Firebase client config so it can initialize the SDK.
+    API key is safe to expose; Firebase enforces auth server-side.
+    """
+    return jsonify({
+        "requireAuth": REQUIRE_AUTH,
+        "firebase": {
+            "apiKey":      os.getenv("FIREBASE_API_KEY", ""),
+            "authDomain":  os.getenv("FIREBASE_AUTH_DOMAIN", ""),
+            "projectId":   os.getenv("FIREBASE_PROJECT_ID", ""),
+        } if REQUIRE_AUTH else None,
+        "loginUrl": os.getenv("NEXUS_LOGIN_URL", "https://www.ipick.ai"),
+    })
+
+
+import yfinance as yf
 
 
 def get_conn():
@@ -29,8 +105,8 @@ def track_color(track_name: str) -> str:
     """Stable pastel color for a track name (so the frontend gets consistent colors)."""
     h = int(hashlib.md5(track_name.encode()).hexdigest()[:6], 16)
     palette = [
-        "#00d4ff", "#f59e0b", "#10b981", "#ef4444", "#a78bfa",
-        "#ec4899", "#22d3ee", "#84cc16", "#f97316", "#6366f1",
+        "#10b981", "#a78bfa", "#ec4899", "#22d3ee", "#84cc16",
+        "#f97316", "#6366f1", "#06b6d4", "#d946ef", "#14b8a6",
     ]
     return palette[h % len(palette)]
 
@@ -39,7 +115,7 @@ def slugify(name: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in name).strip("-")
 
 
-@app.route("/companies")
+@api.route("/companies")
 def get_companies():
     conn = get_conn()
     cursor = conn.cursor()
@@ -55,7 +131,7 @@ def get_companies():
     ])
 
 
-@app.route("/companies/<ticker>")
+@api.route("/companies/<ticker>")
 def get_company(ticker):
     conn = get_conn()
     cursor = conn.cursor()
@@ -107,7 +183,7 @@ def get_company(ticker):
     return jsonify(company)
 
 
-@app.route("/companies/<ticker>/neighbors")
+@api.route("/companies/<ticker>/neighbors")
 def get_neighbors(ticker):
     conn = get_conn()
     cursor = conn.cursor()
@@ -175,7 +251,7 @@ def get_neighbors(ticker):
     return jsonify({"nodes": nodes, "edges": edges})
 
 
-@app.route("/investment_tracks", strict_slashes=False)
+@api.route("/investment_tracks", strict_slashes=False)
 def get_investment_tracks():
     conn = get_conn()
     cursor = conn.cursor()
@@ -200,7 +276,7 @@ def get_investment_tracks():
     return jsonify(tracks)
 
 
-@app.route("/investment_tracks/<int:track_id>/companies")
+@api.route("/investment_tracks/<int:track_id>/companies")
 def get_track_companies(track_id):
     conn = get_conn()
     cursor = conn.cursor()
@@ -265,13 +341,13 @@ def fetch_news_for(ticker: str, limit: int = 8) -> list:
     return out
 
 
-@app.route("/companies/<ticker>/news")
+@api.route("/companies/<ticker>/news")
 def get_company_news(ticker):
     limit = request.args.get("limit", default=8, type=int)
     return jsonify(fetch_news_for(ticker.upper(), limit=limit))
 
 
-@app.route("/tracks/<slug>/news")
+@api.route("/tracks/<slug>/news")
 def get_track_news(slug):
     """Aggregate news for the top-N companies (by market cap) in this track."""
     conn = get_conn()
@@ -307,21 +383,48 @@ def get_track_news(slug):
     return jsonify(aggregated)
 
 
-@app.route("/companies/<ticker>/live")
+@api.route("/companies/<ticker>/live")
 def get_company_live(ticker):
-    """Bypass the DB and pull a fresh quote straight from Yahoo Finance."""
-    if _scraper is None:
-        return jsonify({"error": "live scraper unavailable"}), 503
+    """Pull a fresh quote from Yahoo Finance via yfinance."""
     try:
-        data = _scraper.get(ticker.upper())
+        t = yf.Ticker(ticker.upper())
+        info = t.info
     except Exception as e:
         return jsonify({"error": f"yahoo fetch failed: {e}"}), 502
-    if data is None:
+
+    if not info or info.get("quoteType") is None:
         return jsonify({"error": "Company not found"}), 404
-    return jsonify(data)
+
+    change_pct = info.get("regularMarketChangePercent")
+    return jsonify({
+        "ticker":             ticker.upper(),
+        "companyName":        info.get("longName") or info.get("shortName"),
+        "description":        info.get("longBusinessSummary"),
+        "sector":             info.get("sector"),
+        "industry":           info.get("industry"),
+        "country":            info.get("country"),
+        "price":              info.get("currentPrice") or info.get("regularMarketPrice"),
+        "changePercent":      change_pct / 100 if change_pct is not None else None,
+        "marketCap":          info.get("marketCap"),
+        "trailingPE":         info.get("trailingPE"),
+        "forwardPE":          info.get("forwardPE"),
+        "trailingEPS":        info.get("trailingEps"),
+        "fiftyTwoWeekHigh":   info.get("fiftyTwoWeekHigh"),
+        "fiftyTwoWeekLow":    info.get("fiftyTwoWeekLow"),
+        "open":               info.get("open"),
+        "previousClose":      info.get("previousClose"),
+        "dayHigh":            info.get("dayHigh"),
+        "dayLow":             info.get("dayLow"),
+        "volume":             info.get("volume"),
+        "avgVolume":          info.get("averageVolume"),
+        "dividendYield":      info.get("dividendYield") / 100 if info.get("dividendYield") is not None else None,
+        "beta":               info.get("beta"),
+        "fullTimeEmployees":  info.get("fullTimeEmployees"),
+        "website":            info.get("website"),
+    })
 
 
-@app.route("/tracks")
+@api.route("/tracks")
 def list_tracks():
     """All investment tracks with company counts (for the track index page)."""
     conn = get_conn()
@@ -347,7 +450,7 @@ def list_tracks():
     return jsonify(out)
 
 
-@app.route("/tracks/<slug>")
+@api.route("/tracks/<slug>")
 def get_track(slug):
     """
     Detail page payload for a single investment track.
@@ -398,7 +501,7 @@ def get_track(slug):
     })
 
 
-@app.route("/graph")
+@api.route("/graph")
 def get_graph():
     """
     Aggregated graph payload consumed by the frontend.
@@ -466,5 +569,19 @@ def get_graph():
     return jsonify({"tracks": tracks, "nodes": nodes, "edges": edges})
 
 
+app.register_blueprint(api)
+
+
+# Tiny root so an ops-level `curl /nexus/api/` returns something useful instead
+# of a 404 when someone is sanity-checking the deployment.
+@app.route(API_PREFIX or "/", strict_slashes=False)
+def _root():
+    return jsonify({
+        "service": "nexus",
+        "prefix": API_PREFIX,
+        "endpoints": sorted({str(r) for r in app.url_map.iter_rules() if "nexus_api" in r.endpoint}),
+    })
+
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(debug=True, host="0.0.0.0", port=int(os.getenv("PORT", "5001")))

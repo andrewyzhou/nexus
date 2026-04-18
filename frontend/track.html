@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nexus — Investment Track</title>
+  <title>Nexus</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="track.css" />
   <link rel="stylesheet" href="theme.css" />
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
 </head>
 <body class="track-body">
   <header id="header">
     <a href="index.html" class="logo logo-link">NEXUS</a>
-    <span class="subtitle">/ investment track</span>
     <div class="header-right">
-      <a href="https://ipick.ai" target="_blank" rel="noopener" class="back-link">iPick.ai ↗</a>
+      <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
       <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
       <a href="index.html" class="back-link">← back to graph</a>
     </div>
@@ -60,6 +61,8 @@
     </section>
   </main>
 
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
   <script src="theme.js"></script>
   <script src="track.js"></script>
 </body>

@@ -5,7 +5,7 @@
  * and renders the track hero + sortable company table.
  */
 const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
-  || 'http://localhost:5001';
+  || 'http://localhost:5001/nexus/api';
 
 const params = new URLSearchParams(window.location.search);
 const slug = params.get('slug');
@@ -26,6 +26,7 @@ function fmtNum(n, digits = 2) {
 }
 
 async function init() {
+  if (window.nexusAuthReady) await window.nexusAuthReady;
   if (!slug) {
     document.getElementById('track-title').textContent = 'No track selected';
     return;

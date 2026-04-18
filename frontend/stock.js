@@ -4,7 +4,7 @@
  * /companies/<ticker>/news for headlines.
  */
 const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
-  || 'http://localhost:5001';
+  || 'http://localhost:5001/nexus/api';
 
 const params = new URLSearchParams(window.location.search);
 const ticker = (params.get('ticker') || '').toUpperCase();
@@ -28,6 +28,7 @@ function fmtDate(t) {
 }
 
 async function init() {
+  if (window.nexusAuthReady) await window.nexusAuthReady;
   if (!ticker) {
     document.getElementById('stock-title').textContent = 'No ticker specified';
     return;
@@ -53,6 +54,12 @@ function renderStock(d) {
   document.title = `Nexus — ${d.ticker} ${d.companyName || ''}`;
   document.getElementById('stock-title').textContent = `${d.companyName || d.ticker} (${d.ticker})`;
   document.getElementById('stock-description').textContent = d.description || '';
+  const websiteEl = document.getElementById('stock-website');
+  const websiteWrap = document.getElementById('stock-website-wrap');
+  if (d.website) {
+    websiteEl.href = d.website;
+    websiteWrap.style.display = 'block';
+  }
   document.getElementById('stock-track').textContent =
     d.sector ? `${d.sector} · ${d.industry || ''}` : 'Stock';
 
@@ -60,7 +67,7 @@ function renderStock(d) {
   document.getElementById('stock-price').textContent = d.price != null
     ? `$${fmtNum(d.price)}${change}`
     : 'Price —';
-  document.getElementById('stock-mcap').textContent = `Mkt cap ${fmtMoney(d.marketCap)}`;
+  document.getElementById('stock-mcap').textContent = `Market Cap ${fmtMoney(d.marketCap)}`;
   document.getElementById('stock-pe').textContent = `P/E ${fmtNum(d.trailingPE, 1)}`;
   document.getElementById('stock-sector').textContent = d.country || '';
 
@@ -69,8 +76,8 @@ function renderStock(d) {
     ['Previous close', d.previousClose != null ? `$${fmtNum(d.previousClose)}` : '—'],
     ['Day high',       d.dayHigh != null ? `$${fmtNum(d.dayHigh)}` : '—'],
     ['Day low',        d.dayLow != null ? `$${fmtNum(d.dayLow)}` : '—'],
-    ['52w high',       d.fiftyTwoWeekHigh != null ? `$${fmtNum(d.fiftyTwoWeekHigh)}` : '—'],
-    ['52w low',        d.fiftyTwoWeekLow != null ? `$${fmtNum(d.fiftyTwoWeekLow)}` : '—'],
+    ['52 Week High',   d.fiftyTwoWeekHigh != null ? `$${fmtNum(d.fiftyTwoWeekHigh)}` : '—'],
+    ['52 Week Low',    d.fiftyTwoWeekLow != null ? `$${fmtNum(d.fiftyTwoWeekLow)}` : '—'],
     ['Volume',         d.volume != null ? d.volume.toLocaleString() : '—'],
     ['Avg volume',     d.avgVolume != null ? d.avgVolume.toLocaleString() : '—'],
     ['EPS (TTM)',      fmtNum(d.trailingEPS)],
@@ -78,10 +85,9 @@ function renderStock(d) {
     ['Dividend yield', d.dividendYield != null ? `${(d.dividendYield * 100).toFixed(2)}%` : '—'],
     ['Beta',           fmtNum(d.beta)],
     ['Employees',      d.fullTimeEmployees != null ? d.fullTimeEmployees.toLocaleString() : '—'],
-    ['Website',        d.website ? `<a href="${d.website}" target="_blank" rel="noopener">${d.website.replace(/^https?:\/\//, '')}</a>` : '—'],
   ];
 
-  document.getElementById('stats-grid').innerHTML = stats.map(([k, v]) => `
+  document.getElementById('stats-grid').innerHTML = stats.filter(([, v]) => v !== '—').map(([k, v]) => `
     <div class="stat-cell">
       <div class="stat-label">${k}</div>
       <div class="stat-val">${v}</div>

@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nexus — Investment Graph</title>
+  <title>Nexus</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="theme.css" />
 
   <!-- D3.js v7 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <!-- Firebase compat SDK (sync global `firebase`) for auth gating -->
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
 </head>
 
 <body>
@@ -17,11 +20,9 @@
     <!-- ── Header ──────────────────────────────────────────── -->
     <header id="header">
       <div class="logo">NEXUS</div>
-      <span class="subtitle">/ investment graph</span>
+      <div class="header-sep"></div>
       <div class="header-right">
-        <span id="node-count"></span>
-        <span id="source-badge" class="source-badge"></span>
-        <a href="https://ipick.ai" target="_blank" rel="noopener" class="back-link">iPick.ai ↗</a>
+        <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
         <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
       </div>
     </header>
@@ -31,7 +32,7 @@
 
       <!-- Company search -->
       <div class="sidebar-section">
-        <div class="sidebar-label">Search companies</div>
+        <div class="sidebar-label">Search</div>
         <div class="search-wrap">
           <!-- magnifier icon -->
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,30 +42,38 @@
           <input
             id="search-input"
             type="text"
-            placeholder="Ticker or investment track…"
+            placeholder="Ticker or investment track"
             autocomplete="off"
             spellcheck="false"
           />
         </div>
       </div>
 
+      <!-- Separator -->
+      <div class="sidebar-divider"></div>
+
+      <!-- Pinned companies -->
+      <div class="sidebar-section" id="pinned-section">
+        <div class="tracks-header">
+          <div class="sidebar-label">Companies</div>
+          <div class="track-controls">
+            <button id="pinned-add-all" class="track-control-btn">All</button>
+            <button id="pinned-clear-all" class="track-control-btn">Clear</button>
+          </div>
+        </div>
+        <div id="pinned-list"></div>
+      </div>
+
       <!-- Track filters -->
       <div class="sidebar-section tracks-section">
         <div class="tracks-header">
-          <div class="sidebar-label">Investment tracks</div>
+          <div class="sidebar-label">Investment Tracks</div>
           <div class="track-controls">
             <button id="track-select-all" class="track-control-btn">All</button>
             <button id="track-clear-all" class="track-control-btn">Clear</button>
           </div>
         </div>
-        <p class="track-hint">Click a track to toggle it on the graph.<br>Click → to open its detail page.</p>
         <div id="track-list"></div>
-      </div>
-
-      <!-- Edge type legend -->
-      <div class="sidebar-section">
-        <div class="sidebar-label">Relationship types</div>
-        <div id="edge-legend"></div>
       </div>
 
     </aside>
@@ -72,6 +81,7 @@
     <!-- ── Main Graph Canvas ────────────────────────────────── -->
     <main id="main">
       <div id="graph-canvas"></div>
+      <div id="edge-legend"></div>
     </main>
 
   </div><!-- /#app -->
@@ -84,6 +94,9 @@
     <div id="panel-inner"></div>
   </aside>
 
+
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
   <script src="theme.js"></script>
   <script src="main.js"></script>
 </body>

@@ -1,0 +1,5 @@
+# Re-seed Nexus from live Yahoo Finance nightly at 06:15 UTC.
+# Install via:  sudo cp deploy/nexus-seed.cron /etc/cron.d/nexus-seed
+# Logs land in /var/log/nexus/seed.log — rotate with logrotate if you care.
+
+15 6 * * * ubuntu cd /home/ubuntu/nexus && /home/ubuntu/nexus/.venv/bin/python3 backend/db/seed_prod.py >> /var/log/nexus/seed.log 2>&1

@@ -39,7 +39,7 @@ SECTION_TARGETS = {
 
 def get_cik(ticker: str) -> str:
     url = "https://www.sec.gov/files/company_tickers.json"
-    r = requests.get(url, headers=HEADERS)
+    r = requests.get(url, headers=HEADERS, timeout=15)
     data = r.json()
     for entry in data.values():
         if entry["ticker"].upper() == ticker.upper():
@@ -49,7 +49,7 @@ def get_cik(ticker: str) -> str:
 
 def get_filings(cik: str, form_type: str = "10-K", count: int = 1) -> list:
     url = f"{BASE}/submissions/CIK{cik}.json"
-    r = requests.get(url, headers=HEADERS)
+    r = requests.get(url, headers=HEADERS, timeout=15)
     data = r.json()
     filings = data["filings"]["recent"]
     results = []
@@ -68,7 +68,7 @@ def get_filings(cik: str, form_type: str = "10-K", count: int = 1) -> list:
 def get_filing_text(cik: str, accession_number: str, doc_name: str) -> str:
     accession_clean = accession_number.replace("-", "")
     url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession_clean}/{doc_name}"
-    r = requests.get(url, headers=HEADERS)
+    r = requests.get(url, headers=HEADERS, timeout=30)
     time.sleep(0.5)
     soup = BeautifulSoup(r.text, "lxml")
     return soup.get_text(separator=" ", strip=True)
@@ -136,8 +136,8 @@ def fetch_sec_sections(ticker: str) -> dict:
 
 
 if __name__ == "__main__":
-    tickers_file = Path("all_tickers.txt")
-    output_dir = Path("data/raw_sections")
+    tickers_file = Path("tickers.txt")
+    output_dir = Path("raw_sections")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     tickers = [
@@ -147,6 +147,11 @@ if __name__ == "__main__":
     ]
 
     for ticker in tickers:
+        out_path = output_dir / f"{ticker}_sections.txt"
+        if out_path.exists() and out_path.stat().st_size > 10:
+            print(f"Skipping {ticker} (already cached)")
+            continue
+            
         print(f"\n{ticker}")
         sections = fetch_sec_sections(ticker)
 

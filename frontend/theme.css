@@ -21,8 +21,8 @@ html[data-theme="light"] {
   --text-secondary: #5b6172;
   --text-muted:     #8a90a3;
 
-  --accent:         #2563eb;
-  --accent-dim:     rgba(37, 99, 235, 0.12);
+  --accent:         #3aab96;
+  --accent-dim:     rgba(58, 171, 150, 0.15);
 }
 
 /* Hard-coded surfaces in style.css that don't use variables */
@@ -38,20 +38,23 @@ html[data-theme="light"] #tooltip {
   box-shadow: 0 8px 32px rgba(20, 24, 40, 0.18) !important;
 }
 
-/* Node labels: keep track color but darken it for contrast on light bg */
+/* Node labels: darken and saturate for contrast on light bg */
 html[data-theme="light"] svg .node-label {
-  filter: brightness(0.6) saturate(1.5);
+  filter: brightness(0.55) saturate(1.8);
 }
 
-/* Node body fill: bump opacity so nodes are more visible on white */
+/* Node body: solid-ish fill with vivid stroke so nodes pop on white */
 html[data-theme="light"] svg .node-body {
-  fill-opacity: 0.28;
-  stroke-opacity: 0.85;
+  fill-opacity: 0.18;
+  stroke-opacity: 1;
+  stroke-width: 2.5px;
+  filter: brightness(0.75) saturate(1.6);
 }
 
-/* Glow ring: more visible in light mode */
+/* Glow ring: stronger in light mode */
 html[data-theme="light"] svg .node-glow {
-  opacity: 0.45;
+  opacity: 0.55;
+  filter: brightness(0.7) saturate(1.6);
 }
 
 /* Track-page hero gradient is fine, just darken text */
@@ -76,6 +79,7 @@ html[data-theme="light"] .news-item {
   color: #1a1d2b !important;
 }
 
+
 html[data-theme="light"] .company-table th,
 html[data-theme="light"] .company-table td { border-color: rgba(20, 24, 40, 0.08) !important; }
 html[data-theme="light"] .company-table tr:hover td { background: #eef0f6 !important; }
@@ -95,6 +99,8 @@ html[data-theme="light"] .sort-row select {
 html[data-theme="light"] .back-link,
 html[data-theme="light"] .theme-toggle { color: #5b6172 !important; }
 html[data-theme="light"] .back-link:hover { color: #1a1d2b !important; }
+html[data-theme="light"] .ipick-logo-link { background: transparent; }
+html[data-theme="light"] .ipick-logo { filter: none; }
 html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !important; }
 
 /* ── Stats grid + news layout (shared by track and stock pages) ── */
@@ -117,6 +123,7 @@ html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !i
   margin-bottom: 4px;
 }
 .stat-val { font-size: 16px; font-variant-numeric: tabular-nums; }
+
 
 .news-list { display: flex; flex-direction: column; gap: 12px; }
 
@@ -147,10 +154,17 @@ html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !i
   border: 1px solid rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 0.7);
   border-radius: 6px;
-  padding: 4px 10px;
-  font-size: 13px;
+  width: 30px;
+  height: 28px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   margin-left: 8px;
+  flex-shrink: 0;
 }
 .theme-toggle:hover { color: #fff; }
 

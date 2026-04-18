@@ -36,6 +36,8 @@ html:has(.track-body) body {
   letter-spacing: 0.02em;
 }
 .back-link:hover { color: #fff; }
+.ipick-link,
+.ipick-link:hover { color: var(--accent) !important; }
 
 #track-main {
   max-width: 1100px;

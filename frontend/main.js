@@ -5,13 +5,13 @@
  * falls back to ./data/mock.json so the demo still renders.
  */
 const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
-  || 'http://localhost:5001';
+  || 'http://localhost:5001/nexus/api';
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
 const EDGE_COLORS = {
-  competitor:  '#ef4444',
-  supplier:    '#f59e0b',
-  subsidiary:  '#10b981',
+  competitor:  '#ef4444',  // red
+  supplier:    '#eab308',  // yellow
+  subsidiary:  '#3b82f6',  // blue
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -26,8 +26,9 @@ function fmtCap(b) {
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let allNodes = [], allEdges = [], tracks = [];
-let hiddenTracks = new Set();
-let pinnedNodes  = new Set();   // individual node IDs shown regardless of track state
+let hiddenTracks  = new Set();
+let pinnedNodes   = new Set();   // individual node IDs shown regardless of track state
+let excludedNodes = new Set();   // individual node IDs explicitly hidden regardless of track state
 let searchQuery   = '';
 let selectedNode  = null;
 let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
@@ -50,14 +51,75 @@ async function loadGraphData() {
   return { ...mock, _source: 'mock' };
 }
 
+function getUserId() {
+  let uid = localStorage.getItem('nexus_user_id');
+  if (!uid) {
+    uid = crypto.randomUUID();
+    localStorage.setItem('nexus_user_id', uid);
+  }
+  return uid;
+}
+
+const STATE_KEY = `nexus_graph_state_${getUserId()}`;
+const STATE_VERSION = 2;
+
+function saveState() {
+  try {
+    localStorage.setItem(STATE_KEY, JSON.stringify({
+      v:             STATE_VERSION,
+      pinnedNodes:   [...pinnedNodes],
+      hiddenTracks:  [...hiddenTracks],
+      excludedNodes: [...excludedNodes],
+    }));
+  } catch (_) {}
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STATE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      // Discard state saved before versioning was added (broken all-hidden default)
+      if (!parsed.v || parsed.v < STATE_VERSION) {
+        localStorage.removeItem(STATE_KEY);
+        return null;
+      }
+      return parsed;
+    }
+    // One-time migration: adopt any state saved under the old un-scoped key
+    const legacy = localStorage.getItem('nexus_graph_state');
+    if (legacy) {
+      localStorage.removeItem('nexus_graph_state');
+      const parsed = JSON.parse(legacy);
+      if (parsed.v && parsed.v >= STATE_VERSION) {
+        localStorage.setItem(STATE_KEY, legacy);
+        return parsed;
+      }
+    }
+    return null;
+  } catch (_) { return null; }
+}
+
 async function init() {
+  // Block first fetch on Firebase auth when enabled (no-op otherwise).
+  if (window.nexusAuthReady) await window.nexusAuthReady;
   const data = await loadGraphData();
   tracks   = data.tracks;
   allNodes = data.nodes.map(n => ({ ...n }));   // shallow copy so D3 can mutate
   allEdges = data.edges.map(e => ({ ...e }));
 
-  // Default state: nothing selected — user picks tracks from the sidebar.
-  hiddenTracks = new Set(tracks.map(t => t.id));
+  const saved = loadState();
+  const validTrackIds = new Set(tracks.map(t => t.id));
+  const validNodeIds  = new Set(allNodes.map(n => n.id));
+
+  if (saved) {
+    hiddenTracks  = new Set(saved.hiddenTracks.filter(id => validTrackIds.has(id)));
+    pinnedNodes   = new Set(saved.pinnedNodes.filter(id => validNodeIds.has(id)));
+    excludedNodes = new Set((saved.excludedNodes || []).filter(id => validNodeIds.has(id)));
+  } else {
+    // First visit: blank graph — user builds it themselves.
+    hiddenTracks = new Set(tracks.map(t => t.id));
+  }
 
   const badge = document.getElementById('source-badge');
   if (badge) badge.textContent = data._source === 'api' ? 'live' : 'demo';
@@ -68,32 +130,45 @@ async function init() {
   buildEdgeLegend();
   updateNodeCount();
   applyVisibility();
+  renderPinnedList();
 
   const searchInput = document.getElementById('search-input');
   searchInput.addEventListener('input', onSearch);
+  searchInput.addEventListener('focus', () => { if (searchInput.value.trim()) onSearch({ target: searchInput }); });
   searchInput.addEventListener('blur', () => setTimeout(hideSearchDropdown, 150));
   document.getElementById('track-select-all')?.addEventListener('click', selectAllTracks);
   document.getElementById('track-clear-all')?.addEventListener('click', clearAllTracks);
+  document.getElementById('pinned-add-all')?.addEventListener('click', () => {
+    allNodes.forEach(n => { pinnedNodes.add(n.id); excludedNodes.delete(n.id); });
+    applyVisibility({ skipFit: true });
+    renderPinnedList();
+  });
+  document.getElementById('pinned-clear-all')?.addEventListener('click', () => {
+    if (selectedNode) closePanel();
+    pinnedNodes.clear();
+    applyVisibility({ skipFit: true });
+    renderPinnedList();
+  });
 }
 
 function selectAllTracks() {
   hiddenTracks.clear();
-  document.querySelectorAll('.track-item').forEach(el => {
+  document.querySelectorAll('#track-list .track-item').forEach(el => {
     el.classList.add('active');
     el.classList.remove('muted');
+    const btn = el.querySelector('.track-toggle-btn');
+    if (btn) { btn.textContent = '✕'; btn.title = 'Remove from graph'; }
   });
   applyVisibility();
 }
 
 function clearAllTracks() {
-  // Close panel first (before pinnedNodes is cleared so closePanel's own guard skips the extra applyVisibility)
-  panel.classList.remove('open');
-  selectedNode = null;
-  pinnedNodes.clear();
   hiddenTracks = new Set(tracks.map(t => t.id));
-  document.querySelectorAll('.track-item').forEach(el => {
+  document.querySelectorAll('#track-list .track-item').forEach(el => {
     el.classList.remove('active');
     el.classList.add('muted');
+    const btn = el.querySelector('.track-toggle-btn');
+    if (btn) { btn.textContent = '+'; btn.title = 'Add to graph'; }
   });
   applyVisibility();
 }
@@ -111,23 +186,428 @@ function buildSidebar(tracks, nodes) {
   const list = document.getElementById('track-list');
   list.innerHTML = '';
 
-  tracks.forEach(track => {
-    const count = nodes.filter(n => n.track === track.id).length;
-    const item  = document.createElement('div');
+  const sorted = [...tracks].sort((a, b) => {
+    const aActive = !hiddenTracks.has(a.id);
+    const bActive = !hiddenTracks.has(b.id);
+    if (aActive !== bActive) return aActive ? -1 : 1;
+    return a.label.localeCompare(b.label);
+  });
+
+  sorted.forEach(track => {
+    const trackNodes = nodes.filter(n => n.track === track.id);
     const isHidden = hiddenTracks.has(track.id);
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'pinned-item';
+
+    const item = document.createElement('a');
     item.className = 'track-item ' + (isHidden ? 'muted' : 'active');
     item.dataset.track = track.id;
+    item.href = `track.html?slug=${encodeURIComponent(track.id)}`;
     item.innerHTML = `
       <span class="track-dot" style="background:${track.color}; box-shadow:0 0 6px ${track.color}66"></span>
       <span class="track-name">${track.label}</span>
-      <span class="track-count">${count}</span>
-      <a class="track-open" href="track.html?slug=${encodeURIComponent(track.id)}" title="Open track page">→</a>
+      <button class="pinned-chevron-btn track-chevron-btn" title="Show companies">▾</button>
+      <button class="track-toggle-btn" title="${isHidden ? 'Add to graph' : 'Remove from graph'}">${isHidden ? '+' : '✕'}</button>
     `;
-    item.addEventListener('click', (e) => {
-      if (e.target.classList.contains('track-open')) return;
-      toggleTrack(track.id, item);
+
+    const dropdown = document.createElement('div');
+    dropdown.className = 'pinned-dropdown';
+    dropdown.style.display = 'none';
+
+    const chevronBtn = item.querySelector('.track-chevron-btn');
+    const toggleBtn  = item.querySelector('.track-toggle-btn');
+
+    const buildTrackDropdown = () => {
+      dropdown.innerHTML = '';
+      if (!trackNodes.length) {
+        dropdown.innerHTML = '<div class="pinned-dropdown-empty">No companies</div>';
+        return;
+      }
+
+      const trackHeader = document.createElement('div');
+      trackHeader.className = 'pinned-rel-header';
+      const trackLabel = document.createElement('span');
+      trackLabel.className = 'pinned-rel-label';
+      trackLabel.style.color = track.color;
+      trackLabel.textContent = 'Companies';
+      const trackAllBtn = document.createElement('button');
+      trackAllBtn.className = 'pinned-rel-all-btn';
+      trackAllBtn.textContent = 'All';
+      const trackClearBtn = document.createElement('button');
+      trackClearBtn.className = 'pinned-rel-all-btn pinned-rel-clear-btn';
+      trackClearBtn.textContent = 'Clear';
+      const trackBtnGroup = document.createElement('div');
+      trackBtnGroup.className = 'pinned-rel-btn-group';
+      trackBtnGroup.appendChild(trackAllBtn);
+      trackBtnGroup.appendChild(trackClearBtn);
+      trackHeader.appendChild(trackLabel);
+      trackHeader.appendChild(trackBtnGroup);
+      dropdown.appendChild(trackHeader);
+
+      const trackRowNodes = [];
+      trackNodes.slice().sort((a, b) => a.ticker.localeCompare(b.ticker)).forEach(n => {
+        const isPinned = pinnedNodes.has(n.id);
+        const row = document.createElement('div');
+        row.className = 'pinned-rel-item';
+        row.style.display = 'flex';
+        row.style.alignItems = 'center';
+        row.style.gap = '6px';
+        row.innerHTML = `
+          <span class="pinned-rel-ticker" style="color:${track.color}">${n.ticker}</span>
+          <span class="pinned-rel-name">${n.name}</span>
+          <button class="track-toggle-btn track-company-toggle" style="margin-left:auto;flex-shrink:0" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? '✕' : '+'}</button>
+        `;
+        const compToggle = row.querySelector('.track-company-toggle');
+        if (isPinned) {
+          compToggle.style.color = '#ef4444';
+          compToggle.style.borderColor = '#ef4444';
+        } else {
+          compToggle.style.color = '#10b981';
+          compToggle.style.borderColor = '#10b981';
+        }
+        compToggle.addEventListener('click', e => {
+          e.stopPropagation();
+          if (pinnedNodes.has(n.id)) {
+            pinnedNodes.delete(n.id);
+            excludedNodes.add(n.id);
+          } else {
+            pinnedNodes.add(n.id);
+            excludedNodes.delete(n.id);
+          }
+          applyVisibility({ skipFit: true });
+          renderPinnedList();
+          buildTrackDropdown();
+        });
+        row.addEventListener('click', e => {
+          if (e.target.closest('.track-company-toggle')) return;
+          openPanel(n);
+        });
+        trackRowNodes.push({ node: n, row });
+        dropdown.appendChild(row);
+      });
+
+      trackAllBtn.addEventListener('click', () => {
+        let added = false;
+        trackRowNodes.forEach(({ node }) => {
+          if (!pinnedNodes.has(node.id)) {
+            pinnedNodes.add(node.id);
+            excludedNodes.delete(node.id);
+            added = true;
+          }
+        });
+        if (added) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
+      });
+
+      trackClearBtn.addEventListener('click', () => {
+        let removed = false;
+        trackRowNodes.forEach(({ node }) => {
+          if (pinnedNodes.has(node.id)) {
+            pinnedNodes.delete(node.id);
+            excludedNodes.add(node.id);
+            removed = true;
+          }
+        });
+        if (removed) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
+      });
+    };
+
+    item.addEventListener('click', e => {
+      if (e.target.closest('.track-toggle-btn') && !e.target.closest('.track-chevron-btn')) {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleTrack(track.id);
+        const nowHidden = hiddenTracks.has(track.id);
+        toggleBtn.textContent = nowHidden ? '+' : '✕';
+        toggleBtn.title = nowHidden ? 'Add to graph' : 'Remove from graph';
+        item.className = 'track-item ' + (nowHidden ? 'muted' : 'active');
+        return;
+      }
+      if (e.target.closest('.track-chevron-btn')) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (dropdown.style.display !== 'none') {
+          dropdown.style.display = 'none';
+          chevronBtn.classList.remove('open');
+        } else {
+          dropdown.style.display = 'block';
+          chevronBtn.classList.add('open');
+          buildTrackDropdown();
+        }
+        return;
+      }
     });
-    list.appendChild(item);
+
+    wrapper.appendChild(item);
+    wrapper.appendChild(dropdown);
+    list.appendChild(wrapper);
+  });
+}
+
+// Re-sort existing pinned-item rows in-place without rebuilding them.
+// Pinned nodes go first, then alphabetical by ticker within each group.
+// Also updates each row's button/class to reflect current pin state.
+function resortPinnedList() {
+  const list = document.getElementById('pinned-list');
+  if (!list) return;
+  const wrappers = [...list.querySelectorAll(':scope > .pinned-item')];
+  wrappers.forEach(w => {
+    const isPinned = pinnedNodes.has(w.dataset.id);
+    const row = w.querySelector('.track-item');
+    const btn = w.querySelector('.pinned-toggle');
+    if (row) row.className = 'track-item ' + (isPinned ? 'active' : 'muted');
+    if (btn) { btn.textContent = isPinned ? '✕' : '+'; btn.title = isPinned ? 'Remove from graph' : 'Add to graph'; }
+  });
+  const pinned   = wrappers.filter(w =>  pinnedNodes.has(w.dataset.id));
+  const unpinned = wrappers.filter(w => !pinnedNodes.has(w.dataset.id));
+  pinned.sort((a, b)   => a.dataset.ticker.localeCompare(b.dataset.ticker));
+  unpinned.sort((a, b) => a.dataset.ticker.localeCompare(b.dataset.ticker));
+  [...pinned, ...unpinned].forEach(w => list.appendChild(w));
+}
+
+function renderPinnedList(keepOpenTicker) {
+  const list = document.getElementById('pinned-list');
+  if (!list) return;
+
+  list.innerHTML = '';
+
+  // Show all nodes, pinned ones first, then alphabetical by ticker
+  const sorted = [...allNodes].sort((a, b) => {
+    const ap = pinnedNodes.has(a.id), bp = pinnedNodes.has(b.id);
+    if (ap !== bp) return ap ? -1 : 1;
+    return a.ticker.localeCompare(b.ticker);
+  });
+
+  sorted.forEach(n => {
+    const isPinned = pinnedNodes.has(n.id);
+    const wrapper = document.createElement('div');
+    wrapper.className = 'pinned-item';
+    wrapper.dataset.id = n.id;
+    wrapper.dataset.ticker = n.ticker;
+
+    const row = document.createElement('div');
+    row.className = 'track-item ' + (isPinned ? 'active' : 'muted');
+    row.innerHTML = `
+      <span class="pinned-ticker">${n.ticker}</span>
+      <span class="pinned-name">${n.name}</span>
+      <button class="pinned-chevron-btn" title="Show relationships">▾</button>
+      <button class="track-toggle-btn pinned-toggle" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? '✕' : '+'}</button>
+    `;
+
+    const dropdown = document.createElement('div');
+    dropdown.className = 'pinned-dropdown';
+    dropdown.style.display = 'none';
+    dropdown.innerHTML = `<div class="pinned-dropdown-loading">Loading…</div>`;
+
+    let loaded = false;
+    const toggleBtn = row.querySelector('.pinned-toggle');
+    const chevronBtn = row.querySelector('.pinned-chevron-btn');
+
+    row.addEventListener('click', e => {
+      if (e.target.closest('.pinned-toggle') || e.target.closest('.pinned-chevron-btn')) return;
+      selectedNode = n;
+      openPanel(n);
+    });
+
+    toggleBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const wasPinned = pinnedNodes.has(n.id);
+      if (wasPinned) {
+        pinnedNodes.delete(n.id);
+        excludedNodes.add(n.id);
+        if (selectedNode && selectedNode.id === n.id) {
+          const existing = document.getElementById('panel-add-btn');
+          if (!existing) {
+            const btn = document.createElement('button');
+            btn.className = 'panel-add-btn';
+            btn.id = 'panel-add-btn';
+            btn.textContent = '+ Add to graph';
+            btn.addEventListener('click', () => {
+              selectSearchNode(selectedNode);
+              renderPinnedList();
+              btn.remove();
+            });
+            const stockLink = document.querySelector('.panel-open-stock');
+            if (stockLink) stockLink.insertAdjacentElement('afterend', btn);
+          }
+        }
+      } else {
+        pinnedNodes.add(n.id);
+        excludedNodes.delete(n.id);
+      }
+
+      applyVisibility({ skipFit: true });
+      resortPinnedList();
+    });
+
+    const openDropdown = () => {
+      dropdown.style.display = 'block';
+      chevronBtn.classList.add('open');
+      if (!loaded) {
+        loaded = true;
+        loadPinnedRelationships(n.ticker, dropdown);
+      }
+    };
+
+    chevronBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      if (dropdown.style.display !== 'none') {
+        dropdown.style.display = 'none';
+        chevronBtn.classList.remove('open');
+      } else {
+        openDropdown();
+      }
+    });
+
+    if (keepOpenTicker && n.ticker === keepOpenTicker) {
+      openDropdown();
+    }
+
+    wrapper.appendChild(row);
+    wrapper.appendChild(dropdown);
+    list.appendChild(wrapper);
+  });
+}
+
+function loadPinnedRelationships(ticker, container) {
+  const id = ticker.toLowerCase();
+
+  // Competitors come from allEdges (generated from shared tracks, not stored in DB)
+  const competitors = allEdges
+    .filter(e => {
+      const s = typeof e.source === 'object' ? e.source.id : e.source;
+      const t = typeof e.target === 'object' ? e.target.id : e.target;
+      return e.type === 'competitor' && (s === id || t === id);
+    })
+    .map(e => {
+      const s = typeof e.source === 'object' ? e.source.ticker : e.source;
+      const t = typeof e.target === 'object' ? e.target.ticker : e.target;
+      return s.toLowerCase() === id ? t : s;
+    });
+
+  Promise.all([
+    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
+    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=subsidiary`).then(r => r.ok ? r.json() : { edges: [] }),
+  ]).then(([supData, subData]) => {
+    const supplies_to  = (supData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
+    const supplied_by  = (supData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
+    const subsidiaries = (subData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
+    const parents      = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
+
+    const sections = [
+      { label: 'Competitors',  color: EDGE_COLORS.competitor, tickers: competitors },
+      { label: 'Customers',    color: EDGE_COLORS.supplier,   tickers: supplies_to },
+      { label: 'Suppliers',    color: EDGE_COLORS.supplier,   tickers: supplied_by },
+      { label: 'Subsidiaries', color: EDGE_COLORS.subsidiary, tickers: subsidiaries },
+      { label: 'Parent',       color: EDGE_COLORS.subsidiary, tickers: parents },
+    ].filter(s => s.tickers.length > 0);
+
+    if (!sections.length) {
+      container.innerHTML = `<div class="pinned-dropdown-empty">No relationships found</div>`;
+      return;
+    }
+
+    container.innerHTML = '';
+    sections.forEach(s => {
+      const section = document.createElement('div');
+      section.className = 'pinned-rel-section';
+
+      const header = document.createElement('div');
+      header.className = 'pinned-rel-header';
+      const labelEl = document.createElement('span');
+      labelEl.className = 'pinned-rel-label';
+      labelEl.style.color = s.color;
+      labelEl.textContent = s.label;
+      const allBtn = document.createElement('button');
+      allBtn.className = 'pinned-rel-all-btn';
+      allBtn.textContent = 'All';
+      const clearBtn = document.createElement('button');
+      clearBtn.className = 'pinned-rel-all-btn pinned-rel-clear-btn';
+      clearBtn.textContent = 'Clear';
+      const btnGroup = document.createElement('div');
+      btnGroup.className = 'pinned-rel-btn-group';
+      btnGroup.appendChild(allBtn);
+      btnGroup.appendChild(clearBtn);
+      header.appendChild(labelEl);
+      header.appendChild(btnGroup);
+      section.appendChild(header);
+
+      const sectionNodes = [];
+      s.tickers.forEach(tk => {
+        const node = allNodes.find(n => n.ticker === tk || n.ticker === tk.toUpperCase() || n.id === tk.toLowerCase());
+        const displayTicker = node ? node.ticker : tk.toUpperCase();
+        const displayName = node ? node.name : '';
+        const item = document.createElement('div');
+        item.className = 'pinned-rel-item';
+        const onGraph = node && pinnedNodes.has(node.id);
+        item.innerHTML = `<span class="pinned-rel-ticker">${displayTicker}</span>${displayName ? `<span class="pinned-rel-name">${displayName}</span>` : ''}${node ? `<button class="conn-add-btn${onGraph ? ' on-graph' : ''}" style="margin-left:auto;flex-shrink:0" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>` : ''}`;
+        if (node) {
+          sectionNodes.push({ node, item });
+          const btn = item.querySelector('.conn-add-btn');
+          btn.addEventListener('click', e => {
+            e.stopPropagation();
+            if (pinnedNodes.has(node.id)) {
+              pinnedNodes.delete(node.id);
+              excludedNodes.add(node.id);
+              btn.classList.remove('on-graph');
+              btn.textContent = '+';
+              btn.title = 'Add to graph';
+            } else {
+              pinnedNodes.add(node.id);
+              excludedNodes.delete(node.id);
+              btn.classList.add('on-graph');
+              btn.textContent = '✕';
+              btn.title = 'Remove from graph';
+            }
+            applyVisibility({ skipFit: true });
+            resortPinnedList();
+          });
+          item.addEventListener('click', e => {
+            if (e.target.closest('.conn-add-btn')) return;
+            openPanel(node);
+          });
+        }
+        section.appendChild(item);
+      });
+
+      allBtn.addEventListener('click', () => {
+        let added = false;
+        sectionNodes.forEach(({ node, item }) => {
+          if (!pinnedNodes.has(node.id)) {
+            pinnedNodes.add(node.id);
+            excludedNodes.delete(node.id);
+            const btn = item.querySelector('.conn-add-btn');
+            if (btn) { btn.classList.add('on-graph'); btn.textContent = '✕'; btn.title = 'Remove from graph'; }
+            added = true;
+          }
+        });
+        if (added) {
+          applyVisibility({ skipFit: true });
+          resortPinnedList();
+        }
+      });
+
+      clearBtn.addEventListener('click', () => {
+        let removed = false;
+        sectionNodes.forEach(({ node, item }) => {
+          if (pinnedNodes.has(node.id)) {
+            pinnedNodes.delete(node.id);
+            excludedNodes.add(node.id);
+            const btn = item.querySelector('.conn-add-btn');
+            if (btn) { btn.classList.remove('on-graph'); btn.textContent = '+'; btn.title = 'Add to graph'; }
+            removed = true;
+          }
+        });
+        if (removed) {
+          applyVisibility({ skipFit: true });
+          resortPinnedList();
+        }
+      });
+
+      container.appendChild(section);
+    });
+  }).catch(() => {
+    container.innerHTML = `<div class="pinned-dropdown-empty">Failed to load</div>`;
   });
 }
 
@@ -137,25 +617,57 @@ function buildEdgeLegend() {
   Object.entries(EDGE_COLORS).forEach(([type, color]) => {
     const item = document.createElement('div');
     item.className = 'edge-legend-item';
-    item.innerHTML = `
-      <span class="edge-swatch" style="background:${color}"></span>
-      <span class="edge-legend-label">${type.charAt(0).toUpperCase() + type.slice(1)}</span>
-    `;
+    const ARROW_LABELS = {
+      subsidiary: ['Parent', 'Subsidiary'],
+      supplier:   ['Supplier', 'Customer'],
+    };
+    const hasArrow = type in ARROW_LABELS;
+    if (hasArrow) {
+      const [from, to] = ARROW_LABELS[type];
+      item.innerHTML = `
+        <span class="edge-legend-label" style="color:var(--text-secondary)">${from}</span>
+        <svg class="edge-swatch-arrow" viewBox="0 0 28 8" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="4" x2="21" y2="4" stroke="${color}" stroke-width="1.5"/>
+          <polygon points="19,1 28,4 19,7" fill="${color}"/>
+        </svg>
+        <span class="edge-legend-label" style="color:var(--text-secondary)">${to}</span>
+      `;
+    } else {
+      const label = type.charAt(0).toUpperCase() + type.slice(1);
+      item.innerHTML = `
+        <span class="edge-legend-label" style="color:var(--text-secondary)">${label}</span>
+        <span class="edge-swatch" style="background:${color}"></span>
+        <span class="edge-legend-label" style="color:var(--text-secondary)">${label}</span>
+      `;
+    }
     container.appendChild(item);
   });
 }
 
-function toggleTrack(trackId, itemEl) {
+function toggleTrack(trackId) {
   if (hiddenTracks.has(trackId)) {
     hiddenTracks.delete(trackId);
-    itemEl.classList.remove('muted');
-    itemEl.classList.add('active');
   } else {
     hiddenTracks.add(trackId);
-    itemEl.classList.remove('active');
-    itemEl.classList.add('muted');
   }
+  buildSidebar(tracks, allNodes);
   applyVisibility();
+}
+
+function fuzzyScore(q, target) {
+  const t = target.toLowerCase();
+  if (t === q)           return 100;
+  if (t.startsWith(q))   return 90;
+  if (t.includes(q))     return 80;
+  // word-boundary prefix: e.g. "pri" matches "3D Printing"
+  if (t.split(/[\s\-_()]+/).some(w => w.startsWith(q))) return 70;
+  // subsequence: all query chars appear in order
+  let qi = 0;
+  for (let i = 0; i < t.length && qi < q.length; i++) {
+    if (t[i] === q[qi]) qi++;
+  }
+  if (qi === q.length) return Math.max(10, 60 - (t.length - q.length));
+  return -1;
 }
 
 function onSearch(e) {
@@ -163,16 +675,24 @@ function onSearch(e) {
   searchQuery = q;
   if (!q) { hideSearchDropdown(); return; }
 
-  const matchedTracks = tracks.filter(t => t.label.toLowerCase().includes(q));
-  const matchedNodes  = allNodes.filter(n =>
-    n.ticker.toLowerCase().includes(q) || n.name.toLowerCase().includes(q)
-  ).slice(0, 8);
+  const scoredTracks = tracks
+    .map(t => ({ t, score: fuzzyScore(q, t.label) }))
+    .filter(x => x.score >= 0)
+    .sort((a, b) => b.score - a.score);
 
-  if (!matchedTracks.length && !matchedNodes.length) { hideSearchDropdown(); return; }
-  showSearchDropdown(matchedTracks, matchedNodes);
+  const scoredNodes = allNodes
+    .map(n => ({ n, score: Math.max(fuzzyScore(q, n.ticker), fuzzyScore(q, n.name)) }))
+    .filter(x => x.score >= 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 8);
+
+  if (!scoredTracks.length && !scoredNodes.length) { hideSearchDropdown(); return; }
+
+  const nodesFirst = (scoredNodes[0]?.score ?? -1) >= (scoredTracks[0]?.score ?? -1);
+  showSearchDropdown(scoredTracks.map(x => x.t), scoredNodes.map(x => x.n), nodesFirst);
 }
 
-function showSearchDropdown(matchedTracks, matchedNodes) {
+function showSearchDropdown(matchedTracks, matchedNodes, nodesFirst = false) {
   let dropdown = document.getElementById('search-dropdown');
   if (!dropdown) {
     dropdown = document.createElement('div');
@@ -182,29 +702,27 @@ function showSearchDropdown(matchedTracks, matchedNodes) {
 
   dropdown.innerHTML = '';
 
-  if (matchedTracks.length) {
+  const renderTracks = () => {
+    if (!matchedTracks.length) return;
     const header = document.createElement('div');
     header.className = 'search-dropdown-header';
     header.textContent = 'Tracks';
     dropdown.appendChild(header);
-
     matchedTracks.forEach(t => {
       const item = document.createElement('div');
       item.className = 'search-dropdown-item';
       item.innerHTML = `<span class="search-dot" style="background:${t.color}"></span><span>${t.label}</span>`;
-      item.addEventListener('mousedown', () => {
-        selectSearchTrack(t.id);
-      });
+      item.addEventListener('mousedown', () => selectSearchTrack(t.id));
       dropdown.appendChild(item);
     });
-  }
+  };
 
-  if (matchedNodes.length) {
+  const renderNodes = () => {
+    if (!matchedNodes.length) return;
     const header = document.createElement('div');
     header.className = 'search-dropdown-header';
     header.textContent = 'Companies';
     dropdown.appendChild(header);
-
     matchedNodes.forEach(n => {
       const t = tracks.find(t => t.id === n.track);
       const item = document.createElement('div');
@@ -216,7 +734,10 @@ function showSearchDropdown(matchedTracks, matchedNodes) {
       item.addEventListener('mousedown', () => selectSearchNode(n));
       dropdown.appendChild(item);
     });
-  }
+  };
+
+  if (nodesFirst) { renderNodes(); renderTracks(); }
+  else            { renderTracks(); renderNodes(); }
 
   dropdown.style.display = 'block';
 }
@@ -241,13 +762,13 @@ function selectSearchTrack(trackId) {
 
 function selectSearchNode(n) {
   pinnedNodes.add(n.id);
+  excludedNodes.delete(n.id);
   applyVisibility({ skipFit: true });
+  renderPinnedList();
 
-  // Zoom to node once it has a position (give simulation a tick to place it)
+  // Fit all visible nodes once the new node has a position
   setTimeout(() => {
-    const live = allNodes.find(node => node.id === n.id);
-    if (live && isFinite(live.x) && isFinite(live.y)) zoomToNode(live);
-    openPanel(live || n);
+    fitView(allNodes.filter(nodeIsVisible));
   }, 120);
 
   document.getElementById('search-input').value = '';
@@ -268,14 +789,11 @@ function zoomToNode(n) {
 function applyVisibility(opts = {}) {
   // Force-rebuild instead of toggling opacity — the universe has
   // 4000+ nodes, so we only ever simulate the visible subset.
+  saveState();
   renderGraph(opts);
 }
 
-function updateNodeCount() {
-  const visible = allNodes.filter(nodeIsVisible).length;
-  const countEl = document.getElementById('node-count');
-  if (countEl) countEl.innerHTML = `<span>${visible}</span> / ${allNodes.length} companies`;
-}
+function updateNodeCount() {}
 
 // ── D3 Graph ──────────────────────────────────────────────────────────────────
 function nodeRadius(d) {
@@ -292,10 +810,11 @@ function trackColor(d) {
   const visibleId = ids.find(id => !hiddenTracks.has(id));
   const pickId = visibleId || ids[0];
   const t = tracks.find(t => t.id === pickId);
-  return t ? t.color : '#666';
+  return t ? t.color : '#888888';
 }
 
 function nodeIsVisible(d) {
+  if (excludedNodes.has(d.id)) return false;
   if (pinnedNodes.has(d.id)) return true;
   if (Array.isArray(d.tracks)) {
     return d.tracks.length > 0 && d.tracks.some(id => !hiddenTracks.has(id));
@@ -317,15 +836,15 @@ function buildGraph() {
   Object.entries(EDGE_COLORS).forEach(([type, color]) => {
     defs.append('marker')
       .attr('id', `arrow-${type}`)
-      .attr('viewBox', '0 -4 8 8')
-      .attr('refX', 18)
-      .attr('refY', 0)
+      .attr('viewBox', '0 0 6 6')
+      .attr('refX', 6)
+      .attr('refY', 3)
       .attr('markerWidth', 6)
       .attr('markerHeight', 6)
-      .attr('orient', 'auto')
+      .attr('orient', 'auto-start-reverse')
       .append('path')
-      .attr('d', 'M0,-4L8,0L0,4')
-      .attr('fill', color.replace(/rgba?\([^,]+,[^,]+,[^,]+,?\s*[\d.]*\)/, color));
+        .attr('d', 'M0,0 L6,3 L0,6 Z')
+        .attr('fill', color);
   });
 
   // ── Zoom layer ──
@@ -425,6 +944,26 @@ function renderGraph({ skipFit = false } = {}) {
 
   let fitDone = false;
 
+  // Detect parallel edges BEFORE forceLink mutates source/target into objects.
+  // Use the raw string IDs from allEdges (visibleEdges are references to the same objects).
+  const pairCount = {};
+  visibleEdges.forEach(e => {
+    const a = typeof e.source === 'object' ? e.source.id : e.source;
+    const b = typeof e.target === 'object' ? e.target.id : e.target;
+    const key = [a, b].sort().join('||');
+    pairCount[key] = (pairCount[key] || 0) + 1;
+  });
+  const pairIndex = {};
+  visibleEdges.forEach(e => {
+    const a = typeof e.source === 'object' ? e.source.id : e.source;
+    const b = typeof e.target === 'object' ? e.target.id : e.target;
+    const key = [a, b].sort().join('||');
+    if (pairIndex[key] === undefined) pairIndex[key] = 0;
+    e._parallel = pairCount[key] > 1;
+    e._pairKey  = key;
+    e._pairIdx  = pairIndex[key]++;
+  });
+
   simulation = d3.forceSimulation(visibleNodes)
     .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(65).strength(0.5))
     .force('charge', d3.forceManyBody().strength(-320))
@@ -435,12 +974,15 @@ function renderGraph({ skipFit = false } = {}) {
     .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 20))
     .alphaDecay(0.028);
 
-  linkGroup.selectAll('line')
+  linkGroup.selectAll('path.edge')
     .data(visibleEdges)
-    .enter().append('line')
+    .enter().append('path')
+    .attr('class', 'edge')
+    .attr('fill', 'none')
     .attr('stroke', d => EDGE_COLORS[d.type] || '#888')
     .attr('stroke-width', 1.5)
-    .attr('stroke-opacity', 1);
+    .attr('stroke-opacity', 1)
+    .attr('marker-end', d => (d.type === 'subsidiary' || d.type === 'supplier') ? `url(#arrow-${d.type})` : null);
 
   const nodeEl = nodeGroup.selectAll('g')
     .data(visibleNodes)
@@ -484,18 +1026,36 @@ function renderGraph({ skipFit = false } = {}) {
     .attr('pointer-events', 'none');
 
   simulation.on('tick', () => {
-    linkGroup.selectAll('line').each(function(d) {
-      const dx = d.target.x - d.source.x;
-      const dy = d.target.y - d.source.y;
+    linkGroup.selectAll('path.edge').each(function(d) {
+      const sx = d.source.x, sy = d.source.y;
+      const tx = d.target.x, ty = d.target.y;
+      const dx = tx - sx, dy = ty - sy;
       const dist = Math.sqrt(dx * dx + dy * dy) || 1;
       const ux = dx / dist, uy = dy / dist;
       const sr = d.source._baseR || 16;
       const tr = d.target._baseR || 16;
-      d3.select(this)
-        .attr('x1', d.source.x + ux * sr)
-        .attr('y1', d.source.y + uy * sr)
-        .attr('x2', d.target.x - ux * tr)
-        .attr('y2', d.target.y - uy * tr);
+      // Start/end points trimmed to node radius
+      const x1 = sx + ux * sr, y1 = sy + uy * sr;
+      const x2 = tx - ux * tr, y2 = ty - uy * tr;
+
+      let pathD;
+      if (d._parallel) {
+        // Use the canonical node-pair order (sorted by id) to get a stable
+        // perpendicular direction — independent of which node is source/target.
+        const [idA, idB] = d._pairKey.split('||');
+        const canonFlip = d.source.id === idB; // source is the "larger" id
+        // Perpendicular to the edge, always pointing the same way for this pair
+        const nx = -uy, ny = ux;
+        // _pairIdx 0 → one side, 1 → other side; canonFlip corrects for direction
+        const sign = ((d._pairIdx % 2 === 0) !== canonFlip) ? 1 : -1;
+        const offset = sign * 22;
+        const mx = (x1 + x2) / 2 + nx * offset;
+        const my = (y1 + y2) / 2 + ny * offset;
+        pathD = `M${x1},${y1} Q${mx},${my} ${x2},${y2}`;
+      } else {
+        pathD = `M${x1},${y1} L${x2},${y2}`;
+      }
+      d3.select(this).attr('d', pathD);
     });
     nodeGroup.selectAll('.node-g')
       .attr('transform', d => `translate(${d.x},${d.y})`);
@@ -568,31 +1128,28 @@ function onNodeClick(event, d) {
 
 function openPanel(d) {
   const t = tracks.find(t => t.id === d.track);
-  const color = t ? t.color : '#666';
+  const color = t ? t.color : '#888888';
 
-  // Find connections
+  // Find connections (nodes currently on the graph)
   const connections = allEdges
-    .filter(e => e.source.id === d.id || e.target.id === d.id)
-    .map(e => ({
-      node: e.source.id === d.id ? e.target : e.source,
-      type: e.type,
-    }));
+    .filter(e => {
+      const s = typeof e.source === 'object' ? e.source.id : e.source;
+      const t = typeof e.target === 'object' ? e.target.id : e.target;
+      return s === d.id || t === d.id;
+    })
+    .map(e => {
+      const srcId = typeof e.source === 'object' ? e.source.id : e.source;
+      const isSource = srcId === d.id;
+      const node = isSource ? e.target : e.source;
+      let role = e.type;
+      if (e.type === 'subsidiary') role = isSource ? 'Parent of' : 'Subsidiary of';
+      if (e.type === 'supplier')   role = isSource ? 'Supplier of' : 'Customer of';
+      return { node, role };
+    });
 
   const mcap = d.marketCap || 0;
   const capStr = fmtCap(mcap);
   const priceStr = d.price != null ? '$' + Number(d.price).toFixed(2) : '—';
-
-  // Fetch live data and update price/market cap in the panel
-  fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/live`)
-    .then(r => r.ok ? r.json() : null)
-    .then(live => {
-      if (!live || !panel.classList.contains('open')) return;
-      const mcEl = document.getElementById('panel-mcap');
-      const prEl = document.getElementById('panel-price');
-      if (mcEl && live.marketCap != null) mcEl.textContent = fmtCap(live.marketCap / 1e9);
-      if (prEl && live.price != null) prEl.textContent = '$' + Number(live.price).toFixed(2);
-    })
-    .catch(() => {});
 
   document.getElementById('panel-inner').innerHTML = `
     <div class="panel-header">
@@ -601,6 +1158,7 @@ function openPanel(d) {
         <div class="panel-name">${d.name}</div>
         <div class="panel-sector">${d.sector}</div>
         <a class="panel-open-stock" href="stock.html?ticker=${encodeURIComponent(d.ticker)}">Open full stock page →</a>
+        <button class="panel-add-btn${nodeIsVisible(d) ? ' on-graph' : ''}" id="panel-add-btn">${nodeIsVisible(d) ? '✕ Remove from graph' : '+ Add to graph'}</button>
       </div>
       <button id="panel-close" onclick="closePanel()">
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -620,44 +1178,150 @@ function openPanel(d) {
         </div>
       </div>
 
-      <div class="panel-section-title">Investment Track</div>
-      <div class="track-badge" style="background:${color}22; border:1px solid ${color}44; color:${color}">
-        <span class="dot"></span>
-        ${t ? t.label : d.track}
-      </div>
-
-      <div class="panel-section-title">About</div>
-      <p class="panel-desc">${d.description}</p>
-
-      ${connections.length ? `
-        <div class="panel-section-title">Connections (${connections.length})</div>
-        <div class="connections-list">
-          ${connections.map(c => {
-            const cn = typeof c.node === 'object' ? c.node : allNodes.find(n => n.id === c.node);
-            if (!cn) return '';
-            const ct = tracks.find(t => t.id === cn.track);
-            return `
-              <div class="conn-item" onclick="selectNodeById('${cn.id}')">
-                <span class="conn-ticker" style="color:${ct ? ct.color : '#fff'}">${cn.ticker}</span>
-                <span>${cn.name.length > 16 ? cn.name.slice(0, 16) + '…' : cn.name}</span>
-                <span class="conn-type">${c.type}</span>
-              </div>
-            `;
-          }).join('')}
-        </div>
+      ${t ? `
+        <div class="panel-section-title">Investment Track</div>
+        <a class="track-badge track-badge--link" href="track.html?slug=${encodeURIComponent(t.id)}" style="--badge-color:${color}">
+          ${t.label}
+        </a>
       ` : ''}
+
+      ${d.description ? `
+        <div class="panel-section-title">About</div>
+        <p class="panel-desc">${d.description}</p>
+      ` : ''}
+
+      <div id="panel-connections">
+        ${connections.length ? `
+          <div class="panel-section-title">Connections (<span id="panel-conn-count">${connections.length}</span>)</div>
+          <div class="connections-list" id="panel-conn-list">
+            ${connections.map(c => {
+              const cn = typeof c.node === 'object' ? c.node : allNodes.find(n => n.id === c.node);
+              if (!cn) return '';
+              const ct = tracks.find(t => t.id === cn.track);
+              const onGraph = nodeIsVisible(cn);
+              return `
+                <div class="conn-item" onclick="if(!event.target.closest('.conn-add-btn')) selectNodeById('${cn.id}')">
+                  <span class="conn-type">${c.role}</span>
+                  <span class="conn-ticker" style="color:${ct ? ct.color : '#fff'}">${cn.ticker}</span>
+                  <span class="conn-name">${cn.name}</span>
+                  <button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        ` : '<div class="panel-section-title">Connections (<span id="panel-conn-count">0</span>)</div><div class="connections-list" id="panel-conn-list"></div>'}
+      </div>
     </div>
   `;
 
   panel.classList.add('open');
+
+  const addBtn = document.getElementById('panel-add-btn');
+  if (addBtn) {
+    addBtn.addEventListener('click', () => {
+      if (pinnedNodes.has(d.id)) {
+        pinnedNodes.delete(d.id);
+        excludedNodes.add(d.id);
+        applyVisibility({ skipFit: true });
+        renderPinnedList();
+        addBtn.classList.remove('on-graph');
+        addBtn.textContent = '+ Add to graph';
+      } else {
+        excludedNodes.delete(d.id);
+        selectSearchNode(d);
+        renderPinnedList();
+        addBtn.classList.add('on-graph');
+        addBtn.textContent = '✕ Remove from graph';
+      }
+    });
+  }
+
+  // Delegate +/− button clicks in the connections list
+  const connList = document.getElementById('panel-conn-list');
+  if (connList) {
+    connList.addEventListener('click', e => {
+      const btn = e.target.closest('.conn-add-btn');
+      if (!btn) return;
+      e.stopPropagation();
+      const node = allNodes.find(n => n.id === btn.dataset.id);
+      if (!node) return;
+      if (pinnedNodes.has(node.id)) {
+        pinnedNodes.delete(node.id);
+        excludedNodes.add(node.id);
+        applyVisibility({ skipFit: true });
+        renderPinnedList();
+        btn.classList.remove('on-graph');
+        btn.textContent = '+';
+        btn.title = 'Add to graph';
+      } else {
+        excludedNodes.delete(node.id);
+        selectSearchNode(node);
+        renderPinnedList();
+        btn.classList.add('on-graph');
+        btn.textContent = '✕';
+        btn.title = 'Remove from graph';
+      }
+    });
+  }
+
+  // Fetch live price/market cap
+  fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/live`)
+    .then(r => r.ok ? r.json() : null)
+    .then(live => {
+      if (!live || !panel.classList.contains('open')) return;
+      const mcEl = document.getElementById('panel-mcap');
+      const prEl = document.getElementById('panel-price');
+      if (mcEl && live.marketCap != null) mcEl.textContent = fmtCap(live.marketCap / 1e9);
+      if (prEl && live.price != null) prEl.textContent = '$' + Number(live.price).toFixed(2);
+    })
+    .catch(() => {});
+
+  // Append DB relationships (subsidiaries, suppliers) into the connections list
+  Promise.all([
+    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=subsidiary`).then(r => r.ok ? r.json() : { edges: [] }),
+    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
+  ]).then(([subData, supData]) => {
+    const list = document.getElementById('panel-conn-list');
+    const countEl = document.getElementById('panel-conn-count');
+    if (!list) return;
+
+    const extra = [
+      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Parent of',    ticker: e.target })),
+      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Subsidiary of', ticker: e.source })),
+      ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplies',      ticker: e.target })),
+      ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Supplied by',   ticker: e.source })),
+    ];
+
+    // Deduplicate against connections already shown
+    const shown = new Set(connections.map(c => {
+      const cn = typeof c.node === 'object' ? c.node : allNodes.find(n => n.id === c.node);
+      return cn ? cn.ticker : null;
+    }));
+    const newItems = extra.filter(e => !shown.has(e.ticker));
+    if (!newItems.length) return;
+
+    newItems.forEach(e => {
+      const cn = allNodes.find(n => n.ticker === e.ticker);
+      const ct = cn ? tracks.find(t => t.id === cn.track) : null;
+      const item = document.createElement('div');
+      item.className = 'conn-item';
+      item.onclick = e => { if (!e.target.closest('.conn-add-btn') && cn) selectNodeById(cn.id); };
+      const onGraph = cn && nodeIsVisible(cn);
+      item.innerHTML = `
+        <span class="conn-type">${e.role}</span>
+        <span class="conn-ticker" style="color:${ct ? ct.color : 'var(--text-primary)'}">${e.ticker}</span>
+        <span class="conn-name">${cn ? cn.name : ''}</span>
+        ${cn ? `<button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>` : ''}
+      `;
+      list.appendChild(item);
+    });
+
+    if (countEl) countEl.textContent = connections.length + newItems.length;
+  }).catch(() => {});
 }
 
 function closePanel() {
   panel.classList.remove('open');
-  if (selectedNode && pinnedNodes.has(selectedNode.id)) {
-    pinnedNodes.delete(selectedNode.id);
-    applyVisibility({ skipFit: true });
-  }
   selectedNode = null;
 }
 
@@ -670,6 +1334,7 @@ function selectNodeById(id) {
 document.getElementById('graph-canvas').addEventListener('click', () => {
   if (selectedNode) closePanel();
 });
+
 
 // ── Kick off ──────────────────────────────────────────────────────────────────
 init();
