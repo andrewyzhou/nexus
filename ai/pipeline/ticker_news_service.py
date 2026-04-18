@@ -80,16 +80,34 @@ async def get_ticker_news_summary(
         active_session = aiohttp.ClientSession(connector=connector)
 
     try:
-        raw_text = await local_scraper.scrape_all(active_session, normalized_ticker, company_name)
+        scrape_error: str | None = None
+        summary_error: str | None = None
+
+        try:
+            raw_text = await local_scraper.scrape_all(active_session, normalized_ticker, company_name)
+        except Exception as e:
+            # Match ai-branch pipeline behavior: keep the flow alive even when a
+            # single ticker scrape fails.
+            raw_text = ""
+            scrape_error = str(e)
+
         sources = _extract_sources(raw_text)
 
         if not raw_text or not raw_text.strip():
             summary_text = "No significant recent news."
             status = "no_news"
         else:
-            summaries = await local_summarizer.generate_batch_summaries({normalized_ticker: raw_text})
-            summary_text = summaries.get(normalized_ticker, "No significant recent news.")
+            try:
+                summaries = await local_summarizer.generate_batch_summaries({normalized_ticker: raw_text})
+                summary_text = summaries.get(normalized_ticker, "No significant recent news.")
+            except Exception as e:
+                summary_text = "Error generating summary. Please check logs."
+                summary_error = str(e)
+
             status = "ok" if "Error generating summary" not in summary_text else "summary_error"
+
+        if scrape_error and status == "no_news":
+            status = "scrape_error"
 
         return {
             "ticker": normalized_ticker,
@@ -100,6 +118,10 @@ async def get_ticker_news_summary(
             "status": status,
             "summarizer_model": local_summarizer.model_config.name,
             "scraped_text": raw_text,
+            "errors": {
+                "scrape_error": scrape_error,
+                "summary_error": summary_error,
+            },
         }
     finally:
         if owns_session and active_session is not None:
