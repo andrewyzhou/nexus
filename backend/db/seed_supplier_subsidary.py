@@ -99,6 +99,14 @@ def seed_relationships():
         else:
             norm_to_ticker[norm] = ticker
 
+    # Pre-compute word sets for subset matching so we don't split half a billion strings
+    norm_words_list = []
+    for norm, tkr in norm_to_ticker.items():
+        if tkr is not None:
+            norm_words = set(norm.split())
+            if norm_words:
+                norm_words_list.append((norm_words, len("".join(norm_words)), tkr))
+
     # Resolution counters (one list so the nested closure can mutate them).
     _counts = [0, 0, 0, 0]  # [exact_ticker, exact_name, norm_name, substring]
 
@@ -124,14 +132,21 @@ def seed_relationships():
             _counts[2] += 1
             return norm_to_ticker[target_norm]
 
-        # 4. Substring match (name-on-name only, no tickers).
+        # 4. Word-subset match (name-on-name only, no tickers).
         #    Accept only if exactly one candidate matches to avoid ambiguity.
+        target_words = set(target_norm.split())
+        if not target_words:
+            return None
+            
+        target_len = len("".join(target_words))
         matches = []
-        for norm, tkr in norm_to_ticker.items():
-            if tkr is None:
-                continue
-            if target_norm in norm or norm in target_norm:
-                matches.append(tkr)
+        for norm_words, norm_len, tkr in norm_words_list:
+            if norm_words.issubset(target_words) or target_words.issubset(norm_words):
+                # Prevent tiny word fragments like "on" or "ab" from aggressively subset-matching
+                shorter_len = min(norm_len, target_len)
+                if shorter_len >= 4:
+                    matches.append(tkr)
+
         if len(matches) == 1:
             _counts[3] += 1
             return matches[0]
