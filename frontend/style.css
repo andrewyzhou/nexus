@@ -415,7 +415,7 @@ html[data-theme="light"] .track-control-btn {
 
 .pinned-chevron-btn {
   background: none;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-bright);
   border-radius: 4px;
   width: 26px;
   height: 26px;
@@ -423,12 +423,12 @@ html[data-theme="light"] .track-control-btn {
   align-items: center;
   justify-content: center;
   font-size: 10px;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   cursor: pointer;
   flex-shrink: 0;
   transition: color var(--t-fast), border-color var(--t-fast), transform var(--t-fast);
 }
-.pinned-chevron-btn:hover { color: var(--text-primary); border-color: var(--border-bright); }
+.pinned-chevron-btn:hover { color: var(--text-primary); border-color: rgba(255,255,255,0.35); }
 .pinned-chevron-btn.open { transform: rotate(180deg); }
 
 .pinned-dropdown {

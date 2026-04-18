@@ -824,6 +824,7 @@ function nodeIsVisible(d) {
 }
 
 let zoomLayer;
+let lastVisibleCount = 0;
 
 function buildGraph() {
   svg = d3.select('#graph-canvas')
@@ -870,11 +871,14 @@ function buildGraph() {
 /**
  * Fit the zoom transform so all nodes are visible with padding.
  * Called after the simulation settles to auto-center the graph.
+ * Accounts for the detail panel width when it's open.
  */
 function fitView(nodes) {
   if (!nodes || nodes.length === 0) return;
   const container = document.getElementById('graph-canvas');
-  const W = container.clientWidth;
+  const panelOpen = panel && panel.classList.contains('open');
+  const panelW = panelOpen ? (parseInt(getComputedStyle(document.documentElement).getPropertyValue('--panel-w')) || 360) : 0;
+  const W = container.clientWidth - panelW;
   const H = container.clientHeight;
 
   const xs = nodes.map(n => n.x).filter(v => isFinite(v));
@@ -883,7 +887,7 @@ function fitView(nodes) {
 
   const minX = Math.min(...xs), maxX = Math.max(...xs);
   const minY = Math.min(...ys), maxY = Math.max(...ys);
-  const pad = 40;
+  const pad = 60;
   const bW = (maxX - minX) || 1;
   const bH = (maxY - minY) || 1;
 
@@ -892,7 +896,8 @@ function fitView(nodes) {
     (H - pad * 2) / bH,
     1.4   // don't zoom in past 1.4×
   );
-  const tx = W / 2 - scale * (minX + maxX) / 2;
+  const cx = W / 2;  // center of available canvas (left of panel)
+  const tx = cx - scale * (minX + maxX) / 2;
   const ty = H / 2 - scale * (minY + maxY) / 2;
 
   svg.transition().duration(500)
@@ -912,6 +917,9 @@ function renderGraph({ skipFit = false } = {}) {
   const H = container.clientHeight;
 
   const visibleNodes = allNodes.filter(nodeIsVisible);
+  const nodesAdded = visibleNodes.length > lastVisibleCount;
+  lastVisibleCount = visibleNodes.length;
+  if (nodesAdded) skipFit = false;
   const idSet = new Set(visibleNodes.map(n => n.id));
   const visibleEdges = allEdges.filter(e => {
     const s = typeof e.source === 'object' ? e.source.id : e.source;
@@ -1215,6 +1223,7 @@ function openPanel(d) {
   `;
 
   panel.classList.add('open');
+  setTimeout(() => fitView(allNodes.filter(nodeIsVisible)), 300);
 
   const addBtn = document.getElementById('panel-add-btn');
   if (addBtn) {
@@ -1323,6 +1332,7 @@ function openPanel(d) {
 function closePanel() {
   panel.classList.remove('open');
   selectedNode = null;
+  setTimeout(() => fitView(allNodes.filter(nodeIsVisible)), 300);
 }
 
 function selectNodeById(id) {
