@@ -1139,7 +1139,7 @@ function openPanel(d) {
   const color = t ? t.color : '#888888';
 
   // Find connections (nodes currently on the graph)
-  const connections = allEdges
+  const graphConnections = allEdges
     .filter(e => {
       const s = typeof e.source === 'object' ? e.source.id : e.source;
       const t = typeof e.target === 'object' ? e.target.id : e.target;
@@ -1149,10 +1149,11 @@ function openPanel(d) {
       const srcId = typeof e.source === 'object' ? e.source.id : e.source;
       const isSource = srcId === d.id;
       const node = isSource ? e.target : e.source;
+      const tkr = typeof node === 'object' ? node.ticker : (allNodes.find(n => n.id === node)?.ticker || node);
       let role = e.type;
-      if (e.type === 'subsidiary') role = isSource ? 'Parent of' : 'Subsidiary of';
-      if (e.type === 'supplier')   role = isSource ? 'Supplier of' : 'Customer of';
-      return { node, role };
+      if (e.type === 'subsidiary') role = isSource ? 'Parent Of' : 'Subsidiary Of';
+      if (e.type === 'supplier')   role = isSource ? 'Supplier Of' : 'Customer Of';
+      return { ticker: tkr, role };
     });
 
   const mcap = d.marketCap || 0;
@@ -1199,25 +1200,6 @@ function openPanel(d) {
       ` : ''}
 
       <div id="panel-connections">
-        ${connections.length ? `
-          <div class="panel-section-title">Connections (<span id="panel-conn-count">${connections.length}</span>)</div>
-          <div class="connections-list" id="panel-conn-list">
-            ${connections.map(c => {
-              const cn = typeof c.node === 'object' ? c.node : allNodes.find(n => n.id === c.node);
-              if (!cn) return '';
-              const ct = tracks.find(t => t.id === cn.track);
-              const onGraph = nodeIsVisible(cn);
-              return `
-                <div class="conn-item" onclick="if(!event.target.closest('.conn-add-btn')) selectNodeById('${cn.id}')">
-                  <span class="conn-type">${c.role}</span>
-                  <span class="conn-ticker" style="color:${ct ? ct.color : '#fff'}">${cn.ticker}</span>
-                  <span class="conn-name">${cn.name}</span>
-                  <button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>
-                </div>
-              `;
-            }).join('')}
-          </div>
-        ` : '<div class="panel-section-title">Connections (<span id="panel-conn-count">0</span>)</div><div class="connections-list" id="panel-conn-list"></div>'}
       </div>
     </div>
   `;
@@ -1246,9 +1228,9 @@ function openPanel(d) {
   }
 
   // Delegate +/− button clicks in the connections list
-  const connList = document.getElementById('panel-conn-list');
-  if (connList) {
-    connList.addEventListener('click', e => {
+  const pConn = document.getElementById('panel-connections');
+  if (pConn) {
+    pConn.addEventListener('click', e => {
       const btn = e.target.closest('.conn-add-btn');
       if (!btn) return;
       e.stopPropagation();
@@ -1273,59 +1255,107 @@ function openPanel(d) {
     });
   }
 
-  // Fetch live price/market cap
-  fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/live`)
-    .then(r => r.ok ? r.json() : null)
-    .then(live => {
-      if (!live || !panel.classList.contains('open')) return;
-      const mcEl = document.getElementById('panel-mcap');
-      const prEl = document.getElementById('panel-price');
-      if (mcEl && live.marketCap != null) mcEl.textContent = fmtCap(live.marketCap / 1e9);
-      if (prEl && live.price != null) prEl.textContent = '$' + Number(live.price).toFixed(2);
-    })
-    .catch(() => {});
+  function updateTabs(combinedEdges) {
+    const connContainer = document.getElementById('panel-connections');
+    if (!connContainer) return;
+    
+    const unique = [];
+    const seen = new Set();
+    combinedEdges.forEach(e => {
+      if (!e.ticker) return;
+      const key = e.ticker + '|' + e.role;
+      if (!seen.has(key)) {
+        seen.add(key);
+        const cn = allNodes.find(n => n.ticker === e.ticker);
+        unique.push({
+          ticker: e.ticker,
+          role: e.role,
+          node: cn,
+          mcap: cn ? (cn.marketCap || 0) : 0
+        });
+      }
+    });
 
-  // Append DB relationships (subsidiaries, suppliers) into the connections list
+    const groups = {
+      'Supplier Of': [],
+      'Customer Of': [],
+      'Subsidiary Of': [],
+      'Parent Of': []
+    };
+
+    unique.forEach(e => {
+      if (groups[e.role]) groups[e.role].push(e);
+    });
+
+    Object.values(groups).forEach(list => list.sort((a, b) => b.mcap - a.mcap));
+
+    const oldActiveBtn = connContainer.querySelector('.panel-tab-btn.active');
+    let activeTab = oldActiveBtn ? oldActiveBtn.dataset.tab : null;
+    
+    const availableTabs = Object.keys(groups).filter(k => groups[k].length > 0);
+    if (!availableTabs.includes(activeTab)) {
+      activeTab = availableTabs[0] || null;
+    }
+
+    if (!activeTab) {
+      connContainer.innerHTML = '<div class="panel-section-title">Connections (0)</div><div class="connections-list"></div>';
+      return;
+    }
+
+    let html = `<div class="panel-section-title">Connections (${unique.length})</div>`;
+    html += '<div class="panel-tabs">';
+    availableTabs.forEach(role => {
+      const cls = role === activeTab ? 'panel-tab-btn active' : 'panel-tab-btn';
+      html += `<button class="${cls}" data-tab="${role}">${role} (${groups[role].length})</button>`;
+    });
+    html += '</div>';
+
+    availableTabs.forEach(role => {
+      const cls = role === activeTab ? 'panel-tab-content active' : 'panel-tab-content';
+      html += `<div class="${cls}" id="tab-content-${role.replace(/\s+/g, '')}"><div class="connections-list">`;
+      groups[role].forEach(c => {
+         const cn = c.node;
+         if (!cn) return;
+         const ct = tracks.find(t => t.id === cn.track);
+         const onGraph = nodeIsVisible(cn);
+         html += `
+           <div class="conn-item tab-item" onclick="if(!event.target.closest('.conn-add-btn')) selectNodeById('${cn.id}')">
+             <span class="conn-ticker" style="color:${ct ? ct.color : 'var(--text-primary)'}">${cn.ticker}</span>
+             <span class="conn-name">${cn.name}</span>
+             <button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>
+           </div>
+         `;
+      });
+      html += `</div></div>`;
+    });
+
+    connContainer.innerHTML = html;
+
+    connContainer.querySelectorAll('.panel-tab-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        connContainer.querySelectorAll('.panel-tab-btn, .panel-tab-content').forEach(el => el.classList.remove('active'));
+        e.target.classList.add('active');
+        const contentId = 'tab-content-' + e.target.dataset.tab.replace(/\s+/g, '');
+        const contentEl = connContainer.querySelector('#' + contentId);
+        if (contentEl) contentEl.classList.add('active');
+      });
+    });
+  }
+
+  // Initial render for graph connections only
+  updateTabs(graphConnections);
+
   Promise.all([
     fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=subsidiary`).then(r => r.ok ? r.json() : { edges: [] }),
     fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
   ]).then(([subData, supData]) => {
-    const list = document.getElementById('panel-conn-list');
-    const countEl = document.getElementById('panel-conn-count');
-    if (!list) return;
-
     const extra = [
-      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Parent of',    ticker: e.target })),
-      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Subsidiary of', ticker: e.source })),
-      ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplies',      ticker: e.target })),
-      ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Supplied by',   ticker: e.source })),
+      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Parent Of',    ticker: e.target })),
+      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Subsidiary Of', ticker: e.source })),
+      ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplier Of',  ticker: e.target })),
+      ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Customer Of',  ticker: e.source })),
     ];
-
-    // Deduplicate against connections already shown
-    const shown = new Set(connections.map(c => {
-      const cn = typeof c.node === 'object' ? c.node : allNodes.find(n => n.id === c.node);
-      return cn ? cn.ticker : null;
-    }));
-    const newItems = extra.filter(e => !shown.has(e.ticker));
-    if (!newItems.length) return;
-
-    newItems.forEach(e => {
-      const cn = allNodes.find(n => n.ticker === e.ticker);
-      const ct = cn ? tracks.find(t => t.id === cn.track) : null;
-      const item = document.createElement('div');
-      item.className = 'conn-item';
-      item.onclick = e => { if (!e.target.closest('.conn-add-btn') && cn) selectNodeById(cn.id); };
-      const onGraph = cn && nodeIsVisible(cn);
-      item.innerHTML = `
-        <span class="conn-type">${e.role}</span>
-        <span class="conn-ticker" style="color:${ct ? ct.color : 'var(--text-primary)'}">${e.ticker}</span>
-        <span class="conn-name">${cn ? cn.name : ''}</span>
-        ${cn ? `<button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>` : ''}
-      `;
-      list.appendChild(item);
-    });
-
-    if (countEl) countEl.textContent = connections.length + newItems.length;
+    updateTabs([...graphConnections, ...extra]);
   }).catch(() => {});
 }
 

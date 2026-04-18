@@ -948,6 +948,53 @@ html[data-theme="light"] .stock-website-link:hover {
   border-color: var(--badge-color, var(--border-bright));
 }
 
+/* ── Panel Tabs ───────────────────────────────────────────── */
+.panel-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: var(--sp-md) 0 var(--sp-sm);
+}
+
+.panel-tab-btn {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  padding: 5px 8px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  transition: all var(--t-fast);
+  flex-grow: 1;
+  text-align: center;
+}
+
+.panel-tab-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.panel-tab-btn.active {
+  background: var(--bg-hover);
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.panel-tab-content {
+  display: none;
+}
+
+.panel-tab-content.active {
+  display: block;
+}
+
+.conn-item.tab-item {
+  grid-template-columns: 48px 1fr auto;
+  padding: 6px 10px;
+}
+
 /* connected companies list */
 .connections-list {
   display: flex;
