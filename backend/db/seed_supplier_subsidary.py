@@ -99,26 +99,20 @@ def seed_relationships():
         else:
             norm_to_ticker[norm] = ticker
 
-    # Pre-compute word sets for subset matching so we don't split half a billion strings
-    norm_words_list = []
-    for norm, tkr in norm_to_ticker.items():
-        if tkr is not None:
-            norm_words = set(norm.split())
-            if norm_words:
-                norm_words_list.append((norm_words, len("".join(norm_words)), tkr))
-
     # Resolution counters (one list so the nested closure can mutate them).
-    _counts = [0, 0, 0, 0]  # [exact_ticker, exact_name, norm_name, substring]
+    _counts = [0, 0, 0, 0]  # [exact_ticker, exact_name, norm_name, unused]
 
-    def resolve_target(target):
-        # 1. Exact ticker match
-        if target in ticker_set:
+    def resolve_target(target, skip_ticker_match=False):
+        # 1. Exact ticker match — skip when processing subsidiary names
+        #    since those are company names ("Crown Holding"), not ticker
+        #    symbols, and short names like "BAC" or "KEY" collide.
+        if not skip_ticker_match and target in ticker_set:
             _counts[0] += 1
             return target
 
         target_lower = target.lower()
 
-        # 2. Exact lowercase name match
+        # 2. Exact lowercase name match (full company name, e.g. "Apple Inc.")
         if target_lower in name_to_ticker:
             _counts[1] += 1
             return name_to_ticker[target_lower]
@@ -127,29 +121,13 @@ def seed_relationships():
         if not target_norm:
             return None
 
-        # 3. Normalized-name exact match
-        if target_norm in norm_to_ticker and norm_to_ticker[target_norm] is not None:
+        # 3. Normalized-name exact match — require at least 2 words to
+        #    prevent single-word internal entities ("Crown", "Arm") from
+        #    colliding with real companies.
+        words = target_norm.split()
+        if len(words) >= 2 and target_norm in norm_to_ticker and norm_to_ticker[target_norm] is not None:
             _counts[2] += 1
             return norm_to_ticker[target_norm]
-
-        # 4. Word-subset match (name-on-name only, no tickers).
-        #    Accept only if exactly one candidate matches to avoid ambiguity.
-        target_words = set(target_norm.split())
-        if not target_words:
-            return None
-            
-        target_len = len("".join(target_words))
-        matches = []
-        for norm_words, norm_len, tkr in norm_words_list:
-            if norm_words.issubset(target_words) or target_words.issubset(norm_words):
-                # Prevent tiny word fragments like "on" or "ab" from aggressively subset-matching
-                shorter_len = min(norm_len, target_len)
-                if shorter_len >= 4:
-                    matches.append(tkr)
-
-        if len(matches) == 1:
-            _counts[3] += 1
-            return matches[0]
 
         return None
 
@@ -198,7 +176,7 @@ def seed_relationships():
                 if target == "NONE":
                     continue
                 
-                actual_target = resolve_target(target)
+                actual_target = resolve_target(target, skip_ticker_match=(rel_type == "subsidiary"))
                 if not actual_target:
                     # Most subsidiary entries are legal entity names, not
                     # tickers — printing every unresolved target swamps
