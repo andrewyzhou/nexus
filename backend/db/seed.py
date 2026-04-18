@@ -183,6 +183,20 @@ def load_investment_tracks(cursor):
 
     print(f"Loaded {len(ticker_tracks)} ticker-track mappings")
 
+    # Deduplicate track names that map to the same slug (e.g., casing/punctuation differences)
+    # by using the first seen variation as the canonical name for that track.
+    def slugify(name: str) -> str:
+        return "".join(c.lower() if c.isalnum() else "-" for c in name).strip("-")
+
+    canon_names = {}
+    normalized_tracks = {}
+    for ticker, original_name in ticker_tracks.items():
+        slug = slugify(original_name)
+        if slug not in canon_names:
+            canon_names[slug] = original_name.strip()
+        normalized_tracks[ticker] = canon_names[slug]
+
+    ticker_tracks = normalized_tracks
     unique_tracks = set(ticker_tracks.values())
     track_ids = {}
 
