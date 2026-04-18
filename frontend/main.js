@@ -833,31 +833,19 @@ function buildGraph() {
 
   // ── Defs: arrow markers per edge type ──
   const defs = svg.append('defs');
-  const bgColor = getComputedStyle(document.documentElement).getPropertyValue('--bg-base').trim() || '#0d0f1a';
   Object.entries(EDGE_COLORS).forEach(([type, color]) => {
-    const marker = defs.append('marker')
+    defs.append('marker')
       .attr('id', `arrow-${type}`)
-      .attr('viewBox', '0 0 10 10')
-      .attr('refX', 10)
-      .attr('refY', 5)
-      .attr('markerWidth', 8)
-      .attr('markerHeight', 8)
-      .attr('orient', 'auto-start-reverse');
-    marker.append('rect')
-      .attr('x', 0).attr('y', 0)
-      .attr('width', 10).attr('height', 10)
-      .attr('fill', bgColor);
-    marker.append('path')
-      .attr('d', 'M0,1 L9,5 L0,9 Z')
-      .attr('fill', color);
+      .attr('viewBox', '0 0 6 6')
+      .attr('refX', 6)
+      .attr('refY', 3)
+      .attr('markerWidth', 6)
+      .attr('markerHeight', 6)
+      .attr('orient', 'auto-start-reverse')
+      .append('path')
+        .attr('d', 'M0,0 L6,3 L0,6 Z')
+        .attr('fill', color);
   });
-
-  new MutationObserver(() => {
-    const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg-base').trim() || '#0d0f1a';
-    Object.entries(EDGE_COLORS).forEach(([type]) => {
-      defs.select(`#arrow-${type} rect`).attr('fill', bg);
-    });
-  }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
   // ── Zoom layer ──
   zoomLayer = svg.append('g').attr('class', 'zoom-layer');
