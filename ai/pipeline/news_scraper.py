@@ -151,11 +151,12 @@ class NewsScraper:
                 if alias in body_l:
                     company_in_body = True
 
-        # Strict evidence gate: reject articles with no ticker/company evidence.
+        # Relaxed evidence gate: heavily penalize, but do not hard reject.
         if not (ticker_in_title or ticker_in_body or company_in_title or company_in_body):
-            return -1.0
+            score = -0.4
+        else:
+            score = 0.0
 
-        score = 0.0
         if ticker_in_body:
             score += 0.6
         if ticker_in_title:
@@ -179,7 +180,7 @@ class NewsScraper:
         ]
         macro_hits = sum(1 for m in macro_terms if m in content_l)
         if macro_hits >= 2 and not (ticker_in_title or company_in_title):
-            score -= 0.35
+            score -= 0.2
 
         if len((text or "").split()) >= 120:
             score += 0.05
@@ -207,7 +208,7 @@ class NewsScraper:
             source=source,
             published_at=published_at,
         )
-        return score >= 0.65
+        return score >= 0.5
 
     def _select_top_candidates(self, candidates: list[dict[str, object]], k: int = 2) -> list[str]:
         if not candidates:
