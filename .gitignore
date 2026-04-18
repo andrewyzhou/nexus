@@ -18,7 +18,12 @@ venv/
 .env
 ai/.env
 ai/.env.Local
-ai/deepeval
+
+# testing artifacts
+.deepeval/
+ai/.deepeval/
+ai/artifacts/
+ai/config/tracks.yaml
 
 # Client-private data — never commit.
 # Master ticker → investment-track map. Pull from

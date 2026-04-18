@@ -1,6 +1,6 @@
 defaults:
-  smoke_summarizer: gemini-2.5-flash-lite
-  smoke_judge: gemini-2.5-flash-lite
+  smoke_summarizer: local-qwen2.5-7b
+  smoke_judge: claude-sonnet
 
 summarizers:
   - name: local-qwen2.5-1.5b
