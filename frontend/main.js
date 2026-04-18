@@ -224,6 +224,28 @@ function buildSidebar(tracks, nodes) {
         dropdown.innerHTML = '<div class="pinned-dropdown-empty">No companies</div>';
         return;
       }
+
+      const trackHeader = document.createElement('div');
+      trackHeader.className = 'pinned-rel-header';
+      const trackLabel = document.createElement('span');
+      trackLabel.className = 'pinned-rel-label';
+      trackLabel.style.color = track.color;
+      trackLabel.textContent = 'Companies';
+      const trackAllBtn = document.createElement('button');
+      trackAllBtn.className = 'pinned-rel-all-btn';
+      trackAllBtn.textContent = 'All';
+      const trackClearBtn = document.createElement('button');
+      trackClearBtn.className = 'pinned-rel-all-btn pinned-rel-clear-btn';
+      trackClearBtn.textContent = 'Clear';
+      const trackBtnGroup = document.createElement('div');
+      trackBtnGroup.className = 'pinned-rel-btn-group';
+      trackBtnGroup.appendChild(trackAllBtn);
+      trackBtnGroup.appendChild(trackClearBtn);
+      trackHeader.appendChild(trackLabel);
+      trackHeader.appendChild(trackBtnGroup);
+      dropdown.appendChild(trackHeader);
+
+      const trackRowNodes = [];
       trackNodes.slice().sort((a, b) => a.ticker.localeCompare(b.ticker)).forEach(n => {
         const isPinned = pinnedNodes.has(n.id);
         const row = document.createElement('div');
@@ -261,7 +283,32 @@ function buildSidebar(tracks, nodes) {
           if (e.target.closest('.track-company-toggle')) return;
           openPanel(n);
         });
+        trackRowNodes.push({ node: n, row });
         dropdown.appendChild(row);
+      });
+
+      trackAllBtn.addEventListener('click', () => {
+        let added = false;
+        trackRowNodes.forEach(({ node }) => {
+          if (!pinnedNodes.has(node.id)) {
+            pinnedNodes.add(node.id);
+            excludedNodes.delete(node.id);
+            added = true;
+          }
+        });
+        if (added) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
+      });
+
+      trackClearBtn.addEventListener('click', () => {
+        let removed = false;
+        trackRowNodes.forEach(({ node }) => {
+          if (pinnedNodes.has(node.id)) {
+            pinnedNodes.delete(node.id);
+            excludedNodes.add(node.id);
+            removed = true;
+          }
+        });
+        if (removed) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
       });
     };
 
@@ -474,8 +521,15 @@ function loadPinnedRelationships(ticker, container) {
       const allBtn = document.createElement('button');
       allBtn.className = 'pinned-rel-all-btn';
       allBtn.textContent = 'All';
+      const clearBtn = document.createElement('button');
+      clearBtn.className = 'pinned-rel-all-btn pinned-rel-clear-btn';
+      clearBtn.textContent = 'Clear';
+      const btnGroup = document.createElement('div');
+      btnGroup.className = 'pinned-rel-btn-group';
+      btnGroup.appendChild(allBtn);
+      btnGroup.appendChild(clearBtn);
       header.appendChild(labelEl);
-      header.appendChild(allBtn);
+      header.appendChild(btnGroup);
       section.appendChild(header);
 
       const sectionNodes = [];
@@ -528,6 +582,23 @@ function loadPinnedRelationships(ticker, container) {
           }
         });
         if (added) {
+          applyVisibility({ skipFit: true });
+          resortPinnedList();
+        }
+      });
+
+      clearBtn.addEventListener('click', () => {
+        let removed = false;
+        sectionNodes.forEach(({ node, item }) => {
+          if (pinnedNodes.has(node.id)) {
+            pinnedNodes.delete(node.id);
+            excludedNodes.add(node.id);
+            const btn = item.querySelector('.conn-add-btn');
+            if (btn) { btn.classList.remove('on-graph'); btn.textContent = '+'; btn.title = 'Add to graph'; }
+            removed = true;
+          }
+        });
+        if (removed) {
           applyVisibility({ skipFit: true });
           resortPinnedList();
         }
@@ -772,7 +843,6 @@ function buildGraph() {
       .attr('markerWidth', 8)
       .attr('markerHeight', 8)
       .attr('orient', 'auto-start-reverse');
-    // Opaque background rect masks the line that would bleed through the tip
     marker.append('rect')
       .attr('x', 0).attr('y', 0)
       .attr('width', 10).attr('height', 10)
@@ -782,7 +852,6 @@ function buildGraph() {
       .attr('fill', color);
   });
 
-  // Rebuild markers when theme changes so bg rect color stays in sync
   new MutationObserver(() => {
     const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg-base').trim() || '#0d0f1a';
     Object.entries(EDGE_COLORS).forEach(([type]) => {

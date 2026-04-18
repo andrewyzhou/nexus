@@ -249,6 +249,16 @@ html[data-theme="light"] .track-control-btn {
   background: rgba(20,24,40,0.05);
   border-color: rgba(20,24,40,0.3);
 }
+#pinned-clear-all, #track-clear-all {
+  background: none;
+  border-color: #ef444466;
+  color: #ef4444;
+}
+#pinned-clear-all:hover, #track-clear-all:hover {
+  background: none;
+  border-color: #ef4444;
+  color: #f87171;
+}
 
 .sidebar-label {
   font-family: var(--font-mono);
@@ -481,6 +491,9 @@ html[data-theme="light"] .track-control-btn {
 }
 .pinned-rel-all-btn:hover { color: var(--text-primary); border-color: var(--text-secondary); }
 .pinned-rel-all-btn:disabled { opacity: 0.35; cursor: default; }
+.pinned-rel-clear-btn { color: #ef4444; border-color: #ef444466; }
+.pinned-rel-clear-btn:hover { color: #f87171; border-color: #ef4444; }
+.pinned-rel-btn-group { display: flex; gap: 4px; }
 
 .pinned-rel-item {
   display: flex;
