@@ -1,0 +1,12 @@
+# /etc/sudoers.d/nexus-deploy
+#
+# Lets the `ubuntu` user restart only the nexus.service without a password,
+# which is what the GitHub Actions deploy workflow needs. No other sudo
+# rights are granted.
+#
+# Install:
+#   sudo cp deploy/sudoers-nexus-deploy /etc/sudoers.d/nexus-deploy
+#   sudo chmod 440 /etc/sudoers.d/nexus-deploy
+#   sudo visudo -c            # validates syntax; must say "parsed OK"
+
+ubuntu ALL=(root) NOPASSWD: /bin/systemctl restart nexus, /bin/systemctl is-active nexus, /bin/systemctl status nexus
