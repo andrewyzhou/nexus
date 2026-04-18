@@ -63,13 +63,20 @@ function renderStock(d) {
   document.getElementById('stock-track').textContent =
     d.sector ? `${d.sector} · ${d.industry || ''}` : 'Stock';
 
+  function setPill(id, text) {
+    const el = document.getElementById(id);
+    if (!text || text === '—' || text === 'P/E —' || text === 'Market Cap —') {
+      el.style.display = 'none';
+    } else {
+      el.textContent = text;
+    }
+  }
+
   const change = d.changePercent != null ? ` (${(d.changePercent * 100).toFixed(2)}%)` : '';
-  document.getElementById('stock-price').textContent = d.price != null
-    ? `$${fmtNum(d.price)}${change}`
-    : 'Price —';
-  document.getElementById('stock-mcap').textContent = `Market Cap ${fmtMoney(d.marketCap)}`;
-  document.getElementById('stock-pe').textContent = `P/E ${fmtNum(d.trailingPE, 1)}`;
-  document.getElementById('stock-sector').textContent = d.country || '';
+  setPill('stock-price', d.price != null ? `$${fmtNum(d.price)}${change}` : null);
+  setPill('stock-mcap', d.marketCap != null ? `Market Cap ${fmtMoney(d.marketCap)}` : null);
+  setPill('stock-pe', d.trailingPE != null ? `P/E ${fmtNum(d.trailingPE, 1)}` : null);
+  setPill('stock-sector', d.country || null);
 
   const stats = [
     ['Open',           d.open != null ? `$${fmtNum(d.open)}` : '—'],

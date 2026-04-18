@@ -107,12 +107,12 @@ function render() {
   document.getElementById('track-description').textContent = desc;
 
   document.getElementById('track-count').textContent = `${track.company_count} companies`;
+  const leaderEl = document.getElementById('track-leader');
   if (track.market_leader) {
     const ml = track.market_leader;
-    document.getElementById('track-leader').textContent =
-      `Leader: ${ml.ticker} (${fmtMoney(ml.market_cap)})`;
+    leaderEl.textContent = `Leader: ${ml.ticker} (${fmtMoney(ml.market_cap)})`;
   } else {
-    document.getElementById('track-leader').textContent = '';
+    leaderEl.style.display = 'none';
   }
 
   renderTable();

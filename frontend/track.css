@@ -22,6 +22,7 @@ html:has(.track-body) body {
   position: sticky;
   top: 0;
   z-index: 10;
+  height: var(--header-h);
 }
 
 .logo-link {
