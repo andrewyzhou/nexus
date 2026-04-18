@@ -80,12 +80,13 @@
         console.info('[nexus] authed as', user.email || user.uid);
         window.__nexusAuthResolve();
       } else {
-        const login = cfg.loginUrl || 'https://www.ipick.ai';
+        // iPick's login route lives at /login and accepts ?next=<url>
+        // (their own templates do `/login?next={{ request.url }}`).
+        const login = cfg.loginUrl || 'https://www.ipick.ai/login';
         const returnTo = encodeURIComponent(window.location.href);
         console.info('[nexus] not signed in, redirecting to', login);
-        // Give other scripts a tick to log, then jump.
         setTimeout(() => {
-          window.location.href = login + (login.indexOf('?') >= 0 ? '&' : '?') + 'return=' + returnTo;
+          window.location.href = login + (login.indexOf('?') >= 0 ? '&' : '?') + 'next=' + returnTo;
         }, 50);
       }
     });
