@@ -4,14 +4,20 @@ import os
 import time
 from dotenv import load_dotenv
 from pathlib import Path
+from google import genai
 
 
 load_dotenv()
 
+# Anthropic Claude Setup
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+anthropic_client = anthropic.Anthropic()
+ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
 
-client = anthropic.Anthropic()
-MODEL = "claude-haiku-4-5-20251001"
+# Google Gemini Setup
+gemini_client = genai.Client()
+GEMINI_MODEL = "gemini-3-flash-preview"
+
 
 LLM_SUPPLIER_EXTRACTION_PROMPT = """\
 You are a financial document parser specializing in supply chain analysis.
@@ -89,8 +95,8 @@ def extract_suppliers_with_llm(
         
         for attempt in range(3):
             try:
-                message = client.messages.create(
-                    model=MODEL,
+                message = anthropic_client.messages.create(
+                    model=ANTHROPIC_MODEL,
                     max_tokens=500,
                     messages=[
                         {
@@ -124,7 +130,7 @@ def extract_suppliers_with_llm(
 
             except anthropic.RateLimitError:
                     wait = 2 ** attempt  # exponential backoff: 1s, 2s, 4s
-                    print(f"Rate limit hit, waiting {wait}s (attempt {attempt+1}/{max_retries})")
+                    print(f"Rate limit hit, waiting {wait}s (attempt {attempt+1})")
                     time.sleep(wait)
                     continue
             except json.JSONDecodeError:
@@ -149,7 +155,7 @@ def extract_suppliers_with_llm(
 
 def run_extraction_on_basket(
     raw_sections_dir: str = "../scraper/data/raw/raw_sections",
-    output_path: str = "../suppliers.json"
+    output_path: str = "pipeline/suppliers.json"
 ):
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 

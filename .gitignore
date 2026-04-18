@@ -16,6 +16,9 @@ venv/
 
 # environment variables
 .env
+ai/.env
+ai/.env.Local
+ai/deepeval
 
 # Client-private data — never commit.
 # Master ticker → investment-track map. Pull from
