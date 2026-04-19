@@ -146,6 +146,7 @@ async function init() {
     allNodes.forEach(n => { pinnedNodes.add(n.id); excludedNodes.delete(n.id); });
     applyVisibility({ skipFit: true });
     renderPinnedList();
+    syncPanelAddBtn();
   });
   document.getElementById('pinned-clear-all')?.addEventListener('click', () => {
     if (selectedNode) closePanel();
@@ -282,6 +283,7 @@ function buildSidebar(tracks, nodes) {
           applyVisibility({ skipFit: true });
           renderPinnedList();
           buildTrackDropdown();
+          syncPanelAddBtn();
         });
         row.addEventListener('click', e => {
           if (e.target.closest('.track-company-toggle')) return;
@@ -300,7 +302,7 @@ function buildSidebar(tracks, nodes) {
             added = true;
           }
         });
-        if (added) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
+        if (added) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); syncPanelAddBtn(); }
       });
 
       trackClearBtn.addEventListener('click', () => {
@@ -312,12 +314,12 @@ function buildSidebar(tracks, nodes) {
             removed = true;
           }
         });
-        if (removed) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
+        if (removed) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); syncPanelAddBtn(); }
       });
     };
 
     item.addEventListener('click', e => {
-      if (e.target.closest('.track-toggle-btn') && !e.target.closest('.track-chevron-btn')) {
+      if (e.target.closest('.track-toggle-btn') && !e.target.closest('.track-chevron-btn') && !e.target.closest('.track-company-toggle')) {
         e.preventDefault();
         e.stopPropagation();
         toggleTrack(track.id);
@@ -415,26 +417,9 @@ function renderPinnedList(keepOpenTicker) {
 
     toggleBtn.addEventListener('click', e => {
       e.stopPropagation();
-      const wasPinned = pinnedNodes.has(n.id);
-      if (wasPinned) {
+      if (pinnedNodes.has(n.id)) {
         pinnedNodes.delete(n.id);
         excludedNodes.add(n.id);
-        if (selectedNode && selectedNode.id === n.id) {
-          const existing = document.getElementById('panel-add-btn');
-          if (!existing) {
-            const btn = document.createElement('button');
-            btn.className = 'panel-add-btn';
-            btn.id = 'panel-add-btn';
-            btn.textContent = '+ Add to graph';
-            btn.addEventListener('click', () => {
-              selectSearchNode(selectedNode);
-              renderPinnedList();
-              btn.remove();
-            });
-            const stockLink = document.querySelector('.panel-open-stock');
-            if (stockLink) stockLink.insertAdjacentElement('afterend', btn);
-          }
-        }
       } else {
         pinnedNodes.add(n.id);
         excludedNodes.delete(n.id);
@@ -442,6 +427,7 @@ function renderPinnedList(keepOpenTicker) {
 
       applyVisibility({ skipFit: true });
       resortPinnedList();
+      syncPanelAddBtn();
     });
 
     const openDropdown = () => {
@@ -565,6 +551,7 @@ function loadPinnedRelationships(ticker, container) {
             }
             applyVisibility({ skipFit: true });
             resortPinnedList();
+            syncPanelAddBtn();
           });
           item.addEventListener('click', e => {
             if (e.target.closest('.conn-add-btn')) return;
@@ -825,6 +812,15 @@ function nodeIsVisible(d) {
   }
   if (!d.track || d.track === 'uncategorized') return false;
   return !hiddenTracks.has(d.track);
+}
+
+function syncPanelAddBtn() {
+  if (!selectedNode) return;
+  const btn = document.getElementById('panel-add-btn');
+  if (!btn) return;
+  const onGraph = nodeIsVisible(selectedNode);
+  btn.classList.toggle('on-graph', onGraph);
+  btn.textContent = onGraph ? '✕ Remove from graph' : '+ Add to graph';
 }
 
 let zoomLayer;
@@ -1139,6 +1135,7 @@ function onNodeClick(event, d) {
 }
 
 function openPanel(d) {
+  selectedNode = d;
   const t = tracks.find(t => t.id === d.track);
   const color = t ? t.color : '#888888';
 
