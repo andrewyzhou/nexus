@@ -54,9 +54,25 @@
     <section class="admin-tab-panel" data-tab="companies" style="display:none">
       <div class="admin-toolbar">
         <input id="companies-search" class="admin-input" placeholder="search ticker or name…" />
+        <select id="companies-sort" class="admin-input">
+          <option value="ticker">Sort: ticker A→Z</option>
+          <option value="name">Sort: name A→Z</option>
+          <option value="market_cap">Sort: market cap ↓</option>
+        </select>
         <span id="companies-meta" class="dim small"></span>
       </div>
-      <div id="admin-companies" class="admin-list">Type a query to search.</div>
+      <div id="admin-companies" class="admin-list">Loading…</div>
+      <div id="companies-pager" class="admin-pager" style="display:none">
+        <button class="track-control-btn" id="pg-first">« first</button>
+        <button class="track-control-btn" id="pg-prev">‹ prev</button>
+        <span id="pg-info" class="dim small"></span>
+        <button class="track-control-btn" id="pg-next">next ›</button>
+        <button class="track-control-btn" id="pg-last">last »</button>
+        <label class="dim small">
+          jump to
+          <input id="pg-jump" class="admin-input" style="width:64px" type="number" min="1" />
+        </label>
+      </div>
     </section>
 
     <!-- ── Edges tab ────────────────────────────────────────────────────── -->

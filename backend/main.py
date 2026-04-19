@@ -1114,7 +1114,7 @@ def admin_list_companies():
     """Paginated company list with their track membership.
     Query: ?q=<search>&limit=N&offset=N&sort=ticker|name|market_cap"""
     q = (request.args.get("q") or "").strip()
-    limit = min(request.args.get("limit", default=5000, type=int), 10000)
+    limit = min(request.args.get("limit", default=100, type=int), 10000)
     offset = request.args.get("offset", default=0, type=int)
     sort = request.args.get("sort", default="ticker")
     order_by = {

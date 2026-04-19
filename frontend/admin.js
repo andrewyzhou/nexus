@@ -210,18 +210,42 @@ async function deleteTrack(id) {
 }
 
 // ── Companies tab ────────────────────────────────────────────────────────
+const COMPANIES_PAGE_SIZE = 100;
 let COMPANIES_SEARCH = '';
+let COMPANIES_SORT = 'ticker';
+let COMPANIES_PAGE = 1;   // 1-indexed
 let COMPANIES_TIMER = null;
 
 async function loadCompanies() {
   const wrap = document.getElementById('admin-companies');
   const meta = document.getElementById('companies-meta');
+  const pager = document.getElementById('companies-pager');
   wrap.innerHTML = '<div class="empty">Loading…</div>';
   try {
-    const r = await api(`/admin/companies?q=${encodeURIComponent(COMPANIES_SEARCH)}&limit=10000&sort=ticker`);
+    const offset = (COMPANIES_PAGE - 1) * COMPANIES_PAGE_SIZE;
+    const r = await api(
+      `/admin/companies?q=${encodeURIComponent(COMPANIES_SEARCH)}` +
+      `&limit=${COMPANIES_PAGE_SIZE}&offset=${offset}&sort=${COMPANIES_SORT}`
+    );
+    const totalPages = Math.max(1, Math.ceil(r.total / COMPANIES_PAGE_SIZE));
+    // Clamp + retry if we landed past the end (e.g. search narrowed results)
+    if (COMPANIES_PAGE > totalPages) {
+      COMPANIES_PAGE = totalPages;
+      return loadCompanies();
+    }
     meta.textContent = COMPANIES_SEARCH.trim()
-      ? `${r.companies.length} of ${r.total} matches`
-      : `${r.companies.length} companies`;
+      ? `${r.total} matches`
+      : `${r.total} companies`;
+    pager.style.display = r.total > COMPANIES_PAGE_SIZE ? 'flex' : 'none';
+    const startN = r.total === 0 ? 0 : offset + 1;
+    const endN = Math.min(offset + r.companies.length, r.total);
+    document.getElementById('pg-info').textContent =
+      `page ${COMPANIES_PAGE} of ${totalPages} · showing ${startN}–${endN}`;
+    document.getElementById('pg-prev').disabled  = COMPANIES_PAGE <= 1;
+    document.getElementById('pg-first').disabled = COMPANIES_PAGE <= 1;
+    document.getElementById('pg-next').disabled  = COMPANIES_PAGE >= totalPages;
+    document.getElementById('pg-last').disabled  = COMPANIES_PAGE >= totalPages;
+    document.getElementById('pg-jump').max = totalPages;
     document.getElementById('count-companies').textContent = r.total;
     if (r.companies.length === 0) {
       wrap.innerHTML = '<div class="empty">No matches.</div>';
@@ -447,8 +471,22 @@ async function init() {
   });
   document.getElementById('companies-search').addEventListener('input', e => {
     COMPANIES_SEARCH = e.target.value;
+    COMPANIES_PAGE = 1;
     clearTimeout(COMPANIES_TIMER);
     COMPANIES_TIMER = setTimeout(loadCompanies, 250);  // debounce
+  });
+  document.getElementById('companies-sort').addEventListener('change', e => {
+    COMPANIES_SORT = e.target.value;
+    COMPANIES_PAGE = 1;
+    loadCompanies();
+  });
+  document.getElementById('pg-first').addEventListener('click', () => { COMPANIES_PAGE = 1; loadCompanies(); });
+  document.getElementById('pg-prev' ).addEventListener('click', () => { COMPANIES_PAGE = Math.max(1, COMPANIES_PAGE - 1); loadCompanies(); });
+  document.getElementById('pg-next' ).addEventListener('click', () => { COMPANIES_PAGE += 1; loadCompanies(); });
+  document.getElementById('pg-last' ).addEventListener('click', () => { COMPANIES_PAGE = Number(document.getElementById('pg-jump').max) || 1; loadCompanies(); });
+  document.getElementById('pg-jump' ).addEventListener('change', e => {
+    const n = Number(e.target.value);
+    if (Number.isFinite(n) && n >= 1) { COMPANIES_PAGE = n; loadCompanies(); }
   });
   document.getElementById('edges-load').addEventListener('click', loadEdges);
   document.getElementById('edges-ticker').addEventListener('keydown', e => {
