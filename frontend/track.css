@@ -176,6 +176,90 @@ html:has(.track-body) body {
 
 .news-list { display: flex; flex-direction: column; gap: 12px; }
 
+/* ── AI summary section ─────────────────────────────────────────────── */
+.ai-summary {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+html[data-theme="light"] .ai-summary {
+  border-color: rgba(20, 24, 40, 0.08);
+  background: #ffffff;
+}
+.ai-summary .summary-text {
+  font-size: 14.5px;
+  line-height: 1.65;
+  margin: 0;
+  color: var(--text-primary);
+}
+.ai-summary .citations-row {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.ai-summary .citation {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font-mono);
+  transition: transform 0.1s;
+}
+.ai-summary .citation:hover {
+  transform: translateY(-1px);
+  text-decoration: underline;
+}
+.ai-summary .summary-foot {
+  margin-top: 10px;
+  font-size: 11px;
+  padding-top: 8px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.06);
+}
+html[data-theme="light"] .ai-summary .summary-foot {
+  border-top-color: rgba(20, 24, 40, 0.08);
+}
+
+/* Skeleton loader shown while the summary is generating */
+.summary-skeleton { display: flex; flex-direction: column; gap: 10px; }
+.skeleton-line {
+  height: 12px;
+  border-radius: 4px;
+  background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.10) 50%,
+    rgba(255, 255, 255, 0.05) 100%);
+  background-size: 200% 100%;
+  animation: skel-shimmer 1.4s linear infinite;
+}
+.skeleton-line.short { width: 65%; }
+html[data-theme="light"] .skeleton-line {
+  background: linear-gradient(90deg,
+    rgba(20, 24, 40, 0.04) 0%,
+    rgba(20, 24, 40, 0.10) 50%,
+    rgba(20, 24, 40, 0.04) 100%);
+  background-size: 200% 100%;
+}
+@keyframes skel-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Highlight flash for the news card scrolled-to by a citation click */
+.news-highlight {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  background: var(--accent-dim) !important;
+  transition: outline 0.3s, background 0.3s;
+}
+
+
 /* Sidebar "open track page" arrow on the index page */
 .track-open {
   margin-left: 8px;

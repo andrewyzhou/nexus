@@ -66,8 +66,8 @@ async function loadNews() {
       wrap.innerHTML = '<div class="news-empty">No news returned for this track.</div>';
       return;
     }
-    wrap.innerHTML = items.map(n => `
-      <a class="news-item" href="${n.link || '#'}" target="_blank" rel="noopener">
+    wrap.innerHTML = items.map((n, i) => `
+      <a class="news-item" id="news-card-${i}" href="${n.link || '#'}" target="_blank" rel="noopener">
         <div class="news-title">${escapeHtml(n.title || '')}</div>
         <div class="news-meta">
           ${escapeHtml(n.publisher || '')} ${n.published ? '· ' + escapeHtml(fmtDate(n.published)) : ''}
@@ -76,6 +76,9 @@ async function loadNews() {
         ${n.summary ? `<div class="news-summary">${escapeHtml(n.summary)}</div>` : ''}
       </a>
     `).join('');
+    if (window.renderAISummary && slug) {
+      window.renderAISummary({ kind: 'track', key: slug });
+    }
   } catch (err) {
     wrap.innerHTML = `<div class="news-empty">News unavailable (${err.message || err}).</div>`;
   }

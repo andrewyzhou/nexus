@@ -4,6 +4,7 @@ import base64
 import hashlib
 import json
 import os
+import time
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
@@ -48,6 +49,39 @@ def _is_admin() -> bool:
     user = getattr(g, "user", None) or {}
     email = (user.get("email") or "").lower()
     return bool(email) and email in ADMIN_EMAILS
+
+
+# ── Anthropic client (optional; for /summary endpoints) ──────────────────
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+_anthropic = None
+if ANTHROPIC_API_KEY:
+    try:
+        import anthropic
+        _anthropic = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        print("[nexus] anthropic client initialized (Claude Haiku 4.5)")
+    except Exception as e:
+        print(f"[nexus] anthropic init failed: {e} — /summary will return empty")
+else:
+    print("[nexus] ANTHROPIC_API_KEY unset — /summary will return empty")
+
+
+# ── In-memory TTL cache for /summary responses ───────────────────────────
+# Simple dict-of-(timestamp, payload). Process-local so multiple gunicorn
+# workers don't share — that's fine at this scale (~dozens of calls/day),
+# worst case we do a handful of extra Anthropic calls.
+_summary_cache: dict[str, tuple[float, dict]] = {}
+SUMMARY_CACHE_TTL = 15 * 60  # 15 minutes
+
+
+def _cache_get(key: str):
+    hit = _summary_cache.get(key)
+    if hit and (time.time() - hit[0]) < SUMMARY_CACHE_TTL:
+        return hit[1]
+    return None
+
+
+def _cache_set(key: str, value: dict):
+    _summary_cache[key] = (time.time(), value)
 
 
 # ── Firebase auth (optional; off in dev, on in prod) ─────────────────────
@@ -412,6 +446,181 @@ def get_track_news(slug):
     for t in tickers:
         aggregated.extend(fetch_news_for(t, limit=per_company))
     return jsonify(aggregated)
+
+
+# ── AI-summary endpoints (Claude Haiku 4.5 + native citations) ───────────
+#
+# The citations API returns structured references into the `documents`
+# array we pass in — we give one document per news article, which lets
+# the frontend scroll the exact article into view when the user clicks
+# a [1] [2] [3] marker in the summary.
+#
+# Design notes:
+#   - POST, not GET, so browser link-prefetch / prerender doesn't trigger
+#     an API call (and an Anthropic bill)
+#   - 15-min in-memory cache on the server. First user per ticker pays
+#     the API call; the next ~dozens within 15 min are free
+#   - Empty payload (not error) when ANTHROPIC_API_KEY isn't set, so the
+#     frontend degrades gracefully in dev
+#   - Usage logged per call so `journalctl -u nexus -f | grep summary`
+#     shows live cost
+
+def build_summary(articles: list[dict], subject: str) -> dict:
+    """
+    Turn a list of news articles into a Claude-generated summary with
+    inline citations. `subject` is the ticker or track name, used only
+    for the prompt's "about X" framing.
+
+    Shape of each article (from fetch_news_for):
+        {title, summary, link, publisher, published, ticker}
+
+    Returns:
+        {
+          "summary": "prose text",
+          "citations": [{ref, article_index, cited_text}, ...],
+          "used_articles": N,
+          "cached": False,
+          "model": "claude-haiku-4-5-20251001"
+        }
+    """
+    if not _anthropic or not articles:
+        return {"summary": "", "citations": [], "used_articles": 0,
+                "cached": False, "model": None}
+
+    documents = []
+    for i, art in enumerate(articles):
+        body_parts = []
+        if art.get("title"):     body_parts.append(art["title"])
+        if art.get("summary"):   body_parts.append(art["summary"])
+        body = "\n\n".join(body_parts).strip()
+        if not body:
+            continue
+        documents.append({
+            "type": "document",
+            "source": {
+                "type": "content",
+                "content": [{"type": "text", "text": body}],
+            },
+            "title": art.get("publisher") or f"Article {i + 1}",
+            "context": f"article_index={i}; ticker={art.get('ticker', '')}",
+            "citations": {"enabled": True},
+        })
+
+    if not documents:
+        return {"summary": "", "citations": [], "used_articles": 0,
+                "cached": False, "model": None}
+
+    msg = _anthropic.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=600,
+        system=(
+            f"You are writing a 3-5 sentence news brief about {subject} for a "
+            "retail investor. Cite every factual claim back to the source "
+            "documents using the citations API. Be specific about dates and "
+            "numbers when the source has them. Do not invent facts. Neutral, "
+            "factual tone — no hype, no recommendations."
+        ),
+        messages=[{
+            "role": "user",
+            "content": [
+                *documents,
+                {"type": "text",
+                 "text": f"Summarize the recent news about {subject} in 3-5 "
+                         "sentences with inline citations."},
+            ],
+        }],
+    )
+
+    # Walk content blocks. Each text block can have a `citations` list.
+    # The SDK may expose fields as attrs (v0.x) or dict keys (rare) — handle
+    # both without blowing up.
+    def _get(obj, name, default=None):
+        if hasattr(obj, name):
+            return getattr(obj, name, default)
+        if isinstance(obj, dict):
+            return obj.get(name, default)
+        return default
+
+    text_parts = []
+    cite_list = []
+    ref_counter = 0
+    for block in msg.content:
+        if _get(block, "type") != "text":
+            continue
+        text_parts.append(_get(block, "text", ""))
+        for c in (_get(block, "citations") or []):
+            ref_counter += 1
+            cite_list.append({
+                "ref": ref_counter,
+                "article_index": _get(c, "document_index"),
+                "cited_text": _get(c, "cited_text"),
+            })
+
+    # Log usage (journalctl -u nexus -f | grep summary)
+    try:
+        usage = msg.usage
+        in_tok = getattr(usage, "input_tokens", 0)
+        out_tok = getattr(usage, "output_tokens", 0)
+        cost_usd = (in_tok * 1 + out_tok * 5) / 1_000_000  # Haiku 4.5 pricing
+        print(f"[summary] subject={subject!r} docs={len(documents)} "
+              f"input={in_tok} output={out_tok} cost=${cost_usd:.4f}")
+    except Exception:
+        pass
+
+    return {
+        "summary": "".join(text_parts).strip(),
+        "citations": cite_list,
+        "used_articles": len(documents),
+        "cached": False,
+        "model": "claude-haiku-4-5-20251001",
+    }
+
+
+@api.route("/companies/<ticker>/summary", methods=["POST"])
+def get_company_summary(ticker):
+    ticker = ticker.upper().strip()
+    cache_key = f"company:{ticker}"
+    cached = _cache_get(cache_key)
+    if cached:
+        return jsonify({**cached, "cached": True})
+    articles = fetch_news_for(ticker, limit=10)
+    result = build_summary(articles, subject=ticker)
+    _cache_set(cache_key, result)
+    return jsonify(result)
+
+
+@api.route("/tracks/<slug>/summary", methods=["POST"])
+def get_track_summary(slug):
+    cache_key = f"track:{slug}"
+    cached = _cache_get(cache_key)
+    if cached:
+        return jsonify({**cached, "cached": True})
+
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id, name FROM investment_tracks")
+    target = next(((tid, name) for tid, name in cursor.fetchall()
+                   if slugify(name) == slug), None)
+    if target is None:
+        conn.close()
+        return jsonify({"error": "Track not found"}), 404
+    track_id, track_name = target
+    cursor.execute("""
+        SELECT c.ticker FROM companies c
+        JOIN company_tracks ct ON ct.company_id = c.id
+        WHERE ct.track_id = %s
+        ORDER BY COALESCE(c.market_cap, 0) DESC LIMIT 5
+    """, (track_id,))
+    tickers = [r[0] for r in cursor.fetchall()]
+    conn.close()
+
+    articles = []
+    for t in tickers:
+        articles.extend(fetch_news_for(t, limit=3))
+
+    result = build_summary(articles, subject=f"the {track_name} investment track")
+    _cache_set(cache_key, result)
+    return jsonify(result)
 
 
 @api.route("/companies/<ticker>/live")
