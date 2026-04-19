@@ -315,8 +315,19 @@ html[data-theme="light"] .track-control-btn {
   border: 1px solid var(--border-bright);
   border-radius: var(--radius-sm);
   z-index: 200;
-  overflow: hidden;
+  /* Cap height to ~45% viewport so long result lists scroll internally
+     instead of running off the sidebar. */
+  max-height: 45vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+/* Group headers sticky so you can see which section you're scrolling */
+.search-dropdown-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg-surface);
 }
 .search-dropdown-header {
   font-family: var(--font-mono);
