@@ -353,6 +353,9 @@ RENAMES: dict[str, str] = {
     'Oil & Gas Equipment & Services - Internatioinal': 'Oil & Gas Equipment & Services - International',  # typo
     'banks - canada - 4-6':                   'Banks - Canada - 4-6',
 
+    # ── spacing on numbered Asset Management batches ──
+    'Asset Management - Medium -2':           'Asset Management - Medium - 2',
+
     # ── misc typos / spelling ──
     'Cable  & Media - US':                    'Cable & Media - US',       # double space
     'Chocalates':                             'Chocolates',
