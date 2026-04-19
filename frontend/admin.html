@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Admin</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="track.css" />
+  <link rel="stylesheet" href="theme.css" />
+  <link rel="stylesheet" href="admin.css" />
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
+</head>
+<body class="track-body">
+  <header id="header">
+    <a href="index.html" class="logo logo-link">NEXUS</a>
+    <div class="header-right">
+      <span id="admin-user-badge" class="meta-pill">…</span>
+      <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
+      <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
+      <a href="index.html" class="back-link">← graph</a>
+    </div>
+  </header>
+
+  <main id="track-main">
+    <section id="track-hero">
+      <div class="track-hero-inner">
+        <div class="track-eyebrow">Admin</div>
+        <h1 id="admin-title">Investment Tracks & Edges</h1>
+        <p id="admin-desc">Rename, merge, delete tracks. Edit edges by ticker. Changes are live — no staging.</p>
+      </div>
+    </section>
+
+    <div id="not-admin-notice" class="admin-notice" style="display:none">
+      <strong>Not authorized.</strong>
+      You're signed in as <code id="notice-email"></code>. Ask an existing admin to add your email to <code>NEXUS_ADMIN_EMAILS</code> on the box.
+    </div>
+
+    <section id="track-section" id="tracks-panel">
+      <div class="section-head">
+        <h2>Tracks <span class="dim small" id="tracks-count"></span></h2>
+        <input id="tracks-filter" class="admin-input" placeholder="filter tracks…" />
+      </div>
+      <div id="admin-tracks" class="admin-table-wrap">Loading…</div>
+    </section>
+
+    <section id="track-section" id="edges-panel">
+      <div class="section-head">
+        <h2>Edges by ticker</h2>
+        <div>
+          <input id="edges-ticker" class="admin-input" placeholder="ticker, e.g. NVDA" />
+          <button id="edges-load" class="track-control-btn">Load</button>
+        </div>
+      </div>
+      <div id="admin-edges" class="admin-table-wrap dim small">Enter a ticker to list its edges.</div>
+
+      <div class="add-edge-row">
+        <strong>Add edge:</strong>
+        <input id="new-edge-src"  class="admin-input" placeholder="source ticker" />
+        →
+        <input id="new-edge-tgt"  class="admin-input" placeholder="target ticker" />
+        <select id="new-edge-type" class="admin-input">
+          <option value="competitor">competitor</option>
+          <option value="supplier">supplier</option>
+          <option value="ownership" selected>ownership</option>
+        </select>
+        <button id="new-edge-add" class="track-control-btn">Add</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
+  <script src="theme.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
