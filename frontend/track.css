@@ -190,8 +190,27 @@ html[data-theme="light"] .ai-summary {
 .ai-summary .summary-text {
   font-size: 14.5px;
   line-height: 1.65;
-  margin: 0;
   color: var(--text-primary);
+}
+/* Claude-emitted markdown — tighten default browser margins */
+.ai-summary .summary-text p         { margin: 0 0 10px; }
+.ai-summary .summary-text p:last-child { margin-bottom: 0; }
+.ai-summary .summary-text ul,
+.ai-summary .summary-text ol        { margin: 6px 0 10px; padding-left: 22px; }
+.ai-summary .summary-text li        { margin: 3px 0; }
+.ai-summary .summary-text strong,
+.ai-summary .summary-text b         { color: var(--accent); font-weight: 600; }
+.ai-summary .summary-text em,
+.ai-summary .summary-text i         { color: var(--text-primary); font-style: italic; }
+.ai-summary .summary-text code {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+html[data-theme="light"] .ai-summary .summary-text code {
+  background: rgba(20, 24, 40, 0.06);
 }
 .ai-summary .citations-row {
   margin-top: 12px;
