@@ -1,0 +1,106 @@
+/* Admin page — layered on top of style.css + track.css */
+
+.admin-notice {
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  background: rgba(239, 68, 68, 0.08);
+  color: #fecaca;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin: 0 0 24px;
+}
+html[data-theme="light"] .admin-notice {
+  color: #991b1b;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.admin-input {
+  background: var(--bg-raised);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+  min-width: 160px;
+}
+.admin-input:focus { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-dim); }
+
+.admin-table-wrap { margin-top: 12px; }
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.admin-table th,
+.admin-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: left;
+}
+html[data-theme="light"] .admin-table th,
+html[data-theme="light"] .admin-table td {
+  border-color: rgba(20, 24, 40, 0.08);
+}
+.admin-table th {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.admin-table tr:hover td { background: rgba(255, 255, 255, 0.02); }
+html[data-theme="light"] .admin-table tr:hover td { background: #eef0f6; }
+
+.admin-table .inline-edit {
+  background: transparent;
+  border: 1px solid transparent;
+  color: inherit;
+  font: inherit;
+  width: 100%;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.admin-table .inline-edit:hover { border-color: var(--border); }
+.admin-table .inline-edit:focus { border-color: var(--accent); background: var(--bg-raised); outline: none; }
+
+.admin-btn {
+  background: transparent;
+  border: 1px solid var(--border-bright);
+  color: var(--text-secondary);
+  border-radius: 5px;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.admin-btn:hover { color: var(--accent); border-color: var(--accent); }
+.admin-btn.danger { border-color: #ef444466; color: #ef4444; }
+.admin-btn.danger:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+
+.add-edge-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+html[data-theme="light"] .add-edge-row { border-color: rgba(20, 24, 40, 0.15); }
+
+.admin-toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-bright);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+.admin-toast.error { border-color: #ef4444; color: #fecaca; }
+.admin-toast.ok    { border-color: #10b981; }

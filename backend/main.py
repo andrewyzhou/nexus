@@ -29,6 +29,27 @@ else:
 API_PREFIX = os.getenv("NEXUS_API_PREFIX", "/nexus/api")
 api = Blueprint("nexus_api", __name__, url_prefix=API_PREFIX)
 
+# ── Admin allowlist ─────────────────────────────────────────────────────
+# Email allowlist for /nexus/api/admin/* routes. Every request to those
+# paths must have a Firebase-verified token AND an email that appears in
+# this list. Comma-separated, case-insensitive.
+ADMIN_EMAILS = {
+    e.strip().lower()
+    for e in os.getenv(
+        "NEXUS_ADMIN_EMAILS",
+        "andrewzhou@berkeley.edu,yunhong@ipick.ai",
+    ).split(",")
+    if e.strip()
+}
+
+
+def _is_admin() -> bool:
+    """True when the current request's Firebase user is in the allowlist."""
+    user = getattr(g, "user", None) or {}
+    email = (user.get("email") or "").lower()
+    return bool(email) and email in ADMIN_EMAILS
+
+
 # ── Firebase auth (optional; off in dev, on in prod) ─────────────────────
 # Set NEXUS_REQUIRE_AUTH=1 along with FIREBASE_CREDENTIALS (base64-encoded
 # service account JSON, same format iPick's webapp uses) to gate every
@@ -73,6 +94,16 @@ def _gate_api():
         g.user = _fb_auth.verify_id_token(token)
     except Exception as e:
         return jsonify({"error": f"invalid token: {e}"}), 401
+
+    # Second layer: /admin/* paths require the email to be in the allowlist.
+    # Skips the check if auth is disabled entirely (local dev without creds).
+    if "/admin/" in request.path or request.path.rstrip("/").endswith("/admin"):
+        if not _is_admin():
+            return jsonify({
+                "error": "admin-only endpoint",
+                "user_email": (getattr(g, "user", {}) or {}).get("email"),
+            }), 403
+
     return None
 
 
@@ -567,6 +598,199 @@ def get_graph():
 
     conn.close()
     return jsonify({"tracks": tracks, "nodes": nodes, "edges": edges})
+
+
+# ── /admin/* endpoints ───────────────────────────────────────────────────
+# Gated by _gate_api() (Firebase token + NEXUS_ADMIN_EMAILS allowlist) via
+# the "/admin/" path prefix check. Leaving auth off in dev means anyone on
+# localhost can hit these; turning NEXUS_REQUIRE_AUTH=1 on prod restores
+# the gate.
+
+@api.route("/admin/whoami")
+def admin_whoami():
+    """Echo the authenticated user and whether they're admin — useful for
+    the frontend to show a clear 'you are signed in as X but not authorized'
+    message instead of an opaque 403 page."""
+    user = getattr(g, "user", None) or {}
+    return jsonify({
+        "email": user.get("email"),
+        "is_admin": _is_admin(),
+        "allowlist": sorted(ADMIN_EMAILS),
+    })
+
+
+@api.route("/admin/tracks")
+def admin_list_tracks():
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT t.id, t.name, t.description, COUNT(ct.company_id) AS company_count
+        FROM investment_tracks t
+        LEFT JOIN company_tracks ct ON ct.track_id = t.id
+        GROUP BY t.id, t.name, t.description
+        ORDER BY LOWER(t.name)
+    """)
+    rows = [
+        {"id": r[0], "name": r[1], "description": r[2], "company_count": r[3]}
+        for r in cursor.fetchall()
+    ]
+    conn.close()
+    return jsonify(rows)
+
+
+@api.route("/admin/tracks/<int:track_id>", methods=["PATCH"])
+def admin_update_track(track_id):
+    body = request.get_json(force=True, silent=True) or {}
+    new_name = (body.get("name") or "").strip()
+    new_description = body.get("description")
+    if not new_name and new_description is None:
+        return jsonify({"error": "need at least one of 'name' or 'description'"}), 400
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id FROM investment_tracks WHERE id = %s", (track_id,))
+    if not cursor.fetchone():
+        conn.close()
+        return jsonify({"error": "track not found"}), 404
+    # Collision check on rename
+    if new_name:
+        cursor.execute(
+            "SELECT id FROM investment_tracks WHERE LOWER(name) = LOWER(%s) AND id != %s",
+            (new_name, track_id),
+        )
+        dup = cursor.fetchone()
+        if dup:
+            conn.close()
+            return jsonify({
+                "error": "a track with that name already exists — use merge instead",
+                "collides_with_id": dup[0],
+            }), 409
+    sets, params = [], []
+    if new_name:
+        sets.append("name = %s"); params.append(new_name)
+    if new_description is not None:
+        sets.append("description = %s"); params.append(new_description)
+    params.append(track_id)
+    cursor.execute(f"UPDATE investment_tracks SET {', '.join(sets)} WHERE id = %s", params)
+    conn.commit()
+    conn.close()
+    return jsonify({"ok": True, "id": track_id, "name": new_name, "description": new_description})
+
+
+@api.route("/admin/tracks/merge", methods=["POST"])
+def admin_merge_tracks():
+    """Body: {source_id, target_id}. Moves all company_tracks rows from
+    source into target, then deletes the source track. Target keeps its
+    name and description."""
+    body = request.get_json(force=True, silent=True) or {}
+    src_id, tgt_id = body.get("source_id"), body.get("target_id")
+    if not src_id or not tgt_id or src_id == tgt_id:
+        return jsonify({"error": "need source_id and target_id, and they must differ"}), 400
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id FROM investment_tracks WHERE id IN (%s, %s)", (src_id, tgt_id))
+    if len({r[0] for r in cursor.fetchall()}) != 2:
+        conn.close()
+        return jsonify({"error": "one or both track IDs do not exist"}), 404
+    # INSERT with ON CONFLICT drops duplicates gracefully.
+    cursor.execute("""
+        INSERT INTO company_tracks (track_id, company_id)
+        SELECT %s, company_id FROM company_tracks WHERE track_id = %s
+        ON CONFLICT DO NOTHING
+    """, (tgt_id, src_id))
+    moved = cursor.rowcount
+    cursor.execute("DELETE FROM company_tracks WHERE track_id = %s", (src_id,))
+    cursor.execute("DELETE FROM investment_tracks WHERE id = %s", (src_id,))
+    conn.commit()
+    conn.close()
+    return jsonify({"ok": True, "moved": moved, "deleted_track_id": src_id})
+
+
+@api.route("/admin/tracks/<int:track_id>", methods=["DELETE"])
+def admin_delete_track(track_id):
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM company_tracks WHERE track_id = %s", (track_id,))
+    unlinked = cursor.rowcount
+    cursor.execute("DELETE FROM investment_tracks WHERE id = %s", (track_id,))
+    if cursor.rowcount == 0:
+        conn.rollback(); conn.close()
+        return jsonify({"error": "track not found"}), 404
+    conn.commit()
+    conn.close()
+    return jsonify({"ok": True, "unlinked_companies": unlinked})
+
+
+@api.route("/admin/relationships")
+def admin_list_relationships():
+    """List edges touching a given ticker. Query: ?ticker=NVDA&type=ownership"""
+    ticker = (request.args.get("ticker") or "").upper().strip()
+    if not ticker:
+        return jsonify({"error": "ticker query param required"}), 400
+    rel_type = request.args.get("type")
+    conn = get_conn()
+    cursor = conn.cursor()
+    where = ["(source_ticker = %s OR target_ticker = %s)"]
+    params = [ticker, ticker]
+    if rel_type:
+        where.append("relationship_type = %s"); params.append(rel_type)
+    cursor.execute(f"""
+        SELECT id, source_ticker, target_ticker, relationship_type, weight, metadata
+        FROM relationships
+        WHERE {' AND '.join(where)}
+        ORDER BY relationship_type, source_ticker, target_ticker
+    """, params)
+    out = [
+        {"id": r[0], "source": r[1], "target": r[2], "type": r[3],
+         "weight": r[4], "metadata": r[5]}
+        for r in cursor.fetchall()
+    ]
+    conn.close()
+    return jsonify(out)
+
+
+@api.route("/admin/relationships", methods=["POST"])
+def admin_create_relationship():
+    body = request.get_json(force=True, silent=True) or {}
+    src = (body.get("source") or "").upper().strip()
+    tgt = (body.get("target") or "").upper().strip()
+    rel_type = (body.get("type") or "").lower().strip()
+    if not src or not tgt or not rel_type:
+        return jsonify({"error": "need source, target, type"}), 400
+    if src == tgt:
+        return jsonify({"error": "source and target must differ"}), 400
+    if rel_type not in {"competitor", "supplier", "ownership"}:
+        return jsonify({"error": f"type must be competitor|supplier|ownership, got {rel_type!r}"}), 400
+    conn = get_conn()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            INSERT INTO relationships (source_ticker, target_ticker, relationship_type, weight)
+            VALUES (%s, %s, %s, 1.0)
+            ON CONFLICT (source_ticker, target_ticker, relationship_type) DO NOTHING
+            RETURNING id
+        """, (src, tgt, rel_type))
+        row = cursor.fetchone()
+        conn.commit()
+    except psycopg2.errors.ForeignKeyViolation as e:
+        conn.close()
+        return jsonify({"error": f"ticker not in companies table: {e}"}), 400
+    conn.close()
+    if not row:
+        return jsonify({"error": "edge already exists"}), 409
+    return jsonify({"ok": True, "id": row[0], "source": src, "target": tgt, "type": rel_type})
+
+
+@api.route("/admin/relationships/<int:rel_id>", methods=["DELETE"])
+def admin_delete_relationship(rel_id):
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM relationships WHERE id = %s", (rel_id,))
+    if cursor.rowcount == 0:
+        conn.rollback(); conn.close()
+        return jsonify({"error": "edge not found"}), 404
+    conn.commit()
+    conn.close()
+    return jsonify({"ok": True, "deleted_id": rel_id})
 
 
 app.register_blueprint(api)
