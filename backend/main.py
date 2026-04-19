@@ -793,6 +793,184 @@ def admin_delete_relationship(rel_id):
     return jsonify({"ok": True, "deleted_id": rel_id})
 
 
+# ── /admin: track↔company membership ────────────────────────────────────
+
+@api.route("/admin/tracks/<int:track_id>/companies")
+def admin_track_companies(track_id):
+    """Expand a track: list every company linked to it."""
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT c.ticker, c.name, c.sector, c.market_cap
+        FROM companies c
+        JOIN company_tracks ct ON ct.company_id = c.id
+        WHERE ct.track_id = %s
+        ORDER BY COALESCE(c.market_cap, 0) DESC, c.ticker
+    """, (track_id,))
+    rows = [
+        {"ticker": r[0], "name": r[1], "sector": r[2], "market_cap": r[3]}
+        for r in cursor.fetchall()
+    ]
+    conn.close()
+    return jsonify(rows)
+
+
+@api.route("/admin/tracks/<int:track_id>/companies", methods=["POST"])
+def admin_track_add_company(track_id):
+    """Body: {ticker: 'NVDA'}. Links ticker → track."""
+    body = request.get_json(force=True, silent=True) or {}
+    ticker = (body.get("ticker") or "").upper().strip()
+    if not ticker:
+        return jsonify({"error": "ticker required"}), 400
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id FROM companies WHERE ticker = %s", (ticker,))
+    company = cursor.fetchone()
+    if not company:
+        conn.close()
+        return jsonify({"error": f"ticker {ticker!r} not in companies table"}), 404
+    cursor.execute("SELECT id FROM investment_tracks WHERE id = %s", (track_id,))
+    if not cursor.fetchone():
+        conn.close()
+        return jsonify({"error": "track not found"}), 404
+    cursor.execute("""
+        INSERT INTO company_tracks (track_id, company_id)
+        VALUES (%s, %s) ON CONFLICT DO NOTHING
+    """, (track_id, company[0]))
+    linked = cursor.rowcount > 0
+    conn.commit()
+    conn.close()
+    return jsonify({"ok": True, "ticker": ticker, "newly_linked": linked})
+
+
+@api.route("/admin/tracks/<int:track_id>/companies/<ticker>", methods=["DELETE"])
+def admin_track_remove_company(track_id, ticker):
+    ticker = ticker.upper().strip()
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id FROM companies WHERE ticker = %s", (ticker,))
+    company = cursor.fetchone()
+    if not company:
+        conn.close()
+        return jsonify({"error": f"ticker {ticker!r} not found"}), 404
+    cursor.execute(
+        "DELETE FROM company_tracks WHERE track_id = %s AND company_id = %s",
+        (track_id, company[0]),
+    )
+    removed = cursor.rowcount
+    conn.commit()
+    conn.close()
+    return jsonify({"ok": True, "ticker": ticker, "removed_links": removed})
+
+
+# ── /admin: company-side views ──────────────────────────────────────────
+
+@api.route("/admin/companies")
+def admin_list_companies():
+    """Paginated company list with their track membership.
+    Query: ?q=<search>&limit=N&offset=N"""
+    q = (request.args.get("q") or "").strip()
+    limit = min(request.args.get("limit", default=200, type=int), 1000)
+    offset = request.args.get("offset", default=0, type=int)
+    conn = get_conn()
+    cursor = conn.cursor()
+    where, params = "", []
+    if q:
+        where = "WHERE c.ticker ILIKE %s OR c.name ILIKE %s"
+        params = [f"%{q}%", f"%{q}%"]
+    cursor.execute(f"""
+        SELECT c.id, c.ticker, c.name, c.sector, c.market_cap,
+               COALESCE(
+                 array_agg(json_build_object('id', t.id, 'name', t.name))
+                 FILTER (WHERE t.id IS NOT NULL),
+                 ARRAY[]::json[]
+               ) AS tracks
+        FROM companies c
+        LEFT JOIN company_tracks ct ON ct.company_id = c.id
+        LEFT JOIN investment_tracks t ON t.id = ct.track_id
+        {where}
+        GROUP BY c.id, c.ticker, c.name, c.sector, c.market_cap
+        ORDER BY COALESCE(c.market_cap, 0) DESC, c.ticker
+        LIMIT %s OFFSET %s
+    """, params + [limit, offset])
+    rows = [
+        {
+            "id": r[0], "ticker": r[1], "name": r[2], "sector": r[3],
+            "market_cap": r[4], "tracks": r[5],
+        }
+        for r in cursor.fetchall()
+    ]
+    cursor.execute(f"SELECT COUNT(*) FROM companies c {where}", params)
+    total = cursor.fetchone()[0]
+    conn.close()
+    return jsonify({"companies": rows, "total": total, "limit": limit, "offset": offset})
+
+
+# ── /admin: data-quality issue reports ──────────────────────────────────
+
+@api.route("/admin/issues/orphan-companies")
+def admin_orphan_companies():
+    """Companies not linked to any investment track."""
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT c.id, c.ticker, c.name, c.sector, c.market_cap
+        FROM companies c
+        LEFT JOIN company_tracks ct ON ct.company_id = c.id
+        WHERE ct.company_id IS NULL
+        ORDER BY COALESCE(c.market_cap, 0) DESC, c.ticker
+    """)
+    rows = [
+        {"id": r[0], "ticker": r[1], "name": r[2],
+         "sector": r[3], "market_cap": r[4]}
+        for r in cursor.fetchall()
+    ]
+    conn.close()
+    return jsonify(rows)
+
+
+@api.route("/admin/issues/multi-track-companies")
+def admin_multi_track_companies():
+    """Companies linked to more than one investment track (maybe-dupes)."""
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT c.ticker, c.name,
+               array_agg(json_build_object('id', t.id, 'name', t.name)
+                         ORDER BY t.name) AS tracks,
+               COUNT(*) AS n
+        FROM companies c
+        JOIN company_tracks ct ON ct.company_id = c.id
+        JOIN investment_tracks t ON t.id = ct.track_id
+        GROUP BY c.id, c.ticker, c.name
+        HAVING COUNT(*) > 1
+        ORDER BY n DESC, c.ticker
+    """)
+    rows = [
+        {"ticker": r[0], "name": r[1], "tracks": r[2], "track_count": r[3]}
+        for r in cursor.fetchall()
+    ]
+    conn.close()
+    return jsonify(rows)
+
+
+@api.route("/admin/issues/empty-tracks")
+def admin_empty_tracks():
+    """Tracks with zero companies — leftover from renames or source-data churn."""
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT t.id, t.name
+        FROM investment_tracks t
+        LEFT JOIN company_tracks ct ON ct.track_id = t.id
+        WHERE ct.track_id IS NULL
+        ORDER BY t.name
+    """)
+    rows = [{"id": r[0], "name": r[1]} for r in cursor.fetchall()]
+    conn.close()
+    return jsonify(rows)
+
+
 app.register_blueprint(api)
 
 

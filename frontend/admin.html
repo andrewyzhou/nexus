@@ -11,7 +11,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
 </head>
-<body class="track-body">
+<body class="track-body admin-body">
   <header id="header">
     <a href="index.html" class="logo logo-link">NEXUS</a>
     <div class="header-right">
@@ -22,37 +22,51 @@
     </div>
   </header>
 
-  <main id="track-main">
-    <section id="track-hero">
-      <div class="track-hero-inner">
-        <div class="track-eyebrow">Admin</div>
-        <h1 id="admin-title">Investment Tracks & Edges</h1>
-        <p id="admin-desc">Rename, merge, delete tracks. Edit edges by ticker. Changes are live — no staging.</p>
-      </div>
-    </section>
+  <main id="admin-main">
+    <div class="admin-hero">
+      <div class="track-eyebrow">Admin</div>
+      <h1>Nexus data editor</h1>
+      <p class="dim small">Tracks, companies, edges — changes are live, no staging. All writes are audited in <code>journalctl -u nexus</code>.</p>
+    </div>
 
     <div id="not-admin-notice" class="admin-notice" style="display:none">
       <strong>Not authorized.</strong>
       You're signed in as <code id="notice-email"></code>. Ask an existing admin to add your email to <code>NEXUS_ADMIN_EMAILS</code> on the box.
     </div>
 
-    <section id="track-section" id="tracks-panel">
-      <div class="section-head">
-        <h2>Tracks <span class="dim small" id="tracks-count"></span></h2>
-        <input id="tracks-filter" class="admin-input" placeholder="filter tracks…" />
+    <div id="admin-tabs" class="admin-tabs">
+      <button class="tab active" data-tab="tracks">Tracks <span id="count-tracks" class="tab-count">–</span></button>
+      <button class="tab"        data-tab="companies">Companies <span id="count-companies" class="tab-count">–</span></button>
+      <button class="tab"        data-tab="edges">Edges</button>
+      <button class="tab"        data-tab="issues">Issues <span id="count-issues" class="tab-count">–</span></button>
+    </div>
+
+    <!-- ── Tracks tab ───────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="tracks">
+      <div class="admin-toolbar">
+        <input id="tracks-filter" class="admin-input" placeholder="filter tracks by name…" />
+        <span id="tracks-meta" class="dim small"></span>
       </div>
-      <div id="admin-tracks" class="admin-table-wrap">Loading…</div>
+      <div id="admin-tracks" class="admin-list">Loading…</div>
     </section>
 
-    <section id="track-section" id="edges-panel">
-      <div class="section-head">
-        <h2>Edges by ticker</h2>
-        <div>
-          <input id="edges-ticker" class="admin-input" placeholder="ticker, e.g. NVDA" />
-          <button id="edges-load" class="track-control-btn">Load</button>
-        </div>
+    <!-- ── Companies tab ────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="companies" style="display:none">
+      <div class="admin-toolbar">
+        <input id="companies-search" class="admin-input" placeholder="search ticker or name…" />
+        <span id="companies-meta" class="dim small"></span>
       </div>
-      <div id="admin-edges" class="admin-table-wrap dim small">Enter a ticker to list its edges.</div>
+      <div id="admin-companies" class="admin-list">Type a query to search.</div>
+    </section>
+
+    <!-- ── Edges tab ────────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="edges" style="display:none">
+      <div class="admin-toolbar">
+        <input id="edges-ticker" class="admin-input" placeholder="ticker e.g. NVDA" />
+        <button id="edges-load" class="track-control-btn">Load edges</button>
+      </div>
+
+      <div id="admin-edges" class="admin-list dim small">Enter a ticker to list its edges.</div>
 
       <div class="add-edge-row">
         <strong>Add edge:</strong>
@@ -65,6 +79,27 @@
           <option value="ownership" selected>ownership</option>
         </select>
         <button id="new-edge-add" class="track-control-btn">Add</button>
+      </div>
+    </section>
+
+    <!-- ── Issues tab ───────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="issues" style="display:none">
+      <div class="issues-columns">
+        <div class="issues-col">
+          <h3>Orphan companies <span id="count-orphans" class="dim small">–</span></h3>
+          <p class="dim small">Companies not linked to any investment track.</p>
+          <div id="admin-orphans" class="admin-list">Loading…</div>
+        </div>
+        <div class="issues-col">
+          <h3>Multi-track companies <span id="count-multitrack" class="dim small">–</span></h3>
+          <p class="dim small">Companies linked to more than one track — possible duplicates that should be merged.</p>
+          <div id="admin-multitrack" class="admin-list">Loading…</div>
+        </div>
+        <div class="issues-col">
+          <h3>Empty tracks <span id="count-empty" class="dim small">–</span></h3>
+          <p class="dim small">Tracks with zero companies. Usually safe to delete.</p>
+          <div id="admin-empty" class="admin-list">Loading…</div>
+        </div>
       </div>
     </section>
   </main>
