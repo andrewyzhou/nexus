@@ -48,3 +48,4 @@ Nexus*.docx
 # Local scrub-audit records (contains removed SHAs, don't publish)
 .scrub-records/
 track_cleanup_report.md
+flag-for-ceo.txt
