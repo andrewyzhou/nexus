@@ -465,22 +465,28 @@ def get_track_news(slug):
 #   - Usage logged per call so `journalctl -u nexus -f | grep summary`
 #     shows live cost
 
-def build_summary(articles: list[dict], subject: str) -> dict:
+def build_summary(
+    articles: list[dict],
+    subject: str,
+    constituents: list[dict] | None = None,
+) -> dict:
     """
     Turn a list of news articles into a Claude-generated summary with
-    inline citations. `subject` is the ticker or track name, used only
-    for the prompt's "about X" framing.
+    inline citations.
 
-    Shape of each article (from fetch_news_for):
-        {title, summary, link, publisher, published, ticker}
+    Args:
+        articles: each has {title, summary, link, publisher, published, ticker}.
+        subject: ticker ('NVDA') or track descriptor
+            ('the Advertising Agencies - China investment track').
+        constituents: for track summaries, the list of companies whose news
+            is aggregated in `articles`. Shape: [{ticker, name}, ...]. Without
+            this the model has no way to connect a track label to the news
+            documents and often refuses with 'I don't have information about X'.
 
     Returns:
         {
-          "summary": "prose text",
-          "citations": [{ref, article_index, cited_text}, ...],
-          "used_articles": N,
-          "cached": False,
-          "model": "claude-haiku-4-5-20251001"
+          "summary": "...", "citations": [...], "used_articles": N,
+          "cached": False, "model": "..."
         }
     """
     if not _anthropic or not articles:
@@ -510,6 +516,28 @@ def build_summary(articles: list[dict], subject: str) -> dict:
         return {"summary": "", "citations": [], "used_articles": 0,
                 "cached": False, "model": None}
 
+    # Build the user-message prompt. For track summaries we inject the
+    # constituent companies explicitly so the model knows the documents
+    # ARE the track's evidence and doesn't refuse with "I don't have info
+    # about <track name>."
+    user_prompt_lines = []
+    if constituents:
+        roster = ", ".join(
+            f"{c['ticker']} ({c['name']})" if c.get("name") else c["ticker"]
+            for c in constituents
+        )
+        user_prompt_lines.append(
+            f"The following news articles cover {subject}, which includes these "
+            f"public companies: {roster}. Treat each article as news about one "
+            f"of these companies."
+        )
+    user_prompt_lines.append(
+        f"Summarize the recent news about {subject} in 3-5 sentences with "
+        "inline citations. If multiple companies have distinct news items, "
+        "a short bulleted list is appropriate."
+    )
+    user_prompt = "\n\n".join(user_prompt_lines)
+
     msg = _anthropic.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=700,
@@ -529,9 +557,7 @@ def build_summary(articles: list[dict], subject: str) -> dict:
             "role": "user",
             "content": [
                 *documents,
-                {"type": "text",
-                 "text": f"Summarize the recent news about {subject} in 3-5 "
-                         "sentences with inline citations."},
+                {"type": "text", "text": user_prompt},
             ],
         }],
     )
@@ -611,19 +637,23 @@ def get_track_summary(slug):
         return jsonify({"error": "Track not found"}), 404
     track_id, track_name = target
     cursor.execute("""
-        SELECT c.ticker FROM companies c
+        SELECT c.ticker, c.name FROM companies c
         JOIN company_tracks ct ON ct.company_id = c.id
         WHERE ct.track_id = %s
         ORDER BY COALESCE(c.market_cap, 0) DESC LIMIT 5
     """, (track_id,))
-    tickers = [r[0] for r in cursor.fetchall()]
+    constituents = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
     conn.close()
 
     articles = []
-    for t in tickers:
-        articles.extend(fetch_news_for(t, limit=3))
+    for c in constituents:
+        articles.extend(fetch_news_for(c["ticker"], limit=3))
 
-    result = build_summary(articles, subject=f"the {track_name} investment track")
+    result = build_summary(
+        articles,
+        subject=f"the {track_name} investment track",
+        constituents=constituents,
+    )
     _cache_set(cache_key, result)
     return jsonify(result)
 
