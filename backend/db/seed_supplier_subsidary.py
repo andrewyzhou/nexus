@@ -176,7 +176,7 @@ def seed_relationships():
                 if target == "NONE":
                     continue
                 
-                actual_target = resolve_target(target, skip_ticker_match=(rel_type == "subsidiary"))
+                actual_target = resolve_target(target, skip_ticker_match=(rel_type == "ownership"))
                 if not actual_target:
                     # Most subsidiary entries are legal entity names, not
                     # tickers — printing every unresolved target swamps
@@ -203,7 +203,10 @@ def seed_relationships():
     process_file(suppliers_path, "suppliers", "supplier")
 
     print("\nSeeding subsidiaries...")
-    process_file(subsidiaries_path, "subsidiaries", "subsidiary")
+    # 'ownership' (renamed from 'subsidiary') covers both majority and
+    # minority stakes — Wikidata P355 returns both, percentages are only
+    # present on ~20% of edges so we can't reliably threshold.
+    process_file(subsidiaries_path, "subsidiaries", "ownership")
 
     conn.commit()
     cursor.close()
@@ -212,7 +215,7 @@ def seed_relationships():
     print("\n" + "=" * 54)
     print("SEED COMPLETE")
     print("=" * 54)
-    print(f"Inserted {inserted_suppliers} supplier edges, {inserted_subsidiaries} subsidiary edges")
+    print(f"Inserted {inserted_suppliers} supplier edges, {inserted_subsidiaries} ownership edges")
     print(f"\nResolution breakdown:")
     print(f"  Resolved by exact ticker:        {_counts[0]}")
     print(f"  Resolved by exact name:          {_counts[1]}")

@@ -8,10 +8,14 @@ const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
   || 'http://localhost:5001/nexus/api';
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
+// Note: 'ownership' was previously 'subsidiary' — renamed because the data
+// covers both majority (true subsidiary) and minority (investor) stakes.
+// Wikidata P355 only has a quantity qualifier on ~20% of edges so we can't
+// reliably split the two; one label covers both cases.
 const EDGE_COLORS = {
-  competitor:  '#ef4444',  // red
-  supplier:    '#eab308',  // yellow
-  subsidiary:  '#3b82f6',  // blue
+  competitor: '#ef4444',  // red
+  supplier:   '#eab308',  // yellow
+  ownership:  '#3b82f6',  // blue
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -487,19 +491,19 @@ function loadPinnedRelationships(ticker, container) {
 
   Promise.all([
     fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
-    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=subsidiary`).then(r => r.ok ? r.json() : { edges: [] }),
+    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
   ]).then(([supData, subData]) => {
     const supplies_to  = (supData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
     const supplied_by  = (supData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
-    const subsidiaries = (subData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
-    const parents      = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
+    const owns         = (subData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
+    const owned_by     = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
 
     const sections = [
-      { label: 'Competitors',  color: EDGE_COLORS.competitor, tickers: competitors },
-      { label: 'Customers',    color: EDGE_COLORS.supplier,   tickers: supplies_to },
-      { label: 'Suppliers',    color: EDGE_COLORS.supplier,   tickers: supplied_by },
-      { label: 'Subsidiaries', color: EDGE_COLORS.subsidiary, tickers: subsidiaries },
-      { label: 'Parent',       color: EDGE_COLORS.subsidiary, tickers: parents },
+      { label: 'Competitors', color: EDGE_COLORS.competitor, tickers: competitors },
+      { label: 'Customers',   color: EDGE_COLORS.supplier,   tickers: supplies_to },
+      { label: 'Suppliers',   color: EDGE_COLORS.supplier,   tickers: supplied_by },
+      { label: 'Owns',        color: EDGE_COLORS.ownership,  tickers: owns },
+      { label: 'Owned by',    color: EDGE_COLORS.ownership,  tickers: owned_by },
     ].filter(s => s.tickers.length > 0);
 
     if (!sections.length) {
@@ -618,8 +622,8 @@ function buildEdgeLegend() {
     const item = document.createElement('div');
     item.className = 'edge-legend-item';
     const ARROW_LABELS = {
-      subsidiary: ['Parent', 'Subsidiary'],
-      supplier:   ['Supplier', 'Customer'],
+      ownership: ['Owner', 'Owned'],
+      supplier:  ['Supplier', 'Customer'],
     };
     const hasArrow = type in ARROW_LABELS;
     if (hasArrow) {
@@ -990,7 +994,7 @@ function renderGraph({ skipFit = false } = {}) {
     .attr('stroke', d => EDGE_COLORS[d.type] || '#888')
     .attr('stroke-width', 1.5)
     .attr('stroke-opacity', 1)
-    .attr('marker-end', d => (d.type === 'subsidiary' || d.type === 'supplier') ? `url(#arrow-${d.type})` : null);
+    .attr('marker-end', d => (d.type === 'ownership' || d.type === 'supplier') ? `url(#arrow-${d.type})` : null);
 
   const nodeEl = nodeGroup.selectAll('g')
     .data(visibleNodes)
@@ -1151,7 +1155,7 @@ function openPanel(d) {
       const node = isSource ? e.target : e.source;
       const tkr = typeof node === 'object' ? node.ticker : (allNodes.find(n => n.id === node)?.ticker || node);
       let role = e.type;
-      if (e.type === 'subsidiary') role = isSource ? 'Parent Of' : 'Subsidiary Of';
+      if (e.type === 'ownership') role = isSource ? 'Owns' : 'Owned By';
       if (e.type === 'supplier')   role = isSource ? 'Supplier Of' : 'Customer Of';
       return { ticker: tkr, role };
     });
@@ -1279,8 +1283,8 @@ function openPanel(d) {
     const groups = {
       'Supplier Of': [],
       'Customer Of': [],
-      'Subsidiary Of': [],
-      'Parent Of': []
+      'Owned By': [],
+      'Owns': []
     };
 
     unique.forEach(e => {
@@ -1346,12 +1350,12 @@ function openPanel(d) {
   updateTabs(graphConnections);
 
   Promise.all([
-    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=subsidiary`).then(r => r.ok ? r.json() : { edges: [] }),
+    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
     fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
   ]).then(([subData, supData]) => {
     const extra = [
-      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Parent Of',    ticker: e.target })),
-      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Subsidiary Of', ticker: e.source })),
+      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Owns',         ticker: e.target })),
+      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Owned By',     ticker: e.source })),
       ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplier Of',  ticker: e.target })),
       ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Customer Of',  ticker: e.source })),
     ];
