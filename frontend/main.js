@@ -321,10 +321,6 @@ function buildSidebar(tracks, nodes) {
         e.preventDefault();
         e.stopPropagation();
         toggleTrack(track.id);
-        const nowHidden = hiddenTracks.has(track.id);
-        toggleBtn.textContent = nowHidden ? '+' : '✕';
-        toggleBtn.title = nowHidden ? 'Add to graph' : 'Remove from graph';
-        item.className = 'track-item ' + (nowHidden ? 'muted' : 'active');
         return;
       }
       if (e.target.closest('.track-chevron-btn')) {
@@ -752,11 +748,9 @@ function hideSearchDropdown() {
 }
 
 function selectSearchTrack(trackId) {
-  // Show the track if it's hidden
   if (hiddenTracks.has(trackId)) {
     hiddenTracks.delete(trackId);
-    const item = document.querySelector(`.track-item[data-track="${trackId}"]`);
-    if (item) { item.classList.add('active'); item.classList.remove('muted'); }
+    buildSidebar(tracks, allNodes);
     applyVisibility();
   }
   document.getElementById('search-input').value = '';
