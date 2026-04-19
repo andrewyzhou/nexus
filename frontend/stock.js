@@ -108,8 +108,10 @@ function renderNews(items) {
     wrap.innerHTML = '<div class="news-empty">No news returned for this ticker.</div>';
     return;
   }
-  wrap.innerHTML = items.map(n => `
-    <a class="news-item" href="${n.link || '#'}" target="_blank" rel="noopener">
+  // Stable `id="news-card-<i>"` per card — the AI summary's citation
+  // links scroll to these indices.
+  wrap.innerHTML = items.map((n, i) => `
+    <a class="news-item" id="news-card-${i}" href="${n.link || '#'}" target="_blank" rel="noopener">
       <div class="news-title">${escapeHtml(n.title || '')}</div>
       <div class="news-meta">
         ${escapeHtml(n.publisher || '')} ${n.published ? '· ' + escapeHtml(fmtDate(n.published)) : ''}
@@ -118,6 +120,11 @@ function renderNews(items) {
       ${n.summary ? `<div class="news-summary">${escapeHtml(n.summary)}</div>` : ''}
     </a>
   `).join('');
+
+  // Kick off the AI summary now that news cards exist in the DOM.
+  if (window.renderAISummary && ticker) {
+    window.renderAISummary({ kind: 'company', key: ticker });
+  }
 }
 
 function escapeHtml(s) {
