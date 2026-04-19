@@ -512,13 +512,18 @@ def build_summary(articles: list[dict], subject: str) -> dict:
 
     msg = _anthropic.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=600,
+        max_tokens=700,
         system=(
             f"You are writing a 3-5 sentence news brief about {subject} for a "
             "retail investor. Cite every factual claim back to the source "
             "documents using the citations API. Be specific about dates and "
             "numbers when the source has them. Do not invent facts. Neutral, "
-            "factual tone — no hype, no recommendations."
+            "factual tone — no hype, no recommendations.\n\n"
+            "Format with light markdown where it aids readability: "
+            "**bold** for the 1-2 most important phrases per summary, "
+            "and a short bulleted list if the news naturally breaks into "
+            "multiple distinct items. Do NOT use headings, tables, or code "
+            "blocks. Plain prose is fine when nothing stands out."
         ),
         messages=[{
             "role": "user",
