@@ -1112,10 +1112,16 @@ def admin_track_remove_company(track_id, ticker):
 @api.route("/admin/companies")
 def admin_list_companies():
     """Paginated company list with their track membership.
-    Query: ?q=<search>&limit=N&offset=N"""
+    Query: ?q=<search>&limit=N&offset=N&sort=ticker|name|market_cap"""
     q = (request.args.get("q") or "").strip()
-    limit = min(request.args.get("limit", default=200, type=int), 1000)
+    limit = min(request.args.get("limit", default=5000, type=int), 10000)
     offset = request.args.get("offset", default=0, type=int)
+    sort = request.args.get("sort", default="ticker")
+    order_by = {
+        "ticker": "c.ticker ASC",
+        "name": "c.name ASC NULLS LAST, c.ticker ASC",
+        "market_cap": "COALESCE(c.market_cap, 0) DESC, c.ticker",
+    }.get(sort, "c.ticker ASC")
     conn = get_conn()
     cursor = conn.cursor()
     where, params = "", []
@@ -1134,7 +1140,7 @@ def admin_list_companies():
         LEFT JOIN investment_tracks t ON t.id = ct.track_id
         {where}
         GROUP BY c.id, c.ticker, c.name, c.sector, c.market_cap
-        ORDER BY COALESCE(c.market_cap, 0) DESC, c.ticker
+        ORDER BY {order_by}
         LIMIT %s OFFSET %s
     """, params + [limit, offset])
     rows = [

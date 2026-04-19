@@ -216,15 +216,12 @@ let COMPANIES_TIMER = null;
 async function loadCompanies() {
   const wrap = document.getElementById('admin-companies');
   const meta = document.getElementById('companies-meta');
-  if (!COMPANIES_SEARCH.trim()) {
-    wrap.innerHTML = '<div class="empty">Type a query to search.</div>';
-    meta.textContent = '';
-    return;
-  }
-  wrap.innerHTML = '<div class="empty">Searching…</div>';
+  wrap.innerHTML = '<div class="empty">Loading…</div>';
   try {
-    const r = await api(`/admin/companies?q=${encodeURIComponent(COMPANIES_SEARCH)}&limit=200`);
-    meta.textContent = `${r.companies.length} of ${r.total} matches`;
+    const r = await api(`/admin/companies?q=${encodeURIComponent(COMPANIES_SEARCH)}&limit=10000&sort=ticker`);
+    meta.textContent = COMPANIES_SEARCH.trim()
+      ? `${r.companies.length} of ${r.total} matches`
+      : `${r.companies.length} companies`;
     document.getElementById('count-companies').textContent = r.total;
     if (r.companies.length === 0) {
       wrap.innerHTML = '<div class="empty">No matches.</div>';
@@ -412,6 +409,7 @@ function switchTab(name) {
     p.style.display = p.dataset.tab === name ? '' : 'none';
   });
   if (name === 'issues') loadIssues();
+  if (name === 'companies') loadCompanies();
 }
 
 // ── Boot ─────────────────────────────────────────────────────────────────
