@@ -13,21 +13,51 @@ Usage:
 import json
 import re
 import argparse
+import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).parent / ".env")
+
+# Ollama
 try:
     import ollama as _ollama
     OLLAMA_AVAILABLE = True
 except ImportError:
     OLLAMA_AVAILABLE = False
 
+# Anthropic
+try:
+    import anthropic
+    anthropic_client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+    ANTHROPIC_AVAILABLE = True
+except ImportError:
+    ANTHROPIC_AVAILABLE = False
+
+# Gemini
+try:
+    from google import genai
+    gemini_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+    GEMINI_AVAILABLE = True
+except ImportError:
+    GEMINI_AVAILABLE = False
+
+# Gliner (https://huggingface.co/gliner-community/gliner_large-v2.5)
+try:
+    from gliner import GLiNER
+    gliner_model = GLiNER.from_pretrained("gliner-community/gliner_large-v2.5", load_tokenizer=True)
+    GLINER_AVAILABLE = True
+except ImportError:
+    GLINER_AVAILABLE = False
+
 # ─── Paths ────────────────────────────────────────────────────────────────────
 
 BASE_DIR         = Path(__file__).parent
-TICKERS_FILE     = BASE_DIR.parent / "subsidiaries" / "tickers.txt"
-OUTPUT           = BASE_DIR / "suppliers.json"
-ERROR_LOG        = BASE_DIR.parent / "subsidiaries" / "scrape_errors.txt"
-RAW_SECTIONS_DIR = BASE_DIR / "raw_sections"
+TICKERS_FILE     = BASE_DIR.parent / "suppliers" / "tickers.txt"
+OUTPUT           = BASE_DIR / "pipeline" / "suppliers.json"
+ERROR_LOG        = BASE_DIR.parent / "suppliers" / "scrape_errors.txt"
+RAW_SECTIONS_DIR = BASE_DIR.parent / "suppliers" / "raw_sections"
 
 # ─── LLM config ───────────────────────────────────────────────────────────────
 
@@ -63,6 +93,23 @@ Text:
 {text}
 
 Respond with ONLY the JSON array, nothing else:"""
+
+GLINER_LABELS = [
+    "supplier",
+    "manufacturing partner",
+    "vendor",
+    "contract manufacturer",
+    "raw material supplier",
+    "component supplier",
+]
+
+SUPPLIER_CONTEXT_KEYWORDS = [
+    "supplier", "supplies", "supplied by",
+    "manufacturer", "manufactured by", "contract manufacturer",
+    "vendor", "procured from", "sourced from",
+    "outsourcing partner", "manufacturing partner",
+    "raw material", "component",
+]
 
 
 # ─── Error logging ────────────────────────────────────────────────────────────
@@ -110,6 +157,15 @@ def extract_suppliers_llm(ticker, section_name, text, llm_mode):
 
     if llm_mode == "ollama":
         return _extract_ollama(ticker, section_name, chunk)
+    
+    if llm_mode == "claude":
+        return _extract_claude(ticker, section_name, chunk)
+    
+    if llm_mode == "gemini":
+        return _extract_gemini(ticker, section_name, chunk)
+
+    if llm_mode == "gliner":
+        return _extract_gliner(ticker, section_name, chunk)
 
     return extract_suppliers_regex(ticker, chunk)
 
@@ -133,6 +189,82 @@ def _extract_ollama(ticker, section_name, chunk):
             log_error(ticker, "ollama", str(e))
             return extract_suppliers_regex(ticker, chunk)
     else:
+        return extract_suppliers_regex(ticker, chunk)
+
+def _extract_claude(ticker, section_name, chunk):
+    if not ANTHROPIC_AVAILABLE:
+        return extract_suppliers_regex(ticker, chunk)
+    try:
+        message = anthropic_client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=500,
+            messages=[{
+                "role": "user",
+                "content": USER_PROMPT_TEMPLATE.format(
+                    ticker=ticker,
+                    section_name=section_name,
+                    text=chunk,
+                )
+            }]
+        )
+        text_block = next((b for b in message.content if b.type == "text"), None)
+        return _parse_llm_response(text_block.text if text_block else "")
+    except Exception as e:
+        log_error(ticker, "claude", str(e))
+        return extract_suppliers_regex(ticker, chunk)
+
+
+def _extract_gemini(ticker, section_name, chunk):
+    if not GEMINI_AVAILABLE:
+        return extract_suppliers_regex(ticker, chunk)
+    try:
+        response = gemini_client.models.generate_content(
+            model="gemini-1.5-flash",
+            contents=USER_PROMPT_TEMPLATE.format(
+                ticker=ticker,
+                section_name=section_name,
+                text=chunk,
+            )
+        )
+        return _parse_llm_response(response.text)
+    except Exception as e:
+        log_error(ticker, "gemini", str(e))
+        return extract_suppliers_regex(ticker, chunk)
+
+def _extract_gliner(ticker, section_name, chunk):
+    if not GLINER_AVAILABLE:
+        return extract_suppliers_regex(ticker, chunk)
+    
+    try:
+        entities = gliner_model.predict_entities(
+            chunk,
+            GLINER_LABELS,
+            threshold=0.5,
+        )
+        
+        suppliers = []
+        for entity in entities:
+            name  = entity["text"].strip()
+            score = entity["score"]
+            
+            if score < 0.5:
+                continue
+            if len(name) < 3:
+                continue
+            if ticker.upper() in name.upper().split():
+                continue
+            
+            start = max(0, entity["start"] - 150)
+            end = min(len(chunk), entity["end"] + 150)
+            context = chunk[start:end].lower()
+            
+            if any(kw in context for kw in SUPPLIER_CONTEXT_KEYWORDS):
+                suppliers.append(name)
+        
+        return _dedup(suppliers) if suppliers else []
+    
+    except Exception as e:
+        log_error(ticker, "gliner", str(e))
         return extract_suppliers_regex(ticker, chunk)
 
 
@@ -247,10 +379,14 @@ def _save(results, path):
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
+    print("RAW_SECTIONS_DIR:", RAW_SECTIONS_DIR)
+    print("Exists:", RAW_SECTIONS_DIR.exists())
+    print("Files:", list(RAW_SECTIONS_DIR.glob("*_sections.txt"))[:3])
+
     parser = argparse.ArgumentParser(
         description="Extract suppliers from cached SEC sections (run fetcher.py first)"
     )
-    parser.add_argument("--llm", choices=["ollama", "regex"], default="ollama")
+    parser.add_argument("--llm", choices=["ollama", "regex", "claude", "gemini", "gliner"], default="ollama")
     parser.add_argument("--tickers", default="")
     parser.add_argument("--output", default=str(OUTPUT))
     args = parser.parse_args()
@@ -261,6 +397,15 @@ def main():
         tickers = [t.strip().upper() for t in TICKERS_FILE.read_text().splitlines() if t.strip()]
 
     ERROR_LOG.write_text("")
+
+    # test_ticker = "AAPL"  # or any ticker you know has a sections file
+    # sections = load_sections(test_ticker)
+    # print("Sections found:", list(sections.keys()))
+    # print("Section lengths:", {k: len(v) for k, v in sections.items()})
+
+    # if sections:
+    #     first_section = list(sections.values())[0]
+    #     print("First 200 chars:", first_section[:200])
 
     output_path = Path(args.output)
     if output_path.exists():
