@@ -84,6 +84,8 @@ html[data-theme="light"] .company-table th,
 html[data-theme="light"] .company-table td { border-color: rgba(20, 24, 40, 0.08) !important; }
 html[data-theme="light"] .company-table tr:hover td { background: #eef0f6 !important; }
 
+html[data-theme="light"] .news-summary { color: #5b6172 !important; }
+
 html[data-theme="light"] .news-empty,
 html[data-theme="light"] .empty {
   border-color: rgba(20, 24, 40, 0.12) !important;

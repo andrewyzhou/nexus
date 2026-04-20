@@ -100,17 +100,19 @@ def seed_relationships():
             norm_to_ticker[norm] = ticker
 
     # Resolution counters (one list so the nested closure can mutate them).
-    _counts = [0, 0, 0, 0]  # [exact_ticker, exact_name, norm_name, substring]
+    _counts = [0, 0, 0, 0]  # [exact_ticker, exact_name, norm_name, unused]
 
-    def resolve_target(target):
-        # 1. Exact ticker match
-        if target in ticker_set:
+    def resolve_target(target, skip_ticker_match=False):
+        # 1. Exact ticker match — skip when processing subsidiary names
+        #    since those are company names ("Crown Holding"), not ticker
+        #    symbols, and short names like "BAC" or "KEY" collide.
+        if not skip_ticker_match and target in ticker_set:
             _counts[0] += 1
             return target
 
         target_lower = target.lower()
 
-        # 2. Exact lowercase name match
+        # 2. Exact lowercase name match (full company name, e.g. "Apple Inc.")
         if target_lower in name_to_ticker:
             _counts[1] += 1
             return name_to_ticker[target_lower]
@@ -119,22 +121,13 @@ def seed_relationships():
         if not target_norm:
             return None
 
-        # 3. Normalized-name exact match
-        if target_norm in norm_to_ticker and norm_to_ticker[target_norm] is not None:
+        # 3. Normalized-name exact match — require at least 2 words to
+        #    prevent single-word internal entities ("Crown", "Arm") from
+        #    colliding with real companies.
+        words = target_norm.split()
+        if len(words) >= 2 and target_norm in norm_to_ticker and norm_to_ticker[target_norm] is not None:
             _counts[2] += 1
             return norm_to_ticker[target_norm]
-
-        # 4. Substring match (name-on-name only, no tickers).
-        #    Accept only if exactly one candidate matches to avoid ambiguity.
-        matches = []
-        for norm, tkr in norm_to_ticker.items():
-            if tkr is None:
-                continue
-            if target_norm in norm or norm in target_norm:
-                matches.append(tkr)
-        if len(matches) == 1:
-            _counts[3] += 1
-            return matches[0]
 
         return None
 
@@ -183,7 +176,7 @@ def seed_relationships():
                 if target == "NONE":
                     continue
                 
-                actual_target = resolve_target(target)
+                actual_target = resolve_target(target, skip_ticker_match=(rel_type == "ownership"))
                 if not actual_target:
                     # Most subsidiary entries are legal entity names, not
                     # tickers — printing every unresolved target swamps
@@ -210,7 +203,10 @@ def seed_relationships():
     process_file(suppliers_path, "suppliers", "supplier")
 
     print("\nSeeding subsidiaries...")
-    process_file(subsidiaries_path, "subsidiaries", "subsidiary")
+    # 'ownership' (renamed from 'subsidiary') covers both majority and
+    # minority stakes — Wikidata P355 returns both, percentages are only
+    # present on ~20% of edges so we can't reliably threshold.
+    process_file(subsidiaries_path, "subsidiaries", "ownership")
 
     conn.commit()
     cursor.close()
@@ -219,7 +215,7 @@ def seed_relationships():
     print("\n" + "=" * 54)
     print("SEED COMPLETE")
     print("=" * 54)
-    print(f"Inserted {inserted_suppliers} supplier edges, {inserted_subsidiaries} subsidiary edges")
+    print(f"Inserted {inserted_suppliers} supplier edges, {inserted_subsidiaries} ownership edges")
     print(f"\nResolution breakdown:")
     print(f"  Resolved by exact ticker:        {_counts[0]}")
     print(f"  Resolved by exact name:          {_counts[1]}")

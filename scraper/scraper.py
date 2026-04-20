@@ -328,23 +328,21 @@ class StockScraper:
         tickers: list[str],
         concurrency: int,
         rate_per_sec: float,
-    ) -> tuple[list[dict], list[str]]:
-        """Run a single batch with a fresh session."""
+    ) -> tuple[list[dict], list[str], bool]:
+        """Run a single batch with a fresh session.
+
+        Returns (results, per_ticker_failures, auth_failed). When
+        auth_failed is True, *no* tickers in the batch were actually hit
+        — the caller should re-queue them for a retry pass rather than
+        treating them as "not found on Yahoo."
+        """
         results = []
         failed = []
         sem = asyncio.Semaphore(concurrency)
         rate_limiter = _RateLimiter(rate_per_sec)
 
         async with AsyncSession(impersonate="chrome") as session:
-            try:
-                crumb = await self._async_auth(session)
-            except Exception as e:
-                # Don't crash the whole bulk run if Yahoo rate-limits the
-                # crumb endpoint for this session. Mark the batch as failed
-                # and move on — a later batch will get a fresh session and
-                # may succeed.
-                print(f"  [batch skipped] auth failed: {e}", file=sys.stderr)
-                return [], list(tickers)
+            crumb = await self._async_auth(session)
             state = {"crumb": crumb, "auth_lock": asyncio.Lock()}
 
             tasks = [
@@ -359,7 +357,7 @@ class StockScraper:
                 else:
                     failed.append(ticker)
 
-        return results, failed
+        return results, failed, False
 
     async def _run_bulk(
         self,
@@ -375,6 +373,7 @@ class StockScraper:
         """Core async bulk engine. Processes in batches with fresh sessions."""
         all_results = []
         all_failed = []
+        auth_skipped: list[list[str]] = []   # batches we need to retry later
         total = len(tickers)
         done = 0
 
@@ -383,16 +382,19 @@ class StockScraper:
             batch_num = batch_start // batch_size + 1
             total_batches = (total + batch_size - 1) // batch_size
 
-            results, failed = await self._run_batch(batch, concurrency, rate_per_sec)
+            results, failed, auth_failed = await self._run_batch(batch, concurrency, rate_per_sec)
 
             for data in results:
                 all_results.append(data)
-            all_failed.extend(failed)
+            if auth_failed:
+                auth_skipped.append(batch)   # re-queue, don't mark as failed yet
+            else:
+                all_failed.extend(failed)
             done += len(batch)
 
             if on_progress:
                 ok = len(results)
-                fail = len(failed)
+                fail = len(failed) if not auth_failed else 0
                 on_progress(done, total, batch_num, total_batches, ok, fail)
 
             if output_file and all_results:
@@ -402,6 +404,46 @@ class StockScraper:
             # Pause between batches (fresh session resets Yahoo's rate counter)
             if batch_start + batch_size < total:
                 await asyncio.sleep(batch_pause)
+
+        # Retry pass for batches whose crumb-auth was rate-limited. Give
+        # Yahoo a longer cooldown first, shrink batch size so we're less
+        # conspicuous, and try up to 3 times per batch.
+        if auth_skipped:
+            n = sum(len(b) for b in auth_skipped)
+            print(f"\n  [retry] {len(auth_skipped)} auth-skipped batches "
+                  f"({n} tickers) — cooling 30s then retrying", file=sys.stderr)
+            await asyncio.sleep(30)
+            retry_batch_size = max(100, batch_size // 2)
+            for retry_round in range(3):
+                if not auth_skipped:
+                    break
+                # Flatten and re-split into smaller batches
+                queue = [t for batch in auth_skipped for t in batch]
+                auth_skipped = []
+                print(f"  [retry round {retry_round + 1}/3] "
+                      f"{len(queue)} tickers in batches of {retry_batch_size}",
+                      file=sys.stderr)
+                for b_start in range(0, len(queue), retry_batch_size):
+                    sub = queue[b_start : b_start + retry_batch_size]
+                    results, failed, auth_failed = await self._run_batch(
+                        sub, concurrency, rate_per_sec
+                    )
+                    for data in results:
+                        all_results.append(data)
+                    if auth_failed:
+                        auth_skipped.append(sub)
+                    else:
+                        all_failed.extend(failed)
+                    if b_start + retry_batch_size < len(queue):
+                        await asyncio.sleep(batch_pause)
+                if auth_skipped:
+                    # Still stuck — wait longer before the next round.
+                    await asyncio.sleep(30 * (retry_round + 1))
+            # Anything still auth-skipped after 3 rounds is genuinely lost.
+            for batch in auth_skipped:
+                all_failed.extend(batch)
+                print(f"  [!] {len(batch)} tickers lost to repeated auth "
+                      f"failure (first: {batch[:5]})", file=sys.stderr)
 
         if all_failed:
             n = len(all_failed)

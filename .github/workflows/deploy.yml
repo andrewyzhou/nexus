@@ -1,0 +1,66 @@
+name: Deploy to production
+
+# Triggers:
+#  - push to main (auto-deploy after PR merge)
+#  - manual run from the Actions tab (workflow_dispatch) for re-deploys without a code change
+on:
+  push:
+    branches: [main]
+    # Only build when something that actually runs in prod changes.
+    # Docs-only / ai-pipeline-only commits don't need a prod restart.
+    paths:
+      - 'backend/**'
+      - 'frontend/**'
+      - 'scraper/**'
+      - 'wsgi.py'
+      - 'deploy/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch: {}
+
+concurrency:
+  group: prod-deploy
+  cancel-in-progress: false  # never cut a deploy mid-flight
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Repo-settings → Environments → create "production" with required
+    # reviewers if you want a human approval step per deploy. Without
+    # that, this is fire-on-merge.
+    environment: production
+
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host:     ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key:      ${{ secrets.EC2_SSH_KEY }}
+          port:     22
+          # Bash strict mode: any failed command aborts the deploy.
+          script_stop: true
+          script: |
+            set -euo pipefail
+            cd /home/ubuntu/nexus
+
+            echo "─── Pull latest main ───"
+            git fetch --prune origin
+            git reset --hard origin/main
+            echo "Now at: $(git log -1 --oneline)"
+
+            echo "─── Refresh Python deps (no-op if unchanged) ───"
+            source .venv/bin/activate
+            pip install -q -r backend/requirements.txt
+            pip install -q -r scraper/requirements.txt
+
+            echo "─── Restart gunicorn ───"
+            sudo /bin/systemctl restart nexus
+            sleep 3
+            sudo /bin/systemctl is-active nexus
+
+            echo "─── Smoke test ───"
+            # /config is the one endpoint that doesn't require Firebase auth,
+            # so it's our reliable heartbeat. 200 = service healthy.
+            curl --fail --silent --show-error --max-time 5 \
+                 http://127.0.0.1:5001/nexus/api/config > /dev/null
+            echo "Deploy OK"

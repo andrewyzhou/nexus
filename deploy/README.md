@@ -115,6 +115,13 @@ still present) and the sidebar populated from the real DB.
 
 ## Updating after new commits land
 
+**Automated (GitHub Actions, default):** every push to `main` triggers
+[.github/workflows/deploy.yml](../.github/workflows/deploy.yml) which SSHes
+into the box, pulls, installs any new deps, restarts `nexus.service`, and
+smoke-tests `/config`. See "CI/CD deploy" below for one-time setup.
+
+**Manual fallback:**
+
 ```bash
 cd /home/ubuntu/nexus
 git pull origin main
@@ -124,6 +131,75 @@ sudo systemctl restart nexus                  # ~1s downtime
 ```
 
 For schema changes, run `python backend/db/init.py` first (it's idempotent).
+
+---
+
+## CI/CD deploy (one-time setup)
+
+The workflow SSHes into the EC2 box on every `main` push and runs:
+`git reset --hard origin/main` → pip install → `systemctl restart nexus`
+→ curl `/config` as a smoke test. Three things to wire up once.
+
+### 1. SSH key for the Action to authenticate with
+
+Generate a deploy-only key pair (not tied to any person's identity):
+
+```bash
+# On your laptop
+ssh-keygen -t ed25519 -f ~/.ssh/nexus-deploy -N "" -C "github-actions@nexus"
+
+# Put the PUBLIC key on the box's authorized_keys
+cat ~/.ssh/nexus-deploy.pub
+# copy that line, ssh into the box, append to ~/.ssh/authorized_keys
+
+# The PRIVATE key contents go into GitHub Secrets (step 3 below)
+cat ~/.ssh/nexus-deploy
+```
+
+### 2. Passwordless sudo for the `restart` command
+
+The workflow can't type a sudo password. Grant just enough sudo to
+restart nexus (nothing else):
+
+```bash
+# On the box
+sudo cp /home/ubuntu/nexus/deploy/sudoers-nexus-deploy /etc/sudoers.d/nexus-deploy
+sudo chmod 440 /etc/sudoers.d/nexus-deploy
+sudo visudo -c         # must print "parsed OK"
+
+# Verify
+sudo -n /bin/systemctl is-active nexus    # prints "active" with no prompt
+```
+
+### 3. GitHub repository secrets
+
+Repo → **Settings** → **Secrets and variables** → **Actions** →
+**New repository secret**. Add three:
+
+| Name | Value |
+|---|---|
+| `EC2_HOST` | `54.70.37.194` (or the public DNS name) |
+| `EC2_USER` | `ubuntu` |
+| `EC2_SSH_KEY` | full contents of `~/.ssh/nexus-deploy` (the PRIVATE key, PEM) |
+
+### 4. (Recommended) Require human approval per deploy
+
+Repo → **Settings** → **Environments** → **New environment** → name
+`production` → check **Required reviewers** → add yourself. Every deploy
+then waits for 👍 in the Actions tab before SSHing.
+
+### 5. (Recommended) Branch protection on `main`
+
+Repo → **Settings** → **Branches** → Add rule → pattern `main` →
+require PR reviews before merging. With the `production` environment
+gate above, that gives you "only deploy reviewed code" without the
+review itself being the deploy trigger.
+
+### Triggering a deploy manually
+
+Actions tab → **Deploy to production** → **Run workflow** → pick `main`.
+Useful when you change an env var in `.env` and want the service to
+pick it up without touching git.
 
 ---
 

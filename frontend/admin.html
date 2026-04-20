@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Admin</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="track.css" />
+  <link rel="stylesheet" href="theme.css" />
+  <link rel="stylesheet" href="admin.css" />
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
+</head>
+<body class="track-body admin-body">
+  <header id="header">
+    <a href="index.html" class="logo logo-link">NEXUS</a>
+    <div class="header-right">
+      <span id="admin-user-badge" class="meta-pill">…</span>
+      <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
+      <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
+      <a href="index.html" class="back-link">← graph</a>
+    </div>
+  </header>
+
+  <main id="admin-main">
+    <div class="admin-hero">
+      <div class="track-eyebrow">Admin</div>
+      <h1>Nexus data editor</h1>
+      <p class="dim small">Tracks, companies, edges — changes are live, no staging. All writes are audited in <code>journalctl -u nexus</code>.</p>
+    </div>
+
+    <div id="not-admin-notice" class="admin-notice" style="display:none">
+      <strong>Not authorized.</strong>
+      You're signed in as <code id="notice-email"></code>. Ask an existing admin to add your email to <code>NEXUS_ADMIN_EMAILS</code> on the box.
+    </div>
+
+    <div id="admin-tabs" class="admin-tabs">
+      <button class="tab active" data-tab="tracks">Tracks <span id="count-tracks" class="tab-count">–</span></button>
+      <button class="tab"        data-tab="companies">Companies <span id="count-companies" class="tab-count">–</span></button>
+      <button class="tab"        data-tab="edges">Edges</button>
+      <button class="tab"        data-tab="issues">Issues <span id="count-issues" class="tab-count">–</span></button>
+    </div>
+
+    <!-- ── Tracks tab ───────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="tracks">
+      <div class="admin-toolbar">
+        <input id="tracks-filter" class="admin-input" placeholder="filter tracks by name…" />
+        <span id="tracks-meta" class="dim small"></span>
+      </div>
+      <div id="admin-tracks" class="admin-list">Loading…</div>
+    </section>
+
+    <!-- ── Companies tab ────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="companies" style="display:none">
+      <div class="admin-toolbar">
+        <input id="companies-search" class="admin-input" placeholder="search ticker or name…" />
+        <select id="companies-sort" class="admin-input">
+          <option value="ticker">Sort: ticker A→Z</option>
+          <option value="name">Sort: name A→Z</option>
+          <option value="market_cap">Sort: market cap ↓</option>
+        </select>
+        <span id="companies-meta" class="dim small"></span>
+      </div>
+      <div id="admin-companies" class="admin-list">Loading…</div>
+      <div id="companies-pager" class="admin-pager" style="display:none">
+        <button class="track-control-btn" id="pg-first">« first</button>
+        <button class="track-control-btn" id="pg-prev">‹ prev</button>
+        <span id="pg-info" class="dim small"></span>
+        <button class="track-control-btn" id="pg-next">next ›</button>
+        <button class="track-control-btn" id="pg-last">last »</button>
+        <label class="dim small">
+          jump to
+          <input id="pg-jump" class="admin-input" style="width:64px" type="number" min="1" />
+        </label>
+      </div>
+    </section>
+
+    <!-- ── Edges tab ────────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="edges" style="display:none">
+      <div class="admin-toolbar">
+        <input id="edges-ticker" class="admin-input" placeholder="ticker e.g. NVDA" />
+        <button id="edges-load" class="track-control-btn">Load edges</button>
+      </div>
+
+      <div id="admin-edges" class="admin-list dim small">Enter a ticker to list its edges.</div>
+
+      <div class="add-edge-row">
+        <strong>Add edge:</strong>
+        <input id="new-edge-src"  class="admin-input" placeholder="source ticker" />
+        →
+        <input id="new-edge-tgt"  class="admin-input" placeholder="target ticker" />
+        <select id="new-edge-type" class="admin-input">
+          <option value="competitor">competitor</option>
+          <option value="supplier">supplier</option>
+          <option value="ownership" selected>ownership</option>
+        </select>
+        <button id="new-edge-add" class="track-control-btn">Add</button>
+      </div>
+    </section>
+
+    <!-- ── Issues tab ───────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="issues" style="display:none">
+      <div class="issues-columns">
+        <div class="issues-col">
+          <h3>Orphan companies <span id="count-orphans" class="dim small">–</span></h3>
+          <p class="dim small">Companies not linked to any investment track.</p>
+          <div id="admin-orphans" class="admin-list">Loading…</div>
+        </div>
+        <div class="issues-col">
+          <h3>Multi-track companies <span id="count-multitrack" class="dim small">–</span></h3>
+          <p class="dim small">Companies linked to more than one track — possible duplicates that should be merged.</p>
+          <div id="admin-multitrack" class="admin-list">Loading…</div>
+        </div>
+        <div class="issues-col">
+          <h3>Empty tracks <span id="count-empty" class="dim small">–</span></h3>
+          <p class="dim small">Tracks with zero companies. Usually safe to delete.</p>
+          <div id="admin-empty" class="admin-list">Loading…</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
+  <script src="theme.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

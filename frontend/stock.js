@@ -63,13 +63,20 @@ function renderStock(d) {
   document.getElementById('stock-track').textContent =
     d.sector ? `${d.sector} · ${d.industry || ''}` : 'Stock';
 
+  function setPill(id, text) {
+    const el = document.getElementById(id);
+    if (!text || text === '—' || text === 'P/E —' || text === 'Market Cap —') {
+      el.style.display = 'none';
+    } else {
+      el.textContent = text;
+    }
+  }
+
   const change = d.changePercent != null ? ` (${(d.changePercent * 100).toFixed(2)}%)` : '';
-  document.getElementById('stock-price').textContent = d.price != null
-    ? `$${fmtNum(d.price)}${change}`
-    : 'Price —';
-  document.getElementById('stock-mcap').textContent = `Market Cap ${fmtMoney(d.marketCap)}`;
-  document.getElementById('stock-pe').textContent = `P/E ${fmtNum(d.trailingPE, 1)}`;
-  document.getElementById('stock-sector').textContent = d.country || '';
+  setPill('stock-price', d.price != null ? `$${fmtNum(d.price)}${change}` : null);
+  setPill('stock-mcap', d.marketCap != null ? `Market Cap ${fmtMoney(d.marketCap)}` : null);
+  setPill('stock-pe', d.trailingPE != null ? `P/E ${fmtNum(d.trailingPE, 1)}` : null);
+  setPill('stock-sector', d.country || null);
 
   const stats = [
     ['Open',           d.open != null ? `$${fmtNum(d.open)}` : '—'],
@@ -101,8 +108,10 @@ function renderNews(items) {
     wrap.innerHTML = '<div class="news-empty">No news returned for this ticker.</div>';
     return;
   }
-  wrap.innerHTML = items.map(n => `
-    <a class="news-item" href="${n.link || '#'}" target="_blank" rel="noopener">
+  // Stable `id="news-card-<i>"` per card — the AI summary's citation
+  // links scroll to these indices.
+  wrap.innerHTML = items.map((n, i) => `
+    <a class="news-item" id="news-card-${i}" href="${n.link || '#'}" target="_blank" rel="noopener">
       <div class="news-title">${escapeHtml(n.title || '')}</div>
       <div class="news-meta">
         ${escapeHtml(n.publisher || '')} ${n.published ? '· ' + escapeHtml(fmtDate(n.published)) : ''}
@@ -111,6 +120,11 @@ function renderNews(items) {
       ${n.summary ? `<div class="news-summary">${escapeHtml(n.summary)}</div>` : ''}
     </a>
   `).join('');
+
+  // Kick off the AI summary now that news cards exist in the DOM.
+  if (window.renderAISummary && ticker) {
+    window.renderAISummary({ kind: 'company', key: ticker });
+  }
 }
 
 function escapeHtml(s) {

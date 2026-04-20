@@ -1,0 +1,128 @@
+defaults:
+  smoke_summarizer: local-qwen2.5-7b
+  smoke_judge: claude-sonnet
+
+summarizers:
+  - name: local-qwen2.5-1.5b
+    provider: local
+    model: qwen2.5-1.5b-instruct
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.2
+    enabled: true
+  - name: local-qwen2.5-3b
+    provider: local
+    model: qwen2.5-3b-instruct
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.2
+    enabled: true
+  - name: local-qwen2.5-7b
+    provider: local
+    model: qwen2.5-7b-instruct
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.2
+    enabled: true
+  - name: local-qwen2.5-14b
+    provider: local
+    model: qwen2.5-14b-instruct
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.2
+    enabled: true
+  - name: local-mistral-7b-v0.3
+    provider: local
+    model: mistral-7b-instruct-v0.3
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.2
+    enabled: true
+  - name: local-phi-4-mini
+    provider: local
+    model: phi-4-mini-instruct
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.2
+    enabled: true
+  - name: local-qwen3.5-27b
+    provider: local
+    model: qwen35-opus
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.2
+    enabled: true
+  - name: gemini-2.5-flash-lite
+    provider: gemini
+    model: gemini-2.5-flash-lite
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY
+    temperature: 0.2
+    enabled: true
+  - name: gemini-2.5-flash
+    provider: gemini
+    model: gemini-2.5-flash
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY
+    temperature: 0.2
+    enabled: true
+  - name: claude-haiku
+    provider: anthropic
+    model: claude-3-5-haiku-latest
+    base_url: https://api.anthropic.com/v1/
+    api_key_env: ANTHROPIC_API_KEY
+    temperature: 0.2
+    enabled: true
+  - name: claude-sonnet
+    provider: anthropic
+    model: claude-sonnet-4-20250514
+    base_url: https://api.anthropic.com/v1/
+    api_key_env: ANTHROPIC_API_KEY
+    temperature: 0.2
+    enabled: true
+
+judges:
+  - name: local-qwen3.5-27b
+    provider: local
+    model: qwen35-opus
+    base_url_env: NEXUS_LOCAL_LLM_BASE_URL
+    base_url: http://127.0.0.1:8001/v1
+    api_key_env: NEXUS_LOCAL_LLM_API_KEY
+    api_key: local-test-key
+    temperature: 0.0
+    enabled: true
+  - name: gemini-2.5-flash-lite
+    provider: gemini
+    model: gemini-2.5-flash-lite
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY
+    temperature: 0.0
+    enabled: true
+  - name: gemini-2.5-flash
+    provider: gemini
+    model: gemini-2.5-flash
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY
+    temperature: 0.0
+    enabled: true
+  - name: claude-sonnet
+    provider: anthropic
+    model: claude-sonnet-4-20250514
+    base_url: https://api.anthropic.com/v1/
+    api_key_env: ANTHROPIC_API_KEY
+    temperature: 0.0
+    enabled: true

@@ -8,10 +8,14 @@ const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
   || 'http://localhost:5001/nexus/api';
 
 // ── Edge colors by relationship type ─────────────────────────────────────────
+// Note: 'ownership' was previously 'subsidiary' — renamed because the data
+// covers both majority (true subsidiary) and minority (investor) stakes.
+// Wikidata P355 only has a quantity qualifier on ~20% of edges so we can't
+// reliably split the two; one label covers both cases.
 const EDGE_COLORS = {
-  competitor:  '#ef4444',  // red
-  supplier:    '#eab308',  // yellow
-  subsidiary:  '#3b82f6',  // blue
+  competitor: '#ef4444',  // red
+  supplier:   '#eab308',  // yellow
+  ownership:  '#3b82f6',  // blue
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -142,6 +146,7 @@ async function init() {
     allNodes.forEach(n => { pinnedNodes.add(n.id); excludedNodes.delete(n.id); });
     applyVisibility({ skipFit: true });
     renderPinnedList();
+    syncPanelAddBtn();
   });
   document.getElementById('pinned-clear-all')?.addEventListener('click', () => {
     if (selectedNode) closePanel();
@@ -278,6 +283,7 @@ function buildSidebar(tracks, nodes) {
           applyVisibility({ skipFit: true });
           renderPinnedList();
           buildTrackDropdown();
+          syncPanelAddBtn();
         });
         row.addEventListener('click', e => {
           if (e.target.closest('.track-company-toggle')) return;
@@ -296,7 +302,7 @@ function buildSidebar(tracks, nodes) {
             added = true;
           }
         });
-        if (added) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
+        if (added) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); syncPanelAddBtn(); }
       });
 
       trackClearBtn.addEventListener('click', () => {
@@ -308,19 +314,15 @@ function buildSidebar(tracks, nodes) {
             removed = true;
           }
         });
-        if (removed) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); }
+        if (removed) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); syncPanelAddBtn(); }
       });
     };
 
     item.addEventListener('click', e => {
-      if (e.target.closest('.track-toggle-btn') && !e.target.closest('.track-chevron-btn')) {
+      if (e.target.closest('.track-toggle-btn') && !e.target.closest('.track-chevron-btn') && !e.target.closest('.track-company-toggle')) {
         e.preventDefault();
         e.stopPropagation();
         toggleTrack(track.id);
-        const nowHidden = hiddenTracks.has(track.id);
-        toggleBtn.textContent = nowHidden ? '+' : '✕';
-        toggleBtn.title = nowHidden ? 'Add to graph' : 'Remove from graph';
-        item.className = 'track-item ' + (nowHidden ? 'muted' : 'active');
         return;
       }
       if (e.target.closest('.track-chevron-btn')) {
@@ -411,26 +413,9 @@ function renderPinnedList(keepOpenTicker) {
 
     toggleBtn.addEventListener('click', e => {
       e.stopPropagation();
-      const wasPinned = pinnedNodes.has(n.id);
-      if (wasPinned) {
+      if (pinnedNodes.has(n.id)) {
         pinnedNodes.delete(n.id);
         excludedNodes.add(n.id);
-        if (selectedNode && selectedNode.id === n.id) {
-          const existing = document.getElementById('panel-add-btn');
-          if (!existing) {
-            const btn = document.createElement('button');
-            btn.className = 'panel-add-btn';
-            btn.id = 'panel-add-btn';
-            btn.textContent = '+ Add to graph';
-            btn.addEventListener('click', () => {
-              selectSearchNode(selectedNode);
-              renderPinnedList();
-              btn.remove();
-            });
-            const stockLink = document.querySelector('.panel-open-stock');
-            if (stockLink) stockLink.insertAdjacentElement('afterend', btn);
-          }
-        }
       } else {
         pinnedNodes.add(n.id);
         excludedNodes.delete(n.id);
@@ -438,6 +423,7 @@ function renderPinnedList(keepOpenTicker) {
 
       applyVisibility({ skipFit: true });
       resortPinnedList();
+      syncPanelAddBtn();
     });
 
     const openDropdown = () => {
@@ -487,19 +473,19 @@ function loadPinnedRelationships(ticker, container) {
 
   Promise.all([
     fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
-    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=subsidiary`).then(r => r.ok ? r.json() : { edges: [] }),
+    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
   ]).then(([supData, subData]) => {
     const supplies_to  = (supData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
     const supplied_by  = (supData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
-    const subsidiaries = (subData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
-    const parents      = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
+    const owns         = (subData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
+    const owned_by     = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
 
     const sections = [
-      { label: 'Competitors',  color: EDGE_COLORS.competitor, tickers: competitors },
-      { label: 'Customers',    color: EDGE_COLORS.supplier,   tickers: supplies_to },
-      { label: 'Suppliers',    color: EDGE_COLORS.supplier,   tickers: supplied_by },
-      { label: 'Subsidiaries', color: EDGE_COLORS.subsidiary, tickers: subsidiaries },
-      { label: 'Parent',       color: EDGE_COLORS.subsidiary, tickers: parents },
+      { label: 'Competitors', color: EDGE_COLORS.competitor, tickers: competitors },
+      { label: 'Customers',   color: EDGE_COLORS.supplier,   tickers: supplies_to },
+      { label: 'Suppliers',   color: EDGE_COLORS.supplier,   tickers: supplied_by },
+      { label: 'Owns',        color: EDGE_COLORS.ownership,  tickers: owns },
+      { label: 'Owned by',    color: EDGE_COLORS.ownership,  tickers: owned_by },
     ].filter(s => s.tickers.length > 0);
 
     if (!sections.length) {
@@ -561,6 +547,7 @@ function loadPinnedRelationships(ticker, container) {
             }
             applyVisibility({ skipFit: true });
             resortPinnedList();
+            syncPanelAddBtn();
           });
           item.addEventListener('click', e => {
             if (e.target.closest('.conn-add-btn')) return;
@@ -618,8 +605,8 @@ function buildEdgeLegend() {
     const item = document.createElement('div');
     item.className = 'edge-legend-item';
     const ARROW_LABELS = {
-      subsidiary: ['Parent', 'Subsidiary'],
-      supplier:   ['Supplier', 'Customer'],
+      ownership: ['Owner', 'Owned'],
+      supplier:  ['Supplier', 'Customer'],
     };
     const hasArrow = type in ARROW_LABELS;
     if (hasArrow) {
@@ -748,11 +735,9 @@ function hideSearchDropdown() {
 }
 
 function selectSearchTrack(trackId) {
-  // Show the track if it's hidden
   if (hiddenTracks.has(trackId)) {
     hiddenTracks.delete(trackId);
-    const item = document.querySelector(`.track-item[data-track="${trackId}"]`);
-    if (item) { item.classList.add('active'); item.classList.remove('muted'); }
+    buildSidebar(tracks, allNodes);
     applyVisibility();
   }
   document.getElementById('search-input').value = '';
@@ -823,7 +808,17 @@ function nodeIsVisible(d) {
   return !hiddenTracks.has(d.track);
 }
 
+function syncPanelAddBtn() {
+  if (!selectedNode) return;
+  const btn = document.getElementById('panel-add-btn');
+  if (!btn) return;
+  const onGraph = nodeIsVisible(selectedNode);
+  btn.classList.toggle('on-graph', onGraph);
+  btn.textContent = onGraph ? '✕ Remove from graph' : '+ Add to graph';
+}
+
 let zoomLayer;
+let lastVisibleCount = 0;
 
 function buildGraph() {
   svg = d3.select('#graph-canvas')
@@ -870,11 +865,14 @@ function buildGraph() {
 /**
  * Fit the zoom transform so all nodes are visible with padding.
  * Called after the simulation settles to auto-center the graph.
+ * Accounts for the detail panel width when it's open.
  */
 function fitView(nodes) {
   if (!nodes || nodes.length === 0) return;
   const container = document.getElementById('graph-canvas');
-  const W = container.clientWidth;
+  const panelOpen = panel && panel.classList.contains('open');
+  const panelW = panelOpen ? (parseInt(getComputedStyle(document.documentElement).getPropertyValue('--panel-w')) || 360) : 0;
+  const W = container.clientWidth - panelW;
   const H = container.clientHeight;
 
   const xs = nodes.map(n => n.x).filter(v => isFinite(v));
@@ -883,7 +881,7 @@ function fitView(nodes) {
 
   const minX = Math.min(...xs), maxX = Math.max(...xs);
   const minY = Math.min(...ys), maxY = Math.max(...ys);
-  const pad = 40;
+  const pad = 60;
   const bW = (maxX - minX) || 1;
   const bH = (maxY - minY) || 1;
 
@@ -892,7 +890,8 @@ function fitView(nodes) {
     (H - pad * 2) / bH,
     1.4   // don't zoom in past 1.4×
   );
-  const tx = W / 2 - scale * (minX + maxX) / 2;
+  const cx = W / 2;  // center of available canvas (left of panel)
+  const tx = cx - scale * (minX + maxX) / 2;
   const ty = H / 2 - scale * (minY + maxY) / 2;
 
   svg.transition().duration(500)
@@ -912,6 +911,9 @@ function renderGraph({ skipFit = false } = {}) {
   const H = container.clientHeight;
 
   const visibleNodes = allNodes.filter(nodeIsVisible);
+  const nodesAdded = visibleNodes.length > lastVisibleCount;
+  lastVisibleCount = visibleNodes.length;
+  if (nodesAdded) skipFit = false;
   const idSet = new Set(visibleNodes.map(n => n.id));
   const visibleEdges = allEdges.filter(e => {
     const s = typeof e.source === 'object' ? e.source.id : e.source;
@@ -982,7 +984,7 @@ function renderGraph({ skipFit = false } = {}) {
     .attr('stroke', d => EDGE_COLORS[d.type] || '#888')
     .attr('stroke-width', 1.5)
     .attr('stroke-opacity', 1)
-    .attr('marker-end', d => (d.type === 'subsidiary' || d.type === 'supplier') ? `url(#arrow-${d.type})` : null);
+    .attr('marker-end', d => (d.type === 'ownership' || d.type === 'supplier') ? `url(#arrow-${d.type})` : null);
 
   const nodeEl = nodeGroup.selectAll('g')
     .data(visibleNodes)
@@ -1127,11 +1129,12 @@ function onNodeClick(event, d) {
 }
 
 function openPanel(d) {
+  selectedNode = d;
   const t = tracks.find(t => t.id === d.track);
   const color = t ? t.color : '#888888';
 
   // Find connections (nodes currently on the graph)
-  const connections = allEdges
+  const graphConnections = allEdges
     .filter(e => {
       const s = typeof e.source === 'object' ? e.source.id : e.source;
       const t = typeof e.target === 'object' ? e.target.id : e.target;
@@ -1141,10 +1144,11 @@ function openPanel(d) {
       const srcId = typeof e.source === 'object' ? e.source.id : e.source;
       const isSource = srcId === d.id;
       const node = isSource ? e.target : e.source;
+      const tkr = typeof node === 'object' ? node.ticker : (allNodes.find(n => n.id === node)?.ticker || node);
       let role = e.type;
-      if (e.type === 'subsidiary') role = isSource ? 'Parent of' : 'Subsidiary of';
-      if (e.type === 'supplier')   role = isSource ? 'Supplier of' : 'Customer of';
-      return { node, role };
+      if (e.type === 'ownership') role = isSource ? 'Owns' : 'Owned By';
+      if (e.type === 'supplier')   role = isSource ? 'Supplier Of' : 'Customer Of';
+      return { ticker: tkr, role };
     });
 
   const mcap = d.marketCap || 0;
@@ -1191,30 +1195,12 @@ function openPanel(d) {
       ` : ''}
 
       <div id="panel-connections">
-        ${connections.length ? `
-          <div class="panel-section-title">Connections (<span id="panel-conn-count">${connections.length}</span>)</div>
-          <div class="connections-list" id="panel-conn-list">
-            ${connections.map(c => {
-              const cn = typeof c.node === 'object' ? c.node : allNodes.find(n => n.id === c.node);
-              if (!cn) return '';
-              const ct = tracks.find(t => t.id === cn.track);
-              const onGraph = nodeIsVisible(cn);
-              return `
-                <div class="conn-item" onclick="if(!event.target.closest('.conn-add-btn')) selectNodeById('${cn.id}')">
-                  <span class="conn-type">${c.role}</span>
-                  <span class="conn-ticker" style="color:${ct ? ct.color : '#fff'}">${cn.ticker}</span>
-                  <span class="conn-name">${cn.name}</span>
-                  <button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>
-                </div>
-              `;
-            }).join('')}
-          </div>
-        ` : '<div class="panel-section-title">Connections (<span id="panel-conn-count">0</span>)</div><div class="connections-list" id="panel-conn-list"></div>'}
       </div>
     </div>
   `;
 
   panel.classList.add('open');
+  setTimeout(() => fitView(allNodes.filter(nodeIsVisible)), 300);
 
   const addBtn = document.getElementById('panel-add-btn');
   if (addBtn) {
@@ -1237,9 +1223,9 @@ function openPanel(d) {
   }
 
   // Delegate +/− button clicks in the connections list
-  const connList = document.getElementById('panel-conn-list');
-  if (connList) {
-    connList.addEventListener('click', e => {
+  const pConn = document.getElementById('panel-connections');
+  if (pConn) {
+    pConn.addEventListener('click', e => {
       const btn = e.target.closest('.conn-add-btn');
       if (!btn) return;
       e.stopPropagation();
@@ -1264,65 +1250,114 @@ function openPanel(d) {
     });
   }
 
-  // Fetch live price/market cap
-  fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/live`)
-    .then(r => r.ok ? r.json() : null)
-    .then(live => {
-      if (!live || !panel.classList.contains('open')) return;
-      const mcEl = document.getElementById('panel-mcap');
-      const prEl = document.getElementById('panel-price');
-      if (mcEl && live.marketCap != null) mcEl.textContent = fmtCap(live.marketCap / 1e9);
-      if (prEl && live.price != null) prEl.textContent = '$' + Number(live.price).toFixed(2);
-    })
-    .catch(() => {});
-
-  // Append DB relationships (subsidiaries, suppliers) into the connections list
-  Promise.all([
-    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=subsidiary`).then(r => r.ok ? r.json() : { edges: [] }),
-    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
-  ]).then(([subData, supData]) => {
-    const list = document.getElementById('panel-conn-list');
-    const countEl = document.getElementById('panel-conn-count');
-    if (!list) return;
-
-    const extra = [
-      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Parent of',    ticker: e.target })),
-      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Subsidiary of', ticker: e.source })),
-      ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplies',      ticker: e.target })),
-      ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Supplied by',   ticker: e.source })),
-    ];
-
-    // Deduplicate against connections already shown
-    const shown = new Set(connections.map(c => {
-      const cn = typeof c.node === 'object' ? c.node : allNodes.find(n => n.id === c.node);
-      return cn ? cn.ticker : null;
-    }));
-    const newItems = extra.filter(e => !shown.has(e.ticker));
-    if (!newItems.length) return;
-
-    newItems.forEach(e => {
-      const cn = allNodes.find(n => n.ticker === e.ticker);
-      const ct = cn ? tracks.find(t => t.id === cn.track) : null;
-      const item = document.createElement('div');
-      item.className = 'conn-item';
-      item.onclick = e => { if (!e.target.closest('.conn-add-btn') && cn) selectNodeById(cn.id); };
-      const onGraph = cn && nodeIsVisible(cn);
-      item.innerHTML = `
-        <span class="conn-type">${e.role}</span>
-        <span class="conn-ticker" style="color:${ct ? ct.color : 'var(--text-primary)'}">${e.ticker}</span>
-        <span class="conn-name">${cn ? cn.name : ''}</span>
-        ${cn ? `<button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>` : ''}
-      `;
-      list.appendChild(item);
+  function updateTabs(combinedEdges) {
+    const connContainer = document.getElementById('panel-connections');
+    if (!connContainer) return;
+    
+    const unique = [];
+    const seen = new Set();
+    combinedEdges.forEach(e => {
+      if (!e.ticker) return;
+      const key = e.ticker + '|' + e.role;
+      if (!seen.has(key)) {
+        seen.add(key);
+        const cn = allNodes.find(n => n.ticker === e.ticker);
+        unique.push({
+          ticker: e.ticker,
+          role: e.role,
+          node: cn,
+          mcap: cn ? (cn.marketCap || 0) : 0
+        });
+      }
     });
 
-    if (countEl) countEl.textContent = connections.length + newItems.length;
+    const groups = {
+      'Supplier Of': [],
+      'Customer Of': [],
+      'Owned By': [],
+      'Owns': []
+    };
+
+    unique.forEach(e => {
+      if (groups[e.role]) groups[e.role].push(e);
+    });
+
+    Object.values(groups).forEach(list => list.sort((a, b) => b.mcap - a.mcap));
+
+    const oldActiveBtn = connContainer.querySelector('.panel-tab-btn.active');
+    let activeTab = oldActiveBtn ? oldActiveBtn.dataset.tab : null;
+    
+    const availableTabs = Object.keys(groups).filter(k => groups[k].length > 0);
+    if (!availableTabs.includes(activeTab)) {
+      activeTab = availableTabs[0] || null;
+    }
+
+    if (!activeTab) {
+      connContainer.innerHTML = '<div class="panel-section-title">Connections (0)</div><div class="connections-list"></div>';
+      return;
+    }
+
+    let html = `<div class="panel-section-title">Connections (${unique.length})</div>`;
+    html += '<div class="panel-tabs">';
+    availableTabs.forEach(role => {
+      const cls = role === activeTab ? 'panel-tab-btn active' : 'panel-tab-btn';
+      html += `<button class="${cls}" data-tab="${role}">${role} (${groups[role].length})</button>`;
+    });
+    html += '</div>';
+
+    availableTabs.forEach(role => {
+      const cls = role === activeTab ? 'panel-tab-content active' : 'panel-tab-content';
+      html += `<div class="${cls}" id="tab-content-${role.replace(/\s+/g, '')}"><div class="connections-list">`;
+      groups[role].forEach(c => {
+         const cn = c.node;
+         if (!cn) return;
+         const ct = tracks.find(t => t.id === cn.track);
+         const onGraph = nodeIsVisible(cn);
+         html += `
+           <div class="conn-item tab-item" onclick="if(!event.target.closest('.conn-add-btn')) selectNodeById('${cn.id}')">
+             <span class="conn-ticker" style="color:${ct ? ct.color : 'var(--text-primary)'}">${cn.ticker}</span>
+             <span class="conn-name">${cn.name}</span>
+             <button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>
+           </div>
+         `;
+      });
+      html += `</div></div>`;
+    });
+
+    connContainer.innerHTML = html;
+
+    connContainer.querySelectorAll('.panel-tab-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        connContainer.querySelectorAll('.panel-tab-btn, .panel-tab-content').forEach(el => el.classList.remove('active'));
+        e.target.classList.add('active');
+        const contentId = 'tab-content-' + e.target.dataset.tab.replace(/\s+/g, '');
+        const contentEl = connContainer.querySelector('#' + contentId);
+        if (contentEl) contentEl.classList.add('active');
+      });
+    });
+  }
+
+  // Initial render for graph connections only
+  updateTabs(graphConnections);
+
+  Promise.all([
+    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
+    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
+  ]).then(([subData, supData]) => {
+    const extra = [
+      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Owns',         ticker: e.target })),
+      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Owned By',     ticker: e.source })),
+      ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplier Of',  ticker: e.target })),
+      ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Customer Of',  ticker: e.source })),
+    ];
+    updateTabs([...graphConnections, ...extra]);
   }).catch(() => {});
 }
 
 function closePanel() {
   panel.classList.remove('open');
   selectedNode = null;
+  setTimeout(() => fitView(allNodes.filter(nodeIsVisible)), 300);
 }
 
 function selectNodeById(id) {

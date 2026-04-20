@@ -17,8 +17,18 @@ venv/
 # environment variables
 .env
 ai/.env
+<<<<<<< HEAD
 sec_pipeline/.env.Local
 sec_pipeline/deepeval
+=======
+ai/.env.Local
+
+# testing artifacts
+.deepeval/
+ai/.deepeval/
+ai/artifacts/
+ai/config/tracks.yaml
+>>>>>>> 3e0b275a80990a53993b77eca4752a7748567046
 
 # Client-private data — never commit.
 # Master ticker → investment-track map. Pull from
@@ -42,3 +52,5 @@ Nexus*.docx
 
 # Local scrub-audit records (contains removed SHAs, don't publish)
 .scrub-records/
+track_cleanup_report.md
+flag-for-ceo.txt

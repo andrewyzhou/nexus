@@ -315,8 +315,19 @@ html[data-theme="light"] .track-control-btn {
   border: 1px solid var(--border-bright);
   border-radius: var(--radius-sm);
   z-index: 200;
-  overflow: hidden;
+  /* Cap height to ~45% viewport so long result lists scroll internally
+     instead of running off the sidebar. */
+  max-height: 45vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+/* Group headers sticky so you can see which section you're scrolling */
+.search-dropdown-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg-surface);
 }
 .search-dropdown-header {
   font-family: var(--font-mono);
@@ -415,7 +426,7 @@ html[data-theme="light"] .track-control-btn {
 
 .pinned-chevron-btn {
   background: none;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-bright);
   border-radius: 4px;
   width: 26px;
   height: 26px;
@@ -423,12 +434,12 @@ html[data-theme="light"] .track-control-btn {
   align-items: center;
   justify-content: center;
   font-size: 10px;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   cursor: pointer;
   flex-shrink: 0;
   transition: color var(--t-fast), border-color var(--t-fast), transform var(--t-fast);
 }
-.pinned-chevron-btn:hover { color: var(--text-primary); border-color: var(--border-bright); }
+.pinned-chevron-btn:hover { color: var(--text-primary); border-color: rgba(255,255,255,0.35); }
 .pinned-chevron-btn.open { transform: rotate(180deg); }
 
 .pinned-dropdown {
@@ -946,6 +957,53 @@ html[data-theme="light"] .stock-website-link:hover {
 .track-badge--link:hover {
   background: var(--bg-hover);
   border-color: var(--badge-color, var(--border-bright));
+}
+
+/* ── Panel Tabs ───────────────────────────────────────────── */
+.panel-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: var(--sp-md) 0 var(--sp-sm);
+}
+
+.panel-tab-btn {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  padding: 5px 8px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  transition: all var(--t-fast);
+  flex-grow: 1;
+  text-align: center;
+}
+
+.panel-tab-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.panel-tab-btn.active {
+  background: var(--bg-hover);
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.panel-tab-content {
+  display: none;
+}
+
+.panel-tab-content.active {
+  display: block;
+}
+
+.conn-item.tab-item {
+  grid-template-columns: 48px 1fr auto;
+  padding: 6px 10px;
 }
 
 /* connected companies list */
