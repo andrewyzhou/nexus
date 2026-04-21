@@ -20,6 +20,19 @@ def _model_label(summarizer: NewsSummarizer) -> str | None:
     return summarizer.model_config.model if summarizer else None
 
 
+def _build_summarizer(
+    *,
+    summarizer: NewsSummarizer | None,
+    summarizer_model: str | None,
+) -> NewsSummarizer | None:
+    if summarizer is not None:
+        return summarizer
+    if summarizer_model is None:
+        summarizer_model = "claude-sonnet"
+    registry = load_registry()
+    return NewsSummarizer(model_name=summarizer_model, registry=registry)
+
+
 def _build_news_items(
     articles: list[dict[str, Any]],
     *,
@@ -99,12 +112,7 @@ async def get_ticker_news_summary(
 
     local_scraper = scraper or NewsScraper()
 
-    if summarizer is None:
-        registry = load_registry()
-        model_to_use = summarizer_model or "claude-sonnet"
-        local_summarizer = NewsSummarizer(model_name=model_to_use, registry=registry)
-    else:
-        local_summarizer = summarizer
+    local_summarizer: NewsSummarizer | None = summarizer
 
     owns_session = session is None
     active_session = session
@@ -142,6 +150,10 @@ async def get_ticker_news_summary(
             status = "ok"
         else:
             try:
+                local_summarizer = _build_summarizer(
+                    summarizer=local_summarizer,
+                    summarizer_model=summarizer_model,
+                )
                 summary_result = await local_summarizer.summarize_articles(
                     subject=normalized_ticker,
                     articles=summary_articles,
@@ -192,12 +204,7 @@ async def get_track_news_payload(
     load_dotenv()
 
     local_scraper = scraper or NewsScraper()
-    if summarizer is None:
-        registry = load_registry()
-        model_to_use = summarizer_model or "claude-sonnet"
-        local_summarizer = NewsSummarizer(model_name=model_to_use, registry=registry)
-    else:
-        local_summarizer = summarizer
+    local_summarizer: NewsSummarizer | None = summarizer
 
     owns_session = session is None
     active_session = session
@@ -235,6 +242,10 @@ async def get_track_news_payload(
             status = "ok"
         else:
             try:
+                local_summarizer = _build_summarizer(
+                    summarizer=local_summarizer,
+                    summarizer_model=summarizer_model,
+                )
                 summary_result = await local_summarizer.summarize_articles(
                     subject=f"the {track_name} investment track",
                     articles=summary_articles,

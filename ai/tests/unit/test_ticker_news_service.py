@@ -1,5 +1,5 @@
 import asyncio
-from unittest.mock import AsyncMock, patch
+from unittest.mock import AsyncMock
 
 from ai.pipeline.news_summarizer import SummaryWithCitations
 from ai.pipeline.ticker_news_service import (
