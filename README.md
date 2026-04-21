@@ -10,6 +10,15 @@ This README is the canonical onboarding doc. If you're picking this up cold, rea
 
 **Note**: Make sure **Docker** is installed and running on your machine before proceeding, as the database runs inside a local Postgres container.
 
+| Tool                       | Version                         | Why                                                                            |
+| -------------------------- | ------------------------------- | ------------------------------------------------------------------------------ |
+| **Python**           | 3.9+                            | Backend + scraper.`from __future__ import annotations` is used so 3.9 works. |
+| **pip**              | recent                          | Install Python deps                                                            |
+| **Docker Desktop**   | any recent                      | Runs the Postgres container                                                    |
+| **A modern browser** | Chrome / Firefox / Safari 2024+ | The frontend uses ES2020 syntax                                                |
+
+**You do NOT need:** Node, npm, a bundler, an API key, a Yahoo Finance subscription, or anything paid.
+
 ### Dependencies
 
 ```bash
@@ -117,8 +126,9 @@ curl -s http://localhost:5001/tracks | python3 -c "import sys,json; ts=json.load
 9. [Database schema](#database-schema)
 10. [Common dev tasks](#common-dev-tasks)
 11. [Troubleshooting](#troubleshooting)
-12. [Known gaps &amp; roadmap](#known-gaps--roadmap)
-13. [Contributing &amp; branching](#contributing--branching)
+12. [Known gaps & roadmap](#known-gaps--roadmap)
+13. [Contributing & branching](#contributing--branching)
+14. [Quick reference card](#quick-reference-card)
 
 ---
 
@@ -255,7 +265,7 @@ nexus/
 ```
 ticker_track.json        ──┐
                             │
-task5/final_json/*        ──┤  seed_prod.py   ──►  Postgres (companies, relationships, tracks)
+sec_pipeline/.../*.json   ──┤  seed_prod.py   ──►  Postgres (companies, relationships, tracks)
                             │       │                          │
 scraper.StockScraper      ─┘       │                          │
 (live Yahoo Finance)               │                          ▼
@@ -279,21 +289,12 @@ scraper.StockScraper      ─┘       │                          │
 - Returns dicts with `ticker`, `companyName`, `price`, `marketCap`, `trailingPE`, `sector`, `industry`, ~50 fields total
 - Used by both `seed_prod.py` (bulk seed) and `main.py` (`/companies/<ticker>/live` endpoint, single fetch)
 
-### `task5/SeleniumAI_Task5/final_json/*.json`
+### `sec_pipeline/` Outputs
 
-- AI team's hand-curated relationship dataset
-- Currently 6 anchor tickers (NVDA, AMZN, GOOGL, META, MSFT, TSM), 30 edges total
-- Schema:
-  ```json
-  {
-    "ticker": "NVDA",
-    "name": "NVIDIA Corporation",
-    "related_stocks": [
-      {"ticker": "MSFT", "relationship": "Competitor", "evidence": "...", "source": "SEC-10K"}
-    ]
-  }
-  ```
-- Add more files here to grow the relationship graph; `seed_supplier_subsidary.py` ingests all of them and normalizes the free-form `relationship` field to one of `competitor / supplier / investor / partnership`.
+- AI team's SEC parsing deliverables (Exhibit 21.1 for subsidiaries, 10-K text for suppliers).
+- Output files: `subsidiary.json` and `supplier.json`.
+- Hand-curated mappings between primary company nodes and their relationships.
+- The DB schema normalizes the free-form `relationship` field to one of `competitor / supplier / ownership / partnership`.
 
 ### Seeding flow (inside `seed_prod.py`)
 
