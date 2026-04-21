@@ -124,11 +124,12 @@ curl -s http://localhost:5001/tracks | python3 -c "import sys,json; ts=json.load
 7. [REST API reference](#rest-api-reference)
 8. [Frontend pages](#frontend-pages)
 9. [Database schema](#database-schema)
-10. [Common dev tasks](#common-dev-tasks)
-11. [Troubleshooting](#troubleshooting)
-12. [Known gaps & roadmap](#known-gaps--roadmap)
-13. [Contributing & branching](#contributing--branching)
-14. [Quick reference card](#quick-reference-card)
+10. [Testing Suite](#testing-suite)
+11. [Common dev tasks](#common-dev-tasks)
+12. [Troubleshooting](#troubleshooting)
+13. [Known gaps & roadmap](#known-gaps--roadmap)
+14. [Contributing & branching](#contributing--branching)
+15. [Quick reference card](#quick-reference-card)
 
 ---
 
@@ -480,8 +481,41 @@ psql postgresql://nexus:nexus@localhost:5433/corporate_data
 
 ---
 
-## Common dev tasks
+## Testing Suite
 
+The Nexus backend is equipped with a `pytest` suite ensuring business logic fidelity alongside pipeline stability. The suite evaluates edge cases securely via dynamically generated database schemas (`test_schema`) utilizing fixtures so that your main database tables remain undisturbed.
+
+### Running the tests
+
+1. **Prerequisites**
+   Ensure you have installed the testing packages. They are included in the requirements, but you can explicitly ensure they are present by running:
+   ```bash
+   cd backend
+   pip install pytest pytest-mock
+   ```
+
+2. **Database Container**
+   Ensure your Docker Postgres database (`localhost:5433`) is running so the fixture system can spin up `test_schema`.
+
+3. **Execution**
+   To execute the entire test suite, run:
+   ```bash
+   cd backend
+   python3 -m pytest testing/ -vv
+   ```
+
+### Test Coverage
+
+**1. `test_logic.py` (Unit Tests)**
+- **Slugification (`test_slugify`)**: Ensures track and company names follow strict URL-safe text normalization (e.g. converting `Ad agency - big 4` -> `ad-agency---big-4`).
+- **Data Safeties (`test_scraper_parse_*`)**: Validates that `StockScraper._parse` yields expected defaults rather than crashing when Yahoo Finance returns missing fields or partial dictionary payloads.
+
+**2. `test_api.py` (Integration Tests)**
+- **Graph Algorithm (`test_graph_implicit_edges`)**: Evaluates the `/graph` API behavior by mocking multiple companies under a unified track and asserting that implicit competitor edges properly materialize between sibling nodes.
+- **Cache Bypassing (`test_live_data_bypasses_cache`)**: Directly mocks `yfinance.Ticker` beneath `StockScraper` to guarantee that the proxy endpoint `/companies/<ticker>/live` correctly streams requested ticker features while circumventing the database caching protocol.
+- **Pipeline Integrity (`test_pipeline_integrity`)**: Executes an automated pipeline check iterating over AI extraction deliverables targeting `/task5/SeleniumAI_Task5/final_json/`. Every extracted `related_stocks` entry is forcibly matched against `ticker_track.json` to prevent unrecognized companies from entering the final graph ecosystem, providing an instant failsafe against data rot.
+
+## Common dev tasks
 ### Add a new ticker to the graph
 
 1. Add it to `ticker_track.json` with the right track name (or update from S3)

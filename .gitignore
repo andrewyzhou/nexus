@@ -51,3 +51,7 @@ Nexus*.docx
 .scrub-records/
 track_cleanup_report.md
 flag-for-ceo.txt
+
+# Test output logs
+test_out*.log
+test_out*.txt
