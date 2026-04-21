@@ -6,11 +6,27 @@ import base64
 import hashlib
 import json
 import os
+from pathlib import Path
+import sys
 import time
 from datetime import datetime, timezone
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
+
+try:
+    from ai.pipeline.ticker_news_service import (
+        get_ticker_news_summary_sync,
+        get_track_news_payload_sync,
+    )
+except ModuleNotFoundError:
+    repo_root = Path(__file__).resolve().parents[1]
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
+    from ai.pipeline.ticker_news_service import (
+        get_ticker_news_summary_sync,
+        get_track_news_payload_sync,
+    )
 
 app = Flask(__name__)
 
@@ -53,6 +69,26 @@ def _is_admin() -> bool:
     user = getattr(g, "user", None) or {}
     email = (user.get("email") or "").lower()
     return bool(email) and email in ADMIN_EMAILS
+
+
+_pipeline_cache: dict[str, tuple[float, dict]] = {}
+PIPELINE_CACHE_TTL = 15 * 60
+
+
+def _cache_get(key: str):
+    hit = _pipeline_cache.get(key)
+    if hit and (time.time() - hit[0]) < PIPELINE_CACHE_TTL:
+        return hit[1]
+    return None
+
+
+def _cache_set(key: str, value: dict):
+    _pipeline_cache[key] = (time.time(), value)
+
+
+def _should_cache_summary_payload(payload: dict) -> bool:
+    status = payload.get("status")
+    return status in (None, "ok", "no_news")
 
 
 # ── Anthropic client init log only ───────────────────────────────────────
@@ -158,6 +194,67 @@ def track_color(track_name: str) -> str:
 
 def slugify(name: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in name).strip("-")
+
+
+def _lookup_company_name(ticker: str) -> str | None:
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM companies WHERE ticker = %s", (ticker,))
+    row = cursor.fetchone()
+    conn.close()
+    return row[0] if row else None
+
+
+def _get_ticker_pipeline_payload(
+    ticker: str,
+    *,
+    company_name: str | None = None,
+    news_limit: int | None = None,
+    include_summary: bool = True,
+) -> dict:
+    normalized_ticker = ticker.upper().strip()
+    mode = "summary" if include_summary else "news"
+    cache_key = f"ticker-pipeline:{normalized_ticker}:{mode}:{news_limit}"
+    cached = _cache_get(cache_key)
+    if cached:
+        return cached
+
+    payload = get_ticker_news_summary_sync(
+        normalized_ticker,
+        company_name=company_name,
+        news_limit=news_limit,
+        include_summary=include_summary,
+    )
+    if _should_cache_summary_payload(payload):
+        _cache_set(cache_key, payload)
+    return payload
+
+
+def _get_track_pipeline_payload(
+    *,
+    track_name: str,
+    constituents: list[dict[str, str]],
+    per_company: int = 3,
+    include_summary: bool = True,
+) -> dict:
+    mode = "summary" if include_summary else "news"
+    constituent_key = ",".join(
+        (c.get("ticker") or "").upper().strip() for c in constituents
+    )
+    cache_key = f"track-pipeline:{slugify(track_name)}:{mode}:{per_company}:{constituent_key}"
+    cached = _cache_get(cache_key)
+    if cached:
+        return cached
+
+    payload = get_track_news_payload_sync(
+        constituents,
+        track_name=track_name,
+        per_company=per_company,
+        include_summary=include_summary,
+    )
+    if _should_cache_summary_payload(payload):
+        _cache_set(cache_key, payload)
+    return payload
 
 
 @api.route("/companies")
@@ -365,155 +462,13 @@ def get_track_companies(track_id):
     return jsonify(companies)
 
 
-from news_fetch import get_articles_for_ticker, articles_hash
-from summarize import summarize_news, summarize_track_news
+from news_fetch import articles_hash
 
 
-# Layer B cache: per-ticker (curated_list, all_urls, all_titles), 5-min
-# TTL. The URL + title sets cover articles surfaced by this ticker's
-# pipeline BEFORE the body-fetch filter — both are used by the track
-# endpoint as cross-ticker source-attribution keys. Title-match is the
-# fallback when the same article ends up at two different URLs across
-# constituents (publisher-direct vs. Yahoo-syndicated). Per-worker;
-# fine at our scale.
-_articles_cache: dict[str, tuple[float, list[dict], set[str], set[str]]] = {}
-ARTICLES_CACHE_TTL = 5 * 60
+TRACK_TOP_CONSTITUENTS = 7
 
-
-def _company_name(ticker: str) -> str | None:
-    try:
-        with get_conn() as c:
-            with c.cursor() as cur:
-                cur.execute("SELECT name FROM companies WHERE ticker = %s",
-                            (ticker,))
-                row = cur.fetchone()
-                return row[0] if row else None
-    except Exception:
-        return None
-
-
-def _get_articles_payload(ticker: str) -> tuple[list[dict], set[str], set[str]]:
-    """Cache-aware wrapper around get_articles_for_ticker. Returns
-    (curated, all_urls, all_titles)."""
-    hit = _articles_cache.get(ticker)
-    if hit and (time.time() - hit[0]) < ARTICLES_CACHE_TTL:
-        return hit[1], hit[2], hit[3]
-    name = _company_name(ticker)
-    with get_conn() as conn:
-        curated, all_urls, all_titles = get_articles_for_ticker(
-            conn, ticker, name, top_k=12,
-        )
-    _articles_cache[ticker] = (time.time(), curated, all_urls, all_titles)
-    return curated, all_urls, all_titles
-
-
-def get_curated_articles(ticker: str) -> list[dict]:
-    """Shared helper: returns the same ordered article list to both /news
-    and /summary so citation indices line up across the page."""
-    return _get_articles_payload(ticker)[0]
-
-
-def get_all_article_urls(ticker: str) -> set[str]:
-    """The full post-resolution URL set for this ticker — including
-    articles that didn't make the top_k cutoff. Used by the track
-    endpoint to preserve cross-ticker source attribution that would
-    otherwise be lost when truncation drops a piece from one
-    constituent's curated list."""
-    return _get_articles_payload(ticker)[1]
-
-
-def get_all_article_titles(ticker: str) -> set[str]:
-    """Normalized titles surfaced for this ticker — fallback source key
-    when the same article reaches different constituents at different
-    URLs (e.g. NVDA gets it via Finnhub→247wallst.com and AMD gets it
-    via yfinance→finance.yahoo.com)."""
-    return _get_articles_payload(ticker)[2]
-
-
-def article_to_card(a: dict, idx: int) -> dict:
-    """Shape returned by /news — what stock.js / track.js render as a card.
-
-    `ticker` is the source ticker (kept for back-compat / single-ticker
-    pages). `tickers` is the multi-tag list set by _pool_track_articles
-    on track-page articles; falls back to [ticker] for company pages."""
-    src_ticker = a.get("ticker") or ""
-    tickers = a.get("tickers")
-    if not tickers:
-        tickers = [src_ticker] if src_ticker else []
-    return {
-        "index":     idx,                      # 1-based; matches summary citations
-        "title":     a.get("title") or "",
-        "link":      a.get("url") or "",
-        "publisher": a.get("publisher") or "",
-        "published": a.get("published") or "",
-        "summary":   (a.get("body") or a.get("blurb") or "")[:600],
-        "image":     a.get("image") or "",
-        "ticker":    src_ticker,
-        "tickers":   tickers,
-    }
-
-
-@api.route("/companies/<ticker>/news")
-def get_company_news(ticker):
-    ticker = ticker.upper().strip()
-    articles = get_curated_articles(ticker)
-    return jsonify([article_to_card(a, i) for i, a in enumerate(articles, 1)])
-
-
-@api.route("/tracks/<slug>/news")
-def get_track_news(slug):
-    """Aggregated news cards for a track. Uses the SAME pooling as the
-    track summary endpoint so summary citations land on the right cards."""
-    conn = get_conn()
-    cursor = conn.cursor()
-    cursor.execute("SELECT id, name FROM investment_tracks")
-    target = None
-    for tid, name in cursor.fetchall():
-        if slugify(name) == slug:
-            target = (tid, name)
-            break
-    if target is None:
-        conn.close()
-        return jsonify({"error": "Track not found"}), 404
-
-    track_id, _ = target
-    cursor.execute("""
-        SELECT c.ticker
-        FROM companies c
-        JOIN company_tracks ct ON ct.company_id = c.id
-        WHERE ct.track_id = %s
-        ORDER BY COALESCE(c.market_cap, 0) DESC
-        LIMIT %s
-    """, (track_id, TRACK_TOP_CONSTITUENTS))
-    tickers = [r[0] for r in cursor.fetchall()]
-    conn.close()
-
-    per_company = {t: get_curated_articles(t) for t in tickers}
-    all_urls = {t: get_all_article_urls(t) for t in tickers}
-    all_titles = {t: get_all_article_titles(t) for t in tickers}
-    pooled = _pool_track_articles(per_company, all_urls, all_titles)
-    return jsonify([article_to_card(a, i) for i, a in enumerate(pooled, 1)])
-
-
-# ── AI-summary endpoints (Claude Haiku 4.5 + tool-use structured output) ─
-#
-# Returns {headline (2 sentences), bullets [{text, source_indices}],
-# sources [{index, title, url, publisher, published, image}], generated_at,
-# cached, model}.
-#
-# Design notes:
-#   - POST so browser link-prefetch / prerender doesn't trigger an API call
-#   - Postgres-backed cache (news_summaries) with content-addressable key
-#     (ticker, articles_hash). Hit iff the curated URL set is unchanged —
-#     no time-based regeneration. Force-refresh with ?force=1.
-#   - sources[].index is 1-based; bullet.source_indices reference it.
-#     Frontend maps index → news-card-<index-1> for click-to-scroll.
 
 def _summary_cache_get(ticker: str) -> dict | None:
-    """Return the most recent cached summary for `ticker` (any
-    articles_hash). Indefinite TTL — the frontend's 24h auto-regen
-    handles freshness, and the user's refresh button (force=1)
-    bypasses this lookup."""
     with get_conn() as conn:
         with conn.cursor() as cur:
             cur.execute(
@@ -551,7 +506,8 @@ def _summary_cache_put(ticker: str, ahash: str, payload: dict) -> None:
                        generated_at = NOW()
                 """,
                 (
-                    ticker, ahash,
+                    ticker,
+                    ahash,
                     payload["headline"],
                     psycopg2.extras.Json(payload["bullets"]),
                     psycopg2.extras.Json(payload["sources"]),
@@ -561,233 +517,278 @@ def _summary_cache_put(ticker: str, ahash: str, payload: dict) -> None:
         conn.commit()
 
 
-def _build_summary_payload(
+def _pipeline_news_to_card(item: dict, idx: int) -> dict:
+    ticker = (item.get("ticker") or "").upper().strip()
+    tickers = item.get("tickers")
+    if not tickers:
+        tickers = [ticker] if ticker else []
+    return {
+        "index": idx,
+        "title": item.get("title") or "",
+        "link": item.get("link") or "",
+        "publisher": item.get("publisher") or "",
+        "published": item.get("published") or "",
+        "summary": (item.get("summary") or "")[:600],
+        "image": item.get("image") or "",
+        "ticker": ticker,
+        "tickers": tickers,
+    }
+
+
+def _source_cards_hash(sources: list[dict]) -> str:
+    return articles_hash(
+        [{"url": s.get("link") or ""} for s in sources if (s.get("link") or "").strip()]
+    )
+
+
+def _citation_source_indices(citations: list[dict]) -> list[int]:
+    indices: list[int] = []
+    for citation in citations or []:
+        idx = citation.get("article_index")
+        if isinstance(idx, int):
+            one_based = idx + 1
+            if one_based not in indices:
+                indices.append(one_based)
+    return indices
+
+
+def _split_summary_text(text: str) -> tuple[str, list[str]]:
+    raw = (text or "").strip()
+    if not raw:
+        return "", []
+
+    lines = [line.strip() for line in raw.splitlines() if line.strip()]
+    bullet_lines = [
+        line[2:].strip()
+        for line in lines
+        if line.startswith("- ") or line.startswith("* ")
+    ]
+    prose_lines = [
+        line for line in lines if not (line.startswith("- ") or line.startswith("* "))
+    ]
+    if bullet_lines:
+        headline = " ".join(prose_lines).strip()
+        if not headline:
+            headline = bullet_lines[0]
+            bullet_lines = bullet_lines[1:]
+        return headline, bullet_lines
+
+    import re
+
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", raw) if s.strip()]
+    if len(sentences) <= 2:
+        return raw, []
+    headline = " ".join(sentences[:2]).strip()
+    trailing = " ".join(sentences[2:]).strip()
+    return headline, ([trailing] if trailing else [])
+
+
+def _tickers_for_source_indices(sources: list[dict], source_indices: list[int]) -> list[str]:
+    tickers: list[str] = []
+    for idx in source_indices:
+        pos = idx - 1
+        if pos < 0 or pos >= len(sources):
+            continue
+        source = sources[pos]
+        candidates = source.get("tickers") or ([source.get("ticker")] if source.get("ticker") else [])
+        for ticker in candidates:
+            if ticker and ticker not in tickers:
+                tickers.append(ticker)
+    return tickers
+
+
+def _legacy_payload_from_pipeline(service_payload: dict, *, track: bool) -> dict:
+    sources = [
+        _pipeline_news_to_card(item, idx)
+        for idx, item in enumerate(service_payload.get("news") or [], 1)
+    ]
+    headline, bullet_texts = _split_summary_text(service_payload.get("summary") or "")
+    source_indices = _citation_source_indices(service_payload.get("citations") or [])
+
+    bullets = []
+    for text in bullet_texts:
+        bullet = {"text": text, "source_indices": source_indices}
+        if track:
+            tickers = _tickers_for_source_indices(sources, source_indices)
+            if tickers:
+                bullet["tickers"] = tickers
+        bullets.append(bullet)
+
+    return {
+        "headline": headline,
+        "bullets": bullets,
+        "sources": sources,
+        "model": service_payload.get("model"),
+        "generated_at": service_payload.get("as_of"),
+        "cached": bool(service_payload.get("cached")),
+        "used_articles": len(sources),
+    }
+
+
+def _build_company_summary_payload(
     ticker: str,
     company_name: str | None,
-    articles: list[dict],
+    *,
     force: bool,
 ) -> dict:
-    """Single source of truth for /companies/<t>/summary and the per-company
-    contribution to /tracks/<slug>/summary.
-
-    Cache rule (mirrors the track flow):
-      - Look up the most recent cached summary for `ticker`. Hit → return.
-      - Miss → fetch articles → call Claude → write a new row.
-      - force=1 (refresh button) skips the lookup.
-    """
     if not force:
-        hit = _summary_cache_get(ticker)
-        if hit:
-            return {**hit, "cached": True,
-                    "used_articles": len(hit.get("sources") or [])}
+        cached = _summary_cache_get(ticker)
+        if cached:
+            return {**cached, "cached": True, "used_articles": len(cached.get("sources") or [])}
 
-    if not articles:
-        return {
-            "headline": "",
-            "bullets": [],
-            "sources": [],
-            "model": None,
-            "generated_at": None,
-            "cached": False,
-            "used_articles": 0,
-        }
+    service_payload = _get_ticker_pipeline_payload(
+        ticker,
+        company_name=company_name,
+        news_limit=8,
+        include_summary=True,
+    )
+    result = _legacy_payload_from_pipeline(service_payload, track=False)
+    result["cached"] = False
+    if result.get("headline"):
+        _summary_cache_put(ticker, _source_cards_hash(result["sources"]), result)
+    return result
 
-    payload = summarize_news(ticker, company_name or ticker, articles)
-    if payload.get("headline"):
-        _summary_cache_put(ticker, articles_hash(articles), payload)
-    payload["generated_at"] = datetime.utcnow().replace(
-        tzinfo=timezone.utc).isoformat()
-    payload["cached"] = False
-    payload["used_articles"] = len(payload["sources"])
-    return payload
+
+def _ensure_company_summary(ticker: str, company_name: str | None) -> dict:
+    payload = _build_company_summary_payload(ticker, company_name, force=False)
+    return {**payload, "articles": payload.get("sources") or []}
+
+
+def _resolve_track(slug: str, *, company_limit: int = TRACK_TOP_CONSTITUENTS):
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id, name FROM investment_tracks")
+    target = next(((tid, name) for tid, name in cursor.fetchall() if slugify(name) == slug), None)
+    if target is None:
+        conn.close()
+        return None, None, []
+    track_id, track_name = target
+    cursor.execute(
+        """
+        SELECT c.ticker, c.name
+        FROM companies c
+        JOIN company_tracks ct ON ct.company_id = c.id
+        WHERE ct.track_id = %s
+        ORDER BY COALESCE(c.market_cap, 0) DESC LIMIT %s
+        """,
+        (track_id, company_limit),
+    )
+    constituents = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
+    conn.close()
+    return track_id, track_name, constituents
+
+
+@api.route("/companies/<ticker>/news")
+def get_company_news(ticker):
+    limit = request.args.get("limit", default=8, type=int)
+    ticker = ticker.upper().strip()
+    service_payload = _get_ticker_pipeline_payload(
+        ticker,
+        company_name=_lookup_company_name(ticker),
+        news_limit=limit,
+        include_summary=False,
+    )
+    items = service_payload.get("news") or []
+    return jsonify([_pipeline_news_to_card(item, idx) for idx, item in enumerate(items, 1)])
+
+
+@api.route("/tracks/<slug>/news")
+def get_track_news(slug):
+    top_n = request.args.get("companies", default=TRACK_TOP_CONSTITUENTS, type=int)
+    per_company = request.args.get("per", default=3, type=int)
+    _, track_name, constituents = _resolve_track(slug, company_limit=top_n)
+    if track_name is None:
+        return jsonify({"error": "Track not found"}), 404
+
+    service_payload = _get_track_pipeline_payload(
+        track_name=track_name,
+        constituents=constituents,
+        per_company=per_company,
+        include_summary=False,
+    )
+    items = service_payload.get("news") or []
+    return jsonify([_pipeline_news_to_card(item, idx) for idx, item in enumerate(items, 1)])
 
 
 @api.route("/companies/<ticker>/summary", methods=["POST"])
 def get_company_summary(ticker):
     ticker = ticker.upper().strip()
     force = request.args.get("force", "").lower() in ("1", "true", "yes")
-    articles = get_curated_articles(ticker)
-    name = _company_name(ticker)
-    return jsonify(_build_summary_payload(ticker, name, articles, force))
+    return jsonify(_build_company_summary_payload(ticker, _lookup_company_name(ticker), force=force))
 
 
-# ── Track summary parameters ─────────────────────────────────────────────
-# Per-constituent floor — every constituent gets at least this many of
-# its top-ranked articles in the pool before we dip into mega-cap excess.
-TRACK_DIVERSITY_FLOOR = 4
-# Hard cap on the article pool sent to Claude. ~25 covers a 7-company
-# track with 3-4 articles per name; diminishing returns past ~30.
-TRACK_POOL_CAP = 25
-# Per-track number of constituents we summarize (top-N by market cap).
-TRACK_TOP_CONSTITUENTS = 7
+def _stream_track_summary(slug: str, track_name: str, constituents: list[dict], force: bool):
+    def emit(obj):
+        return json.dumps(obj, default=str) + "\n"
 
+    yield emit({"type": "noop", "pad": "x" * 4096})
+    yield emit({
+        "type": "meta",
+        "track": track_name,
+        "constituents": [c["ticker"] for c in constituents],
+    })
 
-def _ensure_company_summary(ticker: str, company_name: str | None) -> dict:
-    """Get-or-make the per-company summary row. Used by the track endpoint
-    to populate the scaffold. Returns the same shape as
-    `_build_summary_payload(force=False)` — but writes the row even on
-    a cold call so subsequent track lookups (and the company page itself)
-    are free."""
-    cached = _summary_cache_get(ticker)
-    articles = get_curated_articles(ticker)
-    if cached:
-        return {**cached, "articles": articles}
-    if not articles:
-        return {"headline": "", "bullets": [], "sources": [], "articles": []}
-    payload = summarize_news(ticker, company_name or ticker, articles)
-    if payload.get("headline"):
-        _summary_cache_put(ticker, articles_hash(articles), payload)
-    return {**payload, "articles": articles}
+    cache_key = f"track:{slug}"
+    if not force:
+        cached = _summary_cache_get(cache_key)
+        if cached:
+            yield emit({"type": "cached"})
+            yield emit({"type": "done", "data": {
+                **cached,
+                "cached": True,
+                "used_articles": len(cached.get("sources") or []),
+            }})
+            return
 
+    for company in constituents:
+        try:
+            sub = _ensure_company_summary(company["ticker"], company.get("name"))
+        except Exception as e:
+            print(f"[track-summary] sub failed for {company['ticker']}: {e}")
+            sub = {"headline": "", "articles": []}
+        yield emit({
+            "type": "company",
+            "ticker": company["ticker"],
+            "name": company.get("name") or company["ticker"],
+            "headline": sub.get("headline") or "",
+            "article_count": len(sub.get("articles") or []),
+        })
 
-def _pool_track_articles(
-    per_company: dict[str, list[dict]],
-    all_urls_by_ticker: dict[str, set[str]] | None = None,
-    all_titles_by_ticker: dict[str, set[str]] | None = None,
-) -> list[dict]:
-    """Build the global article pool for a track summary.
+    yield emit({"type": "synth", "pool_size": len(constituents)})
 
-    Diversity floor first: every constituent contributes its top-ranked
-    articles up to TRACK_DIVERSITY_FLOOR. Then we fill remaining slots
-    with the rest, ranked globally.
-
-    Multi-ticker tagging uses TWO source keys joined as a union:
-      - URL match (sources_by_url): same canonical URL across pipelines.
-      - Title match (sources_by_title): normalized headline. Catches the
-        case where the same story reaches different constituents at
-        different URLs — e.g. one ticker's Finnhub feed resolves to the
-        publisher's blacklisted page while another ticker's yfinance
-        returned the Yahoo-syndicated copy. URL-match alone misses the
-        attribution; title-match recovers it.
-    """
-    from news_fetch import normalize_title, rank_articles
-
-    sources_by_url: dict[str, list[str]] = {}
-    sources_by_title: dict[str, list[str]] = {}
-
-    if all_urls_by_ticker:
-        for ticker, urls in all_urls_by_ticker.items():
-            for url in urls:
-                lst = sources_by_url.setdefault(url, [])
-                if ticker not in lst:
-                    lst.append(ticker)
-    else:
-        for ticker, articles in per_company.items():
-            for a in articles:
-                lst = sources_by_url.setdefault(a["url"], [])
-                if ticker not in lst:
-                    lst.append(ticker)
-
-    if all_titles_by_ticker:
-        for ticker, titles in all_titles_by_ticker.items():
-            for t in titles:
-                if not t:
-                    continue
-                lst = sources_by_title.setdefault(t, [])
-                if ticker not in lst:
-                    lst.append(ticker)
-
-    seen: set[str] = set()
-    pooled: list[dict] = []
-
-    # Floor pass — every constituent gets up to TRACK_DIVERSITY_FLOOR
-    # of their top-ranked articles in the pool.
-    for ticker, articles in per_company.items():
-        kept = 0
-        for a in articles:
-            if a["url"] in seen:
-                continue
-            if kept >= TRACK_DIVERSITY_FLOOR:
-                break
-            tagged = {**a, "ticker": ticker}
-            seen.add(a["url"])
-            pooled.append(tagged)
-            kept += 1
-
-    # Overflow pass — fill remaining slots with the rest, globally ranked.
-    extras: list[dict] = []
-    for ticker, articles in per_company.items():
-        for a in articles:
-            if a["url"] in seen:
-                continue
-            extras.append({**a, "ticker": ticker})
-            seen.add(a["url"])
-    pooled.extend(rank_articles(extras, top_k=max(0, TRACK_POOL_CAP - len(pooled))))
-    pooled = pooled[:TRACK_POOL_CAP]
-
-    # Annotate every pooled article with its full multi-ticker source
-    # set (union of URL-match and title-match), preserving order.
-    for a in pooled:
-        by_url = sources_by_url.get(a.get("url") or "", [])
-        by_title = sources_by_title.get(
-            normalize_title(a.get("title") or ""), [],
+    try:
+        service_payload = _get_track_pipeline_payload(
+            track_name=track_name,
+            constituents=constituents,
+            per_company=3,
+            include_summary=True,
         )
-        # Order: source ticker first, then URL matches, then title matches.
-        merged: list[str] = []
-        for tk in [a.get("ticker") or ""] + list(by_url) + list(by_title):
-            if tk and tk not in merged:
-                merged.append(tk)
-        a["tickers"] = merged
+    except Exception as e:
+        yield emit({"type": "error", "message": f"synth stage: {e}"})
+        return
 
-    return pooled
-
-
-def _resolve_track(slug: str):
-    """Returns (track_id, track_name, [constituents]) or (None, None, [])."""
-    conn = get_conn()
-    cursor = conn.cursor()
-    cursor.execute("SELECT id, name FROM investment_tracks")
-    target = next(((tid, name) for tid, name in cursor.fetchall()
-                   if slugify(name) == slug), None)
-    if target is None:
-        conn.close()
-        return None, None, []
-    track_id, track_name = target
-    cursor.execute("""
-        SELECT c.ticker, c.name FROM companies c
-        JOIN company_tracks ct ON ct.company_id = c.id
-        WHERE ct.track_id = %s
-        ORDER BY COALESCE(c.market_cap, 0) DESC LIMIT %s
-    """, (track_id, TRACK_TOP_CONSTITUENTS))
-    constituents = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
-    conn.close()
-    return track_id, track_name, constituents
+    payload = _legacy_payload_from_pipeline(service_payload, track=True)
+    payload["cached"] = False
+    if payload.get("headline"):
+        _summary_cache_put(cache_key, _source_cards_hash(payload["sources"]), payload)
+    yield emit({"type": "done", "data": payload})
 
 
 @api.route("/tracks/<slug>/summary", methods=["POST"])
 def get_track_summary(slug):
-    """Track-level summary. Default JSON mode runs server-side and
-    returns the final payload. Pass ?stream=1 to get NDJSON progress
-    events (one JSON per line) — useful for showing per-company
-    progress in the UI as each sub-summary completes.
-
-    Pipeline (Option C):
-      1. Resolve constituents (top-N by market cap).
-      2. For each, fetch articles + get-or-make the per-company headline.
-         Parallel (max 4 workers) to fit inside the gunicorn timeout.
-      3. Pool articles globally with a diversity floor (≥4/constituent).
-      4. One Claude call with track-specific prompt + tool. Returns
-         { headline, bullets[{ tickers, text, source_indices }], sources }.
-      5. Cache by (track_slug, articles_hash) — permanent, content-addr.
-    """
     force = request.args.get("force", "").lower() in ("1", "true", "yes")
     stream = request.args.get("stream", "").lower() in ("1", "true", "yes")
-
     _, track_name, constituents = _resolve_track(slug)
     if track_name is None:
         return jsonify({"error": "Track not found"}), 404
 
     if stream:
         return Response(
-            stream_with_context(
-                _stream_track_summary(slug, track_name, constituents, force)
-            ),
+            stream_with_context(_stream_track_summary(slug, track_name, constituents, force)),
             mimetype="application/x-ndjson",
-            headers={"X-Accel-Buffering": "no"},  # disable nginx buffering
+            headers={"X-Accel-Buffering": "no"},
         )
 
-    # Non-streaming path: drain the generator and return the final 'done'
-    # event's payload as a regular JSON response.
     final = None
     for line in _stream_track_summary(slug, track_name, constituents, force):
         try:
@@ -797,121 +798,14 @@ def get_track_summary(slug):
         if evt.get("type") == "done":
             final = evt.get("data")
     return jsonify(final or {
-        "headline": "", "bullets": [], "sources": [], "model": None,
-        "generated_at": None, "cached": False, "used_articles": 0,
+        "headline": "",
+        "bullets": [],
+        "sources": [],
+        "model": None,
+        "generated_at": None,
+        "cached": False,
+        "used_articles": 0,
     })
-
-
-def _stream_track_summary(slug: str, track_name: str,
-                           constituents: list[dict], force: bool):
-    """Generator yielding NDJSON lines. Event types:
-        - meta:    initial track info + constituent list
-        - cached:  fast path — cache hit, payload follows in 'done'
-        - company: a sub-summary completed (ticker, headline)
-        - synth:   about to call the track-level Claude
-        - done:    final payload
-        - error:   string description; client should fail open
-    """
-    from concurrent.futures import ThreadPoolExecutor, as_completed
-
-    def emit(obj):
-        return json.dumps(obj, default=str) + "\n"
-
-    # Force any intermediate proxy buffer (nginx defaults to a 4-8 KB
-    # response buffer even with X-Accel-Buffering: no in some setups) to
-    # flush the headers + first event right away. Without this the user
-    # sees the default skeleton for several seconds before the meta event
-    # arrives, even though the server emitted it instantly. The padding
-    # is one big "noop" event the frontend ignores.
-    yield emit({"type": "noop", "pad": "x" * 4096})
-    yield emit({
-        "type": "meta",
-        "track": track_name,
-        "constituents": [c["ticker"] for c in constituents],
-    })
-
-    # Fast path: any cached summary for this track wins. Indefinite TTL
-    # — frontend's 24h auto-regen handles staleness, and force=1 (the
-    # refresh button) is the only thing that should bypass this.
-    cache_key = f"track:{slug}"
-    if not force:
-        cached = _summary_cache_get(cache_key)
-        if cached:
-            yield emit({"type": "cached"})
-            yield emit({"type": "done", "data": {
-                **cached, "cached": True,
-                "used_articles": len(cached.get("sources") or []),
-            }})
-            return
-
-    # Cold (or force=1): run the full pipeline. Per-company sub-summaries
-    # are individually cached, so on a cold-track-but-warm-companies path
-    # most of the per-ticker fan-out is free — only the track-level
-    # Claude call has to do real work.
-    per_company_articles: dict[str, list[dict]] = {}
-    scaffold: dict[str, str] = {}
-    try:
-        with ThreadPoolExecutor(max_workers=4) as ex:
-            futures = {
-                ex.submit(_ensure_company_summary, c["ticker"], c["name"]): c
-                for c in constituents
-            }
-            for fut in as_completed(futures):
-                c = futures[fut]
-                try:
-                    sub = fut.result()
-                except Exception as e:
-                    print(f"[track-summary] sub failed for {c['ticker']}: {e}")
-                    sub = {"articles": [], "headline": ""}
-                per_company_articles[c["ticker"]] = sub.get("articles", [])
-                scaffold[c["ticker"]] = sub.get("headline") or ""
-                yield emit({
-                    "type": "company",
-                    "ticker": c["ticker"],
-                    "name": c.get("name") or c["ticker"],
-                    "headline": scaffold[c["ticker"]],
-                    "article_count": len(per_company_articles[c["ticker"]]),
-                })
-    except Exception as e:
-        yield emit({"type": "error", "message": f"sub-summary stage: {e}"})
-        return
-
-    # Pull the full per-ticker URL + title sets from the same Layer B
-    # cache that _ensure_company_summary just populated — no extra
-    # network work.
-    all_urls = {
-        c["ticker"]: get_all_article_urls(c["ticker"]) for c in constituents
-    }
-    all_titles = {
-        c["ticker"]: get_all_article_titles(c["ticker"]) for c in constituents
-    }
-    pooled = _pool_track_articles(
-        per_company_articles, all_urls, all_titles,
-    )
-    if not pooled:
-        yield emit({"type": "done", "data": {
-            "headline": "", "bullets": [], "sources": [], "model": None,
-            "generated_at": None, "cached": False, "used_articles": 0,
-        }})
-        return
-
-    yield emit({"type": "synth", "pool_size": len(pooled)})
-
-    try:
-        payload = summarize_track_news(
-            track_name, constituents, scaffold, pooled,
-        )
-    except Exception as e:
-        yield emit({"type": "error", "message": f"synth stage: {e}"})
-        return
-
-    if payload.get("headline"):
-        _summary_cache_put(cache_key, articles_hash(pooled), payload)
-    payload["generated_at"] = datetime.utcnow().replace(
-        tzinfo=timezone.utc).isoformat()
-    payload["cached"] = False
-    payload["used_articles"] = len(payload.get("sources") or [])
-    yield emit({"type": "done", "data": payload})
 
 
 @api.route("/companies/<ticker>/live")
@@ -1908,4 +1802,3 @@ def _root():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.getenv("PORT", "5001")))
-
