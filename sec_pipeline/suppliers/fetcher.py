@@ -147,7 +147,6 @@ if __name__ == "__main__":
     ]
 
     for ticker in tickers:
-        out_path = output_dir / f"{ticker}_sections.txt"
         if out_path.exists() and out_path.stat().st_size > 10:
             print(f"Skipping {ticker} (already cached)")
             continue
