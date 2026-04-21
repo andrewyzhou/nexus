@@ -155,7 +155,7 @@ function renderChart(ticker) {
     locale: "en",
     save_image: true,
     style: "1",
-    symbol: "NASDAQ:" + ticker,  
+    symbol: ticker,  
     theme: "light",
     timezone: "Etc/UTC",
     backgroundColor: "#ffffff",
