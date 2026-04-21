@@ -34,8 +34,10 @@ from curl_cffi.requests import AsyncSession
 # file still references it in the __main__ SEC-dump path. Keep the import
 # optional so `from scraper import StockScraper` works for the hot path
 # (Yahoo Finance pulls) even when ten_k_fetch.py isn't in sys.path.
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "sec_pipeline" / "suppliers"))
 try:
-    from ten_k_fetch import fetch_sec_sections
+    from fetcher import fetch_sec_sections
 except ModuleNotFoundError:
     def fetch_sec_sections(ticker):  # type: ignore
         raise RuntimeError(

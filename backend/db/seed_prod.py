@@ -41,7 +41,7 @@ try:
 except ModuleNotFoundError:
     from seed_supplier_subsidary import seed_relationships
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scraper"))
 from scraper import StockScraper  # noqa: E402
 

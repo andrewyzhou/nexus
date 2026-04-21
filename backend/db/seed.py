@@ -16,7 +16,7 @@ except ModuleNotFoundError:
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TRACKS_CANDIDATES = [
-    REPO_ROOT / "ticker_track.json",
+    REPO_ROOT / "ticker_track_cleaned.json",
     REPO_ROOT / "investment_tracks.json",
     REPO_ROOT / "frontend" / "investment_tracks.json",
 ]

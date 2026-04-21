@@ -8,4 +8,10 @@ curl_cffi
 python-dotenv
 beautifulsoup4
 firebase-admin
-anthropic
+aiohttp
+pydantic
+pyyaml
+openai
+trafilatura
+feedparser
+tenacity

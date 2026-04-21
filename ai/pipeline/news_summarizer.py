@@ -23,6 +23,20 @@ class TrackSummaries(BaseModel):
     summaries: list[TickerSummary]
 
 
+class SummaryWithCitations(BaseModel):
+    summary: str = Field(
+        description=(
+            "A concise markdown-safe news brief. Use short bullets only when the news clearly breaks into distinct items."
+        )
+    )
+    citation_article_indices: list[int] = Field(
+        description=(
+            "Zero-based article indices backing the summary, ordered by importance. "
+            "Only include indices that exist in the provided article list."
+        )
+    )
+
+
 class NewsSummarizer:
     def __init__(
         self,
@@ -83,6 +97,62 @@ class NewsSummarizer:
 
         return chunks
 
+    def _clip_text(self, value: object, limit: int) -> str:
+        text = str(value or "").strip()
+        if len(text) <= limit:
+            return text
+        return text[: limit - 3].rstrip() + "..."
+
+    def summarize_articles_prompt(
+        self,
+        *,
+        subject: str,
+        articles: list[dict[str, object]],
+        sentence_budget: str,
+    ) -> str:
+        intro = (
+            f"You are writing a factual investor-facing news brief about {subject}. "
+            f"Write {sentence_budget}. Be specific about dates and numbers when the article text includes them. "
+            "Do not invent facts and do not give investment advice. "
+            "Return only JSON matching the schema. "
+            "Include the zero-based article indices that support the summary in citation_article_indices.\n\n"
+            "Articles:\n"
+        )
+        article_blocks = []
+        total_len = len(intro)
+        for idx, article in enumerate(articles):
+            block = "\n".join(
+                [
+                    f"Article {idx}:",
+                    f"Title: {self._clip_text(article.get('title', ''), 180)}",
+                    f"Publisher: {self._clip_text(article.get('publisher') or article.get('source') or '', 80)}",
+                    f"Published: {self._clip_text(article.get('published', ''), 40)}",
+                    f"URL: {self._clip_text(article.get('link') or article.get('url') or '', 220)}",
+                    f"Summary: {self._clip_text(article.get('summary', ''), 500)}",
+                    f"Text: {self._clip_text(article.get('text') or article.get('full_text') or '', 1200)}",
+                ]
+            )
+            projected = total_len + len(block) + 2
+            if article_blocks and projected > self.max_prompt_chars:
+                break
+            if not article_blocks and projected > self.max_prompt_chars:
+                block = "\n".join(
+                    [
+                        f"Article {idx}:",
+                        f"Title: {self._clip_text(article.get('title', ''), 120)}",
+                        f"Publisher: {self._clip_text(article.get('publisher') or article.get('source') or '', 60)}",
+                        f"Published: {self._clip_text(article.get('published', ''), 40)}",
+                        f"URL: {self._clip_text(article.get('link') or article.get('url') or '', 180)}",
+                        f"Summary: {self._clip_text(article.get('summary', ''), 300)}",
+                        f"Text: {self._clip_text(article.get('text') or article.get('full_text') or '', 500)}",
+                    ]
+                )
+            article_blocks.append(block)
+            total_len += len(block) + 2
+
+        context = "\n\n".join(article_blocks)
+        return intro + context
+
     async def _summarize_chunk(self, chunk: dict[str, str]) -> dict[str, str]:
         prompt = self._build_prompt(chunk)
         parsed_data = await self.client.create_structured(prompt, TrackSummaries)
@@ -131,6 +201,43 @@ class NewsSummarizer:
                     all_results[ticker] = "Error generating summary. Please check logs."
 
         return all_results
+
+    async def summarize_articles(
+        self,
+        *,
+        subject: str,
+        articles: list[dict[str, object]],
+        sentence_budget: str = "3-5 sentences",
+    ) -> SummaryWithCitations:
+        if not articles:
+            return SummaryWithCitations(summary="", citation_article_indices=[])
+
+        if not self.client:
+            count = min(3, len(articles))
+            return SummaryWithCitations(
+                summary="Mock summary sentence 1. Mock summary sentence 2.",
+                citation_article_indices=list(range(count)),
+            )
+
+        prompt = self.summarize_articles_prompt(
+            subject=subject,
+            articles=articles,
+            sentence_budget=sentence_budget,
+        )
+        parsed = await self.client.create_structured(prompt, SummaryWithCitations)
+        valid_indices = [
+            idx
+            for idx in parsed.citation_article_indices
+            if isinstance(idx, int) and 0 <= idx < len(articles)
+        ]
+        deduped_indices: list[int] = []
+        for idx in valid_indices:
+            if idx not in deduped_indices:
+                deduped_indices.append(idx)
+        return SummaryWithCitations(
+            summary=parsed.summary.strip(),
+            citation_article_indices=deduped_indices,
+        )
 
 
 if __name__ == "__main__":

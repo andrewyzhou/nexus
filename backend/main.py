@@ -4,10 +4,26 @@ import base64
 import hashlib
 import json
 import os
+from pathlib import Path
+import sys
 import time
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
+
+try:
+    from ai.pipeline.ticker_news_service import (
+        get_ticker_news_summary_sync,
+        get_track_news_payload_sync,
+    )
+except ModuleNotFoundError:
+    repo_root = Path(__file__).resolve().parents[1]
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
+    from ai.pipeline.ticker_news_service import (
+        get_ticker_news_summary_sync,
+        get_track_news_payload_sync,
+    )
 
 app = Flask(__name__)
 
@@ -50,25 +66,9 @@ def _is_admin() -> bool:
     email = (user.get("email") or "").lower()
     return bool(email) and email in ADMIN_EMAILS
 
-
-# ── Anthropic client (optional; for /summary endpoints) ──────────────────
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-_anthropic = None
-if ANTHROPIC_API_KEY:
-    try:
-        import anthropic
-        _anthropic = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        print("[nexus] anthropic client initialized (Claude Haiku 4.5)")
-    except Exception as e:
-        print(f"[nexus] anthropic init failed: {e} — /summary will return empty")
-else:
-    print("[nexus] ANTHROPIC_API_KEY unset — /summary will return empty")
-
-
-# ── In-memory TTL cache for /summary responses ───────────────────────────
+# ── In-memory TTL cache for AI-backed news + summaries ───────────────────
 # Simple dict-of-(timestamp, payload). Process-local so multiple gunicorn
-# workers don't share — that's fine at this scale (~dozens of calls/day),
-# worst case we do a handful of extra Anthropic calls.
+# workers don't share — that's fine at this scale (~dozens of calls/day).
 _summary_cache: dict[str, tuple[float, dict]] = {}
 SUMMARY_CACHE_TTL = 15 * 60  # 15 minutes
 
@@ -82,6 +82,11 @@ def _cache_get(key: str):
 
 def _cache_set(key: str, value: dict):
     _summary_cache[key] = (time.time(), value)
+
+
+def _should_cache_summary_payload(payload: dict) -> bool:
+    status = payload.get("status")
+    return status in (None, "ok", "no_news")
 
 
 # ── Firebase auth (optional; off in dev, on in prod) ─────────────────────
@@ -178,6 +183,54 @@ def track_color(track_name: str) -> str:
 
 def slugify(name: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in name).strip("-")
+
+
+def _lookup_company_name(ticker: str) -> str | None:
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM companies WHERE ticker = %s", (ticker,))
+    row = cursor.fetchone()
+    conn.close()
+    return row[0] if row else None
+
+
+def _get_ticker_pipeline_payload(
+    ticker: str,
+    *,
+    company_name: str | None = None,
+) -> dict:
+    normalized_ticker = ticker.upper().strip()
+    cache_key = f"ticker-pipeline:{normalized_ticker}"
+    cached = _cache_get(cache_key)
+    if cached:
+        return cached
+
+    payload = get_ticker_news_summary_sync(
+        normalized_ticker,
+        company_name=company_name,
+    )
+    _cache_set(cache_key, payload)
+    return payload
+
+
+def _get_track_pipeline_payload(
+    *,
+    track_name: str,
+    constituents: list[dict[str, str]],
+    per_company: int = 3,
+) -> dict:
+    cache_key = f"track-pipeline:{slugify(track_name)}:{per_company}"
+    cached = _cache_get(cache_key)
+    if cached:
+        return cached
+
+    payload = get_track_news_payload_sync(
+        constituents,
+        track_name=track_name,
+        per_company=per_company,
+    )
+    _cache_set(cache_key, payload)
+    return payload
 
 
 @api.route("/companies")
@@ -362,59 +415,20 @@ def get_track_companies(track_id):
     conn.close()
     return jsonify(companies)
 
-
-def fetch_news_for(ticker: str, limit: int = 8) -> list:
-    """Pull news headlines for a ticker via yfinance (Yahoo Finance, free)."""
-    try:
-        import yfinance as yf
-    except Exception:
-        return []
-    try:
-        items = yf.Ticker(ticker).news or []
-    except Exception as e:
-        print(f"[news] yfinance failed for {ticker}: {e}")
-        return []
-
-    out = []
-    for it in items[:limit]:
-        # yfinance returns either flat dicts or wrapped {content: {...}} shapes
-        # depending on version — flatten both.
-        c = it.get("content") or it
-        title = c.get("title") or it.get("title")
-        if not title:
-            continue
-        link = (
-            (c.get("clickThroughUrl") or {}).get("url")
-            or (c.get("canonicalUrl") or {}).get("url")
-            or it.get("link")
-        )
-        publisher = (
-            (c.get("provider") or {}).get("displayName")
-            or c.get("publisher")
-            or it.get("publisher")
-        )
-        published = c.get("pubDate") or it.get("providerPublishTime")
-        summary = c.get("summary") or c.get("description") or ""
-        out.append({
-            "title": title,
-            "link": link,
-            "publisher": publisher,
-            "published": published,
-            "summary": summary,
-            "ticker": ticker,
-        })
-    return out
-
-
 @api.route("/companies/<ticker>/news")
 def get_company_news(ticker):
     limit = request.args.get("limit", default=8, type=int)
-    return jsonify(fetch_news_for(ticker.upper(), limit=limit))
+    ticker = ticker.upper().strip()
+    service_payload = _get_ticker_pipeline_payload(
+        ticker,
+        company_name=_lookup_company_name(ticker),
+    )
+    return jsonify((service_payload.get("news") or [])[:limit])
 
 
 @api.route("/tracks/<slug>/news")
 def get_track_news(slug):
-    """Aggregate news for the top-N companies (by market cap) in this track."""
+    """Aggregate pipeline-scraped news for the top-N companies in this track."""
     conn = get_conn()
     cursor = conn.cursor()
     cursor.execute("SELECT id, name FROM investment_tracks")
@@ -432,179 +446,22 @@ def get_track_news(slug):
     per_company = request.args.get("per", default=3, type=int)
 
     cursor.execute("""
-        SELECT c.ticker
+        SELECT c.ticker, c.name
         FROM companies c
         JOIN company_tracks ct ON ct.company_id = c.id
         WHERE ct.track_id = %s
         ORDER BY COALESCE(c.market_cap, 0) DESC
         LIMIT %s
     """, (track_id, top_n))
-    tickers = [r[0] for r in cursor.fetchall()]
+    companies = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
     conn.close()
 
-    aggregated = []
-    for t in tickers:
-        aggregated.extend(fetch_news_for(t, limit=per_company))
-    return jsonify(aggregated)
-
-
-# ── AI-summary endpoints (Claude Haiku 4.5 + native citations) ───────────
-#
-# The citations API returns structured references into the `documents`
-# array we pass in — we give one document per news article, which lets
-# the frontend scroll the exact article into view when the user clicks
-# a [1] [2] [3] marker in the summary.
-#
-# Design notes:
-#   - POST, not GET, so browser link-prefetch / prerender doesn't trigger
-#     an API call (and an Anthropic bill)
-#   - 15-min in-memory cache on the server. First user per ticker pays
-#     the API call; the next ~dozens within 15 min are free
-#   - Empty payload (not error) when ANTHROPIC_API_KEY isn't set, so the
-#     frontend degrades gracefully in dev
-#   - Usage logged per call so `journalctl -u nexus -f | grep summary`
-#     shows live cost
-
-def build_summary(
-    articles: list[dict],
-    subject: str,
-    constituents: list[dict] | None = None,
-) -> dict:
-    """
-    Turn a list of news articles into a Claude-generated summary with
-    inline citations.
-
-    Args:
-        articles: each has {title, summary, link, publisher, published, ticker}.
-        subject: ticker ('NVDA') or track descriptor
-            ('the Advertising Agencies - China investment track').
-        constituents: for track summaries, the list of companies whose news
-            is aggregated in `articles`. Shape: [{ticker, name}, ...]. Without
-            this the model has no way to connect a track label to the news
-            documents and often refuses with 'I don't have information about X'.
-
-    Returns:
-        {
-          "summary": "...", "citations": [...], "used_articles": N,
-          "cached": False, "model": "..."
-        }
-    """
-    if not _anthropic or not articles:
-        return {"summary": "", "citations": [], "used_articles": 0,
-                "cached": False, "model": None}
-
-    documents = []
-    for i, art in enumerate(articles):
-        body_parts = []
-        if art.get("title"):     body_parts.append(art["title"])
-        if art.get("summary"):   body_parts.append(art["summary"])
-        body = "\n\n".join(body_parts).strip()
-        if not body:
-            continue
-        documents.append({
-            "type": "document",
-            "source": {
-                "type": "content",
-                "content": [{"type": "text", "text": body}],
-            },
-            "title": art.get("publisher") or f"Article {i + 1}",
-            "context": f"article_index={i}; ticker={art.get('ticker', '')}",
-            "citations": {"enabled": True},
-        })
-
-    if not documents:
-        return {"summary": "", "citations": [], "used_articles": 0,
-                "cached": False, "model": None}
-
-    # Build the user-message prompt. For track summaries we inject the
-    # constituent companies explicitly so the model knows the documents
-    # ARE the track's evidence and doesn't refuse with "I don't have info
-    # about <track name>."
-    user_prompt_lines = []
-    if constituents:
-        roster = ", ".join(
-            f"{c['ticker']} ({c['name']})" if c.get("name") else c["ticker"]
-            for c in constituents
-        )
-        user_prompt_lines.append(
-            f"The following news articles cover {subject}, which includes these "
-            f"public companies: {roster}. Treat each article as news about one "
-            f"of these companies."
-        )
-    user_prompt_lines.append(
-        f"Summarize the recent news about {subject} in 3-5 sentences with "
-        "inline citations. If multiple companies have distinct news items, "
-        "a short bulleted list is appropriate."
+    service_payload = _get_track_pipeline_payload(
+        track_name=target[1],
+        constituents=companies,
+        per_company=per_company,
     )
-    user_prompt = "\n\n".join(user_prompt_lines)
-
-    msg = _anthropic.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=700,
-        system=(
-            f"You are writing a 3-5 sentence news brief about {subject} for a "
-            "retail investor. Cite every factual claim back to the source "
-            "documents using the citations API. Be specific about dates and "
-            "numbers when the source has them. Do not invent facts. Neutral, "
-            "factual tone — no hype, no recommendations.\n\n"
-            "Format with light markdown where it aids readability: "
-            "**bold** for the 1-2 most important phrases per summary, "
-            "and a short bulleted list if the news naturally breaks into "
-            "multiple distinct items. Do NOT use headings, tables, or code "
-            "blocks. Plain prose is fine when nothing stands out."
-        ),
-        messages=[{
-            "role": "user",
-            "content": [
-                *documents,
-                {"type": "text", "text": user_prompt},
-            ],
-        }],
-    )
-
-    # Walk content blocks. Each text block can have a `citations` list.
-    # The SDK may expose fields as attrs (v0.x) or dict keys (rare) — handle
-    # both without blowing up.
-    def _get(obj, name, default=None):
-        if hasattr(obj, name):
-            return getattr(obj, name, default)
-        if isinstance(obj, dict):
-            return obj.get(name, default)
-        return default
-
-    text_parts = []
-    cite_list = []
-    ref_counter = 0
-    for block in msg.content:
-        if _get(block, "type") != "text":
-            continue
-        text_parts.append(_get(block, "text", ""))
-        for c in (_get(block, "citations") or []):
-            ref_counter += 1
-            cite_list.append({
-                "ref": ref_counter,
-                "article_index": _get(c, "document_index"),
-                "cited_text": _get(c, "cited_text"),
-            })
-
-    # Log usage (journalctl -u nexus -f | grep summary)
-    try:
-        usage = msg.usage
-        in_tok = getattr(usage, "input_tokens", 0)
-        out_tok = getattr(usage, "output_tokens", 0)
-        cost_usd = (in_tok * 1 + out_tok * 5) / 1_000_000  # Haiku 4.5 pricing
-        print(f"[summary] subject={subject!r} docs={len(documents)} "
-              f"input={in_tok} output={out_tok} cost=${cost_usd:.4f}")
-    except Exception:
-        pass
-
-    return {
-        "summary": "".join(text_parts).strip(),
-        "citations": cite_list,
-        "used_articles": len(documents),
-        "cached": False,
-        "model": "claude-haiku-4-5-20251001",
-    }
+    return jsonify(service_payload.get("news") or [])
 
 
 @api.route("/companies/<ticker>/summary", methods=["POST"])
@@ -614,9 +471,16 @@ def get_company_summary(ticker):
     cached = _cache_get(cache_key)
     if cached:
         return jsonify({**cached, "cached": True})
-    articles = fetch_news_for(ticker, limit=10)
-    result = build_summary(articles, subject=ticker)
-    _cache_set(cache_key, result)
+    service_payload = _get_ticker_pipeline_payload(
+        ticker,
+        company_name=_lookup_company_name(ticker),
+    )
+    result = {
+        **service_payload,
+        "news": None,
+    }
+    if _should_cache_summary_payload(result):
+        _cache_set(cache_key, result)
     return jsonify(result)
 
 
@@ -645,16 +509,14 @@ def get_track_summary(slug):
     constituents = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
     conn.close()
 
-    articles = []
-    for c in constituents:
-        articles.extend(fetch_news_for(c["ticker"], limit=3))
-
-    result = build_summary(
-        articles,
-        subject=f"the {track_name} investment track",
+    service_payload = _get_track_pipeline_payload(
+        track_name=track_name,
         constituents=constituents,
+        per_company=3,
     )
-    _cache_set(cache_key, result)
+    result = {**service_payload, "news": None}
+    if _should_cache_summary_payload(result):
+        _cache_set(cache_key, result)
     return jsonify(result)
 
 
