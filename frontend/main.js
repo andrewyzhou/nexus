@@ -1184,9 +1184,12 @@ function openPanel(d) {
 
       ${t ? `
         <div class="panel-section-title">Investment Track</div>
-        <a class="track-badge track-badge--link" href="track.html?slug=${encodeURIComponent(t.id)}" style="--badge-color:${color}">
-          ${t.label}
-        </a>
+        <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 16px;">
+          <a class="track-badge track-badge--link" href="track.html?slug=${encodeURIComponent(t.id)}" style="--badge-color:${color}; margin-bottom: 0;">
+            ${t.label}
+          </a>
+          <button class="track-toggle-btn" id="panel-track-toggle-btn" data-track="${t.id}" title="${hiddenTracks.has(t.id) ? 'Add track to graph' : 'Remove track from graph'}">${hiddenTracks.has(t.id) ? '+' : '✕'}</button>
+        </div>
       ` : ''}
 
       ${d.description ? `
@@ -1219,6 +1222,17 @@ function openPanel(d) {
         addBtn.classList.add('on-graph');
         addBtn.textContent = '✕ Remove from graph';
       }
+    });
+  }
+
+  const trackToggleBtn = document.getElementById('panel-track-toggle-btn');
+  if (trackToggleBtn) {
+    trackToggleBtn.addEventListener('click', () => {
+      const tid = trackToggleBtn.dataset.track;
+      toggleTrack(tid);
+      const isHidden = hiddenTracks.has(tid);
+      trackToggleBtn.textContent = isHidden ? '+' : '✕';
+      trackToggleBtn.title = isHidden ? 'Add track to graph' : 'Remove track from graph';
     });
   }
 
