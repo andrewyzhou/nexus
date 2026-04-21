@@ -263,35 +263,57 @@ def get_neighbors(ticker):
     max_weight = request.args.get("max_weight", type=float)
     limit = request.args.get("limit", default=50, type=int)
 
-    conditions = ["(r.source_ticker = %s OR r.target_ticker = %s)"]
-    params = [ticker, ticker]
+    # Handle competitor relationships specially: generated from shared tracks
+    if rel_type == "competitor":
+        cursor.execute("""
+            SELECT DISTINCT c2.ticker
+            FROM company_tracks ct1
+            JOIN company_tracks ct2 ON ct1.track_id = ct2.track_id
+            JOIN companies c1 ON c1.id = ct1.company_id
+            JOIN companies c2 ON c2.id = ct2.company_id
+            WHERE c1.ticker = %s AND c2.ticker != %s
+            LIMIT %s
+        """, (ticker, ticker, limit))
+        comp_tickers = [r[0] for r in cursor.fetchall()]
+        neighbor_tickers = set(comp_tickers)
+        
+        # Generate synthetic edge rows for competitors
+        edge_rows = [
+            (None, ticker, ct, "competitor", 1.0, None)  # (id, source, target, type, weight, metadata)
+            for ct in comp_tickers
+        ]
+    else:
+        # Query database relationships for non-competitor types
+        conditions = ["(r.source_ticker = %s OR r.target_ticker = %s)"]
+        params = [ticker, ticker]
 
-    if rel_type:
-        conditions.append("r.relationship_type = %s")
-        params.append(rel_type)
-    if min_weight is not None:
-        conditions.append("r.weight >= %s")
-        params.append(min_weight)
-    if max_weight is not None:
-        conditions.append("r.weight <= %s")
-        params.append(max_weight)
+        if rel_type:
+            conditions.append("r.relationship_type = %s")
+            params.append(rel_type)
+        if min_weight is not None:
+            conditions.append("r.weight >= %s")
+            params.append(min_weight)
+        if max_weight is not None:
+            conditions.append("r.weight <= %s")
+            params.append(max_weight)
 
-    params.append(limit)
+        params.append(limit)
 
-    cursor.execute(f"""
-        SELECT r.id, r.source_ticker, r.target_ticker, r.relationship_type, r.weight, r.metadata
-        FROM relationships r
-        WHERE {' AND '.join(conditions)}
-        ORDER BY r.weight DESC
-        LIMIT %s
-    """, params)
+        cursor.execute(f"""
+            SELECT r.id, r.source_ticker, r.target_ticker, r.relationship_type, r.weight, r.metadata
+            FROM relationships r
+            WHERE {' AND '.join(conditions)}
+            ORDER BY r.weight DESC
+            LIMIT %s
+        """, params)
 
-    edge_rows = cursor.fetchall()
+        edge_rows = cursor.fetchall()
 
-    neighbor_tickers = set()
-    for row in edge_rows:
-        neighbor_tickers.add(row[1])
-        neighbor_tickers.add(row[2])
+        neighbor_tickers = set()
+        for row in edge_rows:
+            neighbor_tickers.add(row[1])
+            neighbor_tickers.add(row[2])
+    
     neighbor_tickers.discard(ticker)
 
     all_tickers = list(neighbor_tickers | {ticker})

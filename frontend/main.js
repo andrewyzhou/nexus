@@ -474,14 +474,19 @@ function loadPinnedRelationships(ticker, container) {
   Promise.all([
     fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
     fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
-  ]).then(([supData, subData]) => {
+    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=competitor`).then(r => r.ok ? r.json() : { edges: [] }),
+  ]).then(([supData, subData, compData]) => {
     const supplies_to  = (supData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
     const supplied_by  = (supData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
     const owns         = (subData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
     const owned_by     = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
+    const comp_of = Array.from(new Set([
+      ...((compData.edges || []).filter(e => e.source === ticker).map(e => e.target)),
+      ...((compData.edges || []).filter(e => e.target === ticker).map(e => e.source)),
+    ]));
 
     const sections = [
-      { label: 'Competitors', color: EDGE_COLORS.competitor, tickers: competitors },
+      { label: 'Competitors', color: EDGE_COLORS.competitor, tickers: comp_of },
       { label: 'Customers',   color: EDGE_COLORS.supplier,   tickers: supplies_to },
       { label: 'Suppliers',   color: EDGE_COLORS.supplier,   tickers: supplied_by },
       { label: 'Owns',        color: EDGE_COLORS.ownership,  tickers: owns },
@@ -1148,6 +1153,7 @@ function openPanel(d) {
       let role = e.type;
       if (e.type === 'ownership') role = isSource ? 'Owns' : 'Owned By';
       if (e.type === 'supplier')   role = isSource ? 'Supplier Of' : 'Customer Of';
+      if (e.type === 'competitor') role = 'Competitor Of';
       return { ticker: tkr, role };
     });
 
@@ -1288,6 +1294,7 @@ function openPanel(d) {
     const groups = {
       'Supplier Of': [],
       'Customer Of': [],
+      'Competitor Of': [],
       'Owned By': [],
       'Owns': []
     };
@@ -1357,12 +1364,15 @@ function openPanel(d) {
   Promise.all([
     fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
     fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
-  ]).then(([subData, supData]) => {
+    fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=competitor`).then(r => r.ok ? r.json() : { edges: [] }),
+  ]).then(([subData, supData, compData]) => {
     const extra = [
       ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Owns',         ticker: e.target })),
       ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Owned By',     ticker: e.source })),
       ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplier Of',  ticker: e.target })),
       ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Customer Of',  ticker: e.source })),
+      ...(compData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Competitor Of', ticker: e.target })),
+      ...(compData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Competitor Of', ticker: e.source }))
     ];
     updateTabs([...graphConnections, ...extra]);
   }).catch(() => {});

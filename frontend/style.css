@@ -962,9 +962,10 @@ html[data-theme="light"] .stock-website-link:hover {
 /* ── Panel Tabs ───────────────────────────────────────────── */
 .panel-tabs {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* allow tabs to wrap to next line when necessary */
   gap: 4px;
   margin: var(--sp-md) 0 var(--sp-sm);
+  -webkit-overflow-scrolling: touch;
 }
 
 .panel-tab-btn {
@@ -973,12 +974,13 @@ html[data-theme="light"] .stock-website-link:hover {
   color: var(--text-secondary);
   border-radius: var(--radius-sm);
   padding: 5px 8px;
-  font-size: 11px;
+  font-size: 9px;
   font-family: var(--font-mono);
   cursor: pointer;
   transition: all var(--t-fast);
-  flex-grow: 1;
+  flex: 0 1 auto; /* allow shrinking and wrapping to next line */
   text-align: center;
+  white-space: nowrap;
 }
 
 .panel-tab-btn:hover {
