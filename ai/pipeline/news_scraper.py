@@ -427,7 +427,7 @@ class NewsScraper:
         self, session: aiohttp.ClientSession, ticker: str, company_name: str | None = None
     ) -> list[dict[str, object]]:
         """Tier 2: RSS feeds (myFT / Google News fallback)."""
-        results: list[str] = []
+        results: list[dict[str, object]] = []
 
         if self.myft_rss_url:
             try:

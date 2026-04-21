@@ -25,19 +25,21 @@ def _build_news_items(
     *,
     ticker_override: str | None = None,
     limit: int | None = None,
+    include_text: bool = False,
 ) -> list[dict[str, Any]]:
-    items = [
-        {
+    items: list[dict[str, Any]] = []
+    for article in articles:
+        item = {
             "title": article.get("title", ""),
             "link": article.get("url", ""),
             "publisher": article.get("source", "Unknown"),
             "published": article.get("published"),
             "summary": article.get("summary", ""),
             "ticker": ticker_override or article.get("ticker", ""),
-            "text": article.get("text", ""),
         }
-        for article in articles
-    ]
+        if include_text:
+            item["text"] = article.get("text", "")
+        items.append(item)
     if limit is not None:
         return items[:limit]
     return items
@@ -86,6 +88,7 @@ async def get_ticker_news_summary(
     summarizer: NewsSummarizer | None = None,
     session: aiohttp.ClientSession | None = None,
     news_limit: int | None = None,
+    include_summary: bool = True,
 ) -> dict[str, Any]:
     """Return backend/frontend-ready news and summary payload for a single ticker."""
     load_dotenv()
@@ -116,18 +119,32 @@ async def get_ticker_news_summary(
             normalized_ticker,
             company_name,
         )
-        visible_news = _build_news_items(articles, ticker_override=normalized_ticker, limit=news_limit)
+        visible_news = _build_news_items(
+            articles,
+            ticker_override=normalized_ticker,
+            limit=news_limit,
+        )
+        summary_articles = _build_news_items(
+            articles,
+            ticker_override=normalized_ticker,
+            limit=news_limit,
+            include_text=True,
+        )
 
         summary_error: str | None = None
-        if not articles:
+        if not visible_news:
             summary_text = ""
             citation_indices: list[int] = []
             status = "scrape_error" if scrape_error else "no_news"
+        elif not include_summary:
+            summary_text = ""
+            citation_indices = []
+            status = "ok"
         else:
             try:
                 summary_result = await local_summarizer.summarize_articles(
                     subject=normalized_ticker,
-                    articles=visible_news,
+                    articles=summary_articles,
                     sentence_budget="3-5 sentences",
                 )
                 summary_text = summary_result.summary
@@ -147,7 +164,7 @@ async def get_ticker_news_summary(
             "citations": citations,
             "used_articles": len(visible_news),
             "cached": False,
-            "model": _model_label(local_summarizer),
+            "model": _model_label(local_summarizer) if include_summary else None,
             "as_of": _iso_now(),
             "status": status,
             "errors": {
@@ -169,6 +186,7 @@ async def get_track_news_payload(
     summarizer: NewsSummarizer | None = None,
     session: aiohttp.ClientSession | None = None,
     per_company: int = 3,
+    include_summary: bool = True,
 ) -> dict[str, Any]:
     """Return frontend-ready aggregated news and summary payload for a track."""
     load_dotenv()
@@ -205,16 +223,21 @@ async def get_track_news_payload(
             aggregated_articles.extend(articles[: max(0, per_company)])
 
         news_items = _build_news_items(aggregated_articles)
+        summary_articles = _build_news_items(aggregated_articles, include_text=True)
         summary_error: str | None = None
         if not news_items:
             summary_text = ""
             citation_indices = []
             status = "scrape_error" if scrape_errors else "no_news"
+        elif not include_summary:
+            summary_text = ""
+            citation_indices = []
+            status = "ok"
         else:
             try:
                 summary_result = await local_summarizer.summarize_articles(
                     subject=f"the {track_name} investment track",
-                    articles=news_items,
+                    articles=summary_articles,
                     sentence_budget="3-5 sentences or a short bulleted list when useful",
                 )
                 summary_text = summary_result.summary
@@ -232,7 +255,7 @@ async def get_track_news_payload(
             "citations": _citations_from_indices(news_items, citation_indices),
             "used_articles": len(news_items),
             "cached": False,
-            "model": _model_label(local_summarizer),
+            "model": _model_label(local_summarizer) if include_summary else None,
             "as_of": _iso_now(),
             "status": status,
             "errors": {
@@ -253,6 +276,7 @@ def get_ticker_news_summary_sync(
     company_name: str | None = None,
     summarizer_model: str | None = None,
     news_limit: int | None = None,
+    include_summary: bool = True,
 ) -> dict[str, Any]:
     return asyncio.run(
         get_ticker_news_summary(
@@ -260,6 +284,7 @@ def get_ticker_news_summary_sync(
             company_name=company_name,
             summarizer_model=summarizer_model,
             news_limit=news_limit,
+            include_summary=include_summary,
         )
     )
 
@@ -270,6 +295,7 @@ def get_track_news_payload_sync(
     track_name: str,
     summarizer_model: str | None = None,
     per_company: int = 3,
+    include_summary: bool = True,
 ) -> dict[str, Any]:
     return asyncio.run(
         get_track_news_payload(
@@ -277,5 +303,6 @@ def get_track_news_payload_sync(
             track_name=track_name,
             summarizer_model=summarizer_model,
             per_company=per_company,
+            include_summary=include_summary,
         )
     )
