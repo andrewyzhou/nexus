@@ -11,6 +11,13 @@ from config import DATABASE_URL
 
 app = Flask(__name__)
 
+# All routes live under this prefix so nginx can proxy /nexus/api/* → us while
+# the client's existing app keeps owning the root. Override with
+# NEXUS_API_PREFIX (e.g. "") if you want to mount at root in a bare deploy.
+API_PREFIX = os.getenv("NEXUS_API_PREFIX", "/nexus/api")
+api = Blueprint("nexus_api", __name__, url_prefix=API_PREFIX)
+
+
 # CORS allow-list. In dev we want the whole web open; in prod we pin it to
 # the iPick origin so browsers from elsewhere can't call the API directly.
 _cors_env = os.getenv("NEXUS_CORS_ORIGINS", "*")
@@ -23,12 +30,6 @@ else:
         supports_credentials=True,
         allow_headers=["Authorization", "Content-Type"],
     )
-
-# All routes live under this prefix so nginx can proxy /nexus/api/* → us while
-# the client's existing app keeps owning the root. Override with
-# NEXUS_API_PREFIX (e.g. "") if you want to mount at root in a bare deploy.
-API_PREFIX = os.getenv("NEXUS_API_PREFIX", "/nexus/api")
-api = Blueprint("nexus_api", __name__, url_prefix=API_PREFIX)
 
 # ── Admin allowlist ─────────────────────────────────────────────────────
 # Email allowlist for /nexus/api/admin/* routes. Every request to those
@@ -1256,6 +1257,6 @@ def _root():
         "endpoints": sorted({str(r) for r in app.url_map.iter_rules() if "nexus_api" in r.endpoint}),
     })
 
-
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.getenv("PORT", "5001")))
+
