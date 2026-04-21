@@ -198,9 +198,12 @@ def _get_ticker_pipeline_payload(
     ticker: str,
     *,
     company_name: str | None = None,
+    news_limit: int | None = None,
+    include_summary: bool = True,
 ) -> dict:
     normalized_ticker = ticker.upper().strip()
-    cache_key = f"ticker-pipeline:{normalized_ticker}"
+    mode = "summary" if include_summary else "news"
+    cache_key = f"ticker-pipeline:{normalized_ticker}:{mode}:{news_limit}"
     cached = _cache_get(cache_key)
     if cached:
         return cached
@@ -208,8 +211,11 @@ def _get_ticker_pipeline_payload(
     payload = get_ticker_news_summary_sync(
         normalized_ticker,
         company_name=company_name,
+        news_limit=news_limit,
+        include_summary=include_summary,
     )
-    _cache_set(cache_key, payload)
+    if _should_cache_summary_payload(payload):
+        _cache_set(cache_key, payload)
     return payload
 
 
@@ -218,8 +224,10 @@ def _get_track_pipeline_payload(
     track_name: str,
     constituents: list[dict[str, str]],
     per_company: int = 3,
+    include_summary: bool = True,
 ) -> dict:
-    cache_key = f"track-pipeline:{slugify(track_name)}:{per_company}"
+    mode = "summary" if include_summary else "news"
+    cache_key = f"track-pipeline:{slugify(track_name)}:{mode}:{per_company}"
     cached = _cache_get(cache_key)
     if cached:
         return cached
@@ -228,8 +236,10 @@ def _get_track_pipeline_payload(
         constituents,
         track_name=track_name,
         per_company=per_company,
+        include_summary=include_summary,
     )
-    _cache_set(cache_key, payload)
+    if _should_cache_summary_payload(payload):
+        _cache_set(cache_key, payload)
     return payload
 
 
@@ -422,8 +432,10 @@ def get_company_news(ticker):
     service_payload = _get_ticker_pipeline_payload(
         ticker,
         company_name=_lookup_company_name(ticker),
+        news_limit=limit,
+        include_summary=False,
     )
-    return jsonify((service_payload.get("news") or [])[:limit])
+    return jsonify(service_payload.get("news") or [])
 
 
 @api.route("/tracks/<slug>/news")
@@ -460,6 +472,7 @@ def get_track_news(slug):
         track_name=target[1],
         constituents=companies,
         per_company=per_company,
+        include_summary=False,
     )
     return jsonify(service_payload.get("news") or [])
 
@@ -474,6 +487,8 @@ def get_company_summary(ticker):
     service_payload = _get_ticker_pipeline_payload(
         ticker,
         company_name=_lookup_company_name(ticker),
+        news_limit=8,
+        include_summary=True,
     )
     result = {
         **service_payload,
@@ -513,6 +528,7 @@ def get_track_summary(slug):
         track_name=track_name,
         constituents=constituents,
         per_company=3,
+        include_summary=True,
     )
     result = {**service_payload, "news": None}
     if _should_cache_summary_payload(result):

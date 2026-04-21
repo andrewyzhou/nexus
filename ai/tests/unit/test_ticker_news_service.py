@@ -84,6 +84,54 @@ class TestTickerNewsService:
             {"ref": 1, "article_index": 0, "cited_text": "Nvidia launches chip"},
             {"ref": 2, "article_index": 1, "cited_text": "Nvidia signs deal"},
         ]
+        assert "text" not in result["news"][0]
+
+    def test_news_only_path_skips_summarizer_and_respects_limit(self):
+        scraper = StubScraper(
+            {
+                "NVDA": [
+                    _article(ticker="NVDA", title="One", url="https://example.com/1"),
+                    _article(ticker="NVDA", title="Two", url="https://example.com/2"),
+                ]
+            }
+        )
+        summarizer = StubSummarizer()
+        summarizer.summarize_articles = AsyncMock(side_effect=AssertionError("should not be called"))
+
+        result = asyncio.run(
+            get_ticker_news_summary(
+                "NVDA",
+                scraper=scraper,
+                summarizer=summarizer,
+                news_limit=1,
+                include_summary=False,
+            )
+        )
+
+        assert result["status"] == "ok"
+        assert result["summary"] == ""
+        assert result["used_articles"] == 1
+        assert result["news"][0]["title"] == "One"
+        assert result["model"] is None
+
+    def test_zero_visible_news_does_not_report_ok(self):
+        scraper = StubScraper(
+            {"NVDA": [_article(ticker="NVDA", title="One", url="https://example.com/1")]}
+        )
+        summarizer = StubSummarizer()
+
+        result = asyncio.run(
+            get_ticker_news_summary(
+                "NVDA",
+                scraper=scraper,
+                summarizer=summarizer,
+                news_limit=0,
+            )
+        )
+
+        assert result["status"] == "no_news"
+        assert result["summary"] == ""
+        assert result["used_articles"] == 0
 
     def test_no_news_payload_stays_shape_stable(self):
         scraper = StubScraper({"NVDA": []})

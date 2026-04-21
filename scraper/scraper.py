@@ -35,7 +35,10 @@ from curl_cffi.requests import AsyncSession
 # optional so `from scraper import StockScraper` works for the hot path
 # (Yahoo Finance pulls) even when ten_k_fetch.py isn't in sys.path.
 ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "sec_pipeline" / "suppliers"))
+SEC_SUPPLIERS_DIR = ROOT / "sec_pipeline" / "suppliers"
+SEC_SUPPLIERS_DIR_STR = str(SEC_SUPPLIERS_DIR)
+if SEC_SUPPLIERS_DIR.is_dir() and SEC_SUPPLIERS_DIR_STR not in sys.path:
+    sys.path.insert(0, SEC_SUPPLIERS_DIR_STR)
 try:
     from fetcher import fetch_sec_sections
 except ModuleNotFoundError:
