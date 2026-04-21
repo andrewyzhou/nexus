@@ -490,10 +490,7 @@ def get_company_summary(ticker):
         news_limit=8,
         include_summary=True,
     )
-    result = {
-        **service_payload,
-        "news": None,
-    }
+    result = dict(service_payload)
     if _should_cache_summary_payload(result):
         _cache_set(cache_key, result)
     return jsonify(result)
@@ -530,7 +527,7 @@ def get_track_summary(slug):
         per_company=3,
         include_summary=True,
     )
-    result = {**service_payload, "news": None}
+    result = dict(service_payload)
     if _should_cache_summary_payload(result):
         _cache_set(cache_key, result)
     return jsonify(result)
