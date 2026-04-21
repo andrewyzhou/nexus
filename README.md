@@ -153,8 +153,11 @@ nexus/
 
 ---
 
-## First-time setup
+## Setup and Running the app
 
+**Note**: Make sure **Docker** is installed and running on your machine before proceeding, as the database runs inside a local Postgres container.
+
+### Dependencies
 ```bash
 git clone https://github.com/andrewyzhou/nexus.git
 cd nexus
@@ -165,26 +168,40 @@ python3 -m pip install -r scraper/requirements.txt
 
 # 2) Postgres in Docker
 docker compose -f backend/docker-compose.yml up -d
-# this starts a postgres:16 container on host port 5433
-# database: corporate_data, user: nexus, password: nexus
-
-# 3) Seed the database (LIVE Yahoo Finance pull, ~60s)
-python3 backend/db/seed_prod.py
-
-# Optional: cap to first N tickers for a fast iteration loop
-NEXUS_SEED_LIMIT=200 python3 backend/db/seed_prod.py
 ```
 
-When `seed_prod.py` finishes you should see something like:
-```
-Companies seeded: 4200
-Linking tracks from ticker_track.json...
-  tracks=1122  links=4199  unmatched=143
-Seeding relationships from task5 JSONs...
-Relationships upserted: 30  (skipped 0 unseen tickers)
+### Execution Steps
+1. **Download relationship data**
+   Download `supplier.json` and `subsidiary.json` data from the Slack channel or this [Google Drive link](https://drive.google.com/drive/folders/1smHj5mKg8s3eJ_vG9IkWizbdMU4uJmOZ?usp=drive_link). 
+   *(Note: only people in the project have access to this drive link).*
 
-Done. Backend is ready to serve live data.
-```
+2. **Place the files**
+   Place the downloaded JSON files into their respective folders:
+   - `sec_pipeline/subsidiary/subsidiary.json`
+   - `sec_pipeline/supplier/supplier.json`
+
+3. **Seed database**
+   Run the seed script located in `backend/db` to populate the database:
+   ```bash
+   python3 backend/db/seed_prod.py
+   ```
+   **Seeding Details:** This script pulls live market data via Yahoo Finance for ~4,300 tickers and maps out the corporate relationships from your SEC JSON files. **This process should take around 60 seconds.**
+   *(Optional: If you want a fast iteration loop for testing, cap the run to the first 200 records: `NEXUS_SEED_LIMIT=200 python3 backend/db/seed_prod.py`)*
+
+4. **Run frontend**
+   Open a new terminal and start the frontend static server:
+   ```bash
+   cd frontend && python3 -m http.server 8000
+   ```
+
+5. **Run backend**
+   Open a separate terminal and run the backend Flask API:
+   ```bash
+   python3 backend/main.py
+   ```
+   *(Flask serves on `http://localhost:5001`)*
+
+---
 
 ### About `python3` vs `python`
 
@@ -197,24 +214,6 @@ Or use a venv:
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r backend/requirements.txt -r scraper/requirements.txt
-```
-
----
-
-## Running the app
-
-You need **two terminals** (three if you want to keep `seed_prod.py` runs separate):
-
-**Terminal 1 — backend:**
-```bash
-python3 backend/main.py
-# Flask serves on http://localhost:5001
-```
-
-**Terminal 2 — frontend (any static server):**
-```bash
-cd frontend && python3 -m http.server 8000
-# open http://localhost:8000
 ```
 
 Then open **http://localhost:8000** in your browser:
