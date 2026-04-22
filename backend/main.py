@@ -243,7 +243,7 @@ def get_company(ticker):
         WHERE c.ticker = %s
     """, (ticker,))
     track = cursor.fetchone()
-    company["investment_track"] = {"id": track[0], "name": track[1]} if track else None
+    company["investment_track"] = {"id": track[0], "name": track[1], "slug": slugify(track[1])} if track else None
 
     conn.close()
     return jsonify(company)

@@ -35,13 +35,14 @@ async function init() {
   }
   document.getElementById('stock-title').textContent = ticker;
 
-  const [liveRes, newsRes] = await Promise.allSettled([
+  const [liveRes, newsRes, dbRes] = await Promise.allSettled([
     fetch(`${API_BASE}/companies/${ticker}/live`).then(r => r.ok ? r.json() : Promise.reject(r.status)),
     fetch(`${API_BASE}/companies/${ticker}/news`).then(r => r.ok ? r.json() : []),
+    fetch(`${API_BASE}/companies/${ticker}`).then(r => r.ok ? r.json() : null),
   ]);
 
   if (liveRes.status === 'fulfilled') {
-    renderStock(liveRes.value);
+    renderStock(liveRes.value, dbRes.status === 'fulfilled' ? dbRes.value : null);
   } else {
     document.getElementById('stock-description').textContent =
       `Backend unreachable or unknown ticker (${liveRes.reason}). Is main.py running?`;
@@ -52,7 +53,7 @@ async function init() {
   }
 
 
-function renderStock(d) {
+function renderStock(d, dbData) {
   document.title = `Nexus — ${d.ticker} ${d.companyName || ''}`;
   document.getElementById('stock-title').textContent = `${d.companyName || d.ticker} (${d.ticker})`;
   document.getElementById('stock-description').textContent = d.description || '';
@@ -62,8 +63,35 @@ function renderStock(d) {
     websiteEl.href = d.website;
     websiteWrap.style.display = 'block';
   }
-  document.getElementById('stock-track').textContent =
-    d.sector ? `${d.sector} · ${d.industry || ''}` : 'Stock';
+  
+  const trackEl = document.getElementById('stock-track');
+  if (dbData && dbData.investment_track) {
+    const tr = dbData.investment_track;
+    trackEl.innerHTML = `
+      <a href="track.html?slug=${tr.slug}" style="
+        display: inline-flex; 
+        align-items: center;
+        gap: 6px;
+        padding: 8px 16px; 
+        background: rgba(0, 212, 255, 0.12); 
+        border: 1px solid rgba(0, 212, 255, 0.3); 
+        border-radius: 8px; 
+        color: var(--track-accent, #00d4ff); 
+        font-weight: 600; 
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        cursor: pointer; 
+        text-decoration: none;
+        transition: all 0.2s ease;
+      " onmouseover="this.style.background='rgba(0, 212, 255, 0.2)'" onmouseout="this.style.background='rgba(0, 212, 255, 0.12)'">
+        <span>${tr.name}</span>
+        <span style="font-size: 14px;">↗</span>
+      </a>
+    `;
+  } else {
+    trackEl.textContent = d.sector ? `${d.sector} · ${d.industry || ''}` : 'Stock';
+  }
 
   function setPill(id, text) {
     const el = document.getElementById(id);

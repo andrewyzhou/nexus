@@ -157,7 +157,7 @@ function renderTable() {
         ${rows.map((c, i) => `
           <tr>
             <td class="dim">${i + 1}</td>
-            <td><strong>${c.ticker}</strong></td>
+            <td><a href="stock.html?ticker=${c.ticker}" style="text-decoration: underline; color: inherit; position: relative; z-index: 999; cursor: pointer;"><strong>${c.ticker}</strong></a></td>
             <td>${c.name || ''}</td>
             <td class="dim">${c.sector || '—'}</td>
             <td class="num">${c.price != null ? `$${fmtNum(c.price)}` : '—'}</td>
