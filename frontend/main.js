@@ -1,5 +1,3 @@
-console.log("🔥 MAIN.JS IS RUNNING");
-
 /**
  * main.js — Nexus Frontend
  *
@@ -48,11 +46,8 @@ let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 async function loadGraphData() {
-  console.log("🌐 loadGraphData entered");
   try {
-    console.log("➡️ fetching:", `${API_BASE}/graph`);
     const res = await fetch(`${API_BASE}/graph`);
-    console.log("📡 response status:", res.status, res.ok);
     if (!res.ok) throw new Error(`API ${res.status}`);
     const data = await res.json();
     if (data && Array.isArray(data.nodes) && data.nodes.length > 0) {
@@ -123,7 +118,6 @@ function loadState() {
 }
 
 async function init() {
-  console.log("🚀 init() START");
   // Block first fetch on Firebase auth when enabled (no-op otherwise).
   if (window.nexusAuthReady) await window.nexusAuthReady;
   const data = await loadGraphData();
@@ -151,7 +145,6 @@ async function init() {
   buildTrackCSS(tracks);
   buildSidebar(tracks, allNodes);
   buildGraph();
-  buildEdgeLegend();
   updateNodeCount();
   applyVisibility();
   renderPinnedList();
@@ -1434,4 +1427,8 @@ document.getElementById('graph-canvas').addEventListener('click', () => {
 
 
 // ── Kick off ──────────────────────────────────────────────────────────────────
+// Render the edge legend immediately — it depends only on the static
+// EDGE_COLORS constant, so there's no reason to wait on the API.
+// Otherwise the user sees an empty styled bubble until /graph responds.
+buildEdgeLegend();
 init();
