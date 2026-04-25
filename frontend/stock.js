@@ -86,7 +86,7 @@ function renderStock(d, dbData) {
         transition: all 0.2s ease;
       " onmouseover="this.style.background='rgba(0, 212, 255, 0.2)'" onmouseout="this.style.background='rgba(0, 212, 255, 0.12)'">
         <span>${tr.name}</span>
-        <span style="font-size: 14px;">↗</span>
+        <span style="font-size: 14px;">↗&#xFE0E;</span>
       </a>
     `;
   } else {

@@ -130,17 +130,35 @@ html:has(.track-body) body {
   outline: none;
 }
 
+#company-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .company-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
+  table-layout: fixed;
 }
+
+/* Column widths: #, Ticker, Name, Sector, Price, Market Cap, P/E */
+.company-table col:nth-child(1) { width: 40px; }
+.company-table col:nth-child(2) { width: 80px; }
+.company-table col:nth-child(3) { width: 220px; }
+.company-table col:nth-child(4) { width: 140px; }
+.company-table col:nth-child(5) { width: 80px; }
+.company-table col:nth-child(6) { width: 110px; }
+.company-table col:nth-child(7) { width: 70px; }
 
 .company-table th,
 .company-table td {
   text-align: left;
   padding: 10px 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .company-table th {

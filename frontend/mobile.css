@@ -1,0 +1,464 @@
+/* =========================================================
+   NEXUS — mobile.css
+   Mobile-first responsive overrides. Loaded after style.css
+   so it takes precedence at narrow widths.
+   ========================================================= */
+
+/* Hamburger menu button — hidden on desktop, shown on mobile */
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 0;
+  margin-right: 4px;
+}
+.mobile-menu-btn:active { background: var(--bg-hover); }
+.mobile-menu-btn svg { display: block; }
+
+/* Nav picker — shown on mobile when hamburger is tapped */
+.mobile-nav-picker {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-bright);
+  border-radius: 18px 18px 0 0;
+  padding: 10px 16px 32px;
+  transform: translateY(100%);
+  transition: transform 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-nav-picker::before {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 4px;
+  background: var(--border-bright);
+  border-radius: 2px;
+  margin: 0 auto 16px;
+}
+.mobile-nav-picker.active {
+  transform: translateY(0);
+}
+.nav-pick-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 14px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: background var(--t-fast), border-color var(--t-fast);
+}
+.nav-pick-btn:last-child { margin-bottom: 0; }
+.nav-pick-btn:active {
+  background: var(--bg-hover);
+  border-color: var(--border-bright);
+}
+.nav-pick-label {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Backdrop for sidebar when open on mobile */
+.mobile-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 60;
+  opacity: 0;
+  transition: opacity var(--t-med);
+}
+.mobile-backdrop.active {
+  display: block;
+  opacity: 1;
+}
+
+/* ────────────────────────────────────────────────────────── */
+/* TABLET                                                     */
+/* ────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  :root {
+    --sidebar-w: 280px;
+    --panel-w: 320px;
+  }
+}
+
+/* ────────────────────────────────────────────────────────── */
+/* MOBILE — single column, slide-out sidebar, bottom sheet    */
+/* ────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  :root {
+    --header-h: 52px;
+    --sidebar-w: 85vw;
+    --panel-w: 100vw;
+  }
+
+  /* Show hamburger, hide separator */
+  .mobile-menu-btn {
+    display: inline-flex;
+  }
+
+  /* Picker only renders on mobile */
+  .mobile-nav-picker {
+    display: block;
+  }
+
+  /* App shell becomes single column */
+  #app {
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--header-h) 1fr;
+    grid-template-areas:
+      "header"
+      "main";
+  }
+
+  /* Header: tighter padding, smaller logo */
+  #header {
+    padding: 0 12px;
+    gap: 8px;
+  }
+  #header .logo {
+    font-size: 14px;
+    letter-spacing: 0.06em;
+  }
+  #header .header-right {
+    gap: 8px;
+  }
+  .ipick-logo-link {
+    padding: 1px 5px;
+  }
+  .ipick-logo {
+    height: 18px;
+  }
+
+  /* Sidebar: slide-out drawer */
+  #sidebar {
+    position: fixed;
+    top: var(--header-h);
+    left: 0;
+    width: var(--sidebar-w);
+    max-width: 320px;
+    height: calc(100vh - var(--header-h));
+    transform: translateX(-100%);
+    transition: transform var(--t-slow);
+    z-index: 70;
+    box-shadow: 2px 0 12px rgba(0,0,0,0.4);
+  }
+  #sidebar.open {
+    transform: translateX(0);
+  }
+
+  /* Main fills full width */
+  #main {
+    grid-area: main;
+    width: 100vw;
+    height: calc(100vh - var(--header-h));
+  }
+
+  /* Edge legend sits at the bottom on mobile */
+  #edge-legend {
+    bottom: 8px !important;
+    right: 8px !important;
+    left: 8px !important;
+    font-size: 10px !important;
+    padding: 6px 8px !important;
+  }
+
+  /* Detail panel becomes a bottom sheet */
+  #detail-panel {
+    top: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 75vh;
+    max-height: 75vh;
+    border-left: none;
+    border-top: 1px solid var(--border-bright);
+    border-radius: 16px 16px 0 0;
+    transform: translateY(100%);
+    transition: transform var(--t-slow);
+    box-shadow: 0 -8px 24px rgba(0,0,0,0.4);
+  }
+  #detail-panel.open {
+    transform: translateY(0);
+    box-shadow: 0 -12px 32px rgba(0,0,0,0.5);
+  }
+
+  /* Drag handle for the bottom sheet */
+  #detail-panel::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 4px;
+    background: var(--border-bright);
+    border-radius: 2px;
+    z-index: 5;
+  }
+
+  .panel-header {
+    padding: 18px 16px 12px;
+  }
+
+  /* Filter pills — make track buttons more touch-friendly */
+  .track-control-btn {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  /* Sidebar sections tighter on mobile */
+  .sidebar-section {
+    padding: 12px;
+  }
+
+  /* Search input bigger for touch */
+  #search-input {
+    font-size: 16px; /* prevents iOS zoom on focus */
+    padding: 11px 12px 11px 36px;
+  }
+
+  /* ────────────────────────────────────────────────────── */
+  /* TRACK PAGE                                              */
+  /* ────────────────────────────────────────────────────── */
+  #track-main {
+    padding: 16px 14px 60px;
+  }
+
+  #track-hero {
+    padding: 20px 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  #track-title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  #track-description {
+    font-size: 13px;
+  }
+
+  .track-eyebrow {
+    font-size: 10px;
+  }
+
+  .meta-pill {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  /* Website button — reset the desktop negative-margin hack */
+  #stock-website-wrap {
+    margin-top: 12px !important;
+    margin-bottom: 0 !important;
+  }
+  .stock-website-link {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  #track-section {
+    margin-top: 24px;
+  }
+
+  .section-head {
+    margin-bottom: 12px;
+  }
+
+  .section-head h2 {
+    font-size: 16px;
+  }
+
+  /* Company table — convert to card-style rows
+     Columns: 1=#  2=Ticker  3=Name  4=Sector  5=Price  6=MarketCap  7=P/E */
+  .company-table thead {
+    display: none;
+  }
+  .company-table,
+  .company-table tbody {
+    display: block;
+    width: 100%;
+  }
+  .company-table tr {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 2px;
+    padding: 12px 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    align-items: center;
+  }
+  html[data-theme="light"] .company-table tr {
+    border-bottom-color: rgba(20,24,40,0.08);
+  }
+  .company-table td {
+    display: block;
+    padding: 0 !important;
+    border: none !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  /* col 1: # — top-left, small dim number */
+  .company-table td:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    min-width: 18px;
+  }
+  /* col 2: Ticker — bottom-left */
+  .company-table td:nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  /* col 3: Name — top-middle, fills space */
+  .company-table td:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  /* col 4: Sector — bottom-middle */
+  .company-table td:nth-child(4) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  /* col 5: Price — hide (shown in market cap row) */
+  .company-table td:nth-child(5) {
+    display: none;
+  }
+  /* col 6: Market Cap — top-right */
+  .company-table td:nth-child(6) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    text-align: right;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 600;
+  }
+  /* col 7: P/E — bottom-right */
+  .company-table td:nth-child(7) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    text-align: right;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .ai-summary {
+    padding: 14px 14px;
+  }
+
+  .ai-summary .summary-text {
+    font-size: 13.5px;
+    line-height: 1.6;
+  }
+
+  /* News items — full-width cards, tighter spacing */
+  .news-item {
+    padding: 12px 14px;
+  }
+  .news-title {
+    font-size: 13px;
+  }
+  .news-summary {
+    font-size: 12px;
+  }
+  .news-meta {
+    font-size: 10px;
+  }
+
+  /* ────────────────────────────────────────────────────── */
+  /* STOCK PAGE — same hero/section style                   */
+  /* ────────────────────────────────────────────────────── */
+  #stock-title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  /* TradingView chart — shrink height on mobile */
+  #stock-chart-widget {
+    height: 320px !important;
+  }
+
+  /* Hide "Track all markets on TradingView" attribution bar on mobile */
+  .tradingview-widget-copyright {
+    display: none !important;
+  }
+  #stock-chart-widget .tradingview-widget-container__widget {
+    height: 100% !important;
+  }
+
+  /* Stats grid — 2 columns on mobile */
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .stat-cell {
+    padding: 10px 12px;
+  }
+  .stat-label {
+    font-size: 10px;
+  }
+  .stat-val {
+    font-size: 14px;
+  }
+
+  /* Back link — make it a bigger tap target */
+  .back-link {
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+}
+
+/* ────────────────────────────────────────────────────────── */
+/* SMALL PHONES                                                */
+/* ────────────────────────────────────────────────────────── */
+@media (max-width: 380px) {
+  #header {
+    padding: 0 10px;
+  }
+  #header .logo {
+    font-size: 13px;
+  }
+  .ipick-logo-link {
+    display: none; /* hide on tiny screens to save space */
+  }
+  #track-title,
+  #stock-title {
+    font-size: 22px;
+  }
+  #track-hero {
+    padding: 16px 14px;
+  }
+}

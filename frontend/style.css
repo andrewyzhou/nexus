@@ -5,7 +5,7 @@
    when real API data comes in.
    ========================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&family=Geist:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* ── Track colors (replace with API values later) ───────── */
 :root {
@@ -44,7 +44,7 @@
 
   /* ── Typography ─────────────────────────────────────────── */
   --font-mono: 'Geist Mono', monospace;
---font-body: 'Geist', sans-serif;
+  --font-body: 'Inter', sans-serif;
   --radius-sm:   6px;
   --radius-md:   10px;
 
@@ -85,6 +85,7 @@ html, body {
   grid-area: header;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 var(--sp-lg);
   gap: var(--sp-md);
   background: var(--bg-surface);
@@ -124,7 +125,6 @@ html, body {
 }
 
 #header .header-right {
-  margin-left: auto;
   display: flex;
   align-items: center;
   gap: var(--sp-md);
@@ -177,33 +177,18 @@ html, body {
   border-right: 1px solid var(--border);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   z-index: 50;
 }
 
 .sidebar-section {
   padding: var(--sp-md);
   border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
 }
 
 .sidebar-section:last-child { border-bottom: none; }
-
-/* The tracks section flexes to fill remaining height and lets its inner
-   list scroll independently of the legend below it. */
-.sidebar-section.tracks-section {
-  flex: 1 1 0;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-.sidebar-section.tracks-section #track-list {
-  flex: 1 1 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  min-height: 0;
-  padding-right: 6px;
-}
 
 /* Inline 'select all / clear' controls — sit next to the section label */
 .tracks-header {
@@ -376,19 +361,13 @@ html[data-theme="light"] .track-control-btn {
   gap: 4px;
 }
 
-/* Companies section — scrollable, shares space with tracks */
+/* Companies section */
 #pinned-section {
-  flex: 1 1 0;
-  min-height: 0;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 #pinned-list {
-  flex: 1 1 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  min-height: 0;
+  overflow: visible;
   padding-right: 6px;
 }
 
@@ -1124,6 +1103,19 @@ html[data-theme="light"] .stock-website-link:hover {
 #track-list::-webkit-scrollbar-thumb,
 #pinned-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
+/* ── Icon button centering — SVG icons, no font metric tricks needed */
+.track-toggle-btn,
+.pinned-chevron-btn,
+.conn-add-btn,
+.conn-remove-btn,
+#panel-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
 /* ── Animations ───────────────────────────────────────────── */
 @keyframes pulse {
   0%, 100% { opacity: 1; box-shadow: 0 0 10px var(--accent); }
@@ -1135,33 +1127,7 @@ html[data-theme="light"] .stock-website-link:hover {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ───────────────────────────────────────────── */
-@media (max-width: 900px) {
-  :root {
-    --sidebar-w: 260px;
-    --panel-w: 300px;
-  }
-}
-
-@media (max-width: 640px) {
-  #app {
-    grid-template-columns: 1fr;
-    grid-template-rows: var(--header-h) 1fr;
-    grid-template-areas: "header" "main";
-  }
-  #sidebar {
-    position: fixed;
-    top: var(--header-h);
-    left: 0;
-    width: var(--sidebar-w);
-    height: calc(100vh - var(--header-h));
-    transform: translateX(-100%);
-    transition: transform var(--t-slow);
-    z-index: 70;
-  }
-  #sidebar.open { transform: translateX(0); }
-  :root { --panel-w: 100vw; }
-}
+/* ── Responsive: see mobile.css for breakpoint overrides ──── */
 
 /* ── Add/Remove graph button states ──────────────────────── */
 .panel-add-btn {

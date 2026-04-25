@@ -10,15 +10,26 @@
   const theme = stored || 'light';
   document.documentElement.dataset.theme = theme;
 
+  // ︎ = Unicode text variation selector — forces glyph to render as
+  // monochrome text rather than a color emoji on iOS/Android.
+  function themeIcon(t) { return t === 'light' ? '☾︎' : '☀︎'; }
+
   function apply(t) {
     document.documentElement.dataset.theme = t;
     localStorage.setItem(KEY, t);
     const btn = document.getElementById('theme-toggle');
-    if (btn) btn.textContent = t === 'light' ? '☾' : '☀';
+    if (btn) btn.textContent = themeIcon(t);
   }
 
+  // Set icon immediately (no flash) if the button is already in the DOM.
+  // Also runs again on DOMContentLoaded as a guarantee for deferred scripts.
+  function syncBtn() {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) btn.textContent = themeIcon(document.documentElement.dataset.theme || 'light');
+  }
+  syncBtn();
   document.addEventListener('DOMContentLoaded', () => {
-    apply(document.documentElement.dataset.theme || 'light');
+    syncBtn();
     const btn = document.getElementById('theme-toggle');
     if (btn) {
       btn.addEventListener('click', () => {

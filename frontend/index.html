@@ -6,6 +6,7 @@
   <title>Nexus</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="theme.css" />
+  <link rel="stylesheet" href="mobile.css" />
 
   <!-- D3.js v7 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -19,13 +20,28 @@
 
     <!-- ── Header ──────────────────────────────────────────── -->
     <header id="header">
+      <button id="mobile-menu" class="mobile-menu-btn" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
       <div class="logo">NEXUS</div>
-      <div class="header-sep"></div>
       <div class="header-right">
         <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
-        <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
+        <button id="theme-toggle" class="theme-toggle" title="Toggle theme"></button>
       </div>
     </header>
+    <div id="mobile-backdrop" class="mobile-backdrop"></div>
+
+    <!-- ── Mobile nav picker ───────────────────────────────── -->
+    <div id="mobile-nav-picker" class="mobile-nav-picker" aria-hidden="true">
+      <button class="nav-pick-btn" data-target="pinned-section">
+        <span class="nav-pick-label">Companies</span>
+      </button>
+      <button class="nav-pick-btn" data-target="tracks-section">
+        <span class="nav-pick-label">Investment Tracks</span>
+      </button>
+    </div>
 
     <!-- ── Left Sidebar ────────────────────────────────────── -->
     <aside id="sidebar">
@@ -65,7 +81,7 @@
       </div>
 
       <!-- Track filters -->
-      <div class="sidebar-section tracks-section">
+      <div class="sidebar-section" id="tracks-section">
         <div class="tracks-header">
           <div class="sidebar-label">Investment Tracks</div>
           <div class="track-controls">
@@ -99,5 +115,65 @@
   <script src="auth.js"></script>
   <script src="theme.js"></script>
   <script src="main.js"></script>
+  <script>
+    (function() {
+      const menuBtn  = document.getElementById('mobile-menu');
+      const sidebar  = document.getElementById('sidebar');
+      const backdrop = document.getElementById('mobile-backdrop');
+      const picker   = document.getElementById('mobile-nav-picker');
+      if (!menuBtn || !sidebar || !backdrop || !picker) return;
+
+      const closeSidebar = () => {
+        sidebar.classList.remove('open');
+        backdrop.classList.remove('active');
+      };
+      const closePicker = () => {
+        picker.classList.remove('active');
+        picker.setAttribute('aria-hidden', 'true');
+        backdrop.classList.remove('active');
+      };
+
+      menuBtn.addEventListener('click', () => {
+        if (window.innerWidth > 768) {
+          // Desktop: just toggle sidebar normally
+          sidebar.classList.toggle('open');
+          backdrop.classList.toggle('active');
+          return;
+        }
+        // Mobile: show the nav picker
+        if (picker.classList.contains('active')) {
+          closePicker();
+        } else {
+          picker.classList.add('active');
+          picker.setAttribute('aria-hidden', 'false');
+          backdrop.classList.add('active');
+        }
+      });
+
+      picker.querySelectorAll('.nav-pick-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const targetId = btn.dataset.target;
+          closePicker();
+          // Open sidebar and scroll to the chosen section
+          sidebar.classList.add('open');
+          requestAnimationFrame(() => {
+            const section = document.getElementById(targetId);
+            if (section) section.scrollIntoView({ block: 'start', behavior: 'smooth' });
+          });
+        });
+      });
+
+      backdrop.addEventListener('click', () => {
+        closeSidebar();
+        closePicker();
+      });
+
+      sidebar.addEventListener('click', (e) => {
+        if (window.innerWidth > 768) return;
+        const target = e.target.closest('.track-item, .pinned-item, .search-dropdown-item, a');
+        if (target) closeSidebar();
+      });
+    })();
+  </script>
 </body>
 </html>

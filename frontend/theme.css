@@ -98,12 +98,18 @@ html[data-theme="light"] .sort-row select {
   border-color: rgba(20, 24, 40, 0.15) !important;
 }
 
-html[data-theme="light"] .back-link,
-html[data-theme="light"] .theme-toggle { color: #5b6172 !important; }
+html[data-theme="light"] .back-link { color: rgba(26, 29, 43, 0.6) !important; }
 html[data-theme="light"] .back-link:hover { color: #1a1d2b !important; }
+html[data-theme="light"] .theme-toggle {
+  border-color: rgba(26, 29, 43, 0.12) !important;
+  color: rgba(26, 29, 43, 0.6) !important;
+}
+html[data-theme="light"] .theme-toggle:hover {
+  border-color: rgba(26, 29, 43, 0.25) !important;
+  color: #1a1d2b !important;
+}
 html[data-theme="light"] .ipick-logo-link { background: transparent; }
 html[data-theme="light"] .ipick-logo { filter: none; }
-html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !important; }
 
 /* ── Stats grid + news layout (shared by track and stock pages) ── */
 .stats-grid {
@@ -153,22 +159,26 @@ html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !i
 
 .theme-toggle {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.7);
-  border-radius: 6px;
-  width: 30px;
-  height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin-left: 8px;
   flex-shrink: 0;
+  transition: all 0.15s ease;
+  font-family: var(--font-mono);
 }
-.theme-toggle:hover { color: #fff; }
+.theme-toggle:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+}
 
 .dim { color: rgba(255, 255, 255, 0.45); }
 .small { font-size: 11px; }

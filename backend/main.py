@@ -817,7 +817,7 @@ def get_graph():
     track_id_by_db_id = {db_id: slugify(name) for db_id, name in track_rows}
 
     cursor.execute("""
-        SELECT c.id, c.ticker, c.name, c.sector, c.market_cap, c.price, c.description,
+        SELECT c.id, c.ticker, c.name, c.sector, c.market_cap, c.price,
                COALESCE(
                  array_agg(ct.track_id) FILTER (WHERE ct.track_id IS NOT NULL),
                  ARRAY[]::int[]
@@ -827,7 +827,7 @@ def get_graph():
         GROUP BY c.id
     """)
     nodes = []
-    for cid, ticker, name, sector, market_cap, price, description, track_ids in cursor.fetchall():
+    for cid, ticker, name, sector, market_cap, price, track_ids in cursor.fetchall():
         slugs = [track_id_by_db_id[t] for t in track_ids if t in track_id_by_db_id]
         nodes.append({
             "id": ticker.lower(),
@@ -838,7 +838,6 @@ def get_graph():
             "price": price,
             "track": slugs[0] if slugs else "uncategorized",
             "tracks": slugs,
-            "description": description or "",
         })
 
     cursor.execute("""
