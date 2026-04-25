@@ -150,6 +150,13 @@
     height: 18px;
   }
 
+  /* Theme toggle: bump contrast on mobile (no hover state to lean on).
+     Light mode is already legible; dark mode needs the boost. */
+  html:not([data-theme="light"]) .theme-toggle {
+    border-color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, 0.95);
+  }
+
   /* Sidebar: slide-out drawer */
   #sidebar {
     position: fixed;

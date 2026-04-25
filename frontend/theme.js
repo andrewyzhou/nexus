@@ -15,10 +15,18 @@
   function themeIcon(t) { return t === 'light' ? '☾︎' : '☀︎'; }
 
   function apply(t) {
-    document.documentElement.dataset.theme = t;
+    // Suppress all transitions during the theme flip so the swap is
+    // instant rather than a wave of background/color animations across
+    // every surface. Re-enabled on the next frame.
+    const root = document.documentElement;
+    root.classList.add('theme-switching');
+    root.dataset.theme = t;
     localStorage.setItem(KEY, t);
     const btn = document.getElementById('theme-toggle');
     if (btn) btn.textContent = themeIcon(t);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => root.classList.remove('theme-switching'));
+    });
   }
 
   // Set icon immediately (no flash) if the button is already in the DOM.

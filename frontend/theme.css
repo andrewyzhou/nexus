@@ -8,6 +8,16 @@
  * Activated by [data-theme="light"] on <html>; defaults to light per spec.
  */
 
+/* Kill all transitions during the theme flip — see theme.js apply().
+   Without this, every surface animates its color change simultaneously,
+   which feels like the toggle is laggy on mobile. */
+html.theme-switching,
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition: none !important;
+}
+
 html[data-theme="light"] {
   /* Core palette */
   --bg-base:        #f6f7fb;
