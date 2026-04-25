@@ -4,23 +4,34 @@
    so it takes precedence at narrow widths.
    ========================================================= */
 
-/* Hamburger menu button — hidden on desktop, shown on mobile */
+/* Sidebar trigger — shares the green-plus / red-X pattern with .conn-add-btn
+   used elsewhere (toggles `on-graph` to flip color/icon). Sized larger than
+   .conn-add-btn for a comfortable tap target. */
 .mobile-menu-btn {
   display: none;
   background: transparent;
-  border: none;
-  color: var(--text-primary);
-  width: 36px;
-  height: 36px;
+  color: #10b981;
+  border: 1.5px solid #10b981;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border-radius: 6px;
   padding: 0;
   margin-right: 4px;
+  transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
 }
-.mobile-menu-btn:active { background: var(--bg-hover); }
+.mobile-menu-btn:hover  { background: rgba(16, 185, 129, 0.12); }
+.mobile-menu-btn:active { background: rgba(16, 185, 129, 0.2); }
 .mobile-menu-btn svg { display: block; }
+
+.mobile-menu-btn.on-graph {
+  color: #dc2626;
+  border-color: #dc2626;
+}
+.mobile-menu-btn.on-graph:hover  { background: rgba(220, 38, 38, 0.12); }
+.mobile-menu-btn.on-graph:active { background: rgba(220, 38, 38, 0.2); }
 
 /* Nav picker — shown on mobile when hamburger is tapped */
 .mobile-nav-picker {

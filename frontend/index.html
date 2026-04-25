@@ -21,8 +21,9 @@
     <!-- ── Header ──────────────────────────────────────────── -->
     <header id="header">
       <button id="mobile-menu" class="mobile-menu-btn" aria-label="Add companies or tracks">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-          <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        <svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <line x1="6" y1="1" x2="6" y2="11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <line x1="1" y1="6" x2="11" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
         </svg>
       </button>
       <div class="logo">NEXUS</div>
@@ -123,58 +124,72 @@
       const picker   = document.getElementById('mobile-nav-picker');
       if (!menuBtn || !sidebar || !backdrop || !picker) return;
 
+      // Same icon swap as .conn-add-btn elsewhere: green plus → red X
+      // when "active" (i.e. the sidebar/picker is open).
+      const ICON_PLUS = '<svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="6" y1="1" x2="6" y2="11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="6" x2="11" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+      const ICON_X    = '<svg width="14" height="14" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="1" y1="1" x2="9" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="1" x2="1" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+
+      const setMenuOpen = (open) => {
+        menuBtn.classList.toggle('on-graph', open);
+        menuBtn.innerHTML = open ? ICON_X : ICON_PLUS;
+        menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Add companies or tracks');
+      };
+
       const closeSidebar = () => {
         sidebar.classList.remove('open');
         sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
         backdrop.classList.remove('active');
+        setMenuOpen(false);
       };
       const closePicker = () => {
         picker.classList.remove('active');
         picker.setAttribute('aria-hidden', 'true');
         backdrop.classList.remove('active');
+        setMenuOpen(false);
       };
 
       menuBtn.addEventListener('click', () => {
         if (window.innerWidth > 768) {
           // Desktop: just toggle sidebar normally — never filter sections
           sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
-          sidebar.classList.toggle('open');
-          backdrop.classList.toggle('active');
+          const opened = sidebar.classList.toggle('open');
+          backdrop.classList.toggle('active', opened);
+          setMenuOpen(opened);
           return;
         }
-        // Mobile: show the nav picker
-        if (picker.classList.contains('active')) {
+        // Mobile: if anything is open, close it. Otherwise show the picker.
+        if (sidebar.classList.contains('open') || picker.classList.contains('active')) {
+          closeSidebar();
           closePicker();
         } else {
           picker.classList.add('active');
           picker.setAttribute('aria-hidden', 'false');
           backdrop.classList.add('active');
+          setMenuOpen(true);
         }
       });
-
-      const clearSidebarFilter = () => {
-        sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
-      };
 
       picker.querySelectorAll('.nav-pick-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           const targetId = btn.dataset.target;
-          closePicker();
-          // Mobile: show only the chosen section
-          clearSidebarFilter();
+          // Hand off from picker → sidebar without flipping the icon back.
+          picker.classList.remove('active');
+          picker.setAttribute('aria-hidden', 'true');
+          sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
           if (targetId === 'pinned-section') {
             sidebar.classList.add('show-pinned-only');
           } else if (targetId === 'tracks-section') {
             sidebar.classList.add('show-tracks-only');
           }
           sidebar.classList.add('open');
+          backdrop.classList.add('active');
+          setMenuOpen(true);
         });
       });
 
       backdrop.addEventListener('click', () => {
         closeSidebar();
         closePicker();
-        clearSidebarFilter();
       });
 
       sidebar.addEventListener('click', (e) => {
