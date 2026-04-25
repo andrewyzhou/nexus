@@ -384,12 +384,14 @@ html[data-theme="light"] .track-control-btn {
 .pinned-item {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 }
 
 .pinned-item .track-item {
   display: flex;
   align-items: center;
   gap: 5px;
+  flex-shrink: 0;
 }
 
 .pinned-ticker {
@@ -546,6 +548,7 @@ html[data-theme="light"] .track-control-btn {
   transition: background var(--t-fast);
   user-select: none;
   border: 1px solid transparent;
+  flex-shrink: 0;
 }
 
 .track-item:hover { background: var(--bg-hover); }

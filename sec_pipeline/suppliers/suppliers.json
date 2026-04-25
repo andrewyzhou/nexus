@@ -1,7 +1,6 @@
 {
   "A": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Delaware",
       "AGILENT TECHNOLOGIES, INC.",
       "Petasens",
@@ -61,7 +60,6 @@
   },
   "AAOI": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Lam Research Corporation",
       "Global Foundries Inc.",
       "Coherent Corporation",
@@ -98,7 +96,6 @@
   },
   "ABBV": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Teva Pharmaceuticals",
       "Pfizer Inc.",
       "Novartis AG",
@@ -108,14 +105,11 @@
   },
   "ABCB": {
     "suppliers": [
-      "Ameris",
-      "TSM (Taiwan Semiconductor Manufacturing Corporation)"
+      "Ameris"
     ]
   },
   "ABCL": {
-    "suppliers": [
-      "{'name': 'Taiwan Semiconductor Manufacturing'}"
-    ]
+    "suppliers": []
   },
   "ABEV": {
     "suppliers": []
@@ -156,7 +150,6 @@
   },
   "ABM": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "LCM"
     ]
   },
@@ -363,7 +356,6 @@
   },
   "ACMR": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Global Foundries Inc.",
       "Mainland China",
       "E&Y",
@@ -394,7 +386,6 @@
   "ACRE": {
     "suppliers": [
       "Ares Management",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Western Digital Corporation",
       "Seagate Technology PLC"
     ]
@@ -501,8 +492,7 @@
       "Fred Hutchinson Cancer Research Center",
       "Sequenta Inc.",
       "Pfizer",
-      "Microsoft",
-      "Taiwan Semiconductor Manufacturing Company Ltd."
+      "Microsoft"
     ]
   },
   "ADRNY": {
@@ -526,7 +516,6 @@
       "ADTRAN Networks",
       "Huawei",
       "ZTE Corporation",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Samsung Electronics Co., Ltd.",
       "Texas Instruments Incorporated",
       "STMicroelectronics N.V."
@@ -541,8 +530,7 @@
       "Gold Horses, LLC",
       "Helping Hands Home Care Service, Inc.",
       "Great Lakes Home Care Unlimited,LLC",
-      "Upstate Home Care Solutions",
-      "TSM (Taiwan Semiconductor Manufacturing)"
+      "Upstate Home Care Solutions"
     ]
   },
   "ADV": {
@@ -570,9 +558,7 @@
     ]
   },
   "AEIS": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co."
-    ]
+    "suppliers": []
   },
   "AEM": {
     "suppliers": []
@@ -615,8 +601,7 @@
   "AEVA": {
     "suppliers": [
       "Soroush Salehian Dardashti",
-      "LG Electronics Inc.",
-      "Taiwan Semiconductor Manufacturing Company Ltd."
+      "LG Electronics Inc."
     ]
   },
   "AEXAY": {
@@ -695,9 +680,7 @@
     "suppliers": []
   },
   "AGNC": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "AGO": {
     "suppliers": []
@@ -1465,8 +1448,7 @@
   "ARRY": {
     "suppliers": [
       "U.S. Customs and Border Protection",
-      "Polysilicon",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Polysilicon"
     ]
   },
   "ARULF": {
@@ -1562,9 +1544,7 @@
     "suppliers": []
   },
   "ASLE": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "ASM": {
     "suppliers": []
@@ -1584,7 +1564,6 @@
   "ASNS": {
     "suppliers": [
       "Israeli bank",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Israel",
       "Israel Aerospace Industries"
     ]
@@ -1680,7 +1659,6 @@
       "Canada",
       "ASYS",
       "A",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "GlobalFoundries Inc.",
       "United States Steel Corporation",
       "Lincoln Electric Holdings, Inc.",
@@ -1737,7 +1715,6 @@
     "suppliers": [
       "Advanced Alloys & Solutions",
       "Tianna LLC",
-      "TSM (Taiwan Semiconductor Manufacturing Co., Ltd.)",
       "HPMCo LLC",
       "AMET Corporation",
       "Hoffman Estates Steel Company LLC",
@@ -1861,7 +1838,6 @@
   "AVA": {
     "suppliers": [
       "AVISTA CORPORATION",
-      "TAIWAN SEMICONDUCTOR MANUFACTURING CO. LTD.",
       "Alaska Electric Light and Power Company",
       "Alaska Energy and Resources Company",
       "Avista Capital",
@@ -1870,7 +1846,6 @@
   },
   "AVAH": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd",
       "Palmetto GBA"
     ]
   },
@@ -1981,7 +1956,6 @@
     "suppliers": [
       "Nexus Water Group Inc.",
       "US Government",
-      "TSM (Taiwan Semiconductor Manufacturing Co., Ltd.)",
       "Nexus Water Group, Inc."
     ]
   },
@@ -2052,7 +2026,6 @@
   },
   "AYI": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co. Ltd.",
       "U.S.",
       "Magna International Inc."
     ]
@@ -2085,7 +2058,6 @@
   "BA": {
     "suppliers": [
       "none",
-      "Taiwan Semiconductor Manufacturing Co., Ltd",
       "Lockheed Martin"
     ]
   },
@@ -2115,9 +2087,7 @@
     "suppliers": []
   },
   "BALL": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing (TSM)"
-    ]
+    "suppliers": []
   },
   "BAM": {
     "suppliers": []
@@ -2159,9 +2129,7 @@
     ]
   },
   "BAX": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited (TSM)"
-    ]
+    "suppliers": []
   },
   "BAYRY": {
     "suppliers": []
@@ -2297,9 +2265,7 @@
     "suppliers": []
   },
   "BDN": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "BDORY": {
     "suppliers": []
@@ -2327,7 +2293,6 @@
   },
   "BEAM": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "CROs (Contract Research Organizations)",
       "CROs",
       "CMOs"
@@ -2339,8 +2304,7 @@
   "BEEM": {
     "suppliers": [
       "Platinum Group L.L.C.",
-      "BEEM",
-      "Taiwan Semiconductor Manufacturing Co. Ltd."
+      "BEEM"
     ]
   },
   "BEEP": {
@@ -2483,7 +2447,6 @@
   },
   "BHRB": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "None"
     ]
   },
@@ -2495,9 +2458,7 @@
   },
   "BIIB": {
     "suppliers": [
-      "{'name': 'TSM'}",
       "Genentech",
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "Tysabri LLC",
       "Biogen Inc."
     ]
@@ -2660,7 +2621,6 @@
       "Oracle",
       "SAP",
       "Nation states and affiliated actors",
-      "TSM (Taiwan Semiconductor Manufacturing)",
       "Workday",
       "Snowflake",
       "Inc.",
@@ -2788,9 +2748,7 @@
   },
   "BMI": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Managed Security Service Provider (MSSP)",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Copper",
       "Aluminum"
     ]
@@ -3029,8 +2987,7 @@
   },
   "BSET": {
     "suppliers": [
-      "Noa Home Inc.",
-      "Taiwan Semiconductor Manufacturing Company,Inc."
+      "Noa Home Inc."
     ]
   },
   "BSM": {
@@ -3215,9 +3172,7 @@
     ]
   },
   "BXC": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co."
-    ]
+    "suppliers": []
   },
   "BXMT": {
     "suppliers": [
@@ -3376,7 +3331,6 @@
   "CALX": {
     "suppliers": [
       "Intel Corporation",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Ceragon Networks Inc."
     ]
   },
@@ -3415,7 +3369,6 @@
   "CARR": {
     "suppliers": [
       "{'name': 'Climate Solutions Americas'}",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "AEC Industries Inc.",
       "Koch Supply & Service Division LLC"
     ]
@@ -3551,7 +3504,6 @@
   },
   "CBT": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "petroleum refining operations",
       "coal tars",
       "coal tar producers"
@@ -3574,7 +3526,6 @@
   },
   "CCC": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "EvolutionIQ"
     ]
   },
@@ -3620,9 +3571,7 @@
     ]
   },
   "CCO": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
-    ]
+    "suppliers": []
   },
   "CCOEY": {
     "suppliers": []
@@ -3632,7 +3581,6 @@
       "{'type': 'supplier', 'name': 'Cogent Fiber Business'}",
       "{'type': 'manufacturer', 'name': 'Sprint Network'}",
       "Cogent Fiber Business",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Intel Corporation",
       "Texas Instruments Incorporated",
       "STMicroelectronics N.V."
@@ -4017,7 +3965,6 @@
       "national leasing companies",
       "regional firms",
       "couriers",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "China",
       "Cognizant Technology Solutions"
     ]
@@ -4029,9 +3976,7 @@
     "suppliers": []
   },
   "CHGG": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc."
-    ]
+    "suppliers": []
   },
   "CHH": {
     "suppliers": []
@@ -4243,7 +4188,6 @@
     "suppliers": [
       "none",
       "REI",
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "Thule",
       "Dometic",
       "Yakima",
@@ -4264,7 +4208,6 @@
   },
   "CLDX": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "EPA"
     ]
   },
@@ -4297,7 +4240,6 @@
   },
   "CLMB": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "ESD technology",
       "vendors"
     ]
@@ -4345,9 +4287,7 @@
     "suppliers": []
   },
   "CLS": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "CLSK": {
     "suppliers": [
@@ -4542,7 +4482,6 @@
   },
   "CNDT": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Lam Research Corporation",
       "GlobalFoundries Inc."
     ]
@@ -4788,7 +4727,6 @@
   "COTY": {
     "suppliers": [
       "Coty Inc.",
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "none"
     ]
   },
@@ -4862,8 +4800,7 @@
       "{'name': 'Harrods'}",
       "{'name': 'Harvey Nichols'}",
       "{'name': 'Printemps'}",
-      "{'name': 'Selfridges'}",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "{'name': 'Selfridges'}"
     ]
   },
   "CPRT": {
@@ -4937,7 +4874,6 @@
   },
   "CRCT": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd",
       "Copperhill Global Components LLC",
       "NXP Semiconductors N.V."
     ]
@@ -4950,8 +4886,7 @@
       "Broadcom Ltd.",
       "Marvell Technology",
       "Astera Labs",
-      "Maples Corporate Services",
-      "Taiwan Semiconductor Manufacturing Company Limited"
+      "Maples Corporate Services"
     ]
   },
   "CREQF": {
@@ -4991,7 +4926,6 @@
   },
   "CRL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "Avery Dennison Corporation",
       "STMicroelectronics,",
       "K.F. (Cambodia) Ltd.",
@@ -5046,7 +4980,6 @@
   },
   "CROX": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "major chemical manufacturers"
     ]
   },
@@ -5066,8 +4999,7 @@
   "CRSP": {
     "suppliers": [
       "Vertex",
-      "Sirius",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Sirius"
     ]
   },
   "CRSR": {
@@ -5098,7 +5030,6 @@
       "Texas Instruments",
       "Silicon Materials Inc.",
       "GlobalFOUNDRIES Inc.",
-      "Taiwan Semiconductor Manufacturing Company, Limited",
       "Advanced Semiconductor Engineering, Inc.",
       "STATS ChipPAC Pte. Ltd.",
       "Amkor Technology, Inc.",
@@ -5128,8 +5059,7 @@
   },
   "CSCO": {
     "suppliers": [
-      "Cisco Systems Inc.",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "Cisco Systems Inc."
     ]
   },
   "CSGP": {
@@ -5177,7 +5107,6 @@
   },
   "CSTM": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "National Aerospace and Defense Contractors Accreditation Program",
       "Brunel University",
       "NADCAP",
@@ -5216,7 +5145,6 @@
   },
   "CSX": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Quality Carriers",
       "CSX"
     ]
@@ -5264,8 +5192,7 @@
   },
   "CTNM": {
     "suppliers": [
-      "China",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "China"
     ]
   },
   "CTOS": {
@@ -5306,7 +5233,6 @@
   "CTVA": {
     "suppliers": [
       "DuPont",
-      "TSM (Taiwan Semiconductor Manufacturing Corporation)",
       "Corteva",
       "Kerber",
       "Pacto"
@@ -5333,10 +5259,8 @@
   },
   "CURV": {
     "suppliers": [
-      "{'name': 'Taiwan Semiconductor Manufacturing'}",
       "Torrid Holdings Inc.",
-      "China",
-      "Taiwan Semiconductor Manufacturing Company Limited"
+      "China"
     ]
   },
   "CUTR": {
@@ -5366,9 +5290,7 @@
     "suppliers": []
   },
   "CVEO": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
-    ]
+    "suppliers": []
   },
   "CVGW": {
     "suppliers": [
@@ -5474,7 +5396,6 @@
   },
   "CWH": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Dassault Systèmes SA",
       "Costco"
     ]
@@ -5522,9 +5443,7 @@
     ]
   },
   "CXW": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "CYATY": {
     "suppliers": []
@@ -5534,16 +5453,13 @@
   },
   "CYDY": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Global Contract Manufacturing Organization",
       "Another Global Contract Manufacturing Organization",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "CROs",
       "Takeda Pharmaceutical Company Limited",
       "Fujifilm Holdings Corporation",
       "Astellas Pharma Inc.",
-      "Mitsubishi Chemical Corporation",
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
+      "Mitsubishi Chemical Corporation"
     ]
   },
   "CYFRF": {
@@ -5559,9 +5475,7 @@
     "suppliers": []
   },
   "CYRX": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "CYTK": {
     "suppliers": [
@@ -5588,8 +5502,7 @@
     "suppliers": [
       "Payment Card Industry",
       "Caesars Rewards",
-      "VICI",
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
+      "VICI"
     ]
   },
   "D": {
@@ -5694,9 +5607,7 @@
     ]
   },
   "DBX": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "DC": {
     "suppliers": []
@@ -5711,8 +5622,7 @@
     "suppliers": [
       "GM",
       "Ford",
-      "Stellantis",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Stellantis"
     ]
   },
   "DCI": {
@@ -5730,8 +5640,7 @@
   },
   "DCTH": {
     "suppliers": [
-      "HEPZATO",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "HEPZATO"
     ]
   },
   "DD": {
@@ -5745,17 +5654,14 @@
   },
   "DDD": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Cypress Semiconductor Corporation",
       "United Technologies Corporation",
       "Honeywell International Inc.",
       "STMicroelectronics",
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "None",
       "Rock Hill",
       "Marly",
-      "Soesterberg",
-      "Taiwan Semiconductor Manufacturing (TSM)"
+      "Soesterberg"
     ]
   },
   "DDEJF": {
@@ -5777,8 +5683,7 @@
   },
   "DDS": {
     "suppliers": [
-      "{'name': 'Roundtree ð Yorke', 'stockTicker': None}",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "{'name': 'Roundtree ð Yorke', 'stockTicker': None}"
     ]
   },
   "DE": {
@@ -5895,17 +5800,14 @@
       "Telus",
       "Verizon",
       "Vodafone",
-      "Westbase",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "Westbase"
     ]
   },
   "DGNX": {
     "suppliers": []
   },
   "DGX": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd."
-    ]
+    "suppliers": []
   },
   "DGXX": {
     "suppliers": []
@@ -5992,8 +5894,7 @@
   },
   "DJCO": {
     "suppliers": [
-      "U.S. Postal Service",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "U.S. Postal Service"
     ]
   },
   "DJT": {
@@ -6011,7 +5912,6 @@
   "DKNG": {
     "suppliers": [
       "DraftKings Inc.",
-      "TSM (Taiwan Semiconductor Manufacturing Co., Ltd.)",
       "Intel Corporation",
       "AMD Inc."
     ]
@@ -6049,7 +5949,6 @@
   },
   "DLR": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "none"
     ]
   },
@@ -6173,8 +6072,7 @@
   "DORM": {
     "suppliers": [
       "Caterpillar Inc.",
-      "Dorm",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "Dorm"
     ]
   },
   "DOUG": {
@@ -6379,7 +6277,6 @@
   },
   "DUOL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Cree Inc."
     ]
   },
@@ -6431,8 +6328,7 @@
   "DXPE": {
     "suppliers": [
       "DXPE",
-      "Industrial Distribution magazine",
-      "Taiwan Semiconductor Manufacturing Co."
+      "Industrial Distribution magazine"
     ]
   },
   "DY": {
@@ -6510,7 +6406,6 @@
   },
   "ECG": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Intel Corporation",
       "Texas Instruments Incorporated"
     ]
@@ -6647,7 +6542,6 @@
   },
   "EGY": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Bank of Central African States"
     ]
   },
@@ -6830,7 +6724,6 @@
   },
   "ENR": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Limited",
       "United States Steel Corporation",
       "ArcelorMittal N.V.",
       "Evraz Group LLC",
@@ -6860,7 +6753,6 @@
   },
   "ENVX": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Cree Inc.",
       "Analog Devices Inc."
     ]
@@ -6908,9 +6800,7 @@
     ]
   },
   "EPR": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "EPRT": {
     "suppliers": [
@@ -6936,7 +6826,6 @@
   },
   "EQPT": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "Qualcomm Incorporated",
       "Broadcom Inc."
     ]
@@ -6951,7 +6840,6 @@
   },
   "ERAS": {
     "suppliers": [
-      "TSMC",
       "Cree Incorporated"
     ]
   },
@@ -7127,9 +7015,7 @@
     ]
   },
   "EVGO": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company,Inc."
-    ]
+    "suppliers": []
   },
   "EVGPF": {
     "suppliers": []
@@ -7205,7 +7091,6 @@
   },
   "EXEL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company,TD Medical Technology Inc.",
       "CARE Pharmaceuticals Inc.",
       "Ipsen",
       "Takeda",
@@ -7248,9 +7133,7 @@
     ]
   },
   "EXPE": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "EXPGY": {
     "suppliers": []
@@ -7345,7 +7228,6 @@
       "Feeding America",
       "Ronald McDonald House",
       "CO-Packers",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Rainforest Alliance Certified farms"
     ]
   },
@@ -7363,9 +7245,7 @@
     "suppliers": []
   },
   "FBIN": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc."
-    ]
+    "suppliers": []
   },
   "FBIO": {
     "suppliers": [
@@ -7562,8 +7442,7 @@
   },
   "FGNX": {
     "suppliers": [
-      "BlockFi Lending LLC",
-      "TSM (Taiwan Semiconductor Manufacturing Co., Ltd.)"
+      "BlockFi Lending LLC"
     ]
   },
   "FGPR": {
@@ -7587,7 +7466,6 @@
   },
   "FIBK": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "FDIC",
       "Federal Reserve",
       "Basel III",
@@ -7682,18 +7560,14 @@
     "suppliers": []
   },
   "FIVE": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd."
-    ]
+    "suppliers": []
   },
   "FIVN": {
     "suppliers": []
   },
   "FIX": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
-      "Comfort Systems USA, Inc.",
-      "TAIWAN SEMICONDUCTOR MANUFACTURING CO., LTD."
+      "Comfort Systems USA, Inc."
     ]
   },
   "FIZZ": {
@@ -7765,13 +7639,11 @@
   "FLR": {
     "suppliers": [
       "TRS Staffing Solutions",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Alumina Limited",
       "American Metal Industries LLC",
       "Mitsubishi Heavy Industries Ltd",
       "Wessex Foundry Limited",
-      "General Electric Company",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "General Electric Company"
     ]
   },
   "FLS": {
@@ -7941,12 +7813,10 @@
   },
   "FORM": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "CST Inc.",
       "Japan Electronic Materials Corporation",
       "Micronics Japan Co.",
-      "Technoprobe",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Technoprobe"
     ]
   },
   "FORR": {
@@ -7966,8 +7836,7 @@
     "suppliers": [
       "Global Blue Group Holding AG",
       "Searchlight Capital Partners L.P.",
-      "Rook Holdings Inc.",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "Rook Holdings Inc."
     ]
   },
   "FOX": {
@@ -7978,7 +7847,6 @@
   },
   "FOXF": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "BRP",
       "Ford",
       "Polaris",
@@ -8074,8 +7942,7 @@
   },
   "FRPT": {
     "suppliers": [
-      "BillyCyr",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "BillyCyr"
     ]
   },
   "FRRDF": {
@@ -8172,9 +8039,7 @@
     "suppliers": []
   },
   "FSUN": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing (TSM)"
-    ]
+    "suppliers": []
   },
   "FSV": {
     "suppliers": []
@@ -8238,7 +8103,6 @@
   },
   "FTNT": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Toshiba America Electronic Components",
       "Renesas Electronics America",
       "Intel Corporation",
@@ -8317,8 +8181,7 @@
   "FWRD": {
     "suppliers": [
       "FedEx Corporation",
-      "United Parcel Service",
-      "TSMC"
+      "United Parcel Service"
     ]
   },
   "FYBR": {
@@ -8346,7 +8209,6 @@
   },
   "GAME": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "Intel Corporation",
       "IBM Corporation",
       "Blue & Silver Ventures, Ltd"
@@ -8444,9 +8306,7 @@
     ]
   },
   "GCT": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "GD": {
     "suppliers": [
@@ -8534,7 +8394,6 @@
   },
   "GEF": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Russian Ruble"
     ]
   },
@@ -8647,9 +8506,7 @@
     "suppliers": []
   },
   "GGG": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "GGR": {
     "suppliers": []
@@ -8713,7 +8570,6 @@
   "GILD": {
     "suppliers": [
       "Gilead Sciences, Inc.",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Johnson & Johnson",
       "Alkermes plc",
       "Contract Manufacturers' Organization",
@@ -8788,7 +8644,6 @@
   },
   "GKOS": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Sanofi"
     ]
   },
@@ -8881,7 +8736,6 @@
       "Roche Basel",
       "Roche US",
       "Roche",
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "SanDisk Corporation",
       "Western Digital Corporation"
     ]
@@ -8929,7 +8783,6 @@
   },
   "GMED": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "Stryker",
       "Zimmer Biomet",
       "Bayer HealthCare Pharmaceuticals GmbH",
@@ -9074,7 +8927,6 @@
       "GlaxoSmithKline plc",
       "Pfizer Inc.",
       "CNIPA",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Novartis Pharmaceuticals Corporation",
       "Teva Pharmaceutical Industries Inc."
     ]
@@ -9145,7 +8997,6 @@
   "GRBK": {
     "suppliers": [
       "Canada",
-      "TSM (Taiwan Semiconductor Manufacturing)",
       "Wipro Limited",
       "Hewlett Packard Enterprise Company"
     ]
@@ -9271,9 +9122,7 @@
     "suppliers": []
   },
   "GTN": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "GTY": {
     "suppliers": [
@@ -9430,7 +9279,6 @@
       "Pool Corporation",
       "Heritage Pool Supply Group",
       "Baystate Pool 4 Supplies",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Cox Industries, Inc.",
       "China"
     ]
@@ -9440,8 +9288,7 @@
   },
   "HBB": {
     "suppliers": [
-      "Hamilton Beach",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Hamilton Beach"
     ]
   },
   "HBM": {
@@ -9516,12 +9363,10 @@
       "{'name': 'Olive & June'}",
       "{'name': 'Osprey'}",
       "Olive And June LLC",
-      "Taiwan Semiconductor Manufacturing Company, Limited (TSM)",
       "Curlsmith",
       "Osprey",
       "18c LLC",
       "CCL Industries Inc.",
-      "TMS (Taiwan Semiconductor Manufacturing)",
       "BASF"
     ]
   },
@@ -9751,10 +9596,7 @@
   "HOG": {
     "suppliers": [
       "Hogwarts Bicycle Company",
-      "Taiwan Semiconductor Manufacturing Co.",
-      "TSMC",
       "Harley-Davidson, Inc.",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Harley-Davidson Inc.",
       "HDMC",
       "STACYC"
@@ -9824,8 +9666,7 @@
       "Intel",
       "AMD",
       "Broadcom",
-      "NVIDIA",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "NVIDIA"
     ]
   },
   "HPK": {
@@ -9870,9 +9711,7 @@
     ]
   },
   "HRI": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc."
-    ]
+    "suppliers": []
   },
   "HRIBF": {
     "suppliers": []
@@ -10061,7 +9900,6 @@
       "China",
       "other international countries",
       "HUBBELL INCORPORATED",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Limited"
     ]
   },
@@ -10319,8 +10157,7 @@
   },
   "ICHR": {
     "suppliers": [
-      "IHS Markit Ltd.",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "IHS Markit Ltd."
     ]
   },
   "ICL": {
@@ -10366,7 +10203,6 @@
   },
   "IDT": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Western Union",
       "Ria",
       "Viamericas",
@@ -10482,9 +10318,7 @@
     ]
   },
   "ILMN": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing (TSM)"
-    ]
+    "suppliers": []
   },
   "ILPT": {
     "suppliers": []
@@ -10674,13 +10508,11 @@
   },
   "INVX": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Dril-Quip"
     ]
   },
   "IONQ": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Oxford Ionics Limited",
       "Lightsynq Technologies, Inc.",
       "id Quantique SA",
@@ -10835,8 +10667,7 @@
   },
   "IRTC": {
     "suppliers": [
-      "Verily Life Sciences LLC",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Verily Life Sciences LLC"
     ]
   },
   "IRWD": {
@@ -10883,7 +10714,6 @@
   },
   "ITRI": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "NVIDIA Corporation",
       "GlobalFoundries Inc."
     ]
@@ -10915,9 +10745,7 @@
     "suppliers": []
   },
   "IVT": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "IVTJF": {
     "suppliers": []
@@ -10998,10 +10826,8 @@
   },
   "JBL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "OSAT",
-      "Israel",
-      "Taiwan Semiconductor Manufacturing Co."
+      "Israel"
     ]
   },
   "JBLU": {
@@ -11210,9 +11036,7 @@
     "suppliers": []
   },
   "JYNT": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd."
-    ]
+    "suppliers": []
   },
   "KAEPY": {
     "suppliers": []
@@ -11258,7 +11082,6 @@
   },
   "KBR": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Honeywell International Inc."
     ]
   },
@@ -11330,13 +11153,11 @@
   },
   "KEYS": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Electronic Industrial Solutions Group EISG",
       "Automotive Original Equipment Manufacturers",
       "Tier 1 and 2 Suppliers",
       "Suppliers of alternative energy systems for green energy generation, storage, and control",
-      "Suppliers of enabling electronics technology such as high-power semiconductors and control systems",
-      "Taiwan Semiconductor Manufacturing Co."
+      "Suppliers of enabling electronics technology such as high-power semiconductors and control systems"
     ]
   },
   "KEYUF": {
@@ -11414,10 +11235,7 @@
   },
   "KLAC": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "SEMI",
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "Hitachi High-Technologies Corporation",
       "Onto Innovation, Inc.",
       "Lasertec, Inc."
@@ -11532,8 +11350,7 @@
   },
   "KNX": {
     "suppliers": [
-      "Knight-Swift Transportation Holdings Inc.",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Knight-Swift Transportation Holdings Inc."
     ]
   },
   "KNYJY": {
@@ -11812,8 +11629,7 @@
     "suppliers": [
       "Global CDK (CDK)",
       "Tesla",
-      "Rivian",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Rivian"
     ]
   },
   "LAES": {
@@ -11835,9 +11651,7 @@
     "suppliers": []
   },
   "LAUR": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "LAW": {
     "suppliers": [
@@ -11918,8 +11732,7 @@
       "StoneShield Engineering",
       "Thagora Technology SRL",
       "WIP Industrial Automation",
-      "M&N Plastics",
-      "Taiwan Semiconductor Manufacturing Company Ltd."
+      "M&N Plastics"
     ]
   },
   "LECO": {
@@ -12121,9 +11934,7 @@
     ]
   },
   "LINE": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
-    ]
+    "suppliers": []
   },
   "LINRF": {
     "suppliers": []
@@ -12139,7 +11950,6 @@
   },
   "LITE": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "CZCN"
     ]
   },
@@ -12160,7 +11970,6 @@
   },
   "LLY": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Aptiv PLC",
       "Magna International Inc.",
       "China-based suppliers"
@@ -12282,9 +12091,7 @@
     "suppliers": []
   },
   "LOCO": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "LOGI": {
     "suppliers": [
@@ -12364,8 +12171,7 @@
       "ICU Medical",
       "Pharmosa",
       "Vectura",
-      "United Therapeutics",
-      "Taiwan Semiconductor Manufacturing Co."
+      "United Therapeutics"
     ]
   },
   "LQDT": {
@@ -12440,7 +12246,6 @@
   },
   "LTCH": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Latch",
       "Inc."
     ]
@@ -12476,20 +12281,17 @@
   "LULU": {
     "suppliers": [
       "none",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "China Mainland",
       "South Korea",
       "Vietnam",
       "Cambodia",
       "Sri Lanka",
       "Indonesia",
-      "Bangladesh",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Bangladesh"
     ]
   },
   "LUMN": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Cisco Systems Inc.",
       "NONE"
     ]
@@ -12544,7 +12346,6 @@
   },
   "LVWR": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "China",
       "H-D",
       "KYMCO Group"
@@ -12577,7 +12378,6 @@
     "suppliers": [
       "Aluminum Corporation of China Limited",
       "Zhejiang Zirconium Industry Co Ltd",
-      "TSM (Taiwan Semiconductor Manufacturing Company Inc.)",
       "Intel Corporation",
       "Texas Instruments Incorporated",
       "Harris Corporation",
@@ -12602,7 +12402,6 @@
   },
   "LYB": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd",
       "Dow Inc.",
       "BASF SE",
       "NONE"
@@ -12612,7 +12411,6 @@
     "suppliers": [
       "Seattle Children’s Research Institute",
       "ImmPACT",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "CROs",
       "clinical investigators",
       "Innovative Cellular Therapeutics Holdings Limited",
@@ -12622,8 +12420,7 @@
   "LYFT": {
     "suppliers": [
       "Amazon Web Services",
-      "Amazon Web Services, Inc.",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Amazon Web Services, Inc."
     ]
   },
   "LYG": {
@@ -12717,9 +12514,7 @@
     ]
   },
   "MARA": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc."
-    ]
+    "suppliers": []
   },
   "MARUY": {
     "suppliers": []
@@ -12802,9 +12597,7 @@
     ]
   },
   "MBLY": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing (TSM)"
-    ]
+    "suppliers": []
   },
   "MBPFF": {
     "suppliers": []
@@ -12819,7 +12612,6 @@
       "Boats, LLC",
       "National Marine Manufacturers Association",
       "Statistical Surveys, Inc.",
-      "Taiwan Semiconductor Manufacturing Company, LLC",
       "Sun Power Technologies",
       "General Dynamics Ordnance & Tactical Systems Inc."
     ]
@@ -13001,9 +12793,7 @@
     ]
   },
   "MEDP": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd."
-    ]
+    "suppliers": []
   },
   "MEG": {
     "suppliers": []
@@ -13113,7 +12903,6 @@
   },
   "MHO": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "NONE"
     ]
   },
@@ -13135,7 +12924,6 @@
   "MIDD": {
     "suppliers": [
       "26North Partners LP",
-      "TSM (Taiwan Semiconductor Manufacturing)",
       "none"
     ]
   },
@@ -13190,8 +12978,6 @@
   },
   "MKSI": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Atotech Acquisition",
       "Penang, Malaysia",
       "Yangzhou, China",
@@ -13226,7 +13012,6 @@
   "MLI": {
     "suppliers": [
       "Mueller",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "China",
       "Mexico",
       "Canada",
@@ -13257,7 +13042,6 @@
   },
   "MLM": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Sinchem LLC"
     ]
   },
@@ -13277,8 +13061,7 @@
       "Boniface",
       "Omars",
       "Titan",
-      "Eagle",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Eagle"
     ]
   },
   "MLSPF": {
@@ -13346,8 +13129,7 @@
   "MNTN": {
     "suppliers": [
       "PTV",
-      "none",
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
+      "none"
     ]
   },
   "MNTS": {
@@ -13440,15 +13222,11 @@
   },
   "MPWR": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
-      "Taiwan Semiconductor Manufacturing Company Ltd",
       "Samsung Electronics Co.",
       "SMH Group Limited",
-      "TSMC",
       "Hong Kong Applied Sciences Limited",
       "Mingtai Nonferrous Metals Co. Ltd",
-      "Global Foundaries (Shanghai) Co. Ltd.",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Global Foundaries (Shanghai) Co. Ltd."
     ]
   },
   "MPZZF": {
@@ -13507,7 +13285,6 @@
   },
   "MRNA": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co Ltd",
       "Sanofi",
       "Siloam International Inc.",
       "Piramal Pharma Services Pvt. Ltd.",
@@ -13569,8 +13346,6 @@
   },
   "MSA": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Certain Metals",
       "Circored Ltd",
       "Polychem International Corporation",
@@ -13686,9 +13461,7 @@
     "suppliers": []
   },
   "MTN": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "MTNOY": {
     "suppliers": []
@@ -13822,7 +13595,6 @@
   },
   "MXL": {
     "suppliers": [
-      "TSMC",
       "UMC",
       "Intel Corporation",
       "Advanced Semiconductor Engineering",
@@ -13852,7 +13624,6 @@
   "NABL": {
     "suppliers": [
       "Microsoft",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Aitech Defense Systems Inc."
     ]
   },
@@ -13892,8 +13663,7 @@
   },
   "NATH": {
     "suppliers": [
-      "NATH",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "NATH"
     ]
   },
   "NATL": {
@@ -13911,7 +13681,6 @@
   "NAVN": {
     "suppliers": [
       "Intel Corporation",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Euromonitor",
       "Navan",
       "airlines",
@@ -14418,9 +14187,7 @@
     ]
   },
   "NSA": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "NSANY": {
     "suppliers": []
@@ -14453,7 +14220,6 @@
   },
   "NSSC": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "China",
       "India",
       "United States",
@@ -14656,8 +14422,7 @@
       "NVIDIA",
       "Intel Corporation",
       "Texas Instruments Incorporated",
-      "STMicroelectronics",
-      "TSMC"
+      "STMicroelectronics"
     ]
   },
   "NVS": {
@@ -14690,7 +14455,6 @@
       "Qorvo, Inc.",
       "STMicroelectronics International N.V.",
       "Gallium Refining",
-      "TSMC",
       "GlobalFoundries",
       "X-Fab",
       "Navitas Semiconductor (Subsidiary)",
@@ -14752,7 +14516,6 @@
       "Marmot",
       "Coleman",
       "Calphalon",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Inc."
     ]
   },
@@ -14794,8 +14557,7 @@
   "NXRT": {
     "suppliers": [
       "Freddie Mac",
-      "BH Equities LLC",
-      "Taiwan Semiconductor Manufacturing Company Ltd."
+      "BH Equities LLC"
     ]
   },
   "NXST": {
@@ -15025,8 +14787,6 @@
   },
   "OMCL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Inc.",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "NONE"
     ]
   },
@@ -15034,8 +14794,7 @@
     "suppliers": [
       "Cathode Ray Tube Corporation",
       "Physera Physical Therapy Group",
-      "China",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "China"
     ]
   },
   "OMER": {
@@ -15100,7 +14859,6 @@
   },
   "ONEW": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "ONEW",
       "Star Tron",
       "Performacide",
@@ -15140,9 +14898,7 @@
     "suppliers": []
   },
   "OOMA": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited"
-    ]
+    "suppliers": []
   },
   "OPAD": {
     "suppliers": []
@@ -15157,8 +14913,7 @@
   },
   "OPEN": {
     "suppliers": [
-      "Intel Corporation",
-      "TSM (Taiwan Semiconductor Manufacturing)"
+      "Intel Corporation"
     ]
   },
   "OPHLY": {
@@ -15180,8 +14935,7 @@
   },
   "OPRX": {
     "suppliers": [
-      "Medicx Health",
-      "Taiwan Semiconductor Manufacturing Co."
+      "Medicx Health"
     ]
   },
   "OPTU": {
@@ -15217,7 +14971,6 @@
       "KPLC",
       "SCPPA",
       "ENE",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Guadeloupe",
       "Innergex Renewables USA LLC"
     ]
@@ -15247,7 +15000,6 @@
   "ORI": {
     "suppliers": [
       "KLA-TIMA",
-      "TSMC",
       "Texas Instruments",
       "Magna International Inc.",
       "STMicroelectronics"
@@ -15304,14 +15056,12 @@
   },
   "OSK": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "trucker hitch"
     ]
   },
   "OSPN": {
     "suppliers": [
       "China-based contract manufacturers",
-      "Taiwan Semiconductor Manufacturing Company (TSM)",
       "N/A"
     ]
   },
@@ -15319,8 +15069,7 @@
     "suppliers": [
       "OSSGmbH",
       "The Bressner Subsidiary",
-      "Torrey Pines Bank",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "Torrey Pines Bank"
     ]
   },
   "OSW": {
@@ -15364,9 +15113,7 @@
     "suppliers": []
   },
   "OTIS": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "OTLY": {
     "suppliers": []
@@ -15379,7 +15126,6 @@
       "Northern Pipe Products, Inc.",
       "Vinyltech Corporation",
       "Otter Tail Corporation",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "OTTR"
     ]
   },
@@ -15469,9 +15215,7 @@
   "PACB": {
     "suppliers": [
       "PacBio",
-      "Taiwan Semiconductor Manufacturing Co.",
-      "NXP Semiconductors",
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
+      "NXP Semiconductors"
     ]
   },
   "PACS": {
@@ -15604,7 +15348,6 @@
   },
   "PAYO": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing (TSM)",
       "Bank of America",
       "JP Morgan Chase"
     ]
@@ -15620,8 +15363,7 @@
   "PAYX": {
     "suppliers": [
       "Paychex",
-      "Paycor",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "Paycor"
     ]
   },
   "PB": {
@@ -15732,7 +15474,6 @@
   },
   "PDYN": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Cox Industries Inc.",
       "Matsushita Electric Industrial Co.",
       "Lam Research Corporation",
@@ -15794,7 +15535,6 @@
   },
   "PENG": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Cree LED",
       "Wafer fabrication facilities (third-party)"
     ]
@@ -16029,7 +15769,6 @@
   },
   "PLAB": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Samsung Electronics",
       "SK Hynix"
     ]
@@ -16113,7 +15852,6 @@
       "Giant Network Group Co. Ltd.",
       "Playtika Holding UK II Limited",
       "TikTok",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Unity engine",
       "NIST",
       "Apple",
@@ -16128,8 +15866,6 @@
   },
   "PLUG": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "PLUG"
     ]
   },
@@ -16222,8 +15958,7 @@
       "Abbott",
       "Dexcom",
       "Glooko",
-      "BSI Group",
-      "TSM (Taiwan Semiconductor Manufacturing)"
+      "BSI Group"
     ]
   },
   "POET": {
@@ -16277,7 +16012,6 @@
       "Powell",
       "N/A",
       "21",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Ltd."
     ]
   },
@@ -16294,7 +16028,6 @@
   },
   "PPG": {
     "suppliers": [
-      "{'name': 'Taiwan Semiconductor Manufacturing'}",
       "{'name': 'NXP Semiconductors'}",
       "3M",
       "Nestle",
@@ -16336,14 +16069,11 @@
   "PRA": {
     "suppliers": [
       "ProAssurance",
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "Intel Corporation"
     ]
   },
   "PRAA": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "PRAX": {
     "suppliers": [
@@ -16362,7 +16092,6 @@
       "United States",
       "United Kingdom",
       "Netherlands",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "PT. Nusantara Saka",
       "PT. Gempak Energi Utama"
     ]
@@ -16427,7 +16156,6 @@
       "IBWA",
       "FDIC",
       "U.S. federal government",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Wels Las Vegas LLC",
       "NONE"
     ]
@@ -16449,7 +16177,6 @@
   },
   "PROK": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Cirrus Bio Technologies Inc.",
       "VWR International LLC"
     ]
@@ -16495,14 +16222,11 @@
     "suppliers": []
   },
   "PSA": {
-    "suppliers": [
-      "{'name': 'TSM'}"
-    ]
+    "suppliers": []
   },
   "PSEC": {
     "suppliers": [
       "InspereX LLC",
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "Capstone Logistics Acquisition, Inc.",
       "Credit.com Holdings, LLC",
       "Discovery Point Retreat, LLC",
@@ -16727,13 +16451,11 @@
   },
   "PZZA": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "NXP Semiconductors N.V."
     ]
   },
   "Q": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Laird Technologies Inc.",
       "Advanced Flex Technologies LLC",
       "Qnity Electronics, Inc."
@@ -16778,9 +16500,7 @@
     "suppliers": []
   },
   "QDEL": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited (TSM)"
-    ]
+    "suppliers": []
   },
   "QDTE": {
     "suppliers": []
@@ -16827,7 +16547,6 @@
   "QSR": {
     "suppliers": [
       "Dr. Pepper/Snapple, Inc.",
-      "Taiwan Semiconductor Manufacturing TSM",
       "Apple Inc.",
       "QSR"
     ]
@@ -16835,7 +16554,6 @@
   "QTRX": {
     "suppliers": [
       "STRATEC Biomedical A",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Akoya"
     ]
   },
@@ -16895,7 +16613,6 @@
       "US Steel",
       "Scrap Material Providers",
       "Roll Formed Center Sill Suppliers",
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "AAR (Association of American Railroads)"
     ]
   },
@@ -17036,9 +16753,7 @@
     "suppliers": []
   },
   "REAL": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "REAX": {
     "suppliers": []
@@ -17092,9 +16807,7 @@
     "suppliers": []
   },
   "RES": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "REV": {
     "suppliers": []
@@ -17116,8 +16829,7 @@
   "REZI": {
     "suppliers": [
       "ADI Global Distribution",
-      "Resideo Technologies Inc.",
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
+      "Resideo Technologies Inc."
     ]
   },
   "RF": {
@@ -17128,9 +16840,7 @@
     ]
   },
   "RFIL": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "RGA": {
     "suppliers": []
@@ -17173,9 +16883,7 @@
     ]
   },
   "RH": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd."
-    ]
+    "suppliers": []
   },
   "RHHBY": {
     "suppliers": []
@@ -17208,7 +16916,6 @@
   "RILY": {
     "suppliers": [
       "China",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Targus"
     ]
   },
@@ -17310,7 +17017,6 @@
   },
   "RMBS": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Rambus Inc.",
       "Broadcom",
       "CXMT",
@@ -17330,8 +17036,7 @@
       "STMicroelectronics",
       "Toshiba",
       "Western Digital",
-      "Winbond",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "Winbond"
     ]
   },
   "RMCF": {
@@ -17505,9 +17210,7 @@
     ]
   },
   "RR": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited"
-    ]
+    "suppliers": []
   },
   "RRC": {
     "suppliers": [
@@ -17586,7 +17289,6 @@
   },
   "RVLV": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "China National Machinery Import and Export Corporation",
       "China State Shipbuilding Corporation Limited",
       "Mitsui E&S Group Inc."
@@ -17617,7 +17319,6 @@
     "suppliers": [
       "Roche",
       "Genentech",
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "Unknown"
     ]
   },
@@ -17630,7 +17331,6 @@
       "Off-the-shelf chemical providers",
       "Materials suppliers",
       "Micron Technology Inc.",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Certain Suppliers"
     ]
   },
@@ -17677,9 +17377,7 @@
     "suppliers": []
   },
   "S": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
-    ]
+    "suppliers": []
   },
   "SA": {
     "suppliers": []
@@ -17777,7 +17475,6 @@
   },
   "SATL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "none",
       "SpaceX"
     ]
@@ -17820,7 +17517,6 @@
   "SBH": {
     "suppliers": [
       "Beauty Systems Group",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Henkel AG & Co. KGaA",
       "L'Oreal USA S/D, Inc.",
       "Wella Company",
@@ -17865,7 +17561,6 @@
   },
   "SCCO": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Copper",
       "Grupo Mexico",
       "Valero Energy Corporation",
@@ -17898,8 +17593,7 @@
       "Baker Hughes",
       "Caterpillar",
       "Deere & Company",
-      "SCI",
-      "Taiwan Semiconductor Manufacturing Co Ltd"
+      "SCI"
     ]
   },
   "SCL": {
@@ -18045,7 +17739,6 @@
   "SENS": {
     "suppliers": [
       "BSI",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Abbott",
       "Roche Diabetes Care"
     ]
@@ -18092,7 +17785,6 @@
   "SFD": {
     "suppliers": [
       "NONE",
-      "{'name': 'TSM'}",
       "Murphy Family Farms",
       "VisionAg Hog Production, LLC"
     ]
@@ -18118,7 +17810,6 @@
   },
   "SFM": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "NO SUPPLIERS FOUND IN THE TEXT",
       "KeHE Distributors, LLC",
       "United Natural Foods, Inc.",
@@ -18139,8 +17830,7 @@
   },
   "SG": {
     "suppliers": [
-      "Wonder",
-      "Taiwan Semiconductor Manufacturing Company Limited"
+      "Wonder"
     ]
   },
   "SGAMY": {
@@ -18200,7 +17890,6 @@
   },
   "SHC": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Nelson Labs Facilities",
       "Health Canada",
       "FDA",
@@ -18232,9 +17921,7 @@
   "SHLS": {
     "suppliers": [
       "Prysmian Cables and Systems USA, LLC",
-      "China",
-      "Taiwan Semiconductor Manufacturing Company (TSM)",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "China"
     ]
   },
   "SHMXY": {
@@ -18336,7 +18023,6 @@
   },
   "SI": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "LCI Industries Inc.",
       "SI",
       "Zimmer Biomet",
@@ -18355,7 +18041,6 @@
   },
   "SIF": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Boeing",
       "Airbus"
     ]
@@ -18491,21 +18176,16 @@
   },
   "SKIL": {
     "suppliers": [
-      "GK",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "GK"
     ]
   },
   "SKIN": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Keravive"
     ]
   },
   "SKLZ": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited"
-    ]
+    "suppliers": []
   },
   "SKM": {
     "suppliers": []
@@ -18576,7 +18256,6 @@
       "Telink",
       "Texas Instruments",
       "Arrow Electronics",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Semiconductor Manufacturing International Corporation"
     ]
   },
@@ -18629,9 +18308,7 @@
     ]
   },
   "SLNO": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "SLP": {
     "suppliers": [
@@ -18680,8 +18357,6 @@
   },
   "SMCI": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Netherlands"
     ]
   },
@@ -18736,7 +18411,6 @@
   },
   "SMPL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "OWYN",
       "U.S. Storage",
       "Greenfield Ingredients & Packaging Inc.",
@@ -18768,8 +18442,7 @@
       "On Semiconductor Corp.",
       "STMicroelectronics GmbH",
       "Texas Instruments Incorporated",
-      "NXP semiconductor N.V.",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "NXP semiconductor N.V."
     ]
   },
   "SMTOY": {
@@ -18795,7 +18468,6 @@
   },
   "SNAP": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Wistron",
       "Foxconn"
     ]
@@ -18832,8 +18504,7 @@
     "suppliers": [
       "Canadian Pacific Kansas City Limited",
       "Union Pacific Railroad Company",
-      "WBCL",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "WBCL"
     ]
   },
   "SNEX": {
@@ -18958,7 +18629,6 @@
   },
   "SON": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "IndustiraParanaenseDeTubosConicaisLTDAMultiple",
       "InapelEmbalagensLtda",
       "RTSPackagingAndChattanoogaMillMultiple",
@@ -19118,8 +18788,7 @@
       "Chevron Phillips Chemical Company LLC",
       "Phillips 66",
       "ExxonMobil Corporation",
-      "SI Partners",
-      "TSM (Taiwan Semiconductor Manufacturing Co., Ltd.)"
+      "SI Partners"
     ]
   },
   "SREDF": {
@@ -19340,8 +19009,6 @@
   },
   "STEM": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "STEM INC"
     ]
   },
@@ -19409,7 +19076,6 @@
       "EdgeBuilder",
       "Glenbrook",
       "Human Capital Resources",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "wholesalers"
     ]
   },
@@ -19588,8 +19254,7 @@
     "suppliers": [
       "N/A",
       "Caterpillar Inc.",
-      "Aeotec Inc.",
-      "Taiwan Semiconductor Manufacturing Co."
+      "Aeotec Inc."
     ]
   },
   "SYNA": {
@@ -19615,8 +19280,7 @@
       "Intel Corporation",
       "STMicroelectronics",
       "Texas Instruments Incorporated",
-      "GlobalFoundries Inc.",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "GlobalFoundries Inc."
     ]
   },
   "SYRVF": {
@@ -19625,7 +19289,6 @@
   "SYY": {
     "suppliers": [
       "Sysco",
-      "Taiwan Semiconductor Manufacturing Company, Limited",
       "STMicroelectronics",
       "SYGMA"
     ]
@@ -19677,7 +19340,6 @@
     "suppliers": [
       "consultants",
       "CROs",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "CDMO",
       "FDA",
       "Dr. Alan Buchman",
@@ -19713,13 +19375,10 @@
     "suppliers": []
   },
   "TBI": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing (TSM)"
-    ]
+    "suppliers": []
   },
   "TBLA": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company Ltd.",
       "Cisco Systems Inc."
     ]
   },
@@ -19849,7 +19508,6 @@
   },
   "TEL": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Morgan Stanley Capital International Ltd",
       "Bank of America Merrill Lynch LLC",
       "Citi"
@@ -20015,7 +19673,6 @@
   },
   "THO": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd",
       "Chassis suppliers",
       "FreedomRoads LLC"
     ]
@@ -20039,7 +19696,6 @@
     "suppliers": [
       "TIC",
       "TIC Solutions",
-      "Taiwan Semiconductor Manufacturing Company Ltd (TSM)",
       "OSHA",
       "Environmental Protection Agency"
     ]
@@ -20207,8 +19863,7 @@
   },
   "TMCI": {
     "suppliers": [
-      "TREACE MEDICAL CONCEPTS",
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
+      "TREACE MEDICAL CONCEPTS"
     ]
   },
   "TMDX": {
@@ -20457,8 +20112,7 @@
       "Portofino Labs, Inc.",
       "Rinse, Inc.",
       "Steno Agency, Inc.",
-      "UnTuckIt, Inc.",
-      "Taiwan Semiconductor Manufacturing Company, LLC"
+      "UnTuckIt, Inc."
     ]
   },
   "TRIP": {
@@ -20580,8 +20234,7 @@
   },
   "TSLA": {
     "suppliers": [
-      "NVIDIA Corporation",
-      "TSMC (Taiwan Semiconductor Manufacturing Co., Ltd.)"
+      "NVIDIA Corporation"
     ]
   },
   "TSLX": {
@@ -20636,9 +20289,7 @@
     "suppliers": []
   },
   "TTEC": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Ltd."
-    ]
+    "suppliers": []
   },
   "TTEK": {
     "suppliers": [
@@ -20677,8 +20328,7 @@
   "TTMI": {
     "suppliers": [
       "OEMs",
-      "Contract Manufacturers",
-      "Taiwan Semiconductor Manufacturing Co."
+      "Contract Manufacturers"
     ]
   },
   "TTSH": {
@@ -20741,8 +20391,7 @@
   },
   "TWLO": {
     "suppliers": [
-      "Aptiv PLC",
-      "Taiwan Semiconductor Manufacturing Company, TSM"
+      "Aptiv PLC"
     ]
   },
   "TWODY": {
@@ -20753,7 +20402,6 @@
       "Twist Bioscience Corporation",
       "Sigma-Aldrich Corporation",
       "VWR International, LLC",
-      "Taiwan Semiconductor Manufacturing Company, Ltd.",
       "Azenta Life Sciences",
       "Danaher Corporation"
     ]
@@ -20838,7 +20486,6 @@
   },
   "TZOO": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "Lam Research Corporation",
       "United Microelectronics Corporation",
       "Samsung Electronics",
@@ -20906,9 +20553,7 @@
     ]
   },
   "UCTT": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co."
-    ]
+    "suppliers": []
   },
   "UDMY": {
     "suppliers": []
@@ -21020,7 +20665,6 @@
       "Orqa",
       "ModalAI",
       "ARK Electronics",
-      "Taiwan Semiconductor Manufacturing Co.",
       "China Electronics Technology Group Corporation",
       "Sanmina Corporation",
       "Mentek International Inc."
@@ -21118,7 +20762,6 @@
     "suppliers": [
       "USDA",
       "Cygnet",
-      "TSM (Taiwan Semiconductor Manufacturing Co., Ltd.)",
       "Wipro Limited",
       "SAP SE",
       "Amazon"
@@ -21359,7 +21002,6 @@
   },
   "VECO": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "Semiconductor Manufacturing International Corporation",
       "Swaysure Technology Co.,Ltd"
     ]
@@ -21404,7 +21046,6 @@
   },
   "VFC": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Switzerland",
       "Singapore",
       "Panama"
@@ -21458,10 +21099,8 @@
       "United States",
       "AT&T Inc.",
       "Lumen Technologies, Inc.",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Foxconn",
       "Contract Manufacturers",
-      "Taiwan Semiconductor Manufacturing Co.",
       "LG Electronics Inc."
     ]
   },
@@ -21472,7 +21111,6 @@
   },
   "VICR": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Arrow Electronics, Inc."
     ]
   },
@@ -21667,9 +21305,7 @@
     ]
   },
   "VRE": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc."
-    ]
+    "suppliers": []
   },
   "VRM": {
     "suppliers": [
@@ -21748,9 +21384,7 @@
   },
   "VSCO": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing (TSM)",
       "Nordic Textile Solutions Inc.",
-      "Taiwan Semiconductor Manufacturing Co.",
       "China National Machinery Import & Export Corporation Ltd",
       "Mitsubishi Heavy Industries Ltd",
       "Samsung Electronics Co. Ltd",
@@ -21777,7 +21411,6 @@
   },
   "VST": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "None",
       "TCEQ",
       "US EPA"
@@ -21796,14 +21429,11 @@
   },
   "VTR": {
     "suppliers": [
-      "TAIWAN SEMICONDUCTOR MANUFACTURING CO., LTD.",
       "none"
     ]
   },
   "VTRS": {
-    "suppliers": [
-      "{'name': 'Taiwan Semiconductor Manufacturing'}"
-    ]
+    "suppliers": []
   },
   "VTS": {
     "suppliers": []
@@ -21930,9 +21560,7 @@
     "suppliers": []
   },
   "WBS": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc."
-    ]
+    "suppliers": []
   },
   "WBTN": {
     "suppliers": [
@@ -21945,7 +21573,6 @@
   "WCC": {
     "suppliers": [
       "WESCO International Inc.",
-      "Taiwan Semiconductor Manufacturing Company Limited",
       "Wesco",
       "Anixter"
     ]
@@ -22002,7 +21629,6 @@
   },
   "WDFC": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "JD Commodity Trading Ltd."
     ]
   },
@@ -22196,7 +21822,6 @@
       "JBS USA Inc.",
       "Tyson Foods, Inc.",
       "Cargill Incorporated",
-      "Taiwan Semiconductor Manufacturing Co.",
       "Distributor (not specified)"
     ]
   },
@@ -22218,8 +21843,7 @@
       "Federal Reserve for the U.S.",
       "Amazon Web Services",
       "FedRAMP",
-      "ISO 27001",
-      "Taiwan Semiconductor Manufacturing Company, Inc."
+      "ISO 27001"
     ]
   },
   "WKC": {
@@ -22309,7 +21933,6 @@
   },
   "WOLF": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "Wolfspeed",
       "{'name': 'Renesas Electronics America Inc'}",
       "Coherent, Inc.",
@@ -22348,7 +21971,6 @@
   },
   "WPC": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Company, Inc.",
       "W. P. Carey"
     ]
   },
@@ -22408,9 +22030,7 @@
     ]
   },
   "WSC": {
-    "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co., Ltd."
-    ]
+    "suppliers": []
   },
   "WSFS": {
     "suppliers": []
@@ -22436,8 +22056,7 @@
   },
   "WST": {
     "suppliers": [
-      "Integrated Suppliers",
-      "Taiwan Semiconductor Manufacturing Co."
+      "Integrated Suppliers"
     ]
   },
   "WT": {
@@ -22472,7 +22091,6 @@
     "suppliers": [
       "HF Scientific",
       "WTS",
-      "Taiwan Semiconductor Manufacturing Co.",
       "China National Electric Appliances Group Co. Ltd.",
       "Alcoa Inc."
     ]
@@ -22669,7 +22287,6 @@
   },
   "XYZ": {
     "suppliers": [
-      "Taiwan Semiconductor Manufacturing Co.",
       "none",
       "{'name': 'Cash App'}"
     ]
@@ -22784,7 +22401,6 @@
   "YUMC": {
     "suppliers": [
       "{'name': 'MOFCOM'}",
-      "{'name': 'Taiwan Semiconductor Manufacturing Company'}",
       "Yum China Holdings Inc."
     ]
   },
@@ -22872,7 +22488,6 @@
   "ZTS": {
     "suppliers": [
       "Hong Kong Semiconductor Manufacturing Limited",
-      "Taiwan Semiconductor Manufacturing Co., Ltd.",
       "STMicroelectronics"
     ]
   },
