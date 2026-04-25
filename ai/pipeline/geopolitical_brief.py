@@ -1,12 +1,12 @@
 """
 USE THIS RUN STATEMENT TO RUN THE SCRIPT:
-python3 geopolitical_brief.py --score-weight-momentum 0.7 
+python3 geopolitical_brief.py --score-weight-momentum 0.7
 --score-weight-liquidity 0.3 --score-weight-cooccurrence 0.25
 
 
 IF THERE IS AN ERROR TRY
-python3 geopolitical_brief.py --skip-install --all-tracks 
---export-news-edges --score-weight-momentum 0.7 
+python3 geopolitical_brief.py --skip-install --all-tracks
+--export-news-edges --score-weight-momentum 0.7
 --score-weight-liquidity 0.3 --score-weight-cooccurrence 0.25
 """
 
