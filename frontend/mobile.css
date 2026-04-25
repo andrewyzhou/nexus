@@ -179,11 +179,12 @@
     height: calc(100vh - var(--header-h));
   }
 
-  /* Edge legend sits at the bottom on mobile */
+  /* Edge legend: top-right corner on mobile */
   #edge-legend {
-    bottom: 8px !important;
+    top: 8px !important;
     right: 8px !important;
-    left: 8px !important;
+    bottom: auto !important;
+    left: auto !important;
     font-size: 10px !important;
     padding: 6px 8px !important;
   }
