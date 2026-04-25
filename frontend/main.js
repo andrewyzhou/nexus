@@ -1,3 +1,5 @@
+console.log("🔥 MAIN.JS IS RUNNING");
+
 /**
  * main.js — Nexus Frontend
  *
@@ -46,8 +48,11 @@ let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 async function loadGraphData() {
+  console.log("🌐 loadGraphData entered");
   try {
+    console.log("➡️ fetching:", `${API_BASE}/graph`);
     const res = await fetch(`${API_BASE}/graph`);
+    console.log("📡 response status:", res.status, res.ok);
     if (!res.ok) throw new Error(`API ${res.status}`);
     const data = await res.json();
     if (data && Array.isArray(data.nodes) && data.nodes.length > 0) {
@@ -118,6 +123,7 @@ function loadState() {
 }
 
 async function init() {
+  console.log("🚀 init() START");
   // Block first fetch on Firebase auth when enabled (no-op otherwise).
   if (window.nexusAuthReady) await window.nexusAuthReady;
   const data = await loadGraphData();
@@ -395,13 +401,15 @@ function renderPinnedList(keepOpenTicker) {
 
   list.innerHTML = '';
 
-  // Only render pinned nodes — no reason to build DOM for all 6k+ nodes
-  const sorted = allNodes
-    .filter(n => pinnedNodes.has(n.id))
-    .sort((a, b) => a.ticker.localeCompare(b.ticker));
+  // Show all nodes — pinned first, then unpinned, alphabetical by ticker within each group
+  const sorted = [...allNodes].sort((a, b) => {
+    const ap = pinnedNodes.has(a.id), bp = pinnedNodes.has(b.id);
+    if (ap !== bp) return ap ? -1 : 1;
+    return a.ticker.localeCompare(b.ticker);
+  });
 
   sorted.forEach(n => {
-    const isPinned = true;
+    const isPinned = pinnedNodes.has(n.id);
     const wrapper = document.createElement('div');
     wrapper.className = 'pinned-item';
     wrapper.dataset.id = n.id;
@@ -443,7 +451,7 @@ function renderPinnedList(keepOpenTicker) {
 
       saveState();
       applyVisibility({ skipFit: true });
-      renderPinnedList();
+      resortPinnedList();
       syncPanelAddBtn();
     });
 
