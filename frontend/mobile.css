@@ -133,6 +133,7 @@
   #header {
     padding: 0 12px;
     gap: 8px;
+    justify-content: flex-start;
   }
   #header .logo {
     font-size: 14px;
@@ -140,6 +141,7 @@
   }
   #header .header-right {
     gap: 8px;
+    margin-left: auto;
   }
   .ipick-logo-link {
     padding: 1px 5px;
