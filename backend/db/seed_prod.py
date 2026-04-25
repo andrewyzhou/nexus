@@ -40,6 +40,10 @@ try:
     from db.seed_supplier_subsidary import seed_relationships
 except ModuleNotFoundError:
     from seed_supplier_subsidary import seed_relationships
+try:
+    from db.load_track_descriptions import load_track_descriptions, DEFAULT_INPUT as TRACK_DESCRIPTIONS_PATH
+except ModuleNotFoundError:
+    from load_track_descriptions import load_track_descriptions, DEFAULT_INPUT as TRACK_DESCRIPTIONS_PATH
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scraper"))
@@ -187,6 +191,11 @@ def main() -> None:
     unique, linked, missing = load_investment_tracks(cursor)
     conn.commit()
     print(f"  tracks={unique}  links={linked}  unmatched={missing}")
+
+    print(f"Applying track descriptions from {TRACK_DESCRIPTIONS_PATH.name}...")
+    desc_upd, desc_miss, desc_total = load_track_descriptions(cursor, TRACK_DESCRIPTIONS_PATH)
+    conn.commit()
+    print(f"  descriptions: total={desc_total}  updated={desc_upd}  missing-from-db={desc_miss}")
 
     # seed_supplier_subsidary.seed_relationships opens its own connection,
     # so commit + close ours first to avoid it seeing in-flight state.

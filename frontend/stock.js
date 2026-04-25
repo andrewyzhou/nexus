@@ -166,6 +166,20 @@ function escapeHtml(s) {
 init();
 
 function renderChart(ticker) {
+  const host = document.getElementById('stock-chart-widget');
+  if (!host) return;
+
+  host.innerHTML = '';
+  const container = document.createElement('div');
+  container.className = 'tradingview-widget-container';
+  container.style.cssText = 'height:100%;width:100%';
+  const widget = document.createElement('div');
+  widget.className = 'tradingview-widget-container__widget';
+  widget.style.cssText = 'height:100%;width:100%';
+  container.appendChild(widget);
+  host.appendChild(container);
+
+  const isDark = document.documentElement.dataset.theme === 'dark';
   const script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
@@ -183,13 +197,24 @@ function renderChart(ticker) {
     locale: "en",
     save_image: true,
     style: "1",
-    symbol: ticker,  
-    theme: "light",
+    symbol: ticker,
+    theme: isDark ? "dark" : "light",
     timezone: "Etc/UTC",
-    backgroundColor: "#ffffff",
-    gridColor: "rgba(46, 46, 46, 0.06)",
+    backgroundColor: isDark ? "#0e1117" : "#ffffff",
+    gridColor: isDark ? "rgba(255, 255, 255, 0.06)" : "rgba(46, 46, 46, 0.06)",
     autosize: true
   });
 
-  document.querySelector('.tradingview-widget-container').appendChild(script);
+  container.appendChild(script);
 }
+
+(function watchThemeForChart() {
+  let last = document.documentElement.dataset.theme;
+  new MutationObserver(() => {
+    const cur = document.documentElement.dataset.theme;
+    if (cur !== last) {
+      last = cur;
+      if (ticker) renderChart(ticker);
+    }
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+})();
