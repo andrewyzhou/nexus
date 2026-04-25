@@ -167,6 +167,11 @@
     transform: translateX(0);
   }
 
+  /* Mobile nav picker: when a section is chosen, hide the other one
+     so "Companies" and "Investment Tracks" act as a true filter. */
+  #sidebar.show-pinned-only #tracks-section { display: none; }
+  #sidebar.show-tracks-only #pinned-section { display: none; }
+
   /* Main fills full width */
   #main {
     grid-area: main;

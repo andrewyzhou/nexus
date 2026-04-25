@@ -125,6 +125,7 @@
 
       const closeSidebar = () => {
         sidebar.classList.remove('open');
+        sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
         backdrop.classList.remove('active');
       };
       const closePicker = () => {
@@ -135,7 +136,8 @@
 
       menuBtn.addEventListener('click', () => {
         if (window.innerWidth > 768) {
-          // Desktop: just toggle sidebar normally
+          // Desktop: just toggle sidebar normally — never filter sections
+          sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
           sidebar.classList.toggle('open');
           backdrop.classList.toggle('active');
           return;
@@ -150,22 +152,29 @@
         }
       });
 
+      const clearSidebarFilter = () => {
+        sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
+      };
+
       picker.querySelectorAll('.nav-pick-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           const targetId = btn.dataset.target;
           closePicker();
-          // Open sidebar and scroll to the chosen section
+          // Mobile: show only the chosen section
+          clearSidebarFilter();
+          if (targetId === 'pinned-section') {
+            sidebar.classList.add('show-pinned-only');
+          } else if (targetId === 'tracks-section') {
+            sidebar.classList.add('show-tracks-only');
+          }
           sidebar.classList.add('open');
-          requestAnimationFrame(() => {
-            const section = document.getElementById(targetId);
-            if (section) section.scrollIntoView({ block: 'start', behavior: 'smooth' });
-          });
         });
       });
 
       backdrop.addEventListener('click', () => {
         closeSidebar();
         closePicker();
+        clearSidebarFilter();
       });
 
       sidebar.addEventListener('click', (e) => {
