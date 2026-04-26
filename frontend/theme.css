@@ -396,6 +396,7 @@ html[data-theme="light"] .ipick-logo { filter: none; }
 }
 
 .dim { color: rgba(255, 255, 255, 0.45); }
+html[data-theme="light"] .dim { color: rgba(20, 24, 40, 0.50); }
 .small { font-size: 11px; }
 
 .source-badge {
