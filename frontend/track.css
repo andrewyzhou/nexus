@@ -288,6 +288,92 @@ html[data-theme="light"] .ai-summary .summary-foot {
   height: 12px;
 }
 .skeleton-spacer { height: 6px; }
+
+/* ── Track summary streaming progress ───────────────────────────── */
+.summary-progress {
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.summary-progress-head {
+  font-family: var(--font-mono-jet);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--t-text-3);
+  margin-bottom: 10px;
+}
+
+.summary-progress-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.progress-row {
+  display: grid;
+  grid-template-columns: 12px 60px 1fr;
+  align-items: baseline;
+  gap: 10px;
+  color: var(--t-text-3);
+  transition: color 0.2s;
+}
+
+.progress-row.done {
+  color: var(--t-text-2);
+}
+
+.progress-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  align-self: center;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.progress-row.done .progress-dot {
+  background: var(--t-emerald);
+  border-color: var(--t-emerald);
+  box-shadow: 0 0 8px rgba(52, 211, 153, 0.50);
+}
+
+.progress-ticker {
+  font-family: var(--font-mono-jet);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--t-text-2);
+  letter-spacing: 0.04em;
+}
+
+.progress-headline {
+  font-size: 13.5px;
+}
+
+.progress-headline.progress-pending {
+  color: var(--t-text-5);
+  font-style: italic;
+  position: relative;
+  display: inline-block;
+  height: 1em;
+  width: 50%;
+  border-radius: 4px;
+  background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.10) 50%,
+    rgba(255, 255, 255, 0.04) 100%);
+  background-size: 200% 100%;
+  animation: skel-shimmer 1.4s linear infinite;
+  font-size: 0;  /* hide the literal "pending" text; the bar IS the indicator */
+}
+
+.progress-headline.progress-empty {
+  color: var(--t-text-5);
+  font-style: italic;
+}
 html[data-theme="light"] .skeleton-line {
   background: linear-gradient(90deg,
     rgba(20, 24, 40, 0.04) 0%,

@@ -1,4 +1,6 @@
-from flask import Flask, Blueprint, g, jsonify, request
+from flask import (
+    Flask, Blueprint, Response, g, jsonify, request, stream_with_context,
+)
 from flask_cors import CORS
 import base64
 import hashlib
@@ -629,24 +631,8 @@ def _pool_track_articles(per_company: dict[str, list[dict]]) -> list[dict]:
     return pooled[:TRACK_POOL_CAP]
 
 
-@api.route("/tracks/<slug>/summary", methods=["POST"])
-def get_track_summary(slug):
-    """Track-level summary using Option-C pipeline:
-
-      1. Resolve constituents (top-N by market cap).
-      2. For each, fetch curated articles AND get-or-make the per-company
-         summary headline (cheap: usually a cache hit; warm cache also
-         feeds the company page).
-      3. Build a globally-ranked article pool with a diversity floor so
-         each constituent's news has a chance to surface a bullet.
-      4. Compose a scaffold (per-ticker headline lines).
-      5. Single Claude call with track-specific prompt + tool. Returns
-         { headline, bullets[{ tickers, text, source_indices }], sources }.
-      6. Cache by (track_slug, articles_hash) — permanent, content-addr.
-    """
-    force = request.args.get("force", "").lower() in ("1", "true", "yes")
-
-    # 1. Resolve track + constituents
+def _resolve_track(slug: str):
+    """Returns (track_id, track_name, [constituents]) or (None, None, [])."""
     conn = get_conn()
     cursor = conn.cursor()
     cursor.execute("SELECT id, name FROM investment_tracks")
@@ -654,7 +640,7 @@ def get_track_summary(slug):
                    if slugify(name) == slug), None)
     if target is None:
         conn.close()
-        return jsonify({"error": "Track not found"}), 404
+        return None, None, []
     track_id, track_name = target
     cursor.execute("""
         SELECT c.ticker, c.name FROM companies c
@@ -664,57 +650,147 @@ def get_track_summary(slug):
     """, (track_id, TRACK_TOP_CONSTITUENTS))
     constituents = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
     conn.close()
+    return track_id, track_name, constituents
 
-    # 2. Per-constituent: articles + headline (scaffold).
-    # Parallelize — sequential calls would blow the gunicorn worker
-    # timeout on cold caches (7 constituents × ~5s/Claude call). Cap
-    # concurrency at 4 to avoid hammering the Anthropic + body-fetch
-    # endpoints.
+
+@api.route("/tracks/<slug>/summary", methods=["POST"])
+def get_track_summary(slug):
+    """Track-level summary. Default JSON mode runs server-side and
+    returns the final payload. Pass ?stream=1 to get NDJSON progress
+    events (one JSON per line) — useful for showing per-company
+    progress in the UI as each sub-summary completes.
+
+    Pipeline (Option C):
+      1. Resolve constituents (top-N by market cap).
+      2. For each, fetch articles + get-or-make the per-company headline.
+         Parallel (max 4 workers) to fit inside the gunicorn timeout.
+      3. Pool articles globally with a diversity floor (≥4/constituent).
+      4. One Claude call with track-specific prompt + tool. Returns
+         { headline, bullets[{ tickers, text, source_indices }], sources }.
+      5. Cache by (track_slug, articles_hash) — permanent, content-addr.
+    """
+    force = request.args.get("force", "").lower() in ("1", "true", "yes")
+    stream = request.args.get("stream", "").lower() in ("1", "true", "yes")
+
+    _, track_name, constituents = _resolve_track(slug)
+    if track_name is None:
+        return jsonify({"error": "Track not found"}), 404
+
+    if stream:
+        return Response(
+            stream_with_context(
+                _stream_track_summary(slug, track_name, constituents, force)
+            ),
+            mimetype="application/x-ndjson",
+            headers={"X-Accel-Buffering": "no"},  # disable nginx buffering
+        )
+
+    # Non-streaming path: drain the generator and return the final 'done'
+    # event's payload as a regular JSON response.
+    final = None
+    for line in _stream_track_summary(slug, track_name, constituents, force):
+        try:
+            evt = json.loads(line.strip())
+        except Exception:
+            continue
+        if evt.get("type") == "done":
+            final = evt.get("data")
+    return jsonify(final or {
+        "headline": "", "bullets": [], "sources": [], "model": None,
+        "generated_at": None, "cached": False, "used_articles": 0,
+    })
+
+
+def _stream_track_summary(slug: str, track_name: str,
+                           constituents: list[dict], force: bool):
+    """Generator yielding NDJSON lines. Event types:
+        - meta:    initial track info + constituent list
+        - cached:  fast path — cache hit, payload follows in 'done'
+        - company: a sub-summary completed (ticker, headline)
+        - synth:   about to call the track-level Claude
+        - done:    final payload
+        - error:   string description; client should fail open
+    """
     from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    def emit(obj):
+        return json.dumps(obj, default=str) + "\n"
+
+    yield emit({
+        "type": "meta",
+        "track": track_name,
+        "constituents": [c["ticker"] for c in constituents],
+    })
+
+    # We can't cache-hit early without knowing the article hash, which we
+    # only have after all sub-fetches complete. So always run sub-summaries
+    # first; the cache check happens just before the Claude track call.
     per_company_articles: dict[str, list[dict]] = {}
     scaffold: dict[str, str] = {}
-    with ThreadPoolExecutor(max_workers=4) as ex:
-        futures = {
-            ex.submit(_ensure_company_summary, c["ticker"], c["name"]): c
-            for c in constituents
-        }
-        for fut in as_completed(futures):
-            c = futures[fut]
-            try:
-                sub = fut.result()
-            except Exception as e:
-                # Don't let one bad constituent kill the whole track call.
-                print(f"[track-summary] sub failed for {c['ticker']}: {e}")
-                sub = {"articles": [], "headline": ""}
-            per_company_articles[c["ticker"]] = sub.get("articles", [])
-            scaffold[c["ticker"]] = sub.get("headline") or ""
+    try:
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            futures = {
+                ex.submit(_ensure_company_summary, c["ticker"], c["name"]): c
+                for c in constituents
+            }
+            for fut in as_completed(futures):
+                c = futures[fut]
+                try:
+                    sub = fut.result()
+                except Exception as e:
+                    print(f"[track-summary] sub failed for {c['ticker']}: {e}")
+                    sub = {"articles": [], "headline": ""}
+                per_company_articles[c["ticker"]] = sub.get("articles", [])
+                scaffold[c["ticker"]] = sub.get("headline") or ""
+                yield emit({
+                    "type": "company",
+                    "ticker": c["ticker"],
+                    "name": c.get("name") or c["ticker"],
+                    "headline": scaffold[c["ticker"]],
+                    "article_count": len(per_company_articles[c["ticker"]]),
+                })
+    except Exception as e:
+        yield emit({"type": "error", "message": f"sub-summary stage: {e}"})
+        return
 
-    # 3. Pool articles (diversity floor + global re-rank)
     pooled = _pool_track_articles(per_company_articles)
     if not pooled:
-        return jsonify({
+        yield emit({"type": "done", "data": {
             "headline": "", "bullets": [], "sources": [], "model": None,
             "generated_at": None, "cached": False, "used_articles": 0,
-        })
+        }})
+        return
 
-    # 4-6. Cache lookup, generate, store
     cache_key = f"track:{slug}"
     ahash = articles_hash(pooled)
 
     if not force:
         hit = _summary_cache_get(cache_key, ahash)
         if hit:
-            return jsonify({**hit, "cached": True,
-                            "used_articles": len(hit.get("sources") or [])})
+            yield emit({"type": "cached"})
+            yield emit({"type": "done", "data": {
+                **hit, "cached": True,
+                "used_articles": len(hit.get("sources") or []),
+            }})
+            return
 
-    payload = summarize_track_news(track_name, constituents, scaffold, pooled)
+    yield emit({"type": "synth", "pool_size": len(pooled)})
+
+    try:
+        payload = summarize_track_news(
+            track_name, constituents, scaffold, pooled,
+        )
+    except Exception as e:
+        yield emit({"type": "error", "message": f"synth stage: {e}"})
+        return
+
     if payload.get("headline"):
         _summary_cache_put(cache_key, ahash, payload)
     payload["generated_at"] = datetime.utcnow().replace(
         tzinfo=timezone.utc).isoformat()
     payload["cached"] = False
     payload["used_articles"] = len(payload.get("sources") or [])
-    return jsonify(payload)
+    yield emit({"type": "done", "data": payload})
 
 
 @api.route("/companies/<ticker>/live")

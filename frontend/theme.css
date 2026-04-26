@@ -298,6 +298,28 @@ html[data-theme="light"] .track-page .ai-summary-controls .ai-regenerate:hover {
   color: #047857 !important;
   border-color: rgba(4, 120, 87, 0.30) !important;
 }
+
+/* Track summary streaming progress — light mode. */
+html[data-theme="light"] .summary-progress-head { color: #94a3b8 !important; }
+html[data-theme="light"] .progress-row { color: #64748b !important; }
+html[data-theme="light"] .progress-row.done { color: #1e293b !important; }
+html[data-theme="light"] .progress-dot {
+  background: rgba(15, 23, 42, 0.06) !important;
+  border-color: rgba(15, 23, 42, 0.16) !important;
+}
+html[data-theme="light"] .progress-row.done .progress-dot {
+  background: #047857 !important;
+  border-color: #047857 !important;
+  box-shadow: 0 0 8px rgba(4, 120, 87, 0.30) !important;
+}
+html[data-theme="light"] .progress-ticker { color: #0f172a !important; }
+html[data-theme="light"] .progress-headline.progress-pending {
+  background: linear-gradient(90deg,
+    rgba(15, 23, 42, 0.04) 0%,
+    rgba(15, 23, 42, 0.10) 50%,
+    rgba(15, 23, 42, 0.04) 100%) !important;
+}
+html[data-theme="light"] .progress-headline.progress-empty { color: #94a3b8 !important; }
 html[data-theme="light"] .track-page .ai-summary .news-empty {
   border-color: rgba(4, 120, 87, 0.20) !important;
   color: #94a3b8 !important;

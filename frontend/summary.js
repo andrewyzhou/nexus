@@ -87,6 +87,41 @@
     return res.json();
   }
 
+  /**
+   * POST to an NDJSON-streaming endpoint and invoke onEvent for every
+   * line. Resolves with the final 'done' payload (data field) or
+   * rejects with a server-reported error.
+   */
+  async function postNDJSON(path, onEvent) {
+    const res = await fetch(`${API_BASE}${path}`, { method: 'POST' });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    if (!res.body) throw new Error('streaming not supported by this browser');
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buf = '';
+    let final = null;
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buf += decoder.decode(value, { stream: true });
+      let nl;
+      while ((nl = buf.indexOf('\n')) >= 0) {
+        const line = buf.slice(0, nl).trim();
+        buf = buf.slice(nl + 1);
+        if (!line) continue;
+        let evt;
+        try { evt = JSON.parse(line); } catch { continue; }
+        if (evt.type === 'error') throw new Error(evt.message || 'stream error');
+        if (evt.type === 'done')  final = evt.data;
+        onEvent(evt);
+      }
+    }
+    if (!final) throw new Error('stream ended without final payload');
+    return final;
+  }
+
   function jumpToCard(idx /* 0-based */) {
     const card = document.getElementById(`news-card-${idx}`);
     if (!card) return;
@@ -188,20 +223,10 @@
     if (card) card.classList.toggle('is-generating', !!busy);
   }
 
-  async function runSummary({ kind, key, force, onData, _autoRegenAttempted }) {
-    const wrap = document.getElementById('ai-summary');
-    const status = document.getElementById('summary-status');
-    if (!wrap) return;
-
-    const base = kind === 'track'
-      ? `/tracks/${encodeURIComponent(key)}/summary`
-      : `/companies/${encodeURIComponent(key)}/summary`;
-    const path = force ? `${base}?force=1` : base;
-
-    setControlsBusy(true);
-    // Skeleton shape mimics the eventual layout: a 2-line headline block,
-    // then 3 bullet-shaped lines. Each line shimmers via .skeleton-line CSS.
-    wrap.innerHTML = `<div class="summary-skeleton">
+  // Default skeleton (company summary or track fast-path before any
+  // 'meta' event arrives). Two-line headline + three bullet lines.
+  function defaultSkeletonHTML() {
+    return `<div class="summary-skeleton">
       <div class="skeleton-line"></div>
       <div class="skeleton-line"></div>
       <div class="skeleton-line short"></div>
@@ -210,10 +235,91 @@
       <div class="skeleton-line bullet"></div>
       <div class="skeleton-line bullet short"></div>
     </div>`;
+  }
+
+  // Skeleton + per-constituent progress list (track summaries).
+  // Each ticker starts pending and flips to a checkmark + headline as
+  // its sub-summary completes.
+  function trackProgressHTML(constituents) {
+    return `
+      <div class="summary-progress">
+        <div class="summary-progress-head">Analyzing constituents…</div>
+        <ul class="summary-progress-list">
+          ${constituents.map(t => `
+            <li class="progress-row" data-ticker="${escapeHtml(t)}">
+              <span class="progress-dot"></span>
+              <span class="progress-ticker">${escapeHtml(t)}</span>
+              <span class="progress-headline progress-pending">pending</span>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+      <div class="summary-skeleton" style="margin-top:14px">
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line short"></div>
+      </div>`;
+  }
+
+  function markProgressRow(ticker, headline, articleCount) {
+    const row = document.querySelector(
+      `.progress-row[data-ticker="${CSS.escape(ticker)}"]`
+    );
+    if (!row) return;
+    row.classList.add('done');
+    const h = row.querySelector('.progress-headline');
+    if (h) {
+      const text = (headline || '').trim();
+      if (text) {
+        h.classList.remove('progress-pending');
+        h.textContent = text;
+      } else {
+        h.classList.add('progress-empty');
+        h.textContent = articleCount === 0
+          ? 'no articles found'
+          : 'no material news';
+      }
+    }
+  }
+
+  function setProgressHead(text) {
+    const el = document.querySelector('.summary-progress-head');
+    if (el) el.textContent = text;
+  }
+
+  async function runSummary({ kind, key, force, onData, _autoRegenAttempted }) {
+    const wrap = document.getElementById('ai-summary');
+    const status = document.getElementById('summary-status');
+    if (!wrap) return;
+
+    const base = kind === 'track'
+      ? `/tracks/${encodeURIComponent(key)}/summary`
+      : `/companies/${encodeURIComponent(key)}/summary`;
+    const params = [];
+    if (force)            params.push('force=1');
+    if (kind === 'track') params.push('stream=1');
+    const path = base + (params.length ? `?${params.join('&')}` : '');
+
+    setControlsBusy(true);
+    wrap.innerHTML = defaultSkeletonHTML();
     if (status) status.textContent = 'generating…';
 
     try {
-      const data = await postJSON(path);
+      let data;
+      if (kind === 'track') {
+        data = await postNDJSON(path, (evt) => {
+          if (evt.type === 'meta') {
+            wrap.innerHTML = trackProgressHTML(evt.constituents || []);
+          } else if (evt.type === 'company') {
+            markProgressRow(evt.ticker, evt.headline, evt.article_count);
+          } else if (evt.type === 'cached') {
+            setProgressHead('Loading cached summary…');
+          } else if (evt.type === 'synth') {
+            setProgressHead('Synthesizing track-level brief…');
+          }
+        });
+      } else {
+        data = await postJSON(path);
+      }
       _lastData = data;
       renderSummary(data);
       setStatus(data);
