@@ -60,7 +60,21 @@ async function init() {
 
   stockNewsItems = newsRes.status === 'fulfilled' ? newsRes.value : [];
   renderNews(stockNewsItems);
+  loadSummary();
   renderChart(ticker);
+}
+
+function loadSummary() {
+  if (!window.renderAISummary || !ticker) return;
+  window.renderAISummary({
+    kind: 'company',
+    key: ticker,
+    onData(data) {
+      if (!data || !data.citations) return;
+      const cited = new Set(data.citations.map(c => c.article_index));
+      renderNews(stockNewsItems, cited);
+    },
+  });
 }
 
 function splitTitleIntoTwoLines(name) {
@@ -212,20 +226,6 @@ function renderNews(items, citedSet) {
       </a>
     `;
   }).join('');
-
-  // Kick off AI summary now that news cards exist (so citation-click scroll works).
-  // After it resolves, re-render news cards with cited badges applied.
-  if (window.renderAISummary && ticker) {
-    window.renderAISummary({
-      kind: 'company',
-      key: ticker,
-      onData(data) {
-        if (!data || !data.citations) return;
-        const cited = new Set(data.citations.map(c => c.article_index));
-        renderNews(stockNewsItems, cited);
-      },
-    });
-  }
 }
 
 function buildChartScript(ticker) {
