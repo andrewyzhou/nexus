@@ -7,5 +7,6 @@ requests
 curl_cffi
 python-dotenv
 beautifulsoup4
+trafilatura
 firebase-admin
 anthropic
