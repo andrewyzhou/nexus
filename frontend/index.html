@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexus</title>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="style.css?v=6" />
   <link rel="stylesheet" href="theme.css?v=6" />
   <link rel="stylesheet" href="mobile.css?v=6" />
 
@@ -36,23 +36,17 @@
     <div id="mobile-backdrop" class="mobile-backdrop"></div>
 
     <!-- ── Mobile nav picker ───────────────────────────────── -->
-    <div id="mobile-nav-picker" class="mobile-nav-picker" aria-hidden="true">
-      <button class="nav-pick-btn" data-target="pinned-section">
-        <span class="nav-pick-label">Companies</span>
-      </button>
-      <button class="nav-pick-btn" data-target="tracks-section">
-        <span class="nav-pick-label">Investment Tracks</span>
-      </button>
-    </div>
+    <!-- Mobile shows a single sidebar; no section picker needed in the new
+         layout because the Quick Start / Recent / etc. all share one scroll. -->
 
     <!-- ── Left Sidebar ────────────────────────────────────── -->
+    <!-- Order: Search → On Graph → Quick Start → Recent → Saved → Trending → Browse All
+         All sections render lazily — empty ones hide themselves. -->
     <aside id="sidebar">
 
-      <!-- Company search -->
-      <div class="sidebar-section">
-        <div class="sidebar-label">Search</div>
+      <!-- Search (sticky top) -->
+      <div class="sidebar-section sidebar-section--search">
         <div class="search-wrap">
-          <!-- magnifier icon -->
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/>
             <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
@@ -60,45 +54,88 @@
           <input
             id="search-input"
             type="text"
-            placeholder="Ticker or investment track"
+            placeholder="Search any track or ticker"
             autocomplete="off"
             spellcheck="false"
           />
         </div>
       </div>
 
-      <!-- Separator -->
-      <div class="sidebar-divider"></div>
+      <!-- Scrollable content -->
+      <div id="sidebar-scroll">
 
-      <!-- Pinned companies -->
-      <div class="sidebar-section" id="pinned-section">
-        <div class="tracks-header">
-          <div class="sidebar-label">Companies</div>
-          <div class="track-controls">
-            <button id="pinned-add-all" class="track-control-btn">All</button>
-            <button id="pinned-clear-all" class="track-control-btn">Clear</button>
+        <!-- On Graph: every pinned node, always-visible, reset = clear all -->
+        <section class="sidebar-section sidebar-section--on-graph" id="on-graph-section" hidden>
+          <div class="sidebar-section-head">
+            <div class="sidebar-label">On Graph <span class="sidebar-label-count" id="on-graph-count"></span></div>
+            <button class="sidebar-mini-btn sidebar-mini-btn--danger" id="on-graph-clear">Clear</button>
           </div>
-        </div>
-        <div id="pinned-list"></div>
-      </div>
+          <div class="sidebar-list" id="on-graph-list"></div>
+        </section>
 
-      <!-- Track filters -->
-      <div class="sidebar-section" id="tracks-section">
-        <div class="tracks-header">
-          <div class="sidebar-label">Investment Tracks</div>
-          <div class="track-controls">
-            <button id="track-select-all" class="track-control-btn">All</button>
-            <button id="track-clear-all" class="track-control-btn">Clear</button>
+        <!-- Quick Start: 6 curated tracks, hardcoded -->
+        <section class="sidebar-section" id="quick-start-section">
+          <div class="sidebar-section-head">
+            <div class="sidebar-label">Quick Start</div>
           </div>
-        </div>
-        <div id="track-list"></div>
-      </div>
+          <div class="sidebar-list" id="quick-start-list"></div>
+        </section>
+
+        <!-- Recent: per-user, server-backed, capped at ~8 visible -->
+        <section class="sidebar-section" id="recent-section" hidden>
+          <div class="sidebar-section-head">
+            <div class="sidebar-label">Recent</div>
+            <button class="sidebar-mini-btn" id="recent-reset" title="Clear recent">Reset</button>
+          </div>
+          <div class="sidebar-list" id="recent-list"></div>
+        </section>
+
+        <!-- Saved: per-user, server-backed -->
+        <section class="sidebar-section" id="saved-section" hidden>
+          <div class="sidebar-section-head">
+            <div class="sidebar-label">Saved</div>
+          </div>
+          <div class="sidebar-list" id="saved-list"></div>
+        </section>
+
+        <!-- Trending Today: yfinance-backed, collapsible (default open),
+             rows expand inline to show top results from each kind. -->
+        <section class="sidebar-section sidebar-section--collapsible" id="trending-section">
+          <div class="sidebar-section-head sidebar-section-head--toggle" data-target="trending-body">
+            <div class="sidebar-label">Trending Today</div>
+            <span class="sidebar-caret"></span>
+          </div>
+          <div class="sidebar-section-body" id="trending-body">
+            <div class="sidebar-list" id="trending-list"></div>
+          </div>
+        </section>
+
+        <!-- Browse All: full reachability for tracks + companies, default closed -->
+        <section class="sidebar-section sidebar-section--collapsible" id="browse-section">
+          <div class="sidebar-section-head sidebar-section-head--toggle collapsed" data-target="browse-body">
+            <div class="sidebar-label">Browse All</div>
+            <span class="sidebar-caret"></span>
+          </div>
+          <div class="sidebar-section-body" id="browse-body" hidden>
+            <div class="sidebar-list" id="browse-list"></div>
+          </div>
+        </section>
+
+      </div><!-- /#sidebar-scroll -->
 
     </aside>
 
     <!-- ── Main Graph Canvas ────────────────────────────────── -->
     <main id="main">
       <div id="graph-canvas"></div>
+      <!-- Empty-state prompt (visible only when no nodes are pinned/visible) -->
+      <div id="graph-empty" class="graph-empty" hidden>
+        <div class="graph-empty-inner">
+          <div class="graph-empty-title">Search or add a track to begin</div>
+          <div class="graph-empty-sub">Try one of these</div>
+          <div class="graph-empty-suggestions" id="graph-empty-suggestions"></div>
+        </div>
+      </div>
       <div id="edge-legend"></div>
     </main>
 
@@ -114,88 +151,44 @@
 
 
   <script src="config.js?v=5"></script>
-  <script src="auth.js?v=5"></script>
+  <script src="auth.js?v=6"></script>
   <script src="theme.js?v=5"></script>
-  <script src="main.js?v=5"></script>
+  <script src="main.js?v=6"></script>
   <script>
     (function() {
       const menuBtn  = document.getElementById('mobile-menu');
       const sidebar  = document.getElementById('sidebar');
       const backdrop = document.getElementById('mobile-backdrop');
-      const picker   = document.getElementById('mobile-nav-picker');
-      if (!menuBtn || !sidebar || !backdrop || !picker) return;
+      if (!menuBtn || !sidebar || !backdrop) return;
 
-      // Same icon swap as .conn-add-btn elsewhere: green plus → red X
-      // when "active" (i.e. the sidebar/picker is open).
+      // Plus → X when sidebar is open. Reuses .on-graph styling for the swap.
       const ICON_PLUS = '<svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="6" y1="1" x2="6" y2="11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="6" x2="11" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
       const ICON_X    = '<svg width="14" height="14" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="1" y1="1" x2="9" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="1" x2="1" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 
       const setMenuOpen = (open) => {
         menuBtn.classList.toggle('on-graph', open);
         menuBtn.innerHTML = open ? ICON_X : ICON_PLUS;
-        menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Add companies or tracks');
+        menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open sidebar');
       };
 
       const closeSidebar = () => {
         sidebar.classList.remove('open');
-        sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
-        backdrop.classList.remove('active');
-        setMenuOpen(false);
-      };
-      const closePicker = () => {
-        picker.classList.remove('active');
-        picker.setAttribute('aria-hidden', 'true');
         backdrop.classList.remove('active');
         setMenuOpen(false);
       };
 
       menuBtn.addEventListener('click', () => {
-        if (window.innerWidth > 768) {
-          // Desktop: just toggle sidebar normally — never filter sections
-          sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
-          const opened = sidebar.classList.toggle('open');
-          backdrop.classList.toggle('active', opened);
-          setMenuOpen(opened);
-          return;
-        }
-        // Mobile: if anything is open, close it. Otherwise show the picker.
-        if (sidebar.classList.contains('open') || picker.classList.contains('active')) {
-          closeSidebar();
-          closePicker();
-        } else {
-          picker.classList.add('active');
-          picker.setAttribute('aria-hidden', 'false');
-          backdrop.classList.add('active');
-          setMenuOpen(true);
-        }
+        const opened = sidebar.classList.toggle('open');
+        backdrop.classList.toggle('active', opened);
+        setMenuOpen(opened);
       });
 
-      picker.querySelectorAll('.nav-pick-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const targetId = btn.dataset.target;
-          // Hand off from picker → sidebar without flipping the icon back.
-          picker.classList.remove('active');
-          picker.setAttribute('aria-hidden', 'true');
-          sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
-          if (targetId === 'pinned-section') {
-            sidebar.classList.add('show-pinned-only');
-          } else if (targetId === 'tracks-section') {
-            sidebar.classList.add('show-tracks-only');
-          }
-          sidebar.classList.add('open');
-          backdrop.classList.add('active');
-          setMenuOpen(true);
-        });
-      });
-
-      backdrop.addEventListener('click', () => {
-        closeSidebar();
-        closePicker();
-      });
+      backdrop.addEventListener('click', closeSidebar);
 
       sidebar.addEventListener('click', (e) => {
         if (window.innerWidth > 768) return;
-        const target = e.target.closest('.track-item, .pinned-item, .search-dropdown-item, a');
+        // Tap on any actionable row should auto-close on mobile.
+        const target = e.target.closest('.sb-item, .search-dropdown-item, a');
         if (target) closeSidebar();
       });
     })();

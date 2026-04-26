@@ -37,12 +37,48 @@ function fmtCap(b) {
 // ── State ─────────────────────────────────────────────────────────────────────
 let allNodes = [], allEdges = [], tracks = [];
 let trackById = new Map();  // fast lookup: track.id → track object
+let nodeById  = new Map();  // fast lookup: node.id  → node object
 let hiddenTracks  = new Set();
 let pinnedNodes   = new Set();   // individual node IDs shown regardless of track state
 let excludedNodes = new Set();   // individual node IDs explicitly hidden regardless of track state
 let searchQuery   = '';
 let selectedNode  = null;
 let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
+
+// Per-user server state (loaded after auth resolves)
+let recentItems = [];   // [{item_type, item_id, label}]
+let savedItems  = [];   // [{item_type, item_id, label}]
+let moversByKind = {};  // { day_gainers: [{ticker,name,price,change_pct}], ... }
+
+// Quick Start: hardcoded curated track labels. Resolved at render time by
+// fuzzy-matching against the tracks loaded from the API. Items that don't
+// resolve (because the track was renamed/removed) just don't render.
+const QUICK_START_TRACKS = [
+  'AI Chips',
+  'AI Infrastructure',
+  'Cloud Hyperscalers',
+  'Semiconductors',
+  'EV Leaders',
+  'Big Tech',
+];
+
+// Browse All sector buckets: each bucket maps to a fuzzy substring matched
+// against the track label. A track may appear under multiple buckets.
+const BROWSE_BUCKETS = [
+  { id: 'tech',    label: 'Technology', match: ['ai', 'tech', 'software', 'cloud', 'cyber', 'semi', 'chip', 'data', 'saas', 'crypto', 'fintech', 'internet', 'robot'] },
+  { id: 'health',  label: 'Healthcare', match: ['health', 'biotech', 'pharma', 'medic', 'gene', 'drug', 'medtech'] },
+  { id: 'consumer',label: 'Consumer',   match: ['retail', 'consumer', 'food', 'beverage', 'apparel', 'auto', 'restaurant', 'travel', 'ecomm', 'gaming', 'media', 'entertainment'] },
+  { id: 'finance', label: 'Finance',    match: ['bank', 'finance', 'insurance', 'payment', 'lending', 'reit', 'real estate', 'asset'] },
+  { id: 'energy',  label: 'Energy',     match: ['energy', 'oil', 'gas', 'solar', 'nuclear', 'battery', 'mining', 'metal', 'utility', 'clean'] },
+];
+
+// Trending Today rows
+const TRENDING_KINDS = [
+  { id: 'day_gainers',  label: 'Day Gainers',  arrow: '↑' },
+  { id: 'day_losers',   label: 'Day Losers',   arrow: '↓' },
+  { id: 'most_actives', label: 'Most Active',  arrow: '⇅' },
+  { id: 'trending',     label: 'Trending',     arrow: '★' },
+];
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 async function loadGraphData() {
@@ -62,10 +98,12 @@ async function loadGraphData() {
   return { ...mock, _source: 'mock' };
 }
 
+// Per-user storage key. Prefer the Firebase uid (so state follows the user
+// across browsers); fall back to an anonymous local UUID when auth is off.
 function getUserId() {
+  if (window.nexusUserUid) return window.nexusUserUid;
   let uid = localStorage.getItem('nexus_user_id');
   if (!uid) {
-    // crypto.randomUUID only works on HTTPS/localhost; fall back for LAN dev
     uid = (typeof crypto !== 'undefined' && crypto.randomUUID)
       ? crypto.randomUUID()
       : 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
@@ -77,7 +115,8 @@ function getUserId() {
   return uid;
 }
 
-const STATE_KEY = `nexus_graph_state_${getUserId()}`;
+// Computed lazily so it picks up the Firebase uid after auth resolves.
+let STATE_KEY = `nexus_graph_state_anon`;
 const STATE_VERSION = 2;
 
 function saveState() {
@@ -120,11 +159,16 @@ function loadState() {
 async function init() {
   // Block first fetch on Firebase auth when enabled (no-op otherwise).
   if (window.nexusAuthReady) await window.nexusAuthReady;
+
+  // Re-key state now that we know the Firebase uid (or anon fallback).
+  STATE_KEY = `nexus_graph_state_${getUserId()}`;
+
   const data = await loadGraphData();
   tracks   = data.tracks;
   trackById = new Map(tracks.map(t => [t.id, t]));
-  allNodes = data.nodes.map(n => ({ ...n }));   // shallow copy so D3 can mutate
+  allNodes = data.nodes.map(n => ({ ...n }));
   allEdges = data.edges.map(e => ({ ...e }));
+  nodeById = new Map(allNodes.map(n => [n.id, n]));
 
   const saved = loadState();
   const validTrackIds = new Set(tracks.map(t => t.id));
@@ -143,52 +187,655 @@ async function init() {
   if (badge) badge.textContent = data._source === 'api' ? 'live' : 'demo';
 
   buildTrackCSS(tracks);
-  buildSidebar(tracks, allNodes);
+  buildSidebar();
   buildGraph();
-  updateNodeCount();
   applyVisibility();
-  renderPinnedList();
 
   const searchInput = document.getElementById('search-input');
   searchInput.addEventListener('input', onSearch);
   searchInput.addEventListener('focus', () => { if (searchInput.value.trim()) onSearch({ target: searchInput }); });
   searchInput.addEventListener('blur', () => setTimeout(hideSearchDropdown, 150));
-  document.getElementById('track-select-all')?.addEventListener('click', selectAllTracks);
-  document.getElementById('track-clear-all')?.addEventListener('click', clearAllTracks);
-  document.getElementById('pinned-add-all')?.addEventListener('click', () => {
-    allNodes.forEach(n => { pinnedNodes.add(n.id); excludedNodes.delete(n.id); });
-    applyVisibility({ skipFit: true });
-    renderPinnedList();
-    syncPanelAddBtn();
-  });
-  document.getElementById('pinned-clear-all')?.addEventListener('click', () => {
-    if (selectedNode) closePanel();
-    pinnedNodes.clear();
-    applyVisibility({ skipFit: true });
-    renderPinnedList();
-  });
+
+  // Fire-and-forget initial loads for per-user lists + movers. Each section
+  // hides itself if empty / failed.
+  refreshRecent();
+  refreshSaved();
+  refreshTrending();
 }
 
-function selectAllTracks() {
-  hiddenTracks.clear();
-  document.querySelectorAll('#track-list .track-item').forEach(el => {
-    el.classList.add('active');
-    el.classList.remove('muted');
-    const btn = el.querySelector('.track-toggle-btn');
-    if (btn) { btn.innerHTML = ICON_CLOSE; btn.title = 'Remove from graph'; }
-  });
-  applyVisibility();
+// ── Action helpers (used by every sidebar section) ──────────────────────────
+//
+// addItem / removeItem / toggleItem are the canonical way every sidebar row
+// mutates pinnedNodes/hiddenTracks. They also write to the per-user "recent"
+// list so the Recent section reflects whatever the user just touched.
+
+function isItemOnGraph(item) {
+  if (item.item_type === 'track') return !hiddenTracks.has(item.item_id);
+  return pinnedNodes.has(item.item_id);
 }
 
-function clearAllTracks() {
+function addItem(item, { skipRecent = false } = {}) {
+  if (item.item_type === 'track') {
+    hiddenTracks.delete(item.item_id);
+  } else {
+    pinnedNodes.add(item.item_id);
+    excludedNodes.delete(item.item_id);
+  }
+  if (!skipRecent) recordRecent(item);
+  applyVisibility({ skipFit: true });
+  refreshSidebarRows();
+  syncPanelAddBtn();
+}
+
+function removeItem(item) {
+  if (item.item_type === 'track') {
+    hiddenTracks.add(item.item_id);
+  } else {
+    pinnedNodes.delete(item.item_id);
+    excludedNodes.add(item.item_id);
+  }
+  applyVisibility({ skipFit: true });
+  refreshSidebarRows();
+  syncPanelAddBtn();
+}
+
+function toggleItem(item) {
+  if (isItemOnGraph(item)) removeItem(item); else addItem(item);
+}
+
+// Item shape for tracks/companies — used by all sections.
+function trackItem(track) { return { item_type: 'track',   item_id: track.id, label: track.label }; }
+function nodeItem(node)   { return { item_type: 'company', item_id: node.id,  label: `${node.ticker} · ${node.name}` }; }
+
+// Re-render every section that depends on pin/hide state. Cheap because each
+// section's list is small.
+function refreshSidebarRows() {
+  renderOnGraph();
+  renderQuickStart();
+  renderRecent();
+  renderSaved();
+  renderTrending();
+  renderBrowse();
+  renderEmptyState();
+}
+
+// ── Sidebar shell ───────────────────────────────────────────────────────────
+function buildSidebar() {
+  // Wire up collapsibles (Trending / Browse).
+  document.querySelectorAll('.sidebar-section-head--toggle').forEach(head => {
+    head.addEventListener('click', () => {
+      const targetId = head.dataset.target;
+      const body = document.getElementById(targetId);
+      if (!body) return;
+      const open = body.hasAttribute('hidden');
+      body.toggleAttribute('hidden', !open);
+      head.classList.toggle('collapsed', !open);
+      // Lazy-load Browse on first open (cheap but defers ~1k DOM nodes)
+      if (open && targetId === 'browse-body') renderBrowse();
+    });
+  });
+
+  // Per-user-state buttons
+  document.getElementById('on-graph-clear')?.addEventListener('click', clearAllPinned);
+  document.getElementById('recent-reset')?.addEventListener('click', resetRecent);
+
+  // Initial render — sections that depend on async data show empty until refresh.
+  refreshSidebarRows();
+}
+
+// ── On Graph ────────────────────────────────────────────────────────────────
+// Lists every node that is currently visible on the graph (pinned + tracks
+// that contribute their members). Always-visible row of × buttons so the
+// user can prune the graph without hunting through Browse.
+
+function visibleGraphItems() {
+  const items = [];
+  // Pinned individual companies
+  pinnedNodes.forEach(id => {
+    const n = nodeById.get(id);
+    if (n) items.push({ ...nodeItem(n), badge: n.ticker });
+  });
+  // Active tracks (only those with at least one node — empty tracks aren't useful)
+  tracks.forEach(t => {
+    if (hiddenTracks.has(t.id)) return;
+    items.push({ ...trackItem(t), badge: 'TRACK', color: t.color });
+  });
+  // Sort: tracks first (they "produce" multiple nodes), then companies A→Z
+  items.sort((a, b) => {
+    if (a.item_type !== b.item_type) return a.item_type === 'track' ? -1 : 1;
+    return a.label.localeCompare(b.label);
+  });
+  return items;
+}
+
+function renderOnGraph() {
+  const section = document.getElementById('on-graph-section');
+  const list    = document.getElementById('on-graph-list');
+  const count   = document.getElementById('on-graph-count');
+  if (!section || !list) return;
+  const items = visibleGraphItems();
+  section.toggleAttribute('hidden', items.length === 0);
+  count.textContent = items.length ? `(${items.length})` : '';
+  list.innerHTML = '';
+  items.forEach(item => list.appendChild(renderRow(item, { actionIcon: 'remove' })));
+}
+
+function clearAllPinned() {
+  if (selectedNode) closePanel();
+  pinnedNodes.clear();
+  // Also hide every track — "clear" should mean an empty graph, not a half-clear.
   hiddenTracks = new Set(tracks.map(t => t.id));
-  document.querySelectorAll('#track-list .track-item').forEach(el => {
-    el.classList.remove('active');
-    el.classList.add('muted');
-    const btn = el.querySelector('.track-toggle-btn');
-    if (btn) { btn.innerHTML = ICON_PLUS; btn.title = 'Add to graph'; }
+  applyVisibility({ skipFit: true });
+  refreshSidebarRows();
+}
+
+// ── Quick Start ─────────────────────────────────────────────────────────────
+function findTrackByLabel(label) {
+  const q = label.toLowerCase();
+  // Prefer exact match, then prefix, then containment.
+  let best = null, bestScore = -1;
+  for (const t of tracks) {
+    const tl = t.label.toLowerCase();
+    let score = -1;
+    if (tl === q) score = 100;
+    else if (tl.startsWith(q)) score = 80;
+    else if (tl.includes(q)) score = 60;
+    else if (q.split(' ').every(w => tl.includes(w))) score = 40;
+    if (score > bestScore) { bestScore = score; best = t; }
+  }
+  return bestScore >= 40 ? best : null;
+}
+
+function trackPreviewTickers(track, n = 5) {
+  const members = allNodes
+    .filter(node => (node.tracks || []).includes(track.id))
+    .sort((a, b) => (b.marketCap || 0) - (a.marketCap || 0))
+    .slice(0, n);
+  return members.map(m => m.ticker);
+}
+
+function renderQuickStart() {
+  const list = document.getElementById('quick-start-list');
+  if (!list) return;
+  list.innerHTML = '';
+  QUICK_START_TRACKS.forEach(label => {
+    const t = findTrackByLabel(label);
+    if (!t) return;
+    const preview = trackPreviewTickers(t, 5);
+    list.appendChild(renderRow(
+      { ...trackItem(t), color: t.color, preview },
+      { actionIcon: 'auto' },
+    ));
   });
-  applyVisibility();
+}
+
+// ── Recent (per-user, server-backed) ────────────────────────────────────────
+async function refreshRecent() {
+  try {
+    const r = await fetch(`${API_BASE}/recent`);
+    if (r.ok) {
+      recentItems = await r.json();
+      renderRecent();
+    }
+  } catch (_) {}
+}
+
+function renderRecent() {
+  const section = document.getElementById('recent-section');
+  const list    = document.getElementById('recent-list');
+  if (!section || !list) return;
+  // Hide already-on-graph items so Recent stays useful. Keep a max of 8.
+  const visible = recentItems.filter(i => !isItemOnGraph(i)).slice(0, 8);
+  section.toggleAttribute('hidden', visible.length === 0);
+  list.innerHTML = '';
+  visible.forEach(item => {
+    // Hydrate label from current data when possible (DB label may be stale)
+    const hydrated = hydrateItem(item);
+    if (hydrated) list.appendChild(renderRow(hydrated, { actionIcon: 'auto' }));
+  });
+}
+
+async function resetRecent() {
+  try {
+    await fetch(`${API_BASE}/recent`, { method: 'DELETE' });
+    recentItems = [];
+    renderRecent();
+  } catch (_) {}
+}
+
+function recordRecent(item) {
+  // Optimistically prepend so the UI updates without waiting for the server.
+  recentItems = [item, ...recentItems.filter(
+    i => !(i.item_type === item.item_type && i.item_id === item.item_id),
+  )].slice(0, 30);
+  // Server upsert (fire-and-forget).
+  fetch(`${API_BASE}/recent`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(item),
+  }).catch(() => {});
+}
+
+// ── Saved (per-user, server-backed) ─────────────────────────────────────────
+async function refreshSaved() {
+  try {
+    const r = await fetch(`${API_BASE}/saved`);
+    if (r.ok) {
+      savedItems = await r.json();
+      renderSaved();
+    }
+  } catch (_) {}
+}
+
+function renderSaved() {
+  const section = document.getElementById('saved-section');
+  const list    = document.getElementById('saved-list');
+  if (!section || !list) return;
+  section.toggleAttribute('hidden', savedItems.length === 0);
+  list.innerHTML = '';
+  savedItems.forEach(item => {
+    const hydrated = hydrateItem(item);
+    if (hydrated) list.appendChild(renderRow(hydrated, { actionIcon: 'auto', secondary: 'unsave' }));
+  });
+}
+
+function isSaved(item) {
+  return savedItems.some(i => i.item_type === item.item_type && i.item_id === item.item_id);
+}
+
+function toggleSaved(item) {
+  if (isSaved(item)) {
+    savedItems = savedItems.filter(i => !(i.item_type === item.item_type && i.item_id === item.item_id));
+    fetch(`${API_BASE}/saved?item_type=${encodeURIComponent(item.item_type)}&item_id=${encodeURIComponent(item.item_id)}`,
+          { method: 'DELETE' }).catch(() => {});
+  } else {
+    savedItems = [item, ...savedItems];
+    fetch(`${API_BASE}/saved`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(item),
+    }).catch(() => {});
+  }
+  renderSaved();
+}
+
+// Take a stored {item_type,item_id,label} and resolve a richer object suitable
+// for renderRow (track color/preview, node ticker badge, etc.). Returns null
+// if the item no longer exists in the loaded dataset.
+function hydrateItem(item) {
+  if (item.item_type === 'track') {
+    const t = trackById.get(item.item_id);
+    if (!t) return null;
+    return { ...trackItem(t), color: t.color, preview: trackPreviewTickers(t, 4) };
+  }
+  if (item.item_type === 'company') {
+    const n = nodeById.get(item.item_id);
+    if (!n) return null;
+    return { ...nodeItem(n), badge: n.ticker };
+  }
+  return null;
+}
+
+// ── Trending Today (yfinance, cached server-side) ───────────────────────────
+async function refreshTrending() {
+  await Promise.all(TRENDING_KINDS.map(async k => {
+    try {
+      const r = await fetch(`${API_BASE}/movers/${k.id}`);
+      if (!r.ok) { moversByKind[k.id] = []; return; }
+      const data = await r.json();
+      moversByKind[k.id] = (data.items || []).slice(0, 10);
+    } catch (_) {
+      moversByKind[k.id] = [];
+    }
+  }));
+  renderTrending();
+}
+
+function renderTrending() {
+  const list = document.getElementById('trending-list');
+  if (!list) return;
+  list.innerHTML = '';
+
+  TRENDING_KINDS.forEach(kind => {
+    const items = moversByKind[kind.id] || [];
+    // Header row (clicking expands inline)
+    const wrapper = document.createElement('div');
+    wrapper.className = 'sb-trend-group';
+
+    const header = document.createElement('div');
+    header.className = 'sb-trend-head';
+    header.innerHTML = `
+      <span class="sb-trend-arrow">${kind.arrow}</span>
+      <span class="sb-trend-label">${kind.label}</span>
+      <span class="sb-trend-count">${items.length || ''}</span>
+      <span class="sb-trend-caret"></span>
+    `;
+    if (!items.length) header.classList.add('sb-trend-head--empty');
+
+    const body = document.createElement('div');
+    body.className = 'sb-trend-body';
+    body.hidden = true;
+
+    items.forEach(it => {
+      const node = allNodes.find(n => n.ticker?.toUpperCase() === (it.ticker || '').toUpperCase());
+      // Even if we don't have the company in our universe, render a "+ ticker"
+      // row that's not actionable (we can't add unknown tickers to the graph).
+      if (!node) {
+        const row = document.createElement('div');
+        row.className = 'sb-item sb-item--readonly';
+        row.innerHTML = `
+          <span class="sb-item-ticker">${it.ticker}</span>
+          <span class="sb-item-name">${it.name || ''}</span>
+          ${renderChangePct(it.change_pct)}
+        `;
+        body.appendChild(row);
+        return;
+      }
+      const item = nodeItem(node);
+      const row = renderRow({ ...item, badge: node.ticker, change_pct: it.change_pct }, { actionIcon: 'auto' });
+      body.appendChild(row);
+    });
+
+    if (items.length) {
+      header.addEventListener('click', () => {
+        body.hidden = !body.hidden;
+        header.classList.toggle('open', !body.hidden);
+      });
+    }
+
+    wrapper.appendChild(header);
+    wrapper.appendChild(body);
+    list.appendChild(wrapper);
+  });
+}
+
+function renderChangePct(p) {
+  if (p == null) return '';
+  // Yahoo screener returns percent points (e.g. 5.42 = +5.42%); /v7 quote
+  // returns the same. No /100 needed.
+  const v = Number(p);
+  if (!isFinite(v)) return '';
+  const cls = v >= 0 ? 'sb-pct sb-pct--up' : 'sb-pct sb-pct--down';
+  const sign = v >= 0 ? '+' : '';
+  return `<span class="${cls}">${sign}${v.toFixed(2)}%</span>`;
+}
+
+// ── Browse All ──────────────────────────────────────────────────────────────
+// Two top-level groups (Tracks, Companies); each group has an A–Z list and
+// optional sector buckets. Lazy-rendered so the initial paint doesn't try to
+// build 5000 rows.
+
+let browseRendered = false;
+
+function renderBrowse() {
+  const list = document.getElementById('browse-list');
+  if (!list) return;
+  // Browse only renders once per page load — cheaper than rebuilding every
+  // pin/unpin. The action icons inside still update because they use `.is-on`
+  // class which we reset on each row build.
+  if (browseRendered) {
+    // Just refresh the on-graph state of existing rows.
+    list.querySelectorAll('[data-item-key]').forEach(row => {
+      const key = row.dataset.itemKey;
+      const [type, id] = key.split('::');
+      const item = type === 'track' ? hydrateItem({ item_type: 'track', item_id: id })
+                                    : hydrateItem({ item_type: 'company', item_id: id });
+      if (!item) return;
+      const onGraph = isItemOnGraph(item);
+      row.classList.toggle('is-on', onGraph);
+      const btn = row.querySelector('.sb-action');
+      if (btn) {
+        btn.innerHTML = onGraph ? ICON_CLOSE : ICON_PLUS;
+        btn.title = onGraph ? 'Remove from graph' : 'Add to graph';
+      }
+    });
+    return;
+  }
+  browseRendered = true;
+  list.innerHTML = '';
+
+  // Tracks group
+  list.appendChild(renderBrowseGroup({
+    id: 'browse-tracks',
+    label: `Tracks (${tracks.length})`,
+    children: [
+      { id: 'tracks-az', label: 'All A–Z', items: tracks.slice().sort((a,b) => a.label.localeCompare(b.label)).map(t => ({ ...trackItem(t), color: t.color })) },
+      ...BROWSE_BUCKETS.map(b => {
+        const matched = tracks
+          .filter(t => b.match.some(m => t.label.toLowerCase().includes(m)))
+          .sort((a, b) => a.label.localeCompare(b.label))
+          .map(t => ({ ...trackItem(t), color: t.color }));
+        return { id: `tracks-${b.id}`, label: `${b.label} (${matched.length})`, items: matched };
+      }),
+    ],
+  }));
+
+  // Companies group
+  const companiesAZ = allNodes
+    .slice()
+    .sort((a, b) => a.ticker.localeCompare(b.ticker))
+    .map(n => ({ ...nodeItem(n), badge: n.ticker }));
+
+  // By-sector bucket (uses the sector field on each node)
+  const sectorMap = new Map();
+  allNodes.forEach(n => {
+    const s = (n.sector || 'Uncategorized').trim() || 'Uncategorized';
+    if (!sectorMap.has(s)) sectorMap.set(s, []);
+    sectorMap.get(s).push({ ...nodeItem(n), badge: n.ticker });
+  });
+  const sectorChildren = [...sectorMap.entries()]
+    .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
+    .map(([s, items]) => ({
+      id: `companies-sector-${s}`,
+      label: `${s} (${items.length})`,
+      items: items.sort((a, b) => a.label.localeCompare(b.label)),
+    }));
+
+  list.appendChild(renderBrowseGroup({
+    id: 'browse-companies',
+    label: `Companies (${allNodes.length})`,
+    children: [
+      { id: 'companies-az', label: 'All A–Z', items: companiesAZ },
+      { id: 'companies-by-sector', label: 'By Sector', children: sectorChildren },
+    ],
+  }));
+}
+
+function renderBrowseGroup(group) {
+  const wrap = document.createElement('div');
+  wrap.className = 'sb-browse-group';
+
+  const head = document.createElement('div');
+  head.className = 'sb-browse-head collapsed';
+  head.innerHTML = `<span class="sb-browse-label">${group.label}</span><span class="sb-trend-caret"></span>`;
+  wrap.appendChild(head);
+
+  const body = document.createElement('div');
+  body.className = 'sb-browse-body';
+  body.hidden = true;
+  wrap.appendChild(body);
+
+  let built = false;
+  head.addEventListener('click', () => {
+    body.hidden = !body.hidden;
+    head.classList.toggle('collapsed', body.hidden);
+    if (!body.hidden && !built) {
+      built = true;
+      (group.children || []).forEach(child => body.appendChild(renderBrowseChild(child)));
+    }
+  });
+
+  return wrap;
+}
+
+function renderBrowseChild(child) {
+  // A child may be either a leaf list (has `items`) or another group
+  // (has `children`).
+  if (child.children) return renderBrowseGroup(child);
+  return renderBrowseLeaf(child);
+}
+
+function renderBrowseLeaf(leaf) {
+  const wrap = document.createElement('div');
+  wrap.className = 'sb-browse-leaf';
+
+  const head = document.createElement('div');
+  head.className = 'sb-browse-leaf-head collapsed';
+  head.innerHTML = `<span class="sb-browse-leaf-label">${leaf.label}</span><span class="sb-trend-caret"></span>`;
+  wrap.appendChild(head);
+
+  const body = document.createElement('div');
+  body.className = 'sb-browse-leaf-body';
+  body.hidden = true;
+  wrap.appendChild(body);
+
+  let built = false;
+  head.addEventListener('click', () => {
+    body.hidden = !body.hidden;
+    head.classList.toggle('collapsed', body.hidden);
+    if (!body.hidden && !built) {
+      built = true;
+      // Render rows in chunks so a 5000-item leaf doesn't jank the UI.
+      const items = leaf.items || [];
+      let idx = 0;
+      const CHUNK = 80;
+      const renderChunk = () => {
+        const stop = Math.min(idx + CHUNK, items.length);
+        for (; idx < stop; idx++) body.appendChild(renderRow(items[idx], { actionIcon: 'auto' }));
+        if (idx < items.length) requestAnimationFrame(renderChunk);
+      };
+      renderChunk();
+    }
+  });
+
+  return wrap;
+}
+
+// ── Generic row renderer (used by every section) ────────────────────────────
+//
+// item: { item_type, item_id, label, color?, preview?, badge?, change_pct? }
+// opts: { actionIcon: 'auto' | 'remove' | 'none', secondary?: 'unsave' }
+
+function renderRow(item, opts = {}) {
+  const { actionIcon = 'auto', secondary } = opts;
+  const onGraph = isItemOnGraph(item);
+  const row = document.createElement('div');
+  row.className = `sb-item${onGraph ? ' is-on' : ''}`;
+  row.dataset.itemKey = `${item.item_type}::${item.item_id}`;
+
+  // Color dot for tracks; ticker badge for companies.
+  if (item.item_type === 'track') {
+    const dot = document.createElement('span');
+    dot.className = 'sb-item-dot';
+    dot.style.background = item.color || '#888';
+    row.appendChild(dot);
+  } else {
+    const badge = document.createElement('span');
+    badge.className = 'sb-item-ticker';
+    badge.textContent = item.badge || item.label.split(' ')[0];
+    row.appendChild(badge);
+  }
+
+  const label = document.createElement('span');
+  label.className = 'sb-item-label';
+  label.textContent = item.item_type === 'track' ? item.label
+                                                 : (item.label.split(' · ')[1] || item.label);
+  row.appendChild(label);
+
+  if (item.preview && item.preview.length) {
+    const preview = document.createElement('span');
+    preview.className = 'sb-item-preview';
+    preview.textContent = item.preview.join(' ');
+    row.appendChild(preview);
+  }
+
+  if (item.change_pct != null) {
+    const span = document.createElement('span');
+    span.innerHTML = renderChangePct(item.change_pct);
+    row.appendChild(span);
+  }
+
+  // Secondary action (e.g. ★ unsave) goes before the primary action.
+  if (secondary === 'unsave') {
+    const unsave = document.createElement('button');
+    unsave.className = 'sb-action sb-action--secondary';
+    unsave.title = 'Remove from saved';
+    unsave.textContent = '★';
+    unsave.addEventListener('click', e => { e.stopPropagation(); toggleSaved(item); });
+    row.appendChild(unsave);
+  } else if (item.item_type !== 'track' || actionIcon !== 'remove') {
+    // Save toggle on regular rows so users can promote anything to Saved.
+    // Skipped for the On Graph section (which only shows remove).
+    if (actionIcon !== 'remove') {
+      const star = document.createElement('button');
+      star.className = 'sb-action sb-action--secondary' + (isSaved(item) ? ' is-saved' : '');
+      star.title = isSaved(item) ? 'Unsave' : 'Save';
+      star.textContent = '★';
+      star.addEventListener('click', e => { e.stopPropagation(); toggleSaved(item); });
+      row.appendChild(star);
+    }
+  }
+
+  if (actionIcon !== 'none') {
+    const action = document.createElement('button');
+    action.className = 'sb-action sb-action--primary';
+    const showRemove = actionIcon === 'remove' || onGraph;
+    action.classList.toggle('is-remove', showRemove);
+    action.innerHTML = showRemove ? ICON_CLOSE : ICON_PLUS;
+    action.title = showRemove ? 'Remove from graph' : 'Add to graph';
+    action.addEventListener('click', e => {
+      e.stopPropagation();
+      if (showRemove) removeItem(item); else addItem(item);
+    });
+    row.appendChild(action);
+  }
+
+  // Click anywhere on the row (other than the action buttons) opens the
+  // detail panel for companies, or for tracks opens the track page.
+  row.addEventListener('click', e => {
+    if (e.target.closest('.sb-action')) return;
+    if (item.item_type === 'company') {
+      const n = nodeById.get(item.item_id);
+      if (n) openPanel(n);
+    } else {
+      window.location.href = `track.html?slug=${encodeURIComponent(item.item_id)}`;
+    }
+  });
+
+  return row;
+}
+
+// ── Empty-state center panel ────────────────────────────────────────────────
+function renderEmptyState() {
+  const emptyEl = document.getElementById('graph-empty');
+  if (!emptyEl) return;
+  const visible = allNodes.filter(nodeIsVisible);
+  emptyEl.toggleAttribute('hidden', visible.length > 0);
+  if (visible.length > 0) return;
+
+  const sug = document.getElementById('graph-empty-suggestions');
+  if (!sug) return;
+  sug.innerHTML = '';
+
+  // Suggest the first 3 quick-start tracks that resolve, plus 2 popular tickers.
+  const trackSuggestions = QUICK_START_TRACKS
+    .map(label => findTrackByLabel(label))
+    .filter(Boolean)
+    .slice(0, 3)
+    .map(t => trackItem(t));
+
+  const tickerSuggestions = ['NVDA', 'TSLA']
+    .map(tk => allNodes.find(n => n.ticker === tk))
+    .filter(Boolean)
+    .map(n => nodeItem(n));
+
+  [...trackSuggestions, ...tickerSuggestions].forEach(item => {
+    const btn = document.createElement('button');
+    btn.className = 'graph-empty-suggestion';
+    btn.textContent = `+ ${item.label.split(' · ').slice(-1)[0]}`;
+    btn.addEventListener('click', () => addItem(item));
+    sug.appendChild(btn);
+  });
 }
 
 // ── Inject track colours as CSS vars (in case they differ from defaults) ──────
@@ -196,432 +843,6 @@ function buildTrackCSS(tracks) {
   const root = document.documentElement;
   tracks.forEach(t => {
     root.style.setProperty(`--track-${t.id}`, t.color);
-  });
-}
-
-// ── Left Sidebar ──────────────────────────────────────────────────────────────
-function buildSidebar(tracks, nodes) {
-  const list = document.getElementById('track-list');
-  list.innerHTML = '';
-
-  // Pre-index nodes by track id to avoid O(tracks × nodes) filtering
-  const nodesByTrack = new Map();
-  for (const n of nodes) {
-    const key = n.track || 'uncategorized';
-    if (!nodesByTrack.has(key)) nodesByTrack.set(key, []);
-    nodesByTrack.get(key).push(n);
-  }
-
-  const sorted = [...tracks].sort((a, b) => {
-    const aActive = !hiddenTracks.has(a.id);
-    const bActive = !hiddenTracks.has(b.id);
-    if (aActive !== bActive) return aActive ? -1 : 1;
-    return a.label.localeCompare(b.label);
-  });
-
-  sorted.forEach(track => {
-    const trackNodes = nodesByTrack.get(track.id) || [];
-    const isHidden = hiddenTracks.has(track.id);
-
-    const wrapper = document.createElement('div');
-    wrapper.className = 'pinned-item';
-
-    const item = document.createElement('a');
-    item.className = 'track-item ' + (isHidden ? 'muted' : 'active');
-    item.dataset.track = track.id;
-    item.href = `track.html?slug=${encodeURIComponent(track.id)}`;
-    item.innerHTML = `
-      <span class="track-dot" style="background:${track.color}; box-shadow:0 0 6px ${track.color}66"></span>
-      <span class="track-name">${track.label}</span>
-      <button class="pinned-chevron-btn track-chevron-btn" title="Show companies">${ICON_CHEVRON}</button>
-      <button class="track-toggle-btn" title="${isHidden ? 'Add to graph' : 'Remove from graph'}">${isHidden ? ICON_PLUS : ICON_CLOSE}</button>
-    `;
-
-    const dropdown = document.createElement('div');
-    dropdown.className = 'pinned-dropdown';
-    dropdown.style.display = 'none';
-
-    const chevronBtn = item.querySelector('.track-chevron-btn');
-    const toggleBtn  = item.querySelector('.track-toggle-btn');
-
-    const buildTrackDropdown = () => {
-      dropdown.innerHTML = '';
-      if (!trackNodes.length) {
-        dropdown.innerHTML = '<div class="pinned-dropdown-empty">No companies</div>';
-        return;
-      }
-
-      const trackHeader = document.createElement('div');
-      trackHeader.className = 'pinned-rel-header';
-      const trackLabel = document.createElement('span');
-      trackLabel.className = 'pinned-rel-label';
-      trackLabel.style.color = track.color;
-      trackLabel.textContent = 'Companies';
-      const trackAllBtn = document.createElement('button');
-      trackAllBtn.className = 'pinned-rel-all-btn';
-      trackAllBtn.textContent = 'All';
-      const trackClearBtn = document.createElement('button');
-      trackClearBtn.className = 'pinned-rel-all-btn pinned-rel-clear-btn';
-      trackClearBtn.textContent = 'Clear';
-      const trackBtnGroup = document.createElement('div');
-      trackBtnGroup.className = 'pinned-rel-btn-group';
-      trackBtnGroup.appendChild(trackAllBtn);
-      trackBtnGroup.appendChild(trackClearBtn);
-      trackHeader.appendChild(trackLabel);
-      trackHeader.appendChild(trackBtnGroup);
-      dropdown.appendChild(trackHeader);
-
-      const trackRowNodes = [];
-      trackNodes.slice().sort((a, b) => a.ticker.localeCompare(b.ticker)).forEach(n => {
-        const isPinned = pinnedNodes.has(n.id);
-        const row = document.createElement('div');
-        row.className = 'pinned-rel-item';
-        row.style.display = 'flex';
-        row.style.alignItems = 'center';
-        row.style.gap = '6px';
-        row.innerHTML = `
-          <span class="pinned-rel-ticker" style="color:${track.color}">${n.ticker}</span>
-          <span class="pinned-rel-name">${n.name}</span>
-          <button class="track-toggle-btn track-company-toggle" style="margin-left:auto;flex-shrink:0" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? ICON_CLOSE : ICON_PLUS}</button>
-        `;
-        const compToggle = row.querySelector('.track-company-toggle');
-        if (isPinned) {
-          compToggle.style.color = '#ef4444';
-          compToggle.style.borderColor = '#ef4444';
-        } else {
-          compToggle.style.color = '#10b981';
-          compToggle.style.borderColor = '#10b981';
-        }
-        compToggle.addEventListener('click', e => {
-          e.stopPropagation();
-          if (pinnedNodes.has(n.id)) {
-            pinnedNodes.delete(n.id);
-            excludedNodes.add(n.id);
-          } else {
-            pinnedNodes.add(n.id);
-            excludedNodes.delete(n.id);
-          }
-          applyVisibility({ skipFit: true });
-          renderPinnedList();
-          buildTrackDropdown();
-          syncPanelAddBtn();
-        });
-        row.addEventListener('click', e => {
-          if (e.target.closest('.track-company-toggle')) return;
-          openPanel(n);
-        });
-        trackRowNodes.push({ node: n, row });
-        dropdown.appendChild(row);
-      });
-
-      trackAllBtn.addEventListener('click', () => {
-        let added = false;
-        trackRowNodes.forEach(({ node }) => {
-          if (!pinnedNodes.has(node.id)) {
-            pinnedNodes.add(node.id);
-            excludedNodes.delete(node.id);
-            added = true;
-          }
-        });
-        if (added) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); syncPanelAddBtn(); }
-      });
-
-      trackClearBtn.addEventListener('click', () => {
-        let removed = false;
-        trackRowNodes.forEach(({ node }) => {
-          if (pinnedNodes.has(node.id)) {
-            pinnedNodes.delete(node.id);
-            excludedNodes.add(node.id);
-            removed = true;
-          }
-        });
-        if (removed) { applyVisibility({ skipFit: true }); renderPinnedList(); buildTrackDropdown(); syncPanelAddBtn(); }
-      });
-    };
-
-    item.addEventListener('click', e => {
-      if (e.target.closest('.track-toggle-btn') && !e.target.closest('.track-chevron-btn') && !e.target.closest('.track-company-toggle')) {
-        e.preventDefault();
-        e.stopPropagation();
-        toggleTrack(track.id);
-        return;
-      }
-      if (e.target.closest('.track-chevron-btn')) {
-        e.preventDefault();
-        e.stopPropagation();
-        if (dropdown.style.display !== 'none') {
-          dropdown.style.display = 'none';
-          chevronBtn.classList.remove('open');
-        } else {
-          dropdown.style.display = 'block';
-          chevronBtn.classList.add('open');
-          buildTrackDropdown();
-        }
-        return;
-      }
-    });
-
-    wrapper.appendChild(item);
-    wrapper.appendChild(dropdown);
-    list.appendChild(wrapper);
-  });
-}
-
-// Re-sort existing pinned-item rows in-place without rebuilding them.
-// Pinned nodes go first, then alphabetical by ticker within each group.
-// Also updates each row's button/class to reflect current pin state.
-function resortPinnedList() {
-  const list = document.getElementById('pinned-list');
-  if (!list) return;
-  const wrappers = [...list.querySelectorAll(':scope > .pinned-item')];
-  wrappers.forEach(w => {
-    const isPinned = pinnedNodes.has(w.dataset.id);
-    const row = w.querySelector('.track-item');
-    const btn = w.querySelector('.pinned-toggle');
-    if (row) row.className = 'track-item ' + (isPinned ? 'active' : 'muted');
-    if (btn) { btn.innerHTML = isPinned ? ICON_CLOSE : ICON_PLUS; btn.title = isPinned ? 'Remove from graph' : 'Add to graph'; }
-  });
-  const pinned   = wrappers.filter(w =>  pinnedNodes.has(w.dataset.id));
-  const unpinned = wrappers.filter(w => !pinnedNodes.has(w.dataset.id));
-  pinned.sort((a, b)   => a.dataset.ticker.localeCompare(b.dataset.ticker));
-  unpinned.sort((a, b) => a.dataset.ticker.localeCompare(b.dataset.ticker));
-  [...pinned, ...unpinned].forEach(w => list.appendChild(w));
-}
-
-function renderPinnedList(keepOpenTicker) {
-  const list = document.getElementById('pinned-list');
-  if (!list) return;
-
-  list.innerHTML = '';
-
-  // Show all nodes — pinned first, then unpinned, alphabetical by ticker within each group
-  const sorted = [...allNodes].sort((a, b) => {
-    const ap = pinnedNodes.has(a.id), bp = pinnedNodes.has(b.id);
-    if (ap !== bp) return ap ? -1 : 1;
-    return a.ticker.localeCompare(b.ticker);
-  });
-
-  sorted.forEach(n => {
-    const isPinned = pinnedNodes.has(n.id);
-    const wrapper = document.createElement('div');
-    wrapper.className = 'pinned-item';
-    wrapper.dataset.id = n.id;
-    wrapper.dataset.ticker = n.ticker;
-
-    const row = document.createElement('div');
-    row.className = 'track-item ' + (isPinned ? 'active' : 'muted');
-    row.innerHTML = `
-      <span class="pinned-ticker">${n.ticker}</span>
-      <span class="pinned-name">${n.name}</span>
-      <button class="pinned-chevron-btn" title="Show relationships">${ICON_CHEVRON}</button>
-      <button class="track-toggle-btn pinned-toggle" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? ICON_CLOSE : ICON_PLUS}</button>
-    `;
-
-    const dropdown = document.createElement('div');
-    dropdown.className = 'pinned-dropdown';
-    dropdown.style.display = 'none';
-    dropdown.innerHTML = `<div class="pinned-dropdown-loading">Loading…</div>`;
-
-    let loaded = false;
-    const toggleBtn = row.querySelector('.pinned-toggle');
-    const chevronBtn = row.querySelector('.pinned-chevron-btn');
-
-    row.addEventListener('click', e => {
-      if (e.target.closest('.pinned-toggle') || e.target.closest('.pinned-chevron-btn')) return;
-      selectedNode = n;
-      openPanel(n);
-    });
-
-    toggleBtn.addEventListener('click', e => {
-      e.stopPropagation();
-      if (pinnedNodes.has(n.id)) {
-        pinnedNodes.delete(n.id);
-        excludedNodes.add(n.id);
-      } else {
-        pinnedNodes.add(n.id);
-        excludedNodes.delete(n.id);
-      }
-
-      saveState();
-      applyVisibility({ skipFit: true });
-      resortPinnedList();
-      syncPanelAddBtn();
-    });
-
-    const openDropdown = () => {
-      dropdown.style.display = 'block';
-      chevronBtn.classList.add('open');
-      if (!loaded) {
-        loaded = true;
-        loadPinnedRelationships(n.ticker, dropdown);
-      }
-    };
-
-    chevronBtn.addEventListener('click', e => {
-      e.stopPropagation();
-      if (dropdown.style.display !== 'none') {
-        dropdown.style.display = 'none';
-        chevronBtn.classList.remove('open');
-      } else {
-        openDropdown();
-      }
-    });
-
-    if (keepOpenTicker && n.ticker === keepOpenTicker) {
-      openDropdown();
-    }
-
-    wrapper.appendChild(row);
-    wrapper.appendChild(dropdown);
-    list.appendChild(wrapper);
-  });
-}
-
-function loadPinnedRelationships(ticker, container) {
-  const id = ticker.toLowerCase();
-
-  // Competitors come from allEdges (generated from shared tracks, not stored in DB)
-  const competitors = allEdges
-    .filter(e => {
-      const s = typeof e.source === 'object' ? e.source.id : e.source;
-      const t = typeof e.target === 'object' ? e.target.id : e.target;
-      return e.type === 'competitor' && (s === id || t === id);
-    })
-    .map(e => {
-      const s = typeof e.source === 'object' ? e.source.ticker : e.source;
-      const t = typeof e.target === 'object' ? e.target.ticker : e.target;
-      return s.toLowerCase() === id ? t : s;
-    });
-
-  Promise.all([
-    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=supplier`).then(r => r.ok ? r.json() : { edges: [] }),
-    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
-    fetch(`${API_BASE}/companies/${encodeURIComponent(ticker)}/neighbors?type=competitor`).then(r => r.ok ? r.json() : { edges: [] }),
-  ]).then(([supData, subData, compData]) => {
-    const supplies_to  = (supData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
-    const supplied_by  = (supData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
-    const owns         = (subData.edges  || []).filter(e => e.source === ticker).map(e => e.target);
-    const owned_by     = (subData.edges  || []).filter(e => e.target === ticker).map(e => e.source);
-    const comp_of = Array.from(new Set([
-      ...((compData.edges || []).filter(e => e.source === ticker).map(e => e.target)),
-      ...((compData.edges || []).filter(e => e.target === ticker).map(e => e.source)),
-    ]));
-
-    const sections = [
-      { label: 'Competitors', color: EDGE_COLORS.competitor, tickers: comp_of },
-      { label: 'Customers',   color: EDGE_COLORS.supplier,   tickers: supplies_to },
-      { label: 'Suppliers',   color: EDGE_COLORS.supplier,   tickers: supplied_by },
-      { label: 'Owns',        color: EDGE_COLORS.ownership,  tickers: owns },
-      { label: 'Owned by',    color: EDGE_COLORS.ownership,  tickers: owned_by },
-    ].filter(s => s.tickers.length > 0);
-
-    if (!sections.length) {
-      container.innerHTML = `<div class="pinned-dropdown-empty">No relationships found</div>`;
-      return;
-    }
-
-    container.innerHTML = '';
-    sections.forEach(s => {
-      const section = document.createElement('div');
-      section.className = 'pinned-rel-section';
-
-      const header = document.createElement('div');
-      header.className = 'pinned-rel-header';
-      const labelEl = document.createElement('span');
-      labelEl.className = 'pinned-rel-label';
-      labelEl.style.color = s.color;
-      labelEl.textContent = s.label;
-      const allBtn = document.createElement('button');
-      allBtn.className = 'pinned-rel-all-btn';
-      allBtn.textContent = 'All';
-      const clearBtn = document.createElement('button');
-      clearBtn.className = 'pinned-rel-all-btn pinned-rel-clear-btn';
-      clearBtn.textContent = 'Clear';
-      const btnGroup = document.createElement('div');
-      btnGroup.className = 'pinned-rel-btn-group';
-      btnGroup.appendChild(allBtn);
-      btnGroup.appendChild(clearBtn);
-      header.appendChild(labelEl);
-      header.appendChild(btnGroup);
-      section.appendChild(header);
-
-      const sectionNodes = [];
-      s.tickers.forEach(tk => {
-        const node = allNodes.find(n => n.ticker === tk || n.ticker === tk.toUpperCase() || n.id === tk.toLowerCase());
-        const displayTicker = node ? node.ticker : tk.toUpperCase();
-        const displayName = node ? node.name : '';
-        const item = document.createElement('div');
-        item.className = 'pinned-rel-item';
-        const onGraph = node && pinnedNodes.has(node.id);
-        item.innerHTML = `<span class="pinned-rel-ticker">${displayTicker}</span>${displayName ? `<span class="pinned-rel-name">${displayName}</span>` : ''}${node ? `<button class="conn-add-btn${onGraph ? ' on-graph' : ''}" style="margin-left:auto;flex-shrink:0" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? ICON_CLOSE : ICON_PLUS}</button>` : ''}`;
-        if (node) {
-          sectionNodes.push({ node, item });
-          const btn = item.querySelector('.conn-add-btn');
-          btn.addEventListener('click', e => {
-            e.stopPropagation();
-            if (pinnedNodes.has(node.id)) {
-              pinnedNodes.delete(node.id);
-              excludedNodes.add(node.id);
-              btn.classList.remove('on-graph');
-              btn.innerHTML = ICON_PLUS;
-              btn.title = 'Add to graph';
-            } else {
-              pinnedNodes.add(node.id);
-              excludedNodes.delete(node.id);
-              btn.classList.add('on-graph');
-              btn.innerHTML = ICON_CLOSE;
-              btn.title = 'Remove from graph';
-            }
-            applyVisibility({ skipFit: true });
-            renderPinnedList();
-            syncPanelAddBtn();
-          });
-          item.addEventListener('click', e => {
-            if (e.target.closest('.conn-add-btn')) return;
-            openPanel(node);
-          });
-        }
-        section.appendChild(item);
-      });
-
-      allBtn.addEventListener('click', () => {
-        let added = false;
-        sectionNodes.forEach(({ node, item }) => {
-          if (!pinnedNodes.has(node.id)) {
-            pinnedNodes.add(node.id);
-            excludedNodes.delete(node.id);
-            const btn = item.querySelector('.conn-add-btn');
-            if (btn) { btn.classList.add('on-graph'); btn.innerHTML = ICON_CLOSE; btn.title = 'Remove from graph'; }
-            added = true;
-          }
-        });
-        if (added) {
-          applyVisibility({ skipFit: true });
-          renderPinnedList();
-        }
-      });
-
-      clearBtn.addEventListener('click', () => {
-        let removed = false;
-        sectionNodes.forEach(({ node, item }) => {
-          if (pinnedNodes.has(node.id)) {
-            pinnedNodes.delete(node.id);
-            excludedNodes.add(node.id);
-            const btn = item.querySelector('.conn-add-btn');
-            if (btn) { btn.classList.remove('on-graph'); btn.innerHTML = ICON_PLUS; btn.title = 'Add to graph'; }
-            removed = true;
-          }
-        });
-        if (removed) {
-          applyVisibility({ skipFit: true });
-          renderPinnedList();
-        }
-      });
-
-      container.appendChild(section);
-    });
-  }).catch(() => {
-    container.innerHTML = `<div class="pinned-dropdown-empty">Failed to load</div>`;
   });
 }
 
@@ -659,13 +880,9 @@ function buildEdgeLegend() {
 }
 
 function toggleTrack(trackId) {
-  if (hiddenTracks.has(trackId)) {
-    hiddenTracks.delete(trackId);
-  } else {
-    hiddenTracks.add(trackId);
-  }
-  buildSidebar(tracks, allNodes);
-  applyVisibility();
+  const t = trackById.get(trackId);
+  if (!t) return;
+  toggleItem(trackItem(t));
 }
 
 function fuzzyScore(q, target) {
@@ -762,27 +979,17 @@ function hideSearchDropdown() {
 }
 
 function selectSearchTrack(trackId) {
-  if (hiddenTracks.has(trackId)) {
-    hiddenTracks.delete(trackId);
-    buildSidebar(tracks, allNodes);
-    applyVisibility();
-  }
+  const t = trackById.get(trackId);
+  if (t) addItem(trackItem(t));
   document.getElementById('search-input').value = '';
   searchQuery = '';
   hideSearchDropdown();
 }
 
 function selectSearchNode(n) {
-  pinnedNodes.add(n.id);
-  excludedNodes.delete(n.id);
-  applyVisibility({ skipFit: true });
-  renderPinnedList();
-
+  addItem(nodeItem(n));
   // Fit all visible nodes once the new node has a position
-  setTimeout(() => {
-    fitView(allNodes.filter(nodeIsVisible));
-  }, 120);
-
+  setTimeout(() => fitView(allNodes.filter(nodeIsVisible)), 120);
   document.getElementById('search-input').value = '';
   searchQuery = '';
   hideSearchDropdown();
@@ -803,9 +1010,9 @@ function applyVisibility(opts = {}) {
   // 4000+ nodes, so we only ever simulate the visible subset.
   saveState();
   renderGraph(opts);
+  // Sidebar mirrors graph state; empty state shows when nothing is visible.
+  if (typeof refreshSidebarRows === 'function') refreshSidebarRows();
 }
-
-function updateNodeCount() {}
 
 // ── D3 Graph ──────────────────────────────────────────────────────────────────
 function nodeRadius(d) {
@@ -954,7 +1161,6 @@ function renderGraph({ skipFit = false } = {}) {
   nodeGroup.selectAll('*').remove();
 
   if (visibleNodes.length === 0) {
-    updateNodeCount();
     return;
   }
 
@@ -1099,8 +1305,6 @@ function renderGraph({ skipFit = false } = {}) {
   // Fallback: always fit after 800 ms in case the simulation converges
   // too quickly (e.g. nodes already have positions from a prior render).
   if (!skipFit) setTimeout(() => fitView(visibleNodes), 800);
-
-  updateNodeCount();
 }
 
 // ── Drag ──────────────────────────────────────────────────────────────────────
@@ -1234,16 +1438,11 @@ function openPanel(d) {
   if (addBtn) {
     addBtn.addEventListener('click', () => {
       if (pinnedNodes.has(d.id)) {
-        pinnedNodes.delete(d.id);
-        excludedNodes.add(d.id);
-        applyVisibility({ skipFit: true });
-        renderPinnedList();
+        removeItem(nodeItem(d));
         addBtn.classList.remove('on-graph');
         addBtn.textContent = '+ Add to graph';
       } else {
-        excludedNodes.delete(d.id);
-        selectSearchNode(d);
-        renderPinnedList();
+        addItem(nodeItem(d));
         addBtn.classList.add('on-graph');
         addBtn.textContent = '✕ Remove from graph';
       }
@@ -1272,17 +1471,12 @@ function openPanel(d) {
       const node = allNodes.find(n => n.id === btn.dataset.id);
       if (!node) return;
       if (pinnedNodes.has(node.id)) {
-        pinnedNodes.delete(node.id);
-        excludedNodes.add(node.id);
-        applyVisibility({ skipFit: true });
-        renderPinnedList();
+        removeItem(nodeItem(node));
         btn.classList.remove('on-graph');
         btn.innerHTML = ICON_PLUS;
         btn.title = 'Add to graph';
       } else {
-        excludedNodes.delete(node.id);
-        selectSearchNode(node);
-        renderPinnedList();
+        addItem(nodeItem(node));
         btn.classList.add('on-graph');
         btn.innerHTML = ICON_CLOSE;
         btn.title = 'Remove from graph';

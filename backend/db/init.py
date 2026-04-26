@@ -76,6 +76,32 @@ CREATE TABLE IF NOT EXISTS news_summaries (
 );
 """
 
+# item_type: 'company' | 'track'
+# item_id:   ticker (lowercased) for company, slug for track
+# label:     display label captured at write time so we can render the row
+#            without joining back to companies/investment_tracks
+CREATE_USER_RECENT_VIEWS_TABLE = """
+CREATE TABLE IF NOT EXISTS user_recent_views (
+    firebase_uid  TEXT NOT NULL,
+    item_type     TEXT NOT NULL,
+    item_id       TEXT NOT NULL,
+    label         TEXT NOT NULL,
+    viewed_at     TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    PRIMARY KEY (firebase_uid, item_type, item_id)
+);
+"""
+
+CREATE_USER_SAVED_ITEMS_TABLE = """
+CREATE TABLE IF NOT EXISTS user_saved_items (
+    firebase_uid  TEXT NOT NULL,
+    item_type     TEXT NOT NULL,
+    item_id       TEXT NOT NULL,
+    label         TEXT NOT NULL,
+    saved_at      TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    PRIMARY KEY (firebase_uid, item_type, item_id)
+);
+"""
+
 CREATE_INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_companies_ticker ON companies(ticker);",
     "CREATE INDEX IF NOT EXISTS idx_companies_sector ON companies(sector);",
@@ -89,6 +115,8 @@ CREATE_INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_company_tracks_company ON company_tracks(company_id);",
     "CREATE INDEX IF NOT EXISTS idx_article_bodies_fetched ON article_bodies(fetched_at);",
     "CREATE INDEX IF NOT EXISTS idx_news_summaries_ticker_time ON news_summaries(ticker, generated_at DESC);",
+    "CREATE INDEX IF NOT EXISTS idx_recent_views_user_time ON user_recent_views(firebase_uid, viewed_at DESC);",
+    "CREATE INDEX IF NOT EXISTS idx_saved_items_user_time ON user_saved_items(firebase_uid, saved_at DESC);",
 ]
 
 def init_db():
@@ -103,6 +131,8 @@ def init_db():
     cursor.execute(CREATE_COMPANY_TRACKS_TABLE)
     cursor.execute(CREATE_ARTICLE_BODIES_TABLE)
     cursor.execute(CREATE_NEWS_SUMMARIES_TABLE)
+    cursor.execute(CREATE_USER_RECENT_VIEWS_TABLE)
+    cursor.execute(CREATE_USER_SAVED_ITEMS_TABLE)
 
     for index_sql in CREATE_INDEXES:
         cursor.execute(index_sql)

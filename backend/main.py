@@ -1161,6 +1161,280 @@ def admin_empty_tracks():
     return jsonify(rows)
 
 
+# ── /api/recent + /api/saved (per-user lists) ────────────────────────────
+# Both keyed by Firebase uid. When NEXUS_REQUIRE_AUTH is off, these endpoints
+# 204 / return [] so the frontend can call them safely in dev without crashing.
+
+RECENT_LIMIT = 30  # capped per user
+ALLOWED_ITEM_TYPES = {"company", "track"}
+
+
+def _current_uid() -> str | None:
+    user = getattr(g, "user", None) or {}
+    return user.get("uid") or user.get("user_id")
+
+
+def _validate_item(body: dict) -> tuple[str, str, str] | tuple[None, None, None]:
+    item_type = (body.get("item_type") or "").strip().lower()
+    item_id   = (body.get("item_id") or "").strip().lower()
+    label     = (body.get("label") or "").strip()
+    if item_type not in ALLOWED_ITEM_TYPES or not item_id or not label:
+        return None, None, None
+    return item_type, item_id, label[:200]
+
+
+@api.route("/recent", methods=["GET"])
+def list_recent():
+    uid = _current_uid()
+    if not uid:
+        return jsonify([])
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT item_type, item_id, label, viewed_at
+                FROM user_recent_views
+                WHERE firebase_uid = %s
+                ORDER BY viewed_at DESC
+                LIMIT %s
+                """,
+                (uid, RECENT_LIMIT),
+            )
+            rows = cur.fetchall()
+    return jsonify([
+        {"item_type": r[0], "item_id": r[1], "label": r[2],
+         "viewed_at": r[3].isoformat() if r[3] else None}
+        for r in rows
+    ])
+
+
+@api.route("/recent", methods=["POST"])
+def upsert_recent():
+    uid = _current_uid()
+    if not uid:
+        return jsonify({"ok": True, "skipped": "no auth"})
+    body = request.get_json(force=True, silent=True) or {}
+    item_type, item_id, label = _validate_item(body)
+    if not item_type:
+        return jsonify({"error": "need item_type ('company'|'track'), item_id, label"}), 400
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO user_recent_views (firebase_uid, item_type, item_id, label, viewed_at)
+                VALUES (%s, %s, %s, %s, NOW())
+                ON CONFLICT (firebase_uid, item_type, item_id)
+                DO UPDATE SET viewed_at = NOW(), label = EXCLUDED.label
+                """,
+                (uid, item_type, item_id, label),
+            )
+            # Trim to RECENT_LIMIT — keep newest, drop overflow.
+            cur.execute(
+                """
+                DELETE FROM user_recent_views
+                WHERE firebase_uid = %s
+                  AND (item_type, item_id) NOT IN (
+                    SELECT item_type, item_id FROM user_recent_views
+                    WHERE firebase_uid = %s
+                    ORDER BY viewed_at DESC LIMIT %s
+                  )
+                """,
+                (uid, uid, RECENT_LIMIT),
+            )
+        conn.commit()
+    return jsonify({"ok": True})
+
+
+@api.route("/recent", methods=["DELETE"])
+def clear_recent():
+    """DELETE /api/recent          → wipe all rows for the user
+       DELETE /api/recent?item_type=track&item_id=ai-chips → wipe one"""
+    uid = _current_uid()
+    if not uid:
+        return jsonify({"ok": True, "skipped": "no auth"})
+    item_type = request.args.get("item_type")
+    item_id   = request.args.get("item_id")
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            if item_type and item_id:
+                cur.execute(
+                    "DELETE FROM user_recent_views WHERE firebase_uid = %s "
+                    "AND item_type = %s AND item_id = %s",
+                    (uid, item_type.lower(), item_id.lower()),
+                )
+            else:
+                cur.execute(
+                    "DELETE FROM user_recent_views WHERE firebase_uid = %s",
+                    (uid,),
+                )
+            removed = cur.rowcount
+        conn.commit()
+    return jsonify({"ok": True, "removed": removed})
+
+
+@api.route("/saved", methods=["GET"])
+def list_saved():
+    uid = _current_uid()
+    if not uid:
+        return jsonify([])
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT item_type, item_id, label, saved_at
+                FROM user_saved_items
+                WHERE firebase_uid = %s
+                ORDER BY saved_at DESC
+                """,
+                (uid,),
+            )
+            rows = cur.fetchall()
+    return jsonify([
+        {"item_type": r[0], "item_id": r[1], "label": r[2],
+         "saved_at": r[3].isoformat() if r[3] else None}
+        for r in rows
+    ])
+
+
+@api.route("/saved", methods=["POST"])
+def upsert_saved():
+    uid = _current_uid()
+    if not uid:
+        return jsonify({"ok": True, "skipped": "no auth"})
+    body = request.get_json(force=True, silent=True) or {}
+    item_type, item_id, label = _validate_item(body)
+    if not item_type:
+        return jsonify({"error": "need item_type ('company'|'track'), item_id, label"}), 400
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO user_saved_items (firebase_uid, item_type, item_id, label)
+                VALUES (%s, %s, %s, %s)
+                ON CONFLICT (firebase_uid, item_type, item_id)
+                DO UPDATE SET label = EXCLUDED.label
+                """,
+                (uid, item_type, item_id, label),
+            )
+        conn.commit()
+    return jsonify({"ok": True})
+
+
+@api.route("/saved", methods=["DELETE"])
+def remove_saved():
+    uid = _current_uid()
+    if not uid:
+        return jsonify({"ok": True, "skipped": "no auth"})
+    item_type = request.args.get("item_type")
+    item_id   = request.args.get("item_id")
+    if not item_type or not item_id:
+        return jsonify({"error": "need item_type and item_id query params"}), 400
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "DELETE FROM user_saved_items WHERE firebase_uid = %s "
+                "AND item_type = %s AND item_id = %s",
+                (uid, item_type.lower(), item_id.lower()),
+            )
+            removed = cur.rowcount
+        conn.commit()
+    return jsonify({"ok": True, "removed": removed})
+
+
+# ── /api/movers/<kind> (Yahoo screener, cached) ──────────────────────────
+# kind ∈ {day_gainers, day_losers, most_actives, trending}
+# Cached 5 min in-process; if Yahoo 429s we serve stale or 503 silently.
+
+_MOVERS_TTL = 5 * 60
+_movers_cache: dict[str, tuple[float, list[dict]]] = {}
+_MOVER_KINDS = {"day_gainers", "day_losers", "most_actives", "trending"}
+
+
+def _fetch_trending() -> list[dict]:
+    """Yahoo /v1/finance/trending/{region} — yfinance doesn't wrap this,
+    so hit it directly. Returns same shape as _fetch_screener for the
+    frontend (ticker, name, price, change_pct)."""
+    import requests
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/123.0 Safari/537.36",
+        "Accept": "application/json",
+    }
+    r = requests.get(
+        "https://query1.finance.yahoo.com/v1/finance/trending/US",
+        params={"count": 20}, headers=headers, timeout=8,
+    )
+    r.raise_for_status()
+    payload = r.json()
+    results = (payload.get("finance") or {}).get("result") or []
+    if not results:
+        return []
+    quotes = results[0].get("quotes") or []
+    symbols = [q.get("symbol") for q in quotes if q.get("symbol")]
+    if not symbols:
+        return []
+    # Hydrate name/price via a single batch quote call (also unofficial; same risk)
+    qr = requests.get(
+        "https://query1.finance.yahoo.com/v7/finance/quote",
+        params={"symbols": ",".join(symbols)}, headers=headers, timeout=8,
+    )
+    if not qr.ok:
+        # Fall back to symbols-only — frontend can still render rows
+        return [{"ticker": s, "name": s, "price": None, "change_pct": None}
+                for s in symbols]
+    qres = ((qr.json().get("quoteResponse") or {}).get("result") or [])
+    return [
+        {
+            "ticker":     q.get("symbol"),
+            "name":       q.get("shortName") or q.get("longName") or q.get("symbol"),
+            "price":      q.get("regularMarketPrice"),
+            "change_pct": q.get("regularMarketChangePercent"),
+        }
+        for q in qres if q.get("symbol")
+    ]
+
+
+def _fetch_screener(kind: str) -> list[dict]:
+    """Wrap yf.screen() — returns up to 25 rows in the shape above."""
+    res = yf.screen(kind, count=25)
+    quotes = (res or {}).get("quotes") or []
+    return [
+        {
+            "ticker":     q.get("symbol"),
+            "name":       q.get("shortName") or q.get("longName") or q.get("symbol"),
+            "price":      q.get("regularMarketPrice"),
+            "change_pct": q.get("regularMarketChangePercent"),
+        }
+        for q in quotes if q.get("symbol")
+    ]
+
+
+@api.route("/movers/<kind>")
+def get_movers(kind):
+    kind = kind.lower().strip()
+    if kind not in _MOVER_KINDS:
+        return jsonify({"error": f"unknown mover kind {kind!r}",
+                        "allowed": sorted(_MOVER_KINDS)}), 400
+
+    hit = _movers_cache.get(kind)
+    if hit and (time.time() - hit[0]) < _MOVERS_TTL:
+        return jsonify({"kind": kind, "cached": True, "items": hit[1]})
+
+    try:
+        items = _fetch_trending() if kind == "trending" else _fetch_screener(kind)
+    except Exception as e:
+        # Serve stale on failure if we have it; otherwise 503 quietly so
+        # the frontend can hide the section.
+        if hit:
+            return jsonify({"kind": kind, "cached": True, "stale": True, "items": hit[1]})
+        print(f"[nexus] movers/{kind} fetch failed: {e}")
+        return jsonify({"error": "movers unavailable", "items": []}), 503
+
+    _movers_cache[kind] = (time.time(), items)
+    return jsonify({"kind": kind, "cached": False, "items": items})
+
+
 app.register_blueprint(api)
 
 

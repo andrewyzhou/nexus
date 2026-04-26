@@ -77,6 +77,10 @@
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         window.__nexusUser = user;
+        // Convenience accessors so the rest of the app can key per-user state
+        // off the Firebase uid without poking at __nexusUser directly.
+        window.nexusUserUid   = user.uid;
+        window.nexusUserEmail = user.email || null;
         console.info('[nexus] authed as', user.email || user.uid);
         window.__nexusAuthResolve();
       } else {
