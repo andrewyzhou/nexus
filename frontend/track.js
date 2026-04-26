@@ -174,7 +174,7 @@ function renderNews() {
     return;
   }
 
-  wrap.innerHTML = items.map((n, i) => {
+  wrap.innerHTML = items.map((n) => {
     const isCited = !!(n.cited || n.referenced);
     const ticker = n.ticker ? escapeHtml(n.ticker) : '';
     const source = n.publisher ? escapeHtml(n.publisher) : '';
@@ -184,7 +184,7 @@ function renderNews() {
     const summary = n.summary ? escapeHtml(n.summary) : '';
 
     return `
-      <a class="news-item${isCited ? ' cited' : ''}" id="news-card-${i}"
+      <a class="news-item${isCited ? ' cited' : ''}" id="news-card-${n._origIndex}"
          href="${link}" target="_blank" rel="noopener">
         <div class="news-item-body">
           <div class="news-item-meta">
