@@ -25,6 +25,27 @@
     }[c]));
   }
 
+  /**
+   * Inline-only markdown for **bold** and *italic*. We don't want marked.js
+   * full GFM here — it would wrap the content in <p> tags and accept
+   * unintended block-level structure. DOMPurify still runs as a defense-
+   * in-depth measure even though the input is from our own API.
+   */
+  function renderInlineMd(src) {
+    if (!src) return '';
+    let out = escapeHtml(src);
+    // **bold** first so we don't accidentally consume inner `*` as italics
+    out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    out = out.replace(/(^|[^*])\*([^*\s][^*]*?)\*(?!\*)/g, '$1<em>$2</em>');
+    if (typeof DOMPurify !== 'undefined') {
+      out = DOMPurify.sanitize(out, {
+        ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
+        ALLOWED_ATTR: [],
+      });
+    }
+    return out;
+  }
+
   function relTime(iso) {
     if (!iso) return '';
     const d = new Date(iso);
@@ -74,7 +95,7 @@
     }
 
     const headlineHtml = headline
-      ? `<p class="summary-headline">${escapeHtml(headline)}</p>`
+      ? `<p class="summary-headline">${renderInlineMd(headline)}</p>`
       : '';
 
     const bulletsHtml = bullets.length
@@ -83,7 +104,10 @@
           const cites = indices.map(i =>
             `<a href="#" class="citation" data-card-idx="${i - 1}">[${i}]</a>`
           ).join('');
-          return `<li>${escapeHtml(b.text || '')}<span class="citations-inline">${cites}</span></li>`;
+          // Trailing space + non-breaking space before the citation row so
+          // the [N] doesn't sit flush against the period.
+          const text = renderInlineMd((b.text || '').trim());
+          return `<li>${text}${cites ? `&nbsp;<span class="citations-inline">${cites}</span>` : ''}</li>`;
         }).join('')}</ul>`
       : '';
 

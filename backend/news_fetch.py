@@ -487,9 +487,15 @@ def get_articles_for_ticker(
     pre = fetch_bodies(conn, pre)
 
     # Drop articles with neither a usable body nor a meaningful blurb,
-    # and re-check on-topic now that body text is available.
+    # and re-check on-topic now that body text is available. Also drop
+    # anything still pointing at finnhub.io — that means redirect
+    # resolution failed and the public-facing link would 404 / be a
+    # generic landing page.
     final = []
     for a in pre:
+        host = urllib.parse.urlparse(a.get("url") or "").netloc.lower()
+        if host == FINNHUB_REDIRECT_HOST or host.endswith("." + FINNHUB_REDIRECT_HOST):
+            continue
         has_body = a.get("body_status") == "ok"
         has_blurb = len(a.get("blurb") or "") >= 60
         if not (has_body or has_blurb):

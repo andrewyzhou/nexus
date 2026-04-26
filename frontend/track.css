@@ -760,12 +760,9 @@ html[data-theme="light"] .skeleton-line {
   overflow: hidden;
 }
 
-.track-page .ai-summary-topline {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 1px;
-  background: rgba(52, 211, 153, 0.55);
-}
+/* Legacy element (removed from markup) — kept as a no-op so any cached
+   HTML still parses without leaving an artifact. */
+.track-page .ai-summary-topline { display: none; }
 
 .track-page .ai-summary-header {
   display: flex;
@@ -1272,56 +1269,61 @@ html[data-theme="light"] .skeleton-line {
 /* ── New AI summary: 2-sentence headline + bulleted findings ────────── */
 .track-page .ai-summary .summary-headline {
   font-size: 16px;
-  line-height: 1.55;
+  line-height: 1.6;
   color: #ffffff;
-  margin: 0 0 16px;
+  margin: 0 0 14px;
   font-weight: 400;
   letter-spacing: -0.005em;
 }
+
+.track-page .ai-summary .summary-headline strong { color: var(--t-emerald); font-weight: 600; }
+.track-page .ai-summary .summary-headline em     { color: #ffffff; font-style: italic; }
 
 .track-page .ai-summary .summary-bullets {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .track-page .ai-summary .summary-bullets li {
   position: relative;
-  padding: 10px 14px 10px 28px;
-  font-size: 14px;
-  line-height: 1.55;
+  padding: 4px 0 4px 18px;
+  font-size: 14.5px;
+  line-height: 1.6;
   color: var(--t-text-2);
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid var(--t-line-2);
-  border-radius: 10px;
+}
+
+.track-page .ai-summary .summary-bullets li + li {
+  margin-top: 6px;
 }
 
 .track-page .ai-summary .summary-bullets li::before {
   content: '';
   position: absolute;
-  left: 12px; top: 18px;
-  width: 6px; height: 6px;
+  left: 4px;
+  top: 12px;
+  width: 5px; height: 5px;
   border-radius: 50%;
   background: var(--t-emerald);
 }
 
+.track-page .ai-summary .summary-bullets strong { color: #ffffff; font-weight: 600; }
+.track-page .ai-summary .summary-bullets em     { color: var(--t-emerald-2); font-style: italic; }
+
 .track-page .ai-summary .citations-inline {
-  margin-left: 6px;
   display: inline-flex;
-  gap: 4px;
+  gap: 3px;
+  vertical-align: baseline;
 }
 
 .track-page .ai-summary .citations-inline .citation {
   font-family: var(--font-mono-jet);
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 600;
   color: var(--t-emerald);
   background: rgba(52, 211, 153, 0.10);
   border: 1px solid rgba(52, 211, 153, 0.20);
-  padding: 1px 5px;
+  padding: 0 5px;
   border-radius: 4px;
   text-decoration: none;
   cursor: pointer;
@@ -1333,11 +1335,14 @@ html[data-theme="light"] .skeleton-line {
   transform: translateY(-1px);
 }
 
-/* News card thumbnail + numbering pill */
+/* News card thumbnail + numbering pill.
+   Hard-cap the image so a missing/oversized src can't break the layout. */
 .news-thumb {
   flex-shrink: 0;
   width: 92px;
   height: 92px;
+  max-width: 92px;
+  max-height: 92px;
   border-radius: 8px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.04);
@@ -1346,12 +1351,15 @@ html[data-theme="light"] .skeleton-line {
 .news-thumb img {
   width: 100%;
   height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
   display: block;
 }
 
 @media (max-width: 600px) {
-  .news-thumb { width: 64px; height: 64px; }
+  .news-thumb,
+  .news-thumb img { width: 64px; height: 64px; max-width: 64px; max-height: 64px; }
 }
 
 .news-num {
