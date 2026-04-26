@@ -2,7 +2,7 @@
  * track.js — Nexus investment track detail page.
  *
  * Reads ?slug=... from the URL, fetches /tracks/<slug> from the backend,
- * and renders the track hero + sortable company table.
+ * and renders the track hero + sortable company table + news grid.
  */
 const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
   || 'http://localhost:5001/nexus/api';
@@ -13,6 +13,11 @@ const slug = params.get('slug');
 let track = null;
 let sortKey = 'market_cap';
 
+let allNewsItems = [];
+let citedIndices = new Set();
+let activeTicker = 'all';
+let newsSort = 'cited';
+
 function fmtMoney(n) {
   if (n == null) return '—';
   if (n >= 1e12) return `$${(n / 1e12).toFixed(2)}T`;
@@ -20,68 +25,10 @@ function fmtMoney(n) {
   if (n >= 1e6)  return `$${(n / 1e6).toFixed(1)}M`;
   return `$${n.toFixed(0)}`;
 }
+
 function fmtNum(n, digits = 2) {
   if (n == null) return '—';
   return Number(n).toFixed(digits);
-}
-
-async function init() {
-  if (window.nexusAuthReady) await window.nexusAuthReady;
-  if (!slug) {
-    document.getElementById('track-title').textContent = 'No track selected';
-    return;
-  }
-  let res;
-  try {
-    res = await fetch(`${API_BASE}/tracks/${encodeURIComponent(slug)}`);
-  } catch (err) {
-    renderError(`Backend unreachable at ${API_BASE}. Is main.py running?`);
-    return;
-  }
-  if (res.status === 404) {
-    renderError(`Track "${slug}" not found.`);
-    return;
-  }
-  if (!res.ok) {
-    renderError(`Backend error: ${res.status}`);
-    return;
-  }
-  track = await res.json();
-  render();
-  loadNews();
-
-  document.getElementById('sort-select').addEventListener('change', (e) => {
-    sortKey = e.target.value;
-    renderTable();
-  });
-}
-
-async function loadNews() {
-  const wrap = document.getElementById('news-list');
-  try {
-    const r = await fetch(`${API_BASE}/tracks/${encodeURIComponent(slug)}/news`);
-    if (!r.ok) throw new Error(r.status);
-    const items = await r.json();
-    if (!items.length) {
-      wrap.innerHTML = '<div class="news-empty">No news returned for this track.</div>';
-      return;
-    }
-    wrap.innerHTML = items.map((n, i) => `
-      <a class="news-item" id="news-card-${i}" href="${n.link || '#'}" target="_blank" rel="noopener">
-        <div class="news-title">${escapeHtml(n.title || '')}</div>
-        <div class="news-meta">
-          ${escapeHtml(n.publisher || '')} ${n.published ? '· ' + escapeHtml(fmtDate(n.published)) : ''}
-          ${n.ticker ? '· <span class="news-ticker">' + escapeHtml(n.ticker) + '</span>' : ''}
-        </div>
-        ${n.summary ? `<div class="news-summary">${escapeHtml(n.summary)}</div>` : ''}
-      </a>
-    `).join('');
-    if (window.renderAISummary && slug) {
-      window.renderAISummary({ kind: 'track', key: slug });
-    }
-  } catch (err) {
-    wrap.innerHTML = `<div class="news-empty">News unavailable (${err.message || err}).</div>`;
-  }
 }
 
 function fmtDate(t) {
@@ -90,10 +37,174 @@ function fmtDate(t) {
   if (isNaN(d.getTime())) return '';
   return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
 }
+
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
   }[c]));
+}
+
+async function init() {
+  if (window.nexusAuthReady) await window.nexusAuthReady;
+  if (!slug) {
+    document.getElementById('track-title').textContent = 'No track selected';
+    return;
+  }
+
+  let res;
+  try {
+    res = await fetch(`${API_BASE}/tracks/${encodeURIComponent(slug)}`);
+  } catch (err) {
+    renderError(`Backend unreachable at ${API_BASE}. Is main.py running?`);
+    return;
+  }
+
+  if (res.status === 404) { renderError(`Track "${slug}" not found.`); return; }
+  if (!res.ok) { renderError(`Backend error: ${res.status}`); return; }
+
+  track = await res.json();
+  render();
+  loadNews();
+
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    sortKey = e.target.value;
+    renderTable();
+  });
+
+  document.getElementById('news-sort-select').addEventListener('change', (e) => {
+    newsSort = e.target.value;
+    renderNews();
+  });
+}
+
+async function loadNews() {
+  try {
+    const r = await fetch(`${API_BASE}/tracks/${encodeURIComponent(slug)}/news`);
+    if (!r.ok) throw new Error(r.status);
+    allNewsItems = await r.json();
+
+    // Tag news items as cited based on their original (pre-sort) index.
+    allNewsItems.forEach((n, idx) => { n._origIndex = idx; });
+
+    buildTickerPills();
+    renderNews();
+
+    // Fetch summary in parallel so we can flag cited cards & re-sort
+    if (slug) loadSummary();
+  } catch (err) {
+    document.getElementById('news-list').innerHTML =
+      `<div class="news-empty">News unavailable (${escapeHtml(String(err.message || err))}).</div>`;
+  }
+}
+
+async function loadSummary() {
+  // Hand off prose rendering + citation clicks to summary.js — it does its
+  // own POST. We do a separate POST here to learn which indices are cited
+  // (the response is cached server-side, so the second hit is cheap).
+  try {
+    if (window.renderAISummary) window.renderAISummary({ kind: 'track', key: slug });
+
+    const r = await fetch(`${API_BASE}/tracks/${encodeURIComponent(slug)}/summary`, { method: 'POST' });
+    if (!r.ok) return;
+    const data = await r.json();
+
+    citedIndices = new Set((data.citations || []).map(c => c.article_index));
+    allNewsItems.forEach(n => {
+      n.cited = citedIndices.has(n._origIndex);
+    });
+
+    const status = document.getElementById('summary-status');
+    if (status) {
+      status.textContent = data.cached
+        ? 'Synthesized · cached, refreshes every 15 min'
+        : 'Synthesized · freshly generated';
+    }
+
+    renderNews();
+  } catch (err) { /* summary.js handles its own error display */ }
+}
+
+function buildTickerPills() {
+  const tickers = ['all', ...new Set(allNewsItems.map(n => n.ticker).filter(Boolean))];
+  const group = document.getElementById('ticker-filter-group');
+  group.innerHTML = tickers.map(t => `
+    <button class="ticker-pill${t === activeTicker ? ' active' : ''}" data-ticker="${escapeHtml(t)}">
+      ${t === 'all' ? 'ALL' : escapeHtml(t)}
+    </button>
+  `).join('');
+
+  group.querySelectorAll('.ticker-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeTicker = btn.dataset.ticker;
+      group.querySelectorAll('.ticker-pill').forEach(b => b.classList.toggle('active', b === btn));
+      renderNews();
+    });
+  });
+}
+
+function sortedNews() {
+  let items = activeTicker === 'all'
+    ? [...allNewsItems]
+    : allNewsItems.filter(n => n.ticker === activeTicker);
+
+  if (newsSort === 'cited') {
+    items.sort((a, b) => {
+      const aC = !!(a.cited || a.referenced);
+      const bC = !!(b.cited || b.referenced);
+      if (aC !== bC) return bC ? 1 : -1;
+      return (b.published || 0) - (a.published || 0);
+    });
+  } else if (newsSort === 'newest') {
+    items.sort((a, b) => (b.published || 0) - (a.published || 0));
+  } else {
+    items.sort((a, b) => (a.published || 0) - (b.published || 0));
+  }
+  return items;
+}
+
+function renderNews() {
+  const wrap = document.getElementById('news-list');
+  const items = sortedNews();
+
+  const sub = document.getElementById('news-count-sub');
+  if (sub) sub.textContent = `${items.length} article${items.length !== 1 ? 's' : ''} across ${activeTicker === 'all' ? 'all tickers' : activeTicker}`;
+
+  if (!items.length) {
+    wrap.innerHTML = '<div class="news-empty">No news found.</div>';
+    return;
+  }
+
+  wrap.innerHTML = items.map((n, i) => {
+    const isCited = !!(n.cited || n.referenced);
+    const ticker = n.ticker ? escapeHtml(n.ticker) : '';
+    const source = n.publisher ? escapeHtml(n.publisher) : '';
+    const date = fmtDate(n.published);
+    const link = n.link ? escapeHtml(n.link) : '#';
+    const title = escapeHtml(n.title || '');
+    const summary = n.summary ? escapeHtml(n.summary) : '';
+
+    return `
+      <a class="news-item${isCited ? ' cited' : ''}" id="news-card-${i}"
+         href="${link}" target="_blank" rel="noopener">
+        <div class="news-item-body">
+          <div class="news-item-meta">
+            ${ticker ? `<span class="news-ticker-pill">${ticker}</span>` : ''}
+            ${source ? `<span class="news-source">${source}</span>` : ''}
+            ${date ? `<span class="news-dot">·</span><span class="news-date">${date}</span>` : ''}
+            ${isCited ? `
+              <span class="cited-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+                Cited
+              </span>
+            ` : ''}
+          </div>
+          <div class="news-title">${title}</div>
+          ${summary ? `<div class="news-summary">${summary}</div>` : ''}
+        </div>
+        <span class="news-external-icon" aria-hidden="true">↗</span>
+      </a>
+    `;
+  }).join('');
 }
 
 function renderError(msg) {
@@ -103,20 +214,34 @@ function renderError(msg) {
 
 function render() {
   document.title = `Nexus — ${track.name}`;
-  document.documentElement.style.setProperty('--track-accent', track.color || '#00d4ff');
-  document.getElementById('track-title').textContent = track.name;
+
+  // Track accent override (still emerald-leaning by default)
+  if (track.color) {
+    document.documentElement.style.setProperty('--track-accent', track.color);
+  }
+
+  // Split title across two lines like the mockup ("Aerospace" + italic "Others")
+  const titleEl = document.getElementById('track-title');
+  const name = track.name || '';
+  const splitIdx = name.lastIndexOf(' ');
+  if (splitIdx > 0 && splitIdx < name.length - 1) {
+    const top = name.slice(0, splitIdx);
+    const bot = name.slice(splitIdx + 1);
+    titleEl.innerHTML = `${escapeHtml(top)}<span class="hero-title-italic">${escapeHtml(bot)}</span>`;
+  } else {
+    titleEl.textContent = name;
+  }
 
   const desc = track.description || `Companies in the ${track.name} investment track.`;
   document.getElementById('track-description').textContent = desc;
 
-  document.getElementById('track-count').textContent = `${track.company_count} companies`;
+  document.getElementById('track-count').textContent = track.company_count ?? '—';
+
+  const sectorSet = new Set((track.companies || []).map(c => c.sector).filter(Boolean));
+  document.getElementById('track-sectors').textContent = sectorSet.size || '—';
+
   const leaderEl = document.getElementById('track-leader');
-  if (track.market_leader) {
-    const ml = track.market_leader;
-    leaderEl.textContent = `Leader: ${ml.ticker} (${fmtMoney(ml.market_cap)})`;
-  } else {
-    leaderEl.style.display = 'none';
-  }
+  leaderEl.textContent = track.market_leader ? track.market_leader.ticker : '—';
 
   renderTable();
 }
@@ -128,12 +253,15 @@ function comparator(a, b) {
   if (av == null) return 1;
   if (bv == null) return -1;
   if (typeof av === 'string') return av.localeCompare(bv);
-  return bv - av; // numeric desc
+  return bv - av;
 }
 
 function renderTable() {
   const wrap = document.getElementById('company-table-wrap');
-  const rows = [...track.companies].sort(comparator);
+  const rows = [...(track.companies || [])].sort(comparator);
+
+  const sub = document.getElementById('company-count-sub');
+  if (sub) sub.textContent = `${rows.length} stock${rows.length !== 1 ? 's' : ''} in this track`;
 
   if (rows.length === 0) {
     wrap.innerHTML = '<div class="empty">No companies linked to this track yet.</div>';
@@ -142,34 +270,92 @@ function renderTable() {
 
   wrap.innerHTML = `
     <table class="company-table">
-      <colgroup>
-        <col /><col /><col /><col /><col /><col /><col />
-      </colgroup>
       <thead>
         <tr>
-          <th>#</th>
+          <th class="col-row-idx">#</th>
           <th>Ticker</th>
-          <th>Name</th>
+          <th>Company</th>
           <th>Sector</th>
-          <th class="num">Price</th>
-          <th class="num">Market Cap</th>
-          <th class="num">P/E</th>
+          <th class="col-num">Price</th>
+          <th class="col-num">Δ 1D</th>
+          <th class="col-trend">Trend</th>
+          <th class="col-num">Mkt Cap</th>
+          <th class="col-num col-pe">P/E</th>
         </tr>
       </thead>
       <tbody>
-        ${rows.map((c, i) => `
-          <tr>
-            <td class="dim">${i + 1}</td>
-            <td><a href="stock.html?ticker=${c.ticker}" style="text-decoration: underline; color: inherit; position: relative; z-index: 999; cursor: pointer;"><strong>${c.ticker}</strong></a></td>
-            <td>${c.name || ''}</td>
-            <td class="dim">${c.sector || '—'}</td>
-            <td class="num">${c.price != null ? `$${fmtNum(c.price)}` : '—'}</td>
-            <td class="num">${fmtMoney(c.market_cap)}</td>
-            <td class="num">${fmtNum(c.pe_ratio, 1)}</td>
-          </tr>
-        `).join('')}
+        ${rows.map((c, i) => buildRow(c, i)).join('')}
       </tbody>
     </table>
+  `;
+}
+
+function buildRow(c, i) {
+  const change = c.change_pct ?? c.change ?? null;
+  const changeClass = change == null ? '' : (change >= 0 ? 'change-pos' : 'change-neg');
+  const changeStr = change == null
+    ? '—'
+    : `${change >= 0 ? '+' : ''}${Number(change).toFixed(2)}%`;
+
+  const sector = c.sector
+    ? `<span class="sector-badge">${escapeHtml(c.sector)}</span>`
+    : '<span class="cell-pe-empty">—</span>';
+
+  const sparklineCell = c.sparkline
+    ? `<td class="col-trend">${buildSparkline(c.sparkline, change)}</td>`
+    : `<td class="col-trend"><span class="cell-pe-empty">—</span></td>`;
+
+  const pe = c.pe_ratio != null
+    ? `<span class="cell-pe">${fmtNum(c.pe_ratio, 1)}</span>`
+    : `<span class="cell-pe-empty" title="Unprofitable — no P/E">—</span>`;
+
+  return `
+    <tr>
+      <td class="col-row-idx">${String(i + 1).padStart(2, '0')}</td>
+      <td>
+        <a href="stock.html?ticker=${encodeURIComponent(c.ticker)}" class="ticker-cell">
+          <span class="ticker-sym">${escapeHtml(c.ticker)}</span>
+          <span class="ticker-arrow">↗</span>
+        </a>
+      </td>
+      <td class="col-name">${escapeHtml(c.name || '')}</td>
+      <td>${sector}</td>
+      <td class="col-num">${c.price != null ? `$${fmtNum(c.price)}` : '—'}</td>
+      <td class="col-num ${changeClass}">${changeStr}</td>
+      ${sparklineCell}
+      <td class="col-num">${fmtMoney(c.market_cap)}</td>
+      <td class="col-num col-pe">${pe}</td>
+    </tr>
+  `;
+}
+
+function buildSparkline(data, change) {
+  if (!Array.isArray(data) || data.length < 2) return '<span class="cell-pe-empty">—</span>';
+
+  const W = 100;
+  const H = 32;
+  const min = Math.min(...data);
+  const max = Math.max(...data);
+  const range = max - min || 1;
+
+  const points = data.map((v, i) => {
+    const x = (i / (data.length - 1)) * W;
+    const y = H - ((v - min) / range) * (H - 4) - 2;
+    return [x, y];
+  });
+
+  const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+  const lastPt = points[points.length - 1];
+
+  const positive = change == null || change >= 0;
+  const color = positive ? '#34d399' : '#f87171';
+
+  return `
+    <svg class="sparkline-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+      <path d="${linePath}" fill="none" stroke="${color}" stroke-width="1.75"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="${lastPt[0].toFixed(1)}" cy="${lastPt[1].toFixed(1)}" r="2.5" fill="${color}"/>
+    </svg>
   `;
 }
 

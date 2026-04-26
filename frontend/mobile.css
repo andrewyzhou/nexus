@@ -10,9 +10,9 @@
 .mobile-menu-btn {
   display: none;
   background: transparent;
-  color: #10b981;
-  border: 1.5px solid #10b981;
-  border-radius: 6px;
+  color: #34d399;
+  border: 1.5px solid rgba(52, 211, 153, 0.50);
+  border-radius: 8px;
   width: 32px;
   height: 32px;
   align-items: center;
@@ -22,16 +22,16 @@
   margin-right: 4px;
   transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
 }
-.mobile-menu-btn:hover  { background: rgba(16, 185, 129, 0.12); }
-.mobile-menu-btn:active { background: rgba(16, 185, 129, 0.2); }
+.mobile-menu-btn:hover  { background: rgba(52, 211, 153, 0.10); border-color: #34d399; }
+.mobile-menu-btn:active { background: rgba(52, 211, 153, 0.18); }
 .mobile-menu-btn svg { display: block; }
 
 .mobile-menu-btn.on-graph {
-  color: #dc2626;
-  border-color: #dc2626;
+  color: #f87171;
+  border-color: rgba(248, 113, 113, 0.50);
 }
-.mobile-menu-btn.on-graph:hover  { background: rgba(220, 38, 38, 0.12); }
-.mobile-menu-btn.on-graph:active { background: rgba(220, 38, 38, 0.2); }
+.mobile-menu-btn.on-graph:hover  { background: rgba(248, 113, 113, 0.10); border-color: #f87171; }
+.mobile-menu-btn.on-graph:active { background: rgba(248, 113, 113, 0.18); }
 
 /* Nav picker — shown on mobile when hamburger is tapped */
 .mobile-nav-picker {
@@ -146,9 +146,9 @@
     gap: 8px;
     justify-content: flex-start;
   }
-  #header .logo {
-    font-size: 14px;
-    letter-spacing: 0.06em;
+  .logo {
+    font-size: 13px;
+    letter-spacing: 0.14em;
   }
   #header .header-right {
     gap: 8px;
@@ -474,8 +474,8 @@
   #header {
     padding: 0 10px;
   }
-  #header .logo {
-    font-size: 13px;
+  .logo {
+    font-size: 12px;
   }
   .ipick-logo-link {
     display: none; /* hide on tiny screens to save space */

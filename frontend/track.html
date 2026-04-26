@@ -4,86 +4,155 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="track.css" />
   <link rel="stylesheet" href="theme.css" />
   <link rel="stylesheet" href="mobile.css" />
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
-  <!-- Markdown rendering for AI summary prose. marked parses, DOMPurify
-       strips anything unsafe. Both are tiny and cached via CDN. -->
   <script src="https://cdn.jsdelivr.net/npm/marked@14.1.3/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"></script>
 </head>
-<body class="track-body">
-  <header id="header">
-    <a href="index.html" class="logo logo-link">NEXUS</a>
-    <div class="header-right">
-      <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
-      <button id="theme-toggle" class="theme-toggle" title="Toggle theme"></button>
-      <a href="index.html" class="back-link">← graph</a>
+<body class="track-body track-page">
+
+  <!-- TOP NAV (mockup style) -->
+  <div class="top-nav">
+    <div class="top-nav-inner">
+      <a href="index.html" class="logo logo-link">NEXUS</a>
+      <div class="top-nav-right">
+        <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
+        <button id="theme-toggle" class="theme-toggle" title="Toggle theme"></button>
+        <a href="index.html" class="back-chip">
+          <span class="back-arrow">←</span>
+          graph
+        </a>
+      </div>
     </div>
-  </header>
+  </div>
 
   <main id="track-main">
+
+    <!-- HERO -->
     <section id="track-hero">
-      <div class="track-hero-inner">
-        <div class="track-eyebrow">Investment Track</div>
-        <h1 id="track-title">Loading…</h1>
-        <p id="track-description"></p>
-        <div class="track-meta">
-          <span id="track-count" class="meta-pill"></span>
-          <span id="track-leader" class="meta-pill"></span>
+      <div class="hero-eyebrow-row">
+        <span class="hero-eyebrow">Investment Track</span>
+        <span class="hero-eyebrow-line"></span>
+      </div>
+
+      <h1 id="track-title" class="hero-title">Loading…</h1>
+
+      <div class="hero-divider-row">
+        <p id="track-description" class="hero-description"></p>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <div class="hero-meta-label">Companies</div>
+            <div id="track-count" class="hero-meta-value">—</div>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <div class="hero-meta-label">Sectors</div>
+            <div id="track-sectors" class="hero-meta-value">—</div>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <div class="hero-meta-label">Leader</div>
+            <div id="track-leader" class="hero-meta-value">—</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="track-section">
+    <!-- COMPANIES TABLE -->
+    <section class="track-section">
       <div class="section-head">
-        <h2>Companies</h2>
+        <div>
+          <h2 class="section-title">Companies</h2>
+          <p id="company-count-sub" class="section-sub"></p>
+        </div>
         <div class="sort-row">
-          <label>Sort by
+          <span class="sort-label">Sort</span>
+          <div class="select-wrap">
             <select id="sort-select">
               <option value="market_cap">Market cap</option>
-              <option value="ticker">Ticker</option>
+              <option value="ticker">Ticker A–Z</option>
               <option value="name">Name</option>
               <option value="price">Price</option>
               <option value="pe_ratio">P/E ratio</option>
+              <option value="change">% Change</option>
             </select>
-          </label>
+            <span class="select-chevron">▾</span>
+          </div>
         </div>
       </div>
-      <div id="company-table-wrap"></div>
+      <div id="company-table-wrap" class="table-card"></div>
     </section>
 
-    <section id="track-section" class="ai-summary-section">
-      <div class="section-head">
-        <h2>AI Summary</h2>
-        <span id="summary-status" class="dim small"></span>
-      </div>
-      <div id="ai-summary" class="ai-summary">
-        <div class="summary-skeleton">
-          <div class="skeleton-line"></div>
-          <div class="skeleton-line"></div>
-          <div class="skeleton-line short"></div>
+    <!-- AI SUMMARY -->
+    <section class="track-section">
+      <div class="ai-summary-card">
+        <div class="ai-summary-topline"></div>
+        <div class="ai-summary-header">
+          <div class="ai-summary-title-group">
+            <div class="ai-sparkles-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l1.9 5.8L20 10.7l-5.1 3.7L17 21l-5-3.4L7 21l2.1-6.6L4 10.7l6.1-1.9z"/>
+              </svg>
+              <div class="ai-live-dot"></div>
+            </div>
+            <div>
+              <h2 class="ai-summary-title">AI Summary</h2>
+              <div id="summary-status" class="ai-summary-meta">Synthesized from sources · freshly generated</div>
+            </div>
+          </div>
+          <div class="ai-fresh-badge">
+            <div class="ai-fresh-dot"></div>
+            <span>Fresh</span>
+          </div>
+        </div>
+        <div id="ai-summary" class="ai-summary">
+          <div class="summary-skeleton">
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line short"></div>
+          </div>
+        </div>
+        <div class="ai-summary-footer">
+          <button class="ai-regenerate" type="button">Regenerate ↻</button>
         </div>
       </div>
     </section>
 
-    <section id="track-section">
+    <!-- NEWS -->
+    <section class="track-section">
       <div class="section-head">
-        <h2>News</h2>
+        <div>
+          <h2 class="section-title">News</h2>
+          <p id="news-count-sub" class="section-sub"></p>
+        </div>
+        <div class="news-controls">
+          <div id="ticker-filter-group" class="ticker-pills"></div>
+          <div class="select-wrap">
+            <select id="news-sort-select">
+              <option value="cited">Cited first</option>
+              <option value="newest">Newest</option>
+              <option value="oldest">Oldest</option>
+            </select>
+            <span class="select-chevron">▾</span>
+          </div>
+        </div>
       </div>
-      <div id="news-list" class="news-list">
+      <div id="news-list" class="news-grid">
         <div class="news-empty">Loading news…</div>
       </div>
     </section>
+
   </main>
 
   <script src="config.js"></script>
   <script src="auth.js"></script>
   <script src="theme.js"></script>
   <script src="summary.js"></script>
-  <script src="track.js?v=2"></script>
+  <script src="track.js?v=4"></script>
 </body>
 </html>
