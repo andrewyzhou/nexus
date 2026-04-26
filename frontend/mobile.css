@@ -160,6 +160,10 @@
   .ipick-logo {
     height: 18px;
   }
+  /* Track/stock top-nav: hide iPick text, shrink back chip */
+  .track-page .ipick-logo-text { display: none; }
+  .track-page .back-chip { font-size: 10px; padding: 4px 8px; }
+  .track-page .top-nav-inner { padding: 10px 14px; }
 
   /* Theme toggle: bump contrast on mobile (no hover state to lean on).
      Light mode is already legible; dark mode needs the boost. */
@@ -480,6 +484,7 @@
   .ipick-logo-link {
     display: none; /* hide on tiny screens to save space */
   }
+  .track-page .back-chip { padding: 4px 6px; }
   #track-title,
   #stock-title {
     font-size: 22px;
