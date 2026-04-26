@@ -16,10 +16,12 @@ function fmtMoney(n) {
   if (n >= 1e6)  return `$${(n / 1e6).toFixed(1)}M`;
   return `$${Number(n).toFixed(0)}`;
 }
+
 function fmtNum(n, d = 2) {
   if (n == null) return '—';
   return Number(n).toFixed(d);
 }
+
 function fmtDate(t) {
   if (!t) return '';
   const d = typeof t === 'number' ? new Date(t * 1000) : new Date(t);
@@ -27,12 +29,20 @@ function fmtDate(t) {
   return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
+function escapeHtml(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
 async function init() {
   if (window.nexusAuthReady) await window.nexusAuthReady;
+
   if (!ticker) {
     document.getElementById('stock-title').textContent = 'No ticker specified';
     return;
   }
+
   document.getElementById('stock-title').textContent = ticker;
 
   const [liveRes, newsRes, dbRes] = await Promise.allSettled([
@@ -50,64 +60,87 @@ async function init() {
 
   renderNews(newsRes.status === 'fulfilled' ? newsRes.value : []);
   renderChart(ticker);
-  }
+}
 
+function splitTitleIntoTwoLines(name) {
+  // Mockup pattern: last word in italic + slate. Skip if it looks weird
+  // (single word, or last "word" is just a stock-class suffix like "(A)").
+  if (!name) return name;
+  const trimmed = name.replace(/\s+(Inc\.?|Corp\.?|Corporation|Ltd\.?|Limited|Holdings|Co\.?|Company|PLC|S\.A\.|N\.V\.)$/i, '');
+  const idx = trimmed.lastIndexOf(' ');
+  if (idx <= 0 || idx > trimmed.length - 2) return escapeHtml(name);
+  const top = trimmed.slice(0, idx);
+  const bot = trimmed.slice(idx + 1);
+  // If the suffix we trimmed is non-empty, append it back to the italic line
+  const suffix = name.slice(trimmed.length);
+  return `${escapeHtml(top)}<span class="hero-title-italic">${escapeHtml(bot + suffix)}</span>`;
+}
 
 function renderStock(d, dbData) {
   document.title = `Nexus — ${d.ticker} ${d.companyName || ''}`;
-  document.getElementById('stock-title').textContent = `${d.companyName || d.ticker} (${d.ticker})`;
-  document.getElementById('stock-description').textContent = d.description || '';
+
+  // Title — company name with last word italicized
+  const titleEl = document.getElementById('stock-title');
+  titleEl.innerHTML = splitTitleIntoTwoLines(d.companyName || d.ticker);
+
+  // Eyebrow — ticker + sector or just ticker
+  const eyebrowEl = document.getElementById('stock-eyebrow');
+  eyebrowEl.textContent = d.sector ? `${d.ticker} · ${d.sector}` : d.ticker;
+
+  // Description — cap at 3 sentences to avoid walls of text
+  const descEl = document.getElementById('stock-description');
+  if (d.description) {
+    const sentences = d.description.match(/[^.!?]*[.!?]+/g) || [];
+    descEl.textContent = sentences.length > 3
+      ? sentences.slice(0, 3).join('').trim()
+      : d.description;
+  } else {
+    descEl.textContent = '';
+  }
+
+  // Hero actions: website + track link
   const websiteEl = document.getElementById('stock-website');
-  const websiteWrap = document.getElementById('stock-website-wrap');
   if (d.website) {
     websiteEl.href = d.website;
-    websiteWrap.style.display = 'block';
+    websiteEl.style.display = 'inline-flex';
+  } else {
+    websiteEl.style.display = 'none';
   }
-  
-  const trackEl = document.getElementById('stock-track');
+
+  const trackChipEl = document.getElementById('stock-track-link');
+  const trackNameEl = document.getElementById('stock-track-name');
   if (dbData && dbData.investment_track) {
     const tr = dbData.investment_track;
-    trackEl.innerHTML = `
-      <a href="track.html?slug=${tr.slug}" style="
-        display: inline-flex; 
-        align-items: center;
-        gap: 6px;
-        padding: 8px 16px; 
-        background: rgba(0, 212, 255, 0.12); 
-        border: 1px solid rgba(0, 212, 255, 0.3); 
-        border-radius: 8px; 
-        color: var(--track-accent, #00d4ff); 
-        font-weight: 600; 
-        font-size: 13px;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        cursor: pointer; 
-        text-decoration: none;
-        transition: all 0.2s ease;
-      " onmouseover="this.style.background='rgba(0, 212, 255, 0.2)'" onmouseout="this.style.background='rgba(0, 212, 255, 0.12)'">
-        <span>${tr.name}</span>
-        <span style="font-size: 14px;">↗&#xFE0E;</span>
-      </a>
-    `;
-  } else {
-    trackEl.textContent = d.sector ? `${d.sector} · ${d.industry || ''}` : 'Stock';
-  }
-
-  function setPill(id, text) {
-    const el = document.getElementById(id);
-    if (!text || text === '—' || text === 'P/E —' || text === 'Market Cap —') {
-      el.style.display = 'none';
-    } else {
-      el.textContent = text;
+    trackChipEl.href = `track.html?slug=${tr.slug}`;
+    trackNameEl.textContent = tr.name;
+    trackChipEl.style.display = 'inline-flex';
+    if (tr.color) {
+      document.documentElement.style.setProperty('--track-accent', tr.color);
     }
+  } else {
+    trackChipEl.style.display = 'none';
   }
 
-  const change = d.changePercent != null ? ` (${(d.changePercent * 100).toFixed(2)}%)` : '';
-  setPill('stock-price', d.price != null ? `$${fmtNum(d.price)}${change}` : null);
-  setPill('stock-mcap', d.marketCap != null ? `Market Cap ${fmtMoney(d.marketCap)}` : null);
-  setPill('stock-pe', d.trailingPE != null ? `P/E ${fmtNum(d.trailingPE, 1)}` : null);
-  setPill('stock-sector', d.country || null);
+  // Hero meta strip
+  const priceEl = document.getElementById('stock-meta-price');
+  const changeEl = document.getElementById('stock-meta-change');
+  const mcapEl = document.getElementById('stock-meta-mcap');
+  const peEl = document.getElementById('stock-meta-pe');
 
+  priceEl.textContent = d.price != null ? `$${fmtNum(d.price)}` : '—';
+
+  if (d.changePercent != null) {
+    const pct = d.changePercent * 100;
+    changeEl.textContent = `${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%`;
+    changeEl.className = 'hero-meta-change ' + (pct >= 0 ? 'change-pos' : 'change-neg');
+  } else {
+    changeEl.textContent = '';
+  }
+
+  mcapEl.textContent = d.marketCap != null ? fmtMoney(d.marketCap) : '—';
+  peEl.textContent = d.trailingPE != null ? fmtNum(d.trailingPE, 1) : '—';
+
+  // Key stats grid
   const stats = [
     ['Open',           d.open != null ? `$${fmtNum(d.open)}` : '—'],
     ['Previous close', d.previousClose != null ? `$${fmtNum(d.previousClose)}` : '—'],
@@ -122,50 +155,61 @@ function renderStock(d, dbData) {
     ['Dividend yield', d.dividendYield != null ? `${(d.dividendYield * 100).toFixed(2)}%` : '—'],
     ['Beta',           fmtNum(d.beta)],
     ['Employees',      d.fullTimeEmployees != null ? d.fullTimeEmployees.toLocaleString() : '—'],
-  ];
+  ].filter(([, v]) => v !== '—');
 
-  document.getElementById('stats-grid').innerHTML = stats.filter(([, v]) => v !== '—').map(([k, v]) => `
+  document.getElementById('stats-grid').innerHTML = stats.map(([k, v]) => `
     <div class="stat-cell">
-      <div class="stat-label">${k}</div>
-      <div class="stat-val">${v}</div>
+      <div class="stat-label">${escapeHtml(k)}</div>
+      <div class="stat-val">${escapeHtml(v)}</div>
     </div>
   `).join('');
 }
 
 function renderNews(items) {
   const wrap = document.getElementById('news-list');
+  const sub = document.getElementById('news-count-sub');
+
   if (!items || items.length === 0) {
     wrap.innerHTML = '<div class="news-empty">No news returned for this ticker.</div>';
+    if (sub) sub.textContent = '';
     return;
   }
-  // Stable `id="news-card-<i>"` per card — the AI summary's citation
-  // links scroll to these indices.
-  wrap.innerHTML = items.map((n, i) => `
-    <a class="news-item" id="news-card-${i}" href="${n.link || '#'}" target="_blank" rel="noopener">
-      <div class="news-title">${escapeHtml(n.title || '')}</div>
-      <div class="news-meta">
-        ${escapeHtml(n.publisher || '')} ${n.published ? '· ' + escapeHtml(fmtDate(n.published)) : ''}
-        ${n.ticker ? '· <span class="news-ticker">' + escapeHtml(n.ticker) + '</span>' : ''}
-      </div>
-      ${n.summary ? `<div class="news-summary">${escapeHtml(n.summary)}</div>` : ''}
-    </a>
-  `).join('');
 
-  // Kick off the AI summary now that news cards exist in the DOM.
+  if (sub) sub.textContent = `${items.length} article${items.length !== 1 ? 's' : ''}`;
+
+  // Stable id="news-card-<i>" for AI summary citation scrolling
+  wrap.innerHTML = items.map((n, i) => {
+    const t = n.ticker ? escapeHtml(n.ticker) : '';
+    const source = n.publisher ? escapeHtml(n.publisher) : '';
+    const date = fmtDate(n.published);
+    const link = n.link ? escapeHtml(n.link) : '#';
+    const title = escapeHtml(n.title || '');
+    const summary = n.summary ? escapeHtml(n.summary) : '';
+
+    return `
+      <a class="news-item" id="news-card-${i}" href="${link}" target="_blank" rel="noopener">
+        <div class="news-item-body">
+          <div class="news-item-meta">
+            ${t ? `<span class="news-ticker-pill">${t}</span>` : ''}
+            ${source ? `<span class="news-source">${source}</span>` : ''}
+            ${date ? `<span class="news-dot">·</span><span class="news-date">${date}</span>` : ''}
+          </div>
+          <div class="news-title">${title}</div>
+          ${summary ? `<div class="news-summary">${summary}</div>` : ''}
+        </div>
+        <span class="news-external-icon" aria-hidden="true">↗</span>
+      </a>
+    `;
+  }).join('');
+
+  // Kick off AI summary now that news cards exist (so citation-click scroll works)
   if (window.renderAISummary && ticker) {
     window.renderAISummary({ kind: 'company', key: ticker });
   }
 }
 
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, c => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-  }[c]));
-}
-
-init();
-
-function renderChart(ticker) {
+function buildChartScript(ticker) {
+  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
   const script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
@@ -179,17 +223,30 @@ function renderChart(ticker) {
     hide_legend: false,
     hide_volume: false,
     hotlist: false,
-    interval: "D",
-    locale: "en",
+    interval: 'D',
+    locale: 'en',
     save_image: true,
-    style: "1",
-    symbol: ticker,  
-    theme: "light",
-    timezone: "Etc/UTC",
-    backgroundColor: "#ffffff",
-    gridColor: "rgba(46, 46, 46, 0.06)",
-    autosize: true
+    style: '1',
+    symbol: ticker,
+    theme: isLight ? 'light' : 'dark',
+    timezone: 'Etc/UTC',
+    backgroundColor: isLight ? '#ffffff' : '#030712',
+    gridColor: isLight ? 'rgba(46, 46, 46, 0.06)' : 'rgba(255, 255, 255, 0.04)',
+    autosize: true,
   });
-
-  document.querySelector('.tradingview-widget-container').appendChild(script);
+  return script;
 }
+
+function renderChart(ticker) {
+  const container = document.querySelector('.tradingview-widget-container');
+  container.appendChild(buildChartScript(ticker));
+
+  // Re-render when theme toggles (TradingView doesn't support live theme updates)
+  const observer = new MutationObserver(() => {
+    container.innerHTML = '<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>';
+    container.appendChild(buildChartScript(ticker));
+  });
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+}
+
+init();
