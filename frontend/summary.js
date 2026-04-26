@@ -46,16 +46,23 @@
     return out;
   }
 
+  /**
+   * Returns either a phrase ("now") or a "Xm ago" / "Xh ago" tail.
+   * The caller composes its own prefix ("updated …"), so we return only
+   * the tail. Sub-minute resolves to "now" — showing "30s ago" without
+   * a live tick looks broken, and once you're past a minute the units
+   * are stable enough that nobody can tell exactly when it ticked.
+   */
   function relTime(iso) {
     if (!iso) return '';
     const d = new Date(iso);
     if (isNaN(d)) return '';
     const sec = Math.max(0, (Date.now() - d.getTime()) / 1000);
-    if (sec < 60)        return `${Math.floor(sec)}s ago`;
-    if (sec < 3600)      return `${Math.floor(sec / 60)}m ago`;
-    if (sec < 86400)     return `${Math.floor(sec / 3600)}h ago`;
-    if (sec < 604800)    return `${Math.floor(sec / 86400)}d ago`;
-    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+    if (sec < 60)     return 'now';
+    if (sec < 3600)   return `${Math.floor(sec / 60)}m ago`;
+    if (sec < 86400)  return `${Math.floor(sec / 3600)}h ago`;
+    if (sec < 604800) return `${Math.floor(sec / 86400)}d ago`;
+    return `on ${d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}`;
   }
 
   async function postJSON(path) {
@@ -127,8 +134,9 @@
     if (!el) return;
     if (!data || !data.headline) { el.textContent = ''; return; }
     const stamp = data.generated_at ? relTime(data.generated_at) : '';
-    if (stamp) el.textContent = `updated ${stamp}${data.cached ? ' · cached' : ''}`;
-    else el.textContent = data.cached ? 'cached' : 'freshly generated';
+    if (stamp === 'now')  { el.textContent = 'updated now'; return; }
+    if (stamp)            { el.textContent = `updated ${stamp}`; return; }
+    el.textContent = data.cached ? 'cached' : 'freshly generated';
   }
 
   let _lastArgs = null;

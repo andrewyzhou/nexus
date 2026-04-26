@@ -850,12 +850,14 @@ html[data-theme="light"] .skeleton-line {
   color: var(--t-emerald);
 }
 
-/* Override legacy .ai-summary container on track.html */
+/* Override legacy .ai-summary container on track.html.
+   Tighter top padding now that the header has no meta line under the
+   title — the old 24px left a visible gap below the divider. */
 .track-page .ai-summary {
   border: none !important;
   background: rgba(0, 0, 0, 0.40) !important;
   border-radius: 0 !important;
-  padding: 24px 32px !important;
+  padding: 14px 32px 24px !important;
 }
 
 .track-page .ai-summary .summary-text {

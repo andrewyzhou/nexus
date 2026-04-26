@@ -211,6 +211,38 @@ html[data-theme="light"] .track-page .ai-summary .summary-text code {
   background: rgba(15, 23, 42, 0.06) !important;
   color: #0f172a !important;
 }
+
+/* New summary layout — headline paragraph + bullet list + inline citations */
+html[data-theme="light"] .track-page .ai-summary .summary-headline {
+  color: #0f172a !important;
+}
+html[data-theme="light"] .track-page .ai-summary .summary-headline strong {
+  color: #047857 !important;
+}
+html[data-theme="light"] .track-page .ai-summary .summary-headline em {
+  color: #0f172a !important;
+}
+html[data-theme="light"] .track-page .ai-summary .summary-bullets li {
+  color: #1e293b !important;
+}
+html[data-theme="light"] .track-page .ai-summary .summary-bullets li::before {
+  background: #047857 !important;
+}
+html[data-theme="light"] .track-page .ai-summary .summary-bullets strong {
+  color: #0f172a !important;
+}
+html[data-theme="light"] .track-page .ai-summary .summary-bullets em {
+  color: #047857 !important;
+}
+html[data-theme="light"] .track-page .ai-summary .citations-inline .citation {
+  background: rgba(4, 120, 87, 0.08) !important;
+  color: #047857 !important;
+  border-color: rgba(4, 120, 87, 0.20) !important;
+}
+html[data-theme="light"] .track-page .ai-summary .citations-inline .citation:hover {
+  background: rgba(4, 120, 87, 0.16) !important;
+}
+
 html[data-theme="light"] .track-page .ai-summary .citation {
   background: rgba(4, 120, 87, 0.08) !important;
   color: #047857 !important;
@@ -218,6 +250,16 @@ html[data-theme="light"] .track-page .ai-summary .citation {
 }
 html[data-theme="light"] .track-page .ai-summary .citation:hover {
   background: rgba(4, 120, 87, 0.16) !important;
+}
+
+/* News card thumbnail in light mode — softer placeholder background. */
+html[data-theme="light"] .news-thumb {
+  background: rgba(15, 23, 42, 0.04) !important;
+}
+html[data-theme="light"] .news-num {
+  background: rgba(15, 23, 42, 0.04) !important;
+  border-color: rgba(15, 23, 42, 0.10) !important;
+  color: #64748b !important;
 }
 html[data-theme="light"] .track-page .ai-summary .news-empty {
   border-color: rgba(4, 120, 87, 0.20) !important;
