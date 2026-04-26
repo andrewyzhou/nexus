@@ -1348,28 +1348,19 @@ function renderGraph({ skipFit = false } = {}) {
     .on('mouseout',  onNodeOut)
     .on('click',     onNodeClick);
 
-  // Filled disc + thin lighter rim. Subtler than the previous glow + tint
-  // combo: reads as a single object rather than two stacked circles.
+  // Filled colored disc. Stroke and label color are theme-driven via CSS so
+  // both dark and light modes render legibly (see style.css node rules).
   nodeEl.append('circle')
     .attr('class', 'node-body')
     .attr('r', d => nodeRadius(d))
-    .attr('fill', d => trackColor(d))
-    .attr('fill-opacity', 0.92)
-    .attr('stroke', '#ffffff')
-    .attr('stroke-opacity', 0.18)
-    .attr('stroke-width', 1);
+    .attr('fill', d => trackColor(d));
 
   nodeEl.append('text')
     .attr('class', 'node-label')
     .text(d => d.ticker)
     .attr('text-anchor', 'middle')
     .attr('dominant-baseline', 'central')
-    .attr('font-family', "'JetBrains Mono', ui-monospace, monospace")
     .attr('font-size', d => Math.max(9, Math.min(11, nodeRadius(d) * 0.55)))
-    .attr('font-weight', 600)
-    .attr('letter-spacing', '0.02em')
-    .attr('fill', '#ffffff')
-    .attr('fill-opacity', 0.95)
     .attr('pointer-events', 'none');
 
   simulation.on('tick', () => {

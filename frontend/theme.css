@@ -65,23 +65,18 @@ html[data-theme="light"] #tooltip {
   box-shadow: 0 8px 32px rgba(20, 24, 40, 0.18) !important;
 }
 
-/* Node labels: darken and saturate for contrast on light bg */
-html[data-theme="light"] svg .node-label {
-  filter: brightness(0.55) saturate(1.8);
-}
-
-/* Node body: solid-ish fill with vivid stroke so nodes pop on white */
+/* Node body in light mode: still a saturated colored disc, but with a
+   darker border so it stands out against the white canvas. */
 html[data-theme="light"] svg .node-body {
-  fill-opacity: 0.18;
-  stroke-opacity: 1;
-  stroke-width: 2.5px;
-  filter: brightness(0.75) saturate(1.6);
+  fill-opacity: 1;
+  stroke: rgba(15, 23, 42, 0.30);
+  stroke-width: 1.25px;
 }
-
-/* Glow ring: stronger in light mode */
-html[data-theme="light"] svg .node-glow {
-  opacity: 0.55;
-  filter: brightness(0.7) saturate(1.6);
+/* Label in light mode: keep white (saturated body underneath stays
+   readable in both themes). The dark stroke from style.css is what
+   guarantees legibility on bright fills like lime or cyan. */
+html[data-theme="light"] svg .node-label {
+  fill: #ffffff;
 }
 
 /* ── Track page — light mode (mockup port) ───────────────────── */

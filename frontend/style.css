@@ -1133,6 +1133,29 @@ a.track-item {
   font-weight: 700;
 }
 
+/* ── Graph nodes (theme-aware) ───────────────────────────── */
+/* Body: filled saturated disc + thin border for definition. The border
+   color flips for light mode in theme.css. */
+svg .node-body {
+  fill-opacity: 0.95;
+  stroke: rgba(255, 255, 255, 0.20);
+  stroke-width: 1;
+}
+/* Label: white sits readably on every track color in dark mode. Light mode
+   keeps it white because the body is still saturated underneath. */
+svg .node-label {
+  fill: #ffffff;
+  fill-opacity: 0.96;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  /* Subtle drop shadow so the label stays legible on lighter track colors
+     (lime, cyan, etc) without drawing attention. */
+  paint-order: stroke;
+  stroke: rgba(0, 0, 0, 0.45);
+  stroke-width: 0.6px;
+}
+
 /* ═════════════════════════════════════════════════════════
    Sidebar v2 — On Graph / Quick Start / Recent / Saved /
    Trending / Browse All. The .sb-* prefix scopes everything
@@ -1331,6 +1354,24 @@ a.track-item {
   max-width: 130px;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Inline stats — track member count, company market cap. */
+.sb-item-meta {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+.sb-item-price {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+  min-width: 44px;
+  text-align: right;
 }
 
 /* Action buttons inside .sb-item */
