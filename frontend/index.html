@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexus</title>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=6" />
+  <link rel="stylesheet" href="style.css?v=7" />
   <link rel="stylesheet" href="theme.css?v=6" />
   <link rel="stylesheet" href="mobile.css?v=6" />
 
@@ -73,21 +73,30 @@
           <div class="sidebar-list" id="on-graph-list"></div>
         </section>
 
-        <!-- Quick Start: 6 curated tracks, hardcoded -->
-        <section class="sidebar-section" id="quick-start-section">
-          <div class="sidebar-section-head">
-            <div class="sidebar-label">Quick Start</div>
+        <!-- Recent: per-user, server-backed, capped at ~8 visible.
+             Collapsible; default open. Hidden entirely when empty. -->
+        <section class="sidebar-section sidebar-section--collapsible" id="recent-section" hidden>
+          <div class="sidebar-section-head sidebar-section-head--toggle" data-target="recent-body">
+            <div class="sidebar-label">Recent</div>
+            <div class="sidebar-section-head-actions">
+              <button class="sidebar-mini-btn" id="recent-reset" title="Clear recent">Reset</button>
+              <span class="sidebar-caret"></span>
+            </div>
           </div>
-          <div class="sidebar-list" id="quick-start-list"></div>
+          <div class="sidebar-section-body" id="recent-body">
+            <div class="sidebar-list" id="recent-list"></div>
+          </div>
         </section>
 
-        <!-- Recent: per-user, server-backed, capped at ~8 visible -->
-        <section class="sidebar-section" id="recent-section" hidden>
-          <div class="sidebar-section-head">
-            <div class="sidebar-label">Recent</div>
-            <button class="sidebar-mini-btn" id="recent-reset" title="Clear recent">Reset</button>
+        <!-- Quick Start: 6 curated tracks, hardcoded. Collapsible; default open. -->
+        <section class="sidebar-section sidebar-section--collapsible" id="quick-start-section">
+          <div class="sidebar-section-head sidebar-section-head--toggle" data-target="quick-start-body">
+            <div class="sidebar-label">Quick Start</div>
+            <span class="sidebar-caret"></span>
           </div>
-          <div class="sidebar-list" id="recent-list"></div>
+          <div class="sidebar-section-body" id="quick-start-body">
+            <div class="sidebar-list" id="quick-start-list"></div>
+          </div>
         </section>
 
         <!-- Saved: per-user, server-backed -->
@@ -153,7 +162,7 @@
   <script src="config.js?v=5"></script>
   <script src="auth.js?v=6"></script>
   <script src="theme.js?v=5"></script>
-  <script src="main.js?v=6"></script>
+  <script src="main.js?v=7"></script>
   <script>
     (function() {
       const menuBtn  = document.getElementById('mobile-menu');

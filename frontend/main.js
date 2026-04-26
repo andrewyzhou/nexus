@@ -50,16 +50,18 @@ let recentItems = [];   // [{item_type, item_id, label}]
 let savedItems  = [];   // [{item_type, item_id, label}]
 let moversByKind = {};  // { day_gainers: [{ticker,name,price,change_pct}], ... }
 
-// Quick Start: hardcoded curated track labels. Resolved at render time by
-// fuzzy-matching against the tracks loaded from the API. Items that don't
-// resolve (because the track was renamed/removed) just don't render.
+// Quick Start: hardcoded list of EXACT track names from the DB. Items that
+// don't resolve (because the track was renamed/removed) just don't render.
+// Update this list when adding new curated entries — fuzzy matching was
+// removed because it produced false positives ("Chemical for Semiconductors"
+// matched "Semiconductors").
 const QUICK_START_TRACKS = [
   'AI Chips',
-  'AI Infrastructure',
-  'Cloud Hyperscalers',
-  'Semiconductors',
-  'EV Leaders',
-  'Big Tech',
+  'AI Data Center - Large',
+  'Hyperscaler',
+  'Semiconductor Manufacturer',
+  'EV & Auto - Large',
+  'Entertainment Giants',
 ];
 
 // Browse All sector buckets: each bucket maps to a fuzzy substring matched
@@ -217,25 +219,35 @@ function isItemOnGraph(item) {
 function addItem(item, { skipRecent = false } = {}) {
   if (item.item_type === 'track') {
     hiddenTracks.delete(item.item_id);
+    // Adding a track means "show all of this track" — clear any prior
+    // exclusions of its members so re-adding restores the full membership.
+    allNodes.forEach(n => {
+      if ((n.tracks || []).includes(item.item_id)) excludedNodes.delete(n.id);
+    });
   } else {
     pinnedNodes.add(item.item_id);
     excludedNodes.delete(item.item_id);
   }
   if (!skipRecent) recordRecent(item);
   applyVisibility({ skipFit: true });
-  refreshSidebarRows();
   syncPanelAddBtn();
 }
 
 function removeItem(item) {
   if (item.item_type === 'track') {
     hiddenTracks.add(item.item_id);
+    // Don't add the track's members to excludedNodes — that would persist a
+    // hide that the user only intended for the track as a whole.
   } else {
     pinnedNodes.delete(item.item_id);
-    excludedNodes.add(item.item_id);
+    // Only mark as excluded if the node is currently in a visible track —
+    // otherwise it'd already be invisible, no need to track an exclusion.
+    const node = nodeById.get(item.item_id);
+    if (node && (node.tracks || []).some(t => !hiddenTracks.has(t))) {
+      excludedNodes.add(item.item_id);
+    }
   }
   applyVisibility({ skipFit: true });
-  refreshSidebarRows();
   syncPanelAddBtn();
 }
 
@@ -247,16 +259,44 @@ function toggleItem(item) {
 function trackItem(track) { return { item_type: 'track',   item_id: track.id, label: track.label }; }
 function nodeItem(node)   { return { item_type: 'company', item_id: node.id,  label: `${node.ticker} · ${node.name}` }; }
 
-// Re-render every section that depends on pin/hide state. Cheap because each
-// section's list is small.
+// Re-render strategy:
+//   - On Graph + Recent: full rebuild (small lists, membership changes)
+//   - QuickStart / Saved / Trending / Browse: keep DOM, update +/- and ★
+//     buttons in place. This preserves things like the user-opened
+//     "Day Gainers" subgroup and Browse → A–Z scroll position.
 function refreshSidebarRows() {
   renderOnGraph();
-  renderQuickStart();
   renderRecent();
-  renderSaved();
-  renderTrending();
-  renderBrowse();
+  updateAllRowStates();
   renderEmptyState();
+}
+
+function updateAllRowStates() {
+  document.querySelectorAll('#sidebar [data-item-key]').forEach(updateRowEl);
+}
+
+function updateRowEl(row) {
+  const key = row.dataset.itemKey;
+  if (!key) return;
+  const [type, id] = key.split('::');
+  const item = hydrateItem({ item_type: type, item_id: id });
+  if (!item) return;
+  const onGraph = isItemOnGraph(item);
+  row.classList.toggle('is-on', onGraph);
+  // Primary +/- (skipped for On Graph rows where we always want ×)
+  const primary = row.querySelector('.sb-action--primary');
+  if (primary && row.dataset.actionMode !== 'remove') {
+    primary.classList.toggle('is-remove', onGraph);
+    primary.innerHTML = onGraph ? ICON_CLOSE : ICON_PLUS;
+    primary.title = onGraph ? 'Remove from graph' : 'Add to graph';
+  }
+  // ★ saved indicator
+  const star = row.querySelector('.sb-action--star');
+  if (star) {
+    const saved = isSaved(item);
+    star.classList.toggle('is-saved', saved);
+    star.title = saved ? 'Unsave' : 'Save';
+  }
 }
 
 // ── Sidebar shell ───────────────────────────────────────────────────────────
@@ -275,9 +315,16 @@ function buildSidebar() {
     });
   });
 
-  // Per-user-state buttons
-  document.getElementById('on-graph-clear')?.addEventListener('click', clearAllPinned);
-  document.getElementById('recent-reset')?.addEventListener('click', resetRecent);
+  // Per-user-state buttons. Stop propagation so they don't trigger the
+  // surrounding section's collapse toggle.
+  document.getElementById('on-graph-clear')?.addEventListener('click', e => {
+    e.stopPropagation();
+    clearAllPinned();
+  });
+  document.getElementById('recent-reset')?.addEventListener('click', e => {
+    e.stopPropagation();
+    resetRecent();
+  });
 
   // Initial render — sections that depend on async data show empty until refresh.
   refreshSidebarRows();
@@ -317,7 +364,7 @@ function renderOnGraph() {
   section.toggleAttribute('hidden', items.length === 0);
   count.textContent = items.length ? `(${items.length})` : '';
   list.innerHTML = '';
-  items.forEach(item => list.appendChild(renderRow(item, { actionIcon: 'remove' })));
+  items.forEach(item => list.appendChild(renderRow(item, { actionMode: 'remove', showStar: false })));
 }
 
 function clearAllPinned() {
@@ -330,20 +377,11 @@ function clearAllPinned() {
 }
 
 // ── Quick Start ─────────────────────────────────────────────────────────────
+// Exact label match against the loaded track list. The DB names are the
+// source of truth — see backend/db/load_track_descriptions.py for the full
+// list. Returns null if no track has that exact label.
 function findTrackByLabel(label) {
-  const q = label.toLowerCase();
-  // Prefer exact match, then prefix, then containment.
-  let best = null, bestScore = -1;
-  for (const t of tracks) {
-    const tl = t.label.toLowerCase();
-    let score = -1;
-    if (tl === q) score = 100;
-    else if (tl.startsWith(q)) score = 80;
-    else if (tl.includes(q)) score = 60;
-    else if (q.split(' ').every(w => tl.includes(w))) score = 40;
-    if (score > bestScore) { bestScore = score; best = t; }
-  }
-  return bestScore >= 40 ? best : null;
+  return tracks.find(t => t.label === label) || null;
 }
 
 function trackPreviewTickers(track, n = 5) {
@@ -364,7 +402,7 @@ function renderQuickStart() {
     const preview = trackPreviewTickers(t, 5);
     list.appendChild(renderRow(
       { ...trackItem(t), color: t.color, preview },
-      { actionIcon: 'auto' },
+      { },
     ));
   });
 }
@@ -391,7 +429,7 @@ function renderRecent() {
   visible.forEach(item => {
     // Hydrate label from current data when possible (DB label may be stale)
     const hydrated = hydrateItem(item);
-    if (hydrated) list.appendChild(renderRow(hydrated, { actionIcon: 'auto' }));
+    if (hydrated) list.appendChild(renderRow(hydrated, { }));
   });
 }
 
@@ -435,7 +473,7 @@ function renderSaved() {
   list.innerHTML = '';
   savedItems.forEach(item => {
     const hydrated = hydrateItem(item);
-    if (hydrated) list.appendChild(renderRow(hydrated, { actionIcon: 'auto', secondary: 'unsave' }));
+    if (hydrated) list.appendChild(renderRow(hydrated, { }));
   });
 }
 
@@ -444,19 +482,24 @@ function isSaved(item) {
 }
 
 function toggleSaved(item) {
-  if (isSaved(item)) {
-    savedItems = savedItems.filter(i => !(i.item_type === item.item_type && i.item_id === item.item_id));
-    fetch(`${API_BASE}/saved?item_type=${encodeURIComponent(item.item_type)}&item_id=${encodeURIComponent(item.item_id)}`,
+  // Strip transient render-only fields (color/preview/badge/change_pct) so
+  // the canonical {item_type,item_id,label} we send to the server matches
+  // what GET /saved returns.
+  const canonical = { item_type: item.item_type, item_id: item.item_id, label: item.label };
+  if (isSaved(canonical)) {
+    savedItems = savedItems.filter(i => !(i.item_type === canonical.item_type && i.item_id === canonical.item_id));
+    fetch(`${API_BASE}/saved?item_type=${encodeURIComponent(canonical.item_type)}&item_id=${encodeURIComponent(canonical.item_id)}`,
           { method: 'DELETE' }).catch(() => {});
   } else {
-    savedItems = [item, ...savedItems];
+    savedItems = [canonical, ...savedItems];
     fetch(`${API_BASE}/saved`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(item),
+      body: JSON.stringify(canonical),
     }).catch(() => {});
   }
-  renderSaved();
+  renderSaved();          // Saved section's membership changed
+  updateAllRowStates();   // ★ across QuickStart / Recent / Trending / Browse
 }
 
 // Take a stored {item_type,item_id,label} and resolve a richer object suitable
@@ -532,7 +575,7 @@ function renderTrending() {
         return;
       }
       const item = nodeItem(node);
-      const row = renderRow({ ...item, badge: node.ticker, change_pct: it.change_pct }, { actionIcon: 'auto' });
+      const row = renderRow({ ...item, badge: node.ticker, change_pct: it.change_pct }, { });
       body.appendChild(row);
     });
 
@@ -701,7 +744,7 @@ function renderBrowseLeaf(leaf) {
       const CHUNK = 80;
       const renderChunk = () => {
         const stop = Math.min(idx + CHUNK, items.length);
-        for (; idx < stop; idx++) body.appendChild(renderRow(items[idx], { actionIcon: 'auto' }));
+        for (; idx < stop; idx++) body.appendChild(renderRow(items[idx], { }));
         if (idx < items.length) requestAnimationFrame(renderChunk);
       };
       renderChunk();
@@ -714,33 +757,49 @@ function renderBrowseLeaf(leaf) {
 // ── Generic row renderer (used by every section) ────────────────────────────
 //
 // item: { item_type, item_id, label, color?, preview?, badge?, change_pct? }
-// opts: { actionIcon: 'auto' | 'remove' | 'none', secondary?: 'unsave' }
+// opts: { actionMode: 'auto' | 'remove' | 'none',  // primary +/- icon
+//         showStar: boolean,                       // ★ save toggle
+//         expandable: boolean,                     // chevron → member list (tracks only)
+//         showChange: boolean }                    // chip for change_pct
 
 function renderRow(item, opts = {}) {
-  const { actionIcon = 'auto', secondary } = opts;
+  const {
+    actionMode = 'auto',
+    showStar   = true,
+    expandable = (item.item_type === 'track'),
+    showChange = (item.change_pct != null),
+  } = opts;
+
+  // Wrapper holds row + (optional) inline expansion of member companies.
+  const wrapper = document.createElement('div');
+  wrapper.className = 'sb-row';
+
   const onGraph = isItemOnGraph(item);
   const row = document.createElement('div');
   row.className = `sb-item${onGraph ? ' is-on' : ''}`;
   row.dataset.itemKey = `${item.item_type}::${item.item_id}`;
+  if (actionMode === 'remove') row.dataset.actionMode = 'remove';
 
-  // Color dot for tracks; ticker badge for companies.
+  // Track rows: color dot + label. Company rows: ticker badge + name.
   if (item.item_type === 'track') {
     const dot = document.createElement('span');
     dot.className = 'sb-item-dot';
     dot.style.background = item.color || '#888';
     row.appendChild(dot);
+    const label = document.createElement('span');
+    label.className = 'sb-item-label';
+    label.textContent = item.label;
+    row.appendChild(label);
   } else {
     const badge = document.createElement('span');
     badge.className = 'sb-item-ticker';
     badge.textContent = item.badge || item.label.split(' ')[0];
     row.appendChild(badge);
+    const label = document.createElement('span');
+    label.className = 'sb-item-label';
+    label.textContent = item.label.includes(' · ') ? item.label.split(' · ')[1] : item.label;
+    row.appendChild(label);
   }
-
-  const label = document.createElement('span');
-  label.className = 'sb-item-label';
-  label.textContent = item.item_type === 'track' ? item.label
-                                                 : (item.label.split(' · ')[1] || item.label);
-  row.appendChild(label);
 
   if (item.preview && item.preview.length) {
     const preview = document.createElement('span');
@@ -749,49 +808,76 @@ function renderRow(item, opts = {}) {
     row.appendChild(preview);
   }
 
-  if (item.change_pct != null) {
+  if (showChange && item.change_pct != null) {
     const span = document.createElement('span');
     span.innerHTML = renderChangePct(item.change_pct);
     row.appendChild(span);
   }
 
-  // Secondary action (e.g. ★ unsave) goes before the primary action.
-  if (secondary === 'unsave') {
-    const unsave = document.createElement('button');
-    unsave.className = 'sb-action sb-action--secondary';
-    unsave.title = 'Remove from saved';
-    unsave.textContent = '★';
-    unsave.addEventListener('click', e => { e.stopPropagation(); toggleSaved(item); });
-    row.appendChild(unsave);
-  } else if (item.item_type !== 'track' || actionIcon !== 'remove') {
-    // Save toggle on regular rows so users can promote anything to Saved.
-    // Skipped for the On Graph section (which only shows remove).
-    if (actionIcon !== 'remove') {
-      const star = document.createElement('button');
-      star.className = 'sb-action sb-action--secondary' + (isSaved(item) ? ' is-saved' : '');
-      star.title = isSaved(item) ? 'Unsave' : 'Save';
-      star.textContent = '★';
-      star.addEventListener('click', e => { e.stopPropagation(); toggleSaved(item); });
-      row.appendChild(star);
-    }
+  // Track-row chevron: expand inline to show member companies, each with
+  // their own +/- so users can pin individual companies from a track without
+  // adding the whole track.
+  let memberBody = null;
+  if (item.item_type === 'track' && expandable) {
+    const chevron = document.createElement('button');
+    chevron.className = 'sb-action sb-action--chevron';
+    chevron.title = 'Show companies';
+    chevron.innerHTML = ICON_CHEVRON;
+    memberBody = document.createElement('div');
+    memberBody.className = 'sb-track-members';
+    memberBody.hidden = true;
+    let built = false;
+    chevron.addEventListener('click', e => {
+      e.stopPropagation();
+      memberBody.hidden = !memberBody.hidden;
+      chevron.classList.toggle('open', !memberBody.hidden);
+      if (!memberBody.hidden && !built) {
+        built = true;
+        const t = trackById.get(item.item_id);
+        if (!t) { memberBody.innerHTML = '<div class="sb-empty">No companies</div>'; return; }
+        const members = allNodes
+          .filter(n => (n.tracks || []).includes(t.id))
+          .sort((a, b) => (b.marketCap || 0) - (a.marketCap || 0));
+        if (!members.length) {
+          memberBody.innerHTML = '<div class="sb-empty">No companies</div>';
+          return;
+        }
+        members.forEach(n => memberBody.appendChild(renderRow(
+          { ...nodeItem(n), badge: n.ticker },
+          { showStar: true, expandable: false },
+        )));
+      }
+    });
+    row.appendChild(chevron);
   }
 
-  if (actionIcon !== 'none') {
+  // ★ Save toggle (skipped on On Graph rows)
+  if (showStar) {
+    const star = document.createElement('button');
+    star.className = 'sb-action sb-action--star' + (isSaved(item) ? ' is-saved' : '');
+    star.title = isSaved(item) ? 'Unsave' : 'Save';
+    star.textContent = '★';
+    star.addEventListener('click', e => { e.stopPropagation(); toggleSaved(item); });
+    row.appendChild(star);
+  }
+
+  // Primary +/- action
+  if (actionMode !== 'none') {
     const action = document.createElement('button');
     action.className = 'sb-action sb-action--primary';
-    const showRemove = actionIcon === 'remove' || onGraph;
+    const showRemove = actionMode === 'remove' || onGraph;
     action.classList.toggle('is-remove', showRemove);
     action.innerHTML = showRemove ? ICON_CLOSE : ICON_PLUS;
     action.title = showRemove ? 'Remove from graph' : 'Add to graph';
     action.addEventListener('click', e => {
       e.stopPropagation();
-      if (showRemove) removeItem(item); else addItem(item);
+      if (actionMode === 'remove' || isItemOnGraph(item)) removeItem(item);
+      else addItem(item);
     });
     row.appendChild(action);
   }
 
-  // Click anywhere on the row (other than the action buttons) opens the
-  // detail panel for companies, or for tracks opens the track page.
+  // Click on the body (not the buttons) opens the company panel or track page.
   row.addEventListener('click', e => {
     if (e.target.closest('.sb-action')) return;
     if (item.item_type === 'company') {
@@ -802,7 +888,9 @@ function renderRow(item, opts = {}) {
     }
   });
 
-  return row;
+  wrapper.appendChild(row);
+  if (memberBody) wrapper.appendChild(memberBody);
+  return wrapper;
 }
 
 // ── Empty-state center panel ────────────────────────────────────────────────
@@ -1235,29 +1323,28 @@ function renderGraph({ skipFit = false } = {}) {
     .on('mouseout',  onNodeOut)
     .on('click',     onNodeClick);
 
-  nodeEl.append('circle')
-    .attr('class', 'node-glow')
-    .attr('r', d => nodeRadius(d) + 4)
-    .attr('fill', 'none')
-    .attr('stroke', d => trackColor(d))
-    .attr('stroke-width', 1)
-    .attr('opacity', 0.25);
-
+  // Filled disc + thin lighter rim. Subtler than the previous glow + tint
+  // combo: reads as a single object rather than two stacked circles.
   nodeEl.append('circle')
     .attr('class', 'node-body')
     .attr('r', d => nodeRadius(d))
-    .attr('fill', d => trackColor(d) + '44')
-    .attr('stroke', d => trackColor(d))
-    .attr('stroke-width', 1.5);
+    .attr('fill', d => trackColor(d))
+    .attr('fill-opacity', 0.92)
+    .attr('stroke', '#ffffff')
+    .attr('stroke-opacity', 0.18)
+    .attr('stroke-width', 1);
 
   nodeEl.append('text')
     .attr('class', 'node-label')
     .text(d => d.ticker)
     .attr('text-anchor', 'middle')
-    .attr('dominant-baseline', 'middle')
-    .attr('font-family', "'Space Mono', monospace")
-    .attr('font-size', d => Math.max(8.5, Math.min(10, nodeRadius(d) * 0.6)))
-    .attr('fill', d => trackColor(d))
+    .attr('dominant-baseline', 'central')
+    .attr('font-family', "'JetBrains Mono', ui-monospace, monospace")
+    .attr('font-size', d => Math.max(9, Math.min(11, nodeRadius(d) * 0.55)))
+    .attr('font-weight', 600)
+    .attr('letter-spacing', '0.02em')
+    .attr('fill', '#ffffff')
+    .attr('fill-opacity', 0.95)
     .attr('pointer-events', 'none');
 
   simulation.on('tick', () => {

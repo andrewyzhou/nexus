@@ -1237,6 +1237,38 @@ a.track-item {
   gap: 1px;
 }
 
+.sidebar-section-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Wrapper for rows that may have an inline expansion (track members) */
+.sb-row { display: flex; flex-direction: column; }
+
+.sb-track-members {
+  margin: 2px 0 4px 14px;
+  padding-left: 8px;
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.sb-empty {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 4px 8px;
+  font-style: italic;
+}
+
+.sb-action--chevron {
+  color: var(--text-muted);
+  transition: transform var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+}
+.sb-action--chevron.open { transform: rotate(180deg); color: var(--text-primary); }
+.sb-action--chevron svg { display: block; }
+
+
 /* ── Universal row (.sb-item) ────────────────────────────── */
 .sb-item {
   display: flex;
@@ -1335,12 +1367,16 @@ a.track-item {
 }
 .sb-action--primary.is-remove:hover { background: rgba(248, 113, 113, 0.08); border-color: #f87171; }
 
-.sb-action--secondary {
+.sb-action--star {
   color: var(--text-muted);
   font-size: 13px;
 }
-.sb-action--secondary.is-saved { color: #fbbf24; border-color: rgba(251, 191, 36, 0.40); }
-.sb-action--secondary:hover { color: #fbbf24; border-color: rgba(251, 191, 36, 0.40); }
+.sb-action--star.is-saved {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.55);
+  background: rgba(251, 191, 36, 0.08);
+}
+.sb-action--star:hover { color: #fbbf24; border-color: rgba(251, 191, 36, 0.40); }
 
 /* Change-pct chip (Trending rows) */
 .sb-pct {
