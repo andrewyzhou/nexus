@@ -58,7 +58,8 @@ async function init() {
       `Backend unreachable or unknown ticker (${liveRes.reason}). Is main.py running?`;
   }
 
-  renderNews(newsRes.status === 'fulfilled' ? newsRes.value : []);
+  stockNewsItems = newsRes.status === 'fulfilled' ? newsRes.value : [];
+  renderNews(stockNewsItems);
   renderChart(ticker);
 }
 
@@ -165,7 +166,9 @@ function renderStock(d, dbData) {
   `).join('');
 }
 
-function renderNews(items) {
+let stockNewsItems = [];
+
+function renderNews(items, citedSet) {
   const wrap = document.getElementById('news-list');
   const sub = document.getElementById('news-count-sub');
 
@@ -177,8 +180,10 @@ function renderNews(items) {
 
   if (sub) sub.textContent = `${items.length} article${items.length !== 1 ? 's' : ''}`;
 
-  // Stable id="news-card-<i>" for AI summary citation scrolling
+  // id="news-card-<i>" uses the original array index so summary.js citation
+  // clicks always resolve to the correct card regardless of any future reorder.
   wrap.innerHTML = items.map((n, i) => {
+    const isCited = citedSet ? citedSet.has(i) : false;
     const t = n.ticker ? escapeHtml(n.ticker) : '';
     const source = n.publisher ? escapeHtml(n.publisher) : '';
     const date = fmtDate(n.published);
@@ -187,12 +192,18 @@ function renderNews(items) {
     const summary = n.summary ? escapeHtml(n.summary) : '';
 
     return `
-      <a class="news-item" id="news-card-${i}" href="${link}" target="_blank" rel="noopener">
+      <a class="news-item${isCited ? ' cited' : ''}" id="news-card-${i}" href="${link}" target="_blank" rel="noopener">
         <div class="news-item-body">
           <div class="news-item-meta">
             ${t ? `<span class="news-ticker-pill">${t}</span>` : ''}
             ${source ? `<span class="news-source">${source}</span>` : ''}
             ${date ? `<span class="news-dot">·</span><span class="news-date">${date}</span>` : ''}
+            ${isCited ? `
+              <span class="cited-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+                Cited
+              </span>
+            ` : ''}
           </div>
           <div class="news-title">${title}</div>
           ${summary ? `<div class="news-summary">${summary}</div>` : ''}
@@ -202,9 +213,19 @@ function renderNews(items) {
     `;
   }).join('');
 
-  // Kick off AI summary now that news cards exist (so citation-click scroll works)
+  // Kick off AI summary now that news cards exist (so citation-click scroll works).
+  // After it resolves, re-render news cards with cited badges applied.
   if (window.renderAISummary && ticker) {
+    const summaryPath = `/companies/${encodeURIComponent(ticker)}/summary`;
     window.renderAISummary({ kind: 'company', key: ticker });
+    fetch(`${API_BASE}${summaryPath}`, { method: 'POST' })
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (!data || !data.citations) return;
+        const cited = new Set(data.citations.map(c => c.article_index));
+        renderNews(stockNewsItems, cited);
+      })
+      .catch(() => {});
   }
 }
 
