@@ -103,18 +103,16 @@ function loadSummary() {
     kind: 'track',
     key: slug,
     onData(data) {
-      citedIndices = new Set((data.citations || []).map(c => c.article_index));
+      // bullets reference 1-based source indices; news cards are stored at
+      // _origIndex (0-based, matching the news endpoint order).
+      const cited = new Set();
+      for (const b of (data.bullets || [])) {
+        for (const i of (b.source_indices || [])) cited.add(i - 1);
+      }
+      citedIndices = cited;
       allNewsItems.forEach(n => {
         n.cited = citedIndices.has(n._origIndex);
       });
-
-      const status = document.getElementById('summary-status');
-      if (status) {
-        status.textContent = data.cached
-          ? 'Synthesized · cached, refreshes every 15 min'
-          : 'Synthesized · freshly generated';
-      }
-
       renderNews();
     },
   });
@@ -179,11 +177,16 @@ function renderNews() {
     const title = escapeHtml(n.title || '');
     const summary = n.summary ? escapeHtml(n.summary) : '';
 
+    const image = n.image ? escapeHtml(n.image) : '';
+    const number = (n._origIndex != null) ? (n._origIndex + 1) : '';
+
     return `
       <a class="news-item${isCited ? ' cited' : ''}" id="news-card-${n._origIndex}"
          href="${link}" target="_blank" rel="noopener">
+        ${image ? `<div class="news-thumb"><img src="${image}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"/></div>` : ''}
         <div class="news-item-body">
           <div class="news-item-meta">
+            ${number !== '' ? `<span class="news-num">${number}</span>` : ''}
             ${ticker ? `<span class="news-ticker-pill">${ticker}</span>` : ''}
             ${source ? `<span class="news-source">${source}</span>` : ''}
             ${date ? `<span class="news-dot">·</span><span class="news-date">${date}</span>` : ''}

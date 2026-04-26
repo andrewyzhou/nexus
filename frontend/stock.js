@@ -70,8 +70,12 @@ function loadSummary() {
     kind: 'company',
     key: ticker,
     onData(data) {
-      if (!data || !data.citations) return;
-      const cited = new Set(data.citations.map(c => c.article_index));
+      if (!data) return;
+      // bullets reference 1-based source indices; news cards are 0-based.
+      const cited = new Set();
+      for (const b of (data.bullets || [])) {
+        for (const i of (b.source_indices || [])) cited.add(i - 1);
+      }
       renderNews(stockNewsItems, cited);
     },
   });
@@ -204,11 +208,16 @@ function renderNews(items, citedSet) {
     const link = n.link ? escapeHtml(n.link) : '#';
     const title = escapeHtml(n.title || '');
     const summary = n.summary ? escapeHtml(n.summary) : '';
+    const image = n.image ? escapeHtml(n.image) : '';
+    // Card numbering matches summary citations [N]
+    const number = i + 1;
 
     return `
       <a class="news-item${isCited ? ' cited' : ''}" id="news-card-${i}" href="${link}" target="_blank" rel="noopener">
+        ${image ? `<div class="news-thumb"><img src="${image}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"/></div>` : ''}
         <div class="news-item-body">
           <div class="news-item-meta">
+            <span class="news-num">${number}</span>
             ${t ? `<span class="news-ticker-pill">${t}</span>` : ''}
             ${source ? `<span class="news-source">${source}</span>` : ''}
             ${date ? `<span class="news-dot">·</span><span class="news-date">${date}</span>` : ''}
