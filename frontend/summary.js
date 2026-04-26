@@ -106,7 +106,7 @@
 
   let _lastArgs = null;
 
-  async function runSummary({ kind, key }) {
+  async function runSummary({ kind, key, onData }) {
     const wrap = document.getElementById('ai-summary');
     const status = document.getElementById('summary-status');
     if (!wrap) return;
@@ -126,6 +126,7 @@
       const data = await postJSON(path);
       renderSummary(data);
       if (status) status.textContent = data.cached ? 'cached · refreshes every 15 min' : 'freshly generated';
+      if (typeof onData === 'function') onData(data);
     } catch (err) {
       wrap.innerHTML = `<div class="news-empty">Summary unavailable (${escapeHtml(err.message)}).</div>`;
       if (status) status.textContent = '';
@@ -133,7 +134,7 @@
   }
 
   window.renderAISummary = function renderAISummary(args) {
-    _lastArgs = args;
+    _lastArgs = { kind: args.kind, key: args.key, onData: args.onData };
     return runSummary(args);
   };
 

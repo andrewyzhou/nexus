@@ -97,31 +97,27 @@ async function loadNews() {
   }
 }
 
-async function loadSummary() {
-  // Hand off prose rendering + citation clicks to summary.js — it does its
-  // own POST. We do a separate POST here to learn which indices are cited
-  // (the response is cached server-side, so the second hit is cheap).
-  try {
-    if (window.renderAISummary) window.renderAISummary({ kind: 'track', key: slug });
+function loadSummary() {
+  if (!window.renderAISummary) return;
+  window.renderAISummary({
+    kind: 'track',
+    key: slug,
+    onData(data) {
+      citedIndices = new Set((data.citations || []).map(c => c.article_index));
+      allNewsItems.forEach(n => {
+        n.cited = citedIndices.has(n._origIndex);
+      });
 
-    const r = await fetch(`${API_BASE}/tracks/${encodeURIComponent(slug)}/summary`, { method: 'POST' });
-    if (!r.ok) return;
-    const data = await r.json();
+      const status = document.getElementById('summary-status');
+      if (status) {
+        status.textContent = data.cached
+          ? 'Synthesized · cached, refreshes every 15 min'
+          : 'Synthesized · freshly generated';
+      }
 
-    citedIndices = new Set((data.citations || []).map(c => c.article_index));
-    allNewsItems.forEach(n => {
-      n.cited = citedIndices.has(n._origIndex);
-    });
-
-    const status = document.getElementById('summary-status');
-    if (status) {
-      status.textContent = data.cached
-        ? 'Synthesized · cached, refreshes every 15 min'
-        : 'Synthesized · freshly generated';
-    }
-
-    renderNews();
-  } catch (err) { /* summary.js handles its own error display */ }
+      renderNews();
+    },
+  });
 }
 
 function buildTickerPills() {

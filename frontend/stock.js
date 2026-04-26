@@ -216,16 +216,15 @@ function renderNews(items, citedSet) {
   // Kick off AI summary now that news cards exist (so citation-click scroll works).
   // After it resolves, re-render news cards with cited badges applied.
   if (window.renderAISummary && ticker) {
-    const summaryPath = `/companies/${encodeURIComponent(ticker)}/summary`;
-    window.renderAISummary({ kind: 'company', key: ticker });
-    fetch(`${API_BASE}${summaryPath}`, { method: 'POST' })
-      .then(r => r.ok ? r.json() : null)
-      .then(data => {
+    window.renderAISummary({
+      kind: 'company',
+      key: ticker,
+      onData(data) {
         if (!data || !data.citations) return;
         const cited = new Set(data.citations.map(c => c.article_index));
         renderNews(stockNewsItems, cited);
-      })
-      .catch(() => {});
+      },
+    });
   }
 }
 
