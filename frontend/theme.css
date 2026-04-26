@@ -38,6 +38,17 @@ html[data-theme="light"] {
 /* Hard-coded surfaces in style.css that don't use variables */
 html[data-theme="light"] body { background: #f6f7fb; color: #1a1d2b; }
 
+/* Company popup panel — stat cards */
+html[data-theme="light"] .stat-card {
+  background: rgba(20, 24, 40, 0.04);
+}
+html[data-theme="light"] .stat-value {
+  color: #1a1d2b;
+}
+html[data-theme="light"] .stat-label {
+  color: #64748b;
+}
+
 html[data-theme="light"] #header {
   background: #ffffff !important;
   border-bottom-color: rgba(15, 23, 42, 0.08) !important;
