@@ -436,6 +436,30 @@
     line-height: 1.2;
   }
 
+  /* Stack description and stats vertically on mobile */
+  .track-page .hero-divider-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .track-page .hero-left {
+    max-width: 100%;
+  }
+
+  .track-page .hero-meta {
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    align-items: flex-start;
+  }
+
+  .track-page .hero-meta-value {
+    font-size: 22px;
+  }
+
+  .track-page .hero-meta-divider {
+    display: none;
+  }
+
   /* TradingView chart — shrink height on mobile */
   #stock-chart-widget {
     height: 320px !important;
