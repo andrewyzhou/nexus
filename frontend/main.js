@@ -74,12 +74,13 @@ const BROWSE_BUCKETS = [
   { id: 'energy',  label: 'Energy',     match: ['energy', 'oil', 'gas', 'solar', 'nuclear', 'battery', 'mining', 'metal', 'utility', 'clean'] },
 ];
 
-// Trending Today rows
+// Trending Today rows. 'trending' was dropped — Yahoo aggressively 429s the
+// /v1/finance/trending/US endpoint. Day gainers/losers/actives use the
+// stable yf.screen() screener API.
 const TRENDING_KINDS = [
   { id: 'day_gainers',  label: 'Day Gainers',  arrow: '↑' },
   { id: 'day_losers',   label: 'Day Losers',   arrow: '↓' },
   { id: 'most_actives', label: 'Most Active',  arrow: '⇅' },
-  { id: 'trending',     label: 'Trending',     arrow: '★' },
 ];
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
@@ -780,7 +781,8 @@ function renderRow(item, opts = {}) {
   row.dataset.itemKey = `${item.item_type}::${item.item_id}`;
   if (actionMode === 'remove') row.dataset.actionMode = 'remove';
 
-  // Track rows: color dot + label. Company rows: ticker badge + name.
+  // Track rows: color dot + label + member count. Company rows: ticker
+  // badge + name + market cap + (price | change%).
   if (item.item_type === 'track') {
     const dot = document.createElement('span');
     dot.className = 'sb-item-dot';
@@ -790,6 +792,16 @@ function renderRow(item, opts = {}) {
     label.className = 'sb-item-label';
     label.textContent = item.label;
     row.appendChild(label);
+    const t = trackById.get(item.item_id);
+    if (t) {
+      const memberCount = allNodes.reduce(
+        (n, node) => n + ((node.tracks || []).includes(t.id) ? 1 : 0), 0);
+      const meta = document.createElement('span');
+      meta.className = 'sb-item-meta';
+      meta.textContent = `${memberCount}`;
+      meta.title = `${memberCount} compan${memberCount === 1 ? 'y' : 'ies'}`;
+      row.appendChild(meta);
+    }
   } else {
     const badge = document.createElement('span');
     badge.className = 'sb-item-ticker';
@@ -799,19 +811,27 @@ function renderRow(item, opts = {}) {
     label.className = 'sb-item-label';
     label.textContent = item.label.includes(' · ') ? item.label.split(' · ')[1] : item.label;
     row.appendChild(label);
-  }
-
-  if (item.preview && item.preview.length) {
-    const preview = document.createElement('span');
-    preview.className = 'sb-item-preview';
-    preview.textContent = item.preview.join(' ');
-    row.appendChild(preview);
+    const node = nodeById.get(item.item_id);
+    if (node) {
+      const mcap = document.createElement('span');
+      mcap.className = 'sb-item-meta';
+      mcap.textContent = fmtCap(node.marketCap);
+      row.appendChild(mcap);
+    }
   }
 
   if (showChange && item.change_pct != null) {
     const span = document.createElement('span');
     span.innerHTML = renderChangePct(item.change_pct);
     row.appendChild(span);
+  } else if (item.item_type === 'company' && !showChange) {
+    const node = nodeById.get(item.item_id);
+    if (node && node.price != null) {
+      const price = document.createElement('span');
+      price.className = 'sb-item-price';
+      price.textContent = '$' + Number(node.price).toFixed(node.price >= 100 ? 0 : 2);
+      row.appendChild(price);
+    }
   }
 
   // Track-row chevron: expand inline to show member companies, each with
@@ -824,14 +844,16 @@ function renderRow(item, opts = {}) {
     chevron.title = 'Show companies';
     chevron.innerHTML = ICON_CHEVRON;
     memberBody = document.createElement('div');
+    // .open class controls visibility — can't use [hidden] attr because
+    // .sb-track-members has display:flex which would override it.
     memberBody.className = 'sb-track-members';
-    memberBody.hidden = true;
     let built = false;
     chevron.addEventListener('click', e => {
       e.stopPropagation();
-      memberBody.hidden = !memberBody.hidden;
-      chevron.classList.toggle('open', !memberBody.hidden);
-      if (!memberBody.hidden && !built) {
+      const open = !memberBody.classList.contains('open');
+      memberBody.classList.toggle('open', open);
+      chevron.classList.toggle('open', open);
+      if (open && !built) {
         built = true;
         const t = trackById.get(item.item_id);
         if (!t) { memberBody.innerHTML = '<div class="sb-empty">No companies</div>'; return; }
@@ -877,14 +899,17 @@ function renderRow(item, opts = {}) {
     row.appendChild(action);
   }
 
-  // Click on the body (not the buttons) opens the company panel or track page.
+  // Click on the body (not the buttons): companies open the detail panel.
+  // Tracks toggle the chevron expand if expandable, otherwise nothing —
+  // sidebar shouldn't navigate users away mid-exploration.
   row.addEventListener('click', e => {
     if (e.target.closest('.sb-action')) return;
     if (item.item_type === 'company') {
       const n = nodeById.get(item.item_id);
       if (n) openPanel(n);
-    } else {
-      window.location.href = `track.html?slug=${encodeURIComponent(item.item_id)}`;
+    } else if (memberBody) {
+      // Synthesize a chevron click so toggle logic stays in one place.
+      row.querySelector('.sb-action--chevron')?.click();
     }
   });
 

@@ -665,13 +665,29 @@ def get_track_summary(slug):
     constituents = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
     conn.close()
 
-    # 2. Per-constituent: articles + headline (scaffold)
+    # 2. Per-constituent: articles + headline (scaffold).
+    # Parallelize — sequential calls would blow the gunicorn worker
+    # timeout on cold caches (7 constituents × ~5s/Claude call). Cap
+    # concurrency at 4 to avoid hammering the Anthropic + body-fetch
+    # endpoints.
+    from concurrent.futures import ThreadPoolExecutor, as_completed
     per_company_articles: dict[str, list[dict]] = {}
     scaffold: dict[str, str] = {}
-    for c in constituents:
-        sub = _ensure_company_summary(c["ticker"], c["name"])
-        per_company_articles[c["ticker"]] = sub.get("articles", [])
-        scaffold[c["ticker"]] = sub.get("headline") or ""
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        futures = {
+            ex.submit(_ensure_company_summary, c["ticker"], c["name"]): c
+            for c in constituents
+        }
+        for fut in as_completed(futures):
+            c = futures[fut]
+            try:
+                sub = fut.result()
+            except Exception as e:
+                # Don't let one bad constituent kill the whole track call.
+                print(f"[track-summary] sub failed for {c['ticker']}: {e}")
+                sub = {"articles": [], "headline": ""}
+            per_company_articles[c["ticker"]] = sub.get("articles", [])
+            scaffold[c["ticker"]] = sub.get("headline") or ""
 
     # 3. Pool articles (diversity floor + global re-rank)
     pooled = _pool_track_articles(per_company_articles)
@@ -1444,57 +1460,16 @@ def remove_saved():
 
 
 # ── /api/movers/<kind> (Yahoo screener, cached) ──────────────────────────
-# kind ∈ {day_gainers, day_losers, most_actives, trending}
+# kind ∈ {day_gainers, day_losers, most_actives}
 # Cached 5 min in-process; if Yahoo 429s we serve stale or 503 silently.
+#
+# 'trending' was removed because Yahoo's /v1/finance/trending/US endpoint
+# rate-limits aggressively (429 within minutes of every cold start). The
+# screener-backed kinds above are stable.
 
 _MOVERS_TTL = 5 * 60
 _movers_cache: dict[str, tuple[float, list[dict]]] = {}
-_MOVER_KINDS = {"day_gainers", "day_losers", "most_actives", "trending"}
-
-
-def _fetch_trending() -> list[dict]:
-    """Yahoo /v1/finance/trending/{region} — yfinance doesn't wrap this,
-    so hit it directly. Returns same shape as _fetch_screener for the
-    frontend (ticker, name, price, change_pct)."""
-    import requests
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/123.0 Safari/537.36",
-        "Accept": "application/json",
-    }
-    r = requests.get(
-        "https://query1.finance.yahoo.com/v1/finance/trending/US",
-        params={"count": 20}, headers=headers, timeout=8,
-    )
-    r.raise_for_status()
-    payload = r.json()
-    results = (payload.get("finance") or {}).get("result") or []
-    if not results:
-        return []
-    quotes = results[0].get("quotes") or []
-    symbols = [q.get("symbol") for q in quotes if q.get("symbol")]
-    if not symbols:
-        return []
-    # Hydrate name/price via a single batch quote call (also unofficial; same risk)
-    qr = requests.get(
-        "https://query1.finance.yahoo.com/v7/finance/quote",
-        params={"symbols": ",".join(symbols)}, headers=headers, timeout=8,
-    )
-    if not qr.ok:
-        # Fall back to symbols-only — frontend can still render rows
-        return [{"ticker": s, "name": s, "price": None, "change_pct": None}
-                for s in symbols]
-    qres = ((qr.json().get("quoteResponse") or {}).get("result") or [])
-    return [
-        {
-            "ticker":     q.get("symbol"),
-            "name":       q.get("shortName") or q.get("longName") or q.get("symbol"),
-            "price":      q.get("regularMarketPrice"),
-            "change_pct": q.get("regularMarketChangePercent"),
-        }
-        for q in qres if q.get("symbol")
-    ]
+_MOVER_KINDS = {"day_gainers", "day_losers", "most_actives"}
 
 
 def _fetch_screener(kind: str) -> list[dict]:
@@ -1524,7 +1499,7 @@ def get_movers(kind):
         return jsonify({"kind": kind, "cached": True, "items": hit[1]})
 
     try:
-        items = _fetch_trending() if kind == "trending" else _fetch_screener(kind)
+        items = _fetch_screener(kind)
     except Exception as e:
         # Serve stale on failure if we have it; otherwise 503 quietly so
         # the frontend can hide the section.

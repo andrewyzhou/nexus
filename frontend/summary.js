@@ -183,6 +183,11 @@
     _stampTimer = setInterval(() => setStatus(_lastData), 30 * 1000);
   }
 
+  function setControlsBusy(busy) {
+    const card = document.querySelector('.ai-summary-card');
+    if (card) card.classList.toggle('is-generating', !!busy);
+  }
+
   async function runSummary({ kind, key, force, onData, _autoRegenAttempted }) {
     const wrap = document.getElementById('ai-summary');
     const status = document.getElementById('summary-status');
@@ -193,10 +198,17 @@
       : `/companies/${encodeURIComponent(key)}/summary`;
     const path = force ? `${base}?force=1` : base;
 
+    setControlsBusy(true);
+    // Skeleton shape mimics the eventual layout: a 2-line headline block,
+    // then 3 bullet-shaped lines. Each line shimmers via .skeleton-line CSS.
     wrap.innerHTML = `<div class="summary-skeleton">
       <div class="skeleton-line"></div>
       <div class="skeleton-line"></div>
       <div class="skeleton-line short"></div>
+      <div class="skeleton-spacer"></div>
+      <div class="skeleton-line bullet"></div>
+      <div class="skeleton-line bullet"></div>
+      <div class="skeleton-line bullet short"></div>
     </div>`;
     if (status) status.textContent = 'generating…';
 
@@ -219,11 +231,14 @@
         if (days != null && days >= STALE_DAYS_AUTO_REGEN) {
           runSummary({ kind, key, force: true, onData,
                        _autoRegenAttempted: true });
+          return;  // leave busy=true; the regen call will clear it
         }
       }
     } catch (err) {
       wrap.innerHTML = `<div class="news-empty">Summary unavailable (${escapeHtml(err.message)}).</div>`;
       if (status) status.textContent = '';
+    } finally {
+      setControlsBusy(false);
     }
   }
 

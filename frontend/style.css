@@ -31,7 +31,7 @@
   --accent-dim:     rgba(52, 211, 153, 0.12);
 
   /* Layout */
-  --sidebar-w:      340px;
+  --sidebar-w:      380px;
   --panel-w:        360px;
   --header-h:       56px;
 
@@ -1247,13 +1247,14 @@ a.track-item {
 .sb-row { display: flex; flex-direction: column; }
 
 .sb-track-members {
+  display: none;
   margin: 2px 0 4px 14px;
   padding-left: 8px;
   border-left: 1px solid var(--border);
-  display: flex;
   flex-direction: column;
   gap: 1px;
 }
+.sb-track-members.open { display: flex; }
 .sb-empty {
   font-size: 11px;
   color: var(--text-muted);

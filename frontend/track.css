@@ -273,16 +273,21 @@ html[data-theme="light"] .ai-summary .summary-foot {
 
 .summary-skeleton { display: flex; flex-direction: column; gap: 10px; }
 .skeleton-line {
-  height: 12px;
+  height: 14px;
   border-radius: 4px;
   background: linear-gradient(90deg,
-    rgba(255, 255, 255, 0.05) 0%,
-    rgba(255, 255, 255, 0.10) 50%,
-    rgba(255, 255, 255, 0.05) 100%);
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0.14) 50%,
+    rgba(255, 255, 255, 0.06) 100%);
   background-size: 200% 100%;
   animation: skel-shimmer 1.4s linear infinite;
 }
 .skeleton-line.short { width: 65%; }
+.skeleton-line.bullet {
+  margin-left: 18px;            /* mirror the bullet text indent */
+  height: 12px;
+}
+.skeleton-spacer { height: 6px; }
 html[data-theme="light"] .skeleton-line {
   background: linear-gradient(90deg,
     rgba(20, 24, 40, 0.04) 0%,
@@ -1405,11 +1410,20 @@ html[data-theme="light"] .skeleton-line {
   border: 1px solid rgba(52, 211, 153, 0.25);
 }
 
-/* Header right-side controls: freshness chip + regenerate button. */
+/* Header right-side controls: freshness chip + regenerate button.
+   Hidden entirely while a generation is in flight — clicking refresh
+   mid-generation would queue a duplicate Anthropic call, and showing
+   a stale "Analyzed today" while we're regenerating is misleading. */
 .track-page .ai-summary-controls {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  transition: opacity 0.15s;
+}
+
+.track-page .ai-summary-card.is-generating .ai-summary-controls {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .track-page .fresh-chip {
