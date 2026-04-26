@@ -7,6 +7,12 @@
 const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
   || 'http://localhost:5001/nexus/api';
 
+// SVG icons — using inline SVG guarantees pixel-perfect centering regardless
+// of font metrics. All icons are 12×12 viewBox, stroked at 2px.
+const ICON_PLUS  = `<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="6" y1="1" x2="6" y2="11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="6" x2="11" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+const ICON_CLOSE = `<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="1" y1="1" x2="9" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="1" x2="1" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+const ICON_CHEVRON = `<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><polyline points="2,3 5,7 8,3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
 // ── Edge colors by relationship type ─────────────────────────────────────────
 // Note: 'ownership' was previously 'subsidiary' — renamed because the data
 // covers both majority (true subsidiary) and minority (investor) stakes.
@@ -30,6 +36,7 @@ function fmtCap(b) {
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let allNodes = [], allEdges = [], tracks = [];
+let trackById = new Map();  // fast lookup: track.id → track object
 let hiddenTracks  = new Set();
 let pinnedNodes   = new Set();   // individual node IDs shown regardless of track state
 let excludedNodes = new Set();   // individual node IDs explicitly hidden regardless of track state
@@ -58,7 +65,13 @@ async function loadGraphData() {
 function getUserId() {
   let uid = localStorage.getItem('nexus_user_id');
   if (!uid) {
-    uid = crypto.randomUUID();
+    // crypto.randomUUID only works on HTTPS/localhost; fall back for LAN dev
+    uid = (typeof crypto !== 'undefined' && crypto.randomUUID)
+      ? crypto.randomUUID()
+      : 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+          const r = Math.random() * 16 | 0;
+          return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
     localStorage.setItem('nexus_user_id', uid);
   }
   return uid;
@@ -109,6 +122,7 @@ async function init() {
   if (window.nexusAuthReady) await window.nexusAuthReady;
   const data = await loadGraphData();
   tracks   = data.tracks;
+  trackById = new Map(tracks.map(t => [t.id, t]));
   allNodes = data.nodes.map(n => ({ ...n }));   // shallow copy so D3 can mutate
   allEdges = data.edges.map(e => ({ ...e }));
 
@@ -131,7 +145,6 @@ async function init() {
   buildTrackCSS(tracks);
   buildSidebar(tracks, allNodes);
   buildGraph();
-  buildEdgeLegend();
   updateNodeCount();
   applyVisibility();
   renderPinnedList();
@@ -162,7 +175,7 @@ function selectAllTracks() {
     el.classList.add('active');
     el.classList.remove('muted');
     const btn = el.querySelector('.track-toggle-btn');
-    if (btn) { btn.textContent = '✕'; btn.title = 'Remove from graph'; }
+    if (btn) { btn.innerHTML = ICON_CLOSE; btn.title = 'Remove from graph'; }
   });
   applyVisibility();
 }
@@ -173,7 +186,7 @@ function clearAllTracks() {
     el.classList.remove('active');
     el.classList.add('muted');
     const btn = el.querySelector('.track-toggle-btn');
-    if (btn) { btn.textContent = '+'; btn.title = 'Add to graph'; }
+    if (btn) { btn.innerHTML = ICON_PLUS; btn.title = 'Add to graph'; }
   });
   applyVisibility();
 }
@@ -191,6 +204,14 @@ function buildSidebar(tracks, nodes) {
   const list = document.getElementById('track-list');
   list.innerHTML = '';
 
+  // Pre-index nodes by track id to avoid O(tracks × nodes) filtering
+  const nodesByTrack = new Map();
+  for (const n of nodes) {
+    const key = n.track || 'uncategorized';
+    if (!nodesByTrack.has(key)) nodesByTrack.set(key, []);
+    nodesByTrack.get(key).push(n);
+  }
+
   const sorted = [...tracks].sort((a, b) => {
     const aActive = !hiddenTracks.has(a.id);
     const bActive = !hiddenTracks.has(b.id);
@@ -199,7 +220,7 @@ function buildSidebar(tracks, nodes) {
   });
 
   sorted.forEach(track => {
-    const trackNodes = nodes.filter(n => n.track === track.id);
+    const trackNodes = nodesByTrack.get(track.id) || [];
     const isHidden = hiddenTracks.has(track.id);
 
     const wrapper = document.createElement('div');
@@ -212,8 +233,8 @@ function buildSidebar(tracks, nodes) {
     item.innerHTML = `
       <span class="track-dot" style="background:${track.color}; box-shadow:0 0 6px ${track.color}66"></span>
       <span class="track-name">${track.label}</span>
-      <button class="pinned-chevron-btn track-chevron-btn" title="Show companies">▾</button>
-      <button class="track-toggle-btn" title="${isHidden ? 'Add to graph' : 'Remove from graph'}">${isHidden ? '+' : '✕'}</button>
+      <button class="pinned-chevron-btn track-chevron-btn" title="Show companies">${ICON_CHEVRON}</button>
+      <button class="track-toggle-btn" title="${isHidden ? 'Add to graph' : 'Remove from graph'}">${isHidden ? ICON_PLUS : ICON_CLOSE}</button>
     `;
 
     const dropdown = document.createElement('div');
@@ -261,7 +282,7 @@ function buildSidebar(tracks, nodes) {
         row.innerHTML = `
           <span class="pinned-rel-ticker" style="color:${track.color}">${n.ticker}</span>
           <span class="pinned-rel-name">${n.name}</span>
-          <button class="track-toggle-btn track-company-toggle" style="margin-left:auto;flex-shrink:0" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? '✕' : '+'}</button>
+          <button class="track-toggle-btn track-company-toggle" style="margin-left:auto;flex-shrink:0" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? ICON_CLOSE : ICON_PLUS}</button>
         `;
         const compToggle = row.querySelector('.track-company-toggle');
         if (isPinned) {
@@ -358,7 +379,7 @@ function resortPinnedList() {
     const row = w.querySelector('.track-item');
     const btn = w.querySelector('.pinned-toggle');
     if (row) row.className = 'track-item ' + (isPinned ? 'active' : 'muted');
-    if (btn) { btn.textContent = isPinned ? '✕' : '+'; btn.title = isPinned ? 'Remove from graph' : 'Add to graph'; }
+    if (btn) { btn.innerHTML = isPinned ? ICON_CLOSE : ICON_PLUS; btn.title = isPinned ? 'Remove from graph' : 'Add to graph'; }
   });
   const pinned   = wrappers.filter(w =>  pinnedNodes.has(w.dataset.id));
   const unpinned = wrappers.filter(w => !pinnedNodes.has(w.dataset.id));
@@ -373,7 +394,7 @@ function renderPinnedList(keepOpenTicker) {
 
   list.innerHTML = '';
 
-  // Show all nodes, pinned ones first, then alphabetical by ticker
+  // Show all nodes — pinned first, then unpinned, alphabetical by ticker within each group
   const sorted = [...allNodes].sort((a, b) => {
     const ap = pinnedNodes.has(a.id), bp = pinnedNodes.has(b.id);
     if (ap !== bp) return ap ? -1 : 1;
@@ -392,8 +413,8 @@ function renderPinnedList(keepOpenTicker) {
     row.innerHTML = `
       <span class="pinned-ticker">${n.ticker}</span>
       <span class="pinned-name">${n.name}</span>
-      <button class="pinned-chevron-btn" title="Show relationships">▾</button>
-      <button class="track-toggle-btn pinned-toggle" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? '✕' : '+'}</button>
+      <button class="pinned-chevron-btn" title="Show relationships">${ICON_CHEVRON}</button>
+      <button class="track-toggle-btn pinned-toggle" title="${isPinned ? 'Remove from graph' : 'Add to graph'}">${isPinned ? ICON_CLOSE : ICON_PLUS}</button>
     `;
 
     const dropdown = document.createElement('div');
@@ -421,6 +442,7 @@ function renderPinnedList(keepOpenTicker) {
         excludedNodes.delete(n.id);
       }
 
+      saveState();
       applyVisibility({ skipFit: true });
       resortPinnedList();
       syncPanelAddBtn();
@@ -531,7 +553,7 @@ function loadPinnedRelationships(ticker, container) {
         const item = document.createElement('div');
         item.className = 'pinned-rel-item';
         const onGraph = node && pinnedNodes.has(node.id);
-        item.innerHTML = `<span class="pinned-rel-ticker">${displayTicker}</span>${displayName ? `<span class="pinned-rel-name">${displayName}</span>` : ''}${node ? `<button class="conn-add-btn${onGraph ? ' on-graph' : ''}" style="margin-left:auto;flex-shrink:0" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>` : ''}`;
+        item.innerHTML = `<span class="pinned-rel-ticker">${displayTicker}</span>${displayName ? `<span class="pinned-rel-name">${displayName}</span>` : ''}${node ? `<button class="conn-add-btn${onGraph ? ' on-graph' : ''}" style="margin-left:auto;flex-shrink:0" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? ICON_CLOSE : ICON_PLUS}</button>` : ''}`;
         if (node) {
           sectionNodes.push({ node, item });
           const btn = item.querySelector('.conn-add-btn');
@@ -541,17 +563,17 @@ function loadPinnedRelationships(ticker, container) {
               pinnedNodes.delete(node.id);
               excludedNodes.add(node.id);
               btn.classList.remove('on-graph');
-              btn.textContent = '+';
+              btn.innerHTML = ICON_PLUS;
               btn.title = 'Add to graph';
             } else {
               pinnedNodes.add(node.id);
               excludedNodes.delete(node.id);
               btn.classList.add('on-graph');
-              btn.textContent = '✕';
+              btn.innerHTML = ICON_CLOSE;
               btn.title = 'Remove from graph';
             }
             applyVisibility({ skipFit: true });
-            resortPinnedList();
+            renderPinnedList();
             syncPanelAddBtn();
           });
           item.addEventListener('click', e => {
@@ -569,13 +591,13 @@ function loadPinnedRelationships(ticker, container) {
             pinnedNodes.add(node.id);
             excludedNodes.delete(node.id);
             const btn = item.querySelector('.conn-add-btn');
-            if (btn) { btn.classList.add('on-graph'); btn.textContent = '✕'; btn.title = 'Remove from graph'; }
+            if (btn) { btn.classList.add('on-graph'); btn.innerHTML = ICON_CLOSE; btn.title = 'Remove from graph'; }
             added = true;
           }
         });
         if (added) {
           applyVisibility({ skipFit: true });
-          resortPinnedList();
+          renderPinnedList();
         }
       });
 
@@ -586,13 +608,13 @@ function loadPinnedRelationships(ticker, container) {
             pinnedNodes.delete(node.id);
             excludedNodes.add(node.id);
             const btn = item.querySelector('.conn-add-btn');
-            if (btn) { btn.classList.remove('on-graph'); btn.textContent = '+'; btn.title = 'Add to graph'; }
+            if (btn) { btn.classList.remove('on-graph'); btn.innerHTML = ICON_PLUS; btn.title = 'Add to graph'; }
             removed = true;
           }
         });
         if (removed) {
           applyVisibility({ skipFit: true });
-          resortPinnedList();
+          renderPinnedList();
         }
       });
 
@@ -799,7 +821,7 @@ function trackColor(d) {
   const ids = (d.tracks && d.tracks.length) ? d.tracks : [d.track];
   const visibleId = ids.find(id => !hiddenTracks.has(id));
   const pickId = visibleId || ids[0];
-  const t = tracks.find(t => t.id === pickId);
+  const t = trackById.get(pickId);
   return t ? t.color : '#888888';
 }
 
@@ -1194,14 +1216,11 @@ function openPanel(d) {
           <a class="track-badge track-badge--link" href="track.html?slug=${encodeURIComponent(t.id)}" style="--badge-color:${color}; margin-bottom: 0;">
             ${t.label}
           </a>
-          <button class="track-toggle-btn" id="panel-track-toggle-btn" data-track="${t.id}" title="${hiddenTracks.has(t.id) ? 'Add track to graph' : 'Remove track from graph'}">${hiddenTracks.has(t.id) ? '+' : '✕'}</button>
+          <button class="conn-add-btn${hiddenTracks.has(t.id) ? '' : ' on-graph'}" id="panel-track-toggle-btn" data-track="${t.id}" title="${hiddenTracks.has(t.id) ? 'Add track to graph' : 'Remove track from graph'}">${hiddenTracks.has(t.id) ? ICON_PLUS : ICON_CLOSE}</button>
         </div>
       ` : ''}
 
-      ${d.description ? `
-        <div class="panel-section-title">About</div>
-        <p class="panel-desc">${d.description}</p>
-      ` : ''}
+      <div id="panel-about"></div>
 
       <div id="panel-connections">
       </div>
@@ -1237,8 +1256,9 @@ function openPanel(d) {
       const tid = trackToggleBtn.dataset.track;
       toggleTrack(tid);
       const isHidden = hiddenTracks.has(tid);
-      trackToggleBtn.textContent = isHidden ? '+' : '✕';
+      trackToggleBtn.innerHTML = isHidden ? ICON_PLUS : ICON_CLOSE;
       trackToggleBtn.title = isHidden ? 'Add track to graph' : 'Remove track from graph';
+      trackToggleBtn.classList.toggle('on-graph', !isHidden);
     });
   }
 
@@ -1257,14 +1277,14 @@ function openPanel(d) {
         applyVisibility({ skipFit: true });
         renderPinnedList();
         btn.classList.remove('on-graph');
-        btn.textContent = '+';
+        btn.innerHTML = ICON_PLUS;
         btn.title = 'Add to graph';
       } else {
         excludedNodes.delete(node.id);
         selectSearchNode(node);
         renderPinnedList();
         btn.classList.add('on-graph');
-        btn.textContent = '✕';
+        btn.innerHTML = ICON_CLOSE;
         btn.title = 'Remove from graph';
       }
     });
@@ -1338,7 +1358,7 @@ function openPanel(d) {
            <div class="conn-item tab-item" onclick="if(!event.target.closest('.conn-add-btn')) selectNodeById('${cn.id}')">
              <span class="conn-ticker" style="color:${ct ? ct.color : 'var(--text-primary)'}">${cn.ticker}</span>
              <span class="conn-name">${cn.name}</span>
-             <button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? '✕' : '+'}</button>
+             <button class="conn-add-btn${onGraph ? ' on-graph' : ''}" data-id="${cn.id}" title="${onGraph ? 'Remove from graph' : 'Add to graph'}">${onGraph ? ICON_CLOSE : ICON_PLUS}</button>
            </div>
          `;
       });
@@ -1360,6 +1380,17 @@ function openPanel(d) {
 
   // Initial render for graph connections only
   updateTabs(graphConnections);
+
+  // Fetch description on-demand (not in graph payload to keep it small)
+  fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}`)
+    .then(r => r.ok ? r.json() : null)
+    .then(info => {
+      const el = document.getElementById('panel-about');
+      if (!el) return;
+      if (info && info.description) {
+        el.innerHTML = `<div class="panel-section-title">About</div><p class="panel-desc">${info.description}</p>`;
+      }
+    }).catch(() => {});
 
   Promise.all([
     fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=ownership`).then(r => r.ok ? r.json() : { edges: [] }),
@@ -1396,4 +1427,8 @@ document.getElementById('graph-canvas').addEventListener('click', () => {
 
 
 // ── Kick off ──────────────────────────────────────────────────────────────────
+// Render the edge legend immediately — it depends only on the static
+// EDGE_COLORS constant, so there's no reason to wait on the API.
+// Otherwise the user sees an empty styled bubble until /graph responds.
+buildEdgeLegend();
 init();

@@ -81,8 +81,8 @@ Rules:
 - EXCLUDE: competitors, customers, investors, regulators, auditors, law firms,
   consultants, logistics companies (unless named as manufacturers), the filing
   company's own subsidiaries, vague references like "certain suppliers"
-- Use the stock ticker if known with certainty (e.g. "TSM" for Taiwan
-  Semiconductor Manufacturing), otherwise use the exact company name
+- Use the stock ticker if known with certainty (e.g. "ACME" for Acme
+  Corporation), otherwise use the exact company name
 - If zero qualifying suppliers found, return ["NONE"]
 - Do NOT hallucinate — ONLY list entities explicitly named in the text
 

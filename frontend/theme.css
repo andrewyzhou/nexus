@@ -8,6 +8,16 @@
  * Activated by [data-theme="light"] on <html>; defaults to light per spec.
  */
 
+/* Kill all transitions during the theme flip — see theme.js apply().
+   Without this, every surface animates its color change simultaneously,
+   which feels like the toggle is laggy on mobile. */
+html.theme-switching,
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition: none !important;
+}
+
 html[data-theme="light"] {
   /* Core palette */
   --bg-base:        #f6f7fb;
@@ -28,10 +38,16 @@ html[data-theme="light"] {
 /* Hard-coded surfaces in style.css that don't use variables */
 html[data-theme="light"] body { background: #f6f7fb; color: #1a1d2b; }
 
+html[data-theme="light"] #header {
+  background: #ffffff !important;
+  border-bottom-color: rgba(15, 23, 42, 0.08) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
 html[data-theme="light"] #main::before {
   background-image:
-    linear-gradient(rgba(20, 24, 40, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(20, 24, 40, 0.04) 1px, transparent 1px) !important;
+    radial-gradient(circle, rgba(20, 24, 40, 0.12) 1px, transparent 1px) !important;
 }
 
 html[data-theme="light"] #tooltip {
@@ -57,53 +73,258 @@ html[data-theme="light"] svg .node-glow {
   filter: brightness(0.7) saturate(1.6);
 }
 
-/* Track-page hero gradient is fine, just darken text */
-html[data-theme="light"] .track-body { background: #f6f7fb; color: #1a1d2b; }
-html[data-theme="light"] #track-hero {
-  background:
-    radial-gradient(800px 300px at 0% 0%, var(--track-accent) -50%, transparent 60%),
-    #ffffff !important;
-  border-color: rgba(20, 24, 40, 0.1) !important;
+/* ── Track page — light mode (mockup port) ───────────────────── */
+html[data-theme="light"] .track-body {
+  background: #fafafa !important;
+  color: #0f172a !important;
 }
-html[data-theme="light"] #track-description,
-html[data-theme="light"] .news-meta,
-html[data-theme="light"] .stat-label,
-html[data-theme="light"] .company-table th,
-html[data-theme="light"] .company-table td.dim { color: #5b6172 !important; }
 
-html[data-theme="light"] .meta-pill,
-html[data-theme="light"] .stat-cell,
+/* Top nav */
+html[data-theme="light"] .top-nav {
+  background: rgba(255, 255, 255, 0.80) !important;
+  border-bottom-color: rgba(15, 23, 42, 0.08) !important;
+}
+html[data-theme="light"] .ipick-chip {
+  background: rgba(15, 23, 42, 0.04) !important;
+  border-color: rgba(15, 23, 42, 0.10) !important;
+  color: #475569 !important;
+}
+html[data-theme="light"] .back-chip {
+  border-color: rgba(15, 23, 42, 0.10) !important;
+  color: #475569 !important;
+}
+html[data-theme="light"] .back-chip:hover {
+  color: #047857 !important;
+  border-color: rgba(4, 120, 87, 0.25) !important;
+  background: rgba(4, 120, 87, 0.05) !important;
+}
+
+/* Hero */
+html[data-theme="light"] .hero-title { color: #0f172a !important; }
+html[data-theme="light"] .hero-title-italic { color: #94a3b8 !important; }
+html[data-theme="light"] .hero-eyebrow { color: rgba(4, 120, 87, 0.95) !important; }
+html[data-theme="light"] .hero-eyebrow-line { background: rgba(4, 120, 87, 0.30) !important; }
+html[data-theme="light"] .hero-divider-row { border-top-color: rgba(15, 23, 42, 0.08) !important; }
+html[data-theme="light"] .hero-description { color: #475569 !important; }
+html[data-theme="light"] .hero-meta-label { color: #94a3b8 !important; }
+html[data-theme="light"] .hero-meta-value { color: #0f172a !important; }
+html[data-theme="light"] .hero-meta-divider { background: rgba(15, 23, 42, 0.10) !important; }
+
+/* Section heads */
+html[data-theme="light"] .section-title { color: #0f172a !important; }
+html[data-theme="light"] .section-sub { color: #64748b !important; }
+html[data-theme="light"] .sort-label { color: #94a3b8 !important; }
+
+/* Selects */
+html[data-theme="light"] .select-wrap select {
+  background: #ffffff !important;
+  border-color: rgba(15, 23, 42, 0.10) !important;
+  color: #0f172a !important;
+}
+html[data-theme="light"] .select-wrap select:hover {
+  background: #f8fafc !important;
+}
+html[data-theme="light"] .select-chevron { color: #94a3b8 !important; }
+
+/* Companies table */
+html[data-theme="light"] .table-card {
+  background: #ffffff !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+html[data-theme="light"] .company-table thead tr,
+html[data-theme="light"] .company-table td {
+  border-color: rgba(15, 23, 42, 0.06) !important;
+}
+html[data-theme="light"] .company-table th { color: #94a3b8 !important; }
+html[data-theme="light"] .company-table td { color: #475569 !important; }
+html[data-theme="light"] .company-table td.col-row-idx { color: #cbd5e1 !important; }
+html[data-theme="light"] .company-table td.col-num { color: #0f172a !important; }
+html[data-theme="light"] .company-table td.col-name { color: #475569 !important; }
+html[data-theme="light"] .company-table tbody tr:hover td {
+  background: rgba(15, 23, 42, 0.025) !important;
+}
+html[data-theme="light"] .ticker-sym { color: #0f172a !important; }
+html[data-theme="light"] .company-table tbody tr:hover .ticker-sym,
+html[data-theme="light"] .company-table tbody tr:hover .ticker-arrow { color: #047857 !important; }
+html[data-theme="light"] .ticker-arrow { color: #cbd5e1 !important; }
+html[data-theme="light"] .sector-badge {
+  background: rgba(15, 23, 42, 0.04) !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+  color: #475569 !important;
+}
+html[data-theme="light"] .change-pos { color: #047857 !important; }
+html[data-theme="light"] .change-neg { color: #b91c1c !important; }
+html[data-theme="light"] .cell-pe { color: #475569 !important; }
+html[data-theme="light"] .cell-pe-empty { color: #cbd5e1 !important; }
+
+/* AI summary card */
+html[data-theme="light"] .track-page .ai-summary-card {
+  background: #ffffff !important;
+  border-color: rgba(4, 120, 87, 0.25) !important;
+}
+html[data-theme="light"] .track-page .ai-summary-topline {
+  background: rgba(4, 120, 87, 0.45) !important;
+}
+html[data-theme="light"] .track-page .ai-summary-header {
+  border-bottom-color: rgba(15, 23, 42, 0.06) !important;
+}
+html[data-theme="light"] .track-page .ai-summary-title {
+  color: #0f172a !important;
+}
+html[data-theme="light"] .track-page .ai-summary-meta {
+  color: #64748b !important;
+}
+html[data-theme="light"] .track-page .ai-sparkles-icon {
+  background: rgba(4, 120, 87, 0.10) !important;
+  border-color: rgba(4, 120, 87, 0.25) !important;
+  color: #047857 !important;
+}
+html[data-theme="light"] .track-page .ai-live-dot {
+  background: #047857 !important;
+  box-shadow: 0 0 0 4px #ffffff !important;
+}
+html[data-theme="light"] .track-page .ai-fresh-badge {
+  background: rgba(4, 120, 87, 0.08) !important;
+  border-color: rgba(4, 120, 87, 0.20) !important;
+}
+html[data-theme="light"] .track-page .ai-fresh-badge span { color: #047857 !important; }
+html[data-theme="light"] .track-page .ai-fresh-dot { background: #047857 !important; }
+html[data-theme="light"] .track-page .ai-summary {
+  background: transparent !important;
+  border: none !important;
+}
+html[data-theme="light"] .track-page .ai-summary .summary-text { color: #1e293b !important; }
+html[data-theme="light"] .track-page .ai-summary .summary-text strong { color: #0f172a !important; }
+html[data-theme="light"] .track-page .ai-summary .summary-text em { color: #047857 !important; }
+html[data-theme="light"] .track-page .ai-summary .summary-text code {
+  background: rgba(15, 23, 42, 0.06) !important;
+  color: #0f172a !important;
+}
+html[data-theme="light"] .track-page .ai-summary .citation {
+  background: rgba(4, 120, 87, 0.08) !important;
+  color: #047857 !important;
+  border-color: rgba(4, 120, 87, 0.20) !important;
+}
+html[data-theme="light"] .track-page .ai-summary .citation:hover {
+  background: rgba(4, 120, 87, 0.16) !important;
+}
+html[data-theme="light"] .track-page .ai-summary .news-empty {
+  border-color: rgba(4, 120, 87, 0.20) !important;
+  color: #94a3b8 !important;
+}
+html[data-theme="light"] .track-page .ai-summary-footer {
+  background: rgba(15, 23, 42, 0.02) !important;
+  border-top-color: rgba(15, 23, 42, 0.06) !important;
+}
+html[data-theme="light"] .track-page .ai-summary-foot-label,
+html[data-theme="light"] .track-page .ai-regenerate { color: #94a3b8 !important; }
+html[data-theme="light"] .track-page .ai-regenerate:hover { color: #047857 !important; }
+
+html[data-theme="light"] .skeleton-line { background: rgba(15, 23, 42, 0.06) !important; }
+
+/* Ticker filter pills */
+html[data-theme="light"] .ticker-pills {
+  background: rgba(15, 23, 42, 0.04) !important;
+  border-color: rgba(15, 23, 42, 0.10) !important;
+}
+html[data-theme="light"] .ticker-pill { color: #64748b !important; }
+html[data-theme="light"] .ticker-pill:hover { color: #0f172a !important; }
+html[data-theme="light"] .ticker-pill.active {
+  background: rgba(4, 120, 87, 0.10) !important;
+  color: #047857 !important;
+  box-shadow: inset 0 0 0 1px rgba(4, 120, 87, 0.30) !important;
+}
+
+/* News cards */
 html[data-theme="light"] .news-item {
   background: #ffffff !important;
-  border-color: rgba(20, 24, 40, 0.1) !important;
-  color: #1a1d2b !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+  color: #0f172a !important;
 }
-
-
-html[data-theme="light"] .company-table th,
-html[data-theme="light"] .company-table td { border-color: rgba(20, 24, 40, 0.08) !important; }
-html[data-theme="light"] .company-table tr:hover td { background: #eef0f6 !important; }
-
-html[data-theme="light"] .news-summary { color: #5b6172 !important; }
+html[data-theme="light"] .news-item:hover {
+  background: #f8fafc !important;
+  border-color: rgba(15, 23, 42, 0.20) !important;
+}
+html[data-theme="light"] .news-item.cited::before { background: #047857 !important; }
+html[data-theme="light"] .news-ticker-pill {
+  background: rgba(15, 23, 42, 0.06) !important;
+  color: #0f172a !important;
+}
+html[data-theme="light"] .news-source,
+html[data-theme="light"] .news-date { color: #94a3b8 !important; }
+html[data-theme="light"] .news-dot { color: #cbd5e1 !important; }
+html[data-theme="light"] .news-title { color: #0f172a !important; }
+html[data-theme="light"] .news-item:hover .news-title { color: #047857 !important; }
+html[data-theme="light"] .news-summary { color: #475569 !important; }
+html[data-theme="light"] .news-external-icon { color: #cbd5e1 !important; }
+html[data-theme="light"] .news-item:hover .news-external-icon { color: #047857 !important; }
+html[data-theme="light"] .cited-badge {
+  background: rgba(4, 120, 87, 0.08) !important;
+  border-color: rgba(4, 120, 87, 0.20) !important;
+  color: #047857 !important;
+}
 
 html[data-theme="light"] .news-empty,
 html[data-theme="light"] .empty {
-  border-color: rgba(20, 24, 40, 0.12) !important;
-  color: #8a90a3 !important;
+  border-color: rgba(15, 23, 42, 0.12) !important;
+  color: #94a3b8 !important;
 }
 
-html[data-theme="light"] .sort-row select {
+/* Theme toggle */
+html[data-theme="light"] .theme-toggle {
+  border-color: rgba(15, 23, 42, 0.10) !important;
+  color: #475569 !important;
+}
+html[data-theme="light"] .theme-toggle:hover {
+  border-color: rgba(15, 23, 42, 0.25) !important;
+  color: #0f172a !important;
+}
+
+/* Logo */
+html[data-theme="light"] .logo { color: #047857 !important; }
+
+/* Stock page extras (light mode) */
+html[data-theme="light"] .track-page #stock-title { color: #0f172a !important; }
+html[data-theme="light"] .track-page .hero-action-link,
+html[data-theme="light"] .track-page .hero-track-chip {
   background: #ffffff !important;
-  color: #1a1d2b !important;
-  border-color: rgba(20, 24, 40, 0.15) !important;
+  border-color: rgba(15, 23, 42, 0.10) !important;
+  color: #475569 !important;
 }
+html[data-theme="light"] .track-page .hero-action-link:hover,
+html[data-theme="light"] .track-page .hero-track-chip:hover {
+  background: rgba(4, 120, 87, 0.06) !important;
+  border-color: rgba(4, 120, 87, 0.25) !important;
+  color: #047857 !important;
+}
+html[data-theme="light"] .track-page .hero-action-arrow { color: #94a3b8 !important; }
+html[data-theme="light"] .track-page .hero-action-link:hover .hero-action-arrow,
+html[data-theme="light"] .track-page .hero-track-chip:hover .hero-action-arrow { color: #047857 !important; }
 
-html[data-theme="light"] .back-link,
-html[data-theme="light"] .theme-toggle { color: #5b6172 !important; }
+html[data-theme="light"] .track-page .chart-card,
+html[data-theme="light"] .track-page .stat-cell {
+  background: #ffffff !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+html[data-theme="light"] .track-page .stat-cell:hover {
+  background: #f8fafc !important;
+  border-color: rgba(15, 23, 42, 0.18) !important;
+}
+html[data-theme="light"] .track-page .stat-label { color: #94a3b8 !important; }
+html[data-theme="light"] .track-page .stat-val { color: #0f172a !important; }
+
+html[data-theme="light"] .back-link { color: rgba(26, 29, 43, 0.6) !important; }
 html[data-theme="light"] .back-link:hover { color: #1a1d2b !important; }
+html[data-theme="light"] .theme-toggle {
+  border-color: rgba(26, 29, 43, 0.12) !important;
+  color: rgba(26, 29, 43, 0.6) !important;
+}
+html[data-theme="light"] .theme-toggle:hover {
+  border-color: rgba(26, 29, 43, 0.25) !important;
+  color: #1a1d2b !important;
+}
 html[data-theme="light"] .ipick-logo-link { background: transparent; }
 html[data-theme="light"] .ipick-logo { filter: none; }
-html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !important; }
 
 /* ── Stats grid + news layout (shared by track and stock pages) ── */
 .stats-grid {
@@ -153,24 +374,29 @@ html[data-theme="light"] .theme-toggle { border-color: rgba(20, 24, 40, 0.18) !i
 
 .theme-toggle {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.7);
-  border-radius: 6px;
-  width: 30px;
-  height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin-left: 8px;
   flex-shrink: 0;
+  transition: all 0.15s ease;
+  font-family: var(--font-mono);
 }
-.theme-toggle:hover { color: #fff; }
+.theme-toggle:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+}
 
 .dim { color: rgba(255, 255, 255, 0.45); }
+html[data-theme="light"] .dim { color: rgba(20, 24, 40, 0.50); }
 .small { font-size: 11px; }
 
 .source-badge {

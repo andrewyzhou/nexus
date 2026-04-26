@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexus</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="theme.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="theme.css?v=6" />
+  <link rel="stylesheet" href="mobile.css?v=6" />
 
   <!-- D3.js v7 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -19,13 +21,29 @@
 
     <!-- ── Header ──────────────────────────────────────────── -->
     <header id="header">
+      <button id="mobile-menu" class="mobile-menu-btn" aria-label="Add companies or tracks">
+        <svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <line x1="6" y1="1" x2="6" y2="11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <line x1="1" y1="6" x2="11" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
       <div class="logo">NEXUS</div>
-      <div class="header-sep"></div>
       <div class="header-right">
         <a href="https://ipick.ai" target="_blank" rel="noopener" class="ipick-logo-link"><img src="ipick-logo.png" alt="iPick.ai" class="ipick-logo" /><span class="ipick-logo-text">iPick.ai ↗</span></a>
-        <button id="theme-toggle" class="theme-toggle" title="Toggle theme">◐</button>
+        <button id="theme-toggle" class="theme-toggle" title="Toggle theme"></button>
       </div>
     </header>
+    <div id="mobile-backdrop" class="mobile-backdrop"></div>
+
+    <!-- ── Mobile nav picker ───────────────────────────────── -->
+    <div id="mobile-nav-picker" class="mobile-nav-picker" aria-hidden="true">
+      <button class="nav-pick-btn" data-target="pinned-section">
+        <span class="nav-pick-label">Companies</span>
+      </button>
+      <button class="nav-pick-btn" data-target="tracks-section">
+        <span class="nav-pick-label">Investment Tracks</span>
+      </button>
+    </div>
 
     <!-- ── Left Sidebar ────────────────────────────────────── -->
     <aside id="sidebar">
@@ -65,7 +83,7 @@
       </div>
 
       <!-- Track filters -->
-      <div class="sidebar-section tracks-section">
+      <div class="sidebar-section" id="tracks-section">
         <div class="tracks-header">
           <div class="sidebar-label">Investment Tracks</div>
           <div class="track-controls">
@@ -95,9 +113,92 @@
   </aside>
 
 
-  <script src="config.js"></script>
-  <script src="auth.js"></script>
-  <script src="theme.js"></script>
-  <script src="main.js"></script>
+  <script src="config.js?v=5"></script>
+  <script src="auth.js?v=5"></script>
+  <script src="theme.js?v=5"></script>
+  <script src="main.js?v=5"></script>
+  <script>
+    (function() {
+      const menuBtn  = document.getElementById('mobile-menu');
+      const sidebar  = document.getElementById('sidebar');
+      const backdrop = document.getElementById('mobile-backdrop');
+      const picker   = document.getElementById('mobile-nav-picker');
+      if (!menuBtn || !sidebar || !backdrop || !picker) return;
+
+      // Same icon swap as .conn-add-btn elsewhere: green plus → red X
+      // when "active" (i.e. the sidebar/picker is open).
+      const ICON_PLUS = '<svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="6" y1="1" x2="6" y2="11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="6" x2="11" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+      const ICON_X    = '<svg width="14" height="14" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="1" y1="1" x2="9" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="1" x2="1" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+
+      const setMenuOpen = (open) => {
+        menuBtn.classList.toggle('on-graph', open);
+        menuBtn.innerHTML = open ? ICON_X : ICON_PLUS;
+        menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Add companies or tracks');
+      };
+
+      const closeSidebar = () => {
+        sidebar.classList.remove('open');
+        sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
+        backdrop.classList.remove('active');
+        setMenuOpen(false);
+      };
+      const closePicker = () => {
+        picker.classList.remove('active');
+        picker.setAttribute('aria-hidden', 'true');
+        backdrop.classList.remove('active');
+        setMenuOpen(false);
+      };
+
+      menuBtn.addEventListener('click', () => {
+        if (window.innerWidth > 768) {
+          // Desktop: just toggle sidebar normally — never filter sections
+          sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
+          const opened = sidebar.classList.toggle('open');
+          backdrop.classList.toggle('active', opened);
+          setMenuOpen(opened);
+          return;
+        }
+        // Mobile: if anything is open, close it. Otherwise show the picker.
+        if (sidebar.classList.contains('open') || picker.classList.contains('active')) {
+          closeSidebar();
+          closePicker();
+        } else {
+          picker.classList.add('active');
+          picker.setAttribute('aria-hidden', 'false');
+          backdrop.classList.add('active');
+          setMenuOpen(true);
+        }
+      });
+
+      picker.querySelectorAll('.nav-pick-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const targetId = btn.dataset.target;
+          // Hand off from picker → sidebar without flipping the icon back.
+          picker.classList.remove('active');
+          picker.setAttribute('aria-hidden', 'true');
+          sidebar.classList.remove('show-pinned-only', 'show-tracks-only');
+          if (targetId === 'pinned-section') {
+            sidebar.classList.add('show-pinned-only');
+          } else if (targetId === 'tracks-section') {
+            sidebar.classList.add('show-tracks-only');
+          }
+          sidebar.classList.add('open');
+          backdrop.classList.add('active');
+          setMenuOpen(true);
+        });
+      });
+
+      backdrop.addEventListener('click', () => {
+        closeSidebar();
+        closePicker();
+      });
+
+      sidebar.addEventListener('click', (e) => {
+        if (window.innerWidth > 768) return;
+        const target = e.target.closest('.track-item, .pinned-item, .search-dropdown-item, a');
+        if (target) closeSidebar();
+      });
+    })();
+  </script>
 </body>
 </html>

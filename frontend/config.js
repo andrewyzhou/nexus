@@ -16,8 +16,12 @@
   if (window.NEXUS_API) return;  // caller already set it
 
   var host = window.location.hostname;
+  var port = window.location.port;
   if (host === 'localhost' || host === '127.0.0.1' || host === '') {
     window.NEXUS_API = 'http://localhost:5001/nexus/api';
+  } else if (port === '8000' || port === '8002' || port === '3000') {
+    // Running via a dev file server on any IP — backend is on same host, port 5001
+    window.NEXUS_API = 'http://' + host + ':5001/nexus/api';
   } else {
     window.NEXUS_API = '/nexus/api';
   }
