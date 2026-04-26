@@ -6,8 +6,8 @@
   <title>Nexus</title>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=6" />
-  <link rel="stylesheet" href="track.css?v=9" />
-  <link rel="stylesheet" href="theme.css?v=7" />
+  <link rel="stylesheet" href="track.css?v=10" />
+  <link rel="stylesheet" href="theme.css?v=8" />
   <link rel="stylesheet" href="mobile.css?v=6" />
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
@@ -103,6 +103,13 @@
               <div id="summary-status" class="ai-summary-meta"></div>
             </div>
           </div>
+          <div class="ai-summary-controls">
+            <span id="summary-fresh-chip" class="fresh-chip" data-state="fresh" style="display:none">
+              <span class="fresh-chip-dot"></span>
+              <span class="fresh-chip-label">Analyzed today</span>
+            </span>
+            <button class="ai-regenerate" type="button" title="Regenerate from source articles">↻</button>
+          </div>
         </div>
         <div id="ai-summary" class="ai-summary">
           <div class="summary-skeleton">
@@ -110,9 +117,6 @@
             <div class="skeleton-line"></div>
             <div class="skeleton-line short"></div>
           </div>
-        </div>
-        <div class="ai-summary-footer">
-          <button class="ai-regenerate" type="button">Regenerate ↻</button>
         </div>
       </div>
     </section>
@@ -146,7 +150,7 @@
   <script src="config.js?v=5"></script>
   <script src="auth.js?v=5"></script>
   <script src="theme.js?v=5"></script>
-  <script src="summary.js?v=9"></script>
+  <script src="summary.js?v=10"></script>
   <script src="track.js?v=8"></script>
 </body>
 </html>

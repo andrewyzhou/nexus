@@ -1,23 +1,32 @@
 /**
  * summary.js — AI summary loader shared by stock.html and track.html.
  *
- * Backend response shape:
- *   {
- *     headline: "two-sentence narrative",
- *     bullets:  [{ text, source_indices: [1,2] }, ...],
- *     sources:  [{ index, title, url, publisher, published, image }, ...],
- *     generated_at: "2026-04-26T...",
- *     cached: bool, model: "claude-haiku-4-5-20251001"
- *   }
+ * Backend response shapes:
+ *   company:
+ *     { headline, bullets:[{ text, source_indices }], sources:[{...}],
+ *       generated_at, cached, model }
+ *   track:
+ *     { headline, bullets:[{ tickers, text, source_indices }],
+ *       sources:[{ index, ticker, ... }], generated_at, cached, model }
  *
- * Citation behavior preserved from previous version: clicking a [N] marker
- * scrolls to the corresponding news card and flashes a highlight. The card
- * id is `news-card-<index-1>` (0-based) since stock.js renders the same
- * ordered list returned by /companies/<ticker>/news.
+ * Citation behavior preserved across both: clicking a [N] marker scrolls
+ * to news-card-<N-1> (0-based) and flashes a highlight. Bullets in the
+ * track variant render a ticker pill prefix.
+ *
+ * Freshness:
+ *   "Analyzed today"      — generated_at < 24h. Green chip.
+ *   "Analyzed N days ago" — 1-6 days. Gray chip.
+ *   "Analyzed N days ago" — 7+ days. Orange chip + auto-regenerates on
+ *                            load (no click needed).
  */
 (function () {
   const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
     || 'http://localhost:5001/nexus/api';
+
+  // Anything older than this auto-regenerates the next time the page loads.
+  // Set high enough that the persistent cache isn't thrashed, low enough
+  // that a stale brief doesn't survive across multiple visits.
+  const STALE_DAYS_AUTO_REGEN = 7;
 
   function escapeHtml(s) {
     return String(s ?? '').replace(/[&<>"']/g, c => ({
@@ -25,16 +34,9 @@
     }[c]));
   }
 
-  /**
-   * Inline-only markdown for **bold** and *italic*. We don't want marked.js
-   * full GFM here — it would wrap the content in <p> tags and accept
-   * unintended block-level structure. DOMPurify still runs as a defense-
-   * in-depth measure even though the input is from our own API.
-   */
   function renderInlineMd(src) {
     if (!src) return '';
     let out = escapeHtml(src);
-    // **bold** first so we don't accidentally consume inner `*` as italics
     out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     out = out.replace(/(^|[^*])\*([^*\s][^*]*?)\*(?!\*)/g, '$1<em>$2</em>');
     if (typeof DOMPurify !== 'undefined') {
@@ -46,13 +48,13 @@
     return out;
   }
 
-  /**
-   * Returns either a phrase ("now") or a "Xm ago" / "Xh ago" tail.
-   * The caller composes its own prefix ("updated …"), so we return only
-   * the tail. Sub-minute resolves to "now" — showing "30s ago" without
-   * a live tick looks broken, and once you're past a minute the units
-   * are stable enough that nobody can tell exactly when it ticked.
-   */
+  function ageDays(iso) {
+    if (!iso) return null;
+    const d = new Date(iso);
+    if (isNaN(d)) return null;
+    return Math.max(0, (Date.now() - d.getTime()) / 86400000);
+  }
+
   function relTime(iso) {
     if (!iso) return '';
     const d = new Date(iso);
@@ -63,6 +65,20 @@
     if (sec < 86400)  return `${Math.floor(sec / 3600)}h ago`;
     if (sec < 604800) return `${Math.floor(sec / 86400)}d ago`;
     return `on ${d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}`;
+  }
+
+  /**
+   * Returns { label, state } for the freshness chip.
+   * states: 'fresh' (green), 'recent' (gray), 'stale' (orange).
+   * The 'stale' state also triggers an auto-regen on the next runSummary.
+   */
+  function freshness(iso) {
+    const days = ageDays(iso);
+    if (days == null) return { label: 'Analyzing…', state: 'fresh' };
+    if (days < 1) return { label: 'Analyzed today', state: 'fresh' };
+    const n = Math.floor(days);
+    const phrase = n === 1 ? 'Analyzed 1 day ago' : `Analyzed ${n} days ago`;
+    return { label: phrase, state: days >= STALE_DAYS_AUTO_REGEN ? 'stale' : 'recent' };
   }
 
   async function postJSON(path) {
@@ -81,8 +97,7 @@
 
   /**
    * Render the headline paragraph + bulleted list.
-   * Each bullet gets inline `[N]` markers — one per source_index — that
-   * scroll to news-card-<N-1> and highlight it (preserving the old UX).
+   * Track-mode bullets prefix a ticker pill (or pills) before the text.
    */
   function renderSummary(data) {
     const wrap = document.getElementById('ai-summary');
@@ -111,10 +126,14 @@
           const cites = indices.map(i =>
             `<a href="#" class="citation" data-card-idx="${i - 1}">[${i}]</a>`
           ).join('');
-          // Trailing space + non-breaking space before the citation row so
-          // the [N] doesn't sit flush against the period.
+          const tickers = Array.isArray(b.tickers) ? b.tickers : [];
+          const tickerPrefix = tickers.length
+            ? `<span class="bullet-tickers">${tickers.map(t =>
+                `<span class="bullet-ticker-pill">${escapeHtml(t)}</span>`
+              ).join('')}</span>`
+            : '';
           const text = renderInlineMd((b.text || '').trim());
-          return `<li>${text}${cites ? `&nbsp;<span class="citations-inline">${cites}</span>` : ''}</li>`;
+          return `<li>${tickerPrefix}${text}${cites ? `&nbsp;<span class="citations-inline">${cites}</span>` : ''}</li>`;
         }).join('')}</ul>`
       : '';
 
@@ -131,12 +150,28 @@
 
   function setStatus(data) {
     const el = document.getElementById('summary-status');
-    if (!el) return;
-    if (!data || !data.headline) { el.textContent = ''; return; }
-    const stamp = data.generated_at ? relTime(data.generated_at) : '';
-    if (stamp === 'now')  { el.textContent = 'updated now'; return; }
-    if (stamp)            { el.textContent = `updated ${stamp}`; return; }
-    el.textContent = data.cached ? 'cached' : 'freshly generated';
+    if (el) {
+      if (!data || !data.headline) {
+        el.textContent = '';
+      } else {
+        const stamp = data.generated_at ? relTime(data.generated_at) : '';
+        el.textContent = stamp === 'now'
+          ? 'updated now'
+          : (stamp ? `updated ${stamp}` : (data.cached ? 'cached' : 'freshly generated'));
+      }
+    }
+    const chip = document.getElementById('summary-fresh-chip');
+    if (chip) {
+      if (!data || !data.headline) {
+        chip.style.display = 'none';
+      } else {
+        const f = freshness(data.generated_at);
+        chip.style.display = '';
+        chip.dataset.state = f.state;
+        const labelEl = chip.querySelector('.fresh-chip-label');
+        if (labelEl) labelEl.textContent = f.label;
+      }
+    }
   }
 
   let _lastArgs = null;
@@ -148,7 +183,7 @@
     _stampTimer = setInterval(() => setStatus(_lastData), 30 * 1000);
   }
 
-  async function runSummary({ kind, key, force, onData }) {
+  async function runSummary({ kind, key, force, onData, _autoRegenAttempted }) {
     const wrap = document.getElementById('ai-summary');
     const status = document.getElementById('summary-status');
     if (!wrap) return;
@@ -172,6 +207,20 @@
       setStatus(data);
       startStampTicker();
       if (typeof onData === 'function') onData(data);
+
+      // Auto-regen: if we didn't force and what came back is older than
+      // STALE_DAYS_AUTO_REGEN, kick off a fresh generation in the
+      // background. We render the stale version first so the user sees
+      // SOMETHING immediately, then quietly swap it. One-shot so we
+      // don't loop if the regen also returns stale (shouldn't happen,
+      // but belt-and-suspenders).
+      if (!force && !_autoRegenAttempted) {
+        const days = ageDays(data.generated_at);
+        if (days != null && days >= STALE_DAYS_AUTO_REGEN) {
+          runSummary({ kind, key, force: true, onData,
+                       _autoRegenAttempted: true });
+        }
+      }
     } catch (err) {
       wrap.innerHTML = `<div class="news-empty">Summary unavailable (${escapeHtml(err.message)}).</div>`;
       if (status) status.textContent = '';

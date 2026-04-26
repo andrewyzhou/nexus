@@ -1381,3 +1381,102 @@ html[data-theme="light"] .skeleton-line {
   background: rgba(52, 211, 153, 0.08);
   transition: border-color 0.25s, background 0.25s;
 }
+
+/* Bullet ticker prefix pills (track summaries only — company summaries
+   omit the `tickers` field). Each pill renders inline before the bullet
+   text so the user can see at a glance which constituent it concerns. */
+.track-page .ai-summary .summary-bullets .bullet-tickers {
+  display: inline-flex;
+  gap: 4px;
+  margin-right: 8px;
+  vertical-align: baseline;
+}
+
+.track-page .ai-summary .summary-bullets .bullet-ticker-pill {
+  display: inline-block;
+  font-family: var(--font-mono-jet);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(52, 211, 153, 0.12);
+  color: var(--t-emerald);
+  border: 1px solid rgba(52, 211, 153, 0.25);
+}
+
+/* Header right-side controls: freshness chip + regenerate button. */
+.track-page .ai-summary-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.track-page .fresh-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+.track-page .fresh-chip-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+}
+
+/* fresh = green, recent = gray, stale = orange */
+.track-page .fresh-chip[data-state="fresh"] {
+  background: rgba(52, 211, 153, 0.10);
+  border-color: rgba(52, 211, 153, 0.25);
+  color: var(--t-emerald);
+}
+.track-page .fresh-chip[data-state="fresh"] .fresh-chip-dot {
+  background: var(--t-emerald);
+}
+
+.track-page .fresh-chip[data-state="recent"] {
+  background: rgba(148, 163, 184, 0.08);
+  border-color: rgba(148, 163, 184, 0.20);
+  color: var(--t-text-3);
+}
+.track-page .fresh-chip[data-state="recent"] .fresh-chip-dot {
+  background: var(--t-text-3);
+}
+
+.track-page .fresh-chip[data-state="stale"] {
+  background: rgba(251, 146, 60, 0.10);
+  border-color: rgba(251, 146, 60, 0.30);
+  color: #fb923c;
+}
+.track-page .fresh-chip[data-state="stale"] .fresh-chip-dot {
+  background: #fb923c;
+}
+
+/* Regenerate button — circular icon-only, sits next to the chip. */
+.track-page .ai-summary-controls .ai-regenerate {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid var(--t-line-2);
+  color: var(--t-text-3);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s, border-color 0.15s, transform 0.15s;
+}
+.track-page .ai-summary-controls .ai-regenerate:hover {
+  color: var(--t-emerald);
+  border-color: rgba(52, 211, 153, 0.40);
+  transform: rotate(60deg);
+}

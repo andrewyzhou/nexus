@@ -261,6 +261,48 @@ html[data-theme="light"] .news-num {
   border-color: rgba(15, 23, 42, 0.10) !important;
   color: #64748b !important;
 }
+
+/* Bullet ticker prefix pills (track summaries) — light mode. */
+html[data-theme="light"] .track-page .ai-summary .summary-bullets .bullet-ticker-pill {
+  background: rgba(4, 120, 87, 0.10) !important;
+  border-color: rgba(4, 120, 87, 0.25) !important;
+  color: #047857 !important;
+}
+
+/* Freshness chip + regenerate icon — light mode. */
+html[data-theme="light"] .track-page .fresh-chip[data-state="fresh"] {
+  background: rgba(4, 120, 87, 0.08) !important;
+  border-color: rgba(4, 120, 87, 0.25) !important;
+  color: #047857 !important;
+}
+html[data-theme="light"] .track-page .fresh-chip[data-state="fresh"] .fresh-chip-dot {
+  background: #047857 !important;
+}
+html[data-theme="light"] .track-page .fresh-chip[data-state="recent"] {
+  background: rgba(15, 23, 42, 0.04) !important;
+  border-color: rgba(15, 23, 42, 0.12) !important;
+  color: #64748b !important;
+}
+html[data-theme="light"] .track-page .fresh-chip[data-state="recent"] .fresh-chip-dot {
+  background: #94a3b8 !important;
+}
+html[data-theme="light"] .track-page .fresh-chip[data-state="stale"] {
+  background: rgba(217, 119, 6, 0.08) !important;
+  border-color: rgba(217, 119, 6, 0.30) !important;
+  color: #c2410c !important;
+}
+html[data-theme="light"] .track-page .fresh-chip[data-state="stale"] .fresh-chip-dot {
+  background: #c2410c !important;
+}
+
+html[data-theme="light"] .track-page .ai-summary-controls .ai-regenerate {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+  color: #64748b !important;
+}
+html[data-theme="light"] .track-page .ai-summary-controls .ai-regenerate:hover {
+  color: #047857 !important;
+  border-color: rgba(4, 120, 87, 0.30) !important;
+}
 html[data-theme="light"] .track-page .ai-summary .news-empty {
   border-color: rgba(4, 120, 87, 0.20) !important;
   color: #94a3b8 !important;

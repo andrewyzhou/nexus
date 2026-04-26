@@ -364,7 +364,7 @@ def get_track_companies(track_id):
 
 
 from news_fetch import get_articles_for_ticker, articles_hash
-from summarize import summarize_news
+from summarize import summarize_news, summarize_track_news
 
 
 # Layer B cache: curated article list per ticker, 5-min TTL. Avoids
@@ -422,7 +422,8 @@ def get_company_news(ticker):
 
 @api.route("/tracks/<slug>/news")
 def get_track_news(slug):
-    """Aggregate news for the top-N companies (by market cap) in this track."""
+    """Aggregated news cards for a track. Uses the SAME pooling as the
+    track summary endpoint so summary citations land on the right cards."""
     conn = get_conn()
     cursor = conn.cursor()
     cursor.execute("SELECT id, name FROM investment_tracks")
@@ -436,9 +437,6 @@ def get_track_news(slug):
         return jsonify({"error": "Track not found"}), 404
 
     track_id, _ = target
-    top_n = request.args.get("companies", default=5, type=int)
-    per_company = request.args.get("per", default=3, type=int)
-
     cursor.execute("""
         SELECT c.ticker
         FROM companies c
@@ -446,17 +444,13 @@ def get_track_news(slug):
         WHERE ct.track_id = %s
         ORDER BY COALESCE(c.market_cap, 0) DESC
         LIMIT %s
-    """, (track_id, top_n))
+    """, (track_id, TRACK_TOP_CONSTITUENTS))
     tickers = [r[0] for r in cursor.fetchall()]
     conn.close()
 
-    aggregated = []
-    idx = 1
-    for t in tickers:
-        for a in get_curated_articles(t)[:per_company]:
-            aggregated.append(article_to_card(a, idx))
-            idx += 1
-    return jsonify(aggregated)
+    per_company = {t: get_curated_articles(t) for t in tickers}
+    pooled = _pool_track_articles(per_company)
+    return jsonify([article_to_card(a, i) for i, a in enumerate(pooled, 1)])
 
 
 # ── AI-summary endpoints (Claude Haiku 4.5 + tool-use structured output) ─
@@ -565,12 +559,94 @@ def get_company_summary(ticker):
     return jsonify(_build_summary_payload(ticker, name, articles, force))
 
 
+# ── Track summary parameters ─────────────────────────────────────────────
+# Per-constituent floor — every constituent gets at least this many of
+# its top-ranked articles in the pool before we dip into mega-cap excess.
+TRACK_DIVERSITY_FLOOR = 4
+# Hard cap on the article pool sent to Claude. ~25 covers a 7-company
+# track with 3-4 articles per name; diminishing returns past ~30.
+TRACK_POOL_CAP = 25
+# Per-track number of constituents we summarize (top-N by market cap).
+TRACK_TOP_CONSTITUENTS = 7
+
+
+def _ensure_company_summary(ticker: str, company_name: str | None) -> dict:
+    """Get-or-make the per-company summary row. Used by the track endpoint
+    to populate the scaffold. Returns the same shape as
+    `_build_summary_payload(force=False)` — but writes the row even on
+    a cold call so subsequent track lookups (and the company page itself)
+    are free."""
+    articles = get_curated_articles(ticker)
+    if not articles:
+        return {"headline": "", "bullets": [], "sources": [], "articles": []}
+    ahash = articles_hash(articles)
+    cached = _summary_cache_get(ticker, ahash)
+    if cached:
+        return {**cached, "articles": articles}
+    payload = summarize_news(ticker, company_name or ticker, articles)
+    if payload.get("headline"):
+        _summary_cache_put(ticker, ahash, payload)
+    return {**payload, "articles": articles}
+
+
+def _pool_track_articles(per_company: dict[str, list[dict]]) -> list[dict]:
+    """Build the global article pool for a track summary.
+
+    Diversity floor first: every constituent contributes its top-ranked
+    articles up to TRACK_DIVERSITY_FLOOR. Then we fill remaining slots
+    with the rest, ranked globally. Each article is tagged with its
+    ticker so the prompt can group them and the frontend can render
+    ticker pills.
+    """
+    seen: set[str] = set()
+    pooled: list[dict] = []
+
+    # Floor pass
+    for ticker, articles in per_company.items():
+        kept = 0
+        for a in articles:
+            if a["url"] in seen:
+                continue
+            if kept >= TRACK_DIVERSITY_FLOOR:
+                break
+            tagged = {**a, "ticker": ticker}
+            seen.add(a["url"])
+            pooled.append(tagged)
+            kept += 1
+
+    # Overflow pass — anything past the floor, ranked globally
+    extras: list[dict] = []
+    for ticker, articles in per_company.items():
+        for a in articles:
+            if a["url"] in seen:
+                continue
+            extras.append({**a, "ticker": ticker})
+            seen.add(a["url"])
+    # rank_articles is in news_fetch but reaches into the article schema
+    # with a `ticker` field — works as-is since we just tagged them.
+    from news_fetch import rank_articles  # local import to avoid cycle
+    pooled.extend(rank_articles(extras, top_k=max(0, TRACK_POOL_CAP - len(pooled))))
+    return pooled[:TRACK_POOL_CAP]
+
+
 @api.route("/tracks/<slug>/summary", methods=["POST"])
 def get_track_summary(slug):
-    """Track-level summary aggregates the top-N companies' news. Each
-    constituent contributes its own articles; we summarize the merged
-    list as if it were one company called by the track name."""
+    """Track-level summary using Option-C pipeline:
+
+      1. Resolve constituents (top-N by market cap).
+      2. For each, fetch curated articles AND get-or-make the per-company
+         summary headline (cheap: usually a cache hit; warm cache also
+         feeds the company page).
+      3. Build a globally-ranked article pool with a diversity floor so
+         each constituent's news has a chance to surface a bullet.
+      4. Compose a scaffold (per-ticker headline lines).
+      5. Single Claude call with track-specific prompt + tool. Returns
+         { headline, bullets[{ tickers, text, source_indices }], sources }.
+      6. Cache by (track_slug, articles_hash) — permanent, content-addr.
+    """
     force = request.args.get("force", "").lower() in ("1", "true", "yes")
+
+    # 1. Resolve track + constituents
     conn = get_conn()
     cursor = conn.cursor()
     cursor.execute("SELECT id, name FROM investment_tracks")
@@ -584,19 +660,45 @@ def get_track_summary(slug):
         SELECT c.ticker, c.name FROM companies c
         JOIN company_tracks ct ON ct.company_id = c.id
         WHERE ct.track_id = %s
-        ORDER BY COALESCE(c.market_cap, 0) DESC LIMIT 5
-    """, (track_id,))
+        ORDER BY COALESCE(c.market_cap, 0) DESC LIMIT %s
+    """, (track_id, TRACK_TOP_CONSTITUENTS))
     constituents = [{"ticker": r[0], "name": r[1]} for r in cursor.fetchall()]
     conn.close()
 
-    aggregated: list[dict] = []
+    # 2. Per-constituent: articles + headline (scaffold)
+    per_company_articles: dict[str, list[dict]] = {}
+    scaffold: dict[str, str] = {}
     for c in constituents:
-        aggregated.extend(get_curated_articles(c["ticker"])[:3])
+        sub = _ensure_company_summary(c["ticker"], c["name"])
+        per_company_articles[c["ticker"]] = sub.get("articles", [])
+        scaffold[c["ticker"]] = sub.get("headline") or ""
 
+    # 3. Pool articles (diversity floor + global re-rank)
+    pooled = _pool_track_articles(per_company_articles)
+    if not pooled:
+        return jsonify({
+            "headline": "", "bullets": [], "sources": [], "model": None,
+            "generated_at": None, "cached": False, "used_articles": 0,
+        })
+
+    # 4-6. Cache lookup, generate, store
     cache_key = f"track:{slug}"
-    return jsonify(_build_summary_payload(
-        cache_key, track_name, aggregated, force,
-    ))
+    ahash = articles_hash(pooled)
+
+    if not force:
+        hit = _summary_cache_get(cache_key, ahash)
+        if hit:
+            return jsonify({**hit, "cached": True,
+                            "used_articles": len(hit.get("sources") or [])})
+
+    payload = summarize_track_news(track_name, constituents, scaffold, pooled)
+    if payload.get("headline"):
+        _summary_cache_put(cache_key, ahash, payload)
+    payload["generated_at"] = datetime.utcnow().replace(
+        tzinfo=timezone.utc).isoformat()
+    payload["cached"] = False
+    payload["used_articles"] = len(payload.get("sources") or [])
+    return jsonify(payload)
 
 
 @api.route("/companies/<ticker>/live")
