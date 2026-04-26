@@ -54,6 +54,28 @@ CREATE TABLE IF NOT EXISTS company_tracks (
 );
 """
 
+CREATE_ARTICLE_BODIES_TABLE = """
+CREATE TABLE IF NOT EXISTS article_bodies (
+    url         TEXT PRIMARY KEY,
+    fetched_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    body        TEXT,
+    status      TEXT NOT NULL
+);
+"""
+
+CREATE_NEWS_SUMMARIES_TABLE = """
+CREATE TABLE IF NOT EXISTS news_summaries (
+    ticker         TEXT NOT NULL,
+    articles_hash  TEXT NOT NULL,
+    generated_at   TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    headline       TEXT NOT NULL,
+    bullets        JSONB NOT NULL,
+    sources        JSONB NOT NULL,
+    model          TEXT NOT NULL,
+    PRIMARY KEY (ticker, articles_hash)
+);
+"""
+
 CREATE_INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_companies_ticker ON companies(ticker);",
     "CREATE INDEX IF NOT EXISTS idx_companies_sector ON companies(sector);",
@@ -65,6 +87,8 @@ CREATE_INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_rel_target_type ON relationships(target_ticker, relationship_type);",
     "CREATE INDEX IF NOT EXISTS idx_company_tracks_track ON company_tracks(track_id);",
     "CREATE INDEX IF NOT EXISTS idx_company_tracks_company ON company_tracks(company_id);",
+    "CREATE INDEX IF NOT EXISTS idx_article_bodies_fetched ON article_bodies(fetched_at);",
+    "CREATE INDEX IF NOT EXISTS idx_news_summaries_ticker_time ON news_summaries(ticker, generated_at DESC);",
 ]
 
 def init_db():
@@ -77,6 +101,8 @@ def init_db():
     cursor.execute(CREATE_RELATIONSHIPS_TABLE)
     cursor.execute(CREATE_TRACKS_TABLE)
     cursor.execute(CREATE_COMPANY_TRACKS_TABLE)
+    cursor.execute(CREATE_ARTICLE_BODIES_TABLE)
+    cursor.execute(CREATE_NEWS_SUMMARIES_TABLE)
 
     for index_sql in CREATE_INDEXES:
         cursor.execute(index_sql)
