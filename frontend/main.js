@@ -49,6 +49,7 @@ let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
 let recentItems = [];   // [{item_type, item_id, label}]
 let savedItems  = [];   // [{item_type, item_id, label}]
 let moversByKind = {};  // { day_gainers: [{ticker,name,price,change_pct}], ... }
+let liveQuotes  = {};   // { TICKER: {price, change_pct} }  populated lazily
 
 // Quick Start: hardcoded list of EXACT track names from the DB. Items that
 // don't resolve (because the track was renamed/removed) just don't render.
@@ -204,6 +205,8 @@ async function init() {
   refreshRecent();
   refreshSaved();
   refreshTrending();
+  // Initial live-quote fetch covers Quick Start / On Graph / etc.
+  refreshLiveQuotes();
 }
 
 // ── Action helpers (used by every sidebar section) ──────────────────────────
@@ -212,9 +215,28 @@ async function init() {
 // mutates pinnedNodes/hiddenTracks. They also write to the per-user "recent"
 // list so the Recent section reflects whatever the user just touched.
 
+// On-graph semantics:
+//   - Company: visible on the graph regardless of how it got there
+//     (pinned individually OR inherited from a visible track).
+//   - Track: every member is visible. Partial-membership (some excluded
+//     or one member explicitly unpinned) reads as NOT on-graph, so the
+//     row's button flips back to + and clicking it restores the missing
+//     members in one click.
 function isItemOnGraph(item) {
-  if (item.item_type === 'track') return !hiddenTracks.has(item.item_id);
-  return pinnedNodes.has(item.item_id);
+  if (item.item_type === 'company') {
+    const node = nodeById.get(item.item_id);
+    return node ? nodeIsVisible(node) : false;
+  }
+  // Track
+  const t = trackById.get(item.item_id);
+  if (!t) return false;
+  let any = false;
+  for (const n of allNodes) {
+    if (!(n.tracks || []).includes(t.id)) continue;
+    any = true;
+    if (!nodeIsVisible(n)) return false;
+  }
+  return any;
 }
 
 function addItem(item, { skipRecent = false } = {}) {
@@ -237,8 +259,11 @@ function addItem(item, { skipRecent = false } = {}) {
 function removeItem(item) {
   if (item.item_type === 'track') {
     hiddenTracks.add(item.item_id);
-    // Don't add the track's members to excludedNodes — that would persist a
-    // hide that the user only intended for the track as a whole.
+    // Also clear any explicit pins of members so × on a track really empties
+    // it from the graph. (Otherwise individually-pinned members would stay.)
+    allNodes.forEach(n => {
+      if ((n.tracks || []).includes(item.item_id)) pinnedNodes.delete(n.id);
+    });
   } else {
     pinnedNodes.delete(item.item_id);
     // Only mark as excluded if the node is currently in a visible track —
@@ -270,6 +295,9 @@ function refreshSidebarRows() {
   renderRecent();
   updateAllRowStates();
   renderEmptyState();
+  // New rows may have appeared (On Graph / Recent rebuild) — fetch their
+  // live quotes if we haven't already. Cheap when cached.
+  refreshLiveQuotes();
 }
 
 function updateAllRowStates() {
@@ -290,6 +318,11 @@ function updateRowEl(row) {
     primary.classList.toggle('is-remove', onGraph);
     primary.innerHTML = onGraph ? ICON_CLOSE : ICON_PLUS;
     primary.title = onGraph ? 'Remove from graph' : 'Add to graph';
+  }
+  // Refresh price/change cells if a live quote landed
+  if (type === 'company') {
+    const node = nodeById.get(id);
+    if (node) writeRowStats(row, node);
   }
   // ★ saved indicator
   const star = row.querySelector('.sb-action--star');
@@ -476,6 +509,7 @@ function renderSaved() {
     const hydrated = hydrateItem(item);
     if (hydrated) list.appendChild(renderRow(hydrated, { }));
   });
+  refreshLiveQuotes();
 }
 
 function isSaved(item) {
@@ -584,6 +618,7 @@ function renderTrending() {
       header.addEventListener('click', () => {
         body.hidden = !body.hidden;
         header.classList.toggle('open', !body.hidden);
+        if (!body.hidden) refreshLiveQuotes();
       });
     }
 
@@ -591,17 +626,87 @@ function renderTrending() {
     wrapper.appendChild(body);
     list.appendChild(wrapper);
   });
+  // Trending rows have their own change_pct from the screener; this also
+  // hydrates the price cell from the live-quote cache.
+  refreshLiveQuotes();
 }
 
 function renderChangePct(p) {
   if (p == null) return '';
-  // Yahoo screener returns percent points (e.g. 5.42 = +5.42%); /v7 quote
-  // returns the same. No /100 needed.
+  // Yahoo screener returns percent points (e.g. 5.42 = +5.42%); our /quotes
+  // endpoint also returns percent points. No /100 needed.
   const v = Number(p);
   if (!isFinite(v)) return '';
   const cls = v >= 0 ? 'sb-pct sb-pct--up' : 'sb-pct sb-pct--down';
   const sign = v >= 0 ? '+' : '';
   return `<span class="${cls}">${sign}${v.toFixed(2)}%</span>`;
+}
+
+function fmtPrice(p) {
+  if (p == null) return '';
+  const v = Number(p);
+  if (!isFinite(v)) return '';
+  return '$' + v.toFixed(v >= 100 ? 0 : 2);
+}
+
+// Track stats helpers — derive from the loaded /graph payload, no API call.
+function trackMemberCount(t) {
+  let n = 0;
+  for (const node of allNodes) if ((node.tracks || []).includes(t.id)) n++;
+  return n;
+}
+function trackTopSector(t) {
+  const counts = new Map();
+  for (const node of allNodes) {
+    if (!(node.tracks || []).includes(t.id)) continue;
+    const s = (node.sector || '').trim();
+    if (!s) continue;
+    counts.set(s, (counts.get(s) || 0) + 1);
+  }
+  let best = null, max = 0;
+  for (const [s, c] of counts) if (c > max) { max = c; best = s; }
+  return best;
+}
+
+// Fill the .sb-item-mcap and .sb-item-pct cells for a company row.
+// `priorPct` (optional) is the change_pct from a Trending mover row, which
+// beats the lazy-fetched live quote for that one section.
+function writeRowStats(row, node, priorPct) {
+  const mcapEl = row.querySelector('.sb-item-mcap');
+  const pctEl  = row.querySelector('.sb-item-pct');
+  if (mcapEl) mcapEl.textContent = fmtCap(node.marketCap);
+  const live = liveQuotes[node.ticker?.toUpperCase()];
+  const pct = (priorPct != null) ? priorPct
+            : (live && live.change_pct != null) ? live.change_pct
+            : null;
+  if (pctEl) pctEl.innerHTML = renderChangePct(pct);
+}
+
+// Lazy-fetch live price + day-change for every ticker currently rendered
+// in the sidebar. Cheap when most are already cached server-side.
+let _quotesInflight = false;
+async function refreshLiveQuotes() {
+  if (_quotesInflight) return;
+  const need = new Set();
+  document.querySelectorAll('#sidebar [data-item-key^="company::"]').forEach(row => {
+    const id = row.dataset.itemKey.split('::')[1];
+    const node = nodeById.get(id);
+    const tk = node && node.ticker ? node.ticker.toUpperCase() : null;
+    if (tk && !liveQuotes[tk]) need.add(tk);
+  });
+  if (!need.size) return;
+  _quotesInflight = true;
+  try {
+    const list = [...need].slice(0, 200).join(',');
+    const r = await fetch(`${API_BASE}/quotes?tickers=${encodeURIComponent(list)}`);
+    if (r.ok) {
+      const data = await r.json();
+      Object.assign(liveQuotes, data);
+      updateAllRowStates();
+    }
+  } catch (_) {} finally {
+    _quotesInflight = false;
+  }
 }
 
 // ── Browse All ──────────────────────────────────────────────────────────────
@@ -747,6 +852,7 @@ function renderBrowseLeaf(leaf) {
         const stop = Math.min(idx + CHUNK, items.length);
         for (; idx < stop; idx++) body.appendChild(renderRow(items[idx], { }));
         if (idx < items.length) requestAnimationFrame(renderChunk);
+        else refreshLiveQuotes();   // hydrate stats once leaf is fully built
       };
       renderChunk();
     }
@@ -781,8 +887,8 @@ function renderRow(item, opts = {}) {
   row.dataset.itemKey = `${item.item_type}::${item.item_id}`;
   if (actionMode === 'remove') row.dataset.actionMode = 'remove';
 
-  // Track rows: color dot + label + member count. Company rows: ticker
-  // badge + name + market cap + (price | change%).
+  // Track rows: color dot + label + (sector · member count).
+  // Company rows: ticker + name + market cap + price + change%.
   if (item.item_type === 'track') {
     const dot = document.createElement('span');
     dot.className = 'sb-item-dot';
@@ -794,12 +900,12 @@ function renderRow(item, opts = {}) {
     row.appendChild(label);
     const t = trackById.get(item.item_id);
     if (t) {
-      const memberCount = allNodes.reduce(
-        (n, node) => n + ((node.tracks || []).includes(t.id) ? 1 : 0), 0);
       const meta = document.createElement('span');
       meta.className = 'sb-item-meta';
-      meta.textContent = `${memberCount}`;
-      meta.title = `${memberCount} compan${memberCount === 1 ? 'y' : 'ies'}`;
+      const sector = trackTopSector(t);
+      const count  = trackMemberCount(t);
+      meta.textContent = sector ? `${sector} · ${count}` : `${count}`;
+      meta.title = `${count} compan${count === 1 ? 'y' : 'ies'}${sector ? ` · top sector: ${sector}` : ''}`;
       row.appendChild(meta);
     }
   } else {
@@ -811,26 +917,23 @@ function renderRow(item, opts = {}) {
     label.className = 'sb-item-label';
     label.textContent = item.label.includes(' · ') ? item.label.split(' · ')[1] : item.label;
     row.appendChild(label);
+
+    // Stats: market cap + day change %. Price was dropped — too redundant
+    // with change% and made the row crowded. Cells are present even when
+    // empty so updateRowEl can refresh them in place once refreshLiveQuotes
+    // lands. Trending sections pre-populate change_pct on the item itself.
     const node = nodeById.get(item.item_id);
     if (node) {
       const mcap = document.createElement('span');
-      mcap.className = 'sb-item-meta';
+      mcap.className = 'sb-item-mcap';
       mcap.textContent = fmtCap(node.marketCap);
       row.appendChild(mcap);
-    }
-  }
 
-  if (showChange && item.change_pct != null) {
-    const span = document.createElement('span');
-    span.innerHTML = renderChangePct(item.change_pct);
-    row.appendChild(span);
-  } else if (item.item_type === 'company' && !showChange) {
-    const node = nodeById.get(item.item_id);
-    if (node && node.price != null) {
-      const price = document.createElement('span');
-      price.className = 'sb-item-price';
-      price.textContent = '$' + Number(node.price).toFixed(node.price >= 100 ? 0 : 2);
-      row.appendChild(price);
+      const pct = document.createElement('span');
+      pct.className = 'sb-item-pct';
+      row.appendChild(pct);
+
+      writeRowStats(row, node, item.change_pct);
     }
   }
 
@@ -872,6 +975,19 @@ function renderRow(item, opts = {}) {
     });
     row.appendChild(chevron);
   }
+
+  // ↗ Open the dedicated detail page (stock.html or track.html). Always
+  // present so the row body can stay non-navigating (clicking the row body
+  // opens the side panel for companies / toggles the chevron for tracks).
+  const openPage = document.createElement('a');
+  openPage.className = 'sb-action sb-action--open';
+  openPage.title = item.item_type === 'company' ? 'Open stock page' : 'Open track page';
+  openPage.innerHTML = '↗';
+  openPage.href = item.item_type === 'company'
+    ? `stock.html?ticker=${encodeURIComponent((nodeById.get(item.item_id)?.ticker) || item.item_id)}`
+    : `track.html?slug=${encodeURIComponent(item.item_id)}`;
+  openPage.addEventListener('click', e => e.stopPropagation());
+  row.appendChild(openPage);
 
   // ★ Save toggle (skipped on On Graph rows)
   if (showStar) {

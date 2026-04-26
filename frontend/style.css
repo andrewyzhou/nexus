@@ -31,7 +31,7 @@
   --accent-dim:     rgba(52, 211, 153, 0.12);
 
   /* Layout */
-  --sidebar-w:      380px;
+  --sidebar-w:      420px;
   --panel-w:        360px;
   --header-h:       56px;
 
@@ -1181,7 +1181,7 @@ svg .node-label {
 
 /* Each new section: tight vertical rhythm, dividers between */
 .sidebar-section[id$='-section'] {
-  padding: 10px 12px;
+  padding: 8px 10px;
   border-bottom: 1px solid var(--border);
 }
 .sidebar-section[id$='-section']:last-child { border-bottom: none; }
@@ -1191,7 +1191,7 @@ svg .node-label {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .sidebar-section-head--toggle {
@@ -1257,7 +1257,7 @@ svg .node-label {
 .sidebar-list {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 0;
 }
 
 .sidebar-section-head-actions {
@@ -1297,13 +1297,13 @@ svg .node-label {
 .sb-item {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 6px 8px;
+  gap: 6px;
+  padding: 4px 6px;
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: background var(--t-fast), border-color var(--t-fast);
   border: 1px solid transparent;
-  min-height: 32px;
+  min-height: 28px;
 }
 .sb-item:hover {
   background: var(--bg-hover);
@@ -1356,23 +1356,46 @@ svg .node-label {
   text-overflow: ellipsis;
 }
 
-/* Inline stats — track member count, company market cap. */
+/* Inline stats — track sector/count, company market cap, day change %. */
 .sb-item-meta {
   font-family: var(--font-mono);
   font-size: 10px;
   color: var(--text-muted);
   flex-shrink: 0;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.sb-item-price {
+.sb-item-mcap {
   font-family: var(--font-mono);
   font-size: 10.5px;
   color: var(--text-secondary);
   flex-shrink: 0;
   font-variant-numeric: tabular-nums;
-  min-width: 44px;
+  min-width: 50px;
   text-align: right;
 }
+.sb-item-pct {
+  flex-shrink: 0;
+  min-width: 56px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.sb-item-pct .sb-pct {
+  /* Inline % chip used inside .sb-item-pct cell — keep size from the
+     existing .sb-pct rule but allow it to right-align cleanly. */
+  display: inline-block;
+}
+
+/* ↗ open-page arrow — link styled like other action buttons */
+.sb-action--open {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.sb-action--open:hover { color: var(--accent); border-color: rgba(52, 211, 153, 0.40); }
 
 /* Action buttons inside .sb-item */
 .sb-action {

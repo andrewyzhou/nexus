@@ -1588,6 +1588,85 @@ def get_movers(kind):
     return jsonify({"kind": kind, "cached": False, "items": items})
 
 
+# ── /api/quotes — batched live quotes (price + change_pct) ───────────────
+# Frontend lazy-fetches this for the tickers visible in the sidebar so
+# every company row gets a current price + day change. Per-symbol cached
+# 5min in-process to keep yfinance traffic cheap.
+
+_QUOTES_TTL = 5 * 60
+_quotes_cache: dict[str, tuple[float, dict]] = {}
+
+
+def _fetch_quotes(symbols: list[str]) -> dict[str, dict]:
+    """Batched 2-day download → today's price and day-over-day pct change.
+    yfinance.download with multiple tickers returns a multi-index DataFrame
+    (top-level = field, second = ticker); with one ticker it's flat."""
+    if not symbols:
+        return {}
+    df = yf.download(
+        tickers=symbols,
+        period="2d",
+        interval="1d",
+        group_by="ticker",
+        progress=False,
+        threads=True,
+        auto_adjust=False,
+    )
+    out: dict[str, dict] = {}
+    for s in symbols:
+        try:
+            if len(symbols) == 1:
+                rows = df
+            elif s in df.columns.get_level_values(0):
+                rows = df[s]
+            else:
+                continue
+            closes = rows["Close"].dropna()
+            if closes.empty:
+                continue
+            price = float(closes.iloc[-1])
+            change_pct = None
+            if len(closes) >= 2:
+                prev = float(closes.iloc[-2])
+                if prev:
+                    change_pct = (price - prev) / prev * 100
+            out[s] = {"price": price, "change_pct": change_pct}
+        except Exception:
+            continue
+    return out
+
+
+@api.route("/quotes")
+def get_quotes():
+    raw = request.args.get("tickers", "")
+    symbols = sorted({s.strip().upper() for s in raw.split(",") if s.strip()})
+    if not symbols:
+        return jsonify({})
+    # Cap to a sane batch size — frontend chunks larger requests if needed.
+    symbols = symbols[:200]
+
+    now = time.time()
+    out: dict[str, dict] = {}
+    missing: list[str] = []
+    for s in symbols:
+        hit = _quotes_cache.get(s)
+        if hit and (now - hit[0]) < _QUOTES_TTL:
+            out[s] = hit[1]
+        else:
+            missing.append(s)
+
+    if missing:
+        try:
+            fresh = _fetch_quotes(missing)
+            for s, q in fresh.items():
+                _quotes_cache[s] = (now, q)
+                out[s] = q
+        except Exception as e:
+            print(f"[nexus] quotes fetch failed for {missing[:5]}…: {e}")
+
+    return jsonify(out)
+
+
 app.register_blueprint(api)
 
 
