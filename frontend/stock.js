@@ -183,7 +183,7 @@ function renderStock(d, dbData) {
   ].filter(([, v]) => v !== '—');
 
   const rangeCellHtml = build52wStatCell(
-    d.fiftyTwoWeekLow, d.fiftyTwoWeekHigh, d.regularMarketPrice ?? d.price,
+    d.fiftyTwoWeekLow, d.fiftyTwoWeekHigh, d.price,
     d.changePercent
   );
 

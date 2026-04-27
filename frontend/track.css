@@ -818,6 +818,52 @@ html[data-theme="light"] .skeleton-line {
 }
 .track-page .range-bar.range-neg .range-marker { background: var(--t-red); }
 
+/* Stock-page 52w range stat — wider bar with low/high labels and a
+   "% from low · % to high" subline. Spans 2 grid columns. */
+.track-page .stat-cell.stat-52w {
+  grid-column: span 2;
+}
+.track-page .range-bar-wide {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0 6px;
+}
+.track-page .range-bar-wide .range-end {
+  font-family: var(--font-mono-jet);
+  font-size: 11px;
+  color: var(--t-text-4);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.track-page .range-track-wide {
+  position: relative;
+  flex: 1 1 auto;
+  height: 2px;
+  background: var(--t-line-2);
+  border-radius: 1px;
+}
+.track-page .range-track-wide .range-marker {
+  position: absolute;
+  top: -4px;
+  width: 2px;
+  height: 10px;
+  transform: translateX(-1px);
+  background: var(--t-emerald);
+  border-radius: 1px;
+}
+.track-page .range-bar-wide.range-neg .range-marker { background: var(--t-red); }
+.track-page .stat-cell.stat-52w .stat-sub {
+  font-family: var(--font-mono-jet);
+  font-size: 10px;
+  color: var(--t-text-5);
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 540px) {
+  .track-page .stat-cell.stat-52w { grid-column: 1 / -1; }
+}
+
 .track-page .ticker-cell {
   display: inline-flex;
   align-items: center;

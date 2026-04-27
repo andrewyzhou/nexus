@@ -170,7 +170,8 @@ html[data-theme="light"] .cell-pe-empty { color: #cbd5e1 !important; }
 
 /* 52w range mini-bar — the dark-mode track uses 10%-white which is
    invisible on a white background, so paint a slate-tinted track. */
-html[data-theme="light"] .range-track { background: rgba(15, 23, 42, 0.10) !important; }
+html[data-theme="light"] .range-track,
+html[data-theme="light"] .range-track-wide { background: rgba(15, 23, 42, 0.10) !important; }
 
 /* AI summary card */
 html[data-theme="light"] .track-page .ai-summary-card {
