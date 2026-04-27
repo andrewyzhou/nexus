@@ -158,7 +158,12 @@ html[data-theme="light"] .sector-badge {
   border-color: rgba(15, 23, 42, 0.08) !important;
   color: #475569 !important;
 }
+/* Bumped to match the .company-table td.col-num specificity from
+   line 147 above — without the td.col-num qualifier those rules win
+   the !important tie and the cell stays slate. */
+html[data-theme="light"] .company-table td.col-num.change-pos,
 html[data-theme="light"] .change-pos { color: #047857 !important; }
+html[data-theme="light"] .company-table td.col-num.change-neg,
 html[data-theme="light"] .change-neg { color: #b91c1c !important; }
 html[data-theme="light"] .cell-pe { color: #475569 !important; }
 html[data-theme="light"] .cell-pe-empty { color: #cbd5e1 !important; }
