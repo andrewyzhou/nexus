@@ -446,19 +446,19 @@ html[data-theme="light"] .skeleton-line {
 .track-page #track-title {
   font-family: var(--font-sans-geist);
   font-size: clamp(28px, 3.6vw, 44px);
-  line-height: 1.1;
+  line-height: 1.15;
   font-weight: 300;
   letter-spacing: -0.02em;
   color: #ffffff;
-  margin: 0;
+  margin: 0 0 16px;
   word-break: break-word;
 }
 
 .track-page #track-description {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.55;
   color: var(--t-text-3);
-  max-width: 56rem;
+  max-width: 36rem;
   margin: 0;
 }
 
@@ -623,10 +623,38 @@ html[data-theme="light"] .skeleton-line {
 
 .track-page .hero-meta-divider {
   width: 1px;
-  height: 36px;
+  height: 28px;
   background: var(--t-line-2);
   align-self: flex-end;
   margin-bottom: 2px;
+}
+
+/* Track hero only: stats live in the top-right of the hero (the
+   `> .hero-meta` direct-child selector deliberately doesn't match the
+   stock page where .hero-meta is nested inside .hero-divider-row). */
+.track-page #track-hero { position: relative; }
+
+.track-page #track-hero > .hero-meta {
+  position: absolute;
+  top: 0;
+  right: 0;
+  gap: 20px;
+}
+
+.track-page #track-hero > .hero-meta .hero-meta-value {
+  font-size: 22px;
+}
+
+.track-page #track-hero > .hero-meta .hero-meta-label {
+  font-size: 9px;
+}
+
+@media (max-width: 768px) {
+  .track-page #track-hero > .hero-meta {
+    position: static;
+    margin-bottom: 16px;
+    gap: 16px;
+  }
 }
 
 /* Section heads (mockup) */
@@ -1225,11 +1253,11 @@ html[data-theme="light"] .skeleton-line {
 .track-page #stock-title {
   font-family: var(--font-sans-geist);
   font-size: clamp(28px, 3.4vw, 40px);
-  line-height: 1.1;
+  line-height: 1.15;
   font-weight: 300;
   letter-spacing: -0.02em;
   color: #ffffff;
-  margin: 0;
+  margin: 0 0 16px;
   word-break: break-word;
 }
 

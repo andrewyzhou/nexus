@@ -6,7 +6,7 @@
   <title>Nexus</title>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=6" />
-  <link rel="stylesheet" href="track.css?v=15" />
+  <link rel="stylesheet" href="track.css?v=16" />
   <link rel="stylesheet" href="theme.css?v=9" />
   <link rel="stylesheet" href="mobile.css?v=6" />
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
@@ -33,26 +33,34 @@
 
   <main id="track-main">
 
-    <!-- HERO (compact) -->
-    <section id="track-hero" class="compact-hero">
-      <div class="compact-hero-identity">
-        <span class="hero-eyebrow">Investment Track</span>
-        <h1 id="track-title" class="compact-hero-title">Loading…</h1>
+    <!-- HERO -->
+    <section id="track-hero">
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <div class="hero-meta-label">Companies</div>
+          <div id="track-count" class="hero-meta-value">—</div>
+        </div>
+        <div class="hero-meta-divider"></div>
+        <div class="hero-meta-item">
+          <div class="hero-meta-label">Sectors</div>
+          <div id="track-sectors" class="hero-meta-value">—</div>
+        </div>
+        <div class="hero-meta-divider"></div>
+        <div class="hero-meta-item">
+          <div class="hero-meta-label">Leader</div>
+          <div id="track-leader" class="hero-meta-value">—</div>
+        </div>
       </div>
-      <p id="track-description" class="compact-hero-desc"></p>
-      <div class="compact-hero-stats">
-        <div class="compact-stat">
-          <span class="compact-stat-label">Companies</span>
-          <span id="track-count" class="compact-stat-value">—</span>
-        </div>
-        <div class="compact-stat">
-          <span class="compact-stat-label">Sectors</span>
-          <span id="track-sectors" class="compact-stat-value">—</span>
-        </div>
-        <div class="compact-stat">
-          <span class="compact-stat-label">Leader</span>
-          <span id="track-leader" class="compact-stat-value">—</span>
-        </div>
+
+      <div class="hero-eyebrow-row">
+        <span class="hero-eyebrow">Investment Track</span>
+        <span class="hero-eyebrow-line"></span>
+      </div>
+
+      <h1 id="track-title" class="hero-title">Loading…</h1>
+
+      <div class="hero-divider-row">
+        <p id="track-description" class="hero-description"></p>
       </div>
     </section>
 
