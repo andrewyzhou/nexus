@@ -261,6 +261,15 @@
     padding: 12px;
   }
 
+  /* Sidebar rows: constrain meta so track name always has room to show */
+  .sb-item {
+    gap: 4px;
+    padding: 4px 4px;
+  }
+  .sb-item-meta {
+    max-width: 80px;
+  }
+
   /* Search input bigger for touch */
   #search-input {
     font-size: 16px; /* prevents iOS zoom on focus */
