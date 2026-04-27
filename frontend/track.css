@@ -861,7 +861,11 @@ html[data-theme="light"] .skeleton-line {
   white-space: nowrap;
 }
 
+/* Bumped to td.col-num specificity so the table's `color: var(--t-text)`
+   on every numeric cell doesn't shadow the green/red. */
+.track-page .company-table td.col-num.change-pos,
 .track-page .change-pos { color: var(--t-emerald); font-weight: 500; }
+.track-page .company-table td.col-num.change-neg,
 .track-page .change-neg { color: var(--t-red); font-weight: 500; }
 .track-page .cell-pe-empty { color: var(--t-text-6); }
 .track-page .cell-pe { color: var(--t-text-2); }
