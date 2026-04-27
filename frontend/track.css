@@ -1694,3 +1694,60 @@ html[data-theme="light"] .skeleton-line {
     gap: 32px;
   }
 }
+
+/* ── Cycling stat chips (Δ 1D, P/E) ─────────────────────────────────── */
+.track-page .hero-meta-item.is-cycling {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.track-page .hero-meta-item.is-cycling .hero-meta-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.track-page .cycle-mode {
+  font-family: var(--font-mono-jet);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.10em;
+  color: var(--t-text-5);
+  border: 1px solid var(--t-line-2);
+  border-radius: 3px;
+  padding: 1px 4px;
+  line-height: 1;
+}
+
+.track-page .cycle-mode[data-mode="W"] { color: var(--t-emerald); border-color: rgba(52, 211, 153, 0.30); }
+
+.track-page .hero-meta-item.is-cycling .hero-meta-value {
+  transition: opacity 0.18s ease;
+}
+
+.track-page .hero-meta-item.is-cycling.cycle-fading .hero-meta-value {
+  opacity: 0.2;
+}
+
+.track-page .cycle-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--t-line-2);
+  overflow: hidden;
+}
+
+.track-page .cycle-bar-fill {
+  height: 100%;
+  width: 0;
+  background: var(--t-emerald);
+  animation: cycle-progress 3000ms linear infinite;
+  transform-origin: left;
+}
+
+@keyframes cycle-progress {
+  from { width: 0; }
+  to   { width: 100%; }
+}

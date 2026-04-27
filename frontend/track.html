@@ -6,7 +6,7 @@
   <title>Nexus</title>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=6" />
-  <link rel="stylesheet" href="track.css?v=17" />
+  <link rel="stylesheet" href="track.css?v=18" />
   <link rel="stylesheet" href="theme.css?v=9" />
   <link rel="stylesheet" href="mobile.css?v=6" />
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
@@ -51,13 +51,26 @@
           </div>
           <div class="hero-meta-divider"></div>
           <div class="hero-meta-item">
-            <div class="hero-meta-label">Sectors</div>
-            <div id="track-sectors" class="hero-meta-value">—</div>
-          </div>
-          <div class="hero-meta-divider"></div>
-          <div class="hero-meta-item">
             <div class="hero-meta-label">Leader</div>
             <div id="track-leader" class="hero-meta-value">—</div>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item is-cycling" data-cycle="change">
+            <div class="hero-meta-label">
+              <span>Δ 1D</span>
+              <span class="cycle-mode" data-mode="W">W</span>
+            </div>
+            <div id="track-change" class="hero-meta-value">—</div>
+            <div class="cycle-bar"><div class="cycle-bar-fill"></div></div>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item is-cycling" data-cycle="pe">
+            <div class="hero-meta-label">
+              <span>P/E</span>
+              <span class="cycle-mode" data-mode="W">W</span>
+            </div>
+            <div id="track-pe" class="hero-meta-value">—</div>
+            <div class="cycle-bar"><div class="cycle-bar-fill"></div></div>
           </div>
         </div>
       </div>
@@ -151,6 +164,6 @@
   <script src="auth.js?v=5"></script>
   <script src="theme.js?v=5"></script>
   <script src="summary.js?v=15"></script>
-  <script src="track.js?v=10"></script>
+  <script src="track.js?v=11"></script>
 </body>
 </html>

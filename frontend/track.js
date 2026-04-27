@@ -260,13 +260,84 @@ function render() {
 
   document.getElementById('track-count').textContent = track.company_count ?? '—';
 
-  const sectorSet = new Set((track.companies || []).map(c => c.sector).filter(Boolean));
-  document.getElementById('track-sectors').textContent = sectorSet.size || '—';
-
   const leaderEl = document.getElementById('track-leader');
   leaderEl.textContent = track.market_leader ? track.market_leader.ticker : '—';
 
+  startCyclingStats();
   renderTable();
+}
+
+// ── Cycling stats (Δ 1D + P/E, weighted ↔ equal-weighted, every 3s) ──
+const CYCLE_MS = 3000;
+let cycleTimer = null;
+let cycleMode = 'W';     // 'W' = market-cap weighted, 'E' = equal-weighted
+
+function aggregate(field, weighted) {
+  const cs = (track.companies || []).filter(c => c[field] != null && Number.isFinite(c[field]));
+  if (!cs.length) return null;
+  if (!weighted) {
+    const sum = cs.reduce((a, c) => a + Number(c[field]), 0);
+    return sum / cs.length;
+  }
+  let totalW = 0, totalV = 0;
+  for (const c of cs) {
+    const w = Number(c.market_cap) > 0 ? Number(c.market_cap) : 0;
+    if (!w) continue;
+    totalW += w;
+    totalV += w * Number(c[field]);
+  }
+  if (!totalW) return null;
+  return totalV / totalW;
+}
+
+function fmtPct(v) {
+  if (v == null) return '—';
+  return `${v >= 0 ? '+' : ''}${v.toFixed(2)}%`;
+}
+
+function paintCyclingChips() {
+  const weighted = cycleMode === 'W';
+  const change = aggregate('change_pct', weighted);
+  const pe     = aggregate('pe_ratio',   weighted);
+
+  const chEl = document.getElementById('track-change');
+  chEl.textContent = fmtPct(change);
+  chEl.classList.toggle('change-pos', change != null && change >= 0);
+  chEl.classList.toggle('change-neg', change != null && change <  0);
+
+  document.getElementById('track-pe').textContent = pe == null ? '—' : pe.toFixed(1);
+
+  for (const tag of document.querySelectorAll('.cycle-mode')) {
+    tag.dataset.mode = cycleMode;
+    tag.textContent  = cycleMode;
+  }
+}
+
+function startCyclingStats() {
+  if (cycleTimer) clearInterval(cycleTimer);
+  paintCyclingChips();
+
+  // Restart the progress-bar animation in lockstep with each tick.
+  const restartBars = () => {
+    for (const bar of document.querySelectorAll('.cycle-bar-fill')) {
+      bar.style.animation = 'none';
+      void bar.offsetWidth;     // force reflow
+      bar.style.animation = '';
+    }
+  };
+  restartBars();
+
+  cycleTimer = setInterval(() => {
+    cycleMode = cycleMode === 'W' ? 'E' : 'W';
+    // Crossfade values: dim → swap → fade in
+    const items = document.querySelectorAll('.hero-meta-item.is-cycling');
+    items.forEach(el => el.classList.add('cycle-fading'));
+    setTimeout(() => {
+      paintCyclingChips();
+      items.forEach(el => el.classList.remove('cycle-fading'));
+      restartBars();
+    }, 200);
+  }, CYCLE_MS);
 }
 
 function comparator(a, b) {
