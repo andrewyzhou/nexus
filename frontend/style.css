@@ -1546,7 +1546,7 @@ svg .node-label {
 .sb-browse-head.collapsed .sb-trend-caret,
 .sb-browse-leaf-head.collapsed .sb-trend-caret { transform: rotate(-90deg); }
 
-.sb-browse-label { font-weight: 500; }
+.sb-browse-label { font-weight: 500; color: var(--text-muted); }
 .sb-browse-leaf-label {
   font-family: var(--font-mono);
   font-size: 11px;
