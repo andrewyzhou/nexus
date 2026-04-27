@@ -1959,6 +1959,35 @@ def get_quotes():
 app.register_blueprint(api)
 
 
+def _prewarm_quotes():
+    """Seed _quotes_cache for every company at startup so the first page load
+    doesn't hit yfinance cold. Runs in a daemon thread — won't block startup."""
+    import threading
+    def _run():
+        try:
+            conn = get_conn()
+            cur = conn.cursor()
+            cur.execute("SELECT ticker FROM companies")
+            tickers = [r[0] for r in cur.fetchall()]
+        except Exception:
+            return
+        now = time.time()
+        BATCH = 200
+        for i in range(0, len(tickers), BATCH):
+            batch = tickers[i:i + BATCH]
+            try:
+                fresh = _fetch_quotes(batch)
+                for s, q in fresh.items():
+                    _quotes_cache[s] = (now, q)
+                print(f"[nexus] prewarm quotes {i}–{i+len(batch)} done")
+            except Exception as e:
+                print(f"[nexus] prewarm quotes batch {i} failed: {e}")
+    t = threading.Thread(target=_run, daemon=True)
+    t.start()
+
+_prewarm_quotes()
+
+
 # Tiny root so an ops-level `curl /nexus/api/` returns something useful instead
 # of a 404 when someone is sanity-checking the deployment.
 @app.route(API_PREFIX or "/", strict_slashes=False)

@@ -223,9 +223,18 @@ async function init() {
 }
 
 async function prewarmQuotes() {
-  const tickers = allNodes.map(n => n.ticker).filter(Boolean).map(t => t.toUpperCase());
-  for (let i = 0; i < tickers.length; i += 200) {
-    const batch = tickers.slice(i, i + 200);
+  // All tickers: visible ones first so on-graph rows get data soonest.
+  const visibleTickers = new Set();
+  document.querySelectorAll('#sidebar [data-item-key^="company::"]').forEach(row => {
+    const node = nodeById.get(row.dataset.itemKey.split('::')[1]);
+    if (node?.ticker) visibleTickers.add(node.ticker.toUpperCase());
+  });
+  const rest = allNodes.map(n => n.ticker).filter(Boolean).map(t => t.toUpperCase()).filter(t => !visibleTickers.has(t));
+  const ordered = [...visibleTickers, ...rest];
+
+  const batches = [];
+  for (let i = 0; i < ordered.length; i += 200) batches.push(ordered.slice(i, i + 200));
+  await Promise.all(batches.map(async batch => {
     try {
       const r = await fetch(`${API_BASE}/quotes?tickers=${encodeURIComponent(batch.join(','))}`);
       if (r.ok) {
@@ -234,7 +243,7 @@ async function prewarmQuotes() {
         updateAllRowStates();
       }
     } catch (_) {}
-  }
+  }));
 }
 
 // ── Action helpers (used by every sidebar section) ──────────────────────────
