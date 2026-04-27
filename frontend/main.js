@@ -791,9 +791,14 @@ function writeRowStats(row, node, priorPct) {
 
 // Lazy-fetch live price + day-change for every ticker currently rendered
 // in the sidebar. Cheap when most are already cached server-side.
-let _quotesInflight = false;
-async function refreshLiveQuotes() {
-  if (_quotesInflight) return;
+let _quotesDebounceTimer = null;
+
+function refreshLiveQuotes() {
+  clearTimeout(_quotesDebounceTimer);
+  _quotesDebounceTimer = setTimeout(_doRefreshLiveQuotes, 0);
+}
+
+async function _doRefreshLiveQuotes() {
   const need = new Set();
   document.querySelectorAll('#sidebar [data-item-key^="company::"], #detail-panel [data-item-key^="company::"]').forEach(row => {
     const id = row.dataset.itemKey.split('::')[1];
@@ -801,8 +806,11 @@ async function refreshLiveQuotes() {
     const tk = node && node.ticker ? node.ticker.toUpperCase() : null;
     if (tk && !liveQuotes[tk]) need.add(tk);
   });
+
+  updateAllRowStates();
+
   if (!need.size) return;
-  _quotesInflight = true;
+
   try {
     const list = [...need].slice(0, 200).join(',');
     const r = await fetch(`${API_BASE}/quotes?tickers=${encodeURIComponent(list)}`);
@@ -811,9 +819,7 @@ async function refreshLiveQuotes() {
       Object.assign(liveQuotes, data);
       updateAllRowStates();
     }
-  } catch (_) {} finally {
-    _quotesInflight = false;
-  }
+  } catch (_) {}
 }
 
 // ── Browse All ──────────────────────────────────────────────────────────────
