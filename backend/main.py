@@ -509,6 +509,44 @@ def get_track_news(slug):
 #   - sources[].index is 1-based; bullet.source_indices reference it.
 #     Frontend maps index → news-card-<index-1> for click-to-scroll.
 
+# Soft cache window. If we generated a summary for this ticker/track
+# within the last SOFT_HIT_TTL, hand it back as-is on the next request
+# regardless of whether the freshly-computed articles_hash matches.
+# Without this, ranking jitter (per-worker Layer B caches + small
+# upstream variance from yfinance/Finnhub) makes the strict
+# (ticker, articles_hash) cache miss on most refreshes — so users
+# saw the full sub-summary + Claude pipeline replay even when nothing
+# meaningful had changed.
+from datetime import timedelta as _timedelta
+SOFT_HIT_TTL = _timedelta(minutes=5)
+
+
+def _summary_recent_for(ticker: str) -> dict | None:
+    """Return the most recent cached summary for `ticker` (any
+    articles_hash), if it was generated within SOFT_HIT_TTL."""
+    cutoff = datetime.now(tz=timezone.utc) - SOFT_HIT_TTL
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT generated_at, headline, bullets, sources, model "
+                "FROM news_summaries "
+                "WHERE ticker = %s AND generated_at >= %s "
+                "ORDER BY generated_at DESC LIMIT 1",
+                (ticker, cutoff),
+            )
+            row = cur.fetchone()
+    if not row:
+        return None
+    generated_at, headline, bullets, sources, model = row
+    return {
+        "headline": headline,
+        "bullets": bullets,
+        "sources": sources,
+        "model": model,
+        "generated_at": generated_at.isoformat() if generated_at else None,
+    }
+
+
 def _summary_cache_get(ticker: str, ahash: str) -> dict | None:
     with get_conn() as conn:
         with conn.cursor() as cur:
@@ -564,6 +602,15 @@ def _build_summary_payload(
 ) -> dict:
     """Single source of truth for /companies/<t>/summary and the per-company
     contribution to /tracks/<slug>/summary."""
+    # Soft cache: if we generated this ticker's summary within
+    # SOFT_HIT_TTL, return it as-is. Refresh-on-page-load shouldn't
+    # replay the whole Claude flow when nothing meaningful changed.
+    if not force:
+        recent = _summary_recent_for(ticker)
+        if recent:
+            return {**recent, "cached": True,
+                    "used_articles": len(recent.get("sources") or [])}
+
     if not articles:
         return {
             "headline": "",
@@ -821,9 +868,24 @@ def _stream_track_summary(slug: str, track_name: str,
         "constituents": [c["ticker"] for c in constituents],
     })
 
-    # We can't cache-hit early without knowing the article hash, which we
-    # only have after all sub-fetches complete. So always run sub-summaries
-    # first; the cache check happens just before the Claude track call.
+    # Soft-hit fast path: if we've generated a track summary for this
+    # slug within SOFT_HIT_TTL, ship it immediately without re-running
+    # the per-constituent fan-out. Refreshes inside the soft window go
+    # from 8-12s (full Claude pipeline) to <100ms.
+    cache_key = f"track:{slug}"
+    if not force:
+        recent = _summary_recent_for(cache_key)
+        if recent:
+            yield emit({"type": "cached"})
+            yield emit({"type": "done", "data": {
+                **recent, "cached": True,
+                "used_articles": len(recent.get("sources") or []),
+            }})
+            return
+
+    # Cold (or force=1): run the full pipeline. Sub-summaries are
+    # individually cached, so most of the per-ticker work is free even
+    # past SOFT_HIT_TTL — only the track-level Claude call regenerates.
     per_company_articles: dict[str, list[dict]] = {}
     scaffold: dict[str, str] = {}
     try:
