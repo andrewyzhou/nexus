@@ -103,8 +103,14 @@ function loadSummary() {
     kind: 'track',
     key: slug,
     onData(data) {
-      // bullets reference 1-based source indices; news cards are stored at
-      // _origIndex (0-based, matching the news endpoint order).
+      // Replace the news list with the summary's sources — that's the
+      // ground truth for what citation indices refer to. Otherwise a
+      // cached summary's `[N]` can land on the wrong card (or none)
+      // when the per-ticker article set diverges between requests.
+      if (Array.isArray(data.sources) && data.sources.length) {
+        allNewsItems = data.sources.map((s, idx) => ({ ...s, _origIndex: idx }));
+        buildTickerPills();
+      }
       const cited = new Set();
       for (const b of (data.bullets || [])) {
         for (const i of (b.source_indices || [])) cited.add(i - 1);

@@ -71,7 +71,14 @@ function loadSummary() {
     key: ticker,
     onData(data) {
       if (!data) return;
-      // bullets reference 1-based source indices; news cards are 0-based.
+      // The summary's `sources` IS the canonical news list — citation
+      // indices are 1-based positions into it. Render news cards from
+      // here so [N] always lands on the right card, regardless of any
+      // divergence between this client's earlier /news call and the
+      // article set Claude was actually run against.
+      if (Array.isArray(data.sources) && data.sources.length) {
+        stockNewsItems = data.sources;
+      }
       const cited = new Set();
       for (const b of (data.bullets || [])) {
         for (const i of (b.source_indices || [])) cited.add(i - 1);

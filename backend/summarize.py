@@ -41,6 +41,26 @@ def _client():
 
 MODEL = "claude-haiku-4-5-20251001"
 
+
+def _source_card(a: dict, idx: int) -> dict:
+    """The article card shape returned in `sources`. The frontend uses
+    these as the canonical news list (rendering news cards from summary
+    sources keeps citation indices aligned with what the user sees,
+    even when the per-ticker article list diverges between requests
+    due to Layer B caching across gunicorn workers)."""
+    return {
+        "index":     idx,                  # 1-based; matches source_indices
+        "title":     a.get("title") or "",
+        "url":       a.get("url") or "",
+        "link":      a.get("url") or "",   # alias so frontend cards match
+        "publisher": a.get("publisher") or "",
+        "published": a.get("published") or "",
+        "image":     a.get("image") or "",
+        "ticker":    a.get("ticker") or "",
+        "tickers":   list(a.get("tickers") or []),
+        "summary":   (a.get("body") or a.get("blurb") or "")[:600],
+    }
+
 TOOL = {
     "name": "render_news_summary",
     "description": (
@@ -149,17 +169,7 @@ def summarize_news(
     Articles list order is preserved — its index drives the citation links."""
     client = _client()
 
-    sources = [
-        {
-            "index": i,
-            "title": a.get("title") or "",
-            "url": a.get("url") or "",
-            "publisher": a.get("publisher") or "",
-            "published": a.get("published") or "",
-            "image": a.get("image") or "",
-        }
-        for i, a in enumerate(articles, 1)
-    ]
+    sources = [_source_card(a, i) for i, a in enumerate(articles, 1)]
 
     if not client or not articles:
         return {
@@ -373,18 +383,7 @@ def summarize_track_news(
     client = _client()
 
     valid_tickers = {c["ticker"] for c in constituents}
-    sources = [
-        {
-            "index": i,
-            "title": a.get("title") or "",
-            "url": a.get("url") or "",
-            "publisher": a.get("publisher") or "",
-            "published": a.get("published") or "",
-            "image": a.get("image") or "",
-            "ticker": a.get("ticker") or "",
-        }
-        for i, a in enumerate(articles, 1)
-    ]
+    sources = [_source_card(a, i) for i, a in enumerate(articles, 1)]
 
     if not client or not articles:
         return {
