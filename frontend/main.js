@@ -1147,7 +1147,7 @@ function buildEdgeLegend() {
     const item = document.createElement('div');
     item.className = 'edge-legend-item';
     const ARROW_LABELS = {
-      ownership: ['Owner', 'Owned'],
+      ownership: ['Parent', 'Subsidiary'],
       supplier:  ['Supplier', 'Customer'],
     };
     const hasArrow = type in ARROW_LABELS;
@@ -1671,7 +1671,7 @@ function openPanel(d) {
       const node = isSource ? e.target : e.source;
       const tkr = typeof node === 'object' ? node.ticker : (allNodes.find(n => n.id === node)?.ticker || node);
       let role = e.type;
-      if (e.type === 'ownership') role = isSource ? 'Owns' : 'Owned By';
+      if (e.type === 'ownership') role = isSource ? 'Subsidiaries' : 'Parents';
       if (e.type === 'supplier')   role = isSource ? 'Supplier Of' : 'Customer Of';
       if (e.type === 'competitor') role = 'Competitor Of';
       return { ticker: tkr, role };
@@ -1803,8 +1803,8 @@ function openPanel(d) {
       'Supplier Of': [],
       'Customer Of': [],
       'Competitor Of': [],
-      'Owned By': [],
-      'Owns': []
+      'Parents': [],
+      'Subsidiaries': []
     };
 
     unique.forEach(e => {
@@ -1886,8 +1886,8 @@ function openPanel(d) {
     fetch(`${API_BASE}/companies/${encodeURIComponent(d.ticker)}/neighbors?type=competitor`).then(r => r.ok ? r.json() : { edges: [] }),
   ]).then(([subData, supData, compData]) => {
     const extra = [
-      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Owns',         ticker: e.target })),
-      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Owned By',     ticker: e.source })),
+      ...(subData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Subsidiaries', ticker: e.target })),
+      ...(subData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Parents',      ticker: e.source })),
       ...(supData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Supplier Of',  ticker: e.target })),
       ...(supData.edges || []).filter(e => e.target === d.ticker).map(e => ({ role: 'Customer Of',  ticker: e.source })),
       ...(compData.edges || []).filter(e => e.source === d.ticker).map(e => ({ role: 'Competitor Of', ticker: e.target })),
