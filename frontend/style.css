@@ -1550,7 +1550,14 @@ svg .node-label {
 .sb-browse-leaf-label {
   font-family: var(--font-mono);
   font-size: 11px;
+  font-weight: 400;
   color: var(--text-muted);
+}
+
+.sb-browse-body > .sb-browse-leaf > .sb-browse-leaf-head > .sb-browse-leaf-label {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
 }
 
 .sb-browse-body {
