@@ -238,12 +238,15 @@
   }
 
   // Skeleton + per-constituent progress list (track summaries).
-  // Each ticker starts pending and flips to a checkmark + headline as
-  // its sub-summary completes.
+  // Initial head text reflects the FIRST stage of the parallel pool
+  // (multi-source news fetch + body extraction); the head is rewritten
+  // to "Analyzing constituents…" once any row completes, then to
+  // "Synthesizing track-level brief…" once all rows are in.
   function trackProgressHTML(constituents) {
+    const n = constituents.length;
     return `
       <div class="summary-progress">
-        <div class="summary-progress-head">Analyzing constituents…</div>
+        <div class="summary-progress-head">Fetching news for ${n} constituent${n === 1 ? '' : 's'}…</div>
         <ul class="summary-progress-list">
           ${constituents.map(t => `
             <li class="progress-row" data-ticker="${escapeHtml(t)}">
@@ -271,19 +274,38 @@
       const text = (headline || '').trim();
       if (text) {
         h.classList.remove('progress-pending');
-        h.textContent = text;
+        // Use renderInlineMd so **bold** / *italic* in the cached
+        // company headline renders the same as it does in the final
+        // summary — otherwise the user sees raw asterisks.
+        h.innerHTML = renderInlineMd(text);
       } else {
+        h.classList.remove('progress-pending');
         h.classList.add('progress-empty');
         h.textContent = articleCount === 0
           ? 'no articles found'
           : 'no material news';
       }
     }
+    // Once we've seen at least one row complete we're past the
+    // "fetching" phase; relabel the section head to match.
+    bumpProgressHeadIfNeeded();
   }
 
   function setProgressHead(text) {
     const el = document.querySelector('.summary-progress-head');
     if (el) el.textContent = text;
+  }
+
+  function bumpProgressHeadIfNeeded() {
+    const list = document.querySelector('.summary-progress-list');
+    if (!list) return;
+    const total = list.querySelectorAll('.progress-row').length;
+    const done = list.querySelectorAll('.progress-row.done').length;
+    if (done >= total && total > 0) {
+      setProgressHead('Synthesizing track-level brief…');
+    } else if (done > 0) {
+      setProgressHead(`Analyzing constituents… ${done}/${total}`);
+    }
   }
 
   async function runSummary({ kind, key, force, onData, _autoRegenAttempted }) {
