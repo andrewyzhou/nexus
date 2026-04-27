@@ -23,10 +23,10 @@
   const API_BASE = (typeof window !== 'undefined' && window.NEXUS_API)
     || 'http://localhost:5001/nexus/api';
 
-  // Anything older than this auto-regenerates the next time the page loads.
-  // Set high enough that the persistent cache isn't thrashed, low enough
-  // that a stale brief doesn't survive across multiple visits.
-  const STALE_DAYS_AUTO_REGEN = 7;
+  // Anything older than this auto-regenerates the next time the page
+  // loads — equivalent to the user clicking the refresh button. The
+  // backend caches indefinitely; this is the only freshness ceiling.
+  const STALE_DAYS_AUTO_REGEN = 1;
 
   function escapeHtml(s) {
     return String(s ?? '').replace(/[&<>"']/g, c => ({

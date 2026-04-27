@@ -509,51 +509,18 @@ def get_track_news(slug):
 #   - sources[].index is 1-based; bullet.source_indices reference it.
 #     Frontend maps index → news-card-<index-1> for click-to-scroll.
 
-# Soft cache window. If we generated a summary for this ticker/track
-# within the last SOFT_HIT_TTL, hand it back as-is on the next request
-# regardless of whether the freshly-computed articles_hash matches.
-# Without this, ranking jitter (per-worker Layer B caches + small
-# upstream variance from yfinance/Finnhub) makes the strict
-# (ticker, articles_hash) cache miss on most refreshes — so users
-# saw the full sub-summary + Claude pipeline replay even when nothing
-# meaningful had changed.
-from datetime import timedelta as _timedelta
-SOFT_HIT_TTL = _timedelta(minutes=5)
-
-
-def _summary_recent_for(ticker: str) -> dict | None:
+def _summary_cache_get(ticker: str) -> dict | None:
     """Return the most recent cached summary for `ticker` (any
-    articles_hash), if it was generated within SOFT_HIT_TTL."""
-    cutoff = datetime.now(tz=timezone.utc) - SOFT_HIT_TTL
+    articles_hash). Indefinite TTL — the frontend's 24h auto-regen
+    handles freshness, and the user's refresh button (force=1)
+    bypasses this lookup."""
     with get_conn() as conn:
         with conn.cursor() as cur:
             cur.execute(
                 "SELECT generated_at, headline, bullets, sources, model "
-                "FROM news_summaries "
-                "WHERE ticker = %s AND generated_at >= %s "
+                "FROM news_summaries WHERE ticker = %s "
                 "ORDER BY generated_at DESC LIMIT 1",
-                (ticker, cutoff),
-            )
-            row = cur.fetchone()
-    if not row:
-        return None
-    generated_at, headline, bullets, sources, model = row
-    return {
-        "headline": headline,
-        "bullets": bullets,
-        "sources": sources,
-        "model": model,
-        "generated_at": generated_at.isoformat() if generated_at else None,
-    }
-
-
-def _summary_cache_get(ticker: str, ahash: str) -> dict | None:
-    with get_conn() as conn:
-        with conn.cursor() as cur:
-            cur.execute(
-                "SELECT generated_at, headline, bullets, sources, model "
-                "FROM news_summaries WHERE ticker = %s AND articles_hash = %s",
-                (ticker, ahash),
+                (ticker,),
             )
             row = cur.fetchone()
     if not row:
@@ -601,15 +568,18 @@ def _build_summary_payload(
     force: bool,
 ) -> dict:
     """Single source of truth for /companies/<t>/summary and the per-company
-    contribution to /tracks/<slug>/summary."""
-    # Soft cache: if we generated this ticker's summary within
-    # SOFT_HIT_TTL, return it as-is. Refresh-on-page-load shouldn't
-    # replay the whole Claude flow when nothing meaningful changed.
+    contribution to /tracks/<slug>/summary.
+
+    Cache rule (mirrors the track flow):
+      - Look up the most recent cached summary for `ticker`. Hit → return.
+      - Miss → fetch articles → call Claude → write a new row.
+      - force=1 (refresh button) skips the lookup.
+    """
     if not force:
-        recent = _summary_recent_for(ticker)
-        if recent:
-            return {**recent, "cached": True,
-                    "used_articles": len(recent.get("sources") or [])}
+        hit = _summary_cache_get(ticker)
+        if hit:
+            return {**hit, "cached": True,
+                    "used_articles": len(hit.get("sources") or [])}
 
     if not articles:
         return {
@@ -622,16 +592,9 @@ def _build_summary_payload(
             "used_articles": 0,
         }
 
-    ahash = articles_hash(articles)
-
-    if not force:
-        hit = _summary_cache_get(ticker, ahash)
-        if hit:
-            return {**hit, "cached": True, "used_articles": len(hit["sources"])}
-
     payload = summarize_news(ticker, company_name or ticker, articles)
     if payload.get("headline"):
-        _summary_cache_put(ticker, ahash, payload)
+        _summary_cache_put(ticker, articles_hash(articles), payload)
     payload["generated_at"] = datetime.utcnow().replace(
         tzinfo=timezone.utc).isoformat()
     payload["cached"] = False
@@ -665,16 +628,15 @@ def _ensure_company_summary(ticker: str, company_name: str | None) -> dict:
     `_build_summary_payload(force=False)` — but writes the row even on
     a cold call so subsequent track lookups (and the company page itself)
     are free."""
+    cached = _summary_cache_get(ticker)
     articles = get_curated_articles(ticker)
-    if not articles:
-        return {"headline": "", "bullets": [], "sources": [], "articles": []}
-    ahash = articles_hash(articles)
-    cached = _summary_cache_get(ticker, ahash)
     if cached:
         return {**cached, "articles": articles}
+    if not articles:
+        return {"headline": "", "bullets": [], "sources": [], "articles": []}
     payload = summarize_news(ticker, company_name or ticker, articles)
     if payload.get("headline"):
-        _summary_cache_put(ticker, ahash, payload)
+        _summary_cache_put(ticker, articles_hash(articles), payload)
     return {**payload, "articles": articles}
 
 
@@ -868,24 +830,24 @@ def _stream_track_summary(slug: str, track_name: str,
         "constituents": [c["ticker"] for c in constituents],
     })
 
-    # Soft-hit fast path: if we've generated a track summary for this
-    # slug within SOFT_HIT_TTL, ship it immediately without re-running
-    # the per-constituent fan-out. Refreshes inside the soft window go
-    # from 8-12s (full Claude pipeline) to <100ms.
+    # Fast path: any cached summary for this track wins. Indefinite TTL
+    # — frontend's 24h auto-regen handles staleness, and force=1 (the
+    # refresh button) is the only thing that should bypass this.
     cache_key = f"track:{slug}"
     if not force:
-        recent = _summary_recent_for(cache_key)
-        if recent:
+        cached = _summary_cache_get(cache_key)
+        if cached:
             yield emit({"type": "cached"})
             yield emit({"type": "done", "data": {
-                **recent, "cached": True,
-                "used_articles": len(recent.get("sources") or []),
+                **cached, "cached": True,
+                "used_articles": len(cached.get("sources") or []),
             }})
             return
 
-    # Cold (or force=1): run the full pipeline. Sub-summaries are
-    # individually cached, so most of the per-ticker work is free even
-    # past SOFT_HIT_TTL — only the track-level Claude call regenerates.
+    # Cold (or force=1): run the full pipeline. Per-company sub-summaries
+    # are individually cached, so on a cold-track-but-warm-companies path
+    # most of the per-ticker fan-out is free — only the track-level
+    # Claude call has to do real work.
     per_company_articles: dict[str, list[dict]] = {}
     scaffold: dict[str, str] = {}
     try:
@@ -933,19 +895,6 @@ def _stream_track_summary(slug: str, track_name: str,
         }})
         return
 
-    cache_key = f"track:{slug}"
-    ahash = articles_hash(pooled)
-
-    if not force:
-        hit = _summary_cache_get(cache_key, ahash)
-        if hit:
-            yield emit({"type": "cached"})
-            yield emit({"type": "done", "data": {
-                **hit, "cached": True,
-                "used_articles": len(hit.get("sources") or []),
-            }})
-            return
-
     yield emit({"type": "synth", "pool_size": len(pooled)})
 
     try:
@@ -957,7 +906,7 @@ def _stream_track_summary(slug: str, track_name: str,
         return
 
     if payload.get("headline"):
-        _summary_cache_put(cache_key, ahash, payload)
+        _summary_cache_put(cache_key, articles_hash(pooled), payload)
     payload["generated_at"] = datetime.utcnow().replace(
         tzinfo=timezone.utc).isoformat()
     payload["cached"] = False

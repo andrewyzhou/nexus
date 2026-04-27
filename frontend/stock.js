@@ -166,14 +166,13 @@ function renderStock(d, dbData) {
   mcapEl.textContent = d.marketCap != null ? fmtMoney(d.marketCap) : '—';
   peEl.textContent = d.trailingPE != null ? fmtNum(d.trailingPE, 1) : '—';
 
-  // Key stats grid
+  // Key stats grid — 52w range cell first (spans 2 cols, replaces the
+  // standalone High/Low cells), then the rest in the usual order.
   const stats = [
     ['Open',           d.open != null ? `$${fmtNum(d.open)}` : '—'],
     ['Previous close', d.previousClose != null ? `$${fmtNum(d.previousClose)}` : '—'],
     ['Day high',       d.dayHigh != null ? `$${fmtNum(d.dayHigh)}` : '—'],
     ['Day low',        d.dayLow != null ? `$${fmtNum(d.dayLow)}` : '—'],
-    ['52 Week High',   d.fiftyTwoWeekHigh != null ? `$${fmtNum(d.fiftyTwoWeekHigh)}` : '—'],
-    ['52 Week Low',    d.fiftyTwoWeekLow != null ? `$${fmtNum(d.fiftyTwoWeekLow)}` : '—'],
     ['Volume',         d.volume != null ? d.volume.toLocaleString() : '—'],
     ['Avg volume',     d.avgVolume != null ? d.avgVolume.toLocaleString() : '—'],
     ['EPS (TTM)',      fmtNum(d.trailingEPS)],
@@ -183,12 +182,41 @@ function renderStock(d, dbData) {
     ['Employees',      d.fullTimeEmployees != null ? d.fullTimeEmployees.toLocaleString() : '—'],
   ].filter(([, v]) => v !== '—');
 
-  document.getElementById('stats-grid').innerHTML = stats.map(([k, v]) => `
+  const rangeCellHtml = build52wStatCell(
+    d.fiftyTwoWeekLow, d.fiftyTwoWeekHigh, d.regularMarketPrice ?? d.price,
+    d.changePercent
+  );
+
+  document.getElementById('stats-grid').innerHTML = rangeCellHtml + stats.map(([k, v]) => `
     <div class="stat-cell">
       <div class="stat-label">${escapeHtml(k)}</div>
       <div class="stat-val">${escapeHtml(v)}</div>
     </div>
   `).join('');
+}
+
+function build52wStatCell(low, high, price, changePct) {
+  if (low == null || high == null || price == null) return '';
+  const span = high - low;
+  if (!(span > 0)) return '';
+  const pct = Math.max(0, Math.min(1, (price - low) / span)) * 100;
+  const positive = changePct == null || changePct >= 0;
+  const cls = positive ? 'range-pos' : 'range-neg';
+  const fromLow = ((price - low) / low) * 100;
+  const toHigh  = ((high - price) / price) * 100;
+  return `
+    <div class="stat-cell stat-52w">
+      <div class="stat-label">52 Week Range</div>
+      <div class="range-bar-wide ${cls}">
+        <span class="range-end range-end-low">$${fmtNum(low)}</span>
+        <div class="range-track-wide">
+          <div class="range-marker" style="left:${pct.toFixed(1)}%"></div>
+        </div>
+        <span class="range-end range-end-high">$${fmtNum(high)}</span>
+      </div>
+      <div class="stat-sub">${fromLow.toFixed(1)}% from low · ${toHigh.toFixed(1)}% to high</div>
+    </div>
+  `;
 }
 
 let stockNewsItems = [];
