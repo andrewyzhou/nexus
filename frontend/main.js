@@ -370,7 +370,14 @@ function buildSidebar() {
     resetRecent();
   });
 
-  // Initial render — sections that depend on async data show empty until refresh.
+  // One-time renders for sections whose data is sync (already in /graph
+  // payload). refreshSidebarRows handles On Graph + Recent on every state
+  // change but does NOT rebuild Quick Start — its DOM is preserved so chevron
+  // expansions and ★ toggles stay put. We need to seed it here.
+  renderQuickStart();
+  renderTrending();   // empty until refreshTrending() lands; preserves layout
+
+  // Initial render — On Graph / Recent / row stats / empty-state.
   refreshSidebarRows();
 }
 
