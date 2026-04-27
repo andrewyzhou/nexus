@@ -6,7 +6,7 @@
   <title>Nexus</title>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=6" />
-  <link rel="stylesheet" href="track.css?v=13" />
+  <link rel="stylesheet" href="track.css?v=14" />
   <link rel="stylesheet" href="theme.css?v=9" />
   <link rel="stylesheet" href="mobile.css?v=6" />
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
@@ -34,37 +34,46 @@
 
   <main id="track-main">
 
-    <!-- HERO (compact) -->
-    <section id="track-hero" class="compact-hero">
-      <div class="compact-hero-identity">
+    <!-- HERO -->
+    <section id="track-hero">
+      <div class="hero-eyebrow-row">
         <span id="stock-eyebrow" class="hero-eyebrow">Stock</span>
-        <h1 id="stock-title" class="compact-hero-title">Loading…</h1>
-        <div id="stock-actions" class="hero-actions">
-          <a id="stock-website" href="#" target="_blank" rel="noopener" class="hero-action-link" style="display:none">
-            <span>Website</span>
-            <span class="hero-action-arrow">↗</span>
-          </a>
-          <a id="stock-track-link" href="#" class="hero-track-chip" style="display:none">
-            <span class="hero-track-dot"></span>
-            <span id="stock-track-name"></span>
-            <span class="hero-action-arrow">↗</span>
-          </a>
-        </div>
+        <span class="hero-eyebrow-line"></span>
       </div>
-      <p id="stock-description" class="compact-hero-desc"></p>
-      <div class="compact-hero-stats">
-        <div class="compact-stat">
-          <span class="compact-stat-label">Price</span>
-          <span id="stock-meta-price" class="compact-stat-value">—</span>
-          <span id="stock-meta-change" class="compact-stat-change"></span>
+
+      <h1 id="stock-title" class="hero-title">Loading…</h1>
+
+      <div class="hero-divider-row">
+        <div class="hero-left">
+          <p id="stock-description" class="hero-description"></p>
+          <div id="stock-actions" class="hero-actions">
+            <a id="stock-website" href="#" target="_blank" rel="noopener" class="hero-action-link" style="display:none">
+              <span>Website</span>
+              <span class="hero-action-arrow">↗</span>
+            </a>
+            <a id="stock-track-link" href="#" class="hero-track-chip" style="display:none">
+              <span class="hero-track-dot"></span>
+              <span id="stock-track-name"></span>
+              <span class="hero-action-arrow">↗</span>
+            </a>
+          </div>
         </div>
-        <div class="compact-stat">
-          <span class="compact-stat-label">Market Cap</span>
-          <span id="stock-meta-mcap" class="compact-stat-value">—</span>
-        </div>
-        <div class="compact-stat">
-          <span class="compact-stat-label">P/E</span>
-          <span id="stock-meta-pe" class="compact-stat-value">—</span>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <div class="hero-meta-label">Price</div>
+            <div id="stock-meta-price" class="hero-meta-value">—</div>
+            <div id="stock-meta-change" class="hero-meta-change"></div>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <div class="hero-meta-label">Market Cap</div>
+            <div id="stock-meta-mcap" class="hero-meta-value">—</div>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <div class="hero-meta-label">P/E</div>
+            <div id="stock-meta-pe" class="hero-meta-value">—</div>
+          </div>
         </div>
       </div>
     </section>
@@ -85,45 +94,45 @@
       </div>
     </section>
 
-    <!-- KEY STATS + AI SUMMARY (2-col on desktop) -->
-    <section class="track-section split-row">
-      <div class="split-col">
-        <div class="section-head">
-          <div>
-            <h2 class="section-title">Key Stats</h2>
-            <p class="section-sub">Latest market data</p>
+    <!-- KEY STATS -->
+    <section class="track-section">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">Key Stats</h2>
+          <p class="section-sub">Latest market data</p>
+        </div>
+      </div>
+      <div id="stats-grid" class="stats-grid"></div>
+    </section>
+
+    <!-- AI SUMMARY -->
+    <section class="track-section">
+      <div class="ai-summary-card">
+        <div class="ai-summary-header">
+          <div class="ai-summary-title-group">
+            <div class="ai-sparkles-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l1.9 5.8L20 10.7l-5.1 3.7L17 21l-5-3.4L7 21l2.1-6.6L4 10.7l6.1-1.9z"/>
+              </svg>
+            </div>
+            <div>
+              <h2 class="ai-summary-title">News Summary</h2>
+              <div id="summary-status" class="ai-summary-meta"></div>
+            </div>
+          </div>
+          <div class="ai-summary-controls">
+            <span id="summary-fresh-chip" class="fresh-chip" data-state="fresh" style="display:none">
+              <span class="fresh-chip-dot"></span>
+              <span class="fresh-chip-label">Analyzed today</span>
+            </span>
+            <button class="ai-regenerate" type="button" title="Regenerate from source articles">↻</button>
           </div>
         </div>
-        <div id="stats-grid" class="stats-grid"></div>
-      </div>
-      <div class="split-col">
-        <div class="ai-summary-card">
-          <div class="ai-summary-header">
-            <div class="ai-summary-title-group">
-              <div class="ai-sparkles-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 3l1.9 5.8L20 10.7l-5.1 3.7L17 21l-5-3.4L7 21l2.1-6.6L4 10.7l6.1-1.9z"/>
-                </svg>
-              </div>
-              <div>
-                <h2 class="ai-summary-title">News Summary</h2>
-                <div id="summary-status" class="ai-summary-meta"></div>
-              </div>
-            </div>
-            <div class="ai-summary-controls">
-              <span id="summary-fresh-chip" class="fresh-chip" data-state="fresh" style="display:none">
-                <span class="fresh-chip-dot"></span>
-                <span class="fresh-chip-label">Analyzed today</span>
-              </span>
-              <button class="ai-regenerate" type="button" title="Regenerate from source articles">↻</button>
-            </div>
-          </div>
-          <div id="ai-summary" class="ai-summary">
-            <div class="summary-skeleton">
-              <div class="skeleton-line"></div>
-              <div class="skeleton-line"></div>
-              <div class="skeleton-line short"></div>
-            </div>
+        <div id="ai-summary" class="ai-summary">
+          <div class="summary-skeleton">
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line short"></div>
           </div>
         </div>
       </div>
