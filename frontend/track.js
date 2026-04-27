@@ -119,7 +119,17 @@ function loadSummary() {
 }
 
 function buildTickerPills() {
-  const tickers = ['all', ...new Set(allNewsItems.map(n => n.ticker).filter(Boolean))];
+  // Each article can be tagged with multiple tickers (when several
+  // constituents' news queries returned the same canonical URL — e.g.
+  // an Intel/Nvidia partnership piece). Flatten them all into the
+  // filter set.
+  const everyTicker = new Set();
+  for (const n of allNewsItems) {
+    for (const t of (n.tickers || (n.ticker ? [n.ticker] : []))) {
+      if (t) everyTicker.add(t);
+    }
+  }
+  const tickers = ['all', ...everyTicker];
   const group = document.getElementById('ticker-filter-group');
   group.innerHTML = tickers.map(t => `
     <button class="ticker-pill${t === activeTicker ? ' active' : ''}" data-ticker="${escapeHtml(t)}">
@@ -139,7 +149,10 @@ function buildTickerPills() {
 function sortedNews() {
   let items = activeTicker === 'all'
     ? [...allNewsItems]
-    : allNewsItems.filter(n => n.ticker === activeTicker);
+    : allNewsItems.filter(n => {
+        const tags = n.tickers || (n.ticker ? [n.ticker] : []);
+        return tags.includes(activeTicker);
+      });
 
   if (newsSort === 'cited') {
     items.sort((a, b) => {
@@ -170,7 +183,12 @@ function renderNews() {
 
   wrap.innerHTML = items.map((n) => {
     const isCited = !!(n.cited || n.referenced);
-    const ticker = n.ticker ? escapeHtml(n.ticker) : '';
+    const tags = (n.tickers && n.tickers.length)
+      ? n.tickers
+      : (n.ticker ? [n.ticker] : []);
+    const tickerPills = tags
+      .map(t => `<span class="news-ticker-pill">${escapeHtml(t)}</span>`)
+      .join('');
     const source = n.publisher ? escapeHtml(n.publisher) : '';
     const date = fmtDate(n.published);
     const link = n.link ? escapeHtml(n.link) : '#';
@@ -187,7 +205,7 @@ function renderNews() {
         <div class="news-item-body">
           <div class="news-item-meta">
             ${number !== '' ? `<span class="news-num">${number}</span>` : ''}
-            ${ticker ? `<span class="news-ticker-pill">${ticker}</span>` : ''}
+            ${tickerPills}
             ${source ? `<span class="news-source">${source}</span>` : ''}
             ${date ? `<span class="news-dot">·</span><span class="news-date">${date}</span>` : ''}
             ${isCited ? `

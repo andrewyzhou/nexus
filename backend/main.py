@@ -402,7 +402,15 @@ def get_curated_articles(ticker: str) -> list[dict]:
 
 
 def article_to_card(a: dict, idx: int) -> dict:
-    """Shape returned by /news — what stock.js renders as a card."""
+    """Shape returned by /news — what stock.js / track.js render as a card.
+
+    `ticker` is the source ticker (kept for back-compat / single-ticker
+    pages). `tickers` is the multi-tag list set by _pool_track_articles
+    on track-page articles; falls back to [ticker] for company pages."""
+    src_ticker = a.get("ticker") or ""
+    tickers = a.get("tickers")
+    if not tickers:
+        tickers = [src_ticker] if src_ticker else []
     return {
         "index":     idx,                      # 1-based; matches summary citations
         "title":     a.get("title") or "",
@@ -411,7 +419,8 @@ def article_to_card(a: dict, idx: int) -> dict:
         "published": a.get("published") or "",
         "summary":   (a.get("body") or a.get("blurb") or "")[:600],
         "image":     a.get("image") or "",
-        "ticker":    a.get("ticker") or "",
+        "ticker":    src_ticker,
+        "tickers":   tickers,
     }
 
 
@@ -596,14 +605,33 @@ def _pool_track_articles(per_company: dict[str, list[dict]]) -> list[dict]:
 
     Diversity floor first: every constituent contributes its top-ranked
     articles up to TRACK_DIVERSITY_FLOOR. Then we fill remaining slots
-    with the rest, ranked globally. Each article is tagged with its
-    ticker so the prompt can group them and the frontend can render
-    ticker pills.
+    with the rest, ranked globally.
+
+    Each article carries:
+      - `ticker`:  the constituent that originally surfaced it (kept for
+                   back-compat — first one in tickers).
+      - `tickers`: EVERY constituent whose own news query returned this
+                   article. The same canonical URL can come back for
+                   AAPL, MSFT, NVDA, etc.; instead of throwing away that
+                   info during dedup, we accumulate the set so news cards
+                   can be tagged with multiple tickers when the article
+                   genuinely concerns multiple constituents.
     """
+    # 1. Build url -> [tickers, in insertion order] from the pre-dedup
+    #    fan-out. This is the source of truth for multi-ticker tagging.
+    sources_by_url: dict[str, list[str]] = {}
+    for ticker, articles in per_company.items():
+        for a in articles:
+            url = a["url"]
+            lst = sources_by_url.setdefault(url, [])
+            if ticker not in lst:
+                lst.append(ticker)
+
     seen: set[str] = set()
     pooled: list[dict] = []
 
-    # Floor pass
+    # Floor pass — every constituent gets up to TRACK_DIVERSITY_FLOOR
+    # of their top-ranked articles in the pool.
     for ticker, articles in per_company.items():
         kept = 0
         for a in articles:
@@ -616,7 +644,7 @@ def _pool_track_articles(per_company: dict[str, list[dict]]) -> list[dict]:
             pooled.append(tagged)
             kept += 1
 
-    # Overflow pass — anything past the floor, ranked globally
+    # Overflow pass — fill remaining slots with the rest, globally ranked.
     extras: list[dict] = []
     for ticker, articles in per_company.items():
         for a in articles:
@@ -624,11 +652,15 @@ def _pool_track_articles(per_company: dict[str, list[dict]]) -> list[dict]:
                 continue
             extras.append({**a, "ticker": ticker})
             seen.add(a["url"])
-    # rank_articles is in news_fetch but reaches into the article schema
-    # with a `ticker` field — works as-is since we just tagged them.
     from news_fetch import rank_articles  # local import to avoid cycle
     pooled.extend(rank_articles(extras, top_k=max(0, TRACK_POOL_CAP - len(pooled))))
-    return pooled[:TRACK_POOL_CAP]
+    pooled = pooled[:TRACK_POOL_CAP]
+
+    # Annotate every pooled article with its full multi-ticker source set.
+    for a in pooled:
+        a["tickers"] = list(sources_by_url.get(a["url"], [a.get("ticker") or ""]))
+
+    return pooled
 
 
 def _resolve_track(slug: str):
