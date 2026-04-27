@@ -932,6 +932,20 @@ def get_track(slug):
     ]
 
     conn.close()
+
+    # Live enrichment: change_pct + 30d sparkline (used by the table's
+    # Δ 1D and Trend columns). Falls back silently if yfinance is down,
+    # in which case the columns render as "—" instead of breaking.
+    syms = tuple(sorted(c["ticker"] for c in companies if c.get("ticker")))
+    mkt = _fetch_track_market_data(syms)
+    for c in companies:
+        md = mkt.get(c["ticker"])
+        if md:
+            if md.get("price") is not None:
+                c["price"] = md["price"]
+            c["change_pct"] = md.get("change_pct")
+            c["sparkline"] = md.get("sparkline")
+
     return jsonify({
         "slug": slug,
         "name": name,
@@ -1665,6 +1679,60 @@ def _fetch_quotes(symbols: list[str]) -> dict[str, dict]:
             out[s] = {"price": price, "change_pct": change_pct}
         except Exception:
             continue
+    return out
+
+
+# ── Track-page market data: live price + change_pct + 30d sparkline ─────
+# Used by /tracks/<slug> to populate the Δ 1D and Trend columns on the
+# investment-track table. Cached 10min keyed by the sorted ticker tuple
+# so revisits to the same track are instant.
+
+_TRACK_MKT_TTL = 10 * 60
+_track_mkt_cache: dict[tuple, tuple[float, dict]] = {}
+
+
+def _fetch_track_market_data(tickers: tuple[str, ...]) -> dict[str, dict]:
+    if not tickers:
+        return {}
+    hit = _track_mkt_cache.get(tickers)
+    if hit and (time.time() - hit[0]) < _TRACK_MKT_TTL:
+        return hit[1]
+    out: dict[str, dict] = {}
+    try:
+        df = yf.download(
+            tickers=list(tickers),
+            period="1mo",
+            interval="1d",
+            group_by="ticker",
+            progress=False,
+            threads=True,
+            auto_adjust=False,
+        )
+    except Exception as e:
+        print(f"[nexus] track market data fetch failed: {e}")
+        return {}
+    for s in tickers:
+        try:
+            if len(tickers) == 1:
+                rows = df
+            elif s in df.columns.get_level_values(0):
+                rows = df[s]
+            else:
+                continue
+            closes = rows["Close"].dropna()
+            if closes.empty:
+                continue
+            price = float(closes.iloc[-1])
+            change_pct = None
+            if len(closes) >= 2:
+                prev = float(closes.iloc[-2])
+                if prev:
+                    change_pct = (price - prev) / prev * 100
+            sparkline = [float(v) for v in closes.tolist()]
+            out[s] = {"price": price, "change_pct": change_pct, "sparkline": sparkline}
+        except Exception:
+            continue
+    _track_mkt_cache[tickers] = (time.time(), out)
     return out
 
 
