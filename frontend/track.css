@@ -316,7 +316,7 @@ html[data-theme="light"] .ai-summary .summary-foot {
 .progress-row {
   display: grid;
   grid-template-columns: 12px 60px 1fr;
-  align-items: baseline;
+  align-items: center;
   gap: 10px;
   color: var(--t-text-3);
   transition: color 0.2s;
