@@ -1608,6 +1608,10 @@ svg .node-label {
   color: var(--text-muted);
 }
 
+/* Panel: sidebar-style track row(s) inside the right detail panel.
+   Inherits .sb-* row styling so behavior + look matches the sidebar. */
+.panel-tracks-list { margin: 0 0 14px; }
+
 .graph-empty-suggestions {
   display: grid;
   grid-template-columns: 1fr 1fr;

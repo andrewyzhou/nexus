@@ -1766,15 +1766,7 @@ function openPanel(d) {
         </div>
       </div>
 
-      ${t ? `
-        <div class="panel-section-title">Investment Track</div>
-        <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 16px;">
-          <a class="track-badge track-badge--link" href="track.html?slug=${encodeURIComponent(t.id)}" style="--badge-color:${color}; margin-bottom: 0;">
-            ${t.label}
-          </a>
-          <button class="conn-add-btn${hiddenTracks.has(t.id) ? '' : ' on-graph'}" id="panel-track-toggle-btn" data-track="${t.id}" title="${hiddenTracks.has(t.id) ? 'Add track to graph' : 'Remove track from graph'}">${hiddenTracks.has(t.id) ? ICON_PLUS : ICON_CLOSE}</button>
-        </div>
-      ` : ''}
+      <div id="panel-tracks-wrap"></div>
 
       <div id="panel-about"></div>
 
@@ -1801,16 +1793,26 @@ function openPanel(d) {
     });
   }
 
-  const trackToggleBtn = document.getElementById('panel-track-toggle-btn');
-  if (trackToggleBtn) {
-    trackToggleBtn.addEventListener('click', () => {
-      const tid = trackToggleBtn.dataset.track;
-      toggleTrack(tid);
-      const isHidden = hiddenTracks.has(tid);
-      trackToggleBtn.innerHTML = isHidden ? ICON_PLUS : ICON_CLOSE;
-      trackToggleBtn.title = isHidden ? 'Add track to graph' : 'Remove track from graph';
-      trackToggleBtn.classList.toggle('on-graph', !isHidden);
-    });
+  // Investment track rows — same renderRow used by the sidebar so the user
+  // gets the ↗, ★, +/-, sector·count meta, and chevron-expand for free.
+  const tracksWrap = document.getElementById('panel-tracks-wrap');
+  if (tracksWrap) {
+    const trackIds = (d.tracks && d.tracks.length) ? d.tracks
+                   : (d.track ? [d.track] : []);
+    const trackObjs = trackIds.map(id => trackById.get(id)).filter(Boolean);
+    if (trackObjs.length) {
+      const title = document.createElement('div');
+      title.className = 'panel-section-title';
+      title.textContent = trackObjs.length === 1 ? 'Investment Track' : 'Investment Tracks';
+      tracksWrap.appendChild(title);
+      const list = document.createElement('div');
+      list.className = 'sidebar-list panel-tracks-list';
+      trackObjs.forEach(track => list.appendChild(renderRow(
+        { ...trackItem(track), color: track.color },
+        { /* default actionMode auto, expandable, star, open arrow */ },
+      )));
+      tracksWrap.appendChild(list);
+    }
   }
 
   // Delegate +/− button clicks in the connections list
