@@ -1091,25 +1091,45 @@ function renderEmptyState() {
   if (!sug) return;
   sug.innerHTML = '';
 
-  // Suggest the first 3 quick-start tracks that resolve, plus 2 popular tickers.
-  const trackSuggestions = QUICK_START_TRACKS
+  // Two columns matching the sidebar's Quick Start: Tracks + Companies.
+  // Resolved against the loaded /graph payload — anything missing is
+  // silently skipped.
+  const trackItems = QUICK_START_TRACKS
     .map(label => findTrackByLabel(label))
     .filter(Boolean)
-    .slice(0, 3)
-    .map(t => trackItem(t));
+    .map(t => ({ ...trackItem(t), color: t.color }));
 
-  const tickerSuggestions = ['NVDA', 'TSLA']
-    .map(tk => allNodes.find(n => n.ticker === tk))
+  const companyItems = QUICK_START_COMPANIES
+    .map(tk => allNodes.find(n => n.ticker?.toUpperCase() === tk))
     .filter(Boolean)
     .map(n => nodeItem(n));
 
-  [...trackSuggestions, ...tickerSuggestions].forEach(item => {
-    const btn = document.createElement('button');
-    btn.className = 'graph-empty-suggestion';
-    btn.textContent = `+ ${item.label.split(' · ').slice(-1)[0]}`;
-    btn.addEventListener('click', () => addItem(item));
-    sug.appendChild(btn);
-  });
+  const renderColumn = (heading, items) => {
+    const col = document.createElement('div');
+    col.className = 'graph-empty-col';
+    const h = document.createElement('div');
+    h.className = 'graph-empty-col-head';
+    h.textContent = heading;
+    col.appendChild(h);
+    items.forEach(item => {
+      const btn = document.createElement('button');
+      btn.className = 'graph-empty-suggestion';
+      // Color-tint track buttons with the track color so they read like
+      // their sidebar counterparts; companies stay neutral accent.
+      if (item.item_type === 'track' && item.color) {
+        btn.style.color = item.color;
+        btn.style.borderColor = item.color + '66';
+        btn.style.background = item.color + '14';
+      }
+      btn.textContent = `+ ${item.label.split(' · ').slice(-1)[0]}`;
+      btn.addEventListener('click', () => addItem(item));
+      col.appendChild(btn);
+    });
+    return col;
+  };
+
+  if (trackItems.length)   sug.appendChild(renderColumn('Tracks',    trackItems));
+  if (companyItems.length) sug.appendChild(renderColumn('Companies', companyItems));
 }
 
 // ── Inject track colours as CSS vars (in case they differ from defaults) ──────
