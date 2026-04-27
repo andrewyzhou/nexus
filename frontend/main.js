@@ -1078,6 +1078,7 @@ function renderRow(item, opts = {}) {
           { ...nodeItem(n), badge: n.ticker },
           { showStar: true, expandable: false },
         )));
+        refreshLiveQuotes();
       }
     });
     row.appendChild(chevron);
