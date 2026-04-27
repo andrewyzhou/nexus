@@ -311,7 +311,11 @@ function refreshSidebarRows() {
 }
 
 function updateAllRowStates() {
-  document.querySelectorAll('#sidebar [data-item-key]').forEach(updateRowEl);
+  // Includes the left sidebar AND the right detail panel — both render rows
+  // via renderRow, so both need their +/- and ★ kept in sync after any
+  // state mutation.
+  document.querySelectorAll('#sidebar [data-item-key], #detail-panel [data-item-key]')
+    .forEach(updateRowEl);
 }
 
 function updateRowEl(row) {
@@ -791,7 +795,7 @@ let _quotesInflight = false;
 async function refreshLiveQuotes() {
   if (_quotesInflight) return;
   const need = new Set();
-  document.querySelectorAll('#sidebar [data-item-key^="company::"]').forEach(row => {
+  document.querySelectorAll('#sidebar [data-item-key^="company::"], #detail-panel [data-item-key^="company::"]').forEach(row => {
     const id = row.dataset.itemKey.split('::')[1];
     const node = nodeById.get(id);
     const tk = node && node.ticker ? node.ticker.toUpperCase() : null;
