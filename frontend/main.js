@@ -217,6 +217,24 @@ async function init() {
   refreshTrending();
   // Initial live-quote fetch covers Quick Start / On Graph / etc.
   refreshLiveQuotes();
+  // Pre-warm the server quote cache for all tickers in the background so
+  // that member rows show percent changes immediately when expanded.
+  prewarmQuotes();
+}
+
+async function prewarmQuotes() {
+  const tickers = allNodes.map(n => n.ticker).filter(Boolean).map(t => t.toUpperCase());
+  for (let i = 0; i < tickers.length; i += 200) {
+    const batch = tickers.slice(i, i + 200);
+    try {
+      const r = await fetch(`${API_BASE}/quotes?tickers=${encodeURIComponent(batch.join(','))}`);
+      if (r.ok) {
+        const data = await r.json();
+        Object.assign(liveQuotes, data);
+        updateAllRowStates();
+      }
+    } catch (_) {}
+  }
 }
 
 // ── Action helpers (used by every sidebar section) ──────────────────────────
@@ -811,15 +829,18 @@ async function _doRefreshLiveQuotes() {
 
   if (!need.size) return;
 
-  try {
-    const list = [...need].slice(0, 200).join(',');
-    const r = await fetch(`${API_BASE}/quotes?tickers=${encodeURIComponent(list)}`);
-    if (r.ok) {
-      const data = await r.json();
-      Object.assign(liveQuotes, data);
-      updateAllRowStates();
-    }
-  } catch (_) {}
+  const tickers = [...need];
+  for (let i = 0; i < tickers.length; i += 200) {
+    const batch = tickers.slice(i, i + 200);
+    try {
+      const r = await fetch(`${API_BASE}/quotes?tickers=${encodeURIComponent(batch.join(','))}`);
+      if (r.ok) {
+        const data = await r.json();
+        Object.assign(liveQuotes, data);
+        updateAllRowStates();
+      }
+    } catch (_) {}
+  }
 }
 
 // ── Browse All ──────────────────────────────────────────────────────────────
@@ -1084,6 +1105,7 @@ function renderRow(item, opts = {}) {
           { ...nodeItem(n), badge: n.ticker },
           { showStar: true, expandable: false },
         )));
+        updateAllRowStates();
         refreshLiveQuotes();
       }
     });
