@@ -64,6 +64,12 @@ async function init() {
 
   track = await res.json();
   render();
+  // Kick off summary streaming IMMEDIATELY so the user sees the
+  // per-constituent progress shell + ticker rows within ~200ms,
+  // instead of waiting 5-10s for /news to finish (both endpoints
+  // do the same per-ticker fetch work; running them in parallel
+  // surfaces progress to the News Summary card right away).
+  if (slug) loadSummary();
   loadNews();
 
   document.getElementById('sort-select').addEventListener('change', (e) => {
@@ -88,9 +94,8 @@ async function loadNews() {
 
     buildTickerPills();
     renderNews();
-
-    // Fetch summary in parallel so we can flag cited cards & re-sort
-    if (slug) loadSummary();
+    // (loadSummary() is fired up front in init() now — no longer
+    // chained off /news so summary progress isn't blocked on it.)
   } catch (err) {
     document.getElementById('news-list').innerHTML =
       `<div class="news-empty">News unavailable (${escapeHtml(String(err.message || err))}).</div>`;
