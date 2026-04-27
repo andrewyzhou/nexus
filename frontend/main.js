@@ -1541,11 +1541,21 @@ function dragEnd(event, d) {
 const tooltip = document.getElementById('tooltip');
 
 function onNodeHover(event, d) {
-  const t = tracks.find(t => t.id === d.track);
+  // A node may belong to multiple tracks (most belong to one). Show every
+  // track as a colored chip so the user can tell which track contributed
+  // this node — distinct from the broader yfinance sector below.
+  const ids = (d.tracks && d.tracks.length) ? d.tracks : (d.track ? [d.track] : []);
+  const trackChips = ids
+    .map(id => trackById.get(id))
+    .filter(Boolean)
+    .map(t => `<span class="tt-track-chip" style="color:${t.color};border-color:${t.color}55;background:${t.color}1a">${t.label}</span>`)
+    .join('');
+  const headerColor = ids.length ? (trackById.get(ids[0])?.color || '#fff') : '#fff';
   tooltip.innerHTML = `
-    <div class="tt-ticker" style="color:${t ? t.color : '#fff'}">${d.ticker}</div>
+    <div class="tt-ticker" style="color:${headerColor}">${d.ticker}</div>
     <div class="tt-name">${d.name}</div>
-    <div class="tt-meta">${d.sector} · ${fmtCap(d.marketCap)}</div>
+    ${trackChips ? `<div class="tt-tracks">${trackChips}</div>` : ''}
+    <div class="tt-meta">${d.sector || '—'} · ${fmtCap(d.marketCap)}</div>
   `;
   tooltip.classList.add('visible');
   positionTooltip(event);
