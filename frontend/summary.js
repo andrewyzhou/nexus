@@ -322,14 +322,34 @@
     const path = base + (params.length ? `?${params.join('&')}` : '');
 
     setControlsBusy(true);
-    wrap.innerHTML = defaultSkeletonHTML();
+    if (kind === 'track') {
+      // For tracks we know we're going to stream a constituent list —
+      // render an empty progress shell up-front so the user sees a
+      // status header (not just blank shimmer) the moment the request
+      // is in flight, even before the first network event lands.
+      wrap.innerHTML = `
+        <div class="summary-progress">
+          <div class="summary-progress-head">Connecting to track pipeline…</div>
+          <div class="summary-skeleton" style="margin-top:14px">
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line short"></div>
+          </div>
+        </div>`;
+    } else {
+      wrap.innerHTML = defaultSkeletonHTML();
+    }
     if (status) status.textContent = 'generating…';
 
     try {
       let data;
       if (kind === 'track') {
         data = await postNDJSON(path, (evt) => {
-          if (evt.type === 'meta') {
+          if (evt.type === 'noop') {
+            // Padding event used to flush the proxy response buffer
+            // — render nothing, but bump the head so the user sees
+            // movement before the real first stage starts.
+            setProgressHead('Resolving constituents…');
+          } else if (evt.type === 'meta') {
             wrap.innerHTML = trackProgressHTML(evt.constituents || []);
           } else if (evt.type === 'company') {
             markProgressRow(evt.ticker, evt.headline, evt.article_count);

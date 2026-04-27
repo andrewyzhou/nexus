@@ -808,6 +808,13 @@ def _stream_track_summary(slug: str, track_name: str,
     def emit(obj):
         return json.dumps(obj, default=str) + "\n"
 
+    # Force any intermediate proxy buffer (nginx defaults to a 4-8 KB
+    # response buffer even with X-Accel-Buffering: no in some setups) to
+    # flush the headers + first event right away. Without this the user
+    # sees the default skeleton for several seconds before the meta event
+    # arrives, even though the server emitted it instantly. The padding
+    # is one big "noop" event the frontend ignores.
+    yield emit({"type": "noop", "pad": "x" * 4096})
     yield emit({
         "type": "meta",
         "track": track_name,
