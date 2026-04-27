@@ -623,38 +623,10 @@ html[data-theme="light"] .skeleton-line {
 
 .track-page .hero-meta-divider {
   width: 1px;
-  height: 28px;
+  height: 36px;
   background: var(--t-line-2);
   align-self: flex-end;
   margin-bottom: 2px;
-}
-
-/* Track hero only: stats live in the top-right of the hero (the
-   `> .hero-meta` direct-child selector deliberately doesn't match the
-   stock page where .hero-meta is nested inside .hero-divider-row). */
-.track-page #track-hero { position: relative; }
-
-.track-page #track-hero > .hero-meta {
-  position: absolute;
-  top: 0;
-  right: 0;
-  gap: 20px;
-}
-
-.track-page #track-hero > .hero-meta .hero-meta-value {
-  font-size: 22px;
-}
-
-.track-page #track-hero > .hero-meta .hero-meta-label {
-  font-size: 9px;
-}
-
-@media (max-width: 768px) {
-  .track-page #track-hero > .hero-meta {
-    position: static;
-    margin-bottom: 16px;
-    gap: 16px;
-  }
 }
 
 /* Section heads (mockup) */
