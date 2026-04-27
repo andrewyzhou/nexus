@@ -398,7 +398,7 @@ function renderOnGraph() {
   section.toggleAttribute('hidden', items.length === 0);
   count.textContent = items.length ? `(${items.length})` : '';
   list.innerHTML = '';
-  items.forEach(item => list.appendChild(renderRow(item, { actionMode: 'remove', showStar: false })));
+  items.forEach(item => list.appendChild(renderRow(item, { actionMode: 'remove' })));
 }
 
 function clearAllPinned() {
