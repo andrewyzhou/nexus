@@ -1543,8 +1543,8 @@ svg .node-label {
   transition: background var(--t-fast);
 }
 .sb-browse-head:hover, .sb-browse-leaf-head:hover { background: var(--bg-hover); }
-.sb-browse-head.collapsed .sb-trend-caret,
-.sb-browse-leaf-head.collapsed .sb-trend-caret { transform: rotate(-90deg); }
+.sb-browse-head:not(.collapsed) .sb-trend-caret,
+.sb-browse-leaf-head:not(.collapsed) .sb-trend-caret { transform: rotate(90deg); }
 
 .sb-browse-label { font-weight: 500; }
 .sb-browse-leaf-label {
