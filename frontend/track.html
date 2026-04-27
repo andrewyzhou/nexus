@@ -6,7 +6,7 @@
   <title>Nexus</title>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=6" />
-  <link rel="stylesheet" href="track.css?v=18" />
+  <link rel="stylesheet" href="track.css?v=19" />
   <link rel="stylesheet" href="theme.css?v=9" />
   <link rel="stylesheet" href="mobile.css?v=6" />
   <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
@@ -43,7 +43,10 @@
       <h1 id="track-title" class="hero-title">Loading…</h1>
 
       <div class="hero-divider-row">
-        <p id="track-description" class="hero-description"></p>
+        <div class="hero-left">
+          <p id="track-description" class="hero-description"></p>
+          <div id="track-company-chips" class="hero-actions"></div>
+        </div>
         <div class="hero-meta">
           <div class="hero-meta-item">
             <div class="hero-meta-label">Companies</div>
@@ -164,6 +167,6 @@
   <script src="auth.js?v=5"></script>
   <script src="theme.js?v=5"></script>
   <script src="summary.js?v=15"></script>
-  <script src="track.js?v=11"></script>
+  <script src="track.js?v=12"></script>
 </body>
 </html>

@@ -263,8 +263,22 @@ function render() {
   const leaderEl = document.getElementById('track-leader');
   leaderEl.textContent = track.market_leader ? track.market_leader.ticker : '—';
 
+  renderCompanyChips();
   startCyclingStats();
   renderTable();
+}
+
+function renderCompanyChips() {
+  const wrap = document.getElementById('track-company-chips');
+  if (!wrap) return;
+  const cs = track.companies || [];
+  wrap.innerHTML = cs.map(c => `
+    <a href="stock.html?ticker=${encodeURIComponent(c.ticker)}" class="hero-track-chip">
+      <span class="hero-track-dot"></span>
+      <span>${escapeHtml(c.ticker)}</span>
+      <span class="hero-action-arrow">↗</span>
+    </a>
+  `).join('');
 }
 
 // ── Cycling stats (Δ 1D + P/E, weighted ↔ equal-weighted, every 3s) ──
