@@ -51,18 +51,28 @@ let savedItems  = [];   // [{item_type, item_id, label}]
 let moversByKind = {};  // { day_gainers: [{ticker,name,price,change_pct}], ... }
 let liveQuotes  = {};   // { TICKER: {price, change_pct} }  populated lazily
 
-// Quick Start: hardcoded list of EXACT track names from the DB. Items that
-// don't resolve (because the track was renamed/removed) just don't render.
-// Update this list when adding new curated entries — fuzzy matching was
-// removed because it produced false positives ("Chemical for Semiconductors"
-// matched "Semiconductors").
+// Quick Start: two curated lists rendered as collapsible sub-groups.
+// Tracks are matched by EXACT name from the DB (no fuzzy match — it
+// previously matched "Chemical for Semiconductors" → "Semiconductors").
+// Companies are matched by ticker against the loaded /graph payload;
+// silently skip any that don't resolve so a renamed/missing one doesn't
+// blow up the section.
 const QUICK_START_TRACKS = [
+  // AI/Tech (4)
   'AI Chips',
-  'AI Data Center - Large',
+  'AI Software - Large',
   'Hyperscaler',
   'Semiconductor Manufacturer',
+  // Diverse (3)
   'EV & Auto - Large',
-  'Entertainment Giants',
+  'Medical Devices - Major',
+  'Internet Retail - USA',
+];
+const QUICK_START_COMPANIES = [
+  // Tech (4)
+  'NVDA', 'MSFT', 'GOOG', 'META',
+  // Diverse (3)
+  'TSLA', 'JPM', 'LLY',
 ];
 
 // Browse All sector buckets: each bucket maps to a fuzzy substring matched
@@ -430,15 +440,50 @@ function renderQuickStart() {
   const list = document.getElementById('quick-start-list');
   if (!list) return;
   list.innerHTML = '';
-  QUICK_START_TRACKS.forEach(label => {
-    const t = findTrackByLabel(label);
-    if (!t) return;
-    const preview = trackPreviewTickers(t, 5);
-    list.appendChild(renderRow(
-      { ...trackItem(t), color: t.color, preview },
-      { },
-    ));
+
+  // Tracks sub-group
+  const trackItems = QUICK_START_TRACKS
+    .map(label => findTrackByLabel(label))
+    .filter(Boolean)
+    .map(t => ({ ...trackItem(t), color: t.color }));
+  if (trackItems.length) {
+    list.appendChild(renderQuickStartGroup('Tracks', trackItems, /*defaultOpen*/ true));
+  }
+
+  // Companies sub-group
+  const companyItems = QUICK_START_COMPANIES
+    .map(tk => allNodes.find(n => n.ticker?.toUpperCase() === tk))
+    .filter(Boolean)
+    .map(n => ({ ...nodeItem(n), badge: n.ticker }));
+  if (companyItems.length) {
+    list.appendChild(renderQuickStartGroup('Companies', companyItems, /*defaultOpen*/ true));
+  }
+}
+
+// Collapsible sub-group inside Quick Start. Header is a clickable .sb-trend-head
+// (reused styling — same caret rotation), body is a vanilla list of rows.
+function renderQuickStartGroup(label, items, defaultOpen = true) {
+  const wrap = document.createElement('div');
+  wrap.className = 'sb-trend-group';
+  const head = document.createElement('div');
+  head.className = 'sb-trend-head' + (defaultOpen ? ' open' : '');
+  head.innerHTML = `
+    <span class="sb-trend-label">${label}</span>
+    <span class="sb-trend-count">${items.length}</span>
+    <span class="sb-trend-caret"></span>
+  `;
+  const body = document.createElement('div');
+  body.className = 'sb-trend-body';
+  body.hidden = !defaultOpen;
+  items.forEach(item => body.appendChild(renderRow(item, { })));
+  head.addEventListener('click', () => {
+    body.hidden = !body.hidden;
+    head.classList.toggle('open', !body.hidden);
+    if (!body.hidden) refreshLiveQuotes();
   });
+  wrap.appendChild(head);
+  wrap.appendChild(body);
+  return wrap;
 }
 
 // ── Recent (per-user, server-backed) ────────────────────────────────────────
