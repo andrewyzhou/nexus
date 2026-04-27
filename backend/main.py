@@ -369,10 +369,14 @@ from news_fetch import get_articles_for_ticker, articles_hash
 from summarize import summarize_news, summarize_track_news
 
 
-# Layer B cache: curated article list per ticker, 5-min TTL. Avoids
-# re-running the multi-source fetch + body scrape between back-to-back
-# /news and /summary calls. Per-worker — fine at our scale.
-_articles_cache: dict[str, tuple[float, list[dict]]] = {}
+# Layer B cache: per-ticker (curated_list, all_urls, all_titles), 5-min
+# TTL. The URL + title sets cover articles surfaced by this ticker's
+# pipeline BEFORE the body-fetch filter — both are used by the track
+# endpoint as cross-ticker source-attribution keys. Title-match is the
+# fallback when the same article ends up at two different URLs across
+# constituents (publisher-direct vs. Yahoo-syndicated). Per-worker;
+# fine at our scale.
+_articles_cache: dict[str, tuple[float, list[dict], set[str], set[str]]] = {}
 ARTICLES_CACHE_TTL = 5 * 60
 
 
@@ -388,17 +392,42 @@ def _company_name(ticker: str) -> str | None:
         return None
 
 
+def _get_articles_payload(ticker: str) -> tuple[list[dict], set[str], set[str]]:
+    """Cache-aware wrapper around get_articles_for_ticker. Returns
+    (curated, all_urls, all_titles)."""
+    hit = _articles_cache.get(ticker)
+    if hit and (time.time() - hit[0]) < ARTICLES_CACHE_TTL:
+        return hit[1], hit[2], hit[3]
+    name = _company_name(ticker)
+    with get_conn() as conn:
+        curated, all_urls, all_titles = get_articles_for_ticker(
+            conn, ticker, name, top_k=12,
+        )
+    _articles_cache[ticker] = (time.time(), curated, all_urls, all_titles)
+    return curated, all_urls, all_titles
+
+
 def get_curated_articles(ticker: str) -> list[dict]:
     """Shared helper: returns the same ordered article list to both /news
     and /summary so citation indices line up across the page."""
-    hit = _articles_cache.get(ticker)
-    if hit and (time.time() - hit[0]) < ARTICLES_CACHE_TTL:
-        return hit[1]
-    name = _company_name(ticker)
-    with get_conn() as conn:
-        articles = get_articles_for_ticker(conn, ticker, name, top_k=12)
-    _articles_cache[ticker] = (time.time(), articles)
-    return articles
+    return _get_articles_payload(ticker)[0]
+
+
+def get_all_article_urls(ticker: str) -> set[str]:
+    """The full post-resolution URL set for this ticker — including
+    articles that didn't make the top_k cutoff. Used by the track
+    endpoint to preserve cross-ticker source attribution that would
+    otherwise be lost when truncation drops a piece from one
+    constituent's curated list."""
+    return _get_articles_payload(ticker)[1]
+
+
+def get_all_article_titles(ticker: str) -> set[str]:
+    """Normalized titles surfaced for this ticker — fallback source key
+    when the same article reaches different constituents at different
+    URLs (e.g. NVDA gets it via Finnhub→247wallst.com and AMD gets it
+    via yfinance→finance.yahoo.com)."""
+    return _get_articles_payload(ticker)[2]
 
 
 def article_to_card(a: dict, idx: int) -> dict:
@@ -460,7 +489,9 @@ def get_track_news(slug):
     conn.close()
 
     per_company = {t: get_curated_articles(t) for t in tickers}
-    pooled = _pool_track_articles(per_company)
+    all_urls = {t: get_all_article_urls(t) for t in tickers}
+    all_titles = {t: get_all_article_titles(t) for t in tickers}
+    pooled = _pool_track_articles(per_company, all_urls, all_titles)
     return jsonify([article_to_card(a, i) for i, a in enumerate(pooled, 1)])
 
 
@@ -600,32 +631,52 @@ def _ensure_company_summary(ticker: str, company_name: str | None) -> dict:
     return {**payload, "articles": articles}
 
 
-def _pool_track_articles(per_company: dict[str, list[dict]]) -> list[dict]:
+def _pool_track_articles(
+    per_company: dict[str, list[dict]],
+    all_urls_by_ticker: dict[str, set[str]] | None = None,
+    all_titles_by_ticker: dict[str, set[str]] | None = None,
+) -> list[dict]:
     """Build the global article pool for a track summary.
 
     Diversity floor first: every constituent contributes its top-ranked
     articles up to TRACK_DIVERSITY_FLOOR. Then we fill remaining slots
     with the rest, ranked globally.
 
-    Each article carries:
-      - `ticker`:  the constituent that originally surfaced it (kept for
-                   back-compat — first one in tickers).
-      - `tickers`: EVERY constituent whose own news query returned this
-                   article. The same canonical URL can come back for
-                   AAPL, MSFT, NVDA, etc.; instead of throwing away that
-                   info during dedup, we accumulate the set so news cards
-                   can be tagged with multiple tickers when the article
-                   genuinely concerns multiple constituents.
+    Multi-ticker tagging uses TWO source keys joined as a union:
+      - URL match (sources_by_url): same canonical URL across pipelines.
+      - Title match (sources_by_title): normalized headline. Catches the
+        case where the same story reaches different constituents at
+        different URLs — e.g. one ticker's Finnhub feed resolves to the
+        publisher's blacklisted page while another ticker's yfinance
+        returned the Yahoo-syndicated copy. URL-match alone misses the
+        attribution; title-match recovers it.
     """
-    # 1. Build url -> [tickers, in insertion order] from the pre-dedup
-    #    fan-out. This is the source of truth for multi-ticker tagging.
+    from news_fetch import normalize_title, rank_articles
+
     sources_by_url: dict[str, list[str]] = {}
-    for ticker, articles in per_company.items():
-        for a in articles:
-            url = a["url"]
-            lst = sources_by_url.setdefault(url, [])
-            if ticker not in lst:
-                lst.append(ticker)
+    sources_by_title: dict[str, list[str]] = {}
+
+    if all_urls_by_ticker:
+        for ticker, urls in all_urls_by_ticker.items():
+            for url in urls:
+                lst = sources_by_url.setdefault(url, [])
+                if ticker not in lst:
+                    lst.append(ticker)
+    else:
+        for ticker, articles in per_company.items():
+            for a in articles:
+                lst = sources_by_url.setdefault(a["url"], [])
+                if ticker not in lst:
+                    lst.append(ticker)
+
+    if all_titles_by_ticker:
+        for ticker, titles in all_titles_by_ticker.items():
+            for t in titles:
+                if not t:
+                    continue
+                lst = sources_by_title.setdefault(t, [])
+                if ticker not in lst:
+                    lst.append(ticker)
 
     seen: set[str] = set()
     pooled: list[dict] = []
@@ -652,13 +703,22 @@ def _pool_track_articles(per_company: dict[str, list[dict]]) -> list[dict]:
                 continue
             extras.append({**a, "ticker": ticker})
             seen.add(a["url"])
-    from news_fetch import rank_articles  # local import to avoid cycle
     pooled.extend(rank_articles(extras, top_k=max(0, TRACK_POOL_CAP - len(pooled))))
     pooled = pooled[:TRACK_POOL_CAP]
 
-    # Annotate every pooled article with its full multi-ticker source set.
+    # Annotate every pooled article with its full multi-ticker source
+    # set (union of URL-match and title-match), preserving order.
     for a in pooled:
-        a["tickers"] = list(sources_by_url.get(a["url"], [a.get("ticker") or ""]))
+        by_url = sources_by_url.get(a.get("url") or "", [])
+        by_title = sources_by_title.get(
+            normalize_title(a.get("title") or ""), [],
+        )
+        # Order: source ticker first, then URL matches, then title matches.
+        merged: list[str] = []
+        for tk in [a.get("ticker") or ""] + list(by_url) + list(by_title):
+            if tk and tk not in merged:
+                merged.append(tk)
+        a["tickers"] = merged
 
     return pooled
 
@@ -785,7 +845,18 @@ def _stream_track_summary(slug: str, track_name: str,
         yield emit({"type": "error", "message": f"sub-summary stage: {e}"})
         return
 
-    pooled = _pool_track_articles(per_company_articles)
+    # Pull the full per-ticker URL + title sets from the same Layer B
+    # cache that _ensure_company_summary just populated — no extra
+    # network work.
+    all_urls = {
+        c["ticker"]: get_all_article_urls(c["ticker"]) for c in constituents
+    }
+    all_titles = {
+        c["ticker"]: get_all_article_titles(c["ticker"]) for c in constituents
+    }
+    pooled = _pool_track_articles(
+        per_company_articles, all_urls, all_titles,
+    )
     if not pooled:
         yield emit({"type": "done", "data": {
             "headline": "", "bullets": [], "sources": [], "model": None,

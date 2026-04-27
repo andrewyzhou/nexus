@@ -137,7 +137,7 @@ def fetch_yfinance(ticker: str) -> list[dict]:
 
 # ─────────────────────────── source: Finnhub ──────────────────────────────
 
-def fetch_finnhub(ticker: str, max_items: int = 30) -> list[dict]:
+def fetch_finnhub(ticker: str, max_items: int = 60) -> list[dict]:
     if not FINNHUB_API_KEY:
         return []
     today = date.today()
@@ -443,10 +443,20 @@ def _score(a: dict) -> float:
     # Did body fetch succeed?
     body_bonus = 0.20 if a.get("body_status") == "ok" else 0.0
 
-    # Title mention is a stronger on-topic signal than body mention
+    # Title mention is a stronger on-topic signal than body mention.
+    # Match either the ticker symbol OR the company name's head word
+    # (≥4 chars). Without the name fallback, "Nvidia trades at half AMD's
+    # multiple" got the +0.15 for AMD but not NVDA, ranking it out of
+    # NVDA's top-12 even though it clearly concerns both.
     title = (a.get("title") or "").lower()
     tk = (a.get("ticker") or "").lower()
-    title_bonus = 0.15 if tk and re.search(rf"\b{re.escape(tk)}\b", title) else 0.0
+    name = (a.get("company_name") or "").lower()
+    head = name.split()[0] if name else ""
+    title_bonus = 0.0
+    if tk and re.search(rf"\b{re.escape(tk)}\b", title):
+        title_bonus = 0.15
+    elif head and len(head) >= 4 and re.search(rf"\b{re.escape(head)}\b", title):
+        title_bonus = 0.15
 
     return 0.45 * trust + 0.30 * fresh + body_bonus + title_bonus
 
@@ -457,20 +467,52 @@ def rank_articles(articles: list[dict], top_k: int) -> list[dict]:
 
 # ─────────────────────────── public entrypoint ────────────────────────────
 
+def normalize_title(title: str) -> str:
+    """Stable key across syndication forms. Lowercases, drops punctuation
+    and collapses whitespace so the same headline matches whether it
+    came back as the Yahoo-syndicated copy or the publisher's own URL."""
+    if not title:
+        return ""
+    s = title.lower()
+    # Replace any non-alphanumeric (incl. unicode punctuation) with space
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    s = " ".join(s.split())
+    return s
+
+
 def get_articles_for_ticker(
     conn,
     ticker: str,
     company_name: str | None = None,
     top_k: int = 12,
-) -> list[dict]:
+) -> tuple[list[dict], set[str], set[str]]:
     """End-to-end: pull from sources, dedupe, on-topic filter, resolve
-    redirects, body fetch, score & truncate. Returns the final article list
-    that gets sent to Claude."""
+    redirects, body fetch, score & truncate.
+
+    Returns:
+        (curated_top_k, all_urls, all_titles)
+        - curated_top_k: the ranked list capped at top_k. What we send
+          to Claude.
+        - all_urls: every post-resolution URL this ticker's news pipeline
+          surfaced (after on-topic + resolve + dedup, BEFORE the body-
+          fetch / blacklist filter). Captured early so source-tracking
+          isn't gated on the final filter dropping articles for unrelated
+          reasons (e.g. publisher in the body-fetch blacklist).
+        - all_titles: the normalized title of each surfaced article.
+          Used as a fallback source key — the same headline can resolve
+          to TWO different URLs in our system (publisher direct vs.
+          Yahoo-syndicated copy). Title-match recovers the cross-ticker
+          attribution that URL-match would miss.
+    """
     t0 = time.perf_counter()
     yf_items = fetch_yfinance(ticker)
     fh_items = fetch_finnhub(ticker)
 
     merged = merge_dedupe(yf_items, fh_items)
+    # Stash the company name on every article so _score's title_bonus
+    # can match by name in addition to ticker symbol.
+    for a in merged:
+        a["company_name"] = company_name or ""
 
     # On-topic filter using API-level fields (title+blurb).
     # Body mention will reinforce in the post-fetch pass below.
@@ -483,6 +525,16 @@ def get_articles_for_ticker(
     # Re-dedupe after resolution: yfinance + Finnhub often point at the same
     # finance.yahoo.com canonical URL.
     pre = merge_dedupe(pre)
+
+    # Capture the full URL + title set for cross-ticker source tracking.
+    # We snapshot here — post-resolution + dedup, but BEFORE the body-
+    # fetch filter drops things for blacklisted publishers / short blurbs.
+    # An article may not survive into THIS ticker's curated list, yet
+    # still be a valid attribution signal when another constituent's
+    # pipeline kept it.
+    all_urls = {a["url"] for a in pre if a.get("url")}
+    all_titles = {normalize_title(a.get("title") or "") for a in pre}
+    all_titles.discard("")
 
     pre = fetch_bodies(conn, pre)
 
@@ -504,14 +556,14 @@ def get_articles_for_ticker(
             continue
         final.append(a)
 
-    final = rank_articles(final, top_k=top_k)
+    curated = rank_articles(final, top_k=top_k)
 
     elapsed = (time.perf_counter() - t0) * 1000
-    body_ok = sum(1 for a in final if a.get("body_status") == "ok")
+    body_ok = sum(1 for a in curated if a.get("body_status") == "ok")
     print(f"[news] {ticker}: yf={len(yf_items)} fh={len(fh_items)} "
-          f"merged={len(merged)} kept={len(final)} body_ok={body_ok}/{len(final)} "
-          f"({elapsed:.0f}ms)")
-    return final
+          f"merged={len(merged)} kept={len(curated)}/{len(all_urls)} "
+          f"body_ok={body_ok}/{len(curated)} ({elapsed:.0f}ms)")
+    return curated, all_urls, all_titles
 
 
 def articles_hash(articles: list[dict]) -> str:
