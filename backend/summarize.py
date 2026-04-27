@@ -202,16 +202,24 @@ def summarize_news(
         )
         headline = (inp or {}).get("headline", "") or ""
         raw_bullets = (inp or {}).get("bullets", []) or []
+        # Lenient: require only `text`. Empty source_indices is fine —
+        # the frontend just shows no [N] pills on that bullet.
+        dropped_no_text = 0
         for b in raw_bullets:
             if not isinstance(b, dict):
                 continue
-            text = b.get("text", "") or ""
+            text = (b.get("text") or "").strip()
+            if not text:
+                dropped_no_text += 1
+                continue
             indices = [
                 int(x) for x in (b.get("source_indices") or [])
                 if isinstance(x, (int, float)) and 1 <= int(x) <= len(articles)
             ]
-            if text and indices:
-                bullets.append({"text": text, "source_indices": indices})
+            bullets.append({"text": text, "source_indices": indices})
+        if raw_bullets and not bullets:
+            print(f"[summary] WARN dropped all {len(raw_bullets)} bullets "
+                  f"(text:{dropped_no_text}) — raw: {raw_bullets!r}")
 
     try:
         usage = msg.usage
@@ -415,10 +423,21 @@ def summarize_track_news(
             block.get("input") if isinstance(block, dict) else {}
         )
         headline = (inp or {}).get("headline", "") or ""
-        for b in (inp or {}).get("bullets", []) or []:
+        raw_bullets = (inp or {}).get("bullets", []) or []
+        # Lenient validation: keep the bullet as long as it has text.
+        # source_indices can validly be empty (frontend just shows no [N]
+        # pills), and tickers can be empty too (no ticker prefix). The
+        # earlier strict AND-of-three filter dropped every bullet for the
+        # Medical Devices - Major track because Claude returned tickers
+        # outside the constituent set.
+        dropped_no_text = 0
+        for b in raw_bullets:
             if not isinstance(b, dict):
                 continue
-            text = b.get("text", "") or ""
+            text = (b.get("text") or "").strip()
+            if not text:
+                dropped_no_text += 1
+                continue
             indices = [
                 int(x) for x in (b.get("source_indices") or [])
                 if isinstance(x, (int, float)) and 1 <= int(x) <= len(articles)
@@ -427,12 +446,14 @@ def summarize_track_news(
                 t.upper() for t in (b.get("tickers") or [])
                 if isinstance(t, str) and t.upper() in valid_tickers
             ][:3]
-            if text and indices and tickers:
-                bullets.append({
-                    "tickers": tickers,
-                    "text": text,
-                    "source_indices": indices,
-                })
+            bullets.append({
+                "tickers": tickers,
+                "text": text,
+                "source_indices": indices,
+            })
+        if raw_bullets and not bullets:
+            print(f"[track-summary] WARN dropped all {len(raw_bullets)} "
+                  f"bullets (text:{dropped_no_text}) — raw: {raw_bullets!r}")
 
     try:
         usage = msg.usage
