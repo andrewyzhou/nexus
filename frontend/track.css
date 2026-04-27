@@ -1731,27 +1731,26 @@ html[data-theme="light"] .skeleton-line {
 .track-page .hero-meta-item.is-cycling {
   position: relative;
   padding-bottom: 8px;
+  /* Lock width so the chip doesn't reflow when the value text changes
+     between weighted and unweighted aggregates. */
+  min-width: 96px;
 }
 
 .track-page .hero-meta-item.is-cycling .hero-meta-label {
   display: inline-flex;
-  align-items: center;
-  gap: 6px;
+  align-items: baseline;
+  gap: 8px;
 }
 
 .track-page .cycle-mode {
   font-family: var(--font-mono-jet);
-  font-size: 8px;
-  font-weight: 600;
-  letter-spacing: 0.10em;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
   color: var(--t-text-5);
-  border: 1px solid var(--t-line-2);
-  border-radius: 3px;
-  padding: 1px 4px;
-  line-height: 1;
+  font-style: italic;
 }
-
-.track-page .cycle-mode[data-mode="W"] { color: var(--t-emerald); border-color: rgba(52, 211, 153, 0.30); }
 
 .track-page .hero-meta-item.is-cycling .hero-meta-value {
   transition: opacity 0.18s ease;
@@ -1775,7 +1774,7 @@ html[data-theme="light"] .skeleton-line {
   height: 100%;
   width: 0;
   background: var(--t-emerald);
-  animation: cycle-progress 3000ms linear infinite;
+  animation: cycle-progress 5000ms linear infinite;
   transform-origin: left;
 }
 

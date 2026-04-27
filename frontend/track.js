@@ -286,10 +286,10 @@ function renderCompanyChips() {
   `).join('');
 }
 
-// ── Cycling stats (Δ 1D + P/E, weighted ↔ equal-weighted, every 3s) ──
-const CYCLE_MS = 3000;
+// ── Cycling stats (Δ 1D + P/E, weighted ↔ unweighted, every 5s) ──
+const CYCLE_MS = 5000;
 let cycleTimer = null;
-let cycleMode = 'W';     // 'W' = market-cap weighted, 'E' = equal-weighted
+let cycleMode = 'W';     // 'W' = market-cap weighted, 'U' = unweighted (mean)
 
 function aggregate(field, weighted) {
   const cs = (track.companies || []).filter(c => c[field] != null && Number.isFinite(c[field]));
@@ -326,9 +326,9 @@ function paintCyclingChips() {
 
   document.getElementById('track-pe').textContent = pe == null ? '—' : pe.toFixed(1);
 
+  const label = cycleMode === 'W' ? 'weighted' : 'unweighted';
   for (const tag of document.querySelectorAll('.cycle-mode')) {
-    tag.dataset.mode = cycleMode;
-    tag.textContent  = cycleMode;
+    tag.textContent = label;
   }
 }
 
@@ -347,7 +347,7 @@ function startCyclingStats() {
   restartBars();
 
   cycleTimer = setInterval(() => {
-    cycleMode = cycleMode === 'W' ? 'E' : 'W';
+    cycleMode = cycleMode === 'W' ? 'U' : 'W';
     // Crossfade values: dim → swap → fade in
     const items = document.querySelectorAll('.hero-meta-item.is-cycling');
     items.forEach(el => el.classList.add('cycle-fading'));
