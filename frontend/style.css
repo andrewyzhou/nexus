@@ -30,9 +30,9 @@
   --accent:         #34d399;
   --accent-dim:     rgba(52, 211, 153, 0.12);
 
-  /* Layout */
+  /* Layout — right detail panel matches left sidebar width */
   --sidebar-w:      420px;
-  --panel-w:        360px;
+  --panel-w:        420px;
   --header-h:       56px;
 
   /* Spacing */
