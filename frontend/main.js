@@ -375,28 +375,27 @@ function buildSidebar() {
 }
 
 // ── On Graph ────────────────────────────────────────────────────────────────
-// Lists every node that is currently visible on the graph (pinned + tracks
-// that contribute their members). Always-visible row of × buttons so the
-// user can prune the graph without hunting through Browse.
-
-function visibleGraphItems() {
-  const items = [];
-  // Pinned individual companies
-  pinnedNodes.forEach(id => {
-    const n = nodeById.get(id);
-    if (n) items.push({ ...nodeItem(n), badge: n.ticker });
-  });
-  // Active tracks (only those with at least one node — empty tracks aren't useful)
-  tracks.forEach(t => {
-    if (hiddenTracks.has(t.id)) return;
-    items.push({ ...trackItem(t), badge: 'TRACK', color: t.color });
-  });
-  // Sort: tracks first (they "produce" multiple nodes), then companies A→Z
-  items.sort((a, b) => {
-    if (a.item_type !== b.item_type) return a.item_type === 'track' ? -1 : 1;
-    return a.label.localeCompare(b.label);
-  });
-  return items;
+// Group every visible node under its primary track so the user sees both
+// "the track is active" and "here are its other members you could add".
+// Companies with no track go into a 'standalone' bucket. A company is
+// considered to belong to its first listed track only — most are in one,
+// and surfacing duplicates would clutter On Graph for multi-track outliers.
+function visibleGraphGroups() {
+  const visible = allNodes.filter(nodeIsVisible);
+  const byTrack = new Map();   // track.id -> { track, visibleCount }
+  const standalone = [];
+  for (const n of visible) {
+    const primary = (n.tracks || [])[0];
+    const t = primary ? trackById.get(primary) : null;
+    if (!t) { standalone.push(n); continue; }
+    if (!byTrack.has(t.id)) byTrack.set(t.id, { track: t, visibleCount: 0 });
+    byTrack.get(t.id).visibleCount++;
+  }
+  // Most-populated tracks first; alphabetical tiebreaker.
+  const groups = [...byTrack.values()].sort((a, b) =>
+    b.visibleCount - a.visibleCount || a.track.label.localeCompare(b.track.label));
+  standalone.sort((a, b) => a.ticker.localeCompare(b.ticker));
+  return { groups, standalone, totalCompanies: visible.length };
 }
 
 function renderOnGraph() {
@@ -404,11 +403,63 @@ function renderOnGraph() {
   const list    = document.getElementById('on-graph-list');
   const count   = document.getElementById('on-graph-count');
   if (!section || !list) return;
-  const items = visibleGraphItems();
-  section.toggleAttribute('hidden', items.length === 0);
-  count.textContent = items.length ? `(${items.length})` : '';
+
+  const { groups, standalone, totalCompanies } = visibleGraphGroups();
+  if (!totalCompanies) {
+    section.toggleAttribute('hidden', true);
+    count.textContent = '';
+    list.innerHTML = '';
+    return;
+  }
+  section.toggleAttribute('hidden', false);
+
+  // "Full" tracks = every member is on graph (uses isItemOnGraph(track)).
+  let fullTrackCount = 0;
+  for (const { track } of groups) {
+    if (isItemOnGraph(trackItem(track))) fullTrackCount++;
+  }
+  count.textContent = fullTrackCount > 0
+    ? `(${totalCompanies} · ${fullTrackCount} track${fullTrackCount === 1 ? '' : 's'})`
+    : `(${totalCompanies})`;
+
   list.innerHTML = '';
-  items.forEach(item => list.appendChild(renderRow(item, { actionMode: 'remove' })));
+  // Track-grouped: header row + always-expanded sub-list of ALL members
+  for (const { track } of groups) {
+    list.appendChild(renderOnGraphTrackGroup(track));
+  }
+  // Companies with no track shown bare
+  for (const node of standalone) {
+    list.appendChild(renderRow(
+      { ...nodeItem(node), badge: node.ticker },
+      { actionMode: 'remove' },
+    ));
+  }
+}
+
+// Track header row + permanently-expanded list of every member of that
+// track (not just the visible ones). Each member row uses the standard
+// renderRow so its +/- and ★ behave identically to the rest of the
+// sidebar. The sub-list never collapses — On Graph is the place where
+// removing items shouldn't bury other members behind a click.
+function renderOnGraphTrackGroup(track) {
+  const wrap = document.createElement('div');
+  wrap.className = 'sb-row';
+  // Track header — actionMode auto so it shows × when full, + when partial.
+  wrap.appendChild(renderRow(
+    { ...trackItem(track), color: track.color },
+    { actionMode: 'auto', expandable: false },
+  ));
+  const sub = document.createElement('div');
+  sub.className = 'sb-track-members open';   // always visible
+  const members = allNodes
+    .filter(n => (n.tracks || []).includes(track.id))
+    .sort((a, b) => (b.marketCap || 0) - (a.marketCap || 0));
+  members.forEach(n => sub.appendChild(renderRow(
+    { ...nodeItem(n), badge: n.ticker },
+    { /* default actionMode auto */ },
+  )));
+  wrap.appendChild(sub);
+  return wrap;
 }
 
 function clearAllPinned() {
