@@ -424,6 +424,59 @@ async function loadIssues() {
   });
 }
 
+// ── Export tab ───────────────────────────────────────────────────────────
+let EXPORT_CACHE = null;
+
+async function fetchExport() {
+  EXPORT_CACHE = await api('/admin/export/ticker-track');
+  const meta = document.getElementById('export-meta');
+  meta.textContent = `${EXPORT_CACHE.ticker_count} tickers`;
+  return EXPORT_CACHE;
+}
+
+async function previewExport() {
+  try {
+    const data = await fetchExport();
+    const pre = document.getElementById('export-preview');
+    pre.textContent = JSON.stringify(data.mapping, null, 2);
+    pre.style.display = '';
+  } catch (err) { toast(err.message, 'error'); }
+}
+
+async function downloadExport() {
+  try {
+    const data = await fetchExport();
+    const blob = new Blob([JSON.stringify(data.mapping, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const today = new Date().toISOString().slice(0, 10);
+    a.href = url;
+    a.download = `ticker_track_${today}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  } catch (err) { toast(err.message, 'error'); }
+}
+
+async function saveExportToS3() {
+  if (!confirm('Push a versioned backup to s3://ipickai-storage/backups/?')) return;
+  const meta = document.getElementById('export-meta');
+  meta.textContent = 'uploading…';
+  try {
+    const data = await api('/admin/export/ticker-track?upload_s3=1');
+    if (data.s3_error) {
+      toast(`S3 error: ${data.s3_error}`, 'error');
+      meta.textContent = `${data.ticker_count} tickers — upload failed`;
+    } else {
+      toast(`saved → ${data.s3_key}`);
+      meta.textContent = `${data.ticker_count} tickers — backed up to ${data.s3_key}`;
+    }
+    EXPORT_CACHE = data;
+  } catch (err) {
+    toast(err.message, 'error');
+    meta.textContent = '';
+  }
+}
+
 // ── Tabs ─────────────────────────────────────────────────────────────────
 function switchTab(name) {
   document.querySelectorAll('.admin-tabs .tab').forEach(t => {
@@ -434,6 +487,7 @@ function switchTab(name) {
   });
   if (name === 'issues') loadIssues();
   if (name === 'companies') loadCompanies();
+  if (name === 'export') { document.getElementById('export-meta').textContent = ''; document.getElementById('export-preview').style.display = 'none'; EXPORT_CACHE = null; }
 }
 
 // ── Boot ─────────────────────────────────────────────────────────────────
@@ -493,6 +547,9 @@ async function init() {
     if (e.key === 'Enter') loadEdges();
   });
   document.getElementById('new-edge-add').addEventListener('click', addEdge);
+  document.getElementById('export-preview-btn').addEventListener('click', previewExport);
+  document.getElementById('export-download-btn').addEventListener('click', downloadExport);
+  document.getElementById('export-s3-btn').addEventListener('click', saveExportToS3);
 
   await loadTracks();
 }
