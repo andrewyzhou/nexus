@@ -788,7 +788,35 @@ html[data-theme="light"] .skeleton-line {
 }
 
 .track-page .company-table td.col-trend { text-align: center; }
+.track-page .company-table td.col-range { text-align: center; width: 120px; }
+.track-page .company-table th.col-range { width: 120px; }
 .track-page .company-table td.col-pe { padding-right: 32px; }
+
+/* 52w range mini-bar */
+.track-page .range-bar {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 18px;
+  vertical-align: middle;
+}
+.track-page .range-track {
+  position: absolute;
+  left: 0; right: 0; top: 8px;
+  height: 2px;
+  background: var(--t-line-2);
+  border-radius: 1px;
+}
+.track-page .range-marker {
+  position: absolute;
+  top: 3px;
+  width: 2px;
+  height: 12px;
+  transform: translateX(-1px);
+  background: var(--t-emerald);
+  border-radius: 1px;
+}
+.track-page .range-bar.range-neg .range-marker { background: var(--t-red); }
 
 .track-page .ticker-cell {
   display: inline-flex;

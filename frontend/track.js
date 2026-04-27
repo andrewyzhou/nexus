@@ -383,10 +383,10 @@ function renderTable() {
           <th class="col-row-idx">#</th>
           <th>Ticker</th>
           <th>Company</th>
-          <th>Sector</th>
           <th class="col-num">Price</th>
           <th class="col-num">Δ 1D</th>
           <th class="col-trend">Trend</th>
+          <th class="col-range">52w Range</th>
           <th class="col-num">Mkt Cap</th>
           <th class="col-num col-pe">P/E</th>
         </tr>
@@ -405,13 +405,13 @@ function buildRow(c, i) {
     ? '—'
     : `${change >= 0 ? '+' : ''}${Number(change).toFixed(2)}%`;
 
-  const sector = c.sector
-    ? `<span class="sector-badge">${escapeHtml(c.sector)}</span>`
-    : '<span class="cell-pe-empty">—</span>';
-
   const sparklineCell = c.sparkline
     ? `<td class="col-trend">${buildSparkline(c.sparkline, change)}</td>`
     : `<td class="col-trend"><span class="cell-pe-empty">—</span></td>`;
+
+  const rangeCell = (c.week52_low != null && c.week52_high != null && c.price != null)
+    ? `<td class="col-range">${build52wRange(c.week52_low, c.week52_high, c.price, change)}</td>`
+    : `<td class="col-range"><span class="cell-pe-empty">—</span></td>`;
 
   const pe = c.pe_ratio != null
     ? `<span class="cell-pe">${fmtNum(c.pe_ratio, 1)}</span>`
@@ -427,13 +427,28 @@ function buildRow(c, i) {
         </a>
       </td>
       <td class="col-name">${escapeHtml(c.name || '')}</td>
-      <td>${sector}</td>
       <td class="col-num">${c.price != null ? `$${fmtNum(c.price)}` : '—'}</td>
       <td class="col-num ${changeClass}">${changeStr}</td>
       ${sparklineCell}
+      ${rangeCell}
       <td class="col-num">${fmtMoney(c.market_cap)}</td>
       <td class="col-num col-pe">${pe}</td>
     </tr>
+  `;
+}
+
+function build52wRange(lo, hi, price, change) {
+  const span = hi - lo;
+  if (!(span > 0)) return '<span class="cell-pe-empty">—</span>';
+  const pct = Math.max(0, Math.min(1, (price - lo) / span)) * 100;
+  const positive = change == null || change >= 0;
+  const cls = positive ? 'range-pos' : 'range-neg';
+  const tip = `52w low ${fmtMoney(lo)} → high ${fmtMoney(hi)} · current ${fmtMoney(price)}`;
+  return `
+    <div class="range-bar ${cls}" title="${escapeHtml(tip)}">
+      <div class="range-track"></div>
+      <div class="range-marker" style="left:${pct.toFixed(1)}%"></div>
+    </div>
   `;
 }
 

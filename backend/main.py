@@ -1021,8 +1021,10 @@ def get_track(slug):
         if md:
             if md.get("price") is not None:
                 c["price"] = md["price"]
-            c["change_pct"] = md.get("change_pct")
-            c["sparkline"] = md.get("sparkline")
+            c["change_pct"]  = md.get("change_pct")
+            c["sparkline"]   = md.get("sparkline")
+            c["week52_high"] = md.get("week52_high")
+            c["week52_low"]  = md.get("week52_low")
 
     return jsonify({
         "slug": slug,
@@ -1777,9 +1779,10 @@ def _fetch_track_market_data(tickers: tuple[str, ...]) -> dict[str, dict]:
         return hit[1]
     out: dict[str, dict] = {}
     try:
+        # 1y for the 52w range; 30d sparkline + 1d change derive from the same frame.
         df = yf.download(
             tickers=list(tickers),
-            period="1mo",
+            period="1y",
             interval="1d",
             group_by="ticker",
             progress=False,
@@ -1806,8 +1809,16 @@ def _fetch_track_market_data(tickers: tuple[str, ...]) -> dict[str, dict]:
                 prev = float(closes.iloc[-2])
                 if prev:
                     change_pct = (price - prev) / prev * 100
-            sparkline = [float(v) for v in closes.tolist()]
-            out[s] = {"price": price, "change_pct": change_pct, "sparkline": sparkline}
+            sparkline   = [float(v) for v in closes.tolist()[-30:]]
+            week52_high = float(closes.max())
+            week52_low  = float(closes.min())
+            out[s] = {
+                "price":       price,
+                "change_pct":  change_pct,
+                "sparkline":   sparkline,
+                "week52_high": week52_high,
+                "week52_low":  week52_low,
+            }
         except Exception:
             continue
     _track_mkt_cache[tickers] = (time.time(), out)
