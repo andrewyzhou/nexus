@@ -1492,6 +1492,32 @@ def admin_empty_tracks():
     return jsonify(rows)
 
 
+# ── /admin: database backup ──────────────────────────────────────────────
+
+@api.route("/admin/backup", methods=["POST"])
+def admin_backup():
+    """Dump the DB to JSON and upload to S3 under backups/."""
+    import subprocess
+    import sys
+    from pathlib import Path as _Path
+
+    upload = request.json.get("upload", False) if request.is_json else False
+
+    script = _Path(__file__).parent / "db" / "db_to_json.py"
+    cmd = [sys.executable, str(script)]
+    if upload:
+        cmd.append("--upload")
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+        output = (result.stdout + result.stderr).strip()
+        if result.returncode != 0:
+            return jsonify({"ok": False, "output": output}), 500
+        return jsonify({"ok": True, "output": output})
+    except subprocess.TimeoutExpired:
+        return jsonify({"ok": False, "output": "timed out after 120s"}), 504
+
+
 # ── /api/recent + /api/saved (per-user lists) ────────────────────────────
 # Both keyed by Firebase uid. When NEXUS_REQUIRE_AUTH is off, these endpoints
 # 204 / return [] so the frontend can call them safely in dev without crashing.

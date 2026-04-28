@@ -424,6 +424,29 @@ async function loadIssues() {
   });
 }
 
+// ── Backup tab ───────────────────────────────────────────────────────────
+async function runBackup(upload) {
+  const out = document.getElementById('backup-output');
+  out.textContent = upload ? 'Exporting and uploading to S3…' : 'Exporting…';
+  document.getElementById('backup-local').disabled = true;
+  document.getElementById('backup-s3').disabled   = true;
+  try {
+    const r = await api('/admin/backup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ upload }),
+    });
+    out.textContent = r.output || (r.ok ? 'Done.' : 'Failed.');
+    toast(r.ok ? 'backup complete' : 'backup failed', r.ok ? 'ok' : 'error');
+  } catch (err) {
+    out.textContent = err.message;
+    toast(err.message, 'error');
+  } finally {
+    document.getElementById('backup-local').disabled = false;
+    document.getElementById('backup-s3').disabled   = false;
+  }
+}
+
 // ── Tabs ─────────────────────────────────────────────────────────────────
 function switchTab(name) {
   document.querySelectorAll('.admin-tabs .tab').forEach(t => {
@@ -493,6 +516,8 @@ async function init() {
     if (e.key === 'Enter') loadEdges();
   });
   document.getElementById('new-edge-add').addEventListener('click', addEdge);
+  document.getElementById('backup-local').addEventListener('click', () => runBackup(false));
+  document.getElementById('backup-s3').addEventListener('click',    () => runBackup(true));
 
   await loadTracks();
 }
