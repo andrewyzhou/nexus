@@ -223,6 +223,33 @@ class NewsScraper:
         )
         return score >= 0.5
 
+    def _mentions_ticker_or_company(
+        self,
+        *,
+        ticker: str,
+        title: str = "",
+        summary: str = "",
+        text: str = "",
+        company_name: str | None = None,
+    ) -> bool:
+        combined = "\n".join(part for part in (title, summary, text) if part).lower()
+        ticker_norm = (ticker or "").strip().lower()
+        if ticker_norm and re.search(rf"\b{re.escape(ticker_norm)}\b", combined):
+            return True
+
+        if company_name:
+            aliases = [company_name.strip().lower()]
+            aliases.extend(re.findall(r"[a-zA-Z]{3,}", company_name.lower()))
+            seen: set[str] = set()
+            for alias in aliases:
+                normalized = alias.strip()
+                if not normalized or normalized in seen:
+                    continue
+                seen.add(normalized)
+                if normalized in combined:
+                    return True
+        return False
+
     def _to_article_record(
         self,
         *,
@@ -378,16 +405,15 @@ class NewsScraper:
                 return None
 
             text = await self.fetch_full_text(session, link)
-          
-            word_count = len(text.split()) if text else 0
-            if word_count > 100 and self._is_relevant(
-                text,
-                title or "",
-                ticker,
-                company_name,
-                source=publisher,
-                published_at=published_at,
+            summary_input = source_summary or self._summarize_text(text)
+            if self._mentions_ticker_or_company(
+                ticker=ticker,
+                title=title or "",
+                summary=summary_input,
+                text=text,
+                company_name=company_name,
             ):
+                score_text = text or summary_input or title or ""
                 return self._to_article_record(
                     ticker=ticker,
                     title=title or "",
@@ -395,9 +421,9 @@ class NewsScraper:
                     url=link,
                     text=text,
                     published_at=published_at,
-                    summary=source_summary or self._summarize_text(text),
+                    summary=summary_input,
                     score=self._relevance_score(
-                        text,
+                        score_text,
                         title or "",
                         ticker,
                         company_name,
@@ -412,11 +438,11 @@ class NewsScraper:
         
         valid_results = [r for r in results if isinstance(r, dict)]
         if not valid_results:
-            raise ValueError("No relevant text > 100 words could be extracted from yfinance links")
+            raise ValueError("No ticker-matching articles could be extracted from yfinance links")
 
         picked = self._select_top_candidates(valid_results, k=2)
         if not picked:
-            raise ValueError("No relevant text > 100 words could be extracted from yfinance links")
+            raise ValueError("No ticker-matching articles could be extracted from yfinance links")
         return picked
 
     @retry(
@@ -440,21 +466,21 @@ class NewsScraper:
                             title = entry.title
                             link = entry.link
                             text = await self.fetch_full_text(session, link)
-                            word_count = len(text.split()) if text else 0
                             published_at = self._coerce_datetime(
                                 getattr(entry, "published_parsed", None)
                                 or getattr(entry, "updated_parsed", None)
                                 or getattr(entry, "published", None)
                             )
-                            
-                            if word_count > 100 and self._is_relevant(
-                                text,
-                                title,
-                                ticker,
-                                company_name,
-                                source="myFT",
-                                published_at=published_at,
+                            summary_input = self._summarize_text(text)
+
+                            if self._mentions_ticker_or_company(
+                                ticker=ticker,
+                                title=title,
+                                summary=summary_input,
+                                text=text,
+                                company_name=company_name,
                             ):
+                                score_text = text or summary_input or title or ""
                                 return self._to_article_record(
                                     ticker=ticker,
                                     title=title or "",
@@ -462,9 +488,9 @@ class NewsScraper:
                                     url=link,
                                     text=text,
                                     published_at=published_at,
-                                    summary=self._summarize_text(text),
+                                    summary=summary_input,
                                     score=self._relevance_score(
-                                        text,
+                                        score_text,
                                         title,
                                         ticker,
                                         company_name,
@@ -500,21 +526,21 @@ class NewsScraper:
                             title = entry.title
                             link = entry.link
                             text = await self.fetch_full_text(session, link)
-                            word_count = len(text.split()) if text else 0
                             published_at = self._coerce_datetime(
                                 getattr(entry, "published_parsed", None)
                                 or getattr(entry, "updated_parsed", None)
                                 or getattr(entry, "published", None)
                             )
-                            
-                            if word_count > 100 and self._is_relevant(
-                                text,
-                                title,
-                                ticker,
-                                company_name,
-                                source="Google News",
-                                published_at=published_at,
+                            summary_input = self._summarize_text(text)
+
+                            if self._mentions_ticker_or_company(
+                                ticker=ticker,
+                                title=title,
+                                summary=summary_input,
+                                text=text,
+                                company_name=company_name,
                             ):
+                                score_text = text or summary_input or title or ""
                                 return self._to_article_record(
                                     ticker=ticker,
                                     title=title or "",
@@ -522,9 +548,9 @@ class NewsScraper:
                                     url=link,
                                     text=text,
                                     published_at=published_at,
-                                    summary=self._summarize_text(text),
+                                    summary=summary_input,
                                     score=self._relevance_score(
-                                        text,
+                                        score_text,
                                         title,
                                         ticker,
                                         company_name,
@@ -583,32 +609,27 @@ class NewsScraper:
                 title = item.get("headline", "")
                 source_summary = (item.get("summary") or "").strip()
                 text = await self.fetch_full_text(session, link)
-                word_count = len(text.split()) if text else 0
-                
-                if word_count < 100:
-                    text = item.get("summary", "")
-                    word_count = len(text.split()) if text else 0
-                    
+                text_for_summary = text or source_summary
                 published_at = self._coerce_datetime(item.get("datetime"))
 
-                if word_count > 100 and self._is_relevant(
-                    text,
-                    title,
-                    ticker,
-                    company_name,
-                    source="Finnhub API",
-                    published_at=published_at,
+                if self._mentions_ticker_or_company(
+                    ticker=ticker,
+                    title=title,
+                    summary=source_summary,
+                    text=text_for_summary,
+                    company_name=company_name,
                 ):
+                    score_text = text_for_summary or title or ""
                     return self._to_article_record(
                         ticker=ticker,
                         title=title or "",
                         source="Finnhub API",
                         url=link,
-                        text=text,
+                        text=text_for_summary,
                         published_at=published_at,
                         summary=source_summary or self._summarize_text(text),
                         score=self._relevance_score(
-                            text,
+                            score_text,
                             title,
                             ticker,
                             company_name,
@@ -623,11 +644,11 @@ class NewsScraper:
             valid_results = [r for r in results if isinstance(r, dict)]
             
             if not valid_results:
-                raise ValueError("No relevant text > 100 words extracted from Finnhub")
+                raise ValueError("No ticker-matching articles extracted from Finnhub")
 
             picked = self._select_top_candidates(valid_results, k=3)
             if not picked:
-                raise ValueError("No relevant text > 100 words extracted from Finnhub")
+                raise ValueError("No ticker-matching articles extracted from Finnhub")
             return picked
 
     async def scrape_all_articles(

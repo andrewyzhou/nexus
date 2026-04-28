@@ -77,6 +77,33 @@ class TestNewsSummarizer:
 
 
 class TestNewsScraper:
+    def test_mentions_ticker_or_company_allows_short_article(self):
+        scraper = NewsScraper(finnhub_api_key="key")
+
+        assert scraper._mentions_ticker_or_company(
+            ticker="TM",
+            title="TM shares rise after guidance update",
+            summary="Short note",
+            text="",
+            company_name="Toyota Motor Corporation",
+        )
+
+        assert scraper._mentions_ticker_or_company(
+            ticker="TM",
+            title="Toyota updates EV plans",
+            summary="Short note",
+            text="",
+            company_name="Toyota Motor Corporation",
+        )
+
+        assert not scraper._mentions_ticker_or_company(
+            ticker="TM",
+            title="Ford updates EV plans",
+            summary="Short note",
+            text="",
+            company_name="Toyota Motor Corporation",
+        )
+
     @pytest.mark.asyncio
     async def test_scrape_all_dedupes_urls(self):
         scraper = NewsScraper(finnhub_api_key="key")
@@ -94,3 +121,39 @@ class TestNewsScraper:
         assert result.count("URL:") == 2
         assert "https://example.com/a?utm_source=x\n" in result
         assert "https://example.com/b\n" in result
+
+    @pytest.mark.asyncio
+    async def test_fetch_finnhub_tier_accepts_short_summary_when_ticker_matches(self):
+        scraper = NewsScraper(finnhub_api_key="key")
+
+        class FakeResponse:
+            status = 200
+
+            async def json(self):
+                return [{
+                    "url": "https://example.com/tm",
+                    "headline": "TM rises on hybrid demand",
+                    "summary": "TM said demand remained strong.",
+                    "datetime": 1_713_657_600,
+                }]
+
+            async def __aenter__(self):
+                return self
+
+            async def __aexit__(self, exc_type, exc, tb):
+                return False
+
+        class FakeSession:
+            def get(self, *args, **kwargs):
+                return FakeResponse()
+
+        with patch.object(scraper, "fetch_full_text", new=AsyncMock(return_value="")):
+            result = await scraper.fetch_finnhub_tier(
+                FakeSession(),
+                "TM",
+                "Toyota Motor Corporation",
+            )
+
+        assert len(result) == 1
+        assert result[0]["title"] == "TM rises on hybrid demand"
+        assert result[0]["summary"] == "TM said demand remained strong."
