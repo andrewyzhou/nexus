@@ -9,10 +9,4 @@ python-dotenv
 beautifulsoup4
 trafilatura
 firebase-admin
-aiohttp
-pydantic
-pyyaml
-openai
-trafilatura
-feedparser
-tenacity
+anthropic

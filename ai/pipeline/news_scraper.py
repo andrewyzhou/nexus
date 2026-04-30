@@ -1,7 +1,6 @@
 import asyncio
 import os
 import re
-from dataclasses import asdict, dataclass
 from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qsl, quote_plus, urlencode, urlsplit, urlunsplit
 
@@ -20,18 +19,6 @@ try:
     import yfinance as yf
 except ImportError:
     yf = None
-
-
-@dataclass
-class ArticleRecord:
-    title: str
-    source: str
-    url: str
-    published: str | None
-    summary: str
-    text: str
-    score: float
-    ticker: str
 
 
 class NewsScraper:
@@ -223,106 +210,7 @@ class NewsScraper:
         )
         return score >= 0.5
 
-    def _mentions_ticker_or_company(
-        self,
-        *,
-        ticker: str,
-        title: str = "",
-        summary: str = "",
-        text: str = "",
-        company_name: str | None = None,
-    ) -> bool:
-        combined = "\n".join(part for part in (title, summary, text) if part).lower()
-        ticker_norm = (ticker or "").strip().lower()
-        if ticker_norm and re.search(rf"\b{re.escape(ticker_norm)}\b", combined):
-            return True
-
-        if company_name:
-            aliases = [company_name.strip().lower()]
-            aliases.extend(re.findall(r"[a-zA-Z]{3,}", company_name.lower()))
-            seen: set[str] = set()
-            for alias in aliases:
-                normalized = alias.strip()
-                if not normalized or normalized in seen:
-                    continue
-                seen.add(normalized)
-                if normalized in combined:
-                    return True
-        return False
-
-    def _to_article_record(
-        self,
-        *,
-        ticker: str,
-        title: str,
-        source: str,
-        url: str,
-        text: str,
-        score: float,
-        published_at: datetime | None = None,
-        summary: str = "",
-    ) -> dict[str, object]:
-        published = None
-        if published_at is not None:
-            dt = published_at if published_at.tzinfo else published_at.replace(tzinfo=timezone.utc)
-            published = dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
-        return asdict(
-            ArticleRecord(
-                title=title or "",
-                source=source or "Unknown",
-                url=(url or "").strip(),
-                published=published,
-                summary=(summary or "").strip(),
-                text=(text or "").strip(),
-                score=float(score or 0.0),
-                ticker=ticker.upper().strip(),
-            )
-        )
-
-    def _summarize_text(self, text: str, max_chars: int = 220) -> str:
-        words = (text or "").split()
-        if not words:
-            return ""
-        excerpt = " ".join(words[:35]).strip()
-        if len(excerpt) > max_chars:
-            excerpt = excerpt[: max_chars - 3].rstrip()
-        return f"{excerpt}..." if excerpt and len(words) > 35 else excerpt
-
-    def _serialize_article(self, article: dict[str, object]) -> str:
-        if isinstance(article, str):
-            return article
-        return (
-            f"Title: {article.get('title', '')}\n"
-            f"Source: {article.get('source', 'Unknown')}\n"
-            f"Published: {article.get('published', '')}\n"
-            f"Summary: {article.get('summary', '')}\n"
-            f"URL: {article.get('url', '')}\n"
-            f"Text: {article.get('text', '')}"
-        )
-
-    def serialize_articles(self, articles: list[dict[str, object]]) -> str:
-        return "\n\n---\n\n".join(self._serialize_article(article) for article in articles)
-
-    def _legacy_block_to_article(self, article: str, ticker: str) -> dict[str, object]:
-        def _match(pattern: str) -> str:
-            found = re.search(pattern, article, flags=re.MULTILINE)
-            return found.group(1).strip() if found else ""
-
-        text = _match(r"^Text:\s*(.*)$")
-        return self._to_article_record(
-            ticker=ticker,
-            title=_match(r"^Title:\s*(.*)$"),
-            source=_match(r"^Source:\s*(.*)$") or "Unknown",
-            url=_match(r"^URL:\s*(.*)$"),
-            text=text,
-            summary=self._summarize_text(text),
-            score=0.0,
-            published_at=self._coerce_datetime(_match(r"^Published:\s*(.*)$")),
-        )
-
-    def _select_top_candidates(
-        self, candidates: list[dict[str, object]], k: int = 2
-    ) -> list[dict[str, object]]:
+    def _select_top_candidates(self, candidates: list[dict[str, object]], k: int = 2) -> list[str]:
         if not candidates:
             return []
 
@@ -334,10 +222,21 @@ class NewsScraper:
                 continue
             prior = dedup.get(key)
             if prior is None or float(c.get("score", 0.0) or 0.0) > float(prior.get("score", 0.0) or 0.0):
+                c["url"] = url
                 dedup[key] = c
 
         ranked = sorted(dedup.values(), key=lambda x: float(x.get("score", 0.0) or 0.0), reverse=True)
-        return ranked[: max(1, k)]
+        out: list[str] = []
+        for row in ranked[: max(1, k)]:
+            out.append(
+                (
+                    f"Title: {row.get('title', '')}\n"
+                    f"Source: {row.get('source', 'Unknown')}\n"
+                    f"URL: {row.get('url', '')}\n"
+                    f"Text: {row.get('text', '')}"
+                )
+            )
+        return out
 
     async def fetch_full_text(self, session: aiohttp.ClientSession, url: str | None) -> str:
         """Use Trafilatura to extract body text from an article URL."""
@@ -365,7 +264,7 @@ class NewsScraper:
     )
     async def fetch_yfinance_tier(
         self, session: aiohttp.ClientSession, ticker: str, company_name: str | None = None
-    ) -> list[dict[str, object]]:
+    ) -> list[str]:
         """Tier 1: yfinance news ingestion."""
         if not yf:
             raise ValueError("yfinance not installed")
@@ -394,7 +293,6 @@ class NewsScraper:
             publisher = content.get("publisher")
             if not publisher and content.get("provider"):
                 publisher = content.get("provider", {}).get("displayName")
-            source_summary = (content.get("summary") or content.get("description") or "").strip()
             published_at = self._coerce_datetime(
                 content.get("providerPublishTime")
                 or content.get("pubDate")
@@ -405,32 +303,30 @@ class NewsScraper:
                 return None
 
             text = await self.fetch_full_text(session, link)
-            summary_input = source_summary or self._summarize_text(text)
-            if self._mentions_ticker_or_company(
-                ticker=ticker,
-                title=title or "",
-                summary=summary_input,
-                text=text,
-                company_name=company_name,
+          
+            word_count = len(text.split()) if text else 0
+            if word_count > 100 and self._is_relevant(
+                text,
+                title or "",
+                ticker,
+                company_name,
+                source=publisher,
+                published_at=published_at,
             ):
-                score_text = text or summary_input or title or ""
-                return self._to_article_record(
-                    ticker=ticker,
-                    title=title or "",
-                    source=publisher or "Yahoo Finance",
-                    url=link,
-                    text=text,
-                    published_at=published_at,
-                    summary=summary_input,
-                    score=self._relevance_score(
-                        score_text,
+                return {
+                    "title": title or "",
+                    "source": publisher or "Yahoo Finance",
+                    "url": link,
+                    "text": text,
+                    "score": self._relevance_score(
+                        text,
                         title or "",
                         ticker,
                         company_name,
                         source=publisher,
                         published_at=published_at,
                     ),
-                )
+                }
             return None
 
         tasks = [process_item(item) for item in news_items[:5]]
@@ -438,11 +334,11 @@ class NewsScraper:
         
         valid_results = [r for r in results if isinstance(r, dict)]
         if not valid_results:
-            raise ValueError("No ticker-matching articles could be extracted from yfinance links")
+            raise ValueError("No relevant text > 100 words could be extracted from yfinance links")
 
         picked = self._select_top_candidates(valid_results, k=2)
         if not picked:
-            raise ValueError("No ticker-matching articles could be extracted from yfinance links")
+            raise ValueError("No relevant text > 100 words could be extracted from yfinance links")
         return picked
 
     @retry(
@@ -451,9 +347,9 @@ class NewsScraper:
     )
     async def fetch_rss_tier(
         self, session: aiohttp.ClientSession, ticker: str, company_name: str | None = None
-    ) -> list[dict[str, object]]:
+    ) -> list[str]:
         """Tier 2: RSS feeds (myFT / Google News fallback)."""
-        results: list[dict[str, object]] = []
+        results: list[str] = []
 
         if self.myft_rss_url:
             try:
@@ -466,38 +362,35 @@ class NewsScraper:
                             title = entry.title
                             link = entry.link
                             text = await self.fetch_full_text(session, link)
+                            word_count = len(text.split()) if text else 0
                             published_at = self._coerce_datetime(
                                 getattr(entry, "published_parsed", None)
                                 or getattr(entry, "updated_parsed", None)
                                 or getattr(entry, "published", None)
                             )
-                            summary_input = self._summarize_text(text)
-
-                            if self._mentions_ticker_or_company(
-                                ticker=ticker,
-                                title=title,
-                                summary=summary_input,
-                                text=text,
-                                company_name=company_name,
+                            
+                            if word_count > 100 and self._is_relevant(
+                                text,
+                                title,
+                                ticker,
+                                company_name,
+                                source="myFT",
+                                published_at=published_at,
                             ):
-                                score_text = text or summary_input or title or ""
-                                return self._to_article_record(
-                                    ticker=ticker,
-                                    title=title or "",
-                                    source="myFT",
-                                    url=link,
-                                    text=text,
-                                    published_at=published_at,
-                                    summary=summary_input,
-                                    score=self._relevance_score(
-                                        score_text,
+                                return {
+                                    "title": title or "",
+                                    "source": "myFT",
+                                    "url": link,
+                                    "text": text,
+                                    "score": self._relevance_score(
+                                        text,
                                         title,
                                         ticker,
                                         company_name,
                                         source="myFT",
                                         published_at=published_at,
                                     ),
-                                )
+                                }
                             return None
                             
                         tasks = [process_entry(e) for e in feed.entries[:5]]
@@ -526,38 +419,35 @@ class NewsScraper:
                             title = entry.title
                             link = entry.link
                             text = await self.fetch_full_text(session, link)
+                            word_count = len(text.split()) if text else 0
                             published_at = self._coerce_datetime(
                                 getattr(entry, "published_parsed", None)
                                 or getattr(entry, "updated_parsed", None)
                                 or getattr(entry, "published", None)
                             )
-                            summary_input = self._summarize_text(text)
-
-                            if self._mentions_ticker_or_company(
-                                ticker=ticker,
-                                title=title,
-                                summary=summary_input,
-                                text=text,
-                                company_name=company_name,
+                            
+                            if word_count > 100 and self._is_relevant(
+                                text,
+                                title,
+                                ticker,
+                                company_name,
+                                source="Google News",
+                                published_at=published_at,
                             ):
-                                score_text = text or summary_input or title or ""
-                                return self._to_article_record(
-                                    ticker=ticker,
-                                    title=title or "",
-                                    source="Google News",
-                                    url=link,
-                                    text=text,
-                                    published_at=published_at,
-                                    summary=summary_input,
-                                    score=self._relevance_score(
-                                        score_text,
+                                return {
+                                    "title": title or "",
+                                    "source": "Google News",
+                                    "url": link,
+                                    "text": text,
+                                    "score": self._relevance_score(
+                                        text,
                                         title,
                                         ticker,
                                         company_name,
                                         source="Google News",
                                         published_at=published_at,
                                     ),
-                                )
+                                }
                             return None
                             
                         tasks = [process_entry(e) for e in feed.entries[:5]]
@@ -580,7 +470,7 @@ class NewsScraper:
     )
     async def fetch_finnhub_tier(
         self, session: aiohttp.ClientSession, ticker: str, company_name: str | None = None
-    ) -> list[dict[str, object]]:
+    ) -> list[str]:
         """Tier 3: Finnhub."""
         if not self.finnhub_api_key:
             raise ValueError("FINNHUB_API_KEY not set")
@@ -607,36 +497,37 @@ class NewsScraper:
             async def process_item(item):
                 link = item.get("url")
                 title = item.get("headline", "")
-                source_summary = (item.get("summary") or "").strip()
                 text = await self.fetch_full_text(session, link)
-                text_for_summary = text or source_summary
+                word_count = len(text.split()) if text else 0
+                
+                if word_count < 100:
+                    text = item.get("summary", "")
+                    word_count = len(text.split()) if text else 0
+                    
                 published_at = self._coerce_datetime(item.get("datetime"))
 
-                if self._mentions_ticker_or_company(
-                    ticker=ticker,
-                    title=title,
-                    summary=source_summary,
-                    text=text_for_summary,
-                    company_name=company_name,
+                if word_count > 100 and self._is_relevant(
+                    text,
+                    title,
+                    ticker,
+                    company_name,
+                    source="Finnhub API",
+                    published_at=published_at,
                 ):
-                    score_text = text_for_summary or title or ""
-                    return self._to_article_record(
-                        ticker=ticker,
-                        title=title or "",
-                        source="Finnhub API",
-                        url=link,
-                        text=text_for_summary,
-                        published_at=published_at,
-                        summary=source_summary or self._summarize_text(text),
-                        score=self._relevance_score(
-                            score_text,
+                    return {
+                        "title": title or "",
+                        "source": "Finnhub API",
+                        "url": link,
+                        "text": text,
+                        "score": self._relevance_score(
+                            text,
                             title,
                             ticker,
                             company_name,
                             source="Finnhub API",
                             published_at=published_at,
                         ),
-                    )
+                    }
                 return None
                 
             tasks = [process_item(item) for item in data[:20]]
@@ -644,21 +535,21 @@ class NewsScraper:
             valid_results = [r for r in results if isinstance(r, dict)]
             
             if not valid_results:
-                raise ValueError("No ticker-matching articles extracted from Finnhub")
+                raise ValueError("No relevant text > 100 words extracted from Finnhub")
 
             picked = self._select_top_candidates(valid_results, k=3)
             if not picked:
-                raise ValueError("No ticker-matching articles extracted from Finnhub")
+                raise ValueError("No relevant text > 100 words extracted from Finnhub")
             return picked
 
-    async def scrape_all_articles(
+    async def scrape_all(
         self, session: aiohttp.ClientSession, ticker: str, company_name: str | None = None
-    ) -> list[dict[str, object]]:
+    ) -> str:
         """Run the multi-tier scraper concurrently.
 
         Attempts all tiers simultaneously and collects one valid article from each source.
         """
-        final_articles: list[dict[str, object]] = []
+        final_articles: list[str] = []
 
         # Prioritize Finnhub first as requested.
         finnhub_result = await self.fetch_finnhub_tier(session, ticker, company_name)
@@ -676,22 +567,15 @@ class NewsScraper:
                 final_articles.extend(r)
 
         # Canonical URL dedupe across tiers.
-        unique_articles: list[dict[str, object]] = []
+        unique_articles: list[str] = []
         seen_urls: set[str] = set()
         for article in final_articles:
-            if isinstance(article, str):
-                article = self._legacy_block_to_article(article, ticker)
-            canonical = self._canonicalize_url(str(article.get("url", "") or ""))
+            match = re.search(r"^URL:\s*(.*)$", article, flags=re.MULTILINE)
+            canonical = self._canonicalize_url(match.group(1).strip() if match else "")
             if canonical and canonical in seen_urls:
                 continue
             if canonical:
                 seen_urls.add(canonical)
             unique_articles.append(article)
 
-        return unique_articles
-
-    async def scrape_all(
-        self, session: aiohttp.ClientSession, ticker: str, company_name: str | None = None
-    ) -> str:
-        articles = await self.scrape_all_articles(session, ticker, company_name)
-        return self.serialize_articles(articles)
+        return "\n\n---\n\n".join(unique_articles)
