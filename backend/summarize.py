@@ -16,8 +16,34 @@ news card on click (same scroll/highlight behavior as before).
 """
 from __future__ import annotations
 
+import json
 import os
 from typing import Any
+
+
+def _coerce_list(value):
+    """Defensive parse for tool-use array fields. Anthropic occasionally
+    returns array-typed input fields as a JSON-encoded string when the
+    output is under token pressure (verified in prod logs against a
+    `track:hyperscaler` call that hit max_tokens=1200). Iterating that
+    string yields characters, not dicts, so the validator silently
+    drops every "bullet" — user sees a headline with no bullets even
+    though Claude actually produced perfectly good content.
+
+    Returns the value as a list:
+      - already a list → returned as-is
+      - JSON-stringified array → parsed
+      - anything else (incl. parse failure) → []
+    """
+    if isinstance(value, list):
+        return value
+    if isinstance(value, str):
+        try:
+            decoded = json.loads(value)
+            return decoded if isinstance(decoded, list) else []
+        except Exception:
+            return []
+    return []
 
 
 _anthropic = None
@@ -201,25 +227,34 @@ def summarize_news(
             block.get("input") if isinstance(block, dict) else {}
         )
         headline = (inp or {}).get("headline", "") or ""
-        raw_bullets = (inp or {}).get("bullets", []) or []
+        raw_bullets = _coerce_list((inp or {}).get("bullets"))
+        # Lenient: require only `text`. Empty source_indices is fine —
+        # the frontend just shows no [N] pills on that bullet.
+        dropped_no_text = 0
         for b in raw_bullets:
             if not isinstance(b, dict):
                 continue
-            text = b.get("text", "") or ""
+            text = (b.get("text") or "").strip()
+            if not text:
+                dropped_no_text += 1
+                continue
             indices = [
-                int(x) for x in (b.get("source_indices") or [])
+                int(x) for x in _coerce_list(b.get("source_indices"))
                 if isinstance(x, (int, float)) and 1 <= int(x) <= len(articles)
             ]
-            if text and indices:
-                bullets.append({"text": text, "source_indices": indices})
+            bullets.append({"text": text, "source_indices": indices})
+        if raw_bullets and not bullets:
+            print(f"[summary] WARN dropped all {len(raw_bullets)} bullets "
+                  f"(text:{dropped_no_text}) — raw: {raw_bullets!r}")
 
     try:
         usage = msg.usage
         in_tok = getattr(usage, "input_tokens", 0)
         out_tok = getattr(usage, "output_tokens", 0)
         cost = (in_tok * 1 + out_tok * 5) / 1_000_000
+        stop = getattr(msg, "stop_reason", "?")
         print(f"[summary] ticker={ticker} articles={len(articles)} "
-              f"input={in_tok} output={out_tok} cost=${cost:.4f}")
+              f"input={in_tok} output={out_tok} stop={stop} cost=${cost:.4f}")
     except Exception:
         pass
 
@@ -397,7 +432,13 @@ def summarize_track_news(
 
     msg = client.messages.create(
         model=MODEL,
-        max_tokens=1200,
+        # 1200 was hitting the cap on rich tracks (7 constituents × 4-7
+        # bullets each with bold spans + multi-source citations). Capping
+        # forces Claude into edge behaviors — e.g. emitting `bullets` as
+        # a JSON-encoded string rather than a parsed array — which our
+        # parser silently dropped. 2000 gives ~30% headroom; cost delta
+        # at $5/Mtok output is fractions of a cent per cold call.
+        max_tokens=2000,
         tools=[TRACK_TOOL],
         tool_choice={"type": "tool", "name": "render_track_summary"},
         system=TRACK_SYSTEM_PROMPT,
@@ -415,33 +456,47 @@ def summarize_track_news(
             block.get("input") if isinstance(block, dict) else {}
         )
         headline = (inp or {}).get("headline", "") or ""
-        for b in (inp or {}).get("bullets", []) or []:
+        raw_bullets = _coerce_list((inp or {}).get("bullets"))
+        # Lenient validation: keep the bullet as long as it has text.
+        # source_indices can validly be empty (frontend just shows no [N]
+        # pills), and tickers can be empty too (no ticker prefix). The
+        # earlier strict AND-of-three filter dropped every bullet for the
+        # Medical Devices - Major track because Claude returned tickers
+        # outside the constituent set.
+        dropped_no_text = 0
+        for b in raw_bullets:
             if not isinstance(b, dict):
                 continue
-            text = b.get("text", "") or ""
+            text = (b.get("text") or "").strip()
+            if not text:
+                dropped_no_text += 1
+                continue
             indices = [
-                int(x) for x in (b.get("source_indices") or [])
+                int(x) for x in _coerce_list(b.get("source_indices"))
                 if isinstance(x, (int, float)) and 1 <= int(x) <= len(articles)
             ]
             tickers = [
-                t.upper() for t in (b.get("tickers") or [])
+                t.upper() for t in _coerce_list(b.get("tickers"))
                 if isinstance(t, str) and t.upper() in valid_tickers
             ][:3]
-            if text and indices and tickers:
-                bullets.append({
-                    "tickers": tickers,
-                    "text": text,
-                    "source_indices": indices,
-                })
+            bullets.append({
+                "tickers": tickers,
+                "text": text,
+                "source_indices": indices,
+            })
+        if raw_bullets and not bullets:
+            print(f"[track-summary] WARN dropped all {len(raw_bullets)} "
+                  f"bullets (text:{dropped_no_text}) — raw: {raw_bullets!r}")
 
     try:
         usage = msg.usage
         in_tok = getattr(usage, "input_tokens", 0)
         out_tok = getattr(usage, "output_tokens", 0)
         cost = (in_tok * 1 + out_tok * 5) / 1_000_000
+        stop = getattr(msg, "stop_reason", "?")
         print(f"[track-summary] track={track_name!r} constituents={len(constituents)} "
               f"articles={len(articles)} input={in_tok} output={out_tok} "
-              f"cost=${cost:.4f}")
+              f"stop={stop} cost=${cost:.4f}")
     except Exception:
         pass
 

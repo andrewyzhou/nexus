@@ -218,9 +218,15 @@
     _stampTimer = setInterval(() => setStatus(_lastData), 30 * 1000);
   }
 
+  // Ref-counted busy state. Auto-regen briefly nests two runSummary
+  // calls (outer's finally runs AFTER inner's start), so a plain bool
+  // flicker'd controls visible mid-handoff. Counter keeps controls
+  // hidden as long as any pending generation is in flight.
+  let _busyCount = 0;
   function setControlsBusy(busy) {
+    _busyCount = Math.max(0, _busyCount + (busy ? 1 : -1));
     const card = document.querySelector('.ai-summary-card');
-    if (card) card.classList.toggle('is-generating', !!busy);
+    if (card) card.classList.toggle('is-generating', _busyCount > 0);
   }
 
   // Default skeleton (company summary or track fast-path before any

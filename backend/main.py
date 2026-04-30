@@ -1492,93 +1492,30 @@ def admin_empty_tracks():
     return jsonify(rows)
 
 
-# ── /admin: DB → JSON export + S3 backup ─────────────────────────────────
+# ── /admin: database backup ──────────────────────────────────────────────
 
-@api.route("/admin/export/ticker-track")
-def admin_export_ticker_track():
-    """Dump the current ticker→track mapping from the DB.
+@api.route("/admin/backup", methods=["POST"])
+def admin_backup():
+    """Dump the DB to JSON and upload to S3 under backups/."""
+    import subprocess
+    import sys
+    from pathlib import Path as _Path
 
-    Query params:
-      upload_s3=1   also push to s3://ipickai-storage/backups/ with a
-                    versioned filename (ticker_track_YYYY-MM-DD_vN.json).
-    """
-    conn = get_conn()
-    cursor = conn.cursor()
-    cursor.execute("""
-        SELECT c.ticker, t.name
-        FROM company_tracks ct
-        JOIN companies c ON c.id = ct.company_id
-        JOIN investment_tracks t ON t.id = ct.track_id
-        ORDER BY c.ticker
-    """)
-    mapping = {row[0]: row[1] for row in cursor.fetchall()}
-    conn.close()
+    upload = request.json.get("upload", False) if request.is_json else False
 
-    upload_s3 = request.args.get("upload_s3", "").lower() in ("1", "true", "yes")
-    s3_key = None
-    s3_error = None
+    script = _Path(__file__).parent / "db" / "db_to_json.py"
+    cmd = [sys.executable, str(script)]
+    if upload:
+        cmd.append("--upload")
 
-    if upload_s3:
-        import shutil
-        import subprocess
-        import tempfile
-
-        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        bucket = "ipickai-storage"
-        # Find the next available version number for today
-        version = 1
-        try:
-            import boto3  # type: ignore
-            s3 = boto3.client("s3")
-            prefix = f"backups/ticker_track_{today}_v"
-            paginator = s3.get_paginator("list_objects_v2")
-            existing = []
-            for page in paginator.paginate(Bucket=bucket, Prefix=prefix):
-                existing.extend(o["Key"] for o in page.get("Contents", []))
-            if existing:
-                # Parse version numbers and take max + 1
-                vers = []
-                for key in existing:
-                    try:
-                        v = int(key.rsplit("_v", 1)[1].replace(".json", ""))
-                        vers.append(v)
-                    except (IndexError, ValueError):
-                        pass
-                if vers:
-                    version = max(vers) + 1
-        except Exception:
-            pass  # fallback to v1 if listing fails
-
-        s3_key = f"backups/ticker_track_{today}_v{version}.json"
-        json_bytes = json.dumps(mapping, indent=2, sort_keys=True).encode()
-
-        try:
-            with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as f:
-                f.write(json_bytes)
-                tmp_path = f.name
-
-            s3_uri = f"s3://{bucket}/{s3_key}"
-            if shutil.which("aws"):
-                subprocess.run(["aws", "s3", "cp", tmp_path, s3_uri], check=True)
-            else:
-                import boto3  # type: ignore  # noqa: F811
-                boto3.client("s3").upload_file(tmp_path, bucket, s3_key)
-        except Exception as e:
-            s3_error = str(e)
-            s3_key = None
-        finally:
-            import os as _os
-            try:
-                _os.unlink(tmp_path)
-            except Exception:
-                pass
-
-    return jsonify({
-        "ticker_count": len(mapping),
-        "mapping": mapping,
-        "s3_key": s3_key,
-        "s3_error": s3_error,
-    })
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+        output = (result.stdout + result.stderr).strip()
+        if result.returncode != 0:
+            return jsonify({"ok": False, "output": output}), 500
+        return jsonify({"ok": True, "output": output})
+    except subprocess.TimeoutExpired:
+        return jsonify({"ok": False, "output": "timed out after 120s"}), 504
 
 
 # ── /api/recent + /api/saved (per-user lists) ────────────────────────────

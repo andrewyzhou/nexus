@@ -327,3 +327,22 @@ html[data-theme="light"] .admin-toast.error { color: #991b1b; }
   opacity: 0.4;
   cursor: not-allowed;
 }
+
+.backup-actions {
+  display: flex;
+  gap: 10px;
+  padding: 16px 0 12px;
+}
+
+.backup-output {
+  font-family: monospace;
+  font-size: 13px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  padding: 14px;
+  border-radius: 6px;
+  background: var(--surface-2, rgba(255,255,255,.04));
+  min-height: 80px;
+  flex: 1;
+  overflow-y: auto;
+}

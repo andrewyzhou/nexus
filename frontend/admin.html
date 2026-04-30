@@ -39,7 +39,7 @@
       <button class="tab"        data-tab="companies">Companies <span id="count-companies" class="tab-count">–</span></button>
       <button class="tab"        data-tab="edges">Edges</button>
       <button class="tab"        data-tab="issues">Issues <span id="count-issues" class="tab-count">–</span></button>
-      <button class="tab"        data-tab="export">Export</button>
+      <button class="tab"        data-tab="backup">Backup</button>
     </div>
 
     <!-- ── Tracks tab ───────────────────────────────────────────────────── -->
@@ -97,21 +97,6 @@
         </select>
         <button id="new-edge-add" class="track-control-btn">Add</button>
       </div>
-    </section>
-
-    <!-- ── Export tab ───────────────────────────────────────────────────── -->
-    <section class="admin-tab-panel" data-tab="export" style="display:none">
-      <div class="admin-hero" style="padding-top:0">
-        <h3 style="margin-bottom:4px">Export DB → JSON</h3>
-        <p class="dim small">Dumps the current ticker → track mapping from the database. Use "Save to S3" to push a versioned backup to <code>s3://ipickai-storage/backups/</code>.</p>
-      </div>
-      <div class="admin-toolbar" style="gap:8px">
-        <button id="export-preview-btn" class="track-control-btn">Preview JSON</button>
-        <button id="export-download-btn" class="track-control-btn">Download JSON</button>
-        <button id="export-s3-btn" class="admin-btn">Save to S3</button>
-        <span id="export-meta" class="dim small"></span>
-      </div>
-      <pre id="export-preview" style="display:none;max-height:480px;overflow:auto;background:var(--surface2,#1a1a1a);padding:16px;border-radius:8px;font-size:12px;line-height:1.5"></pre>
     </section>
 
     <!-- ── Issues tab ───────────────────────────────────────────────────── -->

@@ -1543,14 +1543,21 @@ svg .node-label {
   transition: background var(--t-fast);
 }
 .sb-browse-head:hover, .sb-browse-leaf-head:hover { background: var(--bg-hover); }
-.sb-browse-head.collapsed .sb-trend-caret,
-.sb-browse-leaf-head.collapsed .sb-trend-caret { transform: rotate(-90deg); }
+.sb-browse-head:not(.collapsed) .sb-trend-caret,
+.sb-browse-leaf-head:not(.collapsed) .sb-trend-caret { transform: rotate(90deg); }
 
 .sb-browse-label { font-weight: 500; color: var(--text-muted); }
 .sb-browse-leaf-label {
   font-family: var(--font-mono);
   font-size: 11px;
+  font-weight: 400;
   color: var(--text-muted);
+}
+
+.sb-browse-body > .sb-browse-leaf > .sb-browse-leaf-head > .sb-browse-leaf-label {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
 }
 
 .sb-browse-body {
