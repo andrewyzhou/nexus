@@ -99,6 +99,18 @@
       </div>
     </section>
 
+    <!-- ── Backup tab ───────────────────────────────────────────────────── -->
+    <section class="admin-tab-panel" data-tab="backup" style="display:none">
+      <div class="admin-toolbar">
+        <span class="dim small">Export the full database to a versioned JSON snapshot.</span>
+      </div>
+      <div class="backup-actions">
+        <button id="backup-local" class="track-control-btn">Export (local file only)</button>
+        <button id="backup-s3" class="track-control-btn">Export + upload to S3</button>
+      </div>
+      <pre id="backup-output" class="backup-output dim small"></pre>
+    </section>
+
     <!-- ── Issues tab ───────────────────────────────────────────────────── -->
     <section class="admin-tab-panel" data-tab="issues" style="display:none">
       <div class="issues-columns">
